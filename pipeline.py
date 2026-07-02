@@ -1,0 +1,194 @@
+#!/usr/bin/env python
+"""
+Silver Pulse main pipeline: collect → score → generate
+Phase 1: Uses pre-collected data and AI scoring.
+"""
+import json
+import os
+import sys
+from datetime import datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from config import DATA_DIR, OUTPUT_DIR
+from scorer import build_scoring_prompt, compute_final_score, classify_score, save_scored
+
+# === Pre-collected articles from confirmed sources (June 24 - July 1, 2026) ===
+# These are manually extracted from WebFetch results for the MVP.
+INITIAL_ARTICLES = [
+    # === Home Health Care News ===
+    {
+        "title": "Hera Raises $27M To Bring its Senior Care 'Coordination Layer' To 25+ States",
+        "summary": "Hera, a senior care coordination platform, has raised $27 million to expand its 'coordination layer' that connects various care providers and services for older adults across more than 25 U.S. states. The platform aims to streamline communication between home health agencies, caregivers, and families.",
+        "url": "https://homehealthcarenews.com/2026/06/hera-raises-27m-to-bring-its-senior-care-coordination-layer-to-25-states/",
+        "source": "Home Health Care News",
+        "date": "2026-06-26",
+    },
+    {
+        "title": "DAI To Acquire 24 Home Health Agencies From HCA, 'Doubling Down' On Care In The Home",
+        "summary": "Deaconess Associations Incorporated (DAI) has agreed to acquire 31 home health and hospice agencies from HCA Healthcare across 8 states. The deal is part of DAI's strategic push to double down on home health amid growing demand for aging-in-place services.",
+        "url": "https://homehealthcarenews.com/2026/06/dai-to-acquire-24-home-health-agencies-from-hca-doubling-down-on-care-in-the-home/",
+        "source": "Home Health Care News",
+        "date": "2026-06-24",
+    },
+    {
+        "title": "Humana To Divest Stake In Gentiva In $900M Deal",
+        "summary": "Humana has announced plans to sell its 40% stake in hospice, palliative and personal care provider Gentiva in a deal valued at approximately $900 million. The deal highlights the ongoing consolidation in the hospice and senior care sector.",
+        "url": "https://homehealthcarenews.com/2026/06/humana-to-divest-stake-in-gentiva-in-900m-deal/",
+        "source": "Home Health Care News",
+        "date": "2026-06-10",
+    },
+    {
+        "title": "Freedom Senior Services' CEO Aims To Make Company 'Aggressive' M&A Player After Acquisition",
+        "summary": "After being acquired by Gemspring Capital, Freedom Senior Services' new CEO Dr. Brian Holzer plans to make the company an aggressive M&A player while expanding service lines in senior home-based care.",
+        "url": "https://homehealthcarenews.com/2026/06/freedom-senior-services-ceo-aims-to-make-company-aggressive-ma-player-after-acquisition/",
+        "source": "Home Health Care News",
+        "date": "2026-06-15",
+    },
+    {
+        "title": "Lucent Health Group Buys Chambers Home Health & Hospice",
+        "summary": "Texas-based Lucent Health Group has acquired Chambers Home Health & Hospice, a regional platform serving thousands of patients across 20+ Texas counties. The acquisition strengthens Lucent's home-based senior care portfolio.",
+        "url": "https://homehealthcarenews.com/2026/06/lucent-health-group-buys-chambers-home-health-hospice/",
+        "source": "Home Health Care News",
+        "date": "2026-06-10",
+    },
+
+    # === McKnight's Senior Living ===
+    {
+        "title": "Kayne Anderson Real Estate to be acquired by Bridgepoint Group for about $1.4B",
+        "summary": "Kayne Anderson Real Estate, a major investor in senior housing and medical office properties, is being acquired by Bridgepoint Group for approximately $1.4 billion. The deal signals continued investor confidence in senior living real estate despite market headwinds.",
+        "url": "https://www.mcknightsseniorliving.com/news/kayne-anderson-real-estate-to-be-acquired-by-bridgepoint-group-for-about-1-4b/",
+        "source": "McKnight's Senior Living",
+        "date": "2026-06-30",
+    },
+    {
+        "title": "Selectis Health to be acquired by Black Pearl",
+        "summary": "Selectis Health, a senior living and care operator, is being acquired by Black Pearl, an investment firm focused on healthcare services. The acquisition will bring Selectis under new private ownership.",
+        "url": "https://www.mcknightsseniorliving.com/news/selectis-health-to-be-acquired-by-black-pearl/",
+        "source": "McKnight's Senior Living",
+        "date": "2026-06-28",
+    },
+    {
+        "title": "Capital Funding Group closes $318.8M in SNF financings across 2 transactions",
+        "summary": "Capital Funding Group has closed $318.8 million in skilled nursing facility (SNF) financings across two major transactions, demonstrating continued capital flow into senior care infrastructure.",
+        "url": "https://www.mcknightsseniorliving.com/news/capital-funding-group-closes-318-8m-in-snf-financings-across-2-transactions/",
+        "source": "McKnight's Senior Living",
+        "date": "2026-06-29",
+    },
+    {
+        "title": "New social health platform aims to offset isolation in senior living residents",
+        "summary": "Rendever has developed CommunityOS, a new social health platform connecting senior living residents with targeted, socially derived interventions to improve health and extend lifespans.",
+        "url": "https://www.mcknightsseniorliving.com/news/new-social-health-platform-aims-to-offset-isolation-in-senior-living-residents/",
+        "source": "McKnight's Senior Living",
+        "date": "2026-06-30",
+    },
+    {
+        "title": "Emotionally intelligent AI companions in elder care: Why LGBTQ+ residents raise the stakes",
+        "summary": "Guest column examining the role of emotionally intelligent AI companions in elder care, with a focus on the specific needs of LGBTQ+ older adults and how personalized AI can address diversity in aging populations.",
+        "url": "https://www.mcknightsseniorliving.com/home/columns/guest-columns/emotionally-intelligent-ai-companions-in-elder-care-why-lgbtq-residents-raise-the-stakes/",
+        "source": "McKnight's Senior Living",
+        "date": "2026-06-29",
+    },
+    {
+        "title": "Want to retain workers? Compensation, culture, flexibility top list in senior living",
+        "summary": "A new report highlights compensation, workplace culture, and schedule flexibility as the top factors for retaining workers in the senior living industry, addressing the sector's chronic staffing crisis.",
+        "url": "https://www.mcknightsseniorliving.com/news/want-to-retain-workers-compensation-culture-flexibility-top-list-in-senior-living/",
+        "source": "McKnight's Senior Living",
+        "date": "2026-06-28",
+    },
+
+    # === FierceHealthcare Funding Tracker (senior/aging filtered) ===
+    {
+        "title": "Sage raises $65M Series C for AI-powered senior living platform",
+        "summary": "Sage, an AI-driven platform for senior living and skilled nursing facilities, raised $65 million in Series C funding led by Goldman Sachs Alternatives with participation from IVP and Goldcrest. The platform claims $275 per resident monthly net operating income increase, 50% reduction in falls, and 50% faster response times. Total funding reaches $124M.",
+        "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+        "source": "FierceHealthcare",
+        "date": "2026-03-15",
+    },
+    {
+        "title": "Adaptive Innovations raises $50M for AI home health services",
+        "summary": "Adaptive Innovations, one of the largest home health care service providers in Texas, raised $50 million in Series A funding led by Felicis and Bain Capital Ventures, with Optum Ventures participating. The company uses an AI-native model to reduce costs and has completed over 100K visits since 2025 with 500+ referral partners.",
+        "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+        "source": "FierceHealthcare",
+        "date": "2026-06-20",
+    },
+    {
+        "title": "Enzo Health raises $20M for AI home health platform",
+        "summary": "Enzo Health, an AI-driven platform automating front-office, clinical operations, and back-office functions for home health and post-acute care, raised $20M Series A. The company achieved 40x revenue growth in 12 months. Total funding: $26M.",
+        "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+        "source": "FierceHealthcare",
+        "date": "2026-05-15",
+    },
+    {
+        "title": "Baba raises $6.5M for Medicare patient advocacy platform",
+        "summary": "Baba, a patient advocacy platform for Medicare-covered individuals, raised $6.5M in seed funding led by General Catalyst. The platform assigns dedicated human advocates to work with patients and caregivers, supporting 6000+ families with ongoing clinical research at Johns Hopkins.",
+        "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+        "source": "FierceHealthcare",
+        "date": "2026-02-15",
+    },
+    {
+        "title": "Solace Health raises $130M to match Medicare patients with advocates",
+        "summary": "Solace Health, a platform matching Medicare and Medicare Advantage patients with trained healthcare advocates, raised $130M Series C led by IVP. The company has a network of 2000+ advocates helping seniors navigate the complex U.S. healthcare system.",
+        "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
+        "source": "FierceHealthcare",
+        "date": "2026-02-15",
+    },
+
+    # === MobiHealthNews ===
+    {
+        "title": "Upside garners $20M for healthcare-focused housing stability platform, and more funding news",
+        "summary": "Funding roundup covering healthcare and housing stability investments including Tombot's $7M for a robotic puppy companion and NeuroBell's $5.5M for neonatal brain monitoring. The roundup highlights growing investment at the intersection of housing and health.",
+        "url": "https://www.mobihealthnews.com/news/upside-garners-20m-healthcare-focused-housing-stability-platform-and-more-funding-news",
+        "source": "MobiHealthNews",
+        "date": "2026-06-30",
+    },
+    {
+        "title": "Tombot scores $7 million for a health and wellness robotic puppy",
+        "summary": "Tombot, a company developing robotic animal companions for seniors with dementia and loneliness, raised $7 million. The robotic puppy provides comfort and engagement without the responsibilities of live pet ownership, targeting the growing market of dementia care technology.",
+        "url": "https://www.mobihealthnews.com/news/upside-garners-20m-healthcare-focused-housing-stability-platform-and-more-funding-news",
+        "source": "MobiHealthNews",
+        "date": "2026-06-30",
+    },
+    {
+        "title": "ChartSpan acquires Validic to expand remote care management platform",
+        "summary": "ChartSpan, a care management services company, has acquired Validic, a device-data infrastructure company. The combined entity will support remote patient monitoring and chronic care management, with significant implications for senior chronic disease management.",
+        "url": "https://www.mobihealthnews.com/news/chartspan-acquires-validic-expand-remote-care-management-platform/",
+        "source": "MobiHealthNews",
+        "date": "2026-06-22",
+    },
+    {
+        "title": "Cadence raises $100M, announces Duke Health and Texas Health Resources collaborations",
+        "summary": "Cadence, a remote patient monitoring company for patients with chronic conditions, raised $100M to enhance its AI agents and value-based care models. The company's expansion into major health systems signals growing demand for remote chronic care, particularly relevant for the aging population.",
+        "url": "https://www.mobihealthnews.com/news/cadence-raises-100m-announces-duke-health-and-texas-health-resources-collaborations/",
+        "source": "MobiHealthNews",
+        "date": "2026-06-23",
+    },
+
+    # === TheGerontechnologist (reference data) ===
+    {
+        "title": "2025 AgeTech Market Map: 300+ Companies, 60 New Startups, Nearly $700M in Funding",
+        "summary": "The 8th edition of the AgeTech Market Map reveals 300+ companies, 60 new startups, and nearly $700M in funding. Key growth sectors include aging-in-place tech, caregiver support, robotics, cognitive health, and longevity fintech. The report highlights that adults 60+ are the fastest-growing age group globally, with the longevity economy representing a multi-trillion dollar opportunity.",
+        "url": "https://thegerontechnologist.com/2025-agetech-market-map/",
+        "source": "TheGerontechnologist",
+        "date": "2025-06-01",
+    },
+]
+
+# Save initial articles
+def collect_initial():
+    articles = INITIAL_ARTICLES
+    out_file = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(articles, f, ensure_ascii=False, indent=2)
+    print(f"Collected {len(articles)} initial articles from 5 sources")
+    print(f"Saved to {out_file}")
+    return articles
+
+
+if __name__ == "__main__":
+    articles = collect_initial()
+    # Print scoring prompt for next step
+    prompt = build_scoring_prompt(articles)
+    print("\n" + "="*60)
+    print("SCORING PROMPT (send this to AI for evaluation)")
+    print("="*60)
+    print(prompt)

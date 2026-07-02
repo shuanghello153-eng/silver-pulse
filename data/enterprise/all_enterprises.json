@@ -1,0 +1,7741 @@
+[
+  {
+    "id": "ent_002",
+    "name": "Chapter",
+    "category": "保险科技",
+    "priority": "P0",
+    "funding": {
+      "latest_date": "2025-04",
+      "latest_amount": 75000000,
+      "latest_amount_display": "7500万美元D轮",
+      "latest_round": "Series D",
+      "total_amount": 184000000,
+      "total_amount_display": "1.84亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "数字健康初创公司，帮助老年人了解医疗保险方案。成立于2020年。",
+    "domestic_coverage": "微信渠道没有相关文章",
+    "suggestion": "已写",
+    "tags": [
+      "保险科技",
+      "Medicare",
+      "大额融资"
+    ]
+  },
+  {
+    "id": "ent_001",
+    "name": "Honor",
+    "category": "居家养老/护理平台",
+    "priority": "P0",
+    "funding": {
+      "latest_date": "2021-10",
+      "latest_amount": 70000000,
+      "latest_amount_display": "7000万美元E轮",
+      "latest_round": "Series E",
+      "total_amount": 625000000,
+      "total_amount_display": "6.25亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "养老网络技术平台，为护理员提供个性化福利，连接C端和护理员。被称为\"滴滴护工\"。",
+    "domestic_coverage": "AgeClub短视频《滴滴护工》10月发表，喜欢2300+；AgeClub文章8月发表，流量1000+",
+    "suggestion": "可以写。之前有写过Honor文章，有积累有素材。",
+    "tags": [
+      "居家养老",
+      "护理平台",
+      "大额融资"
+    ]
+  },
+  {
+    "id": "ent_003",
+    "name": "Inspiren",
+    "category": "智慧养老/AI",
+    "priority": "P0",
+    "funding": {
+      "latest_date": "2025-03",
+      "latest_amount": 35000000,
+      "latest_amount_display": "3500万美元A轮",
+      "latest_round": "Series A",
+      "currency": "USD"
+    },
+    "business_summary": "AI驱动的老年生活技术，用于监测和改善老年人生活质量。",
+    "domestic_coverage": "无",
+    "suggestion": "无国内文章，差异化空间大",
+    "tags": [
+      "智慧养老",
+      "AI",
+      "监测技术"
+    ]
+  },
+  {
+    "id": "ent_030",
+    "name": "Accompany Health",
+    "category": "初级保健/社会护理",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-01",
+      "latest_amount": 56000000,
+      "latest_amount_display": "5600万美元A轮",
+      "latest_round": "Series A",
+      "currency": "USD"
+    },
+    "business_summary": "为有复杂需求的低收入患者提供全天候虚拟和面对面初级、行为和社会护理服务。",
+    "domestic_coverage": null,
+    "suggestion": "初级保健+社会护理整合模式",
+    "tags": [
+      "初级保健",
+      "社会护理",
+      "低收入"
+    ]
+  },
+  {
+    "name": "AgeClub",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业媒体",
+    "subcategory": "",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业媒体"
+    ]
+  },
+  {
+    "id": "ent_004",
+    "name": "Ageless Innovation",
+    "category": "老年消费/陪伴",
+    "priority": "P1",
+    "funding": null,
+    "business_summary": "以Joy for All Companion Pets系列为起点，专注创造促进乐趣和陪伴的产品，降低护理成本并为老年人建立联系。",
+    "domestic_coverage": "AgeClub视频9月发表，喜欢208；联合创始人采访2025.11.05",
+    "suggestion": "可以利用素材较快形成文章，产品有丰富的吸引人图片。",
+    "tags": [
+      "老年消费",
+      "陪伴宠物",
+      "有采访素材"
+    ]
+  },
+  {
+    "id": "ent_005",
+    "name": "Amedisys",
+    "category": "居家护理/收购",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-08",
+      "latest_amount": 3300000000,
+      "latest_amount_display": "33亿美元收购",
+      "latest_round": "Acquisition",
+      "currency": "USD"
+    },
+    "business_summary": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+    "domestic_coverage": "之前有写过文章，一万多字",
+    "suggestion": "可以利用之前素材要点+最新消息重新写",
+    "tags": [
+      "居家护理",
+      "收购",
+      "大额交易"
+    ]
+  },
+  {
+    "id": "ent_026",
+    "name": "Athulya Senior Care",
+    "category": "居家养老/连锁",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2026-06",
+      "latest_amount_display": "3000万美元",
+      "currency": "USD"
+    },
+    "business_summary": "印度养老护理连锁，提供从独立生活到专业护理的全链条服务。",
+    "domestic_coverage": null,
+    "suggestion": "印度养老产业加速资本化，中印家庭养老文化背景对比有价值",
+    "tags": [
+      "居家养老",
+      "连锁",
+      "印度",
+      "融资"
+    ]
+  },
+  {
+    "id": "ent_010",
+    "name": "Blooming Health",
+    "category": "社会护理/SDOH",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-04",
+      "latest_amount": 26000000,
+      "latest_amount_display": "2600万美元A轮",
+      "latest_round": "Series A",
+      "total_amount": 32500000,
+      "total_amount_display": "3250万美元",
+      "currency": "USD"
+    },
+    "business_summary": "21个州700+社区项目，连接医疗保健提供者和社会服务组织，为老年人提供交通、送餐、社交等支持。",
+    "domestic_coverage": null,
+    "suggestion": "SDOH在中国养老领域是新兴概念，有前瞻性",
+    "tags": [
+      "社会护理",
+      "SDOH",
+      "社区服务"
+    ]
+  },
+  {
+    "id": "ent_021",
+    "name": "CarePredict",
+    "category": "智慧养老/监测",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2023-07",
+      "latest_amount": 29000000,
+      "latest_amount_display": "2900万美元A轮",
+      "latest_round": "Series A",
+      "total_amount": 48600000,
+      "total_amount_display": "4860万美元",
+      "currency": "USD"
+    },
+    "business_summary": "AI驱动数字健康平台，自主识别日常活动和行为变化，检测健康问题早期迹象。住院率降低39%，跌倒率降低69%。",
+    "domestic_coverage": null,
+    "suggestion": "AI+行为监测，数据驱动健康管理",
+    "tags": [
+      "智慧养老",
+      "AI",
+      "健康监测",
+      "数据驱动"
+    ]
+  },
+  {
+    "id": "ent_018",
+    "name": "Cariloop",
+    "category": "护理员支持/雇主服务",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-04",
+      "latest_amount": 20000000,
+      "latest_amount_display": "2000万美元C轮",
+      "latest_round": "Series C",
+      "currency": "USD"
+    },
+    "business_summary": "让公司支持在职护理人员，提高员工福利和留任率。为宝洁、毕马威等提供服务，收入3年增长近300%。NPS超80。",
+    "domestic_coverage": "国内没有相关文章，AgeClub没有写",
+    "suggestion": "雇主+护理员支持模式在中国是空白",
+    "tags": [
+      "护理员支持",
+      "雇主服务",
+      "B2B"
+    ]
+  },
+  {
+    "id": "ent_016",
+    "name": "Cera Care",
+    "category": "居家护理/数字化",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2022-08",
+      "latest_amount": 320000000,
+      "latest_amount_display": "3.2亿美元（一半股权一半债务）",
+      "latest_round": "Unknown",
+      "total_amount": 401000000,
+      "total_amount_display": "4.01亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "欧洲最大数字优先家庭医疗保健服务提供商。90%收入来自NHS和地方政府合同。过去三年增长100倍。",
+    "domestic_coverage": null,
+    "suggestion": "欧洲最大老年护理融资，数字化运营模式值得研究",
+    "tags": [
+      "居家护理",
+      "数字化",
+      "欧洲",
+      "大额融资"
+    ]
+  },
+  {
+    "id": "ent_008",
+    "name": "Empathy",
+    "category": "临终关怀",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-05",
+      "latest_amount": 72000000,
+      "latest_amount_display": "7200万美元C轮",
+      "latest_round": "Series C",
+      "total_amount": 162000000,
+      "total_amount_display": "1.62亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "为失去亲人的家庭提供全面支持，包括悲伤辅导、遗产规划、行政事务处理等。",
+    "domestic_coverage": "AgeClub去年写过，流量2.3k",
+    "suggestion": "临终关怀+数字化，中国安宁疗护试点可参照",
+    "tags": [
+      "临终关怀",
+      "数字化",
+      "大额融资"
+    ]
+  },
+  {
+    "id": "ent_015",
+    "name": "ForSight Robotics",
+    "category": "机器人/医疗",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-06",
+      "latest_amount": 125000000,
+      "latest_amount_display": "1.25亿美元B轮",
+      "latest_round": "Series B",
+      "total_amount": 195000000,
+      "total_amount_display": "1.95亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "机器人白内障手术创新。半数美国人在80岁患白内障，三分之一在60岁以下就患病。",
+    "domestic_coverage": null,
+    "suggestion": "机器人+老年眼科，大额融资值得关注",
+    "tags": [
+      "机器人",
+      "眼科",
+      "大额融资"
+    ]
+  },
+  {
+    "id": "ent_017",
+    "name": "Habitat Health",
+    "category": "PACE全包护理",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-09",
+      "latest_amount": 50000000,
+      "latest_amount_display": "5000万美元",
+      "latest_round": "Unknown",
+      "currency": "USD"
+    },
+    "business_summary": "构建技术平台使医疗保健提供者解决健康社会决定因素。参与PACE计划，帮助老年人管理健康并在家庭和社区保持独立。",
+    "domestic_coverage": "微信近期无热点文章",
+    "suggestion": "PACE合集选题，配合IntusCare/One Senior Care/MyPlace Health",
+    "tags": [
+      "PACE",
+      "SDOH",
+      "技术平台"
+    ]
+  },
+  {
+    "id": "ent_027",
+    "name": "Hinge Health",
+    "category": "数字疗法/MSK",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-03",
+      "latest_amount_display": "IPO",
+      "latest_round": "IPO",
+      "currency": "USD"
+    },
+    "business_summary": "数字MSK（肌肉骨骼）护理，虚拟/面对面肌肉骨骼护理。股票代码HNGE。",
+    "domestic_coverage": "国内已经有一些文章",
+    "suggestion": "IPO上市公司，可写年报分析",
+    "tags": [
+      "数字疗法",
+      "IPO",
+      "MSK"
+    ]
+  },
+  {
+    "id": "ent_012",
+    "name": "Homethrive",
+    "category": "护理员支持",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2022-05",
+      "latest_amount": 20000000,
+      "latest_amount_display": "2000万美元B轮",
+      "latest_round": "Series B",
+      "total_amount": 38000000,
+      "total_amount_display": "3800万美元",
+      "currency": "USD"
+    },
+    "business_summary": "对护理员的情感、专业、工作、福利等方面提供支持。客户来自健康计划、企业、个人。成立于2018年。",
+    "domestic_coverage": "微信（含AgeClub）没有相关文章",
+    "suggestion": "护理员支持在中国是空白领域",
+    "tags": [
+      "护理员支持",
+      "数字化",
+      "雇主服务"
+    ]
+  },
+  {
+    "id": "ent_009",
+    "name": "IXI",
+    "category": "老年消费/科技",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-04",
+      "latest_amount": 36500000,
+      "latest_amount_display": "3650万美元",
+      "latest_round": "Unknown",
+      "currency": "USD"
+    },
+    "business_summary": "世界上第一款自动对焦眼镜，根据佩戴者老花眼自动调节度数。亚马逊等投资。",
+    "domestic_coverage": null,
+    "suggestion": "老花眼是刚需市场，产品有差异化",
+    "tags": [
+      "老年消费",
+      "可穿戴",
+      "老花眼"
+    ]
+  },
+  {
+    "id": "ent_011",
+    "name": "IntusCare",
+    "category": "PACE全包护理",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-01",
+      "latest_amount": 11500000,
+      "latest_amount_display": "1150万美元",
+      "latest_round": "Unknown",
+      "total_amount": 27000000,
+      "total_amount_display": "2700万美元",
+      "currency": "USD"
+    },
+    "business_summary": "老年护理预测分析解决方案提供商，改善有复杂需求老年人的治疗结果。为PACE计划提供数字化平台。",
+    "domestic_coverage": "微信近期无热点文章",
+    "suggestion": "PACE在中国可参照，数字化平台有差异化",
+    "tags": [
+      "PACE",
+      "数字化平台",
+      "预测分析"
+    ]
+  },
+  {
+    "id": "ent_022",
+    "name": "Papa",
+    "category": "社交陪伴/上门服务",
+    "priority": "P1",
+    "funding": null,
+    "business_summary": "技术平台，让大学和护理专业学生帮助老年人解决交通、家务等。现也与辅助生活社区合作，提供远程医疗服务。",
+    "domestic_coverage": null,
+    "suggestion": "社交陪伴+上门服务，年轻人帮助老年人模式",
+    "tags": [
+      "社交陪伴",
+      "上门服务",
+      "代际互助"
+    ]
+  },
+  {
+    "id": "ent_013",
+    "name": "Rippl Care",
+    "category": "认知症/心理健康",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-10",
+      "latest_amount": 23000000,
+      "latest_amount_display": "2300万美元",
+      "latest_round": "Unknown",
+      "currency": "USD"
+    },
+    "business_summary": "痴呆症心理健康服务提供商。",
+    "domestic_coverage": null,
+    "suggestion": "痴呆症+心理健康交叉领域",
+    "tags": [
+      "认知症",
+      "心理健康",
+      "服务"
+    ]
+  },
+  {
+    "name": "SageWell",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "金融理财",
+    "subcategory": "",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "金融理财"
+    ]
+  },
+  {
+    "id": "ent_020",
+    "name": "Seen Health",
+    "category": "PACE全包护理",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-11",
+      "latest_amount": 22000000,
+      "latest_amount_display": "2200万美元",
+      "latest_round": "Unknown",
+      "currency": "USD"
+    },
+    "business_summary": "PACE计划，为享受Medicare/Medicaid的慢性病老年人提供全面医疗和社会支持。参考上市公司Innovage。",
+    "domestic_coverage": "微信近期无热点文章",
+    "suggestion": "PACE合集选题",
+    "tags": [
+      "PACE",
+      "数字化",
+      "Medicare"
+    ]
+  },
+  {
+    "id": "ent_024",
+    "name": "Silvernest",
+    "category": "养老住房/跨代合住",
+    "priority": "P1",
+    "funding": null,
+    "business_summary": "帮助空巢老人将房间出租给学生和专业人士，跨代合住缓解孤独并提供技术支持。",
+    "domestic_coverage": null,
+    "suggestion": "跨代合住在中国大城市有市场潜力",
+    "tags": [
+      "养老住房",
+      "跨代合住",
+      "社交"
+    ]
+  },
+  {
+    "id": "ent_007",
+    "name": "Sprinter Health",
+    "category": "上门移动医疗",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-05",
+      "latest_amount": 55000000,
+      "latest_amount_display": "5500万美元B轮",
+      "latest_round": "Series B",
+      "total_amount": 125000000,
+      "total_amount_display": "1.25亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "提供上门移动医疗服务（抽血、生命体征、医疗测试），主要支付方Medicare/Medicaid。",
+    "domestic_coverage": null,
+    "suggestion": "上门医疗对中国基层医疗有参照价值",
+    "tags": [
+      "上门医疗",
+      "Medicare",
+      "移动医疗"
+    ]
+  },
+  {
+    "id": "ent_028",
+    "name": "Sword Health",
+    "category": "数字疗法/MSK",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-06",
+      "latest_amount": 130000000,
+      "latest_amount_display": "1.3亿美元E轮",
+      "latest_round": "Series E",
+      "total_amount": 340000000,
+      "total_amount_display": "3.4亿美元",
+      "currency": "USD"
+    },
+    "business_summary": "全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女性骨盆健康。运用AI。",
+    "domestic_coverage": null,
+    "suggestion": "AI+MSK数字疗法，大额融资",
+    "tags": [
+      "数字疗法",
+      "AI",
+      "MSK",
+      "大额融资"
+    ]
+  },
+  {
+    "id": "ent_006",
+    "name": "Tombot",
+    "category": "认知症/机器人",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-06",
+      "latest_amount": 6100000,
+      "latest_amount_display": "610万美元",
+      "latest_round": "Unknown",
+      "currency": "USD"
+    },
+    "business_summary": "加利福尼亚机器人公司，生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。",
+    "domestic_coverage": null,
+    "suggestion": "痴呆症+机器人陪伴，有情感共鸣",
+    "tags": [
+      "认知症",
+      "机器人",
+      "陪伴"
+    ]
+  },
+  {
+    "id": "ent_023",
+    "name": "True Link Financial",
+    "category": "金融理财/防欺诈",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2020-07",
+      "latest_amount": 35000000,
+      "latest_amount_display": "3500万美元",
+      "latest_round": "Unknown",
+      "total_amount": 68300000,
+      "total_amount_display": "6830万美元",
+      "currency": "USD"
+    },
+    "business_summary": "为老年人和残疾人管理资金、防止金融欺诈。管理资产超10亿美元，服务家庭超25万。",
+    "domestic_coverage": null,
+    "suggestion": "老年金融安全在中国是空白领域",
+    "tags": [
+      "金融理财",
+      "防欺诈",
+      "老年人财产安全"
+    ]
+  },
+  {
+    "id": "ent_029",
+    "name": "Vesta Healthcare",
+    "category": "居家护理/数据驱动",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2024-09",
+      "latest_amount": 65000000,
+      "latest_amount_display": "6500万美元",
+      "latest_round": "Unknown",
+      "total_amount_display": "累计5180万美元（SEC数据）",
+      "currency": "USD"
+    },
+    "business_summary": "让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。",
+    "domestic_coverage": null,
+    "suggestion": "数据驱动居家护理，信息共享模式值得研究",
+    "tags": [
+      "居家护理",
+      "数据驱动",
+      "信息共享"
+    ]
+  },
+  {
+    "id": "ent_014",
+    "name": "Vytalize Health",
+    "category": "居家护理/价值医疗",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-07",
+      "latest_amount": 55000000,
+      "latest_amount_display": "5500万美元",
+      "latest_round": "Unknown",
+      "total_amount_display": "总融资上亿",
+      "currency": "USD"
+    },
+    "business_summary": "居家护理+价值医疗模式，为Medicare Advantage人群提供服务。",
+    "domestic_coverage": "已写！流量比去年高",
+    "suggestion": "已写，可更新",
+    "tags": [
+      "居家护理",
+      "价值医疗",
+      "Medicare"
+    ]
+  },
+  {
+    "id": "ent_019",
+    "name": "Wellthy",
+    "category": "护理员支持/数字化",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2023-05",
+      "latest_amount": 25000000,
+      "latest_amount_display": "2500万美元",
+      "latest_round": "Unknown",
+      "total_amount": 60000000,
+      "total_amount_display": "6000万美元",
+      "currency": "USD"
+    },
+    "business_summary": "技术驱动，数百名全职护理专家，为员工提供从出生到丧亲的护理需求支持。成立于2014年。",
+    "domestic_coverage": "AgeClub写过一篇文章",
+    "suggestion": "护理员支持+雇主模式",
+    "tags": [
+      "护理员支持",
+      "数字化",
+      "雇主服务"
+    ]
+  },
+  {
+    "name": "乐湾",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智慧养老软件",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智慧养老软件"
+    ]
+  },
+  {
+    "name": "优享陪诊",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "陪诊服务",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "陪诊服务"
+    ]
+  },
+  {
+    "name": "全民K歌",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "社交平台",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "社交平台"
+    ]
+  },
+  {
+    "id": "ent_025",
+    "name": "共比邻",
+    "category": "老年旅游",
+    "priority": "P1",
+    "funding": {
+      "latest_date": "2025-07",
+      "latest_amount_display": "上亿融资",
+      "currency": "CNY"
+    },
+    "business_summary": "老年旅游平台，有公众号和小程序。",
+    "domestic_coverage": "网上有很多文章和采访",
+    "suggestion": "可以写，需要花时间搜集资料",
+    "tags": [
+      "老年旅游",
+      "中国企业",
+      "大额融资"
+    ]
+  },
+  {
+    "name": "兴趣岛",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年教育",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年教育"
+    ]
+  },
+  {
+    "name": "医家通",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智慧养老软件",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智慧养老软件"
+    ]
+  },
+  {
+    "name": "南京新百",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "上市公司",
+    "subcategory": "",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "上市公司"
+    ]
+  },
+  {
+    "name": "博斯腾",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症早筛",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症早筛"
+    ]
+  },
+  {
+    "name": "可靠股份",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "上市公司",
+    "subcategory": "",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "上市公司"
+    ]
+  },
+  {
+    "name": "善诊",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "陪诊服务",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "陪诊服务"
+    ]
+  },
+  {
+    "name": "奕然康复",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "外骨骼",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "外骨骼"
+    ]
+  },
+  {
+    "name": "安护通",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "陪诊服务",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "陪诊服务"
+    ]
+  },
+  {
+    "name": "安杰莱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "外骨骼",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "外骨骼"
+    ]
+  },
+  {
+    "name": "小年糕",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "社交平台",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "社交平台"
+    ]
+  },
+  {
+    "name": "小橙",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "长护险",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "长护险"
+    ]
+  },
+  {
+    "name": "彩视",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "社交平台",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "社交平台"
+    ]
+  },
+  {
+    "name": "心智青",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年教育",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年教育"
+    ]
+  },
+  {
+    "name": "悦心健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "上市公司",
+    "subcategory": "",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "上市公司"
+    ]
+  },
+  {
+    "name": "抚理健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "长护险",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "长护险"
+    ]
+  },
+  {
+    "name": "易得康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "长护险",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "长护险"
+    ]
+  },
+  {
+    "name": "橙医健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "陪诊服务",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "陪诊服务"
+    ]
+  },
+  {
+    "name": "清澜技术",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "摔倒监测",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "摔倒监测"
+    ]
+  },
+  {
+    "name": "清雷",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "摔倒监测",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "摔倒监测"
+    ]
+  },
+  {
+    "name": "点可",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "摔倒监测",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "摔倒监测"
+    ]
+  },
+  {
+    "name": "特霍芬",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症早筛",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症早筛"
+    ]
+  },
+  {
+    "name": "百芝龙",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "摔倒监测",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "摔倒监测"
+    ]
+  },
+  {
+    "name": "福寿康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "长护险",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "长护险"
+    ]
+  },
+  {
+    "name": "程天",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "外骨骼",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "外骨骼"
+    ]
+  },
+  {
+    "name": "红松学堂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年教育",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年教育"
+    ]
+  },
+  {
+    "name": "织生科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症早筛",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症早筛"
+    ]
+  },
+  {
+    "name": "美好盛年",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年教育",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年教育"
+    ]
+  },
+  {
+    "name": "美篇",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "社交平台",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "社交平台"
+    ]
+  },
+  {
+    "name": "苗米",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "摔倒监测",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "摔倒监测"
+    ]
+  },
+  {
+    "name": "迈步",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "外骨骼",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "外骨骼"
+    ]
+  },
+  {
+    "name": "远也",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "外骨骼",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "外骨骼"
+    ]
+  },
+  {
+    "name": "量子之歌",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年教育",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年教育"
+    ]
+  },
+  {
+    "name": "闲趣岛",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "社交平台",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "社交平台"
+    ]
+  },
+  {
+    "name": "集思鸣智",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症早筛",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症早筛"
+    ]
+  },
+  {
+    "name": "颐养通",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智慧养老软件",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智慧养老软件"
+    ]
+  },
+  {
+    "name": "颐家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "长护险",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "长护险"
+    ]
+  },
+  {
+    "name": "颐讯",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智慧养老软件",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智慧养老软件"
+    ]
+  },
+  {
+    "name": "鲸鱼陪诊",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "陪诊服务",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "陪诊服务"
+    ]
+  },
+  {
+    "name": "鹤灵医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症早筛",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症早筛"
+    ]
+  },
+  {
+    "name": "麦麦养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智慧养老软件",
+    "priority": "P1",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智慧养老软件"
+    ]
+  },
+  {
+    "name": "A Place for Mom",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "养老居住中介",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "养老居住中介"
+    ],
+    "description": "养老机构匹配咨询"
+  },
+  {
+    "name": "AARP Innovation Labs / AgeTech Collaborative",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "产业创新平台",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "产业创新平台"
+    ]
+  },
+  {
+    "name": "AID上海老博会",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业展会",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业展会"
+    ]
+  },
+  {
+    "name": "AgeTech Accelerator",
+    "name_cn": "英国",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "长寿科技加速器",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "梳理了上千家覆盖 36 个细分领域的长寿企业，划分成熟待整合、当前重点、未来空白三大类，是欧洲长寿赛道核心平台。",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "长寿科技加速器"
+    ]
+  },
+  {
+    "name": "Aging2.0 Collective",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "全球长寿创新网络",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "全球长寿创新网络"
+    ],
+    "life_stages": "覆盖 80 多个国家，入驻 2000 + 企业，120 位本地大使。"
+  },
+  {
+    "name": "Amava",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "终身学习、人生转型",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "终身学习",
+      "人生转型"
+    ],
+    "description": "虚拟终身学习社区",
+    "market_size": "对应市场规模约 5 万亿美元，覆盖持续学习、重塑、转型、复兴、副业创业、遗产阶段。"
+  },
+  {
+    "name": "Amazon",
+    "name_cn": "亚马逊",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "电商、智能语音",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "电商",
+      "智能语音"
+    ]
+  },
+  {
+    "name": "Apax Partners",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "私募股权",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "Alan Patricof 早年创立的私募机构，曾投资苹果、美国在线、Audible 等；2020 年以 9.5 亿美元收购老年日间照护机构 InnovAge。",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "私募股权"
+    ]
+  },
+  {
+    "name": "BAI资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "消费VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "消费VC"
+    ]
+  },
+  {
+    "name": "BMW",
+    "name_cn": "宝马",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "汽车制造",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "汽车制造"
+    ]
+  },
+  {
+    "name": "Bank of America",
+    "name_cn": "美国银行",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "综合金融服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "综合金融服务"
+    ]
+  },
+  {
+    "name": "Best Buy",
+    "name_cn": "百思买",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "零售、适老化科技",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "零售",
+      "适老化科技"
+    ]
+  },
+  {
+    "name": "Bold",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年在线健身、防跌倒",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年在线健身",
+      "防跌倒"
+    ],
+    "description": "定制化老年居家健身方案",
+    "life_stages": "覆盖健康优化到复兴阶段，对应市场规模 500 亿美元。"
+  },
+  {
+    "name": "Brookdale Senior Living",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "养老社区运营",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "养老社区运营"
+    ],
+    "description": "连锁养老社区"
+  },
+  {
+    "name": "CMEF",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业展会",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业展会"
+    ]
+  },
+  {
+    "name": "Cake",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "临终规划平台",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "临终规划平台"
+    ],
+    "description": "全场景临终规划与文档管理",
+    "life_stages": "覆盖临终全场景：葬礼安排、医疗决策人指定、法律文档存储、哀伤支持等。",
+    "business_model": "最初 To B 向金融机构、医疗支付方销售平台授权；2019 年增加 To C 模式，通过 SEO 获客，核心用户为女性，为自身或父母规划。",
+    "investors": "GoAhead Ventures、OCA Ventures、Pillar VC、Portfolia 等。",
+    "market_size": "对应市场规模超 1000 亿美元，覆盖家庭育儿到临终全阶段。"
+  },
+  {
+    "name": "Care.com",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "全品类照护平台",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "全品类照护平台"
+    ],
+    "description": "儿童照护、老年照护等全品类照护服务匹配"
+  },
+  {
+    "name": "CareAcademy",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "护工培训",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "护工培训"
+    ],
+    "description": "居家照护从业者职业培训"
+  },
+  {
+    "name": "CareLinx",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "居家照护匹配平台",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "居家照护匹配平台"
+    ],
+    "description": "护工与家庭匹配服务"
+  },
+  {
+    "name": "Carewell",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "照护用品电商与服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "照护用品电商与服务"
+    ],
+    "description": "家庭照护用品配送、照护知识教育"
+  },
+  {
+    "name": "Current Health",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "远程患者监测",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "远程患者监测"
+    ],
+    "description": "居家生命体征监测系统"
+  },
+  {
+    "name": "EE广州老博会",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业展会",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业展会"
+    ]
+  },
+  {
+    "name": "Encore.org",
+    "name_cn": "现名 CoGenerate",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "银发再就业、代际公益",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "银发再就业",
+      "代际公益"
+    ],
+    "description": "资深人才与非营利组织匹配、代际连接项目"
+  },
+  {
+    "name": "Everplans",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "临终财务与法律规划",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "临终财务与法律规划"
+    ],
+    "description": "提供遗嘱、预立医疗指示等临终规划工具"
+  },
+  {
+    "name": "Eversafe",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年金融防护",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年金融防护"
+    ],
+    "description": "老年金融诈骗监测与防护"
+  },
+  {
+    "name": "Facebook",
+    "name_cn": "Meta",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "科技、社交平台",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "科技",
+      "社交平台"
+    ]
+  },
+  {
+    "name": "Fidelity",
+    "name_cn": "富达投资",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "资产管理、退休规划",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "资产管理",
+      "退休规划"
+    ]
+  },
+  {
+    "name": "FreeWill",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "遗产规划、公益慈善",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "遗产规划",
+      "公益慈善"
+    ],
+    "description": "在线遗嘱订立、遗产规划工具",
+    "business_model": "用户免费使用，服务成本由合作的百家慈善机构承担，机构通过平台获得定向捐赠。"
+  },
+  {
+    "name": "Gather",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "直播学习、数字会员",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "直播学习",
+      "数字会员"
+    ],
+    "description": "机构合作的虚拟直播学习活动",
+    "life_stages": "覆盖转型到遗产阶段。"
+  },
+  {
+    "name": "GoGoGrandparent",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年出行服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年出行服务"
+    ],
+    "description": "无 App 叫车服务"
+  },
+  {
+    "name": "Golden",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年资金管理",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年资金管理"
+    ],
+    "description": "老年人资金安全管理服务"
+  },
+  {
+    "name": "GoodTrust",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "遗产与数字继承",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "遗产与数字继承"
+    ],
+    "description": "遗产规划、数字资产继承"
+  },
+  {
+    "name": "GreatCall",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年通讯与应急设备",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年通讯与应急设备"
+    ],
+    "description": "老人手机、一键呼叫可穿戴设备"
+  },
+  {
+    "name": "Greycroft Partners",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "风险投资",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "Alan Patricof 创立的头部 TMT 风投，在此基础上延伸出专注长寿赛道的 Primetime Partners。",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "风险投资"
+    ]
+  },
+  {
+    "name": "Hebrew Senior Life",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "非营利养老机构",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "非营利养老机构"
+    ],
+    "description": "养老社区与老年医疗服务"
+  },
+  {
+    "name": "Home Instead",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "居家照护服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "居家照护服务"
+    ],
+    "description": "居家护工服务网络"
+  },
+  {
+    "name": "Humana / Aetna / UnitedHealth / Cigna",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "健康保险",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "健康保险"
+    ]
+  },
+  {
+    "name": "ITH康养家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业媒体",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业媒体"
+    ]
+  },
+  {
+    "name": "Iris Healthcare",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "姑息治疗、临终规划",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "姑息治疗",
+      "临终规划"
+    ],
+    "description": "临终意愿规划与姑息治疗对接",
+    "market_size": "对应市场规模约 500 亿美元。"
+  },
+  {
+    "name": "J.P. Morgan",
+    "name_cn": "摩根大通",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "金融、雇主品牌",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "金融",
+      "雇主品牌"
+    ]
+  },
+  {
+    "name": "Johnson & Johnson",
+    "name_cn": "强生",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "医药健康、雇主品牌",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "医药健康",
+      "雇主品牌"
+    ]
+  },
+  {
+    "name": "Kaiser Permanente",
+    "name_cn": "凯撒医疗",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "整合医疗系统",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "整合医疗系统"
+    ]
+  },
+  {
+    "name": "Lively",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "互联健康服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "互联健康服务"
+    ],
+    "description": "居家养老健康安全平台"
+  },
+  {
+    "name": "Livongo",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "慢性病数字管理",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "慢性病数字管理"
+    ],
+    "description": "糖尿病数字化管理"
+  },
+  {
+    "name": "Lululemon",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "运动服饰",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "运动服饰"
+    ]
+  },
+  {
+    "name": "Lyft Health",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "医疗出行",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "医疗出行"
+    ],
+    "description": "医疗场景用车服务"
+  },
+  {
+    "name": "MIT AgeLab",
+    "name_cn": "麻省理工学院年龄实验室",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "适老化创新研究",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "适老化创新研究"
+    ]
+  },
+  {
+    "name": "Mayo Clinic",
+    "name_cn": "梅奥诊所",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "顶级医疗机构",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "顶级医疗机构"
+    ]
+  },
+  {
+    "name": "Medicare Advantage",
+    "name_cn": "联邦医疗保险优势计划",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "商业医保",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "商业医保"
+    ],
+    "life_stages": "覆盖美国超 1/3 的 Medicare 受益人。"
+  },
+  {
+    "name": "Mercer",
+    "name_cn": "美世咨询",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "人力资源咨询",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "人力资源咨询"
+    ]
+  },
+  {
+    "name": "Merrill Lynch",
+    "name_cn": "美林证券，美国银行旗下",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "财富管理、长寿金融规划",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "财富管理",
+      "长寿金融规划"
+    ],
+    "description": "面向全年龄段提供财富管理、退休规划服务",
+    "life_stages": "覆盖人生全 18 个阶段，对应市场规模约 7-8 万亿美元。"
+  },
+  {
+    "name": "Nesterly",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "代际住房匹配",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "代际住房匹配"
+    ],
+    "description": "老年房主与年轻室友匹配、背景调查"
+  },
+  {
+    "name": "Nike",
+    "name_cn": "耐克",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "运动服饰、鞋履、健身",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "运动服饰",
+      "鞋履",
+      "健身"
+    ],
+    "description": "运动鞋服、运动装备研发销售",
+    "market_size": "对应市场规模约 40 亿美元，覆盖人生重塑、复兴、健康优化阶段。"
+  },
+  {
+    "name": "NimbleRx",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "药品配送",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "药品配送"
+    ],
+    "description": "处方药品上门配送"
+  },
+  {
+    "name": "OKCS",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "染发剂",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "染发剂"
+    ]
+  },
+  {
+    "name": "OXO",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "厨房家居用品",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "厨房家居用品"
+    ],
+    "description": "人体工学厨房工具"
+  },
+  {
+    "name": "PillPack",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "线上药房",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "线上药房"
+    ],
+    "description": "按剂量分装的药品配送服务"
+  },
+  {
+    "name": "Pivotal Ventures",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "影响力投资与孵化",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "影响力投资与孵化"
+    ]
+  },
+  {
+    "name": "Primetime Partners",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "长寿专项风投",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "长寿专项风投"
+    ],
+    "investors": "投资方向：居家养老、退休财务、照护管理、长寿健康、老年消费体验。"
+  },
+  {
+    "name": "Prudential",
+    "name_cn": "保德信金融",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "保险、资产管理",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "保险",
+      "资产管理"
+    ]
+  },
+  {
+    "name": "ReBoot Accel",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "职业重启培训",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "职业重启培训"
+    ],
+    "description": "职业中断人群技能更新与求职支持"
+  },
+  {
+    "name": "Rendever",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "VR 老年娱乐",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "VR 老年娱乐"
+    ],
+    "description": "老年 VR 社交与云游览服务"
+  },
+  {
+    "name": "Road Scholar",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年教育旅行",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年教育旅行"
+    ],
+    "description": "面向中老年的教育性旅行"
+  },
+  {
+    "name": "SIC保利老博会",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业展会",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业展会"
+    ]
+  },
+  {
+    "name": "Samsung",
+    "name_cn": "三星",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "消费电子",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "消费电子"
+    ]
+  },
+  {
+    "name": "Seniorly",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "养老居住搜索平台",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "养老居住搜索平台"
+    ],
+    "description": "养老机构在线搜索与咨询"
+  },
+  {
+    "name": "Silver Bills",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "老年账单代付服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "老年账单代付服务"
+    ],
+    "description": "为老年人提供代付账单的金融辅助服务"
+  },
+  {
+    "name": "Silvur",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "退休金融科技",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "退休金融科技"
+    ],
+    "description": "退休财务规划工具"
+  },
+  {
+    "name": "Stanford Center on Longevity",
+    "name_cn": "斯坦福长寿研究中心",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "学术研究",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "学术研究"
+    ]
+  },
+  {
+    "name": "Techstars Future of Longevity Accelerator",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "创业加速器",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "创业加速器"
+    ]
+  },
+  {
+    "name": "Teladoc",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "远程医疗",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "远程医疗"
+    ],
+    "description": "全科远程问诊服务",
+    "market_size": "对应市场规模约 2500 亿美元。"
+  },
+  {
+    "name": "Tembo Health",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "专科远程医疗",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "专科远程医疗"
+    ],
+    "description": "老年专科远程医疗服务"
+  },
+  {
+    "name": "True Link",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "金融科技、老年金融防护",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "金融科技",
+      "老年金融防护"
+    ],
+    "description": "为老年人提供账单管理、限额支付卡等服务"
+  },
+  {
+    "name": "Uber Health",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "医疗出行",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "医疗出行"
+    ],
+    "description": "非紧急医疗接送服务"
+  },
+  {
+    "name": "UpsideHōM",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "养老居住服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "养老居住服务"
+    ],
+    "description": "带服务的老年公寓"
+  },
+  {
+    "name": "VTN",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线上健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线上健康食品"
+    ]
+  },
+  {
+    "name": "Village to Village Network",
+    "name_cn": "村庄网络",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "社区互助养老",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "社区互助养老"
+    ],
+    "description": "邻里互助养老社区运营"
+  },
+  {
+    "name": "Vynca",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "临终医疗规划",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "临终医疗规划"
+    ],
+    "description": "预立医疗指示数字化"
+  },
+  {
+    "name": "Warby Parker",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "眼镜零售、视光服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "眼镜零售",
+      "视光服务"
+    ],
+    "description": "平价眼镜线上线下零售",
+    "performance": "渐进镜片贡献近 30% 营收，2014-2019 年累计售出超 100 万副渐进镜片。"
+  },
+  {
+    "name": "Wider Circle",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "社交健康、社区养老",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "社交健康",
+      "社区养老"
+    ],
+    "description": "邻里互助小组、老年社交与健康管理",
+    "business_model": "B2B2C，个人免费，由 Medicare Advantage（联邦医疗保险优势计划）付费。",
+    "market_size": "对应市场规模约 70 亿美元，覆盖转型期到遗产期全阶段。"
+  },
+  {
+    "name": "WonderLab",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "益生菌",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "益生菌"
+    ]
+  },
+  {
+    "name": "iRelaunch",
+    "name_cn": "",
+    "source": "Stage (not Age) Book",
+    "region": "overseas",
+    "category": "职业重启服务",
+    "subcategory": "",
+    "priority": "P2",
+    "funding": "",
+    "key_info": "",
+    "suggestion": "",
+    "tags": [
+      "职业重启服务"
+    ],
+    "description": "职业中断人群重返职场支持"
+  },
+  {
+    "name": "一号护工",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "专业护理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "专业护理"
+    ]
+  },
+  {
+    "name": "一味盛长",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "吞咽障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "吞咽障碍"
+    ]
+  },
+  {
+    "name": "一家依",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "护工培训",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "护工培训"
+    ]
+  },
+  {
+    "name": "一康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "运动康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "运动康复"
+    ]
+  },
+  {
+    "name": "一龄集团",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年旅游",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年旅游"
+    ]
+  },
+  {
+    "name": "万德厨",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "老年助餐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "老年助餐"
+    ]
+  },
+  {
+    "name": "三替护理",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "传统家政",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "传统家政"
+    ]
+  },
+  {
+    "name": "上品折扣",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线下渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线下渠道"
+    ]
+  },
+  {
+    "name": "上海剪爱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症照护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症照护"
+    ]
+  },
+  {
+    "name": "世道",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "护理床",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "护理床"
+    ]
+  },
+  {
+    "name": "东方华康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "上市公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "上市公司养老"
+    ]
+  },
+  {
+    "name": "东方购物",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "电视购物",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "电视购物"
+    ]
+  },
+  {
+    "name": "中匠福",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老家居产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老家居产品"
+    ]
+  },
+  {
+    "name": "中金佰仁堂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "国企央企养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "国企央企养老"
+    ]
+  },
+  {
+    "name": "中顺洁柔",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "上市公司",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "上市公司"
+    ]
+  },
+  {
+    "name": "乐力",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "益生菌",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "益生菌"
+    ]
+  },
+  {
+    "name": "乐唱族",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年音乐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年音乐"
+    ]
+  },
+  {
+    "name": "乐成养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "市场化机构养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "市场化机构养老"
+    ]
+  },
+  {
+    "name": "乐陪护",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "院内陪护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "院内陪护"
+    ]
+  },
+  {
+    "name": "乐龄圈",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年音乐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年音乐"
+    ]
+  },
+  {
+    "name": "九如城",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "市场化机构养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "市场化机构养老"
+    ]
+  },
+  {
+    "name": "云芯信息",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智能养老用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智能养老用品"
+    ]
+  },
+  {
+    "name": "云货优选",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "私域渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "私域渠道"
+    ]
+  },
+  {
+    "name": "互邦",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "轮椅",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "轮椅"
+    ]
+  },
+  {
+    "name": "享佳健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "会员营销",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "会员营销"
+    ]
+  },
+  {
+    "name": "享睡",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "睡眠监测",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "睡眠监测"
+    ]
+  },
+  {
+    "name": "亲和源",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "房地产养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "房地产养老"
+    ]
+  },
+  {
+    "name": "人寿堂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "房地产养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "房地产养老"
+    ]
+  },
+  {
+    "name": "亿芃健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "吞咽障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "吞咽障碍"
+    ]
+  },
+  {
+    "name": "今旭面业",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "健康食品代工",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "健康食品代工"
+    ]
+  },
+  {
+    "name": "仙乐健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "健康食品代工",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "健康食品代工"
+    ]
+  },
+  {
+    "name": "令羽",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年护肤",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年护肤"
+    ]
+  },
+  {
+    "name": "伊对",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年相亲",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年相亲"
+    ]
+  },
+  {
+    "name": "优加健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "慢病管理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "慢病管理"
+    ]
+  },
+  {
+    "name": "优复门诊",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "运动康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "运动康复"
+    ]
+  },
+  {
+    "name": "优必选",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "智能用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "智能用品"
+    ]
+  },
+  {
+    "name": "优生活",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "成人羊奶",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "成人羊奶"
+    ]
+  },
+  {
+    "name": "余生幸福",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年相亲",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年相亲"
+    ]
+  },
+  {
+    "name": "佛山建泰",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "拐杖助行器",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "拐杖助行器"
+    ]
+  },
+  {
+    "name": "佛山永爱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "综合供应链",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "综合供应链"
+    ]
+  },
+  {
+    "name": "作为科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "智能用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "智能用品"
+    ]
+  },
+  {
+    "name": "佰丝堂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "假发",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "假发"
+    ]
+  },
+  {
+    "name": "依瑞德",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "精神神经",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "精神神经"
+    ]
+  },
+  {
+    "name": "倍益康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "家用医疗",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "家用医疗"
+    ]
+  },
+  {
+    "name": "倍轻松",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "家用医疗",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "家用医疗"
+    ]
+  },
+  {
+    "name": "健特药业",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "保健品OTC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "保健品OTC"
+    ]
+  },
+  {
+    "name": "健行仿生",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "假肢",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "假肢"
+    ]
+  },
+  {
+    "name": "元气家族",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线上健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线上健康食品"
+    ]
+  },
+  {
+    "name": "兆观",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "睡眠监测",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "睡眠监测"
+    ]
+  },
+  {
+    "name": "光大养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "国企央企养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "国企央企养老"
+    ]
+  },
+  {
+    "name": "养乃世家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "成人羊奶",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "成人羊奶"
+    ]
+  },
+  {
+    "name": "冬泽",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "特医食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "特医食品"
+    ]
+  },
+  {
+    "name": "凌晴翔",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "洗澡坐便",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "洗澡坐便"
+    ]
+  },
+  {
+    "name": "初新养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "养老院中介",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "养老院中介"
+    ]
+  },
+  {
+    "name": "动龄健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年健身",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年健身"
+    ]
+  },
+  {
+    "name": "匹奇",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "家用医疗",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "家用医疗"
+    ]
+  },
+  {
+    "name": "医护到家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "专业护理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "专业护理"
+    ]
+  },
+  {
+    "name": "千骥资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "医疗VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "医疗VC"
+    ]
+  },
+  {
+    "name": "半月浮生",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年护肤",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年护肤"
+    ]
+  },
+  {
+    "name": "华友健身",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年健身",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年健身"
+    ]
+  },
+  {
+    "name": "华润维麟",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "国企央企养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "国企央企养老"
+    ]
+  },
+  {
+    "name": "卓牧",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "成人羊奶",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "成人羊奶"
+    ]
+  },
+  {
+    "name": "南京携才",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "老年助餐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "老年助餐"
+    ]
+  },
+  {
+    "name": "博博科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "睡眠监测",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "睡眠监测"
+    ]
+  },
+  {
+    "name": "博远资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "医疗VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "医疗VC"
+    ]
+  },
+  {
+    "name": "博音",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "听觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "听觉障碍"
+    ]
+  },
+  {
+    "name": "厚福",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "护理床",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "护理床"
+    ]
+  },
+  {
+    "name": "友达颐康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智能养老用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智能养老用品"
+    ]
+  },
+  {
+    "name": "可靠",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "成人失禁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "成人失禁"
+    ]
+  },
+  {
+    "name": "台格",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年服饰",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年服饰"
+    ]
+  },
+  {
+    "name": "司羿智能",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "手部康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "手部康复"
+    ]
+  },
+  {
+    "name": "同仁堂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "中式养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "中式养生"
+    ]
+  },
+  {
+    "name": "和乐春晖",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "综合供应链",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "综合供应链"
+    ]
+  },
+  {
+    "name": "和佳医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "肿瘤康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "肿瘤康复"
+    ]
+  },
+  {
+    "name": "和君康养",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业媒体",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业媒体"
+    ]
+  },
+  {
+    "name": "和家健脑",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症产品"
+    ]
+  },
+  {
+    "name": "品驰",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "精神神经",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "精神神经"
+    ]
+  },
+  {
+    "name": "响午",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年鞋",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年鞋"
+    ]
+  },
+  {
+    "name": "哺恩",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "市场化机构养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "市场化机构养老"
+    ]
+  },
+  {
+    "name": "唯艾",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "健康养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "健康养生"
+    ]
+  },
+  {
+    "name": "嘉堡护理",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "护工培训",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "护工培训"
+    ]
+  },
+  {
+    "name": "嘉年乐",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "综合供应链",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "综合供应链"
+    ]
+  },
+  {
+    "name": "国寿大健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "国资投资",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "国资投资"
+    ]
+  },
+  {
+    "name": "国科优选",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线下健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线下健康食品"
+    ]
+  },
+  {
+    "name": "复星保德信",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "保险公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "保险公司养老"
+    ]
+  },
+  {
+    "name": "夕阳红",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "视觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "视觉障碍"
+    ]
+  },
+  {
+    "name": "多呵",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年护肤",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年护肤"
+    ]
+  },
+  {
+    "name": "大耳马",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "睡眠监测",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "睡眠监测"
+    ]
+  },
+  {
+    "name": "天华设计",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老规划设计",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老规划设计"
+    ]
+  },
+  {
+    "name": "天合人康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线下健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线下健康食品"
+    ]
+  },
+  {
+    "name": "天壹智慧",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "民政服务",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "民政服务"
+    ]
+  },
+  {
+    "name": "天天好",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "小分子肽",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "小分子肽"
+    ]
+  },
+  {
+    "name": "天空树",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "假发",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "假发"
+    ]
+  },
+  {
+    "name": "天鹅到家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "传统家政",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "传统家政"
+    ]
+  },
+  {
+    "name": "太保资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "国资投资",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "国资投资"
+    ]
+  },
+  {
+    "name": "太平养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "保险公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "保险公司养老"
+    ]
+  },
+  {
+    "name": "太爱肽",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "小分子肽",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "小分子肽"
+    ]
+  },
+  {
+    "name": "奥特顺咽",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "吞咽障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "吞咽障碍"
+    ]
+  },
+  {
+    "name": "女王新款",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年服饰",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年服饰"
+    ]
+  },
+  {
+    "name": "好孝心",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线下健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线下健康食品"
+    ]
+  },
+  {
+    "name": "好慷在家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "传统家政",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "传统家政"
+    ]
+  },
+  {
+    "name": "如身机器人",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "运动康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "运动康复"
+    ]
+  },
+  {
+    "name": "孝当先",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线下健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线下健康食品"
+    ]
+  },
+  {
+    "name": "孝心坊",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线下健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线下健康食品"
+    ]
+  },
+  {
+    "name": "安养养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "养老院中介",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "养老院中介"
+    ]
+  },
+  {
+    "name": "安养帮",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "养老院中介",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "养老院中介"
+    ]
+  },
+  {
+    "name": "安康通",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "民政服务",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "民政服务"
+    ]
+  },
+  {
+    "name": "安泰康成",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "肿瘤康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "肿瘤康复"
+    ]
+  },
+  {
+    "name": "安馨康养",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老家居产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老家居产品"
+    ]
+  },
+  {
+    "name": "完美亲家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年相亲",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年相亲"
+    ]
+  },
+  {
+    "name": "家有购物",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "电视购物",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "电视购物"
+    ]
+  },
+  {
+    "name": "家瑞康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "呼吸障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "呼吸障碍"
+    ]
+  },
+  {
+    "name": "富伯医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "手部康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "手部康复"
+    ]
+  },
+  {
+    "name": "寻缘树",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年相亲",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年相亲"
+    ]
+  },
+  {
+    "name": "寿仙谷",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "中式养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "中式养生"
+    ]
+  },
+  {
+    "name": "尊术医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "助浴助洁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "助浴助洁"
+    ]
+  },
+  {
+    "name": "小V助浴",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "助浴助洁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "助浴助洁"
+    ]
+  },
+  {
+    "name": "小柏家护",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "专业护理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "专业护理"
+    ]
+  },
+  {
+    "name": "小飞哥",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "代步车",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "代步车"
+    ]
+  },
+  {
+    "name": "尚体乐活",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年健身",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年健身"
+    ]
+  },
+  {
+    "name": "就爱广场舞",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "广场舞",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "广场舞"
+    ]
+  },
+  {
+    "name": "左点",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "家用医疗",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "家用医疗"
+    ]
+  },
+  {
+    "name": "巨贸康万家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "呼吸障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "呼吸障碍"
+    ]
+  },
+  {
+    "name": "希润医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "手部康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "手部康复"
+    ]
+  },
+  {
+    "name": "平安臻颐年",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "保险公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "保险公司养老"
+    ]
+  },
+  {
+    "name": "康乐龄",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "吞咽障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "吞咽障碍"
+    ]
+  },
+  {
+    "name": "康力元",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "护理床",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "护理床"
+    ]
+  },
+  {
+    "name": "康复之家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线下渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线下渠道"
+    ]
+  },
+  {
+    "name": "康德宝",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "洗澡坐便",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "洗澡坐便"
+    ]
+  },
+  {
+    "name": "康政",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "拐杖助行器",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "拐杖助行器"
+    ]
+  },
+  {
+    "name": "康林仁和",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线下渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线下渠道"
+    ]
+  },
+  {
+    "name": "康比特",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "蛋白粉",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "蛋白粉"
+    ]
+  },
+  {
+    "name": "康爱医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "肿瘤康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "肿瘤康复"
+    ]
+  },
+  {
+    "name": "康语轩",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症照护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症照护"
+    ]
+  },
+  {
+    "name": "彭世",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "健康养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "健康养生"
+    ]
+  },
+  {
+    "name": "得印科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "智能用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "智能用品"
+    ]
+  },
+  {
+    "name": "德林",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "假肢",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "假肢"
+    ]
+  },
+  {
+    "name": "心乐空间",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年健身",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年健身"
+    ]
+  },
+  {
+    "name": "心永科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "血压血糖",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "血压血糖"
+    ]
+  },
+  {
+    "name": "志贺康养",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老规划设计",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老规划设计"
+    ]
+  },
+  {
+    "name": "快乐购",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "电视购物",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "电视购物"
+    ]
+  },
+  {
+    "name": "快团团",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线上渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线上渠道"
+    ]
+  },
+  {
+    "name": "怡和嘉业",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "呼吸障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "呼吸障碍"
+    ]
+  },
+  {
+    "name": "恒发",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "假发",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "假发"
+    ]
+  },
+  {
+    "name": "恩德莱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "假肢",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "假肢"
+    ]
+  },
+  {
+    "name": "悟空百货",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线上渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线上渠道"
+    ]
+  },
+  {
+    "name": "悠幸",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老家居产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老家居产品"
+    ]
+  },
+  {
+    "name": "悦心安颐",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "上市公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "上市公司养老"
+    ]
+  },
+  {
+    "name": "惠买集团",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "电视购物",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "电视购物"
+    ]
+  },
+  {
+    "name": "慈康生命",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "临终关怀",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "临终关怀"
+    ]
+  },
+  {
+    "name": "慢糖家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "无糖低GI",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "无糖低GI"
+    ]
+  },
+  {
+    "name": "成家相亲",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年相亲",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年相亲"
+    ]
+  },
+  {
+    "name": "戴恩",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "助浴助洁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "助浴助洁"
+    ]
+  },
+  {
+    "name": "护卫神",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "轮椅",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "轮椅"
+    ]
+  },
+  {
+    "name": "招商观颐",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "国企央企养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "国企央企养老"
+    ]
+  },
+  {
+    "name": "振邦",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "轮椅",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "轮椅"
+    ]
+  },
+  {
+    "name": "摩登银龄",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线上渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线上渠道"
+    ]
+  },
+  {
+    "name": "擎浩护理",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "院内陪护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "院内陪护"
+    ]
+  },
+  {
+    "name": "救救帮",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智能养老用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智能养老用品"
+    ]
+  },
+  {
+    "name": "斯维驰",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "代步车",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "代步车"
+    ]
+  },
+  {
+    "name": "方家铺子",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "中式养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "中式养生"
+    ]
+  },
+  {
+    "name": "时光派",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线上健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线上健康食品"
+    ]
+  },
+  {
+    "name": "时尚奶奶团",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线上渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线上渠道"
+    ]
+  },
+  {
+    "name": "易乐车业",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "代步车",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "代步车"
+    ]
+  },
+  {
+    "name": "星巡智能",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "睡眠监测",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "睡眠监测"
+    ]
+  },
+  {
+    "name": "春树养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "养老院中介",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "养老院中介"
+    ]
+  },
+  {
+    "name": "昱芝夕",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年护肤",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年护肤"
+    ]
+  },
+  {
+    "name": "昱言养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "行业媒体",
+    "subcategory": "",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "行业媒体"
+    ]
+  },
+  {
+    "name": "普健济康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "种子投资",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "种子投资"
+    ]
+  },
+  {
+    "name": "景昱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "精神神经",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "精神神经"
+    ]
+  },
+  {
+    "name": "晶彩人生",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年旅游",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年旅游"
+    ]
+  },
+  {
+    "name": "智云健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "慢病管理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "慢病管理"
+    ]
+  },
+  {
+    "name": "智听",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "听觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "听觉障碍"
+    ]
+  },
+  {
+    "name": "智宇孝老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "民政服务",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "民政服务"
+    ]
+  },
+  {
+    "name": "智杰教育",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "护工培训",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "护工培训"
+    ]
+  },
+  {
+    "name": "最美芳华",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年护肤",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年护肤"
+    ]
+  },
+  {
+    "name": "月神",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "益生菌",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "益生菌"
+    ]
+  },
+  {
+    "name": "来邦科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智能养老用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智能养老用品"
+    ]
+  },
+  {
+    "name": "柏老汇",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "老年助餐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "老年助餐"
+    ]
+  },
+  {
+    "name": "染博士",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "染发剂",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "染发剂"
+    ]
+  },
+  {
+    "name": "栈道资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "消费VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "消费VC"
+    ]
+  },
+  {
+    "name": "栖城设计",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老规划设计",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老规划设计"
+    ]
+  },
+  {
+    "name": "森梅医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "慢病管理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "慢病管理"
+    ]
+  },
+  {
+    "name": "森美",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "保健品OTC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "保健品OTC"
+    ]
+  },
+  {
+    "name": "楼上",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "中式养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "中式养生"
+    ]
+  },
+  {
+    "name": "正奇智能",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "智能用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "智能用品"
+    ]
+  },
+  {
+    "name": "每日的菌",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "益生菌",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "益生菌"
+    ]
+  },
+  {
+    "name": "水印中国",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "市场化机构养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "市场化机构养老"
+    ]
+  },
+  {
+    "name": "永福康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "成人失禁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "成人失禁"
+    ]
+  },
+  {
+    "name": "江南米道",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "无糖低GI",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "无糖低GI"
+    ]
+  },
+  {
+    "name": "沐恒实业",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老家居产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老家居产品"
+    ]
+  },
+  {
+    "name": "泰一健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "健康食品代工",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "健康食品代工"
+    ]
+  },
+  {
+    "name": "泰康之家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "保险公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "保险公司养老"
+    ]
+  },
+  {
+    "name": "泰康安宁疗护",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "临终关怀",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "临终关怀"
+    ]
+  },
+  {
+    "name": "泰心康护",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "院内陪护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "院内陪护"
+    ]
+  },
+  {
+    "name": "泽普医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "运动康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "运动康复"
+    ]
+  },
+  {
+    "name": "海之声",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线下渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线下渠道"
+    ]
+  },
+  {
+    "name": "海森林",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "假发",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "假发"
+    ]
+  },
+  {
+    "name": "深纳普思",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "血压血糖",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "血压血糖"
+    ]
+  },
+  {
+    "name": "添康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "护理床",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "护理床"
+    ]
+  },
+  {
+    "name": "温州康宁",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "精神神经",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "精神神经"
+    ]
+  },
+  {
+    "name": "爱侬养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "传统家政",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "传统家政"
+    ]
+  },
+  {
+    "name": "爱可声",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "听觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "听觉障碍"
+    ]
+  },
+  {
+    "name": "爱普雷德",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "特殊渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "特殊渠道"
+    ]
+  },
+  {
+    "name": "爱牵挂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "智能养老用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "智能养老用品"
+    ]
+  },
+  {
+    "name": "爱舒乐",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "成人失禁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "成人失禁"
+    ]
+  },
+  {
+    "name": "爱风尚",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "广场舞",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "广场舞"
+    ]
+  },
+  {
+    "name": "玖益",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "听觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "听觉障碍"
+    ]
+  },
+  {
+    "name": "玛士撒拉",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "特医食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "特医食品"
+    ]
+  },
+  {
+    "name": "环球捕手",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "私域渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "私域渠道"
+    ]
+  },
+  {
+    "name": "瑞光康泰",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "血压血糖",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "血压血糖"
+    ]
+  },
+  {
+    "name": "瑞尔齿科",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "咀嚼障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "咀嚼障碍"
+    ]
+  },
+  {
+    "name": "瑞贝卡",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "假发",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "假发"
+    ]
+  },
+  {
+    "name": "瑞邦",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "小分子肽",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "小分子肽"
+    ]
+  },
+  {
+    "name": "甲子科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "特殊渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "特殊渠道"
+    ]
+  },
+  {
+    "name": "百合康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "蛋白粉",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "蛋白粉"
+    ]
+  },
+  {
+    "name": "百合生物",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "健康食品代工",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "健康食品代工"
+    ]
+  },
+  {
+    "name": "百善药业",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "保健品OTC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "保健品OTC"
+    ]
+  },
+  {
+    "name": "百年红",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "视觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "视觉障碍"
+    ]
+  },
+  {
+    "name": "皮皮熊",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "代步车",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "代步车"
+    ]
+  },
+  {
+    "name": "盈康生命",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "肿瘤康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "肿瘤康复"
+    ]
+  },
+  {
+    "name": "益生康健",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "会员营销",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "会员营销"
+    ]
+  },
+  {
+    "name": "盛美诺",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "小分子肽",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "小分子肽"
+    ]
+  },
+  {
+    "name": "盛通养老",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "综合供应链",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "综合供应链"
+    ]
+  },
+  {
+    "name": "知识矩阵",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线上健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线上健康食品"
+    ]
+  },
+  {
+    "name": "硅基仿生",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "血压血糖",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "血压血糖"
+    ]
+  },
+  {
+    "name": "神探伍伍",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "无糖低GI",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "无糖低GI"
+    ]
+  },
+  {
+    "name": "祥和",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "假肢",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "假肢"
+    ]
+  },
+  {
+    "name": "票圈视频",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "特殊渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "特殊渠道"
+    ]
+  },
+  {
+    "name": "福东海",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "中式养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "中式养生"
+    ]
+  },
+  {
+    "name": "福仕得",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "洗澡坐便",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "洗澡坐便"
+    ]
+  },
+  {
+    "name": "福佑",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "拐杖助行器",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "拐杖助行器"
+    ]
+  },
+  {
+    "name": "福寿家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "临终关怀",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "临终关怀"
+    ]
+  },
+  {
+    "name": "福康通",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老家居产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老家居产品"
+    ]
+  },
+  {
+    "name": "福玛玛",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年服饰",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年服饰"
+    ]
+  },
+  {
+    "name": "立奇电子",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "助浴助洁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "助浴助洁"
+    ]
+  },
+  {
+    "name": "章华",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "染发剂",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "染发剂"
+    ]
+  },
+  {
+    "name": "米兰登",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年服饰",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年服饰"
+    ]
+  },
+  {
+    "name": "粤嘉康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "家用医疗",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "家用医疗"
+    ]
+  },
+  {
+    "name": "糖友饱饱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "无糖低GI",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "无糖低GI"
+    ]
+  },
+  {
+    "name": "糖豆",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "广场舞",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "广场舞"
+    ]
+  },
+  {
+    "name": "纽崔莱",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "蛋白粉",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "蛋白粉"
+    ]
+  },
+  {
+    "name": "维达",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "成人失禁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "成人失禁"
+    ]
+  },
+  {
+    "name": "绿城康养",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "房地产养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "房地产养老"
+    ]
+  },
+  {
+    "name": "绿康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "市场化机构养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "市场化机构养老"
+    ]
+  },
+  {
+    "name": "绿瘦",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "保健品OTC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "保健品OTC"
+    ]
+  },
+  {
+    "name": "美丽岛",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "视觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "视觉障碍"
+    ]
+  },
+  {
+    "name": "美呀植牙",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "咀嚼障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "咀嚼障碍"
+    ]
+  },
+  {
+    "name": "美瑞德",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "洗澡坐便",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "洗澡坐便"
+    ]
+  },
+  {
+    "name": "美邸中国",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症照护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症照护"
+    ]
+  },
+  {
+    "name": "老人头",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年鞋",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年鞋"
+    ]
+  },
+  {
+    "name": "老友记",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "老年助餐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "老年助餐"
+    ]
+  },
+  {
+    "name": "老年人才网",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "再就业",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "再就业"
+    ]
+  },
+  {
+    "name": "老来寿",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "保健品OTC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "保健品OTC"
+    ]
+  },
+  {
+    "name": "老柚",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年音乐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年音乐"
+    ]
+  },
+  {
+    "name": "老美华",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年鞋",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年鞋"
+    ]
+  },
+  {
+    "name": "联谛信息",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "视觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "视觉障碍"
+    ]
+  },
+  {
+    "name": "聚鲨环球",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "电视购物",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "电视购物"
+    ]
+  },
+  {
+    "name": "肌肉科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "蛋白粉",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "蛋白粉"
+    ]
+  },
+  {
+    "name": "脑动极光",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症产品"
+    ]
+  },
+  {
+    "name": "自然之声",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线下渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线下渠道"
+    ]
+  },
+  {
+    "name": "臻牧",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "成人羊奶",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "成人羊奶"
+    ]
+  },
+  {
+    "name": "臻行科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "假肢",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "假肢"
+    ]
+  },
+  {
+    "name": "舒悦",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年鞋",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年鞋"
+    ]
+  },
+  {
+    "name": "舒莱适",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "代步车",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "代步车"
+    ]
+  },
+  {
+    "name": "舞动时代",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "广场舞",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "广场舞"
+    ]
+  },
+  {
+    "name": "艾兰得",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "健康食品代工",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "健康食品代工"
+    ]
+  },
+  {
+    "name": "艾益生",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "健康养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "健康养生"
+    ]
+  },
+  {
+    "name": "艾艾贴",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "健康养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "健康养生"
+    ]
+  },
+  {
+    "name": "芬香电商",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "私域渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "私域渠道"
+    ]
+  },
+  {
+    "name": "苏立康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "特医食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "特医食品"
+    ]
+  },
+  {
+    "name": "若创科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "智能用品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "智能用品"
+    ]
+  },
+  {
+    "name": "英智",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "精神神经",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "精神神经"
+    ]
+  },
+  {
+    "name": "英洛华",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "轮椅",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "轮椅"
+    ]
+  },
+  {
+    "name": "莎浓羊奶",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "成人羊奶",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "成人羊奶"
+    ]
+  },
+  {
+    "name": "蒙佩尔兰",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "益生菌",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "益生菌"
+    ]
+  },
+  {
+    "name": "蓝力",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "小分子肽",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "小分子肽"
+    ]
+  },
+  {
+    "name": "虚之实",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症产品"
+    ]
+  },
+  {
+    "name": "记忆家",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症照护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症照护"
+    ]
+  },
+  {
+    "name": "谊安医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "呼吸障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "呼吸障碍"
+    ]
+  },
+  {
+    "name": "豪悦",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "成人失禁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "成人失禁"
+    ]
+  },
+  {
+    "name": "赋爱科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症产品"
+    ]
+  },
+  {
+    "name": "趣得多",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "特殊渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "特殊渠道"
+    ]
+  },
+  {
+    "name": "足力健",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "老年鞋",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "老年鞋"
+    ]
+  },
+  {
+    "name": "足步医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "拐杖助行器",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "拐杖助行器"
+    ]
+  },
+  {
+    "name": "达旦无极",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "认知症",
+    "subcategory": "认知症产品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "认知症",
+      "认知症产品"
+    ]
+  },
+  {
+    "name": "达晨财智",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "国资投资",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "国资投资"
+    ]
+  },
+  {
+    "name": "达风投资",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "国资投资",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "国资投资"
+    ]
+  },
+  {
+    "name": "迈德斯特",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "护理床",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "护理床"
+    ]
+  },
+  {
+    "name": "远方好物",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "线上健康食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "线上健康食品"
+    ]
+  },
+  {
+    "name": "远洋椿萱茂",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "房地产养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "房地产养老"
+    ]
+  },
+  {
+    "name": "迪马常青社",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "上市公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "上市公司养老"
+    ]
+  },
+  {
+    "name": "退休俱乐部",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年旅游",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年旅游"
+    ]
+  },
+  {
+    "name": "通策医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "咀嚼障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "咀嚼障碍"
+    ]
+  },
+  {
+    "name": "遇禾规划",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "适老化改造",
+    "subcategory": "适老规划设计",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "适老化改造",
+      "适老规划设计"
+    ]
+  },
+  {
+    "name": "遇见美好",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年旅游",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年旅游"
+    ]
+  },
+  {
+    "name": "郑远元",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "健康养生",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "健康养生"
+    ]
+  },
+  {
+    "name": "金牌护士",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "专业护理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "专业护理"
+    ]
+  },
+  {
+    "name": "金矢机器人",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "运动康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "运动康复"
+    ]
+  },
+  {
+    "name": "金鼎资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "消费VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "消费VC"
+    ]
+  },
+  {
+    "name": "钧晟科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "康复设备",
+    "subcategory": "手部康复",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "康复设备",
+      "手部康复"
+    ]
+  },
+  {
+    "name": "钰民",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "拐杖助行器",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "拐杖助行器"
+    ]
+  },
+  {
+    "name": "铂桐医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康服务",
+    "subcategory": "慢病管理",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康服务",
+      "慢病管理"
+    ]
+  },
+  {
+    "name": "铱创投资",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "医疗VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "医疗VC"
+    ]
+  },
+  {
+    "name": "银创资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "消费VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "消费VC"
+    ]
+  },
+  {
+    "name": "银发无忧",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "会员营销",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "会员营销"
+    ]
+  },
+  {
+    "name": "银彩聚乐部",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "线上渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "线上渠道"
+    ]
+  },
+  {
+    "name": "银汤屋",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "助浴助洁",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "助浴助洁"
+    ]
+  },
+  {
+    "name": "链老网",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "养老院中介",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "养老院中介"
+    ]
+  },
+  {
+    "name": "锣钹科技",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "老年音乐",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "老年音乐"
+    ]
+  },
+  {
+    "name": "锦好医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "听觉障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "听觉障碍"
+    ]
+  },
+  {
+    "name": "锦欣福星",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "上市公司养老",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "上市公司养老"
+    ]
+  },
+  {
+    "name": "长岭资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "医疗VC",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "医疗VC"
+    ]
+  },
+  {
+    "name": "阳光大姐",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "再就业",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "再就业"
+    ]
+  },
+  {
+    "name": "阿尔发",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "无糖低GI",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "无糖低GI"
+    ]
+  },
+  {
+    "name": "阿福医疗",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "院内陪护",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "院内陪护"
+    ]
+  },
+  {
+    "name": "青鸟软通",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老服务",
+    "subcategory": "民政服务",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老服务",
+      "民政服务"
+    ]
+  },
+  {
+    "name": "韩愢",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "染发剂",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "染发剂"
+    ]
+  },
+  {
+    "name": "韩金靓",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "日常用品",
+    "subcategory": "染发剂",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "日常用品",
+      "染发剂"
+    ]
+  },
+  {
+    "name": "颐佳康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老地产",
+    "subcategory": "护工培训",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老地产",
+      "护工培训"
+    ]
+  },
+  {
+    "name": "高樟资本",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "投资机构",
+    "subcategory": "种子投资",
+    "priority": "P2",
+    "description": "",
+    "is_investor": true,
+    "tags": [
+      "投资机构",
+      "种子投资"
+    ]
+  },
+  {
+    "name": "鱼跃",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "轮椅",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "轮椅"
+    ]
+  },
+  {
+    "name": "鲲鱼健康",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "特医食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "特医食品"
+    ]
+  },
+  {
+    "name": "鲸灵集团",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "私域渠道",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "私域渠道"
+    ]
+  },
+  {
+    "name": "鹏翼时代",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "老年文娱",
+    "subcategory": "再就业",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "老年文娱",
+      "再就业"
+    ]
+  },
+  {
+    "name": "麦孚",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "健康食品",
+    "subcategory": "特医食品",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "健康食品",
+      "特医食品"
+    ]
+  },
+  {
+    "name": "麦考林",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "购物渠道",
+    "subcategory": "会员营销",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "购物渠道",
+      "会员营销"
+    ]
+  },
+  {
+    "name": "鼎植口腔",
+    "name_cn": "",
+    "source": "中国企业图谱(许之怿)",
+    "region": "china",
+    "category": "养老用品",
+    "subcategory": "咀嚼障碍",
+    "priority": "P2",
+    "description": "",
+    "is_investor": false,
+    "tags": [
+      "养老用品",
+      "咀嚼障碍"
+    ]
+  },
+  {
+    "id": "ent_031",
+    "name": "The Villages",
+    "category": "养老地产/退休社区",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "",
+      "latest_amount_display": "NYSE上市",
+      "latest_round": "NYSE: VILL"
+    },
+    "business_summary": "美国最大的老年退休社区运营商，社区数量超过175个，分布在美国的28个州。退休社区模式让老年人在统一规划的社区内享受独立生活、社交活动和医疗服务。",
+    "domestic_coverage": "微信有几篇简单文章；国外视频很热门。",
+    "suggestion": "可以写。美国最大老年退休社区，与国内养老社区模式有差异，差异化空间大。",
+    "tags": [
+      "养老地产",
+      "退休社区",
+      "上市公司",
+      "美国"
+    ]
+  },
+  {
+    "id": "ent_032",
+    "name": "Riverspring Living",
+    "category": "养老服务/康复",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "",
+      "latest_amount_display": "非上市"
+    },
+    "business_summary": "大型养老康复机构，专注于将AgeTech（AI/VR/机器人）从理论转化为实际ROI。接受TheGerontechnologist采访，深度分享技术落地经验。",
+    "domestic_coverage": "AgeTech采访文章，TheGerontechnologist专访CIO David Finkelstein。",
+    "suggestion": "可参考。大型养老机构如何实际应用AI/VR/机器人技术，案例有深度，国内无高质量报道。",
+    "tags": [
+      "养老服务",
+      "AI",
+      "VR",
+      "机器人",
+      "AgeTech"
+    ]
+  },
+  {
+    "id": "ent_033",
+    "name": "August Health",
+    "category": "养老服务/数字化",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "2025-08",
+      "latest_amount_display": "2900万美元"
+    },
+    "business_summary": "为老年生活社区（assisted living/nursing home）提供一体化数字化解决方案，包括电子病历(EHR)、入住登记、药物管理(eMAR)、护理追踪(Care Track)、账单与支付(Billing & Payments)等功能。帮助养老社区提升运营效率。",
+    "domestic_coverage": "融资2900万美元，暂无国内报道。",
+    "suggestion": "养老机构SaaS方向，国内养老机构数字化是趋势，可关注。",
+    "tags": [
+      "养老服务",
+      "SaaS",
+      "数字化",
+      "EHR"
+    ]
+  },
+  {
+    "id": "ent_034",
+    "name": "Cala Health",
+    "category": "康复设备/可穿戴",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "2024-12",
+      "latest_amount_display": "5000万美元",
+      "latest_round": "增长轮"
+    },
+    "business_summary": "开发FDA批准的非侵入式可穿戴设备，用于缓解特发性震颤（常见于老年人群）。与Medicare保险绑定，为患者提供非药物解决方案。",
+    "domestic_coverage": "小媒体流量6000+，已写过。",
+    "suggestion": "已写过，小媒体流量6000+，可作为竞品参考。",
+    "tags": [
+      "康复设备",
+      "可穿戴",
+      "FDA",
+      "Medicare"
+    ]
+  },
+  {
+    "id": "ent_035",
+    "name": "Synapticure",
+    "category": "认知症/护理支持",
+    "priority": "P2",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "2024-11",
+      "latest_amount_display": "2500万美元",
+      "latest_round": "A轮"
+    },
+    "business_summary": "致力于改善阿尔茨海默病及相关痴呆症、帕金森病患者的治疗机会和护理效果，同时为护理人员提供支持。连接患者与神经科专家，提供远程问诊和护理协调。",
+    "domestic_coverage": "国内暂无报道。",
+    "suggestion": "痴呆症+护理支持，中国阿尔茨海默病护理需求大，有参考价值。",
+    "tags": [
+      "认知症",
+      "帕金森",
+      "远程医疗",
+      "护理支持"
+    ]
+  },
+  {
+    "id": "ent_036",
+    "name": "Geri Care",
+    "category": "养老服务/医疗",
+    "priority": "P2",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "2025-01",
+      "latest_amount_display": "1300万美元"
+    },
+    "business_summary": "印度首家专注于老年人的综合医疗服务提供商，2018年创立，提供360度连续护理模式，包括预防、诊断、治疗、康复和长期护理。",
+    "domestic_coverage": "印度企业，优先级靠后。",
+    "suggestion": "印度养老医疗模式，印度文化与中国有相似性，但优先级较低。",
+    "tags": [
+      "养老服务",
+      "印度",
+      "综合医疗",
+      "连锁"
+    ]
+  },
+  {
+    "id": "ent_037",
+    "name": "Hello Sage",
+    "category": "养老服务/数字化",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "2024-12",
+      "latest_amount_display": "3500万美元"
+    },
+    "business_summary": "总部位于纽约的老年生活运营管理平台提供商，为老年社区提供基于云的运营系统，帮助社区优化人员配置、提供更好的住户护理并提供数据洞察。",
+    "domestic_coverage": "已写过。",
+    "suggestion": "已写。养老社区数字化运营平台，可作为竞品参考。",
+    "tags": [
+      "养老服务",
+      "SaaS",
+      "数字化",
+      "养老社区运营"
+    ]
+  },
+  {
+    "id": "ent_038",
+    "name": "Papa",
+    "category": "社交陪伴/代际服务",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "",
+      "latest_amount_display": "已上市"
+    },
+    "business_summary": "技术平台，连接大学生/护理专业学生与老年人，提供交通、家务、陪伴等服务。也被称为优步护工模式，同时与辅助生活社区合作提供远程医疗服务。",
+    "domestic_coverage": "国内暂无报道。",
+    "suggestion": "代际陪伴+上门服务，年轻人帮助老年人模式，中国有类似探索（如时光银行），差异化空间大。",
+    "tags": [
+      "社交陪伴",
+      "代际服务",
+      "平台经济",
+      "养老服务"
+    ]
+  },
+  {
+    "id": "ent_039",
+    "name": "Oak Street Health",
+    "category": "初级保健/诊所",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "2023-05",
+      "latest_amount_display": "106亿美元收购",
+      "latest_round": "被Optum收购"
+    },
+    "business_summary": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+    "domestic_coverage": "国内有相关文章，作为大公司参考。",
+    "suggestion": "已写出大公司，可作为竞品参考。国内初级保健诊所模式可以参照。",
+    "tags": [
+      "初级保健",
+      "诊所",
+      "Medicare",
+      "大公司"
+    ]
+  },
+  {
+    "id": "ent_040",
+    "name": "Lifeway Mobility",
+    "category": "适老化改造",
+    "priority": "P1",
+    "region": "overseas",
+    "funding": {
+      "latest_date": "",
+      "latest_amount_display": "约3000万美元年销售"
+    },
+    "business_summary": "居家无障碍解决方案公司，销售、安装和维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯和浴室安全产品。提供免费居家评估和咨询服务，通过医疗保健渠道获客，2024年服务了2万家庭。",
+    "domestic_coverage": "国内暂无报道。",
+    "suggestion": "适老化改造实操案例，3000万销售规模值得关注。国内适老化改造市场正在增长。",
+    "tags": [
+      "适老化改造",
+      "居家无障碍",
+      "设备销售"
+    ]
+  }
+]
