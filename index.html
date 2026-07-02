@@ -77,35 +77,33 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 </div>
 <div class="nav-section">
 <div class="nav-label">内容</div>
-<div class="nav-item active" id="nav-curated" onclick="setView('curated')">精选 <span class="count">59</span></div>
-<div class="nav-item" id="nav-all" onclick="setView('all')">全量 <span class="count">174</span></div>
-<div class="nav-divider"></div>
-<div class="nav-label">导航</div>
+<a href="index.html" class="nav-item active">资讯看板</a>
 <a href="enterprise.html" class="nav-item">企业库</a>
 <div class="nav-divider"></div>
-<div class="nav-label">其他</div>
-<div class="nav-item" onclick="document.getElementById('about').classList.toggle('hidden')">关于</div>
+<div class="nav-label">筛选视图</div>
+<div class="nav-item" id="nav-curated" onclick="setView('curated')">精选 <span class="count">65</span></div>
+<div class="nav-item" id="nav-all" onclick="setView('all')">全量 <span class="count">180</span></div>
 </div>
 <div class="main">
 <div class="header">
 <div class="header-top">
 <h2>银发经济每日速览</h2>
-<div class="header-stats" id="header-stats">更新于 2026-07-02 16:24 · 精选 59 条 · 高价值 34 条</div>
+<div class="header-stats" id="header-stats">更新于 2026-07-02 20:21 · 精选 65 条 · 高价值 39 条</div>
 </div>
 <div style="display:flex;align-items:center;flex-wrap:wrap;">
 <div class="view-pills">
-<button class="view-pill active" id="pill-curated" onclick="setView('curated')">精选(59)</button>
-<button class="view-pill" id="pill-all" onclick="setView('all')">全量(174)</button>
+<button class="view-pill active" id="pill-curated" onclick="setView('curated')">精选(65)</button>
+<button class="view-pill" id="pill-all" onclick="setView('all')">全量(180)</button>
 </div>
 <div class="region-pills" id="region-pills">
 <button class="region-pill active" data-region="all">全部</button>
-<button class="region-pill" data-region="domestic">国内(23)</button>
+<button class="region-pill" data-region="domestic">国内(29)</button>
 <button class="region-pill" data-region="overseas">海外(36)</button>
 </div></div></div>
 <div class="tag-bar" id="tag-bar">
 <span class="tag-bar-label">标签:</span>
 <button class="tag-btn active" data-tag="all">全部</button>
-<button class="tag-btn" data-tag="IPO">IPO</button><button class="tag-btn" data-tag="临终关怀">临终关怀</button><button class="tag-btn" data-tag="产品发布">产品发布</button><button class="tag-btn" data-tag="保险科技">保险科技</button><button class="tag-btn" data-tag="健康监测">健康监测</button><button class="tag-btn" data-tag="养老地产">养老地产</button><button class="tag-btn" data-tag="居家养老">居家养老</button><button class="tag-btn" data-tag="康复辅具">康复辅具</button><button class="tag-btn" data-tag="慢病管理">慢病管理</button><button class="tag-btn" data-tag="战略合作">战略合作</button><button class="tag-btn" data-tag="护理人力">护理人力</button><button class="tag-btn" data-tag="收购">收购</button><button class="tag-btn" data-tag="政策法规">政策法规</button><button class="tag-btn" data-tag="数字疗法">数字疗法</button><button class="tag-btn" data-tag="智慧养老">智慧养老</button><button class="tag-btn" data-tag="社交陪伴">社交陪伴</button><button class="tag-btn" data-tag="老年消费">老年消费</button><button class="tag-btn" data-tag="药物管理">药物管理</button><button class="tag-btn" data-tag="融资">融资</button><button class="tag-btn" data-tag="认知症">认知症</button><button class="tag-btn" data-tag="辅助生活">辅助生活</button><button class="tag-btn" data-tag="远程医疗">远程医疗</button><button class="tag-btn" data-tag="金融科技">金融科技</button><button class="tag-btn" data-tag="长寿科技">长寿科技</button>
+<button class="tag-btn" data-tag="2026">2026</button><button class="tag-btn" data-tag="36氪">36氪</button><button class="tag-btn" data-tag="ABI2026">ABI2026</button><button class="tag-btn" data-tag="AI">AI</button><button class="tag-btn" data-tag="AgeTech">AgeTech</button><button class="tag-btn" data-tag="IPO">IPO</button><button class="tag-btn" data-tag="临终关怀">临终关怀</button><button class="tag-btn" data-tag="产品发布">产品发布</button><button class="tag-btn" data-tag="低门槛">低门槛</button><button class="tag-btn" data-tag="保险科技">保险科技</button><button class="tag-btn" data-tag="健康监测">健康监测</button><button class="tag-btn" data-tag="养老地产">养老地产</button><button class="tag-btn" data-tag="内容运营">内容运营</button><button class="tag-btn" data-tag="创业">创业</button><button class="tag-btn" data-tag="国寿">国寿</button><button class="tag-btn" data-tag="居家养老">居家养老</button><button class="tag-btn" data-tag="康养">康养</button><button class="tag-btn" data-tag="康复辅具">康复辅具</button><button class="tag-btn" data-tag="慢病管理">慢病管理</button><button class="tag-btn" data-tag="战略合作">战略合作</button><button class="tag-btn" data-tag="投融资">投融资</button><button class="tag-btn" data-tag="护理人力">护理人力</button><button class="tag-btn" data-tag="收购">收购</button><button class="tag-btn" data-tag="政策法规">政策法规</button><button class="tag-btn" data-tag="数字疗法">数字疗法</button><button class="tag-btn" data-tag="智慧养老">智慧养老</button><button class="tag-btn" data-tag="爆款">爆款</button><button class="tag-btn" data-tag="社交陪伴">社交陪伴</button><button class="tag-btn" data-tag="细分领域">细分领域</button><button class="tag-btn" data-tag="老年消费">老年消费</button><button class="tag-btn" data-tag="药物管理">药物管理</button><button class="tag-btn" data-tag="融资">融资</button><button class="tag-btn" data-tag="行业报告">行业报告</button><button class="tag-btn" data-tag="认知症">认知症</button><button class="tag-btn" data-tag="资本化">资本化</button><button class="tag-btn" data-tag="辅助生活">辅助生活</button><button class="tag-btn" data-tag="远程医疗">远程医疗</button><button class="tag-btn" data-tag="金融科技">金融科技</button><button class="tag-btn" data-tag="银发消费">银发消费</button><button class="tag-btn" data-tag="银发科技">银发科技</button><button class="tag-btn" data-tag="银发经济">银发经济</button><button class="tag-btn" data-tag="长寿科技">长寿科技</button><button class="tag-btn" data-tag="阿里巴巴">阿里巴巴</button>
 </div>
 <div class="sort-row" id="sort-bar">排序:
 <button class="sort-btn active" data-sort="time">最新优先</button>
@@ -1617,6 +1615,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">居家养老</span><span class="tag">智慧养老</span><span class="tag">护理人力</span><span class="tag">融资</span></div>
 <div class="rec-box">5000万美元的A轮在居家护理行业属于天花板级别。关键在于它不是「传统护理公司+AI」，而是从零以AI为核心重构服务流程——排班、路线优化、风险评估全用算法驱动。10万+访问量和500+合作机构证明模式已跑通。中国居家护理行业极其碎片化，Adaptive的思路值得参考：不是做一个平台连接护工和老人，而是用AI把单个机构的运营效率做到极致。</div>
   </div>
+</div><div class="feed-item" data-view="curated" data-score="7.5" data-date="2026-06-16" data-tags="AI,银发科技,AgeTech,行业报告" data-region="domestic">
+  <div class="feed-time">2026-06-16</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">JUCAP</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.5</span> 
+    </div>
+    <h3 class="feed-title"><a href="https://jucap.com/news/tech/20260616-08-ai-agetech-report-2026/" target="_blank" rel="noopener">AI时代中国银发科技发展研究报告发布：五大技术路线从可用到必选</a></h3>
+<p class="feed-summary">AgeClub于2026年6月11日发布《AI时代中国银发科技发展研究报告（2026）》，系统梳理人工智能在养老领域的应用现状、技术路线和商业化路径。报告覆盖智能硬件、健康管理、居家护理等五大技术路线。</p>
+<div class="feed-tags"><span class="tag">AI</span><span class="tag">银发科技</span><span class="tag">AgeTech</span><span class="tag">行业报告</span></div>
+<div class="rec-box">AgeClub AI银发科技报告，五大技术路线系统梳理。适合作为银发科技选题的背景参考，结合海外AgeTech案例可做成深度合集。</div>
+  </div>
 </div><div class="feed-item" data-view="curated" data-score="5.9" data-date="2026-06-15" data-tags="居家养老,收购,辅助生活" data-region="overseas">
   <div class="feed-time">2026-06-15</div>
   <div class="feed-body">
@@ -1647,6 +1655,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">居家养老</span><span class="tag">收购</span><span class="tag">临终关怀</span></div>
 <div class="rec-box">区域性居家护理并购持续活跃，反映行业整合的大趋势。建议作为居家护理并购趋势的数据点积累，等到积累5-10起类似交易后合并为一篇「美国居家护理并购潮」分析文章。目前不建议单独写稿。</div>
   </div>
+</div><div class="feed-item" data-view="curated" data-score="8.0" data-date="2026-06-05" data-tags="银发经济,行业报告,36氪,2026" data-region="domestic">
+  <div class="feed-time">2026-06-05</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">AgeClub</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">8.0</span> 
+    </div>
+    <h3 class="feed-title"><a href="https://www.ageclub.net/article-detail/9034" target="_blank" rel="noopener">深度解读《2026年中国银发经济产业研究报告》：银发经济走向结构性扩容</a></h3>
+<p class="feed-summary">基于36氪研究院发布的《2026年中国银发经济产业研究报告》，系统解读中国银发经济从基础保障走向需求分层驱动下的结构性扩容的产业逻辑。</p>
+<div class="feed-tags"><span class="tag">银发经济</span><span class="tag">行业报告</span><span class="tag">36氪</span><span class="tag">2026</span></div>
+<div class="rec-box">36氪+AgeClub联合解读，权威性高。2026年中国银发经济规模约8万亿元，3.23亿老年人口。文章结构完整，适合做选题背景参考。</div>
+  </div>
 </div><div class="feed-item" data-view="curated" data-score="7.7" data-date="2026-06-02" data-tags="居家养老,健康监测,智慧养老,产品发布" data-region="domestic">
   <div class="feed-time">2026-06-02</div>
   <div class="feed-body">
@@ -1656,6 +1674,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <p class="feed-summary">原小天才儿童手表团队成员创业，切入老年居家看护硬件赛道，产品定位为「老年版的小天才」，主打跌倒检测、紧急呼叫和定位功能，计划进入海外市场。</p>
 <div class="feed-tags"><span class="tag">居家养老</span><span class="tag">健康监测</span><span class="tag">智慧养老</span><span class="tag">产品发布</span></div>
 <div class="rec-box">「做小天才手表的团队现在做老年硬件」——这个叙事本身就很有传播力。小天才用「安全+社交」打透了儿童手表市场，把同样的逻辑套到老年人身上：跌倒检测=儿童定位，紧急呼叫=一键SOS，家庭群聊=代际社交。关键是渠道——小天才的代理商网络能不能复用？如果能，这是中国老年硬件赛道罕见的「有渠道基因」的团队。关注后续融资进展。</div>
+  </div>
+</div><div class="feed-item" data-view="curated" data-score="7.3" data-date="2026-06-01" data-tags="居家养老,智慧养老,长寿科技,融资" data-region="overseas">
+  <div class="feed-time">2026-06-01</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">TheGerontechnologist</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-high">7.3</span> 
+    </div>
+    <h3 class="feed-title"><a href="https://thegerontechnologist.com/2025-agetech-market-map/" target="_blank" rel="noopener">2026 AgeTech市场图谱：300+企业、60家新创、近7亿美元融资</a></h3>
+<p class="feed-summary">第8版AgeTech市场图谱发布，涵盖300+家企业、60家新创公司和近7亿美元融资。核心增长赛道包括居家安老科技、护理支持、机器人、认知健康和长寿金融科技。全球60岁以上人群是增长最快的年龄组，长寿经济是一个数万亿美元的市场机遇。</p>
+<div class="feed-tags"><span class="tag">居家养老</span><span class="tag">智慧养老</span><span class="tag">长寿科技</span><span class="tag">融资</span></div>
+<div class="rec-box">这是AgeTech行业最权威的年度图谱，300+公司分布在哪些赛道、近7亿美元去了哪些方向、60个新入局者反映了什么趋势——做银发经济研究不能绕过这份报告。有趣的是，美国AgeTech的五大增长赛道（居家安老、护理支持、机器人、认知健康、长寿金融）vs中国的银发经济热点（养老社区、保健品、老年旅游），差异巨大——是市场阶段不同，还是底层逻辑不同？值得写一篇中美AgeTech赛道对比。</div>
   </div>
 </div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2026-05-20" data-tags="居家养老,养老地产,老年消费" data-region="domestic">
   <div class="feed-time">2026-05-20</div>
@@ -1697,6 +1725,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">智慧养老</span><span class="tag">居家养老</span><span class="tag">社交陪伴</span><span class="tag">融资</span></div>
 <div class="rec-box">12个月三轮融资，上市公司战略入股——骅羲科技的融资节奏说明「具身智能+养老」不是概念，是资本真金白银下注的方向。亚华电子做智慧医院和智慧养老解决方案，投资骅羲是产业链上下游整合的典型。有趣的是跟进观察：亚华刚宣布加入华为「鸿图计划」加速智慧医院开源鸿蒙落地，两条线（机器人+鸿蒙生态）如果打通，骅羲的产品落地速度可能远超其他创业公司。可写「具身智能如何在养老场景率先落地」。</div>
   </div>
+</div><div class="feed-item" data-view="curated" data-score="8.5" data-date="2026-04-27" data-tags="投融资,银发经济,资本化,行业报告" data-region="domestic">
+  <div class="feed-time">2026-04-27</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">新浪财经</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">8.5</span> <span class="viral-tag">🔥 爆款</span>
+    </div>
+    <h3 class="feed-title"><a href="https://finance.sina.com.cn/wm/2026-04-27/doc-inhvxtqy9052060.shtml" target="_blank" rel="noopener">单笔融资重回亿元级！银发产业投资逻辑彻底变了</a></h3>
+<p class="feed-summary">系统梳理2022-2026年一级市场投融资、二级市场上市与资本运作核心数据，跨年度对比分析银发经济资本化进程底层逻辑与未来走向。单笔融资重回亿元级，资本逻辑发生重大变化。</p>
+<div class="feed-tags"><span class="tag">投融资</span><span class="tag">银发经济</span><span class="tag">资本化</span><span class="tag">行业报告</span></div>
+<div class="rec-box">重磅行业报告解读！单笔融资重回亿元级，投资逻辑变化信号强烈。建议以此为底稿，结合选题库投融资数据进行深度写作，可做成年度投融资盘点选题。</div>
+  </div>
+</div><div class="feed-item" data-view="curated" data-score="7.5" data-date="2026-04-07" data-tags="投融资,康养,国寿,阿里巴巴,智慧养老" data-region="domestic">
+  <div class="feed-time">2026-04-07</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">知乎</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.5</span> 
+    </div>
+    <h3 class="feed-title"><a href="https://zhuanlan.zhihu.com/p/2024906774910616586" target="_blank" rel="noopener">如何解读2026年3月底至4月初康养领域的密集投融资与战略布局</a></h3>
+<p class="feed-summary">本周（3.30-4.06）康养行业三个确定性信号：资本端加速布局重资产项目（国寿2.3亿收购南京CCRC）；科技平台巨头深度介入智慧养老（北京x阿里）；细分领域加速整合。</p>
+<div class="feed-tags"><span class="tag">投融资</span><span class="tag">康养</span><span class="tag">国寿</span><span class="tag">阿里巴巴</span></div>
+<div class="rec-box">三大信号：1）国寿2.3亿收购南京CCRC；2）北京x阿里合作智慧养老；3）细分领域整合。选题库未覆盖，可作为国内投融资选题参考。</div>
+  </div>
 </div><div class="feed-item" data-view="curated" data-score="8.4" data-date="2026-03-15" data-tags="智慧养老,辅助生活,健康监测,融资" data-region="overseas">
   <div class="feed-time">2026-03-15</div>
   <div class="feed-body">
@@ -1727,15 +1775,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">居家养老</span><span class="tag">保险科技</span><span class="tag">融资</span></div>
 <div class="rec-box">650万美元种子轮虽小，但「患者倡导员」模式值得关注——帮老年人搞懂医保、约对医生、吃对药。Baba的做法是「人+技术」（指派专属人工倡导者），与Solace Health的「平台化网络」模式形成对比。建议与Solace（1.3亿美元）合并写一篇「美国老年医疗导航市场」分析，讨论中国「就医陪诊/养老顾问」的市场机会和信任壁垒。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.3" data-date="2025-06-01" data-tags="居家养老,智慧养老,长寿科技,融资" data-region="overseas">
-  <div class="feed-time">2025-06-01</div>
+</div><div class="feed-item" data-view="curated" data-score="7.0" data-date="2026-02-02" data-tags="银发消费,内容运营,爆款,ABI2026" data-region="domestic">
+  <div class="feed-time">2026-02-02</div>
   <div class="feed-body">
-    <div class="feed-meta">      <span class="feed-source">TheGerontechnologist</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-high">7.3</span> 
+    <div class="feed-meta">      <span class="feed-source">搜狐</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.0</span> 
     </div>
-    <h3 class="feed-title"><a href="https://thegerontechnologist.com/2025-agetech-market-map/" target="_blank" rel="noopener">2025 AgeTech市场图谱：300+企业、60家新创、近7亿美元融资</a></h3>
-<p class="feed-summary">第8版AgeTech市场图谱发布，涵盖300+家企业、60家新创公司和近7亿美元融资。核心增长赛道包括居家安老科技、护理支持、机器人、认知健康和长寿金融科技。全球60岁以上人群是增长最快的年龄组，长寿经济是一个数万亿美元的市场机遇。</p>
-<div class="feed-tags"><span class="tag">居家养老</span><span class="tag">智慧养老</span><span class="tag">长寿科技</span><span class="tag">融资</span></div>
-<div class="rec-box">这是AgeTech行业最权威的年度图谱，300+公司分布在哪些赛道、近7亿美元去了哪些方向、60个新入局者反映了什么趋势——做银发经济研究不能绕过这份报告。有趣的是，美国AgeTech的五大增长赛道（居家安老、护理支持、机器人、认知健康、长寿金融）vs中国的银发经济热点（养老社区、保健品、老年旅游），差异巨大——是市场阶段不同，还是底层逻辑不同？值得写一篇中美AgeTech赛道对比。</div>
+    <h3 class="feed-title"><a href="https://www.sohu.com/a/982686711_120019119" target="_blank" rel="noopener">2026银发消费与流量前瞻：12位嘉宾现场拆解爆款密码</a></h3>
+<p class="feed-summary">ABI2026·第十一届中国银发产业峰会内容。12位嘉宾拆解爆款密码与变现路径，涵盖银发消费新趋势、内容创作方法论、变现路径等核心议题。</p>
+<div class="feed-tags"><span class="tag">银发消费</span><span class="tag">内容运营</span><span class="tag">爆款</span><span class="tag">ABI2026</span></div>
+<div class="rec-box">ABI2026峰会内容运营分享，12位嘉宾拆解爆款密码。可参考内容选题方向和爆款策略。</div>
+  </div>
+</div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2025-11-07" data-tags="创业,细分领域,低门槛" data-region="domestic">
+  <div class="feed-time">2025-11-07</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">今日头条</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-watch">6.5</span> 
+    </div>
+    <h3 class="feed-title"><a href="https://www.toutiao.com/article/7569939030150808115/" target="_blank" rel="noopener">2026银发经济爆款清单：11个老年项目，低门槛高需求</a></h3>
+<p class="feed-summary">盘点11个适合创业的银发经济细分领域，覆盖老年旅游、辅具租赁、上门护理、老年教育等低门槛高需求方向。</p>
+<div class="feed-tags"><span class="tag">创业</span><span class="tag">细分领域</span><span class="tag">低门槛</span></div>
+<div class="rec-box">今日头条渠道，爆款清单形式。可以作为选题灵感参考，部分细分领域与选题库重合度高。</div>
   </div>
 </div>
 </div>
@@ -1775,8 +1833,8 @@ function updateDisplay(){
   });
   const s=document.getElementById('header-stats');
   s.textContent=activeView==='all'
-    ?'更新于 2026-07-02 16:24 · 全量 174 条'
-    :'更新于 2026-07-02 16:24 · 精选 '+visible+' 条 · 高价值 34 条';
+    ?'更新于 2026-07-02 20:21 · 全量 180 条'
+    :'更新于 2026-07-02 20:21 · 精选 '+visible+' 条 · 高价值 39 条';
   document.getElementById('tag-bar').style.display=activeView==='all'?'none':'flex';
   document.getElementById('region-pills').style.display=activeView==='all'?'none':'flex';
   document.getElementById('sort-bar').style.display=activeView==='all'?'none':'flex';
