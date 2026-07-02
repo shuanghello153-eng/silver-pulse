@@ -72,23 +72,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <body>
 <div class="sidebar">
 <div class="sidebar-logo">
-<h1>AI · 银脉</h1>
+<h1>Silver Pulse 银脉</h1>
 <p class="logo-sub">Silver Pulse</p>
 </div>
 <div class="nav-section">
 <div class="nav-label">内容</div>
 <a href="index.html" class="nav-item active">资讯看板</a>
 <a href="enterprise.html" class="nav-item">企业库</a>
-<div class="nav-divider"></div>
-<div class="nav-label">筛选视图</div>
-<div class="nav-item" id="nav-curated" onclick="setView('curated')">精选 <span class="count">65</span></div>
-<div class="nav-item" id="nav-all" onclick="setView('all')">全量 <span class="count">180</span></div>
 </div>
 <div class="main">
 <div class="header">
 <div class="header-top">
 <h2>银发经济每日速览</h2>
-<div class="header-stats" id="header-stats">更新于 2026-07-02 20:21 · 精选 65 条 · 高价值 39 条</div>
+<div class="header-stats" id="header-stats">更新于 2026-07-02 22:47 · 精选 65 条 · 高价值 39 条</div>
 </div>
 <div style="display:flex;align-items:center;flex-wrap:wrap;">
 <div class="view-pills">
@@ -1833,8 +1829,8 @@ function updateDisplay(){
   });
   const s=document.getElementById('header-stats');
   s.textContent=activeView==='all'
-    ?'更新于 2026-07-02 20:21 · 全量 180 条'
-    :'更新于 2026-07-02 20:21 · 精选 '+visible+' 条 · 高价值 39 条';
+    ?'更新于 2026-07-02 22:47 · 全量 180 条'
+    :'更新于 2026-07-02 22:47 · 精选 '+visible+' 条 · 高价值 39 条';
   document.getElementById('tag-bar').style.display=activeView==='all'?'none':'flex';
   document.getElementById('region-pills').style.display=activeView==='all'?'none':'flex';
   document.getElementById('sort-bar').style.display=activeView==='all'?'none':'flex';
@@ -1850,8 +1846,6 @@ function sortItems(){
 
 function setView(view){
   activeView=view;activeTag='all';
-  document.getElementById('nav-curated').classList.toggle('active',view==='curated');
-  document.getElementById('nav-all').classList.toggle('active',view==='all');
   document.getElementById('pill-curated').classList.toggle('active',view==='curated');
   document.getElementById('pill-all').classList.toggle('active',view==='all');
   document.querySelectorAll('.tag-btn').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
