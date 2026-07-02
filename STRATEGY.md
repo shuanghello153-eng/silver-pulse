@@ -132,8 +132,8 @@ The Villages / Riverspring Living / August Health / Cala Health / Synapticure / 
 
 ### 当前状态
 - 自动化: ⏸ 暂停（等部署完全修复后恢复）
-- 部署: ✅ 已上线 https://shuanghello153-eng.github.io/silver-pulse/
-- GitHub push偶尔慢（>2分钟），但可成功
+- 部署: 🔄 已修复代码并推送到 GitHub，GitHub Pages 正在同步（CDN 缓存约 10 分钟）
+- 2026-07-02 修复：sidebar 统一为 `Silver Pulse 银脉` + 移除侧边栏筛选视图；修复企业库「全量」切换 JS 崩溃；资讯看板内容空白为旧版缓存导致，新代码已生成。
 
 ---
 
