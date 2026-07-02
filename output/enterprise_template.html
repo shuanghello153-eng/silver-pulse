@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>银脉企业库 — Silver Pulse Enterprise Database</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --card-bg: #1a2332;
+    --card-hover: #223344;
+    --text: #e7e9ea;
+    --text-secondary: #8899a6;
+    --accent: #f7b731;
+    --accent2: #1da1f2;
+    --border: #2f3336;
+    --p0: #ff4757;
+    --p1: #f7b731;
+    --p2: #1da1f2;
+    --high: #ff4757;
+    --watch: #f7b731;
+    --archive: #8899a6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .header h1 {
+    font-size: 28px;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .header p {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  .stats-bar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 12px;
+  }
+  .stat {
+    background: var(--bg);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  .stat-value {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .search-box {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 14px;
+  }
+  .filter-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover { background: var(--card-hover); }
+  .filter-btn.active {
+    background: var(--accent);
+    color: var(--bg);
+    border-color: var(--accent);
+    font-weight: 700;
+  }
+  .filter-btn.pri-p0.active { background: var(--p0); border-color: var(--p0); }
+  .filter-btn.pri-p1.active { background: var(--p1); border-color: var(--p1); }
+  .filter-btn.pri-p2.active { background: var(--p2); border-color: var(--p2); }
+  .enterprise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .enterprise-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    transition: all 0.2s;
+    cursor: default;
+  }
+  .enterprise-card:hover {
+    background: var(--card-hover);
+    border-color: var(--accent);
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .card-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .priority-badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .priority-badge.p0 { background: var(--p0); color: white; }
+  .priority-badge.p1 { background: var(--p1); color: var(--bg); }
+  .priority-badge.p2 { background: var(--p2); color: white; }
+  .priority-badge.written { background: #2ed573; color: var(--bg); }
+  .priority-badge.abandoned { background: var(--text-secondary); color: var(--bg); }
+  .card-category {
+    color: var(--accent2);
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .card-funding {
+    background: var(--bg);
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+  .funding-amount {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 15px;
+  }
+  .funding-detail {
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+  .card-summary {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .card-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .tag {
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--bg);
+    color: var(--text-secondary);
+    font-size: 11px;
+  }
+  .card-coverage {
+    color: var(--text-secondary);
+    font-size: 12px;
+    padding: 6px 10px;
+    background: var(--bg);
+    border-radius: 6px;
+    margin-bottom: 6px;
+  }
+  .card-coverage .no-coverage { color: #2ed573; }
+  .card-suggestion {
+    color: var(--accent);
+    font-size: 13px;
+    font-style: italic;
+  }
+  .no-results {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 40px;
+    font-size: 16px;
+  }
+  .nav-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 20px;
+    background: var(--card-bg);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+  .nav-tab {
+    padding: 12px 24px;
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid var(--border);
+    transition: all 0.2s;
+    flex: 1;
+  }
+  .nav-tab:last-child { border-right: none; }
+  .nav-tab:hover { background: var(--card-hover); }
+  .nav-tab.active {
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🔍 银脉企业库 — Silver Pulse Enterprise DB</h1>
+  <p>银发经济赛道企业精选 · 从选题库+AgeTech Map精选30家核心企业</p>
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-value" style="color:var(--p0)">3</span> P0核心</div>
+    <div class="stat"><span class="stat-value" style="color:var(--p1)">27</span> P1重要</div>
+    <div class="stat"><span class="stat-value" style="color:var(--accent)">30</span> 总计</div>
+  </div>
+</div>
+
+<div class="nav-tabs">
+  <div class="nav-tab active" onclick="switchTab('enterprise')">📋 企业库</div>
+  <div class="nav-tab" onclick="window.open('index_news.html','_self')">📰 资讯看板</div>
+</div>
+
+<div class="controls">
+  <input type="text" class="search-box" id="searchInput" placeholder="搜索企业名、赛道、关键词..." oninput="filterCards()">
+  <div class="filter-group" id="categoryFilters">
+    <button class="filter-btn active" onclick="toggleFilter('category','全部')">全部</button>
+    <button class="filter-btn" onclick="toggleFilter('category','居家养老/护理')">居家养老</button>
+    <button class="filter-btn" onclick="toggleFilter('category','认知症')">认知症</button>
+    <button class="filter-btn" onclick="toggleFilter('category','PACE')">PACE</button>
+    <button class="filter-btn" onclick="toggleFilter('category','护理员支持')">护理员支持</button>
+    <button class="filter-btn" onclick="toggleFilter('category','保险科技')">保险</button>
+    <button class="filter-btn" onclick="toggleFilter('category','数字疗法')">数字疗法</button>
+    <button class="filter-btn" onclick="toggleFilter('category','金融理财')">金融</button>
+    <button class="filter-btn" onclick="toggleFilter('category','养老住房')">住房</button>
+  </div>
+  <div class="filter-group">
+    <button class="filter-btn pri-p0 active" onclick="toggleFilter('priority','全部')">全部</button>
+    <button class="filter-btn pri-p0" onclick="toggleFilter('priority','P0')">P0</button>
+    <button class="filter-btn pri-p1" onclick="toggleFilter('priority','P1')">P1</button>
+  </div>
+</div>
+
+<div class="enterprise-grid" id="enterpriseGrid"></div>
+<div class="no-results" id="noResults" style="display:none">没有匹配的企业</div>
+
+<script>
+const enterprises = ENTERPRISE_DATA_PLACEHOLDER;
+
+let activeCategoryFilter = '全部';
+let activePriorityFilter = '全部';
+
+function toggleFilter(type, value) {
+  if (type === 'category') {
+    activeCategoryFilter = value;
+    document.querySelectorAll('#categoryFilters .filter-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.trim() === value || (value === '全部' && btn.textContent.trim() === '全部'));
+    });
+  } else if (type === 'priority') {
+    activePriorityFilter = value;
+    document.querySelectorAll('.filter-group .pri-p0, .filter-group .pri-p1, .filter-group .pri-p2').forEach(btn => {
+      const btnPri = btn.textContent.trim();
+      btn.classList.toggle('active', btnPri === value || (value === '全部' && btnPri === '全部'));
+    });
+  }
+  filterCards();
+}
+
+function filterCards() {
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const grid = document.getElementById('enterpriseGrid');
+  const noResults = document.getElementById('noResults');
+
+  let filtered = enterprises.filter(e => {
+    // Search filter
+    if (search) {
+      const text = `${e.name} ${e.category} ${e.business_summary||''} ${(e.tags||[]).join(' ')} ${e.suggestion||''}`.toLowerCase();
+      if (!text.includes(search)) return false;
+    }
+    // Category filter
+    if (activeCategoryFilter !== '全部') {
+      if (!e.category.includes(activeCategoryFilter) && !e.category.includes(activeCategoryFilter.replace('/',''))) return false;
+    }
+    // Priority filter
+    if (activePriorityFilter !== '全部') {
+      if (e.priority !== activePriorityFilter) return false;
+    }
+    return true;
+  });
+
+  // Sort: P0 first, then by funding amount
+  filtered.sort((a, b) => {
+    const priOrder = { 'P0': 0, 'P1': 1, 'P2': 2, '已写': 3, '废弃': 4 };
+    const aPri = priOrder[a.priority] ?? 5;
+    const bPri = priOrder[b.priority] ?? 5;
+    if (aPri !== bPri) return aPri - bPri;
+    const aAmt = (a.funding && a.funding.latest_amount) || 0;
+    const bAmt = (b.funding && b.funding.latest_amount) || 0;
+    return bAmt - aAmt;
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    noResults.style.display = 'block';
+    return;
+  }
+  noResults.style.display = 'none';
+
+  grid.innerHTML = filtered.map(e => {
+    const priClass = (e.priority || '').toLowerCase().replace('/','').replace('可写','written').replace('废弃','abandoned');
+    const priLabel = e.priority || '未定';
+    const fundingHtml = e.funding ? `
+      <div class="card-funding">
+        <div class="funding-amount">${e.funding.latest_amount_display || '金额未披露'}</div>
+        ${e.funding.latest_date ? `<div class="funding-detail">时间: ${e.funding.latest_date} | 轮次: ${e.funding.latest_round || '未知'}</div>` : ''}
+        ${e.funding.total_amount_display ? `<div class="funding-detail">总融资: ${e.funding.total_amount_display}</div>` : ''}
+      </div>
+    ` : '';
+    const tagsHtml = (e.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+    const coverageHtml = e.domestic_coverage ? `
+      <div class="card-coverage">
+        ${e.domestic_coverage.includes('没有') || e.domestic_coverage.includes('无') ?
+          `<span class="no-coverage">✅ 国内无覆盖（差异化空间大）</span><br>${e.domestic_coverage}` :
+          `📊 ${e.domestic_coverage}`}
+      </div>
+    ` : '';
+    const suggestionHtml = e.suggestion ? `<div class="card-suggestion">💡 ${e.suggestion}</div>` : '';
+
+    return `
+      <div class="enterprise-card">
+        <div class="card-header">
+          <span class="card-name">${e.name}</span>
+          <span class="priority-badge ${priClass}">${priLabel}</span>
+        </div>
+        <div class="card-category">${e.category}</div>
+        ${fundingHtml}
+        <div class="card-summary">${e.business_summary || ''}</div>
+        <div class="card-tags">${tagsHtml}</div>
+        ${coverageHtml}
+        ${suggestionHtml}
+      </div>
+    `;
+  }).join('');
+}
+
+// Initial render
+filterCards();
+</script>
+
+</body>
+</html>
