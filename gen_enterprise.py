@@ -307,10 +307,6 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <div class="nav-label">内容</div>
     <a href="index.html" class="nav-item">资讯看板</a>
     <a href="enterprise.html" class="nav-item active">企业库 <span class="count">{total}</span></a>
-    <div class="nav-divider"></div>
-    <div class="nav-label">筛选视图</div>
-    <div class="nav-item" id="nav-curated" onclick="setEntView('curated')">精选({curated_count})</div>
-    <div class="nav-item" id="nav-all" onclick="setEntView('all')">全量({total})</div>
   </div>
 </div>
 
