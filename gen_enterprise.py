@@ -300,13 +300,13 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 
 <div class="sidebar">
   <div class="sidebar-logo">
-    <h1>AI · 银脉</h1>
+    <h1>Silver Pulse 银脉</h1>
     <p class="logo-sub">Silver Pulse</p>
   </div>
   <div class="nav-section">
     <div class="nav-label">内容</div>
     <a href="index.html" class="nav-item">资讯看板</a>
-    <a href="enterprise.html" class="nav-item active">企业库 <span class="count">{total}</span></a>
+    <a href="enterprise.html" class="nav-item active">企业库</a>
   </div>
 </div>
 
@@ -378,10 +378,6 @@ let activeView = 'curated';
 function setEntView(view) {{
   activeView = view;
 
-  // Nav
-  document.getElementById('nav-curated').classList.toggle('active', view==='curated');
-  document.getElementById('nav-all').classList.toggle('active', view==='all');
-
   // Pills
   document.getElementById('pill-curated').classList.toggle('active', view==='curated');
   document.getElementById('pill-all').classList.toggle('active', view==='all');
@@ -392,7 +388,6 @@ function setEntView(view) {{
 function filterEnt() {{
   const q = document.getElementById('search').value.toLowerCase();
   const rows = document.querySelectorAll('.data-row');
-  let visible = 0;
 
   rows.forEach(row => {{
     const pri = row.dataset.priority;
@@ -412,12 +407,7 @@ function filterEnt() {{
     const searchMatch = !q || name.includes(q);
 
     row.style.display = (priMatch && regMatch && catMatch && searchMatch) ? '' : 'none';
-    if (row.style.display !== 'none') visible++;
   }});
-
-  // Update count in nav
-  document.querySelector('#nav-ent .count').textContent =
-    activeView === 'curated' ? '(' + visible + ')' : '(%s)';
 }}
 
 // Priority buttons
@@ -455,9 +445,6 @@ filterEnt();
 </script>
 </body>
 </html>'''
-
-    # Inject total count into JS (replace only the specific placeholder)
-    html = html.replace("'%s'", "'" + str(total) + "'")
 
     out_path = os.path.join(OUTPUT_DIR, "enterprise.html")
     with open(out_path, "w", encoding="utf-8") as f:
