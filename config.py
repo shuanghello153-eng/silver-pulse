@@ -91,6 +91,43 @@ SOURCES = {
         "tier": 2,
         "region": "domestic",
     },
+    # T2 Chinese media via Google News proxy
+    "36kr_silver": {
+        "name": "36氪-银发经济",
+        "feed_url": "https://news.google.com/rss/search?q=site:36kr.com+%E9%93%B6%E5%8F%91+OR+%E5%85%BB%E8%80%81+OR+%E8%80%81%E5%B9%B4+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "type": "google_news",
+        "tier": 2,
+        "region": "domestic",
+    },
+    "vcbeat_aging": {
+        "name": "动脉网-养老医疗",
+        "feed_url": "https://news.google.com/rss/search?q=site:vcbeat.top+%E5%85%BB%E8%80%81+OR+%E9%93%B6%E5%8F%91+OR+%E8%80%81%E5%B9%B4+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "type": "google_news",
+        "tier": 2,
+        "region": "domestic",
+    },
+    "hospice_news": {
+        "name": "Hospice News",
+        "feed_url": "https://news.google.com/rss/search?q=site:hospicenews.com+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "type": "google_news",
+        "tier": 1,
+        "region": "overseas",
+    },
+    "mcknights_home": {
+        "name": "McKnight's Home Care",
+        "feed_url": "https://news.google.com/rss/search?q=site:mcknightshomecare.com+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "type": "google_news",
+        "tier": 1,
+        "region": "overseas",
+    },
+    # T3 Broad overseas silver economy via Google News
+    "aging_tech_news": {
+        "name": "Google News - Aging Tech",
+        "feed_url": "https://news.google.com/rss/search?q=%22aging+in+place%22+OR+%22senior+living%22+OR+%22elderly+care%22+OR+%22long-term+care%22+OR+%22assisted+living%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "type": "google_news",
+        "tier": 3,
+        "region": "overseas",
+    },
 }
 
 # === Scoring ===
@@ -164,8 +201,10 @@ OVERSEAS_SOURCES = {
     "FierceHealthcare", "Crunchbase News", "TheGerontechnologist",
     "Senior Housing News", "Home Health Care News",
     "McKnight's Senior Living", "MobiHealthNews",
+    "Hospice News", "McKnight's Home Care",
     "Bloomberg Law News", "Aging in Place Technology News",
     "Forbes", "TechCrunch",
+    "Google News - Silver Economy", "Google News - Aging Tech",
 }
 
 # === 银发财经头部账号清单 (用于爆款监测 + 选题参考) ===
