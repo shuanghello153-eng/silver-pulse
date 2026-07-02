@@ -154,18 +154,25 @@ def generate():
         region_cls = "reg-overseas" if region == "overseas" else "reg-china"
         region_txt = "海外" if region == "overseas" else "国内"
 
-        # Funding string
+        # Funding string — supports both new schema (latest_round, latest_amount_display)
+        # and legacy schema (round, amount)
         funding_str = ""
         if isinstance(funding, dict):
             parts = []
-            if funding.get("round"): parts.append(funding["round"])
-            if funding.get("amount"): parts.append(funding["amount"])
+            round_val = funding.get("latest_round") or funding.get("round") or ""
+            amount_val = funding.get("latest_amount_display") or funding.get("amount") or ""
+            total_val = funding.get("total_amount_display") or ""
+            if amount_val: parts.append(amount_val)
+            elif round_val and round_val not in ("未披露", "多轮", "子公司", "Spinoff", "IPO"): parts.append(round_val)
+            if total_val and total_val not in ("未披露",) and total_val != amount_val:
+                prefix = "" if total_val.startswith("累计") else "累计"
+                parts.append(f"{prefix}{total_val}")
             if funding.get("investors"):
                 invs = funding["investors"]
                 parts.append(invs if isinstance(invs, str) else ", ".join(invs))
-            funding_str = " | ".join(parts)[:100]
+            funding_str = " | ".join(parts)[:120]
         elif isinstance(funding, str) and len(funding) > 2:
-            funding_str = funding[:100]
+            funding_str = funding[:120]
 
         investor_badge = '<span class="badge badge-invest">投</span>' if is_investor else ""
 
