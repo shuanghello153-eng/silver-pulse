@@ -280,8 +280,6 @@ function sortItems(){
 
 function setView(view){
   activeView=view;activeTag='all';
-  document.getElementById('nav-curated').classList.toggle('active',view==='curated');
-  document.getElementById('nav-all').classList.toggle('active',view==='all');
   document.getElementById('pill-curated').classList.toggle('active',view==='curated');
   document.getElementById('pill-all').classList.toggle('active',view==='all');
   document.querySelectorAll('.tag-btn').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
@@ -362,17 +360,13 @@ def generate_html(scored_articles=None, output_path=None):
         # Sidebar
         '<div class="sidebar">',
         '<div class="sidebar-logo">',
-        '<h1>AI \xb7 银脉</h1>',
+        '<h1>Silver Pulse 银脉</h1>',
         '<p class="logo-sub">Silver Pulse</p>',
         '</div>',
         '<div class="nav-section">',
         '<div class="nav-label">内容</div>',
         '<a href="index.html" class="nav-item active">资讯看板</a>',
         '<a href="enterprise.html" class="nav-item">企业库</a>',
-        '<div class="nav-divider"></div>',
-        '<div class="nav-label">筛选视图</div>',
-        '<div class="nav-item" id="nav-curated" onclick="setView(\'curated\')">精选 <span class="count">%s</span></div>' % curated_count,
-        '<div class="nav-item" id="nav-all" onclick="setView(\'all\')">全量 <span class="count">%s</span></div>' % total_count,
         '</div>',
 
         # Main content
