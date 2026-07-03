@@ -83,11 +83,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <a href="index.html" class="nav-item active">资讯看板</a>
 <a href="enterprise.html" class="nav-item">企业库</a>
 </div>
+</div>
 <div class="main">
 <div class="header">
 <div class="header-top">
 <h2>银发经济每日速览</h2>
-<div class="header-stats" id="header-stats">更新于 2026-07-03 11:34 · 精选 62 条 · 高价值 38 条</div>
+<div class="header-stats" id="header-stats">更新于 2026-07-03 14:01 · 精选 62 条 · 高价值 38 条</div>
 </div>
 <div style="display:flex;align-items:center;flex-wrap:wrap;">
 <div class="view-pills">
@@ -767,8 +768,8 @@ function updateDisplay(){
   });
   const s=document.getElementById('header-stats');
   s.textContent=activeView==='all'
-    ?'更新于 2026-07-03 11:34 · 全量 62 条'
-    :'更新于 2026-07-03 11:34 · 精选 '+visible+' 条 · 高价值 38 条';
+    ?'更新于 2026-07-03 14:01 · 全量 62 条'
+    :'更新于 2026-07-03 14:01 · 精选 '+visible+' 条 · 高价值 38 条';
   document.getElementById('tag-bar').style.display=activeView==='all'?'none':'flex';
   document.getElementById('region-pills').style.display=activeView==='all'?'none':'flex';
   document.getElementById('sort-bar').style.display=activeView==='all'?'none':'flex';
