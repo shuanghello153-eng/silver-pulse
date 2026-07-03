@@ -23,6 +23,9 @@ OVERSEAS_SOURCE_NAMES = {
     "Forbes", "TechCrunch",
 }
 
+WHITELIST_TAGS = set(INDUSTRY_TAGS + EVENT_TAGS)
+BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
+
 
 def load_raw_articles():
     raw_files = sorted(glob.glob(os.path.join(DATA_DIR, "raw_*.json")), reverse=True)
@@ -136,7 +139,7 @@ def build_card_html(art):
         region_tag = '<span class="region-tag region-domestic">国内</span>'
 
     tags_html = "".join(
-        '<span class="tag">%s</span>' % t for t in tags[:4]
+        '<span class="tag">%s</span>' % t for t in tags[:4] if t in WHITELIST_TAGS
     ) if tags else ""
 
     suggestion_html = ""
@@ -201,11 +204,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .region-pills{display:inline-flex;gap:4px;margin-left:12px;vertical-align:middle}
 .region-pill{padding:5px 14px;border-radius:17px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
 .region-pill.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
-.tag-bar{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px;align-items:center}
-.tag-bar-label{font-size:11px;color:var(--text-muted);margin-right:4px}
+.tag-bar{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px;align-items:center}
+.tag-bar-label{font-size:11px;color:var(--text-muted);margin-right:4px;min-width:32px}
 .tag-btn{padding:3px 10px;border-radius:14px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s}
 .tag-btn:hover{border-color:var(--accent);color:var(--accent)}
 .tag-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.search-wrap{margin-bottom:12px}
+.search-wrap input{width:100%;padding:8px 14px;border:1px solid var(--border);border-radius:var(--radius);font-size:13px;outline:none;background:var(--card-bg);color:var(--text)}
+.search-wrap input:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.1)}
 .feed-item{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--border)}
 .feed-item:last-child{border-bottom:none}
 .feed-time{flex-shrink:0;width:52px;font-size:13px;font-weight:700;color:var(--text-muted);padding-top:2px;text-align:right}
@@ -241,8 +247,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 JS_SCRIPT = """
 let activeView='curated';
 let activeRegion='all';
-let activeTag='all';
+let activeIndustryTag='all';
+let activeEventTag='all';
 let activeSort='time';
+let searchTerm='';
 const items=document.querySelectorAll('.feed-item');
 
 function updateDisplay(){
@@ -252,11 +260,18 @@ function updateDisplay(){
     const tags=item.dataset.tags||'';
     const reg=item.dataset.region||'';
     const sc=parseFloat(item.dataset.score)||0;
+    const titleEl=item.querySelector('.feed-title');
+    const summaryEl=item.querySelector('.feed-summary');
+    const title=titleEl?titleEl.textContent.toLowerCase():'';
+    const summary=summaryEl?summaryEl.textContent.toLowerCase():'';
+
     const vm=activeView==='all'||v==='curated';
     const rm=activeRegion==='all'||reg===activeRegion||(activeView==='all');
-    const tm=activeView==='all'||activeTag==='all'||tags.includes(activeTag);
+    const im=activeView==='all'||activeIndustryTag==='all'||tags.includes(activeIndustryTag);
+    const em=activeView==='all'||activeEventTag==='all'||tags.includes(activeEventTag);
+    const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm);
     const isArc=activeView==='curated'&&sc>0&&sc<%s;
-    if(vm&&rm&&tm){
+    if(vm&&rm&&im&&em&&sm){
       if(isArc){item.style.opacity='.35';item.style.pointerEvents='none';visible++}
       else{item.style.opacity='';item.style.pointerEvents='';visible++}
     }else{item.style.display='none'}
@@ -265,9 +280,12 @@ function updateDisplay(){
   s.textContent=activeView==='all'
     ?'更新于 %s · 全量 %s 条'
     :'更新于 %s · 精选 '+visible+' 条 · 高价值 %s 条';
-  document.getElementById('tag-bar').style.display=activeView==='all'?'none':'flex';
-  document.getElementById('region-pills').style.display=activeView==='all'?'none':'flex';
-  document.getElementById('sort-bar').style.display=activeView==='all'?'none':'flex';
+  const showFilters=activeView!=='all';
+  document.getElementById('tag-bar-industry').style.display=showFilters?'flex':'none';
+  document.getElementById('tag-bar-event').style.display=showFilters?'flex':'none';
+  document.getElementById('region-pills').style.display=showFilters?'flex':'none';
+  document.getElementById('sort-bar').style.display=showFilters?'flex':'none';
+  document.getElementById('search-wrap').style.display=showFilters?'block':'none';
 }
 
 function sortItems(){
@@ -279,10 +297,12 @@ function sortItems(){
 }
 
 function setView(view){
-  activeView=view;activeTag='all';
+  activeView=view;activeIndustryTag='all';activeEventTag='all';searchTerm='';
+  document.getElementById('search-input').value='';
   document.getElementById('pill-curated').classList.toggle('active',view==='curated');
   document.getElementById('pill-all').classList.toggle('active',view==='all');
-  document.querySelectorAll('.tag-btn').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
+  document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
+  document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
   document.querySelectorAll('.region-pill').forEach(b=>b.classList.toggle('active',b.dataset.region==='all'));
   document.querySelectorAll('.sort-btn').forEach(b=>b.classList.toggle('active',b.dataset.sort==='time'));
   activeRegion='all';activeSort='time';sortItems();updateDisplay();
@@ -300,11 +320,20 @@ document.querySelectorAll('.sort-btn').forEach(btn=>{
     this.classList.add('active');activeSort=this.dataset.sort;sortItems();updateDisplay();
   });
 });
-document.querySelectorAll('.tag-btn').forEach(btn=>{
+document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(btn=>{
   btn.addEventListener('click',function(){
-    document.querySelectorAll('.tag-btn').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');activeTag=this.dataset.tag;updateDisplay();
+    document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeIndustryTag=this.dataset.tag;updateDisplay();
   });
+});
+document.querySelectorAll('.tag-btn[data-group="event"]').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeEventTag=this.dataset.tag;updateDisplay();
+  });
+});
+document.getElementById('search-input').addEventListener('input',function(){
+  searchTerm=this.value.toLowerCase().trim();updateDisplay();
 });
 updateDisplay();
 """
@@ -326,8 +355,11 @@ def generate_html(scored_articles=None, output_path=None):
     for art in merged:
         if art.get("view") == "curated":
             for tag in art.get("tags", []):
-                all_tags.add(tag)
-    sorted_tags = sorted(all_tags)
+                if tag in WHITELIST_TAGS:
+                    all_tags.add(tag)
+
+    industry_tags_present = [t for t in INDUSTRY_TAGS if t in all_tags]
+    event_tags_present = [t for t in EVENT_TAGS if t in all_tags]
 
     curated_count = sum(1 for a in merged if a.get("view") == "curated")
     total_count = len(merged)
@@ -341,8 +373,11 @@ def generate_html(scored_articles=None, output_path=None):
     # Build parts
     cards_html = "".join(build_card_html(art) for art in merged)
 
-    tag_buttons = "".join(
-        '<button class="tag-btn" data-tag="%s">%s</button>' % (t, t) for t in sorted_tags
+    industry_buttons = "".join(
+        '<button class="tag-btn" data-tag="%s" data-group="industry">%s</button>' % (t, t) for t in industry_tags_present
+    )
+    event_buttons = "".join(
+        '<button class="tag-btn" data-tag="%s" data-group="event">%s</button>' % (t, t) for t in event_tags_present
     )
 
     # Inject values into JS template
@@ -350,6 +385,7 @@ def generate_html(scored_articles=None, output_path=None):
 
     # Assemble full HTML using string concatenation (no giant f-string)
     parts = [
+        '<!-- build:%s -->\n' % BUILD_STAMP,
         '<!DOCTYPE html>\n<html lang="zh-CN">\n<head>',
         '<meta charset="UTF-8">',
         '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
@@ -391,11 +427,23 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div></div></div>',
 
-        # Tag bar
-        '<div class="tag-bar" id="tag-bar">',
-        '<span class="tag-bar-label">标签:</span>',
-        '<button class="tag-btn active" data-tag="all">全部</button>',
-        tag_buttons,
+        # Industry tag bar
+        '<div class="tag-bar" id="tag-bar-industry">',
+        '<span class="tag-bar-label">行业:</span>',
+        '<button class="tag-btn active" data-tag="all" data-group="industry">全部</button>',
+        industry_buttons,
+        '</div>',
+
+        # Event tag bar
+        '<div class="tag-bar" id="tag-bar-event">',
+        '<span class="tag-bar-label">事件:</span>',
+        '<button class="tag-btn active" data-tag="all" data-group="event">全部</button>',
+        event_buttons,
+        '</div>',
+
+        # Search
+        '<div class="search-wrap" id="search-wrap">',
+        '<input type="text" id="search-input" placeholder="搜索标题或摘要...">',
         '</div>',
 
         # Sort bar
@@ -413,12 +461,6 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="footer">',
         '<p>Silver Pulse 银脉 · 银发经济投融资每日速览</p>',
         '<p>Powered by WorkBuddy · 海外 + 中文双源覆盖</p>',
-        '</div>',
-
-        # About section
-        '<div id="about" class="hidden" style="margin-top:24px;padding:16px;background:var(--card-bg);border-radius:var(--radius);">',
-        '<p style="font-size:13px;color:var(--text-secondary);line-height:1.8;"><b>关于 Silver Pulse 银脉</b></p>',
-        '<p style="font-size:13px;color:var(--text-secondary);line-height:1.8;">面向银发经济创业者的全球投融资资讯聚合看板。<br>以海外为镜，照中国之路。</p>',
         '</div>',
 
         # Close main + body

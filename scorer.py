@@ -7,7 +7,7 @@ import json
 import os
 from datetime import datetime
 
-from config import SCORING_DIMENSIONS, DATA_DIR, HIGH_VALUE_THRESHOLD, WATCH_THRESHOLD
+from config import SCORING_DIMENSIONS, DATA_DIR, HIGH_VALUE_THRESHOLD, WATCH_THRESHOLD, INDUSTRY_TAGS, EVENT_TAGS
 
 SCORED_FILE = os.path.join(DATA_DIR, "scored_latest.json")
 
@@ -60,13 +60,19 @@ def build_scoring_prompt(articles):
             f"    summary: {art.get('summary','')[:200]}"
         )
 
+    industry_list = "|".join(INDUSTRY_TAGS)
+    event_list = "|".join(EVENT_TAGS)
+
     prompt = f"""你是银发经济研究专家。对以下资讯打分(0-10分,四维加权:{dim_desc})和推荐理由。
 
-行业标签: 居家养老|健康监测|数字疗法|认知症|远程医疗|保险科技|康复辅具|药物管理|社交陪伴|慢病管理|智慧养老|辅助生活|临终关怀|养老地产|老年消费|护理人力|金融科技|出行交通|营养健康|长寿科技
-事件标签: 融资|收购|IPO|产品发布|战略合作|政策法规|财报
+【标签规则 — 严格遵守】
+标签只能从以下27个白名单中选择，禁止自创标签：
+  行业标签(最多选2个): {industry_list}
+  事件标签(最多选1个): {event_list}
+不要输出上述列表之外的任何标签。例如"银发经济""AI""36氪""上海"等都不是有效标签。
 
 输出JSON数组,每条格式:
-{{"id":0,"final_score":7.5,"category":"high|watch|archive","tags":["标签1","标签2"],"recommendation":"2-3句推荐理由,说清为什么值得关注、对中国市场有什么参照"}}
+{{"id":0,"final_score":7.5,"category":"high|watch|archive","tags":["行业标签","事件标签"],"recommendation":"2-3句推荐理由,说清为什么值得关注、对中国市场有什么参照"}}
 
 资讯列表:
 {chr(10).join(articles_text)}

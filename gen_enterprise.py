@@ -5,9 +5,11 @@ Category consolidation: 115 raw -> ~12 top-level groups.
 """
 import json
 import os
+from datetime import datetime
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
 # === Category Consolidation Map ===
 # Maps 115 granular categories to ~12 top-level groups
@@ -179,20 +181,55 @@ def generate():
         data_attrs = (
             f'data-priority="{priority}" data-region="{region}" '
             f'data-cat="{ent.get("_top_cat","")}" '
-            f'data-name="{(name+" "+name_cn).lower()}"'
+            f'data-name="{(name+" "+name_cn).lower()}" '
+            f'data-ent-id="{ent.get("id","")}"'
         )
 
         sub_html = f' <span class="sub-cat">{sub_cat}</span>' if sub_cat else ""
         desc_html = f'<span class="row-desc">{desc}</span>' if desc else ""
         fund_html = f'<span class="row-fund">{funding_str}</span>' if funding_str else ""
 
+        # Build detail row content
+        detail_parts = []
+        full_desc = ent.get("description", "") or ent.get("business_summary", "") or ""
+        if full_desc:
+            detail_parts.append(f'<b>简介:</b> {full_desc}')
+        if isinstance(funding, dict):
+            fund_details = []
+            if funding.get("latest_amount_display"):
+                fund_details.append(f'最新轮次: {funding["latest_amount_display"]}')
+            if funding.get("latest_date"):
+                fund_details.append(f'时间: {funding["latest_date"]}')
+            if funding.get("total_amount_display"):
+                fund_details.append(f'累计: {funding["total_amount_display"]}')
+            if funding.get("investors"):
+                invs = funding["investors"]
+                fund_details.append(f'投资方: {invs if isinstance(invs, str) else ", ".join(invs)}')
+            if fund_details:
+                detail_parts.append(f'<b>融资:</b> {" | ".join(fund_details)}')
+        if ent.get("domestic_coverage") and ent["domestic_coverage"] != "无":
+            detail_parts.append(f'<b>国内报道:</b> {ent["domestic_coverage"]}')
+        if ent.get("suggestion") and ent["suggestion"] not in ("无", ""):
+            detail_parts.append(f'<b>选题建议:</b> {ent["suggestion"]}')
+        if ent.get("tags"):
+            tags_str = " ".join(f'<span class="tag-mini">{t}</span>' for t in ent["tags"])
+            detail_parts.append(f'<b>标签:</b> {tags_str}')
+        if ent.get("source"):
+            detail_parts.append(f'<b>来源:</b> {ent["source"]}')
+
+        detail_html = "<br>".join(detail_parts) if detail_parts else "暂无详细信息"
+        ent_id = ent.get("id", "")
+
         return (
-            f'<tr class="data-row {data_attrs}">'
+            f'<tr class="data-row" {data_attrs} style="cursor:pointer" onclick="toggleDetail(\'{ent_id}\')">'
             f'  <td><span class="badge {pri_cls}">{pri_txt}</span>{investor_badge}</td>'
             f'  <td><span class="badge {region_cls}">{region_txt}</span></td>'
             f'  <td class="col-name">{display_name}{sub_html}</td>'
             f'  <td class="col-cat">{top_label}</td>'
             f'  <td class="col-detail">{fund_html}{desc_html}</td>'
+            f'</tr>'
+            f'<tr class="detail-row" id="detail-{ent_id}" style="display:none">'
+            f'  <td colspan="5" class="detail-content">{detail_html}</td>'
             f'</tr>'
         )
 
@@ -204,7 +241,8 @@ def generate():
         for key, (label, _) in sorted_cats
     )
 
-    html = f'''<!DOCTYPE html>
+    html = f'''<!-- build:{BUILD_STAMP} -->
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -296,6 +334,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .row-fund {{ display:inline-block; background:#fffbeb; color:#92400e; padding:1px 6px; border-radius:4px; font-size:10px; margin-right:4px; }}
 
 .footer {{ text-align:center; padding:24px 0 16px; font-size:12px; color:var(--text-muted); border-top:1px solid var(--border); margin-top:24px; }}
+.detail-content {{ padding:12px 16px; background:#f9fafb; font-size:12px; color:var(--text-secondary); line-height:1.8; border-bottom:1px solid var(--border); }}
+.tag-mini {{ display:inline-block; font-size:10px; padding:1px 6px; border-radius:3px; background:#f0f0f0; color:var(--text-secondary); margin-right:3px; }}
 .hidden {{ display:none !important; }}
 
 @media (max-width:768px) {{
@@ -452,6 +492,13 @@ document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
 
 // Initialize
 filterEnt();
+
+function toggleDetail(id) {{
+  const el = document.getElementById('detail-' + id);
+  if (el) {{
+    el.style.display = el.style.display === 'none' ? '' : 'none';
+  }}
+}}
 </script>
 </body>
 </html>'''

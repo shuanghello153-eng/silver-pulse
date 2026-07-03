@@ -1,3 +1,5 @@
+<!-- build:20260703213011 -->
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -6,7 +8,6 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<!-- build:20260703150000 -->
 <title>Silver Pulse 银脉</title>
 <style>
 :root{--bg:#f5f5f5;--sidebar-bg:#fff;--card-bg:#fff;--text:#1a1a1a;
@@ -37,11 +38,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .region-pills{display:inline-flex;gap:4px;margin-left:12px;vertical-align:middle}
 .region-pill{padding:5px 14px;border-radius:17px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
 .region-pill.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
-.tag-bar{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px;align-items:center}
-.tag-bar-label{font-size:11px;color:var(--text-muted);margin-right:4px}
+.tag-bar{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px;align-items:center}
+.tag-bar-label{font-size:11px;color:var(--text-muted);margin-right:4px;min-width:32px}
 .tag-btn{padding:3px 10px;border-radius:14px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s}
 .tag-btn:hover{border-color:var(--accent);color:var(--accent)}
 .tag-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.search-wrap{margin-bottom:12px}
+.search-wrap input{width:100%;padding:8px 14px;border:1px solid var(--border);border-radius:var(--radius);font-size:13px;outline:none;background:var(--card-bg);color:var(--text)}
+.search-wrap input:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.1)}
 .feed-item{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--border)}
 .feed-item:last-child{border-bottom:none}
 .feed-time{flex-shrink:0;width:52px;font-size:13px;font-weight:700;color:var(--text-muted);padding-top:2px;text-align:right}
@@ -89,22 +93,30 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="header">
 <div class="header-top">
 <h2>银发经济每日速览</h2>
-<div class="header-stats" id="header-stats">更新于 2026-07-03 14:01 · 精选 62 条 · 高价值 38 条</div>
+<div class="header-stats" id="header-stats">更新于 2026-07-03 21:30 · 精选 62 条 · 高价值 38 条</div>
 </div>
 <div style="display:flex;align-items:center;flex-wrap:wrap;">
 <div class="view-pills">
 <button class="view-pill active" id="pill-curated" onclick="setView('curated')">精选(62)</button>
-<button class="view-pill" id="pill-all" onclick="setView('all')">全量(62)</button>
+<button class="view-pill" id="pill-all" onclick="setView('all')">全量(178)</button>
 </div>
 <div class="region-pills" id="region-pills">
 <button class="region-pill active" data-region="all">全部</button>
 <button class="region-pill" data-region="domestic">国内(26)</button>
 <button class="region-pill" data-region="overseas">海外(36)</button>
 </div></div></div>
-<div class="tag-bar" id="tag-bar">
-<span class="tag-bar-label">标签:</span>
-<button class="tag-btn active" data-tag="all">全部</button>
-<button class="tag-btn" data-tag="2026">2026</button><button class="tag-btn" data-tag="36氪">36氪</button><button class="tag-btn" data-tag="ABI2026">ABI2026</button><button class="tag-btn" data-tag="AI">AI</button><button class="tag-btn" data-tag="AgeTech">AgeTech</button><button class="tag-btn" data-tag="IPO">IPO</button><button class="tag-btn" data-tag="上海">上海</button><button class="tag-btn" data-tag="临终关怀">临终关怀</button><button class="tag-btn" data-tag="交易动态">交易动态</button><button class="tag-btn" data-tag="产业数据">产业数据</button><button class="tag-btn" data-tag="产品发布">产品发布</button><button class="tag-btn" data-tag="低门槛">低门槛</button><button class="tag-btn" data-tag="保险科技">保险科技</button><button class="tag-btn" data-tag="健康监测">健康监测</button><button class="tag-btn" data-tag="养老地产">养老地产</button><button class="tag-btn" data-tag="养老服务">养老服务</button><button class="tag-btn" data-tag="养老社区">养老社区</button><button class="tag-btn" data-tag="养老科技">养老科技</button><button class="tag-btn" data-tag="内容运营">内容运营</button><button class="tag-btn" data-tag="创业">创业</button><button class="tag-btn" data-tag="国寿">国寿</button><button class="tag-btn" data-tag="居家养老">居家养老</button><button class="tag-btn" data-tag="康养">康养</button><button class="tag-btn" data-tag="康复辅具">康复辅具</button><button class="tag-btn" data-tag="开发建设">开发建设</button><button class="tag-btn" data-tag="慢病管理">慢病管理</button><button class="tag-btn" data-tag="战略合作">战略合作</button><button class="tag-btn" data-tag="投融资">投融资</button><button class="tag-btn" data-tag="护理人力">护理人力</button><button class="tag-btn" data-tag="收购">收购</button><button class="tag-btn" data-tag="收购整合">收购整合</button><button class="tag-btn" data-tag="政策法规">政策法规</button><button class="tag-btn" data-tag="数字疗法">数字疗法</button><button class="tag-btn" data-tag="智慧养老">智慧养老</button><button class="tag-btn" data-tag="标准化">标准化</button><button class="tag-btn" data-tag="消费趋势">消费趋势</button><button class="tag-btn" data-tag="爆款">爆款</button><button class="tag-btn" data-tag="社交陪伴">社交陪伴</button><button class="tag-btn" data-tag="细分领域">细分领域</button><button class="tag-btn" data-tag="老年消费">老年消费</button><button class="tag-btn" data-tag="药物管理">药物管理</button><button class="tag-btn" data-tag="融资">融资</button><button class="tag-btn" data-tag="行业人物">行业人物</button><button class="tag-btn" data-tag="行业报告">行业报告</button><button class="tag-btn" data-tag="认知症">认知症</button><button class="tag-btn" data-tag="记忆照护">记忆照护</button><button class="tag-btn" data-tag="资本化">资本化</button><button class="tag-btn" data-tag="辅助生活">辅助生活</button><button class="tag-btn" data-tag="运营管理">运营管理</button><button class="tag-btn" data-tag="远程医疗">远程医疗</button><button class="tag-btn" data-tag="金融科技">金融科技</button><button class="tag-btn" data-tag="银发就业">银发就业</button><button class="tag-btn" data-tag="银发消费">银发消费</button><button class="tag-btn" data-tag="银发科技">银发科技</button><button class="tag-btn" data-tag="银发经济">银发经济</button><button class="tag-btn" data-tag="长寿科技">长寿科技</button><button class="tag-btn" data-tag="阿里巴巴">阿里巴巴</button><button class="tag-btn" data-tag="陪诊服务">陪诊服务</button>
+<div class="tag-bar" id="tag-bar-industry">
+<span class="tag-bar-label">行业:</span>
+<button class="tag-btn active" data-tag="all" data-group="industry">全部</button>
+<button class="tag-btn" data-tag="居家养老" data-group="industry">居家养老</button><button class="tag-btn" data-tag="健康监测" data-group="industry">健康监测</button><button class="tag-btn" data-tag="数字疗法" data-group="industry">数字疗法</button><button class="tag-btn" data-tag="认知症" data-group="industry">认知症</button><button class="tag-btn" data-tag="远程医疗" data-group="industry">远程医疗</button><button class="tag-btn" data-tag="保险科技" data-group="industry">保险科技</button><button class="tag-btn" data-tag="康复辅具" data-group="industry">康复辅具</button><button class="tag-btn" data-tag="药物管理" data-group="industry">药物管理</button><button class="tag-btn" data-tag="社交陪伴" data-group="industry">社交陪伴</button><button class="tag-btn" data-tag="慢病管理" data-group="industry">慢病管理</button><button class="tag-btn" data-tag="智慧养老" data-group="industry">智慧养老</button><button class="tag-btn" data-tag="辅助生活" data-group="industry">辅助生活</button><button class="tag-btn" data-tag="临终关怀" data-group="industry">临终关怀</button><button class="tag-btn" data-tag="养老地产" data-group="industry">养老地产</button><button class="tag-btn" data-tag="老年消费" data-group="industry">老年消费</button><button class="tag-btn" data-tag="护理人力" data-group="industry">护理人力</button><button class="tag-btn" data-tag="金融科技" data-group="industry">金融科技</button><button class="tag-btn" data-tag="长寿科技" data-group="industry">长寿科技</button>
+</div>
+<div class="tag-bar" id="tag-bar-event">
+<span class="tag-bar-label">事件:</span>
+<button class="tag-btn active" data-tag="all" data-group="event">全部</button>
+<button class="tag-btn" data-tag="融资" data-group="event">融资</button><button class="tag-btn" data-tag="收购" data-group="event">收购</button><button class="tag-btn" data-tag="IPO" data-group="event">IPO</button><button class="tag-btn" data-tag="产品发布" data-group="event">产品发布</button><button class="tag-btn" data-tag="战略合作" data-group="event">战略合作</button><button class="tag-btn" data-tag="政策法规" data-group="event">政策法规</button>
+</div>
+<div class="search-wrap" id="search-wrap">
+<input type="text" id="search-input" placeholder="搜索标题或摘要...">
 </div>
 <div class="sort-row" id="sort-bar">排序:
 <button class="sort-btn active" data-sort="time">最新优先</button>
@@ -161,35 +173,96 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">金融科技</span><span class="tag">政策法规</span></div>
 <div class="rec-box">个人养老金的「开户多、缴存少」是中国养老金体系的缩影——政策推动开了户，但没有真正驱动持续缴费。与美国401(k)的自发参与模式相比，中国个人养老金缺乏「为什么要存」的驱动力。对银发经济创业者来说：养老金的真正爆发不在开户端，而在「养老金怎么用」——退休后如何把积累的养老金转化为养老服务消费，才是银发经济的增长引擎。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.8" data-date="2026-07-02" data-tags="养老地产,融资,开发建设" data-region="overseas">
+</div><div class="feed-item" data-view="curated" data-score="7.8" data-date="2026-07-02" data-tags="养老地产,融资" data-region="overseas">
   <div class="feed-time">2026-07-02</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">Senior Housing News</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-high">7.8</span> 
     </div>
     <h3 class="feed-title"><a href="https://seniorhousingnews.com/2026/07/02/in-the-pipeline-lcs-plans-82m-expansion-in-north-carolina-benchmark-national-development-announces-new-york-project/" target="_blank" rel="noopener">In the Pipeline: LCS Plans $82M Expansion in North Carolina; Benchmark, National Development Announces New York Project</a></h3>
 <p class="feed-summary">LCS Development启动8200万美元北卡罗来纳州Croasdaile Village扩建，Benchmark与National Development合作开发纽约90单元AL/MC社区，Capitol Lakes宣布4500万美元威斯康星州扩建。多家运营商同时推进建设，总额超1.6亿美元。</p>
-<div class="feed-tags"><span class="tag">养老地产</span><span class="tag">融资</span><span class="tag">开发建设</span></div>
+<div class="feed-tags"><span class="tag">养老地产</span><span class="tag">融资</span></div>
 <div class="rec-box">LCS、Benchmark、National Development等多家头部运营商同时推进大规模养老社区建设，总额超1.6亿美元，显示美国养老地产开发信心在利率高企环境下仍然强劲。中国市场参照：国内养老地产同样面临开发成本上升，但泰康、国寿等头部仍在扩张，可做中美养老地产投资逻辑对比分析。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.8" data-date="2026-07-02" data-tags="养老服务,运营管理,收购整合" data-region="overseas">
+</div><div class="feed-item" data-view="curated" data-score="7.8" data-date="2026-07-02" data-tags="" data-region="overseas">
   <div class="feed-time">2026-07-02</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">Senior Housing News</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-high">7.8</span> 
     </div>
     <h3 class="feed-title"><a href="https://seniorhousingnews.com/2026/07/02/atria-puts-turnaround-skills-to-work-in-transformation-of-former-holiday-portfolio/" target="_blank" rel="noopener">Atria Puts Turnaround Skills to Work in Transformation of Former Holiday Portfolio</a></h3>
 <p class="feed-summary">Atria Senior Living展示了对原Holiday Retirement投资组合的转型成果。自2024年接管67个社区管理权后，通过全面运营基准和内部突击审计，Holiday by Atria社区入住率和质量得分提高30个基点，已与Atria其他社区持平。</p>
-<div class="feed-tags"><span class="tag">养老服务</span><span class="tag">运营管理</span><span class="tag">收购整合</span></div>
 <div class="rec-box">Atria接管Holiday 67个社区后的运营转型案例，入住率和质量得分双提升30个基点，证明标准化运营体系对养老社区资产价值的杠杆效应。中国市场参照：国内养老社区并购后普遍面临运营整合难题，Atria的标准化审计方法论值得借鉴。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.2" data-date="2026-07-02" data-tags="银发就业,养老社区,消费趋势" data-region="overseas">
+</div><div class="feed-item" data-view="curated" data-score="7.2" data-date="2026-07-02" data-tags="" data-region="overseas">
   <div class="feed-time">2026-07-02</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">Senior Housing News</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-high">7.2</span> 
     </div>
     <h3 class="feed-title"><a href="https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/" target="_blank" rel="noopener">Why Senior Living Operators Shouldn't Ignore Trend of Older Adults Working Longer</a></h3>
 <p class="feed-summary">AARP报告显示过去25年65岁以上工作者数量增长两倍，预计到2060年75岁以上工作者将至少翻倍。独立生活月费超出居民月收入116%，辅助生活超出174%。Treplus Communities在5个社区建设专业共享办公空间。</p>
-<div class="feed-tags"><span class="tag">银发就业</span><span class="tag">养老社区</span><span class="tag">消费趋势</span></div>
 <div class="rec-box">65岁以上工作者25年增长两倍，但养老社区月费超出收入116%，供需错配将倒逼产品创新。中国市场参照：中国延迟退休政策逐步落地，退而不休人群扩大，对养老社区的产品形态和支付能力都将产生深远影响。</div>
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">富途牛牛</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQR2JxRGJhRGxzQ0JWVHkxME0wNEYxTGJrazVKaXVidlVFZjdJeHFhSmJZdHQ0a1d1eUtxQnFmLUpvelFybzBTdGZ5YlRpWTlyNWNfS0ZVcFg2VVp6WHVra0RmdHFHUWtlbWVNRjNLd00xQ1NWNG43WHdKczd2U2dSYXBYc2otcWtVWlRFRVBTUUN4TkNNRmg0SF9kM2h1ZzN1V3gtamdkQVB3Y1hJ?oc=5" target="_blank" rel="noopener">National Elderly Care Service Consumption Subsidy Launched on JD.com - 富途牛牛</a></h3>
+<p class="feed-summary">National Elderly Care Service Consumption Subsidy Launched on JD.com&nbsp;&nbsp;富途牛牛</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">36Kr</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xMkZ1Zlg5SEJjZFhKdGZOM1FWTHFidGtaZU1FYllsMW5ZZEdVN0sxS3MxVnhra051Q2QzOVpjcGRQYWtacU4yaUs2c3J1RVpsQ1Bn?oc=5" target="_blank" rel="noopener">36Kr Exclusive: Tsinghua, Chinese Academy of Sciences Teams Collaborate with West China Hospital to Develop Healthcare and Transfer Robot for Home-based Elderly Care Scenario - 36Kr</a></h3>
+<p class="feed-summary">36Kr Exclusive: Tsinghua, Chinese Academy of Sciences Teams Collaborate with West China Hospital to Develop Healthcare and Transfer Robot for Home-based Elderly Care Scenario&nbsp;&nbsp;36Kr</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">hnzy.gov.cn</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yR3Ryd3cwVlVRTHBTM25rSlRnZ0VzMHJlaUJpc1BVVllmcElvREJyV01IUS1BZExSdTQ5NUhSbjdQdzZpWENHcnNGRTJkMVdLS0dwYmZSdWVvWjFPOWp1T3h1b2Q?oc=5" target="_blank" rel="noopener">胡宏伟：把握推动养老事业和产业协同发展的着力点_理论纵横 - hnzy.gov.cn</a></h3>
+<p class="feed-summary">胡宏伟：把握推动养老事业和产业协同发展的着力点_理论纵横&nbsp;&nbsp;hnzy.gov.cn</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">新浪财经</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5YakxWWG9acXliSHo0N2ExU2xESzNzclpoY0RHUFZIVkNEcWExTzdiaWhWNXVnZ2k4Uy1rMnVpNTVRcTNZSmRWVmdZZnVLZ05nT2dqR2VCRmFtQV9vZUcwdDJsSi1tZnUzbGxLSnNaZlJWUTF6M3YyYw?oc=5" target="_blank" rel="noopener">国家养老服务消费补贴上线京东 - 新浪财经</a></h3>
+<p class="feed-summary">国家养老服务消费补贴上线京东&nbsp;&nbsp;新浪财经</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">nfplus.nfnews.com</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE40d0NzODhzVWV6Nld2dVRWMDMtck1adWRINHlYLTFHUVVlQmhVeHQzUUx2MWFLdkF0T0dkNTlDaEtPQ2ZNTXpkUml1WUFweEIxS2stZjBWenRJM3k4bGxmdlEyT3pDb2dMQWc?oc=5" target="_blank" rel="noopener">国内高端养老项目落地盐田大梅沙 - nfplus.nfnews.com</a></h3>
+<p class="feed-summary">国内高端养老项目落地盐田大梅沙&nbsp;&nbsp;nfplus.nfnews.com</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">cb.com.cn</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zLUhFeEVfSERHUXFKeHZqOWpvVzNmU1JqMmNfSzhtd1diY3Iyazdhdk92X0lXV0tOdDh0MG5iOThyUHdYTVlPNjd3bEhTbnk0QmFOX3dhaU1TOURtZk9pWktR?oc=5" target="_blank" rel="noopener">向买方进发丨全球养老金融专家林羿：投顾服务是养老金体系的隐形发动机 - cb.com.cn</a></h3>
+<p class="feed-summary">向买方进发丨全球养老金融专家林羿：投顾服务是养老金体系的隐形发动机&nbsp;&nbsp;cb.com.cn</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-02" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-02</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">驱动之家</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCeDRnSThZWWFaeFpxZkJ4Q1o1VnExX3BwNjNhTE9lRG9TcVROZFY0YjRFeXdQbGNYN0syN2cwVUt6TEt0QnV1dEc2dEphYUZ1cDhfTmYtaDY?oc=5" target="_blank" rel="noopener">京东国补正式上线养老服务：每月可补贴50% - 驱动之家</a></h3>
+<p class="feed-summary">京东国补正式上线养老服务：每月可补贴50%&nbsp;&nbsp;驱动之家</p>
+
   </div>
 </div><div class="feed-item" data-view="curated" data-score="7.7" data-date="2026-07-01" data-tags="居家养老,保险科技,政策法规" data-region="overseas">
   <div class="feed-time">2026-07-01</div>
@@ -271,35 +344,53 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">护理人力</span><span class="tag">政策法规</span></div>
 <div class="rec-box">上海养老护理员的困境是全国缩影——低薪、高强度、无晋升通道、社会认可度低。可与此前McKnight的「薪酬、文化和弹性排班」文章对照：美国护理员的痛点和中国几乎一模一样，但美国的解决路径（提高Medicare支付→传导到机构→传导到护理员薪酬）在中国没有对应的传导机制。中国长护险支付水平太低，无法支撑合理的护理员薪酬。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.4" data-date="2026-07-01" data-tags="养老地产,交易动态,融资" data-region="overseas">
+</div><div class="feed-item" data-view="curated" data-score="7.4" data-date="2026-07-01" data-tags="养老地产,融资" data-region="overseas">
   <div class="feed-time">2026-07-01</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">Senior Housing News</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-high">7.4</span> 
     </div>
     <h3 class="feed-title"><a href="https://seniorhousingnews.com/2026/07/01/senior-living-dealbook-benchmark-national-development-acquire-new-york-site-asbury-place-maryville-rebrands/" target="_blank" rel="noopener">Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands</a></h3>
 <p class="feed-summary">Benchmark与National Development收购纽约East Islip地块开发90单元AL/MC社区。加州Napa护理院出售。犹他州Farmington 32单元社区交易完成。Asbury Place Maryville更名为Asbury Ridge，从营利恢复为非营利。</p>
-<div class="feed-tags"><span class="tag">养老地产</span><span class="tag">交易动态</span><span class="tag">融资</span></div>
+<div class="feed-tags"><span class="tag">养老地产</span><span class="tag">融资</span></div>
 <div class="rec-box">本周养老地产交易活跃，Benchmark在纽约的第二笔合作持续推进，显示东部沿海市场的养老需求强劲。中国市场参照：国内区域性养老社区交易同样活跃，可关注非一线城市养老地产交易这一细分方向。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="6.2" data-date="2026-07-01" data-tags="认知症,行业人物,记忆照护" data-region="overseas">
+</div><div class="feed-item" data-view="curated" data-score="6.2" data-date="2026-07-01" data-tags="认知症" data-region="overseas">
   <div class="feed-time">2026-07-01</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">Senior Housing News</span>      <span class="region-tag region-overseas">海外</span> <span class="score-badge quality-watch">6.2</span> 
     </div>
     <h3 class="feed-title"><a href="https://seniorhousingnews.com/2026/07/01/memory-care-innovation-award-winner-lynn-lavallee-chief-operating-officer-omega-senior-living/" target="_blank" rel="noopener">Memory Care Innovation Award Winner: Lynn Lavallee, Chief Operating Officer, Omega Senior Living</a></h3>
 <p class="feed-summary">Omega Senior Living COO Lynn Lavallee入选2026年记忆照护创新奖。从业30余年，强调以人为本照护理念。认为关键方向为训练有素员工与技术创新结合。</p>
-<div class="feed-tags"><span class="tag">认知症</span><span class="tag">行业人物</span><span class="tag">记忆照护</span></div>
+<div class="feed-tags"><span class="tag">认知症</span></div>
 <div class="rec-box">记忆照护创新奖得主分享行业洞见，强调人员培训和技术创新双轮驱动。虽然单篇文章信号不强，但反映了美国记忆照护领域日益专业化、体系化的趋势。中国市场参照：国内认知症照护仍属蓝海，美国以人为本理念和培训体系值得系统引入。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="8.4" data-date="2026-07-01" data-tags="政策法规,陪诊服务,养老服务,标准化" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="8.4" data-date="2026-07-01" data-tags="政策法规" data-region="domestic">
   <div class="feed-time">2026-07-01</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">AgeClub</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">8.4</span> 
     </div>
     <h3 class="feed-title"><a href="https://www.ageclub.net/article-detail/9726" target="_blank" rel="noopener">全面推进老年助医陪诊服务！7月1日起实施</a></h3>
 <p class="feed-summary">上海市民政局会同卫健委、人社局、消保委等印发《关于全面推进老年助医陪诊服务的方案》，从培育专业服务机构、建设职业化陪诊队伍、规范服务标准等方面全面部署。国内首个省级老年陪诊服务系统性政策文件。</p>
-<div class="feed-tags"><span class="tag">政策法规</span><span class="tag">陪诊服务</span><span class="tag">养老服务</span><span class="tag">标准化</span></div>
+<div class="feed-tags"><span class="tag">政策法规</span></div>
 <div class="rec-box">上海率先出台全国首个省级老年陪诊系统性政策，从机构培育、队伍建设、标准规范三方面全面部署，标志着陪诊服务从灰色地带进入标准化赛道。对中国市场影响深远：优享陪诊、鲸鱼陪诊等创业公司将迎来政策红利，同时也面临准入标准提高的挑战。可做陪诊服务标准化元年深度选题。</div>
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-01" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-01</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">人民网-上海频道</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1GT0JXZTUyZ01WY3hITjFkRm81cUlSZmlqZHhoN2RUcVVDTXBUeEZqbW80TlNYR1QyeThUcld0UW1ETzdvRVAtR2Myb3ZJU1JqdWRDb3o4WFYtdDhobndlR25XckNwQUVQSEE?oc=5" target="_blank" rel="noopener">破解留人难题 上海养老护理人才成长通道需打通 - 人民网-上海频道</a></h3>
+<p class="feed-summary">破解留人难题 上海养老护理人才成长通道需打通&nbsp;&nbsp;人民网-上海频道</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-07-01" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-07-01</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">观点网</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jc0ZkbDNzWmN1Qi1GMU5oYTJpdEplV2sxRHBHWGF5UWZuVkhqaFZPRlJoaER4QkUxZnpVNjB5TzNqQmg2cWduMEhOZWh3dw?oc=5" target="_blank" rel="noopener">泰康之家·梅沙府落地深圳盐田 布局第48个养老项目 - 观点网</a></h3>
+<p class="feed-summary">泰康之家·梅沙府落地深圳盐田 布局第48个养老项目&nbsp;&nbsp;观点网</p>
+
   </div>
 </div><div class="feed-item" data-view="curated" data-score="8.1" data-date="2026-06-30" data-tags="养老地产,收购,辅助生活" data-region="overseas">
   <div class="feed-time">2026-06-30</div>
@@ -401,6 +492,456 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">融资</span><span class="tag">养老地产</span></div>
 <div class="rec-box">住房稳定性与老年人健康密切相关，但产品主要面向就医过渡期住房支持，非养老住宅。作为住房+健康交叉领域信息储备即可。</div>
   </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNNS1NX1Z0ZXo3VDVaY1NDMWFlX0pHZlJlbXBkWXNncDVSUEhKUFRLWjdtSnFGYzVlTEY2WVBzUTV3akVTTU5heVVSUjJlNFlHNEhzeUlfOHNXcjE1MGxNSW1FdkYxdXBWazdIMVVnMTY1M1NNSUkyMkZ0cU9FaTR5TTFWcjRaak9vSFplM2JIT01xSWY5ejczQlo5MWtiY280azVtSThJbzhWTVJwX21J?oc=5" target="_blank" rel="noopener">Cooking event allows residents to travel without ever leaving home - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Cooking event allows residents to travel without ever leaving home&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPNGdGbEpQNkRGbUIyeU4yeG53NDAwcE9VN1lWa0lUNDk5UHdVZkZaSVdGcHVUNE9XMk54Q0dBSkRob1FXYXZLZ3RCQ0x6SjY5ZC1zcFNFQXNsNlFjT0ZXelk1emFpdi1Sa0RxTnJadmVOTTBTQUZSM0JKMERDd001VDNWWlA4NXFtVlRDMnFGcDVuQW5VdW5XV29vLTc5TzdRdkNtTVQ0b0REM0JHMUxwa1h1RHI4WV8wUUNmb2g4aEJHcEZoVlhpSW8tVkM?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMilwJBVV95cUxQUHhHZFFmX05JR05QZUVfcEpEa3BJc1VpdFI4R3cyNXFvU2tYaG8wcktSaFp5SXR4T3hmdEM3a25LYTJCYURPR2VheXhzNVA2ak9UT0xLQ1pTR2R6SVI3WXNSOUZ0TVRHSTR1bEFrN2FOeG56UzlSV2pINGhOODJUZ3h4QXQ3VmlONzZFclBnbTczV0ZnWFdUeUJ2a2ZXTWNXT1JXclk0WGpDbkM3UmxPYTd2RTUxX1hnanlfVEdtS2tJd05UWGZTdTc1cVFhNmhfSG1GLXFfV0hSeGRBdHJNaHJ1TDRnTldfYXJ4c2ZQNnBIbWRxYTBJblp4VUp0YXZWR2hmY3ZZRzZOOHNfb1JYbTVUOUJGYzQ?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQSmk4WlNvT3ZZdTl0LW1KN21qcC1xZmZsbG1mRHE0R3c2bTd1TzlMSGRFNXREOGhwZDgtemsyYzlqOE9wTVd2QjRxc1hsYUV3QWRUdFZUelBSRXRqT2dOQlhhNkxQZWZIQTFYdGRSNURmYllsMVhmS3ZqdlVyamYzdEJ2V0VOMmgxYVdyTmZoSXgtS3B4YnpXZlJETHM?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOZHRkNUJKaFFYaUxHUlhvVnF2OGVtN1FvNDlDVHludk9yeXlObm1QRHNWNi1ZbEhhakhjTWlrcS1KUlNLZjNERmFCQXJWVm5lMmg1Vk0zY2RlbzBOcHJVZDI0a3A2UXJVekg4NjBlWUdNUUk2aVFERUcwNDRLakZpTEtyLVdOOUNWRDlHbGdmeUdYUmpramRQNTJFTWxFYzNkVnk4c2RqZzdZYU1fUkoyWkdhN01MSURlRkt2UlRB?oc=5" target="_blank" rel="noopener">Kayne Anderson Real Estate to be acquired by Bridgepoint Group for about $1.4B - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Kayne Anderson Real Estate to be acquired by Bridgepoint Group for about $1.4B&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQbkdEN2FiYkp0aU4wcG5fWXN4MkcyV1VCdGdwZVJXMml4ekdnbDlOZlA3MEM0RVd6M3F1aUxBZjRJeGpOTVJhNHcxZkV2ejFlRGhEWWtwRFJpYUV1VUdxcnM3MDRiVmZZSWlkNlBmZ09KRzVsVG8tTzZKSTZ2cUxOdFpTZTJyVzkzVy0waW5UbF9rZEdYcjk1UXZPWThkZUlESUdKUkYyVDdPRTBlQnc?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNNWEyT1hjZHZJcDhvR05XYk5xVF9leUxpb2JFUU9yYzZ3RmNQMlVTakJfS1RVUkF6M3RZM292eDFHYjBzS2Y5bzRGZWVuemFCWGg2OVN5YkJkNUhpXy14dDBSTGUyaVBLQi1vX3UxR3BhVUdvTmFtMU1KYVVBNWJrY3kwcGZYY3ZOLTctRWZOYnBJOHpJMVVNcVd6SW0?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWpsbDdlWncxYUhaXzROZGp0a1VGYlhkcVVyM2ZmbmY2dzB1eTk3ZFZ4VXhaVjBGYXNmNm9vLURiSEhtNVhCa0VENDc0MVRUM1RjNENmbE1oNG5fRXp1M1ZwY3FaMzhLbUhnclhKRHQ4YjRCUzVEN2RzdFFidlgyR2poM25YZTB1dlp1LTI2Z09pZXc3Y195c2pTRVc?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPM0lIVGV5eHZ0U05vNC1Sb25fWFJqRFlVNThPQUx1RUk5Y21CclVqbFoza0oyUjZXZHpUcElpSHIxTy1pS2d3SFRsWG9UbDM3a3dLX3NrTFNmTnJUd3JxVzhCQVczcVJoZTNja281YXZRV3Vhb3dvWDB6UWpSemJSTi1fdFpaMUJjUkNUR2dreXpnazhMekwxTlFydDk?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWc3ZmdhdzlCNGc0WlFKeWhkWWdwdFhwVzZoX1pJZ0NvRm55QVk5MVhyMlhGaTZBZkNCaDZ0VlRHTzZ6MGFoRVUtS0ZCc1dFZmVONWpWeG9JOFhwMC01ZUFrWll6T3hpd294b1JKam81S1A2RkpaRjJ0V2lfUm4zZG9URVZITnBCV1pua0hwVEVpWU5ubnhqaG1pZ3k?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOQkV4ZmZsdEt1OXVVeWJkcXU0RUZvb0dzakdxRDRjRmlZMkFNUWtTZlJiWHJoenZOUlA1TWluOWpMX1psTjBlR2pza0d6YlR5YnNXZFhudUJWN0xrRnJfUjdfalZ4bm42RzhKbGpaR3VMRE13OURPTnhoUE1OaDZlVF9LU2p4WTJzRDR5ZDFfZk1EakJtN05NLXkxaVk?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ3NUeDAxbUxmZTF1Nm1xa3B2YmcxdU9yZW9EOXFILU1UT2dSZ0NPTVVtRFlkakRCYWE3Tk52QTNTcFNSdEZGdDI5ajM4Zk9FTE1ZdG5NUmZnMEtYcXdBRnY3dVlIQzZjUEVEcE1LX21WbFJSZ2tqT0RTNkJTYjhVLU54bkYxbkZJME5sRFpCNDRoNEtGMk1Ec3A4bHM?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTFYR3JjdURUbkFuWkl4X1NnZHo4R2g3OTFMeEJ1d2VER1RvR0h4X19CN3FPT2QxUDRwZlUybThJUGNLcHQ2VUJiOWlwbTJ2b1ItYlB1ZW9mdFgxTnRLeUdlazJaTXk2OThycGJlaTNwNC0tN2lTSDY1SmdldUhiNlBHWlNXV2JCUzFxRXZLUW9fVUc1bmlBcFFSLXk?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPRnY2MTZmRDJLUXJyeHdlR2psd0xqSzRjblNzR2JHc1NuLUU3OWhzY2dLejFGUXIwVEFBcGtyUUE2MVlHQnJWSGxSZVFLa3N0VmpzNnFIZ2pfU0lfeFMwVVVmVlNrdEVrMDFpVVREcVJqeFN6cHFibVBpbElId0RQcEpmQ1BZay1IbThRNzc5b0U4b1dZMkpiQS1OYjQ?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGxRb0JVMWNQcU5TdWt0ai1tamcxeUpJY3pGREZxeEhndVlqSE9yWkxmcUJJTXM1a1R1eUQ2di1KR2ZxTFhUeTEzWmhYM0ZwTzdQMzZKQVQyMnM3SmVxLURSaVF6T3N1ajNLMVpWNTJHX2VKUzZyaGVWbnQwdGpCLTNqZThCV0MzMFZUTWliYU96aERlWXB2aTNSQVI?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb3dLaHJxcGE2YkFfU3VYMmt5SDZfeHczLWJlNGx3TmVxc3otUi1GYWhYQ3p1alN2cWpEdDJ1dnA0dmlWUFNMOUdxY2szdGVxanFBcWIwVHpYdW91bWFZeFprMm80eXVTaV9IRXlldkt3WWhDQ1ltbURXV2FIZEZwMWxTcUMwSDF4RHFKX0ZOOTdyS3FaZ0hMYldpcWlSc3ByaV8yYzFGRzFHNk9DTTdjOUNuZjh0bnBzOEtN?oc=5" target="_blank" rel="noopener">Capital Funding Group closes $318.8M in SNF financings across 2 transactions - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Capital Funding Group closes $318.8M in SNF financings across 2 transactions&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVRCeEJNX1RTeDlzdXNleHFETm5DYnk1M1g3bkc5RUdmcWNQX3RvN3lKNGpEc1J6SFFxdzdRYktaRUZKYVNRd2JuWDRXV3I4WDNSenZTM3AxSXlEZUxFVmItSmxBdWI4YjN5ZjVNdm43dTJjMHZTYWNnZE5KLWJWNnBmbVhKekkzVEpwS2RKaGc5MHUtYTl5NHZDN3Q?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxObUpsWFRDVHIzcFdMdXBjQ29JcUJFcjZIOWhvenZzQ0l3bHd1UzZYcFo5SmdMVVFHR0ZsTVdyMF9iX3RfeWtjdVRxX0lfX1pMM0RnMVJveURRYnhldnlhcmtMNlFBaC15LUFrOFFKTlo3Z3h5VDY3ZTl2dGdrQjhUemlZX0F5VFFCX0o5cDV1ZjhzbWpScXdId01QMGI?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNMlB6RjhlTDlSRzN4dTIwLUhsUXpDanI5S09HNnJNa09GNko2dTZLZWVWR01XWFZYWUVvdlBZREFhdGJBbW1LbGpkclpLM1BqbGVWS19IaTcyVFI5bGt3RGV5aVpudjBHSTg4Q2s5dXJhQ0ZaUUZnMDA3SndPYUpzd0JYWHo2Sl9JNDNOaUIzbnFsVjROUG5WRnhIWlE?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNYlNiaUlETmE1a1hsMUxfNE44ZUNTdC1Ea3B6SkM0bTlhTkNFTG5DVV8zYVZWVUREazlTOENsYUszRzYwN3lnUW9RdG1iUVNVaXpwaWRtZ1JaelN4eks5V2hLcFZzYmlNS0FIUTJiNXZjVjVyX2p1elpZaHNndGktZjVBUzV0aWpwTlN0YUE1YVpvemhaVGhGQXhkcGs?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTTN2bVNxRnhxZ1cwWTN5VVJhc1owV0hzSkxWLXkzWGV5VWlLNnUtNDdnNHdoeFhrRTBBa1lPeWl0NWRWX2hwQVplRVVEMmFSTlV4dTZfYUhmWEhISGpiN3ZHQzJZZGpQSUU0SlpuMzU2dXUxTnJkZ1FxOA?oc=5" target="_blank" rel="noopener">Business briefs, July 1 - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Business briefs, July 1&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQQTB1LXVtU3JyVlAtWkNMbnZ3dVJUcVZxYnVVSzlMbWxBMEFyQnpYOHVEYU1FZkhxSTdBd3l0Y3VtbVpTQlZ1Vks2U1hqMW1Na2txMDljbE9sbC11UGZuSWhlaEV5QkVpQVg5MlhWX2twM1lwNkl5ZWxDaUtoWlkwUHFHNERTS1JPSk5wNXJUTzJtX0sweWVIYnJkOFE?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxONGs4Z05rNUlFRzNUNW02SGJyNFVESGJTa0Nva2lLR3JvSHNTdVo5SEZjcDRRdk5TMVo0WnZCQjQ3TngzVUxfajR4c2NmQ3IzaWRWT0pDdWRjNGZDMmxXdE5NdkVjTUU5N3JLQlFZa0JOSGVRWXdwNkFIQlQzSUxKYzVB?oc=5" target="_blank" rel="noopener">Actions & Transactions, July 1 - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Actions & Transactions, July 1&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiigJBVV95cUxPRTdFbkpfaWp4RU11RHZvUjlRcEFUS0R5MUNabGJvOVZXd2tkaEtLRjA5dnlXenlXTG5yVmdDY0YxYUZkTk5uNG9SbHVWZEhJSmVaalkxb1JhaEF0UlZqczdKVFpKa2tJNmJDRzFIWFFiOEI5Unp2YzNTRjZzeFhObC1nTlVKQjhud2dOc3c4eDlQZ2p1OVlrUjVyYU15ZUptY2xkMkFHVGlHN0xiYmw2RkQ3bEFaMjdVa0FRZ1FpdTlSWlAwM0VxN19WY09aai1pWGdNY0UxSnhMLXQ3Nld4ZEROT2wtZ1MyVzcySHJqWU9qUUsxNzZ6QjlRME16V1hPUzU3bEN2dGpiZw?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9qMmFQRlFGNzROcUNaMXZGRENjdmhQc1dDR2dBc25JMDBpNU9XUEJjUTl3Y0JPUmFUempUcklDdnhucE9iMThOQXAybDlaX2VjaVZzY0NsSXZtb1d6eGF2QUZSMm9OYVBsckt6YXFrdnk?oc=5" target="_blank" rel="noopener">Marissa Fernandez - McKnight's Senior Living - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Marissa Fernandez - McKnight's Senior Living&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjZlUDRPa1hoQVhpWFVxQUJlSVBaQ3NyaWFfU0hLM3FRemZDMVk3MUhUN0ZJdHlqWl9PS1dPNnkwRFM1WDNELTRWNFdiR3JXVlZqSTB4QXhmREVxdXk4NjM3M19sUE9uUzEyd3NfRl9JTld3cy16SUtMZGpYY3NtaUdDNmNIdmtNRVhXZDUxMFh0anNVZFNLcU13Q3k?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWJTdk5lOEh1MHZXbDVrdVZZY3JvSlNJWmxDSEFoSG1hRWFaOXFFb2phejZBRnNQZXdocl92ZlpRSlV4czJ4ZDZNOHdrNlVTZWhkUGhkTkQ0TTZ4Y2pObUpVQTF0WHRZd0FER0VIa19VcUZnT0VrUVhEZHR2WDkybGxJSWZJQmxDYXUtR0lmRTBmelptVk5VTHN2Y3I?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPQzJBRDFUY01JdzRlWHZzUjRITU45bG0wa25DVHA1ekhvM2FBYW1adWgxWVR4dkVWY2o0eVhMNTBaVks3eFBfYjJ1RFk1QVNseUpKcXp1TjAyOGRpY01FSmhlRDZQcFc0YmdrSlVqUE1JOTFQcGoxUTYtaHVLTThYRHpGRUxWcVRGZ3FxajY1ZzhpVHZyc1dMVEtvcnA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOOUoxcHRJNUVpT0otUDdKbUU1dGtSV2RMSDNNZFJDV0lNc0Nkb0lGNDdscS1CZERsYTRyT3g1Y1ltQnRhQ1BzdmRUWHBUU3BSbGozYkVjZWJXbi1YZHBZZVc3WVVfeUJfdk0yMVVYeGh0eDRLdDV1M1FEajAyaGRrQV85YmttQnMycHdnTFlkc3h4c3NuVWtYRWFqUVA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQdXJnWHMzNWloTUJ6RHhHNzBTSElIdGI3T3VZaGg0SHQyaEY3RjJaSmI5dzhoRExmSDJmT0otRzVmWElLMkprZXNGaHN2OTgwR0hIWHljZ1QwSFc5emowcGkwLTlsNjBocmpQa0V4bW1oYWFNblNvT2M5QmFqc005SG1ER25fZmhyMUpWLWhQdEZQZEhTQldHODBzM2I?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQzREbElDVS00QVhoMFkxOV9zdFNxUWYtWGRPWWJsUEs3RnpTM1N5U0ExYjQyb0R0d2Q0aGJaV2ZEbHQyVlczRnFuUWlqY2d6bHdRa3BRSVQ3V01JYkJJc2cwZHZlYnZveHhtZW5wOHJDTS0zMVYwNEF0MjhYdHFFR1ZDMUNoUElQeWhzU3ZTMnFHcms0ZUtSRUVnQU9iLUpmWV9uMnZ4blVwcFdjcVprVzBIOEpSZ245a0p0WUxKQ3lfWUVJbEpRdEhpOFd4NC1STmxRX0tqUmhaNGh0bVlWdElvR3Z1b2xvVzZ2SQ?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdGg5aVU3UGV5akZXNDRDZHFPazRaLVpEbWxyZm5FTVJhT0JiaTRIZ2R0REtHSENLenU2RjhyWTh3V1huVDdtTHg2VF8wMklKT3ZFdzU2ZUFpbFVNaVhBTmZobHhCM000bUJtSFhXNjVWLVRnTHhXbjlRaHNvS2lyZ3p3WE9JUm9MWUJFdEVPWU9abE4zc0k5bmRZeEtVR2VpbVZ0aFg1dmhTd1BsTkNpYjVGMk9Vd3pYQU9RM21UV29XeFhlTjVMMllQOE1LMURnU0JjWHluX2g2eVU2WElFTjVNbi1fSHc?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWhOU0t1V0lrVTFycVl0UGM1di1QNUFveHlqeFdJQk9iYjFrMzUwQjY2VDl6cFBRX0NPVkQwc3F6MEE4b0I4ZkZha2YwdTdleGVrcE9ROFZROFhhdmdqcHYyUDdURUE2Wl9ILUxtSWZjYURPX2hpX1hyaEJVZUJ4TEN5TGIwRzhJZ2hKUFNwaTY2ajY3Mk1hUDI0NW4?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQUW5lMjB3T1B2UDNmWXU5c1RPa212OU1oVUxTczZORTN3UFlWNjR0R2M4eGpVVGFMLXdFb2MyRERJdGI3U1dObVRVMWZRNlRMelAydGZ0V3VmeHpaaWx1TFNoZ09mZjd2TnU4cUZsNE1HMG14aG9kQ1JIRlc1bjgySFlNaDdqTnBGeVZtSlpEY3hZd3BvWUZRM01vTk0?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOV0NQdTZqWFdXc0RtQXVvVThnREVMYWRMWWhKYzEtcUdPZzYyZ281ZFFVMFRmMUMxTWVrTUJDdEFaaTJ5bjVUOE9mbFRLQWNuVUVzM2NJWkJrMFR5QTQ3MXhXNWdQRjhKbFhQTXpqTkZ0SUV3VUJ0ZnRaZlhUVlREU216bzNtM05mRUVYNFgzOFpVaWpRcmtLSGc1WVc?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGdOQ3VFVkV3YUZZaFF5ZktmY2MtUTAyaTlIYXBWLTMtSlJqYTh2UVNDWTNoTkZBRktLLUUySkFvQ01oSHNNTUUyaXJVTXNCRERUVEdDUS1xNWdPX0xmcTBiZnZ3S3VKTldVVUVQQUxLZlJkQVE5dHFwZFU0VHAySklFa054ZGdlTHUyb3JTSnhHeFNSTzB3ZkIyNlk?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHVEOUVhX2RUVjJkUk5JWTFHODZIa25ZSkZjem5YSE1uWnRfbjNndjF2U3V0SU5CNXkySGU5QkdlZmtlWWt3UzZSWEgxYTRXLU9UREdiV1JaZDgyTHhLTllfNVFKUzZJWGhpdmVlVnNGU3EtSjFvdVV6WW9QV1BycjVVc0h6ck1Hbmx2WlV3ckhEUURZamt3dkgzeHRpbjU0LWFTa3ZzMExKOVNrUGxFRG9MN1BmZzNEMnhuWUZB?oc=5" target="_blank" rel="noopener">LifeCare Development enters Tennessee with plans for The Blake at Chattanooga - McKnight's Senior Living</a></h3>
+<p class="feed-summary">LifeCare Development enters Tennessee with plans for The Blake at Chattanooga&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOajFVTkhoa0lMWVpZd2tFSWxiQ2J5T1h0TW51SWpja0l0MkdQMkpQWHNSZXIzSEprem42TlFFdV9MbGZ6UTNPUzNjYmtNNEwtSkY5Mml0eXZiRDJSM3hTOHpvTUZhTUpmV1AxSDhWTmV6Q0ZhTEVLeWFzUU51UUJiamVmbjRkY2swNTdBMG01bUtBTDRSMzZTejdwV3Q?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOZE1aMFhmZjhfNklORnZWU0xfWUt1TEx5SUpFQ3EwQVVQT1ZteGMzQkNpSGRRU0lWUHp2dkN4MWFRUnkxVjhDMmtxNXNYUlJQS1hBMWJxTzd3cXlyY2U3dEJudFE5SDdfbEJ2ZHoybVJKd3B4YnRUSXZfUlFEMGJ6d2FkR25wbkVxTFhTZDRZRUIxb25KQks2NVZEN2g?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMihAJBVV95cUxPeVpyeWphZDZvdVhvaHppN0s2UEZvdzFtRWRab0kxV1pjZzJJNDFxS09iRS1HMXlKSWoxcjJ0ZDR0RHBhN2ZZam1PRTBTSzlwTW8tdFdwS0MwUWo5cF9OZnpoSkpzMkVvbEItVDhtX1pkemVhWl9ZNGpDZnBRb29TaGhpRGMzaWtoOFRUcm83Vk1YU1FEQjA0YWE2bnRXVkVuNk9hQk1kSTNUYmNoMl9kektrQnRDcEtTSDhyX1V5azZJYWtQVV9iWGNTS3FzeC1yYW1fSFFycWpSaXFSbjlNTkh6QjJVTlBqdDhPUW1TNW1wdXBoOVRUci1fS3AySC1NYUk2TA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxQa3FmUFZHU1RXTzBvR2NLXzJydTB2cmNxb2hWc09MSjBheUFUWE5xLTRQS2FkSkxPcGhTV21LZkhwWEZZOFVrZjk5Rll0cF9FWmxIQ0FaSTBhTWhmSmtrdVF3OGJnYVZuTDBjV1NiM05RQ1pvNGpVaHRfVWhCRFJoU0JnQU9HaVlxdlZZaksyc0VWT0dRYTllNUFRUmszYVptSHI4ZmtvUnE0Um1JdFZtcE00aVpzT2lscGc2MzUyR2l3aW12TjRYYk11akJWOC1FM2NqNXduUDM?oc=5" target="_blank" rel="noopener">App shows promise in supporting assisted living resident cognitive health, psychological well-being - McKnight's Senior Living</a></h3>
+<p class="feed-summary">App shows promise in supporting assisted living resident cognitive health, psychological well-being&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOdnhyc0FpM0lZU2tCMkR3Y1RrU2NkaFVzcHBIV3YzcGoySEd0bUdhcEg0UENjbTZuMzJSSnZQd3N1TUd4MTJQWDl1WmlKX0JIT1RNZ3VNNUZ1d3ZpbTFRLUI3azJIZWRVWGtnZWZSR255YW5WTEVtT0tiZXV6ZFdONmF4VHczSkdBYVZtX0I4X0tCRXZRRWUtQnJ5TUI?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOWWVzaWk0dFJpU3RQUW4wWEs3dm9VcU1ZYzdjTGRlR1ozam5mYjBsajd0SlZrczlXQ0RlcVRPNDJhUEZpMEtVXzA0M0NBNzlqNXpvcE5rVzRsNHJ5NkdRMF9hRDBhclVzTDFYX0dqUEZ0ak1nM21TM09SZXJLMms4akp4QXl6M3BHMC05YTJfRmY0VGIyUXZUU05VSEs?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQcklZOVpoUXlaeDN0TWdCVzlUMFV4d1lpemJKb3plZEVzZDcxXzQyWEZVZ1c0QndOazJrMkVlTEkzRTU0OFZOSmdpQWNLWG1yWTBQTVdVemc4NUFLVFE0UjZ3RVVaTzY3T2U3ZlF3Vmx4ZDRjdW8wa2c2SHZiSVRBcDl2T3dSRzN5WVVTRXlEX0RqRkl0eUJDWWktNk4?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPWmVzbnVjMUhIQnpEVVFFUHUwQ1ZBck1ndDFITDB5TWMtaWZsTzFRNm5hLTEtUlJ3azg5alREVHAtUlRrWU0ycTU0Q1I0RVRyaGZjanpIbFdoeWpDTnNTQTNpSTR4NzRfbld5NGhOcTJ1UEhXVmowb0J0Q2JZLVpkUmR0RlgwN0NySkhZX05nS1hQXzExQV9KbmdNQ1Y?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNSVdvTEZqSktZdW8zZ3Q0R1pfZE8yWGlZZDRjSlA0TmNXM1RIVU00ckYwak41ei02ekNZY2VENGpPZFMtQUhDdGpBUERDb3JrdkVabjl5R2xaUVdTc01nWEFaamNvVWtBNXZiLVVFREROOWtkN3d4amtta2cwQlBuenJocTB3Sk1SWTRjZl9kdngwSjR3MU9DeG9HWmM?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">湖北日报传媒集团</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lTjFLclZEMUVfdFQ2SDIwSkxqb1lKSDRXRTZFUWlfY2YycHhBeWdBZ3N6c21jYkpRZ2J1YUxwLWtfOHZjQ18wV3puamlSZzR3QWhEOTRKRlJhcW02WFE?oc=5" target="_blank" rel="noopener">深耕养老金融温情守护桑榆晚年——湖北银行精准赋能多元养老场景- 湖北日报新闻客户端 - 湖北日报传媒集团</a></h3>
+<p class="feed-summary">深耕养老金融温情守护桑榆晚年——湖北银行精准赋能多元养老场景- 湖北日报新闻客户端&nbsp;&nbsp;湖北日报传媒集团</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">thepaper.cn</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oRGVsM25WbXlVY1RuN3A1SnEyaGZpZmxLQU9MaGF6ZThxaC1uUURtUHRraDRoRkpwTU1ja2RIRzB3TnptT2htLTliTGpsYUM3NVJtSVhZSjAxTjRMYlE?oc=5" target="_blank" rel="noopener">深耕养老金融温情守护桑榆晚年，湖北银行精准赋能多元养老场景 - thepaper.cn</a></h3>
+<p class="feed-summary">深耕养老金融温情守护桑榆晚年，湖北银行精准赋能多元养老场景&nbsp;&nbsp;thepaper.cn</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">中国经济网</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE01Zll3d0o2akRlM2RvZVBHMmxucGF0aHV6VDdXSzhjUTBFemJlQTBkVEtYVl8yUF9JdDBsNTd6UENaZWtZQXpJOEVSUVVuMzBadGVPMFZHMVBOamNSODlXdA?oc=5" target="_blank" rel="noopener">三公司沪上试水 养老服务信托试点18单落地 - 中国经济网</a></h3>
+<p class="feed-summary">三公司沪上试水 养老服务信托试点18单落地&nbsp;&nbsp;中国经济网</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-30" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-30</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">新浪新闻_手机新浪网</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBUMDEtOGxjQ041WnRUZ3NhdkJPUzgxNTNXLW1ra1JPQkppQ0VfRS1tUTMwYkNnUjVaYzlIMVJnbHo1V3RXdDgwdFA4NHlNRWxzMlA4TjVhbTl3dUNmeUxRY1dOS2gtUGltcWN3cjIwV05DTjdQS2J6cGZpU1ZjalU?oc=5" target="_blank" rel="noopener">上海银发经济迎来数智化落地拐点 - 新浪新闻_手机新浪网</a></h3>
+<p class="feed-summary">上海银发经济迎来数智化落地拐点&nbsp;&nbsp;新浪新闻_手机新浪网</p>
+
+  </div>
 </div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2026-06-29" data-tags="养老地产,融资,辅助生活" data-region="overseas">
   <div class="feed-time">2026-06-29</div>
   <div class="feed-body">
@@ -481,15 +1022,285 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">政策法规</span><span class="tag">辅助生活</span></div>
 <div class="rec-box">65亿美元反欺诈行动涉及老年生活业务——这说明美国养老行业的欺诈问题已经到了需要联邦层面大规模打击的程度。中国养老行业也有大量欺诈案例（保健品诈骗、非法集资、虚假养老项目），但缺乏系统性的反欺诈执法体系。美国的做法提供了参考：反欺诈不是行业自律问题，而是需要联邦执法力量介入的公共安全问题。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.8" data-date="2026-06-29" data-tags="政策法规,养老科技,产业数据,上海" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="7.8" data-date="2026-06-29" data-tags="政策法规" data-region="domestic">
   <div class="feed-time">2026-06-29</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">上海市民政局</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.8</span> 
     </div>
     <h3 class="feed-title"><a href="https://mzj.sh.gov.cn/2026bsmz/20260629/79e742de570848619dc0f805815671af.html" target="_blank" rel="noopener">上海银发经济家底首度公开，一份报告看懂养老新赛道</a></h3>
 <p class="feed-summary">上海首次系统公开银发经济产业数据：养老科技三大攻关方向含智能传感和AI方向。康复器械审批缩短至6个月，2025年新增12款产品获批。打造政策引领、载体集聚、技术领先、场景多元养老科技格局。</p>
-<div class="feed-tags"><span class="tag">政策法规</span><span class="tag">养老科技</span><span class="tag">产业数据</span><span class="tag">上海</span></div>
+<div class="feed-tags"><span class="tag">政策法规</span></div>
 <div class="rec-box">上海首次公开银发经济系统性数据：养老科技三大攻关方向、康复器械审批缩短至6个月、2025年新增12款产品获批。这份家底报告是理解中国最前沿银发经济城市的绝佳素材，建议做解剖上海系列选题。</div>
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWGlFbm0wbkpzSkxDeWQyVFN3el9PVmdmQlpTZ3B2T0N4YUpxQkI0c2RSQjU2amNJeWh2ZHdiay15QjVGOWM5ZHdlRjhlaU1LYUJEeDlfeko2U1NpTmppNEJBOGtTczFZcVo2TkZlbF9kM3lkWUVGWW1ZbEh1QUtoMmc4VnBpakFJUE9hZ1RQNGlES1JwSWU2MDBmYlowcUZ1dGFjLWFHZEVxOG9Cc2RqZEhoLW5DRElzUm9IZl9PcXIyRENrZU9tQg?oc=5" target="_blank" rel="noopener">We turned 80-year-olds into trained health monitors to save lives and boost senior dignity - McKnight's Senior Living</a></h3>
+<p class="feed-summary">We turned 80-year-olds into trained health monitors to save lives and boost senior dignity&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPWk01UnRaTnZqTTNUX0VlNXZ2QmRZMU5zdW1KQVJfbG5DSjJBNkVMMnpuZ1h1VnNiVllnb0VnMEVGeGF1aF9oU1AxdkEyYWNpOXQ2dzJHUTVZYkNDUm43SXVYdDcwbTJmLUprYTNEekpRTkdNdGY5Q3VfR3p3MFpNUE94TEtVX0hvYXNDWl8yV3VIeWI1OTgxcUtTSjA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHkwVENJaWQ2WXJXUjZFdmt4bFpZelVUa2hwSXpWcHFUMXVHaHZPZWI5MGZCbU4wYU5PSjdEMmxpXzFvRHlDMVZWS081ZFkwTmdFYzdhM3E4RGlqNml2aDJIbWluUW9jX2syaFhuanJuVS1DSDBlQkk2dDZkSzItTVBKcy0ycDlONE9ZWVpPVlpVdXBYanRzc3pVdzQ?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOclZCMUNGdmQwZVZLLWhCME14RjdON1JrYmhiYmtIMElHSlIzYmlWdXQ2Z1ptTVMtZ2Y2ejNNU2dBR0VHdzNzMURVUEFtU09nNXpqbkZfMzRDU0RmUHotallZOFJHYW16Rk4tWWl6c1VEWTZYdGloU19GVkNOYnhsZzdZZXdXRG9hcU5VMkhFcUttUHpQNHMxWm1JdHM?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPdTdmT29NTkNJa0NBZFBzME1LeVZpd29YNlFCOXB5eWVLS0pvOExpMW9nNFRfdzNGTE1jcV9Dc1liZ0hma3hTVHU4RUhOSHdEQ084RjhoLTF3QmZFRzdkSjlTQWpEQXlabGJkNC1GekNPSkxab0FfaWJuVURUSGlvTGRkV29GUlN1X1VxUEtKWFI4RXJ6UlZsQzduMzA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGFFS1NmNkF5dGNVbXUyWkx0LVI0UC1YVlg1SGVVekhOQlRsTlVKNDhfOE43R1JKLTF3ZFYzNjdOa3BZeVdxM0FGQXd4MXpwNjNiR0R3NklYV1plU1ZZV2h1dVlyOExtSkZWdWpIT2E4VHRMaGVGVHBsZTIteFd0XzV5ZU5rVDgzUGNTQlRhU0IyZXRMeUlvcTdIMnM?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQVlJRd3ptUmRiWXhITkhnU0tYT0l1T0lVOFJzd0lCa3U0TzJpVEZKblBsaWUyakpPZ2Z3Ym16YWVQQ08tN3lhVmNUcXlCZEF1b3NWZmdfMU5pVDRmQS1iLW5CV1c4UzRaMGUxeVc4bWQySjJwZWhkcXU0cWpyQ2tWVHF2VGdQd2FjRXpjMnBseDdmSklWQkItZGlsQzc?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3NlcEJ2N0pRdlZTTHZMSDBDYjJIeVo5cUctZ01OVmViODhiM0tneUVnMG92dU13OTdJSWhPaDBDeGMweTZxVXZaT19hSzlON1h1akdGWVBDWFFqMGdzbzRsb2JNSWpoSFdVZ1MxSldXc0phWGpDZjJVWHUyU25tQVlIOExVdFVsS0JuTkRZeGtRY1RaRFhWTi1DcjY?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHBlMUdZQmx5RVVra2xpdlhlRlRkajRYUXJ1b0VRMzI0bmtJUGUxZ1gyeW5kMVBYektSNFNxOHM5VHl3Vk9Cd1RBVWNzLUlsNVFUVXV3V3N6azlNdHFQbVJ0ZXRybkpoLWpweHRzdWVHekEzQVZkNWhRSERYalA1QmJOd2Y2TE84dnNKYW02bE02YVVFczlLR1ZJalU?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOLW1KUGtKUGF0d1RRS0dqMC1WZkZNbWhtY3hMa3VtZzV0blFhY01BUTJqSWhjSEo2X1hsbGVyWVhpUVpzT3ZYWTBCa2NRRk1YbzNnd2NsMWZQOWM2VTViR0w5NF9tNDA1SXZMYi1WMVdtVm5fQkZBNkdMdXNnY3dFLTUzaHBIRS10cmdXN091aUZCaHBOR05uQjFLdkw?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNRjVsanNSblBub094MEVMSzlxWGJmRGhfMndTNUd0b1VsWXVFZzM0cFRKRkdNWE0tSXdOODZUQ1pwMTlzWHFMU3pEOEZuUzZkamY1RWZKN3EtRTcyNHdZc2RFVERJUHVnMEZxNmhnTHJqRUJkdVFQSFN5bVJkbUh1VkJkLW9Rdm53OHl1SVNBVGtmeDFDcnpMbFlzMTU?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQc21nZlBwWURvd2dNdlBrUWl1TGtwcEFKa2tJWUoxTnBRblEyUUd6LUhnTmNMWlIwU2ZqX0d4QXJQa1NNdE85WTFqaGxoSmhNMWxWNXk3SDhsbzZPUUhKRmpHUkE4SlE5ZU56QUwzMU5hb3pHUnVEeU1GbWNoTVVEeldVOUdvVXlVdXpQUUpNZVV0TXRMQVQ4Wk5XWnE?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQX19odEtqNXlXeHIzVzdEYV9CN1pkckloaGpZa0hBUklLMkhkcWEtYXFFUmxrdkNnck91OEhvbjFGRms5a2Q5cFVNQnk3cUN2OUV4eTFOZDlmOFJ5MVBLMi1LeDdZU1Z2V0IxMzVrSTV6QnNkTm9xTWt5MHJ5LWhZM0pUYW9aenFSNm1EMUZYYXBEVi1yS2RZb1J1NTNIZ0VQV3c?oc=5" target="_blank" rel="noopener">Population growth booming across South in all age groups - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Population growth booming across South in all age groups&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPejI0R0ZvNmFZeVlqbDJLbm41WTN2RFBrR3JTWGcxSFpTUkxHM0V5STlfeHJyYXRJTkZMaEJfNWZMeVJTcW5PTVJPVTF1T1g5SDZYZTVseUlmVXRvQ0ttUS13WmZ1aGJMQVVJSmZjWEVyeHB4bUt2cGlmOGJPQ0Q1QTkxaUk3bGRNblBweTFfZnVSemJhRXFnYWlPQWQ?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVUdTN0RQRDNzWUdoNVIxNl9kUVJfTWJwMWxyOTB3TUFMSU1hYWJXcGdiZ0tyUGI3MXFIVkJlQnlWLUxYUTMxRWdNTmpCMkY0VUZmanNKejA3dkRkWHNzdnI3OXZWSFVQejkxVy12dXhYVGVDdlFsM2lFUmUtWWVGcTJWRlNVZWp0QWZYeUNodTdic19zczlCT3RZZTJXZVZtWnVyNDJ5Nk9talFsNzBnM0RNQUQ1X0VtM09aZkVuYk1QZWFnb3EzeHF3MDhXQ0JVektEN3hQaE11RmowRktJ?oc=5" target="_blank" rel="noopener">Provider groups ‘heartened’ by judge’s reversal of exclusion of nursing, other students from loan benefits - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Provider groups ‘heartened’ by judge’s reversal of exclusion of nursing, other students from loan benefits&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNUXlNaWR5X2ZZS2lNOFYxVTUza2x0ckdWRFMwWUc2RmdiODBHeEdzWXNJOEZ4a2xTMld1ams5M0hlVm1OaVA5Mk1McGJ0ekllRWJaTjg5Vk53Z1Q4VnlSNEpJY1h1SVlFLUVzblp6SzVkelVQbzcwTVItMVVQdUEyTVAwVzg1RVF3Z0RsS3h0dWVHeWZJZC1HeU5wMGxzYVRwYzFfc21qRDFfR3pIMEE?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNYm03OUtUWERIQXdlU1RRamM3Wk51TzVZcUtqQVJ6UFpadWM2Ymo4SDUyZFA1Q0tta212djhBNDR6akh6Vl9HUXFSMjFXRjh5LVlINFlxRDJrcVNjZGdrQXladVdVTnNmWHBPZFc1clNpM2VRQ3lDbGlCR191cVQzX29BVWdMakpPSEUtNXlzYUEwX2pQc25mQ29kY3g?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxNZmlIaDd4cTRidEV5ZEJXSlJoUm1wWGdreTVaWjV0N0daWGVGWE5FenBJSUo4WnkzX0NUM3h2VmhhblZiQ1FIYWN2T3RfWHpzOE5FVTRzckRPZVZPZmxRVTBZYUp4cXlSa0Y4TUpCRnNRdnYwLVcwWVFmYUxOZnZxSVRWZw?oc=5" target="_blank" rel="noopener">Actions & Transactions, June 30 - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Actions & Transactions, June 30&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOWnhWNEROTmJ5UkYycWJWcFBOdGtjcTJRZFlfWGdKM3hvbDhfYlh0OG9pMFBid0VLTVVIcHZmQmFLZERwc0Fod1dWM05fMEhHdnVFSUE4MVRndXl2U0NaVG13TE5WZ2prNmZjUDRwTjNRbmpKQjA3MnRQLVZVc0xvbks5Mk5xeExEMlZPdUJvTzF2Sm5GbWhsYlktWGc?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOSFZ0dzYydFgtREp3S0JJa016MmlrMERoRnF5Vk5wMVhkUGdrWFl2eF81cjdocW4xV2VwV056ZnlKOUtWMks2TEhTWWpScEhpblhRUGl3bWN4RER5QVBnUTBaQ05UT011ckdrV2l3b1R0Tm10bTNlQzYzR25MTkVNVnYzMm9ndlZIcllOMk1XY05yYXhCNk1HY0k4by0?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQOUZpN2tINXJsdkoxUnhveGVIcVl1Y0o4Q0p5clJJM0U0NDQ3X3FVVXY4QldvZkxhdDhUSHhJXzYyNjZsRG9TWGtGdmJoTVhuSDQteklFUXVMMUFVQTNfWlhBQkw0QmRTRnVKaXY5NmwwcDJhWkdydzd2ZlRJMWVfaG9scHU4ZjFRdjhCUXpWejRsaGRUaUZHSnRpOC0?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOVzVnMUhvTWVSamJSazd2bThPVmVwcGxLMU02NGFSUlE0QzZlXy0zNDZZRFo3Qm5JWTNmdDRzVjFHMHR0akdwTjIyY3NBZEVXeU02Z0RnZ0p0dm95NW1HbXhCb0dfbVltcldtRXRpT183X2pmUDlBVW8xcHJUdENTaF9ITWR2ekpHS2NLcVJ4UkpkZ2h3UVRtcGUzOXA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOaXZueU05ek5SUmpaNE52V3lNYzVlSzhyMGFjMmNHdzVLOHVhakFDeUh3dXlzSVZxVkpSZXBWMFFpbHBkemlSNGJIbC1mU0ZZMzNick5JOVpGVTA1ZE1EUG1MUDlPeDRDekZKdFdoQVZuMHlfbEZWcGtRZVhIZ2hDNTROMzFVdklzdG5ZU3pyMWNwQTJkTGc2eGRydXA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOX1dhWk84RU9VQ0p0d2VucXZpS3dYVUsyWkliWkE3UkVJX3hQS2FUdG1ONDhkLXRvLVVYM0VKaGVDVjZ6OXR0SDQ5Q1otWVlGelRXTHpmdDl4OEFuc3FDWTA5MWxaeDJ5Z1IxMGNGcWtIOUJ0NXl4OFJqX2l5S1V4V0hoWWpKM2hSeHZWZ2tmdmR4bmVDNXJNNEQxYk0?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQQm41Nk1IYW8zZERCbHZCSTN2dllJN2QwNFhuZHZ2RGZSMGtndzB2X2tlbm1SUmstNVRKaEhDQ1JJbDF6alJpQlMyckRxWGtLOGRIVlhpS09pOU9KMFJQdWFlOWYtcGJrSEpxMlhncDlLQkhFeGdncE1rbGRWSTJMTHFISHE5NGc2LWwzWDgwWnBFaTc0eHlQeVBEX3g?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPRk14RmJVdTRfS0NsR0FvbEIxbmpZNVAwR19jQmJfUTlpN1cyeGY1TXZqT3lFc2JNVVY0R3lsNmhnS2ZEdVk2NUFmTllNOTZxaDdEWmRMdXZzWklwNjg4UGxLS0FvMEpJalN4YkNNYzUzMGstaXYwUGZIdURPREoxUUhSSTVKR1BBeU9OY2Z6VEd5c1NvYnd1X0lHYm4?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQeDBDWHBjUzFuMG1Kd2QwaXB1MzFuSllubDRHdHNxVkxjS1FtMkw2bnk0U1JPQ3Yzd0dTMlI5QXMxV0NSUlhTT0RBYlZPdDlzQlJ6eWZKMzJ3TklqbHNEOEFtVU9xbE5sUlJYUXJkaXo4cU0yR2kzYnFGUEtIX3ZNNkdhYUdwNloyRUVYSEs0cFVMN1QxTF9N?oc=5" target="_blank" rel="noopener">Paying tribute is easy, but saying goodbye is not - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Paying tribute is easy, but saying goodbye is not&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPa2FrY2Mwb0VOTGpzS29jaHlFZFpUZTF5aTNrOUhKNGlSM0F1MDhvM2lwREtsbzllSjNuNm1pRldIa082ZjJOejhpUHU3VXl0TDJmbmdLOXBtWUpUaUhrNzVWbHVPTFdLMTl4eENSR1Jud0Y5ekpXbzlXblU3Nk9OSHZ2WVMxTkR3YWhESGI3enkwb2NhTzVKd3RtM1Q?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNbG9sS3NwTEpkbTZFUk1qODFmZ2NzcXJfdXFGNW5yMHE4X2lRdEh0a2R1LVlMeVlsUDhNNzlPZGc5dndWZ0VqZUlxdVRyc1Nod2JIeW5neTVZZlFlaVFVSDU4NkQ3VHRFdFBNNXMyRlRuWlljVk15cENnY1YzXzV3TndVSWRuMktNRzl5SzNwWTJMSVNFbF9NdHRrSlA?oc=5" target="_blank" rel="noopener">- McKnight's Senior Living</a></h3>
+<p class="feed-summary">&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-29" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-29</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">时代在线</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE8ydUJKUE1yTEtLaWtFVDdUZGRJOUJ2V0l5WHhlOHdyYnJiaHlYOFRfRE9IS2VfMWxDTDI5cHA5M0w4N0hxNDBNZnVFRkYzUWFh?oc=5" target="_blank" rel="noopener">永明金融发布2026中国养老新图景报告：养老需求迈向“自主悦己” 多元规划重塑品质养老新生态 - 时代在线</a></h3>
+<p class="feed-summary">永明金融发布2026中国养老新图景报告：养老需求迈向“自主悦己” 多元规划重塑品质养老新生态&nbsp;&nbsp;时代在线</p>
+
   </div>
 </div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2026-06-28" data-tags="辅助生活,收购,养老地产" data-region="overseas">
   <div class="feed-time">2026-06-28</div>
@@ -521,6 +1332,186 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">融资</span><span class="tag">居家养老</span><span class="tag">养老地产</span></div>
 <div class="rec-box">印度养老产业加速资本化，与中国相似的人口老龄化压力催生专业养老运营商。Athulya的「独立生活到专业护理」全链条模式值得中国同行研究，尤其两国家庭养老文化背景下的商业路径对比。</div>
   </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWFRKZ3VXQVpoZEVrcC1XWGV5MkNzM25BSG5oaDZ5dWw0VEt6YVprLWNVa2w4Um11QlJKcE5XeDg4NHZBVFhBYW9uZDExOGhxMmFidHZTUUMtSGZOa1oxMXJBSWNVeTVNeG5XSHJSSGpSZ1EwLXMwcWVrcTdRZHVVeGRRMFJreWZTZjZHcnJFY0dWWmJWUGF6SnFGNmEwcnVHb1FSM3BDSWlWdjV0YzRzWm80VGxpTThGMGlrbTVFUm5VSllxUUVOemJPcWVWblBZdElEUVJ1X1lOYWhWcko4RlUtOA?oc=5" target="_blank" rel="noopener">Survey of senior living residents and families reveals a ‘striking contradiction’ related to aging in place - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Survey of senior living residents and families reveals a ‘striking contradiction’ related to aging in place&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZQUwzbjZvblVDUWtJeWZnSGdFM01UZTY2SmdtY1pMWkczZXl1WE96N2lraGJQaGgwanZHUEhUOXRtWnN4ZW5BbnhQeXEzbllmS1U0N2dGMW9ETDR4aWVOX04wUkRCbWxSTUVtYTRwN2cwdTZFTzhCUGdYOHNKZw?oc=5" target="_blank" rel="noopener">Per Diem Pharmacist - Community Pharmacy Job Opening in Anaheim - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Per Diem Pharmacist - Community Pharmacy Job Opening in Anaheim&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWTQ2WWlCdGJoLVlmbWFfZ0g5VWlDb0JId0R5UmRUSHg5cGlYUmd1aGJ3bmhDT2E1UXJBSG85bGpYZGtPZWNkWEQzck0xaTA1ZG5XQXNvanVJbE9ZX2p5TzRNd2ZNeDVOcjhlUjZ6b3l6ZEVEcVhJN3NXZXFHMW5xazNnR3VwQlllRGhXUV9OR2E1SDVBY3dfWnpzV3BhdUdEa0dia09zZVNtMXJCV1FQeWpsM2RaX19TaHFhRk80RmpzYXJUX3ZsdEFBRUprY0psUFk0?oc=5" target="_blank" rel="noopener">NP/PA, Patient Connect, Per Assessment, Senior Community Care - Lewis, Thurston Counties WA - McKnight's Senior Living</a></h3>
+<p class="feed-summary">NP/PA, Patient Connect, Per Assessment, Senior Community Care - Lewis, Thurston Counties WA&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQQkdVU0RQM3JralBCR3pjQXN6MlduY3ZUS0Yzam9vNk1LeU9Sa2VWQmRwSzFqeGlvMGNmUm0zXzA2dUcwTjdiMU5TZWxxWlJGSGVyLTY1ZTc1NkRhWFVpQUhJbDBIQXlqMG1oVUlYeExyalhzZU1JRFhCSGFvOC0tXzJQbEloSG9QYzJHcmNybUUzaWZ4UGxYWF91T3VJaXVPb0tYWHJLYm5YaEZvYkxHdHNxX3J2OVQ5SVJfVA?oc=5" target="_blank" rel="noopener">Nurse Pract-SCC: Patient Connect Per Assessment: Charleston County-SC Job Opening in Charleston, South Carolina - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Nurse Pract-SCC: Patient Connect Per Assessment: Charleston County-SC Job Opening in Charleston, South Carolina&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1TbTI1RXpRZ1B1Uks4Z0lpMnpUZTU0bmw2bDAwY1ZTLTVPclFSOVhVTF9xS01WYmJRUWI1QXVrc0x1LWM3Mnp6a196Q3owTE96Z1NyZ21zTTRTTDE0WVpJQjNSTk5zWkE0enpCOXFhRFdiTGxoRTJj?oc=5" target="_blank" rel="noopener">Hospice Aide/CNA Job Opening in Alexandria - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Hospice Aide/CNA Job Opening in Alexandria&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcEQtRUM3MDAwU3BTbUk3YzM5TjEyLWs3VlViWkZraC1ueU8wVndEaG9sN0hUemdqTkItYmhiWldNTE5RaVlpTk1meHgza2d6YlJaWkNFSFU0MUpxTkFPTmlNM1pFNDhNcWhlN2RELU1VN0hyYmdGaEFvWk5hLUNmcXpMM09vRXVEUnJkd0szekpXbzExdHJVUWFxTlh4VUk2ZEtlZ0Zody1aTVFtT2dHSDVnVHY1S0xHZ2QteEVYWHZwZTFfX0I5dDhxYXU2Ni1Cak5lSEQ0NXh3RnF4RVBfRkx1bEJxQTc2NGVTZFJ6WFUxcGs5Sml2Z1BibGo?oc=5" target="_blank" rel="noopener">‘Confounding and heartbreaking’: Provider groups decry Supreme Court decision that could see the departure of immigrant workers - McKnight's Senior Living</a></h3>
+<p class="feed-summary">‘Confounding and heartbreaking’: Provider groups decry Supreme Court decision that could see the departure of immigrant workers&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9mcjBDR3JSQUcyT0VCWGFaN1VKZk41bTBTZ1AwemtLUnpKNzJhUlp3R091d20tN2ZMNlByUlZEaFJWbmxjLTc2amN6LXRIWURMcXdITkV0VTdYb2hYbE9mMHExNG9HZlJFU1M0SHdnWDNUV0Rpc1p5dlYxOA?oc=5" target="_blank" rel="noopener">Home Care Aide (PCA) Job Opening in Monroe, New York - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Home Care Aide (PCA) Job Opening in Monroe, New York&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOcThOU1dVYVJJb0g0T2g5OXF3T0pGbldYdXpNWktmakJySkFwUmJtQzZnT1dXRkR3aWdpdkdBU0gzU0xqUlpNRUxpTExDWklmU0h4b1hZT3JaM1hZUFhzb3VYMHlwM0N2MThZelpDOUNSbDd3azhDSFVXRFRmSTNOb2h3M1pFZXMxZjIta2piOENNRmdOalczeFg1N2JIVmFJTTVlNjU3SHdSeFotZm9Z?oc=5" target="_blank" rel="noopener">Advanced Pharmacy Technician, Back End (2nd Shift) Full Time Job Opening in Richmond - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Advanced Pharmacy Technician, Back End (2nd Shift) Full Time Job Opening in Richmond&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNbzM4c3FZbEloQmdEZGNvZV8zQ0s0ZnNmXzhVRGhXbzh5OU9fNDllalpJMWY4QmNJZmxjVFFuX0s3bVNpZE1WN1JqbV9SRlpDVG5NVFE5UVNJUXE5RTM3RWdBbDR2UzE1OGduVlVUbm8xb1d1R3luc1BYU25ucmh0bGJtTnJxblNNQTItMnpNLU5GSDUtUkpucnlTdFhUalU3U0pjYlVGRHlaZmowQzhjX1NBOEZ4QzlEaUUzTE5sQQ?oc=5" target="_blank" rel="noopener">New social health platform aims to offset isolation in senior living residents - McKnight's Senior Living</a></h3>
+<p class="feed-summary">New social health platform aims to offset isolation in senior living residents&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxObkVpcU0tR0Nrb2VuVWtfRXRFUTlMSDUteFBadE1NbHJhVHE5dG9SbnRWTUNoaUxkZUkyQ1pZWFdmSUZGYnZiTG5JM1Q5YTlLQTVLV2k2SnRja3FJanRUcTVFeEhacGUxT29CcHZrcDZoQjJHeEpRMW9GSExZOWVDeUtBUnh4cEh1Q29sLWFEcDA4RDNscVd5TDNtYncxblVDR1hDQklYMWJnNExsNVVPRFlqbnJMcm45T0FiUjFRampYRnVWOTJ3?oc=5" target="_blank" rel="noopener">Lifespace Communities completes first phase of $138M renovation at The Waterford CCRC - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Lifespace Communities completes first phase of $138M renovation at The Waterford CCRC&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBOc2NTQWxJUFVXWkM2QlUtMHhvTW1Yblh4YnYwX213b1plczl6ak53Q3d3b09tU2RuZXVveFhSdXh5endHVFJveG5WZm9oSWZHV19JWVJjODNfMy1RcmlXQzdpdjQxeS1nVlE?oc=5" target="_blank" rel="noopener">CNA - OLGMC 9C Med Tele - McKnight's Senior Living</a></h3>
+<p class="feed-summary">CNA - OLGMC 9C Med Tele&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPUHNKcElSZEFQVFpnZ1d6cmpickJ6clFMWDZNVmZZU3B1SkJycW94aXZhaEtYaktYa2hwcUdmSXBOcTFScHFHMnVXNDktMFlXN3RXQm1ZVG5qZmJpQkYwQU91U3ItRUp6dkxUeC1wY2kxUHlxX3dnSWlndVU0UWs4eG5veWtERy00S2c?oc=5" target="_blank" rel="noopener">PRN Caregiver- Whitley City, KY Job Opening in Whitley City - McKnight's Senior Living</a></h3>
+<p class="feed-summary">PRN Caregiver- Whitley City, KY Job Opening in Whitley City&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPTEZUbEw4X0ZIeFlNU09jZWc1QTRIdmN1bFZQdXhkQmhIYXg0WW9MR2M0Y0JKWlZmVUw3MUVIS1l6ZGhpbE96TVpGTjAxZXkzd1l1eWp1NkROd3RIbFdBdWFtZWktN01pQk5ZYmlIQWxBQnQ1SWJFcmZfbHAyZWJ4THlKTHZnajdMQzZLQUttRjgyUzluU2hYYVZoMmotVzhlOUkzaw?oc=5" target="_blank" rel="noopener">Pharmacy Technician Front End Full Time 2nd Shift Job Opening in Peabody - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Pharmacy Technician Front End Full Time 2nd Shift Job Opening in Peabody&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQaERSVERoU3BFRXRpTHVCYmY2Z1FfbTJMUExob0lrQ0pOSHktYnZ6TWZqOENLd0o1NElSaGdxSS1uSlg2M0ZVRWVkTjF2dWY5ZXVYdUJ5d0dmdEN0Vmk4SGcyMXVOLW9LSnRQWXB0RXdaeGdzdnhZOG5ibG1QZmZ3UnhIWQ?oc=5" target="_blank" rel="noopener">Actions & Transactions, June 29 - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Actions & Transactions, June 29&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1kwN0JvbEQtOEEtTmNvaUtpRjU4R1AyNWVQdHhOdUVJWXkwSE5Sc0Y5cWRnUjUtQzR1akFPei1fNXlMMlBRZ1JVSU5QTWtIYTVId1czTTY1T0lzYmV5aGRpaWJLWEZEYnM2RU9NV3BMeEtfZS1jd2twRUszM2p1Ny15Q2lTT0JaaWFXd2ExcllyRlk?oc=5" target="_blank" rel="noopener">PRN Occupational Therapist Asst - COTA - McKnight's Senior Living</a></h3>
+<p class="feed-summary">PRN Occupational Therapist Asst - COTA&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPYWpmWHcwTWtVNlhuTXdMQ2puT29iX2FTU2p0LWpWVVlhdkhjWUNZcHJMSmlkU1ZDLU9XbldxUG9yZks3aHg5dXhOMXRRRXBSam1zODVVZDZQOXJ2MTE0TE5uVWVPcWloYVZ5OF9LN05KYk1EckczMWtkVWwxSnV2cDNOWQ?oc=5" target="_blank" rel="noopener">Licensed Practical Nurse - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Licensed Practical Nurse&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQTjlXRWtaTVhtVXZYc19kVWFKS2pVM1hiM3ZxWGptUWpIdDNrQ0dCSVlrdm56c1puaG01UmlZd3J1SWU2S2ZiSXVmT3p6SVVVV0Q4QVFUME5Qb1dMak83WmQ3VWhicmtPZ2FyWFg3MV9SVkZSR1hXRmg4bHJmd3BodEU2enh6bnhydnJTZ2dXMndvWXIzOXU5RU10UEVmVkY0UU9kZWJ6NVJVejRoTVR3bg?oc=5" target="_blank" rel="noopener">‘Remember the 3 P’s’ for success in senior living and care ownership - McKnight's Senior Living</a></h3>
+<p class="feed-summary">‘Remember the 3 P’s’ for success in senior living and care ownership&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-28" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-28</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE5ObGZtZEY3TGk5OUVoajRjWEVNTEY3ekhQRU1aYmZpaUJCVEk0alVmS2poZWRLeWJpLUstdXY3ZzhmNUlmV0xoclo2QnVFaG5renpNaDYyZk5VdnU1RmtuMnF4UEJCNW1NbTlJbldWVlJMMUp6OTNGbFVtZw?oc=5" target="_blank" rel="noopener">Home Care Aide (PCA) Job Opening in Walden, New York - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Home Care Aide (PCA) Job Opening in Walden, New York&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-27" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-27</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSkQzQjJhQl9CM2RjQjFSWE5CbUhxTW02SmUwNzZtRW4tLVl2X2FqQ19yMVBDLU1YaGFnRTdzRlpSTjZBWm9DN01IOFRRZlZvTUdNY2VZVjEwclQwQzR6RGpxbEJFMk9fSV85ZnlWSXNJcThqdkpYd05VcWZBQzItZGFZcnpYUjB2NE0xaVZCX3FYNFdkNmxhbTh6YklJRXVyZk91OTBvejM?oc=5" target="_blank" rel="noopener">CNA/Patient Care Assistant - Patient Care Services - Days - McKnight's Senior Living</a></h3>
+<p class="feed-summary">CNA/Patient Care Assistant - Patient Care Services - Days&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-27" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-27</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOT2cxeDI4QldtcmlGLTl5ZDdsVU5CSV9lRUVwY1pMeUlySzJYTGVoZ1o1dzhWOFA2UkRTVlprZU5yS1pINmotbmtsNk90UW5sRnpPQnBVZG9oZWxiN2Z4dlVLNXFnczlRWWNJNjFBZUpPdlZ4M0MzTjMwdVRkbEpDdFJmSkh1T1JEc2xSblNlZUhVUQ?oc=5" target="_blank" rel="noopener">Territory Account Executive (Florida) Job Opening in Boston - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Territory Account Executive (Florida) Job Opening in Boston&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
 </div><div class="feed-item" data-view="curated" data-score="8.1" data-date="2026-06-26" data-tags="居家养老,智慧养老,社交陪伴,融资" data-region="overseas">
   <div class="feed-time">2026-06-26</div>
   <div class="feed-body">
@@ -540,6 +1531,69 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <p class="feed-summary">QuestMobile 2026年618洞察报告显示，银发群体关注度同比提升28%，AI深入电商战局，用户结构深度分化。</p>
 <div class="feed-tags"><span class="tag">老年消费</span><span class="tag">智慧养老</span></div>
 <div class="rec-box">银发群体关注度提升28%——这是量化数据，不是概念。说明618大促期间，老年人正在从「被动受众」变成「主动参与者」。但「关注度」≠「消费力」，中国老年电商的核心障碍是信任和操作门槛（不是不想买，是不会用）。京东国补50%上线恰好解决了这两个问题：补贴降低价格门槛，电商平台降低操作门槛。两条新闻放在一起看，信号更完整。</div>
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9fOTZrRVUwajd5UldkUGNHMkEtc1J4VU1UY2JBVkhDTDhSSlZsYmNSbE56T0NwVWMzOTljYUxwd21JT2JFTHRPM09UT1JxbWxveHdpNk5CY040UVV4NDFidFdqcFVYLUprMU4tOQ?oc=5" target="_blank" rel="noopener">Laura Piwinski - McKnight's Senior Living - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Laura Piwinski - McKnight's Senior Living&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeVVyYW5SWHczWFRfU1V5VG9UZWxhajFoR0xXUVV6dGdNTHNicTVaNTlJTGhkdlBiZktuby1DSzZiVkROb0lZZnFja2otanJ0eTdxZ1hrODVqRTBuTWs0QzBSdmc4RGxDWkpfOWt6Rkh0YmFJUmFaMFNwTG1IaFJqMHZlVXpPYW1IaklLeEkwRTRzVHNvc2VHT1FSeGVLVU5JeTl3RngyS3Z2aE0?oc=5" target="_blank" rel="noopener">Data Privacy & Security Compliance (HIPPA) Archives - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Data Privacy & Security Compliance (HIPPA) Archives&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="overseas">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">McKnight's Senior Living</span>      <span class="region-tag region-overseas">海外</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNVGJCVWxwMm9teVUzQU52eTRESXNTQV85Z2plNnFqcDhxTE9lTEJaUjVZcFNTVGV3ZUpNekptdTl6clRZMWppS0hQSERUNzlUZC1oTlRkVVNpeHNoUTdQRDg3Rm1nNDI0dzBXVmg0ZzltTHI4TTBkTHZsNExaYk5ZVWhCVVZKcE5Mam5lSlZB?oc=5" target="_blank" rel="noopener">Respiratory Sales Representative - McKnight's Senior Living</a></h3>
+<p class="feed-summary">Respiratory Sales Representative&nbsp;&nbsp;McKnight's Senior Living</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">中山Plus</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5tUFRZa2l1SVhJWnY0NDZ2SjlDbHUtV3BuNmlRNGxnazljbEczVEcyNmRWSmhPSmx6dkxwaFVtaERlSE9LWGRGbUM0X1llYVBuVk5McktTWU1rLXRkNklmdDR2ZTVnXzlqc1pB?oc=5" target="_blank" rel="noopener">声屏公司当选市福协理事！赋能中山养老服务高质量发展 - 中山Plus</a></h3>
+<p class="feed-summary">声屏公司当选市福协理事！赋能中山养老服务高质量发展&nbsp;&nbsp;中山Plus</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">华声在线</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PbktxVDI2NWd4MGM2d2c3eUlHVGxiTnJjR0dyNGVYMUFkaFVFQWlUMHN3b0FoZ2ZrMUZqNm5YTjdvVnpiZUcxMTIxc1pBLXI2SXgwVVQxbE9hazVrUzNnNi1KZ0N2dzJa?oc=5" target="_blank" rel="noopener">赋能智慧养老新生态，“银发经济+长沙智造”供需对接会举办 - 华声在线</a></h3>
+<p class="feed-summary">赋能智慧养老新生态，“银发经济+长沙智造”供需对接会举办&nbsp;&nbsp;华声在线</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">央视网</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQTEw1SUpGTGpwZFB2OGU3aHRraUlyWnI2MHpmN2hiVVR4LVY1WURITHZwQzNQQmNTeW9uRVpDT2kyWGVsR21SdDRfSk4xV1M5WGo4LXRabmphOWlGbnVwZEM0dElRTmxkRF9UZTVBUGxzTmpYanhtZzBPb1RMd1FvMDRKMG5NOU1fYnpRd2lSdFlueEdpRXRWaG5kNGpMWTVweWdOeGVSalRKal92aWc?oc=5" target="_blank" rel="noopener">我国设立“养老服务师”职业资格制度 相关技术人员迎来职业晋升新通道 - 央视网</a></h3>
+<p class="feed-summary">我国设立“养老服务师”职业资格制度 相关技术人员迎来职业晋升新通道&nbsp;&nbsp;央视网</p>
+
+  </div>
+</div><div class="feed-item" data-view="raw" data-score="0" data-date="2026-06-26" data-tags="" data-region="domestic">
+  <div class="feed-time">2026-06-26</div>
+  <div class="feed-body">
+    <div class="feed-meta">      <span class="feed-source">AgeClub</span>      <span class="region-tag region-domestic">国内</span>  
+    </div>
+    <h3 class="feed-title"><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fcy1WRVRVV1JzemtuRVhQbFM0aEt2WktuSGRKeFFDdDFKaU5uN3hJTjJnZ1J6bEVKbi1oNHRqU1NrMFg4UkNEUDEtQ09UVHB4eEd4YXR3?oc=5" target="_blank" rel="noopener">QuestMobile 2026年618洞察报告：用户结构深度分化，银发群体关注度同比提升28%，AI深入战局 - AgeClub</a></h3>
+<p class="feed-summary">QuestMobile 2026年618洞察报告：用户结构深度分化，银发群体关注度同比提升28%，AI深入战局&nbsp;&nbsp;AgeClub</p>
+
   </div>
 </div><div class="feed-item" data-view="curated" data-score="8.4" data-date="2026-06-24" data-tags="居家养老,收购,临终关怀,辅助生活" data-region="overseas">
   <div class="feed-time">2026-06-24</div>
@@ -581,14 +1635,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">长寿科技</span><span class="tag">智慧养老</span><span class="tag">融资</span></div>
 <div class="rec-box">「AI仿生智慧体+长寿村」概念听着很前沿，但目前还在种子轮寻求阶段，缺乏可验证的产品和数据。建议标记为「跟踪观察」——如果完成融资或产品落地，再评估写作价值。现阶段不建议单独写稿。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.5" data-date="2026-06-16" data-tags="AI,银发科技,AgeTech,行业报告" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="7.5" data-date="2026-06-16" data-tags="" data-region="domestic">
   <div class="feed-time">2026-06-16</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">JUCAP</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.5</span> 
     </div>
     <h3 class="feed-title"><a href="https://jucap.com/news/tech/20260616-08-ai-agetech-report-2026/" target="_blank" rel="noopener">AI时代中国银发科技发展研究报告发布：五大技术路线从可用到必选</a></h3>
 <p class="feed-summary">AgeClub于2026年6月11日发布《AI时代中国银发科技发展研究报告（2026）》，系统梳理人工智能在养老领域的应用现状、技术路线和商业化路径。报告覆盖智能硬件、健康管理、居家护理等五大技术路线。</p>
-<div class="feed-tags"><span class="tag">AI</span><span class="tag">银发科技</span><span class="tag">AgeTech</span><span class="tag">行业报告</span></div>
 <div class="rec-box">AgeClub AI银发科技报告，五大技术路线系统梳理。适合作为银发科技选题的背景参考，结合海外AgeTech案例可做成深度合集。</div>
   </div>
 </div><div class="feed-item" data-view="curated" data-score="5.9" data-date="2026-06-15" data-tags="居家养老,收购,辅助生活" data-region="overseas">
@@ -621,14 +1674,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">居家养老</span><span class="tag">收购</span><span class="tag">临终关怀</span></div>
 <div class="rec-box">区域性居家护理并购持续活跃，反映行业整合的大趋势。建议作为居家护理并购趋势的数据点积累，等到积累5-10起类似交易后合并为一篇「美国居家护理并购潮」分析文章。目前不建议单独写稿。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="8.0" data-date="2026-06-05" data-tags="银发经济,行业报告,36氪,2026" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="8.0" data-date="2026-06-05" data-tags="" data-region="domestic">
   <div class="feed-time">2026-06-05</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">AgeClub</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">8.0</span> 
     </div>
     <h3 class="feed-title"><a href="https://www.ageclub.net/article-detail/9034" target="_blank" rel="noopener">深度解读《2026年中国银发经济产业研究报告》：银发经济走向结构性扩容</a></h3>
 <p class="feed-summary">基于36氪研究院发布的《2026年中国银发经济产业研究报告》，系统解读中国银发经济从基础保障走向需求分层驱动下的结构性扩容的产业逻辑。</p>
-<div class="feed-tags"><span class="tag">银发经济</span><span class="tag">行业报告</span><span class="tag">36氪</span><span class="tag">2026</span></div>
 <div class="rec-box">36氪+AgeClub联合解读，权威性高。2026年中国银发经济规模约8万亿元，3.23亿老年人口。文章结构完整，适合做选题背景参考。</div>
   </div>
 </div><div class="feed-item" data-view="curated" data-score="7.7" data-date="2026-06-02" data-tags="居家养老,健康监测,智慧养老,产品发布" data-region="domestic">
@@ -681,24 +1733,23 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">智慧养老</span><span class="tag">居家养老</span><span class="tag">社交陪伴</span><span class="tag">融资</span></div>
 <div class="rec-box">12个月三轮融资，上市公司战略入股——骅羲科技的融资节奏说明「具身智能+养老」不是概念，是资本真金白银下注的方向。亚华电子做智慧医院和智慧养老解决方案，投资骅羲是产业链上下游整合的典型。有趣的是跟进观察：亚华刚宣布加入华为「鸿图计划」加速智慧医院开源鸿蒙落地，两条线（机器人+鸿蒙生态）如果打通，骅羲的产品落地速度可能远超其他创业公司。可写「具身智能如何在养老场景率先落地」。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="8.5" data-date="2026-04-27" data-tags="投融资,银发经济,资本化,行业报告" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="8.5" data-date="2026-04-27" data-tags="" data-region="domestic">
   <div class="feed-time">2026-04-27</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">新浪财经</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">8.5</span> <span class="viral-tag">🔥 爆款</span>
     </div>
     <h3 class="feed-title"><a href="https://finance.sina.com.cn/wm/2026-04-27/doc-inhvxtqy9052060.shtml" target="_blank" rel="noopener">单笔融资重回亿元级！银发产业投资逻辑彻底变了</a></h3>
 <p class="feed-summary">系统梳理2022-2026年一级市场投融资、二级市场上市与资本运作核心数据，跨年度对比分析银发经济资本化进程底层逻辑与未来走向。单笔融资重回亿元级，资本逻辑发生重大变化。</p>
-<div class="feed-tags"><span class="tag">投融资</span><span class="tag">银发经济</span><span class="tag">资本化</span><span class="tag">行业报告</span></div>
 <div class="rec-box">重磅行业报告解读！单笔融资重回亿元级，投资逻辑变化信号强烈。建议以此为底稿，结合选题库投融资数据进行深度写作，可做成年度投融资盘点选题。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.5" data-date="2026-04-07" data-tags="投融资,康养,国寿,阿里巴巴,智慧养老" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="7.5" data-date="2026-04-07" data-tags="智慧养老" data-region="domestic">
   <div class="feed-time">2026-04-07</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">知乎</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.5</span> 
     </div>
     <h3 class="feed-title"><a href="https://zhuanlan.zhihu.com/p/2024906774910616586" target="_blank" rel="noopener">如何解读2026年3月底至4月初康养领域的密集投融资与战略布局</a></h3>
 <p class="feed-summary">本周（3.30-4.06）康养行业三个确定性信号：资本端加速布局重资产项目（国寿2.3亿收购南京CCRC）；科技平台巨头深度介入智慧养老（北京x阿里）；细分领域加速整合。</p>
-<div class="feed-tags"><span class="tag">投融资</span><span class="tag">康养</span><span class="tag">国寿</span><span class="tag">阿里巴巴</span></div>
+<div class="feed-tags"><span class="tag">智慧养老</span></div>
 <div class="rec-box">三大信号：1）国寿2.3亿收购南京CCRC；2）北京x阿里合作智慧养老；3）细分领域整合。选题库未覆盖，可作为国内投融资选题参考。</div>
   </div>
 </div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2026-02-15" data-tags="居家养老,保险科技,融资" data-region="overseas">
@@ -711,24 +1762,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="feed-tags"><span class="tag">居家养老</span><span class="tag">保险科技</span><span class="tag">融资</span></div>
 <div class="rec-box">650万美元种子轮虽小，但「患者倡导员」模式值得关注——帮老年人搞懂医保、约对医生、吃对药。Baba的做法是「人+技术」（指派专属人工倡导者），与Solace Health的「平台化网络」模式形成对比。建议与Solace（1.3亿美元）合并写一篇「美国老年医疗导航市场」分析，讨论中国「就医陪诊/养老顾问」的市场机会和信任壁垒。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="7.0" data-date="2026-02-02" data-tags="银发消费,内容运营,爆款,ABI2026" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="7.0" data-date="2026-02-02" data-tags="" data-region="domestic">
   <div class="feed-time">2026-02-02</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">搜狐</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-high">7.0</span> 
     </div>
     <h3 class="feed-title"><a href="https://www.sohu.com/a/982686711_120019119" target="_blank" rel="noopener">2026银发消费与流量前瞻：12位嘉宾现场拆解爆款密码</a></h3>
 <p class="feed-summary">ABI2026·第十一届中国银发产业峰会内容。12位嘉宾拆解爆款密码与变现路径，涵盖银发消费新趋势、内容创作方法论、变现路径等核心议题。</p>
-<div class="feed-tags"><span class="tag">银发消费</span><span class="tag">内容运营</span><span class="tag">爆款</span><span class="tag">ABI2026</span></div>
 <div class="rec-box">ABI2026峰会内容运营分享，12位嘉宾拆解爆款密码。可参考内容选题方向和爆款策略。</div>
   </div>
-</div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2025-11-07" data-tags="创业,细分领域,低门槛" data-region="domestic">
+</div><div class="feed-item" data-view="curated" data-score="6.5" data-date="2025-11-07" data-tags="" data-region="domestic">
   <div class="feed-time">2025-11-07</div>
   <div class="feed-body">
     <div class="feed-meta">      <span class="feed-source">今日头条</span>      <span class="region-tag region-domestic">国内</span> <span class="score-badge quality-watch">6.5</span> 
     </div>
     <h3 class="feed-title"><a href="https://www.toutiao.com/article/7569939030150808115/" target="_blank" rel="noopener">2026银发经济爆款清单：11个老年项目，低门槛高需求</a></h3>
 <p class="feed-summary">盘点11个适合创业的银发经济细分领域，覆盖老年旅游、辅具租赁、上门护理、老年教育等低门槛高需求方向。</p>
-<div class="feed-tags"><span class="tag">创业</span><span class="tag">细分领域</span><span class="tag">低门槛</span></div>
 <div class="rec-box">今日头条渠道，爆款清单形式。可以作为选题灵感参考，部分细分领域与选题库重合度高。</div>
   </div>
 </div>
@@ -737,18 +1786,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <p>Silver Pulse 银脉 · 银发经济投融资每日速览</p>
 <p>Powered by WorkBuddy · 海外 + 中文双源覆盖</p>
 </div>
-<div id="about" class="hidden" style="margin-top:24px;padding:16px;background:var(--card-bg);border-radius:var(--radius);">
-<p style="font-size:13px;color:var(--text-secondary);line-height:1.8;"><b>关于 Silver Pulse 银脉</b></p>
-<p style="font-size:13px;color:var(--text-secondary);line-height:1.8;">面向银发经济创业者的全球投融资资讯聚合看板。<br>以海外为镜，照中国之路。</p>
-</div>
 </div>
 
 <script>
 
 let activeView='curated';
 let activeRegion='all';
-let activeTag='all';
+let activeIndustryTag='all';
+let activeEventTag='all';
 let activeSort='time';
+let searchTerm='';
 const items=document.querySelectorAll('.feed-item');
 
 function updateDisplay(){
@@ -758,22 +1805,32 @@ function updateDisplay(){
     const tags=item.dataset.tags||'';
     const reg=item.dataset.region||'';
     const sc=parseFloat(item.dataset.score)||0;
+    const titleEl=item.querySelector('.feed-title');
+    const summaryEl=item.querySelector('.feed-summary');
+    const title=titleEl?titleEl.textContent.toLowerCase():'';
+    const summary=summaryEl?summaryEl.textContent.toLowerCase():'';
+
     const vm=activeView==='all'||v==='curated';
     const rm=activeRegion==='all'||reg===activeRegion||(activeView==='all');
-    const tm=activeView==='all'||activeTag==='all'||tags.includes(activeTag);
+    const im=activeView==='all'||activeIndustryTag==='all'||tags.includes(activeIndustryTag);
+    const em=activeView==='all'||activeEventTag==='all'||tags.includes(activeEventTag);
+    const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm);
     const isArc=activeView==='curated'&&sc>0&&sc<5.0;
-    if(vm&&rm&&tm){
+    if(vm&&rm&&im&&em&&sm){
       if(isArc){item.style.opacity='.35';item.style.pointerEvents='none';visible++}
       else{item.style.opacity='';item.style.pointerEvents='';visible++}
     }else{item.style.display='none'}
   });
   const s=document.getElementById('header-stats');
   s.textContent=activeView==='all'
-    ?'更新于 2026-07-03 14:01 · 全量 62 条'
-    :'更新于 2026-07-03 14:01 · 精选 '+visible+' 条 · 高价值 38 条';
-  document.getElementById('tag-bar').style.display=activeView==='all'?'none':'flex';
-  document.getElementById('region-pills').style.display=activeView==='all'?'none':'flex';
-  document.getElementById('sort-bar').style.display=activeView==='all'?'none':'flex';
+    ?'更新于 2026-07-03 21:30 · 全量 178 条'
+    :'更新于 2026-07-03 21:30 · 精选 '+visible+' 条 · 高价值 38 条';
+  const showFilters=activeView!=='all';
+  document.getElementById('tag-bar-industry').style.display=showFilters?'flex':'none';
+  document.getElementById('tag-bar-event').style.display=showFilters?'flex':'none';
+  document.getElementById('region-pills').style.display=showFilters?'flex':'none';
+  document.getElementById('sort-bar').style.display=showFilters?'flex':'none';
+  document.getElementById('search-wrap').style.display=showFilters?'block':'none';
 }
 
 function sortItems(){
@@ -785,10 +1842,12 @@ function sortItems(){
 }
 
 function setView(view){
-  activeView=view;activeTag='all';
+  activeView=view;activeIndustryTag='all';activeEventTag='all';searchTerm='';
+  document.getElementById('search-input').value='';
   document.getElementById('pill-curated').classList.toggle('active',view==='curated');
   document.getElementById('pill-all').classList.toggle('active',view==='all');
-  document.querySelectorAll('.tag-btn').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
+  document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
+  document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
   document.querySelectorAll('.region-pill').forEach(b=>b.classList.toggle('active',b.dataset.region==='all'));
   document.querySelectorAll('.sort-btn').forEach(b=>b.classList.toggle('active',b.dataset.sort==='time'));
   activeRegion='all';activeSort='time';sortItems();updateDisplay();
@@ -806,11 +1865,20 @@ document.querySelectorAll('.sort-btn').forEach(btn=>{
     this.classList.add('active');activeSort=this.dataset.sort;sortItems();updateDisplay();
   });
 });
-document.querySelectorAll('.tag-btn').forEach(btn=>{
+document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(btn=>{
   btn.addEventListener('click',function(){
-    document.querySelectorAll('.tag-btn').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');activeTag=this.dataset.tag;updateDisplay();
+    document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeIndustryTag=this.dataset.tag;updateDisplay();
   });
+});
+document.querySelectorAll('.tag-btn[data-group="event"]').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeEventTag=this.dataset.tag;updateDisplay();
+  });
+});
+document.getElementById('search-input').addEventListener('input',function(){
+  searchTerm=this.value.toLowerCase().trim();updateDisplay();
 });
 updateDisplay();
 
