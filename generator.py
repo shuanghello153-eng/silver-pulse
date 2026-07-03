@@ -371,6 +371,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<a href="index.html" class="nav-item active">资讯看板</a>',
         '<a href="enterprise.html" class="nav-item">企业库</a>',
         '</div>',
+        '</div>',
 
         # Main content
         '<div class="main">',
