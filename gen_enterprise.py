@@ -85,6 +85,7 @@ def build_card(ent):
     tags = ent.get("tags", [])
     description = esc(ent.get("description", ""))
     highlights = esc(ent.get("highlights", ""))
+    business_model = esc(ent.get("business_model", ""))
 
     # Funding
     fund_latest = ent.get("funding_latest")
@@ -160,6 +161,10 @@ def build_card(ent):
     # Founded
     if founded:
         meta_parts.append(f'<span class="meta-item">成立: {founded}</span>')
+
+    # Business model
+    if business_model:
+        meta_parts.append(f'<span class="meta-item meta-biz">{business_model}</span>')
 
     # Source
     if source:
@@ -312,6 +317,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .meta-item {{ white-space:nowrap; }}
 .meta-fund {{ color:var(--fund-text); font-weight:500; background:var(--fund-bg); padding:1px 6px; border-radius:3px; }}
 .meta-fund-total {{ color:var(--fund-total-text); font-weight:500; background:var(--fund-total-bg); padding:1px 6px; border-radius:3px; }}
+.meta-biz {{ color:var(--text-secondary); font-size:10px; font-style:italic; opacity:0.85; }}
 .meta-source {{ font-size:10px; opacity:0.7; }}
 .meta-links {{ margin-left:auto; }}
 .ent-link {{ font-size:11px; color:var(--accent); text-decoration:underline; }}
@@ -352,8 +358,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   <div class="filter-row">
     <span class="f-label">视图</span>
     <div class="view-toggle">
-      <button class="view-btn active" data-view="curated">精选 ({curated_count})</button>
-      <button class="view-btn" data-view="all">全量 ({total})</button>
+      <button class="view-btn" data-view="curated">精选 ({curated_count})</button>
+      <button class="view-btn active" data-view="all">全量 ({total})</button>
     </div>
     <span class="f-label" style="margin-left:12px;">地区</span>
     <button class="f-btn active" data-reg="all">全部</button>
@@ -383,7 +389,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 <script>
 let activeReg = 'all';
 let activeCat = 'all';
-let activeView = 'curated';
+let activeView = 'all';
 
 function filterEnt() {{
   const q = document.getElementById('search').value.toLowerCase();
