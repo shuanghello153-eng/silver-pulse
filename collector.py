@@ -196,15 +196,11 @@ def extract_summary(entry):
     return ""
 
 
-def collect_from_rss(source_id, source_config):
+def collect_from_rss(source_id, feed_url, source_type, source_name):
     """
     Collect articles from an RSS feed.
     Handles three types: direct RSS, RSS via HTTP (with headers), Google News RSS.
     """
-    feed_url = source_config["feed_url"]
-    source_type = source_config.get("type", "rss")
-    source_name = source_config["name"]
-
     try:
         if source_type == "rss":
             # Direct RSS via feedparser
@@ -290,11 +286,22 @@ def collect_all(history=None):
     all_articles = []
 
     for source_id, source_config in SOURCES.items():
-        print(f"Collecting from {source_config['name']}...")
-        articles = collect_from_rss(source_id, source_config)
+        source_name = source_config["name"]
+        print(f"Collecting from {source_name}...")
+
+        all_channel_articles = []
+        for channel_name, channel_url, channel_method in source_config.get("l2_channels", []):
+            if channel_method == "manual":
+                print(f"  [{channel_name}] Skipping manual channel")
+                continue
+
+            channel_articles = collect_from_rss(
+                source_id, channel_url, channel_method, source_name
+            )
+            all_channel_articles.extend(channel_articles)
 
         new_count = 0
-        for article in articles:
+        for article in all_channel_articles:
             if is_duplicate(article["url"], history):
                 continue
             mark_seen(article["url"], history)

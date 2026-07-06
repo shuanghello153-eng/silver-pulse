@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.pyc
+*.bak
+*.bak.*
+*.log
+.DS_Store
+Thumbs.db
+tmp_*.py
+test.txt
