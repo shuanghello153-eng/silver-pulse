@@ -1,4 +1,4 @@
-<!-- build:20260706190929 -->
+<!-- build:20260706224232 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -252,8 +252,7 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
       <b>积分消耗</b>：推荐理由由AI生成，每条约消耗200-500 tokens。仅精选条目有推荐理由，全量条目不生成。<br>
       <b>低成本方案</b>：如果积分紧张，可关闭推荐理由生成，仅保留标题+摘要+分类。每次采集约节省3-6K tokens（62条×100 tokens/条均）。
     </div>
-
-  <div class="section">
+  </div>
     <h3>评分机制</h3>
     <div class="callout callout-warning">
       <b>当前状态：评分功能已暂停</b><br>
@@ -272,9 +271,9 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
   <div class="section">
     <h3>更新机制</h3>
     <ul>
-      <li><b>采集频率</b>：每天 07:00（北京时间）自动运行</li>
+      <li><b>采集频率</b>：每周运行一次（暂定）</li>
       <li><b>采集窗口</b>：过去 7 天的资讯</li>
-      <li><b>每日积分消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K）</li>
+      <li><b>每次积分消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
       <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
       <li><b>标签池迭代</b>：每月一次，AI扫描近月数据自动补充新标签</li>
@@ -429,10 +428,10 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
         <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>RSS采集</td><td>每日</td><td>07:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
-        <tr><td>分类+标签</td><td>每日</td><td>采集后</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用）</td></tr>
-        <tr><td>推荐理由生成</td><td>每日</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
-        <tr><td>HTML生成</td><td>每日</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
+        <tr><td>RSS采集</td><td>每周</td><td>周一 07:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
+        <tr><td>分类+标签</td><td>每周</td><td>采集后</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用）</td></tr>
+        <tr><td>推荐理由生成</td><td>每周</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
+        <tr><td>HTML生成</td><td>每周</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
         <tr><td>标签池迭代</td><td>每月</td><td>月初</td><td>约5-10K tokens</td><td>AI扫描+更新TAG_POOL</td></tr>
         <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
         <tr><td>评分</td><td>暂停中</td><td>—</td><td>—</td><td>规则优化后恢复</td></tr>
@@ -445,14 +444,12 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
     <div class="callout callout-warning">
       <b>低成本方案</b>（积分紧张时使用）：<br>
       1. <b>关闭推荐理由生成</b> → 节省12-31K tokens/次（最大节省项）<br>
-      2. <b>减少精选条目数</b> → 从62条降至20-30条，推荐理由减少50%<br>
-      3. <b>缩短采集窗口</b> → 从7天降至3天，减少采集量<br>
-      4. <b>暂停T3信源</b> → 只保留T1+T2核心信源，减少采集量<br>
-      5. <b>跳过分类关键词匹配</b> → 不分类，只做相关性过滤（不推荐，影响筛选体验）<br>
+      2. <b>缩短采集窗口</b> → 从7天降至3天，减少采集量<br>
+      3. <b>暂停T3信源</b> → 只保留T1+T2核心信源，减少采集量<br>
+      4. <b>跳过分类关键词匹配</b> → 不分类，只做相关性过滤（不推荐，影响筛选体验）<br>
       <b>推荐策略</b>：优先关闭推荐理由生成（方案1），可节省约50%的每日积分消耗。
     </div>
-
-  <div class="section">
+  </div>
     <h3>技术架构</h3>
     <ul>
       <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>

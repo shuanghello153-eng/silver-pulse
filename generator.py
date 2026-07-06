@@ -76,6 +76,41 @@ def translate_source_name(name):
         "MobiHealthNews": "移动健康新闻",
         "McKnight's Home Care": "McKnight's居家护理",
         "Google News": "谷歌新闻",
+        # Extended translations
+        "StockStory": "StockStory股票分析",
+        "매일경제": "每日经济（韩国）",
+        "streamlinefeed.co.ke": "StreamlineFeed（肯尼亚）",
+        "digitalmore.co": "Digitalmore数字新闻",
+        "PR Newswire": "PR新闻社",
+        "Business Wire": "商业新闻社",
+        "Yahoo Finance": "雅虎财经",
+        "TechCrunch": "TechCrunch",
+        "BetaKit": "BetaKit创投",
+        "Pulse 2.0": "Pulse 2.0科技",
+        "Modern Healthcare": "现代医疗",
+        "HomeCare Magazine": "居家护理杂志",
+        "FinSMEs": "FinSMEs创投",
+        "HIT Consultant": "HIT医疗咨询",
+        "Coverager": "Coverager保险",
+        "Axios Pro Health Tech Deals": "Axios医疗交易",
+        "FemTech Insider": "女性科技内幕",
+        "Creating A New Healthcare": "新医疗",
+        "StartUp Health": "StartUp Health",
+        "AgeTech News": "AgeTech News",
+        "Inc.": "Inc.杂志",
+        "A2 Collective": "A2 Collective",
+        "Agetech News": "Agetech News",
+        "Fierce Biotech": "Fierce生物科技",
+        "BioSpace": "BioSpace生物",
+        "CISION": "CISION新闻",
+        "GlobeNewswire": "环球新闻社",
+        "EIN Presswire": "EIN新闻社",
+        "Accesswire": "Accesswire新闻社",
+        "Send2Press": "Send2Press新闻",
+        "KoreaTechDesk": "韩国科技",
+        "Korea IT Times": "韩国IT时报",
+        "Chosun Biz": "朝鲜Biz",
+        "KED Global": "韩国经济日报",
     }
     return translations.get(name.strip(), name)
 
@@ -407,8 +442,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .region-pills{display:inline-flex;gap:3px;vertical-align:middle}
 .region-pill{padding:4px 12px;border-radius:16px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
 .region-pill.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
-
-/* Filter bar: event type + domain + tags + search — all inline */
 .filter-section{margin-bottom:12px}
 .filter-row{display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap}
 .filter-label{font-size:11px;color:var(--text-muted);min-width:36px;font-weight:600}
@@ -416,8 +449,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .filter-btn{padding:2px 9px;border-radius:12px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .12s}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent)}
 .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.search-inline{padding:3px 10px;border:1px solid var(--border);border-radius:12px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:120px;transition:all .15s;flex-shrink:0}
-.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.08);width:180px}
+.search-inline{padding:4px 12px;border:1px solid var(--border);border-radius:12px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:160px;transition:all .15s;flex-shrink:0;margin-left:auto}
+.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.08);width:220px}
 
 /* Feed cards */
 .feed-item{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
@@ -472,7 +505,7 @@ function updateDisplay(){
     const title=titleEl?titleEl.textContent.toLowerCase():'';
     const summary=summaryEl?summaryEl.textContent.toLowerCase():'';
 
-    const vm=activeView==='all'||v==='curated';
+    const vm=activeView==='all'||v==='curated'||v==='raw';
     const rm=activeRegion==='all'||reg===activeRegion;
     const em=activeEvent==='all'||evt===activeEvent;
     const dm=activeDomain==='all'||doms.split(',').includes(activeDomain);
@@ -485,8 +518,6 @@ function updateDisplay(){
   });
   const s=document.getElementById('header-stats');
   s.textContent='更新于 %s · 共 '+visible+' 条';
-  const showFilters=activeView!=='all';
-  document.getElementById('filter-section').style.display=showFilters?'block':'none';
 }
 
 function setView(view){
@@ -631,7 +662,9 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill active" data-region="all">全部</button>',
         '<button class="region-pill" data-region="domestic">国内(%s)</button>' % domestic_curated,
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
-        '</div></div></div>',
+        '</div>',
+        '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题或摘要...">',
+        '</div></div>',
 
         # Filter section (event type + domain + tags + search)
         '<div class="filter-section" id="filter-section">',
@@ -651,14 +684,13 @@ def generate_html(scored_articles=None, output_path=None):
         domain_buttons,
         '</div>',
         '</div>',
-        # Tag row + inline search
+        # Tag row
         '<div class="filter-row">',
         '<span class="filter-label">标签:</span>',
         '<div class="filter-btns">',
         '<button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
         tag_buttons,
         '</div>',
-        '<input class="search-inline" type="text" id="search-input" placeholder="搜索...">',
         '</div>',
         '</div>',
 
