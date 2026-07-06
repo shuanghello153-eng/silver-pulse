@@ -1,0 +1,6414 @@
+[
+  {
+    "name": "101 Mobility",
+    "name_cn": null,
+    "category_raw": "特许经营",
+    "description": "特许经营模式，年收入7000万-1.2亿美元，193店，累计服务7万客户",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "401GO",
+    "name_cn": null,
+    "category_raw": "401(k)",
+    "description": "技术驱动的401(k)提供商，自动化退休解决方案",
+    "funding_info": {
+      "date": null,
+      "amount": "1200万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "6Degrees",
+    "name_cn": null,
+    "category_raw": "可穿戴AI",
+    "description": "可穿戴AI将动作转换为数字命令，控制智能设备",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "9amHealth",
+    "name_cn": null,
+    "category_raw": "心脏代谢",
+    "description": "虚拟心脏代谢诊所，预防糖尿病、肥胖症等",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "950万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "A Place for Mom",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "老年住房和服务推荐平台",
+    "funding_info": {
+      "date": "2022年",
+      "amount": "1.75亿美元",
+      "round": null
+    },
+    "key_info": "之前写过; 出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AARP",
+    "name_cn": null,
+    "category_raw": "50岁+",
+    "description": "美国退休人员协会，50岁+会员制组织",
+    "funding_info": null,
+    "key_info": "出现板块: 02活力老人",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Abbvie",
+    "name_cn": null,
+    "category_raw": "阿尔茨海默病",
+    "description": "收购Aliada Therapeutics，获得跨越血脑屏障的阿尔茨海默病候选药物",
+    "funding_info": {
+      "date": null,
+      "amount": "14亿美元",
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AccessibleGO",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "红杉投资，第一个为有无障碍需求的人提供的旅游网站",
+    "funding_info": null,
+    "key_info": "出现板块: 05无障碍旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Accompany Health",
+    "name_cn": null,
+    "category_raw": "低收入患者",
+    "description": "为复杂需求的低收入患者提供全天候护理",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "5600万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AceAge",
+    "name_cn": null,
+    "category_raw": "加拿大",
+    "description": "智慧用药产品，管理3种以上药物",
+    "funding_info": {
+      "date": "2020年",
+      "amount": "500万元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Actif",
+    "name_cn": null,
+    "category_raw": "认知锻炼",
+    "description": "创建于2021年，针对老年人的体育和认知锻炼",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AdhereTech",
+    "name_cn": null,
+    "category_raw": "服药管理",
+    "description": "提醒人们服药并在不服药时干预",
+    "funding_info": null,
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ADL Smartcar",
+    "name_cn": null,
+    "category_raw": "健康测评",
+    "description": "健康测评问卷收集老年人群健康数据",
+    "funding_info": null,
+    "key_info": "AgeClub文章; 出现板块: 05健康管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Adonis",
+    "name_cn": null,
+    "category_raw": "收入周期AI",
+    "description": "AI收入周期技术，10000+医疗服务供应商",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "3100万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05ToB收入周期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Advosense",
+    "name_cn": null,
+    "category_raw": "数字解决方案",
+    "description": "尿失禁数字解决方案",
+    "funding_info": {
+      "date": "2020年",
+      "amount": "17万美元",
+      "round": "种子轮"
+    },
+    "key_info": "艾年数据; 出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "After.com",
+    "name_cn": null,
+    "category_raw": "在线平台",
+    "description": "以互联网为核心，帮助家庭预先计划或安排火葬和葬礼服务",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1000万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 1600万美元; 出现板块: 05临终关怀;05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Age Bold",
+    "name_cn": null,
+    "category_raw": "在线锻炼",
+    "description": "在线锻炼、预防跌倒",
+    "funding_info": {
+      "date": "2023年9月",
+      "amount": "1700万美元",
+      "round": "A轮"
+    },
+    "key_info": "方文有研究; 出现板块: 05健身",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ageless Innovation",
+    "name_cn": null,
+    "category_raw": "产品/玩具",
+    "description": "以Joy for All Companion Pets系列为起点，创造促进乐趣和连接的产品",
+    "funding_info": {
+      "date": "2023年7月",
+      "amount": "$152万",
+      "round": "后期VC"
+    },
+    "key_info": "总融资额: $338万; 有创始人采访素材; 出现板块: 02竞争对手热点;05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AgenT",
+    "name_cn": null,
+    "category_raw": "早期检测",
+    "description": "使用常规抽血进行早期阿尔茨海默病检测",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症; 国家信息待补全",
+    "region": null,
+    "source": "选题库V4"
+  },
+  {
+    "name": "AgeWell Global",
+    "name_cn": null,
+    "category_raw": "老人互助",
+    "description": "基于同伴的社交参与+移动技术，改善健康结果",
+    "funding_info": null,
+    "key_info": "出现板块: 05就业",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Air Protein",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "由CO2制成的富含蛋白质的食品",
+    "funding_info": {
+      "date": "2023年5月",
+      "amount": "7500万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 1.07亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Aktiia",
+    "name_cn": null,
+    "category_raw": "血压监测",
+    "description": "光学连续血压监测手环，44个国家60,000+用户",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "3000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Alaffia Health",
+    "name_cn": null,
+    "category_raw": "AI索赔",
+    "description": "生成式AI简化健康计划索赔操作",
+    "funding_info": {
+      "date": null,
+      "amount": "1000万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 1760万美元; 不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Alloy",
+    "name_cn": null,
+    "category_raw": "更年期",
+    "description": "更年期初创公司",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "1600万美元",
+      "round": null
+    },
+    "key_info": "已排除，融资太少; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Allwayswithyou",
+    "name_cn": null,
+    "category_raw": "远程护理",
+    "description": "为痴呆症患者提供个性化护理和帮助，远程护理",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Alz You Need",
+    "name_cn": null,
+    "category_raw": "匹配服务",
+    "description": "为护理人员找到阿尔茨海默症相关技术解决方案的匹配服务",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症; 国家信息待补全",
+    "region": null,
+    "source": "选题库V4"
+  },
+  {
+    "name": "Amava",
+    "name_cn": null,
+    "category_raw": "社区平台",
+    "description": "根据兴趣自我分类的终生学习者虚拟社区",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Amazon",
+    "name_cn": null,
+    "category_raw": "智能家居/Echo",
+    "description": "Echo智能家居生态，收购One Medical",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索;05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Amedisys",
+    "name_cn": null,
+    "category_raw": "临终关怀",
+    "description": "家庭健康和临终关怀服务提供商，被UnitedHealth收购",
+    "funding_info": {
+      "date": "2024年8月",
+      "amount": "33亿美元",
+      "round": "收购"
+    },
+    "key_info": "可利用之前的素材+最新消息重写; 出现板块: 02竞争对手热点;05临终关怀; 已被UnitedHealth收购(2024年)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "American HealthTech",
+    "name_cn": null,
+    "category_raw": "SaaS",
+    "description": "面向专业护理和老年生活的SaaS工具，被PointClickCare收购",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Amplifon",
+    "name_cn": null,
+    "category_raw": "零售",
+    "description": "领先助听器零售商，收购Hear Again America",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Anatomy Financial",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI金融操作系统，向医疗保险公司收费",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "760万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Angels on Call Homecare",
+    "name_cn": null,
+    "category_raw": "帕金森",
+    "description": "美国第一家获得帕金森病护理认证的家庭护理提供商",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "暂无融资; 出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Apple",
+    "name_cn": null,
+    "category_raw": "可穿戴/助听",
+    "description": "Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准为助听器",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Apree",
+    "name_cn": null,
+    "category_raw": "JPMC",
+    "description": "摩根大通支持的高级初级保健公司，为36000名员工提供医疗保健",
+    "funding_info": null,
+    "key_info": "信息太少; 出现板块: 03书籍推荐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Arbital Health",
+    "name_cn": null,
+    "category_raw": "价值型医疗",
+    "description": "第三方结果导向合同裁决机构，基于价值的医疗",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "1000万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Artis Senior Living",
+    "name_cn": null,
+    "category_raw": "记忆力减退",
+    "description": "辅助生活社区，为记忆力减退老年人服务",
+    "funding_info": {
+      "date": "2023年5月",
+      "amount": "4000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AssistMe",
+    "name_cn": null,
+    "category_raw": "智能失禁",
+    "description": "智能失禁解决方案，护理基础设施",
+    "funding_info": {
+      "date": "2016年",
+      "amount": "510万美元",
+      "round": null
+    },
+    "key_info": "艾年数据; 出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Assured Allies",
+    "name_cn": null,
+    "category_raw": "成功老龄化",
+    "description": "数据驱动的健康干预帮助老年人更健康生活，降低理赔风险",
+    "funding_info": null,
+    "key_info": "总融资额: 6500万美元; 出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "August Health",
+    "name_cn": null,
+    "category_raw": "EHR/数字化",
+    "description": "为老年生活社区提供EHR、入住登记、药物管理、护理追踪等",
+    "funding_info": {
+      "date": "2025年8月",
+      "amount": "2900万美元",
+      "round": null
+    },
+    "key_info": "已排除; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Author Health",
+    "name_cn": null,
+    "category_raw": "Medicare",
+    "description": "为Medicare Advantage患者提供物质使用障碍和严重精神疾病护理",
+    "funding_info": {
+      "date": "2023年6月",
+      "amount": "1.15亿美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 02最新大额投融资;05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Autotune Me",
+    "name_cn": null,
+    "category_raw": "音乐疗法",
+    "description": "使用音乐解决阿尔茨海默病症状",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症; 国家信息待补全",
+    "region": null,
+    "source": "选题库V4"
+  },
+  {
+    "name": "Auxa Health",
+    "name_cn": null,
+    "category_raw": "AI社会护理",
+    "description": "AI驱动的社会护理协调平台，福利导航",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "520万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Avation Medical",
+    "name_cn": null,
+    "category_raw": "可穿戴神经调节",
+    "description": "可穿戴神经调节设备治疗急迫性尿失禁",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "2200万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Axle Health",
+    "name_cn": null,
+    "category_raw": "调度",
+    "description": "面向家庭健康的调度和劳动力管理平台",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "420万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "b.well Connected Health",
+    "name_cn": null,
+    "category_raw": "统一体验",
+    "description": "帮助付款人和提供商整合工具和供应商",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "4000万美元",
+      "round": "C轮"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "because",
+    "name_cn": null,
+    "category_raw": "商品品牌",
+    "description": "膀胱渗漏商品品牌",
+    "funding_info": {
+      "date": "2017年",
+      "amount": "3000万美元",
+      "round": "B轮"
+    },
+    "key_info": "艾年数据; 出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Beta Bionics",
+    "name_cn": null,
+    "category_raw": "糖尿病管理",
+    "description": "自主胰岛素输送系统",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "6000万美元",
+      "round": "E轮"
+    },
+    "key_info": "已排除，医疗; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Better Coliving",
+    "name_cn": null,
+    "category_raw": "老年Airbnb",
+    "description": "老年版Airbnb",
+    "funding_info": {
+      "date": "2020年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05租房",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Better Health",
+    "name_cn": null,
+    "category_raw": "在线医疗产品",
+    "description": "在线医疗产品商店，造口、泌尿科和糖尿病产品",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "1400万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 2750万美元; 出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Biomotum",
+    "name_cn": null,
+    "category_raw": "康复机器人",
+    "description": "智能辅助设备优化人类移动性，双脚电动自行车技术",
+    "funding_info": null,
+    "key_info": "出现板块: 05物理治疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Bioniq",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI驱动的个性化补充剂，最多53种成分混合",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1500万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05营养/饮食",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Birdie",
+    "name_cn": null,
+    "category_raw": "家庭医疗保健",
+    "description": "家庭医疗保健技术平台，提高护理业务效率",
+    "funding_info": {
+      "date": "2022年7月",
+      "amount": "3000万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "BirdWatch",
+    "name_cn": null,
+    "category_raw": "物业管理",
+    "description": "礼宾家居维护平台",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "320万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Bloom Nutrition",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "专门从事女性健身补充剂销售",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "9000万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 9000万美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Blooming Health",
+    "name_cn": null,
+    "category_raw": "技术平台",
+    "description": "连接医疗保健提供者和社会服务组织，覆盖21州700+社区",
+    "funding_info": {
+      "date": "2025年4月",
+      "amount": "2600万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 3250万美元; 出现板块: 02最新大额投融资;05社交娱乐;05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Bobbie",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "通过订阅服务提供有机婴儿配方奶粉",
+    "funding_info": {
+      "date": "2023年7月",
+      "amount": "7000万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 1.42亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Bold",
+    "name_cn": null,
+    "category_raw": "在线锻炼",
+    "description": "远程力量测试+12周健身计划，减少跌倒",
+    "funding_info": {
+      "date": "2021年2月",
+      "amount": "700万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05健身",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Bone Health Technologies",
+    "name_cn": null,
+    "category_raw": "骨质疏松",
+    "description": "OsteoBoost振动带预防和治疗骨质疏松症，收购Wellen",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "500万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "BrainCheck",
+    "name_cn": null,
+    "category_raw": "认知评估",
+    "description": "数字认知大脑健康评估工具，游戏化认知评估",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "1500万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 3680万美元; 出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Bridge Group",
+    "name_cn": null,
+    "category_raw": "欧洲",
+    "description": "医疗社会部门网络，为老年人提供住宿和疗养院",
+    "funding_info": {
+      "date": "2021年6月",
+      "amount": "1亿美元",
+      "round": null
+    },
+    "key_info": "总融资额: 2亿美元; 出现板块: 05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Brightside Health",
+    "name_cn": null,
+    "category_raw": "焦虑/抑郁",
+    "description": "为焦虑和抑郁提供在线治疗",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "3300万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "BrightSpring Health",
+    "name_cn": null,
+    "category_raw": "上市",
+    "description": "家庭保健提供商，收购多家组织",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "IPO",
+      "round": null
+    },
+    "key_info": "AgeClub有文章; 出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Brightview Senior Living",
+    "name_cn": null,
+    "category_raw": "养老院",
+    "description": "痴呆症护理养老院，成立于1999年",
+    "funding_info": {
+      "date": "2022年12月",
+      "amount": "2.02亿美元",
+      "round": null
+    },
+    "key_info": "AgeClub写过; 出现板块: 05痴呆症;05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ByHeart",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "婴儿营养品公司，FDA注册婴儿配方奶粉",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "9500万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 2.77亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cake",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "领先的临终规划和死亡指导平台，被Foundation Partners Group收购",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "书籍推荐; 出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cala Health",
+    "name_cn": null,
+    "category_raw": "医疗设备",
+    "description": "FDA批准非侵入式手部震颤缓解设备，面向Medicare",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "5000万美元",
+      "round": "Growth Round"
+    },
+    "key_info": "总融资额: $3.39亿; 小媒体流量6000+; 出现板块: 02最新大额投融资;03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CardioSignal",
+    "name_cn": null,
+    "category_raw": "心脏检测",
+    "description": "数字心脏生物标志物检测心脏病",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "1000万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 2300万美元; 出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Care Continuity",
+    "name_cn": null,
+    "category_raw": "护理导航",
+    "description": "软件+礼宾服务帮助患者护理导航和过渡",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "1000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Care.com",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "世界领先的家庭护理平台，含老年人护理",
+    "funding_info": {
+      "date": "2012年7月",
+      "amount": "5000万美元",
+      "round": "E轮"
+    },
+    "key_info": "上市后被并购; 出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CareBridge",
+    "name_cn": null,
+    "category_raw": "Medicaid",
+    "description": "高风险患者居家和虚拟医疗，2023年Inc.5000榜首，收入8.73亿",
+    "funding_info": {
+      "date": "2022年6月",
+      "amount": "1.4亿美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CareCentrix",
+    "name_cn": null,
+    "category_raw": "家庭护理",
+    "description": "成立于1996年，家庭护理服务提供商",
+    "funding_info": {
+      "date": null,
+      "amount": "3.9亿美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Caredoc",
+    "name_cn": null,
+    "category_raw": "韩国",
+    "description": "韩国排名第一的老年护理品牌",
+    "funding_info": {
+      "date": null,
+      "amount": "170亿韩币",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Careforth",
+    "name_cn": null,
+    "category_raw": "护理员支持",
+    "description": "为家庭照顾者提供帮助",
+    "funding_info": null,
+    "key_info": "出现板块: 05护理员支持",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Carefull",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI帮助银行和理财顾问保护老年客户免受金融诈骗",
+    "funding_info": {
+      "date": "2023年10月",
+      "amount": "1650万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 1970万美元; 出现板块: 05保险;05金融理财",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Caregiver Media Group",
+    "name_cn": null,
+    "category_raw": "杂志",
+    "description": "《今日护理员》杂志，护理书籍和会议",
+    "funding_info": {
+      "date": "1995年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05B2C媒体",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CareGuide",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "经营一系列网站连接家庭与护理服务提供者",
+    "funding_info": {
+      "date": "2012年",
+      "amount": "1300万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CarePredict",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI驱动的数字健康平台，识别日常活动和行为变化",
+    "funding_info": {
+      "date": "2023年7月",
+      "amount": "2900万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 4860万美元; 出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CareVoice",
+    "name_cn": null,
+    "category_raw": "嵌入式健康",
+    "description": "帮助保险公司将健康和保健功能整合到平台",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "1000万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Carewell",
+    "name_cn": null,
+    "category_raw": "电商",
+    "description": "家庭保健产品零售商，增强客户支持",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "2470万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CareYaya",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "将需要护理人员的人与医疗保健学生配对，25,000+学生",
+    "funding_info": {
+      "date": null,
+      "amount": "335万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务;05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cariloop",
+    "name_cn": null,
+    "category_raw": "数字化护理",
+    "description": "支持在职护理人员，提高员工福利和留任率",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "2000万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05面向雇主",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Carl",
+    "name_cn": null,
+    "category_raw": "友好设备",
+    "description": "痴呆症友好型设备开发商，简化护理管理",
+    "funding_info": {
+      "date": null,
+      "amount": "115万美元",
+      "round": "种子前"
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Center Well",
+    "name_cn": null,
+    "category_raw": "老年护理诊所",
+    "description": "Humana将老年护理诊所和Kindred at Home整合为CenterWell品牌",
+    "funding_info": null,
+    "key_info": "资料太少; 出现板块: 03书籍推荐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cera Care",
+    "name_cn": null,
+    "category_raw": "数字化",
+    "description": "数字优先家庭医疗保健提供商，估值超10亿美元独角兽",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "1.5亿美元",
+      "round": "后期VC"
+    },
+    "key_info": "总融资额: $4.21亿; 已写; 出现板块: 03已排除;05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cerebral",
+    "name_cn": null,
+    "category_raw": "在线",
+    "description": "在线心理健康，软银投资",
+    "funding_info": {
+      "date": null,
+      "amount": "4.6亿美元+",
+      "round": null
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Chapter",
+    "name_cn": null,
+    "category_raw": "Medicare",
+    "description": "帮助老年人了解医疗保险方案，顾问不背佣金KPI",
+    "funding_info": {
+      "date": "2025年4月",
+      "amount": "7500万美元",
+      "round": "D轮"
+    },
+    "key_info": "总融资额: 1.84亿美元; 出现板块: 02最新大额投融资;05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ChenMed",
+    "name_cn": null,
+    "category_raw": "高医患配比",
+    "description": "Oak Street竞争对手，强调更高医患配比和医生强化培训",
+    "funding_info": null,
+    "key_info": "出现板块: 02行业巨头;02活力老人; 私营未融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ciba Health",
+    "name_cn": null,
+    "category_raw": "根本治疗",
+    "description": "通过根本治疗逆转慢性疾病的数字健康",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "1000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "circleengage",
+    "name_cn": null,
+    "category_raw": "销售管理",
+    "description": "为医疗保险公司和经纪人提供销售和运营管理平台",
+    "funding_info": null,
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Citizen Health",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI消费者健康平台，构建全面知识库",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "1450万美元",
+      "round": "种子轮"
+    },
+    "key_info": "已排除，医疗; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cityblock Health",
+    "name_cn": null,
+    "category_raw": "Medicaid",
+    "description": "服务不足社区的复杂疾病提供商，估值57亿美元，年收入超10亿",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "1亿美元",
+      "round": "后期VC"
+    },
+    "key_info": "总融资额: $8.86亿; 谷歌分公司; 出现板块: 03书籍推荐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Clara Home Care",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "在线平台连接需要居家护理的家庭与护理人员",
+    "funding_info": {
+      "date": "2025年7月",
+      "amount": "310万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Clever Care Health Plan",
+    "name_cn": null,
+    "category_raw": "文化包容",
+    "description": "文化包容性Medicare Advantage计划，东方福利",
+    "funding_info": {
+      "date": "2023年3月",
+      "amount": "4200万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Clipboard Health",
+    "name_cn": null,
+    "category_raw": "市场",
+    "description": "医疗保健配置市场，估值13亿美元",
+    "funding_info": {
+      "date": null,
+      "amount": "8000万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 13亿美元; 出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cloud DX",
+    "name_cn": null,
+    "category_raw": "慢性病",
+    "description": "远程患者监控平台，虚拟管理慢性病",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "280万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CoachCare",
+    "name_cn": null,
+    "category_raw": "RPM",
+    "description": "远程患者监控、慢性病管理和远程治疗监控",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "1100万美元",
+      "round": null
+    },
+    "key_info": "已排除，偏向医疗; 出现板块: 03已排除;05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Coffee Cherry",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "面包店、咖啡",
+    "funding_info": {
+      "date": "2023年3月",
+      "amount": "1亿美元",
+      "round": null
+    },
+    "key_info": "总融资额: 1亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图; 国家信息待补全",
+    "region": null,
+    "source": "选题库V4"
+  },
+  {
+    "name": "Cohere Health",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI简化健康计划和提供商的事先授权",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "5000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Compassus",
+    "name_cn": null,
+    "category_raw": "临终关怀",
+    "description": "美国家庭护理领先者，提供家庭保健、输液治疗、姑息治疗和临终关怀",
+    "funding_info": null,
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Concerto Care",
+    "name_cn": null,
+    "category_raw": "居家护理",
+    "description": "家庭护理服务提供商",
+    "funding_info": {
+      "date": "2022年2月",
+      "amount": "1.05亿美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 1.50亿美元; 出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Conduce Health",
+    "name_cn": null,
+    "category_raw": "价值型医疗市场",
+    "description": "将付款人与多专业医生联系",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "300万美元",
+      "round": "种子轮"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Credo Health",
+    "name_cn": null,
+    "category_raw": "AI医疗记录",
+    "description": "AI医疗记录收集和分析，促进价值型护理",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "525万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "CVS Health",
+    "name_cn": null,
+    "category_raw": "巨头",
+    "description": "收购Oak Street Health、Amedisys等，布局老年护理",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "上市公司"
+    },
+    "key_info": "出现板块: 02行业巨头; NYSE上市(CVS)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Daffodil Health",
+    "name_cn": null,
+    "category_raw": "AI定价",
+    "description": "生成式AI为付款人自动化网络外定价",
+    "funding_info": {
+      "date": null,
+      "amount": "460万美元",
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "DarioHealth",
+    "name_cn": null,
+    "category_raw": "数字疗法",
+    "description": "收购Twill，多慢性病数字疗法平台",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "2240万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Daughterhood",
+    "name_cn": null,
+    "category_raw": "社区",
+    "description": "为照顾年长父母的看护人提供支持，书籍推荐",
+    "funding_info": null,
+    "key_info": "出现板块: 05护理员支持",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Day Two",
+    "name_cn": null,
+    "category_raw": "微生物组",
+    "description": "基于微生物组的代谢疾病精准营养",
+    "funding_info": {
+      "date": "2021年5月",
+      "amount": "3700万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 8500万美元; 出现板块: 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Devoted Health",
+    "name_cn": null,
+    "category_raw": "保险",
+    "description": "现代医疗保险优势计划提供商，服务14万+会员",
+    "funding_info": {
+      "date": "2026年1月",
+      "amount": "$3.66亿",
+      "round": "F轮"
+    },
+    "key_info": "总融资额: ~$22.6亿; 出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "DigitalOwl",
+    "name_cn": null,
+    "category_raw": "AI医疗文件",
+    "description": "AI和机器学习为付款人提供医疗文件分析",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "1200万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Dimer Health",
+    "name_cn": null,
+    "category_raw": "再入院率",
+    "description": "机器学习预测哪些患者有再入院风险",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "1400万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05疾病预测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "DiningRD",
+    "name_cn": null,
+    "category_raw": "营养咨询",
+    "description": "46个州4000+医疗保健社区提供营养师咨询和餐饮服务",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05营养/饮食",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Domma",
+    "name_cn": null,
+    "category_raw": "非侵入性疗法",
+    "description": "治疗更年期荷尔蒙失调的非侵入性疗法",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "95万欧元",
+      "round": null
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "DoorSpace",
+    "name_cn": null,
+    "category_raw": "员工关系",
+    "description": "医疗保健领域首个员工关系管理系统",
+    "funding_info": {
+      "date": null,
+      "amount": "200万美元",
+      "round": "种子轮"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Dorvie",
+    "name_cn": null,
+    "category_raw": "礼宾",
+    "description": "礼宾人员安排各种服务，每月合并账单",
+    "funding_info": {
+      "date": null,
+      "amount": "260万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05陪伴服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Dwellr",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "直接与老年生活社区联系，无中间人无佣金",
+    "funding_info": {
+      "date": "2023年10月",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Eargo",
+    "name_cn": null,
+    "category_raw": "隐形",
+    "description": "外形小巧，可放入耳朵内",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "eargym",
+    "name_cn": null,
+    "category_raw": "APP",
+    "description": "个性化听力健康伴侣APP，沉浸式游戏提高听力",
+    "funding_info": {
+      "date": null,
+      "amount": "50万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05助听;05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Elektra Health",
+    "name_cn": null,
+    "category_raw": "远程医疗",
+    "description": "更年期护理服务商，远程医疗+更年期专家",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "375万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Elidah",
+    "name_cn": null,
+    "category_raw": "医疗器械",
+    "description": "Elitone治疗压力性尿失禁的非侵入性方法",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "350万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ellipsis Health",
+    "name_cn": null,
+    "category_raw": "AI健康",
+    "description": "融资很高，不是面向老人的",
+    "funding_info": null,
+    "key_info": "已排除，太偏向医疗; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ElliQ",
+    "name_cn": null,
+    "category_raw": "AI伴侣机器人",
+    "description": "AI伴侣机器人，切入活力老人情感陪伴和孤独缓解",
+    "funding_info": null,
+    "key_info": "Intuition Robotics产品; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Embodied",
+    "name_cn": null,
+    "category_raw": "智能伴侣机器人",
+    "description": "智能伴侣机器人研发商，情感功能，家庭健康护理",
+    "funding_info": {
+      "date": "2018年6月",
+      "amount": "2200万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05物理治疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Embr Labs",
+    "name_cn": null,
+    "category_raw": "温度调节",
+    "description": "通过温度解决健康问题，管理潮热、睡眠、压力",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "300万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Empathy",
+    "name_cn": null,
+    "category_raw": "AI丧亲服务",
+    "description": "为失去亲人的家庭提供全面支持，包括悲伤辅导、遗产规划等",
+    "funding_info": {
+      "date": "2025年5月",
+      "amount": "7200万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 1.62亿美元; AgeClub去年写过，流量2.3k; 出现板块: 02最新大额投融资;05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Evernow",
+    "name_cn": null,
+    "category_raw": "数字化",
+    "description": "数字化手段管理更年期症状，定制化治疗方案",
+    "funding_info": {
+      "date": "2022年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "总融资额: 2850万美元; 出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "everplans",
+    "name_cn": null,
+    "category_raw": "遗产规划",
+    "description": "遗产规划、生命末期规划，最近被收购",
+    "funding_info": {
+      "date": "2017年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "EverSafe",
+    "name_cn": null,
+    "category_raw": "反欺诈",
+    "description": "防止欺诈、身份盗窃和与年龄相关的问题",
+    "funding_info": null,
+    "key_info": "出现板块: 05金融理财",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Family First",
+    "name_cn": null,
+    "category_raw": "护理支持",
+    "description": "与雇主和保险公司合作提供护理支持",
+    "funding_info": {
+      "date": "2023年7月",
+      "amount": "1100万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05面向雇主",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "findhelp",
+    "name_cn": null,
+    "category_raw": "社会护理网络",
+    "description": "美国领先的社会护理网络，536,269个计划地点",
+    "funding_info": null,
+    "key_info": "出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Float",
+    "name_cn": null,
+    "category_raw": "零工经济",
+    "description": "将有额外时间的护士与需要在家输液的个人连接",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "1000万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "flyte",
+    "name_cn": null,
+    "category_raw": "治疗科技",
+    "description": "尿失禁治疗科技服务商",
+    "funding_info": {
+      "date": "2016年",
+      "amount": "268万美元",
+      "round": "种子轮"
+    },
+    "key_info": "艾年数据; 出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Foodsmart",
+    "name_cn": null,
+    "category_raw": "食品福利",
+    "description": "远程营养和食品福利管理平台，740万患者",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "2亿美元",
+      "round": null
+    },
+    "key_info": "总融资额: 3.15亿美元; 出现板块: 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ForSight Robotics",
+    "name_cn": null,
+    "category_raw": "眼科",
+    "description": "机器人白内障手术创新，半数美国人80岁患白内障",
+    "funding_info": {
+      "date": "2025年6月",
+      "amount": "1.25亿美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 1.95亿美元; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Foundation Partners Group",
+    "name_cn": null,
+    "category_raw": "殡葬服务",
+    "description": "美国第二大殡葬服务提供商，收购Cake",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "FreeWill",
+    "name_cn": null,
+    "category_raw": "慈善",
+    "description": "创建了21000+份遗嘱，向非营利事业捐赠5亿+美元",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Friendi.fi",
+    "name_cn": null,
+    "category_raw": "AI朋友",
+    "description": "生成式AI模型提供高信任度对话关系",
+    "funding_info": null,
+    "key_info": "无融资; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Gather Health",
+    "name_cn": null,
+    "category_raw": "社会初级保健",
+    "description": "为老年人提供社会初级保健，面对面+虚拟",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "1600万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Gennev",
+    "name_cn": null,
+    "category_raw": "在线健康",
+    "description": "更年期女性在线健康平台，虚拟诊疗、HRT等",
+    "funding_info": {
+      "date": null,
+      "amount": "450万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "GeoH",
+    "name_cn": null,
+    "category_raw": "护理管理软件",
+    "description": "家庭护理管理和支付软件",
+    "funding_info": {
+      "date": null,
+      "amount": "290万美元",
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "GetSetUp",
+    "name_cn": null,
+    "category_raw": "线上学习",
+    "description": "线上老年学习与社交融合，疫情后爆发式增长",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Glooko",
+    "name_cn": null,
+    "category_raw": "糖尿病",
+    "description": "为慢性疾病患者提供医疗技术和联网医疗平台",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "1亿美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "GogoGrandparent",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "帮助老人对接服务，简化订购Uber或Lyft",
+    "funding_info": null,
+    "key_info": "出现板块: 05寻找护理服务;05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "GoodRx",
+    "name_cn": null,
+    "category_raw": "价格比较",
+    "description": "比较不同药店处方药价格，已上市",
+    "funding_info": {
+      "date": null,
+      "amount": "已上市",
+      "round": null
+    },
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Goodtrust",
+    "name_cn": null,
+    "category_raw": "遗产规划",
+    "description": "智能遗产规划，遗嘱、信托和指示",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Google",
+    "name_cn": null,
+    "category_raw": "Nest/智能家居",
+    "description": "Nest智能家居生态",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Grace",
+    "name_cn": null,
+    "category_raw": "女性健康品牌",
+    "description": "专为女性设计的可持续健康品牌，膀胱渗漏",
+    "funding_info": {
+      "date": null,
+      "amount": "200万美元",
+      "round": null
+    },
+    "key_info": "艾年数据; 出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Grand Circle",
+    "name_cn": null,
+    "category_raw": "美国",
+    "description": "年营收6亿，200万50岁+",
+    "funding_info": null,
+    "key_info": "总融资额: 6亿(年营收); AgeClub写过; 出现板块: 05旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Grayce",
+    "name_cn": null,
+    "category_raw": "家庭护理",
+    "description": "综合性社会护理平台，数字工具+社会工作者专业知识",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "1040万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05护理服务;05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "GroundGame Health/SameSky Health",
+    "name_cn": null,
+    "category_raw": "医疗资源",
+    "description": "为医疗资源匮乏的患者提供医疗服务，合并",
+    "funding_info": {
+      "date": null,
+      "amount": "1700万美元",
+      "round": "A轮"
+    },
+    "key_info": "废弃，偏医疗; 出现板块: 废弃",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Grow Therapy",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "在线平台将人们与使用保险计划的治疗师匹配",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "8800万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Growl",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "家庭健身AI互动拳击教练，面向全年龄段",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "4.75亿美元",
+      "round": null
+    },
+    "key_info": "出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Guaranteed Health",
+    "name_cn": null,
+    "category_raw": "远程医疗",
+    "description": "远程临终关怀医疗服务",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Gyenno",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "帕金森及运动障碍患者智能餐勺与慢病管理",
+    "funding_info": {
+      "date": "2021年",
+      "amount": "1亿元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05物理治疗",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Habitat Health",
+    "name_cn": null,
+    "category_raw": "社会决定因素",
+    "description": "构建技术平台解决健康社会决定因素，参与PACE",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "5000万美元+",
+      "round": null
+    },
+    "key_info": "出现板块: 02最新大额投融资;03已排除;05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Halmek",
+    "name_cn": null,
+    "category_raw": "日本杂志/电商",
+    "description": "面向50+女性做健康资讯杂志，引流到商品销售，年利润6000多万",
+    "funding_info": null,
+    "key_info": "出现板块: 05老年产品;05B2C媒体",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hamilton Health Box",
+    "name_cn": null,
+    "category_raw": "微型诊所",
+    "description": "微型诊所在医疗资源匮乏地区提供初级保健",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "1000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Harbor Health",
+    "name_cn": null,
+    "category_raw": "初级/专科诊所",
+    "description": "初级和专科诊所集团",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "9550万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 1.28亿美元+; 出现板块: 05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "HarmonyCares",
+    "name_cn": null,
+    "category_raw": "家庭初级保健",
+    "description": "家庭初级保健提供商，15个州7万+患者",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "2亿美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hazel",
+    "name_cn": null,
+    "category_raw": "失禁尿布",
+    "description": "为40-70岁女性开发现代失禁尿布",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "40万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Headway",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "帮助患者与受保险保障的治疗师连接，估值23亿",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1亿美元",
+      "round": "D轮"
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "HealthArc",
+    "name_cn": null,
+    "category_raw": "护理协调",
+    "description": "远程患者监控、护理和协调平台",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "500万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "HealthSnap",
+    "name_cn": null,
+    "category_raw": "虚拟护理",
+    "description": "慢性病管理的虚拟护理管理平台",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "2500万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hedia",
+    "name_cn": null,
+    "category_raw": "糖尿病",
+    "description": "糖尿病管理数字疗法，糖尿病助手",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "300万欧元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hello Heart",
+    "name_cn": null,
+    "category_raw": "心脏健康",
+    "description": "心脏健康管理，无线血压袖带+APP跟踪",
+    "funding_info": {
+      "date": "2022年5月",
+      "amount": "7000万美元",
+      "round": "D轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hello Sage",
+    "name_cn": null,
+    "category_raw": "数字化",
+    "description": "老年生活运营管理平台，基于云的运营系统",
+    "funding_info": {
+      "date": "2025年3月",
+      "amount": "$6500万",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: $1.24亿; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "hellocare.ai",
+    "name_cn": null,
+    "category_raw": "虚拟护理",
+    "description": "AI辅助虚拟护理服务，主要服务医院",
+    "funding_info": {
+      "date": "2025年4月",
+      "amount": "4700万美元",
+      "round": "增长轮"
+    },
+    "key_info": "总融资额: 4700万美元; 非直接面向老人; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Help-full",
+    "name_cn": null,
+    "category_raw": "时间银行",
+    "description": "将老年人与有共同兴趣的人配对，做饭、洗衣等",
+    "funding_info": null,
+    "key_info": "出现板块: 05陪伴服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Helper bees",
+    "name_cn": null,
+    "category_raw": null,
+    "description": "技术平台，连接保险公司与非医疗居家服务提供商，服务覆盖43家大型支付方和2万+服务商，涵盖居家护理、适老化改造、送餐、保洁、交通等",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "$3500万",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Helper Bees",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "连接保险企业与居家护理服务商",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "$3500万",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Heyday Health",
+    "name_cn": null,
+    "category_raw": "虚拟价值型医疗",
+    "description": "虚拟价值型医疗服务，Medicare和双重合格患者",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "1250万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hibiscus Health",
+    "name_cn": null,
+    "category_raw": "糖尿病检测",
+    "description": "面部血流分析技术30秒检测早期糖尿病风险",
+    "funding_info": null,
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "HiDO",
+    "name_cn": null,
+    "category_raw": "设备",
+    "description": "患者友好型设备+移动APP，用药自动化",
+    "funding_info": {
+      "date": null,
+      "amount": "100万美元+",
+      "round": null
+    },
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hinge Health",
+    "name_cn": null,
+    "category_raw": "IPO",
+    "description": "关节和肌肉护理数字诊所，已上市，股票代码HNGE",
+    "funding_info": {
+      "date": "2025年3月",
+      "amount": "IPO",
+      "round": null
+    },
+    "key_info": "出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Homeage",
+    "name_cn": null,
+    "category_raw": "新加坡",
+    "description": "健康管理服务平台",
+    "funding_info": {
+      "date": "2021年9月",
+      "amount": "3000万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05健康管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "HomeCare.com",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "家庭护理转介服务",
+    "funding_info": {
+      "date": "2023年1月",
+      "amount": "8660万美元+",
+      "round": null
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Homethrive",
+    "name_cn": null,
+    "category_raw": "护理员支持",
+    "description": "对护理员的情感、专业、工作、福利支持，成立于2018",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "2000万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 3800万美元; 出现板块: 02最新大额投融资;03已排除;05护理员支持;05ToB居家护理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Honor",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "养老网络技术平台，连接C端和护理员，提供个性化福利",
+    "funding_info": {
+      "date": "2021年10月",
+      "amount": "7000万美元",
+      "round": "E轮"
+    },
+    "key_info": "总融资额: 6.25亿美元; AgeClub写过; 出现板块: 02竞争对手热点;05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Huel",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "营养全面的食品",
+    "funding_info": {
+      "date": "2023年10月",
+      "amount": "8250万美元",
+      "round": "私募股权"
+    },
+    "key_info": "总融资额: 1.33亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hyfe AI",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI咳嗽检测和分类，7亿+样本，55岁以上占74%",
+    "funding_info": {
+      "date": null,
+      "amount": "几百万",
+      "round": null
+    },
+    "key_info": "出现板块: 05AI",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ilant Health",
+    "name_cn": null,
+    "category_raw": "肥胖管理",
+    "description": "基于价值的肥胖管理和心脏代谢健康",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "250万美元",
+      "round": "种子轮"
+    },
+    "key_info": "废弃，和养老无关; 出现板块: 废弃",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Imperative Care",
+    "name_cn": null,
+    "category_raw": "中风/血管",
+    "description": "改变生活的技术，为中风和血管疾病患者提供护理",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1.5亿美元",
+      "round": "E轮"
+    },
+    "key_info": "偏医疗; 出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "In-House Health",
+    "name_cn": null,
+    "category_raw": "AI调度",
+    "description": "AI驱动的护理团队调度和管理平台",
+    "funding_info": {
+      "date": null,
+      "amount": "400万美元",
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Incredible Health",
+    "name_cn": null,
+    "category_raw": "护士市场",
+    "description": "护士配置市场，估值16.5亿美元",
+    "funding_info": {
+      "date": "2022年",
+      "amount": "8000万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Infinitus Systems",
+    "name_cn": null,
+    "category_raw": "医疗AI客服",
+    "description": "AI自动拨打医疗保健相关电话",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "5150万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 1.029亿美元; 已排除，医疗; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "InHome Therapy",
+    "name_cn": null,
+    "category_raw": "康复",
+    "description": "家庭护理和康复提供商",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "510万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Inspiren",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI驱动的老年生活技术",
+    "funding_info": {
+      "date": "2025年9月",
+      "amount": "$1亿",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: $1.55亿; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "IntusCare",
+    "name_cn": null,
+    "category_raw": "PACE/数字化",
+    "description": "老年护理预测分析，PACE计划软件平台",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "1150万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: $3150万; 出现板块: 02最新大额投融资;03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Iris Healthcare",
+    "name_cn": null,
+    "category_raw": "礼宾服务",
+    "description": "帮助家庭开始规划临终关怀，使用远程医疗和专职辅导员",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Isaac Health",
+    "name_cn": null,
+    "category_raw": "线上诊所",
+    "description": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+    "funding_info": null,
+    "key_info": "总融资额: 1630万美元; 出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "IXI",
+    "name_cn": null,
+    "category_raw": "自动调节眼镜",
+    "description": "世界首款自动对焦眼镜，亚马逊等投资",
+    "funding_info": {
+      "date": "2025年4月",
+      "amount": "3650万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: $3650万; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Jellydrops",
+    "name_cn": null,
+    "category_raw": "补水零食",
+    "description": "无糖零食，95%水+电解质，促进补水",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "JOGO Health",
+    "name_cn": null,
+    "category_raw": "神经可塑性",
+    "description": "利用大脑神经可塑性治疗慢性疼痛和失禁，FDA批准",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "550万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "joyforall",
+    "name_cn": null,
+    "category_raw": "宠物机器人",
+    "description": "宠物机器人，为阿尔茨海默症或痴呆患者带来舒适和陪伴",
+    "funding_info": {
+      "date": null,
+      "amount": "190万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05痴呆症;05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "K4Connect",
+    "name_cn": null,
+    "category_raw": "老年人/残障",
+    "description": "为老年人和残障人士提供服务和赋权的解决方案",
+    "funding_info": {
+      "date": "2023年7月",
+      "amount": "897万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 4165万美元; 出现板块: 05远程监控;05智能家居",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Kalogon",
+    "name_cn": null,
+    "category_raw": "智能坐垫",
+    "description": "智能坐垫预防轮椅使用者压疮",
+    "funding_info": {
+      "date": null,
+      "amount": "120万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Keep Company",
+    "name_cn": null,
+    "category_raw": "护理人员留任",
+    "description": "帮助雇主量化和留住身为护理人员的员工",
+    "funding_info": {
+      "date": null,
+      "amount": "140万美元",
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Kemtai",
+    "name_cn": null,
+    "category_raw": "计算机视觉",
+    "description": "FDA批准的计算机视觉AI锻炼和评估平台",
+    "funding_info": {
+      "date": null,
+      "amount": "580万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05物理治疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Kins",
+    "name_cn": null,
+    "category_raw": "混合护理",
+    "description": "虚拟+面对面物理治疗，NPS达92",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "700万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05物理治疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Kinto",
+    "name_cn": null,
+    "category_raw": "AI支持",
+    "description": "AI支持平台，照顾痴呆症亲人，被Rippl收购",
+    "funding_info": {
+      "date": "被收购",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Kismet",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "寻找护理服务提供商平台，35,000+服务提供商",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "1300万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Koda Health",
+    "name_cn": null,
+    "category_raw": "护理计划",
+    "description": "数字化提前护理计划解决方案",
+    "funding_info": {
+      "date": null,
+      "amount": "300万美元",
+      "round": "Seed+"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Labrador Systems",
+    "name_cn": null,
+    "category_raw": "日常辅助机器人",
+    "description": "日常辅助机器人，送餐、洗衣服等",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Lace AI Pro",
+    "name_cn": null,
+    "category_raw": "听力训练",
+    "description": "超越助听器，教患者用大脑来聆听",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ladder",
+    "name_cn": null,
+    "category_raw": "居家健身",
+    "description": "虚拟力量训练，每月29.99美元订阅",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "1.05亿美元",
+      "round": null
+    },
+    "key_info": "非老人; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "LifeAfterMe",
+    "name_cn": null,
+    "category_raw": "数字遗产",
+    "description": "确保亲人不必担心收集重要数字数据",
+    "funding_info": null,
+    "key_info": "无融资; 出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "LifeBio",
+    "name_cn": null,
+    "category_raw": "回忆疗法",
+    "description": "AI回忆疗法平台，收集和分享老年人生活故事，获NIA资助",
+    "funding_info": {
+      "date": "2025年10月",
+      "amount": "290万美元",
+      "round": "NIA资助"
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "LifeLoop",
+    "name_cn": null,
+    "category_raw": "养老社区管理",
+    "description": "面向养老社区的综合管理和活动组织工具，4700+社区",
+    "funding_info": {
+      "date": "2024年8月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "收购Linked Senior; 出现板块: 05社交娱乐;不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Lifeway Mobility",
+    "name_cn": null,
+    "category_raw": "无障碍",
+    "description": "居家无障碍解决方案，楼梯升降机、轮椅坡道等，2024年服务2万家庭",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Lilli",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI远程监控设备，支持家庭护理，9:1投资回报率",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "820万英镑",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Linus Health",
+    "name_cn": null,
+    "category_raw": "早期检测",
+    "description": "数字健康解决方案，早期发现阿尔茨海默症，收购Aural Analytics",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Livara Health",
+    "name_cn": null,
+    "category_raw": "肌肉骨骼",
+    "description": "为肌肉骨骼疾病患者减少不必要的手术",
+    "funding_info": {
+      "date": null,
+      "amount": "1500万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Log my Care",
+    "name_cn": null,
+    "category_raw": "数字化",
+    "description": "数字化养老院管理平台",
+    "funding_info": {
+      "date": null,
+      "amount": "300万英镑",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Lottie",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "寻找养老院平台",
+    "funding_info": {
+      "date": "2023年10月",
+      "amount": "1635万欧元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 2547.5万欧元; 出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Lotus Ring",
+    "name_cn": null,
+    "category_raw": "智能遥控",
+    "description": "戴在手指上的遥控器，红外线控制灯光、风扇等",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "LUCID (Resonance Rx)",
+    "name_cn": null,
+    "category_raw": "AI音乐疗法",
+    "description": "AI音乐疗法、音频认知行为疗法和认知游戏",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Luminary",
+    "name_cn": null,
+    "category_raw": "信托/遗产规划",
+    "description": "专为信托和遗产规划顾问打造的数据和协作平台",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "3000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "lyflynks",
+    "name_cn": null,
+    "category_raw": "护理平台",
+    "description": "移动互联网护理平台，连接C端、护士、护理机构",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "50万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Mable",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "在线平台，残障人士或老年人找到护理工作者",
+    "funding_info": {
+      "date": "2021年9月",
+      "amount": "1亿美元",
+      "round": "私募股权"
+    },
+    "key_info": "总融资额: 1.14亿美元; 出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Marta",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "直接连接护理人员，寻找居家护理人员",
+    "funding_info": {
+      "date": "2022年8月",
+      "amount": "658万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Maven Clinic",
+    "name_cn": null,
+    "category_raw": "综合平台",
+    "description": "综合性女性健康平台，包括更年期服务",
+    "funding_info": null,
+    "key_info": "总融资额: 4亿美元; 出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Mealogic",
+    "name_cn": null,
+    "category_raw": "B2B2C",
+    "description": "为医疗保健提供商提供科学送餐解决方案，非专门面向老人",
+    "funding_info": {
+      "date": "2025年6月",
+      "amount": "1600万美元",
+      "round": "后期VC"
+    },
+    "key_info": "总融资额: $8120万; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "MedArrive",
+    "name_cn": null,
+    "category_raw": "医疗物流",
+    "description": "医疗保健物流平台，连接患者与按需医疗运输",
+    "funding_info": {
+      "date": "2022年2月",
+      "amount": "3284万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Medisafe",
+    "name_cn": null,
+    "category_raw": "APP",
+    "description": "药物管理APP，可视化时间表+提醒",
+    "funding_info": {
+      "date": "2021年",
+      "amount": "3000万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "MedMinder",
+    "name_cn": null,
+    "category_raw": "智能药盒",
+    "description": "联网药房护理，触摸屏自动药丸分配器",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "250万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 8000万美元; AgeClub写过; 出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Meela",
+    "name_cn": null,
+    "category_raw": "AI语音伴侣",
+    "description": "老年人AI语音伴侣，通过电话提供AI陪伴，B2B订阅模式",
+    "funding_info": {
+      "date": "2025年9月",
+      "amount": "350万美元",
+      "round": "种子轮"
+    },
+    "key_info": "平均对话时长超10分钟; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Mend",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI驱动的营养平台，营养补充剂+数字平台",
+    "funding_info": {
+      "date": "2023年7月",
+      "amount": "1500万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Menolabs",
+    "name_cn": null,
+    "category_raw": "保健产品",
+    "description": "更年期保健产品，被Dr. Reddy's收购",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "300万美元",
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Metyos",
+    "name_cn": null,
+    "category_raw": "慢性肾病",
+    "description": "慢性肾病监测设备，类似FreeStyle Libre",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "230万欧元",
+      "round": "种子前"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Midi Health",
+    "name_cn": null,
+    "category_raw": "虚拟护理",
+    "description": "最快发展的虚拟护理诊所，专门服务绝经期女性",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "6000万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 1亿美元; 出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Mighty Health",
+    "name_cn": null,
+    "category_raw": "50+",
+    "description": "面向50+人群，多合一运动、营养和健康计划",
+    "funding_info": {
+      "date": null,
+      "amount": "760万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05健身",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Miihealth",
+    "name_cn": null,
+    "category_raw": "AI健康伴侣",
+    "description": "对话式AI健康伴侣，结合传感器和智能手表",
+    "funding_info": {
+      "date": null,
+      "amount": "700万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "MindAhead",
+    "name_cn": null,
+    "category_raw": "行为激活",
+    "description": "基于行为激活的治疗应用程序，轻度认知障碍和痴呆症",
+    "funding_info": null,
+    "key_info": "总融资额: 50万欧元; 出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "MindMics",
+    "name_cn": null,
+    "category_raw": "心脏监测",
+    "description": "日常耳机改造成健康监测器，次声波技术心血管监测",
+    "funding_info": null,
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Modify Health",
+    "name_cn": null,
+    "category_raw": "营养食品",
+    "description": "营养师处方、医学定制膳食和肠道健康测试",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "1350万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 1520万美元; 已排除; 出现板块: 03已排除; 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Modivcare",
+    "name_cn": null,
+    "category_raw": "支持性护理",
+    "description": "非紧急医疗运输、个人护理服务和远程患者监控",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "5.25亿美元",
+      "round": "定期贷款"
+    },
+    "key_info": "纳斯达克上市; 出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Moneta Health",
+    "name_cn": null,
+    "category_raw": "认知康复",
+    "description": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
+    "funding_info": null,
+    "key_info": "总融资额: 约1390万美元; 出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Monogram Health",
+    "name_cn": null,
+    "category_raw": "慢性肾病",
+    "description": "多种慢性疾病居家护理，2023年收入近22亿美元",
+    "funding_info": {
+      "date": "2023年",
+      "amount": "3.75亿美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "More Life Health",
+    "name_cn": null,
+    "category_raw": "在线锻炼",
+    "description": "老年人在线锻炼",
+    "funding_info": null,
+    "key_info": "出现板块: 05健身",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "myo",
+    "name_cn": null,
+    "category_raw": "通信APP",
+    "description": "通信和服务APP，护理机构、家庭和服务商数字通信",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "800万欧元",
+      "round": null
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Naborforce",
+    "name_cn": null,
+    "category_raw": "跑腿",
+    "description": "为原地养老的老人提供跑腿服务",
+    "funding_info": {
+      "date": "2022年",
+      "amount": "1227万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05陪伴服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Navel",
+    "name_cn": null,
+    "category_raw": "社交机器人",
+    "description": "下一代社交机器人，在德国多家养老院使用",
+    "funding_info": {
+      "date": "2023年秋",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NeoSilver",
+    "name_cn": null,
+    "category_raw": "活动规划",
+    "description": "解决老年人孤独问题的法国平台",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "400万欧元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nesterly",
+    "name_cn": null,
+    "category_raw": "跨代住房",
+    "description": "将老年人与较年轻的室友匹配，全面背景调查",
+    "funding_info": null,
+    "key_info": "出现板块: 05租房",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NeuroClues",
+    "name_cn": null,
+    "category_raw": "眼动追踪",
+    "description": "眼动追踪设备检测神经退行性疾病，帕金森筛查",
+    "funding_info": {
+      "date": null,
+      "amount": "500万欧元",
+      "round": "Pre-A"
+    },
+    "key_info": "出现板块: 05疾病预测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NeuroNation",
+    "name_cn": null,
+    "category_raw": "大脑训练",
+    "description": "强化大脑，日常记忆训练",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NewRetirement",
+    "name_cn": null,
+    "category_raw": "退休理财",
+    "description": "数字优先退休理财规划服务",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "2000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NexStride",
+    "name_cn": null,
+    "category_raw": "步态辅助",
+    "description": "小型设备连接助行器，灯光和声音信号帮助行走",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nice healthcare",
+    "name_cn": null,
+    "category_raw": "初级保健",
+    "description": "虚拟/上门初级保健、物理治疗和慢性护理管理",
+    "funding_info": {
+      "date": "2022年3月",
+      "amount": "3000万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nirvana",
+    "name_cn": null,
+    "category_raw": "AI验证",
+    "description": "AI技术为医疗服务提供者和患者提供即时保险验证",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "2420万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nobel Hygiene",
+    "name_cn": null,
+    "category_raw": "卫生用品",
+    "description": "个人卫生用品，包括成人尿布和卫生巾",
+    "funding_info": {
+      "date": "2022年9月",
+      "amount": "1600万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nobi",
+    "name_cn": null,
+    "category_raw": "智能灯",
+    "description": "智能灯跌倒检测，销往21个国家",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "3670万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 5120万美元; 出现板块: 05跌倒监测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nomad Health",
+    "name_cn": null,
+    "category_raw": "在线求职",
+    "description": "为临时医疗保健人员提供在线求职门户网站",
+    "funding_info": {
+      "date": null,
+      "amount": "1.05亿美元",
+      "round": null
+    },
+    "key_info": "总融资额: 2亿美元+; 出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nourish",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "将人们与受保险覆盖的注册营养师连接",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "3500万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NourishedRx",
+    "name_cn": null,
+    "category_raw": "食品解决方案",
+    "description": "为健康计划和提供者提供个性化食品解决方案",
+    "funding_info": {
+      "date": null,
+      "amount": "600万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nudj Health",
+    "name_cn": null,
+    "category_raw": "虚拟健康",
+    "description": "将生活方式健康融入患者护理的虚拟科技服务",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "300万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Oak Street Health",
+    "name_cn": null,
+    "category_raw": "复杂患者",
+    "description": "面向复杂患者的高效优质护理，被CVS收购，患者平均年龄68岁",
+    "funding_info": {
+      "date": "2023年被收购",
+      "amount": "106亿美元",
+      "round": "收购"
+    },
+    "key_info": "书籍推荐企业; 出现板块: 02行业巨头;03书籍推荐; 03书籍推荐(重复)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Omena",
+    "name_cn": null,
+    "category_raw": "数字健康",
+    "description": "女性健康和保健数字健康平台",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "80万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "One Medical",
+    "name_cn": null,
+    "category_raw": "会员制",
+    "description": "会员制初级保健机构，2023年被亚马逊收购",
+    "funding_info": {
+      "date": "2020年",
+      "amount": "2.45亿美元",
+      "round": "IPO"
+    },
+    "key_info": "偏医疗，有少数老人业务; 出现板块: 03书籍推荐;05医疗/其它",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "OneroRx",
+    "name_cn": null,
+    "category_raw": "药房服务",
+    "description": "专业和远程药房服务，服务老年生活设施",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "OneStep",
+    "name_cn": null,
+    "category_raw": "智能手机",
+    "description": "利用智能手机传感器分析人的步态",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "3000万美元+",
+      "round": null
+    },
+    "key_info": "总融资额: 3600万美元; 出现板块: 05物理治疗;05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "OrCam MyEye 3 Pro",
+    "name_cn": null,
+    "category_raw": "视觉辅助",
+    "description": "智能放大镜，读出文本、识别面部和产品",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Osher Lifelong Learning Institutes (OLLI)",
+    "name_cn": null,
+    "category_raw": "非营利",
+    "description": "非营利性老年终身学习，50岁以上非学分课程",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Oshi Health",
+    "name_cn": null,
+    "category_raw": "胃肠道",
+    "description": "虚拟方式提供消化系统健康全面护理",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "6000万美元",
+      "round": null
+    },
+    "key_info": "非专门面向老人; 出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Pallie AI",
+    "name_cn": null,
+    "category_raw": "AI伴侣",
+    "description": "支持健康和福祉的人工智能伴侣产品",
+    "funding_info": {
+      "date": null,
+      "amount": "200万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05AI;05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "PanTheryx",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "利用牛初乳的细胞和生物分子",
+    "funding_info": {
+      "date": "2023年10月",
+      "amount": "5229万美元",
+      "round": "私募股权"
+    },
+    "key_info": "总融资额: 1.9亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Papa",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "连接大学生和老人的陪伴帮助平台，缓解孤独",
+    "funding_info": {
+      "date": "2021年11月",
+      "amount": "1.5亿美元",
+      "round": "D轮"
+    },
+    "key_info": "总融资额: 2.41亿美元; 出现板块: 02行业巨头;05社交娱乐;05寻找护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Pear Suite",
+    "name_cn": null,
+    "category_raw": "SDOH",
+    "description": "使社区卫生工作者识别和解决SDOH问题",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "100万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Pearl Health",
+    "name_cn": null,
+    "category_raw": "健康管理",
+    "description": "为更年期女性提供全面健康管理服务",
+    "funding_info": {
+      "date": "2023年6月",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "总融资额: 9500万美元; 出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "PeerLyfe",
+    "name_cn": null,
+    "category_raw": "社区网络",
+    "description": "面向55岁以上老人和居住社区的社交网络",
+    "funding_info": {
+      "date": "2022年",
+      "amount": "100万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "PeopleOne Health",
+    "name_cn": null,
+    "category_raw": "预防性护理",
+    "description": "以雇主为中心的预防性护理混合医疗服务提供商",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "3230万美元",
+      "round": "B轮"
+    },
+    "key_info": "已排除; 出现板块: 03已排除;05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Perry",
+    "name_cn": null,
+    "category_raw": "数字平台",
+    "description": "为女性提供围绝经期支持，专家资源+社区",
+    "funding_info": {
+      "date": "2023年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Pillo Health",
+    "name_cn": null,
+    "category_raw": "服药管理",
+    "description": "帮助老人科学用药、买正版药",
+    "funding_info": {
+      "date": "2019年",
+      "amount": "1100万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Punto Health",
+    "name_cn": null,
+    "category_raw": "AI平台",
+    "description": "AI驱动综合平台改善痴呆症患者及其家人护理",
+    "funding_info": {
+      "date": null,
+      "amount": "64.5万欧元",
+      "round": null
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "PurFoods",
+    "name_cn": null,
+    "category_raw": "医疗补助",
+    "description": "为食物不安全的人提供健康餐，医疗补助福利",
+    "funding_info": null,
+    "key_info": "没啥融资; 出现板块: 03书籍推荐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Pyx Health",
+    "name_cn": null,
+    "category_raw": "虚拟陪伴",
+    "description": "为老人提供虚拟陪伴和支持，2024年Inc.5000第517名",
+    "funding_info": null,
+    "key_info": "总融资额: 1920万美元; 出现板块: 05社交娱乐;05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "RapidClaims",
+    "name_cn": null,
+    "category_raw": "AI SaaS",
+    "description": "AI帮助医疗服务提供商实现医疗编码自动化",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "310万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Redi Health",
+    "name_cn": null,
+    "category_raw": "数字健康",
+    "description": "连接制药公司、医疗保健提供商和患者",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "1400万美元",
+      "round": "B轮"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "reev.care",
+    "name_cn": null,
+    "category_raw": "步态康复",
+    "description": "帮助中风、多发性硬化症后神经步态障碍患者",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Remodel Health",
+    "name_cn": null,
+    "category_raw": "健康报销",
+    "description": "雇主和经纪人应对ICHRA过渡",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "1亿美元+",
+      "round": null
+    },
+    "key_info": "已排除，不是面向老人; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Rendever",
+    "name_cn": null,
+    "category_raw": "VR",
+    "description": "虚拟现实技术，帮助老年人社区访问远方和博物馆",
+    "funding_info": {
+      "date": null,
+      "amount": "210万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Rest Less",
+    "name_cn": null,
+    "category_raw": "中老年",
+    "description": "英国中老年就业服务平台",
+    "funding_info": {
+      "date": null,
+      "amount": "743万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05就业",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Restless",
+    "name_cn": null,
+    "category_raw": "50+社区",
+    "description": "英国发展最快的50+社区，旅行、生活方式、财务等",
+    "funding_info": {
+      "date": null,
+      "amount": "2000万英镑",
+      "round": null
+    },
+    "key_info": "出现板块: 05B2C媒体;05ToC内容",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "RETISPEC",
+    "name_cn": null,
+    "category_raw": "早期检测",
+    "description": "通过视网膜成像早期检测阿尔茨海默病",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1380万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Rippl Care",
+    "name_cn": null,
+    "category_raw": "心理健康",
+    "description": "为痴呆症老年人提供心理健康解决方案，成立于2022",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": "2300万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 3200万美元; 出现板块: 02最新大额投融资;03已排除;05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "riverspringliving",
+    "name_cn": null,
+    "category_raw": "AgeTech",
+    "description": "大型养老康复机构将AgeTech从理论转化为实际ROI",
+    "funding_info": null,
+    "key_info": "出现板块: 02竞争对手热点",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Road Scholar",
+    "name_cn": null,
+    "category_raw": "美国",
+    "description": "年营收超24.7亿，500万中老年",
+    "funding_info": null,
+    "key_info": "总融资额: 24.7亿(年营收); AgeClub写过; 出现板块: 05旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Rune Labs",
+    "name_cn": null,
+    "category_raw": "精准神经学",
+    "description": "为神经退行性疾病提供精准神经学SaaS解决方案",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "1200万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "RxDiet",
+    "name_cn": null,
+    "category_raw": "AI饮食计划",
+    "description": "AI制定医学定制饮食计划，新鲜食材+行为支持",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "300万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05营养/饮食",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SafelyYou",
+    "name_cn": null,
+    "category_raw": "痴呆症护理",
+    "description": "为痴呆症护理提供跌倒检测和预防技术",
+    "funding_info": {
+      "date": "2021年12月",
+      "amount": "4000万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 7100万美元; 出现板块: 05跌倒监测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Saga",
+    "name_cn": null,
+    "category_raw": "英国",
+    "description": "年利润超3.7亿，服务12万50+人群",
+    "funding_info": null,
+    "key_info": "总融资额: 3.7亿英镑(年利润); AgeClub写过; 出现板块: 05旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sage Inc.",
+    "name_cn": null,
+    "category_raw": "护理员支持",
+    "description": "帮助护理人员记录居民健康状况，管理任务",
+    "funding_info": {
+      "date": "2022年",
+      "amount": "900万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理员支持",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sava",
+    "name_cn": null,
+    "category_raw": "血糖监测",
+    "description": "下一代连续血糖监测仪，侵入性更小更便宜",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "800万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 1300万美元; 出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Savaria Corporation",
+    "name_cn": null,
+    "category_raw": "适老化硬件",
+    "description": "无障碍设备设计制造，2023年收入约8.37亿美元",
+    "funding_info": null,
+    "key_info": "总融资额: 8.37亿美元(年收); 出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SCI (Service Corporation International)",
+    "name_cn": null,
+    "category_raw": "上市",
+    "description": "美国最大的上市殡葬服务公司，2000+殡葬设施，每年服务30万家庭",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Season Health",
+    "name_cn": null,
+    "category_raw": "虚拟咨询",
+    "description": "营养师虚拟咨询服务在线平台",
+    "funding_info": {
+      "date": "2023年12月",
+      "amount": "700万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 5200万美元; 出现板块: 05远程营养",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Seen Health",
+    "name_cn": null,
+    "category_raw": "老年护理",
+    "description": "为慢性病老年人提供全面医疗和社会支持",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "2200万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 02最新大额投融资;03已排除;05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Senior Planet",
+    "name_cn": null,
+    "category_raw": "技术服务",
+    "description": "60岁以上课程，社会参与、财务安全、健康保健等",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Senior.com",
+    "name_cn": null,
+    "category_raw": "电商",
+    "description": "为老年人和护理人员提供护理相关品牌和产品，270万会员",
+    "funding_info": {
+      "date": "2000年6月",
+      "amount": "1900万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SeniorCare.com",
+    "name_cn": null,
+    "category_raw": "内容",
+    "description": "老年护理信息平台",
+    "funding_info": null,
+    "key_info": "出现板块: 05B2C媒体",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SeniorHousingLiving",
+    "name_cn": null,
+    "category_raw": "内容",
+    "description": "老年住房、健康、技术等内容，给护理交易引流",
+    "funding_info": null,
+    "key_info": "出现板块: 05B2C媒体",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Seniors Helping Seniors",
+    "name_cn": null,
+    "category_raw": "老人互助",
+    "description": "寻找积极老年护理人员与需要帮助的人匹配",
+    "funding_info": {
+      "date": "1998年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05就业;05陪伴服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SeniorSafetyAdvice",
+    "name_cn": null,
+    "category_raw": "内容",
+    "description": "为老年人及护理人员提供安全健康信息",
+    "funding_info": null,
+    "key_info": "出现板块: 05B2C媒体",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Senpai",
+    "name_cn": null,
+    "category_raw": "数字伴侣",
+    "description": "具有语音功能的数字伴侣，社交陪伴、提醒服药",
+    "funding_info": null,
+    "key_info": "无融资; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sensi.AI",
+    "name_cn": null,
+    "category_raw": "音频AI",
+    "description": "音频AI监控老年人健康，美国80%+大型家庭护理网络使用",
+    "funding_info": {
+      "date": "2025年10月",
+      "amount": "4500万美元",
+      "round": "C轮"
+    },
+    "key_info": "AgeClub写过2022年; 出现板块: 05跌倒监测;05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sharecare",
+    "name_cn": null,
+    "category_raw": "数字健康",
+    "description": "拥有CareLinx家庭护理平台的数字健康公司",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "5.18亿美元",
+      "round": "收购"
+    },
+    "key_info": "废弃; 出现板块: 废弃",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ShiftKey",
+    "name_cn": null,
+    "category_raw": "开放轮班",
+    "description": "通过开放轮班连接医疗工作者和医疗机构",
+    "funding_info": {
+      "date": null,
+      "amount": "3亿美元",
+      "round": null
+    },
+    "key_info": "总融资额: 20亿美元+; 出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ShiftMed",
+    "name_cn": null,
+    "category_raw": "护士轮班",
+    "description": "将护士与医疗机构的轮班联系起来",
+    "funding_info": {
+      "date": null,
+      "amount": "4700万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 2亿美元; 出现板块: 05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sidecar Health",
+    "name_cn": null,
+    "category_raw": "医疗保险",
+    "description": "为企业提供主要医疗保险，消除医生事先授权需求",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "1.65亿美元",
+      "round": "D轮"
+    },
+    "key_info": "总融资额: 3.28亿美元; 不是老年保险; 出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SiftWell Analytics",
+    "name_cn": null,
+    "category_raw": "AI人口健康",
+    "description": "AI人口健康平台，识别高风险个人提高质量分数",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "580万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05AI;05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Signify Health",
+    "name_cn": null,
+    "category_raw": "预防",
+    "description": "家庭健康评估，强调预防，会员平均年龄71岁",
+    "funding_info": {
+      "date": "2023年被收购",
+      "amount": "78亿美元",
+      "round": "收购"
+    },
+    "key_info": "出现板块: 02行业巨头;02活力老人;05健康管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Silverbills",
+    "name_cn": null,
+    "category_raw": "账单管理",
+    "description": "使用安全专有软件和个人支持管理家庭账单",
+    "funding_info": null,
+    "key_info": "出现板块: 05金融理财",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Silvernest",
+    "name_cn": null,
+    "category_raw": "跨代住房",
+    "description": "帮助空巢老人将房间出租给学生和专业人士",
+    "funding_info": null,
+    "key_info": "出现板块: 05租房",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SimplyConnect",
+    "name_cn": null,
+    "category_raw": "SODH",
+    "description": "社会护理连接平台",
+    "funding_info": null,
+    "key_info": "出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sit and Be Fit",
+    "name_cn": null,
+    "category_raw": "椅子健身",
+    "description": "1985年创立，低冲击锻炼计划",
+    "funding_info": null,
+    "key_info": "出现板块: 05健身",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Smithsonian Journeys",
+    "name_cn": null,
+    "category_raw": "美国",
+    "description": "2024财年年收入1200万美元",
+    "funding_info": null,
+    "key_info": "总融资额: 1200万美元(年收入); 出现板块: 05旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sollis Health",
+    "name_cn": null,
+    "category_raw": "会员制",
+    "description": "24/7按需医疗会员制，面对面+远程",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "3300万美元",
+      "round": null
+    },
+    "key_info": "已排除，偏医疗; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SomaReality",
+    "name_cn": null,
+    "category_raw": "眼动追踪",
+    "description": "基于眼动追踪的数字生物标记，实时监测认知过程",
+    "funding_info": null,
+    "key_info": "总融资额: 400万美元; 出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Somatus",
+    "name_cn": null,
+    "category_raw": "肾脏/心脏",
+    "description": "慢性肾脏和心脏疾病患者个性化上门临床护理，估值超25亿",
+    "funding_info": {
+      "date": "2022年",
+      "amount": "3.25亿美元",
+      "round": "E轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Somnee",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI驱动神经技术改善睡眠，非专门面向老人",
+    "funding_info": {
+      "date": "2025年6月",
+      "amount": "1000万美元",
+      "round": "种子轮+"
+    },
+    "key_info": "总融资额: $2430万; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sonova (索诺瓦)",
+    "name_cn": null,
+    "category_raw": "巨头",
+    "description": "全球市场占有率第一的听力保健公司",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Spark Advisors",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "帮助医疗保险经纪人进行营销、销售支持、后台管理",
+    "funding_info": {
+      "date": null,
+      "amount": "2500万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SpinSci",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "AI驱动改善患者互动和简化工作流程",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "5300万美元",
+      "round": null
+    },
+    "key_info": "已排除，医疗; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Spring Health",
+    "name_cn": null,
+    "category_raw": "企业雇主",
+    "description": "心理健康初创公司，估值33亿美元",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1亿美元",
+      "round": "E轮"
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sprinter Health",
+    "name_cn": null,
+    "category_raw": "移动医疗",
+    "description": "提供上门移动医疗服务，包括抽血、生命体征检查等，主要支付方Medicare/Medicaid",
+    "funding_info": {
+      "date": "2025年5月",
+      "amount": "5500万美元",
+      "round": "B轮"
+    },
+    "key_info": "总融资额: 1.25亿美元+; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Starling Medical",
+    "name_cn": null,
+    "category_raw": "尿液分析",
+    "description": "家用尿液分析设备远程监控慢性病",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "680万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 1300万美元; 出现板块: 05慢病管理; 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Steadiwear",
+    "name_cn": null,
+    "category_raw": "帕金森手套",
+    "description": "帕金森手套，减少手部颤抖",
+    "funding_info": {
+      "date": null,
+      "amount": "76万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05老年产品;05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Stepful",
+    "name_cn": null,
+    "category_raw": "在线平台",
+    "description": "AI驱动的医疗人员培训平台",
+    "funding_info": {
+      "date": "2026年6月",
+      "amount": "$5700万",
+      "round": "C轮"
+    },
+    "key_info": "已排除，偏向医疗人员; 出现板块: 03已排除;05医护配置",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Stitch",
+    "name_cn": null,
+    "category_raw": "50+社交",
+    "description": "帮助50岁以上的人找到陪伴和建立社交联系",
+    "funding_info": null,
+    "key_info": "融资和信息都较少; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Stripes Beauty",
+    "name_cn": null,
+    "category_raw": "美容保健",
+    "description": "Naomi Watts创立，针对更年期需求，被收购",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Strive Health",
+    "name_cn": null,
+    "category_raw": "肾脏护理",
+    "description": "价值型肾脏护理领域全国领导者",
+    "funding_info": {
+      "date": "2023年5月",
+      "amount": "1.66亿美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sugar.fit",
+    "name_cn": null,
+    "category_raw": "糖尿病",
+    "description": "数字健康解决方案，解决2型糖尿病和糖尿病前期",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "500万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Swift Medical",
+    "name_cn": null,
+    "category_raw": "伤口护理",
+    "description": "数字伤口护理管理，AI技术",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "800万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Switchboard Health",
+    "name_cn": null,
+    "category_raw": "医疗技术",
+    "description": "识别和协调高价值的专业护理服务",
+    "funding_info": {
+      "date": null,
+      "amount": "650万美元",
+      "round": "种子轮"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sword Health",
+    "name_cn": null,
+    "category_raw": "数字治疗",
+    "description": "背部、关节和肌肉疼痛数字治疗，全球17亿人患MSK",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "1.3亿美元",
+      "round": "E轮"
+    },
+    "key_info": "总融资额: 3.4亿美元; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Synapticure",
+    "name_cn": null,
+    "category_raw": "痴呆症护理",
+    "description": "改善阿尔茨海默病、帕金森病等患者治疗效果",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "2500万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: $7820万; 出现板块: 02最新大额投融资;03已排除;05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Talkiatry",
+    "name_cn": null,
+    "category_raw": "精神科",
+    "description": "精神科护理初创公司",
+    "funding_info": {
+      "date": "2024年6月",
+      "amount": "1.3亿美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Teami",
+    "name_cn": null,
+    "category_raw": "大学生上门",
+    "description": "聘请大学生上门拜访原地养老的人",
+    "funding_info": null,
+    "key_info": "出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Teladoc",
+    "name_cn": null,
+    "category_raw": "巨头",
+    "description": "全人虚拟护理全球领导者，收购Livongo",
+    "funding_info": {
+      "date": null,
+      "amount": "185亿美元",
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tembo Health",
+    "name_cn": null,
+    "category_raw": "24/7护理",
+    "description": "随叫随到的痴呆症护理支持小组，参与CMS GUIDE模型",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tennr",
+    "name_cn": null,
+    "category_raw": "传真现代化",
+    "description": "医疗保健领域传真通信现代化",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "1700万美元",
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "The Villages",
+    "name_cn": null,
+    "category_raw": "退休社区",
+    "description": "美国最大的老年退休社区",
+    "funding_info": null,
+    "key_info": "出现板块: 02竞争对手热点",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Thinkie",
+    "name_cn": null,
+    "category_raw": "大脑训练",
+    "description": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Thoughtful AI",
+    "name_cn": null,
+    "category_raw": "AI代理",
+    "description": "AI代理解决医疗保健提供商收入周期挑战",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "2000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05ToB收入周期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Thrive AI Health",
+    "name_cn": null,
+    "category_raw": "AI健康教练",
+    "description": "OpenAI创业基金支持，AI健康教练促进健康生活方式",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05慢病管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tia",
+    "name_cn": null,
+    "category_raw": "综合平台",
+    "description": "综合性女性健康平台，线上线下结合",
+    "funding_info": null,
+    "key_info": "总融资额: 1.32亿美元; 出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tivity Health",
+    "name_cn": null,
+    "category_raw": "Medicare Advantage",
+    "description": "老年人健身福利计划，与Medicare Advantage深度绑定",
+    "funding_info": {
+      "date": "被收购",
+      "amount": "20亿美元",
+      "round": "收购"
+    },
+    "key_info": "出现板块: 02行业巨头;02活力老人",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Together by Renee",
+    "name_cn": null,
+    "category_raw": "APP",
+    "description": "拍摄处方照片管理药物，AI读取保险覆盖",
+    "funding_info": null,
+    "key_info": "2024 Fast Company最具创新力; 出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Toi Labs",
+    "name_cn": null,
+    "category_raw": "智能马桶",
+    "description": "TrueLoo智能马桶座，光学传感器分析马桶活动",
+    "funding_info": null,
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tombot",
+    "name_cn": null,
+    "category_raw": "机器宠物",
+    "description": "机器小狗，面向痴呆症和轻度认知障碍人群提供情感疗愈，1.6万预订单",
+    "funding_info": {
+      "date": "2025年6月",
+      "amount": "610万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: 千万级; 成立于2017年; 出现板块: 02最新大额投融资;05AI;05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tomorrow Health",
+    "name_cn": null,
+    "category_raw": "家庭护理",
+    "description": "简化家庭护理流程，匹配高质量供应商",
+    "funding_info": {
+      "date": "2022年6月",
+      "amount": "6000万美元",
+      "round": "B轮"
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Transcarent",
+    "name_cn": null,
+    "category_raw": "B2B",
+    "description": "整合医疗、外科、药房和心理健康护理的平台，估值22亿美元",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "1.26亿美元",
+      "round": "D轮"
+    },
+    "key_info": "总融资额: 约4.5亿美元; 出现板块: 03书籍推荐;05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "True Link Financial",
+    "name_cn": null,
+    "category_raw": "金融服务",
+    "description": "为老年人和残疾人管理资金，防止金融欺诈",
+    "funding_info": {
+      "date": "2020年7月",
+      "amount": "3500万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 6830万美元; 管理资产超10亿; 出现板块: 05金融理财",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tuesday Health",
+    "name_cn": null,
+    "category_raw": "虚拟临终关怀",
+    "description": "虚拟临终关怀提供商，为重病患者提供全人护理",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "6000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Tuned",
+    "name_cn": null,
+    "category_raw": "AI",
+    "description": "结合AI和智能助听器改善听力质量",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "750万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 320万美元; 出现板块: 05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Two Chairs",
+    "name_cn": null,
+    "category_raw": "匹配平台",
+    "description": "专有算法帮助将合适治疗师与患者匹配",
+    "funding_info": {
+      "date": null,
+      "amount": "7200万美元",
+      "round": "C轮"
+    },
+    "key_info": "出现板块: 05心理健康",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "TympaHealth",
+    "name_cn": null,
+    "category_raw": "英国",
+    "description": "耳部和听力健康评估系统，数字耳镜检查+听力评估",
+    "funding_info": {
+      "date": "2023年4月",
+      "amount": "2300万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Uber Health",
+    "name_cn": null,
+    "category_raw": "交通",
+    "description": "优步健康与1000+医疗保健机构合作",
+    "funding_info": null,
+    "key_info": "出现板块: 05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Unfabled",
+    "name_cn": null,
+    "category_raw": "女性健康电商",
+    "description": "在线市场，女性健康和保健产品",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "200万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "UnitedHealth Group (UHG)",
+    "name_cn": null,
+    "category_raw": "巨头",
+    "description": "通过Optum收购多家医生团体，布局价值型护理",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "上市公司"
+    },
+    "key_info": "出现板块: 02行业巨头; NYSE上市(UNH)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Upsidehom",
+    "name_cn": null,
+    "category_raw": "老年住房",
+    "description": "为老年人提供现代舒适住房，配备家具公寓",
+    "funding_info": {
+      "date": "2021年",
+      "amount": "237万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05租房",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Upward Health",
+    "name_cn": null,
+    "category_raw": "复杂疾病",
+    "description": "面向复杂疾病患者，由商业保险、医疗保险、医疗补助100%付款",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "1250万美元",
+      "round": "C轮"
+    },
+    "key_info": "已排除，资料不够; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vayyar",
+    "name_cn": null,
+    "category_raw": "4D毫米波雷达",
+    "description": "4D成像雷达，非侵入式全面环境监测，隐私保护",
+    "funding_info": {
+      "date": "2022年6月",
+      "amount": "1.08亿美元",
+      "round": "E轮"
+    },
+    "key_info": "总融资额: 2.96亿美元; 估值超10亿; 出现板块: 05跌倒监测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "vermut",
+    "name_cn": null,
+    "category_raw": "社交网络APP",
+    "description": "社交网络平台APP，发布活动、聚会",
+    "funding_info": {
+      "date": null,
+      "amount": "170万欧元",
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vesta Healthcare",
+    "name_cn": null,
+    "category_raw": "居家护理",
+    "description": "让居家护理人员与付款人和临床医生共享信息，5万+老年人",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "6500万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vi Health",
+    "name_cn": null,
+    "category_raw": "APP",
+    "description": "为更年期女性提供量身定制的支持APP",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "150万欧元",
+      "round": null
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Videra Health",
+    "name_cn": null,
+    "category_raw": "AI心理健康",
+    "description": "AI检测面部表情和肢体语言变化筛查心理健康",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": "560万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05疾病预测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Virtuleap",
+    "name_cn": null,
+    "category_raw": "VR认知训练",
+    "description": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+    "funding_info": null,
+    "key_info": "总融资额: 410万美元; 出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Visibly",
+    "name_cn": null,
+    "category_raw": "视力测试",
+    "description": "全球首个FDA批准的在线视力测试",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vitable",
+    "name_cn": null,
+    "category_raw": "初级保健",
+    "description": "为小型雇主提供初级保健服务，每月30美元/员工",
+    "funding_info": {
+      "date": "2024年7月",
+      "amount": "1600万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05面向雇主;05护理服务",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "VitalTech",
+    "name_cn": null,
+    "category_raw": "慢性病管理",
+    "description": "家庭护理远程监控和慢性病管理解决方案",
+    "funding_info": {
+      "date": "2024年4月",
+      "amount": "900万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vitas",
+    "name_cn": null,
+    "category_raw": "机构",
+    "description": "美国最大临终关怀机构",
+    "funding_info": null,
+    "key_info": "出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vivian Labs",
+    "name_cn": null,
+    "category_raw": "数字平台",
+    "description": "为更年期女性提供个性化护理数字平台",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "30万欧元",
+      "round": null
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vivo",
+    "name_cn": null,
+    "category_raw": "在线锻炼",
+    "description": "在线锻炼，现场教练授课，帮助老人重建肌肉",
+    "funding_info": {
+      "date": null,
+      "amount": "352万美元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05健身",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Voiceitt",
+    "name_cn": null,
+    "category_raw": "语音AI",
+    "description": "言语障碍人士的语音AI解决方案",
+    "funding_info": null,
+    "key_info": "出现板块: 05辅助设备",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vori Health",
+    "name_cn": null,
+    "category_raw": "虚拟/面对面",
+    "description": "虚拟/面对面肌肉骨骼护理",
+    "funding_info": {
+      "date": "2025年3月",
+      "amount": "5300万美元",
+      "round": "B轮"
+    },
+    "key_info": "出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Voxela",
+    "name_cn": null,
+    "category_raw": "AI图像分析",
+    "description": "AI图像分析检测跌倒和走动，护理机构和医院",
+    "funding_info": {
+      "date": "2024年10月",
+      "amount": null,
+      "round": "Pre-A"
+    },
+    "key_info": "总融资额: 3300万人民币+; 出现板块: 05跌倒监测",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vyld",
+    "name_cn": null,
+    "category_raw": "环保材料",
+    "description": "海藻卫生棉条和可堆肥尿布",
+    "funding_info": {
+      "date": "2024年1月",
+      "amount": "数百万美元",
+      "round": "种子轮"
+    },
+    "key_info": "出现板块: 05尿失禁",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "VyncaCare",
+    "name_cn": null,
+    "category_raw": "高级护理计划",
+    "description": "姑息治疗、高级护理计划和增强护理管理",
+    "funding_info": {
+      "date": "2021年1月",
+      "amount": "3000万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 4030万美元; 出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Vytalize Health",
+    "name_cn": null,
+    "category_raw": "虚拟护理",
+    "description": "虚拟护理平台，总融资上亿，之前写过文章",
+    "funding_info": {
+      "date": "2025年7月",
+      "amount": "5500万美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: $1.76亿; 流量比去年高; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Warby Parker",
+    "name_cn": null,
+    "category_raw": "眼镜",
+    "description": "中老年眼镜，渐进镜片，成立于2010年",
+    "funding_info": null,
+    "key_info": "出现板块: 05老年产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Waterlily",
+    "name_cn": null,
+    "category_raw": "AI预测",
+    "description": "AI预测长期护理需求，个性化定制护理计划",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "700万美元",
+      "round": "种子轮"
+    },
+    "key_info": "总融资额: $920万; 阿沐养老写过; 出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Watershed Health",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "连接患者所有临床和非临床团队改善护理协调",
+    "funding_info": {
+      "date": null,
+      "amount": "1360万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05远程监控",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Welbi",
+    "name_cn": null,
+    "category_raw": "养老院",
+    "description": "专注于养老院和退休护理社区的健康管理",
+    "funding_info": null,
+    "key_info": "出现板块: 05健康管理",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wellthy",
+    "name_cn": null,
+    "category_raw": "技术驱动",
+    "description": "数百名全职护理专家，从出生到丧亲护理需求支持",
+    "funding_info": {
+      "date": "2023年5月",
+      "amount": "2500万美元",
+      "round": null
+    },
+    "key_info": "总融资额: 8000万美元; AgeClub写过; 出现板块: 05护理员支持;05面向雇主",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wesper",
+    "name_cn": null,
+    "category_raw": "睡眠诊断",
+    "description": "家用睡眠测试和呼吸暂停诊断，FDA批准",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wheel",
+    "name_cn": null,
+    "category_raw": "虚拟护理",
+    "description": "帮助临床工作人员的虚拟护理平台",
+    "funding_info": {
+      "date": "2022年2月",
+      "amount": "1.5亿美元",
+      "round": "C轮"
+    },
+    "key_info": "总融资额: 2.16亿美元; 出现板块: 05数字化工具",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wheel the World",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "无障碍旅行初创公司",
+    "funding_info": null,
+    "key_info": "AgeClub写过; 出现板块: 05无障碍旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wider Circle",
+    "name_cn": null,
+    "category_raw": "社区社交",
+    "description": "连接老年人的个人社交平台，健康计划赞助",
+    "funding_info": {
+      "date": "2021年9月",
+      "amount": "3800万美元",
+      "round": "B轮"
+    },
+    "key_info": "AgeClub写过; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wile",
+    "name_cn": null,
+    "category_raw": "补充剂",
+    "description": "女性健康补充剂，针对围绝经期，被Nameless CPG收购",
+    "funding_info": {
+      "date": "2024年5月",
+      "amount": null,
+      "round": "收购"
+    },
+    "key_info": "出现板块: 05更年期",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Xander Glasses",
+    "name_cn": null,
+    "category_raw": "AR字幕眼镜",
+    "description": "将语音翻译成文本并实时显示字幕，AR增强对话",
+    "funding_info": {
+      "date": null,
+      "amount": "280万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐;05助听",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "YgEia3",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "与公司合作开发全面健康测试",
+    "funding_info": {
+      "date": "2023年5月",
+      "amount": "4.83亿英镑",
+      "round": "私募股权"
+    },
+    "key_info": "总融资额: 13.37亿美元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "yooLab",
+    "name_cn": null,
+    "category_raw": "Crunchbase",
+    "description": "为现代人设计智能食品解决方案",
+    "funding_info": {
+      "date": "2023年3月",
+      "amount": "2.15亿元",
+      "round": null
+    },
+    "key_info": "总融资额: 2.52亿元; Crunchbase截图OCR，数据待校验; 出现板块: Crunchbase截图; 国家信息待补全",
+    "region": null,
+    "source": "选题库V4"
+  },
+  {
+    "name": "Yurtle",
+    "name_cn": null,
+    "category_raw": "员工福利",
+    "description": "员工福利平台，护理管理和护理保险",
+    "funding_info": {
+      "date": "2024年3月",
+      "amount": "137万英镑",
+      "round": null
+    },
+    "key_info": "不用看; 出现板块: 不用看/ToB",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Zen Sleep",
+    "name_cn": null,
+    "category_raw": "睡眠CBT",
+    "description": "失眠认知行为疗法(CBT-I)应用程序",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Zing Health",
+    "name_cn": null,
+    "category_raw": "社会决定因素",
+    "description": "解决健康社会决定因素，减少服务不足人群医疗差距",
+    "funding_info": {
+      "date": "2024年9月",
+      "amount": "1.4亿美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05保险",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Zinnia",
+    "name_cn": null,
+    "category_raw": "治疗电视",
+    "description": "治疗性电视应用，为痴呆症患者提供支持",
+    "funding_info": {
+      "date": null,
+      "amount": "12万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ōmcare",
+    "name_cn": null,
+    "category_raw": "家庭健康",
+    "description": "一体化家庭健康平台，正确时间正确药物",
+    "funding_info": {
+      "date": "2022年4月",
+      "amount": "约2000万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05服药",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ŌURA",
+    "name_cn": null,
+    "category_raw": "智能戒指",
+    "description": "Oura智能戒指，收集20+种生物特征数据",
+    "funding_info": {
+      "date": "2024年12月",
+      "amount": "2亿美元",
+      "round": null
+    },
+    "key_info": "已排除，不是主要面向老人; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "亲和源",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "酒店旅居，连续亏损已退市",
+    "funding_info": null,
+    "key_info": "出现板块: 05无障碍旅游",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "伊对",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "看APP主要面向年轻人",
+    "funding_info": null,
+    "key_info": "出现板块: 05老人相亲",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "优必选",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "机器人，获得较高融资",
+    "funding_info": null,
+    "key_info": "出现板块: 05物理治疗",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "作为科技",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "大小便机器人",
+    "funding_info": null,
+    "key_info": "出现板块: 05尿失禁",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "傅里叶智能",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "康复机器人，获得较高融资",
+    "funding_info": null,
+    "key_info": "出现板块: 05物理治疗",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "共比邻",
+    "name_cn": null,
+    "category_raw": "平台",
+    "description": "老年旅游，有公众号和小程序",
+    "funding_info": {
+      "date": "2025年7月",
+      "amount": "上亿",
+      "round": null
+    },
+    "key_info": "出现板块: 02竞争对手热点;05旅游",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "博斯腾",
+    "name_cn": null,
+    "category_raw": "认知症筛查",
+    "description": "认知症筛查与治疗，年营收超7000万",
+    "funding_info": {
+      "date": "2022年11月",
+      "amount": "数千万元",
+      "round": null
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "博音",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "听觉障碍",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "去哪养老网",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "养老服务搜索展示消费评价平台",
+    "funding_info": {
+      "date": "2015年12月",
+      "amount": null,
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "可靠护理",
+    "name_cn": null,
+    "category_raw": "中国上市",
+    "description": "成人失禁用品",
+    "funding_info": {
+      "date": "2021年",
+      "amount": "上市",
+      "round": null
+    },
+    "key_info": "出现板块: 05尿失禁",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "司羿智能",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "消费级康复机器人，医院、社区、家庭场景",
+    "funding_info": {
+      "date": "2023年3月",
+      "amount": "近亿元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05物理治疗",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "和家健脑",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "认知症产品",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "圣德医养",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "半失能、失能、失智老人医养结合，11家连锁机构",
+    "funding_info": {
+      "date": "2023年3月",
+      "amount": "数亿元",
+      "round": "A轮"
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "大和房屋工业 (Daiwa House)",
+    "name_cn": null,
+    "category_raw": "日本",
+    "description": "住宅改造相关",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "孝爱宝",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "养老服务搜索展示消费评价平台",
+    "funding_info": {
+      "date": "2019年",
+      "amount": null,
+      "round": null
+    },
+    "key_info": "出现板块: 05寻找护理服务",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "完美亲家",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "父母帮子女相亲",
+    "funding_info": null,
+    "key_info": "出现板块: 05老人相亲",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "新东方文旅",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "新东方教育科技集团全资子公司，2023年成立，注册资本10亿元。面向中老年及全年龄段群体提供文化旅行、国际游学、国内研学、营地教育及康养旅居等文旅产品。已...",
+    "funding_info": null,
+    "key_info": "出现板块: 05旅游",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "智听",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "听觉障碍",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "松龄护老",
+    "name_cn": null,
+    "category_raw": "香港上市",
+    "description": "香港养老护理提供商，2017年上市",
+    "funding_info": {
+      "date": "2022年8月",
+      "amount": "5746万美元",
+      "round": "并购"
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "梨花教育",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "国内头部老年教育",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "清澜技术",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "跌倒监测国内头部",
+    "funding_info": null,
+    "key_info": "出现板块: 05跌倒监测",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "清雷",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "跌倒监测国内头部",
+    "funding_info": null,
+    "key_info": "出现板块: 05跌倒监测",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "点可",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "跌倒监测国内头部",
+    "funding_info": null,
+    "key_info": "出现板块: 05跌倒监测",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "爱可声",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "听觉障碍",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "爱晖",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "国内服药管理，研发难度很大",
+    "funding_info": null,
+    "key_info": "出现板块: 05服药",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "玖益",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "听觉障碍",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "百合佳缘",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "有子业务，开展不太顺利",
+    "funding_info": null,
+    "key_info": "出现板块: 05老人相亲",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "百芝龙",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "跌倒监测国内头部",
+    "funding_info": null,
+    "key_info": "出现板块: 05跌倒监测",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "福寿康",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "福寿康-福教授，天使沐浴面向临终老人",
+    "funding_info": null,
+    "key_info": "出现板块: 05护理服务;05临终关怀",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "科大讯飞",
+    "name_cn": null,
+    "category_raw": "中国巨头",
+    "description": "国内助听巨头",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "积水房屋 (Sekisui House)",
+    "name_cn": null,
+    "category_raw": "日本",
+    "description": "住宅改造相关，适老化改造似乎只占一小部分",
+    "funding_info": null,
+    "key_info": "出现板块: 02其它巨头线索",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "红松",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "国内头部老年教育",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "维小饭",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "国内个性化营养",
+    "funding_info": null,
+    "key_info": "出现板块: 05远程营养",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "脑动极光",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "认知症产品",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "苗米",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "跌倒监测国内头部",
+    "funding_info": null,
+    "key_info": "出现板块: 05跌倒监测",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "茑屋书店",
+    "name_cn": null,
+    "category_raw": "代官山店",
+    "description": "资料不是很多",
+    "funding_info": null,
+    "key_info": "出现板块: 02活力老人",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "茜会",
+    "name_cn": null,
+    "category_raw": "日本",
+    "description": "每年500多场线下活动，无需结婚",
+    "funding_info": null,
+    "key_info": "出现板块: 05老人相亲",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "蓓姿",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "国内尿失禁产品",
+    "funding_info": null,
+    "key_info": "出现板块: 05尿失禁",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "虚之实",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "认知症产品",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "赋爱科技",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "认知症产品",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "达旦无极",
+    "name_cn": null,
+    "category_raw": "虚拟数字人",
+    "description": "认知症陪伴-虚拟数字人",
+    "funding_info": null,
+    "key_info": "出现板块: 05痴呆症;05社交娱乐",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "量子之歌(千尺学堂)",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "国内头部老年教育",
+    "funding_info": null,
+    "key_info": "出现板块: 05学习教育",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "锦好医疗",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "听觉障碍",
+    "funding_info": null,
+    "key_info": "出现板块: 05助听",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "锦欣康养",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "养老康复服务机构，成立于2014年",
+    "funding_info": {
+      "date": "2023年",
+      "amount": "800万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05护理服务",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "鲸鱼陪诊",
+    "name_cn": null,
+    "category_raw": "中国",
+    "description": "陪诊服务",
+    "funding_info": {
+      "date": "2023年12月",
+      "amount": "数千万",
+      "round": "天使轮"
+    },
+    "key_info": "出现板块: 05陪伴服务",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ashiana Housing",
+    "name_cn": null,
+    "category_raw": "印度",
+    "description": "印度排名第一的老年公寓，2025财年预售额目标200亿卢比",
+    "funding_info": null,
+    "key_info": "出现板块: 05养老住宅",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Club Tourism",
+    "name_cn": null,
+    "category_raw": "日本",
+    "description": "日本老年旅游",
+    "funding_info": null,
+    "key_info": "出现板块: 05旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Geri Care",
+    "name_cn": null,
+    "category_raw": "印度",
+    "description": "印度首家老年综合医疗服务提供商，360度连续护理",
+    "funding_info": {
+      "date": "2025年1月",
+      "amount": "1300万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 02最新大额投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "HealthKart",
+    "name_cn": null,
+    "category_raw": "营养品",
+    "description": "印度最大消费者营养平台，蛋白质补充剂",
+    "funding_info": {
+      "date": "2024年11月",
+      "amount": "1.53亿美元",
+      "round": null
+    },
+    "key_info": "已排除，保健品; 出现板块: 03已排除",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ivory",
+    "name_cn": null,
+    "category_raw": "大脑健康",
+    "description": "大脑健康初创公司，覆盖1500万面临痴呆症风险的印度人",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "50万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05痴呆症",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Khyaal",
+    "name_cn": null,
+    "category_raw": "印度超级应用",
+    "description": "印度老年人超级应用，覆盖300万+老年用户",
+    "funding_info": {
+      "date": "2024年2月",
+      "amount": "420万美元",
+      "round": null
+    },
+    "key_info": "出现板块: 05社交娱乐;05SODH",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nikko Travel",
+    "name_cn": null,
+    "category_raw": "日本上市",
+    "description": "日本高端老年旅游上市公司",
+    "funding_info": null,
+    "key_info": "出现板块: 05无障碍旅游",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Partner Agent",
+    "name_cn": null,
+    "category_raw": "日本",
+    "description": "日本老年婚介",
+    "funding_info": null,
+    "key_info": "出现板块: 05老人相亲",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Seniorworld",
+    "name_cn": null,
+    "category_raw": "印度社区",
+    "description": "印度规模最大的老年人社区，20万老年人",
+    "funding_info": null,
+    "key_info": "年收入百万，规模很小; 出现板块: 05社交娱乐",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "镰仓新书",
+    "name_cn": null,
+    "category_raw": "日本上市",
+    "description": "日本京东上市的殡葬服务公司，购墓、殡仪、佛坛等",
+    "funding_info": null,
+    "key_info": "总融资额: 23亿日元(年收入); 出现板块: 05临终关怀",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Landmark Health",
+    "name_cn": null,
+    "category_raw": "居家医疗服务",
+    "description": "为患有多种慢性病的复杂老年患者群体提供居家医疗服务，隶属于Optum/UHG，被Optum以35亿美元收购",
+    "funding_info": null,
+    "key_info": "Dr. Zeev Neuwirth播客; V4: 11/11/2022",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Optum (Home & Community)",
+    "name_cn": null,
+    "category_raw": "居家养老/保险",
+    "description": "UHG旗下Optum Home & Community（含Landmark），深度布局老年居家和社区护理，UHG是最大MA提供商",
+    "funding_info": null,
+    "key_info": "Dr. Zeev Neuwirth播客; V2/V3: 第146集, 第134集; V4: 12/06/2023, 10/21/2021",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "DispatchHealth",
+    "name_cn": null,
+    "category_raw": "居家急症护理",
+    "description": "提供上门的紧急和急性护理服务（移动急诊室/居家医院模式），老年人是核心受益者。总融资额约7.3亿美元",
+    "funding_info": null,
+    "key_info": "Dr. Zeev Neuwirth播客; V2/V3: 第137集",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Medically Home",
+    "name_cn": null,
+    "category_raw": "居家医院平台",
+    "description": "提供\"居家医院\"技术和服务平台，赋能医疗系统将急性护理转移到家庭，主要服务老年患者。总融资额约2.7-2.8亿美元",
+    "funding_info": null,
+    "key_info": "Dr. Zeev Neuwirth播客; V1/V3: 第59集; V2/V3: 第122集",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Humana",
+    "name_cn": null,
+    "category_raw": "保险(MA)/初级保健",
+    "description": "Medicare Advantage巨头，其初级保健组织(CenterWell)完全专注于老年人。财富500强上市公司(HUM)",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "上市公司"
+    },
+    "key_info": "Dr. Zeev Neuwirth播客; V2/V3: 第163集, 第139集; CenterWell是Oak竞争对手; NYSE上市(HUM)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Iora Health",
+    "name_cn": null,
+    "category_raw": "初级保健/价值医疗",
+    "description": "创立之初就专注于老年人(Medicare受益者)的初级保健，强调关系和团队协作。被Amazon通过One Medical以39亿美元收购",
+    "funding_info": null,
+    "key_info": "Dr. Zeev Neuwirth播客; V1/V3: 第9集; V3: 第7集; V4: EP460",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Philips (Lifeline)",
+    "name_cn": null,
+    "category_raw": "PERS/跌倒监测",
+    "description": "Lifeline是北美领先PERS品牌，专为老年人提供紧急呼叫和跌倒检测，还有其他居家监测设备",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "上市公司"
+    },
+    "key_info": "Dr. Zeev Neuwirth播客; V4: 2024年10月22日; Philips Lifeline; Euronext上市(PHIA)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Best Buy Health",
+    "name_cn": null,
+    "category_raw": "PERS/RPM/智能科技",
+    "description": "提供PERS(Lively)、RPM(Current Health)及技术服务整合(Geek Squad)，主要服务老年人居家健康和技术需求。Curren...",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "上市公司"
+    },
+    "key_info": "Dr. Zeev Neuwirth播客; 用户列表提供; NYSE上市(BBY)旗下",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Encompass Health",
+    "name_cn": null,
+    "category_raw": "康复护理",
+    "description": "上市公司(EHC)，数十亿营收。远程康复、数据分析优化流程，成熟连锁医疗服务体系。海量老年康复/居家患者",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "上市公司"
+    },
+    "key_info": "Dr. Zeev Neuwirth播客; V4:2024.11.19播客; 老牌传统企业，素材老旧暂不优先写; NYSE上市(EHC)",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "AccentCare",
+    "name_cn": null,
+    "category_raw": "居家护理服务",
+    "description": "PE大额并购支撑，规模头部。以线下服务交付为主，连锁居家机构标准化运营。2019收购，2018融资3.75亿",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "已被收购"
+    },
+    "key_info": "Dr. Zeev Neuwirth播客; 过于传统，暂搁置选题; 被Humana部分收购",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Right At Home",
+    "name_cn": null,
+    "category_raw": "非医疗照护/特许经营",
+    "description": "全球居家照护特许经营网络，700+全美门店，覆盖数万老人。标准化加盟体系，特许连锁模式成熟",
+    "funding_info": {
+      "date": null,
+      "amount": null,
+      "round": "私营(特许经营)"
+    },
+    "key_info": "Dr. Zeev Neuwirth播客; 用户列表素材，国内连锁养老可对标; 特许经营模式",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "LHC Group",
+    "name_cn": null,
+    "category_raw": "家庭医疗保健",
+    "description": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 1994年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Aveanna Healthcare",
+    "name_cn": null,
+    "category_raw": "家庭健康/临终关怀",
+    "description": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 2016年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "InnovAge",
+    "name_cn": null,
+    "category_raw": "PACE全包护理",
+    "description": "提供老年人全包护理计划(PACE)，为居家老人提供处方药、医疗保健、家庭护理、体检、医院就诊、上门协助、交通、营养等服务。2021年上市融资3.5亿美元",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 1990年成立; Holding Corp.",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Addus HomeCare",
+    "name_cn": null,
+    "category_raw": "家庭护理/个人护理",
+    "description": "美国家庭护理服务提供商，以家庭及社区为基础，面向老人、长期病患、残疾人士等提供个人护理、日常生活活动支援、成人日间看护等服务。2009年上市融资5400万美元",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 1979年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "The Pennant Group",
+    "name_cn": null,
+    "category_raw": "家庭健康/临终关怀",
+    "description": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+    "funding_info": null,
+    "key_info": "海外企业名称表",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Enhabit",
+    "name_cn": null,
+    "category_raw": "家庭健康/临终关怀",
+    "description": "成立于2014年，美国家庭健康、临终关怀服务商。2022年上市",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 2014年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Ready Responders",
+    "name_cn": null,
+    "category_raw": "家庭健康服务",
+    "description": "美国家庭健康服务提供商，为患者提供紧急护理、出院后的过渡护理以及社区护理等医疗服务。2020年B+C轮1.02亿美元，谷歌风投入股",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 2016年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Kenbi",
+    "name_cn": null,
+    "category_raw": "家庭护理/家政服务",
+    "description": "提供家庭护理、家庭健康、家政服务、亲属支持、陪伴等服务。2021.12天使轮后战略投资2664万美元",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 2019年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Emoha Elder Care",
+    "name_cn": null,
+    "category_raw": "老年护理服务",
+    "description": "印度老年人护理服务商，主要在老年人家中提供360度护理服务，将实践、护理协议和技术解决方案结合在一起。2023.10 A轮1100万美元",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 2019年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "BelleVie",
+    "name_cn": null,
+    "category_raw": "居家护理",
+    "description": "英国居家护理提供商，包括个人护理、陪伴、做家务，以及痴呆症、帕金森、癌症等专业护理。2019年种子轮260万英镑",
+    "funding_info": null,
+    "key_info": "海外企业名称表; 2019年成立",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Voize",
+    "name_cn": null,
+    "category_raw": "AI语音护理记录",
+    "description": "AI语音护理记录助手，利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老机构落地",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "5000万美元",
+      "round": "A/B轮"
+    },
+    "key_info": "2025.11月批次投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Orion",
+    "name_cn": null,
+    "category_raw": "AI智能温控床垫",
+    "description": "AI智能温控床垫罩，对标Eight Sleep，通过水循环调节床垫温度，AI监测睡眠数据。价格比竞品低$400-$800",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "1750万美元",
+      "round": "种子轮"
+    },
+    "key_info": "2025.11月批次投融资; 消费电子多于银发经济",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Arya Health",
+    "name_cn": null,
+    "category_raw": "AI康复护理管理",
+    "description": "AI康复后护理管理平台，为康复护理机构提供AI代理，自动化管理康复护理流程",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "1820万美元",
+      "round": null
+    },
+    "key_info": "2025.11月批次投融资; 偏向医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nestimate",
+    "name_cn": null,
+    "category_raw": "退休收入分析",
+    "description": "为财务顾问、资产经理和保险公司提供退休收入分析软件平台",
+    "funding_info": {
+      "date": "2025.10",
+      "amount": "300万美元",
+      "round": "种子轮"
+    },
+    "key_info": "2025.11月批次投融资; 金融",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "IO Health Technologies",
+    "name_cn": null,
+    "category_raw": "AI合规平台",
+    "description": "AI驱动的居家医疗/临终关怀合规平台，为居家医疗和临终关怀机构提供AI平台，确保行政合规和质量",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "200万美元",
+      "round": null
+    },
+    "key_info": "2025.11月批次投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Synchron",
+    "name_cn": null,
+    "category_raw": "脑机接口(BCI)",
+    "description": "非手术脑机接口(BCI)，帮助瘫痪患者恢复沟通和行动能力。微创植入，未来将扩展至与衰老相关的认知和功能衰退",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "2亿美元",
+      "round": "D轮"
+    },
+    "key_info": "2025.11月批次投融资; 太偏科研、医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "ExaCare AI",
+    "name_cn": null,
+    "category_raw": "AI运营自动化",
+    "description": "目标客户是康复护理设施的管理层和运营团队，AI驱动的运营自动化，减轻护理团队的行政和管理负担",
+    "funding_info": {
+      "date": "2025年10月",
+      "amount": "3000万美元",
+      "round": "A轮"
+    },
+    "key_info": "总融资额: $3000万; 2025.11月批次投融资; 偏向医疗行政",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Duos",
+    "name_cn": null,
+    "category_raw": "AI数字健康平台",
+    "description": "AI驱动的数字健康平台，负责保险计划的会员激活和福利执行。商业模式高度聚焦于Medicare Advantage等支付方，帮助老年用户理解和使用复杂的健康福利",
+    "funding_info": {
+      "date": "2025.10",
+      "amount": "1.3亿美元",
+      "round": "B轮"
+    },
+    "key_info": "2025.11月批次投融资; 近期已写",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Google Gemini AI 健康教练",
+    "name_cn": null,
+    "category_raw": "AI健康教练",
+    "description": "基于Gemini LLM的个性化健康教练，整合Fitbit/Pixel Watch数据。科技巨头首次将顶级LLM深度用于大规模、个性化的慢性病和健康风险管理",
+    "funding_info": {
+      "date": "2025.10",
+      "amount": "N/A",
+      "round": null
+    },
+    "key_info": "2025.11月批次投融资; 科技巨头产品",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "LambdaVision",
+    "name_cn": null,
+    "category_raw": "人工视网膜",
+    "description": "人工视网膜，用于治疗年龄相关性黄斑变性(AMD)等老年致盲性疾病。利用国际空间站微重力环境进行制造",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "700万美元",
+      "round": "种子轮"
+    },
+    "key_info": "2025.11月批次投融资; 偏医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Hippocratic AI",
+    "name_cn": null,
+    "category_raw": "医疗AI代理",
+    "description": "医疗AI代理，执行低风险、面向患者的行政和运营任务。估值35亿；已与50+大型医疗系统/支付方合作；累计完成1.15亿+临床患者互动。累计融资4.04亿美...",
+    "funding_info": {
+      "date": "2025.11",
+      "amount": "1.26亿美元",
+      "round": "C轮"
+    },
+    "key_info": "2025.11月批次投融资; 偏医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Generation Lab",
+    "name_cn": null,
+    "category_raw": "老化诊断",
+    "description": "开发平台，旨在提供全面、准确且可操作的老化诊断(Aging Diagnostics)，属于长寿经济(Longevity Economy)的关键赛道",
+    "funding_info": {
+      "date": "2025.10",
+      "amount": "1100万美元",
+      "round": null
+    },
+    "key_info": "2025.11月批次投融资; 偏医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Nila",
+    "name_cn": null,
+    "category_raw": "老年护理管理",
+    "description": "医疗保健管理平台，帮助海外人士照顾家乡的年迈亲属。解决全球化背景下的跨境老年护理和管理痛点",
+    "funding_info": {
+      "date": "2025.10",
+      "amount": "180万英镑(约240万美元)",
+      "round": null
+    },
+    "key_info": "2025.11月批次投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "NewDays",
+    "name_cn": null,
+    "category_raw": "AI伴侣/认知康复",
+    "description": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+    "funding_info": {
+      "date": "2025.09",
+      "amount": "700万美元",
+      "round": "种子轮"
+    },
+    "key_info": "2025.11月批次投融资; 已写，流量很低",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Sunrise Group",
+    "name_cn": null,
+    "category_raw": "睡眠呼吸暂停",
+    "description": "睡眠科技公司，扩大旗下Dreem Health业务。推进其获得FDA批准的睡眠呼吸暂停技术在全国范围的推广，2015年成立",
+    "funding_info": {
+      "date": "2025.09",
+      "amount": "2900万美元",
+      "round": null
+    },
+    "key_info": "2025.11月批次投融资",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Eight Sleep",
+    "name_cn": null,
+    "category_raw": "智能床系统",
+    "description": "智能床系统(消费品)。开发AI睡眠代理；计划进军医疗领域(更年期睡眠、睡眠呼吸暂停)，寻求FDA批准",
+    "funding_info": {
+      "date": "2025.08",
+      "amount": "1亿美元",
+      "round": "D轮"
+    },
+    "key_info": "2025.11月批次投融资; 不是专门面向老人",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Leal Therapeutics",
+    "name_cn": null,
+    "category_raw": "药物研发",
+    "description": "开发治疗神经精神或神经退行性疾病患者的药物，典型代表是阿尔茨海默病、帕金森病等",
+    "funding_info": {
+      "date": "2025.08",
+      "amount": "3000万美元",
+      "round": "A轮"
+    },
+    "key_info": "2025.11月批次投融资; 太偏向医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Jocasta Neuroscience",
+    "name_cn": null,
+    "category_raw": "认知健康药物",
+    "description": "专注于长寿(Longevity)领域，研发专有的长寿蛋白配方(α-Klotho)，用于治疗神经退行性疾病中的认知障碍等疾病",
+    "funding_info": {
+      "date": "2025.08",
+      "amount": "3500万美元",
+      "round": "A轮"
+    },
+    "key_info": "2025.11月批次投融资; 太偏向医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "Wellth",
+    "name_cn": null,
+    "category_raw": "慢病依从性",
+    "description": "数字健康公司，利用行为经济学和财务激励提高慢性病人群的依从性。明确服务于Medicare Advantage(MA)、Medicaid、D-SNP等老年高...",
+    "funding_info": {
+      "date": "2025.08",
+      "amount": "3600万美元",
+      "round": "C轮"
+    },
+    "key_info": "2025.11月批次投融资; 与Wellthy不同",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "SetPoint Medical",
+    "name_cn": null,
+    "category_raw": "植入式设备",
+    "description": "神经免疫调节疗法开发商，研发SetPoint System(植入式设备)，通过迷走神经刺激治疗类风湿性关节炎(RA)。2025年7月获得FDA批准",
+    "funding_info": {
+      "date": "2025.08",
+      "amount": "1.4亿美元",
+      "round": "D轮+C轮二期"
+    },
+    "key_info": "2025.11月批次投融资; 太偏向医疗",
+    "region": "海外",
+    "source": "选题库V4"
+  },
+  {
+    "name": "小橙长护",
+    "name_cn": null,
+    "category_raw": "护理服务/数字化平台",
+    "description": "集\"养老护理服务、医养人才培养、数字化医养平台\"为一体，提供生活照料、医疗护理、病患管理、康复理疗，以及辅具租赁、适老化改造、护理员培训等服务。2023....",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2018年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "璞缘照护",
+    "name_cn": null,
+    "category_raw": "护理服务",
+    "description": "专注居家护理养老服务，在全国30个城市连锁布局长护定点业务，以社区为依托，承接多地社区日照、养老服务中心、养老驿站的运营服务。2023.03 A轮融资数千万元",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2017年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "青松康护",
+    "name_cn": null,
+    "category_raw": "康复护理",
+    "description": "康复护理服务机构，专门服务于居住在家中和社区内的老年人、残疾人、病后术后康复期人群，提供专业规范的长期照护和康复护理服务。2016年B轮数千万美元",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2009年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "小柏家护",
+    "name_cn": null,
+    "category_raw": "医院陪护/居家护理",
+    "description": "为老人提供医院陪护及居家护理服务，涉及术前、术后疾病期急性期护理、居家慢性病照护以及院后疾病恢复期护理等服务。2015.12 Pre-A轮3000万元",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2015年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "颐家养老",
+    "name_cn": null,
+    "category_raw": "医养服务",
+    "description": "为社区老人提供医、护、康、养、险服务，通过机构、站点、居家等多种服务模式，形成特色的\"医养服务平台网络\"，实现\"全人、全龄、全家、全程\"照护服务。2023...",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2013年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "二毛照护",
+    "name_cn": null,
+    "category_raw": "居家照护",
+    "description": "主要面向高龄、失能、失智人群，为用户提供生活照护、病症护理、病后康复等方面一站式居家照护服务。业务包括整月照护、全天照护、失智照护以及分时照护。2016....",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2015年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "小羊养老",
+    "name_cn": null,
+    "category_raw": "陪诊/适老化改造",
+    "description": "专业的陪诊业务和适老化改造业务是小羊养老目前最主要的服务。2022.08天使轮数百万元融资",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2022年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "清檬养老",
+    "name_cn": null,
+    "category_raw": "居家照护/社区托管",
+    "description": "自主研发养老人才教育培训体系和智慧照护体系，提供24小时居家照护服务、社区托管照护服务、上门服务、康复护理以及疗养度假服务。未融资，获得奖项较多",
+    "funding_info": null,
+    "key_info": "国内企业名称表; 2014年成立",
+    "region": "国内",
+    "source": "选题库V4"
+  },
+  {
+    "name": "玛土撒拉",
+    "name_cn": null,
+    "category_raw": "特医食品",
+    "description": "深耕于特医食品行业，集研发、生产、销售于一体的医学营养科技型企业。出品四大系列医学营养产品：特医食品系列、营养强化系列、低GI系列、控能食品系列。2022...",
+    "funding_info": {
+      "date": "2023.04",
+      "amount": "近亿元",
+      "round": "A+轮"
+    },
+    "key_info": "选题库老年食品模块; 峰瑞资本、金鼎资本",
+    "region": "国内",
+    "source": "选题库V4"
+  }
+]

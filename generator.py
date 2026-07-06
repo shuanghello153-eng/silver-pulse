@@ -2,6 +2,7 @@
 HTML generator for Silver Pulse daily brief — v3 clean UI.
 Left sidebar nav + right content stream (AI-HOT inspired).
 Supports: curated/full views, domestic/overseas filter, viral tag.
+Score display removed per 2026-07-06 — scoring paused.
 """
 import json
 import os
@@ -15,13 +16,8 @@ from config import (
     OVERSEAS_SOURCES, SILVER_FINANCE_ACCOUNTS,
 )
 
-OVERSEAS_SOURCE_NAMES = {
-    "FierceHealthcare", "Crunchbase News", "TheGerontechnologist",
-    "Senior Housing News", "Home Health Care News",
-    "McKnight's Senior Living", "MobiHealthNews",
-    "Bloomberg Law News", "Aging in Place Technology News",
-    "Forbes", "TechCrunch",
-}
+# OVERSEAS_SOURCES from config.py is a set of source name strings
+OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCES
 
 WHITELIST_TAGS = set(INDUSTRY_TAGS + EVENT_TAGS)
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
@@ -105,30 +101,19 @@ def merge_articles(scored, raw):
 
 
 def build_card_html(art):
-    score = art.get("final_score", 0)
-    title = art.get("title", "Untitled")
+    title = art.get("title_cn") or art.get("title", "Untitled")
     url = art.get("url", "#")
     source = art.get("source", "Unknown")
     date = art.get("date", "")
     summary = art.get("summary", art.get("raw_content", ""))[:300]
-    recommendation = art.get("recommendation", art.get("suggestion", ""))
     tags = art.get("tags", [])
     view = art.get("view", "curated")
     region = art.get("region", "unknown")
     is_viral = art.get("viral", False)
 
-    if view == "raw":
-        score_badge = ""
-        quality_class = "quality-raw"
-    elif score >= HIGH_VALUE_THRESHOLD:
-        score_badge = '<span class="score-badge quality-high">%s</span>' % score
-        quality_class = "quality-high"
-    elif score >= WATCH_THRESHOLD:
-        score_badge = '<span class="score-badge quality-watch">%s</span>' % score
-        quality_class = "quality-watch"
-    else:
-        score_badge = '<span class="score-badge quality-low">%s</span>' % score
-        quality_class = "quality-low"
+    # Score badge removed — scoring paused
+    score_badge = ""
+    quality_class = ""
 
     viral_badge = '<span class="viral-tag">🔥 爆款</span>' if is_viral else ''
 
@@ -142,34 +127,27 @@ def build_card_html(art):
         '<span class="tag">%s</span>' % t for t in tags[:4] if t in WHITELIST_TAGS
     ) if tags else ""
 
-    suggestion_html = ""
-    if recommendation and view == "curated":
-        rec_text = recommendation.replace(chr(10), "<br>")
-        suggestion_html = '<div class="rec-box">%s</div>' % rec_text
-
     card = (
-        '<div class="feed-item" data-view="%s" data-score="%s" '
+        '<div class="feed-item" data-view="%s" '
         'data-date="%s" data-tags="%s" data-region="%s">\n'
         '  <div class="feed-time">%s</div>\n'
         '  <div class="feed-body">\n'
         '    <div class="feed-meta">'
         '      <span class="feed-source">%s</span>'
-        '      %s %s %s\n'
+        '      %s %s\n'
         '    </div>\n'
         '    <h3 class="feed-title"><a href="%s" target="_blank" rel="noopener">%s</a></h3>\n'
-        '%s'
         '%s'
         '%s\n'
         '  </div>\n'
         '</div>'
     ) % (
-        view, str(score), date, ",".join(tags), region,
+        view, date, ",".join(tags), region,
         date or "",
-        source, region_tag, score_badge, viral_badge,
+        source, region_tag, viral_badge,
         url, title,
         '<p class="feed-summary">%s</p>\n' % summary if summary else "",
         '<div class="feed-tags">%s</div>\n' % tags_html if tags_html else "",
-        suggestion_html,
     )
     return card
 
@@ -178,8 +156,7 @@ def build_card_html(art):
 CSS_STYLES = """
 :root{--bg:#f5f5f5;--sidebar-bg:#fff;--card-bg:#fff;--text:#1a1a1a;
 --text-secondary:#666;--text-muted:#999;--border:#e8e8e8;--accent:#0891b2;
---accent-light:#ecfeff;--star:#f59e0b;--watch:#3b82f6;--low:#d1d5db;
---rec-bg:#f0fdf4;--rec-border:#bbf7d0;--radius:8px}
+--accent-light:#ecfeff;--radius:8px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;display:flex;min-height:100vh}
 .sidebar{width:200px;background:var(--sidebar-bg);border-right:1px solid var(--border);position:fixed;top:0;left:0;height:100vh;overflow-y:auto;padding:20px 0;flex-shrink:0;z-index:10}
@@ -221,11 +198,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .region-tag{font-size:10px;padding:1px 7px;border-radius:10px;font-weight:600}
 .region-overseas{background:#ecfdf5;color:#065f46}
 .region-domestic{background:#eff6ff;color:#1e40af}
-.score-badge{font-size:11px;font-weight:700;padding:1px 8px;border-radius:10px}
-.quality-high{background:#fef3c7;color:#92400e}
-.quality-watch{background:#dbeafe;color:#1e40af}
-.quality-low{background:#f3f4f6;color:#6b7280}
-.quality-raw{background:#f9fafb;color:#9ca3af;font-weight:400}
 .viral-tag{font-size:11px;font-weight:700;color:#dc2626;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
 .feed-title{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:4px}
@@ -234,10 +206,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .feed-summary{font-size:13px;color:var(--text-secondary);line-height:1.55;margin-bottom:6px}
 .feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
 .tag{font-size:10px;padding:2px 8px;border-radius:4px;background:#f0f0f0;color:var(--text-secondary);font-weight:500}
-.rec-box{background:var(--rec-bg);border:1px solid var(--rec-border);border-radius:6px;padding:10px 12px;font-size:12px;color:#166534;line-height:1.6;margin-top:4px;word-break:break-word}
-.sort-row{display:flex;gap:6px;margin-bottom:16px;font-size:12px;align-items:center;color:var(--text-muted)}
-.sort-btn{padding:4px 12px;border-radius:6px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:12px;color:var(--text-secondary)}
-.sort-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .footer{text-align:center;padding:32px 0 16px;font-size:12px;color:var(--text-muted);border-top:1px solid var(--border);margin-top:24px}
 .hidden{display:none!important}
 @media(max-width:768px){.sidebar{display:none}.main{margin-left:0;width:100%;padding:16px;max-width:100%}.feed-time{width:42px;font-size:11px}.feed-title{font-size:14px}}
@@ -249,7 +217,6 @@ let activeView='curated';
 let activeRegion='all';
 let activeIndustryTag='all';
 let activeEventTag='all';
-let activeSort='time';
 let searchTerm='';
 const items=document.querySelectorAll('.feed-item');
 
@@ -259,41 +226,28 @@ function updateDisplay(){
     const v=item.dataset.view;
     const tags=item.dataset.tags||'';
     const reg=item.dataset.region||'';
-    const sc=parseFloat(item.dataset.score)||0;
     const titleEl=item.querySelector('.feed-title');
     const summaryEl=item.querySelector('.feed-summary');
     const title=titleEl?titleEl.textContent.toLowerCase():'';
     const summary=summaryEl?summaryEl.textContent.toLowerCase():'';
 
     const vm=activeView==='all'||v==='curated';
-    const rm=activeRegion==='all'||reg===activeRegion||(activeView==='all');
+    const rm=activeRegion==='all'||reg===activeRegion;
     const im=activeView==='all'||activeIndustryTag==='all'||tags.includes(activeIndustryTag);
     const em=activeView==='all'||activeEventTag==='all'||tags.includes(activeEventTag);
     const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm);
-    const isArc=activeView==='curated'&&sc>0&&sc<%s;
     if(vm&&rm&&im&&em&&sm){
-      if(isArc){item.style.opacity='.35';item.style.pointerEvents='none';visible++}
-      else{item.style.opacity='';item.style.pointerEvents='';visible++}
+      item.style.display='flex';
+      visible++;
     }else{item.style.display='none'}
   });
   const s=document.getElementById('header-stats');
-  s.textContent=activeView==='all'
-    ?'更新于 %s · 全量 %s 条'
-    :'更新于 %s · 精选 '+visible+' 条 · 高价值 %s 条';
+  s.textContent='更新于 %s · 共 '+visible+' 条';
   const showFilters=activeView!=='all';
   document.getElementById('tag-bar-industry').style.display=showFilters?'flex':'none';
   document.getElementById('tag-bar-event').style.display=showFilters?'flex':'none';
   document.getElementById('region-pills').style.display=showFilters?'flex':'none';
-  document.getElementById('sort-bar').style.display=showFilters?'flex':'none';
   document.getElementById('search-wrap').style.display=showFilters?'block':'none';
-}
-
-function sortItems(){
-  const c=document.getElementById('feed-container');
-  Array.from(items).sort((a,b)=>{
-    if(activeSort==='score')return parseFloat(b.dataset.score)-parseFloat(a.dataset.score);
-    return(b.dataset.date||'').localeCompare(a.dataset.date||'');
-  }).forEach(el=>c.appendChild(el));
 }
 
 function setView(view){
@@ -304,20 +258,13 @@ function setView(view){
   document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
   document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
   document.querySelectorAll('.region-pill').forEach(b=>b.classList.toggle('active',b.dataset.region==='all'));
-  document.querySelectorAll('.sort-btn').forEach(b=>b.classList.toggle('active',b.dataset.sort==='time'));
-  activeRegion='all';activeSort='time';sortItems();updateDisplay();
+  activeRegion='all';updateDisplay();
 }
 
 document.querySelectorAll('.region-pill').forEach(btn=>{
   btn.addEventListener('click',function(){
     document.querySelectorAll('.region-pill').forEach(b=>b.classList.remove('active'));
     this.classList.add('active');activeRegion=this.dataset.region;updateDisplay();
-  });
-});
-document.querySelectorAll('.sort-btn').forEach(btn=>{
-  btn.addEventListener('click',function(){
-    document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');activeSort=this.dataset.sort;sortItems();updateDisplay();
   });
 });
 document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(btn=>{
@@ -363,7 +310,6 @@ def generate_html(scored_articles=None, output_path=None):
 
     curated_count = sum(1 for a in merged if a.get("view") == "curated")
     total_count = len(merged)
-    high_count = sum(1 for a in merged if a.get("view") == "curated" and a.get("final_score", 0) >= HIGH_VALUE_THRESHOLD)
 
     domestic_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "domestic")
     overseas_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "overseas")
@@ -381,7 +327,7 @@ def generate_html(scored_articles=None, output_path=None):
     )
 
     # Inject values into JS template
-    js = JS_SCRIPT % (str(WATCH_THRESHOLD), today_str, str(total_count), today_str, str(high_count))
+    js = JS_SCRIPT % (today_str,)
 
     # Assemble full HTML using string concatenation (no giant f-string)
     parts = [
@@ -406,6 +352,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="nav-label">内容</div>',
         '<a href="index.html" class="nav-item active">资讯看板</a>',
         '<a href="enterprise.html" class="nav-item">企业库</a>',
+        '<a href="about.html" class="nav-item">网站说明</a>',
         '</div>',
         '</div>',
 
@@ -414,7 +361,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="header">',
         '<div class="header-top">',
         '<h2>银发经济每日速览</h2>',
-        '<div class="header-stats" id="header-stats">更新于 %s · 精选 %s 条 · 高价值 %s 条</div>' % (today_str, curated_count, high_count),
+        '<div class="header-stats" id="header-stats">更新于 %s · 共 %s 条</div>' % (today_str, total_count),
         '</div>',
         '<div style="display:flex;align-items:center;flex-wrap:wrap;">',
         '<div class="view-pills">',
@@ -446,12 +393,6 @@ def generate_html(scored_articles=None, output_path=None):
         '<input type="text" id="search-input" placeholder="搜索标题或摘要...">',
         '</div>',
 
-        # Sort bar
-        '<div class="sort-row" id="sort-bar">排序:',
-        '<button class="sort-btn active" data-sort="time">最新优先</button>',
-        '<button class="sort-btn" data-sort="score">评分降序</button>',
-        '</div>',
-
         # Feed container
         '<div id="feed-container">',
         cards_html,
@@ -472,8 +413,14 @@ def generate_html(scored_articles=None, output_path=None):
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
+
+    # Also write to project root for GitHub Pages
+    root_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
+    with open(root_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
     print("Generated: %s" % output_path)
-    print("Articles: %s total (%s curated, %s high-value)" % (total_count, curated_count, high_count))
+    print("Articles: %s total (%s curated)" % (total_count, curated_count))
     return output_path
 
 

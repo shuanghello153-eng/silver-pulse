@@ -1,0 +1,1106 @@
+[
+  {
+    "name": "Merrill Lynch",
+    "name_cn": "美林证券",
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "面向全年龄段提供财富管理、退休规划服务",
+    "funding_info": null,
+    "key_info": "金融业最早将长寿纳入核心战略的公司，聘请了行业首位全职老年病学家，为 1.4 万名财务顾问提供老年学与人生阶段培训。 推出「7 Life Priorities」体系，将退休规划从单一财务拓展到财务、住房、健康、家庭、休闲、公益、工作七大维度，按客户所处人生阶段动态调整资产配置。 内部将客户划分为 6 个核心人生阶段（成年早期、育儿、家庭照护、退休、丧偶、临终 / 遗产），匹配差异化的金融工具。 针对女性群体专项布局：研究发现男女退休时存在 100 万美元财富差距（源于薪资差、职业中断、女性寿命更长），推出女性财商教育工具与专属规划服务。 员工福利层面率先推出老年照护假、家属照护协调服务，将长寿战略同时落地到客户端与员工端。 覆盖人生全 18 个阶段，对应市场规模约 7-8 万亿美元。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Bank of America",
+    "name_cn": "美国银行",
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "综合金融服务",
+    "funding_info": null,
+    "key_info": "美林证券为其旗下财富管理主体，共同推进长寿金融战略。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Fidelity",
+    "name_cn": "富达投资",
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "资产管理、退休规划",
+    "funding_info": null,
+    "key_info": "与美林、保德信并列，是最早布局长寿金融市场的头部资管机构，深度研究人口长寿化带来的退休财务需求。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Prudential",
+    "name_cn": "保德信金融",
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "保险、资产管理",
+    "funding_info": null,
+    "key_info": "较早关注长寿风险与退休财务缺口的保险资管机构。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "True Link",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "为老年人提供账单管理、限额支付卡等服务",
+    "funding_info": null,
+    "key_info": "属于「财务照护」赛道，通过账单代付、分期放款的预付卡等方式，防范老年人遭遇金融诈骗与财产剥削。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Everplans",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "提供遗嘱、预立医疗指示等临终规划工具",
+    "funding_info": null,
+    "key_info": "聚焦临终阶段的财务与法律需求，是财务照护赛道的代表企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Silver Bills",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "为老年人提供代付账单的金融辅助服务",
+    "funding_info": null,
+    "key_info": "解决老年人账单管理与防诈骗需求，属于居家养老的金融配套服务。 书中同时指出其名称中的「silver」带有年龄标签，部分目标用户对该标签存在排斥。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Golden",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "老年人资金安全管理服务",
+    "funding_info": null,
+    "key_info": "聚焦防范老年金融虐待，属于财务照护赛道。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Eversafe",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "老年金融诈骗监测与防护",
+    "funding_info": null,
+    "key_info": "针对老年金融剥削问题提供技术解决方案。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "FreeWill",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "在线遗嘱订立、遗产规划工具",
+    "funding_info": null,
+    "key_info": "由斯坦福商学院学生创立，用户可免费在线生成遗嘱，并在遗嘱中设置对非营利组织的捐赠。 商业模式：用户免费使用，服务成本由合作的百家慈善机构承担，机构通过平台获得定向捐赠。 业务拓展：后续增加预立医疗指示、财务授权委托书等服务，成为临终规划的入口型平台。 成立前 3 年累计生成超 2.1 万份遗嘱，对应承诺捐赠金额超 5 亿美元。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Silvur",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "退休财务规划工具",
+    "funding_info": null,
+    "key_info": "面向长寿市场的金融科技初创公司，服务退休规划需求。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Carewell",
+    "name_cn": null,
+    "category_raw": "一、金融服务与养老财务赛道",
+    "description": "家庭照护用品配送、照护知识教育",
+    "funding_info": null,
+    "key_info": "Primetime Partners 投资企业，为家庭照护者提供医疗耗材、代餐食品与居家照护指导。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Nike",
+    "name_cn": "耐克",
+    "category_raw": "二、消费品牌与适老化产品赛道",
+    "description": "运动鞋服、运动装备研发销售",
+    "funding_info": null,
+    "key_info": "2019 年正式布局老年运动员市场，该群体贡献 10% 销售额，且客单价高于平均水平。 推出 CruzrOne 跑鞋，针对配速 13 分钟 / 英里以上的「慢速跑者」重新设计鞋跟、中底与前掌结构，帮助保持运动动量。 营销核心：主打「终身运动员」的人生阶段概念，完全不强调「老年」属性，功能做「隐形设计」，避免用户产生「老年专用」的标签感。 2020 年组织架构调整，整合为男性、女性、儿童三大板块，将「终身运动」理念贯穿全生命周期产品。 对应市场规模约 40 亿美元，覆盖人生重塑、复兴、健康优化阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Warby Parker",
+    "name_cn": null,
+    "category_raw": "二、消费品牌与适老化产品赛道",
+    "description": "平价眼镜线上线下零售",
+    "funding_info": null,
+    "key_info": "最初定位 18-34 岁年轻客群，主打高性价比单光眼镜；成立第四年开门店时上线渐进多焦点镜片，切入长寿市场。 产品策略：将渐进镜片装入原有潮流镜框，不推出「老年专属款」，走跨代际设计路线。 数字化能力：开发线上视力检测、验光工具，适配居家养老用户需求。 业绩表现：渐进镜片贡献近 30% 营收，2014-2019 年累计售出超 100 万副渐进镜片。 对应美国市场规模 100-150 亿美元，覆盖转型、组合式生活、复兴、副业创业、遗产阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "OXO",
+    "name_cn": null,
+    "category_raw": "二、消费品牌与适老化产品赛道",
+    "description": "人体工学厨房工具",
+    "funding_info": null,
+    "key_info": "产品采用大尺寸防滑手柄，天然适配关节炎用户，但品牌定位面向全年龄段烹饪爱好者，是「隐形适老化设计」的典型案例。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Lululemon",
+    "name_cn": null,
+    "category_raw": "二、消费品牌与适老化产品赛道",
+    "description": "运动服饰",
+    "funding_info": null,
+    "key_info": "书中作为年轻运动服饰的对标品牌，说明活跃老年女性存在服装需求缺口 —— 既需要运动功能，又不适合年轻品牌的风格剪裁。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Wider Circle",
+    "name_cn": null,
+    "category_raw": "三、居家养老与社区服务赛道",
+    "description": "邻里互助小组、老年社交与健康管理",
+    "funding_info": null,
+    "key_info": "2015 年成立，以 10-12 人为单位组建邻里小组，由专业协调员带领开展锻炼、社交活动，配套交通服务。 商业模式：B2B2C，个人免费，由 Medicare Advantage（联邦医疗保险优势计划）付费。 健康效果：会员住院率降低 27%，住院天数减少 43%，年度健康检查率高 12%，流感疫苗接种率高 32%。 疫情期间快速上线线上活动、大使上门探访、联合 Uber 送餐，1 个月内营收翻倍，业务拓展至多州。 对应市场规模约 70 亿美元，覆盖转型期到遗产期全阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Silvernest",
+    "name_cn": null,
+    "category_raw": "三、居家养老与社区服务赛道",
+    "description": "空巢老人与年轻室友的匹配、租约管理",
+    "funding_info": null,
+    "key_info": "打造代际共居模式，年轻人获得平价住房，老年人缓解孤独并获得日常协助。 可叠加本地服务商，形成平台化服务生态。 书中同时指出名称中的「silver」存在年龄标签问题，部分用户不认同。 对应市场规模约 20 亿美元，覆盖转型、复兴、照护、遗产阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Nesterly",
+    "name_cn": null,
+    "category_raw": "三、居家养老与社区服务赛道",
+    "description": "老年房主与年轻室友匹配、背景调查",
+    "funding_info": null,
+    "key_info": "提供完整背景调查与租约管理；疫情期间和波士顿市政府合作，为高危老人对接志愿者的无接触配送、探访服务。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "UpsideHōM",
+    "name_cn": null,
+    "category_raw": "三、居家养老与社区服务赛道",
+    "description": "带服务的老年公寓",
+    "funding_info": null,
+    "key_info": "提供配套家具的公寓，根据用户所处人生阶段按需搭配送餐、交通、社交活动等服务，与 Papa 等平台合作整合陪伴与照护资源。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Village to Village Network",
+    "name_cn": "村庄网络",
+    "category_raw": "三、居家养老与社区服务赛道",
+    "description": "邻里互助养老社区运营",
+    "funding_info": null,
+    "key_info": "起源于波士顿灯塔山，打造「自然退休社区」模式，由社区内老人共享资源、互助养老，是居家养老的社区支持体系。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Papa",
+    "name_cn": null,
+    "category_raw": "四、出行与配送赛道",
+    "description": "对接青年陪伴者，提供出行、家务、科技教学、社交陪伴服务",
+    "funding_info": {
+      "date": "2021",
+      "amount": "1.5 亿美元",
+      "round": "D 轮"
+    },
+    "key_info": "科技平台模式，对接大学生 / 护理专业学生，为老年人提供「同伴 + 帮手」服务。 业务延伸：接入远程医疗网络（持证医生、护士、行为健康专家），联合 Uber Health 保障就医出行。 付费方：Medicare Advantage、医疗补助、雇主健康计划（如 Humana、Aetna）。 2021 年完成 1.5 亿美元 D 轮融资，服务覆盖全美 50 个州。 对应市场规模超 40 亿美元，覆盖转型到临终全阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Uber Health",
+    "name_cn": null,
+    "category_raw": "四、出行与配送赛道",
+    "description": "非紧急医疗接送服务",
+    "funding_info": null,
+    "key_info": "与上千家医疗机构合作，提供就医用车服务，开发了适老化的应用与电话呼叫系统。 联合 NimbleRx 拓展处方药品配送，和 Wider Circle、Papa 等平台整合出行能力。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Lyft Health",
+    "name_cn": null,
+    "category_raw": "四、出行与配送赛道",
+    "description": "医疗场景用车服务",
+    "funding_info": null,
+    "key_info": "医疗机构可直接从 Epic 等电子病历系统内呼叫用车；推出 Lyft Concierge 礼宾服务适配老年用户，与辅助生活社区深度合作。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "GoGoGrandparent",
+    "name_cn": null,
+    "category_raw": "四、出行与配送赛道",
+    "description": "无 App 叫车服务",
+    "funding_info": null,
+    "key_info": "无需智能手机即可呼叫 Uber/Lyft，支持家属接收行程通知、固定预约；后续拓展了餐食、杂货配送服务。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "NimbleRx",
+    "name_cn": null,
+    "category_raw": "四、出行与配送赛道",
+    "description": "处方药品上门配送",
+    "funding_info": null,
+    "key_info": "和 Uber Health 合作，提供处方药配送服务。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Teladoc",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "全科远程问诊服务",
+    "funding_info": null,
+    "key_info": "服务覆盖 170 个国家，疫情前 5 年累计完成 1100 万次问诊。 2020 年以 185 亿美元收购糖尿病管理平台 Livongo，是远程医疗行业标志性并购。 对应市场规模约 2500 亿美元。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Livongo",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "糖尿病数字化管理",
+    "funding_info": null,
+    "key_info": "2020 年被 Teladoc 收购，代表数字健康与远程医疗融合的产业趋势。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Tembo Health",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "老年专科远程医疗服务",
+    "funding_info": null,
+    "key_info": "聚焦老年患者的专科诊疗，团队熟悉老年照护的多学科协调复杂性；Emerson Collective 为其投资方。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Bold",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "定制化老年居家健身方案",
+    "funding_info": null,
+    "key_info": "提供远程肌力评估，为老年人定制 12 周健身计划，核心目标是降低跌倒风险。 付费方为健康保险与 Medicare Advantage 计划。 背景：美国 65 岁以上老人每年 1/3 发生跌倒，年相关医疗支出 500 亿美元。 覆盖健康优化到复兴阶段，对应市场规模 500 亿美元。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Vesta Healthcare",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "居家照护协同平台",
+    "funding_info": null,
+    "key_info": "搭建照护网络协同系统，打通家庭照护者、专业护工、临床医生的信息共享。 聚焦体弱高龄群体，通过远程医疗实现健康监测，照护者可随时对接护士咨询，半数问题可现场解决，避免急诊与住院。 投资方包括 Kaiser Permanente Ventures、Generator Ventures、Oak HC/FT 等。 对应市场规模约 300 亿美元，覆盖照护阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Iris Healthcare",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "临终意愿规划与姑息治疗对接",
+    "funding_info": null,
+    "key_info": "通过远程医疗 + 专属顾问，引导用户完成姑息治疗选择与临终意愿文档化。 基于理赔数据的预测模型识别高需求用户，服务面向个人、家庭、保险公司与医疗机构。 对应市场规模约 500 亿美元。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Rendever",
+    "name_cn": null,
+    "category_raw": "五、数字健康与远程医疗赛道",
+    "description": "老年 VR 社交与云游览服务",
+    "funding_info": null,
+    "key_info": "向养老社区销售 VR 设备，支持多人同步虚拟游览景点、博物馆，减少孤独感，也支持跨代际远程共同体验。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Honor",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "居家照护机构技术赋能、运营管理",
+    "funding_info": null,
+    "key_info": "2014 年成立，最初直接 To C 提供照护服务，后转型为本地照护机构提供技术与运营支持平台。 用 AI 预测照护需求，将护工流失率从 80% 降至 30%。 2021 年收购美国最大居家照护网络 Home Instead，合并后年营收超 21 亿美元。 投资方包括 Andreessen Horowitz、Thrive Capital 等。 对应市场规模 9000 亿 - 5 万亿美元。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Home Instead",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "居家护工服务网络",
+    "funding_info": null,
+    "key_info": "美国规模最大的居家照护连锁网络之一，2021 年被 Honor 收购，整合技术与运营体系。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Wellthy",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "企业员工照护支持礼宾服务",
+    "funding_info": null,
+    "key_info": "作为员工福利向企业销售，为员工配备专属照护协调员，解决家属照护安排、居家改造、医保对接、法律资源等全链条事务。 价值主张：提升员工生产力与留存率，降低照护带来的职场隐性损耗。 后续拓展到 Medicare Advantage、商业健康计划客户。 投资方包括 Rethink Impact、Springbank Collective 等。 对应市场规模超 300 亿美元，覆盖育儿 / 家庭、照护阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Homethrive",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "家庭照护支持服务",
+    "funding_info": null,
+    "key_info": "企业员工照护福利服务商，与 Wellthy 同赛道。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "CareLinx",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "护工与家庭匹配服务",
+    "funding_info": null,
+    "key_info": "2017 年被忠利全球援助（Generali Global Assistance）收购，也是 Ziegler 长寿基金的投资组合企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Care.com",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "儿童照护、老年照护等全品类照护服务匹配",
+    "funding_info": {
+      "date": "2014",
+      "amount": "5.5亿美元",
+      "round": "IPO"
+    },
+    "key_info": "2014 年 IPO，募资 5.5 亿美元；2019 年被 IAC 以 5 亿美元收购。 是照护服务赛道的头部平台型企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "CareAcademy",
+    "name_cn": null,
+    "category_raw": "六、居家照护服务赛道",
+    "description": "居家照护从业者职业培训",
+    "funding_info": null,
+    "key_info": "Rethink Impact 投资企业，提升护工专业能力与服务标准化。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Cake",
+    "name_cn": null,
+    "category_raw": "七、临终规划与生命末期服务赛道",
+    "description": "全场景临终规划与文档管理",
+    "funding_info": null,
+    "key_info": "覆盖临终全场景：葬礼安排、医疗决策人指定、法律文档存储、哀伤支持等。 商业模式：最初 To B 向金融机构、医疗支付方销售平台授权；2019 年增加 To C 模式，通过 SEO 获客，核心用户为女性，为自身或父母规划。 投资方包括 GoAhead Ventures、OCA Ventures、Pillar VC、Portfolia 等。 对应市场规模超 1000 亿美元，覆盖家庭育儿到临终全阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "GoodTrust",
+    "name_cn": null,
+    "category_raw": "七、临终规划与生命末期服务赛道",
+    "description": "遗产规划、数字资产继承",
+    "funding_info": null,
+    "key_info": "Emerson Collective 投资企业，覆盖实体与数字遗产规划。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Vynca",
+    "name_cn": null,
+    "category_raw": "七、临终规划与生命末期服务赛道",
+    "description": "预立医疗指示数字化",
+    "funding_info": null,
+    "key_info": "聚焦临终医疗意愿的数字化与临床同步，Generator Ventures、Ziegler 基金均有投资。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Amava",
+    "name_cn": null,
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "虚拟终身学习社区",
+    "funding_info": null,
+    "key_info": "搭建兴趣导向的虚拟学习社群，用户按主题自发组队。 最初靠为教育旅行、文化机构导流收取佣金，后拓展到与健康计划、老年服务机构合作。 核心项目：「设计你的下一程」（人生重塑期）、退休教练（转型期）、医保规划讲座。 累计用户近 20 万，与 Coursera、ed2go 等教育平台合作。 对应市场规模约 5 万亿美元，覆盖持续学习、重塑、转型、复兴、副业创业、遗产阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Gather",
+    "name_cn": null,
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "机构合作的虚拟直播学习活动",
+    "funding_info": null,
+    "key_info": "和史密森学会、顶级博物馆等文化机构合作，打造直播虚拟学习体验。 B2B2C 模式，依托合作机构的会员体系触达用户，为机构提供新型数字会员权益。 核心用户为 50 岁以上成年人，2019 年累计举办 3.9 万场学习活动。 覆盖转型到遗产阶段。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Road Scholar",
+    "name_cn": null,
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "面向中老年的教育性旅行",
+    "funding_info": null,
+    "key_info": "老牌教育旅行机构，和 Amava 合作获客。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Encore.org",
+    "name_cn": "Encore.org（现名CoGenerate）",
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "资深人才与非营利组织匹配、代际连接项目",
+    "funding_info": null,
+    "key_info": "推出奖学金项目，将退休 / 转型期资深人士匹配到非营利组织任职。 Gen2Gen 项目动员百万以上 50 + 成年人通过导师、辅导等方式支持青少年成长。 适配人生重塑、组合式生活、复兴阶段的用户需求。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "iRelaunch",
+    "name_cn": null,
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "职业中断人群重返职场支持",
+    "funding_info": null,
+    "key_info": "2008 年成立，最初服务因育儿中断职业的女性，提供工作坊、16 周带薪「回归实习」，学员多数获得正式岗位。 向企业收取人才推荐费。 后拓展到全性别，覆盖因照护老人中断职业的人群。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "ReBoot Accel",
+    "name_cn": null,
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "职业中断人群技能更新与求职支持",
+    "funding_info": null,
+    "key_info": "与 iRelaunch 同赛道，适配长寿时代多阶段职业路径。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "name_cn": "强生",
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "医药健康、雇主品牌",
+    "funding_info": null,
+    "key_info": "推出「Re-Ignite」回归实习项目，是企业吸纳资深中断人才的代表。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "J.P. Morgan",
+    "name_cn": "摩根大通",
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "金融、雇主品牌",
+    "funding_info": null,
+    "key_info": "设有职场重入项目，同时是 iRelaunch 的企业合作方，提供回归实习岗位。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Facebook",
+    "name_cn": "Facebook（Meta）",
+    "category_raw": "八、终身学习与职业转型赛道",
+    "description": "科技、社交平台",
+    "funding_info": null,
+    "key_info": "推出职场重入项目，招聘职业中断的资深人才。 是老年用户最活跃的社交平台，也是长寿市场最核心的营销渠道之一。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "GreatCall",
+    "name_cn": null,
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "老人手机、一键呼叫可穿戴设备",
+    "funding_info": {
+      "date": "2018",
+      "amount": "8 亿美元",
+      "round": "收购"
+    },
+    "key_info": "主打一键紧急呼叫、家属连线、礼宾服务，是老年应急设备的头部品牌。 2018 年被 Best Buy 以 8 亿美元现金收购，后升级更名为 Lively。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Lively",
+    "name_cn": null,
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "居家养老健康安全平台",
+    "funding_info": null,
+    "key_info": "GreatCall 被收购后的升级品牌，归属 Best Buy Health，从单一应急设备拓展到用药提醒、远程健康监测等全链条居家健康服务。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Best Buy",
+    "name_cn": "百思买",
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "零售、适老化科技",
+    "funding_info": null,
+    "key_info": "通过收购 GreatCall 切入长寿市场，成立独立的居家养老业务线，推出「关怀中心」提供不限次的适老化技术使用支持。 2021 年以 4 亿美元收购远程监测企业 Current Health，完善居家医疗能力。 将老年用户群体称为「Gen A」，员工通过 VR 体验视力退化等老年状态，提升服务适配性。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Current Health",
+    "name_cn": null,
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "居家生命体征监测系统",
+    "funding_info": null,
+    "key_info": "2021 年被 Best Buy 收购，提供居家连续健康监测技术。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Amazon",
+    "name_cn": "亚马逊",
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "电商、智能语音",
+    "funding_info": null,
+    "key_info": "2020 年推出 Alexa Care Hub，后升级为 Alexa Together，支持家属远程关怀居家老人。 旗下 Alexa 健康团队深度布局适老化智能家居。 2018 年以 7.53 亿美元收购线上药房 PillPack，切入老年用药服务。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Samsung",
+    "name_cn": "三星",
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "消费电子",
+    "funding_info": null,
+    "key_info": "布局适老化智能家居与健康科技，瞄准居家养老市场。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "PillPack",
+    "name_cn": null,
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "按剂量分装的药品配送服务",
+    "funding_info": null,
+    "key_info": "2018 年被亚马逊收购，其按次分装的模式天然适配老年用户用药需求。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "BMW",
+    "name_cn": "宝马",
+    "category_raw": "九、适老化科技与智能硬件赛道",
+    "description": "汽车制造",
+    "funding_info": null,
+    "key_info": "最早重视老年用户的车企之一，车辆功能做隐形适老化设计，且邀请老年人加入产品团队，是「按阶段而非年龄设计」的代表。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Seniorly",
+    "name_cn": null,
+    "category_raw": "十、养老居住与中介平台赛道",
+    "description": "养老机构在线搜索与咨询",
+    "funding_info": null,
+    "key_info": "支持按地点、照护类型（喘息照护、辅助生活、记忆照护、独立生活等）筛选养老机构。 配套科普资源、礼宾咨询服务，从垂直居住平台向综合养老服务平台拓展。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "A Place for Mom",
+    "name_cn": null,
+    "category_raw": "十、养老居住与中介平台赛道",
+    "description": "养老机构匹配咨询",
+    "funding_info": null,
+    "key_info": "美国头部养老居住咨询平台，Battery Ventures 为其投资方。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Brookdale Senior Living",
+    "name_cn": null,
+    "category_raw": "十、养老居住与中介平台赛道",
+    "description": "连锁养老社区",
+    "funding_info": null,
+    "key_info": "美国大型养老社区运营商，设有创新试点场地，和创投机构合作测试适老化产品。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Hebrew Senior Life",
+    "name_cn": null,
+    "category_raw": "十、养老居住与中介平台赛道",
+    "description": "养老社区与老年医疗服务",
+    "funding_info": null,
+    "key_info": "波士顿地区头部非营利养老机构，作为产品测试基地，联动学术与创投机构开展适老化创新。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Primetime Partners",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "长寿专项风投",
+    "funding_info": null,
+    "key_info": "由传奇风投人 Alan Patricof 与前 Thrive Global 总裁 Abby Miller Levy 联合创立，首支基金募资 3200 万美元。 投资方向：居家养老、退休财务、照护管理、长寿健康、老年消费体验。 特色：支持老年创业者，认可资深人群的经验价值。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Pivotal Ventures",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "影响力投资与孵化",
+    "funding_info": null,
+    "key_info": "梅琳达・弗兰奇・盖茨创立的投资孵化机构。 2020 年与 Techstars 联合推出「未来长寿加速器」，聚焦照护创新。 推动带薪照护假政策，倡导照护者的社会与经济价值。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Techstars Future of Longevity Accelerator",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "创业加速器",
+    "funding_info": null,
+    "key_info": "全球首个聚焦老年照护创新的加速器，每年孵化 10 家企业，为期 13 周，每家获 12 万美元投资与导师资源。 创始人多有家庭照护的亲身经历，2020-2021 年共孵化 20 家企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "AARP Innovation Labs / AgeTech Collaborative",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "产业创新平台",
+    "funding_info": null,
+    "key_info": "AARP 旗下创新部门 Hatchery，投资孵化面向 50 + 人群的产品，入选项目可获得 AARP 背书与渠道支持。 推出 AgeTech Collaborative，投资长寿科技企业，对接试点机构。 举办创新挑战赛、路演活动，推动赛道创业生态。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Aging2.0 Collective",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "全球长寿创新网络",
+    "funding_info": null,
+    "key_info": "覆盖 80 多个国家，入驻 2000 + 企业，120 位本地大使。 提出 8 大创新方向：参与与意义、财务健康、行动能力、日常生活、照护服务、照护协调、大脑健康、临终关怀。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "AgeTech Accelerator",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "长寿科技加速器",
+    "funding_info": null,
+    "key_info": "梳理了上千家覆盖 36 个细分领域的长寿企业，划分成熟待整合、当前重点、未来空白三大类，是欧洲长寿赛道核心平台。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Apax Partners",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "私募股权",
+    "funding_info": null,
+    "key_info": "Alan Patricof 早年创立的私募机构，曾投资苹果、美国在线、Audible 等；2020 年以 9.5 亿美元收购老年日间照护机构 InnovAge。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Greycroft Partners",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风险投资",
+    "funding_info": null,
+    "key_info": "Alan Patricof 创立的头部 TMT 风投，在此基础上延伸出专注长寿赛道的 Primetime Partners。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Medicare Advantage",
+    "name_cn": "联邦医疗保险优势计划",
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "商业医保",
+    "funding_info": null,
+    "key_info": "由私营保险公司运营的 Medicare 替代计划，是长寿市场最重要的付费方之一。 可提供非医疗类增值福利（如健身、社交陪伴、交通），因此大量采购居家养老、健康管理服务。 覆盖美国超 1/3 的 Medicare 受益人。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Humana",
+    "name_cn": null,
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "美国头部Medicare Advantage运营商",
+    "funding_info": null,
+    "key_info": "美国头部Medicare Advantage运营商，通过采购增值服务提升会员留存与健康outcomes。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Kaiser Permanente",
+    "name_cn": "凯撒医疗",
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "整合医疗系统",
+    "funding_info": null,
+    "key_info": "为会员提供非医疗健康资源、居住方案、照护导航等全链条服务。 旗下风投部门深度布局长寿科技。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Mayo Clinic",
+    "name_cn": "梅奥诊所",
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "顶级医疗机构",
+    "funding_info": null,
+    "key_info": "打造居家综合照护技术平台，同时集成产品与服务对接，探索医疗消费化。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Mercer",
+    "name_cn": "美世咨询",
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "人力资源咨询",
+    "funding_info": null,
+    "key_info": "2019 年发布《Are You Age-Ready?》白皮书，推出 Next Age 平台，帮助企业打造年龄友好型组织。 倡导多代际劳动力的商业价值。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "MIT AgeLab",
+    "name_cn": "麻省理工学院年龄实验室",
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "适老化创新研究",
+    "funding_info": null,
+    "key_info": "由 Joe Coughlin 创立，是全球顶尖的适老化消费与产品研究机构。 核心观点：老年产品要避免「老气」标签，隐形设计是关键。 设有用户研究面板，为企业提供产品测试支持。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Stanford Center on Longevity",
+    "name_cn": "斯坦福长寿研究中心",
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "学术研究",
+    "funding_info": null,
+    "key_info": "提出「百年生命新地图」项目，研究灵活化的学习、工作、储蓄模式。 创始人 Laura Carstensen 的研究证实：老年阶段幸福感整体上升，是积极老龄化的核心理论支撑。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Aetna",
+    "name_cn": null,
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "美国头部Medicare Advantage运营商",
+    "funding_info": null,
+    "key_info": "美国头部Medicare Advantage运营商，通过采购增值服务提升会员留存与健康outcomes。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "UnitedHealth",
+    "name_cn": null,
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "美国头部Medicare Advantage运营商",
+    "funding_info": null,
+    "key_info": "美国头部Medicare Advantage运营商，通过采购增值服务提升会员留存与健康outcomes。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Cigna",
+    "name_cn": null,
+    "category_raw": "十二、医疗、保险与产业服务机构",
+    "description": "美国头部Medicare Advantage运营商",
+    "funding_info": null,
+    "key_info": "美国头部Medicare Advantage运营商，通过采购增值服务提升会员留存与健康outcomes。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Andreessen Horowitz",
+    "name_cn": "a16z",
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "头部风投机构，投资Honor、Bold、Devoted Health等",
+    "funding_info": null,
+    "key_info": "投资Honor、Bold、Devoted Health等长寿赛道企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Battery Ventures",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资A Place for Mom、ClearCare",
+    "funding_info": null,
+    "key_info": "投资A Place for Mom、ClearCare。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Blue Venture Fund",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资Wider Circle",
+    "funding_info": null,
+    "key_info": "投资Wider Circle。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Canaan",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资Papa",
+    "funding_info": null,
+    "key_info": "投资Papa。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Comcast Ventures",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资Papa",
+    "funding_info": null,
+    "key_info": "投资Papa。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Magnify Ventures",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资Papa",
+    "funding_info": null,
+    "key_info": "投资Papa。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "SoftBank Vision Fund",
+    "name_cn": "软银愿景基金",
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "软银旗下风投基金，投资Papa",
+    "funding_info": null,
+    "key_info": "投资Papa。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Tiger Global",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资Papa",
+    "funding_info": null,
+    "key_info": "投资Papa。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Emerson Collective",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "影响力投资机构，投资Tembo Health、GoodTrust、FreeWill等",
+    "funding_info": null,
+    "key_info": "投资Tembo Health、GoodTrust、FreeWill等长寿赛道企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Generator Ventures",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资ActiveProtective、CareLinx、Vesta Healthcare、Wellthy等",
+    "funding_info": null,
+    "key_info": "投资ActiveProtective、CareLinx、Vesta Healthcare、Wellthy等长寿赛道企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Kaiser Permanente Ventures",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "凯撒医疗旗下风投，投资Vesta Healthcare、SilverLink",
+    "funding_info": null,
+    "key_info": "投资Vesta Healthcare、SilverLink等长寿赛道企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Oak HC/FT",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "风投机构，投资Vesta Healthcare、Devoted Health等",
+    "funding_info": null,
+    "key_info": "投资Vesta Healthcare、Devoted Health等长寿赛道企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Rethink Impact",
+    "name_cn": null,
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "影响力投资机构，投资Wellthy、CareAcademy",
+    "funding_info": null,
+    "key_info": "投资Wellthy、CareAcademy。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Ziegler Link-Age Longevity Fund",
+    "name_cn": "Ziegler长寿基金",
+    "category_raw": "十一、风险投资与创业孵化赛道",
+    "description": "长寿专项基金，投资二十余家长寿赛道企业",
+    "funding_info": null,
+    "key_info": "投资二十余家长寿赛道企业。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Wayfair",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "高效垂直电商平台，作为长寿市场渠道碎片化的对比参照",
+    "funding_info": null,
+    "key_info": "书中作为高效垂直电商平台的参照，对比长寿市场渠道的碎片化。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Netflix",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "订阅制内容平台，作为长寿市场服务模式的类比参照",
+    "funding_info": null,
+    "key_info": "作为订阅制内容平台的参照，类比长寿市场未来的服务模式。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Hulu",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "订阅制内容平台，作为长寿市场服务模式的类比参照",
+    "funding_info": null,
+    "key_info": "作为订阅制内容平台的参照，类比长寿市场未来的服务模式。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Coinbase",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "降低复杂领域门槛的平台案例，类比长寿市场导航型平台机会",
+    "funding_info": null,
+    "key_info": "作为降低复杂领域门槛的平台案例，类比长寿市场导航型平台的机会。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Airbnb",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "共享住宿平台，推行现代长者人才理念",
+    "funding_info": null,
+    "key_info": "书中提及Chip Conley曾任其全球酒店战略负责人，推行现代长者人才理念。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Salesforce",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "企业软件公司，推行永久混合办公为老年员工延长职业周期创造条件",
+    "funding_info": null,
+    "key_info": "推行永久混合办公，为老年员工延长职业周期创造条件。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Google",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
+    "funding_info": null,
+    "key_info": "设有职场回归项目，吸纳职业中断的资深人才。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "IBM",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
+    "funding_info": null,
+    "key_info": "设有职场回归项目，吸纳职业中断的资深人才。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "Tivity Health",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "老年健身会员项目运营商，2006年以4.5亿美元收购SilverSneakers",
+    "funding_info": {
+      "date": "2006",
+      "amount": "4.5亿美元",
+      "round": "收购"
+    },
+    "key_info": "2006年以4.5亿美元收购SilverSneakers；和医保计划合作为老人提供健身权益。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "SilverSneakers",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购",
+    "funding_info": {
+      "date": "2006",
+      "amount": "4.5亿美元",
+      "round": "收购"
+    },
+    "key_info": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购，和医保计划合作为老人提供健身权益。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "IAC",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "互联网集团，2019年以5亿美元收购Care.com",
+    "funding_info": {
+      "date": "2019",
+      "amount": "5亿美元",
+      "round": "收购"
+    },
+    "key_info": "互联网集团，2019年以5亿美元收购Care.com。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  },
+  {
+    "name": "GE Healthcare",
+    "name_cn": null,
+    "category_raw": "十三、其他提及企业与平台",
+    "description": "医疗科技企业，2009年收购居家养老技术企业Living Independently Group",
+    "funding_info": null,
+    "key_info": "2009年收购居家养老技术企业Living Independently Group。",
+    "region": "海外",
+    "source": "Stage(not Age)书籍"
+  }
+]

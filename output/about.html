@@ -1,0 +1,365 @@
+<!-- build:20260706150549 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Silver Pulse 银脉 · 网站说明</title>
+<style>
+:root {
+  --bg: #f5f5f5;
+  --sidebar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --text: #1a1a1a;
+  --text-secondary: #666;
+  --text-muted: #999;
+  --border: #e8e8e8;
+  --accent: #0891b2;
+  --accent-light: #ecfeff;
+  --radius: 8px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; display:flex; min-height:100vh; }
+
+/* Sidebar */
+.sidebar { width:200px; background:var(--sidebar-bg); border-right:1px solid var(--border); position:fixed; top:0; left:0; height:100vh; overflow-y:auto; padding:20px 0; flex-shrink:0; z-index:10; }
+.sidebar-logo { padding:0 16px 16px; border-bottom:1px solid var(--border); margin-bottom:12px; }
+.sidebar-logo h1 { font-size:18px; font-weight:700; color:var(--accent); }
+.sidebar-logo .logo-sub { font-size:11px; color:var(--text-muted); margin-top:2px; }
+.nav-section { padding:4px 0; }
+.nav-label { font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; padding:6px 16px 4px; font-weight:600; }
+.nav-item { display:block; padding:8px 16px 8px 24px; font-size:13px; color:var(--text-secondary); text-decoration:none; cursor:pointer; border-left:3px solid transparent; transition:all 0.15s; }
+.nav-item:hover { background:#fafafa; color:var(--text); }
+.nav-item.active { background:var(--accent-light); color:var(--accent); border-left-color:var(--accent); font-weight:600; }
+
+/* Main */
+.main { flex:1; margin-left:200px; max-width:980px; width:calc(100% - 200px); padding:24px 32px 60px; }
+.header h2 { font-size:20px; font-weight:700; margin-bottom:4px; }
+.header p { font-size:12px; color:var(--text-muted); }
+
+/* Tabs */
+.tab-bar { display:flex; gap:0; margin:20px 0 24px; border-bottom:2px solid var(--border); }
+.tab-btn { padding:10px 20px; border:none; background:transparent; font-size:14px; font-weight:500; color:var(--text-secondary); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all 0.15s; }
+.tab-btn:hover { color:var(--accent); }
+.tab-btn.active { color:var(--accent); border-bottom-color:var(--accent); font-weight:600; }
+.tab-content { display:none; }
+.tab-content.active { display:block; }
+
+/* Sections */
+.section { margin-bottom:32px; }
+.section h3 { font-size:16px; font-weight:600; margin-bottom:12px; color:var(--text); padding-left:12px; border-left:3px solid var(--accent); }
+.section p { font-size:14px; color:var(--text-secondary); margin-bottom:8px; line-height:1.8; }
+.section ul { margin:8px 0 12px 20px; }
+.section li { font-size:14px; color:var(--text-secondary); margin-bottom:4px; line-height:1.7; }
+
+/* Tables */
+.info-table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
+.info-table th { background:#fafafa; padding:8px 12px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }
+.info-table td { padding:8px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }
+.info-table tr:last-child td { border-bottom:none; }
+.info-table tr:hover { background:#fafbfc; }
+.cat-code-cell { font-family:monospace; font-weight:600; color:var(--accent); width:60px; }
+
+/* Callout */
+.callout { background:var(--accent-light); border:1px solid #a5f3fc; border-radius:var(--radius); padding:12px 16px; margin:12px 0; font-size:13px; color:#0e7490; }
+.callout-warning { background:#fef3c7; border-color:#fcd34d; color:#92400e; }
+
+/* Tag chips */
+.tag-chip { display:inline-block; font-size:11px; padding:3px 8px; border-radius:4px; background:#f0f0f0; color:var(--text-secondary); margin:2px; font-weight:500; }
+
+/* Field list */
+.field-list { margin:12px 0; }
+.field-item { display:flex; gap:12px; padding:8px 0; border-bottom:1px solid #f5f5f5; }
+.field-name { font-weight:600; color:var(--text); min-width:140px; font-size:13px; font-family:monospace; }
+.field-type { color:var(--accent); font-size:12px; min-width:60px; }
+.field-desc { color:var(--text-secondary); font-size:13px; flex:1; }
+
+.footer { text-align:center; padding:24px 0 16px; font-size:12px; color:var(--text-muted); border-top:1px solid var(--border); margin-top:24px; }
+
+@media (max-width:768px) {
+  .sidebar { display:none; }
+  .main { margin-left:0; width:100%; padding:16px; max-width:100%; }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-logo">
+    <h1>Silver Pulse 银脉</h1>
+    <p class="logo-sub">Silver Pulse</p>
+  </div>
+  <div class="nav-section">
+    <div class="nav-label">内容</div>
+    <a href="index.html" class="nav-item">资讯看板</a>
+    <a href="enterprise.html" class="nav-item">企业库</a>
+    <a href="about.html" class="nav-item active">网站说明</a>
+  </div>
+</div>
+
+<div class="main">
+
+<div class="header">
+  <h2>网站说明</h2>
+  <p>Silver Pulse 银脉 · 银发经济投融资资讯聚合 + 企业数据库</p>
+</div>
+
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('news')">资讯版说明</button>
+  <button class="tab-btn" onclick="switchTab('enterprise')">企业库说明</button>
+  <button class="tab-btn" onclick="switchTab('rules')">网站规则</button>
+</div>
+
+<!-- Tab 1: 资讯版说明 -->
+<div class="tab-content active" id="tab-news">
+
+  <div class="section">
+    <h3>资讯版定位</h3>
+    <p>Silver Pulse 资讯看板是一个<b>全球银发经济投融资信息聚合器</b>，每天自动从海外和国内的核心信源采集银发经济相关的新闻资讯，为内容创作者提供选题发现服务。</p>
+    <p>我们的核心价值：<b>以海外为镜，照中国之路</b>。追踪海外银发经济企业的融资、收购、产品发布动态，为中国银发经济创业者提供路书。</p>
+  </div>
+
+  <div class="section">
+    <h3>信源体系（15 个源）</h3>
+    <p>信源分为三个层级（T1/T2/T3），按可靠性递减。采集方式以 RSS 为主，对不支持直接 RSS 的站点使用 Google News RSS 代理。</p>
+    <table class="info-table">
+      <thead>
+        <tr><th>层级</th><th>信源名称</th><th>地区</th><th>采集方式</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>T1</td><td>FierceHealthcare</td><td>海外</td><td>RSS直连</td></tr>
+<tr><td>T1</td><td>Crunchbase News</td><td>海外</td><td>RSS直连</td></tr>
+<tr><td>T1</td><td>TheGerontechnologist</td><td>海外</td><td>RSS直连</td></tr>
+<tr><td>T1</td><td>Senior Housing News</td><td>海外</td><td>RSS直连</td></tr>
+<tr><td>T1</td><td>Home Health Care News</td><td>海外</td><td>RSS(HTTP)</td></tr>
+<tr><td>T1</td><td>McKnight's Senior Living</td><td>海外</td><td>Google News代理</td></tr>
+<tr><td>T1</td><td>MobiHealthNews</td><td>海外</td><td>Google News代理</td></tr>
+<tr><td>T2</td><td>Google News - Silver Economy</td><td>海外</td><td>Google News代理</td></tr>
+<tr><td>T2</td><td>Google News - 银发经济</td><td>国内</td><td>Google News代理</td></tr>
+<tr><td>T2</td><td>AgeClub</td><td>国内</td><td>Google News代理</td></tr>
+<tr><td>T2</td><td>36氪-银发经济</td><td>国内</td><td>Google News代理</td></tr>
+<tr><td>T2</td><td>动脉网-养老医疗</td><td>国内</td><td>Google News代理</td></tr>
+<tr><td>T1</td><td>Hospice News</td><td>海外</td><td>Google News代理</td></tr>
+<tr><td>T1</td><td>McKnight's Home Care</td><td>海外</td><td>Google News代理</td></tr>
+<tr><td>T3</td><td>Google News - Aging Tech</td><td>海外</td><td>Google News代理</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <b>T1</b> = 海外核心专业媒体，银发经济垂直领域权威来源<br>
+      <b>T2</b> = 国内银发经济媒体 + 海外扩展覆盖<br>
+      <b>T3</b> = 宽覆盖辅助源，补充遗漏
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>标签体系</h3>
+    <p>每条资讯会被自动打上两类标签：</p>
+    <p><b>行业标签</b>（20 个）：</p>
+    <div style="margin:8px 0;"><span class="tag-chip">居家养老</span> <span class="tag-chip">健康监测</span> <span class="tag-chip">数字疗法</span> <span class="tag-chip">认知症</span> <span class="tag-chip">远程医疗</span> <span class="tag-chip">保险科技</span> <span class="tag-chip">康复辅具</span> <span class="tag-chip">药物管理</span> <span class="tag-chip">社交陪伴</span> <span class="tag-chip">慢病管理</span> <span class="tag-chip">智慧养老</span> <span class="tag-chip">辅助生活</span> <span class="tag-chip">临终关怀</span> <span class="tag-chip">养老地产</span> <span class="tag-chip">老年消费</span> <span class="tag-chip">护理人力</span> <span class="tag-chip">金融科技</span> <span class="tag-chip">出行交通</span> <span class="tag-chip">营养健康</span> <span class="tag-chip">长寿科技</span></div>
+    <p style="margin-top:12px;"><b>事件标签</b>（7 个）：</p>
+    <div style="margin:8px 0;"><span class="tag-chip">融资</span> <span class="tag-chip">收购</span> <span class="tag-chip">IPO</span> <span class="tag-chip">产品发布</span> <span class="tag-chip">战略合作</span> <span class="tag-chip">政策法规</span> <span class="tag-chip">财报</span></div>
+  </div>
+
+  <div class="section">
+    <h3>评分机制</h3>
+    <div class="callout callout-warning">
+      <b>当前状态：评分功能已暂停</b><br>
+      评分体系仍在优化中，看板暂时不展示评分。资讯采集和标签分类正常运行。
+    </div>
+    <p>评分体系设计（暂停前的方案，后续恢复时参考）：</p>
+    <ul>
+      <li><b>行业相关度</b>（35%）：与银发经济核心赛道的关联程度</li>
+      <li><b>信号强度</b>（30%）：融资金额、收购规模、参与方分量</li>
+      <li><b>写作潜力</b>（20%）：故事性、独特角度、中国可借鉴性</li>
+      <li><b>时效紧迫度</b>（15%）：新闻热度窗口，是否应本周处理</li>
+    </ul>
+    <p>阈值设计：≥7.0 高价值 | 5.0-6.9 值得关注 | &lt;5.0 归档</p>
+  </div>
+
+  <div class="section">
+    <h3>更新机制</h3>
+    <ul>
+      <li><b>采集频率</b>：每天 07:00 自动运行（自动化任务）</li>
+      <li><b>采集范围</b>：过去 7 天的资讯</li>
+      <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
+      <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- Tab 2: 企业库说明 -->
+<div class="tab-content" id="tab-enterprise">
+
+  <div class="section">
+    <h3>企业库定位</h3>
+    <p>Silver Pulse 企业数据库是一个<b>全球银发经济企业图谱</b>，收录国内外银发经济相关企业，为内容创作者提供企业背景信息和选题参考。</p>
+    <p>当前收录：<b>979 家企业</b>（国内 + 海外）</p>
+  </div>
+
+  <div class="section">
+    <h3>数据来源</h3>
+    <table class="info-table">
+      <thead>
+        <tr><th>来源</th><th>数量</th><th>说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>选题库（手动精选）</b></td><td>30家</td><td>手动精选的高优先级企业，含详细融资信息和选题建议</td></tr>
+<tr><td><b>Stage (Not Age) 书籍</b></td><td>108家</td><td>来自Keren Etkin著作中提及的海外银发科技企业</td></tr>
+<tr><td><b>中国企业图谱（许之怿）</b></td><td>382家</td><td>国内银发经济企业行业图谱</td></tr>
+<tr><td><b>选题库V4（xlsx）</b></td><td>504条</td><td>选题库Excel版本中的企业信息表</td></tr>
+<tr><td><b>中国银发经济行业mapping</b></td><td>374家</td><td>国内银发经济行业mapping，含三级分类</td></tr>
+<tr><td><b>2025 AgeTech Market Map</b></td><td>322家</td><td>The AgeTech Revolution发布的2025 AgeTech市场地图PDF</td></tr>
+<tr><td><b>The AgeTech Revolution 书籍</b></td><td>8家</td><td>深度企业案例（ElliQ/Apple/Elder等）</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12px; color:var(--text-muted); margin-top:8px;">注：各来源间有去重，最终融合后总数少于各来源之和。</p>
+  </div>
+
+  <div class="section">
+    <h3>15 分类体系</h3>
+    <p>企业库采用 15 个一级分类，每个分类有两位数字编码（01-15）。企业按原始分类自动映射到对应类别。</p>
+    <table class="info-table">
+      <thead>
+        <tr><th>编码</th><th>分类名称</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class='cat-code-cell'>01</td><td>购物渠道/平台</td></tr>
+<tr><td class='cat-code-cell'>02</td><td>日常用品/消费</td></tr>
+<tr><td class='cat-code-cell'>03</td><td>健康食品/营养</td></tr>
+<tr><td class='cat-code-cell'>04</td><td>老年文娱/社交</td></tr>
+<tr><td class='cat-code-cell'>05</td><td>健康服务/医疗</td></tr>
+<tr><td class='cat-code-cell'>06</td><td>适老化改造</td></tr>
+<tr><td class='cat-code-cell'>07</td><td>行业服务/金融</td></tr>
+<tr><td class='cat-code-cell'>08</td><td>养老地产/居住</td></tr>
+<tr><td class='cat-code-cell'>09</td><td>养老服务/护理</td></tr>
+<tr><td class='cat-code-cell'>10</td><td>养老用品/辅具</td></tr>
+<tr><td class='cat-code-cell'>11</td><td>康复设备/器械</td></tr>
+<tr><td class='cat-code-cell'>12</td><td>失智老人/认知症</td></tr>
+<tr><td class='cat-code-cell'>13</td><td>产业资本/投资</td></tr>
+<tr><td class='cat-code-cell'>14</td><td>临终关怀</td></tr>
+<tr><td class='cat-code-cell'>15</td><td>出行/交通</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3>字段定义（16 字段统一 Schema）</h3>
+    <div class="field-list">
+      <div class="field-item"><span class="field-name">serial</span><span class="field-type">str</span><span class="field-desc">序号（#0001-#0999），按入库顺序编号，先国内后海外</span></div>
+      <div class="field-item"><span class="field-name">name</span><span class="field-type">str</span><span class="field-desc">企业英文名</span></div>
+      <div class="field-item"><span class="field-name">name_cn</span><span class="field-type">str</span><span class="field-desc">企业中文名/译名（可选）</span></div>
+      <div class="field-item"><span class="field-name">region</span><span class="field-type">str</span><span class="field-desc">地区："国内" 或 "海外"</span></div>
+      <div class="field-item"><span class="field-name">region_code</span><span class="field-type">int</span><span class="field-desc">地区编码：1=国内, 2=海外</span></div>
+      <div class="field-item"><span class="field-name">category</span><span class="field-type">str</span><span class="field-desc">企业原始分类（来自数据源）</span></div>
+      <div class="field-item"><span class="field-name">category_code</span><span class="field-type">str</span><span class="field-desc">分类编码：01-15（映射后）</span></div>
+      <div class="field-item"><span class="field-name">category_label</span><span class="field-type">str</span><span class="field-desc">分类中文名（15类之一）</span></div>
+      <div class="field-item"><span class="field-name">description</span><span class="field-type">str</span><span class="field-desc">一句话业务描述（≤80字）</span></div>
+      <div class="field-item"><span class="field-name">funding_latest</span><span class="field-type">dict</span><span class="field-desc">最新融资轮次 &#123;date, amount, round, display&#125;</span></div>
+      <div class="field-item"><span class="field-name">funding_total</span><span class="field-type">dict</span><span class="field-desc">累计融资 &#123;amount, display&#125;</span></div>
+      <div class="field-item"><span class="field-name">investors</span><span class="field-type">list</span><span class="field-desc">投资方列表</span></div>
+      <div class="field-item"><span class="field-name">source</span><span class="field-type">str</span><span class="field-desc">数据来源标识</span></div>
+      <div class="field-item"><span class="field-name">source_url</span><span class="field-type">str</span><span class="field-desc">企业官网URL（可选）</span></div>
+      <div class="field-item"><span class="field-name">value_score</span><span class="field-type">int</span><span class="field-desc">企业价值评分（0-100），<b>暂未启用，预留null</b></span></div>
+      <div class="field-item"><span class="field-name">value_tier</span><span class="field-type">str</span><span class="field-desc">评分等级 A/B/C/D，<b>暂未启用，预留null</b></span></div>
+    </div>
+    <div class="callout">
+      <b>价值评分说明</b>：value_score / value_tier 字段已预留，但暂不计算不展示。等选题规则确定后再实现评分逻辑。
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>使用指南</h3>
+    <ul>
+      <li><b>搜索</b>：在搜索框输入企业名称（中英文均可）</li>
+      <li><b>筛选</b>：按地区（国内/海外）或分类（15类）筛选</li>
+      <li><b>详情</b>：点击任意行展开详细信息（简介、原始分类、融资、来源等）</li>
+      <li><b>排序</b>：默认按序号排列（先国内后海外，按入库顺序）</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- Tab 3: 网站规则 -->
+<div class="tab-content" id="tab-rules">
+
+  <div class="section">
+    <h3>整体架构</h3>
+    <p>Silver Pulse 银脉由三个核心模块组成：</p>
+    <ul>
+      <li><b>资讯看板</b>（index.html）：每日银发经济投融资新闻聚合</li>
+      <li><b>企业数据库</b>（enterprise.html）：全球银发经济企业图谱</li>
+      <li><b>网站说明</b>（about.html）：本页面，规则与字段说明</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>更新频率</h3>
+    <table class="info-table">
+      <thead>
+        <tr><th>模块</th><th>频率</th><th>时间</th><th>方式</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>资讯采集</td><td>每日</td><td>07:00</td><td>自动化（RSS采集 + 标签分类）</td></tr>
+        <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动更新（新数据源融合时）</td></tr>
+        <tr><td>评分</td><td>暂停中</td><td>—</td><td>规则优化后恢复</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3>技术架构</h3>
+    <ul>
+      <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>
+      <li><b>托管</b>：GitHub Pages</li>
+      <li><b>采集</b>：Python + feedparser（RSS-first 策略，0个403错误）</li>
+      <li><b>自动化</b>：WorkBuddy 定时任务，每日 07:00 执行</li>
+      <li><b>数据格式</b>：JSON（结构化存储） → HTML（展示层生成）</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>数据流</h3>
+    <p>资讯看板的数据流：</p>
+    <ul>
+      <li>RSS 信源 → collector.py 采集 → raw_YYYYMMDD.json</li>
+      <li>原始数据 → scorer.py 评分（暂停中） → scored_latest.json</li>
+      <li>评分数据 + 原始数据 → generator.py → index.html</li>
+    </ul>
+    <p style="margin-top:12px;">企业库的数据流：</p>
+    <ul>
+      <li>多源数据（书籍/PDF/xlsx/mapping）→ 提取脚本 → *_companies.json</li>
+      <li>多源 JSON → merge_v2.py 融合去重 → all_enterprises.json（16字段统一schema）</li>
+      <li>融合数据 → gen_enterprise.py → enterprise.html</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>关于我们</h3>
+    <p>Silver Pulse 银脉由<b>艾年</b>公众号主理人小爽运营，专注于银发经济领域的投融资资讯和企业研究。</p>
+    <p>我们的使命：<b>以海外为镜，照中国之路</b>。每一篇分析的终点都是回答——看懂这家企业，中国的银发经济创业者能学到什么？</p>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>Silver Pulse 银脉 · 银发经济投融资资讯聚合 + 企业数据库</p>
+  <p>© 2026 艾年 · 以海外为镜，照中国之路</p>
+</div>
+
+</div>
+
+<script>
+function switchTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-' + tabName).classList.add('active');
+}
+</script>
+
+</body>
+</html>
