@@ -45,9 +45,10 @@ ENTERPRISE_FIELDS = [
     ("funding_total", "str", "累计融资总额"),
     ("investors", "list", "投资方列表"),
     ("founded", "str", "成立时间"),
+    ("business_model", "str", "商业模式特点（基于描述和分类自动推断）"),
     ("value_score", "int", "企业价值评分（0-100），暂未启用"),
     ("source", "str", "数据来源标识"),
-    ("crunchbase_url", "str", "Crunchbase页面链接（可选）"),
+    ("crunchbase_url", "str", "Crunchbase搜索链接（点击跳转搜索页校验）"),
     ("website_url", "str", "企业官网链接（可选）"),
     ("serial", "str", "序号（#0001-#0999）"),
 ]

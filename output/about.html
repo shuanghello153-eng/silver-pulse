@@ -1,4 +1,4 @@
-<!-- build:20260707001750 -->
+<!-- build:20260707005126 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -349,7 +349,7 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
   </div>
 
   <div class="section">
-    <h3>字段定义（16 字段统一 Schema）</h3>
+    <h3>字段定义（17 字段统一 Schema）</h3>
     <div class="field-list">
       <div class="field-item"><span class="field-name">name</span><span class="field-type">str</span><span class="field-desc">企业名称（中文名写中文，英文名保留英文不翻译）</span></div>
 <div class="field-item"><span class="field-name">region</span><span class="field-type">str</span><span class="field-desc">地区：国内 / 海外</span></div>
@@ -362,9 +362,10 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
 <div class="field-item"><span class="field-name">funding_total</span><span class="field-type">str</span><span class="field-desc">累计融资总额</span></div>
 <div class="field-item"><span class="field-name">investors</span><span class="field-type">list</span><span class="field-desc">投资方列表</span></div>
 <div class="field-item"><span class="field-name">founded</span><span class="field-type">str</span><span class="field-desc">成立时间</span></div>
+<div class="field-item"><span class="field-name">business_model</span><span class="field-type">str</span><span class="field-desc">商业模式特点（基于描述和分类自动推断）</span></div>
 <div class="field-item"><span class="field-name">value_score</span><span class="field-type">int</span><span class="field-desc">企业价值评分（0-100），暂未启用</span></div>
 <div class="field-item"><span class="field-name">source</span><span class="field-type">str</span><span class="field-desc">数据来源标识</span></div>
-<div class="field-item"><span class="field-name">crunchbase_url</span><span class="field-type">str</span><span class="field-desc">Crunchbase页面链接（可选）</span></div>
+<div class="field-item"><span class="field-name">crunchbase_url</span><span class="field-type">str</span><span class="field-desc">Crunchbase搜索链接（点击跳转搜索页校验）</span></div>
 <div class="field-item"><span class="field-name">website_url</span><span class="field-type">str</span><span class="field-desc">企业官网链接（可选）</span></div>
 <div class="field-item"><span class="field-name">serial</span><span class="field-type">str</span><span class="field-desc">序号（#0001-#0999）</span></div>
     </div>
