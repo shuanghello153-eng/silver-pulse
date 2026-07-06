@@ -55,22 +55,24 @@ ENTERPRISE_FIELDS = [
 
 
 def generate():
-    # Build source list HTML — L1/L2 structure
+    # Build source list HTML — compact format
     source_rows = []
     for key, src in SOURCES.items():
         tier = src.get("tier", 3)
         tier_label = f"T{tier}"
         region = "海外" if src.get("region") == "overseas" else "国内"
         l1 = src.get("l1_domain", "")
-        # L2 channels
+        # L2 channels — compact display
         l2_list = src.get("l2_channels", [])
-        l2_html = "<br>".join(
-            f'<span class="l2-chip">{ch[0]}</span> <span class="l2-method">{ch[2]}</span>'
-            for ch in l2_list
-        )
+        l2_parts = []
+        for ch in l2_list:
+            l2_parts.append(f'<span class="l2-chip">{ch[0]}</span> <span class="l2-method">{ch[2]}</span>')
+        l2_html = " ".join(l2_parts) if l2_parts else '<span class="l2-method">直接采集</span>'
         source_rows.append(
-            f"<tr><td>{tier_label}</td><td>{src['name']}</td><td>{region}</td>"
-            f"<td>{l1}</td><td>{l2_html}</td></tr>"
+            f"<tr><td class='tier-badge tier-{tier_label.lower()}'>{tier_label}</td>"
+            f"<td><b>{src['name']}</b><div class='src-l1'>{l1}</div></td>"
+            f"<td class='region-badge region-{region}'>{region}</td>"
+            f"<td>{l2_html}</td></tr>"
         )
     source_table = "\n".join(source_rows)
 
@@ -206,12 +208,20 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .section ul {{ margin:8px 0 12px 20px; }}
 .section li {{ font-size:14px; color:var(--text-secondary); margin-bottom:4px; line-height:1.7; }}
 
-.info-table {{ width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }}
-.info-table th {{ background:#fafafa; padding:8px 12px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }}
-.info-table td {{ padding:8px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }}
+.info-table {{ width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; table-layout:fixed; }}
+.info-table th {{ background:#fafafa; padding:8px 10px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }}
+.info-table td {{ padding:8px 10px; border-bottom:1px solid #f0f0f0; vertical-align:top; word-wrap:break-word; overflow-wrap:break-word; }}
 .info-table tr:last-child td {{ border-bottom:none; }}
 .info-table tr:hover {{ background:#fafbfc; }}
 .cat-name {{ font-weight:600; color:var(--accent); white-space:nowrap; }}
+.src-l1 {{ font-size:10px; color:var(--text-muted); margin-top:2px; }}
+.tier-badge {{ font-size:10px; font-weight:700; padding:2px 6px; border-radius:3px; text-align:center; display:inline-block; }}
+.tier-t1 {{ background:#dcfce7; color:#166534; }}
+.tier-t2 {{ background:#dbeafe; color:#1e40af; }}
+.tier-t3 {{ background:#f3f4f6; color:#6b7280; }}
+.region-badge {{ font-size:10px; font-weight:500; padding:2px 8px; border-radius:3px; text-align:center; }}
+.region-海外 {{ background:#ecfdf5; color:#065f46; }}
+.region-国内 {{ background:#eff6ff; color:#1e40af; }}
 
 .callout {{ background:var(--accent-light); border:1px solid #a5f3fc; border-radius:var(--radius); padding:12px 16px; margin:12px 0; font-size:13px; color:#0e7490; }}
 .callout-warning {{ background:#fef3c7; border-color:#fcd34d; color:#92400e; }}
@@ -278,7 +288,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p>信源采用<b>L1/L2分级结构</b>：L1为官网域名，L2为具体频道/栏目。每个信源标注层级（T1/T2/T3）、地区、采集方式。</p>
     <table class="info-table">
       <thead>
-        <tr><th>层级</th><th>信源名称</th><th>地区</th><th>L1 域名</th><th>L2 频道 + 采集方式</th></tr>
+        <tr><th style="width:40px;">层级</th><th>信源名称 / L1域名</th><th style="width:50px;">地区</th><th>L2频道 + 采集方式</th></tr>
       </thead>
       <tbody>
         {source_table}
@@ -381,6 +391,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <b>低成本方案</b>：如果积分紧张，可关闭推荐理由生成，仅保留标题+摘要+分类。每次采集约节省3-6K tokens（62条×100 tokens/条均）。
     </div>
   </div>
+
+  <div class="section">
     <h3>评分机制</h3>
     <div class="callout callout-warning">
       <b>当前状态：评分功能已暂停</b><br>
@@ -545,6 +557,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <b>推荐策略</b>：优先关闭推荐理由生成（方案1），可节省约50%的每日积分消耗。
     </div>
   </div>
+
+  <div class="section">
     <h3>技术架构</h3>
     <ul>
       <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>
@@ -566,7 +580,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p style="margin-top:12px;">企业库的数据流：</p>
     <ul>
       <li>多源数据（书籍/PDF/xlsx/mapping）→ 提取脚本 → *_companies.json</li>
-      <li>多源 JSON → merge_v2.py 融合去重 → all_enterprises.json（16字段统一schema）</li>
+      <li>多源 JSON → merge_v2.py 融合去重 → all_enterprises.json（17字段统一schema）</li>
       <li>融合数据 → gen_enterprise.py → enterprise.html</li>
     </ul>
   </div>

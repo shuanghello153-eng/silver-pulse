@@ -37,8 +37,29 @@ def title_match(t1, t2):
 
 
 def is_overseas_source(source_name):
+    """Determine if a source is overseas.
+    Uses fuzzy matching: check exact match first, then normalized match
+    (ignore spaces/apostrophes), then check if source name is predominantly
+    English (non-CJK characters) which indicates overseas."""
     s = source_name.strip()
-    return s in OVERSEAS_SOURCE_NAMES
+    if not s:
+        return False
+    # Exact match
+    if s in OVERSEAS_SOURCE_NAMES:
+        return True
+    # Normalized match (remove spaces, apostrophes, lowercase)
+    def normalize(name):
+        return name.lower().replace(" ", "").replace("'", "").replace("\u2019", "")
+    s_norm = normalize(s)
+    for os_name in OVERSEAS_SOURCE_NAMES:
+        if normalize(os_name) == s_norm:
+            return True
+    # If source name is all English (no CJK characters), treat as overseas
+    # This catches Forbes, Seeking Alpha, Bloomberg Law News, etc.
+    has_cjk = any('\u4e00' <= c <= '\u9fff' for c in s)
+    if not has_cjk and len(s) > 2:
+        return True
+    return False
 
 
 def deduplicate_summary(title, summary):
@@ -270,12 +291,13 @@ def merge_articles(scored, raw):
         tags_text = s.get("tags", [])
         s["event_type"] = classify_event_type(title_text, summary_text, tags_text)
         s["domains"] = classify_domain(title_text, summary_text, tags_text)
-        # Separate tags from classification: tags = free-form tags (from TAG_POOL)
-        # Only keep tags that are in TAG_POOL; others moved to domains
+        # Keep all tags for filtering (both TAG_POOL and free-form tags)
+        # Tags that look like domain names are also added to domains for domain filtering
         raw_tags = s.get("tags", [])
-        clean_tags = [t for t in raw_tags if t in ALL_TAG_NAMES]
-        domain_tags = [t for t in raw_tags if t not in ALL_TAG_NAMES and t not in {"raw", "curated"}]
+        clean_tags = [t for t in raw_tags if t and t not in {"raw", "curated"}]
         s["tags"] = clean_tags
+        # Also add non-TAG_POOL tags to domains for dual filtering
+        domain_tags = [t for t in raw_tags if t not in ALL_TAG_NAMES and t not in {"raw", "curated"}]
         if domain_tags:
             existing_domains = s.get("domains", [])
             s["domains"] = list(set(existing_domains + domain_tags))
@@ -449,7 +471,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .filter-btn{padding:2px 9px;border-radius:12px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .12s}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent)}
 .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.search-inline{padding:4px 12px;border:1px solid var(--border);border-radius:12px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:160px;transition:all .15s;flex-shrink:0;margin-left:auto}
+.search-inline{padding:4px 12px;border:1px solid var(--border);border-radius:12px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:160px;transition:all .15s;flex-shrink:0}
 .search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.08);width:220px}
 
 /* Feed cards */
@@ -575,20 +597,19 @@ def generate_html(scored_articles=None, output_path=None):
     merged = merge_articles(scored_articles, raw_articles)
     merged.sort(key=lambda a: a.get("date", "0000-00-00"), reverse=True)
 
-    # Collect present event types, domains, tags from curated articles
+    # Collect present event types, domains, tags from all articles
     present_events = set()
     present_domains = set()
     present_tags = set()
     for art in merged:
-        if art.get("view") == "curated":
-            evt = art.get("event_type", "")
-            if evt:
-                present_events.add(evt)
-            for d in art.get("domains", []):
-                present_domains.add(d)
-            for t in art.get("tags", []):
-                if t in ALL_TAG_NAMES:
-                    present_tags.add(t)
+        evt = art.get("event_type", "")
+        if evt:
+            present_events.add(evt)
+        for d in art.get("domains", []):
+            present_domains.add(d)
+        for t in art.get("tags", []):
+            if t and t not in {"raw", "curated"}:
+                present_tags.add(t)
 
     # Order: follow config order
     event_list = [e for e in NEWS_EVENT_TYPES.keys() if e in present_events]

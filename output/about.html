@@ -1,4 +1,4 @@
-<!-- build:20260707005126 -->
+<!-- build:20260707074549 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -51,12 +51,20 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
 .section ul { margin:8px 0 12px 20px; }
 .section li { font-size:14px; color:var(--text-secondary); margin-bottom:4px; line-height:1.7; }
 
-.info-table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
-.info-table th { background:#fafafa; padding:8px 12px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }
-.info-table td { padding:8px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }
+.info-table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; table-layout:fixed; }
+.info-table th { background:#fafafa; padding:8px 10px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }
+.info-table td { padding:8px 10px; border-bottom:1px solid #f0f0f0; vertical-align:top; word-wrap:break-word; overflow-wrap:break-word; }
 .info-table tr:last-child td { border-bottom:none; }
 .info-table tr:hover { background:#fafbfc; }
 .cat-name { font-weight:600; color:var(--accent); white-space:nowrap; }
+.src-l1 { font-size:10px; color:var(--text-muted); margin-top:2px; }
+.tier-badge { font-size:10px; font-weight:700; padding:2px 6px; border-radius:3px; text-align:center; display:inline-block; }
+.tier-t1 { background:#dcfce7; color:#166534; }
+.tier-t2 { background:#dbeafe; color:#1e40af; }
+.tier-t3 { background:#f3f4f6; color:#6b7280; }
+.region-badge { font-size:10px; font-weight:500; padding:2px 8px; border-radius:3px; text-align:center; }
+.region-海外 { background:#ecfdf5; color:#065f46; }
+.region-国内 { background:#eff6ff; color:#1e40af; }
 
 .callout { background:var(--accent-light); border:1px solid #a5f3fc; border-radius:var(--radius); padding:12px 16px; margin:12px 0; font-size:13px; color:#0e7490; }
 .callout-warning { background:#fef3c7; border-color:#fcd34d; color:#92400e; }
@@ -123,44 +131,44 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
     <p>信源采用<b>L1/L2分级结构</b>：L1为官网域名，L2为具体频道/栏目。每个信源标注层级（T1/T2/T3）、地区、采集方式。</p>
     <table class="info-table">
       <thead>
-        <tr><th>层级</th><th>信源名称</th><th>地区</th><th>L1 域名</th><th>L2 频道 + 采集方式</th></tr>
+        <tr><th style="width:40px;">层级</th><th>信源名称 / L1域名</th><th style="width:50px;">地区</th><th>L2频道 + 采集方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>T1</td><td>Home Health Care News</td><td>海外</td><td>homehealthcarenews.com</td><td><span class="l2-chip">funding</span> <span class="l2-method">rss</span></td></tr>
-<tr><td>T1</td><td>McKnight's Senior Living</td><td>海外</td><td>mcknightsseniorliving.com</td><td><span class="l2-chip">daily_briefing</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T1</td><td>McKnight's Home Care</td><td>海外</td><td>mcknightshomecare.com</td><td><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T1</td><td>Hospice News</td><td>海外</td><td>hospicenews.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T1</td><td>Senior Housing News</td><td>海外</td><td>seniorhousingnews.com</td><td><span class="l2-chip">feed</span> <span class="l2-method">rss</span></td></tr>
-<tr><td>T1</td><td>The Gerontechnologist</td><td>海外</td><td>thegerontechnologist.com</td><td><span class="l2-chip">articles</span> <span class="l2-method">rss</span><br><span class="l2-chip">podcast</span> <span class="l2-method">rss</span></td></tr>
-<tr><td>T1</td><td>FierceHealthcare</td><td>海外</td><td>fiercehealthcare.com</td><td><span class="l2-chip">venture_capital</span> <span class="l2-method">google_news</span><br><span class="l2-chip">funding_round</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T1</td><td>Crunchbase News</td><td>海外</td><td>news.crunchbase.com</td><td><span class="l2-chip">health_wellness_biotech</span> <span class="l2-method">rss</span></td></tr>
-<tr><td>T1</td><td>MobiHealthNews</td><td>海外</td><td>mobihealthnews.com</td><td><span class="l2-chip">investor</span> <span class="l2-method">google_news</span><br><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>StartUp Health</td><td>海外</td><td>startuphealth.com</td><td><span class="l2-chip">blog</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>AgeTech News</td><td>海外</td><td>agetech.news</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>AgeTech Collaborative</td><td>海外</td><td>home.agetechcollaborative.org</td><td><span class="l2-chip">startup_directory</span> <span class="l2-method">manual</span></td></tr>
-<tr><td>T2</td><td>Mary Furlong</td><td>海外</td><td>maryfurlong.com</td><td><span class="l2-chip">shop</span> <span class="l2-method">manual</span></td></tr>
-<tr><td>T2</td><td>INC.5000</td><td>海外</td><td>inc.com</td><td><span class="l2-chip">inc5000_2024</span> <span class="l2-method">manual</span></td></tr>
-<tr><td>T3</td><td>A2 Collective</td><td>海外</td><td>a2collective.ai</td><td><span class="l2-chip">awardees</span> <span class="l2-method">manual</span></td></tr>
-<tr><td>T2</td><td>Creating A New Healthcare</td><td>海外</td><td>creatinganewhealthcare.com</td><td><span class="l2-chip">podcast</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>FinSMEs</td><td>海外</td><td>finsmes.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>PR Newswire</td><td>海外</td><td>prnewswire.com</td><td><span class="l2-chip">healthcare</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>FemTech Insider</td><td>海外</td><td>femtechinsider.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Axios Pro Health Tech Deals</td><td>海外</td><td>axios.com</td><td><span class="l2-chip">health_tech_deals</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>HIT Consultant</td><td>海外</td><td>hitconsultant.net</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Pulse 2.0</td><td>海外</td><td>pulse2.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Business Wire</td><td>海外</td><td>businesswire.com</td><td><span class="l2-chip">healthcare</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>TechCrunch</td><td>海外</td><td>techcrunch.com</td><td><span class="l2-chip">health_biotech</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>BetaKit</td><td>海外</td><td>betakit.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Coverager</td><td>海外</td><td>coverager.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Yahoo Finance</td><td>海外</td><td>finance.yahoo.com</td><td><span class="l2-chip">markets</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Modern Healthcare</td><td>海外</td><td>modernhealthcare.com</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>HomeCare Magazine</td><td>海外</td><td>homecaremag.com</td><td><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>AgeClub</td><td>国内</td><td>ageclub.net</td><td><span class="l2-chip">google_news</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>36氪-银发经济</td><td>国内</td><td>36kr.com</td><td><span class="l2-chip">google_news</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>动脉网-养老医疗</td><td>国内</td><td>vcbeat.top</td><td><span class="l2-chip">google_news</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T2</td><td>Google News - 银发经济</td><td>国内</td><td>news.google.com</td><td><span class="l2-chip">silver_economy</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T3</td><td>Google News - Silver Economy</td><td>海外</td><td>news.google.com</td><td><span class="l2-chip">broad</span> <span class="l2-method">google_news</span></td></tr>
-<tr><td>T3</td><td>Google News - Aging Tech</td><td>海外</td><td>news.google.com</td><td><span class="l2-chip">broad</span> <span class="l2-method">google_news</span></td></tr>
+        <tr><td class='tier-badge tier-t1'>T1</td><td><b>Home Health Care News</b><div class='src-l1'>homehealthcarenews.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">funding</span> <span class="l2-method">rss</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>McKnight's Senior Living</b><div class='src-l1'>mcknightsseniorliving.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">daily_briefing</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>McKnight's Home Care</b><div class='src-l1'>mcknightshomecare.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>Hospice News</b><div class='src-l1'>hospicenews.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>Senior Housing News</b><div class='src-l1'>seniorhousingnews.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">feed</span> <span class="l2-method">rss</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>The Gerontechnologist</b><div class='src-l1'>thegerontechnologist.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">articles</span> <span class="l2-method">rss</span> <span class="l2-chip">podcast</span> <span class="l2-method">rss</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>FierceHealthcare</b><div class='src-l1'>fiercehealthcare.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">venture_capital</span> <span class="l2-method">google_news</span> <span class="l2-chip">funding_round</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>Crunchbase News</b><div class='src-l1'>news.crunchbase.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">health_wellness_biotech</span> <span class="l2-method">rss</span></td></tr>
+<tr><td class='tier-badge tier-t1'>T1</td><td><b>MobiHealthNews</b><div class='src-l1'>mobihealthnews.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">investor</span> <span class="l2-method">google_news</span> <span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>StartUp Health</b><div class='src-l1'>startuphealth.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">blog</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>AgeTech News</b><div class='src-l1'>agetech.news</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>AgeTech Collaborative</b><div class='src-l1'>home.agetechcollaborative.org</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">startup_directory</span> <span class="l2-method">manual</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Mary Furlong</b><div class='src-l1'>maryfurlong.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">shop</span> <span class="l2-method">manual</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>INC.5000</b><div class='src-l1'>inc.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">inc5000_2024</span> <span class="l2-method">manual</span></td></tr>
+<tr><td class='tier-badge tier-t3'>T3</td><td><b>A2 Collective</b><div class='src-l1'>a2collective.ai</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">awardees</span> <span class="l2-method">manual</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Creating A New Healthcare</b><div class='src-l1'>creatinganewhealthcare.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">podcast</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>FinSMEs</b><div class='src-l1'>finsmes.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>PR Newswire</b><div class='src-l1'>prnewswire.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">healthcare</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>FemTech Insider</b><div class='src-l1'>femtechinsider.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Axios Pro Health Tech Deals</b><div class='src-l1'>axios.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">health_tech_deals</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>HIT Consultant</b><div class='src-l1'>hitconsultant.net</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Pulse 2.0</b><div class='src-l1'>pulse2.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Business Wire</b><div class='src-l1'>businesswire.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">healthcare</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>TechCrunch</b><div class='src-l1'>techcrunch.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">health_biotech</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>BetaKit</b><div class='src-l1'>betakit.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Coverager</b><div class='src-l1'>coverager.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Yahoo Finance</b><div class='src-l1'>finance.yahoo.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">markets</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Modern Healthcare</b><div class='src-l1'>modernhealthcare.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">home</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>HomeCare Magazine</b><div class='src-l1'>homecaremag.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>AgeClub</b><div class='src-l1'>ageclub.net</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">google_news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>36氪-银发经济</b><div class='src-l1'>36kr.com</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">google_news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>动脉网-养老医疗</b><div class='src-l1'>vcbeat.top</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">google_news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Google News - 银发经济</b><div class='src-l1'>news.google.com</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">silver_economy</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t3'>T3</td><td><b>Google News - Silver Economy</b><div class='src-l1'>news.google.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">broad</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t3'>T3</td><td><b>Google News - Aging Tech</b><div class='src-l1'>news.google.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">broad</span> <span class="l2-method">google_news</span></td></tr>
       </tbody>
     </table>
     <div class="callout">
@@ -266,6 +274,8 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
       <b>低成本方案</b>：如果积分紧张，可关闭推荐理由生成，仅保留标题+摘要+分类。每次采集约节省3-6K tokens（62条×100 tokens/条均）。
     </div>
   </div>
+
+  <div class="section">
     <h3>评分机制</h3>
     <div class="callout callout-warning">
       <b>当前状态：评分功能已暂停</b><br>
@@ -464,6 +474,8 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
       <b>推荐策略</b>：优先关闭推荐理由生成（方案1），可节省约50%的每日积分消耗。
     </div>
   </div>
+
+  <div class="section">
     <h3>技术架构</h3>
     <ul>
       <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>
@@ -485,7 +497,7 @@ body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang
     <p style="margin-top:12px;">企业库的数据流：</p>
     <ul>
       <li>多源数据（书籍/PDF/xlsx/mapping）→ 提取脚本 → *_companies.json</li>
-      <li>多源 JSON → merge_v2.py 融合去重 → all_enterprises.json（16字段统一schema）</li>
+      <li>多源 JSON → merge_v2.py 融合去重 → all_enterprises.json（17字段统一schema）</li>
       <li>融合数据 → gen_enterprise.py → enterprise.html</li>
     </ul>
   </div>

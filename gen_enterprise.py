@@ -195,6 +195,7 @@ def build_card(ent):
     return (
         f'<div class="ent-card" data-region="{region_attr}" '
         f'data-cat="{esc(cat_attr)}" '
+        f'data-l2="{esc(cat_l2)}" '
         f'data-name="{esc(full_search)}" '
         f'data-curated="{curated_attr}" '
         f'data-serial="{esc(serial)}">\n'
@@ -211,11 +212,17 @@ def generate():
     overseas = sum(1 for e in enterprises if e.get("region") == "海外")
     curated_count = sum(1 for e in enterprises if is_curated(e))
 
-    # Category distribution
+    # Category distribution (L1 and L2)
     cat_counts = {}
+    l2_counts = {}  # {l1: {l2: count}}
     for e in enterprises:
         l1 = e.get("category_l1", "")
+        l2 = e.get("category_l2", "")
         cat_counts[l1] = cat_counts.get(l1, 0) + 1
+        if l1 not in l2_counts:
+            l2_counts[l1] = {}
+        if l2:
+            l2_counts[l1][l2] = l2_counts[l1].get(l2, 0) + 1
 
     # Build cards
     cards_html = "\n".join(build_card(e) for e in enterprises)
@@ -225,6 +232,18 @@ def generate():
         f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
         for l1 in L1_CATS
     )
+
+    # L2 filter buttons grouped by L1 (hidden by default, shown when L1 is selected)
+    l2_filter_html = ""
+    for l1 in L1_CATS:
+        l2_list = ENTERPRISE_CATEGORIES.get(l1, {}).get("l2", [])
+        if not l2_list:
+            continue
+        l2_btns = " ".join(
+            f'<button class="f-btn f-btn-l2" data-l2="{esc(l2)}" data-parent="{esc(l1)}">{esc(l2)}<span class="cnt">{l2_counts.get(l1, {}).get(l2, 0)}</span></button>'
+            for l2 in l2_list
+        )
+        l2_filter_html += f'<div class="filter-row l2-row" id="l2-{esc(l1)}" style="display:none;"><span class="f-label">子类</span>{l2_btns}</div>\n'
 
     html_content = f"""<!-- build:{BUILD_STAMP} -->
 <!DOCTYPE html>
@@ -285,6 +304,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .f-btn:hover {{ border-color:var(--accent); color:var(--accent); }}
 .f-btn.active {{ background:var(--accent); color:white; border-color:var(--accent); }}
 .f-btn .cnt {{ font-size:10px; opacity:0.7; margin-left:2px; }}
+.f-btn-l2 {{ font-size:10px; padding:2px 8px; }}
+.l2-row {{ padding-left:48px; }}
 .search-inline {{ width:200px; padding:4px 12px; border:1px solid var(--border); border-radius:14px; font-size:12px; outline:none; background:var(--card-bg); color:var(--text); }}
 .search-inline:focus {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(8,145,178,0.1); }}
 
@@ -372,6 +393,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <button class="f-btn active" data-cat="all">全部</button>
     {cat_buttons}
   </div>
+  {l2_filter_html}
 </div>
 
 <div class="result-count" id="result-count"></div>
@@ -389,6 +411,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 <script>
 let activeReg = 'all';
 let activeCat = 'all';
+let activeL2 = 'all';
 let activeView = 'all';
 
 function filterEnt() {{
@@ -396,21 +419,28 @@ function filterEnt() {{
   const cards = document.querySelectorAll('.ent-card');
   let visible = 0;
   const catVisCounts = {{}};
+  const l2VisCounts = {{}};
 
   cards.forEach(card => {{
     const reg = card.dataset.region;
     const cat = card.dataset.cat;
+    const l2 = card.dataset.l2 || '';
     const name = (card.dataset.name || '').toLowerCase();
     const curated = card.dataset.curated === '1';
 
     const regMatch = activeReg === 'all' || reg === activeReg;
     const searchMatch = !q || name.includes(q);
     const catMatch = activeCat === 'all' || cat === activeCat;
+    const l2Match = activeL2 === 'all' || l2 === activeL2;
     const viewMatch = activeView === 'all' || curated;
 
     if (regMatch && searchMatch && viewMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
-      if (catMatch) {{
+      if (cat && l2) {{
+        if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};
+        l2VisCounts[cat][l2] = (l2VisCounts[cat][l2] || 0) + 1;
+      }}
+      if (catMatch && l2Match) {{
         card.style.display = '';
         visible++;
       }} else {{
@@ -421,7 +451,7 @@ function filterEnt() {{
     }}
   }});
 
-  // Update category counts
+  // Update L1 category counts
   document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
     const c = btn.dataset.cat;
     const cntEl = btn.querySelector('.cnt');
@@ -434,13 +464,22 @@ function filterEnt() {{
     }}
   }});
 
+  // Update L2 subcategory counts
+  document.querySelectorAll('.f-btn-l2').forEach(btn => {{
+    const parent = btn.dataset.parent;
+    const l2 = btn.dataset.l2;
+    const cntEl = btn.querySelector('.cnt');
+    if (cntEl) cntEl.textContent = (l2VisCounts[parent] && l2VisCounts[parent][l2]) || 0;
+  }});
+
   // Update result count
   const rc = document.getElementById('result-count');
   if (rc) {{
     const viewLabel = activeView === 'curated' ? '精选' : '全量';
     const regLabel = activeReg === 'all' ? '全部地区' : (activeReg === '1' ? '国内' : '海外');
     const catLabel = activeCat === 'all' ? '全部分类' : activeCat;
-    rc.textContent = `展示 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}`;
+    const l2Label = activeL2 === 'all' ? '' : ' · ' + activeL2;
+    rc.textContent = `展示 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}${{l2Label}}`;
   }}
 }}
 
@@ -461,20 +500,51 @@ document.querySelectorAll('[data-reg]').forEach(btn => {{
     this.classList.add('active');
     activeReg = this.dataset.reg;
     activeCat = 'all';
+    activeL2 = 'all';
     document.querySelectorAll('#cat-filter [data-cat]').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
+    hideAllL2Rows();
     filterEnt();
   }});
 }});
 
-// Category filter
+// L1 Category filter
 document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
   btn.addEventListener('click', function() {{
     document.querySelectorAll('#cat-filter [data-cat]').forEach(b => b.classList.remove('active'));
     this.classList.add('active');
     activeCat = this.dataset.cat;
+    activeL2 = 'all';
+    // Show/hide L2 subcategory row
+    hideAllL2Rows();
+    if (activeCat !== 'all') {{
+      const l2Row = document.getElementById('l2-' + activeCat);
+      if (l2Row) {{
+        l2Row.style.display = 'flex';
+        // Reset L2 active state
+        l2Row.querySelectorAll('.f-btn-l2').forEach(b => b.classList.toggle('active', b.dataset.l2 === 'all'));
+      }}
+    }}
     filterEnt();
   }});
 }});
+
+// L2 Subcategory filter
+document.querySelectorAll('.f-btn-l2').forEach(btn => {{
+  btn.addEventListener('click', function() {{
+    const parent = this.dataset.parent;
+    const l2Row = document.getElementById('l2-' + parent);
+    if (l2Row) {{
+      l2Row.querySelectorAll('.f-btn-l2').forEach(b => b.classList.remove('active'));
+    }}
+    this.classList.add('active');
+    activeL2 = this.dataset.l2;
+    filterEnt();
+  }});
+}});
+
+function hideAllL2Rows() {{
+  document.querySelectorAll('.l2-row').forEach(row => row.style.display = 'none');
+}}
 
 filterEnt();
 </script>
