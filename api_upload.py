@@ -12,11 +12,17 @@ API_BASE = f"https://api.github.com/repos/{OWNER}/{REPO}/contents"
 FILES = [
     "index.html",
     "enterprise.html",
+    "about.html",
     "output/index.html",
     "output/enterprise.html",
+    "output/about.html",
     "data/scored_latest.json",
+    "data/enterprise/all_enterprises.json",
     "generator.py",
     "gen_enterprise.py",
+    "gen_about.py",
+    "config.py",
+    "merge_v2.py",
 ]
 
 def get_sha(path):

@@ -298,14 +298,12 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <button class="f-btn active" data-reg="all">全部</button>
     <button class="f-btn" data-reg="1">国内</button>
     <button class="f-btn" data-reg="2">海外</button>
+    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称..." oninput="filterEnt()">
   </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>
     <button class="f-btn active" data-cat="all">全部</button>
     {cat_buttons}
-  </div>
-  <div class="filter-row">
-    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称..." oninput="filterEnt()">
   </div>
 </div>
 
@@ -327,6 +325,7 @@ function filterEnt() {{
   const q = document.getElementById('search').value.toLowerCase();
   const cards = document.querySelectorAll('.ent-card');
   let visible = 0;
+  const catVisCounts = {{}};
 
   cards.forEach(card => {{
     const reg = card.dataset.region;
@@ -334,14 +333,31 @@ function filterEnt() {{
     const name = (card.dataset.name || '').toLowerCase();
 
     const regMatch = activeReg === 'all' || reg === activeReg;
-    const catMatch = activeCat === 'all' || cat === activeCat;
     const searchMatch = !q || name.includes(q);
+    const catMatch = activeCat === 'all' || cat === activeCat;
 
-    if (regMatch && catMatch && searchMatch) {{
-      card.style.display = '';
-      visible++;
+    if (regMatch && searchMatch) {{
+      if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
+      if (catMatch) {{
+        card.style.display = '';
+        visible++;
+      }} else {{
+        card.style.display = 'none';
+      }}
     }} else {{
       card.style.display = 'none';
+    }}
+  }});
+
+  document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
+    const c = btn.dataset.cat;
+    const cntEl = btn.querySelector('.cnt');
+    if (c === 'all') {{
+      let allVis = 0;
+      Object.values(catVisCounts).forEach(v => allVis += v);
+      if (cntEl) cntEl.textContent = allVis;
+    }} else {{
+      if (cntEl) cntEl.textContent = catVisCounts[c] || 0;
     }}
   }});
 
@@ -354,6 +370,8 @@ document.querySelectorAll('[data-reg]').forEach(btn => {{
     document.querySelectorAll('[data-reg]').forEach(b => b.classList.remove('active'));
     this.classList.add('active');
     activeReg = this.dataset.reg;
+    activeCat = 'all';
+    document.querySelectorAll('#cat-filter [data-cat]').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
     filterEnt();
   }});
 }});

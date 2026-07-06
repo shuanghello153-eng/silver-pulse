@@ -314,6 +314,10 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <h3>标签池（TAG_POOL）</h3>
     <p>标签是与分类独立的自由标记，用于标注资本信号、背书、阶段、特殊模式等。每条资讯最多5个标签，所有标签来自预定义的标签池。</p>
     {tag_pool_html}
+    <div class="callout">
+      <b>标签池迭代规则</b>：标签池每月迭代一次。每次迭代时，AI会扫描近一个月的资讯数据，识别高频出现但尚未纳入标签池的概念、赛道、模式，自动补充到TAG_POOL中。迭代后重新标注所有已入库资讯。<br>
+      <b>迭代成本</b>：每月约消耗5-10K tokens（数据扫描 + 新标签识别 + 配置文件更新）。
+    </div>
   </div>
 
   <div class="section">
@@ -341,11 +345,27 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p style="margin-top:12px;"><b>第三步：展示排序</b></p>
     <ul>
       <li>默认按日期降序（最新优先）</li>
-      <li>精选视图：仅展示人工精选/评分≥5.0的条目</li>
-      <li>全量视图：展示所有通过相关性过滤的条目</li>
+      <li><b>精选视图</b>：展示评分≥5.0或人工精选的条目（当前评分暂停，精选=全量，恢复评分后两者会不同）</li>
+      <li><b>全量视图</b>：展示所有通过相关性过滤的条目</li>
       <li>可按事件类型、涉及领域、标签、地区多级筛选</li>
     </ul>
+    <div class="callout">
+      <b>精选 vs 全量 说明</b>：当前评分功能暂停中，所以精选和全量显示的数据完全一样。未来恢复评分后，精选只展示高价值条目（≥7.0）和值得关注条目（5.0-6.9），全量则展示所有通过过滤的条目。
+    </div>
   </div>
+
+  <div class="section">
+    <h3>推荐理由（AI分析）</h3>
+    <p>资讯卡片底部的<b>蓝色文字</b>是AI对文章的分析点评（recommendation字段），不是原文摘要。内容包括：</p>
+    <ul>
+      <li>该资讯对银发经济领域的意义</li>
+      <li>对中国市场的可借鉴之处</li>
+      <li>选题建议或写作角度提示</li>
+    </ul>
+    <div class="callout">
+      <b>积分消耗</b>：推荐理由由AI生成，每条约消耗200-500 tokens。仅精选条目有推荐理由，全量条目不生成。<br>
+      <b>低成本方案</b>：如果积分紧张，可关闭推荐理由生成，仅保留标题+摘要+分类。每次采集约节省3-6K tokens（62条×100 tokens/条均）。
+    </div>
 
   <div class="section">
     <h3>评分机制</h3>
@@ -368,9 +388,10 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <ul>
       <li><b>采集频率</b>：每天 07:00（北京时间）自动运行</li>
       <li><b>采集窗口</b>：过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯</li>
-      <li><b>积分消耗</b>：每次采集约 15-25K tokens（采集器约10K + 分类约5-15K）</li>
+      <li><b>每日积分消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
       <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
+      <li><b>标签池迭代</b>：每月一次，AI扫描近月数据自动补充新标签</li>
     </ul>
   </div>
 
@@ -433,8 +454,9 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <li><b>亮点</b>：小字蓝色展示</li>
       <li><b>链接</b>：Crunchbase和官网链接小而低调</li>
       <li><b>空字段</b>：为空的字段不展示，不留空白</li>
-      <li><b>搜索</b>：搜索框内联缩小，与标签栏同一行</li>
-      <li><b>筛选</b>：支持一级分类筛选 + 地区筛选 + 搜索</li>
+      <li><b>搜索</b>：搜索框与地区筛选放在同一行，不单独占行</li>
+      <li><b>分类筛选</b>：分类按钮上的数字随地区筛选动态更新（选"国内"后分类数字只显示国内企业数）</li>
+      <li><b>切换地区</b>：切换地区筛选时自动重置分类为"全部"</li>
     </ul>
   </div>
 
@@ -458,10 +480,11 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <ul>
       <li><b>UI文字</b>：全部中文</li>
       <li><b>企业名称</b>：保留原始语言——中文名写中文，英文名保留英文不翻译</li>
-      <li><b>网站/信源名称</b>：保留原始英文名称不翻译</li>
+      <li><b>信源名称</b>：常见英文信源名称翻译为中文显示（如 Home Health Care News → 家庭健康护理新闻），保留原英文名在括号外</li>
       <li><b>数字</b>：中文格式（如"5000万"而非"50 million"）</li>
       <li><b>日期</b>：YYYY-MM-DD 格式</li>
       <li><b>标签</b>：中文，2-6字，每条最多5个</li>
+      <li><b>推荐理由</b>：全部中文，2-3句言之有物，说明对中国市场的具体参照</li>
     </ul>
   </div>
 
@@ -487,16 +510,28 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
         <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>资讯采集</td><td>每日</td><td>07:00 北京时间</td><td>约15-25K tokens/次</td><td>自动化（RSS采集 + 关键词过滤 + 分类）</td></tr>
+        <tr><td>RSS采集</td><td>每日</td><td>07:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
+        <tr><td>分类+标签</td><td>每日</td><td>采集后</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用）</td></tr>
+        <tr><td>推荐理由生成</td><td>每日</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
+        <tr><td>HTML生成</td><td>每日</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
+        <tr><td>标签池迭代</td><td>每月</td><td>月初</td><td>约5-10K tokens</td><td>AI扫描+更新TAG_POOL</td></tr>
         <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
         <tr><td>评分</td><td>暂停中</td><td>—</td><td>—</td><td>规则优化后恢复</td></tr>
       </tbody>
     </table>
     <div class="callout">
-      <b>采集窗口</b>：每次采集过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯，非"当天"。<br>
-      <b>积分说明</b>：采集器约消耗10K tokens（RSS解析+内容提取），分类约消耗5-15K tokens（关键词匹配+事件类型判定）。评分暂停期间不消耗评分tokens。
+      <b>每日总消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K）。<br>
+      <b>采集窗口</b>：每次采集过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯，非"当天"。
     </div>
-  </div>
+    <div class="callout callout-warning">
+      <b>低成本方案</b>（积分紧张时使用）：<br>
+      1. <b>关闭推荐理由生成</b> → 节省12-31K tokens/次（最大节省项）<br>
+      2. <b>减少精选条目数</b> → 从62条降至20-30条，推荐理由减少50%<br>
+      3. <b>缩短采集窗口</b> → 从{MAX_ARTICLE_AGE_DAYS}天降至3天，减少采集量<br>
+      4. <b>暂停T3信源</b> → 只保留T1+T2核心信源，减少采集量<br>
+      5. <b>跳过分类关键词匹配</b> → 不分类，只做相关性过滤（不推荐，影响筛选体验）<br>
+      <b>推荐策略</b>：优先关闭推荐理由生成（方案1），可节省约50%的每日积分消耗。
+    </div>
 
   <div class="section">
     <h3>技术架构</h3>

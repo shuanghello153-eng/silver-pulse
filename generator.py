@@ -41,6 +41,45 @@ def is_overseas_source(source_name):
     return s in OVERSEAS_SOURCE_NAMES
 
 
+def deduplicate_summary(title, summary):
+    """Remove title-summary duplication: if summary starts with the title, strip it."""
+    if not title or not summary:
+        return summary or ""
+    title_clean = title.strip()
+    summary_clean = summary.strip()
+    # Check if summary starts with the title (common in RSS feeds)
+    if summary_clean[:len(title_clean)] == title_clean:
+        remainder = summary_clean[len(title_clean):].lstrip("：:。.，, \n\r\t")
+        return remainder if remainder else summary_clean
+    # Check first 15 chars overlap
+    if len(title_clean) > 10 and summary_clean[:15] == title_clean[:15]:
+        # Try to find a delimiter after the overlap
+        for delim in ["：", ":", "。", ".", "—", "-", "，", ","]:
+            idx = summary_clean.find(delim, 10, 40)
+            if idx >= 0:
+                remainder = summary_clean[idx+1:].lstrip(" \n\r\t")
+                if remainder:
+                    return remainder
+    return summary_clean
+
+
+def translate_source_name(name):
+    """Translate common English source names to Chinese for display."""
+    translations = {
+        "Home Health Care News": "家庭健康护理新闻",
+        "McKnight's Senior Living": "McKnight's养老社区",
+        "Senior Housing News": "养老住房新闻",
+        "Hospice News": "临终关怀新闻",
+        "Crunchbase News": "Crunchbase新闻",
+        "TheGerontechnologist": "老年科技评论",
+        "FierceHealthcare": "Fierce医疗",
+        "MobiHealthNews": "移动健康新闻",
+        "McKnight's Home Care": "McKnight's居家护理",
+        "Google News": "谷歌新闻",
+    }
+    return translations.get(name.strip(), name)
+
+
 def classify_event_type(title, summary, tags):
     """Classify article into one of NEWS_EVENT_TYPES based on keywords."""
     text = (title + " " + summary).lower() if title and summary else (title or "").lower()
@@ -94,42 +133,67 @@ def classify_domain(title, summary, tags):
     text = (title + " " + summary).lower() if title and summary else (title or "").lower()
     matched = []
 
-    # Map domain keywords to enterprise L1 categories
+    # Map domain keywords to enterprise L1 categories — expanded for better coverage
     domain_keywords = {
-        "购物渠道": ["购物", "电商", "retail", "shopping", "consumer", "渠道", "私域", "会员"],
+        "购物渠道": ["购物", "电商", "retail", "shopping", "consumer", "渠道", "私域", "会员",
+                     "京东", "淘宝", "拼多多", "商超", "超市", "直播带货", "d2c", "dtc", "品牌",
+                     "brand", "连锁", "franchise", "分销", "distribution"],
         "日常用品": ["鞋", "服饰", "护肤", "染发", "假发", "shoes", "clothing", "skincare",
-                     "hair", "cosmetic", "用品", "日常"],
+                     "hair", "cosmetic", "用品", "日常", "纸尿裤", "牙膏", "洗发", "美容",
+                     "beauty", "wig", "染发剂", "成人用品", "卫生"],
         "健康食品": ["食品", "保健品", "营养", "益生菌", "蛋白", "羊奶", "无糖",
-                     "supplement", "nutrition", "protein", "dietary", "otc"],
+                     "supplement", "nutrition", "protein", "dietary", "otc",
+                     "维生素", "钙片", "鱼油", "辅酶", "膳食", "功能食品", "特医食品",
+                     "formula", "健康饮品", "奶制品", "organic", "有机"],
         "老年文娱": ["旅游", "教育", "社交", "广场舞", "相亲", "健身", "音乐",
                      "travel", "education", "social", "dance", "fitness", "music",
-                     "entertainment", "leisure", "lifestyle"],
+                     "entertainment", "leisure", "lifestyle", "老年大学", "老年教育",
+                     "银发旅游", "康养旅游", "老年社交", "社区活动", "书法", "摄影",
+                     "hobby", "兴趣", "课程", "school", "学习"],
         "健康服务": ["健康", "养生", "摔倒", "睡眠", "血压", "血糖", "慢病", "陪诊",
                      "health", "wellness", "fall detection", "sleep", "blood pressure",
                      "chronic", "monitoring", "remote patient", "telehealth",
-                     "digital health", "care management"],
+                     "digital health", "care management", "互联网医疗", "在线问诊",
+                     "慢病管理", "健康管理", "体检", "筛查", "体检中心", "数字医疗",
+                     "远程医疗", "smart health", "医疗ai", "辅助诊断"],
         "适老化改造": ["适老", "改造", "智慧养老", "智能家居", "家居", "iot",
-                       "smart home", "home modification", "accessibility", "aging in place"],
+                       "smart home", "home modification", "accessibility", "aging in place",
+                       "无障碍", "扶手", "防滑", "智能门锁", "紧急呼叫", "跌倒检测",
+                       "传感器", "sensor", "适老化", "居家改造"],
         "行业服务": ["媒体", "展会", "咨询", "研究", "金融", "理财",
                      "media", "conference", "consulting", "research", "finance",
-                     "investment", "capital", "fund"],
+                     "investment", "capital", "fund", "协会", "智库", "杂志",
+                     "行业报告", "白皮书", "峰会", "论坛", "评奖", "认证",
+                     "标准", "培训", "培训服务", "数据平台", "信息平台"],
         "养老地产": ["地产", "住房", "社区", "运营商", "养老院", "中介",
-                     "real estate", "housing", "community", "residential", "property"],
+                     "real estate", "housing", "community", "residential", "property",
+                     "养老社区", "养老公寓", "senior living", "assisted living facility",
+                     "ccrc", "nursing home", "护理院", "康养小镇", "养老小镇",
+                     "退休社区", "retirement community", "长者社区", "ccrcs"],
         "养老服务": ["护理", "家政", "民政", "长护", "助餐", "助浴", "助洁", "临终",
                      "care", "nursing", "home care", "caregiver", "assisted living",
-                     "long-term care", "hospice", "personal care", "duty care"],
+                     "long-term care", "hospice", "personal care", "duty care",
+                     "居家养老", "社区养老", "机构养老", "照护", "护理员",
+                     "caregiving", "居家护理", "上门服务", "日间照料", "喘息服务"],
         "养老用品": ["轮椅", "拐杖", "助听器", "眼镜", "失禁", "护理垫",
                      "wheelchair", "walker", "cane", "hearing aid", "incontinence",
-                     "mobility", "assistive device", "daily living aid"],
+                     "mobility", "assistive device", "daily living aid",
+                     "助行器", "老花镜", "放大镜", "防走失", "智能药盒", "护理床",
+                     "马桶椅", "洗澡椅", "安全扶手", "成人纸尿裤"],
         "康复设备": ["康复", "外骨骼", "运动康复", "手部康复", "神经康复",
                      "rehab", "rehabilitation", "exoskeleton", "physical therapy",
-                     "robotic", "recovery"],
+                     "robotic", "recovery", "理疗", "康复训练", "康复机器人",
+                     "pt", "ot", "言语治疗", "occupational therapy", "康复中心"],
         "失智老人赛道": ["认知症", "痴呆", "阿尔茨海默", "失智", "早筛",
                          "dementia", "alzheimer", "cognitive", "memory care",
-                         "cognitive impairment", "mci"],
+                         "cognitive impairment", "mci", "认知障碍", "脑健康",
+                         "脑科学", "neuroscience", "neurodegenerative", "帕金森",
+                         "parkinson", "脑萎缩", "认知训练", "脑力训练"],
         "产业资本/投资机构": ["投资机构", "基金", "vc", "pe", "资本", "风投",
                              "venture capital", "private equity", "fund", "investor",
-                             "family office", "angel", "incubator"],
+                             "family office", "angel", "incubator", "lp", "gp",
+                             "加速器", "孵化器", "母基金", "fof", "投资平台",
+                             "资产管理", "asset management", "sovereign wealth"],
     }
 
     for domain, keywords in domain_keywords.items():
@@ -226,9 +290,11 @@ def merge_articles(scored, raw):
 def build_card_html(art):
     title = art.get("title_cn") or art.get("title", "Untitled")
     url = art.get("url", "#")
-    source = art.get("source", "Unknown")
+    source_raw = art.get("source", "Unknown")
+    source = translate_source_name(source_raw)
     date = art.get("date", "")
-    summary = (art.get("summary") or art.get("raw_content", "") or "")[:300]
+    raw_summary = (art.get("summary") or art.get("raw_content", "") or "")[:300]
+    summary = deduplicate_summary(title, raw_summary)
     tags = art.get("tags", [])
     view = art.get("view", "curated")
     region = art.get("region", "unknown")
@@ -244,7 +310,7 @@ def build_card_html(art):
         region_tag = '<span class="badge-region region-domestic">国内</span>'
 
     # Build viral badge
-    viral_badge = '<span class="viral-tag">🔥 爆款</span>' if is_viral else ''
+    viral_badge = '<span class="viral-tag">🔥</span>' if is_viral else ''
 
     # Build event type badge (highlighted)
     event_badge = '<span class="badge-event">%s</span>' % event_type
@@ -254,12 +320,12 @@ def build_card_html(art):
         '<span class="badge-domain">%s</span>' % d for d in domains[:3]
     )
 
-    # Build tag badges (from TAG_POOL, slightly prominent)
+    # Build tag badges (from TAG_POOL)
     tag_badges = "".join(
         '<span class="badge-tag">%s</span>' % t for t in tags[:5]
     )
 
-    # Build meta line: source + badges
+    # Build meta line: source + region + viral
     meta_parts = ['<span class="feed-source">%s</span>' % source]
     if region_tag:
         meta_parts.append(region_tag)
@@ -267,22 +333,23 @@ def build_card_html(art):
         meta_parts.append(viral_badge)
     meta_html = '<div class="feed-meta">%s</div>' % " ".join(meta_parts)
 
-    # Build classification line: event type + domains + tags
+    # Build classification line: event type + domains
     class_parts = [event_badge]
     if domain_badges:
         class_parts.append(domain_badges)
     class_html = '<div class="feed-class">%s</div>' % " ".join(class_parts)
 
-    # Build tag line (separate from classification)
+    # Tags at the bottom (after recommendation)
     tag_html = '<div class="feed-tags">%s</div>' % tag_badges if tag_badges else ""
 
-    # Build summary (only if not empty)
+    # Build summary (only if not empty after dedup)
     summary_html = '<p class="feed-summary">%s</p>' % summary if summary else ""
 
-    # Recommendation (only if not empty)
+    # Recommendation (only if not empty) — AI analysis, shown in blue
     rec = art.get("recommendation", "")
     rec_html = '<p class="feed-rec">%s</p>' % rec if rec else ""
 
+    # Card structure: meta → class → title → summary → rec → tags(bottom)
     card = (
         '<div class="feed-item" data-view="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
@@ -305,8 +372,8 @@ def build_card_html(art):
         class_html,
         url, title,
         summary_html,
-        tag_html,
         rec_html,
+        tag_html,
     )
     return card
 
@@ -333,47 +400,48 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
 .header h2{font-size:20px;font-weight:700}
 .header-stats{font-size:12px;color:var(--text-muted)}
-.view-pills{display:inline-flex;gap:4px;background:var(--bg);padding:3px;border-radius:20px;margin-bottom:12px}
-.view-pill{padding:5px 16px;border-radius:17px;border:none;background:transparent;cursor:pointer;font-size:12px;font-weight:500;color:var(--text-secondary);transition:all .15s}
+.view-pills{display:inline-flex;gap:3px;background:var(--bg);padding:2px;border-radius:18px;margin-bottom:0}
+.view-pill{padding:4px 14px;border-radius:16px;border:none;background:transparent;cursor:pointer;font-size:12px;font-weight:500;color:var(--text-secondary);transition:all .15s}
 .view-pill.active{background:var(--card-bg);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.08);font-weight:600}
-.region-pills{display:inline-flex;gap:4px;margin-left:12px;vertical-align:middle}
-.region-pill{padding:5px 14px;border-radius:17px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
+.filter-bar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.region-pills{display:inline-flex;gap:3px;vertical-align:middle}
+.region-pill{padding:4px 12px;border-radius:16px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
 .region-pill.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
 
 /* Filter bar: event type + domain + tags + search — all inline */
-.filter-section{margin-bottom:16px}
-.filter-row{display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap}
-.filter-label{font-size:11px;color:var(--text-muted);min-width:40px;font-weight:600}
-.filter-btns{display:flex;flex-wrap:wrap;gap:4px}
-.filter-btn{padding:3px 10px;border-radius:14px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s}
+.filter-section{margin-bottom:12px}
+.filter-row{display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap}
+.filter-label{font-size:11px;color:var(--text-muted);min-width:36px;font-weight:600}
+.filter-btns{display:flex;flex-wrap:wrap;gap:3px;flex:1}
+.filter-btn{padding:2px 9px;border-radius:12px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .12s}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent)}
 .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.search-inline{padding:4px 12px;border:1px solid var(--border);border-radius:14px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:140px;transition:all .15s}
-.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.1);width:200px}
+.search-inline{padding:3px 10px;border:1px solid var(--border);border-radius:12px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:120px;transition:all .15s;flex-shrink:0}
+.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.08);width:180px}
 
 /* Feed cards */
-.feed-item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border)}
+.feed-item{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
 .feed-item:last-child{border-bottom:none}
-.feed-time{flex-shrink:0;width:52px;font-size:13px;font-weight:700;color:var(--text-muted);padding-top:2px;text-align:right}
+.feed-time{flex-shrink:0;width:48px;font-size:12px;font-weight:700;color:var(--text-muted);padding-top:2px;text-align:right}
 .feed-body{flex:1;min-width:0}
-.feed-meta{display:flex;align-items:center;gap:6px;margin-bottom:3px;flex-wrap:wrap}
-.feed-source{font-size:12px;color:var(--text-muted);font-weight:500}
-.feed-class{display:flex;align-items:center;gap:4px;margin-bottom:5px;flex-wrap:wrap}
-.feed-title{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:3px}
+.feed-meta{display:flex;align-items:center;gap:5px;margin-bottom:2px;flex-wrap:wrap}
+.feed-source{font-size:11px;color:var(--text-muted);font-weight:500}
+.feed-class{display:flex;align-items:center;gap:3px;margin-bottom:4px;flex-wrap:wrap}
+.feed-title{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:2px}
 .feed-title a{color:var(--text);text-decoration:none}
 .feed-title a:hover{color:var(--accent)}
-.feed-summary{font-size:13px;color:var(--text-secondary);line-height:1.55;margin-bottom:4px}
-.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:4px}
-.feed-rec{font-size:12px;color:var(--accent);line-height:1.5;margin-bottom:4px;border-left:2px solid var(--accent);padding-left:8px}
+.feed-summary{font-size:12px;color:var(--text-secondary);line-height:1.5;margin-bottom:3px}
+.feed-rec{font-size:12px;color:var(--accent);line-height:1.45;margin-bottom:3px;border-left:2px solid var(--accent);padding-left:7px}
+.feed-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:4px}
 
 /* Badges */
-.badge-region{font-size:10px;padding:1px 7px;border-radius:10px;font-weight:600}
+.badge-region{font-size:10px;padding:1px 6px;border-radius:9px;font-weight:600}
 .badge-region.region-overseas{background:#ecfdf5;color:#065f46}
 .badge-region.region-domestic{background:#eff6ff;color:#1e40af}
-.badge-event{font-size:10px;padding:2px 8px;border-radius:4px;background:#fef3c7;color:#92400e;font-weight:600}
-.badge-domain{font-size:10px;padding:2px 8px;border-radius:4px;background:#f0f0f0;color:var(--text-secondary);font-weight:500}
-.badge-tag{font-size:10px;padding:2px 8px;border-radius:4px;background:#dbeafe;color:#1e40af;font-weight:500}
-.viral-tag{font-size:11px;font-weight:700;color:#dc2626;animation:pulse 2s infinite}
+.badge-event{font-size:10px;padding:1px 7px;border-radius:3px;background:#fef3c7;color:#92400e;font-weight:600}
+.badge-domain{font-size:10px;padding:1px 7px;border-radius:3px;background:#f0f0f0;color:var(--text-secondary);font-weight:500}
+.badge-tag{font-size:10px;padding:1px 7px;border-radius:3px;background:#e0f2fe;color:#0369a1;font-weight:500}
+.viral-tag{font-size:13px;font-weight:700;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
 
 .footer{text-align:center;padding:32px 0 16px;font-size:12px;color:var(--text-muted);border-top:1px solid var(--border);margin-top:24px}
@@ -554,7 +622,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<h2>银发经济每日速览</h2>',
         '<div class="header-stats" id="header-stats">更新于 %s · 共 %s 条</div>' % (today_str, total_count),
         '</div>',
-        '<div style="display:flex;align-items:center;flex-wrap:wrap;">',
+        '<div class="filter-bar">',
         '<div class="view-pills">',
         '<button class="view-pill active" id="pill-curated" onclick="setView(\'curated\')">精选(%s)</button>' % curated_count,
         '<button class="view-pill" id="pill-all" onclick="setView(\'all\')">全量(%s)</button>' % total_count,
