@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate about.html — Silver Pulse 网站说明栏目.
+Generate about.html — Silver Pulse 网站说明栏目 v2.
 Three tabs: 资讯版说明 / 企业库说明 / 网站规则
+Updated for v5.0 config: 13-class system, event-type classification,
+tag pool, L1/L2 source hierarchy, data filtering logic.
 """
 import os
 import json
@@ -11,29 +13,13 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
-# Import source config for display
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from config import SOURCES, INDUSTRY_TAGS, EVENT_TAGS
-
-# 15-class category system
-CATEGORY_15 = {
-    "01": "购物渠道/平台",
-    "02": "日常用品/消费",
-    "03": "健康食品/营养",
-    "04": "老年文娱/社交",
-    "05": "健康服务/医疗",
-    "06": "适老化改造",
-    "07": "行业服务/金融",
-    "08": "养老地产/居住",
-    "09": "养老服务/护理",
-    "10": "养老用品/辅具",
-    "11": "康复设备/器械",
-    "12": "失智老人/认知症",
-    "13": "产业资本/投资",
-    "14": "临终关怀",
-    "15": "出行/交通",
-}
+from config import (
+    SOURCES, ENTERPRISE_CATEGORIES, NEWS_EVENT_TYPES, NEWS_DOMAINS,
+    TAG_POOL, SCORING_DIMENSIONS, RELEVANCE_KEYWORDS,
+    IRRELEVANT_KEYWORDS, MAX_ARTICLE_AGE_DAYS,
+)
 
 # Enterprise data sources
 ENTERPRISE_SOURCES = [
@@ -46,32 +32,90 @@ ENTERPRISE_SOURCES = [
     {"name": "The AgeTech Revolution 书籍", "count": "8家", "desc": "深度企业案例（ElliQ/Apple/Elder等）"},
 ]
 
+# Enterprise new schema fields
+ENTERPRISE_FIELDS = [
+    ("name", "str", "企业名称（中文名写中文，英文名保留英文不翻译）"),
+    ("region", "str", "地区：国内 / 海外"),
+    ("category_l1", "str", "一级分类（13类之一）"),
+    ("category_l2", "str", "二级分类（70个子类之一）"),
+    ("tags", "list", "标签（来自TAG_POOL，最多5个）"),
+    ("description", "str", "一句话业务描述"),
+    ("highlights", "str", "亮点（关键数据/里程碑/特色）"),
+    ("funding_latest", "str", "最新融资轮次信息"),
+    ("funding_total", "str", "累计融资总额"),
+    ("investors", "list", "投资方列表"),
+    ("founded", "str", "成立时间"),
+    ("value_score", "int", "企业价值评分（0-100），暂未启用"),
+    ("source", "str", "数据来源标识"),
+    ("crunchbase_url", "str", "Crunchbase页面链接（可选）"),
+    ("website_url", "str", "企业官网链接（可选）"),
+    ("serial", "str", "序号（#0001-#0999）"),
+]
+
 
 def generate():
-    # Build source list HTML
+    # Build source list HTML — L1/L2 structure
     source_rows = []
     for key, src in SOURCES.items():
         tier = src.get("tier", 3)
         tier_label = f"T{tier}"
         region = "海外" if src.get("region") == "overseas" else "国内"
-        stype = src.get("type", "rss")
-        type_label = {
-            "rss": "RSS直连",
-            "rss_http": "RSS(HTTP)",
-            "google_news": "Google News代理",
-        }.get(stype, stype)
+        l1 = src.get("l1_domain", "")
+        # L2 channels
+        l2_list = src.get("l2_channels", [])
+        l2_html = "<br>".join(
+            f'<span class="l2-chip">{ch[0]}</span> <span class="l2-method">{ch[2]}</span>'
+            for ch in l2_list
+        )
         source_rows.append(
-            f"<tr><td>{tier_label}</td><td>{src['name']}</td><td>{region}</td><td>{type_label}</td></tr>"
+            f"<tr><td>{tier_label}</td><td>{src['name']}</td><td>{region}</td>"
+            f"<td>{l1}</td><td>{l2_html}</td></tr>"
         )
     source_table = "\n".join(source_rows)
 
-    # Build category list HTML
+    # Build 13-category list with L2
     cat_rows = []
-    for code, label in CATEGORY_15.items():
-        cat_rows.append(f"<tr><td class='cat-code-cell'>{code}</td><td>{label}</td></tr>")
+    for cat_key, cat_info in ENTERPRISE_CATEGORIES.items():
+        l2_list = cat_info.get("l2", [])
+        l2_html = " ".join(f'<span class="l2-chip">{l2}</span>' for l2 in l2_list)
+        cat_rows.append(
+            f"<tr><td class='cat-name'>{cat_info['label']}</td><td>{len(l2_list)}</td><td>{l2_html}</td></tr>"
+        )
     cat_table = "\n".join(cat_rows)
 
-    # Build enterprise source list
+    # Event types
+    event_rows = []
+    for evt_key, evt_info in NEWS_EVENT_TYPES.items():
+        event_rows.append(
+            f"<tr><td class='cat-name'>{evt_info['label']}</td><td>{evt_info['desc']}</td></tr>"
+        )
+    event_table = "\n".join(event_rows)
+
+    # Tag pool grouped by type
+    tag_groups = {}
+    for tag_name, tag_info in TAG_POOL.items():
+        t_type = tag_info.get("type", "other")
+        if t_type not in tag_groups:
+            tag_groups[t_type] = []
+        tag_groups[t_type].append((tag_name, tag_info.get("desc", "")))
+
+    tag_type_labels = {
+        "capital": "资本信号",
+        "endorsement": "背书信号",
+        "stage": "发展阶段",
+        "special": "特殊标记",
+        "geo": "地理标记",
+    }
+    tag_pool_html = ""
+    for t_type, tags in tag_groups.items():
+        label = tag_type_labels.get(t_type, t_type)
+        chips = " ".join(
+            f'<span class="tag-chip" title="{desc}">{name}</span>'
+            for name, desc in tags
+        )
+        tag_pool_html += f'<p style="margin:6px 0;"><b>{label}</b>（{len(tags)}个）：</p><div style="margin:4px 0 12px;">{chips}</div>'
+
+    # Enterprise source list
     ent_src_rows = []
     for s in ENTERPRISE_SOURCES:
         ent_src_rows.append(
@@ -79,9 +123,22 @@ def generate():
         )
     ent_src_table = "\n".join(ent_src_rows)
 
-    # Industry tags
-    industry_tags_html = " ".join(f'<span class="tag-chip">{t}</span>' for t in INDUSTRY_TAGS)
-    event_tags_html = " ".join(f'<span class="tag-chip">{t}</span>' for t in EVENT_TAGS)
+    # Enterprise fields
+    field_rows = []
+    for fname, ftype, fdesc in ENTERPRISE_FIELDS:
+        field_rows.append(
+            f'<div class="field-item"><span class="field-name">{fname}</span>'
+            f'<span class="field-type">{ftype}</span>'
+            f'<span class="field-desc">{fdesc}</span></div>'
+        )
+    field_html = "\n".join(field_rows)
+
+    # Relevance keywords (sample)
+    rel_kw_sample = RELEVANCE_KEYWORDS[:20]
+    rel_kw_html = " ".join(f'<span class="kw-chip">{kw}</span>' for kw in rel_kw_sample)
+
+    # Irrelevant keywords
+    irrel_kw_html = " ".join(f'<span class="kw-chip kw-irrelevant">{kw}</span>' for kw in IRRELEVANT_KEYWORDS)
 
     # Load enterprise count
     ent_path = os.path.join(DATA_DIR, "enterprise/all_enterprises.json")
@@ -89,6 +146,11 @@ def generate():
     if os.path.exists(ent_path):
         with open(ent_path, "r", encoding="utf-8") as f:
             ent_count = len(json.load(f))
+
+    # Count sources by tier
+    t1_count = sum(1 for s in SOURCES.values() if s.get("tier") == 1)
+    t2_count = sum(1 for s in SOURCES.values() if s.get("tier") == 2)
+    t3_count = sum(1 for s in SOURCES.values() if s.get("tier") == 3)
 
     html = f'''<!-- build:{BUILD_STAMP} -->
 <!DOCTYPE html>
@@ -116,7 +178,6 @@ def generate():
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; display:flex; min-height:100vh; }}
 
-/* Sidebar */
 .sidebar {{ width:200px; background:var(--sidebar-bg); border-right:1px solid var(--border); position:fixed; top:0; left:0; height:100vh; overflow-y:auto; padding:20px 0; flex-shrink:0; z-index:10; }}
 .sidebar-logo {{ padding:0 16px 16px; border-bottom:1px solid var(--border); margin-bottom:12px; }}
 .sidebar-logo h1 {{ font-size:18px; font-weight:700; color:var(--accent); }}
@@ -127,12 +188,10 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .nav-item:hover {{ background:#fafafa; color:var(--text); }}
 .nav-item.active {{ background:var(--accent-light); color:var(--accent); border-left-color:var(--accent); font-weight:600; }}
 
-/* Main */
 .main {{ flex:1; margin-left:200px; max-width:980px; width:calc(100% - 200px); padding:24px 32px 60px; }}
 .header h2 {{ font-size:20px; font-weight:700; margin-bottom:4px; }}
 .header p {{ font-size:12px; color:var(--text-muted); }}
 
-/* Tabs */
 .tab-bar {{ display:flex; gap:0; margin:20px 0 24px; border-bottom:2px solid var(--border); }}
 .tab-btn {{ padding:10px 20px; border:none; background:transparent; font-size:14px; font-weight:500; color:var(--text-secondary); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all 0.15s; }}
 .tab-btn:hover {{ color:var(--accent); }}
@@ -140,29 +199,28 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .tab-content {{ display:none; }}
 .tab-content.active {{ display:block; }}
 
-/* Sections */
 .section {{ margin-bottom:32px; }}
 .section h3 {{ font-size:16px; font-weight:600; margin-bottom:12px; color:var(--text); padding-left:12px; border-left:3px solid var(--accent); }}
 .section p {{ font-size:14px; color:var(--text-secondary); margin-bottom:8px; line-height:1.8; }}
 .section ul {{ margin:8px 0 12px 20px; }}
 .section li {{ font-size:14px; color:var(--text-secondary); margin-bottom:4px; line-height:1.7; }}
 
-/* Tables */
 .info-table {{ width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }}
 .info-table th {{ background:#fafafa; padding:8px 12px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }}
 .info-table td {{ padding:8px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }}
 .info-table tr:last-child td {{ border-bottom:none; }}
 .info-table tr:hover {{ background:#fafbfc; }}
-.cat-code-cell {{ font-family:monospace; font-weight:600; color:var(--accent); width:60px; }}
+.cat-name {{ font-weight:600; color:var(--accent); white-space:nowrap; }}
 
-/* Callout */
 .callout {{ background:var(--accent-light); border:1px solid #a5f3fc; border-radius:var(--radius); padding:12px 16px; margin:12px 0; font-size:13px; color:#0e7490; }}
 .callout-warning {{ background:#fef3c7; border-color:#fcd34d; color:#92400e; }}
 
-/* Tag chips */
-.tag-chip {{ display:inline-block; font-size:11px; padding:3px 8px; border-radius:4px; background:#f0f0f0; color:var(--text-secondary); margin:2px; font-weight:500; }}
+.tag-chip {{ display:inline-block; font-size:11px; padding:3px 8px; border-radius:4px; background:#dbeafe; color:#1e40af; margin:2px; font-weight:500; }}
+.l2-chip {{ display:inline-block; font-size:10px; padding:2px 6px; border-radius:3px; background:#f0f0f0; color:var(--text-secondary); margin:1px; }}
+.l2-method {{ font-size:10px; color:var(--accent); font-weight:500; }}
+.kw-chip {{ display:inline-block; font-size:11px; padding:2px 8px; border-radius:3px; background:#ecfdf5; color:#065f46; margin:2px; }}
+.kw-irrelevant {{ background:#fef2f2; color:#991b1b; }}
 
-/* Field list */
 .field-list {{ margin:12px 0; }}
 .field-item {{ display:flex; gap:12px; padding:8px 0; border-bottom:1px solid #f5f5f5; }}
 .field-name {{ font-weight:600; color:var(--text); min-width:140px; font-size:13px; font-family:monospace; }}
@@ -200,9 +258,9 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 </div>
 
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="switchTab('news')">资讯版说明</button>
-  <button class="tab-btn" onclick="switchTab('enterprise')">企业库说明</button>
-  <button class="tab-btn" onclick="switchTab('rules')">网站规则</button>
+  <button class="tab-btn active" onclick="switchTab('news', event)">资讯版说明</button>
+  <button class="tab-btn" onclick="switchTab('enterprise', event)">企业库说明</button>
+  <button class="tab-btn" onclick="switchTab('rules', event)">网站规则</button>
 </div>
 
 <!-- Tab 1: 资讯版说明 -->
@@ -210,42 +268,90 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 
   <div class="section">
     <h3>资讯版定位</h3>
-    <p>Silver Pulse 资讯看板是一个<b>全球银发经济投融资信息聚合器</b>，每天自动从海外和国内的核心信源采集银发经济相关的新闻资讯，为内容创作者提供选题发现服务。</p>
-    <p>我们的核心价值：<b>以海外为镜，照中国之路</b>。追踪海外银发经济企业的融资、收购、产品发布动态，为中国银发经济创业者提供路书。</p>
+    <p>Silver Pulse 资讯看板是一个<b>全球银发经济投融资信息聚合器</b>，每天自动从海外和国内的核心信源采集银发经济相关新闻资讯，为内容创作者提供选题发现服务。</p>
+    <p>核心价值：<b>以海外为镜，照中国之路</b>。追踪海外银发经济企业的融资、收购、产品发布动态，为中国银发经济创业者提供路书。</p>
   </div>
 
   <div class="section">
-    <h3>信源体系（{len(SOURCES)} 个源）</h3>
-    <p>信源分为三个层级（T1/T2/T3），按可靠性递减。采集方式以 RSS 为主，对不支持直接 RSS 的站点使用 Google News RSS 代理。</p>
+    <h3>信源体系（{len(SOURCES)} 个源 · T1={t1_count} T2={t2_count} T3={t3_count}）</h3>
+    <p>信源采用<b>L1/L2分级结构</b>：L1为官网域名，L2为具体频道/栏目。每个信源标注层级（T1/T2/T3）、地区、采集方式。</p>
     <table class="info-table">
       <thead>
-        <tr><th>层级</th><th>信源名称</th><th>地区</th><th>采集方式</th></tr>
+        <tr><th>层级</th><th>信源名称</th><th>地区</th><th>L1 域名</th><th>L2 频道 + 采集方式</th></tr>
       </thead>
       <tbody>
         {source_table}
       </tbody>
     </table>
     <div class="callout">
-      <b>T1</b> = 海外核心专业媒体，银发经济垂直领域权威来源<br>
-      <b>T2</b> = 国内银发经济媒体 + 海外扩展覆盖<br>
-      <b>T3</b> = 宽覆盖辅助源，补充遗漏
+      <b>T1</b>（{t1_count}个）= 海外核心专业媒体，银发经济垂直领域权威来源，总是采集，尽量获取全文<br>
+      <b>T2</b>（{t2_count}个）= 国内银发经济媒体 + 海外扩展覆盖，采集摘要<br>
+      <b>T3</b>（{t3_count}个）= 宽覆盖辅助源，仅用于相关性预过滤<br>
+      <br>
+      <b>采集方式</b>：rss = RSS直连 | google_news = Google News RSS代理 | manual = 手动入库 | api = API调用
     </div>
   </div>
 
   <div class="section">
-    <h3>标签体系</h3>
-    <p>每条资讯会被自动打上两类标签：</p>
-    <p><b>行业标签</b>（{len(INDUSTRY_TAGS)} 个）：</p>
-    <div style="margin:8px 0;">{industry_tags_html}</div>
-    <p style="margin-top:12px;"><b>事件标签</b>（{len(EVENT_TAGS)} 个）：</p>
-    <div style="margin:8px 0;">{event_tags_html}</div>
+    <h3>分类体系（事件类型L1 + 涉及领域L2）</h3>
+    <p>每条资讯会被自动分类为<b>一个事件类型（L1）</b>和<b>一个或多个涉及领域（L2）</b>。分类与标签严格分开。</p>
+
+    <p style="margin-top:12px;"><b>事件类型 L1</b>（{len(NEWS_EVENT_TYPES)} 类）：</p>
+    <table class="info-table">
+      <thead><tr><th>事件类型</th><th>说明</th></tr></thead>
+      <tbody>{event_table}</tbody>
+    </table>
+
+    <p style="margin-top:16px;"><b>涉及领域 L2</b>（复用企业库13个一级分类名称）：</p>
+    <p style="font-size:13px;color:var(--text-secondary);">{", ".join(NEWS_DOMAINS)}</p>
+    <div class="callout">
+      <b>分类逻辑</b>：事件类型通过关键词匹配自动判定（融资/收购/政策/产品/趋势/人事/其他）。<br>
+      涉及领域通过领域关键词匹配，一篇文章可涉及多个领域。
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>标签池（TAG_POOL）</h3>
+    <p>标签是与分类独立的自由标记，用于标注资本信号、背书、阶段、特殊模式等。每条资讯最多5个标签，所有标签来自预定义的标签池。</p>
+    {tag_pool_html}
+  </div>
+
+  <div class="section">
+    <h3>数据筛选逻辑</h3>
+    <p><b>为什么展示这些数据而不是其它？</b>资讯看板的筛选策略分三步：</p>
+
+    <p style="margin-top:12px;"><b>第一步：信源采集</b></p>
+    <ul>
+      <li>T1信源：总是采集，尽量获取全文</li>
+      <li>T2信源：采集，获取摘要（summary）</li>
+      <li>T3信源：采集，仅用于相关性预过滤，不直接展示</li>
+    </ul>
+
+    <p style="margin-top:12px;"><b>第二步：相关性过滤</b></p>
+    <ul>
+      <li>文章标题+摘要必须匹配至少一个<b>相关性关键词</b>（RELEVANCE_KEYWORDS）</li>
+      <li>匹配<b>无关关键词</b>（IRRELEVANT_KEYWORDS）的文章直接丢弃</li>
+      <li>地区由信源决定，不由内容判断：国内信源→国内，海外信源→海外</li>
+    </ul>
+    <p style="margin-top:8px;">相关性关键词示例（共{len(RELEVANCE_KEYWORDS)}个，展示前20个）：</p>
+    <div style="margin:8px 0;">{rel_kw_html}</div>
+    <p style="margin-top:8px;">无关关键词（共{len(IRRELEVANT_KEYWORDS)}个）：</p>
+    <div style="margin:8px 0;">{irrel_kw_html}</div>
+
+    <p style="margin-top:12px;"><b>第三步：展示排序</b></p>
+    <ul>
+      <li>默认按日期降序（最新优先）</li>
+      <li>精选视图：仅展示人工精选/评分≥5.0的条目</li>
+      <li>全量视图：展示所有通过相关性过滤的条目</li>
+      <li>可按事件类型、涉及领域、标签、地区多级筛选</li>
+    </ul>
   </div>
 
   <div class="section">
     <h3>评分机制</h3>
     <div class="callout callout-warning">
       <b>当前状态：评分功能已暂停</b><br>
-      评分体系仍在优化中，看板暂时不展示评分。资讯采集和标签分类正常运行。
+      评分体系仍在优化中，看板暂时不展示评分。资讯采集和分类正常运行。
     </div>
     <p>评分体系设计（暂停前的方案，后续恢复时参考）：</p>
     <ul>
@@ -260,8 +366,9 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   <div class="section">
     <h3>更新机制</h3>
     <ul>
-      <li><b>采集频率</b>：每天 07:00 自动运行（自动化任务）</li>
-      <li><b>采集范围</b>：过去 7 天的资讯</li>
+      <li><b>采集频率</b>：每天 07:00（北京时间）自动运行</li>
+      <li><b>采集窗口</b>：过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯</li>
+      <li><b>积分消耗</b>：每次采集约 15-25K tokens（采集器约10K + 分类约5-15K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
       <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
     </ul>
@@ -292,11 +399,11 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   </div>
 
   <div class="section">
-    <h3>15 分类体系</h3>
-    <p>企业库采用 15 个一级分类，每个分类有两位数字编码（01-15）。企业按原始分类自动映射到对应类别。</p>
+    <h3>13 分类体系（{len(ENTERPRISE_CATEGORIES)} 个一级 + {sum(len(c.get("l2",[])) for c in ENTERPRISE_CATEGORIES.values())} 个二级）</h3>
+    <p>企业库采用 13 个一级分类，每个分类下设若干二级子类。企业按原始分类自动映射到对应类别。展示时<b>不显示编码</b>，直接显示分类名称。</p>
     <table class="info-table">
       <thead>
-        <tr><th>编码</th><th>分类名称</th></tr>
+        <tr><th>一级分类</th><th>二级数</th><th>二级子类</th></tr>
       </thead>
       <tbody>
         {cat_table}
@@ -305,37 +412,29 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   </div>
 
   <div class="section">
-    <h3>字段定义（16 字段统一 Schema）</h3>
+    <h3>字段定义（{len(ENTERPRISE_FIELDS)} 字段统一 Schema）</h3>
     <div class="field-list">
-      <div class="field-item"><span class="field-name">serial</span><span class="field-type">str</span><span class="field-desc">序号（#0001-#0999），按入库顺序编号，先国内后海外</span></div>
-      <div class="field-item"><span class="field-name">name</span><span class="field-type">str</span><span class="field-desc">企业英文名</span></div>
-      <div class="field-item"><span class="field-name">name_cn</span><span class="field-type">str</span><span class="field-desc">企业中文名/译名（可选）</span></div>
-      <div class="field-item"><span class="field-name">region</span><span class="field-type">str</span><span class="field-desc">地区："国内" 或 "海外"</span></div>
-      <div class="field-item"><span class="field-name">region_code</span><span class="field-type">int</span><span class="field-desc">地区编码：1=国内, 2=海外</span></div>
-      <div class="field-item"><span class="field-name">category</span><span class="field-type">str</span><span class="field-desc">企业原始分类（来自数据源）</span></div>
-      <div class="field-item"><span class="field-name">category_code</span><span class="field-type">str</span><span class="field-desc">分类编码：01-15（映射后）</span></div>
-      <div class="field-item"><span class="field-name">category_label</span><span class="field-type">str</span><span class="field-desc">分类中文名（15类之一）</span></div>
-      <div class="field-item"><span class="field-name">description</span><span class="field-type">str</span><span class="field-desc">一句话业务描述（≤80字）</span></div>
-      <div class="field-item"><span class="field-name">funding_latest</span><span class="field-type">dict</span><span class="field-desc">最新融资轮次 &#123;date, amount, round, display&#125;</span></div>
-      <div class="field-item"><span class="field-name">funding_total</span><span class="field-type">dict</span><span class="field-desc">累计融资 &#123;amount, display&#125;</span></div>
-      <div class="field-item"><span class="field-name">investors</span><span class="field-type">list</span><span class="field-desc">投资方列表</span></div>
-      <div class="field-item"><span class="field-name">source</span><span class="field-type">str</span><span class="field-desc">数据来源标识</span></div>
-      <div class="field-item"><span class="field-name">source_url</span><span class="field-type">str</span><span class="field-desc">企业官网URL（可选）</span></div>
-      <div class="field-item"><span class="field-name">value_score</span><span class="field-type">int</span><span class="field-desc">企业价值评分（0-100），<b>暂未启用，预留null</b></span></div>
-      <div class="field-item"><span class="field-name">value_tier</span><span class="field-type">str</span><span class="field-desc">评分等级 A/B/C/D，<b>暂未启用，预留null</b></span></div>
+      {field_html}
     </div>
     <div class="callout">
-      <b>价值评分说明</b>：value_score / value_tier 字段已预留，但暂不计算不展示。等选题规则确定后再实现评分逻辑。
+      <b>空字段处理</b>：如果某个字段为空，前端直接不展示该字段，不显示占位符。<br>
+      <b>名称规则</b>：企业名称保留原始语言——中文名写中文，英文名保留英文不翻译。<br>
+      <b>标签规则</b>：标签来自TAG_POOL，最多5个，与分类（L1/L2）独立。<br>
+      <b>价值评分</b>：value_score 字段已预留，暂不计算不展示。
     </div>
   </div>
 
   <div class="section">
-    <h3>使用指南</h3>
+    <h3>展示规则</h3>
     <ul>
-      <li><b>搜索</b>：在搜索框输入企业名称（中英文均可）</li>
-      <li><b>筛选</b>：按地区（国内/海外）或分类（15类）筛选</li>
-      <li><b>详情</b>：点击任意行展开详细信息（简介、原始分类、融资、来源等）</li>
-      <li><b>排序</b>：默认按序号排列（先国内后海外，按入库顺序）</li>
+      <li><b>布局</b>：紧凑横条布局，所有字段直接可见，不需要点击展开</li>
+      <li><b>标签</b>：蓝色背景，稍醒目</li>
+      <li><b>地区</b>：灰色小字，低调展示在标签后面</li>
+      <li><b>亮点</b>：小字蓝色展示</li>
+      <li><b>链接</b>：Crunchbase和官网链接小而低调</li>
+      <li><b>空字段</b>：为空的字段不展示，不留空白</li>
+      <li><b>搜索</b>：搜索框内联缩小，与标签栏同一行</li>
+      <li><b>筛选</b>：支持一级分类筛选 + 地区筛选 + 搜索</li>
     </ul>
   </div>
 
@@ -355,17 +454,48 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   </div>
 
   <div class="section">
-    <h3>更新频率</h3>
+    <h3>语言规则</h3>
+    <ul>
+      <li><b>UI文字</b>：全部中文</li>
+      <li><b>企业名称</b>：保留原始语言——中文名写中文，英文名保留英文不翻译</li>
+      <li><b>网站/信源名称</b>：保留原始英文名称不翻译</li>
+      <li><b>数字</b>：中文格式（如"5000万"而非"50 million"）</li>
+      <li><b>日期</b>：YYYY-MM-DD 格式</li>
+      <li><b>标签</b>：中文，2-6字，每条最多5个</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>分类与标签的区分</h3>
+    <div class="callout">
+      <b>分类</b>是结构化的层级体系，每条资讯/企业必须归属一个分类。<br>
+      <b>标签</b>是自由标记，用于补充分类无法表达的维度（如资本信号、背书、阶段、模式特征）。<br>
+      <br>
+      两者在UI上<b>分开展示</b>：分类用独立行展示，标签用蓝色badge展示，不混在同一行。
+    </div>
+    <ul>
+      <li><b>资讯分类</b>：事件类型L1（7类）+ 涉及领域L2（复用企业库13类名称）</li>
+      <li><b>企业分类</b>：一级分类L1（13类）+ 二级分类L2（70子类）</li>
+      <li><b>标签池</b>：资本信号 / 背书信号 / 发展阶段 / 特殊标记 / 地理标记</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>更新频率与积分</h3>
     <table class="info-table">
       <thead>
-        <tr><th>模块</th><th>频率</th><th>时间</th><th>方式</th></tr>
+        <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>资讯采集</td><td>每日</td><td>07:00</td><td>自动化（RSS采集 + 标签分类）</td></tr>
-        <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动更新（新数据源融合时）</td></tr>
-        <tr><td>评分</td><td>暂停中</td><td>—</td><td>规则优化后恢复</td></tr>
+        <tr><td>资讯采集</td><td>每日</td><td>07:00 北京时间</td><td>约15-25K tokens/次</td><td>自动化（RSS采集 + 关键词过滤 + 分类）</td></tr>
+        <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
+        <tr><td>评分</td><td>暂停中</td><td>—</td><td>—</td><td>规则优化后恢复</td></tr>
       </tbody>
     </table>
+    <div class="callout">
+      <b>采集窗口</b>：每次采集过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯，非"当天"。<br>
+      <b>积分说明</b>：采集器约消耗10K tokens（RSS解析+内容提取），分类约消耗5-15K tokens（关键词匹配+事件类型判定）。评分暂停期间不消耗评分tokens。
+    </div>
   </div>
 
   <div class="section">
@@ -383,9 +513,9 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <h3>数据流</h3>
     <p>资讯看板的数据流：</p>
     <ul>
-      <li>RSS 信源 → collector.py 采集 → raw_YYYYMMDD.json</li>
-      <li>原始数据 → scorer.py 评分（暂停中） → scored_latest.json</li>
-      <li>评分数据 + 原始数据 → generator.py → index.html</li>
+      <li>RSS 信源（L1域名→L2频道）→ collector.py 采集 → raw_YYYYMMDD.json</li>
+      <li>原始数据 → 相关性过滤（RELEVANCE/IRRELEVANT关键词）→ 分类（事件类型+涉及领域）</li>
+      <li>分类数据 → generator.py → index.html</li>
     </ul>
     <p style="margin-top:12px;">企业库的数据流：</p>
     <ul>
@@ -398,7 +528,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   <div class="section">
     <h3>关于我们</h3>
     <p>Silver Pulse 银脉由<b>艾年</b>公众号主理人小爽运营，专注于银发经济领域的投融资资讯和企业研究。</p>
-    <p>我们的使命：<b>以海外为镜，照中国之路</b>。每一篇分析的终点都是回答——看懂这家企业，中国的银发经济创业者能学到什么？</p>
+    <p>使命：<b>以海外为镜，照中国之路</b>。每一篇分析的终点都是回答——看懂这家企业，中国的银发经济创业者能学到什么？</p>
   </div>
 
 </div>
@@ -411,7 +541,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 </div>
 
 <script>
-function switchTab(tabName) {{
+function switchTab(tabName, event) {{
   document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
   document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
   event.target.classList.add('active');
@@ -433,6 +563,7 @@ function switchTab(tabName) {{
 
     print(f"Generated: {out_path}")
     print(f"Enterprise count: {ent_count}")
+    print(f"Sources: {len(SOURCES)} (T1={t1_count} T2={t2_count} T3={t3_count})")
     return out_path
 
 

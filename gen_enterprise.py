@@ -1,38 +1,30 @@
 #!/usr/bin/env python3
 """
-Generate enterprise.html — v4 compact table layout with 16-field unified schema.
-Category: 15 groups (01-15) with code+label.
-No P0/P1/P2, no view toggle, no scoring.
-Default sorted by serial number.
+gen_enterprise.py — v5 compact card layout
+New schema: name, region, category_l1, category_l2, tags, description, highlights,
+            funding_latest, funding_total, investors, founded, value_score,
+            source, crunchbase_url, website_url
+13-class system, no P0/P1/P2, no numbering in display.
+All fields directly visible — no click-to-expand.
+Empty fields are hidden (not displayed).
 """
 import json
 import os
+import html
 from datetime import datetime
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
-# ============================================================
-# 15-class category system (shared with merge_v2.py)
-# ============================================================
-CATEGORY_15 = {
-    "01": "购物渠道/平台",
-    "02": "日常用品/消费",
-    "03": "健康食品/营养",
-    "04": "老年文娱/社交",
-    "05": "健康服务/医疗",
-    "06": "适老化改造",
-    "07": "行业服务/金融",
-    "08": "养老地产/居住",
-    "09": "养老服务/护理",
-    "10": "养老用品/辅具",
-    "11": "康复设备/器械",
-    "12": "失智老人/认知症",
-    "13": "产业资本/投资",
-    "14": "临终关怀",
-    "15": "出行/交通",
-}
+# Import from config
+import sys
+sys.path.insert(0, BASE_DIR)
+from config import ENTERPRISE_CATEGORIES
+
+# 13 L1 categories (no numbering in display)
+L1_CATS = list(ENTERPRISE_CATEGORIES.keys())
 
 
 def load_enterprises():
@@ -41,136 +33,152 @@ def load_enterprises():
         return json.load(f)
 
 
-def format_funding(funding_latest, funding_total, investors):
-    """Format funding info for display cell."""
+def esc(text):
+    """HTML escape"""
+    if not text:
+        return ""
+    return html.escape(str(text))
+
+
+def build_card(ent):
+    """Build a compact horizontal card for one enterprise.
+    All fields directly visible, empty fields hidden."""
+    name = esc(ent.get("name", ""))
+    region = ent.get("region", "")
+    cat_l1 = esc(ent.get("category_l1", ""))
+    cat_l2 = esc(ent.get("category_l2", ""))
+    tags = ent.get("tags", [])
+    description = esc(ent.get("description", ""))
+    highlights = esc(ent.get("highlights", ""))
+
+    # Funding
+    fund_latest = ent.get("funding_latest")
+    fund_total = ent.get("funding_total")
+    investors = ent.get("investors")
+    founded = esc(ent.get("founded", ""))
+
+    # Source/links
+    source = esc(ent.get("source", ""))
+    crunchbase_url = ent.get("crunchbase_url", "")
+    website_url = ent.get("website_url", "")
+
+    # Serial for data attribute
+    serial = ent.get("serial", "")
+
+    # --- Build card HTML ---
     parts = []
 
-    if funding_latest and isinstance(funding_latest, dict):
-        display = funding_latest.get("display", "")
+    # Header line: name + category badge + tags + region
+    header_parts = [f'<span class="ent-name">{name}</span>']
+
+    # Category badge (L1 · L2)
+    if cat_l1:
+        cat_text = cat_l1
+        if cat_l2:
+            cat_text += f" · {cat_l2}"
+        header_parts.append(f'<span class="ent-badge badge-cat">{cat_text}</span>')
+
+    # Tags (醒目颜色)
+    if tags and isinstance(tags, list):
+        tags_html = "".join(
+            f'<span class="ent-tag">{esc(t)}</span>' for t in tags[:5] if t
+        )
+        if tags_html:
+            header_parts.append(f'<span class="ent-tags">{tags_html}</span>')
+
+    # Region (低调，放最后)
+    if region:
+        header_parts.append(f'<span class="ent-badge badge-region">{esc(region)}</span>')
+
+    parts.append(f'<div class="ent-header">{" ".join(header_parts)}</div>')
+
+    # Description line
+    if description:
+        parts.append(f'<div class="ent-desc">{description}</div>')
+
+    # Highlights (小字)
+    if highlights:
+        parts.append(f'<div class="ent-highlights">★ {highlights}</div>')
+
+    # Meta line: funding / investors / founded / links
+    meta_parts = []
+
+    # Latest funding
+    if fund_latest and isinstance(fund_latest, dict):
+        display = fund_latest.get("display", "")
         if display:
-            parts.append(display)
+            meta_parts.append(f'<span class="meta-item meta-fund">{esc(display)}</span>')
 
-    if funding_total and isinstance(funding_total, dict):
-        display = funding_total.get("display", "")
-        if display and display not in ("累计未披露",):
-            parts.append(display)
+    # Total funding
+    if fund_total and isinstance(fund_total, dict):
+        display = fund_total.get("display", "")
+        if display and display != "累计未披露":
+            meta_parts.append(f'<span class="meta-item">{esc(display)}</span>')
 
+    # Investors
     if investors:
-        invs_str = investors if isinstance(investors, str) else ", ".join(investors)
-        if invs_str:
-            parts.append(invs_str)
+        inv_str = investors if isinstance(investors, str) else ", ".join(investors)
+        if inv_str:
+            meta_parts.append(f'<span class="meta-item">投资方: {esc(inv_str)}</span>')
 
-    return " | ".join(parts)[:150] if parts else ""
+    # Founded
+    if founded:
+        meta_parts.append(f'<span class="meta-item">成立: {founded}</span>')
+
+    # Source
+    if source:
+        meta_parts.append(f'<span class="meta-item">{source}</span>')
+
+    # Links (small, right-aligned)
+    link_parts = []
+    if crunchbase_url:
+        link_parts.append(f'<a href="{esc(crunchbase_url)}" target="_blank" rel="noopener" class="ent-link">Crunchbase</a>')
+    if website_url:
+        link_parts.append(f'<a href="{esc(website_url)}" target="_blank" rel="noopener" class="ent-link">官网</a>')
+    if link_parts:
+        meta_parts.append(f'<span class="meta-links">{" · ".join(link_parts)}</span>')
+
+    if meta_parts:
+        parts.append(f'<div class="ent-meta">{" ".join(meta_parts)}</div>')
+
+    # Data attributes for filtering
+    search_text = (ent.get("name", "") or "").lower()
+    cat_attr = cat_l1 if cat_l1 else ""
+    region_attr = "1" if region == "国内" else "2"
+
+    return (
+        f'<div class="ent-card" data-region="{region_attr}" '
+        f'data-cat="{esc(cat_attr)}" '
+        f'data-name="{esc(search_text)}" '
+        f'data-serial="{esc(serial)}">\n'
+        + "\n".join(parts) + "\n"
+        + '</div>'
+    )
 
 
 def generate():
     enterprises = load_enterprises()
     total = len(enterprises)
 
-    # Stats
     domestic = sum(1 for e in enterprises if e.get("region") == "国内")
     overseas = sum(1 for e in enterprises if e.get("region") == "海外")
 
     # Category distribution
     cat_counts = {}
     for e in enterprises:
-        code = e.get("category_code", "07")
-        label = e.get("category_label", "")
-        cat_counts[code] = cat_counts.get(code, 0) + 1
+        l1 = e.get("category_l1", "")
+        cat_counts[l1] = cat_counts.get(l1, 0) + 1
 
-    def build_row(ent):
-        serial = ent.get("serial", "")
-        name = ent.get("name") or ""
-        name_cn = ent.get("name_cn") or ""
-        display_name = f"{name_cn} / {name}" if name_cn else name
+    # Build cards
+    cards_html = "\n".join(build_card(e) for e in enterprises)
 
-        region = ent.get("region", "国内")
-        region_code = ent.get("region_code", 1)
-        region_cls = "reg-overseas" if region_code == 2 else "reg-china"
-
-        cat_code = ent.get("category_code", "07")
-        cat_label = ent.get("category_label", "")
-        cat_raw = ent.get("category", "")
-
-        description = (ent.get("description") or "")[:120]
-        funding_str = format_funding(
-            ent.get("funding_latest"),
-            ent.get("funding_total"),
-            ent.get("investors")
-        )
-
-        # data attributes for filtering
-        search_name = f"{name} {name_cn}".strip().lower()
-        data_attrs = (
-            f'data-region="{region_code}" '
-            f'data-cat="{cat_code}" '
-            f'data-name="{search_name}" '
-            f'data-serial="{serial}"'
-        )
-
-        sub_cat_html = f' <span class="sub-cat">{cat_raw}</span>' if cat_raw and cat_raw != cat_label else ""
-        desc_html = f'<span class="row-desc">{description}</span>' if description else ""
-        fund_html = f'<span class="row-fund">{funding_str}</span>' if funding_str else ""
-
-        # Build detail row content
-        detail_parts = []
-        full_desc = ent.get("description", "") or ""
-        if full_desc:
-            detail_parts.append(f'<b>简介:</b> {full_desc}')
-        if cat_raw and cat_raw != cat_label:
-            detail_parts.append(f'<b>原始分类:</b> {cat_raw}')
-        source = ent.get("source", "")
-        if source:
-            detail_parts.append(f'<b>来源:</b> {source}')
-        source_url = ent.get("source_url", "")
-        if source_url:
-            detail_parts.append(f'<b>链接:</b> <a href="{source_url}" target="_blank">{source_url}</a>')
-
-        # Funding detail
-        fund_latest = ent.get("funding_latest")
-        fund_total = ent.get("funding_total")
-        investors = ent.get("investors")
-        if fund_latest and isinstance(fund_latest, dict):
-            fd = []
-            if fund_latest.get("round"):
-                fd.append(f'轮次: {fund_latest["round"]}')
-            if fund_latest.get("amount"):
-                fd.append(f'金额: {fund_latest["amount"]}')
-            if fund_latest.get("date"):
-                fd.append(f'时间: {fund_latest["date"]}')
-            if fd:
-                detail_parts.append(f'<b>最新融资:</b> {" | ".join(fd)}')
-        if fund_total and isinstance(fund_total, dict) and fund_total.get("amount"):
-            detail_parts.append(f'<b>累计融资:</b> {fund_total["amount"]}')
-        if investors:
-            invs_str = investors if isinstance(investors, str) else ", ".join(investors)
-            detail_parts.append(f'<b>投资方:</b> {invs_str}')
-
-        detail_html = "<br>".join(detail_parts) if detail_parts else "暂无详细信息"
-        ent_id = serial.replace("#", "")
-
-        return (
-            f'<tr class="data-row" {data_attrs} style="cursor:pointer" onclick="toggleDetail(\'{ent_id}\')">'
-            f'  <td class="col-serial">{serial}</td>'
-            f'  <td><span class="badge {region_cls}">{region}</span></td>'
-            f'  <td class="col-name">{display_name}{sub_cat_html}</td>'
-            f'  <td class="col-cat"><span class="cat-code">{cat_code}</span> {cat_label}</td>'
-            f'  <td class="col-detail">{fund_html}{desc_html}</td>'
-            f'</tr>'
-            f'<tr class="detail-row" id="detail-{ent_id}" style="display:none">'
-            f'  <td colspan="5" class="detail-content">{detail_html}</td>'
-            f'</tr>'
-        )
-
-    rows = "\n".join(build_row(e) for e in enterprises)
-
-    # Category filter buttons (sorted by code)
+    # L1 filter buttons (no numbering)
     cat_buttons = "\n".join(
-        f'<button class="f-btn" data-cat="{code}">{code} {label}<span class="cnt">{cat_counts.get(code, 0)}</span></button>'
-        for code in sorted(CATEGORY_15.keys())
+        f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
+        for l1 in L1_CATS
     )
 
-    html = f'''<!-- build:{BUILD_STAMP} -->
+    html_content = f"""<!-- build:{BUILD_STAMP} -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -186,13 +194,18 @@ def generate():
   --sidebar-bg: #ffffff;
   --card-bg: #ffffff;
   --text: #1a1a1a;
-  --text-secondary: #666;
+  --text-secondary: #555;
   --text-muted: #999;
   --border: #e8e8e8;
   --accent: #0891b2;
   --accent-light: #ecfeff;
-  --china: #3b82f6; --overseas: #10b981;
   --radius: 8px;
+  --tag-bg: #e0f2fe;
+  --tag-text: #0369a1;
+  --cat-bg: #ecfdf5;
+  --cat-text: #065f46;
+  --fund-bg: #fef3c7;
+  --fund-text: #92400e;
 }}
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.5; display:flex; min-height:100vh; }}
@@ -202,68 +215,58 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .sidebar-logo {{ padding:0 16px 16px; border-bottom:1px solid var(--border); margin-bottom:12px; }}
 .sidebar-logo h1 {{ font-size:18px; font-weight:700; color:var(--accent); }}
 .sidebar-logo .logo-sub {{ font-size:11px; color:var(--text-muted); margin-top:2px; }}
-
 .nav-section {{ padding:4px 0; }}
 .nav-label {{ font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; padding:6px 16px 4px; font-weight:600; }}
-.nav-item {{ display:block; padding:8px 16px 8px 24px; font-size:13px; color:var(--text-secondary); text-decoration:none; cursor:pointer; border-left:3px solid transparent; transition:all 0.15s; position:relative; }}
+.nav-item {{ display:block; padding:8px 16px 8px 24px; font-size:13px; color:var(--text-secondary); text-decoration:none; cursor:pointer; border-left:3px solid transparent; transition:all 0.15s; }}
 .nav-item:hover {{ background:#fafafa; color:var(--text); }}
 .nav-item.active {{ background:var(--accent-light); color:var(--accent); border-left-color:var(--accent); font-weight:600; }}
-.nav-item .count {{ float:right; font-size:11px; color:var(--text-muted); font-weight:400; }}
 
 /* Main */
 .main {{ flex:1; margin-left:200px; max-width:980px; width:calc(100% - 200px); padding:24px 32px 60px; }}
-
 .header {{ margin-bottom:16px; }}
 .header h2 {{ font-size:20px; font-weight:700; }}
 .header-stats {{ font-size:12px; color:var(--text-muted); margin-top:4px; }}
 
-/* Search */
-.search-wrap {{ margin-bottom:14px; }}
-.search-wrap input {{ width:100%; padding:9px 14px; border:1px solid var(--border); border-radius:var(--radius); font-size:13px; outline:none; background:var(--card-bg); color:var(--text); }}
-.search-wrap input:focus {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(8,145,178,0.1); }}
-
-/* Filters */
-.filter-row {{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; align-items:center; }}
-.f-label {{ font-size:11px; color:var(--text-muted); font-weight:600; margin-right:4px; }}
-.f-btn {{ padding:4px 10px; border-radius:14px; border:1px solid var(--border); background:var(--card-bg); font-size:11px; cursor:pointer; color:var(--text-secondary); white-space:nowrap; transition:all 0.15s; }}
+/* Search + filter row */
+.toolbar {{ margin-bottom:14px; }}
+.filter-row {{ display:flex; flex-wrap:wrap; gap:5px; margin-bottom:8px; align-items:center; }}
+.f-label {{ font-size:11px; color:var(--text-muted); font-weight:600; margin-right:4px; min-width:36px; }}
+.f-btn {{ padding:3px 10px; border-radius:14px; border:1px solid var(--border); background:var(--card-bg); font-size:11px; cursor:pointer; color:var(--text-secondary); white-space:nowrap; transition:all 0.15s; }}
 .f-btn:hover {{ border-color:var(--accent); color:var(--accent); }}
 .f-btn.active {{ background:var(--accent); color:white; border-color:var(--accent); }}
-.f-btn .cnt {{ font-size:10px; opacity:0.75; margin-left:3px; }}
+.f-btn .cnt {{ font-size:10px; opacity:0.7; margin-left:2px; }}
+.search-inline {{ width:200px; padding:4px 12px; border:1px solid var(--border); border-radius:14px; font-size:12px; outline:none; background:var(--card-bg); color:var(--text); }}
+.search-inline:focus {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(8,145,178,0.1); }}
 
-/* Table */
-.table-wrap {{ background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }}
-.data-table {{ width:100%; border-collapse:collapse; font-size:13px; }}
-.data-table th {{ background:#fafafa; padding:8px 12px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); white-space:nowrap; }}
-.data-row {{ transition:background 0.1s; }}
-.data-row:nth-child(even) {{ background:#fafbfc; }}
-.data-row:hover {{ background:#f0f9ff; }}
-.data-table td {{ padding:7px 12px; border-bottom:1px solid #f0f0f0; vertical-align:middle; }}
+/* Enterprise cards */
+.ent-card {{ background:var(--card-bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:12px 16px; margin-bottom:6px; }}
+.ent-card:hover {{ border-color:#ccc; background:#fcfcfc; }}
 
-/* Column widths */
-.col-serial {{ width:60px; font-size:11px; color:var(--text-muted); font-family:monospace; }}
+.ent-header {{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:4px; }}
+.ent-name {{ font-weight:500; font-size:14px; color:var(--text); }}
+.ent-badge {{ font-size:10px; padding:1px 7px; border-radius:3px; font-weight:400; white-space:nowrap; }}
+.badge-cat {{ background:var(--cat-bg); color:var(--cat-text); }}
+.badge-region {{ font-size:9px; color:var(--text-muted); background:transparent; padding:0 4px; font-weight:400; }}
 
-/* Badges */
-.badge {{ font-size:10px; font-weight:700; padding:2px 7px; border-radius:10px; display:inline-block; white-space:nowrap; vertical-align:middle; }}
-.reg-overseas {{ background:#ecfdf5; color:#065f46; }}
-.reg-china {{ background:#eff6ff; color:#1e40af; }}
+.ent-tags {{ display:inline-flex; gap:3px; flex-wrap:wrap; }}
+.ent-tag {{ font-size:10px; color:var(--tag-text); background:var(--tag-bg); padding:1px 7px; border-radius:3px; font-weight:500; }}
 
-.col-name {{ font-weight:600; min-width:160px; }}
-.sub-cat {{ font-size:10px; color:var(--text-muted); font-weight:400; margin-left:4px; }}
-.col-cat {{ color:var(--text-secondary); font-size:12px; white-space:nowrap; min-width:120px; }}
-.cat-code {{ display:inline-block; background:#f3f4f6; color:var(--text-muted); font-size:10px; padding:1px 4px; border-radius:3px; margin-right:3px; font-family:monospace; }}
-.col-detail {{ color:var(--text-muted); font-size:11px; max-width:360px; }}
-.row-desc {{ display:block; color:var(--text-secondary); margin-top:2px; }}
-.row-fund {{ display:inline-block; background:#fffbeb; color:#92400e; padding:1px 6px; border-radius:4px; font-size:10px; margin-right:4px; }}
+.ent-desc {{ font-size:12px; color:var(--text-secondary); line-height:1.5; margin:2px 0; }}
+.ent-highlights {{ font-size:11px; color:var(--accent); line-height:1.4; margin:2px 0; font-style:italic; }}
+
+.ent-meta {{ display:flex; gap:12px; font-size:11px; color:var(--text-muted); flex-wrap:wrap; align-items:center; margin-top:3px; }}
+.meta-item {{ white-space:nowrap; }}
+.meta-fund {{ color:var(--fund-text); font-weight:500; background:var(--fund-bg); padding:1px 6px; border-radius:3px; }}
+.meta-links {{ margin-left:auto; }}
+.ent-link {{ font-size:11px; color:var(--accent); text-decoration:underline; }}
 
 .footer {{ text-align:center; padding:24px 0 16px; font-size:12px; color:var(--text-muted); border-top:1px solid var(--border); margin-top:24px; }}
-.detail-content {{ padding:12px 16px; background:#f9fafb; font-size:12px; color:var(--text-secondary); line-height:1.8; border-bottom:1px solid var(--border); }}
 .hidden {{ display:none !important; }}
 
 @media (max-width:768px) {{
   .sidebar {{ display:none; }}
   .main {{ margin-left:0; width:100%; padding:16px; max-width:100%; }}
-  .table-wrap {{ overflow-x:auto; }}
-  .data-table {{ min-width:600px; }}
+  .search-inline {{ width:100%; }}
 }}
 </style>
 </head>
@@ -286,41 +289,28 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 
 <div class="header">
   <h2>银发经济企业数据库</h2>
-  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 15 个分类</p>
+  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 13 个一级分类</p>
 </div>
 
-<div class="search-wrap">
-  <input type="text" id="search" placeholder="搜索企业名称..." oninput="filterEnt()">
+<div class="toolbar">
+  <div class="filter-row">
+    <span class="f-label">地区</span>
+    <button class="f-btn active" data-reg="all">全部</button>
+    <button class="f-btn" data-reg="1">国内</button>
+    <button class="f-btn" data-reg="2">海外</button>
+  </div>
+  <div class="filter-row" id="cat-filter">
+    <span class="f-label">分类</span>
+    <button class="f-btn active" data-cat="all">全部</button>
+    {cat_buttons}
+  </div>
+  <div class="filter-row">
+    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称..." oninput="filterEnt()">
+  </div>
 </div>
 
-<div class="filter-row">
-  <span class="f-label">地区</span>
-  <button class="f-btn active" data-reg="all">全部</button>
-  <button class="f-btn" data-reg="1">1 国内</button>
-  <button class="f-btn" data-reg="2">2 海外</button>
-</div>
-
-<div class="filter-row" id="cat-filter">
-  <span class="f-label">类别</span>
-  <button class="f-btn active" data-cat="all">全部</button>
-  {cat_buttons}
-</div>
-
-<div class="table-wrap">
-<table class="data-table">
-<thead>
-<tr>
-  <th>序号</th>
-  <th>地区</th>
-  <th>企业名称</th>
-  <th>分类</th>
-  <th>融资 / 简介</th>
-</tr>
-</thead>
-<tbody id="tbody">
-{rows}
-</tbody>
-</table>
+<div id="ent-list">
+{cards_html}
 </div>
 
 <div class="footer">
@@ -335,22 +325,30 @@ let activeCat = 'all';
 
 function filterEnt() {{
   const q = document.getElementById('search').value.toLowerCase();
-  const rows = document.querySelectorAll('.data-row');
+  const cards = document.querySelectorAll('.ent-card');
+  let visible = 0;
 
-  rows.forEach(row => {{
-    const reg = row.dataset.region;
-    const cat = row.dataset.cat;
-    const name = (row.dataset.name || '').toLowerCase();
+  cards.forEach(card => {{
+    const reg = card.dataset.region;
+    const cat = card.dataset.cat;
+    const name = (card.dataset.name || '').toLowerCase();
 
     const regMatch = activeReg === 'all' || reg === activeReg;
     const catMatch = activeCat === 'all' || cat === activeCat;
     const searchMatch = !q || name.includes(q);
 
-    row.style.display = (regMatch && catMatch && searchMatch) ? '' : 'none';
+    if (regMatch && catMatch && searchMatch) {{
+      card.style.display = '';
+      visible++;
+    }} else {{
+      card.style.display = 'none';
+    }}
   }});
+
+  const stats = document.getElementById('ent-count');
+  if (stats) stats.textContent = visible;
 }}
 
-// Region buttons
 document.querySelectorAll('[data-reg]').forEach(btn => {{
   btn.addEventListener('click', function() {{
     document.querySelectorAll('[data-reg]').forEach(b => b.classList.remove('active'));
@@ -360,7 +358,6 @@ document.querySelectorAll('[data-reg]').forEach(btn => {{
   }});
 }});
 
-// Category buttons
 document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
   btn.addEventListener('click', function() {{
     document.querySelectorAll('#cat-filter [data-cat]').forEach(b => b.classList.remove('active'));
@@ -370,34 +367,25 @@ document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
   }});
 }});
 
-// Initialize
 filterEnt();
-
-function toggleDetail(id) {{
-  const el = document.getElementById('detail-' + id);
-  if (el) {{
-    el.style.display = el.style.display === 'none' ? '' : 'none';
-  }}
-}}
 </script>
 </body>
-</html>'''
+</html>"""
 
     out_path = os.path.join(OUTPUT_DIR, "enterprise.html")
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(html_content)
 
     # Also write to root for GitHub Pages
-    root_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "enterprise.html")
+    root_path = os.path.join(BASE_DIR, "enterprise.html")
     with open(root_path, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(html_content)
 
     print(f"Generated: {out_path}")
     print(f"Total: {total} | Domestic: {domestic} | Overseas: {overseas}")
 
-    # Category breakdown
-    for code in sorted(CATEGORY_15.keys()):
-        print(f"  {code} {CATEGORY_15[code]}: {cat_counts.get(code, 0)}")
+    for l1 in L1_CATS:
+        print(f"  {l1}: {cat_counts.get(l1, 0)}")
 
     return out_path
 

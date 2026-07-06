@@ -7,7 +7,7 @@ import json
 import os
 from datetime import datetime
 
-from config import SCORING_DIMENSIONS, DATA_DIR, HIGH_VALUE_THRESHOLD, WATCH_THRESHOLD, INDUSTRY_TAGS, EVENT_TAGS
+from config import SCORING_DIMENSIONS, DATA_DIR, HIGH_VALUE_THRESHOLD, WATCH_THRESHOLD, NEWS_EVENT_TYPES, TAG_POOL
 
 SCORED_FILE = os.path.join(DATA_DIR, "scored_latest.json")
 
@@ -60,8 +60,8 @@ def build_scoring_prompt(articles):
             f"    summary: {art.get('summary','')[:200]}"
         )
 
-    industry_list = "|".join(INDUSTRY_TAGS)
-    event_list = "|".join(EVENT_TAGS)
+    industry_list = "|".join(list(TAG_POOL.keys()))
+    event_list = "|".join(list(NEWS_EVENT_TYPES.keys()))
 
     prompt = f"""你是银发经济研究专家。对以下资讯打分(0-10分,四维加权:{dim_desc})和推荐理由。
 

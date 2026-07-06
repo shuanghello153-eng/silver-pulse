@@ -1,8 +1,9 @@
 """
-HTML generator for Silver Pulse daily brief — v3 clean UI.
-Left sidebar nav + right content stream (AI-HOT inspired).
-Supports: curated/full views, domestic/overseas filter, viral tag.
-Score display removed per 2026-07-06 — scoring paused.
+HTML generator for Silver Pulse daily brief — v4.
+Event-type L1 classification + domain L2 (reuse enterprise categories).
+Tags displayed separately from categories.
+Search box inline with tag bar (compact).
+Empty fields hidden in cards.
 """
 import json
 import os
@@ -12,14 +13,12 @@ from datetime import datetime
 
 from config import (
     SITE_TITLE, SITE_SUBTITLE, OUTPUT_DIR, DATA_DIR,
-    INDUSTRY_TAGS, EVENT_TAGS, HIGH_VALUE_THRESHOLD, WATCH_THRESHOLD,
-    OVERSEAS_SOURCES, SILVER_FINANCE_ACCOUNTS,
+    NEWS_EVENT_TYPES, NEWS_DOMAINS, TAG_POOL,
+    OVERSEAS_SOURCE_NAMES, SOURCES,
 )
 
-# OVERSEAS_SOURCES from config.py is a set of source name strings
-OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCES
-
-WHITELIST_TAGS = set(INDUSTRY_TAGS + EVENT_TAGS)
+OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCE_NAMES  # alias for clarity
+ALL_TAG_NAMES = set(TAG_POOL.keys())
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
 
@@ -39,9 +38,113 @@ def title_match(t1, t2):
 
 def is_overseas_source(source_name):
     s = source_name.strip()
-    if s in OVERSEAS_SOURCE_NAMES:
-        return True
-    return False
+    return s in OVERSEAS_SOURCE_NAMES
+
+
+def classify_event_type(title, summary, tags):
+    """Classify article into one of NEWS_EVENT_TYPES based on keywords."""
+    text = (title + " " + summary).lower() if title and summary else (title or "").lower()
+
+    # Priority-ordered keyword matching
+    if any(kw in text for kw in ["收购", "acquisition", "acquires", "merger", "并购", "被收购", "合并",
+                                  "收购了", "被买", "buyout", "takeover", "合并了", "并购了",
+                                  "sold to", "bought by", "acquired by"]):
+        return "收购并购"
+
+    if any(kw in text for kw in ["融资", "funding", "raises", "raised", "investment", "invest",
+                                  "series a", "series b", "series c", "seed round", "天使轮",
+                                  "a轮", "b轮", "c轮", "种子轮", "ipo", "上市",
+                                  "venture capital", "vc", "round of funding",
+                                  "secures funding", "secures investment", "获得投资",
+                                  "获投", "获融", "capital raise", "funding round",
+                                  "closes round", "raises $", "raised $",
+                                  "融资过亿", "pre-series", "pre-a", "pre-seed"]):
+        return "融资"
+
+    if any(kw in text for kw in ["政策", "法规", "regulation", "policy", "medicare", "medicaid",
+                                  "bill", "法案", "监管", "政府", "补贴", "长护险",
+                                  "legislation", "fda", "cms", "rule", "规定",
+                                  "指导意见", "管理办法", "条例"]):
+        return "政策法规"
+
+    if any(kw in text for kw in ["发布", "launch", "launched", "unveil", "unveiled", "announce",
+                                  "announced", "新品", "上线", "新产品", "新服务",
+                                  "product launch", "roll out", "rolled out", "debuts",
+                                  "推出", "首发", "发布新"]):
+        return "产品发布"
+
+    if any(kw in text for kw in ["趋势", "report", "研究", "预测", "行业", "市场规模", "growth",
+                                  "forecast", "trend", "insight", "analysis", "数据",
+                                  "白皮书", "报告", "蓝皮书", "年度报告", "survey",
+                                  "market size", "cagr", "compound annual",
+                                  "outlook", "landscape"]):
+        return "行业趋势"
+
+    if any(kw in text for kw in ["高管", "ceo", "cfo", "coo", "cto", "加入", "离职", "离职",
+                                  "任命", "离职", "人事", "joined", "leaves", "resigns",
+                                  "appointed", "executive", "leadership", "换帅",
+                                  "创始人", "联合创始人", "stepping down", "takes over"]):
+        return "人事变动"
+
+    return "其他事件"
+
+
+def classify_domain(title, summary, tags):
+    """Classify article into one or more NEWS_DOMAINS based on keywords."""
+    text = (title + " " + summary).lower() if title and summary else (title or "").lower()
+    matched = []
+
+    # Map domain keywords to enterprise L1 categories
+    domain_keywords = {
+        "购物渠道": ["购物", "电商", "retail", "shopping", "consumer", "渠道", "私域", "会员"],
+        "日常用品": ["鞋", "服饰", "护肤", "染发", "假发", "shoes", "clothing", "skincare",
+                     "hair", "cosmetic", "用品", "日常"],
+        "健康食品": ["食品", "保健品", "营养", "益生菌", "蛋白", "羊奶", "无糖",
+                     "supplement", "nutrition", "protein", "dietary", "otc"],
+        "老年文娱": ["旅游", "教育", "社交", "广场舞", "相亲", "健身", "音乐",
+                     "travel", "education", "social", "dance", "fitness", "music",
+                     "entertainment", "leisure", "lifestyle"],
+        "健康服务": ["健康", "养生", "摔倒", "睡眠", "血压", "血糖", "慢病", "陪诊",
+                     "health", "wellness", "fall detection", "sleep", "blood pressure",
+                     "chronic", "monitoring", "remote patient", "telehealth",
+                     "digital health", "care management"],
+        "适老化改造": ["适老", "改造", "智慧养老", "智能家居", "家居", "iot",
+                       "smart home", "home modification", "accessibility", "aging in place"],
+        "行业服务": ["媒体", "展会", "咨询", "研究", "金融", "理财",
+                     "media", "conference", "consulting", "research", "finance",
+                     "investment", "capital", "fund"],
+        "养老地产": ["地产", "住房", "社区", "运营商", "养老院", "中介",
+                     "real estate", "housing", "community", "residential", "property"],
+        "养老服务": ["护理", "家政", "民政", "长护", "助餐", "助浴", "助洁", "临终",
+                     "care", "nursing", "home care", "caregiver", "assisted living",
+                     "long-term care", "hospice", "personal care", "duty care"],
+        "养老用品": ["轮椅", "拐杖", "助听器", "眼镜", "失禁", "护理垫",
+                     "wheelchair", "walker", "cane", "hearing aid", "incontinence",
+                     "mobility", "assistive device", "daily living aid"],
+        "康复设备": ["康复", "外骨骼", "运动康复", "手部康复", "神经康复",
+                     "rehab", "rehabilitation", "exoskeleton", "physical therapy",
+                     "robotic", "recovery"],
+        "失智老人赛道": ["认知症", "痴呆", "阿尔茨海默", "失智", "早筛",
+                         "dementia", "alzheimer", "cognitive", "memory care",
+                         "cognitive impairment", "mci"],
+        "产业资本/投资机构": ["投资机构", "基金", "vc", "pe", "资本", "风投",
+                             "venture capital", "private equity", "fund", "investor",
+                             "family office", "angel", "incubator"],
+    }
+
+    for domain, keywords in domain_keywords.items():
+        if any(kw in text for kw in keywords):
+            matched.append(domain)
+
+    if not matched:
+        # Default: check if funding/acquisition related → "产业资本/投资机构"
+        if any(kw in text for kw in ["funding", "融资", "raises", "investment", "收购",
+                                      "acquisition", "merger", "ipo", "vc", "资本"]):
+            matched.append("产业资本/投资机构")
+        else:
+            matched.append("健康服务")  # broadest fallback
+
+    return matched
 
 
 def merge_articles(scored, raw):
@@ -62,6 +165,21 @@ def merge_articles(scored, raw):
         s['view'] = 'curated'
         src = s.get('source', '')
         s['region'] = 'overseas' if is_overseas_source(src) else ('domestic' if src else 'unknown')
+        # Classify event type + domain
+        title_text = s.get("title_cn") or s.get("title", "")
+        summary_text = s.get("summary", "") or s.get("raw_content", "")
+        tags_text = s.get("tags", [])
+        s["event_type"] = classify_event_type(title_text, summary_text, tags_text)
+        s["domains"] = classify_domain(title_text, summary_text, tags_text)
+        # Separate tags from classification: tags = free-form tags (from TAG_POOL)
+        # Only keep tags that are in TAG_POOL; others moved to domains
+        raw_tags = s.get("tags", [])
+        clean_tags = [t for t in raw_tags if t in ALL_TAG_NAMES]
+        domain_tags = [t for t in raw_tags if t not in ALL_TAG_NAMES and t not in {"raw", "curated"}]
+        s["tags"] = clean_tags
+        if domain_tags:
+            existing_domains = s.get("domains", [])
+            s["domains"] = list(set(existing_domains + domain_tags))
         merged.append(s)
         url = (s.get('url', '') or '').split('?')[0].rstrip('/')
         if url:
@@ -93,6 +211,11 @@ def merge_articles(scored, raw):
         r['viral'] = False
         src = r.get('source', '')
         r['region'] = 'overseas' if is_overseas_source(src) else ('domestic' if src else 'unknown')
+        # Classify event type + domain for raw articles too
+        title_text = r.get("title_cn") or r.get("title", "")
+        summary_text = r.get("summary", "") or r.get("raw_content", "")
+        r["event_type"] = classify_event_type(title_text, summary_text, [])
+        r["domains"] = classify_domain(title_text, summary_text, [])
         merged.append(r)
         if url:
             seen_raw_urls.add(url)
@@ -105,54 +228,90 @@ def build_card_html(art):
     url = art.get("url", "#")
     source = art.get("source", "Unknown")
     date = art.get("date", "")
-    summary = art.get("summary", art.get("raw_content", ""))[:300]
+    summary = (art.get("summary") or art.get("raw_content", "") or "")[:300]
     tags = art.get("tags", [])
     view = art.get("view", "curated")
     region = art.get("region", "unknown")
+    event_type = art.get("event_type", "其他事件")
+    domains = art.get("domains", [])
     is_viral = art.get("viral", False)
 
-    # Score badge removed — scoring paused
-    score_badge = ""
-    quality_class = ""
-
-    viral_badge = '<span class="viral-tag">🔥 爆款</span>' if is_viral else ''
-
+    # Build region badge
     region_tag = ""
     if region == "overseas":
-        region_tag = '<span class="region-tag region-overseas">海外</span>'
+        region_tag = '<span class="badge-region region-overseas">海外</span>'
     elif region == "domestic":
-        region_tag = '<span class="region-tag region-domestic">国内</span>'
+        region_tag = '<span class="badge-region region-domestic">国内</span>'
 
-    tags_html = "".join(
-        '<span class="tag">%s</span>' % t for t in tags[:4] if t in WHITELIST_TAGS
-    ) if tags else ""
+    # Build viral badge
+    viral_badge = '<span class="viral-tag">🔥 爆款</span>' if is_viral else ''
+
+    # Build event type badge (highlighted)
+    event_badge = '<span class="badge-event">%s</span>' % event_type
+
+    # Build domain badges (secondary)
+    domain_badges = "".join(
+        '<span class="badge-domain">%s</span>' % d for d in domains[:3]
+    )
+
+    # Build tag badges (from TAG_POOL, slightly prominent)
+    tag_badges = "".join(
+        '<span class="badge-tag">%s</span>' % t for t in tags[:5]
+    )
+
+    # Build meta line: source + badges
+    meta_parts = ['<span class="feed-source">%s</span>' % source]
+    if region_tag:
+        meta_parts.append(region_tag)
+    if viral_badge:
+        meta_parts.append(viral_badge)
+    meta_html = '<div class="feed-meta">%s</div>' % " ".join(meta_parts)
+
+    # Build classification line: event type + domains + tags
+    class_parts = [event_badge]
+    if domain_badges:
+        class_parts.append(domain_badges)
+    class_html = '<div class="feed-class">%s</div>' % " ".join(class_parts)
+
+    # Build tag line (separate from classification)
+    tag_html = '<div class="feed-tags">%s</div>' % tag_badges if tag_badges else ""
+
+    # Build summary (only if not empty)
+    summary_html = '<p class="feed-summary">%s</p>' % summary if summary else ""
+
+    # Recommendation (only if not empty)
+    rec = art.get("recommendation", "")
+    rec_html = '<p class="feed-rec">%s</p>' % rec if rec else ""
 
     card = (
         '<div class="feed-item" data-view="%s" '
-        'data-date="%s" data-tags="%s" data-region="%s">\n'
+        'data-date="%s" data-event="%s" data-domains="%s" '
+        'data-tags="%s" data-region="%s">\n'
         '  <div class="feed-time">%s</div>\n'
         '  <div class="feed-body">\n'
-        '    <div class="feed-meta">'
-        '      <span class="feed-source">%s</span>'
-        '      %s %s\n'
-        '    </div>\n'
+        '    %s\n'
+        '    %s\n'
         '    <h3 class="feed-title"><a href="%s" target="_blank" rel="noopener">%s</a></h3>\n'
         '%s'
+        '%s\n'
         '%s\n'
         '  </div>\n'
         '</div>'
     ) % (
-        view, date, ",".join(tags), region,
+        view, date or "", event_type, ",".join(domains),
+        ",".join(tags), region,
         date or "",
-        source, region_tag, viral_badge,
+        meta_html,
+        class_html,
         url, title,
-        '<p class="feed-summary">%s</p>\n' % summary if summary else "",
-        '<div class="feed-tags">%s</div>\n' % tags_html if tags_html else "",
+        summary_html,
+        tag_html,
+        rec_html,
     )
     return card
 
 
-# === CSS Stylesheet (static) ===
+# === CSS Stylesheet ===
 CSS_STYLES = """
 :root{--bg:#f5f5f5;--sidebar-bg:#fff;--card-bg:#fff;--text:#1a1a1a;
 --text-secondary:#666;--text-muted:#999;--border:#e8e8e8;--accent:#0891b2;
@@ -168,55 +327,67 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .nav-item{display:block;padding:8px 16px 8px 24px;font-size:13px;color:var(--text-secondary);text-decoration:none;cursor:pointer;border-left:3px solid transparent;transition:all .15s;position:relative}
 .nav-item:hover{background:#fafafa;color:var(--text)}
 .nav-item.active{background:var(--accent-light);color:var(--accent);border-left-color:var(--accent);font-weight:600}
-.nav-item .count{float:right;font-size:11px;color:var(--text-muted);font-weight:400}
 .nav-divider{height:1px;background:var(--border);margin:8px 16px}
 .main{flex:1;margin-left:200px;max-width:980px;width:calc(100% - 200px);padding:24px 32px 60px}
 .header{margin-bottom:20px}
 .header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
 .header h2{font-size:20px;font-weight:700}
 .header-stats{font-size:12px;color:var(--text-muted)}
-.view-pills{display:inline-flex;gap:4px;background:var(--bg);padding:3px;border-radius:20px;margin-bottom:16px}
+.view-pills{display:inline-flex;gap:4px;background:var(--bg);padding:3px;border-radius:20px;margin-bottom:12px}
 .view-pill{padding:5px 16px;border-radius:17px;border:none;background:transparent;cursor:pointer;font-size:12px;font-weight:500;color:var(--text-secondary);transition:all .15s}
 .view-pill.active{background:var(--card-bg);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.08);font-weight:600}
 .region-pills{display:inline-flex;gap:4px;margin-left:12px;vertical-align:middle}
 .region-pill{padding:5px 14px;border-radius:17px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
 .region-pill.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
-.tag-bar{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px;align-items:center}
-.tag-bar-label{font-size:11px;color:var(--text-muted);margin-right:4px;min-width:32px}
-.tag-btn{padding:3px 10px;border-radius:14px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s}
-.tag-btn:hover{border-color:var(--accent);color:var(--accent)}
-.tag-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.search-wrap{margin-bottom:12px}
-.search-wrap input{width:100%;padding:8px 14px;border:1px solid var(--border);border-radius:var(--radius);font-size:13px;outline:none;background:var(--card-bg);color:var(--text)}
-.search-wrap input:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.1)}
-.feed-item{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--border)}
+
+/* Filter bar: event type + domain + tags + search — all inline */
+.filter-section{margin-bottom:16px}
+.filter-row{display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap}
+.filter-label{font-size:11px;color:var(--text-muted);min-width:40px;font-weight:600}
+.filter-btns{display:flex;flex-wrap:wrap;gap:4px}
+.filter-btn{padding:3px 10px;border-radius:14px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s}
+.filter-btn:hover{border-color:var(--accent);color:var(--accent)}
+.filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.search-inline{padding:4px 12px;border:1px solid var(--border);border-radius:14px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:140px;transition:all .15s}
+.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.1);width:200px}
+
+/* Feed cards */
+.feed-item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--border)}
 .feed-item:last-child{border-bottom:none}
 .feed-time{flex-shrink:0;width:52px;font-size:13px;font-weight:700;color:var(--text-muted);padding-top:2px;text-align:right}
 .feed-body{flex:1;min-width:0}
-.feed-meta{display:flex;align-items:center;gap:6px;margin-bottom:5px;flex-wrap:wrap}
+.feed-meta{display:flex;align-items:center;gap:6px;margin-bottom:3px;flex-wrap:wrap}
 .feed-source{font-size:12px;color:var(--text-muted);font-weight:500}
-.region-tag{font-size:10px;padding:1px 7px;border-radius:10px;font-weight:600}
-.region-overseas{background:#ecfdf5;color:#065f46}
-.region-domestic{background:#eff6ff;color:#1e40af}
-.viral-tag{font-size:11px;font-weight:700;color:#dc2626;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
-.feed-title{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:4px}
+.feed-class{display:flex;align-items:center;gap:4px;margin-bottom:5px;flex-wrap:wrap}
+.feed-title{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:3px}
 .feed-title a{color:var(--text);text-decoration:none}
 .feed-title a:hover{color:var(--accent)}
-.feed-summary{font-size:13px;color:var(--text-secondary);line-height:1.55;margin-bottom:6px}
-.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px}
-.tag{font-size:10px;padding:2px 8px;border-radius:4px;background:#f0f0f0;color:var(--text-secondary);font-weight:500}
+.feed-summary{font-size:13px;color:var(--text-secondary);line-height:1.55;margin-bottom:4px}
+.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:4px}
+.feed-rec{font-size:12px;color:var(--accent);line-height:1.5;margin-bottom:4px;border-left:2px solid var(--accent);padding-left:8px}
+
+/* Badges */
+.badge-region{font-size:10px;padding:1px 7px;border-radius:10px;font-weight:600}
+.badge-region.region-overseas{background:#ecfdf5;color:#065f46}
+.badge-region.region-domestic{background:#eff6ff;color:#1e40af}
+.badge-event{font-size:10px;padding:2px 8px;border-radius:4px;background:#fef3c7;color:#92400e;font-weight:600}
+.badge-domain{font-size:10px;padding:2px 8px;border-radius:4px;background:#f0f0f0;color:var(--text-secondary);font-weight:500}
+.badge-tag{font-size:10px;padding:2px 8px;border-radius:4px;background:#dbeafe;color:#1e40af;font-weight:500}
+.viral-tag{font-size:11px;font-weight:700;color:#dc2626;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+
 .footer{text-align:center;padding:32px 0 16px;font-size:12px;color:var(--text-muted);border-top:1px solid var(--border);margin-top:24px}
 .hidden{display:none!important}
-@media(max-width:768px){.sidebar{display:none}.main{margin-left:0;width:100%;padding:16px;max-width:100%}.feed-time{width:42px;font-size:11px}.feed-title{font-size:14px}}
+@media(max-width:768px){.sidebar{display:none}.main{margin-left:0;width:100%;padding:16px;max-width:100%}.feed-time{width:42px;font-size:11px}.feed-title{font-size:14px}.search-inline{width:100px}.search-inline:focus{width:140px}}
 """
 
 
 JS_SCRIPT = """
 let activeView='curated';
 let activeRegion='all';
-let activeIndustryTag='all';
-let activeEventTag='all';
+let activeEvent='all';
+let activeDomain='all';
+let activeTag='all';
 let searchTerm='';
 const items=document.querySelectorAll('.feed-item');
 
@@ -224,7 +395,9 @@ function updateDisplay(){
   let visible=0;
   items.forEach(item=>{
     const v=item.dataset.view;
-    const tags=item.dataset.tags||'';
+    const evt=item.dataset.event||'';
+    const doms=item.dataset.domains||'';
+    const tgs=item.dataset.tags||'';
     const reg=item.dataset.region||'';
     const titleEl=item.querySelector('.feed-title');
     const summaryEl=item.querySelector('.feed-summary');
@@ -233,10 +406,11 @@ function updateDisplay(){
 
     const vm=activeView==='all'||v==='curated';
     const rm=activeRegion==='all'||reg===activeRegion;
-    const im=activeView==='all'||activeIndustryTag==='all'||tags.includes(activeIndustryTag);
-    const em=activeView==='all'||activeEventTag==='all'||tags.includes(activeEventTag);
+    const em=activeEvent==='all'||evt===activeEvent;
+    const dm=activeDomain==='all'||doms.split(',').includes(activeDomain);
+    const tm=activeTag==='all'||tgs.split(',').includes(activeTag);
     const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm);
-    if(vm&&rm&&im&&em&&sm){
+    if(vm&&rm&&em&&dm&&tm&&sm){
       item.style.display='flex';
       visible++;
     }else{item.style.display='none'}
@@ -244,19 +418,17 @@ function updateDisplay(){
   const s=document.getElementById('header-stats');
   s.textContent='更新于 %s · 共 '+visible+' 条';
   const showFilters=activeView!=='all';
-  document.getElementById('tag-bar-industry').style.display=showFilters?'flex':'none';
-  document.getElementById('tag-bar-event').style.display=showFilters?'flex':'none';
-  document.getElementById('region-pills').style.display=showFilters?'flex':'none';
-  document.getElementById('search-wrap').style.display=showFilters?'block':'none';
+  document.getElementById('filter-section').style.display=showFilters?'block':'none';
 }
 
 function setView(view){
-  activeView=view;activeIndustryTag='all';activeEventTag='all';searchTerm='';
+  activeView=view;activeEvent='all';activeDomain='all';activeTag='all';searchTerm='';
   document.getElementById('search-input').value='';
   document.getElementById('pill-curated').classList.toggle('active',view==='curated');
   document.getElementById('pill-all').classList.toggle('active',view==='all');
-  document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
-  document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.tag==='all'));
+  document.querySelectorAll('.filter-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
+  document.querySelectorAll('.filter-btn[data-group="domain"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
+  document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
   document.querySelectorAll('.region-pill').forEach(b=>b.classList.toggle('active',b.dataset.region==='all'));
   activeRegion='all';updateDisplay();
 }
@@ -267,16 +439,22 @@ document.querySelectorAll('.region-pill').forEach(btn=>{
     this.classList.add('active');activeRegion=this.dataset.region;updateDisplay();
   });
 });
-document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(btn=>{
+document.querySelectorAll('.filter-btn[data-group="event"]').forEach(btn=>{
   btn.addEventListener('click',function(){
-    document.querySelectorAll('.tag-btn[data-group="industry"]').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');activeIndustryTag=this.dataset.tag;updateDisplay();
+    document.querySelectorAll('.filter-btn[data-group="event"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeEvent=this.dataset.value;updateDisplay();
   });
 });
-document.querySelectorAll('.tag-btn[data-group="event"]').forEach(btn=>{
+document.querySelectorAll('.filter-btn[data-group="domain"]').forEach(btn=>{
   btn.addEventListener('click',function(){
-    document.querySelectorAll('.tag-btn[data-group="event"]').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');activeEventTag=this.dataset.tag;updateDisplay();
+    document.querySelectorAll('.filter-btn[data-group="domain"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeDomain=this.dataset.value;updateDisplay();
+  });
+});
+document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeTag=this.dataset.value;updateDisplay();
   });
 });
 document.getElementById('search-input').addEventListener('input',function(){
@@ -298,38 +476,51 @@ def generate_html(scored_articles=None, output_path=None):
     merged = merge_articles(scored_articles, raw_articles)
     merged.sort(key=lambda a: a.get("date", "0000-00-00"), reverse=True)
 
-    all_tags = set()
+    # Collect present event types, domains, tags from curated articles
+    present_events = set()
+    present_domains = set()
+    present_tags = set()
     for art in merged:
         if art.get("view") == "curated":
-            for tag in art.get("tags", []):
-                if tag in WHITELIST_TAGS:
-                    all_tags.add(tag)
+            evt = art.get("event_type", "")
+            if evt:
+                present_events.add(evt)
+            for d in art.get("domains", []):
+                present_domains.add(d)
+            for t in art.get("tags", []):
+                if t in ALL_TAG_NAMES:
+                    present_tags.add(t)
 
-    industry_tags_present = [t for t in INDUSTRY_TAGS if t in all_tags]
-    event_tags_present = [t for t in EVENT_TAGS if t in all_tags]
+    # Order: follow config order
+    event_list = [e for e in NEWS_EVENT_TYPES.keys() if e in present_events]
+    domain_list = [d for d in NEWS_DOMAINS if d in present_domains]
+    tag_list = sorted(present_tags)
 
     curated_count = sum(1 for a in merged if a.get("view") == "curated")
     total_count = len(merged)
-
     domestic_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "domestic")
     overseas_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "overseas")
 
     today_str = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    # Build parts
+    # Build cards
     cards_html = "".join(build_card_html(art) for art in merged)
 
-    industry_buttons = "".join(
-        '<button class="tag-btn" data-tag="%s" data-group="industry">%s</button>' % (t, t) for t in industry_tags_present
-    )
+    # Build filter buttons
     event_buttons = "".join(
-        '<button class="tag-btn" data-tag="%s" data-group="event">%s</button>' % (t, t) for t in event_tags_present
+        '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
+    )
+    domain_buttons = "".join(
+        '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list
+    )
+    tag_buttons = "".join(
+        '<button class="filter-btn" data-group="tag" data-value="%s">%s</button>' % (t, t) for t in tag_list
     )
 
     # Inject values into JS template
     js = JS_SCRIPT % (today_str,)
 
-    # Assemble full HTML using string concatenation (no giant f-string)
+    # Assemble full HTML
     parts = [
         '<!-- build:%s -->\n' % BUILD_STAMP,
         '<!DOCTYPE html>\n<html lang="zh-CN">\n<head>',
@@ -374,23 +565,33 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div></div></div>',
 
-        # Industry tag bar
-        '<div class="tag-bar" id="tag-bar-industry">',
-        '<span class="tag-bar-label">行业:</span>',
-        '<button class="tag-btn active" data-tag="all" data-group="industry">全部</button>',
-        industry_buttons,
-        '</div>',
-
-        # Event tag bar
-        '<div class="tag-bar" id="tag-bar-event">',
-        '<span class="tag-bar-label">事件:</span>',
-        '<button class="tag-btn active" data-tag="all" data-group="event">全部</button>',
+        # Filter section (event type + domain + tags + search)
+        '<div class="filter-section" id="filter-section">',
+        # Event type row
+        '<div class="filter-row">',
+        '<span class="filter-label">事件:</span>',
+        '<div class="filter-btns">',
+        '<button class="filter-btn active" data-group="event" data-value="all">全部</button>',
         event_buttons,
         '</div>',
-
-        # Search
-        '<div class="search-wrap" id="search-wrap">',
-        '<input type="text" id="search-input" placeholder="搜索标题或摘要...">',
+        '</div>',
+        # Domain row
+        '<div class="filter-row">',
+        '<span class="filter-label">领域:</span>',
+        '<div class="filter-btns">',
+        '<button class="filter-btn active" data-group="domain" data-value="all">全部</button>',
+        domain_buttons,
+        '</div>',
+        '</div>',
+        # Tag row + inline search
+        '<div class="filter-row">',
+        '<span class="filter-label">标签:</span>',
+        '<div class="filter-btns">',
+        '<button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
+        tag_buttons,
+        '</div>',
+        '<input class="search-inline" type="text" id="search-input" placeholder="搜索...">',
+        '</div>',
         '</div>',
 
         # Feed container
@@ -421,6 +622,9 @@ def generate_html(scored_articles=None, output_path=None):
 
     print("Generated: %s" % output_path)
     print("Articles: %s total (%s curated)" % (total_count, curated_count))
+    print("Event types: %s" % event_list)
+    print("Domains: %s" % domain_list)
+    print("Tags: %s" % tag_list)
     return output_path
 
 
