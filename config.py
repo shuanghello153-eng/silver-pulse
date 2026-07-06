@@ -658,5 +658,66 @@ VIRAL_THRESHOLDS = {
 # ================================================================
 # 9. AUTOMATION
 # ================================================================
-MAX_ARTICLES_TO_SCORE = 30
+# === Signal keywords for pre-scoring (keyword + weight scoring) ===
+# Positive keywords: high-signal events (funding, M&A, product launches, etc.)
+SIGNAL_KEYWORDS_POSITIVE = {
+    # Capital signals (highest weight)
+    "acquires": 5, "acquisition": 5, "acquired": 5,
+    "merger": 4, "mergers": 4,
+    "raises series": 5, "raises $": 5, "raises funding": 5,
+    "series a": 4, "series b": 4, "series c": 5, "series d": 5,
+    "seed round": 3, "seed funding": 3,
+    "ipo": 5, "ipo filing": 5, "goes public": 5,
+    "valued at": 4, "valuation": 4,
+    "funding round": 4, "closes funding": 4, "secures funding": 4,
+    "million in funding": 4, "million investment": 4,
+    "venture capital": 3, "vc funding": 3,
+    "debt financing": 3, "equity financing": 3,
+    "grant funding": 2,
+    # Partnership / expansion signals
+    "partners with": 3, "partnership": 3, "strategic partnership": 4,
+    "partners with": 3,
+    "joint venture": 3, "collaboration": 2,
+    "expands into": 3, "expands to": 3, "expansion": 2,
+    "enters market": 3, "launches in": 3,
+    # Product / launch signals
+    "launches": 3, "launching": 3, "launches new": 3,
+    "unveils": 2, "introduces": 2, "debuts": 3,
+    "rolls out": 2, "releases": 2,
+    # Chinese capital signals
+    "融资": 5, "收购": 5, "并购": 4, "上市": 5,
+    "战略融资": 5, "股权融资": 4, "天使轮": 3,
+    "A轮": 4, "B轮": 4, "C轮": 5, "D轮": 5,
+    "基石投资": 4, "战略投资": 4, "领投": 4,
+    "估值": 4, "投后估值": 4,
+    "战略合作": 3, "达成合作": 3,
+    "发布": 2, "上线": 2, "推出": 2,
+    "进军": 3, "拓展": 2,
+}
+
+# Negative keywords: noise / low-signal content
+SIGNAL_KEYWORDS_NEGATIVE = {
+    "webinar": -4, "webcast": -4, "virtual event": -3,
+    "award": -3, "awarded": -2, "wins award": -4, "best of": -3,
+    "top 10": -4, "top 10 list": -5, "top 5": -3, "top 25": -3,
+    "listicle": -4,
+    "podcast episode": -2, "listen now": -3,
+    "newsletter": -2, "subscribe": -3,
+    "holiday hours": -5, "holiday schedule": -5,
+    "job posting": -5, "hiring": -2, "career opportunity": -4,
+    "press release template": -5,
+    "sponsored content": -3, "sponsored post": -3,
+    # Chinese noise
+    "招聘": -3, "招人": -3, "诚聘": -4,
+    "获奖": -2, "评选": -3,
+    "讲座": -3, "直播预告": -3,
+    "排行榜": -4, "榜单": -3,
+    "年会": -3, "峰会预告": -2,
+}
+
+# Source tier weights: T1 vertical media > T2 general > T3 broad
+SOURCE_TIER_WEIGHTS = {1: 3, 2: 2, 3: 1}
+
+# Max articles to pass to AI scoring (was 30, now 20)
+MAX_ARTICLES_TO_SCORE = 20
 MAX_ARTICLE_AGE_DAYS = 7

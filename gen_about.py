@@ -342,6 +342,19 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p style="margin-top:8px;">无关关键词（共{len(IRRELEVANT_KEYWORDS)}个）：</p>
     <div style="margin:8px 0;">{irrel_kw_html}</div>
 
+    <p style="margin-top:12px;"><b>第二步：信号打分（关键词+权重）</b></p>
+    <ul>
+      <li>通过相关性过滤的文章进入<b>信号打分</b>环节</li>
+      <li><b>加分关键词</b>（权重+3~+5）：acquires/acquisition、raises Series、IPO、valued at、partners with、launches、expands into、融资/收购/并购/上市/A轮/B轮/C轮等</li>
+      <li><b>减分关键词</b>（权重-2~-5）：webinar、award、top 10 list、招聘/获奖/排行榜等噪音内容</li>
+      <li><b>信源权重</b>：T1垂直媒体（+3）> T2综合媒体（+2）> T3宽覆盖（+1）</li>
+      <li><b>叠加奖励</b>：一篇文章命中多个加分关键词时额外加分（2个+1，3个以上+3）</li>
+      <li>最终只保留<b>信号分最高的Top 20条</b>推送至AI评分环节，大幅降低token消耗</li>
+    </ul>
+    <div class="callout">
+      <b>为什么这样设计？</b>全量抓取再人工看效率太低。脚本内置关键词+权重打分，自动过滤噪音（webinar/award/排行榜），优先推送融资/收购/上市等高价值信号。从原来全量30条精简到Top 20条，每次采集节省约30%的AI评分token。
+    </div>
+
     <p style="margin-top:12px;"><b>第三步：展示排序</b></p>
     <ul>
       <li>默认按日期降序（最新优先）</li>

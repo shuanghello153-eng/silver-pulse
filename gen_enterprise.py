@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 """
-gen_enterprise.py — v5 compact card layout
+gen_enterprise.py — v6 compact card layout
 New schema: name, region, category_l1, category_l2, tags, description, highlights,
             funding_latest, funding_total, investors, founded, value_score,
             source, crunchbase_url, website_url
 13-class system, no P0/P1/P2, no numbering in display.
 All fields directly visible — no click-to-expand.
 Empty fields are hidden (not displayed).
+
+v6 changes:
+- 精选/全量切换 (curated = has funding or has real highlights; all = everything)
+- 搜索范围扩展到 name + description + tags
+- 结果计数显示
+- 更紧凑的布局
+- 融资信息更醒目
 """
 import json
 import os
@@ -40,6 +47,34 @@ def esc(text):
     return html.escape(str(text))
 
 
+def is_curated(ent):
+    """Determine if an enterprise is 'curated' (精选).
+    Curated = has real funding info OR has meaningful highlights."""
+    # Has funding_latest with real data
+    fl = ent.get("funding_latest")
+    if fl and isinstance(fl, dict):
+        display = fl.get("display", "")
+        if display and "未披露" not in display and "未公开" not in display:
+            return True
+    # Has funding_total with real data
+    ft = ent.get("funding_total")
+    if ft and isinstance(ft, dict):
+        display = ft.get("display", "")
+        if display and "未披露" not in display and "未公开" not in display:
+            return True
+    # Has investors
+    inv = ent.get("investors")
+    if inv:
+        inv_str = inv if isinstance(inv, str) else ", ".join(inv)
+        if inv_str and "未披露" not in inv_str:
+            return True
+    # Has IPO
+    desc = ent.get("description", "")
+    if desc and ("上市" in desc or "IPO" in desc):
+        return True
+    return False
+
+
 def build_card(ent):
     """Build a compact horizontal card for one enterprise.
     All fields directly visible, empty fields hidden."""
@@ -64,6 +99,7 @@ def build_card(ent):
 
     # Serial for data attribute
     serial = ent.get("serial", "")
+    curated = is_curated(ent)
 
     # --- Build card HTML ---
     parts = []
@@ -106,19 +142,19 @@ def build_card(ent):
     # Latest funding
     if fund_latest and isinstance(fund_latest, dict):
         display = fund_latest.get("display", "")
-        if display:
+        if display and "未披露" not in display and "未公开" not in display:
             meta_parts.append(f'<span class="meta-item meta-fund">{esc(display)}</span>')
 
     # Total funding
     if fund_total and isinstance(fund_total, dict):
         display = fund_total.get("display", "")
-        if display and display != "累计未披露":
-            meta_parts.append(f'<span class="meta-item">{esc(display)}</span>')
+        if display and "未披露" not in display and "未公开" not in display:
+            meta_parts.append(f'<span class="meta-item meta-fund-total">{esc(display)}</span>')
 
     # Investors
     if investors:
         inv_str = investors if isinstance(investors, str) else ", ".join(investors)
-        if inv_str:
+        if inv_str and "未披露" not in inv_str:
             meta_parts.append(f'<span class="meta-item">投资方: {esc(inv_str)}</span>')
 
     # Founded
@@ -127,7 +163,7 @@ def build_card(ent):
 
     # Source
     if source:
-        meta_parts.append(f'<span class="meta-item">{source}</span>')
+        meta_parts.append(f'<span class="meta-item meta-source">{source}</span>')
 
     # Links (small, right-aligned)
     link_parts = []
@@ -143,13 +179,19 @@ def build_card(ent):
 
     # Data attributes for filtering
     search_text = (ent.get("name", "") or "").lower()
+    # Also include description and tags in search data
+    desc_lower = (ent.get("description", "") or "").lower()
+    tags_lower = " ".join((t or "").lower() for t in tags) if isinstance(tags, list) else ""
+    full_search = f"{search_text} {desc_lower} {tags_lower}"
     cat_attr = cat_l1 if cat_l1 else ""
     region_attr = "1" if region == "国内" else "2"
+    curated_attr = "1" if curated else "0"
 
     return (
         f'<div class="ent-card" data-region="{region_attr}" '
         f'data-cat="{esc(cat_attr)}" '
-        f'data-name="{esc(search_text)}" '
+        f'data-name="{esc(full_search)}" '
+        f'data-curated="{curated_attr}" '
         f'data-serial="{esc(serial)}">\n'
         + "\n".join(parts) + "\n"
         + '</div>'
@@ -162,6 +204,7 @@ def generate():
 
     domestic = sum(1 for e in enterprises if e.get("region") == "国内")
     overseas = sum(1 for e in enterprises if e.get("region") == "海外")
+    curated_count = sum(1 for e in enterprises if is_curated(e))
 
     # Category distribution
     cat_counts = {}
@@ -206,6 +249,8 @@ def generate():
   --cat-text: #065f46;
   --fund-bg: #fef3c7;
   --fund-text: #92400e;
+  --fund-total-bg: #f0fdf4;
+  --fund-total-text: #166534;
 }}
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.5; display:flex; min-height:100vh; }}
@@ -238,11 +283,20 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .search-inline {{ width:200px; padding:4px 12px; border:1px solid var(--border); border-radius:14px; font-size:12px; outline:none; background:var(--card-bg); color:var(--text); }}
 .search-inline:focus {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(8,145,178,0.1); }}
 
+/* View toggle */
+.view-toggle {{ display:inline-flex; gap:0; margin-left:8px; border:1px solid var(--border); border-radius:14px; overflow:hidden; }}
+.view-btn {{ padding:3px 12px; border:none; background:var(--card-bg); font-size:11px; cursor:pointer; color:var(--text-secondary); transition:all 0.15s; }}
+.view-btn:hover {{ background:#f5f5f5; }}
+.view-btn.active {{ background:var(--accent); color:white; }}
+
+/* Result count */
+.result-count {{ font-size:11px; color:var(--text-muted); margin-bottom:8px; padding-left:2px; }}
+
 /* Enterprise cards */
-.ent-card {{ background:var(--card-bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:12px 16px; margin-bottom:6px; }}
+.ent-card {{ background:var(--card-bg); border:0.5px solid var(--border); border-radius:var(--radius); padding:10px 16px; margin-bottom:5px; }}
 .ent-card:hover {{ border-color:#ccc; background:#fcfcfc; }}
 
-.ent-header {{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:4px; }}
+.ent-header {{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:3px; }}
 .ent-name {{ font-weight:500; font-size:14px; color:var(--text); }}
 .ent-badge {{ font-size:10px; padding:1px 7px; border-radius:3px; font-weight:400; white-space:nowrap; }}
 .badge-cat {{ background:var(--cat-bg); color:var(--cat-text); }}
@@ -254,9 +308,11 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .ent-desc {{ font-size:12px; color:var(--text-secondary); line-height:1.5; margin:2px 0; }}
 .ent-highlights {{ font-size:11px; color:var(--accent); line-height:1.4; margin:2px 0; font-style:italic; }}
 
-.ent-meta {{ display:flex; gap:12px; font-size:11px; color:var(--text-muted); flex-wrap:wrap; align-items:center; margin-top:3px; }}
+.ent-meta {{ display:flex; gap:10px; font-size:11px; color:var(--text-muted); flex-wrap:wrap; align-items:center; margin-top:3px; }}
 .meta-item {{ white-space:nowrap; }}
 .meta-fund {{ color:var(--fund-text); font-weight:500; background:var(--fund-bg); padding:1px 6px; border-radius:3px; }}
+.meta-fund-total {{ color:var(--fund-total-text); font-weight:500; background:var(--fund-total-bg); padding:1px 6px; border-radius:3px; }}
+.meta-source {{ font-size:10px; opacity:0.7; }}
 .meta-links {{ margin-left:auto; }}
 .ent-link {{ font-size:11px; color:var(--accent); text-decoration:underline; }}
 
@@ -289,16 +345,21 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 
 <div class="header">
   <h2>银发经济企业数据库</h2>
-  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 13 个一级分类</p>
+  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · 13 个一级分类</p>
 </div>
 
 <div class="toolbar">
   <div class="filter-row">
-    <span class="f-label">地区</span>
+    <span class="f-label">视图</span>
+    <div class="view-toggle">
+      <button class="view-btn active" data-view="curated">精选 ({curated_count})</button>
+      <button class="view-btn" data-view="all">全量 ({total})</button>
+    </div>
+    <span class="f-label" style="margin-left:12px;">地区</span>
     <button class="f-btn active" data-reg="all">全部</button>
     <button class="f-btn" data-reg="1">国内</button>
     <button class="f-btn" data-reg="2">海外</button>
-    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称..." oninput="filterEnt()">
+    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
   </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>
@@ -306,6 +367,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     {cat_buttons}
   </div>
 </div>
+
+<div class="result-count" id="result-count"></div>
 
 <div id="ent-list">
 {cards_html}
@@ -320,6 +383,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 <script>
 let activeReg = 'all';
 let activeCat = 'all';
+let activeView = 'curated';
 
 function filterEnt() {{
   const q = document.getElementById('search').value.toLowerCase();
@@ -331,12 +395,14 @@ function filterEnt() {{
     const reg = card.dataset.region;
     const cat = card.dataset.cat;
     const name = (card.dataset.name || '').toLowerCase();
+    const curated = card.dataset.curated === '1';
 
     const regMatch = activeReg === 'all' || reg === activeReg;
     const searchMatch = !q || name.includes(q);
     const catMatch = activeCat === 'all' || cat === activeCat;
+    const viewMatch = activeView === 'all' || curated;
 
-    if (regMatch && searchMatch) {{
+    if (regMatch && searchMatch && viewMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
       if (catMatch) {{
         card.style.display = '';
@@ -349,6 +415,7 @@ function filterEnt() {{
     }}
   }});
 
+  // Update category counts
   document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
     const c = btn.dataset.cat;
     const cntEl = btn.querySelector('.cnt');
@@ -361,10 +428,27 @@ function filterEnt() {{
     }}
   }});
 
-  const stats = document.getElementById('ent-count');
-  if (stats) stats.textContent = visible;
+  // Update result count
+  const rc = document.getElementById('result-count');
+  if (rc) {{
+    const viewLabel = activeView === 'curated' ? '精选' : '全量';
+    const regLabel = activeReg === 'all' ? '全部地区' : (activeReg === '1' ? '国内' : '海外');
+    const catLabel = activeCat === 'all' ? '全部分类' : activeCat;
+    rc.textContent = `展示 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}`;
+  }}
 }}
 
+// View toggle
+document.querySelectorAll('.view-btn').forEach(btn => {{
+  btn.addEventListener('click', function() {{
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    activeView = this.dataset.view;
+    filterEnt();
+  }});
+}});
+
+// Region filter
 document.querySelectorAll('[data-reg]').forEach(btn => {{
   btn.addEventListener('click', function() {{
     document.querySelectorAll('[data-reg]').forEach(b => b.classList.remove('active'));
@@ -376,6 +460,7 @@ document.querySelectorAll('[data-reg]').forEach(btn => {{
   }});
 }});
 
+// Category filter
 document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
   btn.addEventListener('click', function() {{
     document.querySelectorAll('#cat-filter [data-cat]').forEach(b => b.classList.remove('active'));
@@ -400,7 +485,7 @@ filterEnt();
         f.write(html_content)
 
     print(f"Generated: {out_path}")
-    print(f"Total: {total} | Domestic: {domestic} | Overseas: {overseas}")
+    print(f"Total: {total} | Domestic: {domestic} | Overseas: {overseas} | Curated: {curated_count}")
 
     for l1 in L1_CATS:
         print(f"  {l1}: {cat_counts.get(l1, 0)}")

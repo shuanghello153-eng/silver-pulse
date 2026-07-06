@@ -17,6 +17,8 @@ from config import (
     SOURCES, DATA_DIR, RELEVANCE_KEYWORDS, CN_RELEVANCE_KEYWORDS,
     IRRELEVANT_KEYWORDS,
     MAX_ARTICLE_AGE_DAYS,
+    SIGNAL_KEYWORDS_POSITIVE, SIGNAL_KEYWORDS_NEGATIVE, SOURCE_TIER_WEIGHTS,
+    MAX_ARTICLES_TO_SCORE,
 )
 
 CACHE_FILE = os.path.join(DATA_DIR, "history.json")
@@ -275,6 +277,44 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
         return []
 
 
+def score_article(article, source_config):
+    """
+    Score an article based on signal keywords + source tier weight.
+    Returns a numeric signal_score (higher = more newsworthy).
+    
+    Scoring logic:
+    1. Base score from source tier: T1=3, T2=2, T3=1
+    2. + Positive keyword matches (capital events, launches, partnerships)
+    3. - Negative keyword matches (webinars, awards, lists, job posts)
+    4. + Bonus for multiple positive signals (stacking)
+    """
+    text = f"{article.get('title', '')} {article.get('summary', '')}".lower()
+    
+    # Base: source tier weight
+    tier = source_config.get("tier", 3)
+    score = SOURCE_TIER_WEIGHTS.get(tier, 1)
+    
+    # Positive signals
+    positive_hits = 0
+    for kw, weight in SIGNAL_KEYWORDS_POSITIVE.items():
+        if kw.lower() in text:
+            score += weight
+            positive_hits += 1
+    
+    # Stacking bonus: multiple positive signals = stronger story
+    if positive_hits >= 3:
+        score += 3
+    elif positive_hits >= 2:
+        score += 1
+    
+    # Negative signals
+    for kw, weight in SIGNAL_KEYWORDS_NEGATIVE.items():
+        if kw.lower() in text:
+            score += weight  # weight is negative, so this subtracts
+    
+    return round(score, 1)
+
+
 def collect_all(history=None):
     """
     Run all collectors, deduplicate, pre-filter by relevance and date.
@@ -312,7 +352,7 @@ def collect_all(history=None):
 
     save_history(history)
 
-    # Filter by date and relevance
+    # Filter by date and relevance, then score
     relevant_articles = []
     for art in all_articles:
         text = f"{art['title']} {art.get('summary', '')}"
@@ -329,16 +369,37 @@ def collect_all(history=None):
 
         # Only keep relevant articles
         if art["relevant"]:
+            # Score the article
+            source_id = art.get("source_id", "")
+            source_config = SOURCES.get(source_id, {})
+            art["signal_score"] = score_article(art, source_config)
             relevant_articles.append(art)
 
-    # Sort by date descending
+    # Sort by signal_score descending (primary), then date descending (secondary)
     relevant_articles.sort(
+        key=lambda a: (a.get("signal_score", 0), a.get("date", "0000-00-00")),
+        reverse=True
+    )
+
+    # Keep only Top N articles for AI scoring
+    top_articles = relevant_articles[:MAX_ARTICLES_TO_SCORE]
+    
+    # Also sort the top articles by date for display
+    top_articles.sort(
         key=lambda a: a.get("date", "0000-00-00"), reverse=True
     )
 
     print(f"\nTotal: {len(all_articles)} new articles, "
-          f"{len(relevant_articles)} relevant")
-    return relevant_articles
+          f"{len(relevant_articles)} relevant, "
+          f"Top {len(top_articles)} selected for scoring")
+    
+    # Print top 5 for quick preview
+    if top_articles:
+        print("\n--- Top 5 by signal score ---")
+        for a in sorted(top_articles, key=lambda x: x.get("signal_score", 0), reverse=True)[:5]:
+            print(f"  [{a.get('signal_score', 0):.1f}] [{a['source']}] {a['title'][:70]} | {a['date']}")
+    
+    return top_articles
 
 
 if __name__ == "__main__":
