@@ -33,7 +33,7 @@ BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
 # Import from config
 import sys
-from ui_common import COMMON_CSS, SIDEBAR, THEME_JS
+from ui_common import COMMON_CSS, SIDEBAR, THEME_JS, FEEDBACK_CSS, FEEDBACK_JS
 sys.path.insert(0, BASE_DIR)
 from config import ENTERPRISE_CATEGORIES
 
@@ -163,11 +163,12 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None):
     if region:
         header_parts.append(f'<span class="ent-badge badge-region">{esc(region)}</span>')
 
-    # Research-value badge — show as 研究价值 NN; 值得深写 if flagged
+    # Research-value badge — 只显示数字（删"研究价值"文字 + "值得深写"标签）
     if rv is not None:
-        header_parts.append(f'<span class="badge-rv">研究价值 {esc(str(rv))}</span>')
-    if deep:
-        header_parts.append(f'<span class="badge-deep">值得深写</span>')
+        header_parts.append(f'<span class="badge-rv">{esc(str(rv))}</span>')
+    # 收藏按钮（localStorage 反馈）
+    if serial:
+        header_parts.append(f'<button class="fav-btn" data-type="ent" data-id="{esc(serial)}"><span class="ico">☆</span><span class="lbl">收藏</span></button>')
 
     parts.append(f'<div class="ent-header">{" ".join(header_parts)}</div>')
 
@@ -250,9 +251,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None):
             rv = c.get("rv")
             rv_badge = ""
             if rv is not None:
-                rv_badge = f'<span class="badge-rv">研究价值 {esc(str(rv))}</span>'
-                if c.get("deep"):
-                    rv_badge += f'<span class="badge-deep">值得深写</span>'
+                rv_badge = f'<span class="badge-rv">{esc(str(rv))}</span>'
             comp_items.append(
                 f'<a href="{href}" class="ent-comp-link">{esc(c.get("name", ""))}</a>'
                 f'{rv_badge}'
@@ -380,15 +379,25 @@ def generate():
         if l2:
             l2_counts[l1][l2] = l2_counts[l1].get(l2, 0) + 1
 
-    # Build cards
+    # Build cards — 精选优先、研究价值降序（精选视图默认按价值排）
+    def _disp_rv(e):
+        sc = ent_scores_map.get(e.get("serial", ""))
+        return (sc.get("research_value") if sc else None) or e.get("value_score") or 0
+
+    enterprises_sorted = sorted(
+        enterprises,
+        key=lambda e: (1 if is_curated(e) else 0, _disp_rv(e)),
+        reverse=True,
+    )
     cards_html = "\n".join(
         build_card(e, ent_scores_map, news_map, competitors_map.get(e.get("serial", "")))
-        for e in enterprises
+        for e in enterprises_sorted
     )
 
-    # --- Phase 2: 今日值得研究 TOP 企业 (top 15) ---
+    # --- Phase 2: 研究价值 TOP 15 企业 ---
     top_html = '<div class="top-section">'
-    top_html += '<h3 class="top-title">🏆 今日值得研究 TOP 企业</h3>'
+    top_html += '<h3 class="top-title">🏆 研究价值 TOP 15 企业</h3>'
+    top_html += '<p class="top-sub">按「研究价值分」排名。与「精选」口径不同：精选=有看点（有融资/亮点），TOP15=价值分最高的 15 家。</p>'
     top_html += '<div class="top-list">'
     for i, (rv, e, sc) in enumerate(top_ranked, start=1):
         region = e.get("region", "")
@@ -399,14 +408,11 @@ def generate():
         )
         te = sc.get("top_event")
         te_html = f'<span class="top-event">近期: {esc(te)}</span>' if te else ""
-        deep = bool(sc.get("worth_deep_write"))
-        deep_html = f'<span class="badge-deep">值得深写</span>' if deep else ""
         top_html += (
             f'<div class="top-row">'
             f'<span class="top-rank">{i}</span>'
             f'<span class="ent-name">{name}</span>'
-            f'<span class="badge-rv">研究价值 {esc(str(rv))}</span>'
-            f'{deep_html}'
+            f'<span class="badge-rv">{esc(str(rv))}</span>'
             f'<span class="ent-badge badge-region">{esc(region)}</span>'
             f'<span class="ent-tags">{tags_html}</span>'
             f'{te_html}'
@@ -460,14 +466,15 @@ __SIDEBAR__
   <div class="filter-row">
     <span class="f-label">视图</span>
     <div class="view-toggle">
-      <button class="view-btn" data-view="curated">精选 ({curated_count})</button>
-      <button class="view-btn active" data-view="all">全量 ({total})</button>
+      <button class="view-btn active" data-view="curated">精选 ({curated_count})</button>
+      <button class="view-btn" data-view="all">全量 ({total})</button>
     </div>
     <span class="f-label" style="margin-left:12px;">地区</span>
     <button class="f-btn active" data-reg="all">全部</button>
     <button class="f-btn" data-reg="1">国内</button>
     <button class="f-btn" data-reg="2">海外</button>
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
+    <button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>
   </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>
@@ -493,7 +500,7 @@ __SIDEBAR__
 let activeReg = 'all';
 let activeCat = 'all';
 let activeL2 = 'all';
-let activeView = 'all';
+let activeView = 'curated';
 
 function filterEnt() {{
   const q = document.getElementById('search').value.toLowerCase();
@@ -632,8 +639,8 @@ filterEnt();
 </body>
 </html>"""
 
-    html_content = html_content.replace("__COMMON_CSS__", COMMON_CSS).replace("__SIDEBAR__", SIDEBAR("enterprise"))
-    html_content = html_content.replace("</body>", THEME_JS + "\n</body>")
+    html_content = html_content.replace("__COMMON_CSS__", COMMON_CSS + FEEDBACK_CSS).replace("__SIDEBAR__", SIDEBAR("enterprise"))
+    html_content = html_content.replace("</body>", THEME_JS + FEEDBACK_JS + "\n</body>")
     out_path = os.path.join(OUTPUT_DIR, "enterprise.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html_content)

@@ -1,0 +1,1862 @@
+[
+  {
+    "name": "Homage",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家照护平台",
+    "tags": [
+      "居家照护",
+      "平台",
+      "东南亚"
+    ],
+    "description": "新加坡灵活个性化老人健康与照护平台，App预约上门照护。",
+    "funding_latest": "Series C",
+    "funding_total": "",
+    "website_url": "https://www.homage.sg",
+    "source": "Omdena top AgeTech startups",
+    "worth_note": "亚洲居家照护平台标杆，国内可对标居家上门照护模式"
+  },
+  {
+    "name": "Trusty.care",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老金融",
+    "category_l2": "保险科技",
+    "tags": [
+      "保险科技",
+      "会员管理"
+    ],
+    "description": "面向医疗保险销售的端到端会员参与平台，优化销售与留存。",
+    "funding_latest": "Debt Financing",
+    "funding_total": "",
+    "website_url": "https://trusty.care",
+    "source": "Omdena",
+    "worth_note": "保险侧会员运营，对国内长护险商业化有启发"
+  },
+  {
+    "name": "DNX",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "语音远程监测",
+    "tags": [
+      "语音交互",
+      "孤独缓解"
+    ],
+    "description": "通过语音消息与干预改善老人远程监测、行为改变与孤独缓解。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "语音交互降低使用门槛，适合低数字素养老人"
+  },
+  {
+    "name": "Elder",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家照护匹配",
+    "tags": [
+      "居家照护",
+      "英国"
+    ],
+    "description": "英国居家照护平台，24小时内匹配评估过的live-in看护者。",
+    "funding_latest": "Series B",
+    "funding_total": "",
+    "website_url": "https://www.elder.org",
+    "source": "Omdena",
+    "worth_note": "居家照护供给侧匹配模式，可对标国内护工平台"
+  },
+  {
+    "name": "Patronus",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "数字健康",
+    "tags": [
+      "数字健康"
+    ],
+    "description": "以现代数字化技术改善老年医疗被忽视现状的平台。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "聚焦老年医疗数字化空白"
+  },
+  {
+    "name": "Emoha",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家/旅行照护",
+    "tags": [
+      "印度",
+      "居家照护",
+      "紧急响应"
+    ],
+    "description": "印度居家与旅行老人照护服务，含紧急响应与预防监测。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "新兴市场居家照护，人口结构类似中国"
+  },
+  {
+    "name": "Lindera",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "AI防跌倒",
+    "tags": [
+      "AI步态分析",
+      "防跌倒"
+    ],
+    "description": "开发AI步行分析App优化日常照护并专注防跌倒。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://www.lindera.ai",
+    "source": "Omdena",
+    "worth_note": "AI步态分析防跌倒，轻量软件方案易落地"
+  },
+  {
+    "name": "Labrador",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "智能硬件",
+    "category_l2": "辅助机器人",
+    "tags": [
+      "辅助机器人",
+      "送物"
+    ],
+    "description": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活。",
+    "funding_latest": "Seed",
+    "funding_total": "",
+    "website_url": "https://www.labrador.co",
+    "source": "Omdena",
+    "worth_note": "辅助移动机器人切入生活自理场景"
+  },
+  {
+    "name": "SmartQare",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "多传感器监测",
+    "tags": [
+      "生命体征",
+      "跌倒监测"
+    ],
+    "description": "多传感器设备viQtor实现24/7生命体征与跌倒监测。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://smartqare.com",
+    "source": "Omdena",
+    "worth_note": "多传感器一体监测硬件"
+  },
+  {
+    "name": "NurseBuddy",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "照护排班软件",
+    "tags": [
+      "照护软件",
+      "排班"
+    ],
+    "description": "居家照护软件，用AI排班与护理计划节省80%时间。",
+    "funding_latest": "Seed",
+    "funding_total": "",
+    "website_url": "https://nursebuddy.co.uk",
+    "source": "Omdena",
+    "worth_note": "照护机构SaaS，提升护工效率"
+  },
+  {
+    "name": "Aloe Care Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "医疗警报",
+    "tags": [
+      "紧急警报",
+      "跌倒检测"
+    ],
+    "description": "为老人与照护者提供含跌倒检测的医疗警报系统与4G设备。",
+    "funding_latest": "Seed",
+    "funding_total": "",
+    "website_url": "https://www.aloecare.com",
+    "source": "Omdena",
+    "worth_note": "医疗警报+照护者协同硬件"
+  },
+  {
+    "name": "GrandCare Systems",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "智能家庭",
+    "tags": [
+      "远程支持",
+      "传感器"
+    ],
+    "description": "远程支持与辅助技术，通过触摸屏与传感器提升独立生活。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "https://grandcare.com",
+    "source": "Omdena",
+    "worth_note": "早期智能家庭远程照护代表"
+  },
+  {
+    "name": "Cuideo",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家照护平台",
+    "tags": [
+      "西班牙",
+      "居家照护"
+    ],
+    "description": "西班牙居家老人照护服务，平台匹配本地训练看护者。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://www.cuideo.es",
+    "source": "Omdena",
+    "worth_note": "欧洲居家照护平台规模化案例"
+  },
+  {
+    "name": "Cooey Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "远程患者照护",
+    "tags": [
+      "远程医疗",
+      "慢病管理"
+    ],
+    "description": "个性化远程患者照护，整合生理与行为健康并延伸计费管理。",
+    "funding_latest": "Angel",
+    "funding_total": "",
+    "website_url": "https://cooeyhealth.com",
+    "source": "Omdena",
+    "worth_note": "慢病远程管理结合支付"
+  },
+  {
+    "name": "Senniors",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "上门照护",
+    "tags": [
+      "西班牙",
+      "综合疗法"
+    ],
+    "description": "西班牙超100城上门照护，含理疗心理等综合居家疗法。",
+    "funding_latest": "Seed",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "上门综合疗法，适老服务一体化"
+  },
+  {
+    "name": "GrandPad",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "老人平板",
+    "tags": [
+      "社交连接",
+      "平板"
+    ],
+    "description": "专为老人设计的平板，含4G、私人家庭网络与24/7客服。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "https://www.grandpad.net",
+    "source": "Omdena",
+    "worth_note": "极简硬件切入老人社交，国内适老终端可借鉴"
+  },
+  {
+    "name": "LIBIFY",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "紧急呼叫",
+    "tags": [
+      "紧急呼叫",
+      "德国"
+    ],
+    "description": "德国紧急呼叫系统（家用/移动），含跌倒传感器与GPS定位。",
+    "funding_latest": "Series B",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "紧急呼叫硬件出海"
+  },
+  {
+    "name": "Nourish Care",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "照护管理软件",
+    "tags": [
+      "照护软件",
+      "英国"
+    ],
+    "description": "英国照护管理软件，灵活记录协调与报告社交照护。",
+    "funding_latest": "Private Equity",
+    "funding_total": "",
+    "website_url": "https://www.nourishcare.com",
+    "source": "Omdena",
+    "worth_note": "照护管理SaaS被PE收购，赛道整合信号"
+  },
+  {
+    "name": "Herewith",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "上门照护平台",
+    "tags": [
+      "上门照护",
+      "旧金山"
+    ],
+    "description": "旧金山上门照护平台，App做背景调查与虚拟面试匹配看护。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": " caregiver 匹配平台"
+  },
+  {
+    "name": "RetroBrain R&D",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "老年文娱",
+    "category_l2": "认知训练",
+    "tags": [
+      "认知训练",
+      "游戏化"
+    ],
+    "description": "开发手势控制游戏机memoreCare，科学改善老人身心健康。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "游戏化认知训练设备"
+  },
+  {
+    "name": "Empassion Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "照护协调",
+    "tags": [
+      "照护协调",
+      "重病"
+    ],
+    "description": "为重病老人提供协作式进阶照护协调平台。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "重病居家照护协调"
+  },
+  {
+    "name": "eCaring",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "照护软件",
+    "tags": [
+      "排班",
+      "EVV"
+    ],
+    "description": "家用照护软件一体平台，含排班、EVV与护工日结薪激励。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://www.ecaring.com",
+    "source": "Omdena",
+    "worth_note": "照护SaaS+护工激励闭环"
+  },
+  {
+    "name": "Jubo Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "连网照护",
+    "tags": [
+      "生命体征",
+      "访客管理"
+    ],
+    "description": "连网照护方案VitalLink测生命体征、FamilyLine管探访。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.jubo.health",
+    "source": "Omdena",
+    "worth_note": "机构连网照护软硬件"
+  },
+  {
+    "name": "Aline (Sherpa)",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "养老OS",
+    "tags": [
+      "养老软件",
+      "操作系统"
+    ],
+    "description": "养老生活操作系统，整合销售、运营、租赁与居民照护工作流。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.aline.care",
+    "source": "Omdena",
+    "worth_note": "养老机构一体化OS"
+  },
+  {
+    "name": "Smartcare",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "照护软件EMR",
+    "tags": [
+      "EMR",
+      "排班"
+    ],
+    "description": "养老照护软件与EMR，自动化排班匹配护工提升留存。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://smartcare.com",
+    "source": "Omdena",
+    "worth_note": "照护EMR提升留存"
+  },
+  {
+    "name": "MyndVR",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "老年文娱",
+    "category_l2": "VR疗法",
+    "tags": [
+      "VR",
+      "疼痛焦虑缓解"
+    ],
+    "description": "为老人提供虚拟现实疗法以减轻疼痛焦虑的VR方案。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://myndvr.com",
+    "source": "Omdena",
+    "worth_note": "VR用于老年心理舒缓"
+  },
+  {
+    "name": "CARU",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "紧急呼叫",
+    "tags": [
+      "瑞士",
+      "紧急呼叫"
+    ],
+    "description": "瑞士紧急呼叫系统，支持按钮/语音与自动跌倒检测。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "紧急呼叫硬件"
+  },
+  {
+    "name": "PalCare",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "安全呼叫",
+    "tags": [
+      "护士呼叫",
+      "走失管理"
+    ],
+    "description": "养老紧急呼叫、护士呼叫、门禁与走失管理硬件软件平台。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "Omdena",
+    "worth_note": "机构安全呼叫系统"
+  },
+  {
+    "name": "AutumnCare",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "临床管理云",
+    "tags": [
+      "临床管理",
+      "澳洲"
+    ],
+    "description": "澳洲临床管理云软件，含电子药管与现场点采集数据。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.autumn.care",
+    "source": "Omdena",
+    "worth_note": "临床管理云"
+  },
+  {
+    "name": "Mon Ami",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "机构管理软件",
+    "tags": [
+      "机构管理"
+    ],
+    "description": "为老残服务机构重造数据库，自动报告与活动协调。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "https://www.monami.care",
+    "source": "Omdena",
+    "worth_note": "机构管理数据库"
+  },
+  {
+    "name": "Care Daily",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "AI家庭传感器",
+    "tags": [
+      "AI",
+      "行为预测"
+    ],
+    "description": "AI管家学行为基线，预测隐秘健康问题与节能安防。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "https://caredaily.com",
+    "source": "Omdena",
+    "worth_note": "无摄像头AI行为预测"
+  },
+  {
+    "name": "Caring.com",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "信息目录",
+    "tags": [
+      "目录",
+      "顾问"
+    ],
+    "description": "全美养老社区与居家照护免费目录与家庭顾问指导。",
+    "funding_latest": "Private Equity",
+    "funding_total": "",
+    "website_url": "https://www.caring.com",
+    "source": "Omdena",
+    "worth_note": "养老信息聚合流量入口"
+  },
+  {
+    "name": "Eldermark",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "养老软件分析",
+    "tags": [
+      "养老软件",
+      "分析"
+    ],
+    "description": "30年养老软件，分析洞察提收入简行政。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.eldermark.com",
+    "source": "Omdena",
+    "worth_note": "老牌养老软件"
+  },
+  {
+    "name": "ZIBRIO",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "康复设备",
+    "category_l2": "平衡测量",
+    "tags": [
+      "防跌倒",
+      "平衡"
+    ],
+    "description": "平衡测量设备，用稳定性秤预测跌倒风险。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://zibrio.com",
+    "source": "Omdena",
+    "worth_note": "低成本防跌倒筛查硬件"
+  },
+  {
+    "name": "Intus Care",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "健康分析",
+    "tags": [
+      "AI",
+      "PACE"
+    ],
+    "description": "养老医疗分析平台，预测住院与慢病风险优化PACE照护。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://www.intuscare.com",
+    "source": "Omdena",
+    "worth_note": "数据驱动降低住院率"
+  },
+  {
+    "name": "Effectivate",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "老年文娱",
+    "category_l2": "脑训练",
+    "tags": [
+      "认知训练",
+      "AI"
+    ],
+    "description": "机器学习脑训练平台，个性化改善老人记忆与认知。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://effectivate.com",
+    "source": "Omdena",
+    "worth_note": "个性化脑训练"
+  },
+  {
+    "name": "Gubbe",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "照护连接App",
+    "tags": [
+      "芬兰",
+      "传感器"
+    ],
+    "description": "芬兰连接老人与看护者App，含传感器跌倒监测。",
+    "funding_latest": "Seed",
+    "funding_total": "",
+    "website_url": "https://gubbe.com",
+    "source": "Omdena",
+    "worth_note": "北欧照护连接"
+  },
+  {
+    "name": "CareConnectMD",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "价值型医疗",
+    "tags": [
+      "到家",
+      "价值医疗"
+    ],
+    "description": "25年经验将价值型照护带入急性后设置的复杂病患。",
+    "funding_latest": "Private Equity",
+    "funding_total": "",
+    "website_url": "https://careconnectmd.com",
+    "source": "Omdena",
+    "worth_note": "价值型医疗到家"
+  },
+  {
+    "name": "HaloCare",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "虚拟监护",
+    "tags": [
+      "爱尔兰",
+      "远程监护"
+    ],
+    "description": "爱尔兰辅助生活技术，用智能设备虚拟监护老人居家。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://halocare.ie",
+    "source": "Omdena",
+    "worth_note": "虚拟监护居家"
+  },
+  {
+    "name": "Endear Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "健康平台API",
+    "tags": [
+      "API",
+      "会员体验"
+    ],
+    "description": "API连接平台让支付方与供方为老人提供最佳会员体验。",
+    "funding_latest": "Venture",
+    "funding_total": "",
+    "website_url": "https://endearhealth.com",
+    "source": "Omdena",
+    "worth_note": "支付方-供方API中台"
+  },
+  {
+    "name": "Sensi",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "音频分析",
+    "tags": [
+      "音频AI",
+      "远程监测"
+    ],
+    "description": "触发式音频分析平台，在家护中预测预防异常且保隐私。",
+    "funding_latest": "Series C",
+    "funding_total": "累计约$45M(2025)",
+    "website_url": "https://www.sensi.ai",
+    "source": "Omdena / Sensi.AI $45M 2025",
+    "worth_note": "2025年$45M Series C，无摄像头音频监测差异化"
+  },
+  {
+    "name": "Sensara",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "自学习传感",
+    "tags": [
+      "传感器",
+      "防跌"
+    ],
+    "description": "自学习传感技术，仅发相关警报让老人自由活动防跌。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://www.sensara.com",
+    "source": "Omdena",
+    "worth_note": "自学习传感降误报"
+  },
+  {
+    "name": "Good Life Sorted",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "智能家庭App",
+    "tags": [
+      "用药提醒",
+      "社交"
+    ],
+    "description": "老人App与智能家技术提醒用药、连社交减孤立。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://goodlifesorted.com",
+    "source": "Omdena",
+    "worth_note": "用药+社交综合"
+  },
+  {
+    "name": "Cubigo",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "养老生活云",
+    "tags": [
+      "社区平台",
+      "运营"
+    ],
+    "description": "养老生活云集成非临床运营（餐饮、维修等）提效率。",
+    "funding_latest": "Series A",
+    "funding_total": "",
+    "website_url": "https://www.cubigo.com",
+    "source": "Omdena",
+    "worth_note": "养老社区运营中台"
+  },
+  {
+    "name": "Sage",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "AI监测平台",
+    "tags": [
+      "AI",
+      "防跌倒",
+      "Goldman Sachs"
+    ],
+    "description": "AI养老护理平台，预测分析预防跌倒与衰退，服务护理机构。",
+    "funding_latest": "Series C $65M (2026)",
+    "funding_total": "",
+    "website_url": "https://www.sagecare.ai",
+    "source": "Sage $65M Series C 2026 (Goldman Sachs)",
+    "worth_note": "Goldman Sachs领投$65M，AI预测式照护代表"
+  },
+  {
+    "name": "NewLimit",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "长寿科技",
+    "tags": [
+      "细胞重编程",
+      "长寿"
+    ],
+    "description": "细胞重编程抗衰老公司，推进人类临床实验。",
+    "funding_latest": "Series C $435M (2026)",
+    "funding_total": "",
+    "website_url": "https://www.newlimit.com",
+    "source": "NewLimit $435M Series C 2026",
+    "worth_note": "估值$3.1B长寿科技独角兽，资本热度极高"
+  },
+  {
+    "name": "Fountain Life",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "长寿诊所",
+    "tags": [
+      "长寿诊所",
+      "预防"
+    ],
+    "description": "高端长寿诊所，提供全面体检与早筛服务。",
+    "funding_latest": "$18M",
+    "funding_total": "",
+    "website_url": "https://www.fountainlife.com",
+    "source": "Fountain Life $18M",
+    "worth_note": "长寿诊所商业模式，国内可对标"
+  },
+  {
+    "name": "OneSkin",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "皮肤长寿",
+    "tags": [
+      "长寿",
+      "护肤"
+    ],
+    "description": "开发延缓衰老的皮肤长寿产品（_topical senescence）。",
+    "funding_latest": "$20M",
+    "funding_total": "",
+    "website_url": "https://www.oneskin.co",
+    "source": "OneSkin $20M",
+    "worth_note": "消费级长寿护肤，银发个护交叉"
+  },
+  {
+    "name": "Intuition Robotics",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "智能硬件",
+    "category_l2": "陪伴机器人",
+    "tags": [
+      "陪伴机器人",
+      "ElliQ",
+      "孤独"
+    ],
+    "description": "AI社交陪伴机器人ElliQ，缓解老人孤独、健康教练。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.intuitionrobotics.com",
+    "source": "AgeTech Collaborative / ElliQ Japan合作",
+    "worth_note": "陪伴机器人标杆ElliQ，日本市场落地"
+  },
+  {
+    "name": "Wanda Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "远程监测",
+    "tags": [
+      "RPM",
+      "英国"
+    ],
+    "description": "布里斯托远程患者监测平台，加速居家慢病管理增长。",
+    "funding_latest": "£1.09M (2025)",
+    "funding_total": "",
+    "website_url": "https://wandahealth.com",
+    "source": "Wanda Health £1.09M 2025",
+    "worth_note": "远程患者监测出海"
+  },
+  {
+    "name": "Percipio Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "远程监测",
+    "tags": [
+      "RPM",
+      "智能手机"
+    ],
+    "description": "智能手机远程患者监测平台，AI分析健康数据。",
+    "funding_latest": "Series A $16M (2025)",
+    "funding_total": "",
+    "website_url": "https://percipiohealth.com",
+    "source": "Percipio Health $16M 2025",
+    "worth_note": "手机即监测终端，低门槛"
+  },
+  {
+    "name": "The Helper Bees",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家护理对接",
+    "tags": [
+      "保险对接",
+      "居家护理"
+    ],
+    "description": "提供审核家居护理服务的技术平台，与保险计划集成。",
+    "funding_latest": "Series C $35M",
+    "funding_total": "",
+    "website_url": "https://www.thehelperbees.com",
+    "source": "The Helper Bees $35M Series C",
+    "worth_note": "保险+居家护理连接，国内长护险可借鉴"
+  },
+  {
+    "name": "Haelo",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "穿戴戒指",
+    "tags": [
+      "戒指",
+      "跌倒检测"
+    ],
+    "description": "持续监测戒指，实时检测跌倒与健康异常。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.haelo.com",
+    "source": "Haelo AgeTech Collaborative 2026",
+    "worth_note": "戒指形态可穿戴，适老佩戴友好"
+  },
+  {
+    "name": "Uniper Care",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "老年文娱",
+    "category_l2": "虚拟老年中心",
+    "tags": [
+      "虚拟社区",
+      "远程活动"
+    ],
+    "description": "数字平台连接老人到社区活动、互动内容与远程关怀。",
+    "funding_latest": "",
+    "funding_total": "累计约$18.6M",
+    "website_url": "https://www.unipercare.com",
+    "source": "Uniper Care $18.6M total",
+    "worth_note": "虚拟老年中心，对抗孤立"
+  },
+  {
+    "name": "Axena Health",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "女性盆底",
+    "tags": [
+      "盆底健康",
+      "处方"
+    ],
+    "description": "医生处方、非侵入式女性盆底健康系统，带入家庭。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://axenahealth.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "老年女性健康细分，国内空白"
+  },
+  {
+    "name": "Neursantys",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "康复设备",
+    "category_l2": "平衡恢复",
+    "tags": [
+      "前庭",
+      "防跌",
+      "生物电子"
+    ],
+    "description": "非侵入式生物电子平台测量并恢复前庭平衡，降跌倒风险。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://neursantys.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "生物电子防跌新路径"
+  },
+  {
+    "name": "Cadense",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "康复设备",
+    "category_l2": "自适应鞋",
+    "tags": [
+      "机器人",
+      "行走辅助"
+    ],
+    "description": "结合机器人与生物力学的自适应鞋，帮助行走困难者。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://cadense.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "消费级助行鞋，康复+时尚"
+  },
+  {
+    "name": "Cherish",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "雷达监测",
+    "tags": [
+      "雷达",
+      "隐私优先"
+    ],
+    "description": "雷达传感器隐私优先环境监测，实时检测风险无需穿戴/摄像头。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.cherishhealth.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "雷达无感监测，隐私友好"
+  },
+  {
+    "name": "Diligent Robotics",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "智能硬件",
+    "category_l2": "医院机器人",
+    "tags": [
+      "Moxi",
+      "医院机器人"
+    ],
+    "description": "AI机器人助手Moxi在医院执行日常非护理任务，减轻医护负担。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.diligentrobots.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "医疗场景机器人，可延伸至养老"
+  },
+  {
+    "name": "Elemind",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "神经助眠",
+    "tags": [
+      "神经技术",
+      "助眠",
+      "可穿戴"
+    ],
+    "description": "可穿戴神经技术，EEG驱动无药物声脉冲引导快速入睡。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://elemindtech.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "无药物助眠，老年失眠刚需"
+  },
+  {
+    "name": "Mindr",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "脑健康",
+    "tags": [
+      "AI教练",
+      "痴呆预防"
+    ],
+    "description": "AI驱动教练平台，为中年期（尤其照护者）提供每日脑健康活动降痴呆风险。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.mindr.us",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "痴呆风险前置干预"
+  },
+  {
+    "name": "Healthnix",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "营养",
+    "tags": [
+      "生物标志物",
+      "营养"
+    ],
+    "description": "软件工具助临床医生大规模提供基于生物标志物的个性化营养。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://healthnix.io",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "精准营养数字化"
+  },
+  {
+    "name": "Jona",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "微生态",
+    "tags": [
+      "微生物组",
+      "AI"
+    ],
+    "description": "用AI将微生物组数据转为个性化健康洞察与“数字孪生”。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://jona.health",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "肠道微生态个性化健康"
+  },
+  {
+    "name": "Miils",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "银发消费",
+    "category_l2": "膳食计划",
+    "tags": [
+      "AI膳食",
+      "杂货"
+    ],
+    "description": "AI为老年人提供个性化膳食计划、营养信息与简易在线杂货采购。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://miils.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "老年食品电商+营养"
+  },
+  {
+    "name": "Pepper",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "银发消费",
+    "category_l2": "社交烹饪",
+    "tags": [
+      "烹饪",
+      "社交"
+    ],
+    "description": "社交烹饪App，连接家庭厨师共享食谱、留存家庭美食记忆。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.peppertheapp.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "美食社交切入老年情感"
+  },
+  {
+    "name": "Ultrahuman",
+    "name_cn": "",
+    "region": "海外",
+    "category_l1": "适老科技",
+    "category_l2": "生物标志物追踪",
+    "tags": [
+      "可穿戴",
+      "睡眠血糖"
+    ],
+    "description": "追踪睡眠、运动、血糖等生物标志物的产品套件优化健康。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "https://www.ultrahuman.com",
+    "source": "AgeTech Collaborative 13",
+    "worth_note": "消费级生物标志物追踪，活力老人"
+  },
+  {
+    "name": "玄源科技 X-ORIGIN-AI",
+    "name_cn": "玄源科技",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "陪伴机器人",
+    "tags": [
+      "AI伴侣",
+      "消费级",
+      "出海"
+    ],
+    "description": "消费级AI机器人，围绕全生命周期需求构建个性化AI伴侣。",
+    "funding_latest": "近亿元 Pre-A轮(2025.4)",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人 / 玄源科技",
+    "worth_note": "全生命周期AI伴侣，出海定位清晰"
+  },
+  {
+    "name": "优龙机器人",
+    "name_cn": "优龙机器人",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "柔性外骨骼",
+    "tags": [
+      "外骨骼",
+      "助行",
+      "国资"
+    ],
+    "description": "柔性外骨骼助行产品，通过二类医疗器械认证，医养双落地。",
+    "funding_latest": "国资战略投资(长沙城发+谊安)",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "国资+产业资本双背书，外骨骼刚需"
+  },
+  {
+    "name": "程天科技",
+    "name_cn": "程天科技",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "外骨骼助行",
+    "tags": [
+      "消费级",
+      "外骨骼"
+    ],
+    "description": "智慧康养外骨骼助行器（消费级“易行EasyGo”），数百台15秒售罄。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人 / ITH",
+    "worth_note": "消费级外骨骼爆品验证，C端突破样本"
+  },
+  {
+    "name": "傅利叶智能",
+    "name_cn": "傅利叶智能",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "康复机器人",
+    "tags": [
+      "康复机器人",
+      "具身智能"
+    ],
+    "description": "康复机器人矩阵（伽利略、下肢外骨骼等），进驻超500家医疗机构。",
+    "funding_latest": "E轮及追加累计超11亿元",
+    "funding_total": "累计超11亿元",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "康复机器人龙头，资本密集加持"
+  },
+  {
+    "name": "乐聚机器人",
+    "name_cn": "乐聚机器人",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "人形机器人",
+    "tags": [
+      "人形机器人",
+      "Pre-IPO",
+      "居家陪伴"
+    ],
+    "description": "推出家庭场景人形机器人，布局居家养老陪伴。",
+    "funding_latest": "近15亿元 Pre-IPO轮",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "人形机器人Pre-IPO，居家养老想象空间大"
+  },
+  {
+    "name": "迈步机器人",
+    "name_cn": "迈步机器人",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "康复机器人",
+    "tags": [
+      "康复机器人"
+    ],
+    "description": "康复机器人研发，初具规模企业之一。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "康复机器人赛道成员"
+  },
+  {
+    "name": "卓道医疗",
+    "name_cn": "卓道医疗",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "智能康复",
+    "tags": [
+      "智能康复",
+      "OT/PT/ST"
+    ],
+    "description": "围绕核心产品搭建智能康复综合解决方案（智慧方舟）。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "智能康复综合方案"
+  },
+  {
+    "name": "江苏艾雨文承",
+    "name_cn": "江苏艾雨文承",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "陪伴机器人",
+    "tags": [
+      "大头阿亮",
+      "养老机器人"
+    ],
+    "description": "推出集多功能一体的智能养老机器人“大头阿亮”（已至第四代）。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "多合一养老机器人量产迭代"
+  },
+  {
+    "name": "麦迪科技",
+    "name_cn": "麦迪科技",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "康养机器人",
+    "tags": [
+      "医疗信息化",
+      "护理陪伴机器人"
+    ],
+    "description": "与傅利叶智能等合作打造医疗看护/护理/陪伴智能康养机器人。",
+    "funding_latest": "上市公司(合作)",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "上市公司切入康养机器人"
+  },
+  {
+    "name": "达闼机器人",
+    "name_cn": "达闼机器人",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "人形机器人",
+    "tags": [
+      "洗护",
+      "人形机器人"
+    ],
+    "description": "与厦门松霖合作研发配备灵巧手的洗护康养人形机器人。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "洗护康养人形机器人"
+  },
+  {
+    "name": "欧圣电气(伊利诺)",
+    "name_cn": "欧圣电气",
+    "region": "国内",
+    "category_l1": "失能照护",
+    "category_l2": "二便护理",
+    "tags": [
+      "ICARE-BOT",
+      "二便护理"
+    ],
+    "description": "旗下伊利诺ICARE-BOT二便智能护理机器人获多国认证并批量生产。",
+    "funding_latest": "上市公司子公司",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "二便护理机器人批量生产"
+  },
+  {
+    "name": "中科行智",
+    "name_cn": "中科行智",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "康养机器人",
+    "tags": [
+      "康养机器人"
+    ],
+    "description": "与麦迪科技、傅利叶智能合作智能康养机器人。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "康养机器人协作生态"
+  },
+  {
+    "name": "大象机器人",
+    "name_cn": "大象机器人",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "仿生陪伴",
+    "tags": [
+      "仿生宠物",
+      "出海",
+      "metaPanda"
+    ],
+    "description": "仿生陪伴机器人（metaPanda/metaCat/metaDog），海外销售占70%。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "仿生宠物陪伴，出海占比高"
+  },
+  {
+    "name": "萌友智能",
+    "name_cn": "萌友智能",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "AI机器宠物",
+    "tags": [
+      "Ropet",
+      "CES",
+      "陪伴"
+    ],
+    "description": "首款AI机器宠物Ropet，2025 CES受欢迎，早鸟价189美元。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "消费级AI宠物，CES爆款"
+  },
+  {
+    "name": "中科源码",
+    "name_cn": "中科源码",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "陪伴机器人",
+    "tags": [
+      "小丽",
+      "长者陪伴"
+    ],
+    "description": "长者陪伴机器人“小丽”，在成都太保家园等应用。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "陪伴机器人机构落地"
+  },
+  {
+    "name": "森丽康科技",
+    "name_cn": "森丽康科技",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "陪伴机器人",
+    "tags": [
+      "小丽",
+      "长者陪伴"
+    ],
+    "description": "推出长者陪伴机器人“小丽”。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "陪伴机器人"
+  },
+  {
+    "name": "腾讯 Robotics X",
+    "name_cn": "腾讯",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "居家服务机器人",
+    "tags": [
+      "小五",
+      "居家服务"
+    ],
+    "description": "居家服务机器人“小五”，面向人机协作的养老服务。",
+    "funding_latest": "大厂实验室",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "大厂居家服务机器人探索"
+  },
+  {
+    "name": "海尔兄弟机器人",
+    "name_cn": "海尔",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "服务机器人",
+    "tags": [
+      "服务机器人",
+      "星动纪元"
+    ],
+    "description": "海尔智家旗下与星动纪元合作服务机器人。",
+    "funding_latest": "大厂",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "家电巨头切入服务机器人"
+  },
+  {
+    "name": "傲鲨智能",
+    "name_cn": "傲鲨智能",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "外骨骼辅具",
+    "tags": [
+      "外骨骼",
+      "社区租赁"
+    ],
+    "description": "外骨骼“养老辅具”，探索社区共享租赁模式。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "外骨骼社区租赁降本"
+  },
+  {
+    "name": "星动纪元",
+    "name_cn": "星动纪元",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "服务机器人",
+    "tags": [
+      "服务机器人",
+      "海尔"
+    ],
+    "description": "与海尔合作服务机器人。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "人形/服务机器人新锐"
+  },
+  {
+    "name": "杭州智元研究院",
+    "name_cn": "杭州智元研究院",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "外骨骼",
+    "tags": [
+      "外骨骼",
+      "预售"
+    ],
+    "description": "开启外骨骼产品个人预售（踏山AsExo-TK1000髋部助行外骨骼）。",
+    "funding_latest": "研究院",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 养老机器人",
+    "worth_note": "外骨骼个人预售"
+  },
+  {
+    "name": "智听科技",
+    "name_cn": "智听科技",
+    "region": "国内",
+    "category_l1": "康复设备",
+    "category_l2": "助听器",
+    "tags": [
+      "AI助听器",
+      "合肥创新投资"
+    ],
+    "description": "专注老年听力障碍解决方案，凭国产替代获资本认可。",
+    "funding_latest": "合肥创新投资",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "AI助听国产替代"
+  },
+  {
+    "name": "新奈医疗",
+    "name_cn": "新奈医疗",
+    "region": "国内",
+    "category_l1": "医疗健康",
+    "category_l2": "睡眠呼吸",
+    "tags": [
+      "AI呼吸机",
+      "睡眠"
+    ],
+    "description": "聚焦老年睡眠呼吸治疗，AI呼吸机产品打开市场。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "老年睡眠呼吸刚需"
+  },
+  {
+    "name": "百善九号",
+    "name_cn": "百善九号",
+    "region": "国内",
+    "category_l1": "养老服务",
+    "category_l2": "养老OS",
+    "tags": [
+      "AI数智",
+      "乐龄平台"
+    ],
+    "description": "打造养老领域操作系统/AI数智乐龄生活服务平台。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "养老数智化OS"
+  },
+  {
+    "name": "分音塔科技",
+    "name_cn": "分音塔科技",
+    "region": "国内",
+    "category_l1": "适老科技",
+    "category_l2": "陪伴安防",
+    "tags": [
+      "陪伴",
+      "安防"
+    ],
+    "description": "布局老人陪伴与安防场景的科技产品。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "陪伴+安防双场景"
+  },
+  {
+    "name": "九为健康",
+    "name_cn": "九为健康",
+    "region": "国内",
+    "category_l1": "健康服务",
+    "category_l2": "中医智能化",
+    "tags": [
+      "中医",
+      "AI"
+    ],
+    "description": "探索中医智能化服务。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "中医智能化，文化契合"
+  },
+  {
+    "name": "问岐健康",
+    "name_cn": "问岐健康",
+    "region": "国内",
+    "category_l1": "健康服务",
+    "category_l2": "中医智能化",
+    "tags": [
+      "中医",
+      "AI"
+    ],
+    "description": "探索中医智能化服务。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "中医智能化"
+  },
+  {
+    "name": "朗毅机器人",
+    "name_cn": "朗毅机器人",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "具身导航",
+    "tags": [
+      "具身导航",
+      "养老场景"
+    ],
+    "description": "专注具身导航大脑研发，为养老场景提供技术基座。",
+    "funding_latest": "江阴人才基金",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "具身导航技术基座"
+  },
+  {
+    "name": "矩侨工业",
+    "name_cn": "矩侨工业",
+    "region": "国内",
+    "category_l1": "适老科技",
+    "category_l2": "柔性传感",
+    "tags": [
+      "柔性传感",
+      "穿戴"
+    ],
+    "description": "柔性传感技术成功适配康复机器人与老年穿戴设备。",
+    "funding_latest": "复星锐正等投资",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 / 雪球",
+    "worth_note": "柔性传感跨场景，技术平台型"
+  },
+  {
+    "name": "骅羲智能",
+    "name_cn": "骅羲智能",
+    "region": "国内",
+    "category_l1": "智能硬件",
+    "category_l2": "具身养老机器人",
+    "tags": [
+      "C端",
+      "量产"
+    ],
+    "description": "推动C端具身养老机器人量产。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "C端具身机器人量产"
+  },
+  {
+    "name": "中天益寿林",
+    "name_cn": "中天益寿林",
+    "region": "国内",
+    "category_l1": "养老服务",
+    "category_l2": "医养结合",
+    "tags": [
+      "医养结合",
+      "智慧管理"
+    ],
+    "description": "将医疗养老机构运营与智慧管理系统结合，提供一体化服务。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "ITH康养家 2025融资实录",
+    "worth_note": "医养结合+智慧管理"
+  },
+  {
+    "name": "百联繁花里",
+    "name_cn": "百联繁花里",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "银发商业综合体",
+    "tags": [
+      "线下零售",
+      "社区枢纽"
+    ],
+    "description": "上海首个银发主题商业综合体，向社区延伸做专属生活枢纽。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "银发商业综合体线下样板"
+  },
+  {
+    "name": "澳维诺",
+    "name_cn": "澳维诺",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "骨关节营养",
+    "tags": [
+      "关节肌肉",
+      "进口品牌"
+    ],
+    "description": "澳洲关节肌肉品牌，CAHMB成分国内年增速近100%。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "骨骼健康高增长品类"
+  },
+  {
+    "name": "好健康 goodhealth",
+    "name_cn": "好健康",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "骨胶原",
+    "tags": [
+      "骨胶原",
+      "进口品牌"
+    ],
+    "description": "新西兰品牌，主打骨胶原蛋白，销售额同比增103.6%。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "骨健康差异化爆品"
+  },
+  {
+    "name": "可氏利夫",
+    "name_cn": "可氏利夫",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "头皮护理",
+    "tags": [
+      "白转黑",
+      "个护"
+    ],
+    "description": "50+专属白转黑头皮精华，半年数百万元销售额。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "中老年头皮护理新品类"
+  },
+  {
+    "name": "乐霂",
+    "name_cn": "乐霂",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "头皮修护",
+    "tags": [
+      "防脱",
+      "个护"
+    ],
+    "description": "头皮修护系列，覆盖数十万用户，复购率35%，增速120%。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "高复购个护品牌"
+  },
+  {
+    "name": "韩束",
+    "name_cn": "韩束",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "男士护肤",
+    "tags": [
+      "中老年男性",
+      "美妆"
+    ],
+    "description": "推出男士控油紧致精华，中老年男性护肤爆款，多平台超3亿。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "中老年男性护肤崛起样本"
+  },
+  {
+    "name": "珀莱雅",
+    "name_cn": "珀莱雅",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "男士护肤",
+    "tags": [
+      "美妆",
+      "男士"
+    ],
+    "description": "被曝将重启男士护肤赛道，关注银发男性客群。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "美妆巨头切入银发男性"
+  },
+  {
+    "name": "卡唯朵",
+    "name_cn": "卡唯朵",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "抗衰护肤",
+    "tags": [
+      "中老年女性",
+      "抗衰"
+    ],
+    "description": "中老年女性抗衰护肤，四个月销量过亿。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "中老年女性抗衰爆品"
+  },
+  {
+    "name": "不老谜语",
+    "name_cn": "不老谜语",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "抗衰护肤",
+    "tags": [
+      "中老年女性",
+      "抗衰"
+    ],
+    "description": "中老年女性抗衰护肤，季度销售额达亿元。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "中老年女性抗衰品牌"
+  },
+  {
+    "name": "斯凯奇",
+    "name_cn": "斯凯奇",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "鞋服",
+    "tags": [
+      "舒适鞋服",
+      "代言"
+    ],
+    "description": "官宣梁朝伟亚太代言，目光延伸到各年龄段的舒适鞋服。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "国际品牌银发营销标杆"
+  },
+  {
+    "name": "因你 inne",
+    "name_cn": "因你inne",
+    "region": "国内",
+    "category_l1": "银发消费",
+    "category_l2": "营养营销",
+    "tags": [
+      "银发营销",
+      "营养"
+    ],
+    "description": "联合刘晓庆发布“黄金年代”主题短片，触达银发群体。",
+    "funding_latest": "",
+    "funding_total": "",
+    "website_url": "",
+    "source": "36氪 银发消费2025复盘",
+    "worth_note": "银发情感营销案例"
+  },
+  {
+    "name": "京东方 BOE",
+    "name_cn": "京东方",
+    "region": "国内",
+    "category_l1": "养老服务",
+    "category_l2": "智慧养老",
+    "tags": [
+      "智慧养老",
+      "项目批复"
+    ],
+    "description": "养老服务项目获批复，投资超4.5亿元。",
+    "funding_latest": "项目批复投资超4.5亿元",
+    "funding_total": "",
+    "website_url": "",
+    "source": "AgeClub 银发快讯 2026-07-01",
+    "worth_note": "面板巨头布局智慧养老重资产"
+  }
+]

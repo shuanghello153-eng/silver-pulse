@@ -656,11 +656,12 @@ NEWS_SCORING_DIMS = {
     #   范围内的核心程度。注意: 新闻"是否属于银发经济"的二元门控由 collector.
     #   is_relevant() 在 L1 预过滤阶段决定, 不在此维度内 (此维度只在"已命中的
     #   银发新闻"内部做核心度区分)。
-    "industry": {"label": "行业相关度", "weight": 0.20, "desc": "与银发核心赛道贴合度"},
-    "signal":   {"label": "信号强度",   "weight": 0.25, "desc": "投融资/收购/政策事件分量"},
-    "writing":  {"label": "写作潜力",   "weight": 0.20, "desc": "反常识/差异化模式/故事性"},
-    "cn_fit":   {"label": "国内可比性", "weight": 0.20, "desc": "对中国银发创业/政策可借鉴度"},
+    "industry": {"label": "行业相关度", "weight": 0.18, "desc": "与银发核心赛道贴合度"},
+    "signal":   {"label": "信号强度",   "weight": 0.24, "desc": "投融资/收购/政策事件分量"},
+    "writing":  {"label": "写作潜力",   "weight": 0.14, "desc": "差异化模式/叙事空间（反常识钩子单列见下）"},
+    "cn_fit":   {"label": "国内可比性", "weight": 0.19, "desc": "对中国银发创业/政策可借鉴度"},
     "urgency":  {"label": "时效紧迫度", "weight": 0.15, "desc": "是否应本周处理"},
+    "novelty":  {"label": "反常识度",   "weight": 0.10, "desc": "预期违背/暴雷关店等钩子（代码判定，零成本）"},
 }
 
 # Differentiated selection thresholds by source tier (final_score on 0-10 scale)

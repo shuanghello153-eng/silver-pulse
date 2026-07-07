@@ -82,16 +82,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   padding:6px 13px;border-radius:10px;white-space:nowrap;font-weight:600;transition:all .15s;background:#fff}
 .dl-btn:hover{background:var(--accent);color:#fff}
 
-/* Hero 统计条 */
-.hero{background:var(--accent-grad);border-radius:var(--radius);padding:20px 24px;margin-bottom:20px;color:#fff;
-  box-shadow:var(--shadow-md);display:flex;align-items:center;gap:26px;flex-wrap:wrap}
-.hero-title{font-size:19px;font-weight:800;line-height:1.3}
-.hero-sub{font-size:12.5px;opacity:.9;margin-top:3px}
-.stat-chips{display:flex;gap:10px;margin-left:auto;flex-wrap:wrap}
-.stat-chip{background:rgba(255,255,255,.15);backdrop-filter:blur(3px);border-radius:11px;padding:9px 15px;text-align:center;min-width:74px}
-.stat-num{font-size:19px;font-weight:800;line-height:1}
-.stat-label{font-size:11px;opacity:.92;margin-top:3px}
-
 /* ===== 筛选 / 搜索 ===== */
 .filter-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px}
 .view-pills,.region-pills{display:inline-flex;gap:4px;background:var(--surface);padding:3px;border-radius:20px;box-shadow:var(--shadow-sm)}
@@ -133,6 +123,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .feed-summary{font-size:12.5px;color:var(--text-secondary);line-height:1.6;margin-bottom:4px}
 .feed-rec{font-size:12.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;border-left:3px solid var(--accent);padding-left:9px;background:var(--accent-light);border-radius:0 7px 7px 0;padding:6px 9px}
 .feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.date-group-title{font-size:13px;font-weight:800;color:var(--accent-strong);margin:18px 0 9px;padding-left:11px;border-left:3px solid var(--accent)}
 
 /* ===== 徽章 ===== */
 .badge-region{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:700}
@@ -239,7 +230,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .ent-comp-link{color:var(--text);text-decoration:underline;font-weight:600}
 .ent-comp-link:hover{color:var(--accent-strong)}
 .top-section{background:var(--accent-light);border:1px solid #a5f3fc;border-radius:var(--radius);padding:15px 18px;margin-bottom:18px}
-.top-title{font-size:15px;font-weight:800;color:var(--accent-strong);margin-bottom:11px;display:flex;align-items:center;gap:7px}
+.top-title{font-size:15px;font-weight:800;color:var(--accent-strong);margin-bottom:6px;display:flex;align-items:center;gap:7px}
+.top-sub{font-size:11.5px;color:var(--muted);margin:0 0 11px;line-height:1.5}
 .top-list{display:flex;flex-direction:column;gap:5px}
 .top-row{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12.5px;padding:4px 0;border-bottom:1px dashed #cffafe}
 .top-row:last-child{border-bottom:none}
@@ -249,7 +241,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 /* ===== 网站说明页 ===== */
 .tab-bar{display:flex;gap:0;margin:22px 0 26px;border-bottom:2px solid var(--border)}
 .tab-btn{padding:11px 22px;border:none;background:transparent;font-size:14.5px;font-weight:600;color:var(--text-secondary);
-  cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s;font-family:inherit}
+  cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s;font-family:inherit;
+  white-space:nowrap;flex-shrink:0}
 .tab-btn:hover{color:var(--accent-strong)}
 .tab-btn.active{color:var(--accent-strong);border-bottom-color:var(--accent);font-weight:800}
 .tab-content{display:none}
@@ -303,15 +296,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   .theme-toggle{width:auto;padding:8px 12px}
   .main{margin-left:0;width:100%;max-width:100%;padding:20px 16px 60px}
   .header h2{font-size:20px}
-  .hero{gap:14px;padding:16px}
-  .stat-chips{margin-left:0;width:100%}
   .search-inline{width:140px}.search-inline:focus{width:170px}
   .feed-time{width:44px}
 }
 @media(max-width:480px){
   .main{padding:16px 12px 50px}
-  .hero-title{font-size:17px}
-  .stat-chip{min-width:64px;padding:8px 11px}
 }
 
 /* ===== 深色模式 ===== */
@@ -368,7 +357,7 @@ def SIDEBAR(active):
 # ============================================================
 # 3. 主题切换脚本
 # ============================================================
-THEME_JS = """
+THEME_JS = """<script>
 function toggleTheme(){
   var r=document.documentElement;
   if(r.classList.contains('dark')){r.classList.remove('dark');localStorage.setItem('theme','light');}
@@ -379,4 +368,51 @@ function toggleTheme(){
   if(s==='dark'){document.documentElement.classList.add('dark');}
   else if(s==='light'){document.documentElement.classList.remove('dark');}
 })();
+</script>
+"""
+
+# ============================================================
+# 4. 收藏 / 反馈机制（localStorage + 导出 JSONL）
+# ============================================================
+FEEDBACK_CSS = """
+/* ===== 收藏 / 反馈 ===== */
+.fav-btn{display:inline-flex;align-items:center;gap:4px;font-size:12px;line-height:1;border:1px solid var(--border);background:var(--card);color:var(--muted);border-radius:20px;padding:4px 11px;cursor:pointer;transition:.15s;user-select:none}
+.fav-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
+.fav-btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.fav-btn .ico{font-size:13px}
+.export-fav{margin-left:auto;font-size:12px;border:1px solid var(--accent);color:var(--accent-strong);background:var(--card);border-radius:20px;padding:5px 13px;cursor:pointer;transition:.15s;white-space:nowrap;flex-shrink:0}
+.export-fav:hover{background:var(--accent);color:#fff}
+"""
+
+FEEDBACK_JS = """<script>
+function spKey(t,id){return 'sp_fav::'+t+'::'+id;}
+function spToggleFav(b){
+  var k=spKey(b.dataset.type,b.dataset.id);
+  var on=localStorage.getItem(k)==='1';on=!on;
+  localStorage.setItem(k,on?'1':'0');
+  b.classList.toggle('on',on);
+  var l=b.querySelector('.lbl');if(l)l.textContent=on?'已收藏':'收藏';
+}
+function spExportFav(){
+  var out=[];
+  for(var i=0;i<localStorage.length;i++){
+    var k=localStorage.key(i);
+    if(k.indexOf('sp_fav::')===0 && localStorage.getItem(k)==='1'){
+      var p=k.split('::');out.push({type:p[1],id:decodeURIComponent(p[2]),ts:new Date().toISOString()});
+    }
+  }
+  if(!out.length){alert('还没有收藏任何选题 / 企业');return;}
+  var blob=new Blob([out.map(function(o){return JSON.stringify(o);}).join('\\n')],{type:'text/plain'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='feedback.jsonl';a.click();
+}
+function spInitFav(){
+  document.querySelectorAll('.fav-btn').forEach(function(b){
+    var k=spKey(b.dataset.type,b.dataset.id);
+    if(localStorage.getItem(k)==='1'){b.classList.add('on');var l=b.querySelector('.lbl');if(l)l.textContent='已收藏';}
+    b.addEventListener('click',function(){spToggleFav(b);});
+  });
+  document.querySelectorAll('.export-fav').forEach(function(b){b.addEventListener('click',spExportFav);});
+}
+if(document.readyState!=='loading'){spInitFav();}else{document.addEventListener('DOMContentLoaded',spInitFav);}
+</script>
 """

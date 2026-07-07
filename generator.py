@@ -19,7 +19,7 @@ from config import (
     OVERSEAS_SOURCE_NAMES, SOURCES, SOURCE_NAME_TO_TIER,
 )
 
-from ui_common import COMMON_CSS as CSS_STYLES, SIDEBAR, THEME_JS
+from ui_common import COMMON_CSS as CSS_STYLES, SIDEBAR, THEME_JS, FEEDBACK_CSS, FEEDBACK_JS
 
 OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCE_NAMES  # alias for clarity
 ALL_TAG_NAMES = set(TAG_POOL.keys())
@@ -152,33 +152,7 @@ def build_radar_html(rd):
                 '<p class="radar-empty">暂无数据</p>'
                 '</div>')
 
-    parts = ['<div class="radar-block">', '<h3 class="radar-title">📡 选题雷达</h3>']
-
-    # 🔥 TOP enterprises
-    parts.append('<div class="radar-sub">')
-    parts.append('<div class="radar-sub-h">🔥 今日值得研究的 TOP 企业</div>')
-    if rd["top_ents"]:
-        for e in rd["top_ents"]:
-            region_cls = ("region-overseas" if e["region"] == "海外"
-                          else "region-domestic")
-            badge_rv = '<span class="badge-rv">研究价值 %s</span>' % _esc(str(e["rv"]))
-            badge_deep = '<span class="badge-deep">值得深写</span>' if e.get("deep") else ""
-            parts.append(
-                '<div class="radar-row">'
-                '<span class="radar-rank">%d</span>'
-                '<a class="radar-name" href="enterprise.html">%s</a>'
-                '%s%s'
-                '<span class="badge-region %s">%s</span>'
-                '<span class="radar-reason">%s</span>'
-                '</div>' % (
-                    e["rank"], _esc(e["name"]),
-                    badge_rv, badge_deep,
-                    region_cls, _esc(e["region"]), _esc(e["reason"]),
-                )
-            )
-    else:
-        parts.append('<p class="radar-empty">暂无数据</p>')
-    parts.append('</div>')
+    parts = ['<div class="radar-block">', '<h3 class="radar-title">📡 选题雷达（资讯维度）</h3>']
 
     # 📰 TOP news
     parts.append('<div class="radar-sub">')
@@ -714,16 +688,20 @@ def build_selected_card_html(art):
         ("文笔", ds.get("writing")),
         ("中文契合", ds.get("cn_fit")),
         ("时效", ds.get("urgency")),
+        ("反常", ds.get("novelty")),
     ]
     dim_html = "".join(
         '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
     )
+    url_hash = _url_hash(url)
+    fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score">综合分 %s</span>'
+        '<span class="badge-score" title="综合评分">%s</span>'
         '<span class="dim-line">%s</span>'
+        '%s'
         '</div>'
-    ) % (_fmt_score(fs), dim_html)
+    ) % (_fmt_score(fs), dim_html, fav_html)
 
     # 主体 / 聚类 标签
     extra = []
@@ -735,7 +713,6 @@ def build_selected_card_html(art):
         extra.append('<span class="badge-domain">聚类 %s</span>' % _esc(str(cl)))
     extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
 
-    url_hash = _url_hash(url)
     entity_name = art.get("entity_name", "") or ""
     src_search = art.get("source", "") or ""
     card = (
@@ -988,7 +965,16 @@ def generate_html(scored_articles=None, output_path=None):
     # Build 精选 (Selected) view cards + update timeline
     selected = [a for a in merged if is_selected(a)]
     selected.sort(key=lambda a: a.get("date", "0000-00-00"), reverse=True)
-    selected_html = "".join(build_selected_card_html(a) for a in selected)
+    # 按日期分组，每组插入日期标题（时间线感）
+    from collections import OrderedDict
+    date_groups = OrderedDict()
+    for a in selected:
+        d = a.get("date") or "未知日期"
+        date_groups.setdefault(d, []).append(a)
+    selected_html = ""
+    for d, arts in date_groups.items():
+        selected_html += '<div class="date-group-title">📅 %s · %d 条</div>' % (_esc(d), len(arts))
+        selected_html += "".join(build_selected_card_html(a) for a in arts)
     selected_count = len(selected)
     update_log = update_update_log(selected_count)
     timeline_html = build_timeline_html(update_log)
@@ -1005,7 +991,7 @@ def generate_html(scored_articles=None, output_path=None):
     )
 
     # Inject values into JS template
-    js = (JS_SCRIPT % (today_str,)) + "\n" + THEME_JS
+    js = (JS_SCRIPT % (today_str,))
 
     # Build 选题雷达 block (top of page) — guarded against missing data
     try:
@@ -1024,7 +1010,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<meta http-equiv="Pragma" content="no-cache">',
         '<meta http-equiv="Expires" content="0">',
         '<title>%s</title>' % SITE_TITLE,
-        '<style>%s</style>' % CSS_STYLES,
+        '<style>%s%s</style>' % (CSS_STYLES, FEEDBACK_CSS),
         '</head>\n<body>',
 
         # Sidebar (unified component)
@@ -1049,21 +1035,8 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div>',
         '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
+        '<button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>',
         '</div></div>',
-
-        # Hero stat strip
-        '<div class="hero">',
-        '<div>',
-        '<div class="hero-title">今日银发经济选题情报</div>',
-        '<div class="hero-sub">以海外为镜 · 照中国之路 · 更新于 %s</div>' % today_str,
-        '</div>',
-        '<div class="stat-chips">',
-        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">精选</div></div>' % selected_count,
-        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">全部资讯</div></div>' % total_count,
-        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">国内</div></div>' % domestic_curated,
-        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">海外</div></div>' % overseas_curated,
-        '</div>',
-        '</div>',
 
         # Top news keyword search (above 选题雷达) — filters feed items live
         '<div class="news-search-row">',
@@ -1128,7 +1101,7 @@ def generate_html(scored_articles=None, output_path=None):
 
         # Close main + body
         '</div>',
-        '\n<script>\n%s\n</script>\n</body>\n</html>' % js,
+        '\n<script>\n%s\n</script>\n%s\n%s\n</body>\n</html>' % (js, THEME_JS, FEEDBACK_JS),
     ]
 
     html = "\n".join(parts)
