@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07 22:31",
-  "count": 209,
+  "generated_at": "2026-07-08 00:44",
+  "count": 188,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -11,7 +11,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 7.83,
+      "final_score": 7.17,
       "dim_scores": {
         "industry": 6,
         "signal": 9.5,
@@ -34,7 +34,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 6.85,
+      "final_score": 6.23,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -55,7 +55,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 8.25,
+      "final_score": 7.57,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -79,7 +79,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.59,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -94,27 +94,6 @@
       ]
     },
     {
-      "title": "2026年二季度康养发展报告：3.2亿老人+2.52人/户：家庭小型化倒逼服务网络延伸",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04djVmVlYxak9yRU9JQkotekNvQVNYd1FQSC1RSWc1WmRDVE0zZWVhZHRabXdSWVZNdldpTGluWXVjRGw1dkpkTDFiajZkTUFlUk1nOWZ3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": "AgeClub",
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "AgeClub二季度康养报告提出家庭小型化倒逼服务网络延伸的核心判断。3.2亿老年人口、户均2.52人的数据意味着“居家+社区”服务网络必须加密，这对中国社区养老、上门服务的布局有长期参考。",
-      "tags": [
-        "行业趋势"
-      ]
-    },
-    {
       "title": "Callie Care 完成 50 万美元种子前轮融资，以电话优先 AI 弥合美国养老照护缺口",
       "url": "https://aijourn.com/callie-care-raises-500k-pre-seed-to-tackle-americas-senior-care-gap-with-phone-first-ai/",
       "source": "The AI Journal",
@@ -122,7 +101,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.03,
+      "final_score": 6.4,
       "dim_scores": {
         "industry": 6,
         "signal": 6.3,
@@ -144,7 +123,7 @@
       "region": "domestic",
       "event_type": "产品发布",
       "entity_name": null,
-      "final_score": 5.75,
+      "final_score": 5.18,
       "dim_scores": {
         "industry": 6,
         "signal": 3.2,
@@ -167,7 +146,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.94,
       "dim_scores": {
         "industry": 6,
         "signal": 2.4,
@@ -189,7 +168,7 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": null,
-      "final_score": 5.55,
+      "final_score": 5.19,
       "dim_scores": {
         "industry": 6,
         "signal": 2.4,
@@ -212,7 +191,7 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": null,
-      "final_score": 5.75,
+      "final_score": 5.17,
       "dim_scores": {
         "industry": 7,
         "signal": 2.4,
@@ -234,7 +213,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 6.25,
+      "final_score": 5.55,
       "dim_scores": {
         "industry": 6,
         "signal": 1.6,
@@ -256,7 +235,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.49,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -279,7 +258,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -301,7 +280,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.49,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -323,7 +302,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -345,7 +324,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -367,7 +346,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -389,7 +368,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -411,7 +390,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -433,7 +412,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -455,7 +434,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -477,7 +456,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -499,7 +478,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.29,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -521,7 +500,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.59,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -543,7 +522,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -565,7 +544,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -587,7 +566,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.59,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -609,7 +588,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.59,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -631,7 +610,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -653,7 +632,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": "Sava",
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -675,7 +654,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -697,7 +676,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -720,7 +699,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.59,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -742,7 +721,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -764,7 +743,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.79,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -786,7 +765,7 @@
       "region": "overseas",
       "event_type": "行业趋势",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.37,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -807,7 +786,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 6.04,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -828,7 +807,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.05,
+      "final_score": 6.32,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -849,7 +828,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.03,
+      "final_score": 6.6,
       "dim_scores": {
         "industry": 6,
         "signal": 6.3,
@@ -870,7 +849,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.84,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -891,7 +870,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.84,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -913,7 +892,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.84,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -935,7 +914,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.84,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -957,7 +936,7 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.37,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -979,7 +958,7 @@
       "region": "overseas",
       "event_type": "产品发布",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.37,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -994,48 +973,6 @@
       ]
     },
     {
-      "title": "上海银发经济“家底”首度公开，一份报告看懂养老新赛道",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YNHpUWGRXNHltU2JQMjJZWjl0WXRBck10Y3FKT000S0RqT1dtSDlWY09PSzg2X0p2dldCTFdaY1BxSzFfTnYxQllqLUtyVEtrMHpzMTJB?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": "AgeClub",
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "上海首次公开银发经济“家底”，是地方政府系统性梳理银发产业的重要信号。对创业者而言，这意味着上海可能成为政策试点和政府采购的先行区，值得跟踪其后续的产业扶持和采购机会。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
-      "title": "条例施行，重庆出招打通农村养老“最后一公里”",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HTEpJal9kcWVES1A1amFrNkx1QU84ZHpDX3dzNVpxd2s2YW1jbXJTOU42cVl2bnkwRUoybXY3RHEwa2JfcjRfbWJWbkVqNUJZdnczNWZjUnI0T3lwdWg0Y1Q3RV9WTDlUck43ZUVKMngxY2xUSVE?oc=5",
-      "source": "新华网重庆",
-      "date": "2026-07-05",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "重庆条例施行聚焦农村养老“最后一公里”，农村养老是中国银发经济长期被忽视的结构性机会。地方立法推动可能带来县域养老服务设施建设和运营的增量需求。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
       "title": "TwelveLabs 完成 1 亿美元 B 轮融资，打造视频超级智能",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSHNvaGpFQURkbHZ1Znc5YTB2UE5PcVhmNVY1aTBGaDZ3N201VHlvZHkzVzA4dkdSYWdRWmdIdUE1NXpWM1VOUTBEWjc0WXVTQlRTX3hDa0lHYWtxZ0o3MUlsRjhNLW9abXhuYmpSZGZ2QXpwRlhyRng4eXJjekRhQnpqQ0VESWdJTTdCd0Y3MDUyRksyVlHSAZsBQVVfeXFMTzEwWmMzU0tNbm5ZZkd5NVZ2MExkOExGaW1qUFZja3hUZnd5Y3drNnRGOFBhMHFMMTV6aWF2TXlsNE1mWkd6bVMwVS1oZ0piUEEtYmJld1M3ZExNRHlPX3p2WURNNUVjSk84ZF9qQ19tb1dpd1JQSlVMdnFLWHcxOXRuWVBUX1czeVh0MzNJeEZVSVhaaFFfVUZ3c2s?oc=5",
       "source": "Pulse 2.0科技",
@@ -1043,7 +980,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.49,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1065,7 +1002,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 7.85,
+      "final_score": 7.19,
       "dim_scores": {
         "industry": 6,
         "signal": 9.6,
@@ -1087,7 +1024,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1109,7 +1046,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1131,7 +1068,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.25,
+      "final_score": 6.51,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1153,7 +1090,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 6.04,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -1175,7 +1112,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 6.04,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -1197,7 +1134,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": "AgeClub",
-      "final_score": 6.75,
+      "final_score": 5.97,
       "dim_scores": {
         "industry": 10,
         "signal": 1.6,
@@ -1219,7 +1156,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 7.23,
+      "final_score": 6.77,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -1242,7 +1179,7 @@
       "region": "domestic",
       "event_type": "其他事件",
       "entity_name": null,
-      "final_score": 5.85,
+      "final_score": 5.21,
       "dim_scores": {
         "industry": 10,
         "signal": 1.6,
@@ -1264,7 +1201,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.55,
+      "final_score": 5.93,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1285,7 +1222,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.95,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1308,7 +1245,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.93,
+      "final_score": 6.29,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -1323,27 +1260,6 @@
       ]
     },
     {
-      "title": "清华大学最新“养老”报告出炉！真正做养老规划的少之又少",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSG42Zm84QnhOcHMtUTZESUxkS05zTjhDVklYeklqRVZuUHV1dWprbmNiOEtIendtOFNaV0ZYai1NU2N5Ymlmd1RjcGtsRFZKNHFSSWZXODlycEdnRThaV3pLRUtYRDkzNXBmdnZ3ZmszUS03MXJ3RnhGSnZyNWxFcnRLWXBEOVU2Snhr?oc=5",
-      "source": "新浪财经",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "清华大学养老报告揭示“真正做养老规划的人少之又少”，反映中国养老金融和养老规划的认知缺口。对银发经济创业者而言，教育和信任建立可能是比产品本身更前置的障碍。",
-      "tags": [
-        "行业趋势"
-      ]
-    },
-    {
       "title": "如身机器人完成亿元Pre-A轮融资，推动养老机器人规模化落地",
       "url": "https://finance.sina.com.cn/jjxw/2026-07-03/doc-inifntfe2365970.shtml",
       "source": "投资界",
@@ -1351,7 +1267,7 @@
       "region": "domestic",
       "event_type": "融资",
       "entity_name": "如身机器人",
-      "final_score": 6.75,
+      "final_score": 6.12,
       "dim_scores": {
         "industry": 6,
         "signal": 6.4,
@@ -1373,7 +1289,7 @@
       "region": "domestic",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 6.05,
+      "final_score": 5.41,
       "dim_scores": {
         "industry": 10,
         "signal": 2.4,
@@ -1388,49 +1304,6 @@
       ]
     },
     {
-      "title": "银发经济浪潮下，东软睿新的数智答卷与民生温度",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52cW9YUk5ibTFyRDdyZVJzODNQZTF5ZEF3N2lWdzQyYXR5cERYRk1WRXUtUWlqQk9vV1VqME50ZU9vQW5aN1k0ZC1wOVBTcEFvRGNJcEs5dHhTQUc1NHc5YTZwWnM1OGhKa0c0SA?oc=5",
-      "source": "中华网",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "东软睿新定位银发数智化解决方案，代表大厂系银发科技玩家入场。对创业者参照：大厂入局意味着赛道天花板在升高，但也要警惕大厂做银发通常重技术轻场景的通病——东软的核心能力在医疗信息化，但银发场景的最后一公里不在系统里，在现场。",
-      "tags": [
-        "智慧养老",
-        "大厂入场"
-      ]
-    },
-    {
-      "title": "闲置楼宇变身康养热土 韶关乐昌聚力打造银发经济新标杆",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3BtaDRJbjJ2QUluaVJ2R3ZHMU9UcnRpeURVYm9hY0hiNDZYcEdHdlNqaU5ybjFVMkpGM3hmdGxFQ0tuV1M2UHpfVWJ2Y2Zhd0NlNUxSblpYdG9CSWNxTXNKZ095cjFSWWRMR25jNEYwQldSNDJvUl81YnMxbVZ1bUVVLWx2Q1UwSnc?oc=5",
-      "source": "广州日报新花城",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "闲置楼宇改造为康养设施——轻资产路径探索。韶关乐昌案例偏地方叙事，但闲置资产活化+养老的思路对国内大量空置商业物业有启发。归档备用，积累5-10个类似案例后合并分析。",
-      "tags": [
-        "养老地产"
-      ]
-    },
-    {
       "title": "Venice AI 完成 6500 万美元 A 轮融资",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0FxanhGR1RlTU1yMlpDUVN4X0pjeGpINXZsUXBtWnNLWnpoNzhNTXA5SDgtT295WUNrZy1RcmJLNUxGZnllZHhMd2p5ZGdqWXloLW9aVVZyUVNXYXFBNklSekNWWUlOVTd0WDUtZG4zaDlkZDU5aUVLaHo0bEtrbHVhZw?oc=5",
       "source": "FinSMEs创投",
@@ -1438,7 +1311,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.65,
+      "final_score": 6.99,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1460,7 +1333,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.65,
+      "final_score": 6.99,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1482,7 +1355,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.65,
+      "final_score": 6.99,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1504,7 +1377,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 7.95,
+      "final_score": 7.22,
       "dim_scores": {
         "industry": 10,
         "signal": 8.0,
@@ -1527,7 +1400,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.93,
+      "final_score": 6.29,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -1549,7 +1422,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.95,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1571,7 +1444,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 6.55,
+      "final_score": 5.93,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -1593,7 +1466,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": "AgeClub",
-      "final_score": 7.33,
+      "final_score": 6.77,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -1615,7 +1488,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 6.93,
+      "final_score": 6.29,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -1638,7 +1511,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.35,
+      "final_score": 5.74,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -1653,69 +1526,6 @@
       ]
     },
     {
-      "title": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSFltZnR3bHdHejZ4NGhUb2Y4SmRlM2VHZVFqYjZqWS1Jb2s4NkFnNjJ0UENfeklwZUxBc1BaQnBsUzJOQTktcnN1bFRqRTVzZVVTSXN3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "AgeClub",
-      "final_score": 5.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "湖南上线灵活就业参保“一件事” 养老医保自由搭配最快7天办结 - 湖南省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pRWdpM0VPVk5kOHBxM012Y2txRHRtcW9hVGIzWURZNDJBVHQ0emVNcVo4YmF6TGJyU2k4QW1oTnBadHZPU1NLb0dfS3UzVVJrSnFfQkJRdnBqZmVVNzJMYTBFMnpzcGVzRUF0M1VNcWw5YmlwNGFkOHhrVF9lZw?oc=5",
-      "source": "湖南省人民政府",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "烟台发布《烟台养老产业三年行动方案》 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIc0pzVzVDcHdjTjluZGdCSXN3ei10RUxLY1hsUTN5UTR5Qm85b1RUU0pUZ1BNTTZIT3FHZUZlUnBocW1vSjZ2bFVya1A0bVhjbk94cUhTalY2dHMyT2FwbE5NRXdRTzYwdU5JVXA0aG9JRk9zakE?oc=5",
-      "source": "新浪财经",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
       "title": "Athulya Senior Care 在班加罗尔推出免费痴呆症意识行动",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXg0R1JmQ1BvOW5KRXNJSEg4QkdIZWdFWkZhdVdPNXl0M2tDaEV1bjExNWN6LTI2cEhxc3VNVTdfSk9teVI5QUR6WHh0NVNQa0tCMDN4UHBCR01maUhoOFpOc09UcDF4TXlWd1FCc3diX1pCZlFKeE9hb1pGcXVhUFBTMXloNHBpVVVWYzQwd2JnSWpVQnBQcXZCR1lwdGExbklUQXo3NUlSckZGc0wyd0lEMUo3Zw?oc=5",
       "source": "Passionate In Marketing",
@@ -1723,7 +1533,7 @@
       "region": "overseas",
       "event_type": "产品发布",
       "entity_name": "Athulya Senior Care",
-      "final_score": 5.65,
+      "final_score": 5.07,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -1746,7 +1556,7 @@
       "region": "domestic",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.3,
       "dim_scores": {
         "industry": 10,
         "signal": 3.2,
@@ -1769,7 +1579,7 @@
       "region": "domestic",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.3,
       "dim_scores": {
         "industry": 10,
         "signal": 3.2,
@@ -1792,7 +1602,7 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": null,
-      "final_score": 5.93,
+      "final_score": 5.31,
       "dim_scores": {
         "industry": 7,
         "signal": 5.5,
@@ -1814,7 +1624,7 @@
       "region": "overseas",
       "event_type": "行业趋势",
       "entity_name": "AARP",
-      "final_score": 5.75,
+      "final_score": 5.14,
       "dim_scores": {
         "industry": 7,
         "signal": 4.8,
@@ -1833,7 +1643,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1855,7 +1665,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1877,7 +1687,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1899,7 +1709,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.75,
+      "final_score": 6.96,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1921,7 +1731,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1943,7 +1753,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1965,7 +1775,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -1987,7 +1797,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2009,7 +1819,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2031,7 +1841,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2053,7 +1863,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2075,7 +1885,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2097,7 +1907,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2119,7 +1929,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2141,7 +1951,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2163,7 +1973,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 8.0,
@@ -2185,7 +1995,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 8.0,
@@ -2207,7 +2017,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.23,
+      "final_score": 6.56,
       "dim_scores": {
         "industry": 6,
         "signal": 9.5,
@@ -2228,7 +2038,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 8.0,
@@ -2249,7 +2059,7 @@
       "region": "overseas",
       "event_type": "产品发布",
       "entity_name": null,
-      "final_score": 6.15,
+      "final_score": 5.54,
       "dim_scores": {
         "industry": 6,
         "signal": 7.2,
@@ -2270,7 +2080,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -2292,7 +2102,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -2314,7 +2124,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -2336,7 +2146,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 6.19,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -2358,7 +2168,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2380,7 +2190,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.25,
+      "final_score": 5.63,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2402,7 +2212,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2424,7 +2234,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2446,7 +2256,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2468,7 +2278,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2490,7 +2300,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.03,
+      "final_score": 6.27,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -2512,7 +2322,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.25,
+      "final_score": 5.63,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2534,7 +2344,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2556,7 +2366,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2579,7 +2389,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 6.25,
+      "final_score": 5.63,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -2594,28 +2404,6 @@
       ]
     },
     {
-      "title": "Blue Ridge Care 与 Katie's Comfort House 达成合作",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa28tRUZudDRfRFpPdi01S25uV1pOYlF4U3BXN3M2YXdwU1RsV3RNcjJWeV95X19sN0JUc0kwbFJLVmlGQmFUZnRBVHl6bS1ORnBvdFNxa054VEpLYVhUQkUwckRQcjJlUUk2QnhKVWtZUFhySEZ0Ql9NcloyY2Z6Rm9GTEJ0ZlN4eG83YXZRR1RyYnVPc0hHNkRyUWQ4QWU5R3NWT3dZUVA?oc=5",
-      "source": "临终关怀新闻",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.55,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "战略合作事件战略合作往往预示生态卡位，中国创业者可思考同类联盟机会。",
-      "tags": [
-        "战略合作",
-        "行业趋势"
-      ]
-    },
-    {
       "title": "ClearOne 宣布与 Vivani Medical 全资子公司 Cortigent 达成并购协议",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVlU5OVVLaEUxS1BUaThTU1Bib00zaU9oNF9FeXZXc3FvYnRJTldzTlkxODQyRDZRMG9YQ3lEWkhYZmlLUXJiRkxtNmdnN1pSU2VXVWdPcVJXaV9CMk9OUDFPSzYxNUt6OGlpYzd0MzdVRDJ5UklXQWd2RlNjWWFQUGlpanZ6aVEyVzJPYzJITkJOMnBBOWRqWVdqU0dVU1pPOEV4TWtpVVpxUHFFZXhvNTJzbF8tVUZGLUI2a2lldVpRaWVkM2loMG9lTzVmVG1OODJXSmpOa0dpQ0FkUXZGWHRZZERhNUpZR0luNFFOSWtuNHhhZXFQOVlYUQ?oc=5",
       "source": "商业新闻社",
@@ -2623,7 +2411,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.72,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -2644,7 +2432,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.72,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -2665,7 +2453,7 @@
       "region": "domestic",
       "event_type": "产品发布",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.3,
       "dim_scores": {
         "industry": 10,
         "signal": 3.2,
@@ -2679,50 +2467,6 @@
       ]
     },
     {
-      "title": "WA Cares Fund 福利开放，启动全美首个公共长期护理保险计划",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS09UcmZJTHhYNEFPcV9QVkxnY054SGxqS0tMMkFfUmhLRnBpaENUUU1BYk9xZlViUDQxc1JUUEc5UjI1Y3pCM3Izc3BWc3gxU2F3WlBFUnIwQ0xpaXdtdjc0WXQzcy1faG5QeHFZMXdmdVN1ZWZDVkk3c0pWUWM1bDJhOVkxd25zTExaZFp2QnhYUHVFeENMNDVoeDFSYktvUGhZS2tocTlpSktkSkxRTU00VU8yU09RM2hnd19yd2JSSjNsRlRkdWVNN0N6ckNJUmZ4VVNsa3h2S1ZzaVVtdnZ2R01YS3FXenlWQVBkVzdQdw?oc=5",
-      "source": "krem.com",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "保险科技"
-      ]
-    },
-    {
-      "title": "WA Cares Fund 福利开放，启动全美首个公共长期护理保险计划",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNem00eTJsYmU5UVpLYmNKX1hTY2hJX2ItUk1ESUpiLXRJMFZiSnIxNjVBT2cwSUgxNkFtQ3hTVXl0ZU1MMzJ6Vm9zU0pYRG5LSmxQY21UV2drOG1MamNGNVNDbWxESTlRVU4yLVZHU0ZLMVo5em8wTzBtNS1aMDFVM3BDYmtNcnNRNWJwajduQl9rM0xJZ3hGdUtBX1IybUJZTVdBNTA5ZENNSXFremJQNGNxdTNMVElDS3dCTnB5cWhxdS1XbHBfS25HUU5LNlE4QnFvVUNCbERWSjRubEFZUlZuNUNqQ1ozdHJFNWFGTkwxX1VkOTNDMXNvNXF1Q1U5NVF0MmM2d0Z2a1NWVkFvV2ZFN0hTb042X1BzY2I3NFg4dWk5VXlr?oc=5",
-      "source": "krem.com",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "保险科技"
-      ]
-    },
-    {
       "title": "CMS提议2027年居家护理Medicare支付增加2.4%（增加4.2亿美元）",
       "url": "https://homehealthcarenews.com/2026/07/cms-proposes-2-4-home-health-medicare-payment-increase-for-2027/",
       "source": "家庭健康护理新闻",
@@ -2730,7 +2474,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 6.25,
+      "final_score": 5.73,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
@@ -2753,7 +2497,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.95,
+      "final_score": 7.14,
       "dim_scores": {
         "industry": 7,
         "signal": 10.0,
@@ -2776,7 +2520,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 5.85,
+      "final_score": 5.14,
       "dim_scores": {
         "industry": 6,
         "signal": 2.4,
@@ -2799,7 +2543,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.75,
+      "final_score": 6.96,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2822,7 +2566,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 5.65,
+      "final_score": 5.55,
       "dim_scores": {
         "industry": 6,
         "signal": 1.6,
@@ -2845,7 +2589,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.1,
       "dim_scores": {
         "industry": 6,
         "signal": 6.4,
@@ -2867,7 +2611,7 @@
       "region": "overseas",
       "event_type": "政策法规",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.67,
       "dim_scores": {
         "industry": 10,
         "signal": 1.6,
@@ -2881,28 +2625,6 @@
       ]
     },
     {
-      "title": "CMS 提议将居家健康机构 Medicare 薪酬上调 2.4%",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM1FMSHMyMi1OLWpXUF9GU20xYXVhWVphckpiZkg3RmRfZVBvRnRtMUwwbWVIemctanZzNHZ5ZjF2VlJQNU1rOENpNlNvajNTNUNtdXZCcjlmWlpvc19RLVNVZXY1ZlBXOXFlZEdEMTNNN2xiZEhKbHhLTGw5TWEzZmloejlpWk0?oc=5",
-      "source": "现代医疗",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "CMS拟上调2027年居家护理Medicare支付2.4%，是美国居家护理支付体系的常规调整。对中国银发经济的参照在于：居家护理服务需要可持续的支付机制，美国在PDGM基础上的年度调整机制，对中国长护险和居家护理定价有制度设计参考。",
-      "tags": [
-        "政策法规",
-        "居家养老"
-      ]
-    },
-    {
       "title": "Together AI 以 83 亿美元估值完成 8 亿美元 C 轮融资",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWxtbjdrR3B0TDcwS1dhTkdJMENSSVdmRDBYNjBmZ296VU5KUUxaMDZjbVdBdnhnMkgxS1JJMFU1WlhDWkxlN19NQXU3QlRSaGxtOUktQUVBcVE4SWMyU0xwN3RQM2JTcUt2b0pMUGpERExGbUI4aWZLeXl2c1ZOZzZzYXdKel8tci15N9IBkgFBVV95cUxNbkVEamVIdXVmaC1MSEpXM2lsdFYteWZETWVLNC0yTWRGV0FfZUlqc2M3TlAzdzZSSmR5Z1F6ZWJLYVZyTmFVa1RCWlBRbVpZSENUclBMWXd6OVpBWEVLZ1AyblBTZE1lVUN0VUZiX29BRHFULVRnWEhpOTVQWUdlUVEyT1Z4bnNIQUZES0JwSzAydw?oc=5",
       "source": "Pulse 2.0科技",
@@ -2910,7 +2632,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2932,7 +2654,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "Accelera",
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2954,7 +2676,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2976,7 +2698,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -2998,7 +2720,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -3020,7 +2742,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -3042,7 +2764,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.88,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -3064,7 +2786,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -3086,7 +2808,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -3108,7 +2830,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -3130,7 +2852,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 8.0,
@@ -3152,7 +2874,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.21,
       "dim_scores": {
         "industry": 6,
         "signal": 8.0,
@@ -3173,7 +2895,7 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": null,
-      "final_score": 6.15,
+      "final_score": 5.54,
       "dim_scores": {
         "industry": 6,
         "signal": 7.2,
@@ -3196,7 +2918,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 6.19,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3218,7 +2940,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 6.19,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3240,7 +2962,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3262,7 +2984,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3285,7 +3007,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3307,7 +3029,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3329,7 +3051,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3351,7 +3073,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3373,7 +3095,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3395,7 +3117,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 6.19,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3417,7 +3139,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3439,7 +3161,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3462,7 +3184,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3484,7 +3206,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3506,7 +3228,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3528,7 +3250,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3550,7 +3272,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": "Salesforce",
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3572,7 +3294,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3595,7 +3317,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.62,
+      "final_score": 6.19,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3616,7 +3338,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3639,7 +3361,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3662,7 +3384,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.65,
+      "final_score": 5.91,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -3684,7 +3406,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "AgeClub",
-      "final_score": 6.62,
+      "final_score": 5.99,
       "dim_scores": {
         "industry": 6,
         "signal": 7.1,
@@ -3706,7 +3428,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.05,
+      "final_score": 5.44,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -3727,7 +3449,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.43,
+      "final_score": 5.8,
       "dim_scores": {
         "industry": 6,
         "signal": 6.3,
@@ -3749,7 +3471,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.45,
+      "final_score": 5.72,
       "dim_scores": {
         "industry": 6,
         "signal": 4.8,
@@ -3770,7 +3492,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.43,
+      "final_score": 6.0,
       "dim_scores": {
         "industry": 6,
         "signal": 6.3,
@@ -3792,7 +3514,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.43,
+      "final_score": 5.8,
       "dim_scores": {
         "industry": 6,
         "signal": 6.3,
@@ -3814,7 +3536,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.23,
+      "final_score": 5.61,
       "dim_scores": {
         "industry": 6,
         "signal": 5.5,
@@ -3836,7 +3558,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.23,
+      "final_score": 5.61,
       "dim_scores": {
         "industry": 6,
         "signal": 5.5,
@@ -3851,27 +3573,6 @@
       ]
     },
     {
-      "title": "Cloud Capital 与 Realty Income 及全球机构投资者设立核心合资战略，注入逾 60 亿美元资产",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQRmRaRkpTUHFYRVowS3EwRkR2eEtSM25QT0MwdHhKb0F3NGpjR3hfZXpjMTh6ZXZPbFhudXRUeXR6a1dRMHUyYzlkZUp2LXRJM2NFcmVTTXpaSnNzb3VHWUFLaW96M3A2bzBvRVQ3RDMtN3JnbmJLblhMcVZVS2s3Unhmbm54Q0RUSGdMQmNtRGdPcWJZZ0RNRDJnb1A5d0lESHcwMk00dlRrZWtTLS1kbDlKaUI5WmpVQkpHT1FlczFWc1RLRTd4Vl8xSW9TWDBqMDhTSnpZXzhtS3VTM3FEVkNGSzVIdTlRUUhfT0NQODZDX2hKa3ljTjE3NGtxNHMxYThvV0RHWTd3ellla1laRWNjZ2lPTkttLWRsV21meDJMY1p1STViRA?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "行业趋势事件，涉及金额 $6 B。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势"
-      ]
-    },
-    {
       "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
       "source": "AgeClub",
@@ -3879,7 +3580,7 @@
       "region": "overseas",
       "event_type": "产品发布",
       "entity_name": "AgeClub",
-      "final_score": 5.95,
+      "final_score": 5.3,
       "dim_scores": {
         "industry": 10,
         "signal": 3.2,
@@ -3894,28 +3595,6 @@
       ]
     },
     {
-      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "AgeClub",
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "智慧养老"
-      ]
-    },
-    {
       "title": "Bridgepoint约14亿美元收购Kayne Anderson养老地产业务",
       "url": "https://www.mcknightsseniorliving.com/news/kayne-anderson-real-estate-to-be-acquired-by-bridgepoint-group-for-about-1-4b/",
       "source": "McKnight's养老社区",
@@ -3923,7 +3602,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.43,
+      "final_score": 6.84,
       "dim_scores": {
         "industry": 7,
         "signal": 7.9,
@@ -3939,30 +3618,6 @@
       ]
     },
     {
-      "title": "Rendever推出社交健康平台，用数据驱动干预老年人社交隔离",
-      "url": "https://www.mcknightsseniorliving.com/news/new-social-health-platform-aims-to-offset-isolation-in-senior-living-residents/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "Rendever",
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "Rendever把「老年人社交」从活动组织升级为「数据驱动的健康干预」——不给老人安排广场舞，而是监测谁在孤立、设计个性化干预、量化社交健康改善。这不是概念炒作：研究已证明社交隔离对健康的危害相当于每天抽15支烟。中国2.6亿老年人中，空巢老人超过一半，社交健康作为一个「可干预的临床指标」，可能藏着巨大的创业机会。",
-      "tags": [
-        "社交陪伴",
-        "智慧养老",
-        "辅助生活",
-        "产品发布"
-      ]
-    },
-    {
       "title": "Upside获2000万美元住房稳定性平台融资（含Tombot等投融资汇总）",
       "url": "https://www.mobihealthnews.com/news/upside-garners-20m-healthcare-focused-housing-stability-platform-and-more-funding-news",
       "source": "移动健康新闻",
@@ -3970,7 +3625,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "Tombot",
-      "final_score": 6.83,
+      "final_score": 6.18,
       "dim_scores": {
         "industry": 6,
         "signal": 7.9,
@@ -3991,7 +3646,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.85,
+      "final_score": 6.9,
       "dim_scores": {
         "industry": 6,
         "signal": 6.4,
@@ -4007,29 +3662,6 @@
       ]
     },
     {
-      "title": "LifeCare Development进入田纳西州，建设The Blake at Chattanooga高端辅助生活社区",
-      "url": "https://www.mcknightsseniorliving.com/news/lifecare-development-enters-tennessee-with-plans-for-the-blake-at-chattanooga/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.15,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 2.4,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "区域性养老地产开发商进入新州——这是美国养老地产扩张的常规节奏，单条故事性不强。建议归档，作为养老地产区域扩张趋势的数据点积累。",
-      "tags": [
-        "辅助生活",
-        "养老地产",
-        "认知症"
-      ]
-    },
-    {
       "title": "Janus Living：近期上市后，养老护理 REIT 开启物业收购狂潮",
       "url": "https://seekingalpha.com/article/4771852-janus-living-ipo-senior-care-reit-property-shopping-spree",
       "source": "Seeking Alpha",
@@ -4037,7 +3669,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": "Ping",
-      "final_score": 7.75,
+      "final_score": 6.96,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4060,7 +3692,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": "Accelera",
-      "final_score": 7.75,
+      "final_score": 6.96,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4083,7 +3715,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.69,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4106,7 +3738,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.83,
+      "final_score": 6.18,
       "dim_scores": {
         "industry": 6,
         "signal": 7.9,
@@ -4128,7 +3760,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.25,
+      "final_score": 5.63,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -4150,7 +3782,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.53,
+      "final_score": 6.08,
       "dim_scores": {
         "industry": 6,
         "signal": 7.9,
@@ -4166,29 +3798,6 @@
       ]
     },
     {
-      "title": "台湾创业者将智能养老引入中国大陆",
-      "url": "https://www.manilatimes.net/2026/06/29/business/taiwan-entrepreneur-time-light-care-brings-smart-elderly-care-to-mainland/",
-      "source": "The Manila Times",
-      "date": "2026-06-29",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "两岸银发经济合作典型案例。台湾养老产业起步较早（2025年进入超高龄社会），其经验对大陆有直接借鉴价值。值得关注该企业在大陆的落地进展和适应情况。",
-      "tags": [
-        "智慧养老",
-        "战略合作",
-        "老年消费"
-      ]
-    },
-    {
       "title": "New Day CEO 在 16 次收购后优先运营而非并购",
       "url": "https://homehealthcarenews.com/2026/06/new-day-ceo-kathy-poland-prioritizes-operations-over-ma/",
       "source": "家庭健康护理新闻",
@@ -4196,7 +3805,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.45,
+      "final_score": 6.67,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4212,50 +3821,6 @@
       ]
     },
     {
-      "title": "居家医生：环境式居家健康检测的兴起",
-      "url": "https://www.forbes.com/sites/forbestechcouncil/2026/06/29/a-doctor-at-home-the-rise-of-ambient-home-health-monitoring/",
-      "source": "Forbes",
-      "date": "2026-06-29",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "Forbes行业趋势文章，印证「无感监测」是居家养老技术主流方向。从可穿戴到环境的转变，让监测从「老人配合」变成「技术自动运行」，对中国居家养老产品设计有方向性指导。",
-      "tags": [
-        "智慧养老",
-        "健康监测",
-        "远程医疗"
-      ]
-    },
-    {
-      "title": "上海银发经济家底首度公开，一份报告看懂养老新赛道",
-      "url": "https://mzj.sh.gov.cn/2026bsmz/20260629/79e742de570848619dc0f805815671af.html",
-      "source": "上海市民政局",
-      "date": "2026-06-29",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "上海首次公开银发经济系统性数据：养老科技三大攻关方向、康复器械审批缩短至6个月、2025年新增12款产品获批。这份家底报告是理解中国最前沿银发经济城市的绝佳素材，建议做解剖上海系列选题。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
       "title": "Selectis Health被Black Pearl收购",
       "url": "https://www.mcknightsseniorliving.com/news/selectis-health-to-be-acquired-by-black-pearl/",
       "source": "McKnight's养老社区",
@@ -4263,7 +3828,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 6.75,
+      "final_score": 5.98,
       "dim_scores": {
         "industry": 7,
         "signal": 6.4,
@@ -4286,7 +3851,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": "Athulya Senior Care",
-      "final_score": 6.93,
+      "final_score": 6.26,
       "dim_scores": {
         "industry": 6,
         "signal": 9.5,
@@ -4309,7 +3874,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.53,
+      "final_score": 5.88,
       "dim_scores": {
         "industry": 6,
         "signal": 7.9,
@@ -4333,7 +3898,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.52,
       "dim_scores": {
         "industry": 10,
         "signal": 6.4,
@@ -4357,7 +3922,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.33,
+      "final_score": 6.8,
       "dim_scores": {
         "industry": 10,
         "signal": 7.9,
@@ -4381,7 +3946,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.52,
       "dim_scores": {
         "industry": 10,
         "signal": 6.4,
@@ -4405,7 +3970,7 @@
       "region": "domestic",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 5.95,
+      "final_score": 5.33,
       "dim_scores": {
         "industry": 6,
         "signal": 5.6,
@@ -4428,7 +3993,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.45,
+      "final_score": 6.67,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4451,7 +4016,7 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": "Humana",
-      "final_score": 5.83,
+      "final_score": 5.67,
       "dim_scores": {
         "industry": 10,
         "signal": 3.9,
@@ -4475,7 +4040,7 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.35,
+      "final_score": 6.52,
       "dim_scores": {
         "industry": 10,
         "signal": 6.4,
@@ -4498,7 +4063,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 6.93,
+      "final_score": 6.46,
       "dim_scores": {
         "industry": 6,
         "signal": 9.5,
@@ -4515,29 +4080,6 @@
       ]
     },
     {
-      "title": "反向迁徙：东北开始「抢」老人，留住南飞的「候鸟」",
-      "url": "https://www.36kr.com/p/3817053424206726",
-      "source": "36氪",
-      "date": "2026-05-20",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "「东北抢老人」这个标题自带流量。背后的逻辑值得关注：当年轻人口持续外流，老年人成为东北一些城市「最后的消费力」。养老服务从福利变成城市竞争力——谁能留住老人，谁就留住了养老金消费流。可与「京东上线养老师」「美团上线养老机构」放在一起，写一篇「谁在为老年人建城市」——从G端到C端的养老生态思考。",
-      "tags": [
-        "居家养老",
-        "养老地产",
-        "老年消费"
-      ]
-    },
-    {
       "title": "全球化具身养老机器人公司骅羲科技获亚华电子战略投资",
       "url": "https://www.36kr.com/p/3798681166814215",
       "source": "36氪",
@@ -4545,7 +4087,7 @@
       "region": "domestic",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.05,
+      "final_score": 6.38,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4569,7 +4111,7 @@
       "region": "domestic",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.05,
+      "final_score": 6.38,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4590,7 +4132,7 @@
       "region": "domestic",
       "event_type": "收购并购",
       "entity_name": null,
-      "final_score": 7.05,
+      "final_score": 6.38,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
@@ -4611,7 +4153,7 @@
       "region": "overseas",
       "event_type": "融资",
       "entity_name": null,
-      "final_score": 7.05,
+      "final_score": 6.38,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
