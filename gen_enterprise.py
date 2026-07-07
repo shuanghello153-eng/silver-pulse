@@ -305,7 +305,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 .f-btn.active {{ background:var(--accent); color:white; border-color:var(--accent); }}
 .f-btn .cnt {{ font-size:10px; opacity:0.7; margin-left:2px; }}
 .f-btn-l2 {{ font-size:10px; padding:2px 8px; }}
-.l2-row {{ padding-left:48px; }}
+.l2-row {{ padding-left:48px; border-left:3px solid var(--accent); background:var(--accent-light); margin-left:12px; padding-top:6px; padding-bottom:6px; border-radius:0 6px 6px 0; }}
 .search-inline {{ width:200px; padding:4px 12px; border:1px solid var(--border); border-radius:14px; font-size:12px; outline:none; background:var(--card-bg); color:var(--text); }}
 .search-inline:focus {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(8,145,178,0.1); }}
 

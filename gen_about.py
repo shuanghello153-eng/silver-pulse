@@ -326,8 +326,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p>标签是与分类独立的自由标记，用于标注资本信号、背书、阶段、特殊模式等。每条资讯最多5个标签，所有标签来自预定义的标签池。</p>
     {tag_pool_html}
     <div class="callout">
-      <b>标签池迭代规则</b>：标签池每月迭代一次。每次迭代时，AI会扫描近一个月的资讯数据，识别高频出现但尚未纳入标签池的概念、赛道、模式，自动补充到TAG_POOL中。迭代后重新标注所有已入库资讯。<br>
-      <b>迭代成本</b>：每月约消耗5-10K tokens（数据扫描 + 新标签识别 + 配置文件更新）。
+      <b>标签池迭代规则</b>：标签池每周迭代一次。每次迭代时，AI会扫描近一周的资讯数据，识别高频出现但尚未纳入标签池的概念、赛道、模式，自动补充到TAG_POOL中。迭代后重新标注所有已入库资讯。<br>
+      <b>迭代成本</b>：每周约消耗5-10K tokens（数据扫描 + 新标签识别 + 配置文件更新）。
     </div>
   </div>
 
@@ -353,7 +353,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p style="margin-top:8px;">无关关键词（共{len(IRRELEVANT_KEYWORDS)}个）：</p>
     <div style="margin:8px 0;">{irrel_kw_html}</div>
 
-    <p style="margin-top:12px;"><b>第二步：信号打分（关键词+权重）</b></p>
+    <p style="margin-top:12px;"><b>第三步：信号打分（关键词+权重）</b></p>
     <ul>
       <li>通过相关性过滤的文章进入<b>信号打分</b>环节</li>
       <li><b>加分关键词</b>（权重+3~+5）：acquires/acquisition、raises Series、IPO、valued at、partners with、launches、expands into、融资/收购/并购/上市/A轮/B轮/C轮等</li>
@@ -366,7 +366,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <b>为什么这样设计？</b>全量抓取再人工看效率太低。脚本内置关键词+权重打分，自动过滤噪音（webinar/award/排行榜），优先推送融资/收购/上市等高价值信号。从原来全量30条精简到Top 20条，每次采集节省约30%的AI评分token。
     </div>
 
-    <p style="margin-top:12px;"><b>第三步：展示排序</b></p>
+    <p style="margin-top:12px;"><b>第四步：展示排序</b></p>
     <ul>
       <li>默认按日期降序（最新优先）</li>
       <li><b>精选视图</b>：展示评分≥5.0或人工精选的条目（当前评分暂停，精选=全量，恢复评分后两者会不同）</li>
@@ -411,13 +411,17 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
   <div class="section">
     <h3>更新机制</h3>
     <ul>
-      <li><b>采集频率</b>：每周运行一次（暂定）</li>
+      <li><b>资讯采集</b>：每周一 01:00 北京时间自动执行</li>
+      <li><b>标签池迭代</b>：每周一 03:00，AI扫描近一周数据自动补充新标签</li>
+      <li><b>摘要推送</b>：每周一 06:00，生成本周资讯摘要推送到WorkBuddy对话</li>
       <li><b>采集窗口</b>：过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯</li>
-      <li><b>每次积分消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K）</li>
+      <li><b>每周积分消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K + 标签迭代5-10K + 摘要推送3-5K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
       <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
-      <li><b>标签池迭代</b>：每月一次，AI扫描近月数据自动补充新标签</li>
     </ul>
+    <div class="callout">
+      <b>定时任务时序</b>：每周一 01:00 资讯采集 → 03:00 标签池迭代（基于最新数据） → 06:00 摘要推送（一切就绪后推送到WorkBuddy对话窗口）。
+    </div>
   </div>
 
 </div>
@@ -494,7 +498,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <h3>整体架构</h3>
     <p>Silver Pulse 银脉由三个核心模块组成：</p>
     <ul>
-      <li><b>资讯看板</b>（index.html）：每日银发经济投融资新闻聚合</li>
+      <li><b>资讯看板</b>（index.html）：每周银发经济投融资新闻聚合</li>
       <li><b>企业数据库</b>（enterprise.html）：全球银发经济企业图谱</li>
       <li><b>网站说明</b>（about.html）：本页面，规则与字段说明</li>
     </ul>
@@ -535,17 +539,18 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
         <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>RSS采集</td><td>每周</td><td>周一 07:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
+        <tr><td>RSS采集</td><td>每周</td><td>周一 01:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
         <tr><td>分类+标签</td><td>每周</td><td>采集后</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用）</td></tr>
         <tr><td>推荐理由生成</td><td>每周</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
         <tr><td>HTML生成</td><td>每周</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
-        <tr><td>标签池迭代</td><td>每月</td><td>月初</td><td>约5-10K tokens</td><td>AI扫描+更新TAG_POOL</td></tr>
+        <tr><td>标签池迭代</td><td>每周</td><td>周一 03:00</td><td>约5-10K tokens</td><td>AI扫描+更新TAG_POOL</td></tr>
+        <tr><td>每周摘要推送</td><td>每周</td><td>周一 06:00</td><td>约3-5K tokens</td><td>AI读取数据生成摘要推送到WorkBuddy对话</td></tr>
         <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
         <tr><td>评分</td><td>暂停中</td><td>—</td><td>—</td><td>规则优化后恢复</td></tr>
       </tbody>
     </table>
     <div class="callout">
-      <b>每日总消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K）。<br>
+      <b>每周总消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K + 标签迭代5-10K + 摘要推送3-5K）。<br>
       <b>采集窗口</b>：每次采集过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯，非"当天"。
     </div>
     <div class="callout callout-warning">
@@ -554,7 +559,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       2. <b>缩短采集窗口</b> → 从{MAX_ARTICLE_AGE_DAYS}天降至3天，减少采集量<br>
       3. <b>暂停T3信源</b> → 只保留T1+T2核心信源，减少采集量<br>
       4. <b>跳过分类关键词匹配</b> → 不分类，只做相关性过滤（不推荐，影响筛选体验）<br>
-      <b>推荐策略</b>：优先关闭推荐理由生成（方案1），可节省约50%的每日积分消耗。
+      <b>推荐策略</b>：优先关闭推荐理由生成（方案1），可节省约50%的每周积分消耗。
     </div>
   </div>
 
@@ -564,7 +569,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>
       <li><b>托管</b>：GitHub Pages</li>
       <li><b>采集</b>：Python + feedparser（RSS-first 策略，0个403错误）</li>
-      <li><b>自动化</b>：WorkBuddy 定时任务，每日 07:00 执行</li>
+      <li><b>自动化</b>：WorkBuddy 定时任务（3个）：周一 01:00 资讯更新 / 03:00 标签池迭代 / 06:00 摘要推送</li>
       <li><b>数据格式</b>：JSON（结构化存储） → HTML（展示层生成）</li>
     </ul>
   </div>
@@ -583,6 +588,15 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <li>多源 JSON → merge_v2.py 融合去重 → all_enterprises.json（17字段统一schema）</li>
       <li>融合数据 → gen_enterprise.py → enterprise.html</li>
     </ul>
+  </div>
+
+  <div class="section">
+    <h3>规则维护原则</h3>
+    <div class="callout">
+      <b>本页面是网站所有规则的唯一真相源（Single Source of Truth）。</b><br>
+      所有展示规则、筛选逻辑、推送机制、定时任务频率、字段定义、分类体系变更均在此页面维护。<br>
+      每次网站有任何规则变更（筛选渠道调整、展示规则修改、推送逻辑变更、频率调整等），<b>必须同步更新本页面</b>并重新生成 about.html。
+    </div>
   </div>
 
   <div class="section">
