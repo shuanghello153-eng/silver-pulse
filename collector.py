@@ -214,7 +214,19 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
             feed = feedparser.parse(resp.text)
         elif source_type == "google_news":
             # Google News RSS proxy
-            resp = requests.get(feed_url, headers=HTTP_HEADERS, timeout=15)
+            if "news.google.com" in feed_url:
+                # Already a Google News RSS URL (e.g. AgeClub, 36kr)
+                target_url = feed_url
+            else:
+                # Direct site/channel URL → wrap in Google News RSS proxy (domain-level)
+                # Domain-level is more reliable than deep-path queries (Google News
+                # often doesn't index site:domain/path). L2 channel URL stays in
+                # config as documentation of what we monitor.
+                from urllib.parse import quote
+                clean = feed_url.split("//")[-1].rstrip("/")
+                domain = clean.split("/")[0]
+                target_url = f"https://news.google.com/rss/search?q={quote('site:' + domain)}+when:7d&hl=en-US"
+            resp = requests.get(target_url, headers=HTTP_HEADERS, timeout=15)
             resp.raise_for_status()
             feed = feedparser.parse(resp.text)
         else:
@@ -393,6 +405,9 @@ def collect_all(history=None):
           f"{len(relevant_articles)} relevant, "
           f"Top {len(top_articles)} selected for scoring")
     
+    # Store full relevant set for external save (full dashboard update)
+    collect_all._last_relevant = relevant_articles
+    
     # Print top 5 for quick preview
     if top_articles:
         print("\n--- Top 5 by signal score ---")
@@ -404,10 +419,14 @@ def collect_all(history=None):
 
 if __name__ == "__main__":
     articles = collect_all()
+    # Save ALL relevant articles (not just Top N) for full dashboard update
     out_file = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
+    # articles is top_articles (Top N); also save full relevant set if available
+    relevant_all = getattr(collect_all, '_last_relevant', None)
+    save_set = relevant_all if relevant_all else articles
     with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(articles, f, ensure_ascii=False, indent=2)
-    print(f"\nSaved {len(articles)} relevant articles to {out_file}")
+        json.dump(save_set, f, ensure_ascii=False, indent=2)
+    print(f"\nSaved {len(save_set)} relevant articles to {out_file}")
     print("\n--- Recent articles ---")
     for a in articles[:10]:
         print(f"  [{a['source']}] {a['title'][:70]} | {a['date']} | {a['url'][:60]}")
