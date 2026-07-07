@@ -93,6 +93,27 @@ ENTERPRISE_CATEGORY_CODES = {
 }
 
 # ================================================================
+# 1b. 赛道核心度 (centrality within silver economy) — 代码推导, 零模型成本
+# ----------------------------------------------------------------
+# 用于给资讯的 `industry`(赛道核心度) 维度打分: 不再让模型猜测"话题多核心",
+# 而是把资讯命中的领域(企业库 L1 分类)映射到固定的核心度档位。
+#   核心=10 / 重要=7 / 外围=4
+# 这样"中心程度"判断完全由关键词脚本完成 (复用 ENTERPRISE_CATEGORIES 的
+# L1/L2 关键词), 单次任务不消耗任何积分。借鉴评分.md 的 F1「行业趋势」分级思路,
+# 但改为代码驱动、可复现。
+CATEGORY_CENTRALITY = {
+    # 核心: 直接照护 / 适老产品 / 健康监测 / 认知症
+    "养老服务": 10, "养老用品": 10, "适老化改造": 10,
+    "健康服务": 10, "失智老人赛道": 10,
+    # 重要: 康复 / 地产 / 日常消费 / 文娱
+    "康复设备": 7, "养老地产": 7, "日常用品": 7,
+    "健康食品": 7, "购物渠道": 7, "老年文娱": 7,
+    # 外围: 行业服务 / 资本
+    "行业服务": 4, "产业资本/投资机构": 4,
+}
+CATEGORY_CENTRALITY_DEFAULT = 6  # 未命中任何领域时的中性分
+
+# ================================================================
 # 2. NEWS CATEGORIZATION (event-type L1 + domain L2)
 # ================================================================
 # News is classified by EVENT TYPE (L1) + DOMAIN INVOLVED (L2)
@@ -624,6 +645,65 @@ SCORING_DIMENSIONS = [
 
 HIGH_VALUE_THRESHOLD = 7.0
 WATCH_THRESHOLD = 5.0
+
+# ================================================================
+# 6b. SELECTION ENGINE (选题雷达) — code-first, zero-cost
+# ================================================================
+# News 5-dim scoring. AI (L3) ONLY supplies these raw 0-10 scores.
+# The FINAL score + selection + cluster-main choice are ALWAYS computed in code.
+NEWS_SCORING_DIMS = {
+    # industry = 赛道核心度 (within-scope centrality): 该新闻所涉赛道在银发经济
+    #   范围内的核心程度。注意: 新闻"是否属于银发经济"的二元门控由 collector.
+    #   is_relevant() 在 L1 预过滤阶段决定, 不在此维度内 (此维度只在"已命中的
+    #   银发新闻"内部做核心度区分)。
+    "industry": {"label": "行业相关度", "weight": 0.20, "desc": "与银发核心赛道贴合度"},
+    "signal":   {"label": "信号强度",   "weight": 0.25, "desc": "投融资/收购/政策事件分量"},
+    "writing":  {"label": "写作潜力",   "weight": 0.20, "desc": "反常识/差异化模式/故事性"},
+    "cn_fit":   {"label": "国内可比性", "weight": 0.20, "desc": "对中国银发创业/政策可借鉴度"},
+    "urgency":  {"label": "时效紧迫度", "weight": 0.15, "desc": "是否应本周处理"},
+}
+
+# Differentiated selection thresholds by source tier (final_score on 0-10 scale)
+SELECT_THRESHOLDS = {
+    1: {"high": 6.0, "watch": 4.0},   # T1 权威垂直媒体：6分就值得看
+    2: {"high": 7.0, "watch": 5.0},   # T2 综合/代理：需更高才精选
+    3: {"high": 99.0, "watch": 6.0},  # T3 宽覆盖：仅进观察池，不单独精选
+}
+
+# Source-tier adjustment added to final_score (affects sort/display only)
+SOURCE_ADJ = {1: 0.3, 2: 0.0, 3: -0.3}
+
+# Event clustering
+CLUSTER_SIM_THRESHOLD = 0.82      # cosine > this AND same event_type => same cluster
+CLUSTER_NONMAIN_PENALTY = 1.5     # folded (non-main) items lose this from final
+
+# Enterprise research-value event boost (used by enterprise_score.py, Phase 2)
+# 最新大事件动态权重上调(用户决策): 国内/海外一致提高 event_boost 上限,
+# 让"近期发生融资/并购/IPO"等动态更显著影响研究价值。
+EVENT_BOOST = {"signal_ge_7": 15, "signal_5_7": 8, "ma_ipo_event": 10, "cap": 35}
+
+# "以海外为镜" 显性加分 (Silver Pulse 核心原则):
+# 海外企业是中国创业者/研究者直接学习的"镜子", 因此在 research_value 上
+# 额外叠加 MIRROR_BONUS (仅对 OVERSEAS 企业, 合计上限 100)。这是与 V4
+# (cn_fit / 标杆可借鉴度) 区分开的【独立调整项】, 不要塞进 V4 内部计算。
+MIRROR_BONUS = 5
+
+# ---- 借鉴 评分.md 的方法论 (批判性整合, 非照搬) ----
+# 企业研究价值分级 (S/A/B/C): 用于「选题卡」与展示徽章。
+ENTERPRISE_GRADE = {"S": 75, "A": 65, "B": 55, "C": 45}
+# 资讯终分每日衰减(文档化备用, 当前未自动应用): 越旧权重越低。
+DAILY_DECAY = 0.1
+# 同一事件 72h 内重评一次 (去重/聚类窗口参考)。
+RE_SCORE_WINDOW_H = 72
+# 选题覆盖度目标: 海外:国内 = 7:3 (与评分.md 口径一致, 当前库已接近)。
+COVERAGE_RATIO = {"overseas": 0.7, "domestic": 0.3}
+
+# Model config placeholders (wired in automation; code provides fallback estimates)
+L2_WEAK_MODEL = "hunyuan-lite"
+L3_STRONG_MODEL = "hunyuan"   # HY3 free — only scores 5 dims, never final
+
+# name -> tier lookup built from SOURCES
+SOURCE_NAME_TO_TIER = {v["name"]: v["tier"] for v in SOURCES.values()}
 
 # ================================================================
 # 7. DISPLAY & LANGUAGE RULES

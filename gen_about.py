@@ -7,18 +7,24 @@ tag pool, L1/L2 source hierarchy, data filtering logic.
 """
 import os
 import json
+import html
 from datetime import datetime
+
+esc = html.escape
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
 import sys
+from ui_common import COMMON_CSS, SIDEBAR, THEME_JS
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import (
     SOURCES, ENTERPRISE_CATEGORIES, NEWS_EVENT_TYPES, NEWS_DOMAINS,
     TAG_POOL, SCORING_DIMENSIONS, RELEVANCE_KEYWORDS,
     IRRELEVANT_KEYWORDS, MAX_ARTICLE_AGE_DAYS,
+    NEWS_SCORING_DIMS, SELECT_THRESHOLDS, SOURCE_ADJ,
+    CLUSTER_SIM_THRESHOLD, EVENT_BOOST,
 )
 
 # Enterprise data sources
@@ -155,6 +161,110 @@ def generate():
     t2_count = sum(1 for s in SOURCES.values() if s.get("tier") == 2)
     t3_count = sum(1 for s in SOURCES.values() if s.get("tier") == 3)
 
+    # === 选题雷达评分规则 (SSoT, read LIVE from config) — Phase 2 ===
+    # 5 news dims
+    # NOTE: industry 维度在用户页面重新定义为「赛道核心度」，config.py 的 industry
+    # desc 保持不变（与并行评分优化 agent 解耦）。本页是面向用户的最终真相源。
+    INDUSTRY_REDEFINED = {
+        "label": "赛道核心度",
+        "desc": "在「确属银发经济范畴」的前提下，资讯所处赛道的中心程度：养老照护 / 适老科技 / 银发消费 为核心，广义健康为周边。不再承担「是否属于银发」的二元判断。该维度<b>由代码依据 CATEGORY_CENTRALITY（企业库 L1 分类→核心10/重要7/外围4）确定性推导</b>，不调用模型，零积分成本。",
+    }
+    dim_rows = []
+    for dname, dinfo in NEWS_SCORING_DIMS.items():
+        if dname == "industry":
+            # 用面向用户的正确定义覆盖 config 中的临时 desc
+            dlabel = INDUSTRY_REDEFINED["label"]
+            ddesc = INDUSTRY_REDEFINED["desc"]
+        else:
+            dlabel = dinfo["label"]
+            ddesc = dinfo["desc"]
+        dim_rows.append(
+            f"<tr><td class='cat-name'>{esc(dlabel)} <span style='color:var(--text-muted);font-size:11px'>({esc(dname)})</span></td>"
+            f"<td style='font-weight:600;color:var(--accent)'>{dinfo['weight']*100:.0f}%</td>"
+            f"<td>{esc(ddesc)}</td></tr>"
+        )
+    dim_table = (
+        "<table class='info-table'><thead><tr><th>维度</th><th>权重</th><th>说明</th></tr></thead>"
+        f"<tbody>{''.join(dim_rows)}</tbody></table>"
+    )
+
+    # differentiated thresholds
+    th_parts = []
+    for tier in (1, 2, 3):
+        th = SELECT_THRESHOLDS.get(tier, {})
+        th_parts.append(
+            f"<b>T{tier}</b>：高价值 ≥ {th.get('high')} · 值得关注 ≥ {th.get('watch')}"
+        )
+    th_html = " &nbsp;|&nbsp; ".join(th_parts)
+
+    # source adjustment
+    sa_parts = []
+    for tier in (1, 2, 3):
+        v = SOURCE_ADJ.get(tier, 0)
+        sign = "+" if v >= 0 else "−"
+        sa_parts.append(f"T{tier} {sign}{abs(v)}")
+    sa_html = " · ".join(sa_parts)
+
+    # event boost
+    eb = EVENT_BOOST
+    eb_html = (
+        f"signal ≥ 7 事件 <b>+{eb['signal_ge_7']}</b> · "
+        f"signal 5–7 事件 <b>+{eb['signal_5_7']}</b> · "
+        f"收购/IPO 事件 <b>+{eb['ma_ipo_event']}</b> · "
+        f"封顶 <b>{eb['cap']}</b>"
+    )
+
+    radar_rules_html = f"""
+  <div class="section">
+    <h3>📐 选题雷达评分规则（代码优先 · 唯一真相源）</h3>
+    <p>以下规则由代码实时计算，<b>全部数字均读取自 config.py</b>，本页面不硬编码任何阈值。模型（L3）负责打 4 个维度分（信号 / 写作 / 国内可比性 / 时效）；<b>「赛道核心度」由代码依据领域关键词确定性推导（零成本）</b>。其余一切由代码决定。</p>
+
+    <p style="margin-top:14px;"><b>〇、行业相关性 = L1 预筛闸门（collector.is_relevant()）</b></p>
+    <p>因为本站是<b>银发经济</b>专版，所有入库资讯都应属于银发经济范畴。因此「行业相关性」<b>不是一个与信号/写作等并列的加权维度</b>，而是位于 5 维评分<b>之前</b>的一道<b>预筛闸门</b>：</p>
+    <ul>
+      <li><b>闸门前（collector.is_relevant()）</b>：用 RELEVANCE_KEYWORDS / IRRELEVANT_KEYWORDS 做二元判断——确属银发经济范畴（养老照护 / 适老科技 / 银发消费 / 广义健康养老等）的资讯才放行，明显不相关的（儿科、母婴、青少年等非银发内容）直接丢弃。</li>
+      <li><b>闸门后</b>：<b>只有通过闸门的资讯</b>才进入下面的 5 维评分（维度分 0–10）。</li>
+    </ul>
+    <div class="callout">
+      <b>为什么用「闸门」而非「加权维度」？</b>若把「是否属于银发」作为加权维度，会让大量非银发噪音凭其它高分混入精选；而纯二元闸门能在<b>不误伤重要信源</b>（如 T3 宽覆盖源偶尔产出高质量银发报道）的同时，<b>把真正的噪音挡在门外</b>。闸门只回答「是不是银发」，不比较「多银发」——后者交给 5 维中的「赛道核心度」。
+    </div>
+
+    <p style="margin-top:12px;"><b>一、资讯 5 维评分（NEWS_SCORING_DIMS，闸门之后才计算）</b></p>
+    {dim_table}
+    <p style="font-size:12px;color:var(--text-secondary);">4+1 个加权维度为：<b>信号强度 / 写作潜力 / 国内可比性 / 时效紧迫度 + 赛道核心度（代码推导）</b>。'赛道核心度' 不参与模型打分，由关键词脚本按企业 L1 分类映射；其余 4 维由模型给出（0–10）。<b>终分 = Σ(维度分 × 权重)</b>，由代码加权计算。「行业相关性」闸门不参与此加权。</p>
+
+    <p style="margin-top:12px;"><b>二、差异化精选阈值（SELECT_THRESHOLDS，按信源层级）</b></p>
+    <div class="callout">{th_html}</div>
+
+    <p style="margin-top:12px;"><b>三、信源调整（SOURCE_ADJ，仅影响排序/展示）</b></p>
+    <div class="callout">{sa_html}</div>
+
+    <p style="margin-top:12px;"><b>四、事件聚类规则（CLUSTER_SIM_THRESHOLD = {CLUSTER_SIM_THRESHOLD}）</b></p>
+    <ul>
+      <li><b>主规则</b>：(entity_name, event_type) 完全相同的多条报道归入同一事件簇（cluster）。</li>
+      <li><b>余弦回退</b>：entity_name 不同但余弦相似度 &gt; {CLUSTER_SIM_THRESHOLD} 且 event_type 相同，亦判为同簇。</li>
+      <li><b>主条优先</b>：每簇只保留一条 <code>is_main=True</code> 主条（最高分/最权威源），其余标记为折叠（folded / is_duplicate_of 指向主条），不单独进精选。</li>
+    </ul>
+
+    <p style="margin-top:12px;"><b>五、企业研究价值公式（research_value = 0–100）</b></p>
+    <ul>
+      <li><b>base_value（0–70）</b>：V1 规模(0–25) + <b>V2 信息丰富度(0–20，最高权重)</b> + V3 模式创新(0–15) + V4 国内可比性(0–15)，合计封顶 70。</li>
+      <li><b>权重调整（2026-07-07，用户共同决策）</b>：信息丰富度(V2)上调为最高分量；国内企业的 V4（标杆可借鉴）下调——国内标杆稀少（海外10≈国内1），故国内企业分数更依赖 V2 信息丰富度 + 最新事件动态，而非「可借鉴」维度。</li>
+      <li><b>event_boost（0–35）</b>：来自近期相关新闻信号：{eb_html}（上限已上调至 35，强化「最新大事件」权重）。</li>
+      <li><b>research_value = min(100, base_value + event_boost + MIRROR_BONUS)</b>，MIRROR_BONUS=5 仅海外（上限 100）。</li>
+      <li><b>分级 S/A/B/C</b>：research_value ≥75=S / ≥65=A / ≥55=B / ≥45=C，用于「选题卡」与展示徽章（借鉴评分.md 的 F 级思路，非照搬）。</li>
+      <li><span class="callout" style="display:inline-block;margin-top:6px;"><b>以海外为镜</b>：海外企业 V4（标杆可借鉴）保持较高权重；国内企业 V4 下调，分数主要由 V2 信息丰富度 + 最新事件驱动。</span></li>
+      <li><b>覆盖度目标</b>：选题覆盖 海外:国内 ≈ 7:3（与评分.md 口径一致）。</li>
+    </ul>
+
+    <p style="margin-top:12px;"><b>六、铁律（IRON RULE）</b></p>
+    <div class="callout callout-warning">
+      <b>终分 / 精选判定 / 聚类主条，100% 由代码计算。</b><br>
+      模型（L3）只输出 5 个维度分，<b>绝不直接给出 final_score</b>，也不决定精选与否、不挑选聚类主条。所有阈值、权重、公式皆在 config.py / selection 代码中，本页面仅作展示。
+    </div>
+  </div>
+"""
+
     html = f'''<!-- build:{BUILD_STAMP} -->
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -165,102 +275,11 @@ def generate():
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Silver Pulse 银脉 · 网站说明</title>
-<style>
-:root {{
-  --bg: #f5f5f5;
-  --sidebar-bg: #ffffff;
-  --card-bg: #ffffff;
-  --text: #1a1a1a;
-  --text-secondary: #666;
-  --text-muted: #999;
-  --border: #e8e8e8;
-  --accent: #0891b2;
-  --accent-light: #ecfeff;
-  --radius: 8px;
-}}
-* {{ margin:0; padding:0; box-sizing:border-box; }}
-body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; display:flex; min-height:100vh; }}
-
-.sidebar {{ width:200px; background:var(--sidebar-bg); border-right:1px solid var(--border); position:fixed; top:0; left:0; height:100vh; overflow-y:auto; padding:20px 0; flex-shrink:0; z-index:10; }}
-.sidebar-logo {{ padding:0 16px 16px; border-bottom:1px solid var(--border); margin-bottom:12px; }}
-.sidebar-logo h1 {{ font-size:18px; font-weight:700; color:var(--accent); }}
-.sidebar-logo .logo-sub {{ font-size:11px; color:var(--text-muted); margin-top:2px; }}
-.nav-section {{ padding:4px 0; }}
-.nav-label {{ font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; padding:6px 16px 4px; font-weight:600; }}
-.nav-item {{ display:block; padding:8px 16px 8px 24px; font-size:13px; color:var(--text-secondary); text-decoration:none; cursor:pointer; border-left:3px solid transparent; transition:all 0.15s; }}
-.nav-item:hover {{ background:#fafafa; color:var(--text); }}
-.nav-item.active {{ background:var(--accent-light); color:var(--accent); border-left-color:var(--accent); font-weight:600; }}
-
-.main {{ flex:1; margin-left:200px; max-width:980px; width:calc(100% - 200px); padding:24px 32px 60px; }}
-.header h2 {{ font-size:20px; font-weight:700; margin-bottom:4px; }}
-.header p {{ font-size:12px; color:var(--text-muted); }}
-
-.tab-bar {{ display:flex; gap:0; margin:20px 0 24px; border-bottom:2px solid var(--border); }}
-.tab-btn {{ padding:10px 20px; border:none; background:transparent; font-size:14px; font-weight:500; color:var(--text-secondary); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; transition:all 0.15s; }}
-.tab-btn:hover {{ color:var(--accent); }}
-.tab-btn.active {{ color:var(--accent); border-bottom-color:var(--accent); font-weight:600; }}
-.tab-content {{ display:none; }}
-.tab-content.active {{ display:block; }}
-
-.section {{ margin-bottom:32px; }}
-.section h3 {{ font-size:16px; font-weight:600; margin-bottom:12px; color:var(--text); padding-left:12px; border-left:3px solid var(--accent); }}
-.section p {{ font-size:14px; color:var(--text-secondary); margin-bottom:8px; line-height:1.8; }}
-.section ul {{ margin:8px 0 12px 20px; }}
-.section li {{ font-size:14px; color:var(--text-secondary); margin-bottom:4px; line-height:1.7; }}
-
-.info-table {{ width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; background:var(--card-bg); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; table-layout:fixed; }}
-.info-table th {{ background:#fafafa; padding:8px 10px; text-align:left; font-size:11px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.3px; border-bottom:1px solid var(--border); }}
-.info-table td {{ padding:8px 10px; border-bottom:1px solid #f0f0f0; vertical-align:top; word-wrap:break-word; overflow-wrap:break-word; }}
-.info-table tr:last-child td {{ border-bottom:none; }}
-.info-table tr:hover {{ background:#fafbfc; }}
-.cat-name {{ font-weight:600; color:var(--accent); white-space:nowrap; }}
-.src-l1 {{ font-size:10px; color:var(--text-muted); margin-top:2px; }}
-.tier-badge {{ font-size:10px; font-weight:700; padding:2px 6px; border-radius:3px; text-align:center; display:inline-block; }}
-.tier-t1 {{ background:#dcfce7; color:#166534; }}
-.tier-t2 {{ background:#dbeafe; color:#1e40af; }}
-.tier-t3 {{ background:#f3f4f6; color:#6b7280; }}
-.region-badge {{ font-size:10px; font-weight:500; padding:2px 8px; border-radius:3px; text-align:center; }}
-.region-海外 {{ background:#ecfdf5; color:#065f46; }}
-.region-国内 {{ background:#eff6ff; color:#1e40af; }}
-
-.callout {{ background:var(--accent-light); border:1px solid #a5f3fc; border-radius:var(--radius); padding:12px 16px; margin:12px 0; font-size:13px; color:#0e7490; }}
-.callout-warning {{ background:#fef3c7; border-color:#fcd34d; color:#92400e; }}
-
-.tag-chip {{ display:inline-block; font-size:11px; padding:3px 8px; border-radius:4px; background:#dbeafe; color:#1e40af; margin:2px; font-weight:500; }}
-.l2-chip {{ display:inline-block; font-size:10px; padding:2px 6px; border-radius:3px; background:#f0f0f0; color:var(--text-secondary); margin:1px; }}
-.l2-method {{ font-size:10px; color:var(--accent); font-weight:500; }}
-.kw-chip {{ display:inline-block; font-size:11px; padding:2px 8px; border-radius:3px; background:#ecfdf5; color:#065f46; margin:2px; }}
-.kw-irrelevant {{ background:#fef2f2; color:#991b1b; }}
-
-.field-list {{ margin:12px 0; }}
-.field-item {{ display:flex; gap:12px; padding:8px 0; border-bottom:1px solid #f5f5f5; }}
-.field-name {{ font-weight:600; color:var(--text); min-width:140px; font-size:13px; font-family:monospace; }}
-.field-type {{ color:var(--accent); font-size:12px; min-width:60px; }}
-.field-desc {{ color:var(--text-secondary); font-size:13px; flex:1; }}
-
-.footer {{ text-align:center; padding:24px 0 16px; font-size:12px; color:var(--text-muted); border-top:1px solid var(--border); margin-top:24px; }}
-
-@media (max-width:768px) {{
-  .sidebar {{ display:none; }}
-  .main {{ margin-left:0; width:100%; padding:16px; max-width:100%; }}
-}}
-</style>
+<style>__COMMON_CSS__</style>
 </head>
 <body>
 
-<div class="sidebar">
-  <div class="sidebar-logo">
-    <h1>Silver Pulse 银脉</h1>
-    <p class="logo-sub">Silver Pulse</p>
-  </div>
-  <div class="nav-section">
-    <div class="nav-label">内容</div>
-    <a href="index.html" class="nav-item">资讯看板</a>
-    <a href="enterprise.html" class="nav-item">企业库</a>
-    <a href="about.html" class="nav-item active">网站说明</a>
-  </div>
-</div>
-
+__SIDEBAR__
 <div class="main">
 
 <div class="header">
@@ -407,7 +426,7 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
       <li><b>叠加奖励</b>：命中2个加分+1，3个以上+3</li>
     </ul>
     <p>阈值设计：≥7.0 高价值(high) | 5.0-6.9 值得关注(watch) | &lt;5.0 归档(archive)</p>
-    <p>AI四维加权评分（可选增强）：行业相关度(35%) + 信号强度(30%) + 写作潜力(20%) + 时效紧迫度(15%)</p>
+    <p>模型（L3）<b>只输出 5 个维度分（0–10）</b>：赛道核心度 / 信号强度 / 写作潜力 / 国内可比性 / 时效紧迫度（权重见「网站规则 → 📐 选题雷达评分规则」）。注：「行业相关性」是一道位于评分<b>之前</b>的 L1 预筛闸门（collector.is_relevant()），只有确属银发经济范畴的资讯才进入这 5 维评分。<b>终分由代码加权计算</b>，模型从不直接给出 final_score、也不决定精选或聚类主条。</p>
   </div>
 
   <div class="section">
@@ -415,13 +434,13 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
     <p>当前筛选为<b>纯关键词匹配 + 信源权重</b>，已能过滤大部分噪音。参考 AIHOT（卡兹克）的成熟实践，后续迭代路径如下：</p>
     <p style="margin-top:10px;"><b>短期（代码层，零AI成本）</b></p>
     <ul>
-      <li><b>差异化阈值</b>：不同层级信源设不同精选阈值 — T1≥6.0、T2≥7.0、T3≥8.0。避免T3宽覆盖源的通稿混入选精。</li>
-      <li><b>事件聚类</b>：用 embedding 相似度（&gt;0.85）将同一事件的多次报道折叠，仅保留最高分来源（官网&gt;官方推特&gt;KOL），消除重复展示。</li>
+      <li><b>差异化阈值</b>：不同层级信源设不同精选阈值（已在 config.SELECT_THRESHOLDS 落地）— T1 高价值≥{SELECT_THRESHOLDS[1]['high']} / 值得关注≥{SELECT_THRESHOLDS[1]['watch']}；T2 高价值≥{SELECT_THRESHOLDS[2]['high']} / 值得关注≥{SELECT_THRESHOLDS[2]['watch']}；T3 仅进观察池（watch≥{SELECT_THRESHOLDS[3]['watch']}，不单独精选）。避免T3宽覆盖源的通稿混入选精。</li>
+      <li><b>事件聚类</b>：主规则 (entity_name, event_type) 相同即同簇；余弦相似度 &gt; {CLUSTER_SIM_THRESHOLD} 且 event_type 相同为回退；每簇仅保留一条主条（is_main），其余折叠。完整规则见「网站规则 → 📐 选题雷达评分规则」。</li>
       <li><b>新闻稿降权</b>：PR Newswire / Business Wire 等通稿平台自动降权，仅保留其中融资/收购类实质内容。</li>
     </ul>
     <p style="margin-top:10px;"><b>中期（Skill层，AI单一能力封装）</b></p>
     <ul>
-      <li><b>AI只打维度分</b>：大模型只输出4个维度分，最终分用代码计算（参考AIHOT：Prompt从600行缩减到200行）。</li>
+      <li><b>AI只打维度分</b>：大模型只输出 <b>5 个维度分</b>，最终分由代码加权计算（参考AIHOT：Prompt从600行缩减到200行）。</li>
       <li><b>零AI成本日报</b>：入库时完成所有AI处理（打分+翻译+摘要），周报只需分桶排序，1秒生成。</li>
     </ul>
     <p style="margin-top:10px;"><b>长期（Agent层，动态规划）</b></p>
@@ -519,6 +538,8 @@ body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFan
 
 <!-- Tab 3: 网站规则 -->
 <div class="tab-content" id="tab-rules">
+
+  {radar_rules_html}
 
   <div class="section">
     <h3>整体架构</h3>
@@ -652,6 +673,8 @@ function switchTab(tabName, event) {{
 </body>
 </html>'''
 
+    html = html.replace("__COMMON_CSS__", COMMON_CSS).replace("__SIDEBAR__", SIDEBAR("about"))
+    html = html.replace("</body>", THEME_JS + "\n</body>")
     out_path = os.path.join(OUTPUT_DIR, "about.html")
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
@@ -665,6 +688,11 @@ function switchTab(tabName, event) {{
     print(f"Enterprise count: {ent_count}")
     print(f"Sources: {len(SOURCES)} (T1={t1_count} T2={t2_count} T3={t3_count})")
     return out_path
+
+
+def main():
+    """Entry point for the daily pipeline (run_daily.py)."""
+    return generate()
 
 
 if __name__ == "__main__":

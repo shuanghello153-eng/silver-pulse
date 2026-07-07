@@ -9,17 +9,213 @@ import json
 import os
 import glob
 import re
-from datetime import datetime
+import html
+import hashlib
+from datetime import datetime, timedelta
 
 from config import (
     SITE_TITLE, SITE_SUBTITLE, OUTPUT_DIR, DATA_DIR,
     NEWS_EVENT_TYPES, NEWS_DOMAINS, TAG_POOL,
-    OVERSEAS_SOURCE_NAMES, SOURCES,
+    OVERSEAS_SOURCE_NAMES, SOURCES, SOURCE_NAME_TO_TIER,
 )
+
+from ui_common import COMMON_CSS as CSS_STYLES, SIDEBAR, THEME_JS
 
 OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCE_NAMES  # alias for clarity
 ALL_TAG_NAMES = set(TAG_POOL.keys())
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
+
+# Selection-radar (选题雷达) data sources
+ENT_SCORES_PATH = os.path.join(DATA_DIR, "enterprise", "enterprise_scores.json")
+ALL_ENT_PATH = os.path.join(DATA_DIR, "enterprise", "all_enterprises.json")
+SCORED_LATEST_PATH = os.path.join(DATA_DIR, "scored_latest.json")
+
+_esc = html.escape
+
+
+def _url_hash(url):
+    """Stable short hash of a URL for use as an HTML anchor id."""
+    return hashlib.md5((url or "").encode("utf-8")).hexdigest()[:10]
+
+
+def _parse_date(s):
+    if not s:
+        return None
+    try:
+        return datetime.strptime(s, "%Y-%m-%d")
+    except Exception:
+        return None
+
+
+def build_radar_data():
+    """Assemble the 选题雷达 block data.
+
+    Returns a dict with top_ents / top_news / signal, or None on failure
+    (so the caller can fall back to '暂无数据').
+    """
+    # --- top enterprises by research_value ---
+    top_ents = []
+    try:
+        with open(ENT_SCORES_PATH, "r", encoding="utf-8") as f:
+            ent_scores = json.load(f)
+        with open(ALL_ENT_PATH, "r", encoding="utf-8") as f:
+            ents = json.load(f)
+        by_serial = {e.get("serial"): e for e in ents}
+        joined = []
+        for serial, sc in ent_scores.items():
+            e = by_serial.get(serial)
+            if not e:
+                continue
+            joined.append((serial, sc, e))
+        joined.sort(key=lambda t: t[1].get("research_value", 0) or 0, reverse=True)
+        for i, (serial, sc, e) in enumerate(joined[:8], start=1):
+            rv = sc.get("research_value") or e.get("value_score") or 0
+            deep = bool(sc.get("worth_deep_write"))
+            bm = (e.get("business_model") or "").strip()
+            reason = bm[:40]
+            te = sc.get("top_event")
+            if te:
+                if reason:
+                    reason = reason + " · 近期: " + te
+                else:
+                    reason = "近期: " + te
+            top_ents.append({
+                "rank": i,
+                "name": e.get("name", ""),
+                "rv": rv,
+                "deep": deep,
+                "region": e.get("region", ""),
+                "reason": reason,
+            })
+    except Exception:
+        top_ents = []
+
+    # --- load scored_latest once (reused by top news + signal) ---
+    news = []
+    try:
+        with open(SCORED_LATEST_PATH, "r", encoding="utf-8") as f:
+            news = json.load(f)
+    except Exception:
+        news = []
+
+    # --- top news (is_main only) by final_score ---
+    top_news = []
+    dup_map = {}
+    try:
+        # count folded siblings per main url (via is_duplicate_of)
+        for n in news:
+            d = n.get("is_duplicate_of")
+            if d:
+                dup_map[d] = dup_map.get(d, 0) + 1
+        mains = [n for n in news if n.get("is_main")]
+        mains.sort(key=lambda n: n.get("final_score") or 0, reverse=True)
+        for n in mains[:10]:
+            url = n.get("url", "")
+            top_news.append({
+                "score": n.get("final_score") or 0,
+                "tier": SOURCE_NAME_TO_TIER.get(n.get("source"), 3),
+                "title": n.get("title_cn") or n.get("title", ""),
+                "url": url,
+                "tags": n.get("tags", []) or [],
+                "fold": dup_map.get(url, 0),
+            })
+    except Exception:
+        top_news = []
+
+    # --- signal overview: last 7 days (relative to latest news date) by event_type ---
+    signal = []
+    try:
+        dates = [_parse_date(n.get("date")) for n in news]
+        dates = [d for d in dates if d]
+        ref = max(dates) if dates else datetime.now()
+        cut = ref - timedelta(days=7)
+        counts = {}
+        for n in news:
+            d = _parse_date(n.get("date"))
+            if d and d >= cut:
+                evt = n.get("event_type", "其他事件") or "其他事件"
+                counts[evt] = counts.get(evt, 0) + 1
+        signal = ["%s %d" % (k, v) for k, v in
+                  sorted(counts.items(), key=lambda kv: kv[1], reverse=True)]
+    except Exception:
+        signal = []
+
+    if not top_ents and not top_news and not signal:
+        return None
+    return {"top_ents": top_ents, "top_news": top_news, "signal": signal}
+
+
+def build_radar_html(rd):
+    if not rd:
+        return ('<div class="radar-block">'
+                '<h3 class="radar-title">📡 选题雷达</h3>'
+                '<p class="radar-empty">暂无数据</p>'
+                '</div>')
+
+    parts = ['<div class="radar-block">', '<h3 class="radar-title">📡 选题雷达</h3>']
+
+    # 🔥 TOP enterprises
+    parts.append('<div class="radar-sub">')
+    parts.append('<div class="radar-sub-h">🔥 今日值得研究的 TOP 企业</div>')
+    if rd["top_ents"]:
+        for e in rd["top_ents"]:
+            region_cls = ("region-overseas" if e["region"] == "海外"
+                          else "region-domestic")
+            badge_rv = '<span class="badge-rv">研究价值 %s</span>' % _esc(str(e["rv"]))
+            badge_deep = '<span class="badge-deep">值得深写</span>' if e.get("deep") else ""
+            parts.append(
+                '<div class="radar-row">'
+                '<span class="radar-rank">%d</span>'
+                '<a class="radar-name" href="enterprise.html">%s</a>'
+                '%s%s'
+                '<span class="badge-region %s">%s</span>'
+                '<span class="radar-reason">%s</span>'
+                '</div>' % (
+                    e["rank"], _esc(e["name"]),
+                    badge_rv, badge_deep,
+                    region_cls, _esc(e["region"]), _esc(e["reason"]),
+                )
+            )
+    else:
+        parts.append('<p class="radar-empty">暂无数据</p>')
+    parts.append('</div>')
+
+    # 📰 TOP news
+    parts.append('<div class="radar-sub">')
+    parts.append('<div class="radar-sub-h">📰 今日精选资讯 TOP 10</div>')
+    if rd["top_news"]:
+        for n in rd["top_news"]:
+            fold = ('<span class="radar-fold">· 同事件 %d 条折叠</span>'
+                    % n["fold"]) if n["fold"] > 0 else ""
+            tags = " ".join('<span class="radar-tags">#%s</span>'
+                           % _esc(t) for t in n["tags"][:3])
+            parts.append(
+                '<div class="radar-news">'
+                '<span class="radar-score">[%.1f]</span>'
+                '<span class="radar-tier">[T%d]</span>'
+                '<a class="radar-ntitle" href="%s" target="_blank" rel="noopener">%s</a>'
+                '%s%s'
+                '</div>' % (
+                    n["score"], n["tier"], _esc(n["url"]),
+                    _esc(n["title"]), tags, fold,
+                )
+            )
+    else:
+        parts.append('<p class="radar-empty">暂无数据</p>')
+    parts.append('</div>')
+
+    # 📊 signal overview
+    parts.append('<div class="radar-sub">')
+    parts.append('<div class="radar-sub-h">📊 今日信号概览</div>')
+    if rd["signal"]:
+        parts.append('<div class="radar-signal">%s</div>'
+                     % " · ".join(_esc(s) for s in rd["signal"]))
+    else:
+        parts.append('<p class="radar-empty">近 7 日暂无信号</p>')
+    parts.append('</div>')
+
+    parts.append('</div>')
+    return "\n".join(parts)
 
 
 def load_raw_articles():
@@ -350,7 +546,7 @@ def build_card_html(art):
     source_raw = art.get("source", "Unknown")
     source = translate_source_name(source_raw)
     date = art.get("date", "")
-    raw_summary = (art.get("summary") or art.get("raw_content", "") or "")[:300]
+    raw_summary = (art.get("summary_cn") or art.get("summary") or art.get("raw_content", "") or "")[:300]
     summary = deduplicate_summary(title, raw_summary)
     tags = art.get("tags", [])
     view = art.get("view", "curated")
@@ -407,10 +603,14 @@ def build_card_html(art):
     rec_html = '<p class="feed-rec">%s</p>' % rec if rec else ""
 
     # Card structure: meta → class → title → summary → rec → tags(bottom)
+    url_hash = _url_hash(url)
+    entity_name = art.get("entity_name", "") or ""
+    src_search = art.get("source", "") or ""
     card = (
-        '<div class="feed-item" data-view="%s" '
+        '<div class="feed-item" id="news-%s" data-view="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
-        'data-tags="%s" data-region="%s">\n'
+        'data-tags="%s" data-region="%s" '
+        'data-entity="%s" data-source="%s">\n'
         '  <div class="feed-time">%s</div>\n'
         '  <div class="feed-body">\n'
         '    %s\n'
@@ -422,8 +622,9 @@ def build_card_html(art):
         '  </div>\n'
         '</div>'
     ) % (
-        view, date or "", event_type, ",".join(domains),
+        url_hash, view, date or "", event_type, ",".join(domains),
         ",".join(tags), region,
+        entity_name, src_search,
         date or "",
         meta_html,
         class_html,
@@ -435,75 +636,199 @@ def build_card_html(art):
     return card
 
 
+def is_selected(art):
+    """Selection rule for the 精选 (Selected) view.
+
+    is_curated True, OR final_score >= tiered watch threshold:
+    T1 watch>=4.0, T2 watch>=5.0, T3 watch>=6.0. Falls back to
+    final_score>=5.0 when tier is missing.
+    """
+    if art.get("is_curated"):
+        return True
+    s = art.get("final_score") or 0
+    t = art.get("tier")
+    thr = {1: 4.0, 2: 5.0, 3: 6.0}.get(t, 5.0)
+    return s >= thr
+
+
+def _fmt_score(v):
+    try:
+        return "%.1f" % float(v)
+    except Exception:
+        return "-" if v in (None, "") else str(v)
+
+
+def build_selected_card_html(art):
+    """Build a 精选 card that mirrors the full news-list card style, but also
+    shows the recommendation reason, the 5 dim scores + final_score, and any
+    entity/cluster tag. Uses only existing fields from scored_latest.json."""
+    title = art.get("title_cn") or art.get("title", "Untitled")
+    url = art.get("url", "#")
+    source_raw = art.get("source", "Unknown")
+    source = translate_source_name(source_raw)
+    date = art.get("date", "")
+    raw_summary = (art.get("summary_cn") or art.get("summary") or art.get("raw_content", "") or "")[:300]
+    summary = deduplicate_summary(title, raw_summary)
+    tags = art.get("tags", [])
+    region = art.get("region", "unknown")
+    event_type = art.get("event_type", "其他事件")
+    domains = art.get("domains", [])
+    viral = art.get("viral", False)
+
+    region_tag = ""
+    if region == "overseas":
+        region_tag = '<span class="badge-region region-overseas">海外</span>'
+    elif region == "domestic":
+        region_tag = '<span class="badge-region region-domestic">国内</span>'
+    viral_badge = '<span class="viral-tag">🔥</span>' if viral else ''
+
+    event_badge = '<span class="badge-event">%s</span>' % event_type
+    domain_badges = "".join('<span class="badge-domain">%s</span>' % d for d in domains[:3])
+    tag_badges = "".join('<span class="badge-tag">%s</span>' % t for t in tags[:5])
+
+    meta_parts = ['<span class="feed-source">%s</span>' % source]
+    if region_tag:
+        meta_parts.append(region_tag)
+    if viral_badge:
+        meta_parts.append(viral_badge)
+    meta_html = '<div class="feed-meta">%s</div>' % " ".join(meta_parts)
+
+    class_parts = [event_badge]
+    if domain_badges:
+        class_parts.append(domain_badges)
+    class_html = '<div class="feed-class">%s</div>' % " ".join(class_parts)
+    tag_html = '<div class="feed-tags">%s</div>' % tag_badges if tag_badges else ""
+
+    summary_html = '<p class="feed-summary">%s</p>' % summary if summary else ""
+
+    # 推荐理由 — actual field in scored_latest.json is `recommendation`
+    rec = art.get("recommendation", "") or art.get("recommendation_reason", "")
+    rec_html = '<p class="feed-rec"><b>推荐理由：</b>%s</p>' % rec if rec else ""
+
+    # 评分面板：综合分 + 5 维评分
+    fs = art.get("final_score") or 0
+    ds = art.get("dim_scores") or {}
+    dims = [
+        ("产业", ds.get("industry")),
+        ("信号", ds.get("signal")),
+        ("文笔", ds.get("writing")),
+        ("中文契合", ds.get("cn_fit")),
+        ("时效", ds.get("urgency")),
+    ]
+    dim_html = "".join(
+        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
+    )
+    score_html = (
+        '<div class="sel-scores">'
+        '<span class="badge-score">综合分 %s</span>'
+        '<span class="dim-line">%s</span>'
+        '</div>'
+    ) % (_fmt_score(fs), dim_html)
+
+    # 主体 / 聚类 标签
+    extra = []
+    ent = art.get("entity_name", "") or ""
+    cl = art.get("cluster_id", "") or ""
+    if ent:
+        extra.append('<span class="badge-tag">主体 %s</span>' % _esc(ent))
+    if cl:
+        extra.append('<span class="badge-domain">聚类 %s</span>' % _esc(str(cl)))
+    extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
+
+    url_hash = _url_hash(url)
+    entity_name = art.get("entity_name", "") or ""
+    src_search = art.get("source", "") or ""
+    card = (
+        '<div class="feed-item" id="news-%s" data-view="selected" '
+        'data-date="%s" data-event="%s" data-domains="%s" '
+        'data-tags="%s" data-region="%s" '
+        'data-entity="%s" data-source="%s">\n'
+        '  <div class="feed-time">%s</div>\n'
+        '  <div class="feed-body">\n'
+        '    %s\n'
+        '    %s\n'
+        '    <h3 class="feed-title"><a href="%s" target="_blank" rel="noopener">%s</a></h3>\n'
+        '%s'
+        '%s\n'
+        '%s\n'
+        '%s\n'
+        '  </div>\n'
+        '</div>'
+    ) % (
+        url_hash, date or "", event_type, ",".join(domains),
+        ",".join(tags), region,
+        entity_name, src_search,
+        date or "",
+        meta_html,
+        class_html,
+        url, title,
+        summary_html,
+        rec_html,
+        score_html,
+        extra_html,
+    )
+    return card
+
+
+def read_update_log():
+    p = os.path.join(DATA_DIR, "update_log.json")
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, list):
+                return data
+    except Exception:
+        pass
+    return []
+
+
+def write_update_log(log):
+    p = os.path.join(DATA_DIR, "update_log.json")
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
+
+
+def update_update_log(selected_count):
+    """Update data/update_log.json: refresh today's count or prepend a new entry.
+
+    Returns the resulting log list so the caller can render the timeline.
+    """
+    log = read_update_log()
+    today = datetime.now().strftime("%Y-%m-%d")
+    updated = False
+    for e in log:
+        if e.get("date") == today:
+            e["count"] = selected_count
+            updated = True
+            break
+    if not updated:
+        log.insert(0, {"date": today, "count": selected_count})
+    write_update_log(log)
+    return log
+
+
+def build_timeline_html(log):
+    if not log:
+        return ""
+    entries = []
+    for e in log:
+        d = e.get("date", "")
+        c = e.get("count", 0)
+        entries.append(
+            '<div class="timeline-entry" data-date="%s">'
+            '<span class="timeline-date">📅 %s</span>'
+            '<span class="timeline-count">精选 %s 条</span>'
+            '</div>' % (_esc(d), _esc(d), _esc(str(c)))
+        )
+    return (
+        '<div class="update-timeline" id="update-timeline">'
+        '<div class="timeline-title">🕒 精选更新时间线（点击按发布日筛选）</div>'
+        '<div class="timeline-list">%s</div>'
+        '</div>' % "\n".join(entries)
+    )
+
+
 # === CSS Stylesheet ===
-CSS_STYLES = """
-:root{--bg:#f5f5f5;--sidebar-bg:#fff;--card-bg:#fff;--text:#1a1a1a;
---text-secondary:#666;--text-muted:#999;--border:#e8e8e8;--accent:#0891b2;
---accent-light:#ecfeff;--radius:8px}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;display:flex;min-height:100vh}
-.sidebar{width:200px;background:var(--sidebar-bg);border-right:1px solid var(--border);position:fixed;top:0;left:0;height:100vh;overflow-y:auto;padding:20px 0;flex-shrink:0;z-index:10}
-.sidebar-logo{padding:0 16px 16px;border-bottom:1px solid var(--border);margin-bottom:12px}
-.sidebar-logo h1{font-size:18px;font-weight:700;color:var(--accent)}
-.logo-sub{font-size:11px;color:var(--text-muted);margin-top:2px}
-.nav-section{padding:4px 0}
-.nav-label{font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.5px;padding:6px 16px 4px;font-weight:600}
-.nav-item{display:block;padding:8px 16px 8px 24px;font-size:13px;color:var(--text-secondary);text-decoration:none;cursor:pointer;border-left:3px solid transparent;transition:all .15s;position:relative}
-.nav-item:hover{background:#fafafa;color:var(--text)}
-.nav-item.active{background:var(--accent-light);color:var(--accent);border-left-color:var(--accent);font-weight:600}
-.nav-divider{height:1px;background:var(--border);margin:8px 16px}
-.main{flex:1;margin-left:200px;max-width:980px;width:calc(100% - 200px);padding:24px 32px 60px}
-.header{margin-bottom:20px}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
-.header h2{font-size:20px;font-weight:700}
-.header-stats{font-size:12px;color:var(--text-muted)}
-.view-pills{display:inline-flex;gap:3px;background:var(--bg);padding:2px;border-radius:18px;margin-bottom:0}
-.view-pill{padding:4px 14px;border-radius:16px;border:none;background:transparent;cursor:pointer;font-size:12px;font-weight:500;color:var(--text-secondary);transition:all .15s}
-.view-pill.active{background:var(--card-bg);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.08);font-weight:600}
-.filter-bar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-.region-pills{display:inline-flex;gap:3px;vertical-align:middle}
-.region-pill{padding:4px 12px;border-radius:16px;border:1px solid var(--border);background:var(--card-bg);cursor:pointer;font-size:11px;color:var(--text-secondary);transition:all .15s;white-space:nowrap}
-.region-pill.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
-.filter-section{margin-bottom:12px}
-.filter-row{display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap}
-.filter-label{font-size:11px;color:var(--text-muted);min-width:36px;font-weight:600}
-.filter-btns{display:flex;flex-wrap:wrap;gap:3px;flex:1}
-.filter-btn{padding:2px 9px;border-radius:12px;border:1px solid var(--border);background:var(--card-bg);font-size:11px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .12s}
-.filter-btn:hover{border-color:var(--accent);color:var(--accent)}
-.filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.search-inline{padding:4px 12px;border:1px solid var(--border);border-radius:12px;font-size:11px;outline:none;background:var(--card-bg);color:var(--text);width:160px;transition:all .15s;flex-shrink:0}
-.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 2px rgba(8,145,178,.08);width:220px}
-
-/* Feed cards */
-.feed-item{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
-.feed-item:last-child{border-bottom:none}
-.feed-time{flex-shrink:0;width:48px;font-size:12px;font-weight:700;color:var(--text-muted);padding-top:2px;text-align:right}
-.feed-body{flex:1;min-width:0}
-.feed-meta{display:flex;align-items:center;gap:5px;margin-bottom:2px;flex-wrap:wrap}
-.feed-source{font-size:11px;color:var(--text-muted);font-weight:500}
-.feed-class{display:flex;align-items:center;gap:3px;margin-bottom:4px;flex-wrap:wrap}
-.feed-title{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:2px}
-.feed-title a{color:var(--text);text-decoration:none}
-.feed-title a:hover{color:var(--accent)}
-.feed-summary{font-size:12px;color:var(--text-secondary);line-height:1.5;margin-bottom:3px}
-.feed-rec{font-size:12px;color:var(--accent);line-height:1.45;margin-bottom:3px;border-left:2px solid var(--accent);padding-left:7px}
-.feed-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:4px}
-
-/* Badges */
-.badge-region{font-size:10px;padding:1px 6px;border-radius:9px;font-weight:600}
-.badge-region.region-overseas{background:#ecfdf5;color:#065f46}
-.badge-region.region-domestic{background:#eff6ff;color:#1e40af}
-.badge-event{font-size:10px;padding:1px 7px;border-radius:3px;background:#fef3c7;color:#92400e;font-weight:600}
-.badge-domain{font-size:10px;padding:1px 7px;border-radius:3px;background:#f0f0f0;color:var(--text-secondary);font-weight:500}
-.badge-tag{font-size:10px;padding:1px 7px;border-radius:3px;background:#e0f2fe;color:#0369a1;font-weight:500}
-.viral-tag{font-size:13px;font-weight:700;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
-
-.footer{text-align:center;padding:32px 0 16px;font-size:12px;color:var(--text-muted);border-top:1px solid var(--border);margin-top:24px}
-.hidden{display:none!important}
-@media(max-width:768px){.sidebar{display:none}.main{margin-left:0;width:100%;padding:16px;max-width:100%}.feed-time{width:42px;font-size:11px}.feed-title{font-size:14px}.search-inline{width:100px}.search-inline:focus{width:140px}}
-"""
-
 
 JS_SCRIPT = """
 let activeView='curated';
@@ -512,11 +837,15 @@ let activeEvent='all';
 let activeDomain='all';
 let activeTag='all';
 let searchTerm='';
-const items=document.querySelectorAll('.feed-item');
+let selectedDateFilter='';
+const feedItems=document.querySelectorAll('.feed-item');
+const feedContainer=document.getElementById('feed-container');
+const selectedContainer=document.getElementById('selected-container');
+const timelineEl=document.getElementById('update-timeline');
 
 function updateDisplay(){
   let visible=0;
-  items.forEach(item=>{
+  feedItems.forEach(item=>{
     const v=item.dataset.view;
     const evt=item.dataset.event||'';
     const doms=item.dataset.domains||'';
@@ -526,31 +855,49 @@ function updateDisplay(){
     const summaryEl=item.querySelector('.feed-summary');
     const title=titleEl?titleEl.textContent.toLowerCase():'';
     const summary=summaryEl?summaryEl.textContent.toLowerCase():'';
+    const entity=(item.dataset.entity||'').toLowerCase();
+    const source=(item.dataset.source||'').toLowerCase();
 
-    const vm=activeView==='all'||v==='curated'||v==='raw';
+    const vm=(activeView==='curated') ? (v==='selected') : (v==='curated'||v==='raw');
+    if(!vm){ item.style.display='none'; return; }
+
     const rm=activeRegion==='all'||reg===activeRegion;
     const em=activeEvent==='all'||evt===activeEvent;
     const dm=activeDomain==='all'||doms.split(',').includes(activeDomain);
     const tm=activeTag==='all'||tgs.split(',').includes(activeTag);
-    const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm);
-    if(vm&&rm&&em&&dm&&tm&&sm){
+    const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm)||entity.includes(searchTerm)||source.includes(searchTerm)||tgs.toLowerCase().includes(searchTerm);
+    const dateMatch=!selectedDateFilter||item.dataset.date===selectedDateFilter;
+    if(rm&&em&&dm&&tm&&sm&&dateMatch){
       item.style.display='flex';
       visible++;
     }else{item.style.display='none'}
   });
+  if(activeView==='curated'){
+    if(feedContainer) feedContainer.style.display='none';
+    if(selectedContainer) selectedContainer.style.display='block';
+    if(timelineEl) timelineEl.style.display='block';
+  }else{
+    if(feedContainer) feedContainer.style.display='block';
+    if(selectedContainer) selectedContainer.style.display='none';
+    if(timelineEl) timelineEl.style.display='none';
+  }
   const s=document.getElementById('header-stats');
   s.textContent='更新于 %s · 共 '+visible+' 条';
+  const es=document.getElementById('empty-state');
+  if(es) es.classList.toggle('hidden', visible>0);
 }
 
 function setView(view){
-  activeView=view;activeEvent='all';activeDomain='all';activeTag='all';searchTerm='';
+  activeView=view;activeEvent='all';activeDomain='all';activeTag='all';searchTerm='';selectedDateFilter='';
   document.getElementById('search-input').value='';
+  const ns=document.getElementById('news-search');if(ns)ns.value='';
   document.getElementById('pill-curated').classList.toggle('active',view==='curated');
   document.getElementById('pill-all').classList.toggle('active',view==='all');
   document.querySelectorAll('.filter-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
   document.querySelectorAll('.filter-btn[data-group="domain"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
   document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
   document.querySelectorAll('.region-pill').forEach(b=>b.classList.toggle('active',b.dataset.region==='all'));
+  document.querySelectorAll('.timeline-entry').forEach(b=>b.classList.remove('active'));
   activeRegion='all';updateDisplay();
 }
 
@@ -580,6 +927,18 @@ document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(btn=>{
 });
 document.getElementById('search-input').addEventListener('input',function(){
   searchTerm=this.value.toLowerCase().trim();updateDisplay();
+});
+const nsEl=document.getElementById('news-search');
+if(nsEl){nsEl.addEventListener('input',function(){
+  searchTerm=this.value.toLowerCase().trim();updateDisplay();
+});}
+document.querySelectorAll('.timeline-entry').forEach(el=>{
+  el.addEventListener('click',function(){
+    const d=this.dataset.date;
+    if(selectedDateFilter===d){selectedDateFilter='';this.classList.remove('active');}
+    else{document.querySelectorAll('.timeline-entry').forEach(x=>x.classList.remove('active'));selectedDateFilter=d;this.classList.add('active');}
+    updateDisplay();
+  });
 });
 updateDisplay();
 """
@@ -626,6 +985,14 @@ def generate_html(scored_articles=None, output_path=None):
     # Build cards
     cards_html = "".join(build_card_html(art) for art in merged)
 
+    # Build 精选 (Selected) view cards + update timeline
+    selected = [a for a in merged if is_selected(a)]
+    selected.sort(key=lambda a: a.get("date", "0000-00-00"), reverse=True)
+    selected_html = "".join(build_selected_card_html(a) for a in selected)
+    selected_count = len(selected)
+    update_log = update_update_log(selected_count)
+    timeline_html = build_timeline_html(update_log)
+
     # Build filter buttons
     event_buttons = "".join(
         '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
@@ -638,7 +1005,14 @@ def generate_html(scored_articles=None, output_path=None):
     )
 
     # Inject values into JS template
-    js = JS_SCRIPT % (today_str,)
+    js = (JS_SCRIPT % (today_str,)) + "\n" + THEME_JS
+
+    # Build 选题雷达 block (top of page) — guarded against missing data
+    try:
+        radar_data = build_radar_data()
+    except Exception:
+        radar_data = None
+    radar_html = build_radar_html(radar_data)
 
     # Assemble full HTML
     parts = [
@@ -653,30 +1027,20 @@ def generate_html(scored_articles=None, output_path=None):
         '<style>%s</style>' % CSS_STYLES,
         '</head>\n<body>',
 
-        # Sidebar
-        '<div class="sidebar">',
-        '<div class="sidebar-logo">',
-        '<h1>Silver Pulse 银脉</h1>',
-        '<p class="logo-sub">Silver Pulse</p>',
-        '</div>',
-        '<div class="nav-section">',
-        '<div class="nav-label">内容</div>',
-        '<a href="index.html" class="nav-item active">资讯看板</a>',
-        '<a href="enterprise.html" class="nav-item">企业库</a>',
-        '<a href="about.html" class="nav-item">网站说明</a>',
-        '</div>',
-        '</div>',
+        # Sidebar (unified component)
+        SIDEBAR("index"),
 
         # Main content
         '<div class="main">',
         '<div class="header">',
-        '<div class="header-top">',
+        '<div class="header-top" style="display:flex;align-items:center;gap:12px;">',
         '<h2>银发经济每日速览</h2>',
         '<div class="header-stats" id="header-stats">更新于 %s · 共 %s 条</div>' % (today_str, total_count),
+        '<a class="dl-btn" href="weekly_topics.json" download style="margin-left:auto;font-size:12px;color:#0891b2;text-decoration:none;border:1px solid #0891b2;padding:4px 10px;border-radius:6px;white-space:nowrap;">⬇ 下载选题JSON</a>',
         '</div>',
         '<div class="filter-bar">',
         '<div class="view-pills">',
-        '<button class="view-pill active" id="pill-curated" onclick="setView(\'curated\')">精选(%s)</button>' % curated_count,
+        '<button class="view-pill active" id="pill-curated" onclick="setView(\'curated\')">精选(%s)</button>' % selected_count,
         '<button class="view-pill" id="pill-all" onclick="setView(\'all\')">全量(%s)</button>' % total_count,
         '</div>',
         '<div class="region-pills" id="region-pills">',
@@ -684,8 +1048,32 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="domestic">国内(%s)</button>' % domestic_curated,
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div>',
-        '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题或摘要...">',
+        '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
         '</div></div>',
+
+        # Hero stat strip
+        '<div class="hero">',
+        '<div>',
+        '<div class="hero-title">今日银发经济选题情报</div>',
+        '<div class="hero-sub">以海外为镜 · 照中国之路 · 更新于 %s</div>' % today_str,
+        '</div>',
+        '<div class="stat-chips">',
+        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">精选</div></div>' % selected_count,
+        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">全部资讯</div></div>' % total_count,
+        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">国内</div></div>' % domestic_curated,
+        '<div class="stat-chip"><div class="stat-num">%s</div><div class="stat-label">海外</div></div>' % overseas_curated,
+        '</div>',
+        '</div>',
+
+        # Top news keyword search (above 选题雷达) — filters feed items live
+        '<div class="news-search-row">',
+        '<input class="news-search" type="text" id="news-search" ',
+        'placeholder="🔍 搜索资讯：标题 / 摘要 / 标签 / 主体 / 来源 ...">',
+        '</div>',
+
+        # 选题雷达 block (added Phase 2 — sits above the timeline, all existing
+        # filters/timeline below are preserved)
+        radar_html,
 
         # Filter section (event type + domain + tags + search)
         '<div class="filter-section" id="filter-section">',
@@ -715,9 +1103,21 @@ def generate_html(scored_articles=None, output_path=None):
         '</div>',
         '</div>',
 
-        # Feed container
+        # 精选 (Selected) view: update timeline + selected cards
+        timeline_html,
+        '<div id="selected-container">',
+        selected_html,
+        '</div>',
+
+        # Feed container (全量 view)
         '<div id="feed-container">',
         cards_html,
+        '</div>',
+
+        # Empty state (shown when filters yield nothing)
+        '<div class="empty-state hidden" id="empty-state">',
+        '<div class="es-ico">🔍</div>',
+        '<div class="es-text">没有符合条件的资讯，试试调整筛选或搜索词</div>',
         '</div>',
 
         # Footer
@@ -741,12 +1141,64 @@ def generate_html(scored_articles=None, output_path=None):
     with open(root_path, "w", encoding="utf-8") as f:
         f.write(html)
 
+    # Export weekly_topics.json (精选 items, 5-dim schema) alongside HTML
+    try:
+        export_weekly_topics(selected, OUTPUT_DIR)
+    except Exception as e:
+        print("WARN export_weekly_topics failed: %s" % e)
+
     print("Generated: %s" % output_path)
     print("Articles: %s total (%s curated)" % (total_count, curated_count))
     print("Event types: %s" % event_list)
     print("Domains: %s" % domain_list)
     print("Tags: %s" % tag_list)
     return output_path
+
+
+def export_weekly_topics(selected, out_dir):
+    """Export 精选 (selected) items to weekly_topics.json.
+
+    Schema uses the site's 5-dimension scores (industry/signal/writing/cn_fit/
+    urgency) — single source of truth, no separate F1-F6 scheme. v1: export all
+    selected items; v2 may add an "采纳" checkbox.
+    """
+    items = []
+    for a in selected:
+        ds = a.get("dim_scores") or {}
+        items.append({
+            "title": a.get("title_cn") or a.get("title", ""),
+            "url": a.get("url", ""),
+            "source": translate_source_name(a.get("source", "")),
+            "date": a.get("date", ""),
+            "region": a.get("region", ""),
+            "event_type": a.get("event_type", ""),
+            "entity_name": a.get("entity_name", ""),
+            "final_score": a.get("final_score") or 0,
+            "dim_scores": {
+                "industry": ds.get("industry"),
+                "signal": ds.get("signal"),
+                "writing": ds.get("writing"),
+                "cn_fit": ds.get("cn_fit"),
+                "urgency": ds.get("urgency"),
+            },
+            "recommendation": a.get("recommendation", ""),
+            "tags": a.get("tags", []) or [],
+        })
+    payload = {
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "count": len(items),
+        "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
+        "items": items,
+    }
+    out1 = os.path.join(out_dir, "weekly_topics.json")
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "weekly_topics.json")
+    for p in (out1, root):
+        try:
+            with open(p, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print("WARN export_weekly_topics write %s failed: %s" % (p, e))
+    print("Exported weekly_topics.json: %s items" % len(items))
 
 
 if __name__ == "__main__":
@@ -756,3 +1208,10 @@ if __name__ == "__main__":
         generate_html(articles)
     else:
         print("No scored articles found.")
+
+
+def main():
+    """Entry point for the daily pipeline (run_daily.py)."""
+    from scorer import load_scored
+    articles = load_scored()
+    return generate_html(articles)
