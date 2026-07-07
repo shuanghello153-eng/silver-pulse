@@ -276,6 +276,28 @@ SOURCES = {
         "region": "overseas",
         "notes": "已断更，保留在信源库做历史参考",
     },
+    "agetech_com": {
+        "name": "AgeTech.com",
+        "l1_domain": "agetech.com",
+        "l2_channels": [
+            ("news", "https://www.agetech.com/news/", "google_news"),
+            ("venture", "https://www.agetech.com/venture/", "google_news"),
+            ("companies", "https://www.agetech.com/companies/", "google_news"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "AgeTech企业+融资+新闻综合平台",
+    },
+    "agetech_space": {
+        "name": "AgeTech.space",
+        "l1_domain": "agetech.space",
+        "l2_channels": [
+            ("problem_domains", "https://www.agetech.space/", "manual"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "结构化问题域分类资源，手动参考",
+    },
     "agetechcollaborative": {
         "name": "AgeTech Collaborative",
         "l1_domain": "home.agetechcollaborative.org",
@@ -693,6 +715,9 @@ SIGNAL_KEYWORDS_POSITIVE = {
     "战略合作": 3, "达成合作": 3,
     "发布": 2, "上线": 2, "推出": 2,
     "进军": 3, "拓展": 2,
+    # VC / 基金背书信号（银发经济活跃机构）
+    "third act ventures": 3, "7wire ventures": 3, "khosla ventures": 4,
+    "aarp": 3, "archetype ventures": 3,
 }
 
 # Negative keywords: noise / low-signal content
@@ -707,6 +732,8 @@ SIGNAL_KEYWORDS_NEGATIVE = {
     "job posting": -5, "hiring": -2, "career opportunity": -4,
     "press release template": -5,
     "sponsored content": -3, "sponsored post": -3,
+    # Press release platforms (PR Newswire / Business Wire often low-signal)
+    "press release": -2, "issued a press release": -3,
     # Chinese noise
     "招聘": -3, "招人": -3, "诚聘": -4,
     "获奖": -2, "评选": -3,
