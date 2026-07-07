@@ -97,15 +97,15 @@ C:\Users\shuan\.workbuddy\binaries\python\versions\3.13.12\python.exe gen_about.
 - **参考**: `G:\workbuddy\2026-07-03-10-13-25\选题JSON导出_建议.md`（小爽的另一 AI 写的方案）
 - **验证**: 重跑 generator.py 成功生成 output/weekly_topics.json，5 维分零缺失；index.html 含下载按钮
 
-### ⚠️ P1 — gh-pages 正式部署
+### ✅ P1 — gh-pages 正式部署（已完成 2026-07-07 晚）
 - **决策**: 建独立 `gh-pages` 分支部署 `output/`，不动 main 自动化
-- **现状**: 当前用 CloudStudio 预览（https://b1ff4c8d28504339a1654be585173e84.app.codebuddy.work）
-- **做法**: `git checkout --orphan gh-pages` → 只提交 `output/` 内容 → push → GitHub Pages 设置指向 gh-pages
+- **现状**: ✅ **LIVE** → https://shuanghello153-eng.github.io/silver-pulse/ （Pages source 已切到 gh-pages 分支根目录，含 `.nojekyll`）
+- **做法**: `deploy_ghpages.py`（git plumbing 构造孤儿 commit，只含 `output/` 的 index/enterprise/about.html + weekly_topics.json + `.nojekyll` → 强推 gh-pages）；`run_daily.py` 末尾已加部署钩子，每日自动化跑完自动重新生成并推送 gh-pages
+- **已知坑(已修)**: Windows 下 `git mktree` 经 stdin 传参会把 `\n` 变 `\r\n`，使文件名带 `\r` → Pages 404；脚本已改为写临时文件(LF字节)绕过
 
-### ⚠️ P1 — 网站整体 UI/UX 优化（用户提到但未深入）
-- 移动端适配、加载速度、空状态处理、搜索体验、企业对比功能、深色模式等
-- 用户说"你觉得网站设计不好，你可以全面优化一下UI交互"
-- 当前 generator.py 已有大量 CSS，但未做响应式适配
+### ✅ P1 — 网站整体 UI/UX 优化（已完成 2026-07-07 晚）
+- 新建 `ui_common.py` 统一设计系统：CSS / 侧栏(📡资讯看板·🏢企业库·📖网站说明+🌓主题切换) / 深色模式 / Hero 统计条 / 空状态 / 响应式(@860px/@480px)
+- 三页(generator / gen_enterprise / gen_about)全部接入新UI；已上线 gh-pages 验证(4 URL 全 200, 新UI标记齐全)
 
 ### ⚠️ P2 — 定时任务状态验证
 - `automation_update list` 返回空，与"3 自动化 ACTIVE"矛盾
@@ -115,9 +115,9 @@ C:\Users\shuan\.workbuddy\binaries\python\versions\3.13.12\python.exe gen_about.
 - 目前 L3 5 维打分为规则估算兜底（免费期 HY3 可用但未全量接入）
 - 免费期后切 hunyuan-lite 或纯规则
 
-### 🔴 阻塞 — GitHub Pages main 分支被自动化占用
-- 3 个自动化提交占据了 main，plain push 被 fetch first 拒绝
-- 解决方案：用 gh-pages 分支（见上方 ⚠️ P1）
+### ✅ 阻塞解除 — GitHub Pages main 分支被自动化占用
+- 3 个自动化提交占据了 main；采用独立 `gh-pages` 分支部署（git plumbing 孤儿 commit），完全不动 main 数据
+- main 的新UI源码也已通过 fast-forward commit(48a9741) 合入，自动化后续运行即自动产出+部署新UI
 
 ---
 
@@ -128,9 +128,9 @@ C:\Users\shuan\.workbuddy\binaries\python\versions\3.13.12\python.exe gen_about.
 | 1 | P0 | **交接文档完善** → 本文件 + 更新 MEMORY.md | 零 | — |
 | 2 | P0 | **V2 全量扩展 + 企业翻译**（Agent B 失败重做） | 中 | — |
 | 3 | P1 | **选题 JSON 导出**（generator.py + index.html 下载按钮） | 零 | ✅ 已完成(07-07晚) |
-| 4 | P1 | **gh-pages 正式部署** | 零 | — |
-| 5 | P1 | **网站 UI/UX 全面优化**（响应式/空状态/搜索/深色模式） | 零 | — |
-| 6 | P1 | **跑全流水线生成最新 HTML + deploy** | 低 | — |
+| 4 | P1 | **gh-pages 正式部署** | 零 | ✅ 已完成(07-07晚 LIVE) |
+| 5 | P1 | **网站 UI/UX 全面优化**（响应式/空状态/搜索/深色模式） | 零 | ✅ 已完成(07-07晚) |
+| 6 | P1 | **跑全流水线生成最新 HTML + deploy** | 低 | ✅ 已完成(48a9741 合入main+gh-pages钩子) |
 | 7 | P2 | **定时任务状态验证**（automation list 为空的问题） | 零 | — |
 | 8 | P2 | **L2/L3 强模型接入**（免费期后切方案记录） | 零 | — |
 | 9 | P2 | **feedback.jsonl + backtest.py** 自我迭代闭环 | 零 | — |
@@ -174,11 +174,12 @@ C:\Users\shuan\.workbuddy\binaries\python\versions\3.13.12\python.exe gen_about.
 
 ## 九、当前部署地址
 
-- **CloudStudio 预览**: https://b1ff4c8d28504339a1654be585173e84.app.codebuddy.work（旧链接仍可用，但内容为 07-07 下午版；07-07 晚重新部署两次均 sandbox 超时失败，待重试）
-- **GitHub 仓库**: shuanghello153-eng/silver-pulse (main 分支，被自动化占用)
-- **本地 HTML**: `silver-pulse/output/index.html` / `enterprise.html` / `about.html`（已含 07-07 晚 T1/T2 更新）
-- **部署方式**: `workbuddy_cloudstudio_deploy` 工具部署 `output/` 目录；GitHub 正式上线计划走独立 `gh-pages` 分支（已决策，待执行）
-- **选题 JSON**: `silver-pulse/output/weekly_topics.json`（T1 新增，可下载）
+- **🌐 正式线上(主地址)**: https://shuanghello153-eng.github.io/silver-pulse/ （gh-pages 分支，已 LIVE，每日自动化自动刷新）
+- **CloudStudio 预览**: https://b1ff4c8d28504339a1654be585173e84.app.codebuddy.work（旧通道，沙箱超时已弃用）
+- **GitHub 仓库**: shuanghello153-eng/silver-pulse (main 分支，被自动化占用；新UI源码已 fast-forward 合入 48a9741)
+- **本地 HTML**: `silver-pulse/output/index.html` / `enterprise.html` / `about.html`（已含 07-07 晚新UI+全部更新）
+- **部署方式**: `python deploy_ghpages.py`（git plumbing → 推 gh-pages）；`run_daily.py` 末尾钩子自动调用
+- **选题 JSON**: `silver-pulse/output/weekly_topics.json`（可下载）
 
 ---
 
