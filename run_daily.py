@@ -56,14 +56,14 @@ def run_step(label, module_name, func_name, args):
         mod = __import__(module_name, fromlist=[func_name])
         func = getattr(mod, func_name)
         print("\n>>> STEP: %s" % label)
-        func(*args)
+        ret = func(*args)
         print("<<< OK: %s" % label)
-        return True, None
+        return True, None, ret
     except Exception as e:  # noqa: BLE001
         err = "%s: %s" % (type(e).__name__, e)
         print("!!! FAILED: %s -> %s" % (label, err))
         traceback.print_exc()
-        return False, err
+        return False, err, None
 
 
 def main():
@@ -77,13 +77,13 @@ def main():
         print("[run_daily] SKIP_COLLECTOR set -> skipping collector, using existing raw_*.json")
     results = []
     for label, module_name, func_name, args in steps:
-        ok, err = run_step(label, module_name, func_name, args)
-        results.append((label, ok, err))
+        ok, err, ret = run_step(label, module_name, func_name, args)
+        results.append((label, ok, err, ret))
 
     print("\n" + "=" * 64)
     print("汇总 SUMMARY")
     print("=" * 64)
-    for label, ok, err in results:
+    for label, ok, err, ret in results:
         status = "OK " if ok else "FAIL"
         detail = "" if ok else "  (%s)" % err
         print("  [%s] %s%s" % (status, label, detail))
@@ -99,9 +99,20 @@ def main():
     # a half-built / stale artifact (the bug that produced an inconsistent site on
     # 2026-07-08). STATE.md is still written by the validator step for the 09:00 补跑.
     critical_labels = {"collector.collect_all()", "score_and_merge.main()", "generator.main()"}
-    critical_failed = [label for label, ok, _ in results if not ok and label in critical_labels]
-    if critical_failed:
-        print("DEPLOY skipped: critical step(s) failed -> %s" % ", ".join(critical_failed))
+    critical_failed = [label for label, ok, _, _ in results if not ok and label in critical_labels]
+    # L2 质量自审：若 loop_audit 报告 CRITICAL 问题（dead JS / 残余 select / 重复筛选
+    # / 已知问题回归等），同样阻断部署——绝不让有可见缺陷的版本上线。
+    audit_blocking = []
+    for label, ok, err, ret in results:
+        if label == "loop_audit.run_daily_step()" and ok and isinstance(ret, dict) and ret.get("has_blocking"):
+            audit_blocking.append("loop_audit(%d critical)" % ret["critical"])
+    if critical_failed or audit_blocking:
+        blocked_by = []
+        if critical_failed:
+            blocked_by.append("步骤失败: " + ", ".join(critical_failed))
+        if audit_blocking:
+            blocked_by.append("质量自审: " + ", ".join(audit_blocking))
+        print("DEPLOY skipped: -> %s" % " | ".join(blocked_by))
         print("STATE.md 已标 FAIL，09:00 补跑将重试。")
     else:
         try:
@@ -111,8 +122,8 @@ def main():
         except Exception as e:  # noqa: BLE001
             print("DEPLOY gh-pages skipped: %s" % e)
 
-    # 退出码与部署门槛一致：仅当关键步失败才算失败（非关键步失败只记日志，不影响补跑判定）
-    return 0 if not critical_failed else 1
+    # 退出码与部署门槛一致：关键步失败 或 质量自审 CRITICAL 阻断 → 视为失败（1），触发补跑
+    return 0 if not (critical_failed or audit_blocking) else 1
 
 
 if __name__ == "__main__":

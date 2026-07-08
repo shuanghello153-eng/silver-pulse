@@ -117,6 +117,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .filter-btn-more.active,.f-btn-more.active{background:var(--accent);color:#fff;border-style:solid}
 #more-tags-box{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
 
+/* 排序箭头按钮（替代下拉框，常见 ↑↓ 切换） */
+.sort-arrow{display:inline-flex;align-items:center;gap:3px;padding:4px 13px;border:1px solid var(--accent);border-radius:13px;
+  background:var(--surface-2);font-size:12px;cursor:pointer;color:var(--accent-strong);white-space:nowrap;
+  transition:all .13s;font-family:inherit;font-weight:600}
+.sort-arrow:hover{background:var(--accent-light)}
+.sort-arrow.active{background:var(--accent-grad);color:#fff;border-color:transparent}
+
 /* ===== 资讯流卡片 ===== */
 .feed-item{display:flex;gap:14px;padding:15px 4px;border-bottom:1px solid var(--border);transition:background .12s}
 .feed-item:last-child{border-bottom:none}
@@ -376,8 +383,6 @@ FEEDBACK_CSS = """
 .fav-btn .ico{font-size:13px}
 .export-fav{margin-left:auto;font-size:12px;border:1px solid var(--accent);color:var(--accent-strong);background:var(--card);border-radius:20px;padding:5px 13px;cursor:pointer;transition:.15s;white-space:nowrap;flex-shrink:0}
 .export-fav:hover{background:var(--accent);color:#fff}
-/* 排序下拉 */
-.sort-select{font-size:12px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:8px;padding:5px 8px;cursor:pointer;flex-shrink:0}
 /* 我的收藏模式：仅显示已收藏项 */
 body.fav-mode .feed-item:not([data-fav="1"]){display:none !important}
 body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}

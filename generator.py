@@ -859,6 +859,8 @@ let activeDomain='all';
 let activeTag='all';
 let searchTerm='';
 let sortMode='score';
+let sortDir='desc';
+let activeTime='all';
 const feedItems=document.querySelectorAll('.feed-item');
 const feedContainer=document.getElementById('feed-container');
 const selectedContainer=document.getElementById('selected-container');
@@ -870,10 +872,10 @@ function sortContainer(c){
     if(sortMode==='date'){
       return (b.dataset.date||'')<(a.dataset.date||'')?-1:1;
     }
-    if(sortMode==='novelty'){ return (parseFloat(b.dataset.novelty)||0)-(parseFloat(a.dataset.novelty)||0); }
-    if(sortMode==='signal'){ return (parseFloat(b.dataset.signal)||0)-(parseFloat(a.dataset.signal)||0); }
-    if(sortMode==='funded'){ if((b.dataset.funded==='1')!==(a.dataset.funded==='1')) return (b.dataset.funded==='1')?1:-1; return (parseFloat(b.dataset.score)||0)-(parseFloat(a.dataset.score)||0); }
-    return (parseFloat(b.dataset.score)||0)-(parseFloat(a.dataset.score)||0);
+    const va=parseFloat(a.dataset.score)||0, vb=parseFloat(b.dataset.score)||0;
+    let cmp = vb-va;
+    if(sortDir==='asc') cmp=-cmp;
+    return cmp;
   });
   items.forEach(function(it){c.appendChild(it);});
 }
@@ -899,7 +901,15 @@ function updateDisplay(){
     const dm=activeDomain==='all'||doms.split(',').includes(activeDomain);
     const tm=activeTag==='all'||tgs.split(',').includes(activeTag);
     const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm)||entity.includes(searchTerm)||source.includes(searchTerm)||tgs.toLowerCase().includes(searchTerm);
-    if(rm&&em&&dm&&tm&&sm){
+    const dateStr=item.dataset.date||'';
+    let tmTime=true;
+    if(activeTime!=='all'&&dateStr){
+      const days={'2w':14,'1m':30,'3m':90}[activeTime]||0;
+      const cut=new Date();cut.setDate(cut.getDate()-days);
+      const d=new Date(dateStr.replace(/-/g,'/'));
+      tmTime = d>=cut;
+    }
+    if(rm&&em&&dm&&tm&&sm&&tmTime){
       item.style.display='flex';
       visible++;
     }else{item.style.display='none'}
@@ -957,8 +967,27 @@ document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(btn=>{
 document.getElementById('search-input').addEventListener('input',function(){
   searchTerm=this.value.toLowerCase().trim();updateDisplay();
 });
-const ssEl=document.getElementById('sort-select');
-if(ssEl){ssEl.addEventListener('change',function(){sortMode=this.value;updateDisplay();});}
+// 排序箭头：评分↓ → 评分↑ → 时间↓ 循环
+function cycleSort(){
+  if(sortMode==='score'&&sortDir==='desc'){sortDir='asc';}
+  else if(sortMode==='score'&&sortDir==='asc'){sortMode='date';sortDir='desc';}
+  else{sortMode='score';sortDir='desc';}
+  const btn=document.getElementById('sort-btn');
+  if(btn){
+    if(sortMode==='date'){btn.textContent='时间 ↓';btn.classList.remove('active');}
+    else{btn.textContent='评分 '+(sortDir==='desc'?'↓':'↑');btn.classList.add('active');}
+  }
+  updateDisplay();
+}
+const sbEl=document.getElementById('sort-btn');
+if(sbEl){sbEl.addEventListener('click',cycleSort);}
+// 时间筛选
+document.querySelectorAll('.filter-btn[data-time]').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.filter-btn[data-time]').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');activeTime=this.dataset.time;updateDisplay();
+  });
+});
 updateDisplay();
 
 function toggleMoreTags(){{
@@ -1120,13 +1149,8 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div>',
         '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
-        '<select class="sort-select" id="sort-select" title="排序方式">',
-        '<option value="score" selected>评分↓</option>',
-        '<option value="date">时间↓</option>',
-        '<option value="novelty">反常识度↓</option>',
-        '<option value="signal">信号强度↓</option>',
-        '<option value="funded">有融资优先</option>',
-        '</select>',
+        '<span class="filter-label">排序</span>',
+        '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓">评分 ↓</button>',
         '<button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>',
         '</div></div>',
         signal_line,
@@ -1150,6 +1174,15 @@ def generate_html(scored_articles=None, output_path=None):
         '    <div class="filter-btns" id="tag-btns-wrap">',
         '      <button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
         _tag_btns,
+        '    </div>',
+        '  </div>',
+        '  <div class="filter-row filter-row-time">',
+        '    <span class="filter-label">时间</span>',
+        '    <div class="filter-btns">',
+        '      <button class="filter-btn active" data-time="all">全部</button>',
+        '      <button class="filter-btn" data-time="2w">近2周</button>',
+        '      <button class="filter-btn" data-time="1m">近1个月</button>',
+        '      <button class="filter-btn" data-time="3m">近3个月</button>',
         '    </div>',
         '  </div>',
         '</div>',

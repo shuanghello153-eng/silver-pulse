@@ -178,6 +178,65 @@ def _check_html_structure(html_str, page_name, issues):
             "tags": ["tag_explosion"],
         })
 
+    # === 视觉/交互层检测（肉眼可见低级 bug 的自动抓手）===
+    html_no_script = re.sub(r"<script>.*?</script>", "", html_str, flags=re.S)
+
+    # 1) 死 JS 引用：脚本里 getElementById 的目标 id 在 HTML 中不存在。
+    #    曾出现 ent-sort 下拉被删但 JS 仍引用 -> 排序失效。此类回归必须抓出。
+    script_parts = re.findall(r"<script>(.*?)</script>", html_str, re.S)
+    script_all = "\n".join(script_parts)
+    ref_ids = set(re.findall(r"getElementById\(['\"]([^'\"]+)['\"]\)", script_all))
+    html_ids = set(re.findall(r'\bid="([^"]+)"', html_str))
+    # 排除"懒创建"模式：getElementById 拿到 null 后，代码用 createElement 动态创建该
+    # id（防御式写法，如 fav-empty 收藏空状态）。这类引用在静态 HTML 中无 id 实体，
+    # 不应判为死引用，否则会误阻断部署。判据：同一变量被赋 getElementById('x') 后，
+    # 后续出现 `var.id='x'` 且脚本含 createElement。
+    lazy_created = set()
+    for rid in ref_ids:
+        m = re.search(
+            r"var\s+(\w+)\s*=\s*(?:document\.)?getElementById\(['\"]" + re.escape(rid) + r"['\"]\)",
+            script_all,
+        )
+        if m and "createElement" in script_all:
+            var = re.escape(m.group(1))
+            if re.search(var + r"\.id\s*=\s*['\"]" + re.escape(rid) + r"['\"]", script_all):
+                lazy_created.add(rid)
+    missing_ids = sorted(i for i in ref_ids if i not in html_ids and i not in lazy_created)
+    if missing_ids:
+        issues.append({
+            "page": page_name,
+            "severity": "CRITICAL",
+            "category": "regression",
+            "message": "JS 引用了不存在的元素 id: %s" % ", ".join(missing_ids[:5]),
+            "detail": "dead getElementById: " + ", ".join(missing_ids[:5]),
+            "tags": ["dead_js"],
+        })
+
+    # 2) 残留 <select> 下拉框（应全部改为标签胶囊/箭头按钮）
+    if "<select" in html_no_script:
+        issues.append({
+            "page": page_name,
+            "severity": "CRITICAL",
+            "category": "regression",
+            "message": "页面仍存在 <select> 下拉框（应改为标签/箭头按钮）",
+            "detail": "select element found in body",
+            "tags": ["select_residual"],
+        })
+
+    # 3) 重复筛选按钮：同 data-group 下同一 data-value 出现多次（如重复融资行）
+    for grp in ("event", "domain", "tag", "time", "reg", "cat", "l2"):
+        vals = re.findall(r'data-group="%s" data-value="([^"]+)"' % grp, html_no_script)
+        dups = sorted({v for v in vals if v != "all" and vals.count(v) > 1})
+        if dups:
+            issues.append({
+                "page": page_name,
+                "severity": "WARN",
+                "category": "ui",
+                "message": "筛选按钮重复：%s 组内 %s 出现多次" % (grp, ", ".join(dups[:5])),
+                "detail": "dup data-value in group %s: %s" % (grp, ", ".join(dups[:5])),
+                "tags": ["dup_filter"],
+            })
+
 
 def _check_data_quality(scored, issues):
     """Check scored_latest.json data quality."""

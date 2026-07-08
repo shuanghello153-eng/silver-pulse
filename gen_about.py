@@ -333,7 +333,7 @@ __SIDEBAR__
 <div class="tab-content active" id="tab-news">
 
   <div class="callout" style="margin-bottom:20px;">
-    <b>📌 本页用途：</b>资讯从哪来（44 个信源）、怎么筛（两级相关性闸门 + 6 维评分）、怎么看（精选 / 全量 + 筛选标签）。
+    <b>📌 本页用途：</b>资讯从哪来（{len(SOURCES)} 个信源）、怎么筛（两级相关性闸门 + 6 维评分）、怎么看（精选 / 全量 + 筛选标签）。
   </div>
 
   <div class="section">

@@ -485,7 +485,7 @@ def generate():
     )
 
     # --- 研究价值 TOP 15 不再单独成块：精选视图默认按研究价值降序，
-    #     融资金额/有融资优先等排序通过工具栏下拉实现（见 #ent-sort）。---
+    #     融资金额/研究价值排序通过工具栏箭头按钮实现（见 setEntSort）。---
 
     # Tag filter options — TOP-N high-frequency pills + collapsible "more" to avoid explosion
     from collections import Counter
@@ -563,11 +563,8 @@ __SIDEBAR__
     <button class="f-btn" data-reg="1">国内</button>
     <button class="f-btn" data-reg="2">海外</button>
     <span class="f-label" style="margin-left:12px;">排序</span>
-    <select class="sort-select" id="ent-sort" title="排序方式">
-      <option value="rv">研究价值↓</option>
-      <option value="fund">融资金额↓</option>
-      <option value="hasfund">有融资优先</option>
-    </select>
+    <button class="sort-arrow active" data-sort="rv" onclick="setEntSort('rv')">研究价值 ↓</button>
+    <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
     <button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>
   </div>
@@ -579,10 +576,6 @@ __SIDEBAR__
   <div class="filter-row">
     <span class="f-label">标签</span>
     <div class="filter-btns ent-tag-pills">{tag_pills_html}</div>
-    <span class="f-label" style="margin-left:12px;">融资</span>
-    <button class="f-btn active" data-fund="all">全部</button>
-    <button class="f-btn" data-fund="funded">有融资</button>
-    <button class="f-btn" data-fund="ipo">已IPO</button>
   </div>
   {l2_filter_html}
 </div>
@@ -605,25 +598,39 @@ let activeCat = 'all';
 let activeL2 = 'all';
 let activeView = 'curated';
 let activeTag = 'all';
-let activeFund = 'all';
+let entSortMode = 'rv';
+let entSortDir = 'desc';
+
+function setEntSort(mode) {{
+  if (entSortMode === mode) {{
+    entSortDir = entSortDir === 'desc' ? 'asc' : 'desc';
+  }} else {{
+    entSortMode = mode;
+    entSortDir = 'desc';
+  }}
+  document.querySelectorAll('.sort-arrow[data-sort]').forEach(function(b) {{
+    const m = b.dataset.sort;
+    b.classList.toggle('active', m === entSortMode);
+    const arrow = (m === entSortMode) ? (entSortDir === 'desc' ? '↓' : '↑') : '↓';
+    b.textContent = (m === 'rv' ? '研究价值 ' : '融资金额 ') + arrow;
+  }});
+  filterEnt();
+}}
 
 function sortEnt() {{
-  const sel = document.getElementById('ent-sort');
-  const mode = sel ? sel.value : 'rv';
+  const mode = entSortMode;
   const list = document.getElementById('ent-list');
   if (!list) return;
   const cards = Array.from(list.querySelectorAll('.ent-card'));
   cards.sort(function(a, b) {{
+    let cmp;
     if (mode === 'fund') {{
-      return (parseFloat(b.dataset.fund) || 0) - (parseFloat(a.dataset.fund) || 0);
+      cmp = (parseFloat(b.dataset.fund) || 0) - (parseFloat(a.dataset.fund) || 0);
+    }} else {{
+      cmp = (parseFloat(b.dataset.rv) || 0) - (parseFloat(a.dataset.rv) || 0);
     }}
-    if (mode === 'hasfund') {{
-      if ((b.dataset.hasfund === '1') !== (a.dataset.hasfund === '1')) {{
-        return (b.dataset.hasfund === '1') ? 1 : -1;
-      }}
-      return (parseFloat(b.dataset.rv) || 0) - (parseFloat(a.dataset.rv) || 0);
-    }}
-    return (parseFloat(b.dataset.rv) || 0) - (parseFloat(a.dataset.rv) || 0);
+    if (entSortDir === 'asc') cmp = -cmp;
+    return cmp;
   }});
   cards.forEach(function(c) {{ list.appendChild(c); }});
 }}
@@ -650,11 +657,8 @@ function filterEnt() {{
     const viewMatch = activeView === 'all' || curated;
     const tag = (card.dataset.tags || '').split(' ').filter(Boolean);
     const tagMatch = activeTag === 'all' || (activeTag === '__funded__' ? (card.dataset.hasfund === '1') : tag.includes(activeTag));
-    const fundMatch = activeFund === 'all'
-      || (activeFund === 'funded' && card.dataset.hasfund === '1')
-      || (activeFund === 'ipo' && card.dataset.ipo === '1');
 
-    if (regMatch && searchMatch && viewMatch && tagMatch && fundMatch) {{
+    if (regMatch && searchMatch && viewMatch && tagMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
       if (cat && l2) {{
         if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};
@@ -714,11 +718,7 @@ document.querySelectorAll('.view-btn').forEach(btn => {{
   }});
 }});
 
-// Sort toggle
-const entSortEl = document.getElementById('ent-sort');
-if (entSortEl) {{
-  entSortEl.addEventListener('change', function() {{ filterEnt(); }});
-}}
+// Sort toggle is handled via onclick="setEntSort(...)" arrow buttons (see toolbar)
 
 // Tag pill toggle (replaces old <select>)
 document.querySelectorAll('.ent-tag-pills [data-tag]').forEach(btn => {{
@@ -740,16 +740,6 @@ document.querySelectorAll('[data-reg]').forEach(btn => {{
     activeL2 = 'all';
     document.querySelectorAll('#cat-filter [data-cat]').forEach(b => b.classList.toggle('active', b.dataset.cat === 'all'));
     hideAllL2Rows();
-    filterEnt();
-  }});
-}});
-
-// 融资筛选
-document.querySelectorAll('[data-fund]').forEach(btn => {{
-  btn.addEventListener('click', function() {{
-    document.querySelectorAll('[data-fund]').forEach(b => b.classList.remove('active'));
-    this.classList.add('active');
-    activeFund = this.dataset.fund;
     filterEnt();
   }});
 }});

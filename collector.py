@@ -23,6 +23,23 @@ from config import (
 
 CACHE_FILE = os.path.join(DATA_DIR, "history.json")
 
+# === 静音模式（降本）：详细日志写文件，stdout 只留一行摘要 ===
+# 自动化任务读 stdout 计 token，逐源打印是主要浪费源。改为写
+# data/run_logs/collector_YYYYMMDD.log，模型侧只看到 collect_all 末行摘要。
+import logging
+_RUNLOG_DIR = os.path.join(DATA_DIR, "run_logs")
+os.makedirs(_RUNLOG_DIR, exist_ok=True)
+_COLLECT_LOG = os.path.join(_RUNLOG_DIR, f"collector_{datetime.now().strftime('%Y%m%d')}.log")
+_col_logger = logging.getLogger("silver_collector")
+if not _col_logger.handlers:
+    _ch = logging.FileHandler(_COLLECT_LOG, encoding="utf-8")
+    _ch.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+    _col_logger.addHandler(_ch)
+    _col_logger.setLevel(logging.INFO)
+def _clog(msg):
+    """详细日志写文件（不进 stdout）。"""
+    _col_logger.info(msg)
+
 # 动态噪音封禁名单（由 noise_spike_guard 自动维护，连续2天 spike 时写入）
 # 格式: {"domains": [...]} —— 这些源域名产出的条目直接判为不相关
 NOISE_BLOCKLIST_PATH = os.path.join(DATA_DIR, "noise_blocklist.json")
@@ -260,24 +277,35 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
                 # Already a Google News RSS URL (e.g. AgeClub, 36kr)
                 target_url = feed_url
             else:
-                # Direct site/channel URL → wrap in Google News RSS proxy (domain-level)
-                # Domain-level is more reliable than deep-path queries (Google News
-                # often doesn't index site:domain/path). L2 channel URL stays in
-                # config as documentation of what we monitor.
+                # Direct site/channel URL → wrap in Google News RSS proxy.
+                # 精准监控二级频道：若频道路径含信号词(invest/fund/venture/ipo
+                # 等)，把该词加入查询，避免只查整站导致频道语义丢失。
                 from urllib.parse import quote
                 clean = feed_url.split("//")[-1].rstrip("/")
-                domain = clean.split("/")[0]
-                target_url = f"https://news.google.com/rss/search?q={quote('site:' + domain)}+when:7d&hl=en-US"
+                parts = clean.split("/")
+                domain = parts[0]
+                path_kw = ""
+                if len(parts) > 1:
+                    seg = parts[-1] if parts[-1] else (parts[-2] if len(parts) > 2 else "")
+                    seg = seg.replace("-", " ").replace("_", " ")
+                    if any(w in seg.lower() for w in
+                           ["invest", "fund", "venture", "vc", "ipo", "merger",
+                            "acqui", "capital", "financ", "deal", "aging", "senior", "care"]):
+                        path_kw = seg
+                q = f"site:{domain}"
+                if path_kw:
+                    q += f"+{quote(path_kw)}"
+                target_url = f"https://news.google.com/rss/search?q={q}+when:7d&hl=en-US"
             resp = requests.get(target_url, headers=HTTP_HEADERS, timeout=15)
             resp.raise_for_status()
             feed = feedparser.parse(resp.text)
         else:
-            print(f"  [{source_name}] Unknown type: {source_type}")
+            _clog(f"[{source_name}] Unknown type: {source_type}")
             return []
 
         entries = feed.get("entries", [])
         if not entries:
-            print(f"  [{source_name}] No entries found")
+            _clog(f"[{source_name}] No entries found")
             return []
 
         articles = []
@@ -323,11 +351,11 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
             }
             articles.append(article)
 
-        print(f"  [{source_name}] Collected {len(articles)} articles")
+        _clog(f"[{source_name}] Collected {len(articles)} articles")
         return articles
 
     except Exception as e:
-        print(f"  [{source_name}] Error: {type(e).__name__}: {e}")
+        _clog(f"[{source_name}] Error: {type(e).__name__}: {e}")
         return []
 
 
@@ -408,12 +436,12 @@ def collect_all(history=None):
 
     for source_id, source_config in SOURCES.items():
         source_name = source_config["name"]
-        print(f"Collecting from {source_name}...")
+        _clog(f"Collecting from {source_name}...")
 
         all_channel_articles = []
         for channel_name, channel_url, channel_method in source_config.get("l2_channels", []):
             if channel_method == "manual":
-                print(f"  [{channel_name}] Skipping manual channel")
+                _clog(f"  [{channel_name}] Skipping manual channel")
                 continue
 
             channel_articles = collect_from_rss(
@@ -427,7 +455,7 @@ def collect_all(history=None):
                 )
                 if fb:
                     fb_url, fb_method = fb
-                    print(f"  [{channel_name}] primary empty -> fallback ({fb_method})")
+                    _clog(f"  [{channel_name}] primary empty -> fallback ({fb_method})")
                     channel_articles = collect_from_rss(
                         source_id, fb_url, fb_method, source_name
                     )
@@ -441,7 +469,7 @@ def collect_all(history=None):
             all_articles.append(article)
             new_count += 1
 
-        print(f"  -> {new_count} new articles")
+        _clog(f"  -> {new_count} new articles")
 
     save_history(history)
 
@@ -482,10 +510,9 @@ def collect_all(history=None):
         key=lambda a: a.get("date", "0000-00-00"), reverse=True
     )
 
-    print(f"\nTotal: {len(all_articles)} new articles, "
-          f"{len(relevant_articles)} relevant, "
-          f"Top {len(top_articles)} selected for scoring")
-    
+    # 静音：stdout 只输出一行摘要，详细日志见 data/run_logs/collector_*.log
+    print(f"[collector] 完成: {len(relevant_articles)} 条相关 / {len(all_articles)} 新 / {len(top_articles)} 待评分")
+
     # Store full relevant set for external save (full dashboard update)
     collect_all._last_relevant = relevant_articles
 
@@ -496,14 +523,13 @@ def collect_all(history=None):
     out_file = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(relevant_articles, f, ensure_ascii=False, indent=2)
-    print(f"\nSaved {len(relevant_articles)} relevant articles to {out_file}")
+    _clog(f"Saved {len(relevant_articles)} relevant articles to {out_file}")
 
-    # Print top 5 for quick preview
+    # Top 5 预览写入日志（不进 stdout）
     if top_articles:
-        print("\n--- Top 5 by signal score ---")
         for a in sorted(top_articles, key=lambda x: x.get("signal_score", 0), reverse=True)[:5]:
-            print(f"  [{a.get('signal_score', 0):.1f}] [{a['source']}] {a['title'][:70]} | {a['date']}")
-    
+            _clog(f"Top: [{a.get('signal_score', 0):.1f}] [{a['source']}] {a['title'][:70]} | {a['date']}")
+
     return top_articles
 
 

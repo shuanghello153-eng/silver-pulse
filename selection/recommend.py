@@ -84,6 +84,11 @@ def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0):
     event_visible = any(k in blob for k in kw_map.get(primary, []))
 
     subj = (entity_name or "").strip()
+    # 无 entity 时用领域/具体标签作主语，避免大量条目理由雷同（仍以真实话题为锚）
+    if not subj and domains:
+        subj = domains[0]
+    if not subj and len(tags) > 1:
+        subj = tags[1]
 
     # 事件洞察（差异化模板）
     if primary == "融资":

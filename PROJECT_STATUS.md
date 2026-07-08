@@ -427,6 +427,50 @@ SKIP_COLLECTOR=1 C:\Users\shuan\.workbuddy\binaries\python\envs\default\Scripts\
 
 ---
 
+## 十、2026-07-08 下午-晚 更新日志（账号B·研究员艾年）
+
+> 本轮（第三批次）聚焦：用户截图反馈的真实 UI 问题修复 + 信源漏采根因排查与修复 + Loop Engineering 自检增强 + 降本。
+
+### 10.1 资讯页筛选区修复（用户截图反馈"展示很奇怪"）
+- 加**时间筛选**（全部/近2周/近1个月/近3个月，标签胶囊样式，默认全部）
+- **排序下拉框 → 箭头按钮**：评分 ↓ → 评分 ↑ → 时间 ↓ 三态循环（`cycleSort()`）
+- 事件·领域·标签三行合并紧凑栏（T27 已做）保留，加时间行
+- 移除旧 `<select class="sort-select">`，JS 同步改为 `activeTime` + `cycleSort`
+
+### 10.2 企业库筛选区修复（用户反馈：标签重复/排版乱）
+- **删除重复的"融资"筛选行**（原 582-585 行，与"有融资/IPO"标签胶囊重复）
+- **排序下拉框 → 箭头按钮**：研究价值 ↓ / 融资金额 ↓（点击切换 ↑↓，`setEntSort()`）
+- 移除 `activeFund` 变量 + `[data-fund]` 死 JS 处理，卡片 `data-fund` 排序属性保留
+- 共享 `.sort-arrow` CSS 加入 ui_common.py
+
+### 10.3 信源漏采根因排查（用户："44源为何只66条？"）
+**诊断结论**：核心 Tier-1 源几乎没采到（MobiHealthNews=1、Crunchbase=0、TheGerontechnologist=0、StartUp Health=0），反是 Google News 宽查询灌进大量无关中文泛新闻（新浪财经/人民日报/新华网）。
+**根因**：4 个核心源在 config 里配的是**网页 URL**（如 `/sections/...`、`/articles/`、`/category/funding/`）而非 RSS feed，feedparser 解析 HTML 返回 0 条；且 `google_news` 方法丢弃频道路径只查整站，导致 investor/funding 频道没被监控。
+**修复**：
+- `thegerontechnologist`: `/articles/`+`/podcast/` → `https://thegerontechnologist.com/feed/`（实测 10 条，原 google_news 整站 0）
+- `crunchbase_news`: `/sections/health-wellness-biotech/` → `https://news.crunchbase.com/feed/`
+- `homehealthcarenews`: `/category/funding/` → `https://homehealthcarenews.com/feed/`
+- `startuphealth`: 网页 → `https://www.startuphealth.com/startup-health-blog?format=rss`（实测 20 条）
+- **增强 `google_news` 方法**：频道路径含信号词(invest/fund/venture/ipo 等)时，把该词加入查询，**真正监控二级频道而非整站**（MobiHealthNews investor、FierceHealthcare VC 等）
+
+### 10.4 Loop Engineering 自检增强（用户："自我纠错为啥还频繁出明显 bug？"）
+**诚实复盘**：之前的 loop_audit 只查 HTML 结构（空块/radar 残留），**抓不到交互/视觉层 bug**。本轮补三类检测：
+1. **死 JS 引用**：`getElementById` 目标 id 在 HTML 不存在 → CRITICAL（刚修的 `ent-sort` 即此类）
+2. **残留 `<select>` 下拉框**：body 内仍有 select → CRITICAL（我们意图全改标签/箭头）
+3. **重复筛选按钮**：同 `data-group` 下同 `data-value` 多次 → WARN
+后续：将 CRITICAL 阻断部署接进 run_daily（进行中）。
+
+### 10.5 降本
+- 脚本静音（T58）：collector 等详细日志写 `data/run_logs/`，只给模型一行摘要（进行中）
+- 新建 `0722_token_downgrade_plan.md`：免费期后分级降级方案（每日更新保 Hy3，摘要/标签池降级轻量模型）
+
+### 10.6 信源完整性核对
+- 用户重发完整信源清单（50+ 渠道），逐一核对 config.SOURCES（44 源）
+- **已覆盖**：AgeTech 系(3)、StartUp Health、Crunchbase、MobiHealthNews、FierceHealthcare、TheGerontechnologist、McKnight's 系、AgeTech Collaborative、Mary Furlong、INC.5000、A2 Collective、Creating A New Healthcare、FinSMEs、PR Newswire、FemTech Insider、Axios、HIT Consultant、Pulse2、Business Wire、TechCrunch、BetaKit、Coverager、Yahoo Finance、Modern Healthcare、HomeCare Mag、国内 AgeClub/36氪/动脉网/Google News 银发、政府一手源(民政部/国务院/老龄协/LeadingAge/Argentum/NIC/NCOA)
+- **缺口（待建，非阻断）**：① YouTube 视频频道监控（Home Health Care News/homecare/fiercehealthcare 的热门视频）② 三家 VC 一手源（Third Act Ventures / 7Wire Ventures / Khosla Ventures 的博客/洞察）
+
+---
+
 ## 九、小爽（用户）关键偏好速查
 
 1. **核心叙事**："以海外为镜照中国之路"

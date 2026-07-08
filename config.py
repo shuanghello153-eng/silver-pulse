@@ -189,7 +189,7 @@ SOURCES = {
         "name": "Home Health Care News",
         "l1_domain": "homehealthcarenews.com",
         "l2_channels": [
-            ("funding", "https://homehealthcarenews.com/category/funding/", "rss"),
+            ("funding", "https://homehealthcarenews.com/feed/", "rss"),
         ],
         "tier": 1,
         "region": "overseas",
@@ -239,12 +239,11 @@ SOURCES = {
         "name": "The Gerontechnologist",
         "l1_domain": "thegerontechnologist.com",
         "l2_channels": [
-            ("articles", "https://thegerontechnologist.com/articles/", "rss"),
-            ("podcast", "https://thegerontechnologist.com/podcast/", "rss"),
+            ("feed", "https://thegerontechnologist.com/feed/", "rss"),
         ],
         "tier": 1,
         "region": "overseas",
-        "notes": "AgeTech Map来源，有文章+播客两个频道",
+        "notes": "AgeTech Map来源，RSS聚合文章+播客（/feed/ 实测可用，整站google_news查询为0需直连）",
     },
     "fiercehealthcare": {
         "name": "FierceHealthcare",
@@ -261,7 +260,7 @@ SOURCES = {
         "name": "Crunchbase News",
         "l1_domain": "news.crunchbase.com",
         "l2_channels": [
-            ("health_wellness_biotech", "https://news.crunchbase.com/sections/health-wellness-biotech/", "rss"),
+            ("health_wellness_biotech", "https://news.crunchbase.com/feed/", "rss"),
         ],
         "tier": 1,
         "region": "overseas",
@@ -284,7 +283,7 @@ SOURCES = {
         "name": "StartUp Health",
         "l1_domain": "startuphealth.com",
         "l2_channels": [
-            ("blog", "https://www.startuphealth.com/startup-health-blog", "google_news"),
+            ("blog", "https://www.startuphealth.com/startup-health-blog?format=rss", "rss"),
         ],
         "tier": 2,
         "region": "overseas",
