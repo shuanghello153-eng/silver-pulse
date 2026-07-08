@@ -22,32 +22,42 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
 
 STEPS = [
+    # [COST: zero] RSS 采集 48 信源 + Google News + manual 种子注入
     ("collector.collect_all()", "collector", "collect_all", ()),
+    # [COST: zero] 信号过滤 + 聚合 + history 去重
     ("score_and_merge.main()", "score_and_merge", "main", ()),
-    # L2 自我纠错：对存量 scored 重过两级闸门，自动清掉收紧前漏入的旧噪音（防复发）
+    # [COST: zero] L2 自纠：两级闸门重过存量，清旧噪音
     ("purge_legacy.run_daily_step()", "purge_legacy", "run_daily_step", ()),
-    # L3 模型 5 维打分（Skill 封装，零成本规则兜底；无模型则跳过，绝不中断）
+    # [COST: model-optional] L3 5 维打分（规则兜底；无模型跳过）
     ("selection.score_skill.run_daily_step()", "selection.score_skill", "run_daily_step", ()),
-    # 中文翻译回填（Skill 封装，零成本；无模型则跳过，绝不中断）
+    # [COST: model-optional] 中文翻译回填（规则兜底；无模型跳过）
     ("selection.translate.run_daily_step()", "selection.translate", "run_daily_step", ()),
-    # L3 外部反馈闭环：读收藏 feedback.jsonl -> 安全微调评分权重 (user_pref.json)
+    # [COST: zero] L3 反馈闭环：读 feedback.jsonl → ±0.03 权重微调
     ("feedback_loop.run_daily_step()", "feedback_loop", "run_daily_step", ()),
-    # 赛道核心度: 用代码关键词覆盖 industry 维度(零成本), 并重算终分（含 user_pref 权重）
+    # [COST: zero] 赛道核心度关键词覆盖 + 终分重算（含 user_pref）
     ("reapply_centrality.main()", "reapply_centrality", "main", ()),
-    # 推荐理由重算（T24+T30）：每次跑批用差异化模板重算全部条目，带入 entity/领域/反常识度
+    # [COST: zero] 事件聚类：(entity,event_type)精确匹配 + 余弦回退 → cluster_id
+    ("selection.cluster.run_daily_step()", "selection.cluster", "run_daily_step", ()),
+    # [COST: zero] 推荐理由重算（变体库轮换去重）
     ("selection.recommend.run_daily_step()", "selection.recommend", "run_daily_step", ()),
+    # [COST: zero] 企业研究价值分（base_value + event_boost）
     ("selection.enterprise_score.main()", "selection.enterprise_score", "main", ()),
-    # 自动反哺企业标签（资讯事件 + 融资字段 -> 企业 tags，供融资/IPO 筛选）
+    # [COST: zero] 自动反哺企业标签
     ("tag_enterprises.run_daily_step()", "tag_enterprises", "run_daily_step", ()),
+    # [COST: zero] 生成 index.html（资讯看板 + 选题雷达）
     ("generator.main()", "generator", "main", ()),
+    # [COST: zero] 生成 enterprise.html（企业库 + TOP15）
     ("gen_enterprise.main()", "gen_enterprise", "main", ()),
+    # [COST: zero] 生成 about.html（规则 SSoT）
     ("gen_about.main()", "gen_about", "main", ()),
-    # 自检：写 STATE.md（供 06:00 自审与 09:00 补跑读取）
+    # [COST: zero] 自检：写 STATE.md
     ("validator.main()", "validator", "main", ()),
-    # L2 质量自审（Loop Engineering Layer 2）：HTML走查/数据质量/UI一致性/已知问题回归
+    # [COST: zero] L2 质量自审（HTML走查/数据质量/回归检测）
     ("loop_audit.run_daily_step()", "loop_audit", "run_daily_step", ()),
-    # L2 进化层（Loop Engineering Layer 2 写查分离之「进化」）：噪音spike/精选暴跌/规则漂移检测+保守回调
+    # [COST: zero] L2 进化层（噪音spike/精选暴跌/规则漂移检测+封禁）
     ("noise_spike_guard.run_daily_step()", "noise_spike_guard", "run_daily_step", ()),
+    # [COST: zero] 可观测性：每日健康报告 + 趋势历史
+    ("daily_health.run_daily_step()", "daily_health", "run_daily_step", ()),
 ]
 
 def git_pull_main():

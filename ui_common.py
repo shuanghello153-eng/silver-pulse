@@ -149,7 +149,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .badge-event{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--fund-bg);color:var(--fund-text);font-weight:700}
 .badge-domain{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--surface-2);color:var(--text-secondary);font-weight:600;border:1px solid var(--border)}
 .badge-tag{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--tag-bg);color:var(--tag-text);font-weight:600}
-.badge-rv{background:var(--accent-grad);color:#fff;font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:10px;white-space:nowrap}
+.badge-rv{font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:10px;white-space:nowrap;color:#fff}
+.badge-rv.s-high{background:rgba(16,185,.129,.72)}
+.badge-rv.s-mid{background:rgba(14,165,183,.68)}
+.badge-rv.s-low{background:rgba(148,163,184,.55)}
 .badge-deep{background:var(--fund-bg);color:var(--fund-text);font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:10px;white-space:nowrap;margin-left:4px}
 .badge-score{font-size:12px;font-weight:800;padding:3px 10px;border-radius:10px;white-space:nowrap;color:#fff}
 /* 评分半透明底色（按分数段区分） */
@@ -469,24 +472,29 @@ function spGhXhr(url,opts){
 }
 function spGhSettings(){
   var pat=prompt(
-    '请粘贴 GitHub Personal Access Token (PAT)\\n\\n'+
-    '要求：fine-grained token，权限 Contents: Read and Write\\n'+
-    '格式：github_pat_ 开头的一串字符（约70位）\\n\\n'+
-    '⚠️ Token 仅存于你浏览器本地，不会上传到任何服务器。\\n'+
-    '获取方式：GitHub → Settings → Developer settings → Fine-grained tokens → Generate',
+    '【配置 GitHub Token — 同步收藏到云端】\\n\\n'+
+    '⚠️ 请粘贴完整的 Token 字符串（不是 Token 名称或描述！）\\n\\n'+
+    '✅ 正确示例：github_pat_11CHI357I0s8q10l0fZxpz_iuTopkh3pzhB...（约70位）\\n'+
+    '❌ 错误：fine-grained / 我的token / shuanghello153-eng/silver-pulse \\n\\n'+
+    '要求：Fine-grained PAT，权限 Contents: Read and Write\\n'+
+    '获取：GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token',
     ''
   );
   if(!pat) return;
   pat=pat.trim();
-  /* 格式校验：长度>=30 且不含中文 */
-  if(pat.length<30 || /[\u4e00-\u9fff]/.test(pat)){
-    alert('❌ Token 格式不正确\\n\\n正确格式示例：github_pat_11AAAA...（约70位字符）\\n请从 GitHub Settings 复制完整 Token 粘贴。');
+  /* 格式校验 */
+  var errs=[];
+  if(pat.length<30) errs.push('太短（需≥30位）');
+  if(/[\u4e00-\u9fff]/.test(pat)) errs.push('包含中文（Token 应全是英文数字）');
+  if(!pat.startsWith('github_pat_')) errs.push('格式不对（应以 github_pat_ 开头）');
+  if(errs.length){
+    alert('❌ Token 格式错误：\\n\\n• '+errs.join('\\n• ')+'\\n\\n请从 GitHub 页面复制完整 Token（一长串字符），不是名称/描述。');
     return;
   }
   localStorage.setItem('sp_gh_pat',pat);
   localStorage.setItem('sp_gh_repo','shuanghello153-eng/silver-pulse');
   localStorage.setItem('sp_gh_branch','main');
-  alert('✅ Token 已保存（仅本地）。\\n现在可以点「☁ 同步云端」一键上传收藏了。');
+  alert('✅ Token 已保存（仅浏览器本地）。\\n现在点「☁ 同步云端」即可上传收藏。');
 }
 function spGhSync(){
   var pat=localStorage.getItem('sp_gh_pat');

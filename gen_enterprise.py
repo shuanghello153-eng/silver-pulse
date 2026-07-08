@@ -87,6 +87,19 @@ _FUND_UNIT = {"b": 1000.0, "bn": 1000.0, "亿": 100.0, "m": 1.0, "mn": 1.0,
               "$": 1.0, "¥": 1.0, "€": 1.0, "£": 1.0}
 
 
+def _score_class(score):
+    """Return color-tier CSS suffix: s-high(≥7) / s-mid(4–6.9) / s-low(<4)."""
+    try:
+        s = float(score)
+    except (TypeError, ValueError):
+        return "s-low"
+    if s >= 7.0:
+        return "s-high"
+    elif s >= 4.0:
+        return "s-mid"
+    return "s-low"
+
+
 def _extract_fund_num(display):
     """把 '$106M' / '1.2亿' / '¥5000万' / '57B' 解析成「百万美元」量级数值（用于排序）。"""
     if not display or not isinstance(display, str):
@@ -211,7 +224,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
 
     # Research-value badge — 只显示数字（删"研究价值"文字 + "值得深写"标签）
     if rv is not None:
-        header_parts.append(f'<span class="badge-rv">{esc(str(rv))}</span>')
+        header_parts.append(f'<span class="badge-rv {_score_class(rv)}">{esc(str(rv))}</span>')
     # 收藏按钮（localStorage 反馈）
     if serial:
         header_parts.append(f'<button class="fav-btn" data-type="ent" data-id="{esc(serial)}"><span class="ico">☆</span><span class="lbl">收藏</span></button>')
@@ -297,7 +310,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
             rv = c.get("rv")
             rv_badge = ""
             if rv is not None:
-                rv_badge = f'<span class="badge-rv">{esc(str(rv))}</span>'
+                rv_badge = f'<span class="badge-rv {_score_class(rv)}">{esc(str(rv))}</span>'
             comp_items.append(
                 f'<a href="{href}" class="ent-comp-link">{esc(c.get("name", ""))}</a>'
                 f'{rv_badge}'

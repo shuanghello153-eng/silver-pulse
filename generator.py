@@ -600,11 +600,11 @@ def build_card_html(art):
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score" title="综合评分">%s</span>'
+        '<span class="badge-score %s" title="综合评分">%s</span>'
         '<span class="dim-line">%s</span>'
         '%s'
         '</div>'
-    ) % (_fmt_score(fs), dim_html, fav_html)
+    ) % (_score_class(fs), _fmt_score(fs), dim_html, fav_html)
     extra = []
     cl = art.get("cluster_id", "") or ""
     if entity_name:
@@ -674,6 +674,19 @@ def _fmt_score(v):
         return "-" if v in (None, "") else str(v)
 
 
+def _score_class(score):
+    """Return color-tier CSS suffix for badge-score: s-high(≥7) / s-mid(4–6.9) / s-low(<4)."""
+    try:
+        s = float(score)
+    except (TypeError, ValueError):
+        return "s-low"
+    if s >= 7.0:
+        return "s-high"
+    elif s >= 4.0:
+        return "s-mid"
+    return "s-low"
+
+
 def build_selected_card_html(art):
     """Build a 精选 card that mirrors the full news-list card style, but also
     shows the recommendation reason, the 5 dim scores + final_score, and any
@@ -739,11 +752,11 @@ def build_selected_card_html(art):
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score" title="综合评分">%s</span>'
+        '<span class="badge-score %s" title="综合评分">%s</span>'
         '<span class="dim-line">%s</span>'
         '%s'
         '</div>'
-    ) % (_fmt_score(fs), dim_html, fav_html)
+    ) % (_score_class(fs), _fmt_score(fs), dim_html, fav_html)
 
     # 主体 / 聚类 标签
     extra = []
