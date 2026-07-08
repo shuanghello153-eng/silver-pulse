@@ -1,4 +1,4 @@
-<!-- build:20260708102037 -->
+<!-- build:20260708152330 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -70,6 +70,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .header-top{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:6px}
 .header h2{font-size:23px;font-weight:800;letter-spacing:.2px}
 .header-stats{font-size:12px;color:var(--text-muted);white-space:nowrap}
+.header-signal{font-size:11.5px;color:var(--accent-strong);margin-top:3px;font-weight:600}
 .dl-btn{font-size:12px;color:var(--accent-strong);text-decoration:none;border:1px solid var(--accent);
   padding:6px 13px;border-radius:10px;white-space:nowrap;font-weight:600;transition:all .15s;background:#fff}
 .dl-btn:hover{background:var(--accent);color:#fff}
@@ -113,7 +114,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .feed-title a{color:var(--text);text-decoration:none}
 .feed-title a:hover{color:var(--accent-strong)}
 .feed-summary{font-size:12.5px;color:var(--text-secondary);line-height:1.6;margin-bottom:4px}
-.feed-rec{font-size:12.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;border-left:3px solid var(--accent);padding-left:9px;background:var(--accent-light);border-radius:0 7px 7px 0;padding:6px 9px}
+.feed-rec{font-size:11.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;font-style:italic}
 .feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
 .date-group-title{font-size:13px;font-weight:800;color:var(--accent-strong);margin:18px 0 9px;padding-left:11px;border-left:3px solid var(--accent)}
 
@@ -130,29 +131,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .viral-tag{font-size:14px;font-weight:800;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
 
-/* ===== 选题雷达 ===== */
-.radar-block{background:var(--accent-grad);border-radius:var(--radius);padding:18px 20px;margin-bottom:22px;color:#fff;box-shadow:var(--shadow-md)}
-.radar-title{font-size:17px;font-weight:800;margin-bottom:13px;display:flex;align-items:center;gap:8px}
-.radar-title .rt-ico{font-size:18px}
-.radar-sub{margin-bottom:13px}
-.radar-sub:last-child{margin-bottom:0}
-.radar-sub-h{font-size:13px;font-weight:700;margin-bottom:7px;color:#cffafe}
-.radar-row{display:flex;align-items:center;gap:9px;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.13);font-size:12.5px;flex-wrap:wrap}
-.radar-row:last-child{border-bottom:none}
-.radar-rank{font-weight:800;color:#fff;min-width:18px;text-align:right}
-.radar-name{font-weight:700;color:#fff;text-decoration:none}
-.radar-name:hover{text-decoration:underline}
-.radar-reason{color:#d1fae5;font-size:11.5px;opacity:.95;flex:1;min-width:140px}
-.radar-news{display:flex;align-items:baseline;gap:7px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.13);font-size:12.5px;flex-wrap:wrap}
-.radar-news:last-child{border-bottom:none}
-.radar-score{font-weight:800;color:#fde68a;font-size:11.5px;white-space:nowrap}
-.radar-tier{font-size:10.5px;color:#bae6fd;white-space:nowrap}
-.radar-ntitle{color:#fff;text-decoration:none}
-.radar-ntitle:hover{text-decoration:underline}
-.radar-tags{color:#bae6fd;font-size:10.5px}
-.radar-fold{color:#fde68a;font-size:10.5px;font-style:italic}
-.radar-signal{font-size:12.5px;color:#e0f7ff;margin-top:3px;line-height:1.7}
-.radar-empty{color:#cffafe;font-size:12.5px;opacity:.9}
 
 /* ===== 精选卡片增强 ===== */
 .sel-scores{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:5px 0 3px}
@@ -326,11 +304,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 body.fav-mode .feed-item:not([data-fav="1"]){display:none !important}
 body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
 .nav-fav.on{background:var(--accent);color:#fff !important}
+.fav-empty{display:none;text-align:center;padding:48px 20px;color:var(--text-muted);
+  background:var(--surface);border:1px dashed var(--border);border-radius:var(--radius);
+  margin:18px 0;font-size:14px;line-height:1.8}
+.fav-empty span{font-size:12.5px;color:var(--text-secondary)}
 </style>
 </head>
 <body>
 
-<div class="sidebar"><div class="sidebar-logo"><h1>Silver Pulse <span>银脉</span></h1><p class="logo-sub">全球银发经济选题情报台</p></div><div class="nav-section"><div class="nav-label">导航</div><a href="index.html" class="nav-item"><span class="nav-ico">📡</span>资讯看板</a><a href="enterprise.html" class="nav-item active"><span class="nav-ico">🏢</span>企业库</a><a href="about.html" class="nav-item"><span class="nav-ico">📖</span>网站说明</a><a href="javascript:void(0)" id="nav-fav" class="nav-item nav-fav" onclick="spToggleFavView()" title="只看我收藏的资讯/企业"><span class="nav-ico">⭐</span>我的收藏</a></div><div class="sidebar-footer"><button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="切换深浅色">🌓 主题</button></div></div>
+<div class="sidebar"><div class="sidebar-logo"><h1>Silver Pulse <span>银脉</span></h1><p class="logo-sub">全球银发经济选题情报台</p></div><div class="nav-section"><div class="nav-label">导航</div><a href="index.html" class="nav-item"><span class="nav-ico">📡</span>资讯看板</a><a href="enterprise.html" class="nav-item active"><span class="nav-ico">🏢</span>企业库</a><a href="javascript:void(0)" id="nav-fav" class="nav-item nav-fav" onclick="spToggleFavView()" title="只看我收藏的资讯/企业"><span class="nav-ico">⭐</span>我的收藏</a><a href="about.html" class="nav-item"><span class="nav-ico">📖</span>网站说明</a></div><div class="sidebar-footer"><button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="切换深浅色">🌓 主题</button></div></div>
 <div class="main">
 
 <div class="header">
@@ -358,302 +340,6 @@ body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
     <button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>
   </div>
-  <div class="filter-row">
-    <span class="f-label">标签</span>
-    <select class="tag-select" id="ent-tag" title="按标签筛选">
-      <option value="all">全部标签</option>
-      <option value="__funded__">有融资/IPO</option>
-      <option value="AI">AI</option>
-      <option value="AI伴侣">AI伴侣</option>
-      <option value="AI助听器">AI助听器</option>
-      <option value="AI呼吸机">AI呼吸机</option>
-      <option value="AI平台">AI平台</option>
-      <option value="AI教练">AI教练</option>
-      <option value="AI数智">AI数智</option>
-      <option value="AI步态分析">AI步态分析</option>
-      <option value="AI膳食">AI膳食</option>
-      <option value="AI视觉">AI视觉</option>
-      <option value="API">API</option>
-      <option value="B2B2C">B2B2C</option>
-      <option value="CES">CES</option>
-      <option value="C端">C端</option>
-      <option value="EMR">EMR</option>
-      <option value="EVV">EVV</option>
-      <option value="ElliQ">ElliQ</option>
-      <option value="Goldman Sachs">Goldman Sachs</option>
-      <option value="ICARE-BOT">ICARE-BOT</option>
-      <option value="IPO上市">IPO上市</option>
-      <option value="Moxi">Moxi</option>
-      <option value="OT/PT/ST">OT/PT/ST</option>
-      <option value="PACE">PACE</option>
-      <option value="Pre-IPO">Pre-IPO</option>
-      <option value="RNA药物">RNA药物</option>
-      <option value="RPM">RPM</option>
-      <option value="Ropet">Ropet</option>
-      <option value="SaaS">SaaS</option>
-      <option value="VR">VR</option>
-      <option value="VR培训">VR培训</option>
-      <option value="metaPanda">metaPanda</option>
-      <option value="上门照护">上门照护</option>
-      <option value="专业级护理">专业级护理</option>
-      <option value="东南亚">东南亚</option>
-      <option value="个护">个护</option>
-      <option value="中医">中医</option>
-      <option value="中老年女性">中老年女性</option>
-      <option value="中老年男性">中老年男性</option>
-      <option value="临床管理">临床管理</option>
-      <option value="临终关怀">临终关怀</option>
-      <option value="乐龄平台">乐龄平台</option>
-      <option value="二便护理">二便护理</option>
-      <option value="人形机器人">人形机器人</option>
-      <option value="代言">代言</option>
-      <option value="以色列">以色列</option>
-      <option value="价值医疗">价值医疗</option>
-      <option value="仿生宠物">仿生宠物</option>
-      <option value="会员体验">会员体验</option>
-      <option value="会员管理">会员管理</option>
-      <option value="传感器">传感器</option>
-      <option value="传统家政">传统家政</option>
-      <option value="保健品&amp;OTC">保健品&amp;OTC</option>
-      <option value="保险对接">保险对接</option>
-      <option value="保险科技">保险科技</option>
-      <option value="假发">假发</option>
-      <option value="健康养生">健康养生</option>
-      <option value="关节肌肉">关节肌肉</option>
-      <option value="具身导航">具身导航</option>
-      <option value="具身智能">具身智能</option>
-      <option value="养老场景">养老场景</option>
-      <option value="养老机器人">养老机器人</option>
-      <option value="养老机构">养老机构</option>
-      <option value="养老渗透">养老渗透</option>
-      <option value="养老照护">养老照护</option>
-      <option value="养老软件">养老软件</option>
-      <option value="养老运营">养老运营</option>
-      <option value="养老院中介">养老院中介</option>
-      <option value="再就业">再就业</option>
-      <option value="再生医学">再生医学</option>
-      <option value="出海">出海</option>
-      <option value="分析">分析</option>
-      <option value="初级医疗">初级医疗</option>
-      <option value="到家">到家</option>
-      <option value="前庭">前庭</option>
-      <option value="助浴助洁">助浴助洁</option>
-      <option value="助眠">助眠</option>
-      <option value="助行">助行</option>
-      <option value="区域创新平台">区域创新平台</option>
-      <option value="医养结合">医养结合</option>
-      <option value="医疗AI">医疗AI</option>
-      <option value="医疗保险">医疗保险</option>
-      <option value="医疗信息化">医疗信息化</option>
-      <option value="医院机器人">医院机器人</option>
-      <option value="印度">印度</option>
-      <option value="可穿戴">可穿戴</option>
-      <option value="可穿戴康复">可穿戴康复</option>
-      <option value="合肥创新投资">合肥创新投资</option>
-      <option value="听觉障碍">听觉障碍</option>
-      <option value="咨询研究">咨询研究</option>
-      <option value="国资">国资</option>
-      <option value="处方">处方</option>
-      <option value="外骨骼">外骨骼</option>
-      <option value="大头阿亮">大头阿亮</option>
-      <option value="大模型">大模型</option>
-      <option value="女性健康">女性健康</option>
-      <option value="孤独">孤独</option>
-      <option value="孤独干预">孤独干预</option>
-      <option value="孤独缓解">孤独缓解</option>
-      <option value="安全监护">安全监护</option>
-      <option value="安防">安防</option>
-      <option value="家庭照护">家庭照护</option>
-      <option value="对标标的">对标标的</option>
-      <option value="对话机器人">对话机器人</option>
-      <option value="小丽">小丽</option>
-      <option value="小五">小五</option>
-      <option value="居家护理">居家护理</option>
-      <option value="居家服务">居家服务</option>
-      <option value="居家照护">居家照护</option>
-      <option value="居家陪伴">居家陪伴</option>
-      <option value="已IPO">已IPO</option>
-      <option value="已被收购">已被收购</option>
-      <option value="平台">平台</option>
-      <option value="平板">平板</option>
-      <option value="平衡">平衡</option>
-      <option value="康养交互">康养交互</option>
-      <option value="康养机器人">康养机器人</option>
-      <option value="康复机器人">康复机器人</option>
-      <option value="影像技术">影像技术</option>
-      <option value="微生物组">微生物组</option>
-      <option value="德国">德国</option>
-      <option value="情感陪护">情感陪护</option>
-      <option value="慢病管理">慢病管理</option>
-      <option value="成人失禁">成人失禁</option>
-      <option value="戒指">戒指</option>
-      <option value="战略咨询">战略咨询</option>
-      <option value="抗衰">抗衰</option>
-      <option value="抗衰老">抗衰老</option>
-      <option value="护士呼叫">护士呼叫</option>
-      <option value="护理协调">护理协调</option>
-      <option value="护理自动化">护理自动化</option>
-      <option value="护理陪伴机器人">护理陪伴机器人</option>
-      <option value="护肤">护肤</option>
-      <option value="拟人化">拟人化</option>
-      <option value="排班">排班</option>
-      <option value="摔倒监测">摔倒监测</option>
-      <option value="操作系统">操作系统</option>
-      <option value="政府支持">政府支持</option>
-      <option value="数字健康">数字健康</option>
-      <option value="数字孪生">数字孪生</option>
-      <option value="数字平台">数字平台</option>
-      <option value="数字疗法">数字疗法</option>
-      <option value="日本">日本</option>
-      <option value="旧金山">旧金山</option>
-      <option value="星动纪元">星动纪元</option>
-      <option value="智慧养老">智慧养老</option>
-      <option value="智慧管理">智慧管理</option>
-      <option value="智能康复">智能康复</option>
-      <option value="智能手机">智能手机</option>
-      <option value="智能烹饪">智能烹饪</option>
-      <option value="智能硬件">智能硬件</option>
-      <option value="智能轮椅">智能轮椅</option>
-      <option value="有融资">有融资</option>
-      <option value="服务机器人">服务机器人</option>
-      <option value="机器人">机器人</option>
-      <option value="机构管理">机构管理</option>
-      <option value="机构赋能">机构赋能</option>
-      <option value="杂货">杂货</option>
-      <option value="柔性传感">柔性传感</option>
-      <option value="欧洲">欧洲</option>
-      <option value="洗护">洗护</option>
-      <option value="海尔">海尔</option>
-      <option value="消费级">消费级</option>
-      <option value="消费背景">消费背景</option>
-      <option value="游戏化">游戏化</option>
-      <option value="澳洲">澳洲</option>
-      <option value="烹饪">烹饪</option>
-      <option value="照护协调">照护协调</option>
-      <option value="照护机构">照护机构</option>
-      <option value="照护者支持">照护者支持</option>
-      <option value="照护软件">照护软件</option>
-      <option value="爱尔兰">爱尔兰</option>
-      <option value="特医食品">特医食品</option>
-      <option value="瑞士">瑞士</option>
-      <option value="生命体征">生命体征</option>
-      <option value="生物标志物">生物标志物</option>
-      <option value="生物电子">生物电子</option>
-      <option value="生物科技">生物科技</option>
-      <option value="用药提醒">用药提醒</option>
-      <option value="男士">男士</option>
-      <option value="疼痛焦虑缓解">疼痛焦虑缓解</option>
-      <option value="病情早筛">病情早筛</option>
-      <option value="痴呆预防">痴呆预防</option>
-      <option value="白转黑">白转黑</option>
-      <option value="盆底健康">盆底健康</option>
-      <option value="目录">目录</option>
-      <option value="相关上市公司">相关上市公司</option>
-      <option value="睡眠">睡眠</option>
-      <option value="睡眠监测">睡眠监测</option>
-      <option value="睡眠血糖">睡眠血糖</option>
-      <option value="硬件+服务">硬件+服务</option>
-      <option value="社交">社交</option>
-      <option value="社交平台">社交平台</option>
-      <option value="社交连接">社交连接</option>
-      <option value="社交陪伴">社交陪伴</option>
-      <option value="社区">社区</option>
-      <option value="社区平台">社区平台</option>
-      <option value="社区枢纽">社区枢纽</option>
-      <option value="社区租赁">社区租赁</option>
-      <option value="神经技术">神经技术</option>
-      <option value="神经科技">神经科技</option>
-      <option value="穿戴">穿戴</option>
-      <option value="精准医疗">精准医疗</option>
-      <option value="精神&amp;神经">精神&amp;神经</option>
-      <option value="紧急呼叫">紧急呼叫</option>
-      <option value="紧急响应">紧急响应</option>
-      <option value="紧急警报">紧急警报</option>
-      <option value="线上渠道">线上渠道</option>
-      <option value="线下渠道">线下渠道</option>
-      <option value="线下零售">线下零售</option>
-      <option value="细胞治疗">细胞治疗</option>
-      <option value="细胞重编程">细胞重编程</option>
-      <option value="综合疗法">综合疗法</option>
-      <option value="美妆">美妆</option>
-      <option value="老年健身">老年健身</option>
-      <option value="老年医疗">老年医疗</option>
-      <option value="老年安全">老年安全</option>
-      <option value="老年心理">老年心理</option>
-      <option value="老年护肤">老年护肤</option>
-      <option value="老年教育">老年教育</option>
-      <option value="老年文娱">老年文娱</option>
-      <option value="老年旅游">老年旅游</option>
-      <option value="老年音乐">老年音乐</option>
-      <option value="肢体障碍">肢体障碍</option>
-      <option value="胃肠健康">胃肠健康</option>
-      <option value="脑 shuttle">脑 shuttle</option>
-      <option value="舒适鞋服">舒适鞋服</option>
-      <option value="芬兰">芬兰</option>
-      <option value="英国">英国</option>
-      <option value="营养">营养</option>
-      <option value="营销媒体">营销媒体</option>
-      <option value="虚拟旅行">虚拟旅行</option>
-      <option value="虚拟社区">虚拟社区</option>
-      <option value="融资过亿">融资过亿</option>
-      <option value="血压血糖">血压血糖</option>
-      <option value="行业媒体">行业媒体</option>
-      <option value="行业展会">行业展会</option>
-      <option value="行为预测">行为预测</option>
-      <option value="行走辅助">行走辅助</option>
-      <option value="西班牙">西班牙</option>
-      <option value="视觉障碍">视觉障碍</option>
-      <option value="视频通信">视频通信</option>
-      <option value="订阅制">订阅制</option>
-      <option value="认知症">认知症</option>
-      <option value="认知症产品">认知症产品</option>
-      <option value="认知训练">认知训练</option>
-      <option value="访客管理">访客管理</option>
-      <option value="语音交互">语音交互</option>
-      <option value="走失管理">走失管理</option>
-      <option value="跌倒检测">跌倒检测</option>
-      <option value="跌倒监测">跌倒监测</option>
-      <option value="辅助机器人">辅助机器人</option>
-      <option value="运动康复">运动康复</option>
-      <option value="运营">运营</option>
-      <option value="运营商">运营商</option>
-      <option value="进口品牌">进口品牌</option>
-      <option value="远程医疗">远程医疗</option>
-      <option value="远程支持">远程支持</option>
-      <option value="远程活动">远程活动</option>
-      <option value="远程监护">远程监护</option>
-      <option value="远程监测">远程监测</option>
-      <option value="送物">送物</option>
-      <option value="适老化">适老化</option>
-      <option value="适老家居产品">适老家居产品</option>
-      <option value="遗产记录">遗产记录</option>
-      <option value="重病">重病</option>
-      <option value="量产">量产</option>
-      <option value="金融理财">金融理财</option>
-      <option value="银发营销">银发营销</option>
-      <option value="长寿">长寿</option>
-      <option value="长寿科技">长寿科技</option>
-      <option value="长寿诊所">长寿诊所</option>
-      <option value="长者陪伴">长者陪伴</option>
-      <option value="防脱">防脱</option>
-      <option value="防跌">防跌</option>
-      <option value="防跌倒">防跌倒</option>
-      <option value="阿尔茨海默">阿尔茨海默</option>
-      <option value="陪伴">陪伴</option>
-      <option value="陪伴机器人">陪伴机器人</option>
-      <option value="陪诊服务">陪诊服务</option>
-      <option value="隐私优先">隐私优先</option>
-      <option value="雷达">雷达</option>
-      <option value="音频AI">音频AI</option>
-      <option value="项目批复">项目批复</option>
-      <option value="顾问">顾问</option>
-      <option value="预售">预售</option>
-      <option value="预防">预防</option>
-      <option value="预防保健">预防保健</option>
-      <option value="骨胶原">骨胶原</option>
-
-    </select>
-  </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>
     <button class="f-btn active" data-cat="all">全部</button>
@@ -672,7 +358,9 @@ body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
 <button class="f-btn" data-cat="产业资本/投资机构">产业资本/投资机构<span class="cnt">36</span></button>
   </div>
   <div class="filter-row">
-    <span class="f-label">融资</span>
+    <span class="f-label">标签</span>
+    <div class="filter-btns ent-tag-pills"><button class="f-btn active" data-tag="all">全部标签</button><button class="f-btn" data-tag="__funded__">有融资/IPO</button><button class="f-btn" data-tag="AI">AI</button><button class="f-btn" data-tag="AI伴侣">AI伴侣</button><button class="f-btn" data-tag="AI助听器">AI助听器</button><button class="f-btn" data-tag="AI呼吸机">AI呼吸机</button><button class="f-btn" data-tag="AI平台">AI平台</button><button class="f-btn" data-tag="AI教练">AI教练</button><button class="f-btn" data-tag="AI数智">AI数智</button><button class="f-btn" data-tag="AI步态分析">AI步态分析</button><button class="f-btn" data-tag="AI膳食">AI膳食</button><button class="f-btn" data-tag="AI视觉">AI视觉</button><button class="f-btn" data-tag="API">API</button><button class="f-btn" data-tag="B2B2C">B2B2C</button><button class="f-btn" data-tag="CES">CES</button><button class="f-btn" data-tag="C端">C端</button><button class="f-btn" data-tag="EMR">EMR</button><button class="f-btn" data-tag="EVV">EVV</button><button class="f-btn" data-tag="ElliQ">ElliQ</button><button class="f-btn" data-tag="Goldman Sachs">Goldman Sachs</button><button class="f-btn" data-tag="ICARE-BOT">ICARE-BOT</button><button class="f-btn" data-tag="IPO上市">IPO上市</button><button class="f-btn" data-tag="Moxi">Moxi</button><button class="f-btn" data-tag="OT/PT/ST">OT/PT/ST</button><button class="f-btn" data-tag="PACE">PACE</button><button class="f-btn" data-tag="Pre-IPO">Pre-IPO</button><button class="f-btn" data-tag="RNA药物">RNA药物</button><button class="f-btn" data-tag="RPM">RPM</button><button class="f-btn" data-tag="Ropet">Ropet</button><button class="f-btn" data-tag="SaaS">SaaS</button><button class="f-btn" data-tag="VR">VR</button><button class="f-btn" data-tag="VR培训">VR培训</button><button class="f-btn" data-tag="metaPanda">metaPanda</button><button class="f-btn" data-tag="上门照护">上门照护</button><button class="f-btn" data-tag="专业级护理">专业级护理</button><button class="f-btn" data-tag="东南亚">东南亚</button><button class="f-btn" data-tag="个护">个护</button><button class="f-btn" data-tag="中医">中医</button><button class="f-btn" data-tag="中老年女性">中老年女性</button><button class="f-btn" data-tag="中老年男性">中老年男性</button><button class="f-btn" data-tag="临床管理">临床管理</button><button class="f-btn" data-tag="临终关怀">临终关怀</button><button class="f-btn" data-tag="乐龄平台">乐龄平台</button><button class="f-btn" data-tag="二便护理">二便护理</button><button class="f-btn" data-tag="人形机器人">人形机器人</button><button class="f-btn" data-tag="代言">代言</button><button class="f-btn" data-tag="以色列">以色列</button><button class="f-btn" data-tag="价值医疗">价值医疗</button><button class="f-btn" data-tag="仿生宠物">仿生宠物</button><button class="f-btn" data-tag="会员体验">会员体验</button><button class="f-btn" data-tag="会员管理">会员管理</button><button class="f-btn" data-tag="传感器">传感器</button><button class="f-btn" data-tag="传统家政">传统家政</button><button class="f-btn" data-tag="保健品&amp;OTC">保健品&amp;OTC</button><button class="f-btn" data-tag="保险对接">保险对接</button><button class="f-btn" data-tag="保险科技">保险科技</button><button class="f-btn" data-tag="假发">假发</button><button class="f-btn" data-tag="健康养生">健康养生</button><button class="f-btn" data-tag="关节肌肉">关节肌肉</button><button class="f-btn" data-tag="具身导航">具身导航</button><button class="f-btn" data-tag="具身智能">具身智能</button><button class="f-btn" data-tag="养老场景">养老场景</button><button class="f-btn" data-tag="养老机器人">养老机器人</button><button class="f-btn" data-tag="养老机构">养老机构</button><button class="f-btn" data-tag="养老渗透">养老渗透</button><button class="f-btn" data-tag="养老照护">养老照护</button><button class="f-btn" data-tag="养老软件">养老软件</button><button class="f-btn" data-tag="养老运营">养老运营</button><button class="f-btn" data-tag="养老院中介">养老院中介</button><button class="f-btn" data-tag="再就业">再就业</button><button class="f-btn" data-tag="再生医学">再生医学</button><button class="f-btn" data-tag="出海">出海</button><button class="f-btn" data-tag="分析">分析</button><button class="f-btn" data-tag="初级医疗">初级医疗</button><button class="f-btn" data-tag="到家">到家</button><button class="f-btn" data-tag="前庭">前庭</button><button class="f-btn" data-tag="助浴助洁">助浴助洁</button><button class="f-btn" data-tag="助眠">助眠</button><button class="f-btn" data-tag="助行">助行</button><button class="f-btn" data-tag="区域创新平台">区域创新平台</button><button class="f-btn" data-tag="医养结合">医养结合</button><button class="f-btn" data-tag="医疗AI">医疗AI</button><button class="f-btn" data-tag="医疗保险">医疗保险</button><button class="f-btn" data-tag="医疗信息化">医疗信息化</button><button class="f-btn" data-tag="医院机器人">医院机器人</button><button class="f-btn" data-tag="印度">印度</button><button class="f-btn" data-tag="可穿戴">可穿戴</button><button class="f-btn" data-tag="可穿戴康复">可穿戴康复</button><button class="f-btn" data-tag="合肥创新投资">合肥创新投资</button><button class="f-btn" data-tag="听觉障碍">听觉障碍</button><button class="f-btn" data-tag="咨询研究">咨询研究</button><button class="f-btn" data-tag="国资">国资</button><button class="f-btn" data-tag="处方">处方</button><button class="f-btn" data-tag="外骨骼">外骨骼</button><button class="f-btn" data-tag="大头阿亮">大头阿亮</button><button class="f-btn" data-tag="大模型">大模型</button><button class="f-btn" data-tag="女性健康">女性健康</button><button class="f-btn" data-tag="孤独">孤独</button><button class="f-btn" data-tag="孤独干预">孤独干预</button><button class="f-btn" data-tag="孤独缓解">孤独缓解</button><button class="f-btn" data-tag="安全监护">安全监护</button><button class="f-btn" data-tag="安防">安防</button><button class="f-btn" data-tag="家庭照护">家庭照护</button><button class="f-btn" data-tag="对标标的">对标标的</button><button class="f-btn" data-tag="对话机器人">对话机器人</button><button class="f-btn" data-tag="小丽">小丽</button><button class="f-btn" data-tag="小五">小五</button><button class="f-btn" data-tag="居家护理">居家护理</button><button class="f-btn" data-tag="居家服务">居家服务</button><button class="f-btn" data-tag="居家照护">居家照护</button><button class="f-btn" data-tag="居家陪伴">居家陪伴</button><button class="f-btn" data-tag="已IPO">已IPO</button><button class="f-btn" data-tag="已被收购">已被收购</button><button class="f-btn" data-tag="平台">平台</button><button class="f-btn" data-tag="平板">平板</button><button class="f-btn" data-tag="平衡">平衡</button><button class="f-btn" data-tag="康养交互">康养交互</button><button class="f-btn" data-tag="康养机器人">康养机器人</button><button class="f-btn" data-tag="康复机器人">康复机器人</button><button class="f-btn" data-tag="影像技术">影像技术</button><button class="f-btn" data-tag="微生物组">微生物组</button><button class="f-btn" data-tag="德国">德国</button><button class="f-btn" data-tag="情感陪护">情感陪护</button><button class="f-btn" data-tag="慢病管理">慢病管理</button><button class="f-btn" data-tag="成人失禁">成人失禁</button><button class="f-btn" data-tag="戒指">戒指</button><button class="f-btn" data-tag="战略咨询">战略咨询</button><button class="f-btn" data-tag="抗衰">抗衰</button><button class="f-btn" data-tag="抗衰老">抗衰老</button><button class="f-btn" data-tag="护士呼叫">护士呼叫</button><button class="f-btn" data-tag="护理协调">护理协调</button><button class="f-btn" data-tag="护理自动化">护理自动化</button><button class="f-btn" data-tag="护理陪伴机器人">护理陪伴机器人</button><button class="f-btn" data-tag="护肤">护肤</button><button class="f-btn" data-tag="拟人化">拟人化</button><button class="f-btn" data-tag="排班">排班</button><button class="f-btn" data-tag="摔倒监测">摔倒监测</button><button class="f-btn" data-tag="操作系统">操作系统</button><button class="f-btn" data-tag="政府支持">政府支持</button><button class="f-btn" data-tag="数字健康">数字健康</button><button class="f-btn" data-tag="数字孪生">数字孪生</button><button class="f-btn" data-tag="数字平台">数字平台</button><button class="f-btn" data-tag="数字疗法">数字疗法</button><button class="f-btn" data-tag="日本">日本</button><button class="f-btn" data-tag="旧金山">旧金山</button><button class="f-btn" data-tag="星动纪元">星动纪元</button><button class="f-btn" data-tag="智慧养老">智慧养老</button><button class="f-btn" data-tag="智慧管理">智慧管理</button><button class="f-btn" data-tag="智能康复">智能康复</button><button class="f-btn" data-tag="智能手机">智能手机</button><button class="f-btn" data-tag="智能烹饪">智能烹饪</button><button class="f-btn" data-tag="智能硬件">智能硬件</button><button class="f-btn" data-tag="智能轮椅">智能轮椅</button><button class="f-btn" data-tag="有融资">有融资</button><button class="f-btn" data-tag="服务机器人">服务机器人</button><button class="f-btn" data-tag="机器人">机器人</button><button class="f-btn" data-tag="机构管理">机构管理</button><button class="f-btn" data-tag="机构赋能">机构赋能</button><button class="f-btn" data-tag="杂货">杂货</button><button class="f-btn" data-tag="柔性传感">柔性传感</button><button class="f-btn" data-tag="欧洲">欧洲</button><button class="f-btn" data-tag="洗护">洗护</button><button class="f-btn" data-tag="海尔">海尔</button><button class="f-btn" data-tag="消费级">消费级</button><button class="f-btn" data-tag="消费背景">消费背景</button><button class="f-btn" data-tag="游戏化">游戏化</button><button class="f-btn" data-tag="澳洲">澳洲</button><button class="f-btn" data-tag="烹饪">烹饪</button><button class="f-btn" data-tag="照护协调">照护协调</button><button class="f-btn" data-tag="照护机构">照护机构</button><button class="f-btn" data-tag="照护者支持">照护者支持</button><button class="f-btn" data-tag="照护软件">照护软件</button><button class="f-btn" data-tag="爱尔兰">爱尔兰</button><button class="f-btn" data-tag="特医食品">特医食品</button><button class="f-btn" data-tag="瑞士">瑞士</button><button class="f-btn" data-tag="生命体征">生命体征</button><button class="f-btn" data-tag="生物标志物">生物标志物</button><button class="f-btn" data-tag="生物电子">生物电子</button><button class="f-btn" data-tag="生物科技">生物科技</button><button class="f-btn" data-tag="用药提醒">用药提醒</button><button class="f-btn" data-tag="男士">男士</button><button class="f-btn" data-tag="疼痛焦虑缓解">疼痛焦虑缓解</button><button class="f-btn" data-tag="病情早筛">病情早筛</button><button class="f-btn" data-tag="痴呆预防">痴呆预防</button><button class="f-btn" data-tag="白转黑">白转黑</button><button class="f-btn" data-tag="盆底健康">盆底健康</button><button class="f-btn" data-tag="目录">目录</button><button class="f-btn" data-tag="相关上市公司">相关上市公司</button><button class="f-btn" data-tag="睡眠">睡眠</button><button class="f-btn" data-tag="睡眠监测">睡眠监测</button><button class="f-btn" data-tag="睡眠血糖">睡眠血糖</button><button class="f-btn" data-tag="硬件+服务">硬件+服务</button><button class="f-btn" data-tag="社交">社交</button><button class="f-btn" data-tag="社交平台">社交平台</button><button class="f-btn" data-tag="社交连接">社交连接</button><button class="f-btn" data-tag="社交陪伴">社交陪伴</button><button class="f-btn" data-tag="社区">社区</button><button class="f-btn" data-tag="社区平台">社区平台</button><button class="f-btn" data-tag="社区枢纽">社区枢纽</button><button class="f-btn" data-tag="社区租赁">社区租赁</button><button class="f-btn" data-tag="神经技术">神经技术</button><button class="f-btn" data-tag="神经科技">神经科技</button><button class="f-btn" data-tag="穿戴">穿戴</button><button class="f-btn" data-tag="精准医疗">精准医疗</button><button class="f-btn" data-tag="精神&amp;神经">精神&amp;神经</button><button class="f-btn" data-tag="紧急呼叫">紧急呼叫</button><button class="f-btn" data-tag="紧急响应">紧急响应</button><button class="f-btn" data-tag="紧急警报">紧急警报</button><button class="f-btn" data-tag="线上渠道">线上渠道</button><button class="f-btn" data-tag="线下渠道">线下渠道</button><button class="f-btn" data-tag="线下零售">线下零售</button><button class="f-btn" data-tag="细胞治疗">细胞治疗</button><button class="f-btn" data-tag="细胞重编程">细胞重编程</button><button class="f-btn" data-tag="综合疗法">综合疗法</button><button class="f-btn" data-tag="美妆">美妆</button><button class="f-btn" data-tag="老年健身">老年健身</button><button class="f-btn" data-tag="老年医疗">老年医疗</button><button class="f-btn" data-tag="老年安全">老年安全</button><button class="f-btn" data-tag="老年心理">老年心理</button><button class="f-btn" data-tag="老年护肤">老年护肤</button><button class="f-btn" data-tag="老年教育">老年教育</button><button class="f-btn" data-tag="老年文娱">老年文娱</button><button class="f-btn" data-tag="老年旅游">老年旅游</button><button class="f-btn" data-tag="老年音乐">老年音乐</button><button class="f-btn" data-tag="肢体障碍">肢体障碍</button><button class="f-btn" data-tag="胃肠健康">胃肠健康</button><button class="f-btn" data-tag="脑 shuttle">脑 shuttle</button><button class="f-btn" data-tag="舒适鞋服">舒适鞋服</button><button class="f-btn" data-tag="芬兰">芬兰</button><button class="f-btn" data-tag="英国">英国</button><button class="f-btn" data-tag="营养">营养</button><button class="f-btn" data-tag="营销媒体">营销媒体</button><button class="f-btn" data-tag="虚拟旅行">虚拟旅行</button><button class="f-btn" data-tag="虚拟社区">虚拟社区</button><button class="f-btn" data-tag="融资过亿">融资过亿</button><button class="f-btn" data-tag="血压血糖">血压血糖</button><button class="f-btn" data-tag="行业媒体">行业媒体</button><button class="f-btn" data-tag="行业展会">行业展会</button><button class="f-btn" data-tag="行为预测">行为预测</button><button class="f-btn" data-tag="行走辅助">行走辅助</button><button class="f-btn" data-tag="西班牙">西班牙</button><button class="f-btn" data-tag="视觉障碍">视觉障碍</button><button class="f-btn" data-tag="视频通信">视频通信</button><button class="f-btn" data-tag="订阅制">订阅制</button><button class="f-btn" data-tag="认知症">认知症</button><button class="f-btn" data-tag="认知症产品">认知症产品</button><button class="f-btn" data-tag="认知训练">认知训练</button><button class="f-btn" data-tag="访客管理">访客管理</button><button class="f-btn" data-tag="语音交互">语音交互</button><button class="f-btn" data-tag="走失管理">走失管理</button><button class="f-btn" data-tag="跌倒检测">跌倒检测</button><button class="f-btn" data-tag="跌倒监测">跌倒监测</button><button class="f-btn" data-tag="辅助机器人">辅助机器人</button><button class="f-btn" data-tag="运动康复">运动康复</button><button class="f-btn" data-tag="运营">运营</button><button class="f-btn" data-tag="运营商">运营商</button><button class="f-btn" data-tag="进口品牌">进口品牌</button><button class="f-btn" data-tag="远程医疗">远程医疗</button><button class="f-btn" data-tag="远程支持">远程支持</button><button class="f-btn" data-tag="远程活动">远程活动</button><button class="f-btn" data-tag="远程监护">远程监护</button><button class="f-btn" data-tag="远程监测">远程监测</button><button class="f-btn" data-tag="送物">送物</button><button class="f-btn" data-tag="适老化">适老化</button><button class="f-btn" data-tag="适老家居产品">适老家居产品</button><button class="f-btn" data-tag="遗产记录">遗产记录</button><button class="f-btn" data-tag="重病">重病</button><button class="f-btn" data-tag="量产">量产</button><button class="f-btn" data-tag="金融理财">金融理财</button><button class="f-btn" data-tag="银发营销">银发营销</button><button class="f-btn" data-tag="长寿">长寿</button><button class="f-btn" data-tag="长寿科技">长寿科技</button><button class="f-btn" data-tag="长寿诊所">长寿诊所</button><button class="f-btn" data-tag="长者陪伴">长者陪伴</button><button class="f-btn" data-tag="防脱">防脱</button><button class="f-btn" data-tag="防跌">防跌</button><button class="f-btn" data-tag="防跌倒">防跌倒</button><button class="f-btn" data-tag="阿尔茨海默">阿尔茨海默</button><button class="f-btn" data-tag="陪伴">陪伴</button><button class="f-btn" data-tag="陪伴机器人">陪伴机器人</button><button class="f-btn" data-tag="陪诊服务">陪诊服务</button><button class="f-btn" data-tag="隐私优先">隐私优先</button><button class="f-btn" data-tag="雷达">雷达</button><button class="f-btn" data-tag="音频AI">音频AI</button><button class="f-btn" data-tag="项目批复">项目批复</button><button class="f-btn" data-tag="顾问">顾问</button><button class="f-btn" data-tag="预售">预售</button><button class="f-btn" data-tag="预防">预防</button><button class="f-btn" data-tag="预防保健">预防保健</button><button class="f-btn" data-tag="骨胶原">骨胶原</button></div>
+    <span class="f-label" style="margin-left:12px;">融资</span>
     <button class="f-btn active" data-fund="all">全部</button>
     <button class="f-btn" data-fund="funded">有融资</button>
     <button class="f-btn" data-fund="ipo">已IPO</button>
@@ -8634,11 +8322,14 @@ if (entSortEl) {
   entSortEl.addEventListener('change', function() { filterEnt(); });
 }
 
-// Tag toggle
-const entTagEl = document.getElementById('ent-tag');
-if (entTagEl) {
-  entTagEl.addEventListener('change', function() { activeTag = this.value; filterEnt(); });
-}
+// Tag pill toggle (replaces old <select>)
+document.querySelectorAll('.ent-tag-pills [data-tag]').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.ent-tag-pills [data-tag]').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    activeTag = this.dataset.tag;
+    filterEnt();
+  });
 });
 
 // Region filter
@@ -8744,6 +8435,23 @@ function spExportFav(){
 function spToggleFavView(){
   var on=document.body.classList.toggle('fav-mode');
   var nav=document.getElementById('nav-fav');if(nav)nav.classList.toggle('on',on);
+  if(on){
+    var any=document.querySelector('.feed-item[data-fav="1"], .ent-card[data-fav="1"]');
+    if(!any){ spShowFavEmpty(true); return; }
+  }
+  spShowFavEmpty(false);
+}
+function spShowFavEmpty(show){
+  var el=document.getElementById('fav-empty');
+  if(show){
+    if(!el){
+      el=document.createElement('div');el.id='fav-empty';el.className='fav-empty';
+      el.innerHTML='⭐ 还没有收藏任何内容<br><span>去资讯看板或企业库，点卡片上的「收藏」按钮，就能在这里只看你收藏的选题啦。</span>';
+      var main=document.querySelector('.main');
+      if(main){ main.insertBefore(el, main.children[2]||null); }
+    }
+    if(el) el.style.display='';
+  } else if(el){ el.style.display='none'; }
 }
 function spInitFav(){
   document.querySelectorAll('.fav-btn').forEach(function(b){
