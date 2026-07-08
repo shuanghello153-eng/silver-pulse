@@ -17,12 +17,12 @@ REPO = "silver-pulse"
 BRANCH = "main"
 API_BASE = f"https://api.github.com/repos/{OWNER}/{REPO}/contents"
 
-# Honor proxy env vars (HTTPS_PROXY/HTTP_PROXY) if present; requests reads them
-# automatically, but be explicit so it works regardless of urllib behaviour.
+# NOTE: The automation host sets HTTPS_PROXY=http://127.0.0.1:7890, but that
+# local proxy resets HTTPS tunnels to api.github.com (WinError 10054). Direct
+# connections to api.github.com work reliably, so we intentionally do NOT route
+# through the proxy. IMPORTANT: pass an empty dict (not None) to requests —
+# `proxies=None` means "use env proxy", which would re-hit the broken proxy.
 _PROXIES = {}
-for _k in ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy"):
-    if os.environ.get(_k):
-        _PROXIES["https" if _k.lower().startswith("https") else "http"] = os.environ[_k]
 _HEADERS = {
     "Authorization": f"token {TOKEN}",
     "Accept": "application/vnd.github.v3+json",

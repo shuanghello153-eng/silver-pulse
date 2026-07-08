@@ -24,6 +24,20 @@ OUTPUT = os.path.join(REPO, "output")
 FILES = ["index.html", "enterprise.html", "about.html", "weekly_topics.json"]
 
 
+def _no_proxy_env():
+    """Return a copy of the environment with proxy vars cleared.
+
+    The automation host sets HTTPS_PROXY=http://127.0.0.1:7890, but that local
+    proxy resets HTTPS tunnels to github.com (WinError 10054). Direct connections
+    to github.com work fine, so we strip the proxy for all git ops here. Without
+    this, every nightly `git push` fails 3x with 'Connection was reset'.
+    """
+    e = dict(os.environ)
+    for k in ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy"):
+        e.pop(k, None)
+    return e
+
+
 def _run(cmd, input_text=None):
     """Run a git plumbing command; return stdout. Raise on non-zero exit."""
     res = subprocess.run(
@@ -32,6 +46,7 @@ def _run(cmd, input_text=None):
         input=input_text,
         capture_output=True,
         text=True,
+        env=_no_proxy_env(),
     )
     if res.returncode != 0:
         raise RuntimeError(

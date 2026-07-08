@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09 00:12",
-  "count": 38,
+  "generated_at": "2026-07-09 01:01",
+  "count": 39,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -371,7 +371,7 @@
         "cn_fit": 3.0,
         "urgency": 8.0
       },
-      "recommendation": "产业资本/投资机构：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "行业趋势",
         "融资"
@@ -470,6 +470,28 @@
       ]
     },
     {
+      "title": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjNpM0VRZVNMQTFqbDFlSzIwWTlJT1YtUnFaS2tFVXpTQ0ZFTTdOaDRzZWU0VUVxYWdhQ1c0WHpEQ0N6V1lQNnBQa3pjZDRrd0I4WlFQNm84YmFNbmdrOUllaUJxQWdMT29FS0o1V3dvUTZHQ1poRU1LU1U1NVRqaU41ekdZWTdHem0zQXNoRkV6SW1RZkxJdWUxdW0xUXBHbFdGTFo4enZEcUdzODcyMmlueTJzNGRYZVFBN0JLeDI?oc=5",
+      "source": "New York Real Estate Journal",
+      "date": "2026-07-08",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 5.14,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 6.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 10.0
+      },
+      "recommendation": "养老地产：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "tags": [
+        "收购",
+        "收购并购"
+      ]
+    },
+    {
       "title": "Frazier Healthcare Partners Acquires MatrixCare - Hospice News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbkhwXzA5U3pxVm1zWkVDRGhCY2ZkZzJmSzZGODAyTGJzVlhlM01nM0l0aEJXTkVJQ0hiYW8zTnJ3aGhaeW5IN2dyaHdZUC1zNEp6RV9neGpKUm5GLWRURE16UUFiRU94ZXNNNVF5OGNNOGRPbThhUzJ6Ty15NGVBSVY2bnVZbjJ1TlU0?oc=5",
       "source": "临终关怀新闻",
@@ -485,7 +507,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "收购",
         "收购并购"
@@ -507,7 +529,7 @@
         "cn_fit": 8.0,
         "urgency": 4.0
       },
-      "recommendation": "健康服务：新品亮相。产品迭代方向反映用户痛点迁移，国内团队应保持同步敏感度。",
+      "recommendation": "健康服务：新品亮相。从新品发布的市场反馈，可预判国内同类需求的成熟时间窗口。",
       "tags": [
         "产品发布",
         "行业趋势"
@@ -598,7 +620,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "产业资本/投资机构：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "产业资本/投资机构：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
       "tags": [
         "行业趋势",
         "融资"
@@ -620,7 +642,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "养老服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+      "recommendation": "养老服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
       "tags": [
         "收购",
         "居家养老",
@@ -689,7 +711,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "健康服务：。行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
+      "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
       "tags": [
         "行业趋势",
         "收购",
@@ -713,7 +735,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "健康服务：。行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
       "tags": [
         "收购",
         "居家养老",
