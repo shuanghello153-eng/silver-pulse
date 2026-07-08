@@ -12,7 +12,7 @@ import json
 import os
 from datetime import datetime, timezone, timedelta
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 TZ_SH = timezone(timedelta(hours=8))
@@ -173,6 +173,25 @@ def generate_report(m):
     else:
         lines.append("- ⏸ L3 反馈回灌待激活（需在网站配置 Token → 同步云端）")
     lines.append("")
+
+    # 近 90 天趋势（sparkline 可视化，零依赖）
+    hist = _load_json(HISTORY_PATH, [])
+    if hist:
+        lines.append("## 近 90 天趋势")
+        lines.append("")
+        totals = [h.get("total", 0) for h in hist]
+        highs = [h.get("high", 0) for h in hist]
+        rates = [h.get("select_rate", 0) for h in hist]
+        last_total = totals[-1] if totals else 0
+        last_high = highs[-1] if highs else 0
+        last_rate = rates[-1] if rates else 0
+        lines.append("- 资讯总量：%s  `%s`" % (sparkline(totals), last_total))
+        lines.append("- 精选数：%s  `%s`" % (sparkline(highs), last_high))
+        lines.append("- 精选率：%s  `%s%%`" % (sparkline(rates), last_rate))
+        lines.append("")
+        lines.append("> 样本天数：%d（每日 06:00 后逐步累积）" % len(hist))
+        lines.append("")
+
     lines.append("---")
     lines.append("*本报告由 `daily_health.py` 自动生成，零模型成本。*")
     return "\n".join(lines)
@@ -193,6 +212,21 @@ def append_history(m):
     cutoff = (datetime.now(TZ_SH) - timedelta(days=90)).strftime("%Y-%m-%d")
     history = [h for h in history if h["date"] >= cutoff]
     _save_json(HISTORY_PATH, history)
+
+
+def sparkline(values, width=24):
+    """纯文本 sparkline（零依赖），用于趋势可视化。"""
+    if not values:
+        return "（无数据）"
+    lo, hi = min(values), max(values)
+    chars = " ▂▃▄▅▆▇█"
+    if hi == lo:
+        return chars[-1] * min(len(values), width)
+    out = []
+    for v in values[-width:]:
+        idx = int((v - lo) / (hi - lo) * (len(chars) - 1))
+        out.append(chars[idx])
+    return "".join(out)
 
 
 def run_daily_step():
