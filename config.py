@@ -18,6 +18,12 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # ================================================================
 # Enterprise L1 categories (no numbering in display)
 # L2 subcategories map to each L1
+# 企业研究价值分色阶阈值。注意：企业库徽章实际渲染的是 enterprise_scores.json
+# 的 research_value（量纲 ~13–68，P50=26 / P75=35 / P90=43），并非 all_enterprises.json
+# 的 value_score（量纲 0–61，均值 24）。两者量纲不同，必须用 research_value 的分位数定阈值。
+# 阈值依据 data/enterprise/enterprise_scores.json 分位数：P50=26 / P75=35 / P90=43 / max=68。
+ENT_RV_HIGH = 48   # ≥ 此值 → s-high（绿，研究价值高，约 Top 6%，真正值得深写）
+ENT_RV_MID = 26    # ≥ 此值且 < HIGH → s-mid（蓝，研究价值中，约 44%）；< 此值 → s-low（灰，约 50%）
 ENTERPRISE_CATEGORIES = {
     "购物渠道": {
         "label": "购物渠道",

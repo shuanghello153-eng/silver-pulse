@@ -35,7 +35,7 @@ BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 import sys
 from ui_common import COMMON_CSS, SIDEBAR, THEME_JS, FEEDBACK_CSS, FEEDBACK_JS
 sys.path.insert(0, BASE_DIR)
-from config import ENTERPRISE_CATEGORIES
+from config import ENTERPRISE_CATEGORIES, ENT_RV_HIGH, ENT_RV_MID
 
 # 13 L1 categories (no numbering in display)
 L1_CATS = list(ENTERPRISE_CATEGORIES.keys())
@@ -88,14 +88,15 @@ _FUND_UNIT = {"b": 1000.0, "bn": 1000.0, "亿": 100.0, "m": 1.0, "mn": 1.0,
 
 
 def _score_class(score):
-    """Return color-tier CSS suffix: s-high(≥7) / s-mid(4–6.9) / s-low(<4)."""
+    """企业研究价值分专用色阶：s-high(≥ENT_RV_HIGH) / s-mid(≥ENT_RV_MID) / s-low(<ENT_RV_MID)。
+    企业分量纲 0–61，不能用资讯的 ≥7/4–6.9 阈值（否则 88% 全绿失效）。"""
     try:
         s = float(score)
     except (TypeError, ValueError):
         return "s-low"
-    if s >= 7.0:
+    if s >= ENT_RV_HIGH:
         return "s-high"
-    elif s >= 4.0:
+    elif s >= ENT_RV_MID:
         return "s-mid"
     return "s-low"
 
