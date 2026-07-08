@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08 09:39",
-  "count": 154,
+  "generated_at": "2026-07-08 09:53",
+  "count": 156,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -1019,6 +1019,28 @@
       ]
     },
     {
+      "title": "National Healthcare Properties closes $197M in senior living acquisitions - McKnight's Senior Living",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUY5ZGJfZnZDdEVZN01JMEFIMEIxU0puczNOY3loRGhUMVBpMWpnY3BxM2plSkFaUzRvcnJSSWNob1dRdmVqdXBEaEFmWjIya1Q1d01BdFd1Z0RkZl9Dam52TmF6UnhydDREdE91a0NTZHIyNzUzUTRGSUhDZFh0bmZJRmo0WmdDQVJ6SEpwX25seDMzNk9uOGQ3cVNaTGNjZnpOdWhScFBjOGxpc3Y4azNvUngtaTQ?oc=5",
+      "source": "McKnight's养老社区",
+      "date": "2026-07-07",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 5.82,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 8.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 10.0
+      },
+      "recommendation": "收购事件，涉及金额 $197M。美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
+      "tags": [
+        "收购",
+        "收购并购"
+      ]
+    },
+    {
       "title": "Abbisko Therapeutics and AstraZeneca Enter a Strategic Collaboration to Conduct the Clinical Trial of Lumipodlin (ABSK043), a First-in-Class Oral PD-L1 Inhibitor, in Combination with TAGRISSO® for NSCLC - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQTDJsam5TOHhKYzB3cml3N0hiMWtNdTg0NjR1cXp1MXJVdzJIempTS2MwS3lWZVdNNXZQbjg3anJqTUhyT1pUU01vcE81VHgzM1d1MUhKOWkyWjUtOGxoczFTYVc1a1Z2MVhwQkFnb0owRGNIY0lXQmE1NkgzQjVrdUU3T2x0LWxNNUE0TmcxSi1SZVREa21JVXpkc0o1T0lqY0JIVWpTU2V2bFhKbzluT3VpWFg3aUlLdVpTcUtQem9QT2owbFpBT1ZqYVd0NDZNOEtQNXVjVW8wYkgxQkEtdGdYbkl5ajNscnNraVdFZi10aXR2YWljTm5TZEtDTElRaEd4a1hROEhPa1R1U2ZmOXpaMDc4M1cwbms4RU5DeGNKYmpVQjg3NjNrclFseEI3cHA5UHlsMDFKUEZ5aV9qUk52OHlZbXVvSE1Tb0I2d0tRdVd6VW1CRXBtbklyTThlMHJUX0tLNmRDaWRhdEE?oc=5",
       "source": "PR新闻社",
@@ -1148,6 +1170,28 @@
       "tags": [
         "产品发布",
         "智慧养老"
+      ]
+    },
+    {
+      "title": "养老补贴上线电商平台，北京西城老人开出全国首单，失能老人下单居家养老服务可“打五折” - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5",
+      "source": "新浪财经",
+      "date": "2026-07-03",
+      "region": "domestic",
+      "event_type": "政策法规",
+      "entity_name": "",
+      "final_score": 5.57,
+      "dim_scores": {
+        "industry": 10,
+        "signal": 4.0,
+        "writing": 6.0,
+        "cn_fit": 8.0,
+        "urgency": 3.0
+      },
+      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+      "tags": [
+        "产品发布",
+        "居家养老"
       ]
     },
     {
