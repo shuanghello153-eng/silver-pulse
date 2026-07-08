@@ -849,6 +849,16 @@ CLUSTER_SIM_THRESHOLD = 0.82      # cosine > this AND same event_type => same cl
 CLUSTER_NONMAIN_PENALTY = 1.5     # folded (non-main) items lose this from final
 
 # Enterprise research-value event boost (used by enterprise_score.py, Phase 2)
+
+# Loop 自我进化：阈值自适应开关。默认 False = 只产出"进化建议 + 历史"，不改动线上精选行为。
+# 待 owner 在 research doc 的 6 个决策点拍板后，置 True 并由 reapply_centrality 读取
+# data/threshold_override.json 才真正生效（护栏：绝不默认自动改阈值）。
+ENABLE_AUTO_THRESHOLD = False
+# 阈值自适应目标带（精选率）：低于下限→降阈；高于上限→升阈；区间内→稳定。
+SELECT_RATE_TARGET = (15.0, 25.0)
+# 单轮阈值调整步长（夹紧）：high/watch ±0.1；下限 high≥4.0 / watch≥3.0。
+THRESHOLD_DELTA = 0.1
+THRESHOLD_FLOOR = {"high": 4.0, "watch": 3.0}
 # 最新大事件动态权重上调(用户决策): 国内/海外一致提高 event_boost 上限,
 # 让"近期发生融资/并购/IPO"等动态更显著影响研究价值。
 EVENT_BOOST = {"signal_ge_7": 15, "signal_5_7": 8, "ma_ipo_event": 10, "cap": 35}

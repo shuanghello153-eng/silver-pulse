@@ -1,0 +1,21 @@
+{
+  "SELECT_THRESHOLDS": {
+    "1": {
+      "high": 6.0,
+      "watch": 4.0
+    },
+    "2": {
+      "high": 7.0,
+      "watch": 5.0
+    },
+    "3": {
+      "high": 99.0,
+      "watch": 6.0
+    }
+  },
+  "CLUSTER_SIM_THRESHOLD": 0.82,
+  "generated_at": "2026-07-09 00:28",
+  "select_rate": 17.7,
+  "applied": false,
+  "note": "默认 applied=false（ENABLE_AUTO_THRESHOLD=False）。owner 拍板后激活。"
+}

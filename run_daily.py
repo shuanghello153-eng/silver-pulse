@@ -58,6 +58,10 @@ STEPS = [
     ("noise_spike_guard.run_daily_step()", "noise_spike_guard", "run_daily_step", ()),
     # [COST: zero] 可观测性：每日健康报告 + 趋势历史
     ("daily_health.run_daily_step()", "daily_health", "run_daily_step", ()),
+    # [COST: zero] Loop 自我进化：阈值自适应（方向1）。默认 ENABLE_AUTO_THRESHOLD=False
+    # → 只产出"进化建议 + threshold_history.json/override 覆盖层"，不改线上精选行为；
+    # owner 拍板后置 True 并由 reapply_centrality 读 override 才生效。
+    ("adapt_thresholds.run_daily_step()", "adapt_thresholds", "run_daily_step", ()),
 ]
 
 def git_pull_main():
