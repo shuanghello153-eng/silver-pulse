@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09 00:04",
-  "count": 39,
+  "generated_at": "2026-07-09 00:12",
+  "count": 38,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -371,7 +371,7 @@
         "cn_fit": 3.0,
         "urgency": 8.0
       },
-      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
+      "recommendation": "产业资本/投资机构：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
       "tags": [
         "行业趋势",
         "融资"
@@ -463,7 +463,7 @@
         "cn_fit": 0.0,
         "urgency": 10.0
       },
-      "recommendation": "养老地产：。行业报告揭示结构性机会，可作为选题地图。",
+      "recommendation": "养老地产：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
       "tags": [
         "收购",
         "收购并购"
@@ -560,51 +560,6 @@
       ]
     },
     {
-      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": "",
-      "final_score": 4.88,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.0,
-        "urgency": 2.0
-      },
-      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "产品发布",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xNDNoT2t3UXk3MU1pY3hFanhyT3BUdWFKR25kbm5CRXJXNm5hdkFWNnZtaUtRdld6LWJIT3J6YWJIZUlpV0tuRXI1N3N2NjFRVm15TDZLY05tNUhNaUNoajNkTENqQ0tGcnpPVUhfZ19jQQ?oc=5",
-      "source": "新浪财经",
-      "date": "2026-07-06",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": "",
-      "final_score": 4.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.0,
-        "urgency": 3.0
-      },
-      "recommendation": "健康服务：新品亮相。新产品的技术路径选择，对国产化方案有直接参考价值。",
-      "tags": [
-        "产品发布",
-        "行业趋势"
-      ]
-    },
-    {
       "title": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？ - AgeClub",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
       "source": "AgeClub",
@@ -620,7 +575,7 @@
         "cn_fit": 3.0,
         "urgency": 6.0
       },
-      "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "其他事件",
         "智慧养老",
@@ -643,10 +598,33 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "产业资本/投资机构：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+      "recommendation": "产业资本/投资机构：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
       "tags": [
         "行业趋势",
         "融资"
+      ]
+    },
+    {
+      "title": "Kindred Home Care Acquires Helping Hands Group - HomeCare Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORWxQN0JPRUk4aDZtRmNOTjdmdUo3bkh6cDZfQlVvODZCTTl2YXZfM1BJTHRVZ2hLdlJqZmJ6MHpiVHdXNE8xekdfaDN2NF81SzNyYmt4TjZ5c0Y0LURYRWdJSFN0dmllQ3JlcHlZakhrcHJJNlJBMl9UT1kyYVdYbEgxVW1IQQ?oc=5",
+      "source": "居家护理杂志",
+      "date": "2026-07-08",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 4.8,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 8.0
+      },
+      "recommendation": "养老服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+      "tags": [
+        "收购",
+        "居家养老",
+        "收购并购"
       ]
     },
     {
@@ -735,7 +713,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "健康服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+      "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
       "tags": [
         "收购",
         "居家养老",
@@ -895,7 +873,7 @@
         "cn_fit": 0.0,
         "urgency": 3.0
       },
-      "recommendation": "养老服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "养老服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
       "tags": [
         "其他事件",
         "战略合作",
