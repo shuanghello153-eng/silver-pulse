@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08 16:42",
+  "generated_at": "2026-07-08 17:03",
   "count": 34,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
@@ -472,28 +472,6 @@
       ]
     },
     {
-      "title": "GAO Releases Report on Assisted Living Spending and Coverage - LeadingAge",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeHdaMGpZdk5FZ01OSmlCUHVXR252bkRRWU9xVkNHcFhLMC16UENxaVNpNHhKQUhqS0x6Ri0zTUdFcTc1TzZaTjNGMk9LM3pZT0E1SGNORXZmUFVIMmlhck00UkRGaGFXM21yWkZQUGhvQW9ZdzNkWWdrc3BYZXZuTVRUUm5kb2F2UTY2VQ?oc=5",
-      "source": "LeadingAge",
-      "date": "2026-07-07",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": "",
-      "final_score": 5,
-      "dim_scores": {
-        "industry": null,
-        "signal": null,
-        "writing": null,
-        "cn_fit": null,
-        "urgency": null
-      },
-      "recommendation": "养老地产事件养老地产存量改造经验对中国大量老旧设施有参考价值。",
-      "tags": [
-        "养老地产",
-        "行业趋势"
-      ]
-    },
-    {
       "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xNDNoT2t3UXk3MU1pY3hFanhyT3BUdWFKR25kbm5CRXJXNm5hdkFWNnZtaUtRdld6LWJIT3J6YWJIZUlpV0tuRXI1N3N2NjFRVm15TDZLY05tNUhNaUNoajNkTENqQ0tGcnpPVUhfZ19jQQ?oc=5",
       "source": "新浪财经",
@@ -759,6 +737,28 @@
         "writing": 6.0,
         "cn_fit": 0.0,
         "urgency": 3.0
+      },
+      "recommendation": "养老地产存量改造经验对中国大量老旧设施有参考价值。",
+      "tags": [
+        "养老地产",
+        "行业趋势"
+      ]
+    },
+    {
+      "title": "GAO Releases Report on Assisted Living Spending and Coverage - LeadingAge",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeHdaMGpZdk5FZ01OSmlCUHVXR252bkRRWU9xVkNHcFhLMC16UENxaVNpNHhKQUhqS0x6Ri0zTUdFcTc1TzZaTjNGMk9LM3pZT0E1SGNORXZmUFVIMmlhck00UkRGaGFXM21yWkZQUGhvQW9ZdzNkWWdrc3BYZXZuTVRUUm5kb2F2UTY2VQ?oc=5",
+      "source": "LeadingAge",
+      "date": "2026-07-07",
+      "region": "overseas",
+      "event_type": "行业趋势",
+      "entity_name": "",
+      "final_score": 3.44,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 5.0,
+        "writing": 4.0,
+        "cn_fit": 0.0,
+        "urgency": 4.0
       },
       "recommendation": "养老地产存量改造经验对中国大量老旧设施有参考价值。",
       "tags": [
