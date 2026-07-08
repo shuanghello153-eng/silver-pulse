@@ -24,16 +24,24 @@ sys.path.insert(0, BASE_DIR)
 STEPS = [
     ("collector.collect_all()", "collector", "collect_all", ()),
     ("score_and_merge.main()", "score_and_merge", "main", ()),
+    # L2 自我纠错：对存量 scored 重过两级闸门，自动清掉收紧前漏入的旧噪音（防复发）
+    ("purge_legacy.run_daily_step()", "purge_legacy", "run_daily_step", ()),
     # L3 模型 5 维打分（Skill 封装，零成本规则兜底；无模型则跳过，绝不中断）
     ("selection.score_skill.run_daily_step()", "selection.score_skill", "run_daily_step", ()),
     # 中文翻译回填（Skill 封装，零成本；无模型则跳过，绝不中断）
     ("selection.translate.run_daily_step()", "selection.translate", "run_daily_step", ()),
-    # 赛道核心度: 用代码关键词覆盖 industry 维度(零成本), 并重算终分
+    # L3 外部反馈闭环：读收藏 feedback.jsonl -> 安全微调评分权重 (user_pref.json)
+    ("feedback_loop.run_daily_step()", "feedback_loop", "run_daily_step", ()),
+    # 赛道核心度: 用代码关键词覆盖 industry 维度(零成本), 并重算终分（含 user_pref 权重）
     ("reapply_centrality.main()", "reapply_centrality", "main", ()),
     ("selection.enterprise_score.main()", "selection.enterprise_score", "main", ()),
+    # 自动反哺企业标签（资讯事件 + 融资字段 -> 企业 tags，供融资/IPO 筛选）
+    ("tag_enterprises.run_daily_step()", "tag_enterprises", "run_daily_step", ()),
     ("generator.main()", "generator", "main", ()),
     ("gen_enterprise.main()", "gen_enterprise", "main", ()),
     ("gen_about.main()", "gen_about", "main", ()),
+    # 自检：写 STATE.md（供 06:00 自审与 09:00 补跑读取）
+    ("validator.main()", "validator", "main", ()),
 ]
 
 
@@ -57,8 +65,12 @@ def main():
     print("Silver Pulse 每日流水线  %s" % datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     print("=" * 64)
 
+    steps = STEPS
+    if os.environ.get("SKIP_COLLECTOR"):
+        steps = [s for s in steps if s[0] != "collector.collect_all()"]
+        print("[run_daily] SKIP_COLLECTOR set -> skipping collector, using existing raw_*.json")
     results = []
-    for label, module_name, func_name, args in STEPS:
+    for label, module_name, func_name, args in steps:
         ok, err = run_step(label, module_name, func_name, args)
         results.append((label, ok, err))
 
@@ -77,15 +89,24 @@ def main():
         print("\n全部步骤成功完成。")
     print("=" * 64)
 
-    # Best-effort deploy to gh-pages (never fails the data pipeline)
-    try:
-        import deploy_ghpages
-        ok_d, msg_d = deploy_ghpages.deploy()
-        print("DEPLOY gh-pages: %s" % msg_d)
-    except Exception as e:  # noqa: BLE001
-        print("DEPLOY gh-pages skipped: %s" % e)
+    # Deploy ONLY if critical steps succeeded. A failed pipeline must never push
+    # a half-built / stale artifact (the bug that produced an inconsistent site on
+    # 2026-07-08). STATE.md is still written by the validator step for the 09:00 补跑.
+    critical_labels = {"collector.collect_all()", "score_and_merge.main()", "generator.main()"}
+    critical_failed = [label for label, ok, _ in results if not ok and label in critical_labels]
+    if critical_failed:
+        print("DEPLOY skipped: critical step(s) failed -> %s" % ", ".join(critical_failed))
+        print("STATE.md 已标 FAIL，09:00 补跑将重试。")
+    else:
+        try:
+            import deploy_ghpages
+            ok_d, msg_d = deploy_ghpages.deploy()
+            print("DEPLOY gh-pages: %s" % msg_d)
+        except Exception as e:  # noqa: BLE001
+            print("DEPLOY gh-pages skipped: %s" % e)
 
-    return 0 if not failed else 1
+    # 退出码与部署门槛一致：仅当关键步失败才算失败（非关键步失败只记日志，不影响补跑判定）
+    return 0 if not critical_failed else 1
 
 
 if __name__ == "__main__":

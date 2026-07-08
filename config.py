@@ -376,9 +376,10 @@ SOURCES = {
         "l2_channels": [
             ("home", "https://www.finsmes.com/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 3,
         "region": "overseas",
-        "notes": "融资新闻聚合，无RSS，用Google News代理",
+        "notes": "泛科技融资聚合（噪音重灾区），降级为T3仅进观察池",
+        "kind": "aggregator",
     },
     "prnewswire": {
         "name": "PR Newswire",
@@ -426,9 +427,10 @@ SOURCES = {
         "l2_channels": [
             ("home", "https://pulse2.com/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 3,
         "region": "overseas",
-        "notes": "科技创业媒体",
+        "notes": "泛科技创业媒体（噪音重灾区），降级为T3仅进观察池",
+        "kind": "aggregator",
     },
     "businesswire": {
         "name": "Business Wire",
@@ -446,9 +448,10 @@ SOURCES = {
         "l2_channels": [
             ("health_biotech", "https://techcrunch.com/category/healthcare-biotech/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 3,
         "region": "overseas",
-        "notes": "科技媒体，healthcare-biotech板块",
+        "notes": "泛科技媒体（噪音风险），降级为T3仅进观察池",
+        "kind": "aggregator",
     },
     "betakit": {
         "name": "BetaKit",
@@ -456,9 +459,10 @@ SOURCES = {
         "l2_channels": [
             ("home", "https://betakit.com/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 3,
         "region": "overseas",
-        "notes": "加拿大科技媒体",
+        "notes": "加拿大泛科技媒体（噪音风险），降级为T3仅进观察池",
+        "kind": "aggregator",
     },
     "coverager": {
         "name": "Coverager",
@@ -562,6 +566,86 @@ SOURCES = {
         "region": "overseas",
         "notes": "宽覆盖Aging Tech新闻",
     },
+    # === 一手/原始信源补充（2026-07-08 深挖）===
+    # 行业协会 / 政府 / 监管原始发布：直接监控其域名，经 Google News 代理，
+    # 拿到"一手"原文而非二手编译。覆盖 AgeClub 等二手媒体常引用的原始出处。
+    "leadingage": {
+        "name": "LeadingAge",
+        "l1_domain": "leadingage.org",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:leadingage.org+senior+OR+aging+OR+%22long-term+care%22+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 1,
+        "region": "overseas",
+        "notes": "美国老年服务行业协会，一手行业动态/政策/研究",
+        "kind": "primary",
+    },
+    "argentum": {
+        "name": "Argentum",
+        "l1_domain": "argentum.org",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:argentum.org+senior+living+OR+%22assisted+living%22+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 1,
+        "region": "overseas",
+        "notes": "美国养老社区协会，一手行业资讯",
+        "kind": "primary",
+    },
+    "nic_seniors": {
+        "name": "NIC (Seniors Housing & Care)",
+        "l1_domain": "nic.org",
+        "l2_channels": [
+            ("research", "https://news.google.com/rss/search?q=site:nic.org+%22senior+housing%22+OR+%22seniors+housing%22+OR+care+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "美国养老地产与投资研究中心，一手数据与报告",
+        "kind": "primary",
+    },
+    "ncoa": {
+        "name": "NCOA",
+        "l1_domain": "ncoa.org",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:ncoa.org+older+adult+OR+%22aging+well%22+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "美国国家老龄化委员会，一手政策与倡导",
+        "kind": "primary",
+    },
+    "mca_gov": {
+        "name": "民政部",
+        "l1_domain": "mca.gov.cn",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:mca.gov.cn+养老+OR+老年+OR+老龄+when:7d&hl=zh-CN", "google_news"),
+        ],
+        "tier": 1,
+        "region": "domestic",
+        "notes": "民政部一手政策/通知（养老/老龄一手源）",
+        "kind": "primary",
+    },
+    "gov_policy": {
+        "name": "国务院政策(银发)",
+        "l1_domain": "gov.cn",
+        "l2_channels": [
+            ("zhengce", "https://news.google.com/rss/search?q=site:gov.cn+%22银发经济%22+OR+%22养老服务%22+OR+%22老龄%22+when:7d&hl=zh-CN", "google_news"),
+        ],
+        "tier": 1,
+        "region": "domestic",
+        "notes": "国务院政策文件一手源（银发经济/养老）",
+        "kind": "primary",
+    },
+    "cncaprc": {
+        "name": "中国老龄协会",
+        "l1_domain": "cncaprc.gov.cn",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:cncaprc.gov.cn+老龄+OR+老年+OR+养老+when:7d&hl=zh-CN", "google_news"),
+        ],
+        "tier": 2,
+        "region": "domestic",
+        "notes": "中国老龄协会一手资讯",
+        "kind": "primary",
+    },
 }
 
 # ================================================================
@@ -627,6 +711,37 @@ CN_RELEVANCE_KEYWORDS = [
 IRRELEVANT_KEYWORDS = [
     "pediatric", "pediatrics", "children", "infant", "neonatal",
     "pregnancy", "maternity", "adolescent", "teen", "child",
+]
+
+# === 强/弱 两级相关性（2026-07-08 收紧）===
+# 强词：明确属于银发/养老/照护/认知症/康养等核心领域。命中即视为相关。
+# 弱词：融资/科技/机器人/AI 等泛词，单独出现不足以证明属于银发经济，
+#       必须同时命中强词，或主体为企业库已知银发企业，才算相关。
+# 目的：挡掉"复旦95后机器人大佬""某AI公司融资"这类泛科技/机器人稿。
+SILVER_STRONG_KEYWORDS = [
+    # 中文
+    "银发", "养老", "老年", "老龄化", "长者", "退休", "适老", "适老化",
+    "居家护理", "居家照护", "康复", "慢病", "认知症", "痴呆", "阿尔茨海默",
+    "失智", "失能", "长寿", "护理院", "养老院", "敬老院", "养老社区",
+    "康养", "医养", "助老", "陪护", "康护", "照护", "颐养", "老年病",
+    "养老产业", "银发经济", "养老服", "养老险", "养老金融", "养老科技",
+    "senior", "elderly", "aging", "aged care", "dementia", "alzheimer",
+    "long-term care", "long term care", "nursing home", "assisted living",
+    "home care", "caregiver", "caregiving", "hospice", "medicare", "medicaid",
+    "retirement", "senior living", "pace program", "value-based care",
+    "older adult", "older adults", "silver economy", "age tech", "agetech",
+    "senior care", "elder care", "memory care", "senior housing",
+]
+SILVER_WEAK_KEYWORDS = [
+    # 泛融资/创投
+    "funding", "raises", "raises series", "investment", "acquisition",
+    "acquires", "merger", "ipo", "seed round", "series a", "series b",
+    "series c", "venture", "startup", "融资", "收购", "并购", "投资",
+    "IPO", "上市", "A轮", "B轮", "C轮", "天使轮", "种子轮", "亿元", "万美元",
+    # 泛科技（无银发上下文时不算相关）
+    "机器人", "人工智能", "AI", "科技", "创业", "公司", "完成",
+    "robotics", "robot", "artificial intelligence", "technology", "tech",
+    "company", "raised",
 ]
 
 # ================================================================
