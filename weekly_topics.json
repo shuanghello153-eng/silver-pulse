@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08 23:58",
+  "generated_at": "2026-07-09 00:04",
   "count": 39,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
@@ -28,29 +28,6 @@
       ]
     },
     {
-      "title": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-06",
-      "region": "domestic",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 7.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.0,
-        "urgency": 10.0
-      },
-      "recommendation": "适老化改造：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
       "title": "每人最高800元/月，京东接入居家养老服务国补；5起银发投融资；上海推进老年助医陪诊；优必选推出家用陪伴仿生机器人 | 行业动态 - AgeClub",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
       "source": "AgeClub",
@@ -72,6 +49,29 @@
         "融资",
         "产品发布",
         "居家养老"
+      ]
+    },
+    {
+      "title": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-06",
+      "region": "domestic",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 7.47,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 10.0,
+        "writing": 8.0,
+        "cn_fit": 8.0,
+        "urgency": 9.0
+      },
+      "recommendation": "适老化改造：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "智慧养老"
       ]
     },
     {
@@ -107,13 +107,13 @@
       "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 6.75,
+      "final_score": 6.6,
       "dim_scores": {
         "industry": 6,
         "signal": 7.0,
         "writing": 8.0,
         "cn_fit": 8.0,
-        "urgency": 9.0
+        "urgency": 8.0
       },
       "recommendation": "产业资本/投资机构：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
       "tags": [
@@ -193,29 +193,6 @@
       ]
     },
     {
-      "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": "",
-      "final_score": 6.15,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 4.0,
-        "writing": 8.0,
-        "cn_fit": 8.0,
-        "urgency": 5.0
-      },
-      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "产品发布",
-        "智慧养老"
-      ]
-    },
-    {
       "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康 - AgeClub",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
       "source": "AgeClub",
@@ -259,6 +236,29 @@
         "行业趋势",
         "收购",
         "收购并购"
+      ]
+    },
+    {
+      "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-01",
+      "region": "domestic",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 6.0,
+      "dim_scores": {
+        "industry": 10,
+        "signal": 4.0,
+        "writing": 8.0,
+        "cn_fit": 8.0,
+        "urgency": 4.0
+      },
+      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+      "tags": [
+        "行业趋势",
+        "产品发布",
+        "智慧养老"
       ]
     },
     {
@@ -339,13 +339,13 @@
       "region": "overseas",
       "event_type": "收购并购",
       "entity_name": "",
-      "final_score": 5.65,
+      "final_score": 5.5,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
         "writing": 8.0,
         "cn_fit": 0.0,
-        "urgency": 7.0
+        "urgency": 6.0
       },
       "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
       "tags": [
@@ -353,30 +353,6 @@
         "收购",
         "养老地产",
         "收购并购"
-      ]
-    },
-    {
-      "title": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元 - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rSmZDd3JYN1UtelZIUGNsUXdTT1lZWDB1eXBRamx2NW5iM3lweXExVllXRXc4RV9CLUlpY2lHM3RCR2VqQ2xCZDVWckxqZw?oc=5",
-      "source": "36 Kr",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 5.38,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.0,
-        "writing": 8.0,
-        "cn_fit": 0.0,
-        "urgency": 10.0
-      },
-      "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "融资",
-        "IPO上市",
-        "健康服务"
       ]
     },
     {
@@ -395,7 +371,7 @@
         "cn_fit": 3.0,
         "urgency": 8.0
       },
-      "recommendation": "产业资本/投资机构：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "行业趋势",
         "融资"
@@ -417,10 +393,34 @@
         "cn_fit": 3.0,
         "urgency": 8.0
       },
-      "recommendation": "购物渠道：。行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
+      "recommendation": "购物渠道：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
       "tags": [
         "行业趋势",
         "融资"
+      ]
+    },
+    {
+      "title": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rSmZDd3JYN1UtelZIUGNsUXdTT1lZWDB1eXBRamx2NW5iM3lweXExVllXRXc4RV9CLUlpY2lHM3RCR2VqQ2xCZDVWckxqZw?oc=5",
+      "source": "36 Kr",
+      "date": "2026-07-06",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.23,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 9.0
+      },
+      "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "IPO上市",
+        "健康服务"
       ]
     },
     {
@@ -470,29 +470,6 @@
       ]
     },
     {
-      "title": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI - The AI Journal",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmY4cEd3dThGZkdjNHlyYkcyMm5ub0FyZC02d0U4dVNnSUxFV2I4clQ3NFAwZjdfY01ZZmgwSm9YVFB6Mm9PaW10RFN3UDg0a0VGZVJjNnJzMkhISjFBa0t3YTFzQ3FSNWdvZWZxV2dJX1NiXzRHTFd5ZGxyMjAzVFp5bW43U0FhTHpPaC10Z1hxX3VJTHVvUmhEMDgxcUV0V1hhMWFRV0xZdmJS?oc=5",
-      "source": "The AI Journal",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 5.14,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.0,
-        "writing": 8.0,
-        "cn_fit": 0.0,
-        "urgency": 10.0
-      },
-      "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
       "title": "Frazier Healthcare Partners Acquires MatrixCare - Hospice News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbkhwXzA5U3pxVm1zWkVDRGhCY2ZkZzJmSzZGODAyTGJzVlhlM01nM0l0aEJXTkVJQ0hiYW8zTnJ3aGhaeW5IN2dyaHdZUC1zNEp6RV9neGpKUm5GLWRURE16UUFiRU94ZXNNNVF5OGNNOGRPbThhUzJ6Ty15NGVBSVY2bnVZbjJ1TlU0?oc=5",
       "source": "临终关怀新闻",
@@ -515,29 +492,6 @@
       ]
     },
     {
-      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": "",
-      "final_score": 5.03,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.0,
-        "urgency": 3.0
-      },
-      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "产品发布",
-        "智慧养老"
-      ]
-    },
-    {
       "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 品玩",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sbFZlb3ZDcHlPSE9lX1gwVkRrN21XNTJ6cWtfYTZTbzlQWWFfbUJwZXh5MGFTdmlmQ2VwcmVmYTVOSURkWmNUcA?oc=5",
       "source": "品玩",
@@ -553,7 +507,7 @@
         "cn_fit": 8.0,
         "urgency": 4.0
       },
-      "recommendation": "健康服务：新品亮相。产品迭代方向反映用户痛点迁移，国内团队应保持同步敏感度。",
+      "recommendation": "健康服务：新品亮相。从新品发布的市场反馈，可预判国内同类需求的成熟时间窗口。",
       "tags": [
         "产品发布",
         "行业趋势"
@@ -583,6 +537,52 @@
       ]
     },
     {
+      "title": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI - The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmY4cEd3dThGZkdjNHlyYkcyMm5ub0FyZC02d0U4dVNnSUxFV2I4clQ3NFAwZjdfY01ZZmgwSm9YVFB6Mm9PaW10RFN3UDg0a0VGZVJjNnJzMkhISjFBa0t3YTFzQ3FSNWdvZWZxV2dJX1NiXzRHTFd5ZGxyMjAzVFp5bW43U0FhTHpPaC10Z1hxX3VJTHVvUmhEMDgxcUV0V1hhMWFRV0xZdmJS?oc=5",
+      "source": "The AI Journal",
+      "date": "2026-07-06",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 4.99,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 6.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 9.0
+      },
+      "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-01",
+      "region": "domestic",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 4.88,
+      "dim_scores": {
+        "industry": 7,
+        "signal": 4.0,
+        "writing": 6.0,
+        "cn_fit": 8.0,
+        "urgency": 2.0
+      },
+      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+      "tags": [
+        "行业趋势",
+        "产品发布",
+        "智慧养老"
+      ]
+    },
+    {
       "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xNDNoT2t3UXk3MU1pY3hFanhyT3BUdWFKR25kbm5CRXJXNm5hdkFWNnZtaUtRdld6LWJIT3J6YWJIZUlpV0tuRXI1N3N2NjFRVm15TDZLY05tNUhNaUNoajNkTENqQ0tGcnpPVUhfZ19jQQ?oc=5",
       "source": "新浪财经",
@@ -590,13 +590,13 @@
       "region": "domestic",
       "event_type": "产品发布",
       "entity_name": "",
-      "final_score": 5.0,
+      "final_score": 4.85,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
         "writing": 6.0,
         "cn_fit": 8.0,
-        "urgency": 4.0
+        "urgency": 3.0
       },
       "recommendation": "健康服务：新品亮相。新产品的技术路径选择，对国产化方案有直接参考价值。",
       "tags": [
@@ -643,7 +643,7 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "产业资本/投资机构：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "产业资本/投资机构：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
       "tags": [
         "行业趋势",
         "融资"
@@ -670,30 +670,6 @@
         "行业趋势",
         "收购",
         "居家养老",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands",
-      "url": "https://seniorhousingnews.com/2026/07/01/senior-living-dealbook-benchmark-national-development-acquire-new-york-site-asbury-place-maryville-rebrands/",
-      "source": "养老住房新闻",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "",
-      "final_score": 4.69,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.0,
-        "writing": 8.0,
-        "cn_fit": 0.0,
-        "urgency": 7.0
-      },
-      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
-      "tags": [
-        "行业趋势",
-        "收购",
-        "养老地产",
         "收购并购"
       ]
     },
@@ -759,10 +735,34 @@
         "cn_fit": 0.0,
         "urgency": 8.0
       },
-      "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+      "recommendation": "健康服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
       "tags": [
         "收购",
         "居家养老",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands",
+      "url": "https://seniorhousingnews.com/2026/07/01/senior-living-dealbook-benchmark-national-development-acquire-new-york-site-asbury-place-maryville-rebrands/",
+      "source": "养老住房新闻",
+      "date": "2026-07-01",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 4.54,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 6.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 6.0
+      },
+      "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+      "tags": [
+        "行业趋势",
+        "收购",
+        "养老地产",
         "收购并购"
       ]
     },
@@ -873,7 +873,7 @@
         "cn_fit": 0.0,
         "urgency": 4.0
       },
-      "recommendation": "养老服务：。养老地产存量改造经验对中国大量老旧设施有参考价值。",
+      "recommendation": "养老服务：。海外 CCRC 模式的运营数据，是国内养老地产投资的重要参照。",
       "tags": [
         "养老地产",
         "行业趋势"
@@ -887,15 +887,15 @@
       "region": "overseas",
       "event_type": "其他事件",
       "entity_name": "",
-      "final_score": 3.44,
+      "final_score": 3.29,
       "dim_scores": {
         "industry": 6,
         "signal": 5.0,
         "writing": 4.0,
         "cn_fit": 0.0,
-        "urgency": 4.0
+        "urgency": 3.0
       },
-      "recommendation": "养老服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+      "recommendation": "养老服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
       "tags": [
         "其他事件",
         "战略合作",
