@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08 09:53",
-  "count": 156,
+  "generated_at": "2026-07-08 10:08",
+  "count": 157,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -3302,6 +3302,28 @@
       "tags": [
         "融资",
         "智慧养老"
+      ]
+    },
+    {
+      "title": "Nation’s first state-run long-term care insurance program launches in WA - Chinook Observer",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXVCSTNuV1VFLWM4OHJxRHpXd2pLQjBjNFFGb19rcnZtQXFjTC1ZM2FSdnozLVE3a25UQ05SMnVXc3dfQU56WENrVF9jZWlsMUlDcU02RGo1amNUbHJ4bDJOYTNYZFZqbEFmN2Z4VWRvVEE2NFZOcEpmZ09hRjBnQVpFZHdzekFWOEIyVl9jREh0U211UXJkYXNVa3M0ZFRyNnBYLTB6TjZQRTB1WHpJQzdrcmpjTnV5VlE?oc=5",
+      "source": "Chinook Observer",
+      "date": "2026-07-05",
+      "region": "overseas",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 4.29,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 8.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 3.0
+      },
+      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+      "tags": [
+        "产品发布",
+        "保险科技"
       ]
     },
     {
