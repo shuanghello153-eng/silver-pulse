@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-run_daily.py — Silver Pulse 每日全流水线编排器 (Phase 2).
+run_daily.py — Silver Pulse 每周全流水线编排器 (Phase 2).
 
 按固定顺序运行每日管道，每步用 try/except 包裹，出错打印但继续：
     collector.collect_all()
@@ -94,7 +94,7 @@ def run_step(label, module_name, func_name, args):
 
 def main():
     print("=" * 64)
-    print("Silver Pulse 每日流水线  %s" % datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    print("Silver Pulse 每周流水线  %s" % datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     print("=" * 64)
     git_pull_main()
 

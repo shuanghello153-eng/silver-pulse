@@ -560,6 +560,13 @@ def generate():
 __SIDEBAR__
 <div class="main">
 
+<!-- 顶部工具条（不常用按钮集中在此） -->
+<div class="top-tools" id="top-tools">
+  <button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出收藏</button>
+  <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
+  <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>
+</div>
+
 <div class="header">
   <h2>银发经济企业数据库</h2>
   <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · 13 个一级分类</p>
@@ -581,9 +588,6 @@ __SIDEBAR__
     <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
     <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
-    <button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出</button>
-    <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
-    <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙</button>
   </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>

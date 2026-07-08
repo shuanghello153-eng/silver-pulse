@@ -1148,11 +1148,17 @@ def generate_html(scored_articles=None, output_path=None):
 
         # Main content
         '<div class="main">',
+        # ===== 顶部工具条（不常用按钮集中在此，不干扰主操作区）=====
+        '<div class="top-tools" id="top-tools">',
+        '<button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出收藏</button>',
+        '<a class="dl-btn" href="weekly_topics.json" download>⬇ 下载选题JSON</a>',
+        '<button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>',
+        '<button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>',
+        '</div>',
         '<div class="header">',
         '<div class="header-top" style="display:flex;align-items:center;gap:12px;">',
-        '<h2>银发经济每日速览</h2>',
+        '<h2>银发经济每周速览</h2>',
         '<div class="header-stats" id="header-stats">更新于 %s · 数据 %s · 共 %s 条</div>' % (today_str, data_date_str, total_count),
-        '<a class="dl-btn" href="weekly_topics.json" download style="margin-left:auto;font-size:12px;color:#0891b2;text-decoration:none;border:1px solid #0891b2;padding:4px 10px;border-radius:6px;white-space:nowrap;">⬇ 下载选题JSON</a>',
         '</div>',
         '<div class="filter-bar">',
         '<div class="view-pills">',
@@ -1168,9 +1174,6 @@ def generate_html(scored_articles=None, output_path=None):
         '<span class="filter-label">排序</span>',
         '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓">评分 ↓</button>',
         '<button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
-        '<button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出</button>',
-        '<button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>',
-        '<button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙</button>',
         '</div></div>',
         signal_line,
 
@@ -1223,7 +1226,7 @@ def generate_html(scored_articles=None, output_path=None):
 
         # Footer
         '<div class="footer">',
-        '<p>Silver Pulse 银脉 · 银发经济投融资每日速览</p>',
+        '<p>Silver Pulse 银脉 · 银发经济投融资每周速览</p>',
         '<p>Powered by WorkBuddy · 海外 + 中文双源覆盖</p>',
         '</div>',
 

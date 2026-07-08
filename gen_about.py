@@ -320,7 +320,7 @@ __SIDEBAR__
 <p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 {BUILD_STAMP}</p>
 {data_date_banner}
 <div class="callout">
-  本页所有评分 / 阈值 / 分类数字均读取自 config.py（单一真相源），每次网站规则变更后会随每日流水线自动重生成；并有规则漂移检测器校验一致性。
+  本页所有评分 / 阈值 / 分类数字均读取自 config.py（单一真相源），每次网站规则变更后会随每周流水线自动重生成；并有规则漂移检测器校验一致性。
 </div>
 
 <div class="tab-bar">
@@ -497,16 +497,16 @@ __SIDEBAR__
   <div class="section">
     <h3>更新机制</h3>
     <ul>
-      <li><b>资讯采集</b>：每日 01:00 北京时间自动执行</li>
-      <li><b>企业库扩充</b>：每日 04:00，自动融合新数据源扩充企业库</li>
-      <li><b>自审报告</b>：每日 06:00，生成本日数据质量自审报告推送到WorkBuddy对话</li>
+      <li><b>资讯采集</b>：每周 01:00 北京时间自动执行</li>
+      <li><b>企业库扩充</b>：每周 04:00，自动融合新数据源扩充企业库</li>
+      <li><b>自审报告</b>：每周 06:00，生成本日数据质量自审报告推送到WorkBuddy对话</li>
       <li><b>采集窗口</b>：过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯</li>
-      <li><b>每日积分消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）</li>
+      <li><b>每周积分消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
       <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
     </ul>
     <div class="callout">
-      <b>定时任务时序</b>：每日 01:00 资讯采集 → 04:00 企业库扩充 → 06:00 自审报告（标签池迭代已并入每日流水线，随采集后自动进行；另有 09:00 白天补跑防错）。
+      <b>定时任务时序</b>：周日 11:00 全量流水线(资讯+评分+生成+部署) → 17:30 标签池迭代 → 19:00 摘要推送 → 21:00 自愈补跑。
     </div>
   </div>
 
@@ -529,7 +529,7 @@ __SIDEBAR__
       - <b>L3 智能引擎</b>（feedback_loop.py）：读收藏 → ±0.03 权重微调，待 Token 配置激活。<br>
       <b>新增组件（本轮）</b>：<br>
       - <b>事件聚类</b>（selection/cluster.py）：按 (entity, event_type) 精确匹配 + 余弦回退归簇，写回 cluster_id。<br>
-      - <b>每日健康报告</b>（daily_health.py）：自动生成 HEALTH_REPORT.md + health_history.json 趋势，零模型成本。<br>
+      - <b>每周健康报告</b>（daily_health.py）：自动生成 HEALTH_REPORT.md + health_history.json 趋势，零模型成本。<br>
       - <b>推荐理由去重</b>（recommend.py 变体库）：每事件类型 3–5 个模板变体 + 批次内轮换去重。<br>
       - <b>评分色阶</b>：badge 半透明底色按分数段区分（≥7 绿 / 4–6.9 蓝 / <4 灰）。
       完整设计文档：<code>docs/loop_self_iteration_v2.md</code>（7 方向 + 路线图 + 成本预算）。
@@ -620,7 +620,7 @@ __SIDEBAR__
     <h3>整体架构</h3>
     <p>Silver Pulse 银脉由三个核心模块组成：</p>
     <ul>
-      <li><b>资讯看板</b>（index.html）：每日银发经济投融资新闻聚合</li>
+      <li><b>资讯看板</b>（index.html）：每周银发经济投融资新闻聚合</li>
       <li><b>企业数据库</b>（enterprise.html）：全球银发经济企业图谱</li>
       <li><b>网站说明</b>（about.html）：本页面，规则与字段说明</li>
     </ul>
@@ -661,18 +661,18 @@ __SIDEBAR__
         <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>RSS采集</td><td>每日</td><td>每日 01:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
-        <tr><td>分类+标签</td><td>每日</td><td>采集后（并入每日流水线）</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用；标签池迭代一并完成）</td></tr>
-        <tr><td>推荐理由生成</td><td>每日</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
-        <tr><td>HTML生成</td><td>每日</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
-        <tr><td>企业库扩充</td><td>每日</td><td>每日 04:00</td><td>约5-10K tokens</td><td>AI扫描+融合新数据源扩充企业库</td></tr>
-        <tr><td>每日自审报告</td><td>每日</td><td>每日 06:00</td><td>约3-5K tokens</td><td>AI读取数据生成自审报告推送到WorkBuddy对话</td></tr>
+        <tr><td>RSS采集</td><td>每周</td><td>每周 01:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
+        <tr><td>分类+标签</td><td>每周</td><td>采集后（并入每周流水线）</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用；标签池迭代一并完成）</td></tr>
+        <tr><td>推荐理由生成</td><td>每周</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
+        <tr><td>HTML生成</td><td>每周</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
+        <tr><td>企业库扩充</td><td>每周</td><td>每周 04:00</td><td>约5-10K tokens</td><td>AI扫描+融合新数据源扩充企业库</td></tr>
+        <tr><td>每周自审报告</td><td>每周</td><td>每周 06:00</td><td>约3-5K tokens</td><td>AI读取数据生成自审报告推送到WorkBuddy对话</td></tr>
         <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
-        <tr><td>评分</td><td>每日</td><td>随每日流水线</td><td>—</td><td>由代码优先 6 维选题雷达引擎实时计算（详见 网站规则）</td></tr>
+        <tr><td>评分</td><td>每周</td><td>随每周流水线</td><td>—</td><td>由代码优先 6 维选题雷达引擎实时计算（详见 网站规则）</td></tr>
       </tbody>
     </table>
     <div class="callout">
-      <b>每日总消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）。<br>
+      <b>每周总消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）。<br>
       <b>采集窗口</b>：每次采集过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯，非"当天"。
     </div>
     <div class="callout callout-warning">
@@ -691,7 +691,7 @@ __SIDEBAR__
       <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>
       <li><b>托管</b>：GitHub Pages</li>
       <li><b>采集</b>：Python + feedparser（RSS-first 策略，0个403错误）</li>
-      <li><b>自动化</b>：WorkBuddy 定时任务（4 个每日定时任务）：01:00 每日流水线 / 04:00 企业库扩充 / 06:00 自审报告 / 09:00 白天补跑防错</li>
+      <li><b>自动化</b>：WorkBuddy 定时任务（4 个每周定时任务）：周日 11:00 全量流水线 / 17:30 标签池 / 19:00 摘要推送 / 21:00 自愈补跑</li>
       <li><b>数据格式</b>：JSON（结构化存储） → HTML（展示层生成）</li>
     </ul>
   </div>
@@ -717,7 +717,7 @@ __SIDEBAR__
     <div class="callout">
       <b>本页面是网站所有规则的唯一真相源（Single Source of Truth）。</b><br>
       所有展示规则、筛选逻辑、推送机制、定时任务频率、字段定义、分类体系变更均在此页面维护。<br>
-      每次网站有任何规则变更（筛选渠道调整、展示规则修改、推送逻辑变更、频率调整等），<b>必须同步更新本页面</b>并重新生成 about.html。本页面（gen_about.py）现已并入 run_daily 流水线作为第 6 步，每次每日运行自动重生成；并有<b>规则漂移检测器</b>持续校验 config.py ↔ about.html 的一致性，发现数字偏差即告警。
+      每次网站有任何规则变更（筛选渠道调整、展示规则修改、推送逻辑变更、频率调整等），<b>必须同步更新本页面</b>并重新生成 about.html。本页面（gen_about.py）现已并入 run_daily 流水线作为第 6 步，每次每周运行自动重生成；并有<b>规则漂移检测器</b>持续校验 config.py ↔ about.html 的一致性，发现数字偏差即告警。
     </div>
   </div>
 

@@ -83,6 +83,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   padding:6px 13px;border-radius:10px;white-space:nowrap;font-weight:600;transition:all .15s;background:#fff}
 .dl-btn:hover{background:var(--accent);color:#fff}
 
+/* ===== 顶部工具条（不常用按钮集中区）===== */
+.top-tools{display:flex;align-items:center;gap:6px;margin-bottom:8px;padding:6px 10px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);flex-wrap:wrap;font-size:11px}
+.top-tools .export-fav,.top-tools .dl-btn,.top-tools .sync-fav,.top-tools .sync-set{font-size:11px;padding:3px 10px;border-radius:8px;opacity:.7;transition:all .15s}
+.top-tools .export-fav:hover,.top-tools .dl-btn:hover,.top-tools .sync-fav:hover,.top-tools .sync-set{opacity:1}
+
 /* ===== 筛选 / 搜索 ===== */
 .filter-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px}
 .view-pills,.region-pills{display:inline-flex;gap:4px;background:var(--surface);padding:3px;border-radius:20px;box-shadow:var(--shadow-sm)}
@@ -99,14 +104,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .news-search:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(14,165,183,.10)}
 
 .filter-section{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:16px;box-shadow:var(--shadow-sm)}
-.filter-row{display:flex;align-items:center;gap:7px;margin-bottom:7px;flex-wrap:wrap}
+.filter-row{display:flex;align-items:flex-start;gap:7px;margin-bottom:7px;flex-wrap:wrap}
 .filter-row:last-child{margin-bottom:0}
 .filter-label{font-size:11.5px;color:var(--text-muted);min-width:34px;font-weight:700}
 .filter-btns{display:flex;flex-wrap:wrap;gap:5px;flex:1;justify-content:flex-start}
-.filter-btn{padding:4px 12px;border-radius:13px;border:1px solid var(--border);background:var(--surface-2);
-  font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .13s;font-family:inherit}
+.filter-btn{padding:4px 12px;border-radius:15px;border:1px solid var(--border);background:var(--surface);
+  font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s;font-family:inherit}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
-.filter-btn.active{background:var(--accent-grad);color:#fff;border-color:transparent;font-weight:600}
+.filter-btn.active{background:var(--accent-grad);color:#fff;border-color:transparent;font-weight:700}
 /* 紧凑筛选行 (T27: 事件·领域·标签合并一行) */
 .filter-row-compact{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .filter-divider{color:var(--border-strong);font-size:11px;margin:0 2px;user-select:none}
