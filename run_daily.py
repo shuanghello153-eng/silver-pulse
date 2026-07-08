@@ -34,6 +34,8 @@ STEPS = [
     ("feedback_loop.run_daily_step()", "feedback_loop", "run_daily_step", ()),
     # 赛道核心度: 用代码关键词覆盖 industry 维度(零成本), 并重算终分（含 user_pref 权重）
     ("reapply_centrality.main()", "reapply_centrality", "main", ()),
+    # 推荐理由重算（T24+T30）：每次跑批用差异化模板重算全部条目，带入 entity/领域/反常识度
+    ("selection.recommend.run_daily_step()", "selection.recommend", "run_daily_step", ()),
     ("selection.enterprise_score.main()", "selection.enterprise_score", "main", ()),
     # 自动反哺企业标签（资讯事件 + 融资字段 -> 企业 tags，供融资/IPO 筛选）
     ("tag_enterprises.run_daily_step()", "tag_enterprises", "run_daily_step", ()),
@@ -42,6 +44,8 @@ STEPS = [
     ("gen_about.main()", "gen_about", "main", ()),
     # 自检：写 STATE.md（供 06:00 自审与 09:00 补跑读取）
     ("validator.main()", "validator", "main", ()),
+    # L2 质量自审（Loop Engineering Layer 2）：HTML走查/数据质量/UI一致性/已知问题回归
+    ("loop_audit.run_daily_step()", "loop_audit", "run_daily_step", ()),
 ]
 
 

@@ -12,6 +12,33 @@ from datetime import datetime
 
 esc = html.escape
 
+
+def _compute_data_date_banner():
+    """读取 scored_latest.json 最新资讯日期，生成醒目新鲜度横幅。"""
+    import json as _json
+    from datetime import datetime as _dt
+    scored_path = os.path.join(DATA_DIR, "scored_latest.json")
+    data_date = "未知"
+    try:
+        with open(scored_path, "r", encoding="utf-8") as f:
+            data = _json.load(f)
+        dates = [it.get("date") for it in data
+                 if isinstance(it.get("date"), str) and it.get("date")]
+        if dates:
+            data_date = max(dates)
+    except Exception:
+        pass
+    today = _dt.now().strftime("%Y-%m-%d")
+    if data_date == today:
+        color, tag = "#0a7d2c", "✅ 数据为今日新鲜采集"
+    elif data_date != "未知":
+        color, tag = "#b45309", "⚠️ 数据偏旧（最新 %s，今日 %s）" % (data_date, today)
+    else:
+        color, tag = "#b45309", "⚠️ 暂无数据日期"
+    return ('<div style="margin:10px 0;padding:8px 12px;border-radius:8px;'
+            'background:%s1a;color:%s;font-weight:600;border:1px solid %s55;">'
+            '🕒 数据更新日期：%s · %s</div>') % (color, color, color, data_date, tag)
+
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
@@ -61,6 +88,9 @@ ENTERPRISE_FIELDS = [
 
 
 def generate():
+    # 数据新鲜度横幅（一眼看出数据新不新）
+    data_date_banner = _compute_data_date_banner()
+
     # Build source list HTML — compact format
     source_rows = []
     for key, src in SOURCES.items():
@@ -220,13 +250,13 @@ def generate():
     <p>以下规则由代码实时计算，<b>全部数字均读取自 config.py</b>，本页面不硬编码任何阈值。模型（L3）负责打 4 个维度分（信号 / 写作 / 国内可比性 / 时效）；<b>「赛道核心度」由代码依据领域关键词确定性推导（零成本）</b>。其余一切由代码决定。</p>
 
     <p style="margin-top:14px;"><b>〇、行业相关性 = L1 预筛闸门（collector.is_relevant()）</b></p>
-    <p>因为本站是<b>银发经济</b>专版，所有入库资讯都应属于银发经济范畴。因此「行业相关性」<b>不是一个与信号/写作等并列的加权维度</b>，而是位于 5 维评分<b>之前</b>的一道<b>预筛闸门</b>：</p>
+    <p>因为本站是<b>银发经济</b>专版，所有入库资讯都应属于银发经济范畴。因此「行业相关性」<b>不是一个与信号/写作等并列的加权维度</b>，而是位于 6 维评分<b>之前</b>的一道<b>预筛闸门</b>：</p>
     <ul>
       <li><b>闸门前（collector.is_relevant()）</b>：用 RELEVANCE_KEYWORDS / IRRELEVANT_KEYWORDS 做二元判断——确属银发经济范畴（养老照护 / 适老科技 / 银发消费 / 广义健康养老等）的资讯才放行，明显不相关的（儿科、母婴、青少年等非银发内容）直接丢弃。</li>
-      <li><b>闸门后</b>：<b>只有通过闸门的资讯</b>才进入下面的 5 维评分（维度分 0–10）。</li>
+      <li><b>闸门后</b>：<b>只有通过闸门的资讯</b>才进入下面的 6 维评分（维度分 0–10）。</li>
     </ul>
     <div class="callout">
-      <b>为什么用「闸门」而非「加权维度」？</b>若把「是否属于银发」作为加权维度，会让大量非银发噪音凭其它高分混入精选；而纯二元闸门能在<b>不误伤重要信源</b>（如 T3 宽覆盖源偶尔产出高质量银发报道）的同时，<b>把真正的噪音挡在门外</b>。闸门只回答「是不是银发」，不比较「多银发」——后者交给 5 维中的「赛道核心度」。
+      <b>为什么用「闸门」而非「加权维度」？</b>若把「是否属于银发」作为加权维度，会让大量非银发噪音凭其它高分混入精选；而纯二元闸门能在<b>不误伤重要信源</b>（如 T3 宽覆盖源偶尔产出高质量银发报道）的同时，<b>把真正的噪音挡在门外</b>。闸门只回答「是不是银发」，不比较「多银发」——后者交给 6 维中的「赛道核心度」。
     </div>
 
     <p style="margin-top:12px;"><b>一、资讯评分维度（NEWS_SCORING_DIMS，闸门之后才计算）</b></p>
@@ -260,7 +290,7 @@ def generate():
     <p style="margin-top:12px;"><b>六、铁律（IRON RULE）</b></p>
     <div class="callout callout-warning">
       <b>终分 / 精选判定 / 聚类主条，100% 由代码计算。</b><br>
-      模型（L3）只输出 5 个维度分，<b>绝不直接给出 final_score</b>，也不决定精选与否、不挑选聚类主条。所有阈值、权重、公式皆在 config.py / selection 代码中，本页面仅作展示。
+      模型（L3）只输出 4 个维度分（signal / writing / cn_fit / urgency），<b>绝不直接给出 final_score</b>；industry(赛道核心度) 与 novelty(反常识度) 由代码确定性推导（零成本）。所有阈值、权重、公式皆在 config.py / selection 代码中，本页面仅作展示。
     </div>
   </div>
 """
@@ -287,6 +317,12 @@ __SIDEBAR__
   <p>Silver Pulse 银脉 · 银发经济投融资资讯聚合 + 企业数据库</p>
 </div>
 
+<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 {BUILD_STAMP}</p>
+{data_date_banner}
+<div class="callout">
+  本页所有评分 / 阈值 / 分类数字均读取自 config.py（单一真相源），每次网站规则变更后会随每日流水线自动重生成；并有规则漂移检测器校验一致性。
+</div>
+
 <div class="tab-bar">
   <button class="tab-btn active" onclick="switchTab('news', event)">资讯版说明</button>
   <button class="tab-btn" onclick="switchTab('enterprise', event)">企业库说明</button>
@@ -295,6 +331,10 @@ __SIDEBAR__
 
 <!-- Tab 1: 资讯版说明 -->
 <div class="tab-content active" id="tab-news">
+
+  <div class="callout" style="margin-bottom:20px;">
+    <b>📌 本页用途：</b>资讯从哪来（44 个信源）、怎么筛（两级相关性闸门 + 6 维评分）、怎么看（精选 / 全量 + 筛选标签）。
+  </div>
 
   <div class="section">
     <h3>资讯版定位</h3>
@@ -361,15 +401,17 @@ __SIDEBAR__
       <li>T3信源：采集，仅用于相关性预过滤，不直接展示</li>
     </ul>
 
-    <p style="margin-top:12px;"><b>第二步：相关性过滤</b></p>
+    <p style="margin-top:12px;"><b>第二步：相关性过滤（两级闸门，collector.is_relevant()）</b></p>
     <ul>
-      <li>文章标题+摘要必须匹配至少一个<b>相关性关键词</b>（RELEVANCE_KEYWORDS）</li>
-      <li>匹配<b>无关关键词</b>（IRRELEVANT_KEYWORDS）的文章直接丢弃</li>
-      <li>地区由信源决定，不由内容判断：国内信源→国内，海外信源→海外</li>
+      <li><b>强词命中即相关</b>：标题+摘要命中任一<b>强词</b>（SILVER_STRONG_KEYWORDS：养老 / 银发 / 照护 / 认知症 / 康养 等）即视为银发相关，放行入库。</li>
+      <li><b>仅弱词不相关</b>：只命中<b>弱词</b>（SILVER_WEAK_KEYWORDS：融资 / 机器人 / AI 等泛科技词）不算相关，除非该主体为企业库已知银发企业（按企业库白名单放行）。</li>
+      <li><b>目的</b>：挡掉「复旦95后机器人大佬」「XX 公司完成融资」这类泛科技 / 机器人内容误入银发专版。</li>
+      <li>匹配<b>无关关键词</b>（IRRELEVANT_KEYWORDS）的文章直接丢弃。</li>
+      <li>地区由信源决定，不由内容判断：国内信源→国内，海外信源→海外。</li>
     </ul>
-    <p style="margin-top:8px;">相关性关键词示例（共{len(RELEVANCE_KEYWORDS)}个，展示前20个）：</p>
+    <p style="margin-top:8px;">强词关键词示例（SILVER_STRONG_KEYWORDS 节选，共{len(RELEVANCE_KEYWORDS)}个）：</p>
     <div style="margin:8px 0;">{rel_kw_html}</div>
-    <p style="margin-top:8px;">无关关键词（共{len(IRRELEVANT_KEYWORDS)}个）：</p>
+    <p style="margin-top:8px;">弱词（SILVER_WEAK_KEYWORDS）单独命中不再放行；无关关键词（共{len(IRRELEVANT_KEYWORDS)}个）：</p>
     <div style="margin:8px 0;">{irrel_kw_html}</div>
 
     <p style="margin-top:12px;"><b>第三步：信号打分（关键词+权重）</b></p>
@@ -388,18 +430,18 @@ __SIDEBAR__
     <p style="margin-top:12px;"><b>第四步：展示排序</b></p>
     <ul>
       <li>默认按日期降序（最新优先）</li>
-      <li><b>精选视图</b>：展示评分≥5.0或人工精选的条目（当前评分暂停，精选=全量，恢复评分后两者会不同）</li>
+      <li><b>精选视图</b>：展示评分≥5.0（按精选阈值）或人工精选的条目；评分已激活，精选与全量不再是同一份数据</li>
       <li><b>全量视图</b>：展示所有通过相关性过滤的条目</li>
       <li>可按事件类型、涉及领域、标签、地区多级筛选</li>
     </ul>
     <div class="callout">
-      <b>精选 vs 全量 说明</b>：当前评分功能暂停中，所以精选和全量显示的数据完全一样。未来恢复评分后，精选只展示高价值条目（≥7.0）和值得关注条目（5.0-6.9），全量则展示所有通过过滤的条目。
+      <b>精选 vs 全量 说明</b>：选题雷达 6 维评分已激活，精选默认展示 ≥5.0 的高价值/值得关注条目（按 SELECT_THRESHOLDS 差异化），全量则展示所有通过过滤的条目；两者数据已不相同。
     </div>
   </div>
 
   <div class="section">
     <h3>推荐理由（模板生成）</h3>
-    <p>资讯卡片底部的<b>蓝色文字</b>是推荐理由（recommendation字段），基于关键词检测自动生成，内容包括：</p>
+    <p>资讯卡片底部的 <b>★ 标记文字</b>是推荐理由（recommendation字段），基于事件类型、金额量级、国内外差异、反常识度等要素自动生成，已去重标题已含信息：</p>
     <ul>
       <li>事件类型判断（融资/收购/IPO/政策等）</li>
       <li>涉及金额提取（如有）</li>
@@ -414,9 +456,8 @@ __SIDEBAR__
   <div class="section">
     <h3>评分机制</h3>
     <div class="callout">
-      <b>当前状态：关键词信号打分已激活（低成本版）</b><br>
-      看板使用 <code>signal_score</code>（关键词+信源权重）作为 <code>final_score</code> 代理，自动分级并生成模板化推荐理由。<br>
-      <b>AI深度评分（四维加权）</b>为可选增强：对Top高价值条目生成更具洞察的推荐理由，按需触发，不每次运行。
+      <b>当前状态：选题雷达 6 维评分已激活（代码优先）</b><br>
+      看板使用<b>代码优先的 6 维选题雷达引擎</b>（详见「网站规则 → 📐 选题雷达评分规则」）计算 final_score：industry(赛道核心度) 与 novelty(反常识度) 由代码确定性推导，signal / writing / cn_fit / urgency 由模型(L3)输出，终分由代码加权计算。关键词 <code>signal_score</code> 作为低成本的回退代理（模型不可用时使用）。
     </div>
     <p>关键词信号打分构成：</p>
     <ul>
@@ -426,7 +467,7 @@ __SIDEBAR__
       <li><b>叠加奖励</b>：命中2个加分+1，3个以上+3</li>
     </ul>
     <p>阈值设计：≥7.0 高价值(high) | 5.0-6.9 值得关注(watch) | &lt;5.0 归档(archive)</p>
-    <p>模型（L3）<b>只输出 5 个维度分（0–10）</b>：赛道核心度 / 信号强度 / 写作潜力 / 国内可比性 / 时效紧迫度（权重见「网站规则 → 📐 选题雷达评分规则」）。注：「行业相关性」是一道位于评分<b>之前</b>的 L1 预筛闸门（collector.is_relevant()），只有确属银发经济范畴的资讯才进入这 5 维评分。<b>终分由代码加权计算</b>，模型从不直接给出 final_score、也不决定精选或聚类主条。</p>
+    <p>模型（L3）<b>只输出 4 个维度分（0–10）</b>：signal(信号强度) / writing(写作潜力) / cn_fit(国内可比性) / urgency(时效紧迫度)（权重见「网站规则 → 📐 选题雷达评分规则」）。industry(赛道核心度) 与 novelty(反常识度) 由代码确定性推导（零成本）。注：「行业相关性」是一道位于评分<b>之前</b>的 L1 预筛闸门（collector.is_relevant()），只有确属银发经济范畴的资讯才进入评分。<b>终分由代码加权计算</b>，模型从不直接给出 final_score、也不决定精选或聚类主条。</p>
   </div>
 
   <div class="section">
@@ -440,7 +481,7 @@ __SIDEBAR__
     </ul>
     <p style="margin-top:10px;"><b>中期（Skill层，AI单一能力封装）</b></p>
     <ul>
-      <li><b>AI只打维度分</b>：大模型只输出 <b>5 个维度分</b>，最终分由代码加权计算（参考AIHOT：Prompt从600行缩减到200行）。</li>
+      <li><b>AI只打维度分</b>：大模型只输出 <b>4 个维度分</b>（signal / writing / cn_fit / urgency），industry 与 novelty 由代码推导（零成本），最终分由代码加权计算（参考AIHOT：Prompt从600行缩减到200行）。</li>
       <li><b>零AI成本日报</b>：入库时完成所有AI处理（打分+翻译+摘要），周报只需分桶排序，1秒生成。</li>
     </ul>
     <p style="margin-top:10px;"><b>长期（Agent层，动态规划）</b></p>
@@ -456,16 +497,25 @@ __SIDEBAR__
   <div class="section">
     <h3>更新机制</h3>
     <ul>
-      <li><b>资讯采集</b>：每周一 01:00 北京时间自动执行</li>
-      <li><b>标签池迭代</b>：每周一 03:00，AI扫描近一周数据自动补充新标签</li>
-      <li><b>摘要推送</b>：每周一 06:00，生成本周资讯摘要推送到WorkBuddy对话</li>
+      <li><b>资讯采集</b>：每日 01:00 北京时间自动执行</li>
+      <li><b>企业库扩充</b>：每日 04:00，自动融合新数据源扩充企业库</li>
+      <li><b>自审报告</b>：每日 06:00，生成本日数据质量自审报告推送到WorkBuddy对话</li>
       <li><b>采集窗口</b>：过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯</li>
-      <li><b>每周积分消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K + 标签迭代5-10K + 摘要推送3-5K）</li>
+      <li><b>每日积分消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
       <li><b>排序方式</b>：默认按日期降序（最新优先）</li>
     </ul>
     <div class="callout">
-      <b>定时任务时序</b>：每周一 01:00 资讯采集 → 03:00 标签池迭代（基于最新数据） → 06:00 摘要推送（一切就绪后推送到WorkBuddy对话窗口）。
+      <b>定时任务时序</b>：每日 01:00 资讯采集 → 04:00 企业库扩充 → 06:00 自审报告（标签池迭代已并入每日流水线，随采集后自动进行；另有 09:00 白天补跑防错）。
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>收藏与反馈（已上线）</h3>
+    <div class="callout">
+      <b>⭐ 我的收藏</b>：侧栏「⭐ 我的收藏」可一键只看已收藏的资讯 / 企业。<br>
+      <b>收藏按钮</b>：每条资讯 / 企业卡片上的「收藏」按钮写入浏览器 localStorage，无需登录。<br>
+      <b>⬇ 导出收藏</b>：点击「⬇ 导出收藏」导出 feedback.jsonl，供后续回灌评分与选题改进。
     </div>
   </div>
 
@@ -473,6 +523,10 @@ __SIDEBAR__
 
 <!-- Tab 2: 企业库说明 -->
 <div class="tab-content" id="tab-enterprise">
+
+  <div class="callout" style="margin-bottom:20px;">
+    <b>📌 本页用途：</b>企业有哪些字段（17 字段 Schema）、怎么分类（13 一级 + 70 二级）、数据从哪来（7 个来源）。
+  </div>
 
   <div class="section">
     <h3>企业库定位</h3>
@@ -515,7 +569,7 @@ __SIDEBAR__
       <b>空字段处理</b>：如果某个字段为空，前端直接不展示该字段，不显示占位符。<br>
       <b>名称规则</b>：企业名称保留原始语言——中文名写中文，英文名保留英文不翻译。<br>
       <b>标签规则</b>：标签来自TAG_POOL，最多5个，与分类（L1/L2）独立。<br>
-      <b>价值评分</b>：value_score 字段已预留，暂不计算不展示。
+      <b>价值评分</b>：value_score 即「企业研究价值分」(0–100)，由 selection.enterprise_score 计算，已在企业卡片以「研究价值」徽章展示，并用于默认排序。
     </div>
   </div>
 
@@ -538,6 +592,10 @@ __SIDEBAR__
 
 <!-- Tab 3: 网站规则 -->
 <div class="tab-content" id="tab-rules">
+
+  <div class="callout" style="margin-bottom:20px;">
+    <b>📌 本页用途：</b>评分公式与阈值（6 维加权 + 差异化精选）、聚类规则、铁律 —— 技术细节唯一真相源，全部从 config.py 实时读取。
+  </div>
 
   {radar_rules_html}
 
@@ -586,18 +644,18 @@ __SIDEBAR__
         <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>RSS采集</td><td>每周</td><td>周一 01:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
-        <tr><td>分类+标签</td><td>每周</td><td>采集后</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用）</td></tr>
-        <tr><td>推荐理由生成</td><td>每周</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
-        <tr><td>HTML生成</td><td>每周</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
-        <tr><td>标签池迭代</td><td>每周</td><td>周一 03:00</td><td>约5-10K tokens</td><td>AI扫描+更新TAG_POOL</td></tr>
-        <tr><td>每周摘要推送</td><td>每周</td><td>周一 06:00</td><td>约3-5K tokens</td><td>AI读取数据生成摘要推送到WorkBuddy对话</td></tr>
+        <tr><td>RSS采集</td><td>每日</td><td>每日 01:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
+        <tr><td>分类+标签</td><td>每日</td><td>采集后（并入每日流水线）</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用；标签池迭代一并完成）</td></tr>
+        <tr><td>推荐理由生成</td><td>每日</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
+        <tr><td>HTML生成</td><td>每日</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
+        <tr><td>企业库扩充</td><td>每日</td><td>每日 04:00</td><td>约5-10K tokens</td><td>AI扫描+融合新数据源扩充企业库</td></tr>
+        <tr><td>每日自审报告</td><td>每日</td><td>每日 06:00</td><td>约3-5K tokens</td><td>AI读取数据生成自审报告推送到WorkBuddy对话</td></tr>
         <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
-        <tr><td>评分</td><td>暂停中</td><td>—</td><td>—</td><td>规则优化后恢复</td></tr>
+        <tr><td>评分</td><td>每日</td><td>随每日流水线</td><td>—</td><td>由代码优先 6 维选题雷达引擎实时计算（详见 网站规则）</td></tr>
       </tbody>
     </table>
     <div class="callout">
-      <b>每周总消耗</b>：约25-50K tokens（采集8-12K + 分类3-5K + 推荐理由12-31K + HTML生成2-3K + 标签迭代5-10K + 摘要推送3-5K）。<br>
+      <b>每日总消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）。<br>
       <b>采集窗口</b>：每次采集过去 {MAX_ARTICLE_AGE_DAYS} 天的资讯，非"当天"。
     </div>
     <div class="callout callout-warning">
@@ -616,7 +674,7 @@ __SIDEBAR__
       <li><b>前端</b>：纯静态 HTML + CSS + JavaScript，无后端依赖</li>
       <li><b>托管</b>：GitHub Pages</li>
       <li><b>采集</b>：Python + feedparser（RSS-first 策略，0个403错误）</li>
-      <li><b>自动化</b>：WorkBuddy 定时任务（3个）：周一 01:00 资讯更新 / 03:00 标签池迭代 / 06:00 摘要推送</li>
+      <li><b>自动化</b>：WorkBuddy 定时任务（4 个每日定时任务）：01:00 每日流水线 / 04:00 企业库扩充 / 06:00 自审报告 / 09:00 白天补跑防错</li>
       <li><b>数据格式</b>：JSON（结构化存储） → HTML（展示层生成）</li>
     </ul>
   </div>
@@ -642,7 +700,7 @@ __SIDEBAR__
     <div class="callout">
       <b>本页面是网站所有规则的唯一真相源（Single Source of Truth）。</b><br>
       所有展示规则、筛选逻辑、推送机制、定时任务频率、字段定义、分类体系变更均在此页面维护。<br>
-      每次网站有任何规则变更（筛选渠道调整、展示规则修改、推送逻辑变更、频率调整等），<b>必须同步更新本页面</b>并重新生成 about.html。
+      每次网站有任何规则变更（筛选渠道调整、展示规则修改、推送逻辑变更、频率调整等），<b>必须同步更新本页面</b>并重新生成 about.html。本页面（gen_about.py）现已并入 run_daily 流水线作为第 6 步，每次每日运行自动重生成；并有<b>规则漂移检测器</b>持续校验 config.py ↔ about.html 的一致性，发现数字偏差即告警。
     </div>
   </div>
 

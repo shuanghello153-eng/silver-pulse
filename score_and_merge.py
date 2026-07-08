@@ -157,6 +157,7 @@ def main():
         entry = {
             "title": title,
             "final_score": final_score,
+            "signal_score": signal,
             "category": category,
             "tags": tags[:3],
             "recommendation": recommendation,

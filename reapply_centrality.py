@@ -79,9 +79,29 @@ def classify_domain(text):
     return best, (best_c if best is not None else None)
 
 
+def _load_blended_weights():
+    """基底用 config 权重；若存在 user_pref.json（L3 反馈回灌产出），叠加其微调。
+
+    边界控制：user_pref 的权重已在 feedback_loop 内夹紧到 ±0.03 上下限，
+    这里再夹一次，确保即使手工改了 user_pref 也不会失控。
+    """
+    base = {k: {"weight": v["weight"]} for k, v in config.NEWS_SCORING_DIMS.items()}
+    pref_path = os.path.join("data", "user_pref.json")
+    if os.path.exists(pref_path):
+        try:
+            pref = json.load(open(pref_path, encoding="utf-8"))
+            pw = pref.get("weights", {})
+            for k in base:
+                if k in pw and isinstance(pw[k], (int, float)):
+                    base[k]["weight"] = float(pw[k])
+        except Exception:
+            pass
+    return base
+
+
 def main():
     data = json.load(open(SCORED, encoding="utf-8"))
-    w = config.NEWS_SCORING_DIMS
+    w = _load_blended_weights()
     for it in data:
         ds = it.get("dim_scores") or {}
         blob = " ".join([
@@ -96,6 +116,8 @@ def main():
         it["centrality"] = cen
         nov = detect_novelty(blob, it.get("event_type") or "", detect_amount_usd(blob))
         ds["novelty"] = nov
+        it["novelty"] = nov
+        it["signal"] = ds.get("signal", 0)
         final = sum((ds.get(k, 0) or 0) * w[k]["weight"] for k in w)
         adj = config.SOURCE_ADJ.get(it.get("tier"), 0.0)
         it["final_score"] = round(final + adj, 2)

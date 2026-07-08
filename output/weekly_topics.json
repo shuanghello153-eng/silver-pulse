@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07 22:31",
-  "count": 209,
+  "generated_at": "2026-07-08 15:23",
+  "count": 30,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -10,16 +10,16 @@
       "date": "2026-07-07",
       "region": "overseas",
       "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 7.83,
+      "entity_name": "",
+      "final_score": 7.05,
       "dim_scores": {
         "industry": 6,
-        "signal": 9.5,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
+        "signal": 10.0,
+        "writing": 8.0,
+        "cn_fit": 5.0,
+        "urgency": 10.0
       },
-      "recommendation": "融资事件，涉及金额 2亿。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "recommendation": "本轮融资 2亿，资本正加码养老地产赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
       "tags": [
         "融资",
         "产品发布",
@@ -27,1470 +27,22 @@
       ]
     },
     {
-      "title": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-07",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造",
+      "title": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造 - AgeClub",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
       "source": "AgeClub",
       "date": "2026-07-06",
       "region": "overseas",
       "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 8.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 10.0,
-        "urgency": 9.0
-      },
-      "recommendation": "养老机器人赛道再现亿元级融资。如身机器人强调面向真实养老场景的具身智能系统能力平台，说明资本开始认可“场景定义硬件”的路径。中国养老机器人目前多停留在概念或单一功能阶段，谁能先跑通真实照护场景的数据闭环，谁就可能获得融资溢价。",
-      "tags": [
-        "融资",
-        "成长期",
-        "硬件+服务",
-        "中国市场已有同类"
-      ]
-    },
-    {
-      "title": "复旦95后做机器人大脑，眸深智能融资3亿元",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1SSEh4QkRJbVRPMktCNDloNlhacmJxMGg4dkl0cWM1V3czMXZqNy1DczN3Mi1rWm9Zb290UjhkQS01OGNOdzRJbHBla3p4dw?oc=5",
-      "source": "36 Kr",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "眸深智能融资3亿元做“机器人大脑”，虽然面向通用机器人，但养老场景是机器人落地的高频需求之一。中国养老机器人缺的不是硬件本体，而是能在复杂家庭环境中自主决策的“大脑”，这条融资反映底层技术正在成熟。",
-      "tags": [
-        "融资",
-        "成长期"
-      ]
-    },
-    {
-      "title": "2026年二季度康养发展报告：3.2亿老人+2.52人/户：家庭小型化倒逼服务网络延伸",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04djVmVlYxak9yRU9JQkotekNvQVNYd1FQSC1RSWc1WmRDVE0zZWVhZHRabXdSWVZNdldpTGluWXVjRGw1dkpkTDFiajZkTUFlUk1nOWZ3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": "AgeClub",
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "AgeClub二季度康养报告提出家庭小型化倒逼服务网络延伸的核心判断。3.2亿老年人口、户均2.52人的数据意味着“居家+社区”服务网络必须加密，这对中国社区养老、上门服务的布局有长期参考。",
-      "tags": [
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "Callie Care 完成 50 万美元种子前轮融资，以电话优先 AI 弥合美国养老照护缺口",
-      "url": "https://aijourn.com/callie-care-raises-500k-pre-seed-to-tackle-americas-senior-care-gap-with-phone-first-ai/",
-      "source": "The AI Journal",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.03,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.3,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "电话优先的AI语音助手为美国老年人提供每日主动关怀呼叫，解决孤独和日常需求管理。对中国市场的参照：中国空巢老人问题同样严峻，语音AI（尤其是方言适配）可能是比App更自然的适老化交互方式，值得国内养老科技创业者关注。",
-      "tags": [
-        "智慧养老",
-        "融资"
-      ]
-    },
-    {
-      "title": "@在粤养老的香港长者！粤港养老通正式上线 津贴直达内地账户",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeTN4Zm55Z29nN2dWNkNyeDVYd1oxdjF0TlN3aVA3Q3hBWkhPTV9ZMDR3YXFNWG9rQ0l5SzlOcEpJN1JnWmU2MkhDekRmSXI2bTRQQ0o1cGRlc041amk1cWJVY2pQeFN6REQ1M3dHR3FjcGJ2bU1lUjluekQ5ZlhOYWhreXNMbVMydHc?oc=5",
-      "source": "广州日报新花城",
-      "date": "2026-07-06",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.75,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "粤港养老通让香港长者津贴直达内地账户，跨境养老支付问题获得实质性突破。对中国市场参照：大湾区跨境养老是先行试验区，支付通道打通意味着香港长者在深圳/广州等地的消费能力将释放——养老服务供应商（陪诊、上门护理、社区食堂）将迎来增量客户。可做跨境养老支付元年选题。",
-      "tags": [
-        "政策法规",
-        "跨境养老",
-        "支付通道"
-      ]
-    },
-    {
-      "title": "GAO：Medicaid 与 Medicare 在辅助生活上支出至少 120 亿美元，但可负担性与可及性差距犹存",
-      "url": "https://seniorhousingnews.com/2026/07/06/gao-medicaid-medicare-spent-at-least-12b-on-assisted-living-but-affordability-and-access-gaps-persist/",
-      "source": "养老住房新闻",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 2.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "GAO首次披露联邦政府在辅助生活上支出超120亿美元，但覆盖缺口巨大。对中国参照：120亿美元的隐性补贴揭示了辅助生活如何嵌入美国医保体系——不是单独的养老险，而是在现有Medicaid/Medicare框架内渗透。中国长护险在机构养老的支付设计上可参考这种嵌入式而非独立式的思路。",
-      "tags": [
-        "政策法规",
-        "辅助生活"
-      ]
-    },
-    {
-      "title": "PPL 与纽约 CDPAP 护理员达成 1.62 亿美元拟议和解",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeHctcVh4enZfX3lrUkpCMDJxa29hQmI0cmY1emp6T3U0WFhjZFRxX191UG8tb0NGNjlhdUlHZE9yQTZ6ZGlZLU1lUTdEbkYyNUstenNSTFMxdkpfajZQYkQySmtLd2lKRWZfaG1zc0E3ZzRSWnVSZ1FzUVUtV29GY2NsMV9abkFIQ19nWWN1VTZuQQ?oc=5",
-      "source": "家庭健康护理新闻",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.55,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 2.4,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "1.62亿美元和解——纽约CDPAP护理员工资盗窃案的集体和解金额惊人。对中国参照：中国养老护理员同样面临低薪和权益保障不足，但缺乏集体诉讼机制。CDPAP模式本身值得研究——让消费者自主选择护理员而非机构派单，中国居家养老雇佣制vs平台制的争议可借鉴。",
-      "tags": [
-        "居家养老",
-        "护理人力",
-        "政策法规"
-      ]
-    },
-    {
-      "title": "Benchmark、Onelife 与 McMillan Pazdan Smith 如何在控制成本的同时让老旧建筑焕发新生",
-      "url": "https://seniorhousingnews.com/2026/07/06/how-benchmark-onelife-and-mcmillan-pazdan-smith-keep-old-buildings-alive-with-an-eye-on-costs/",
-      "source": "养老住房新闻",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.75,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 2.4,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "美国养老社区存量改造案例：改造重点不是外观翻新而是员工效率——让旧建筑适合护理工作流程。对中国参照：国内大量存量养老机构面临老旧设施拖垮运营问题，但改造思路普遍停留在翻新装修而非流程优化。美国经验提示：养老建筑的改造核心是让员工少跑路，而非让老人看新墙。",
-      "tags": [
-        "养老地产",
-        "运营效率"
-      ]
-    },
-    {
-      "title": "CMS 提议扩大吊销 Medicare 资格的权限",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeGlQZmpuUmlIUFNYRUl5cTZFRXBGWFlKYTB4Y19TSkZsS1MzektleV1NQcEJwQTJpT2sxMFlWN1dnb2twOWZXWFFBdENLWWxOcDlkTncwbnB4QjVPYkNTY0VsTWtZY0lIdGU3Qk9XbFhlRldIbnFhREhkVUNwcWxEQjRFaUFlY0RtY0hzcV85NWw4NmdOcGZPcDBNVnpfeG9CTjVaVHFvNlIwbExWM0xxeTJHVTJKU0dINEJBa19xVQ?oc=5",
-      "source": "TechTarget",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 6.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "CMS扩大吊销Medicare资格权限，与此前2.4%支付增加政策配套——给钱+管钱双轨推进。中国长护险反欺诈机制建设滞后，美国经验提示：支付体系不能只设计怎么给，还要设计怎么查。",
-      "tags": [
-        "政策法规",
-        "居家养老"
-      ]
-    },
-    {
-      "title": "Tripo AI 完成 1.5 亿美元 A3 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdmh1cHVCT3NKQTJobjVkd2FSRTlsWlpNVVpRTHVOUEI4ekJGZ1VZMUJpT1ltVUVDaGZpQlotQTBJNEowZEpYOHhKSlY1WnotNWQybXpWaFJGYTZHRnY4NC1CZTRRbUw0V3VFTVpTZEFJalRJMWtnOEpjY2pCSU5kc1hBUnE1amc?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $150M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "IPO上市",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Venice 以 10 亿美元估值完成 6500 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUDcwcWoydGVDZGtLWURVMU5tTFdBUWpnWmNxblhDMGlOQW8yZXI1WTNmYzJFUG9uVjYtSXhnc0VtTVNQSW42ZzdwX29aQ0dfTlBWd1ZvTFpvVlEwR1hfSEVGcjJQR2Nfa3NTajByeUpjTXlwbC1aT2tqNW5FeXlVUDJn0gGHAUFVX3lxTE1rTHJCcWNxMzIyUWZBZnlDZDRnanNvNnUzdEhWSzZ4cFlmNUV6dHNpQTFCQllpc08ydFJhMUNqc2EtZUlLVWFTRkdUWDN0TjBqRmk3X2h5LUIwLWkybEprTDFMOEI1Ui0tY1lCZkNZcnRtWHJsOTJSbW5QZ1FuR25feXphcWRtUQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $65 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Beeline Medicines 完成 1.263 亿美元 A 轮扩展融资",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ19oN3VPMktiTk9CWGxxcWNIWUQzOTNxS24wWDRCbXZFd3MxRjl1QkJUQm9nM3Q5WUZoUGlqLTkxaC03OEd3TGt4Qy1vdWl5NGExalk1TlBMS2R4OHBHS2FTXzBlYV85X0wwTlpFLXoyaTRocG9fX2hYeEtKYlNXRGpvamttVE9idURtVm9DQ25JX20xQ3ltaVVDcmZ1Nmc?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $126.3M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Hypefy AI 完成 720 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYm1sTjBzX3o5S3VVcjhSemlYdTNvbTlmaUFYcUN2QTB0UTlFbkMyelNMa2l3NGFXbDZBYmRRXzFnVVJITUx5dnpkT0xHODBybkdSUzR1cEtIeERUZVYwZ1ZYUjJMVzgtbTRqV29JTldaX2xOTmxrUkJmWGlMTW5na3Y4UHg?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $7.2M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "CurifyLabs 完成 1400 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGduLXBEZ3d1Qkdoc3hRX0x1UkNsWnRNam43b05QQ3A0YjZJRzhYbVUya2F4c01DQ00xUFlXV2FnM21oc1JMYl94RTNqSFlVNklrU2x0bHJVZVZiZjFDai1OMTFIamFwckg1QkNRWk9zRVYzd2Y3bjc1RzZ6ZGwxNkRGSFk?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $14M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Taxwire 完成 2500 万美元 A 轮融资，扩张间接税合规平台",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONDFhNHhQbzJmLUhpNUtSREtXMUZMNHBTSGR0VmE3aGd3T0F6SV9NU1FyRVdpRGtOSWtfR1FOak5FNUFwRTBpZF9oSUpVV3lSckpxb2JVaEcwdzNHNUdpWk1aYjZTRmtadHYxQlNZUjRkOTRuMFZZaWZXX01WLWN5Ukk4MHBjZl9RMWJTV2twel9DOFV4V3dDS0ZTYU_SAaIBQVVfeXFMT3R2QVVWWnRxYUdGU3ZBemRRU2oyVXMzUVNXV2ZNdTVJVFBNYlpRWGdLeTFYcERneVg1WVdpTXltNlpDNmxJRTFJbzBrOXZycTFtMkxhYVNOdHhHQmVoVDV6cDRiLVNWSWJZcDVXbVhBUVBOZFJlRlYtbTZSNVpLaldwMGsxZWd3NE52UmJyVnFOb0lhVWVia0xIa1RKQlRoTnNR?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $25 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Arato Software 完成 1000 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMHgzYVY4SGprVHZUdWhvWEdlaG83ZFdaVUllUWtYMVhIQWQtRllVSUo3cVhTN0Fha3RqNjBnOE5ZTEI1MzdiYUFScHZiZnJCOHBlOXN4ekY2aEptRWh1UGx0MGE3OG1ITmVBd2s1bHFnNnA4YllBTDJqZmlhSUxnT3cyTnA?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $10M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Acti 完成 530 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCTFJjX2s3Ti1HYmdZMnlFYjA3V3VMNkpFN3lWbXZYdDdNbmR5dzhuSHdTTmpTd2x4bzJ6TDRGQ1Q0aVFpT2FNQ3VtYmdFM2lIVi1QSFE5NlhZenBYVHhVd0hwaHBkajZUM1dGZnZZSUZDc0lRbjdXLQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $5.3M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Stoa 完成 240 万美元种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wUVVJRUJwSUlWRk1SUzBfb1phUXZVcEo1eFF1VjlJZ2F5NUI5NTh6SkUtWVVNUjhjTFVSRmhPRlNhdXppWUtJRjllSVg5RFV4cmRpcFZjYVNaRlpNeTd2SGFrcEdIclhPZFpCbHpURm1USUJZXzVYTW1ONm1VUQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $2.4M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "geoSurge 完成 1200 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MWW9IaGRMWVNFWTdjV0NneTBORE53Rmd6SDd2b2xSanFmNTdDYkNMcUktY2VBSW5YckhqUExnbS0xS3FZM3JyU0gzQ3NQT0Y2b183QlBuZlF6X0FiTFF5clgxdnY5cVpJOV90eFdJcXpXbVhuVC1VbE03cTE?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $12m。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Katalyze AI 完成 1050 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWnU3ZW9BcmtJZEMzM1B1aUJTM01jV0hleHZjTDcydHR1WnJTT3Y0M0RDUzE4eXRNX2pyTFg2VXVNbE42MEtkV2dRTkZCdDdTaXZ1STIxS2JMdkIxbmVRR3luWFoyV1VPWlk3VjhmVzItWFFLd2tZMV9lNnYzZktTSjZHSQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $10.5M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Spense 完成 280 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Va3F0emZkMzVmYWZXVDVWdFpubl82VGEzR0JEZFNGZzRDUGZ2TW1STXlubHJjd0lSMnp1ZDkyVWtuX3lyaUJTLXRXaG0zM3RhMjg1VVBqZnJ5QnAxNlVMM2ZFVXhFeWJ5Q1hqUUNWQVJvaGhKNTg3WF8tVQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $2.8M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Bespoke Labs 完成 4000 万美元融资",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hWG16cTN5Y3EtOTU3MWhEb1duNmItSm5PNjJSQUhQUVk5ZEY4Z2FLZXVwMDdGeWduRG9rY05qYU5rR1hNLXpIMzRjWE5IeEwtLThab25fOGZzVllZVm5kc3NSWnRtSkNhR3hvbUJlM2gyVTdvZFBhUlJEOA?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $40M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Wayflyer 收购 Conjura",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BaXo0N21VVVhfSFo4eFBBRUNUQUt2YkhoSFRVMWZnakdGdEdib0tXWnd1QUhVcXFuNTZfazZQSmZPYU1PSWNhZVlSUHQ0aXFzX0tiR1F0aWhRNGVwbnBEYWZidlpUa2gzX0JUaURXbw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Caspian 收购 Trade-IQ",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBudERseUJQSWVZQklFTHFsZVRjQl93bXFma24yOTRYLW15aURialdIRmxCMmt1Rjg1d3ZObXIwdlRKdU83OXg3Z00zSUd1TWs2TDJraWtLTHJwUVFJNW40ZDlwSnlmalZSRHNILW1iRQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Extended 完成 1250 万美元战略融资",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOckNRbU10NnlDVXUyMUhxTklGUUl4VDlzb21oQkNtb1JaR1M4OEh4eWZfSkpOUS1KbEpNcURHV2pzTDdYLVk1Vkx3bkV0V0E5NVZQaFdMLVJXV3YzZm1PaXI5UW5UaC1qU21vLU40LW54QXJ6WTJYeE93YjlBOVBHWDBleEtrdw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $12.5M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Tapestry VC 完成 8000 万美元第三支基金，扶持连续创业者",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkI2Y3BMUFkwbzNBTlpYQ0N1aU13SWljR0FSS1Z1ZVNSRUxuZUxfamRHNlprbWlwdEFpN1NBN2tpQl9rY0E2NTB4dUhvMzBFX1BkT0tQNmRTWk9YMnVtenZLRmRMS0xkZTZXRS1zSWNFeElWcmVLQ2JaaWJMTDlMRVljbEpmT2ZsemU1cm9fb9IBjwFBVV95cUxPSkI2Y3BMUFkwbzNBTlpYQ0N1aU13SWljR0FSS1Z1ZVNSRUxuZUxfamRHNlprbWlwdEFpN1NBN2tpQl9rY0E2NTB4dUhvMzBFX1BkT0tQNmRTWk9YMnVtenZLRmRMS0xkZTZXRS1zSWNFeElWcmVLQ2JaaWJMTDlMRVljbEpmT2ZsemU1cm9fbw?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $80 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Lumine Group 收购 Imagine Communications",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCQWtXbjN3QWVpaW9iRDZtalRKeDI2QWI5TG9oTTRfcDF5NlkwLW5Rd00tSVlMOGh4U2pQOHBOeHVjY1JnQTJaNEtFTGloeWNrR0lhWjZNbk40QURhejA1clJFbXk0NW1OemJHZXd6Q2JaZ9IBd0FVX3lxTFBiZTRpZFhjTC1YUExLdUdxNFVoVmxnYU41Y0c5S09kMWxIdTRWYTNZOXVZSGtBWGlqd0tQY05lUzZvdjNvanM0dmdLZElRUHUyZi1JSzZCQmVtOTFlNVdWSXI4OEh3T1Bad2xpMWpEM2hWQUZIYXVN?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Savaria 收购 Vipal",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXOTYtVkloWEVBMmhVcll0U21RZjlnRWdlbHBZeU1IbmxGaUxEdlZCZU5sYUNPSldVRE1OcnJ3VHE3YzJhcEh2dE9XNnlERUtDcnYwOV9IVXU5QdIBWkFVX3lxTFBXOTYtVkloWEVBMmhVcll0U21RZjlnRWdlbHBZeU1IbmxGaUxEdlZCZU5sYUNPSldVRE1OcnJ3VHE3YzJhcEh2dE9XNnlERUtDcnYwOV9IVXU5QQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "Sava",
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "IQM Quantum Computers 收购 Quantistry GmbH 资产，打通量子算法与工业解决方案",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNUndWazFpbkRfaHFBUVZOd1NJdjBlVXZWU3hPQzVNQVROT2lxX25BclIxdW9JT3NTc3JGOC1INnJhV1VodDJ1dGFxS0hwZjhwY2VuSWw4N3MxSDR4S2FlTDNpV19kZ0M4TEhQeWNTLUtHbXllelNYMVI2SFlaVHBVMHVfTXNOTmF5MXhGdFJwNk02emx1cXRPQXRCUFMxdnRNbC04dTN2SzdtRmIyVllpQldKZVUxZDFZZ3h1SG0zNzQ1T0VFUk05THIzcXQ5NUpCUXJtZG9VVFNhZXhqN3cydFBCSmNsU1BDRk05YlhLbFhncHVUTGFDX0VCUlBIdVBIV2w3OUhVSExjN1VEcXpKTlZGc3U4YUd4enhTaVFPNVlkU3ExMGc?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Solaris Energy Infrastructure 收购全球全周期发电运维与技术解决方案头部供应商",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNZm82ZDVnanVVTG9QSktfazdFZTBWUTVhSG8ySDJuOE1GS09PRWVQamFXWjdDS1ZzVUd1YzNWWGxtdEtpQVpUdC0yR2tKSXFPdXg0cXRwWWFpeF9QamRrdnRqTUJXMnFOeHM2TXpkR1hITHhXUGJKRXJxdF9mbWpDOTAxb2NacDJtc2FMLVdQQVJBcEdhdUxjN0hBWmRpRndqeDgyWjdTckpoU0xtR2xueDZ1ZFZxTEstQnFydTNpRHF5bENzallpTWZtY1QyX08zYjctSThfMjk3TXk1M1FmVlJ1VWstMTBsdkVPa0xFbFBsVlhlN2twMTRxaHJBZHlMNF9tbE9KU0cyQkREb2xDMFpsX0ozR0NNNWJvUk90ZTYwUHc?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "智慧养老",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Paraito 融资 265 万美元，为魁北克公证人自动化繁琐工作",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzZrdFRpdW43UHBMajJHb0l4VGVycC1QTGktLW9NRC1Gd2dGZE0wTzZBNjlPMHQ4SU1rR0dSWEx5WUZGcktJVWdUd3hRMk1KaWVCRkFDS3ZCXzY4Njlyb3hfbXMxRHFoU0ZXR2xlZGNwTVItdkhRRXhjeDNWbnJfenFXa1lTbUlYcUNzbVFyM0JSaUFVMVE?oc=5",
-      "source": "BetaKit创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $2.65 m。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Descartes 收购最后一公里管理平台 Drivin，进军拉美",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVDVva1AtNGdsRXJhaTctNUdCUkFsQWFSRHdGOVpPYjdlWUE3OTRpYzNPTlVyYl9jRXpGTXZSbkJnSjBiWFhuRnpabGUyZlBTQzdqZjFPM21kTlVJN1BOUzlkNXNrQ3cwcnVyU0dYV0dYT3lGVWVKdWdtaDhkNWFGRzYtdW1nWlJlTnJERmFUQU9GaXFSeTFfN2FDeHdHa2FBa1FJLTdHYnZLWk44cXR1YzBMN0k?oc=5",
-      "source": "BetaKit创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "SK 海力士寻求 280 亿美元美国 IPO 上市，存储制造商乘 AI 东风",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLUlFWXdRTU5xWGN0RXNERzRBNHMybS12TU04V1g0eTBEcWs4NnEwZzNOLTRxaGItcU9RVGlZeC1WNk9kaEx6VWREV2ltTDRyVUJhQ0RtQjdFdTVfWW9IdWxBcHV4WkxncXJDemx6ZXp5bGM4Y1RkN3c1MDBONVJ4c3dRaDNKU1VyeXJteURNbW5GaGhzTkE1emVaNkh4ZUVoZTJMR3IyRFhxLTRwY1Y5UjNaR2poSk8xUEowTXhuQXVXYjRmUDRvS1Z3?oc=5",
-      "source": "雅虎财经",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "IPO上市事件，涉及金额 $28 b。海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "医疗系统合资企业寻求成长资本时，别忽视银行的作用",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeHo5R0lSVlphdS02VmZEMk1Zc0RhcVFUMkRpT19TVUhyTkJ3YS1LYVIxV1ozdWNEcl9sb1lDWGp5aERQa0o2YlZQek1idkM1Mlg0cEt4S2FrSkw3MXZDOXhVQ09wWmxFOHlvdE9LTEQ1ZDB6ZW5xVmRpSGZDeFEwYXBrNDVjMVNMM3RsejNrbTJkSXhjSEtOYkZaVXd0aVhnbGthV2sySW0zNDBJWHVZbURKZ1NpQQ?oc=5",
-      "source": "Fierce Healthcare",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "行业趋势事件行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "The Protein Brewery 完成 1800 万欧元 B 轮扩展融资",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORDlMRnNqbk1rQ2thQ0h6Z0NvUHQxYi1ubWc2SzFLem5WR0ZqN1YtTF9nN0Q2MWI5VHc0LUxxRjBOTW94NWM5M2tiWVMxRlh3N29hTlJPRG5uSzVSRVBfX2FhM291MFBHN18yOXhUUnhtRjdQWWZHMlN4NFk1eDR5QzlEZ3ZHNXdLSWpmX0k5TElkV0tFZ1hLNkUxVQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "ZIM 公布并购协议进展",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT0I5czFmQVZYZ3d1LXhCc182UWlMaXZxZ3dvbl9jNG8wUkZyQlg3YWN0UHg2dTJCeF9HZmdyeUZocmcyQ2p2MHFhZURfR29kMXRZaU5qbDBlNDdmdTgxUTlVRl9HSFJZTi1fMW5oUEc4VWxLcWduZ3F0VzlPNGZzc3hTWlFWWjZyNll3Z251d1pQVEZIOC1vbUlrZw?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
+      "entity_name": "",
       "final_score": 7.05,
       "dim_scores": {
         "industry": 6,
-        "signal": 4.8,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购并购事件值得关注其对国内银发经济的参照意义。",
-      "tags": [
-        "收购并购"
-      ]
-    },
-    {
-      "title": "智能眼镜厂商 Even Realities 获美团、腾讯领投 1.5 亿美元融资，估值达 10 亿美元",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQW8yR0ZFd0hLOVAwWnRIc0JWNDcydk54TkZmTktfMHJVRDlVUVRJS3lQUHJLT1VXbUxwbFhSREZHeWVlcVAtS0N6c0o2TG5ULTNuYXpvSzJ1a3Vod3ZFZ25zaEc1cWppMl9PdUVBSkkzRm8zckhGNXFtNUt0X2plR2phWTd4RTFGNVBIaVJZQ1ktMW91Y19CYUN5SWFRd2VGeW0yZ1lTT1N3YmJEaXg4bTZxTlktSHcyQUlyYmNKejZUeWllQWNv?oc=5",
-      "source": "TechCrunch",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.03,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.3,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $1B。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "Storika 完成种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0Uzc0RmUzN0FRdE9GWXoyWUtsOXR5VnVnOThqdjNxMHM5LUJIV2J4UXhrSEdTMGN2R205VllUb05wckEyU2dScmU2NUYybW9aczg3YTFGV2RVWHN1alVPaEwxSHNYemtvaDNaV0dOSUdGdw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "Worldmodeldata 完成 700 万英镑种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdUhCTU1nNUZyaTFrdThUNXB6b1NhTVhEekEtZ2RyazkyZjdQV0hHeHczeWRkaG5vZ1kzMEtiUzRCa0k2TGV0U2d6dkFGc242OUd1QmVfYmlMaF9EMm5NYzRibnFnX3VJLUNiUlJuMkJ5bFpwMUw1MXl4RHE3UmpHd0k1VQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Aylight 完成 450 万欧元种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTXBpcXM3MG5tTU1FRVVmbjA0ZzZXVm5rMTNFOW55R2ZqMXMzMWdCZ0FZMEpmUFV0X0V3Z1FEYVVRNExGd1NSR19vVnI1NGtpWERwQTlFc211cVFnQWwxYzhYcFc3TTJvX0pvM2xqSENINUVJQndKS3RqajhPMk9mc3Q2VQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Digiclean Solutions 完成 250 万欧元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVlRMFowWGZiS2c3bk1NYXpFLWFaWFFGT2lxa1RYMndqU0ZlM2dORU4td0J2Wko1TXREV1pBRXFtMlVjaUhtSkpoaGtiSl9yTGE1UkVQWXJwSFk5M2p5dHZQWUhUSUFlWHJnV3V4MWNuQkFsMlhSTDZSZmZ2UTZRR1EtOG8ycWNQbDZZdldR?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Heart to Heart Hospice 携手 CyberMaxx 提升网络安全",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZzlTcGp4Q2hhS1hyaC1yYUhQTVNQMlA1Ry1Zel9KS251YWJRQmRLamI1bG1sai1kSzdsOGJReTVhUlZBbmpQejhtVmxFZTM2dTNOSU9sQnFkbF92YlZrZDExYWxVMEFWVWxyM1c0VVpkN0NlMkVEVW9TYVlFamFjWmp4eHFTMnR6V01nY1VTeXpsRVN3Y25sZ1RrSmZtUDA?oc=5",
-      "source": "居家护理杂志",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "战略合作事件战略合作往往预示生态卡位，中国创业者可思考同类联盟机会。",
-      "tags": [
-        "战略合作",
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "J-N-J Home Care Services 在德州达拉斯推出 24 小时居家老人照护",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNm9iS0ZUNlBVZmE0elYwMC1GSHZGeE52aXNJZW0yblRUbTAxYm9UUkdPSThKM2VxZFNKdjN0WW5wQWJySldudnBxREdEeHRSMmtoQzdyNDlScjNwMHlQT096eXZPU3dudW5leXg2YndHRTRObmNFZXcwMjV5ZlNfYjFDOE9WNmVDLXN1b3hyS3ppeWdFUGd3M3lGUXVzQQ?oc=5",
-      "source": "openPR.com",
-      "date": "2026-07-06",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "居家养老"
-      ]
-    },
-    {
-      "title": "上海银发经济“家底”首度公开，一份报告看懂养老新赛道",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YNHpUWGRXNHltU2JQMjJZWjl0WXRBck10Y3FKT000S0RqT1dtSDlWY09PSzg2X0p2dldCTFdaY1BxSzFfTnYxQllqLUtyVEtrMHpzMTJB?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": "AgeClub",
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "上海首次公开银发经济“家底”，是地方政府系统性梳理银发产业的重要信号。对创业者而言，这意味着上海可能成为政策试点和政府采购的先行区，值得跟踪其后续的产业扶持和采购机会。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
-      "title": "条例施行，重庆出招打通农村养老“最后一公里”",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HTEpJal9kcWVES1A1amFrNkx1QU84ZHpDX3dzNVpxd2s2YW1jbXJTOU42cVl2bnkwRUoybXY3RHEwa2JfcjRfbWJWbkVqNUJZdnczNWZjUnI0T3lwdWg0Y1Q3RV9WTDlUck43ZUVKMngxY2xUSVE?oc=5",
-      "source": "新华网重庆",
-      "date": "2026-07-05",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 9.0
-      },
-      "recommendation": "重庆条例施行聚焦农村养老“最后一公里”，农村养老是中国银发经济长期被忽视的结构性机会。地方立法推动可能带来县域养老服务设施建设和运营的增量需求。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
-      "title": "TwelveLabs 完成 1 亿美元 B 轮融资，打造视频超级智能",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSHNvaGpFQURkbHZ1Znc5YTB2UE5PcVhmNVY1aTBGaDZ3N201VHlvZHkzVzA4dkdSYWdRWmdIdUE1NXpWM1VOUTBEWjc0WXVTQlRTX3hDa0lHYWtxZ0o3MUlsRjhNLW9abXhuYmpSZGZ2QXpwRlhyRng4eXJjekRhQnpqQ0VESWdJTTdCd0Y3MDUyRksyVlHSAZsBQVVfeXFMTzEwWmMzU0tNbm5ZZkd5NVZ2MExkOExGaW1qUFZja3hUZnd5Y3drNnRGOFBhMHFMMTV6aWF2TXlsNE1mWkd6bVMwVS1oZ0piUEEtYmJld1M3ZExNRHlPX3p2WURNNUVjSk84ZF9qQ19tb1dpd1JQSlVMdnFLWHcxOXRuWVBUX1czeVh0MzNJeEZVSVhaaFFfVUZ3c2s?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 6,
         "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件，涉及金额 $100 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 7.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 9.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Radnostix 收购 Lucerno Dynamics 资产",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0tVTYyV2JJQTJnTmRuQVdSRzMxTk9PbjR6OFV1N2tvQmRZUzFEbF9kS0dlcDRCa0F5ekVPRy1tREs3aUlRcUhGMThjOUkzVWFIdXdXZVVjVnZzdE9MRUxlcE5FMEJ1ZGZRRFo3bXRWa9IBdEFVX3lxTE1pYkpFVVhxaXlrRGlLajNZVE5xdzQzcnUybzNUZEJXMmtiR2VyeTBJRThvZ2szbUYwblppc2gwM2Z5SDlWaDRCUFQzdTQ0OEotb2lhWkxheEdvbWlHYS1ZM3dNTFhzcThQSDhpaTFRSThiTnBE?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
         "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
+        "cn_fit": 5.0,
+        "urgency": 10.0
       },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Havis 收购 Pro-Gard Products",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aNWJhWjdaVnByYTlsalZJMG9RdDFVWUlKdVVjR0dCRHNfTzBIdEZTWERwNTVwQjhEdnNVTW1HeXpGOGNvanVXRmFPcklHWVFrOVYzS0kzOE9QSERENUVGd1UxWU1tRTTSAWdBVV95cUxOWjViYVo3WlZwcmE5bGpWSTBvUXQxVVlJSnVVY0dHQkRzX08wSHRGU1hEcDU1cEI4RHZzVU1tR3l6Rjhjb2p1V0ZhT3JJR1lRazlWM0tJMzhPUEhERDVFRndVMVlNbUU0?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Peak Rock Capital 收购 Asembia",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QQUN3VXBKNGY0djFaY0dZYmNfUlM4WmQwMmo1YkdJOWt1TzdMZE1YWnE3QTlHVEdEM3BKZl9TSUFRaVlYcGxoX2lnX2dybWpJdmZLeS02a3FMTXJ4S0dJNHBDa0hXNzYtcGfSAWpBVV95cUxNUEFDd1VwSjRmNHYxWmNHWWJjX1JTOFpkMDJqNWJHSTlrdU83TGRNWFpxN0E5R1RHRDNwSmZfU0lBUWlZWHBsaF9pZ19ncm1qSXZmS3ktNmtxTE1yeEtHSTRwQ2tIVzc2LXBn?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Wayout International 完成 242 万欧元 A 轮扩展融资，扩张分布式饮用水基础设施",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcjZFXzFNakhaTzJUS3QxeHVTX1ZmOWVfMlRyUXl5S0psWDRaZUpQazBaTFhFM1VWWnc4T2V4V0JQSkthR29NclJVdnpBaGtCc3JFb1IxdGU0N3lwWDB5SkN4cW84S2o3bExzSGNRQzBvTmw0MlJCZ1d2TUMyYVBySEZVY3lSUl9BdDVuRzhsOE5CejJfVDlPazh6Y2dZTDJ1VmdYdk40cjhEZkxhaHpxOWN1eUJoT2RIZHNETVJ0MmlHQjhHNTFmcEEtb2ktMFE10gHQAUFVX3lxTE5yNkVfMU1qSFpPMlRLdDF4dVNfVmY5ZV8yVHJReXlLSmxYNFplSlBrMFpMWEUzVVZadzhPZXhXQlBKS2FHb01yUlV2ekFoa0JzckVvUjF0ZTQ3eXBYMHlKQ3hxbzhLajdsTHNIY1FDMG9ObDQyUkJnV3ZNQzJhUHJIRlVjeVJSX0F0NW5HOGw4TkJ6Ml9UOU9rOHpjZ1lMMnVWZ1h2TjRyOERmTGFoenE5Y3V5QmhPZEhkc0RNUnQyaUdCOEc1MWZwQS1vaS0wUTU?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Wallbox 融资 1180 万欧元并获额外 400 万欧元投资",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTzdYVnBueFlZMnN3N3ZLX3hvSW05Mk1QZUtwQ3hrTkZwN0FSWDNkVzJPWUtyc0pfYjVaNzFtMVp2Q19pR2hhb1hrV3lDYjdCWkFPNkNkNXVrZ0dSdXNiem53aXRqdWI3YXM0YTFJOURneXQ4cTNEVEQwTzJTUVdCY21ld0tySHdDYTM2azBqbjlaRmwwYkVWbtIBngFBVV95cUxNSkptUDJPdTNuZjBISjd5dnFySmpjQzhXOUVfNEpkeUpwWVZmNlpCMU1KdFByRWIwc3lHczF3Rm85NE5wYU5MYVlZODFoYVhjUmxWT1dra2J2V2NkcDV0cDRiMURVOFRyLTNKQ05QMDdWZHpEQzU5RmFtd3hKS2hwMkxVb29saXc5cWRGTzZUNUFzSEVKcGZzWktueko5QQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-05",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 9.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "长护险：老龄化+政策驱动，激发银发经济新蓝海",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsODg3TFN0THRRdVpNY1VJRnhoMDRBX01fQ3RMYnp2bjhUVHpzRFhUdm5zbDE2RTUtVkc1RXFCdW95YmZVekFheDhQbTVlNVR4QWVsd0J3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-04",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": "AgeClub",
-      "final_score": 6.75,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "长护险是中国养老支付端最重要的制度变量。这篇文章系统梳理长护险的政策驱动与市场机会，对理解国内养老服务的商业化路径至关重要，适合作为长护险专题的背景材料。",
-      "tags": [
-        "政策法规",
-        "长护险"
-      ]
-    },
-    {
-      "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-04",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 10.0,
-        "urgency": 7.0
-      },
-      "recommendation": "海外长寿诊所融资1.08亿美元，年费8.5万美元，代表“健康优化”而非“治病”的高端服务模式。中国高净值老年人群体正在壮大，类似的高端健康管理/抗衰服务存在市场空白，但需警惕支付能力差异。",
-      "tags": [
-        "融资",
-        "成熟期",
-        "对标标的"
-      ]
-    },
-    {
-      "title": "养老服务师职业资格明确",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsS1hIYmdYUS0wODc4MXZvNGVxbERHMEkyNzhKYnljMGk0UWtqTFd3S0ZKQ2YyV0RiX3V3Rlc2WVBOMmYtSlhITlQyRUlVNTJleW1paUgyN2plV1hSTTd6OUUxMmNrc0Z2UW4zeg?oc=5",
-      "source": "中工网",
-      "date": "2026-07-04",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.85,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "养老服务师职业资格首次明确，标志着中国养老护理员从劳务向职业的制度化转型。对创业者参照：职业资格认证意味着准入门槛提升，同时也为优质护理员的薪酬议价提供了制度支撑。可与上海陪诊服务标准化政策（8.4分条目）对照——两者共同指向2026年是中国养老服务业标准化元年。",
-      "tags": [
-        "护理人力",
-        "政策法规"
-      ]
-    },
-    {
-      "title": "Jersey Mike's 申请 IPO，拟以 JMKE 在纽交所上市",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzBRaEZJc0xkZTF0cDJqbHJxZG5tdEpmZ0E3NlEtWjRYaUZvSWpBSHdXbEV6d1BYbWlWVDBRZml5SzNBVXJkTDVlelU5NHpiOF9vbHRqVDNsTlg3OTBGQ1doWEpkTWc5bEotTmhsTXdoWTVpQW15b2laZl9xYjQ3U2E3MXkxVE3SAYwBQVVfeXFMTmwyY3pqNE40a0pCQ0FoREdjbTRlUGxnd19ZR25PcHZvVDlCSWNwOERhSTcwcmVHR2RBamh5dFBraEZYaG0yclFmcGhaeG9NdjZIR1NFWm51VU1UY1Vkcko2b1l3NTM0NjRjWUxpSWZqYVpNN2I5LWd4MVZxWkhIUXRLOG95c3F6TDhaMzM?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-04",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.55,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "IPO上市事件海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市"
-      ]
-    },
-    {
-      "title": "Edge226 收购 AnyClip，扩张 AI 驱动的跨渠道效果营销",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZDlmOXdQa050YlBrYW9qd0hlUURFRkxfU2xMTGp1NVpUcS1RZXVqeXNNbXNMdGxFSjNaVHNOaHpMQXgzU3d0SUpld2tkUFNoZXZQdDhlZEoxbnVnWnVFdTVHLUx4V2RwZFpDREdoR1lCR0ZjbWcxNjVaRnl4U0lCYkNKZUY5c1RWSlVlaWVCbTZETWdycGxQa0FUM29KUktENzBJUXhuc1rSAagBQVVfeXFMUGQ5Zjl3UGtOdGJQa2FvandIZVFERUZMX1NsTExqdTVaVHEtUWV1anlzTW1zTHRsRUozWlRzTmh6TEF4M1N3dElKZXdrZFBTaGV2UHQ4ZWRKMW51Z1p1RXU1Ry1MeFdkcGRaQ0RHaEdZQkdGY21nMTY1WkZ5eFNJQmJDSmVGOXNUVkpVZWllQm02RE1ncnBsUGtBVDNvSlJLRDcwSVF4bnNa?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-04",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "智慧养老",
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "ChatGPT 开发商 OpenAI 将进行 1 万亿美元 IPO，最大赢家或是微软股票",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVDdyNUI2amtyZ1U1OEk1QUVYcTg5V3FjRlZZdTlXQ2dNMVJnVGNMNjdJcHRaUms4blo2WkRDZ29qdnVUUFVHejlSSk1pVHBRSHR4LWxJeUhuN2ptdVlac21oQXFCVWtMenRlVU52SHVqMGdFejFkMHphTXJHQ0FxOURJVlItN0lBVXVudmZEZEdYTkl1NU4yb0pR?oc=5",
-      "source": "雅虎财经",
-      "date": "2026-07-04",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.93,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "IPO上市事件，涉及金额 $1。海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "清华大学最新“养老”报告出炉！真正做养老规划的少之又少",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSG42Zm84QnhOcHMtUTZESUxkS05zTjhDVklYeklqRVZuUHV1dWprbmNiOEtIendtOFNaV0ZYai1NU2N5Ymlmd1RjcGtsRFZKNHFSSWZXODlycEdnRThaV3pLRUtYRDkzNXBmdnZ3ZmszUS03MXJ3RnhGSnZyNWxFcnRLWXBEOVU2Snhr?oc=5",
-      "source": "新浪财经",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "清华大学养老报告揭示“真正做养老规划的人少之又少”，反映中国养老金融和养老规划的认知缺口。对银发经济创业者而言，教育和信任建立可能是比产品本身更前置的障碍。",
-      "tags": [
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "如身机器人完成亿元Pre-A轮融资，推动养老机器人规模化落地",
-      "url": "https://finance.sina.com.cn/jjxw/2026-07-03/doc-inifntfe2365970.shtml",
-      "source": "投资界",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "融资",
-      "entity_name": "如身机器人",
-      "final_score": 6.75,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.4,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "亿元级Pre-A轮融资在当前资本环境下非常罕见，清松资本（医疗基金）+润泽科技（算力上市公司）的投资组合说明具身智能+养老赛道的交叉点正在获得资本认可。如身机器人选择从养老机构B端切入而非C端，降低了落地难度，这个策略值得国内同类企业借鉴。",
-      "tags": [
-        "养老用品",
-        "融资"
-      ]
-    },
-    {
-      "title": "烟台发布《养老产业高质量发展三年行动方案（2026-2028年）》",
-      "url": "https://finance.sina.com.cn/wm/2026-07-03/doc-inifpkau5657769.shtml",
-      "source": "新浪财经",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 6.05,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 2.4,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "地方性养老产业政策持续加码，烟台方案从'一床难求'到'一键享老'的表述体现了从机构养老向智慧养老转型的政策导向。对选题的参照价值在于：多地出台类似方案意味着智慧养老SaaS、适老化改造、养老机器人等领域将迎来政策红利期。",
-      "tags": [
-        "养老服务",
-        "政策法规"
-      ]
-    },
-    {
-      "title": "银发经济浪潮下，东软睿新的数智答卷与民生温度",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52cW9YUk5ibTFyRDdyZVJzODNQZTF5ZEF3N2lWdzQyYXR5cERYRk1WRXUtUWlqQk9vV1VqME50ZU9vQW5aN1k0ZC1wOVBTcEFvRGNJcEs5dHhTQUc1NHc5YTZwWnM1OGhKa0c0SA?oc=5",
-      "source": "中华网",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "东软睿新定位银发数智化解决方案，代表大厂系银发科技玩家入场。对创业者参照：大厂入局意味着赛道天花板在升高，但也要警惕大厂做银发通常重技术轻场景的通病——东软的核心能力在医疗信息化，但银发场景的最后一公里不在系统里，在现场。",
-      "tags": [
-        "智慧养老",
-        "大厂入场"
-      ]
-    },
-    {
-      "title": "闲置楼宇变身康养热土 韶关乐昌聚力打造银发经济新标杆",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3BtaDRJbjJ2QUluaVJ2R3ZHMU9UcnRpeURVYm9hY0hiNDZYcEdHdlNqaU5ybjFVMkpGM3hmdGxFQ0tuV1M2UHpfVWJ2Y2Zhd0NlNUxSblpYdG9CSWNxTXNKZ095cjFSWWRMR25jNEYwQldSNDJvUl81YnMxbVZ1bUVVLWx2Q1UwSnc?oc=5",
-      "source": "广州日报新花城",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "闲置楼宇改造为康养设施——轻资产路径探索。韶关乐昌案例偏地方叙事，但闲置资产活化+养老的思路对国内大量空置商业物业有启发。归档备用，积累5-10个类似案例后合并分析。",
-      "tags": [
-        "养老地产"
-      ]
-    },
-    {
-      "title": "Venice AI 完成 6500 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0FxanhGR1RlTU1yMlpDUVN4X0pjeGpINXZsUXBtWnNLWnpoNzhNTXA5SDgtT295WUNrZy1RcmJLNUxGZnllZHhMd2p5ZGdqWXloLW9aVVZyUVNXYXFBNklSekNWWUlOVTd0WDUtZG4zaDlkZDU5aUVLaHo0bEtrbHVhZw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "融资事件，涉及金额 $65M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "BrainsMingle 完成 40 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZzFpRUh2RU5UMnhtSXhybElYWG1ORk9ITjJacmhPc1dneGJ5MVhSN0hrVWdiVTlVS010UDFUWWluNnR4MW5NVUI5UVZ3Zk1sZTk3YmxMdGYtTkdyUDlTd3A3TjhrOXZkZ2VOMGFRQmhieXdCbVpMMzB1eEtLTFFkd29FWQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "融资事件，涉及金额 $400。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "PlayBlue 完成 270 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hV0tmZTBvV0JfRF9FRnVUVF9WUjhoWGJHWjV2NTluT2RDZEYxekh3b1hxbllyTDlJQjZIQTBtLU54ZzZ4YTUzbzhmRC1kWC1BVWtpQW9TN2ZlSDdTV09Zc2NJaVQxSm5KQUlMa3dmNERTMGZJMUFTQmdNWndFdw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "融资事件，涉及金额 $2.7M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "recommendation": "本轮融资 2000亿元，资本正加码适老化改造赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
       "tags": [
         "融资",
         "智慧养老"
@@ -1503,16 +55,16 @@
       "date": "2026-07-03",
       "region": "overseas",
       "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 7.95,
+      "entity_name": "",
+      "final_score": 7.04,
       "dim_scores": {
         "industry": 10,
-        "signal": 8.0,
+        "signal": 10.0,
         "writing": 6.0,
-        "cn_fit": 8.5,
+        "cn_fit": 5.0,
         "urgency": 7.0
       },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "recommendation": "新一轮融资落地，资本正加码购物渠道赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
       "tags": [
         "融资",
         "产品发布",
@@ -1520,46 +72,93 @@
       ]
     },
     {
-      "title": "Materna Medical 融资 500 万美元，推出保护阴道分娩盆底的设备",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFRWZDNsM0FSMVQ5QzFrX0ZZZjNrMmNTTFR6T0hFRHpmMnRuSUc5aktidm5iYmVURVE4VjRFbk5vVTF5MFYxdVcyb0thUU00OXJ3eFl3QVZucnR4MlUxVm1kZ0lqS1BMMVJxbTh2YlUyQ1ktQUdZazBOaDVQMDk2Q1F4eVlJY2w3b2xBS3poQXR6eEhNUGxNUzJrckVxZjhZVVdhZDFpcWZ5Y0lGMnFodjg3X2lMNzJmSVRQZXo3LTNUb2dZU1E?oc=5",
-      "source": "Femtech Insider",
-      "date": "2026-07-03",
+      "title": "银发快讯 | 同仁堂医养在港交所上市；46岁+下沉市场用户占比达46.3%；蚂蚁健康、仁济医院等推出“AI陪诊码” - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4ydU8wUVliS3k2UldPV0pUcWVYMEhZUEtpVVFPWDJiOVNGUGphMmFSaEM1TUpTTHZzQ0d0REFaTXpoWmUtUWszNzBVQ1lQcHMtTFJtSUx3?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-08",
       "region": "overseas",
       "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.93,
+      "entity_name": "",
+      "final_score": 6.47,
       "dim_scores": {
         "industry": 6,
-        "signal": 7.1,
+        "signal": 10.0,
         "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
+        "cn_fit": 5.0,
+        "urgency": 8.0
       },
-      "recommendation": "融资事件，涉及金额 $5M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "recommendation": "新一轮融资落地，资本正加码健康服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "IPO上市",
+        "产品发布",
+        "健康服务"
+      ]
+    },
+    {
+      "title": "美国机器人伴侣公司融资700万美元，超2.3万份预购验证银发陪伴市场 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-01",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 6.18,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 5.0,
+        "urgency": 9.0
+      },
+      "recommendation": "本轮融资 700万美元，资本正加码产业资本/投资机构赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
       "tags": [
         "融资",
         "智慧养老"
       ]
     },
     {
-      "title": "Scandium Canada 收购并重塑滑雪制造商 Ferreol Technologies",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakEya2R1QkpWOXBUSmxyY2hJMzZOLUhJRkNJcnRhTEZxcmRqWHVtZmhyUkVoS1Z4b2JYcGtsdXY3bjdkVzF3bVJ3eE9XUzFOYjZsblVOQnJLcmFidnNqQjh2NUUxcWgxWFRwQloyVGFhaDVLZk96c24zMm5mdVZhb2thWkZUcHRwYlRQYlhn?oc=5",
-      "source": "BetaKit创投",
-      "date": "2026-07-03",
+      "title": "National Healthcare Properties closes $197M in senior living acquisitions - McKnight's Senior Living",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUY5ZGJfZnZDdEVZN01JMEFIMEIxU0puczNOY3loRGhUMVBpMWpnY3BxM2plSkFaUzRvcnJSSWNob1dRdmVqdXBEaEFmWjIya1Q1d01BdFd1Z0RkZl9Dam52TmF6UnhydDREdE91a0NTZHIyNzUzUTRGSUhDZFh0bmZJRmo0WmdDQVJ6SEpwX25seDMzNk9uOGQ3cVNaTGNjZnpOdWhScFBjOGxpc3Y4azNvUngtaTQ?oc=5",
+      "source": "McKnight's养老社区",
+      "date": "2026-07-07",
       "region": "overseas",
       "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.95,
+      "entity_name": "",
+      "final_score": 5.82,
       "dim_scores": {
         "industry": 6,
-        "signal": 5.6,
+        "signal": 8.0,
         "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
+        "cn_fit": 0.0,
+        "urgency": 10.0
       },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
+      "recommendation": "美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
       "tags": [
         "收购",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "Competitive, Selective, Hot: Senior Living M&A Still Surging in 2026",
+      "url": "https://seniorhousingnews.com/2026/07/01/competitive-selective-hot-senior-living-ma-still-surging-in-2026/",
+      "source": "养老住房新闻",
+      "date": "2026-07-01",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 5.65,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 10.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 7.0
+      },
+      "recommendation": "美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
+      "tags": [
+        "收购",
+        "养老地产",
         "收购并购"
       ]
     },
@@ -1570,1005 +169,19 @@
       "date": "2026-07-03",
       "region": "overseas",
       "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 6.55,
+      "entity_name": "",
+      "final_score": 5.6,
       "dim_scores": {
         "industry": 6,
-        "signal": 5.6,
+        "signal": 7.0,
         "writing": 6.0,
-        "cn_fit": 8.5,
+        "cn_fit": 5.0,
         "urgency": 7.0
       },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "recommendation": "新一轮融资落地，资本正加码产业资本/投资机构赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
       "tags": [
         "融资",
         "政策法规"
-      ]
-    },
-    {
-      "title": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "AgeClub",
-      "final_score": 7.33,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "收购事件，涉及金额 14亿美元。美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 6.93,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "融资事件，涉及金额 2700万美元。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "健康服务",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "VSORA 完成新一轮融资",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LRklmcnJiZGZZQVlVS1ZfcGZULXRjel8xbmVvLTZLN3BEOC05RUJFVDBLV2piZndYYU9ScmhweXZMNl81czhxWFFQQVZTMC1VQ2p4V1F1SkNVYjVOYWJrNVQxRVNrU0V1ODVaNTBjei1fZTE2RVpUUEV1QQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 7.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSFltZnR3bHdHejZ4NGhUb2Y4SmRlM2VHZVFqYjZqWS1Jb2s4NkFnNjJ0UENfeklwZUxBc1BaQnBsUzJOQTktcnN1bFRqRTVzZVVTSXN3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "AgeClub",
-      "final_score": 5.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "湖南上线灵活就业参保“一件事” 养老医保自由搭配最快7天办结 - 湖南省人民政府",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pRWdpM0VPVk5kOHBxM012Y2txRHRtcW9hVGIzWURZNDJBVHQ0emVNcVo4YmF6TGJyU2k4QW1oTnBadHZPU1NLb0dfS3UzVVJrSnFfQkJRdnBqZmVVNzJMYTBFMnpzcGVzRUF0M1VNcWw5YmlwNGFkOHhrVF9lZw?oc=5",
-      "source": "湖南省人民政府",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "烟台发布《烟台养老产业三年行动方案》 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIc0pzVzVDcHdjTjluZGdCSXN3ei10RUxLY1hsUTN5UTR5Qm85b1RUU0pUZ1BNTTZIT3FHZUZlUnBocW1vSjZ2bFVya1A0bVhjbk94cUhTalY2dHMyT2FwbE5NRXdRTzYwdU5JVXA0aG9JRk9zakE?oc=5",
-      "source": "新浪财经",
-      "date": "2026-07-03",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "Athulya Senior Care 在班加罗尔推出免费痴呆症意识行动",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXg0R1JmQ1BvOW5KRXNJSEg4QkdIZWdFWkZhdVdPNXl0M2tDaEV1bjExNWN6LTI2cEhxc3VNVTdfSk9teVI5QUR6WHh0NVNQa0tCMDN4UHBCR01maUhoOFpOc09UcDF4TXlWd1FCc3diX1pCZlFKeE9hb1pGcXVhUFBTMXloNHBpVVVWYzQwd2JnSWpVQnBQcXZCR1lwdGExbklUQXo3NUlSckZGc0wyd0lEMUo3Zw?oc=5",
-      "source": "Passionate In Marketing",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "Athulya Senior Care",
-      "final_score": 5.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "认知症",
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "京东国补正式上线养老服务：每月可补贴50%",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCeDRnSTh",
-      "source": "驱动之家",
-      "date": "2026-07-02",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "这是中国银发经济的一个标志性事件：国家补贴首次通过电商平台落地，50%的补贴力度直接降低了老年人的服务消费门槛。这不仅是京东的商业机会，更是中国银发经济从「政策文件」到「消费者可感知」的转折点。如果补贴模式跑通，阿里、美团、拼多多都会跟进——养老服务的电商化时代可能由此开启。",
-      "tags": [
-        "老年消费",
-        "政策法规",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "国家养老服务消费补贴上线京东 全国电商首单落地北京",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BQzBXTkVTdnJjVFBEZktEc0RFdE8zN2xoUjRmYjRROGhIdU5KQkwxeEhPTGx2NGFqbUxrdFh2UHpxVkJzWGxZRnBJVDRzc0JIWU5LX01WNWpiM3VsY0kyOVB3",
-      "source": "观点网",
-      "date": "2026-07-02",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "与京东国补条目为同一事件的不同报道，观点网版本更侧重全国首单落地的政策里程碑意义。建议合并参考——这两条互为补充，一个讲50%补贴力度，一个讲全国首单的政策突破意义。",
-      "tags": [
-        "老年消费",
-        "政策法规",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "在建项目：LCS 拟斥 8200 万美元在北卡扩建；Benchmark 与 National Development 公布纽约项目",
-      "url": "https://seniorhousingnews.com/2026/07/02/in-the-pipeline-lcs-plans-82m-expansion-in-north-carolina-benchmark-national-development-announces-new-york-project/",
-      "source": "养老住房新闻",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.93,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 5.5,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "LCS、Benchmark、National Development等多家头部运营商同时推进大规模养老社区建设，总额超1.6亿美元，显示美国养老地产开发信心在利率高企环境下仍然强劲。中国市场参照：国内养老地产同样面临开发成本上升，但泰康、国寿等头部仍在扩张，可做中美养老地产投资逻辑对比分析。",
-      "tags": [
-        "养老地产",
-        "融资"
-      ]
-    },
-    {
-      "title": "养老机构运营商不应忽视老年人延长工作年限的趋势",
-      "url": "https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/",
-      "source": "养老住房新闻",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": "AARP",
-      "final_score": 5.75,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "65岁以上工作者25年增长两倍，但养老社区月费超出收入116%，供需错配将倒逼产品创新。中国市场参照：中国延迟退休政策逐步落地，退而不休人群扩大，对养老社区的产品形态和支付能力都将产生深远影响。",
-      "tags": []
-    },
-    {
-      "title": "Quantum Systems 以约 80 亿美元投后估值完成 12 亿美元 D 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaTAteDlyRGxZSF9JM2c5bTU0UFJQczY2WTRfdkdqTjQyU3lIVjEyOW4wMnV4b0NRQjVIckRWM3d2aXhBdWZLQVVTU1pJbEl1bVBUYlJ1X1p3OURRb3dYRllaeXcwdmhnOGhEQUxTaTlpa3VWYmtSYmcyRW1nT3Y0Z2tIYkFPbUZpRWtFMDlncml2QmVzT25ScDREaVBWdTdNOW1NSnFkOGlsc3AydnZ5YlBkWHUzMlVpdWpKUGlTejUzRVc1SHNJUG1lX180SXZp?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $1.2 B。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Together AI 以 83 亿美元估值完成 8 亿美元 C 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSFF1TW5xOVpIX3Jrd3o2Q3VuWTZ1VmFKT2FLTG41Qno3RE9WT211b1dER3Byc0pGZHRQSmFTNGtNb0l5M3A0ZkVtWmtfTmhabzRwVm9zMWJ4cEMzYTZ1MUNSdnVSMzNrMzY4M0ZFMHZsMHE1U2l4TkRIUGdlbVVDUFJQZnZYajVVU2Y0SU0zeG9WekUtNVdFRWVwY1RyUQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $800M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Quantum Systems 以 80 亿美元估值完成 12 亿美元 D 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT3pJOFE4djVTc21LNXpBT2hqY3hWMFA1NFV1MTRpMlNfUXAtMDUwLWRzdDFIMVotX09ycGEyaVpVbzdJLTJPQ0x2N2dVZkNZNjhrY1VqcXFzZG9iZk5qMEFobmRySXhIUHR6WS1OQzRRb1R4NFJ6eDlDWlRKNkF4QW1Wc0tmVlJDVjM5N1ViQdIBlAFBVV95cUxQWVJjUlB1enU1dFQtUzh2NzhaM3BVWjRhb29NTmRCWVVRSlM0VlN0blpGeDBCUVI4NXFfYWRhMnZfaG9xclE4LUhncWZIMTNtUnJGQ2tBN3ltUExUV29od2dWSUI0OS1aelotNEZXbklEY013R2NubGNIRTcyY2tySzBDVHQyZGRmVWVhQ1NoWXRyVW1W?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $1.2 B。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "并购动态 - Modern Healthcare",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15dmVWOXV5RWVybzVHcG9kbm5HcDN0TVRVLTdUMm5QRm5jalZMV3ZRUXhGNDNzc0ViRFJhQnpPUFV0d2thQ0FnLUQ5bUphaTlTcnJ2cENZUXN1aHRBdTVRYldOUQ?oc=5",
-      "source": "现代医疗",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.75,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Addi 完成 8500 万美元 D 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZdXkxRlJDbUNEeDV5ckk0ZUtqbHNtQVpKMmxLX21HN1V5aTVIVWpaaFdZVXFPWjFSQWh1ZVk2Z3ctRTRaclN2emVvZ3JiZTVyZjBxRFJCUWZjZmFvTllRZ19jLUdwQkd0OFJ3WUZleHRtcDBObGk4bndMTkc?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $85M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "StirlingX 完成 2000 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQclBkRUN0aDQ2eERobXlYcFN3OTM1RW9remZla0FzZXJNVl9MbFFWZEIyX3F5UmJ0bjlQMWswNmtfRkFpMXNHcm52OW5YNUZTM1NkNEFPOUxKOUZPNDBza2dja3Y5SVpaVWttZkJNWEJsaVpPVHJRcE1lOFI4UXJVV2ZjQQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $20M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Luxonis 完成 1400 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUnd4T0VrUk5aQlZnMFpPNWdhYTVPZWdHNmtVRHItdHpyQm41MGlZRHV4UnRxa21QbDNjLVFPbUM1UVFEazdxTE4tdTRHME5XVi1ybWI0dVhZV0tJc3ZUZkdNLUk3VFEtaFBVSTE5UG92d3FfYnhhUXh0ZmNxYlE0Qw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $14M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Omni 完成 1460 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YNnpBVDlSS3V2SjZOZXM4WTd0bVo5bEZDZzNZZHY2bXNHbU01SUJfU1F2cUozam5NaGhkMWdNNlpRS0k5cmhieXFmSmFtX1dqemE0NmJxeWVSR3pXSDBicU0zekFtSk5UelV4Tl9vMVNsMWJKckU1UVk1c0tuM1U?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $14.6M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "LinqAlpha 完成 2200 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ0piNGViUm1WVEJ6aF8wWlVXQXp5aU9lYTM1R0tWQklYeFRjVFlxWERCUXBqQkRveWNyczdJVElYT29CTXFmWi1YR0QxYU1iT3J0RVltVUVPTDJRS1FmbjNURWxEakFkQUFITnFhR2NlU054RkQ5YzAya1JPNFpjRURCTQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $22M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Qolab 完成 5420 万美元 B 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcUJhQVkxYUprcTJWNk9WVEFQTk04RzlWTk1CUnVtVURoaWxNcjhRWXpSeVI1ckprTmJSei1OOWMtNjFya2hUU0VmX1JrQ1dPenNpWEwzcF9RbV8tVlJtQ0NoaXQ5WnczWDlKQ296dl9mUUtzNHIxRll4QnBLRy1WQVFIdw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $54.2M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "KredosAi 完成 700 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbHI3cE5jSkVmeUVBRHB0OUljSUJyUnhLYkw1YlBKM29ydEpQM0d6VWk4bFRrOGNDVmpmd2I2azB1ZmI2TG1rMVlzUE13OW1odlZaeVBwZFk2U1RqOThvN3JuSHl2OE12T3RrbnlXSXRxWWVVc2xGa1lpTWpvc1NxcQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $7M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Xellar Biosystems 完成 5000 万美元 A 轮及 A+ 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcEczbnhrNGJHVTNIQzhteUQ0ZEJYTlAzWnZFSXRXYXd6WUhwaHRGRTVUQmZyZGNQR2VNa290U0JSdF9nanJCSllPMGZQTnBYNE1zMW5DOEhiTFNsQlpRZmRuLTlhZFEzeEE0TURxZEswQTU0dUd1anJKd3M1YlcyTENSbTVVTG4zNVE3Z0piWDhwa3YyMTZ4bQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $50M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Nudge 完成 110 万美元种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Ib2R1cTJHbVh4eHhnNlh4NXotTFoySldIVlZ3WF9vMXNpZmV6R2RXV19OVFVINWUxX3dJc1RHWUFTUXU5S1U5NlhGbk1Ra3NydXE0eVdCM1Npd29IQnNfQnpYY3ZzQ29CLUZ6NHBmREh4N3hjYlVHOHp5ank4QUk?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $1.1M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "BidScript 完成 80 万美元种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDl6TlMwc29KWXpVTmsxMDY5RWdLQ2FoSGhyLUlvYkpXMUtxRHBPS19ibGVzODlGMDFUZ3Atam51VGh1SVhkTjRORUFUSFRySkhSOWdUOExzaVVXQkRjbVlDWjc2REJfak1wZkh2dXhwZF9YM0tCbVRYSHVSMXFtbDFicXc?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $800。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Librari 完成 175 万美元种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbnZ1emZld3p2dzNzRzd1Ql9RSWhOcXlVZGtSS0R0RGlWVlRBRXRBd3UtbC1UNEwydUVDWlRrdDNlN2hmaURsakFHRXBKQTFlNTRiN3FodWktc2c0QjhuZnBfN2l6WkpCS3NHOXhhWmVaMTc5OUpVTjFBR0JPVTNLOHVuVQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $1.75M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Air Energy 完成种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kVHc3OGw1YjhTTXQxYjJEUENuTWlHWDdqMVJlZUVhSVlTWU1XdmpjZU5aaHJYWnJTSmo3eUwyME5tc2M1U3p5cnl2TUtGeGVyU3VzMXFFbkgwVG03eWpncXZ5YlczR21yd01KenQyV3ZjT3Y3dFExWVV4TXUtUQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 8.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "RenaissThera 完成追加种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQVp0U04xRk05Zl9lYlVTTHYyLThqVVRhNnJLQjFKbXgxc0hXS25oV05aeHNiWUhid05mOExsSkVqOXVpTlo1c21hNk90Mmoyd3R6blJTWC05cmt1M2RzUENQWlZmUjAzS1N4MEpBZ1RtUlpwbWwtU09mSlRMdmdnTnU3aGVHVm5DY3FOcE9Zcw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 8.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Artan Bio 完成 100 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNDRxSGdOX25STmxueVc1anV1dUE4R2lSWURZYVRjMi1HNFc2TFl4c0twVmplSC1xZklIWHRPejdaVDU3VjZESC1SYlZZSTBXMTFpSkpxNnE5N1hxdmRfYllSaTMtUkVTdTZIUTFrbllOZUUzb3pHY0tfNHhMbDZRYg?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 9.5,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $1M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "和誉医药与阿斯利康达成战略合作，联合 TAGRISSO® 开展 Lumipodlin（ABSK043）口服 PD-L1 抑制剂治疗 NSCLC 临床试验",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQTDJsam5TOHhKYzB3cml3N0hiMWtNdTg0NjR1cXp1MXJVdzJIempTS2MwS3lWZVdNNXZQbjg3anJqTUhyT1pUU01vcE81VHgzM1d1MUhKOWkyWjUtOGxoczFTYVc1a1Z2MVhwQkFnb0owRGNIY0lXQmE1NkgzQjVrdUU3T2x0LWxNNUE0TmcxSi1SZVREa21JVXpkc0o1T0lqY0JIVWpTU2V2bFhKbzluT3VpWFg3aUlLdVpTcUtQem9QT2owbFpBT1ZqYVd0NDZNOEtQNXVjVW8wYkgxQkEtdGdYbkl5ajNscnNraVdFZi10aXR2YWljTm5TZEtDTElRaEd4a1hROEhPa1R1U2ZmOXpaMDc4M1cwbms4RU5DeGNKYmpVQjg3NjNrclFseEI3cHA5UHlsMDFKUEZ5aV9qUk52OHlZbXVvSE1Tb0I2d0tRdVd6VW1CRXBtbklyTThlMHJUX0tLNmRDaWRhdEE?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 8.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "IPO上市事件海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市"
-      ]
-    },
-    {
-      "title": "Athulya Geriatric Care Hospitals 推出印度最大专属老年医院，完善 360° 全周期养老照护",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQLXJmODlqMVlTTE5TeTNqR09VdV9CXzhmd25iSnUyV18wZDBaSU5uaGdMdHZ0TEtRWUIweUxCdzhDb3hfT1YzeVpTRnp5Tk1DcGxPTHNNQ3pidG5zWW5tSlVzUEg2UTRrM2ZrNEJqdnVJV2l2WnFMU0xVMmI5RHJRdnVBQzlkRWZUUHpKU3Yzd2EyYlJJQ2dCNlhpZE05MHQ3YUZTOWJ2UlY1cEZnYUI3NFZrSTRkMXBTbnJmSHc5eVNtZHRPbDVGZ3RGTTNwSlZ1NktLWHVHM2UtZ05RQnV5MWYwN2hxMnVBWHlnZlNOMkhhNko3YnpsNDhnR0ZUY2dBbGVmVlZPR3pxX3dVTkRnQjlCdzBqVUFLXzFnbnhSNjZsRUxPTTRLWDJ6NVVCZ182LU1rX9IBugJBVV95cUxONU12Z2s4REtPMi01ZDJMc0JkR2xpcGRRY0FKODBDS2JycnBsdWY1QTUyM2hsU2VSZnVOdVdISFFBSFpaSUdyX2dURUNpM3dsb3diRFk4X2s3VnJZeFRFS2RSemdNb3MxNGc5SlM2N1BmS3Z5MUpqUXlLTTVHcndxcDVrejhXcURQMGVWbGVLbmp3RFRQN0ttdjdjejBoemE4LUNrVUU4a0x2Q0dpdTZqTFFhazlMQWVfNFNXTWhDRkx3RFg2NTNWcFIzMUVlLTFaXy11S3hqMURkSlk5eGtEc2NiVHdvTXQxcHUtT3FDV2pMU0pKdktYVDRTX2J5NXluX3NvNXlTVEFXY2loSzYxOXhlajlVYVQ5bjkyWjFDRzI2TTlLb2liUGo5cDI5RjFqNWJhaHh6anJCQQ?oc=5",
-      "source": "Business Standard",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 6.15,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "Integral Privacy Technologies 累计融资 2500 万美元",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaE42Zmo3ZWpvS3Q2NFdpTWJrQlNtckVFQUZRWXRQeC03WjlEQXIzNGc5c183MkVYQTJnSTFpOU9Sb0NmOUo1ZXZlTlI3N0J4MUxqMWVHVnhpS0NwdUZLMERkNG1ta0tCT0swNVA2VlZacmRYTzltOFFZY05LUkVpeHJ1cURVTFNscjdFcC14Q0g3YnhqOXRDaFNn?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $25M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "10Beauty 完成 2350 万美元融资",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aVlZsR0NuTXN1MEp4Rll6cWZEcHdJd0Z2bHlkQ3hqeDFyQTZQUm8zelg3TzZQaUpoWTNGdFB1N0ZaUmxod3hrenlIQ0hpVHk3ODMzdlVRckt2NWNScFlraTBOYnRLNDM2YndvcUxTcE9jR1RaOFhtQQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $23.5M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Ubotica Technologies 完成 1100 万美元融资",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZjh5eWVrZ0RRVXgxLVVDOUFmR1MxdkxQNlhjNTRBSklycm1Ud3NJX1NzaDZ4bDJvNzhwQUJvYmh6REJhZmVaNmswSklPM0kzZk1vY2M3VUduYTkyOWFPRXd6NXFYMlVBMF8wZ1pzWUdMWlBZY2ZvT3NsX3VBU0hMOFRLbG5UUQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $11M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Celea Therapeutics 完成 1.8 亿美元融资",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWXBjMkwwUHhxemhnWm1lTERfODJ0Tl8zYUFCZlgydW5Zd3A0cjdqT1VLeHNzcjQ5S21aNzJxM1BQZUl2bUt1MXg1ZFNrbjk0RS1rWHlCVTlRLWQ2WnFuMjZzdHlaSFhfNU9oYWZRN3RQTjF2bDdISWNiWHNSS0RDQVJBbFY4d2M?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $180M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "PEAK ROCK CAPITAL 关联公司完成对 ASEMBIA 的收购",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXh2SnEzeFREcmwwZ1lwZXFFTlk2eGg0cUE3RWV6WVMtLThUbTY3TEFoU3A4T0lpNmFIMHd4ODlRZ1dtYjUxdTY3SDBlZTQwYm16UWJUeXpIb3RURTRMc1N0VVcwZUNObng4X3lQZjBDZ2dESEJVb0FKYW5md1RId3M3ejMtNndDZ3o2NDF4cXpkVnowWWpia0JpQlpwcHR2Yjh2enlZWm9EQmNaN1NxMlkxNEtORkU?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Themes ETFs 再拔头筹：随 AI 最受瞩目 IPO 之一推出 SK 海力士多空 ETF",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTGcxOFRSNGFoM1dvQ3ItM1FXZThVLUpKcVVhMW02Z05uYy1vdWhWYVItVW1WdHhsbl8zRnVQN01laWVUZ184eEZRTG1jZVJZcy1wYXFBVzhveTlnTDNJRm54QVBnY2kxU1NjRUVhYWFNWUZhYkgyMjRVYTYtcTIycVRub3lTVWZyWHpDZjRPNnQ2dWFsWHQ3d2oyRHMxWXI4eVRZN2c1Z0JnUXVtd05HZFJ6UWFNRXlaVTF5QldXdzV2TndlQmNZTVgxR0EwQVdreDdqeWgybW9vQUMyNk91YzJYODc4Nk5qVExTV3hIeHk1bjJleGhhblVR?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "IPO上市事件海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Beehive 收购 Themar 多数股权",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbnpXVF9qNlMybUZVek5sczNUYmpjVHM5b1NTYU0tTGRPZUpidmpwWk9pN0VvY0x5cUV0LWdKaGw0ek04OFdyQy1xb0dIZU83MnNnQXA4WnFLYmo1cWFNM3Z3UUd2bnI1SmU3N1Z30gFzQVVfeXFMTlc2b0Y0RjhlMkNfMlQwT0pmaUVXeGNsU2tacTUyaGxUVTZxS3hZZzYtaDdzSEVGQlAwT2h4TjBIUG1mNFdfV0dvRV83MTcyenZCUGRvTmxKRnZKRUlPWWJUUVJ6OHJ5ZVEtdldPTE4wX3hBMA?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Harvest Partners 收购 Integra Testing Services",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXN01LdlFEMWptS1ZQejZiV08weHdtTHg4d2ZMWkE1UGlENlM1SmFlOXA4ZWxCZVpYOUpDNXY2TF9sbnhiVUdBa2wxMmVHbWlVUDhMRE5ma1RfV3RjOHAyRnptT01WQUVvb1JEWUlSYVpNd2hfRFFiVTdR0gF_QVVfeXFMUGZCSl9la2VLUXhubFBJLTBJYktTWU5qYXoweWszb0dzMVNZVnFLQVRRUU9CcndrbW5rdW9rRjNfaGl2aUkxTll5MmhMQV9TZGNuSm1GNGZkQkVJWHotbFFkYmotTjh6eEwzTURlNlFxR0lhZ19BVHBMV3NiTk4tTQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Wesco 收购 Newark Engineering Group",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CZE9yOVJfd3YzOU9HTW5FaVh2RkNOMmFJTjRiYkJ6d2JkY0loRC15bVNQaDJXNmhMTmNHam5tT3EzOXhoSkp0dk9sUkRpYjVaRHI4eGFMRk1kbHQxdl9Hclo0TU1Qd3d5Q2800gFwQVVfeXFMTk1ZMGREUHZTZEFkYy1CWFhyd3FYdU5ta1ZhUFJQVkpMZ0t2NVNJUVFrS3hyREQ2SnFrbGJTSnpmdUJndEpuc0JnX09ZdXFOVkdFMjc3a1dnOC1uWkctT0NfeXlQN0M2ZGNBekstTlgyeA?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "United Therapeutics Corporation 收购 Thymmune Therapeutics",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWlljcDJSaGMwUEVVV3d2b3pIRVh0bmt4TzlRRDh1eWRxWWRfU01CcVNTQmhQTU1FVmlMVmJYMEw0R1pQdm02dHZQWVNZWjB0bTVoTFJpNUFCLUlKeEprWG9Kd0JpSFN0ejQ3SXNtUXUxRU5aYmFHR1Qwb0VrY05NR3pqMC1lMk5mbDFrUEVLLV83YlJLei15VmtzcXF1NE9PWVFkYnFFY0ZJQjVKbmhWMG91RE5ycG9udlZz?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Otovo 以 130 万美元完成对 SunSystem Technology 的收购，服务覆盖美国约 30% 地区",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQR0VGRmpiaHlOaXF5cWZhdEJHZEhySHBBd19BeEJRcWZ1Z1FsMWYtSzJDNUxhRldoWmNnRnhhaDE0dXl2M0ZpRmNGVDE2LVA2OGk2cnA3U1llTUJGMGFVREdlNXNDeldWM2ZJSk9oMnJNTFJXdFFYT19UUjlmTHRwa0haZXRYMVZ3OHU2Mlo0NkQtRjg3N2RQTGhaejZFNkJqbjZRT2RpUFdvVmJ2Q0ppNHhUbzdVdkhrTFFzNjN5Skdicl9neEVJVFBqRm5vS0tpT0NBdk1QVUp1R1I5VTZCWEVkY25tTzZTeHVFb1pEQlQxQ0MyQk5XdGtFZUZabHRHSzVTWGVKS2dWUndOSU5tbnlyUHBXZUJfZ0NQUmhvWQ?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.03,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件，涉及金额 $1.3 M。美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Jersey Mike's 的 IPO 凸显 AI 炒作已到何种地步",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1NHOFZndjVmZ2FucDh6TmpNY25TNnhNYV9UaXRnQk82enZIckhGYVV2NUkxVWRyX0M2R2h1bHZid3h4M1dza29sREVTanB3RThqeU4xdV82cGNWRklYYk1NRWpfdkdNWnc0TEtxMnllajhETUp2S29kRWl1UEtEUTJYcWtGMWZJemdQNzFkc1E1eDRWMjg1LW9B?oc=5",
-      "source": "TechCrunch",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "IPO上市事件海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Malibu Life 完成对 TruSpire 的收购",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oUWdndjlfdkRsOTlwVVdSVGF0TlpuM0o3NklRRVZOTDNKVWhxWlNvX0x6SUZaS0pCVHNrdmc1U21ZYWdocWl2OWRUMnczMGxpemhJY0g3dFcwajJSZU5hUUp6Wjk2dm03cXFVOElBNXpRMXM?oc=5",
-      "source": "Coverager保险",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Winged Keel 收购 NFP Insurance Solutions",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13c0pRelkyMER6VklhbHduVGtXSE1KcTdFaWRuWGFwUzlGbE1tcGZIUnJEMl8wek1qYTFwMEd4OFktdk5hdkFtNjlPOXVUcXRWWWM4Rm14Y2xMcm0ybXk1ZzlFVlZUTVhoM1pDOS1SUnJ1UUNzVFE?oc=5",
-      "source": "Coverager保险",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "保险科技",
-        "收购并购"
       ]
     },
     {
@@ -2578,1297 +191,19 @@
       "date": "2026-07-02",
       "region": "overseas",
       "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 6.25,
+      "entity_name": "",
+      "final_score": 5.6,
       "dim_scores": {
         "industry": 6,
-        "signal": 5.6,
+        "signal": 7.0,
         "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
+        "cn_fit": 5.0,
+        "urgency": 7.0
       },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "recommendation": "新一轮融资落地，资本正加码健康服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
       "tags": [
         "融资",
         "智慧养老"
-      ]
-    },
-    {
-      "title": "Blue Ridge Care 与 Katie's Comfort House 达成合作",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa28tRUZudDRfRFpPdi01S25uV1pOYlF4U3BXN3M2YXdwU1RsV3RNcjJWeV95X19sN0JUc0kwbFJLVmlGQmFUZnRBVHl6bS1ORnBvdFNxa054VEpLYVhUQkUwckRQcjJlUUk2QnhKVWtZUFhySEZ0Ql9NcloyY2Z6Rm9GTEJ0ZlN4eG83YXZRR1RyYnVPc0hHNkRyUWQ4QWU5R3NWT3dZUVA?oc=5",
-      "source": "临终关怀新闻",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.55,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "战略合作事件战略合作往往预示生态卡位，中国创业者可思考同类联盟机会。",
-      "tags": [
-        "战略合作",
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "ClearOne 宣布与 Vivani Medical 全资子公司 Cortigent 达成并购协议",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVlU5OVVLaEUxS1BUaThTU1Bib00zaU9oNF9FeXZXc3FvYnRJTldzTlkxODQyRDZRMG9YQ3lEWkhYZmlLUXJiRkxtNmdnN1pSU2VXVWdPcVJXaV9CMk9OUDFPSzYxNUt6OGlpYzd0MzdVRDJ5UklXQWd2RlNjWWFQUGlpanZ6aVEyVzJPYzJITkJOMnBBOWRqWVdqU0dVU1pPOEV4TWtpVVpxUHFFZXhvNTJzbF8tVUZGLUI2a2lldVpRaWVkM2loMG9lTzVmVG1OODJXSmpOa0dpQ0FkUXZGWHRZZERhNUpZR0luNFFOSWtuNHhhZXFQOVlYUQ?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购并购事件值得关注其对国内银发经济的参照意义。",
-      "tags": [
-        "收购并购"
-      ]
-    },
-    {
-      "title": "TWO 股东批准与 CrossCountry 合并",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNlgzVFZ4Y0lfa3UtVWdyaHJMM1Q4X2ZDQ3NQRUZNaWl2R1VUV1Y4QnRKSDNmRXRNdno2ZUpfY0ptaXk2WUlSbVkyRHkxRXk1Zy1IZ1JGdHV6WUdrM2x0MU1NQU9uWFRYUXAtNktDdWE1MlZLcVlsWnRVUXZMRUtUcVAtMi1FNzcxYjRvajVMWVhRV1hvb3ZfR0JEandKYW1HeTkw?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购并购事件值得关注其对国内银发经济的参照意义。",
-      "tags": [
-        "收购并购"
-      ]
-    },
-    {
-      "title": "养老服务国补上线京东 符合条件每人每月最高可领800元 - 紫牛新闻",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RMzY1LUtNb3JaM0gzZ29tRm9ILXF4SHdJRkFRbkxwRHZpbldnTGJEWHQyd1V3TEI4aTNXREh2cXZxQnZYOGw4bVVMR3NLeXRzaFZLeGhNcFRJMGlNeWxLX3BsM1F6LWx3?oc=5",
-      "source": "紫牛新闻",
-      "date": "2026-07-02",
-      "region": "domestic",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布"
-      ]
-    },
-    {
-      "title": "WA Cares Fund 福利开放，启动全美首个公共长期护理保险计划",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS09UcmZJTHhYNEFPcV9QVkxnY054SGxqS0tMMkFfUmhLRnBpaENUUU1BYk9xZlViUDQxc1JUUEc5UjI1Y3pCM3Izc3BWc3gxU2F3WlBFUnIwQ0xpaXdtdjc0WXQzcy1faG5QeHFZMXdmdVN1ZWZDVkk3c0pWUWM1bDJhOVkxd25zTExaZFp2QnhYUHVFeENMNDVoeDFSYktvUGhZS2tocTlpSktkSkxRTU00VU8yU09RM2hnd19yd2JSSjNsRlRkdWVNN0N6ckNJUmZ4VVNsa3h2S1ZzaVVtdnZ2R01YS3FXenlWQVBkVzdQdw?oc=5",
-      "source": "krem.com",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "保险科技"
-      ]
-    },
-    {
-      "title": "WA Cares Fund 福利开放，启动全美首个公共长期护理保险计划",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNem00eTJsYmU5UVpLYmNKX1hTY2hJX2ItUk1ESUpiLXRJMFZiSnIxNjVBT2cwSUgxNkFtQ3hTVXl0ZU1MMzJ6Vm9zU0pYRG5LSmxQY21UV2drOG1MamNGNVNDbWxESTlRVU4yLVZHU0ZLMVo5em8wTzBtNS1aMDFVM3BDYmtNcnNRNWJwajduQl9rM0xJZ3hGdUtBX1IybUJZTVdBNTA5ZENNSXFremJQNGNxdTNMVElDS3dCTnB5cWhxdS1XbHBfS25HUU5LNlE4QnFvVUNCbERWSjRubEFZUlZuNUNqQ1ozdHJFNWFGTkwxX1VkOTNDMXNvNXF1Q1U5NVF0MmM2d0Z2a1NWVkFvV2ZFN0hTb042X1BzY2I3NFg4dWk5VXlr?oc=5",
-      "source": "krem.com",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
-      "tags": [
-        "产品发布",
-        "保险科技"
-      ]
-    },
-    {
-      "title": "CMS提议2027年居家护理Medicare支付增加2.4%（增加4.2亿美元）",
-      "url": "https://homehealthcarenews.com/2026/07/cms-proposes-2-4-home-health-medicare-payment-increase-for-2027/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 6.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "美国居家护理的支付基线正在重新校准：CMS提议2.4%增加看似利好，但叠加-3%临时调整，实际效果可能接近持平。对中国银发经济最大的启示不是数字本身，而是机制——美国花了20年建立了一套可量化的居家护理支付体系（PDGM+30天支付单元+价值医疗调整），而中国居家护理的支付机制几乎还是「拍脑袋定价」。这篇规则文件的框架本身，比涨不涨更重要。",
-      "tags": [
-        "居家养老",
-        "保险科技",
-        "政策法规"
-      ]
-    },
-    {
-      "title": "2026 年养老地产并购持续火热：竞争激烈、精选标的、交易活跃",
-      "url": "https://seniorhousingnews.com/2026/07/01/competitive-selective-hot-senior-living-ma-still-surging-in-2026/",
-      "source": "养老住房新闻",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.95,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "美国养老地产并购热度不减，资本化率持续走低说明机构资金在涌入。对中国养老社区投资有三点参照：机构化趋势不可逆、运营能力比资产更重要、当前中国养老地产正在经历类似的资本关注期。",
-      "tags": [
-        "养老地产",
-        "收购",
-        "战略合作"
-      ]
-    },
-    {
-      "title": "CMS提议新增社区姑息关怀福利",
-      "url": "https://hospicenews.com/2026/07/cms-proposes-community-based-palliative-care-benefit/",
-      "source": "临终关怀新闻",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 2.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "美国Medicare首次将社区姑息关怀纳入支付体系，里程碑式政策信号。中国正在推行的安宁疗护试点和长护险，可参考其从「住院临终关怀」延伸到「社区姑息支持」的支付设计框架。",
-      "tags": [
-        "政策法规",
-        "临终关怀",
-        "居家养老"
-      ]
-    },
-    {
-      "title": "OpenLoop 收购 AI 通讯平台 Hey Revia",
-      "url": "https://www.mobihealthnews.com/news/openloop-acquires-ai-communication-platform-hey-revia",
-      "source": "移动健康新闻",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.75,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "AI通讯平台被整合到远程医疗服务中，说明医患沟通是AI改造优先场景。中国养老机构的护患沟通同样存在效率问题，但纯技术并购对内容写作的素材价值有限。",
-      "tags": [
-        "收购",
-        "智慧养老",
-        "远程医疗"
-      ]
-    },
-    {
-      "title": "Medicare 将提高居家护理机构薪酬并增加反欺诈措施",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFZ1aVl",
-      "source": "Bloomberg Law News",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "Bloomberg Law版本与此前Home Health Care News报道为同一政策的不同角度——Bloomberg更侧重法律和反欺诈层面。CMS这次同时提了支付增加和反欺诈强化，说明美国监管者的思路是「给钱+管钱」两手抓。对中国长护险的启示：支付体系不能只设计「怎么给」，还要设计「怎么查」——反欺诈是支付可持续性的前提。",
-      "tags": [
-        "政策法规",
-        "居家养老",
-        "保险科技"
-      ]
-    },
-    {
-      "title": "养老交易简报：Benchmark 与 National Development 收购纽约地块；Asbury Place Maryville 更名",
-      "url": "https://seniorhousingnews.com/2026/07/01/senior-living-dealbook-benchmark-national-development-acquire-new-york-site-asbury-place-maryville-rebrands/",
-      "source": "养老住房新闻",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "本周养老地产交易活跃，Benchmark在纽约的第二笔合作持续推进，显示东部沿海市场的养老需求强劲。中国市场参照：国内区域性养老社区交易同样活跃，可关注非一线城市养老地产交易这一细分方向。",
-      "tags": [
-        "养老地产",
-        "融资"
-      ]
-    },
-    {
-      "title": "全面推进老年助医陪诊服务！7月1日起实施",
-      "url": "https://www.ageclub.net/article-detail/9726",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "上海率先出台全国首个省级老年陪诊系统性政策，从机构培育、队伍建设、标准规范三方面全面部署，标志着陪诊服务从灰色地带进入标准化赛道。对中国市场影响深远：优享陪诊、鲸鱼陪诊等创业公司将迎来政策红利，同时也面临准入标准提高的挑战。可做陪诊服务标准化元年深度选题。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
-      "title": "CMS 提议将居家健康机构 Medicare 薪酬上调 2.4%",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM1FMSHMyMi1OLWpXUF9GU20xYXVhWVphckpiZkg3RmRfZVBvRnRtMUwwbWVIemctanZzNHZ5ZjF2VlJQNU1rOENpNlNvajNTNUNtdXZCcjlmWlpvc19RLVNVZXY1ZlBXOXFlZEdEMTNNN2xiZEhKbHhLTGw5TWEzZmloejlpWk0?oc=5",
-      "source": "现代医疗",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "CMS拟上调2027年居家护理Medicare支付2.4%，是美国居家护理支付体系的常规调整。对中国银发经济的参照在于：居家护理服务需要可持续的支付机制，美国在PDGM基础上的年度调整机制，对中国长护险和居家护理定价有制度设计参考。",
-      "tags": [
-        "政策法规",
-        "居家养老"
-      ]
-    },
-    {
-      "title": "Together AI 以 83 亿美元估值完成 8 亿美元 C 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWxtbjdrR3B0TDcwS1dhTkdJMENSSVdmRDBYNjBmZ296VU5KUUxaMDZjbVdBdnhnMkgxS1JJMFU1WlhDWkxlN19NQXU3QlRSaGxtOUktQUVBcVE4SWMyU0xwN3RQM2JTcUt2b0pMUGpERExGbUI4aWZLeXl2c1ZOZzZzYXdKel8tci15N9IBkgFBVV95cUxNbkVEamVIdXVmaC1MSEpXM2lsdFYteWZETWVLNC0yTWRGV0FfZUlqc2M3TlAzdzZSSmR5Z1F6ZWJLYVZyTmFVa1RCWlBRbVpZSENUclBMWXd6OVpBWEVLZ1AyblBTZE1lVUN0VUZiX29BRHFULVRnWEhpOTVQWUdlUVEyT1Z4bnNIQUZES0JwSzAydw?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $800 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Qashier 完成 612.5 万美元 A+ 轮融资，加速区域扩张",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcGxublN4Vm5sSkg3MTdoS20xbTItMk9mWVBsSzczVzNrTmZRREx1c1JsbzFFVy1OSFN0VzVtb2hDNEljTnF1UG5GTXVBTVNYLURJb0N6dklGT3BzczA0LTh3MGhURWdYUzgzbXFWcEtnLXZhRFduSV9mRjRCVklScHpucU82aVJPa29EUHVUdkZ0cnpv0gGaAUFVX3lxTE8zNGFib24yanhfSmV3NTdGZmxseTdPTEw3QnMyVTZ5ankyazVvcllIbXhOM0JUSGgzeFBxZHN0d0Ztc3hqZXJGWi02dlF3aEhlaHYzTWxhc01FY0ZEOURUU1RZa05GTWIzX2pQQmN1VlJHVG5jSXVVX3J5R3hJdi1qVEM5clhaMklFbU44NGxsdk9NOFpiU1BBTHc?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "Accelera",
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $6.125 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "CarbonSix 完成 4000 万美元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMVBxdXBHdmQtaWNObkF2cGh6YkJmQmM0SGJZQV91NlRxNGZyTVIxQVBRa0MwcnlTdEY2RXRtYTc1NjdNVEVjUDNOQUdjb20xckluZDFzdktnOHE0ZGEtY01lT1g4YzRJR1FKV3dSOFh0dUVBV2hRWVJTalhpYThBMnowZw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $40M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "TwelveLabs 完成 1 亿美元 B 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQmQ5LThOZl9rZE92WEpFeTBIY0o2eFZ6dWxBcmtLSG1VNHV6RVBKRWVCS3JKRG1vU0lFSXNPUUVDMGRERExaMVBZYi0yZTMxcUpLWG5LV3hOTVByZGs3TzlMaTdxTmtrMnhEb2FtVFczRWJHU09aT21IbmxINzgxS1N6Mkk1QQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $100M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Stathera 完成 5500 万美元 B 轮融资，扩张 AI 数据中心硅基时序技术",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLVhTZjR6YjZnS2RQTzVzZmRzekxESFNiWjhPQ0M2V2xqakdxdW1Rd0JPWmRlQkZXUGk3UEREb09aTUpJVHZVY05KMmpQbnFTd0dSbGFJQTAxQTJ3WXVPQkdYV250MkVLUVN0TGpxcnNONmNrbUV3a1hESGY2WWFuczBZZlFHTkJJc2hueVdsTHVCOWF5Z0hxendONFlyaS1J0gGmAUFVX3lxTE42ZFdWT3N4c0dZU2tEQjMzeEQzemVOYzFZQXZiZk1SRkxsSlVweFdPVTBkeWVRYWVyOGF2MEFwdTBKTUNHcHc5Q0J6VHVGa3FUU0dmaFRzVW5NN1h0Q1I2OXA3WFE0Wm1VcmNhQTFqc2ViZXdrZVFPNzF6Rl8wUmE4N0ZWZy1TYVBqZTVZYnAxaGllanNmNXpBbVh4NmswUS1MYjNETEE?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $55 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Together AI 以 83 亿美元估值完成 8 亿美元融资，让前沿 AI 惠及所有人",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMUQ1ZHRtVjNCZ0NLcHNzOGY5T1JrVHo2dEQ0dHFPX1BlOGRDN3RJbFY1cGZnTld6bTlnQUNickNPVDVIUGx1RGZLM0ZuU09FdnVrREllWFlZZXpRUWxQaGdleUdnQ0d5YWliZDNFMGg1Y1RKYUZxaWtIUmRYeUthQmFEZUczaWQ1R1dLTG1rbFVGaFhjYzhEelE4WTIxUWpsQ1lsZ1pNYV9lc1dxTVY5T2JWWVk3Q0hVTGlHeW93NkIteS1NRDF0QjQtczRpa2E0QnByLWhxOHhXNjUzXzFqUGQ0TmhnWV9QbTlHXw?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $800 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "新云厂商 Together AI 融资 8 亿美元，估值跃升至 83 亿美元",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdjJjY1hCbVQ1NFYxcW1LUXNSVENUUFBiQ0I3WWctMGNfVnpqS3BBLUdqVXUwQ25pNTdWWEZsLUd4aFFsNlpzRm81VTBNQk1mMVZmRlB3cHk2VlRWV0tDR0lDOXlUTTE5bEN6UWNDMW9DNmNxaHdXWWQ0cnBScVdtbWNxQ0h3NWNRd2FJcVdtWjM1S1NoRWc?oc=5",
-      "source": "TechCrunch",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $800M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Proception.AI 完成 1100 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWNTTFBBaC1WbDdsNy16YlF1RzlxQlRxQk4wTUJ3RFVDSG5jZ0FyYXdkc1pMUmV4NGRiZEdsdEo5WE1Sem5DY2ZIRlhYTHFJUTR0Z1BhaGFJcE1feEJQLS02aG9aZmotaUE4UUp5WWlySUREQWtfenJ4STdvVldzVl9Ybw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $11M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Queue 完成 1260 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EeGZlakVSbEI2RF9pbEZKbTVsT2dPWjktcEprelVUcFZtbTVPQ3I4V2FUUWIyMXNOXzZXWWc5aFFlb0JYNU80aXFDdDBsT0tNdlhwVUQ5d0hkeHB0elNkSE54aFRpLU1ETlhTSGFyZW56TkU0ZXFqVTZOQQ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $12.6M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Devplan 完成 250 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5yS0xFSkpkZnZMRF92dHZkM1oxanZNa3FPamJ2MFpUeWxVeGQwcjg4cEpJZ25BUlQ0aS0wRWo2YkZLeTIyWVlZVXFsTGJfcVg1ei1VTkdlM1RrclBGYUFxcmF6cGxxdTl4T2hvRUdVbVFLWV9sR09rRWNHTUk?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $2.5M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Appnigma AI 完成种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWGtobDhMV2hNQWUwT2lYb0hDbVI0Tm96R2dvQjh0M0ZrMUl5YldTc2d4NlFaYnZ2ajZuWk9HaUZlVl9BeWxvX0Q3LXFYTWJqMzh4Mm1BM0FYeWFMYjVTbXlfZlB4Q0tqSUhQcnhReUdBTUxKdnpaWm9WWW8yYVFkMUJPVmM?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 8.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Wakei 完成种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BQ1JrUC1hTWV5bGNZdGtKYUZBSDVlWmZUVlpGMklIcmlITklySW4yaDBQaGVnWGZXUHB1SVNNWXc4NjBKTG1DX2NsSEdMQ2xZYkRUYnpPeTdWWEtYUW5jem13SFV6UVY0Z1Brc0E1Skw5WTdDcDFZ?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.85,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 8.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "fileAI 借 JRE VENTURES 合作进军日本市场",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYzFMM2xTYlFHVzM1UTVCM0JuUERXOWlEV1g5TThPYjM2YXVaSzV6cmpEaWZReWlWdlkyVlJjamViWEFvYmFfU3VxbUZzX2Y0Z2kwWE5EV2tlMUJqQmNialE4MWlIWk9nVnJGSVlIU3FMRXJTeTdwTjNXQm9uUHFtc3ZnYWpENW9s?oc=5",
-      "source": "Coverager保险",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 6.15,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "战略合作事件战略合作往往预示生态卡位，中国创业者可思考同类联盟机会。",
-      "tags": [
-        "战略合作",
-        "智慧养老",
-        "行业趋势"
-      ]
-    },
-    {
-      "title": "Premier Lacrosse League 完成 1 亿美元 E 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZlFHVElWMWlDa3A5MmdxdXpuaE4ycmJiekJVY1F6U1huRldpYzJ6RWtvOU80VHVYbzlyXy1ianpIbjNVamI5eEgzOXBuc1o3cFN0WldzcEFkVEd4bkhRU0Q1Y3RSdy1UVG5TQnQ5OGEtZGdUZWtYYVBDaXZjX29NM1dVR0x1SXF5ZkZhLUg3clJsLWxYTUNtTkdB?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $100M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Starwood Capital Group 完成 102 亿美元机会型房地产基金",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZkhEY0pGRGJ6Tno2X0NOWUJyZFVQTGZCMm5KaUJMdVpJZ0hFY01fSEZ1Z3lvQnpYSldkS2RNcVpCQzRTQnAwNnJ4azlLb21Rc3hLdXpxWnVzNF9JeE1La2p2U0k3dnNYYk1BWGNHMEh4TjRtNkpLbEhNc3BrVmJhaXh0VjBVTDVUX3JjLVg5Q3ZvbGQyd1gzOUFQR3RxTGZ0R0lkOEVWa2IxNjd4aXo0VXZGQ0pwaDNpcG9peXppWlRTejdVWUI5MQ?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $10.2 B。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Solina 收购 Epicurean Butter，拓展风味创新能力",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMHl5ZHBhUGwtakFTWmZJal83Z2oyWGs2WUZYRllKUVJpYjloNDZETkFSUGZlNXZSemNldWpPd3NBZ1ZLRlM5X01YcFpGYkV1YWZsUHJVUl9WaFlmSTdKN2tBMkJFQzBPR05rQUdtZnVRMldZZTByNVpKNUJYN1NSeHB6SmRMWVdlR2toRGptZmxCOTZRV2FmUjlsM3JFZ0hYcjJMX0JTME5tYm01eUpmZExCbnhraFJDRzl2eE9Ga2Z3NTlIZHI4V1FSMmtYUUFzYlh5RlNMRzFNUQ?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Rejoni 融资 2500 万美元，推进子宫修复水凝胶获 FDA 批准与上市",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc2Eta0R6a1kzYjRDVlVyYWpUWFl2VmRPRFNzMEtBUGZPNENUbnc2Ymxxa1MyUTUtWHNPWDEtQzVZaFJKMFdfN3FJcW9UZTh5Y0lXRkt1eDdQenl1NlRZNXJfd0U2M3M4OG1DdEZyNTBVNXVPQ2JBaU1rbTVQel9NOFl2UkJuYmZySTRiM2Jqdm9MN1NsMHRlLUlEdGJRWml3WW11cXVhWWJ5QWpUVmc?oc=5",
-      "source": "Femtech Insider",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $25M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "政策法规",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Mila 完成 250 万美元种子前轮融资，打造设计驱动的私密健康品牌",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzhYdEt5WTE0SnF3U0E5MmVjYllReGEyeElPaHNEN3pzLUttdWNpTGlTZi1hV3hkdnJBdU1qVmRxamVmbTZaTzFweVJzb0h5ZHMtSC1GZENCQlhUamlTbUFYemRvcmVGeGdDXzRXNWt3bHBpcF9XMWtNekltNlFUSldGaWllRml1UDFoMENCVncwd2VPUEp0MDJYbW1ZUQ?oc=5",
-      "source": "Femtech Insider",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $2.5M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "IDI 收购 MCC Equipment & Service Center",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5neFdMMU56TDlEbkdkSmV1YnpleFo2djJObUpaVlk5SDNDZE1ZWGI0TWcyZXVEcS1adGNpa1FPdGNKWGZmWV9EemotblVCV2c1Q2w2d0pSWElsa2drdVI1cllnbURmV0NJMDdmWlJn0gFzQVVfeXFMTWg5ajhmWGNJRkZsb3VPZEdtV0UtY252QXJNT2lwLUJqcm0yWV9VckpjeVU0RW1EdUMwM3cta0ZwTUhta090LWpicXI2MkhEQXM4MnFXMVdKMldKMnZkOUI3RTE3LTl0RmtrTmhpdkhkVVFwNA?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Critical Response Group 从 BAE Systems 收购 GXP OnScene",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYTctVm1sRGwxZlpxWG0xYWV4eXBsaFZOYTFSaWExQWNMMEhURzU2alVHYzljWEZ4R01OblNXZEJOcmowQTUzVUZfY0YxNV9ydEM1YWYtTHludW9saUFHOU5KaTd5d2tnRGtMVjlDUjYxUWxFLW1iNVlXZGVXYlMtS3ZnVGd4Y0gw0gGOAUFVX3lxTFA0Tms5N0doblFmQ2NXcDlNaHZFRi1zdHRyQTYtWFg3Y2tlQ0EwdlFfOHI1Z05SNmtpWHU5cVVSVDlrTXpvcmJ6bmlmckR4dEdyVlBtNWN2cVJBRHlEaUNYYWE1Yl9GeHpJZ010YUNhUEYtMzlwdVJ5eTFtU3d2Yk1HQTJnVm92aGdnckpSM0E?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Horvath & Tremblay 收购 SCOPE Commercial Real Estate Services",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0RILUdjc0ZuUklQY3FUeUpRZU1WY1ZuQzJROTFPcU9qQXNpeFN0R0E2WFBVbm43dDhtVkMzczBQNV90RjNnV1RSWDJqNFFtR1dDeURUdUVTemNKSnFzdzc1Wlh6VTlDQVBfZkVjTlBQeXp1RF82ZThCbnhjNzhCZVpVbUlJUXItclJn0gGQAUFVX3lxTE02Q2t3VTJQaXJwSFNpR2NfN1dHSC1lZVY3cmxHUkE0el9wSmlCU1FVRzQxYWRCUlBaNFBRc0UwOWxWTXVxMzBiM2ZjLXBYRTU2aWJvUXF5Q0xfNms0bDcxbDhESEVZbFNpWjN6cDc2eXlqdERZeUI4WmFLM013TVVtd3doM1ROOWRmeWtITm1BeQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "OXMIQ 融资 3500 万美元，扩张 OxCore 架构",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9rWW1UdnNlTDd0elhmbDNZSDhRMi10cXFuQjBmSUVhU1JGa1B5YzlsOXlHd09nSnh6RzhRYzFDRVZhT0dESHVuQk1WNWRtREcwaU9Kb2pyWlVaMzZTQUFyNmRGZlZXVF9LVDZHMmxiZVg5Mkg0Z09EQ0JpWlrSAYIBQVVfeXFMT3RXTlJ2NUZFcnBISTlhVDFIMjBOYjdRRkZvUVZSbHFxVTlzcnBfR3ZqTVpKQnA5dDRzQkRLUlFMTXBsNng4Y2FlNkJudllZU2ExZURQWjlXdmdVZjRMZlRTX25aaEZJdmlCVENHUTVjakpQaUktNFhsZDRGa2E4SkZXdw?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $35 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "LeapXpert 融资 1.8 亿美元，领跑 AI 驱动的合规通信",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZV82N3dRUFM1bzM4Ym56Y0R6ZmF2c1dxelcxX0VjR0M4NTdvUXlINndGUlV2XzJ6MEpidGVjS3I5UjFOalVXMG1jVkZNMy1NamFJNzVwcHZvbUhlN0R0VTlCdlg3WFFyeVVrZkUwd3pxX1Uxb0laUjFtOWNKSjBudVpfaUdEQ080UWN1S3RzdXV5Nkh1S2fSAZsBQVVfeXFMTlJmNkhHZFNWb19oMl8tRGhjS241LTZwZ1d3UFJhdURtQi1LcnZWT0NHcUlZaWtNUkNoeWk4UFdLNGxJUjBtejlfUm1PLXJlUndIeTQxbWlMWkxwVE9uYllob2s0QnllNDJPU09HSDdObzNFN2gtb0pWTkJMa190WWl0aktGM1MxUVpESGlwTEdNZHFSQWZnaVdEOTQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $180 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Aligned 融资 6000 万美元，推进 AI 交易工作平台",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOU1TR0hudTQtckFuMFFVQnh6NWd4NzFLcEhXMmxkbU8wM1M1NjVhTGZ3NGxLRVhscjNxVWg0RUd3R29VNHMyU3dVS2FsMjJxSVh2Y0taemNnRG1kTjFQWnJ4aVhvMTJIZ192YWV0SHZvWWFkNWg3cXV6SG5Ub0s5ZGdJUk5lQ0hJbFM00gGQAUFVX3lxTFBnZzltdVAwTk9XQWM5NDZfang3QWV3XzBLbzlzc2RXc1lUb1FfV2hjTFQ2SVRTUE1LUjBTMmdsMlVHSUUtWndvQ21WVmdHMU9CSWp3YjJJcVlYVTNkaDh2bzhQSmx6c05UdGJfUkU2bEthcTFlN3MtMy1WMEhfSHJ3NFpsNHRWZEZXejJyYUVYRA?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $60 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "ALKEME Insurance 在 2026 年 Q2 完成八起收购",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOallHeEg4SHRaSXh6YzVMLWlzbEhGeHBlaDJ2OFhMV2FVN2pfZmZseWJ3TF8xSTRkQWwzYS1BQlZMcUtreEtlY3JFTUNkSHFIOWF0WTJUUzBxMTdIUjNkZ0Z0ZHlpdjBlMUZyTmJncF9kNVd6YllYMkNJT0hkV0lRd2Vn?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "保险科技",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "QXO 完成对 TopBuild 的收购",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYcl92Q1pjMlZHQjJIRUw2MXRQdXlCRkpyN0l5YUQzNXVfMS1lMmJ1dmlLME5ldmg5MlBDS0JXTDI4OGlzUVVDLXhxLTNyM1pyZzVGemM1dVR4blNRcU1oODhCQ3dTRENp0gFuQVVfeXFMUFVVeUZIbVlEV0Z4M1ZKMG5TeDZMYktYbjVWNHdMSEdGSHhRVlNIdk93M2gzZHdxWUlHRVBDSTkyUWlsUG9mR0M2R3VTMjFDT0RnMl83SHVsX0MyM1IwNmJfZWhHUHpHOF9VUXh4OHc?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Integral 融资 2500 万美元，构建真实世界数据经济的隐私层",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUW1GSU96ZzRzeGhyYmNjSEhwQTNPbkFJYUxPdTNUWmhPblRldGhoVUNDRU53Y2YySjAwQ0ZzblhwWGlZTE1semI4akhFM3ZOR1pSOTBYT0ZMYkVJeE1NV192eWF1OTM3VkIyUkhpX3RHV2dtNnFFZXBEbm1uMEFmVjQzMkJKdy0xRVZINWdXUGoxRHRMN3k2Q1NfN3FKQdIBowFBVV95cUxOTWdrR05vMlpLLUIzbXdNWXpiZTZjRmV2TEwyMkdrS3BHUTI5SU12TVdPcDR3bHYtNEdrZmtNM3N1TE14b19MNTh2WUZYZjdNbzZZV3BBX3RDN2NGSXhmVUlPd3U3XzNzc21aWHhSc3FKQm9UYjZ1N0p5UmxsLWNSMGpRV09jYVVydEN4NXF4Q3Z2Z2xoR1J1dEpMdVJ3Sk50a19R?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $25 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "OXMIQ 融资 3500 万美元，扩张 OxCore™ 架构",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNlFudjBnUWNtSTVpMWwyWEhKQXlxRERQZmtTOWFFZVBpVUFjdzZoRXNEdG56end1WjdwVFdxUlNEQUVnUkV1OUFud19CT3B0WGV0THl2RVBOcEsyT0VtUFQ3VXVQcXdiM2pQNUp3cXlIOUNJSFhZNkNFbnpqeDNxYWg4LU02cTZYU3p0QkcwWDZqOEpMV3FxaHpPTEU5Q0xGVE5wdm5vS1RmeDF3LUJnalFB?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $35 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Guardian Pharmacy Services 收购 Wellness Concepts，扩张弗吉尼亚布局",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZnZVMmNOdHFYcVdfc2JvTHhINTl6ZnpWQ2xxMHJ4cEtVdFNldHZLWm1RbTgyTENQRUpCWUlRaWg1Rnk4NEY0MV83d05xT09pREk1VDQxRFRsVk1KR0tOWmE4S1BqdS01LTJGLVgzRDE3Q1V6eVc5aDRFY0Z3ZEVocHY1YVJ0eXMzem5XQVowM2lfUGxCdkp5UjVKTnZxak5qQWExRGlDVTA3QW1uZFNHaDRwU25USno5TmRiZUdMREFlbWUtRmVfMGxmRm1kcWx6VU9pN0t1YlA5cEtUbm15aXVB?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "CrossCountry Consulting 收购 Dupont Circle Solutions，大幅扩展 Salesforce 业务",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZEcxRXQ4eHdGUWN1YmJWZ2FRd2RsUGdqZlA3ZjVVeXpVUnFfNlUxQVRfZjBqSVFja3A1c1FOOGRvcVdqS3FQcEsxa3U2eEFxa3hTUHU4cmUwZURtR2lhX2Z1S1g4Z2g5MjlJU1JLczRaTVFnQUUyOWJLcE5hVDQ1cVVqeFVoWEdmOUdsOGtXNHNMQWFlY2QzdDVKOE1UcDA0VEIzbTNfWHIzeWNPM0h3Y1dJc3JBeGVmM0lzQ1RLU0hMbFozUGdycDlObzg4SDB2MlRzaHNtNUs2YnM0NmlGRURDWVhSZzlxQ2YtaE9n?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "Salesforce",
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "William Blair 完成对 Inner Circle Sports 的收购",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGJmS2hlZGs5S3gyS093YUF6ZlA0alcxT0FUdUJPbE1EZ2toTmV4Q3pFTUJ5eURaQi14UzRGcDVoRkZsb1Z3U3ZZYTVWZjZFa2U3a21KTjV5V212bUlPeXZFM0JkeFU1aGlSM0F0UHRnUEdka3FvNFZWT1d3bXEyalRnUnVvZDRoWHVfd3BXZlkyNEZkelpWREY3b1RxLXlSX1RhcFhaRVZGSWdKTTJOQnhFUFdMQQ?oc=5",
-      "source": "商业新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "智慧养老",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Bending Spoons 创始人称 180 亿美元 IPO 后成功源于减少运气成分",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRVZ5TUdLYXY2ZmNoRXFMMUlyQXM0aGh0ZmxfYTVEWWoxN1BPT0RabFEtLWNPUHoxX0Q1ZkZneTcyRXJDSUc5QWlNQlhvQVF5bzl5NXM0aVJENE84QnpVaVZ4RUY2WThfZW1VTTF4VW5JWHA5YVM1M0tMbnJDZDlRWGxOZi1fU3BoUzB5S2FnVUt1SnBCSlItZjZpb0FJaGQxRFBxdy1pV2huNEhTczhPeQ?oc=5",
-      "source": "TechCrunch",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "IPO上市事件，涉及金额 $18B。海外银发企业上市路径值得研究，国内同类企业可参考其商业模式与合规框架。",
-      "tags": [
-        "IPO上市"
-      ]
-    },
-    {
-      "title": "World Insurance Associates 收购 ML Ruberton Agency 与 MLR Risk Management",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTllYVjNPaUpZdmtaVGdydW84a3VGeTNUbF94cllwNmt5djdmR294aUM3Z2t6MzM5RW11bURxZEh5RkN6QzRGdUl1QW1FZTJITzYxd2hwOGFsNmM1YVBXSFFxUkg4QWVGdTVyNFpVWVNreGhjNTVhLXV1YnBQZzBKUXg0YmNiODJ3R20xQ2VJVVFnYW80MGJWRklrMHY2Y0NZejlF?oc=5",
-      "source": "Coverager保险",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "保险科技",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Relativity 收购法律 AI 平台 Gavel",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IT3RucWtYeDJmNGxrTkczNnQ4QVBQb25kdjF0ZmYwLWxEMmZaZmNUWV9qZWFOOElWQ1dfSTl3cG5XajdXSGJ5cFBUSVpib3d5cEFfX2UxMno2aGtnaXJmREtYLVF5U0VOSFVqSlY2bm9LalBF?oc=5",
-      "source": "Coverager保险",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "智慧养老",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Old Republic 获成员批准收购 Everett Cash Mutual",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcmtBU0tQRVJMQTQtS3ZwM21Bc2piT08zZmxDbWtheEdkdjQ2YV91elNiRHprX2p6bFRJQ19VRkhyc25fUHlvNHdqcGdiUm40V182WG14MnBvNjJiaURKb2J4d2tENndEMXRkaWo4ZWRXOHAyTG01WDg5LVJ1ZTFUSWoyYTNtX1pRODhjUjF6cE04d2FGdEhZSC1mdmc?oc=5",
-      "source": "Coverager保险",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.65,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购事件美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
-      "tags": [
-        "收购",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "美国机器人伴侣公司融资700万美元，超2.3万份预购验证银发陪伴市场 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "AgeClub",
-      "final_score": 6.62,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.1,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 700万美元。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Telum Therapeutics 完成 1800 万欧元 A 轮融资",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVDc5SzZNTmdhVkZDelVneUU5elQ5M0pHcVhmSzEwZ1ZJWFdfcldFV010TmQ5N1hVU0VMWElYZFFzNDRCLTVMd0FMWWhpT2JldXJteTVyM2NNR2wtWjZOcjd4RWdSb0doQ3Ewd0hGZGpGM1dIb0MwWURpTUlPeWlBV04wdDBZSTdPUmJ3d3JyYw?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "CarbonSix 获 4000 万美元 A 轮融资，在全球制造业部署实体 AI",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQREkxTnJJYV9hUkFRUHFSVnNQempPWS10ZGRaYjVqT1ktU1FqeHQ4NUdfakNfS21za29HTklPNFMwcmZUTVRjVXU5cFFVRm9VS1YwSUU4VmF6LXdyYXJmc19sTlRvTkdGR0JwNUJPSmlpSXVITEZOc0VRZnViUE9ZS1lPQzVaa0RuQ25mN21SOE5KcWhuNVIyclgyenoxc0pSY09HRDhPVnF2cXgxYWxMMUFQeS13NFFVNWJ3ZGF6Nm1zdF80WDZQZEhLd0RiNnUxaHc?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.43,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.3,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $40M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Richmond Mutual Bancorporation 完成与 The Farmers Bancorp 的合并",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUG50OVUtaERnQ2ktV2ZnbkRaZ05MZlpVVjZMdnpEQS04T2kzS2J3ZTZEclpCZ0VDTjRxQy13dVAxSEhzUXd6TktuUkgxVEFlTU5EejRFeW9rWXlaTVJtVG00N3R5aFk3UnpBVHNwSFdGTjZVRjNZWWx6dUxGN0oyQ2tQUTBBSlpva3NzaUc3RDU1a0xCeU0w0gGcAUFVX3lxTE8zME1HQUFRM0lVYVZVLXF0ZW03Um5CM2lJcE94eS1QT0JUdVZ5WWlQRmlTZjdFUHlkVFQ5RnZwZlp6RTN3WUlxUlctVzdRNDB6cXBRaWF6YW8tQU8zbXRIQlVrRDB3dmt4MG5DVHlISXpyaFN4Q0dFcWc4b0VjTl9zcWVRSTRvWU9kWlpQdWdFWmlYRmxVZ3JNc2tGVw?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.8,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "收购并购事件值得关注其对国内银发经济的参照意义。",
-      "tags": [
-        "收购并购"
-      ]
-    },
-    {
-      "title": "Dominion Dynamics 融资 1.39 亿加元 A 轮，扩张北极监控网络与无人机系统",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZXZFeWh3TE5sM3BadHRydUJiakFuNFFERDY2UWlRbEtPOUdNNU1jYXlzQzZhTGpDN2RWSFMyMnl3ampNeFFlTF9Qc28wMGo0TVJnRnVWQW5fN2hCUE9Sc1o1UG40bDdWdXdxU0dHX1VHZFBnZ0R3SlhBa19UaUJ2TTRMVU9Zc01FNGNSUElTRjhVTmo4S1lxMDRfamROd0Q3dWZyLXVBaXV6MzdQSG5rekEwQlhZOFdHXzBJb1Fn0gHDAUFVX3lxTE5sYnJIMmlMUC1hal9pYlNJNDBRdndQbmRSbElyMElIRmN1MlN3NDRYNHJJdlBkZ1hldThQUExXejJ5NGpVbmZDM3k1YnlkVHB3Mld5X2g1eFp3ZU00cUpQRkdtYVNtcl94SlJ3Smd1dl9wb1JidjdGeEZ0MlpvTURrTkFCbktsV0dZNEs4RDFKYXhxd0FNRktrVlE3c21IdVNDYnRHV3B2QjhLQjRWTmZ2M1Y1bzNrb29raEVIblpIY1h0VQ?oc=5",
-      "source": "Pulse 2.0科技",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.43,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.3,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $139 M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Venice AI 凭借隐私优先 AI 平台起飞，6500 万美元 A 轮晋身独角兽",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX3FjbE45Sjc1bXdFQS1XaW9ucnpTb2lVRFRha0sxSTNhU2dNQTJIU295eVlkVEJ5eWQ4UUctV1hBOEZsVWFXRXJVVEt0Rll2clVoaXhsZk9pUElVT2RXN3B5cmtpMXBPbnpXdWR2Q240eVpIWC1HeE9TU0I0QWJtNlN6R1J3bkU2MGxrWWcyQzEyRzVRbzIwYTVXQVNLRzZySGhNWFdnSnh2SU8tXzhhbjlCOGlLT3psdjVEUGJ1X2w?oc=5",
-      "source": "TechCrunch",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.43,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.3,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $65M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Dawnguard 追加 330 万美元种子前轮融资",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWU9RTzZqa09ZalRGb2ZUaGpiZm1mNHZGSzZlR1h1Z1lsYklPZHdHUjlnYlZWNEhBTVpjUVptcndNcldDcFRONTk0VHJkLWFKTWVnSVE0VmdnN2drNVZhTGxlZGNnLWVMLVVkTzhmOHB3QlRBdHhNN1FMd0JycHFUa2VUc00wVnM3cWZWbDFGRkIya3M?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.5,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $3.3M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Lucida AI 追加 160 万美元种子轮融资",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRTN5QVAzcFZIVWRCYldCZWdmS0pvNTZlbG5STzZuYjhsWTg3THE3TWJyaTF2ZzVqUWRaSFFtYzIwQ1hJMS1DWHNNTEp1VndWS3JFT2ZFRjk2SFM3MElFOHRLYmdEWUNMSG1PMVpIQmhfUjFSdmpxTHZSQjM2cUY0TFdOQXc0UWxNZ1B5dlVR?oc=5",
-      "source": "FinSMEs创投",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.23,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.5,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "融资事件，涉及金额 $1.6M。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
-      "tags": [
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Cloud Capital 与 Realty Income 及全球机构投资者设立核心合资战略，注入逾 60 亿美元资产",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQRmRaRkpTUHFYRVowS3EwRkR2eEtSM25QT0MwdHhKb0F3NGpjR3hfZXpjMTh6ZXZPbFhudXRUeXR6a1dRMHUyYzlkZUp2LXRJM2NFcmVTTXpaSnNzb3VHWUFLaW96M3A2bzBvRVQ3RDMtN3JnbmJLblhMcVZVS2s3Unhmbm54Q0RUSGdMQmNtRGdPcWJZZ0RNRDJnb1A5d0lESHcwMk00dlRrZWtTLS1kbDlKaUI5WmpVQkpHT1FlczFWc1RLRTd4Vl8xSW9TWDBqMDhTSnpZXzhtS3VTM3FEVkNGSzVIdTlRUUhfT0NQODZDX2hKa3ljTjE3NGtxNHMxYThvV0RHWTd3ellla1laRWNjZ2lPTkttLWRsV21meDJMY1p1STViRA?oc=5",
-      "source": "PR新闻社",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 5.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 4.0,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
-      },
-      "recommendation": "行业趋势事件，涉及金额 $6 B。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势"
       ]
     },
     {
@@ -3878,752 +213,466 @@
       "date": "2026-07-01",
       "region": "overseas",
       "event_type": "产品发布",
-      "entity_name": "AgeClub",
-      "final_score": 5.95,
+      "entity_name": "",
+      "final_score": 5.58,
       "dim_scores": {
         "industry": 10,
-        "signal": 3.2,
-        "writing": 6.0,
-        "cn_fit": 6.0,
+        "signal": 4.0,
+        "writing": 8.0,
+        "cn_fit": 5.0,
         "urgency": 5.0
       },
-      "recommendation": "产品发布事件，涉及金额 4.5亿。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+      "recommendation": "新品亮相。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
       "tags": [
         "产品发布",
         "智慧养老"
       ]
     },
     {
-      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "AgeClub",
-      "final_score": 5.35,
+      "title": "养老补贴上线电商平台，北京西城老人开出全国首单，失能老人下单居家养老服务可“打五折” - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5",
+      "source": "新浪财经",
+      "date": "2026-07-03",
+      "region": "domestic",
+      "event_type": "政策法规",
+      "entity_name": "",
+      "final_score": 5.57,
       "dim_scores": {
-        "industry": 7,
-        "signal": 3.2,
+        "industry": 10,
+        "signal": 4.0,
         "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
+        "cn_fit": 8.0,
+        "urgency": 3.0
       },
-      "recommendation": "产品发布事件新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+      "recommendation": "政策端出现新动向。海外政策变动是中国政策的先行指标，长护险/支付端改革可提前研判。",
       "tags": [
+        "政策法规",
         "产品发布",
-        "智慧养老"
+        "居家养老"
       ]
     },
     {
-      "title": "Bridgepoint约14亿美元收购Kayne Anderson养老地产业务",
-      "url": "https://www.mcknightsseniorliving.com/news/kayne-anderson-real-estate-to-be-acquired-by-bridgepoint-group-for-about-1-4b/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-30",
+      "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-04",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.43,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 9.0
+      },
+      "recommendation": "本轮融资 1.08亿美元，资本正加码健康服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "长寿科技"
+      ]
+    },
+    {
+      "title": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-03",
       "region": "overseas",
       "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.43,
+      "entity_name": "",
+      "final_score": 5.43,
       "dim_scores": {
-        "industry": 7,
-        "signal": 7.9,
+        "industry": 6,
+        "signal": 7.0,
         "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
+        "cn_fit": 0.0,
+        "urgency": 9.0
       },
-      "recommendation": "14亿美元收购一家养老地产投资公司——这是2026年养老地产最大交易之一。美国养老地产经过了40年资本化进程（REITs→PE→机构投资），已有成熟的估值体系和退出通道。而中国养老地产仍在试错阶段——泰康、国寿等险资重资产投入多年，但资产证券化几乎为零。这14亿美元的定价逻辑，值得中国的养老地产投资者逐帧拆解。",
+      "recommendation": "美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
       "tags": [
-        "养老地产",
         "收购",
-        "辅助生活"
+        "收购并购"
       ]
     },
     {
-      "title": "Rendever推出社交健康平台，用数据驱动干预老年人社交隔离",
-      "url": "https://www.mcknightsseniorliving.com/news/new-social-health-platform-aims-to-offset-isolation-in-senior-living-residents/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-30",
+      "title": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rSmZDd3JYN1UtelZIUGNsUXdTT1lZWDB1eXBRamx2NW5iM3lweXExVllXRXc4RV9CLUlpY2lHM3RCR2VqQ2xCZDVWckxqZw?oc=5",
+      "source": "36 Kr",
+      "date": "2026-07-06",
       "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.38,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 10.0
+      },
+      "recommendation": "本轮融资 15.6亿，资本正加码健康服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "IPO上市",
+        "健康服务"
+      ]
+    },
+    {
+      "title": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-05",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.37,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 10.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 7.0
+      },
+      "recommendation": "新一轮融资落地，资本正加码产业资本/投资机构赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-03",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.23,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 9.0
+      },
+      "recommendation": "本轮融资 2700万美元，资本正加码养老服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "健康服务",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "Atria Puts Turnaround Skills to Work in Transformation of Former Holiday Portfolio",
+      "url": "https://seniorhousingnews.com/2026/07/02/atria-puts-turnaround-skills-to-work-in-transformation-of-former-holiday-portfolio/",
+      "source": "养老住房新闻",
+      "date": "2026-07-02",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.17,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 8.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 7.0
+      },
+      "recommendation": "新一轮融资落地，资本正加码行业服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "收购",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI - The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmY4cEd3dThGZkdjNHlyYkcyMm5ub0FyZC02d0U4dVNnSUxFV2I4clQ3NFAwZjdfY01ZZmgwSm9YVFB6Mm9PaW10RFN3UDg0a0VGZVJjNnJzMkhISjFBa0t3YTFzQ3FSNWdvZWZxV2dJX1NiXzRHTFd5ZGxyMjAzVFp5bW43U0FhTHpPaC10Z1hxX3VJTHVvUmhEMDgxcUV0V1hhMWFRV0xZdmJS?oc=5",
+      "source": "The AI Journal",
+      "date": "2026-07-06",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.14,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 6.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 10.0
+      },
+      "recommendation": "本轮融资 $500，资本正加码养老服务赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xNDNoT2t3UXk3MU1pY3hFanhyT3BUdWFKR25kbm5CRXJXNm5hdkFWNnZtaUtRdld6LWJIT3J6YWJIZUlpV0tuRXI1N3N2NjFRVm15TDZLY05tNUhNaUNoajNkTENqQ0tGcnpPVUhfZ19jQQ?oc=5",
+      "source": "新浪财经",
+      "date": "2026-07-06",
+      "region": "domestic",
       "event_type": "产品发布",
-      "entity_name": "Rendever",
-      "final_score": 5.35,
+      "entity_name": "",
+      "final_score": 5.0,
       "dim_scores": {
         "industry": 6,
         "signal": 4.0,
         "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
+        "cn_fit": 8.0,
+        "urgency": 4.0
       },
-      "recommendation": "Rendever把「老年人社交」从活动组织升级为「数据驱动的健康干预」——不给老人安排广场舞，而是监测谁在孤立、设计个性化干预、量化社交健康改善。这不是概念炒作：研究已证明社交隔离对健康的危害相当于每天抽15支烟。中国2.6亿老年人中，空巢老人超过一半，社交健康作为一个「可干预的临床指标」，可能藏着巨大的创业机会。",
+      "recommendation": "新品亮相。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
       "tags": [
-        "社交陪伴",
-        "智慧养老",
-        "辅助生活",
+        "产品发布",
+        "行业趋势"
+      ]
+    },
+    {
+      "title": "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOTMxNy1RWXBicmNuQ0pxdENXRlBGcURDS1Y1S2xydUpQQl8yR2M0X250LVBld0ZneTc0QXdFNnI5alo4NjcxWnRyRDR0eG8wYlBjb1lB?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-08",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 4.8,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 8.0
+      },
+      "recommendation": "新一轮融资落地，资本正加码产业资本/投资机构赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资"
+      ]
+    },
+    {
+      "title": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-07",
+      "region": "overseas",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 4.8,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 8.0
+      },
+      "recommendation": "新一轮融资落地，资本正加码购物渠道赛道；。中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
+      "tags": [
+        "融资"
+      ]
+    },
+    {
+      "title": "Avid Health Acquires Tech Medical Home Care - HomeCare Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU29FN1U3eF9BMDA5ZDlrcmU0QnVKQU1YZzBfZk14WFZkel9ZRjdHcGxNOFM4N2ZXRG94dW5BTTE3WERXX19nMnZLcnlFYjJkWktXdnMxWkVMTEo2Y0pFV3RSeVNXaHNLclB1UUhpenpwVVdQN3JaalFSbVEwVjJiQmx3?oc=5",
+      "source": "居家护理杂志",
+      "date": "2026-07-07",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 4.8,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 8.0
+      },
+      "recommendation": "美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
+      "tags": [
+        "收购",
+        "居家养老",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands",
+      "url": "https://seniorhousingnews.com/2026/07/01/senior-living-dealbook-benchmark-national-development-acquire-new-york-site-asbury-place-maryville-rebrands/",
+      "source": "养老住房新闻",
+      "date": "2026-07-01",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 4.69,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 6.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 7.0
+      },
+      "recommendation": "美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
+      "tags": [
+        "收购",
+        "养老地产",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "Athulya Geriatric Care Hospitals launches India's largest exclusive senior citizen hospital, completing a 360° elder care continuum - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQLXJmODlqMVlTTE5TeTNqR09VdV9CXzhmd25iSnUyV18wZDBaSU5uaGdMdHZ0TEtRWUIweUxCdzhDb3hfT1YzeVpTRnp5Tk1DcGxPTHNNQ3pidG5zWW5tSlVzUEg2UTRrM2ZrNEJqdnVJV2l2WnFMU0xVMmI5RHJRdnVBQzlkRWZUUHpKU3Yzd2EyYlJJQ2dCNlhpZE05MHQ3YUZTOWJ2UlY1cEZnYUI3NFZrSTRkMXBTbnJmSHc5eVNtZHRPbDVGZ3RGTTNwSlZ1NktLWHVHM2UtZ05RQnV5MWYwN2hxMnVBWHlnZlNOMkhhNko3YnpsNDhnR0ZUY2dBbGVmVlZPR3pxX3dVTkRnQjlCdzBqVUFLXzFnbnhSNjZsRUxPTTRLWDJ6NVVCZ182LU1rX9IBugJBVV95cUxONU12Z2s4REtPMi01ZDJMc0JkR2xpcGRRY0FKODBDS2JycnBsdWY1QTUyM2hsU2VSZnVOdVdISFFBSFpaSUdyX2dURUNpM3dsb3diRFk4X2s3VnJZeFRFS2RSemdNb3MxNGc5SlM2N1BmS3Z5MUpqUXlLTTVHcndxcDVrejhXcURQMGVWbGVLbmp3RFRQN0ttdjdjejBoemE4LUNrVUU4a0x2Q0dpdTZqTFFhazlMQWVfNFNXTWhDRkx3RFg2NTNWcFIzMUVlLTFaXy11S3hqMURkSlk5eGtEc2NiVHdvTXQxcHUtT3FDV2pMU0pKdktYVDRTX2J5NXluX3NvNXlTVEFXY2loSzYxOXhlajlVYVQ5bjkyWjFDRzI2TTlLb2liUGo5cDI5RjFqNWJhaHh6anJCQQ?oc=5",
+      "source": "Business Standard",
+      "date": "2026-07-02",
+      "region": "overseas",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 4.57,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 8.0,
+        "writing": 8.0,
+        "cn_fit": 0.0,
+        "urgency": 3.0
+      },
+      "recommendation": "新品亮相。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+      "tags": [
         "产品发布"
       ]
     },
     {
-      "title": "Upside获2000万美元住房稳定性平台融资（含Tombot等投融资汇总）",
-      "url": "https://www.mobihealthnews.com/news/upside-garners-20m-healthcare-focused-housing-stability-platform-and-more-funding-news",
-      "source": "移动健康新闻",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "Tombot",
-      "final_score": 6.83,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.9,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "这是一篇投融资汇总。Tombot的700万美元机器狗融资已单独成条，是本轮最值得关注的部分。Upside的住房稳定性平台与银发经济关联较弱，建议关注Tombot条目即可。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "Medicare Advantage拐点：居家护理转向支付方精挑细选",
-      "url": "https://homehealthcarenews.com/2026/06/medicare-advantages-home-based-care-pivots-payer-selectivity/",
+      "title": "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States - Home Health Care News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZFg3amY0UkR3Y3kxdl9fV0RTVGVIMHY3X2VXcThUdHNnb2FxUGZkeUd6M0s4OUZIMU03Mzh3aVJaeDJyUlY3M0RST3hNblY0bnNpeHN6RlowNHNlSUdJTnJ4QUQ0MWNDRzVIbzZubjdBb2ZmajBDeTkyZ0x6eW05RkpEMDRXY0pINUtlT3hmR3BOcUFzRzRzVENhM0tkS2dfOEc1Wm9fV2YxdkRyYWZQdUJUZzJWYVh6Tlp1Sg?oc=5",
       "source": "家庭健康护理新闻",
-      "date": "2026-06-30",
+      "date": "2026-07-07",
       "region": "overseas",
       "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.85,
+      "entity_name": "",
+      "final_score": 4.56,
       "dim_scores": {
         "industry": 6,
-        "signal": 6.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "一个反直觉的经营智慧：砍掉70%的客户反而赚了钱。h/care发现100个支付方合同中80个在亏钱，于是把患者量从400砍到120，EBITDA从-20%变成+8%。这对中国养老机构的启示是：很多机构追求「规模扩张」，但80%的客户可能在亏钱。不是每个支付方都值得合作——与其服务400个亏损客户，不如精选120个赚钱客户。中国养老机构的亏损，可能不是因为客户不够多，而是因为客户太杂。",
-      "tags": [
-        "居家养老",
-        "保险科技",
-        "护理人力"
-      ]
-    },
-    {
-      "title": "LifeCare Development进入田纳西州，建设The Blake at Chattanooga高端辅助生活社区",
-      "url": "https://www.mcknightsseniorliving.com/news/lifecare-development-enters-tennessee-with-plans-for-the-blake-at-chattanooga/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.15,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 2.4,
+        "signal": 6.0,
         "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 5.0
+        "cn_fit": 0.0,
+        "urgency": 8.0
       },
-      "recommendation": "区域性养老地产开发商进入新州——这是美国养老地产扩张的常规节奏，单条故事性不强。建议归档，作为养老地产区域扩张趋势的数据点积累。",
-      "tags": [
-        "辅助生活",
-        "养老地产",
-        "认知症"
-      ]
-    },
-    {
-      "title": "Janus Living：近期上市后，养老护理 REIT 开启物业收购狂潮",
-      "url": "https://seekingalpha.com/article/4771852-janus-living-ipo-senior-care-reit-property-shopping-spree",
-      "source": "Seeking Alpha",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "Ping",
-      "final_score": 7.75,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "又一家养老REIT上市并开启收购潮，美国资本市场对养老资产证券化持续看好。中国REITs试点已扩展到保障性租赁住房，养老资产REITs路径正逐步清晰。",
-      "tags": [
-        "IPO",
-        "养老地产",
-        "融资"
-      ]
-    },
-    {
-      "title": "Experity 收购 Exdion Healthcare，加速按需医疗 RCM 自动化",
-      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/experity-acquires-exdion-healthcare-accelerate-demand-care-rcm-automation",
-      "source": "Fierce医疗",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "Accelera",
-      "final_score": 7.75,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "医疗IT整合收购加速，RCM自动化逻辑对养老机构同样适用。中国养老机构的收费结算和保险对接效率低，RCM自动化是一个被低估的科技赋能方向。",
+      "recommendation": "美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
       "tags": [
         "收购",
-        "数字疗法",
+        "居家养老",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "Nation’s first state-run long-term care insurance program launches in WA - Chinook Observer",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXVCSTNuV1VFLWM4OHJxRHpXd2pLQjBjNFFGb19rcnZtQXFjTC1ZM2FSdnozLVE3a25UQ05SMnVXc3dfQU56WENrVF9jZWlsMUlDcU02RGo1amNUbHJ4bDJOYTNYZFZqbEFmN2Z4VWRvVEE2NFZOcEpmZ09hRjBnQVpFZHdzekFWOEIyVl9jREh0U211UXJkYXNVa3M0ZFRyNnBYLTB6TjZQRTB1WHpJQzdrcmpjTnV5VlE?oc=5",
+      "source": "Chinook Observer",
+      "date": "2026-07-05",
+      "region": "overseas",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 4.29,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 8.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 3.0
+      },
+      "recommendation": "新品亮相。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+      "tags": [
+        "产品发布",
         "保险科技"
       ]
     },
     {
-      "title": "初创公司 Queue 获 1260 万美元融资，推出自主机器人药房亭",
-      "url": "https://www.fiercehealthcare.com/health-tech/startup-queue-lands-126m-launch-autonomous-robotic-pharmacy-kiosks",
-      "source": "Fierce医疗",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "自动药房售货亭对社区老年人用药管理有应用前景，但产品面向全人群，银发经济相关度中等。关注其是否会在养老社区或老年公寓部署。",
-      "tags": [
-        "融资",
-        "药物管理",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Upside 获 2000 万美元，用于医疗导向的住房稳定平台",
-      "url": "https://www.mobihealthnews.com/news/upside-garners-20m-for-healthcare-focused-housing-stability-platform",
-      "source": "移动健康新闻",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.83,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.9,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "住房稳定性与老年人健康密切相关，但产品主要面向就医过渡期住房支持，非养老住宅。作为住房+健康交叉领域信息储备即可。",
-      "tags": [
-        "融资",
-        "养老地产"
-      ]
-    },
-    {
-      "title": "硬氪首发 | 清华系脑机接口公司种子轮融资数千万，用超声波做半&非侵入脑机",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9iTWc2c2VKNFgtbmRTMG5LZjk3dms3QkRpUE5xZDNzUlRHRlNiNUR1NndQTTllSmUyb0R0ck04blJNdUN4dEZWSDNCMVZ6UQ?oc=5",
-      "source": "36 Kr",
-      "date": "2026-06-30",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.25,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 5.0
-      },
-      "recommendation": "清华系脑机接口公司用超声波做半/非侵入式接口，种子轮即获数千万融资。脑机接口在老年康复、失能交互等银发场景有长期潜力，但商业化路径仍不清晰，值得持续关注。",
-      "tags": [
-        "融资",
-        "种子轮"
-      ]
-    },
-    {
-      "title": "Capital Funding Group完成3.188亿美元专业护理设施融资",
-      "url": "https://www.mcknightsseniorliving.com/news/capital-funding-group-closes-318-8m-in-snf-financings-across-2-transactions/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-29",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.53,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.9,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "3.188亿美元的SNF融资说明资本市场对专业护理设施仍有信心。纯金融交易不建议单独写稿，但可作为养老地产资本趋势的数据点，与Kayne Anderson 14亿美元收购案放在一起看时更有价值——私募股权和债权资本同时在涌入养老地产。",
-      "tags": [
-        "养老地产",
-        "融资",
-        "辅助生活"
-      ]
-    },
-    {
-      "title": "台湾创业者将智能养老引入中国大陆",
-      "url": "https://www.manilatimes.net/2026/06/29/business/taiwan-entrepreneur-time-light-care-brings-smart-elderly-care-to-mainland/",
-      "source": "The Manila Times",
-      "date": "2026-06-29",
+      "title": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？ - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-08",
       "region": "overseas",
       "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "两岸银发经济合作典型案例。台湾养老产业起步较早（2025年进入超高龄社会），其经验对大陆有直接借鉴价值。值得关注该企业在大陆的落地进展和适应情况。",
-      "tags": [
-        "智慧养老",
-        "战略合作",
-        "老年消费"
-      ]
-    },
-    {
-      "title": "New Day CEO 在 16 次收购后优先运营而非并购",
-      "url": "https://homehealthcarenews.com/2026/06/new-day-ceo-kathy-poland-prioritizes-operations-over-ma/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-06-29",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.45,
+      "entity_name": "",
+      "final_score": 4.26,
       "dim_scores": {
         "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
+        "signal": 6.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 6.0
       },
-      "recommendation": "又一个「买到不买了」的战略转向案例。与中国养老行业「先圈地再做服务」的焦虑形成对照：规模扩张不是终局，运营能力才是护城河。",
+      "recommendation": "行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
-        "战略合作",
-        "居家养老",
-        "护理人力"
+        "其他事件",
+        "智慧养老",
+        "行业趋势"
       ]
     },
     {
-      "title": "居家医生：环境式居家健康检测的兴起",
-      "url": "https://www.forbes.com/sites/forbestechcouncil/2026/06/29/a-doctor-at-home-the-rise-of-ambient-home-health-monitoring/",
-      "source": "Forbes",
-      "date": "2026-06-29",
+      "title": "Why Senior Living Operators Shouldn’t Ignore Trend of Older Adults Working Longer",
+      "url": "https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/",
+      "source": "养老住房新闻",
+      "date": "2026-07-02",
       "region": "overseas",
       "event_type": "行业趋势",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "Forbes行业趋势文章，印证「无感监测」是居家养老技术主流方向。从可穿戴到环境的转变，让监测从「老人配合」变成「技术自动运行」，对中国居家养老产品设计有方向性指导。",
-      "tags": [
-        "智慧养老",
-        "健康监测",
-        "远程医疗"
-      ]
-    },
-    {
-      "title": "上海银发经济家底首度公开，一份报告看懂养老新赛道",
-      "url": "https://mzj.sh.gov.cn/2026bsmz/20260629/79e742de570848619dc0f805815671af.html",
-      "source": "上海市民政局",
-      "date": "2026-06-29",
-      "region": "domestic",
-      "event_type": "政策法规",
-      "entity_name": null,
-      "final_score": 5.35,
+      "entity_name": "",
+      "final_score": 3.81,
       "dim_scores": {
         "industry": 6,
-        "signal": 1.6,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "上海首次公开银发经济系统性数据：养老科技三大攻关方向、康复器械审批缩短至6个月、2025年新增12款产品获批。这份家底报告是理解中国最前沿银发经济城市的绝佳素材，建议做解剖上海系列选题。",
-      "tags": [
-        "政策法规"
-      ]
-    },
-    {
-      "title": "Selectis Health被Black Pearl收购",
-      "url": "https://www.mcknightsseniorliving.com/news/selectis-health-to-be-acquired-by-black-pearl/",
-      "source": "McKnight's养老社区",
-      "date": "2026-06-28",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 6.75,
-      "dim_scores": {
-        "industry": 7,
-        "signal": 6.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "中小型老年护理运营商的私有化收购在美国持续活跃——这是行业整合的常规节奏。单笔交易故事性不强，但与DAI收购HCA、Kayne Anderson被Bridgepoint收购放在一起看，「养老护理资产正在快速资本化」是2026年的大趋势。建议积累更多类似收购案后合并分析。",
-      "tags": [
-        "辅助生活",
-        "收购",
-        "养老地产"
-      ]
-    },
-    {
-      "title": "Athulya Senior Care 寻求 3000 万美元融资以扩张印度市场",
-      "url": "https://www.thehindubusinessline.com/news/athulya-senior-care-eyes-30-million-fund-raise/article69876543.ece",
-      "source": "BusinessLine",
-      "date": "2026-06-28",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "Athulya Senior Care",
-      "final_score": 6.93,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 9.5,
+        "signal": 6.0,
         "writing": 6.0,
-        "cn_fit": 8.5,
+        "cn_fit": 0.0,
         "urgency": 3.0
       },
-      "recommendation": "印度养老产业加速资本化，与中国相似的人口老龄化压力催生专业养老运营商。Athulya的「独立生活到专业护理」全链条模式值得中国同行研究，尤其两国家庭养老文化背景下的商业路径对比。",
+      "recommendation": "养老地产存量改造经验对中国大量老旧设施有参考价值。",
       "tags": [
-        "融资",
-        "居家养老",
-        "养老地产"
-      ]
-    },
-    {
-      "title": "Hera获2700万美元融资，打造老年护理「协调层」",
-      "url": "https://homehealthcarenews.com/2026/06/hera-raises-27m-to-bring-its-senior-care-coordination-layer-to-25-states/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-06-26",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.53,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.9,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "Hera做的不提供护理服务，而是在不同的护理机构、护工、家属之间建立信息桥梁——一个「协调层」。这个定位很聪明：美国有3万+家庭护理机构，碎片化程度极高，单一机构无法满足老人的全部需求。中国居家养老市场碎片化更严重——大量个体户+小公司——但至今没有出现类似的协调平台。不是没有需求，是支付端的问题还没解决。",
-      "tags": [
-        "居家养老",
-        "智慧养老",
-        "社交陪伴",
-        "融资"
-      ]
-    },
-    {
-      "title": "DAI从HCA收购31家居家护理机构，重注居家养老",
-      "url": "https://homehealthcarenews.com/2026/06/dai-to-acquire-24-home-health-agencies-from-hca-doubling-down-on-care-in-the-home/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-06-24",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 6.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "HCA作为美国最大医院运营商之一，出售31家居家护理机构；DAI这家非营利机构反而在「加倍下注」居家护理。一卖一买背后是美国医疗体系从「机构化」向「去机构化」的结构性转移——医院的核心是床位周转，居家护理利润薄但增长快。对中国正在推行的「医养结合」有直接警示：医院做养老不是把床位改成养老床位那么简单，而是完全不同的运营逻辑。",
-      "tags": [
-        "居家养老",
-        "收购",
-        "临终关怀",
-        "辅助生活"
-      ]
-    },
-    {
-      "title": "Cadence获1亿美元融资，联手Duke Health推远程慢病管理",
-      "url": "https://www.mobihealthnews.com/news/cadence-raises-100m-announces-duke-health-and-texas-health-resources-collaborations/",
-      "source": "移动健康新闻",
-      "date": "2026-06-23",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.33,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 7.9,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "1亿美元+杜克大学医疗系统合作——Cadence拿到的不只是钱，而是顶级医疗机构的信任背书。这意味着远程患者监控（RPM）不再是创业公司的边缘试验，而是进入了主流医疗体系的核心战略。信号很强：连最保守的学术医疗中心都开始把慢病管理外包给AI了。中国有近2亿老年慢病患者，远程监控渗透率却极低——差距不在技术，在支付机制（谁为RPM买单）和医生的接受度。",
-      "tags": [
-        "慢病管理",
-        "远程医疗",
-        "健康监测",
-        "融资"
-      ]
-    },
-    {
-      "title": "ChartSpan收购Validic，整合远程慢病管理数据基础设施",
-      "url": "https://www.mobihealthnews.com/news/chartspan-acquires-validic-expand-remote-care-management-platform/",
-      "source": "移动健康新闻",
-      "date": "2026-06-22",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 6.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "护理管理公司收购数据基础设施公司——这不是普通的并购，而是反映了远程患者监控（RPM）行业的一个关键认知转变：RPM的核心不是硬件，是数据。谁能整合多种设备的数据、清洗标准化、并转化为临床决策，谁就掌握了价值链的制高点。中国做老年慢病管理的创业公司多集中在硬件端（手环、血压计），但数据层的整合和价值挖掘几乎空白。",
-      "tags": [
-        "慢病管理",
-        "远程医疗",
-        "健康监测",
-        "收购"
-      ]
-    },
-    {
-      "title": "AI仿生智慧体赋能长寿养老，承愿国际寻求种子轮融资",
-      "url": "https://www.36kr.com/p/3794973661289475",
-      "source": "36氪",
-      "date": "2026-06-22",
-      "region": "domestic",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 5.95,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 5.6,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "「AI仿生智慧体+长寿村」概念听着很前沿，但目前还在种子轮寻求阶段，缺乏可验证的产品和数据。建议标记为「跟踪观察」——如果完成融资或产品落地，再评估写作价值。现阶段不建议单独写稿。",
-      "tags": [
-        "长寿科技",
-        "智慧养老",
-        "融资"
-      ]
-    },
-    {
-      "title": "Freedom Senior Services新CEO：被PE收购后将做激进并购",
-      "url": "https://homehealthcarenews.com/2026/06/freedom-senior-services-ceo-aims-to-make-company-aggressive-ma-player-after-acquisition/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-06-15",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.45,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "PE收购→激进并购→行业整合——这种路径在居家护理行业已是成熟模式。本文价值在于作为行业整合趋势的背景素材。建议归档，等Freedom有具体大额收购时再配合使用。",
-      "tags": [
-        "居家养老",
-        "收购",
-        "辅助生活"
-      ]
-    },
-    {
-      "title": "Humana出售Gentiva股份，900万美元退出临终关怀业务",
-      "url": "https://homehealthcarenews.com/2026/06/humana-to-divest-stake-in-gentiva-in-900m-deal/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-06-10",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": "Humana",
-      "final_score": 5.83,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 3.9,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "Humana三年前买了Gentiva，现在又卖了——「保险+护理」的整合策略正在回撤。保险公司做护理最大的问题是：医疗服务追求的是成本控制，护理服务追求的是服务质量，两者的KPI天然矛盾。对中国正在All in「保险+养老」的泰康、平安、国寿等险企而言，这是很有价值的警示案例——不是不能做，而是要想清楚是深度整合还是保持距离的战略投资。",
-      "tags": [
-        "临终关怀",
-        "居家养老",
-        "保险科技",
-        "收购"
-      ]
-    },
-    {
-      "title": "Lucent Health收购Chambers Home Health & Hospice",
-      "url": "https://homehealthcarenews.com/2026/06/lucent-health-group-buys-chambers-home-health-hospice/",
-      "source": "家庭健康护理新闻",
-      "date": "2026-06-10",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.35,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 6.4,
-        "writing": 8.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "区域性居家护理并购持续活跃，反映行业整合的大趋势。建议作为居家护理并购趋势的数据点积累，等到积累5-10起类似交易后合并为一篇「美国居家护理并购潮」分析文章。目前不建议单独写稿。",
-      "tags": [
-        "居家养老",
-        "收购",
-        "临终关怀"
-      ]
-    },
-    {
-      "title": "2026 AgeTech市场图谱：300+企业、60家新创、近7亿美元融资",
-      "url": "https://thegerontechnologist.com/2025-agetech-market-map/",
-      "source": "老年科技评论",
-      "date": "2026-06-01",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 6.93,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 9.5,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "这是AgeTech行业最权威的年度图谱，300+公司分布在哪些赛道、近7亿美元去了哪些方向、60个新入局者反映了什么趋势——做银发经济研究不能绕过这份报告。有趣的是，美国AgeTech的五大增长赛道（居家安老、护理支持、机器人、认知健康、长寿金融）vs中国的银发经济热点（养老社区、保健品、老年旅游），差异巨大——是市场阶段不同，还是底层逻辑不同？值得写一篇中美AgeTech赛道对比。",
-      "tags": [
-        "居家养老",
-        "智慧养老",
-        "长寿科技",
-        "融资"
-      ]
-    },
-    {
-      "title": "反向迁徙：东北开始「抢」老人，留住南飞的「候鸟」",
-      "url": "https://www.36kr.com/p/3817053424206726",
-      "source": "36氪",
-      "date": "2026-05-20",
-      "region": "domestic",
-      "event_type": "其他事件",
-      "entity_name": null,
-      "final_score": 5.25,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 1.6,
-        "writing": 6.0,
-        "cn_fit": 6.0,
-        "urgency": 3.0
-      },
-      "recommendation": "「东北抢老人」这个标题自带流量。背后的逻辑值得关注：当年轻人口持续外流，老年人成为东北一些城市「最后的消费力」。养老服务从福利变成城市竞争力——谁能留住老人，谁就留住了养老金消费流。可与「京东上线养老师」「美团上线养老机构」放在一起，写一篇「谁在为老年人建城市」——从G端到C端的养老生态思考。",
-      "tags": [
-        "居家养老",
         "养老地产",
-        "老年消费"
+        "行业趋势"
       ]
     },
     {
-      "title": "全球化具身养老机器人公司骅羲科技获亚华电子战略投资",
-      "url": "https://www.36kr.com/p/3798681166814215",
-      "source": "36氪",
-      "date": "2026-05-07",
-      "region": "domestic",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "12个月三轮融资，上市公司战略入股——骅羲科技的融资节奏说明「具身智能+养老」不是概念，是资本真金白银下注的方向。亚华电子做智慧医院和智慧养老解决方案，投资骅羲是产业链上下游整合的典型。有趣的是跟进观察：亚华刚宣布加入华为「鸿图计划」加速智慧医院开源鸿蒙落地，两条线（机器人+鸿蒙生态）如果打通，骅羲的产品落地速度可能远超其他创业公司。可写「具身智能如何在养老场景率先落地」。",
-      "tags": [
-        "智慧养老",
-        "居家养老",
-        "社交陪伴",
-        "融资"
-      ]
-    },
-    {
-      "title": "单笔融资重回亿元级！银发产业投资逻辑彻底变了",
-      "url": "https://finance.sina.com.cn/wm/2026-04-27/doc-inhvxtqy9052060.shtml",
-      "source": "新浪财经",
-      "date": "2026-04-27",
-      "region": "domestic",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "重磅行业报告解读！单笔融资重回亿元级，投资逻辑变化信号强烈。建议以此为底稿，结合选题库投融资数据进行深度写作，可做成年度投融资盘点选题。",
-      "tags": [
-        "融资"
-      ]
-    },
-    {
-      "title": "如何解读2026年3月底至4月初康养领域的密集投融资与战略布局",
-      "url": "https://zhuanlan.zhihu.com/p/2024906774910616586",
-      "source": "知乎",
-      "date": "2026-04-07",
-      "region": "domestic",
-      "event_type": "收购并购",
-      "entity_name": null,
-      "final_score": 7.05,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
-        "urgency": 3.0
-      },
-      "recommendation": "三大信号：1）国寿2.3亿收购南京CCRC；2）北京x阿里合作智慧养老；3）细分领域整合。选题库未覆盖，可作为国内投融资选题参考。",
-      "tags": [
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "Baba获650万美元种子轮，做Medicare患者倡导平台",
-      "url": "https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26",
-      "source": "Fierce医疗",
-      "date": "2026-02-15",
+      "title": "Blue Ridge Care, Katie’s Comfort House Launch Collaborative Partnership - Hospice News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa28tRUZudDRfRFpPdi01S25uV1pOYlF4U3BXN3M2YXdwU1RsV3RNcjJWeV95X19sN0JUc0kwbFJLVmlGQmFUZnRBVHl6bS1ORnBvdFNxa054VEpLYVhUQkUwckRQcjJlUUk2QnhKVWtZUFhySEZ0Ql9NcloyY2Z6Rm9GTEJ0ZlN4eG83YXZRR1RyYnVPc0hHNkRyUWQ4QWU5R3NWT3dZUVA?oc=5",
+      "source": "临终关怀新闻",
+      "date": "2026-07-02",
       "region": "overseas",
-      "event_type": "融资",
-      "entity_name": null,
-      "final_score": 7.05,
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 3.53,
       "dim_scores": {
         "industry": 6,
-        "signal": 10.0,
-        "writing": 6.0,
-        "cn_fit": 8.5,
+        "signal": 6.0,
+        "writing": 4.0,
+        "cn_fit": 0.0,
         "urgency": 3.0
       },
-      "recommendation": "650万美元种子轮虽小，但「患者倡导员」模式值得关注——帮老年人搞懂医保、约对医生、吃对药。Baba的做法是「人+技术」（指派专属人工倡导者），与Solace Health的「平台化网络」模式形成对比。建议与Solace（1.3亿美元）合并写一篇「美国老年医疗导航市场」分析，讨论中国「就医陪诊/养老顾问」的市场机会和信任壁垒。",
+      "recommendation": "新产品/服务上线。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
       "tags": [
-        "居家养老",
-        "保险科技",
-        "融资"
+        "产品发布",
+        "战略合作",
+        "行业趋势"
+      ]
+    },
+    {
+      "title": "Heart to Heart Hospice Increases Cybersecurity With CyberMaxx Partnership - HomeCare Magazine",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZzlTcGp4Q2hhS1hyaC1yYUhQTVNQMlA1Ry1Zel9KS251YWJRQmRLamI1bG1sai1kSzdsOGJReTVhUlZBbmpQejhtVmxFZTM2dTNOSU9sQnFkbF92YlZrZDExYWxVMEFWVWxyM1c0VVpkN0NlMkVEVW9TYVlFamFjWmp4eHFTMnR6V01nY1VTeXpsRVN3Y25sZ1RrSmZtUDA?oc=5",
+      "source": "居家护理杂志",
+      "date": "2026-07-06",
+      "region": "overseas",
+      "event_type": "其他事件",
+      "entity_name": "",
+      "final_score": 3.44,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 5.0,
+        "writing": 4.0,
+        "cn_fit": 0.0,
+        "urgency": 4.0
+      },
+      "recommendation": "行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "其他事件",
+        "战略合作",
+        "行业趋势"
       ]
     }
   ]

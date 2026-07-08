@@ -15,13 +15,19 @@ import requests
 
 from config import (
     SOURCES, DATA_DIR, RELEVANCE_KEYWORDS, CN_RELEVANCE_KEYWORDS,
-    IRRELEVANT_KEYWORDS,
+    IRRELEVANT_KEYWORDS, SILVER_STRONG_KEYWORDS, SILVER_WEAK_KEYWORDS,
     MAX_ARTICLE_AGE_DAYS,
     SIGNAL_KEYWORDS_POSITIVE, SIGNAL_KEYWORDS_NEGATIVE, SOURCE_TIER_WEIGHTS,
     MAX_ARTICLES_TO_SCORE,
 )
 
 CACHE_FILE = os.path.join(DATA_DIR, "history.json")
+
+# Optional direct-RSS fallback for a few key google_news sources (verified feeds).
+# Left intentionally small; the main resilience comes from rss -> google_news fallback.
+DIRECT_RSS_FALLBACK = {
+    # source_id: direct_rss_url  (only add after verifying the feed works)
+}
 
 HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -69,21 +75,36 @@ def clean_old_entries(history, days=30):
     history["last_cleanup"] = datetime.now(timezone.utc).isoformat()
 
 
-def is_relevant(text):
-    """Quick keyword pre-check: is this likely about senior care / aging?
-    Supports both English and Chinese keywords."""
+def is_relevant(text, entity_name=None):
+    """Two-tier relevance gate (2026-07-08 收紧).
+
+    强词命中（养老/银发/照护/认知症/Medicare…） => 相关。
+    仅弱词命中（融资/机器人/AI/科技 等泛词，无银发上下文） => 不相关，除非
+    主体 entity_name 在企业库已知银发企业名单中。
+    目的：挡掉"复旦95后机器人大佬"这类泛科技/机器人融资稿。
+    """
+    if not text:
+        return False
     text_lower = text.lower()
     for kw in IRRELEVANT_KEYWORDS:
         if kw.lower() in text_lower:
             return False
-    # Check English keywords
-    for kw in RELEVANCE_KEYWORDS:
-        if kw.lower() in text_lower:
+    # 强词命中即相关
+    for kw in SILVER_STRONG_KEYWORDS:
+        if (kw.lower() in text_lower) or (kw in text):
             return True
-    # Check Chinese keywords
-    for kw in CN_RELEVANCE_KEYWORDS:
-        if kw in text:
-            return True
+    # 仅弱词：需主体是企业库已知银发企业才算相关
+    weak_hit = False
+    for kw in SILVER_WEAK_KEYWORDS:
+        if (kw.lower() in text_lower) or (kw in text):
+            weak_hit = True
+            break
+    if weak_hit:
+        if entity_name:
+            from enterprise_names import ENT_NAME_SET  # 延迟导入，避免循环
+            if entity_name.strip().lower() in ENT_NAME_SET:
+                return True
+        return False
     return False
 
 
@@ -205,8 +226,12 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
     """
     try:
         if source_type == "rss":
-            # Direct RSS via feedparser
-            feed = feedparser.parse(feed_url)
+            # Direct RSS — fetch via requests WITH timeout, then parse.
+            # feedparser.parse(url) uses urllib without a timeout and can hang
+            # the whole pipeline on a slow/dead feed, so we never call it on a URL.
+            resp = requests.get(feed_url, headers=HTTP_HEADERS, timeout=15)
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.text)
         elif source_type == "rss_http":
             # RSS via requests with headers (for sites that block feedparser)
             resp = requests.get(feed_url, headers=HTTP_HEADERS, timeout=15)
@@ -289,6 +314,33 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
         return []
 
 
+def _google_news_url_for_domain(domain, hl="en-US"):
+    """Build a Google News RSS search URL that monitors an entire domain."""
+    from urllib.parse import quote
+    clean = domain.split("//")[-1].rstrip("/")
+    domain = clean.split("/")[0]
+    return f"https://news.google.com/rss/search?q={quote('site:' + domain)}+when:7d&hl={hl}"
+
+
+def _fallback_for_channel(source_id, source_config, channel_url, channel_method):
+    """Return (fallback_url, fallback_method) or None.
+
+    Resilience chain (network ON is assumed; this only triggers when a specific
+    source fails so one dead feed never zeroes out the whole day's collection):
+      - rss / rss_http  -> google_news site:domain   (covers 403 / empty direct feeds)
+      - google_news      -> known direct RSS (if listed in DIRECT_RSS_FALLBACK)
+    """
+    if channel_method in ("rss", "rss_http"):
+        domain = source_config.get("l1_domain", "")
+        if domain:
+            return (_google_news_url_for_domain(domain), "google_news")
+    elif channel_method == "google_news":
+        direct = DIRECT_RSS_FALLBACK.get(source_id)
+        if direct:
+            return (direct, "rss")
+    return None
+
+
 def score_article(article, source_config):
     """
     Score an article based on signal keywords + source tier weight.
@@ -350,6 +402,18 @@ def collect_all(history=None):
             channel_articles = collect_from_rss(
                 source_id, channel_url, channel_method, source_name
             )
+            # Fallback: if the primary method returned nothing (403 / empty /
+            # timeout), try the alternative so one dead feed never empties the day.
+            if not channel_articles:
+                fb = _fallback_for_channel(
+                    source_id, source_config, channel_url, channel_method
+                )
+                if fb:
+                    fb_url, fb_method = fb
+                    print(f"  [{channel_name}] primary empty -> fallback ({fb_method})")
+                    channel_articles = collect_from_rss(
+                        source_id, fb_url, fb_method, source_name
+                    )
             all_channel_articles.extend(channel_articles)
 
         new_count = 0
@@ -407,7 +471,16 @@ def collect_all(history=None):
     
     # Store full relevant set for external save (full dashboard update)
     collect_all._last_relevant = relevant_articles
-    
+
+    # Persist the FULL relevant set so downstream steps (score_and_merge) can read
+    # it — regardless of whether collect_all is invoked as a module (run_daily.py)
+    # or run directly as a script. (Previously this save lived only in __main__,
+    # so module calls never wrote the raw file and broke the whole pipeline.)
+    out_file = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(relevant_articles, f, ensure_ascii=False, indent=2)
+    print(f"\nSaved {len(relevant_articles)} relevant articles to {out_file}")
+
     # Print top 5 for quick preview
     if top_articles:
         print("\n--- Top 5 by signal score ---")
@@ -419,14 +492,6 @@ def collect_all(history=None):
 
 if __name__ == "__main__":
     articles = collect_all()
-    # Save ALL relevant articles (not just Top N) for full dashboard update
-    out_file = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
-    # articles is top_articles (Top N); also save full relevant set if available
-    relevant_all = getattr(collect_all, '_last_relevant', None)
-    save_set = relevant_all if relevant_all else articles
-    with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(save_set, f, ensure_ascii=False, indent=2)
-    print(f"\nSaved {len(save_set)} relevant articles to {out_file}")
     print("\n--- Recent articles ---")
     for a in articles[:10]:
         print(f"  [{a['source']}] {a['title'][:70]} | {a['date']} | {a['url'][:60]}")

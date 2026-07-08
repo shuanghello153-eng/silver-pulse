@@ -17,6 +17,7 @@ Design notes
 import os
 import subprocess
 import sys
+import tempfile
 
 REPO = os.path.dirname(os.path.abspath(__file__))
 OUTPUT = os.path.join(REPO, "output")
@@ -59,7 +60,28 @@ def deploy():
     if not entries:
         return False, "no build files found in output/"
 
-    tree = _run(["git", "mktree"], input_text="\n".join(entries) + "\n").strip()
+    # Write mktree input to a temp file with EXPLICIT LF line endings.
+    # (Passing via stdin on Windows can translate \n -> \r\n, which makes the
+    # trailing \r part of each filename and breaks GitHub Pages serving.)
+    tf_path = None
+    try:
+        fd, tf_path = tempfile.mkstemp(suffix=".mktree")
+        with os.fdopen(fd, "wb") as tf:
+            tf.write(("\n".join(entries) + "\n").encode("utf-8"))
+        with open(tf_path, "rb") as tf:
+            res = subprocess.run(
+                ["git", "mktree"],
+                cwd=REPO,
+                stdin=tf,
+                capture_output=True,
+                text=True,
+            )
+        if res.returncode != 0:
+            raise RuntimeError("git mktree failed: %s" % res.stderr.strip())
+        tree = res.stdout.strip()
+    finally:
+        if tf_path and os.path.exists(tf_path):
+            os.remove(tf_path)
 
     # Build on top of existing gh-pages if present (linear history), else orphan.
     parent = None
@@ -77,8 +99,18 @@ def deploy():
         commit = _run(["git", "commit-tree", tree, "-m", msg]).strip()
 
     _run(["git", "branch", "-f", "gh-pages", commit])
-    _run(["git", "push", "--force", "origin", "gh-pages"])
-    return True, "pushed commit %s to gh-pages" % commit[:10]
+    # Push with retry — network resets (curl 35) are transient; retry up to 3×.
+    import time
+    last_err = None
+    for attempt in range(1, 4):
+        try:
+            _run(["git", "push", "--force", "origin", "gh-pages"])
+            return True, "pushed commit %s to gh-pages (attempt %d)" % (commit[:10], attempt)
+        except RuntimeError as e:
+            last_err = e
+            print("[deploy] push attempt %d failed: %s" % (attempt, e))
+            time.sleep(3)
+    raise RuntimeError("git push failed after 3 attempts: %s" % last_err)
 
 
 if __name__ == "__main__":

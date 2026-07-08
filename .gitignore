@@ -8,3 +8,23 @@ __pycache__/
 Thumbs.db
 tmp_*.py
 test.txt
+
+# ===== 补充：本地/临时排除（2026-07-08） =====
+# 本地内存与工具目录（含绝对路径，不应进仓库）
+.workbuddy/
+
+# Windows 误入的空设备文件
+nul
+
+# 临时分块与中间产物
+data/_chunks/
+data/_namechunks/
+data/enterprise/_chunks/
+data/enterprise/_namechunks/
+data/enterprise/_namecn_todo.json
+data/enterprise/_todo_translate.json
+data/enterprise/_build_candidates.py
+
+# 诊断脚本（非核心流水线）
+diag.py
+self_audit.py

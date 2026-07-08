@@ -1,38 +1,19 @@
 {
   "#0001": {
-    "research_value": 51,
-    "grade": "C",
+    "research_value": 26,
+    "grade": "—",
     "base_value": 26,
-    "event_boost": 25,
+    "event_boost": 0,
     "mirror_bonus": 0,
     "v1": 8,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-07",
-    "related_news_ids": [
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04djVmVlYxak9yRU9JQkotekNvQVNYd1FQSC1RSWc1WmRDVE0zZWVhZHRabXdSWVZNdldpTGluWXVjRGw1dkpkTDFiajZkTUFlUk1nOWZ3?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YNHpUWGRXNHltU2JQMjJZWjl0WXRBck10Y3FKT000S0RqT1dtSDlWY09PSzg2X0p2dldCTFdaY1BxSzFfTnYxQllqLUtyVEtrMHpzMTJB?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsODg3TFN0THRRdVpNY1VJRnhoMDRBX01fQ3RMYnp2bjhUVHpzRFhUdm5zbDE2RTUtVkc1RXFCdW95YmZVekFheDhQbTVlNVR4QWVsd0J3?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbGR2UmxJM2gtVVg1YlNiSjUwZDNTenFTUjJNcGphRlpYX0g0dFRhbHB0SEZZdnlCTGxrN1VhV2t3LTVuSUhLYkk2aUtIWjJORWxCbmxB?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSFltZnR3bHdHejZ4NGhUb2Y4SmRlM2VHZVFqYjZqWS1Jb2s4NkFnNjJ0UENfeklwZUxBc1BaQnBsUzJOQTktcnN1bFRqRTVzZVVTSXN3?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSWlLcFludFVvcFB5VFlsenNpNUt0eWhkbEpfd2xCUWhjbFlhNEE5ZnlKeEZOOTVxd2JvWmk2aXllUFNwZWdUOXpLVmk2TDhvNk1PSTB3?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
-      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
-      "https://jucap.com/news/tech/20260616-08-ai-agetech-report-2026/"
-    ],
-    "top_event": "融资",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0002": {
     "research_value": 16,
@@ -2515,22 +2496,20 @@
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
   "#0157": {
-    "research_value": 50,
-    "grade": "C",
+    "research_value": 35,
+    "grade": "—",
     "base_value": 35,
-    "event_boost": 15,
+    "event_boost": 0,
     "mirror_bonus": 0,
     "v1": 3,
     "v2": 8,
     "v3": 15,
     "v4": 9,
-    "last_event_date": "2026-07-03",
-    "related_news_ids": [
-      "https://finance.sina.com.cn/jjxw/2026-07-03/doc-inifntfe2365970.shtml"
-    ],
-    "top_event": "融资",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 / S3差异化模式 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=35，命中1项：S3差异化模式）"
   },
   "#0158": {
     "research_value": 21,
@@ -3982,11 +3961,9 @@
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-01",
-    "related_news_ids": [
-      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yR3Ryd3c"
-    ],
-    "top_event": "行业趋势",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
@@ -7399,23 +7376,20 @@
     "deep_write_reason": "命中标准: S1大企业 —— 值得深度写"
   },
   "#0462": {
-    "research_value": 43,
+    "research_value": 35,
     "grade": "—",
     "base_value": 30,
-    "event_boost": 8,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 12,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-03",
-    "related_news_ids": [
-      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXg0R1JmQ1BvOW5KRXNJSEg4QkdIZWdFWkZhdVdPNXl0M2tDaEV1bjExNWN6LTI2cEhxc3VNVTdfSk9teVI5QUR6WHh0NVNQa0tCMDN4UHBCR01maUhoOFpOc09UcDF4TXlWd1FCc3diX1pCZlFKeE9hb1pGcXVhUFBTMXloNHBpVVVWYzQwd2JnSWpVQnBQcXZCR1lwdGExbklUQXo3NUlSckZGc0wyd0lEMUo3Zw?oc=5",
-      "https://www.thehindubusinessline.com/news/athulya-senior-care-eyes-30-million-fund-raise/article69876543.ece"
-    ],
-    "top_event": "融资",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=43，命中1项：S2近期事件）"
+    "deep_write_reason": "未达深度写标准（rv=35，命中0项：无）"
   },
   "#0463": {
     "research_value": 35,
@@ -7674,22 +7648,20 @@
     "deep_write_reason": "命中标准: S1大企业 —— 值得深度写"
   },
   "#0479": {
-    "research_value": 50,
-    "grade": "C",
+    "research_value": 35,
+    "grade": "—",
     "base_value": 30,
-    "event_boost": 15,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 12,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-06-30",
-    "related_news_ids": [
-      "https://www.mobihealthnews.com/news/upside-garners-20m-healthcare-focused-housing-stability-platform-and-more-funding-news"
-    ],
-    "top_event": "融资",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=35，命中0项：无）"
   },
   "#0480": {
     "research_value": 35,
@@ -8636,22 +8608,20 @@
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0539": {
-    "research_value": 43,
+    "research_value": 35,
     "grade": "—",
     "base_value": 30,
-    "event_boost": 8,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 12,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-06-30",
-    "related_news_ids": [
-      "https://www.mcknightsseniorliving.com/news/new-social-health-platform-aims-to-offset-isolation-in-senior-living-residents/"
-    ],
-    "top_event": "产品发布",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=43，命中1项：S2近期事件）"
+    "deep_write_reason": "未达深度写标准（rv=35，命中0项：无）"
   },
   "#0540": {
     "research_value": 26,
@@ -9095,11 +9065,9 @@
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-06-10",
-    "related_news_ids": [
-      "https://homehealthcarenews.com/2026/06/humana-to-divest-stake-in-gentiva-in-900m-deal/"
-    ],
-    "top_event": "行业趋势",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
@@ -9456,22 +9424,20 @@
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0590": {
-    "research_value": 51,
-    "grade": "C",
+    "research_value": 26,
+    "grade": "—",
     "base_value": 21,
-    "event_boost": 25,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-01",
-    "related_news_ids": [
-      "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZEcxRXQ4eHdGUWN1YmJWZ2FRd2RsUGdqZlA3ZjVVeXpVUnFfNlUxQVRfZjBqSVFja3A1c1FOOGRvcVdqS3FQcEsxa3U2eEFxa3hTUHU4cmUwZURtR2lhX2Z1S1g4Z2g5MjlJU1JLczRaTVFnQUUyOWJLcE5hVDQ1cVVqeFVoWEdmOUdsOGtXNHNMQWFlY2QzdDVKOE1UcDA0VEIzbTNfWHIzeWNPM0h3Y1dJc3JBeGVmM0lzQ1RLU0hMbFozUGdycDlObzg4SDB2MlRzaHNtNUs2YnM0NmlGRURDWVhSZzlxQ2YtaE9n?oc=5"
-    ],
-    "top_event": "收购并购",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0591": {
     "research_value": 26,
@@ -9634,22 +9600,20 @@
     "deep_write_reason": "未达深度写标准（rv=43，命中1项：S1大企业）"
   },
   "#0601": {
-    "research_value": 34,
+    "research_value": 26,
     "grade": "—",
     "base_value": 21,
-    "event_boost": 8,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-02",
-    "related_news_ids": [
-      "https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/"
-    ],
-    "top_event": "行业趋势",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=34，命中1项：S2近期事件）"
+    "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0602": {
     "research_value": 26,
@@ -12093,11 +12057,9 @@
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-01",
-    "related_news_ids": [
-      "https://homehealthcarenews.com/2026/07/beyond-payer-contracts-how-bayadas-new-ceo-plans-to-scale-through-value-based-risk/"
-    ],
-    "top_event": "人事变动",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=35，命中0项：无）"
   },
@@ -13430,22 +13392,20 @@
     "deep_write_reason": "未达深度写标准（rv=43，命中1项：S1大企业）"
   },
   "#0838": {
-    "research_value": 60,
-    "grade": "B",
+    "research_value": 35,
+    "grade": "—",
     "base_value": 30,
-    "event_boost": 25,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 12,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-06",
-    "related_news_ids": [
-      "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXOTYtVkloWEVBMmhVcll0U21RZjlnRWdlbHBZeU1IbmxGaUxEdlZCZU5sYUNPSldVRE1OcnJ3VHE3YzJhcEh2dE9XNnlERUtDcnYwOV9IVXU5QdIBWkFVX3lxTFBXOTYtVkloWEVBMmhVcll0U21RZjlnRWdlbHBZeU1IbmxGaUxEdlZCZU5sYUNPSldVRE1OcnJ3VHE3YzJhcEh2dE9XNnlERUtDcnYwOV9IVXU5QQ?oc=5"
-    ],
-    "top_event": "收购并购",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=35，命中0项：无）"
   },
   "#0839": {
     "research_value": 41,
@@ -15185,11 +15145,9 @@
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-06-29",
-    "related_news_ids": [
-      "https://homehealthcarenews.com/2026/06/how-accentcare-gained-640-roi-with-new-workforce-tech/"
-    ],
-    "top_event": "行业趋势",
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
@@ -15706,23 +15664,20 @@
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0980": {
-    "research_value": 51,
-    "grade": "C",
+    "research_value": 26,
+    "grade": "—",
     "base_value": 21,
-    "event_boost": 25,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-07-01",
-    "related_news_ids": [
-      "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcGxublN4Vm5sSkg3MTdoS20xbTItMk9mWVBsSzczVzNrTmZRREx1c1JsbzFFVy1OSFN0VzVtb2hDNEljTnF1UG5GTXVBTVNYLURJb0N6dklGT3BzczA0LTh3MGhURWdYUzgzbXFWcEtnLXZhRFduSV9mRjRCVklScHpucU82aVJPa29EUHVUdkZ0cnpv0gGaAUFVX3lxTE8zNGFib24yanhfSmV3NTdGZmxseTdPTEw3QnMyVTZ5ankyazVvcllIbXhOM0JUSGgzeFBxZHN0d0Ztc3hqZXJGWi02dlF3aEhlaHYzTWxhc01FY0ZEOURUU1RZa05GTWIzX2pQQmN1VlJHVG5jSXVVX3J5R3hJdi1qVEM5clhaMklFbU44NGxsdk9NOFpiU1BBTHc?oc=5",
-      "https://www.fiercehealthcare.com/ai-and-machine-learning/experity-acquires-exdion-healthcare-accelerate-demand-care-rcm-automation"
-    ],
-    "top_event": "融资",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
   "#0981": {
     "research_value": 21,
@@ -15741,22 +15696,20 @@
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
   "#0982": {
-    "research_value": 46,
-    "grade": "C",
+    "research_value": 21,
+    "grade": "—",
     "base_value": 16,
-    "event_boost": 25,
+    "event_boost": 0,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 3,
     "v3": 4,
     "v4": 6,
-    "last_event_date": "2026-06-30",
-    "related_news_ids": [
-      "https://seekingalpha.com/article/4771852-janus-living-ipo-senior-care-reit-property-shopping-spree"
-    ],
-    "top_event": "收购并购",
-    "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
   "#0983": {
     "research_value": 21,
@@ -17661,5 +17614,277 @@
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
+  },
+  "#1102": {
+    "research_value": 53,
+    "grade": "C",
+    "base_value": 48,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 15,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1103": {
+    "research_value": 58,
+    "grade": "B",
+    "base_value": 53,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 8,
+    "v2": 15,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1104": {
+    "research_value": 53,
+    "grade": "C",
+    "base_value": 48,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 15,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1105": {
+    "research_value": 62,
+    "grade": "B",
+    "base_value": 57,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 12,
+    "v2": 15,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1106": {
+    "research_value": 53,
+    "grade": "C",
+    "base_value": 48,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 8,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1107": {
+    "research_value": 53,
+    "grade": "C",
+    "base_value": 48,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 8,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1108": {
+    "research_value": 48,
+    "grade": "C",
+    "base_value": 43,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1109": {
+    "research_value": 48,
+    "grade": "C",
+    "base_value": 43,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1110": {
+    "research_value": 48,
+    "grade": "C",
+    "base_value": 43,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1111": {
+    "research_value": 53,
+    "grade": "C",
+    "base_value": 48,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 8,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1112": {
+    "research_value": 48,
+    "grade": "C",
+    "base_value": 43,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 10,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1113": {
+    "research_value": 53,
+    "grade": "C",
+    "base_value": 48,
+    "event_boost": 0,
+    "mirror_bonus": 5,
+    "v1": 3,
+    "v2": 15,
+    "v3": 15,
+    "v4": 15,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
+  },
+  "#1114": {
+    "research_value": 33,
+    "grade": "—",
+    "base_value": 33,
+    "event_boost": 0,
+    "mirror_bonus": 0,
+    "v1": 8,
+    "v2": 15,
+    "v3": 4,
+    "v4": 6,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=33，命中0项：无）"
+  },
+  "#1115": {
+    "research_value": 40,
+    "grade": "—",
+    "base_value": 40,
+    "event_boost": 0,
+    "mirror_bonus": 0,
+    "v1": 20,
+    "v2": 10,
+    "v3": 4,
+    "v4": 6,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=40，命中1项：S1大企业）"
+  },
+  "#1116": {
+    "research_value": 23,
+    "grade": "—",
+    "base_value": 23,
+    "event_boost": 0,
+    "mirror_bonus": 0,
+    "v1": 3,
+    "v2": 10,
+    "v3": 4,
+    "v4": 6,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
+  },
+  "#1117": {
+    "research_value": 23,
+    "grade": "—",
+    "base_value": 23,
+    "event_boost": 0,
+    "mirror_bonus": 0,
+    "v1": 3,
+    "v2": 10,
+    "v3": 4,
+    "v4": 6,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
+  },
+  "#1118": {
+    "research_value": 23,
+    "grade": "—",
+    "base_value": 23,
+    "event_boost": 0,
+    "mirror_bonus": 0,
+    "v1": 3,
+    "v2": 10,
+    "v3": 4,
+    "v4": 6,
+    "last_event_date": null,
+    "related_news_ids": [],
+    "top_event": null,
+    "worth_deep_write": false,
+    "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
   }
 }

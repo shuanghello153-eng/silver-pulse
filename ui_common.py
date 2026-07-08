@@ -78,6 +78,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .header-top{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:6px}
 .header h2{font-size:23px;font-weight:800;letter-spacing:.2px}
 .header-stats{font-size:12px;color:var(--text-muted);white-space:nowrap}
+.header-signal{font-size:11.5px;color:var(--accent-strong);margin-top:3px;font-weight:600}
 .dl-btn{font-size:12px;color:var(--accent-strong);text-decoration:none;border:1px solid var(--accent);
   padding:6px 13px;border-radius:10px;white-space:nowrap;font-weight:600;transition:all .15s;background:#fff}
 .dl-btn:hover{background:var(--accent);color:#fff}
@@ -121,7 +122,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .feed-title a{color:var(--text);text-decoration:none}
 .feed-title a:hover{color:var(--accent-strong)}
 .feed-summary{font-size:12.5px;color:var(--text-secondary);line-height:1.6;margin-bottom:4px}
-.feed-rec{font-size:12.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;border-left:3px solid var(--accent);padding-left:9px;background:var(--accent-light);border-radius:0 7px 7px 0;padding:6px 9px}
+.feed-rec{font-size:11.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;font-style:italic}
 .feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
 .date-group-title{font-size:13px;font-weight:800;color:var(--accent-strong);margin:18px 0 9px;padding-left:11px;border-left:3px solid var(--accent)}
 
@@ -138,29 +139,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .viral-tag{font-size:14px;font-weight:800;animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
 
-/* ===== 选题雷达 ===== */
-.radar-block{background:var(--accent-grad);border-radius:var(--radius);padding:18px 20px;margin-bottom:22px;color:#fff;box-shadow:var(--shadow-md)}
-.radar-title{font-size:17px;font-weight:800;margin-bottom:13px;display:flex;align-items:center;gap:8px}
-.radar-title .rt-ico{font-size:18px}
-.radar-sub{margin-bottom:13px}
-.radar-sub:last-child{margin-bottom:0}
-.radar-sub-h{font-size:13px;font-weight:700;margin-bottom:7px;color:#cffafe}
-.radar-row{display:flex;align-items:center;gap:9px;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.13);font-size:12.5px;flex-wrap:wrap}
-.radar-row:last-child{border-bottom:none}
-.radar-rank{font-weight:800;color:#fff;min-width:18px;text-align:right}
-.radar-name{font-weight:700;color:#fff;text-decoration:none}
-.radar-name:hover{text-decoration:underline}
-.radar-reason{color:#d1fae5;font-size:11.5px;opacity:.95;flex:1;min-width:140px}
-.radar-news{display:flex;align-items:baseline;gap:7px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.13);font-size:12.5px;flex-wrap:wrap}
-.radar-news:last-child{border-bottom:none}
-.radar-score{font-weight:800;color:#fde68a;font-size:11.5px;white-space:nowrap}
-.radar-tier{font-size:10.5px;color:#bae6fd;white-space:nowrap}
-.radar-ntitle{color:#fff;text-decoration:none}
-.radar-ntitle:hover{text-decoration:underline}
-.radar-tags{color:#bae6fd;font-size:10.5px}
-.radar-fold{color:#fde68a;font-size:10.5px;font-style:italic}
-.radar-signal{font-size:12.5px;color:#e0f7ff;margin-top:3px;line-height:1.7}
-.radar-empty{color:#cffafe;font-size:12.5px;opacity:.9}
 
 /* ===== 精选卡片增强 ===== */
 .sel-scores{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:5px 0 3px}
@@ -327,16 +305,23 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 # 2. 统一侧栏组件
 # ============================================================
 def SIDEBAR(active):
-    """返回侧栏 HTML。active ∈ {index, enterprise, about}。"""
+    """返回侧栏 HTML。active ∈ {index, enterprise, about}。
+    顺序：资讯看板 → 企业库 → 我的收藏 → 网站说明。"""
     items = [
         ("index", "📡", "资讯看板", "index.html"),
         ("enterprise", "🏢", "企业库", "enterprise.html"),
+        ("fav", "⭐", "我的收藏", None),
         ("about", "📖", "网站说明", "about.html"),
     ]
     nav = []
     for key, ico, label, href in items:
-        cls = "nav-item active" if key == active else "nav-item"
-        nav.append('<a href="%s" class="%s"><span class="nav-ico">%s</span>%s</a>' % (href, cls, ico, label))
+        if key == "fav":
+            nav.append('<a href="javascript:void(0)" id="nav-fav" class="nav-item nav-fav" '
+                       'onclick="spToggleFavView()" title="只看我收藏的资讯/企业">'
+                       '<span class="nav-ico">%s</span>%s</a>' % (ico, label))
+        else:
+            cls = "nav-item active" if key == active else "nav-item"
+            nav.append('<a href="%s" class="%s"><span class="nav-ico">%s</span>%s</a>' % (href, cls, ico, label))
     return (
         '<div class="sidebar">'
         '<div class="sidebar-logo">'
@@ -382,16 +367,28 @@ FEEDBACK_CSS = """
 .fav-btn .ico{font-size:13px}
 .export-fav{margin-left:auto;font-size:12px;border:1px solid var(--accent);color:var(--accent-strong);background:var(--card);border-radius:20px;padding:5px 13px;cursor:pointer;transition:.15s;white-space:nowrap;flex-shrink:0}
 .export-fav:hover{background:var(--accent);color:#fff}
+/* 排序下拉 */
+.sort-select{font-size:12px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:8px;padding:5px 8px;cursor:pointer;flex-shrink:0}
+/* 我的收藏模式：仅显示已收藏项 */
+body.fav-mode .feed-item:not([data-fav="1"]){display:none !important}
+body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
+.nav-fav.on{background:var(--accent);color:#fff !important}
+.fav-empty{display:none;text-align:center;padding:48px 20px;color:var(--text-muted);
+  background:var(--surface);border:1px dashed var(--border);border-radius:var(--radius);
+  margin:18px 0;font-size:14px;line-height:1.8}
+.fav-empty span{font-size:12.5px;color:var(--text-secondary)}
 """
 
 FEEDBACK_JS = """<script>
 function spKey(t,id){return 'sp_fav::'+t+'::'+id;}
+function spCardOf(b){return b.closest('.feed-item, .ent-card');}
 function spToggleFav(b){
   var k=spKey(b.dataset.type,b.dataset.id);
   var on=localStorage.getItem(k)==='1';on=!on;
   localStorage.setItem(k,on?'1':'0');
   b.classList.toggle('on',on);
   var l=b.querySelector('.lbl');if(l)l.textContent=on?'已收藏':'收藏';
+  var c=spCardOf(b);if(c)c.dataset.fav=on?'1':'0';
 }
 function spExportFav(){
   var out=[];
@@ -405,13 +402,36 @@ function spExportFav(){
   var blob=new Blob([out.map(function(o){return JSON.stringify(o);}).join('\\n')],{type:'text/plain'});
   var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='feedback.jsonl';a.click();
 }
+function spToggleFavView(){
+  var on=document.body.classList.toggle('fav-mode');
+  var nav=document.getElementById('nav-fav');if(nav)nav.classList.toggle('on',on);
+  if(on){
+    var any=document.querySelector('.feed-item[data-fav="1"], .ent-card[data-fav="1"]');
+    if(!any){ spShowFavEmpty(true); return; }
+  }
+  spShowFavEmpty(false);
+}
+function spShowFavEmpty(show){
+  var el=document.getElementById('fav-empty');
+  if(show){
+    if(!el){
+      el=document.createElement('div');el.id='fav-empty';el.className='fav-empty';
+      el.innerHTML='⭐ 还没有收藏任何内容<br><span>去资讯看板或企业库，点卡片上的「收藏」按钮，就能在这里只看你收藏的选题啦。</span>';
+      var main=document.querySelector('.main');
+      if(main){ main.insertBefore(el, main.children[2]||null); }
+    }
+    if(el) el.style.display='';
+  } else if(el){ el.style.display='none'; }
+}
 function spInitFav(){
   document.querySelectorAll('.fav-btn').forEach(function(b){
     var k=spKey(b.dataset.type,b.dataset.id);
-    if(localStorage.getItem(k)==='1'){b.classList.add('on');var l=b.querySelector('.lbl');if(l)l.textContent='已收藏';}
+    var on=localStorage.getItem(k)==='1';
+    if(on){b.classList.add('on');var l=b.querySelector('.lbl');if(l)l.textContent='已收藏';var c=spCardOf(b);if(c)c.dataset.fav='1';}
     b.addEventListener('click',function(){spToggleFav(b);});
   });
   document.querySelectorAll('.export-fav').forEach(function(b){b.addEventListener('click',spExportFav);});
+  var nav=document.getElementById('nav-fav');if(nav)nav.addEventListener('click',spToggleFavView);
 }
 if(document.readyState!=='loading'){spInitFav();}else{document.addEventListener('DOMContentLoaded',spInitFav);}
 </script>
