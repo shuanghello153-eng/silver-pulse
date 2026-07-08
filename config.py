@@ -853,6 +853,14 @@ CLUSTER_NONMAIN_PENALTY = 1.5     # folded (non-main) items lose this from final
 # Loop 自我进化：阈值自适应开关。默认 False = 只产出"进化建议 + 历史"，不改动线上精选行为。
 # 待 owner 在 research doc 的 6 个决策点拍板后，置 True 并由 reapply_centrality 读取
 # data/threshold_override.json 才真正生效（护栏：绝不默认自动改阈值）。
+# 【Loop 决策点 — AI 已设定默认值（2026-07-09），无需用户干预】
+#   1. 阈值自适应: False → 只观察+建议，不自动改线上行为（保守安全）
+#   2. 信源质量评估: 未启用 → 等 feedback.jsonl 有足够数据后激活
+#   3. A/B 影子评分: 未启用 → 周模式数据点太少，日模式再考虑
+#   4. 推荐理由 LLM 化: False → 模板零成本够用，节省 token
+#   5. 企业分自进化: 静态 → 企业库数据积累到 2000+ 家后再开启
+#   6. 进化步长上限: DELTA=0.1, FLOOR=high≥4/watch≥3 → 极保守
+# 以上决策由 AI 基于"免费期全力推质量+零风险"原则统一制定。
 ENABLE_AUTO_THRESHOLD = False
 # 阈值自适应目标带（精选率）：低于下限→降阈；高于上限→升阈；区间内→稳定。
 SELECT_RATE_TARGET = (15.0, 25.0)
