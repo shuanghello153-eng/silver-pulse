@@ -520,6 +520,22 @@ __SIDEBAR__
     </div>
   </div>
 
+  <div class="section">
+    <h3>Loop Engineering 自我进化（V2）</h3>
+    <div class="callout">
+      <b>架构三层</b>：<br>
+      - <b>L2 安检门</b>（loop_audit.py）：每轮跑 HTML 走查 + 数据质量 + 回归检测，0 CRITICAL / 3 WARN。<br>
+      - <b>L2 安全气囊</b>（noise_spike_guard.py）：噪音 spike 检测 + 连续 2 天自动封禁信源，从未触发（环境干净=好事）。<br>
+      - <b>L3 智能引擎</b>（feedback_loop.py）：读收藏 → ±0.03 权重微调，待 Token 配置激活。<br>
+      <b>新增组件（本轮）</b>：<br>
+      - <b>事件聚类</b>（selection/cluster.py）：按 (entity, event_type) 精确匹配 + 余弦回退归簇，写回 cluster_id。<br>
+      - <b>每日健康报告</b>（daily_health.py）：自动生成 HEALTH_REPORT.md + health_history.json 趋势，零模型成本。<br>
+      - <b>推荐理由去重</b>（recommend.py 变体库）：每事件类型 3–5 个模板变体 + 批次内轮换去重。<br>
+      - <b>评分色阶</b>：badge 半透明底色按分数段区分（≥7 绿 / 4–6.9 蓝 / <4 灰）。
+      完整设计文档：<code>docs/loop_self_iteration_v2.md</code>（7 方向 + 路线图 + 成本预算）。
+    </div>
+  </div>
+
 </div>
 
 <!-- Tab 2: 企业库说明 -->

@@ -140,7 +140,7 @@ def run_daily_step(threshold=None):
             cid = f"C{cluster_id_counter:04d}"
             cluster_id_counter += 1
             idx_to_cluster[i] = cid
-            clusters[cid].append(i)
+            clusters.setdefault(cid, []).append(i)
 
     for etype, group_indices in type_groups.items():
         for i in group_indices:
@@ -164,7 +164,7 @@ def run_daily_step(threshold=None):
                 cid = f"C{cluster_id_counter:04d}"
                 cluster_id_counter += 1
                 idx_to_cluster[i] = cid
-                clusters[cid].append(i)
+                clusters.setdefault(cid, []).append(i)
 
     # 处理完全没分类到的（理论上不会发生）
     for i in range(n):
@@ -172,7 +172,7 @@ def run_daily_step(threshold=None):
             cid = f"C{cluster_id_counter:04d}"
             cluster_id_counter += 1
             idx_to_cluster[i] = cid
-            clusters[cid].append(i)
+            clusters.setdefault(cid, []).append(i)
 
     # ---- 写回结果 ----
     total_clusters = len(clusters)
