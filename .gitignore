@@ -46,3 +46,13 @@ data/enterprise/_websearch_report.md
 
 # 每日生成的日志类（run_daily 每次重写）
 data/update_log.json
+
+# ===== 生成物HTML：不纳入 main 版本控制 =====
+# 仅通过 gh-pages 分支部署；纳入 main 会导致自动化每日提交与开发提交在
+# output/*.html / 根目录 *.html 上反复冲突（rebase 卡死）。
+output/about.html
+output/enterprise.html
+output/index.html
+index.html
+enterprise.html
+about.html
