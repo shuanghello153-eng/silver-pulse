@@ -566,7 +566,9 @@ __SIDEBAR__
     <button class="sort-arrow active" data-sort="rv" onclick="setEntSort('rv')">研究价值 ↓</button>
     <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
-    <button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>
+    <button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出</button>
+    <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
+    <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙</button>
   </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>

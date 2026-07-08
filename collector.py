@@ -253,6 +253,56 @@ def extract_summary(entry):
     return ""
 
 
+# 招聘帖垃圾过滤：VC 的 "Top" / 职业页常把招聘信息当资讯喂进来
+_JOB_ROLE_RE = re.compile(
+    r"\b(senior|staff|principal|lead|junior|associate|entry[ -]level)\b.*@", re.I
+)
+_JOB_COMPANY_RE = re.compile(
+    r"@\s*(affirm|okta|yammer|google|meta|apple|tesla|netflix|amazon|uber|lyft|"
+    r"airbnb|stripe|databricks|snowflake|openai|anthropic|cohere|scale\s*ai|"
+    r"microsoft|salesforce|nvidia|palantir)\b", re.I
+)
+_JOB_PHRASE_RE = re.compile(
+    r"(we'?re\s+hiring|we\s+are\s+hiring|job\s+opening|apply\s+now|now\s+hiring|"
+    r"careers\s+at|join\s+our\s+team|\bis\s+hiring|are\s+hiring|hiring\s+for|"
+    r"job\s+description|vacancy|recruitment)", re.I
+)
+
+
+def is_job_spam(title):
+    """True if the title looks like a job posting rather than an insight/article."""
+    if not title:
+        return False
+    if _JOB_ROLE_RE.search(title):
+        return True
+    if _JOB_COMPANY_RE.search(title):
+        return True
+    if _JOB_PHRASE_RE.search(title):
+        return True
+    return False
+
+
+def _build_manual_article(seed):
+    """Build an article dict from a manual seed entry (data/manual_news.json)."""
+    url = seed.get("url")
+    title = seed.get("title")
+    if not url or not title:
+        return None
+    sid = seed.get("source_id") or ""
+    sname = seed.get("source") or (SOURCES.get(sid, {}).get("name") if sid else "Manual")
+    return {
+        "title": title,
+        "url": url,
+        "source": sname,
+        "source_id": sid,
+        "date": seed.get("date") or datetime.now().strftime("%Y-%m-%d"),
+        "summary": seed.get("summary", ""),
+        "manual": True,
+        "signal_score": 8.0,
+        "tags": seed.get("tags", []),
+    }
+
+
 def collect_from_rss(source_id, feed_url, source_type, source_name):
     """
     Collect articles from an RSS feed.
@@ -312,6 +362,10 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
         for entry in entries:
             title = strip_html(entry.get("title", ""))
             if not title or len(title) < 10:
+                continue
+            # Skip job-posting spam (VC "Top" / career pages surface hiring listings)
+            if is_job_spam(title):
+                _clog(f"[{source_name}] Skipped job-spam: {title[:60]}")
                 continue
 
             # Get URL
@@ -470,6 +524,25 @@ def collect_all(history=None):
             new_count += 1
 
         _clog(f"  -> {new_count} new articles")
+
+    # 存量手动种子注入（如 YouTube 历史爆款视频）：绕过 7 天日期限制，持久进入情报台
+    manual_path = os.path.join(DATA_DIR, "manual_news.json")
+    if os.path.exists(manual_path):
+        try:
+            with open(manual_path, encoding="utf-8") as _mf:
+                seeds = json.load(_mf) or []
+            _injected = 0
+            for _seed in seeds:
+                _art = _build_manual_article(_seed)
+                if not _art:
+                    continue
+                # 策划种子：始终注入，不受 history 去重影响（存量精选应每轮出现）
+                all_articles.append(_art)
+                _injected += 1
+            if _injected:
+                _clog(f"[manual] injected {_injected} seed articles")
+        except Exception as _e:
+            _clog(f"[manual] load error: {_e}")
 
     save_history(history)
 

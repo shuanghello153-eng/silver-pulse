@@ -102,7 +102,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .filter-row{display:flex;align-items:center;gap:7px;margin-bottom:7px;flex-wrap:wrap}
 .filter-row:last-child{margin-bottom:0}
 .filter-label{font-size:11.5px;color:var(--text-muted);min-width:34px;font-weight:700}
-.filter-btns{display:flex;flex-wrap:wrap;gap:5px;flex:1}
+.filter-btns{display:flex;flex-wrap:wrap;gap:5px;flex:1;justify-content:flex-start}
 .filter-btn{padding:4px 12px;border-radius:13px;border:1px solid var(--border);background:var(--surface-2);
   font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .13s;font-family:inherit}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
@@ -139,7 +139,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .feed-title a:hover{color:var(--accent-strong)}
 .feed-summary{font-size:12.5px;color:var(--text-secondary);line-height:1.6;margin-bottom:4px}
 .feed-rec{font-size:11.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;font-style:italic}
-.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px;justify-content:flex-start}
 .date-group-title{font-size:13px;font-weight:800;color:var(--accent-strong);margin:18px 0 9px;padding-left:11px;border-left:3px solid var(--accent)}
 
 /* ===== 徽章 ===== */
@@ -333,7 +333,7 @@ def SIDEBAR(active):
     for key, ico, label, href in items:
         if key == "fav":
             nav.append('<a href="javascript:void(0)" id="nav-fav" class="nav-item nav-fav" '
-                       'onclick="spToggleFavView()" title="只看我收藏的资讯/企业">'
+                       'title="只看我收藏的资讯/企业">'
                        '<span class="nav-ico">%s</span>%s</a>' % (ico, label))
         else:
             cls = "nav-item active" if key == active else "nav-item"
@@ -383,6 +383,11 @@ FEEDBACK_CSS = """
 .fav-btn .ico{font-size:13px}
 .export-fav{margin-left:auto;font-size:12px;border:1px solid var(--accent);color:var(--accent-strong);background:var(--card);border-radius:20px;padding:5px 13px;cursor:pointer;transition:.15s;white-space:nowrap;flex-shrink:0}
 .export-fav:hover{background:var(--accent);color:#fff}
+.sync-fav{margin-left:8px;font-size:12px;border:1px solid var(--border);color:var(--text-secondary);background:var(--card);border-radius:20px;padding:5px 13px;cursor:pointer;transition:.15s;white-space:nowrap;flex-shrink:0}
+.sync-fav:hover{border-color:var(--accent);color:var(--accent-strong)}
+.sync-fav.syncing{opacity:.6;cursor:wait}
+.sync-set{margin-left:4px;font-size:12px;border:1px solid var(--border);color:var(--text-muted);background:var(--card);border-radius:50%;width:30px;height:30px;cursor:pointer;flex-shrink:0}
+.sync-set:hover{border-color:var(--accent);color:var(--accent-strong)}
 /* 我的收藏模式：仅显示已收藏项 */
 body.fav-mode .feed-item:not([data-fav="1"]){display:none !important}
 body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
@@ -391,6 +396,19 @@ body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
   background:var(--surface);border:1px dashed var(--border);border-radius:var(--radius);
   margin:18px 0;font-size:14px;line-height:1.8}
 .fav-empty span{font-size:12.5px;color:var(--text-secondary)}
+/* 收藏抽屉面板（必定可见，替代脆弱的 CSS 隐藏方案） */
+.fav-panel{position:fixed;top:0;right:0;height:100%;width:390px;max-width:92vw;background:var(--surface);box-shadow:-10px 0 34px rgba(0,0,0,.28);transform:translateX(100%);transition:transform .22s ease;z-index:1200;display:flex;flex-direction:column}
+.fav-panel.open{transform:translateX(0)}
+.fav-panel-head{display:flex;align-items:center;justify-content:space-between;padding:15px 17px;border-bottom:1px solid var(--border)}
+.fav-panel-title{font-weight:800;color:var(--accent-strong);font-size:14px}
+.fav-panel-close{background:none;border:none;font-size:23px;line-height:1;cursor:pointer;color:var(--muted)}
+.fav-panel-close:hover{color:var(--accent-strong)}
+.fav-panel-body{padding:13px 15px;overflow-y:auto;flex:1}
+.fav-panel-item{padding:11px 12px;border:1px solid var(--border);border-radius:10px;margin-bottom:9px;cursor:pointer;background:var(--card);transition:.12s}
+.fav-panel-item:hover{border-color:var(--accent)}
+.fav-panel-item-title{font-size:13.5px;font-weight:700;color:var(--text);line-height:1.45}
+.fav-panel-item-src{font-size:11.5px;color:var(--text-muted);margin-top:4px}
+.fav-empty-show{text-align:center;padding:50px 20px;color:var(--text-muted);font-size:13px;line-height:1.8}
 """
 
 FEEDBACK_JS = """<script>
@@ -416,26 +434,97 @@ function spExportFav(){
   var blob=new Blob([out.map(function(o){return JSON.stringify(o);}).join('\\n')],{type:'text/plain'});
   var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='feedback.jsonl';a.click();
 }
-function spToggleFavView(){
-  var on=document.body.classList.toggle('fav-mode');
-  var nav=document.getElementById('nav-fav');if(nav)nav.classList.toggle('on',on);
-  if(on){
-    var any=document.querySelector('.feed-item[data-fav="1"], .ent-card[data-fav="1"]');
-    if(!any){ spShowFavEmpty(true); return; }
+function spFavCount(){
+  var n=0;
+  for(var i=0;i<localStorage.length;i++){
+    var k=localStorage.key(i);
+    if(k.indexOf('sp_fav::')===0 && localStorage.getItem(k)==='1') n++;
   }
-  spShowFavEmpty(false);
+  return n;
 }
-function spShowFavEmpty(show){
-  var el=document.getElementById('fav-empty');
-  if(show){
-    if(!el){
-      el=document.createElement('div');el.id='fav-empty';el.className='fav-empty';
-      el.innerHTML='⭐ 还没有收藏任何内容<br><span>去资讯看板或企业库，点卡片上的「收藏」按钮，就能在这里只看你收藏的选题啦。</span>';
-      var main=document.querySelector('.main');
-      if(main){ main.insertBefore(el, main.children[2]||null); }
+function spRenderFavNav(){
+  var nav=document.getElementById('nav-fav');
+  if(nav){ var n=spFavCount(); nav.innerHTML = n? ('⭐ 收藏 ('+n+')') : '⭐ 我的收藏'; }
+}
+function spOpenFav(){
+  var panel=document.getElementById('fav-panel');
+  if(!panel){
+    panel=document.createElement('div');panel.id='fav-panel';panel.className='fav-panel';
+    panel.innerHTML='<div class="fav-panel-head"><span class="fav-panel-title">⭐ 我的收藏</span><button class="fav-panel-close" onclick="spCloseFav()">×</button></div><div class="fav-panel-body" id="fav-panel-body"></div>';
+    document.body.appendChild(panel);
+  }
+  var body=document.getElementById('fav-panel-body');
+  body.innerHTML='';
+  var items=[],i;
+  for(i=0;i<localStorage.length;i++){
+    var k=localStorage.key(i);
+    if(k.indexOf('sp_fav::')===0 && localStorage.getItem(k)==='1'){
+      var p=k.split('::');items.push({type:p[1],id:decodeURIComponent(p[2])});
     }
-    if(el) el.style.display='';
-  } else if(el){ el.style.display='none'; }
+  }
+  if(!items.length){
+    body.innerHTML='<div class="fav-empty-show">⭐ 还没有收藏任何内容<br><span>去资讯看板或企业库，点卡片上的「收藏」按钮即可加入。</span></div>';
+  } else {
+    items.forEach(function(it){
+      var el=document.getElementById(it.type+'-'+it.id)||document.getElementById('news-'+it.id)||document.getElementById('ent-'+it.id);
+      var card=document.createElement('div');card.className='fav-panel-item';
+      if(el){
+        var t=el.querySelector('.feed-title a, .ent-name a, .ent-name');
+        var src=el.querySelector('.feed-source, .ent-meta');
+        card.innerHTML='<div class="fav-panel-item-title">'+(t?t.textContent:'')+'</div>'+(src?'<div class="fav-panel-item-src">'+src.textContent.trim()+'</div>':'');
+        var a=el.querySelector('a[href]');
+        if(a&&a.href)card.onclick=function(){window.open(a.href,'_blank');};
+      } else {
+        card.innerHTML='<div class="fav-panel-item-title">'+it.id+'</div><div class="fav-panel-item-src">（在'+ (it.type==='ent'?'企业库':'资讯看板') +'页打开查看）</div>';
+      }
+      body.appendChild(card);
+    });
+  }
+  panel.classList.add('open');
+  var nav=document.getElementById('nav-fav');if(nav)nav.classList.add('on');
+}
+function spCloseFav(){
+  var panel=document.getElementById('fav-panel');if(panel)panel.classList.remove('open');
+  var nav=document.getElementById('nav-fav');if(nav)nav.classList.remove('on');
+}
+function spToggleFavView(){
+  var panel=document.getElementById('fav-panel');
+  if(panel && panel.classList.contains('open')){ spCloseFav(); }
+  else { spOpenFav(); }
+}
+function spB64(str){return btoa(unescape(encodeURIComponent(str)));}
+function spGhXhr(url,opts){
+  var x=new XMLHttpRequest();x.open(opts.method||'GET',url,false);
+  if(opts.headers)for(var h in opts.headers)x.setRequestHeader(h,opts.headers[h]);
+  try{x.send(opts.body||null);}catch(e){return {status:0,responseText:String(e)};}
+  return {status:x.status,responseText:x.responseText};
+}
+function spGhSettings(){
+  var pat=prompt('配置 GitHub Token（fine-grained，仅授予本仓库 Contents:Read&Write）。Token 仅存于你的浏览器 localStorage，不会上传到任何服务器。留空则跳过。','');
+  if(pat&&pat.trim()){localStorage.setItem('sp_gh_pat',pat.trim());localStorage.setItem('sp_gh_repo','shuanghello153-eng/silver-pulse');localStorage.setItem('sp_gh_branch','main');alert('已保存 Token（仅本地）。以后点「同步云端」即可一键把收藏上传到仓库，AI 流水线会自动读取。');}
+  else{alert('未更改 Token。');}
+}
+function spGhSync(){
+  var pat=localStorage.getItem('sp_gh_pat');
+  if(!pat){ if(!confirm('首次同步需要配置 GitHub Token（一次性，仅存本地）。点确定开始配置。')){return;} spGhSettings(); pat=localStorage.getItem('sp_gh_pat'); if(!pat){return;} }
+  var repo=localStorage.getItem('sp_gh_repo')||'shuanghello153-eng/silver-pulse';
+  var branch=localStorage.getItem('sp_gh_branch')||'main';
+  var lines=[];
+  for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k.indexOf('sp_fav::')===0&&localStorage.getItem(k)==='1'){var p=k.split('::');lines.push(JSON.stringify({type:p[1],id:decodeURIComponent(p[2]),ts:new Date().toISOString()}));}}
+  if(!lines.length){alert('还没有收藏任何内容，先去资讯看板或企业库点「收藏」吧。');return;}
+  var btn=document.querySelector('.sync-fav');if(btn){btn.classList.add('syncing');btn.textContent='同步中';}
+  var NL=String.fromCharCode(10);
+  var content=spB64(lines.join(NL)+NL);
+  var api='https://api.github.com/repos/'+repo+'/contents/data/feedback.jsonl';
+  var headers={'Authorization':'Bearer '+pat,'Accept':'application/vnd.github+json'};
+  var sha=null;
+  try{var g=spGhXhr(api+'?ref='+branch,{method:'GET',headers:headers});if(g.status===200){try{sha=JSON.parse(g.responseText).sha;}catch(e){}}}catch(e){}
+  var body=JSON.stringify({message:'sync favorites from Silver Pulse site',content:content,branch:branch});
+  if(sha)body=JSON.stringify({message:'sync favorites from Silver Pulse site',content:content,sha:sha,branch:branch});
+  var res=spGhXhr(api,{method:'PUT',headers:headers,body:body});
+  if(btn){btn.classList.remove('syncing');btn.textContent='☁ 同步云端';}
+  if(res.status===200||res.status===201){alert('已同步 '+lines.length+' 条收藏到云端仓库！下次自动跑流水线会读取并优化选题权重。');}
+  else{var msg='同步失败（HTTP '+res.status+'）';try{var j=JSON.parse(res.responseText);if(j&&j.message)msg+='：'+j.message;}catch(e){}alert(msg);}
 }
 function spInitFav(){
   document.querySelectorAll('.fav-btn').forEach(function(b){
@@ -446,6 +535,7 @@ function spInitFav(){
   });
   document.querySelectorAll('.export-fav').forEach(function(b){b.addEventListener('click',spExportFav);});
   var nav=document.getElementById('nav-fav');if(nav)nav.addEventListener('click',spToggleFavView);
+  spRenderFavNav();
 }
 if(document.readyState!=='loading'){spInitFav();}else{document.addEventListener('DOMContentLoaded',spInitFav);}
 </script>

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08 18:45",
-  "count": 34,
+  "generated_at": "2026-07-08 21:25",
+  "count": 36,
   "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
   "items": [
     {
@@ -8,15 +8,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
       "source": "AgeClub",
       "date": "2026-07-07",
-      "region": "overseas",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 7.05,
+      "final_score": 7.62,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
         "writing": 8.0,
-        "cn_fit": 5.0,
+        "cn_fit": 8.0,
         "urgency": 10.0
       },
       "recommendation": "养老地产：。行业报告揭示结构性机会，可作为选题地图。",
@@ -32,15 +32,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
       "source": "AgeClub",
       "date": "2026-07-06",
-      "region": "overseas",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 7.05,
+      "final_score": 7.62,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
         "writing": 8.0,
-        "cn_fit": 5.0,
+        "cn_fit": 8.0,
         "urgency": 10.0
       },
       "recommendation": "适老化改造：。行业报告揭示结构性机会，可作为选题地图。",
@@ -55,15 +55,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
       "source": "AgeClub",
       "date": "2026-07-03",
-      "region": "overseas",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 7.04,
+      "final_score": 7.61,
       "dim_scores": {
         "industry": 10,
         "signal": 10.0,
         "writing": 6.0,
-        "cn_fit": 5.0,
+        "cn_fit": 8.0,
         "urgency": 7.0
       },
       "recommendation": "购物渠道：。行业报告揭示结构性机会，可作为选题地图。",
@@ -79,15 +79,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4ydU8wUVliS3k2UldPV0pUcWVYMEhZUEtpVVFPWDJiOVNGUGphMmFSaEM1TUpTTHZzQ0d0REFaTXpoWmUtUWszNzBVQ1lQcHMtTFJtSUx3?oc=5",
       "source": "AgeClub",
       "date": "2026-07-08",
-      "region": "overseas",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 6.47,
+      "final_score": 7.04,
       "dim_scores": {
         "industry": 6,
         "signal": 10.0,
         "writing": 6.0,
-        "cn_fit": 5.0,
+        "cn_fit": 8.0,
         "urgency": 8.0
       },
       "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
@@ -104,15 +104,15 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
       "source": "AgeClub",
       "date": "2026-07-01",
-      "region": "overseas",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 6.18,
+      "final_score": 6.75,
       "dim_scores": {
         "industry": 6,
         "signal": 7.0,
         "writing": 8.0,
-        "cn_fit": 5.0,
+        "cn_fit": 8.0,
         "urgency": 9.0
       },
       "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
@@ -120,6 +120,29 @@
         "行业趋势",
         "融资",
         "智慧养老"
+      ]
+    },
+    {
+      "title": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！ - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbGR2UmxJM2gtVVg1YlNiSjUwZDNTenFTUjJNcGphRlpYX0g0dFRhbHB0SEZZdnlCTGxrN1VhV2t3LTVuSUhLYkk2aUtIWjJORWxCbmxB?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-03",
+      "region": "domestic",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 6.17,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 6.0,
+        "cn_fit": 8.0,
+        "urgency": 7.0
+      },
+      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "政策法规"
       ]
     },
     {
@@ -147,6 +170,121 @@
       ]
     },
     {
+      "title": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSWlLcFludFVvcFB5VFlsenNpNUt0eWhkbEpfd2xCUWhjbFlhNEE5ZnlKeEZOOTVxd2JvWmk2aXllUFNwZWdUOXpLVmk2TDhvNk1PSTB3?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-02",
+      "region": "domestic",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 6.17,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 6.0,
+        "cn_fit": 8.0,
+        "urgency": 7.0
+      },
+      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-01",
+      "region": "domestic",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 6.15,
+      "dim_scores": {
+        "industry": 10,
+        "signal": 4.0,
+        "writing": 8.0,
+        "cn_fit": 8.0,
+        "urgency": 5.0
+      },
+      "recommendation": "购物渠道：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "产品发布",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-04",
+      "region": "domestic",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 6.0,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 3.0,
+        "urgency": 9.0
+      },
+      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "长寿科技"
+      ]
+    },
+    {
+      "title": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-03",
+      "region": "domestic",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 6.0,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 3.0,
+        "urgency": 9.0
+      },
+      "recommendation": "养老地产：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "收购",
+        "收购并购"
+      ]
+    },
+    {
+      "title": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-05",
+      "region": "domestic",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.94,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 10.0,
+        "writing": 6.0,
+        "cn_fit": 3.0,
+        "urgency": 7.0
+      },
+      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "智慧养老"
+      ]
+    },
+    {
       "title": "National Healthcare Properties closes $197M in senior living acquisitions - McKnight's Senior Living",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUY5ZGJfZnZDdEVZN01JMEFIMEIxU0puczNOY3loRGhUMVBpMWpnY3BxM2plSkFaUzRvcnJSSWNob1dRdmVqdXBEaEFmWjIya1Q1d01BdFd1Z0RkZl9Dam52TmF6UnhydDREdE91a0NTZHIyNzUzUTRGSUhDZFh0bmZJRmo0WmdDQVJ6SEpwX25seDMzNk9uOGQ3cVNaTGNjZnpOdWhScFBjOGxpc3Y4azNvUngtaTQ?oc=5",
       "source": "McKnight's养老社区",
@@ -170,6 +308,30 @@
       ]
     },
     {
+      "title": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-03",
+      "region": "domestic",
+      "event_type": "融资",
+      "entity_name": "",
+      "final_score": 5.8,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 7.0,
+        "writing": 8.0,
+        "cn_fit": 3.0,
+        "urgency": 9.0
+      },
+      "recommendation": "养老服务：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "融资",
+        "健康服务",
+        "智慧养老"
+      ]
+    },
+    {
       "title": "Competitive, Selective, Hot: Senior Living M&A Still Surging in 2026",
       "url": "https://seniorhousingnews.com/2026/07/01/competitive-selective-hot-senior-living-ma-still-surging-in-2026/",
       "source": "养老住房新闻",
@@ -190,121 +352,6 @@
         "行业趋势",
         "收购",
         "养老地产",
-        "收购并购"
-      ]
-    },
-    {
-      "title": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！ - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbGR2UmxJM2gtVVg1YlNiSjUwZDNTenFTUjJNcGphRlpYX0g0dFRhbHB0SEZZdnlCTGxrN1VhV2t3LTVuSUhLYkk2aUtIWjJORWxCbmxB?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 5.6,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.0,
-        "writing": 6.0,
-        "cn_fit": 5.0,
-        "urgency": 7.0
-      },
-      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势",
-        "融资",
-        "政策法规"
-      ]
-    },
-    {
-      "title": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSWlLcFludFVvcFB5VFlsenNpNUt0eWhkbEpfd2xCUWhjbFlhNEE5ZnlKeEZOOTVxd2JvWmk2aXllUFNwZWdUOXpLVmk2TDhvNk1PSTB3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-02",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 5.6,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.0,
-        "writing": 6.0,
-        "cn_fit": 5.0,
-        "urgency": 7.0
-      },
-      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势",
-        "融资",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-01",
-      "region": "overseas",
-      "event_type": "产品发布",
-      "entity_name": "",
-      "final_score": 5.58,
-      "dim_scores": {
-        "industry": 10,
-        "signal": 4.0,
-        "writing": 8.0,
-        "cn_fit": 5.0,
-        "urgency": 5.0
-      },
-      "recommendation": "购物渠道：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势",
-        "产品发布",
-        "智慧养老"
-      ]
-    },
-    {
-      "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-04",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 5.43,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.0,
-        "writing": 8.0,
-        "cn_fit": 0.0,
-        "urgency": 9.0
-      },
-      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势",
-        "融资",
-        "长寿科技"
-      ]
-    },
-    {
-      "title": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
-      "event_type": "收购并购",
-      "entity_name": "",
-      "final_score": 5.43,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.0,
-        "writing": 8.0,
-        "cn_fit": 0.0,
-        "urgency": 9.0
-      },
-      "recommendation": "养老地产：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势",
-        "收购",
         "收购并购"
       ]
     },
@@ -333,50 +380,47 @@
       ]
     },
     {
-      "title": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "title": "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOTMxNy1RWXBicmNuQ0pxdENXRlBGcURDS1Y1S2xydUpQQl8yR2M0X250LVBld0ZneTc0QXdFNnI5alo4NjcxWnRyRDR0eG8wYlBjb1lB?oc=5",
       "source": "AgeClub",
-      "date": "2026-07-05",
-      "region": "overseas",
+      "date": "2026-07-08",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
       "final_score": 5.37,
       "dim_scores": {
         "industry": 6,
-        "signal": 10.0,
+        "signal": 7.0,
         "writing": 6.0,
-        "cn_fit": 0.0,
-        "urgency": 7.0
+        "cn_fit": 3.0,
+        "urgency": 8.0
       },
       "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "行业趋势",
-        "融资",
-        "智慧养老"
+        "融资"
       ]
     },
     {
-      "title": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
+      "title": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
       "source": "AgeClub",
-      "date": "2026-07-03",
-      "region": "overseas",
+      "date": "2026-07-07",
+      "region": "domestic",
       "event_type": "融资",
       "entity_name": "",
-      "final_score": 5.23,
+      "final_score": 5.37,
       "dim_scores": {
         "industry": 6,
         "signal": 7.0,
-        "writing": 8.0,
-        "cn_fit": 0.0,
-        "urgency": 9.0
+        "writing": 6.0,
+        "cn_fit": 3.0,
+        "urgency": 8.0
       },
-      "recommendation": "养老服务：。行业报告揭示结构性机会，可作为选题地图。",
+      "recommendation": "购物渠道：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "行业趋势",
-        "融资",
-        "健康服务",
-        "智慧养老"
+        "融资"
       ]
     },
     {
@@ -423,6 +467,29 @@
       "tags": [
         "行业趋势",
         "融资",
+        "智慧养老"
+      ]
+    },
+    {
+      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
+      "source": "AgeClub",
+      "date": "2026-07-01",
+      "region": "domestic",
+      "event_type": "产品发布",
+      "entity_name": "",
+      "final_score": 5.03,
+      "dim_scores": {
+        "industry": 7,
+        "signal": 4.0,
+        "writing": 6.0,
+        "cn_fit": 8.0,
+        "urgency": 3.0
+      },
+      "recommendation": "购物渠道：。行业报告揭示结构性机会，可作为选题地图。",
+      "tags": [
+        "行业趋势",
+        "产品发布",
         "智慧养老"
       ]
     },
@@ -494,25 +561,26 @@
       ]
     },
     {
-      "title": "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOTMxNy1RWXBicmNuQ0pxdENXRlBGcURDS1Y1S2xydUpQQl8yR2M0X250LVBld0ZneTc0QXdFNnI5alo4NjcxWnRyRDR0eG8wYlBjb1lB?oc=5",
+      "title": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？ - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
       "source": "AgeClub",
       "date": "2026-07-08",
-      "region": "overseas",
-      "event_type": "融资",
+      "region": "domestic",
+      "event_type": "其他事件",
       "entity_name": "",
-      "final_score": 4.8,
+      "final_score": 4.83,
       "dim_scores": {
         "industry": 6,
-        "signal": 7.0,
+        "signal": 6.0,
         "writing": 6.0,
-        "cn_fit": 0.0,
-        "urgency": 8.0
+        "cn_fit": 3.0,
+        "urgency": 6.0
       },
-      "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
+      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
-        "行业趋势",
-        "融资"
+        "其他事件",
+        "智慧养老",
+        "行业趋势"
       ]
     },
     {
@@ -532,28 +600,6 @@
         "urgency": 8.0
       },
       "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "行业趋势",
-        "融资"
-      ]
-    },
-    {
-      "title": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-07",
-      "region": "overseas",
-      "event_type": "融资",
-      "entity_name": "",
-      "final_score": 4.8,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 7.0,
-        "writing": 6.0,
-        "cn_fit": 0.0,
-        "urgency": 8.0
-      },
-      "recommendation": "购物渠道：。行业报告揭示结构性机会，可作为选题地图。",
       "tags": [
         "行业趋势",
         "融资"
@@ -654,6 +700,29 @@
       ]
     },
     {
+      "title": "Ep. 32 - Building a Tech-Enabled Healthcare Roll-Up * Home Care Acquisitions & M&A Strategy - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wY2VXNzJDelMyMFAxdUc1VzQxdENNRTN4M243d2M5a3RUczBCT1l2QkRkNy1FaGJMY2s1OTBaUWJNUG1uOXQ4Snowb2JPY2JOc0p4Ynp3?oc=5",
+      "source": "YouTube",
+      "date": "2026-07-07",
+      "region": "overseas",
+      "event_type": "收购并购",
+      "entity_name": "",
+      "final_score": 4.56,
+      "dim_scores": {
+        "industry": 6,
+        "signal": 6.0,
+        "writing": 6.0,
+        "cn_fit": 0.0,
+        "urgency": 8.0
+      },
+      "recommendation": "健康服务：。美国银发赛道并购活跃，中国创业者可关注被并购方的产品能力是否可引入国内。",
+      "tags": [
+        "收购",
+        "居家养老",
+        "收购并购"
+      ]
+    },
+    {
       "title": "Nation’s first state-run long-term care insurance program launches in WA - Chinook Observer",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXVCSTNuV1VFLWM4OHJxRHpXd2pLQjBjNFFGb19rcnZtQXFjTC1ZM2FSdnozLVE3a25UQ05SMnVXc3dfQU56WENrVF9jZWlsMUlDcU02RGo1amNUbHJ4bDJOYTNYZFZqbEFmN2Z4VWRvVEE2NFZOcEpmZ09hRjBnQVpFZHdzekFWOEIyVl9jREh0U211UXJkYXNVa3M0ZFRyNnBYLTB6TjZQRTB1WHpJQzdrcmpjTnV5VlE?oc=5",
       "source": "Chinook Observer",
@@ -674,29 +743,6 @@
         "行业趋势",
         "产品发布",
         "保险科技"
-      ]
-    },
-    {
-      "title": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？ - AgeClub",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
-      "source": "AgeClub",
-      "date": "2026-07-08",
-      "region": "overseas",
-      "event_type": "其他事件",
-      "entity_name": "",
-      "final_score": 4.26,
-      "dim_scores": {
-        "industry": 6,
-        "signal": 6.0,
-        "writing": 6.0,
-        "cn_fit": 0.0,
-        "urgency": 6.0
-      },
-      "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
-      "tags": [
-        "其他事件",
-        "智慧养老",
-        "行业趋势"
       ]
     },
     {

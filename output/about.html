@@ -1,4 +1,4 @@
-<!-- build:20260708184506 -->
+<!-- build:20260708212522 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -94,7 +94,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .filter-row{display:flex;align-items:center;gap:7px;margin-bottom:7px;flex-wrap:wrap}
 .filter-row:last-child{margin-bottom:0}
 .filter-label{font-size:11.5px;color:var(--text-muted);min-width:34px;font-weight:700}
-.filter-btns{display:flex;flex-wrap:wrap;gap:5px;flex:1}
+.filter-btns{display:flex;flex-wrap:wrap;gap:5px;flex:1;justify-content:flex-start}
 .filter-btn{padding:4px 12px;border-radius:13px;border:1px solid var(--border);background:var(--surface-2);
   font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .13s;font-family:inherit}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
@@ -131,7 +131,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .feed-title a:hover{color:var(--accent-strong)}
 .feed-summary{font-size:12.5px;color:var(--text-secondary);line-height:1.6;margin-bottom:4px}
 .feed-rec{font-size:11.5px;color:var(--accent-strong);line-height:1.5;margin-bottom:4px;font-style:italic}
-.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.feed-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px;justify-content:flex-start}
 .date-group-title{font-size:13px;font-weight:800;color:var(--accent-strong);margin:18px 0 9px;padding-left:11px;border-left:3px solid var(--accent)}
 
 /* ===== 徽章 ===== */
@@ -310,7 +310,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 </head>
 <body>
 
-<div class="sidebar"><div class="sidebar-logo"><h1>Silver Pulse <span>银脉</span></h1><p class="logo-sub">全球银发经济选题情报台</p></div><div class="nav-section"><div class="nav-label">导航</div><a href="index.html" class="nav-item"><span class="nav-ico">📡</span>资讯看板</a><a href="enterprise.html" class="nav-item"><span class="nav-ico">🏢</span>企业库</a><a href="javascript:void(0)" id="nav-fav" class="nav-item nav-fav" onclick="spToggleFavView()" title="只看我收藏的资讯/企业"><span class="nav-ico">⭐</span>我的收藏</a><a href="about.html" class="nav-item active"><span class="nav-ico">📖</span>网站说明</a></div><div class="sidebar-footer"><button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="切换深浅色">🌓 主题</button></div></div>
+<div class="sidebar"><div class="sidebar-logo"><h1>Silver Pulse <span>银脉</span></h1><p class="logo-sub">全球银发经济选题情报台</p></div><div class="nav-section"><div class="nav-label">导航</div><a href="index.html" class="nav-item"><span class="nav-ico">📡</span>资讯看板</a><a href="enterprise.html" class="nav-item"><span class="nav-ico">🏢</span>企业库</a><a href="javascript:void(0)" id="nav-fav" class="nav-item nav-fav" title="只看我收藏的资讯/企业"><span class="nav-ico">⭐</span>我的收藏</a><a href="about.html" class="nav-item active"><span class="nav-ico">📖</span>网站说明</a></div><div class="sidebar-footer"><button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="切换深浅色">🌓 主题</button></div></div>
 <div class="main">
 
 <div class="header">
@@ -318,7 +318,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   <p>Silver Pulse 银脉 · 银发经济投融资资讯聚合 + 企业数据库</p>
 </div>
 
-<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 20260708184506</p>
+<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 20260708212522</p>
 <div style="margin:10px 0;padding:8px 12px;border-radius:8px;background:#0a7d2c1a;color:#0a7d2c;font-weight:600;border:1px solid #0a7d2c55;">🕒 数据更新日期：2026-07-08 · ✅ 数据为今日新鲜采集</div>
 <div class="callout">
   本页所有评分 / 阈值 / 分类数字均读取自 config.py（单一真相源），每次网站规则变更后会随每日流水线自动重生成；并有规则漂移检测器校验一致性。
@@ -334,7 +334,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <div class="tab-content active" id="tab-news">
 
   <div class="callout" style="margin-bottom:20px;">
-    <b>📌 本页用途：</b>资讯从哪来（44 个信源）、怎么筛（两级相关性闸门 + 6 维评分）、怎么看（精选 / 全量 + 筛选标签）。
+    <b>📌 本页用途：</b>资讯从哪来（48 个信源）、怎么筛（两级相关性闸门 + 6 维评分）、怎么看（精选 / 全量 + 筛选标签）。
   </div>
 
   <div class="section">
@@ -344,7 +344,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   </div>
 
   <div class="section">
-    <h3>信源体系（44 个源 · T1=13 T2=24 T3=7）</h3>
+    <h3>信源体系（48 个源 · T1=13 T2=27 T3=8）</h3>
     <p>信源采用<b>L1/L2分级结构</b>：L1为官网域名，L2为具体频道/栏目。每个信源标注层级（T1/T2/T3）、地区、采集方式。</p>
     <table class="info-table">
       <thead>
@@ -395,12 +395,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 <tr><td class='tier-badge tier-t1'>T1</td><td><b>民政部</b><div class='src-l1'>mca.gov.cn</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
 <tr><td class='tier-badge tier-t1'>T1</td><td><b>国务院政策(银发)</b><div class='src-l1'>gov.cn</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">zhengce</span> <span class="l2-method">google_news</span></td></tr>
 <tr><td class='tier-badge tier-t2'>T2</td><td><b>中国老龄协会</b><div class='src-l1'>cncaprc.gov.cn</div></td><td class='region-badge region-国内'>国内</td><td><span class="l2-chip">news</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Third Act Ventures</b><div class='src-l1'>thirdact.vc</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">insights</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>7Wire Ventures</b><div class='src-l1'>7wireventures.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">perspectives</span> <span class="l2-method">rss</span></td></tr>
+<tr><td class='tier-badge tier-t2'>T2</td><td><b>Khosla Ventures</b><div class='src-l1'>khoslaventures.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">insights</span> <span class="l2-method">google_news</span></td></tr>
+<tr><td class='tier-badge tier-t3'>T3</td><td><b>YouTube - 银发热门视频</b><div class='src-l1'>youtube.com</div></td><td class='region-badge region-海外'>海外</td><td><span class="l2-chip">the_villages</span> <span class="l2-method">google_news</span> <span class="l2-chip">aging_tech</span> <span class="l2-method">google_news</span> <span class="l2-chip">home_health</span> <span class="l2-method">google_news</span></td></tr>
       </tbody>
     </table>
     <div class="callout">
       <b>T1</b>（13个）= 海外核心专业媒体，银发经济垂直领域权威来源，总是采集，尽量获取全文<br>
-      <b>T2</b>（24个）= 国内银发经济媒体 + 海外扩展覆盖，采集摘要<br>
-      <b>T3</b>（7个）= 宽覆盖辅助源，仅用于相关性预过滤<br>
+      <b>T2</b>（27个）= 国内银发经济媒体 + 海外扩展覆盖，采集摘要<br>
+      <b>T3</b>（8个）= 宽覆盖辅助源，仅用于相关性预过滤<br>
       <br>
       <b>采集方式</b>：rss = RSS直连 | google_news = Google News RSS代理 | manual = 手动入库 | api = API调用
     </div>
@@ -736,7 +740,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
     <h3>整体架构</h3>
     <p>Silver Pulse 银脉由三个核心模块组成：</p>
     <ul>
-      <li><b>资讯看板</b>（index.html）：每周银发经济投融资新闻聚合</li>
+      <li><b>资讯看板</b>（index.html）：每日银发经济投融资新闻聚合</li>
       <li><b>企业数据库</b>（enterprise.html）：全球银发经济企业图谱</li>
       <li><b>网站说明</b>（about.html）：本页面，规则与字段说明</li>
     </ul>

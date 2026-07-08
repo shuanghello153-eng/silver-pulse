@@ -9,6 +9,8 @@ import json
 import os
 import re
 from datetime import datetime
+import config
+from collector import is_job_spam
 
 DATA_DIR = "data"
 RAW_FILE = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
@@ -115,9 +117,9 @@ def main():
         raw = json.load(f)
     print(f"Raw articles: {len(raw)}")
 
-    # Filter by signal_score
-    filtered = [a for a in raw if a.get("signal_score", 0) >= MIN_SIGNAL]
-    print(f"After signal_score>={MIN_SIGNAL}: {len(filtered)}")
+    # Filter by signal_score (manual seeds bypass: they are curated stock data)
+    filtered = [a for a in raw if a.get("manual") or a.get("signal_score", 0) >= MIN_SIGNAL]
+    print(f"After signal_score>={MIN_SIGNAL} (manual kept): {len(filtered)}")
 
     # Sort by signal_score desc, then date desc
     filtered.sort(key=lambda a: (a.get("signal_score", 0), a.get("date", "")), reverse=True)
@@ -127,6 +129,12 @@ def main():
     if os.path.exists(SCORED_FILE):
         with open(SCORED_FILE, "r", encoding="utf-8") as f:
             existing = json.load(f)
+    # Drop stale job-spam that leaked into scored in earlier (pre-filter) runs
+    if existing:
+        _before = len(existing)
+        existing = [e for e in existing if not is_job_spam(e.get("title", ""))]
+        if len(existing) != _before:
+            print(f"Dropped {_before - len(existing)} stale job-spam from existing scored")
     existing_urls = {e.get("url", "") for e in existing}
     existing_titles = {e.get("title", "")[:30] for e in existing}
     print(f"Existing scored: {len(existing)}")
@@ -168,7 +176,9 @@ def main():
             "date": a.get("date", ""),
             "viral": False,
             "view": "curated" if category != "archive" else "raw",
-            "region": "overseas" if is_overseas(a.get("source", "")) else "domestic",
+            "region": config.get_source_region(a.get("source", ""))
+            or config.SOURCES.get(a.get("source_id", ""), {}).get("region")
+            or ("overseas" if is_overseas(a.get("source", "")) else "domestic"),
         }
         new_entries.append(entry)
 
@@ -178,6 +188,12 @@ def main():
     print(f"  high: {high}, watch: {watch}, archive: {len(new_entries)-high-watch}")
 
     merged = existing + new_entries
+    # Normalize region from config (source of truth) for ALL entries, so
+    # previously-stored items from domestic sources (e.g. AgeClub) are corrected.
+    for e in merged:
+        rn = config.get_source_region(e.get("source", ""))
+        if rn:
+            e["region"] = rn
     # Sort by date desc
     merged.sort(key=lambda e: e.get("date", ""), reverse=True)
 

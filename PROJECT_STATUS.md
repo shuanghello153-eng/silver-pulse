@@ -471,6 +471,33 @@ SKIP_COLLECTOR=1 C:\Users\shuan\.workbuddy\binaries\python\envs\default\Scripts\
 
 ---
 
+---
+
+## 十一、Loop Engineering 落地与本轮修复（2026-07-08 晚）
+
+### 11.1 本次抓到并修复的真问题
+- **collector.py 缩进错误**：`else:` 分支 `_clog(...)` 未缩进 → `IndentationError`，此前**阻塞全部每日跑批**。已修复。
+- **loop_audit 死 JS 误报 → 误阻断部署（连续两轮）**：收藏空状态 `fav-empty` 是 JS 防御式懒创建（`getElementById` 拿到 null 后 `createElement` 建 `#fav-empty`），被朴素 dead-JS 检测误判为"引用不存在的 id" → 报 2 个 CRITICAL → 部署被拦。已让检测识别 `document.` 前缀与懒创建模式（`var x=document.getElementById('id')` 后 `x.id='id'` 且脚本含 `createElement`），不再误报。
+  - **元教训**：自检器本身也有 bug，必须"被自检"。这正呼应小爽"提了不下 10 次问题"的痛点——以前是带 bug 上线，现在是 CRITICAL 拦下，但拦错了比不拦更糟，所以检测精度要持续打磨。
+- **推荐理由重複（max_dup 45→14）**：多数条目无 entity 且落到默认"行业趋势"，`head` 为空 → 45 条理由完全相同。已改为无 entity 时用语域/具体标签作主语，打破雷同。
+
+### 11.2 Loop Engineering 机制（小爽问：何时触发/原理/用途/额度/迭代）
+- **触发时机**：`loop_audit`(L2 质量自审) + `noise_spike_guard`(L2 进化层) 是 `run_daily.py` 第 14-15 步，**每天 01:00** 随"每日资讯更新"自动化(1782915193510)执行；`feedback_loop`(L3) 是第 6 步同日执行。新增 **09:00 自愈补跑**(automation-1783507424052)：若 01:00 部署被拦，09:00 再跑一次尝试部署（此前 STATE.md 写"09:00 补跑"但无对应自动化，是悬空引用，现已闭合）。
+- **原理**：
+  - L2 质量自审：对生成 HTML 做静态走查（死 JS / 残余 `<select>` / 重复筛选 / 已知问题回归 / 标签爆炸）+ 数据质量（噪音堆积、推荐理由重复）。
+  - L2 进化层：每日记 noise/curated 基线，检测"噪音 spike / 精选暴跌 / 规则漂移"，连续 2 天 spike 自动把源写入 `noise_blocklist.json` 封禁 2 天 + git 备份 config + pitfalls 日志。
+  - L3 反馈闭环：读用户导出 `feedback.jsonl`（收藏）→ 评分权重 ±0.03 安全微调（带边界夹紧）→ `user_pref.json`，次日生效。
+  - 部署门槛：`run_daily.py` 部署前检查——关键步失败 **或** loop_audit 有 CRITICAL → 跳过部署，绝不推有可见缺陷的版本。
+- **用途**：直接回应"网站常有明显问题"——CRITICAL 级可见缺陷（死 JS 致排序失效、残余下拉、标签炸屏、说明数字漂移）自动拦下；噪音源自动封禁；规则漂移告警；收藏反向调权。
+- **额度**：≈0。L2/L3 全是纯 Python 正则+JSON，零模型调用、零 token。每日额度大头是 collector 联网(非 token) + 框架读 stdout(已静音，仅一行摘要)。
+- **迭代方向（待办）**：① 视觉回归（截图 diff，需无头浏览器，建议每周跑）；② 把历史每类 bug 沉淀为 KNOWN_ISSUES 一项，织防护网；③ noise_spike 阈值等 feedback.jsonl 有数据后回测；④ 部署被拦事件推一条通知给小爽，使阻断可见可追溯。
+
+### 11.3 已提交
+- commit 299715f：collector 缩进修复 + loop_audit 死 JS 误报修复 + 推荐去重 + about 动态信源数 + 09:00 自愈自动化
+- gh-pages 部署 commit 58729f9d03（loop_audit 0 CRITICAL，仅 1 WARN max_dup=14 非阻断）
+
+---
+
 ## 九、小爽（用户）关键偏好速查
 
 1. **核心叙事**："以海外为镜照中国之路"
@@ -487,4 +514,45 @@ SKIP_COLLECTOR=1 C:\Users\shuan\.workbuddy\binaries\python\envs\default\Scripts\
 ---
 
 _此文件与 `RULES.md`、`MEMORY.md`、每日日志同步维护。任何重大进展或决策变更后，更新本文件对应章节。_
-_最后更新: 2026-07-08 12:04 — 账号 A 切换账号 B 前_
+_最后更新: 2026-07-08 19:30 — 信源补全+region修复+收藏面板重构+视觉回归_
+
+---
+
+## 十二、本轮修复（2026-07-08 晚，用户第 3 批指令）
+
+### 12.1 信源补全（缺口 4 个，非 6+）
+- 用户："50+ − 44 > 6，为啥仅缺口 4 个？" → **澄清：用户给的是 50+ 个 L2 频道，不是 50+ 个源**。config 是 44 个 L1 源（含其下多个 L2 频道）。逐条核对 10.6「已覆盖」清单，全部 44 源均已含用户点名源；真实缺口就是 4 个一手源。
+- **新增 4 源（总 48）**：`third_act`(Third Act Ventures, aging 早期 VC)、`sevenwire`(7Wire Ventures, perspectives RSS)、`khosla`(Khosla Ventures, longevity 重仓)、`youtube_silver`(YouTube 银发热门视频，监控 The Villages/aging tech/home health 视频)。均经质量核查，确为银发一手高价值源。
+- YouTube「热门视频存量数据」：已加为监控源（每日经 Google News `site:youtube.com` 抓更新）；**真正按播放量排序的「热门」需要 YouTube Data API（无 key）**，列为后续增强；The Villages C 端爆款视频已确认存在（insidethebubble 提到 40万+ 观看），待有 API key 时可做存量热度抓取。
+
+### 12.2 Region 修复（真 bug）
+- **现象**：AgeClub 新闻卡片 `data-region="overseas"`（海外），但 AgeClub 是国内源。
+- **根因**：`score_and_merge.py` 用 `is_overseas(source_name)` 名字启发式，兜底逻辑「纯 ASCII 名→判海外」把英文名国内源（AgeClub）误判海外。
+- **修复**：config 新增 `get_source_region(name)` 单一真相源（从 SOURCES 读 region）；`score_and_merge` 与 `generator` 均改调用它；并在合并时对**全部**条目做 region 归一化（含历史存量），旧 AgeClub 条目也一并纠正。
+
+### 12.3 about.html 规则同步
+- 资讯看板描述「每周…聚合」→「**每日**…聚合」（我们已改每日，之前是「说明没更新」实锤）。标签池「每周迭代」保留（自动化确实每周一跑）。
+
+### 12.4 收藏功能重构（解决"打不开"）
+- 旧方案：`body.fav-mode` + CSS 隐藏非收藏项，脆弱且"打开"无感知。
+- 新方案：**右侧抽屉面板**（`#fav-panel`），点「⭐ 我的收藏」必定滑出，列出收藏项（读 localStorage + 实时渲染卡片标题/来源，可点击跳转），带数量角标与空状态。导出 `feedback.jsonl` 逻辑保留。
+- **L3 仍待激活**：`feedback_loop.py` 已接线，但 `data/feedback.jsonl` 为空——网站导出是下载到**浏览器下载目录**，未落到仓库。需用户把导出文件放入 `silver-pulse/data/feedback.jsonl` 后重跑，才会真正按收藏微调评分权重。
+
+### 12.5 标签左对齐
+- `.feed-tags` / `.filter-btns` 显式加 `justify-content:flex-start`（之前靠默认，用户反复反馈"没左对齐"）。
+
+### 12.6 任务表 T42–T47 缺口说明
+- 用户发现任务表 T40+ 序号缺 T42–T47。核实：该段在上一轮上下文重置/任务清理中从可见列表丢失（工作未消失，部分已并入 T48–T60 或已完成），非"遗忘未完成"。
+- 本轮重建为**无缺口待办集 T61–T68**（含本轮回填项）：截图视觉回归 / L3 激活 / B站热度 / 聚类回测 / 元标签清洗 / news_coverage 扩全量 / noise 阈值回测 / 部署阻断通知。
+
+### 12.7 视觉回归
+- 用户要求"自己做视觉回归"。本轮以代码级审计修复了上述具体可见问题；并安装 playwright+chromium 尝试**像素级截图回归**（标签对齐/收藏面板/region 角标/筛选排版）。若沙箱网络阻断 chromium 下载，则回退为代码审计，并在站点说明中标注已知视觉检查项。
+- **已落地像素级回归**：`visual_regression.py` 用 headless chromium 对三页截图 + 断言（标签对齐 / 收藏抽屉打开 / region 角标 / 控制台报错），本地 `file://` 跑通全过。发现并修复真 bug：收藏入口 `#nav-fav` 同时绑定内联 `onclick` 与 `addEventListener` → 点击 toggle 两次（开又关）→"打不开"。删内联 onclick，只留事件监听，抽屉正常打开。
+
+### 12.8 本轮续修（20:5x 起，rJVdY4 流水线）
+- **收藏打不开（用户头号痛点）**：根因 = ui_common 335-336 内联 `onclick="spToggleFavView()"` + 498 行 `addEventListener` 双重绑定。修：删内联 onclick，仅 `spInitFav` 事件监听。视觉回归确认资讯/企业库抽屉均打开 OK。
+- **信源补全 44→48**：补 YouTube 银发热门 + 3 家 VC（Third Act / 7Wire / Khosla）。用户清单 50+ 实为 L2 频道（属 44 源属性字段），缺口仅 4 个 L1 源，已补齐。
+- **YouTube 存量爆款**：新增 manual 注入机制（`collector._build_manual_article` + `data/manual_news.json`，2 个 The Villages 种子：Peter Santenello 900万+ 播放 vlog +《Some Kind of Heaven》纪录片）。坑：首跑注入后因 `mark_seen` 写 history 被 `is_duplicate` 永久去重；已改 manual 注入跳过 history 去重（策划种子每轮必现）。`score_and_merge` 曾以 `signal_score=0` 过滤 manual → 已加 `manual` 豁免且种子补 `signal_score=8.0`。
+- **Khosla 招聘泄漏**：`is_job_spam` 正则可命中，但旧 run 的 `existing` scored 回流；已在 `score_and_merge` 加载 existing 时过滤 `is_job_spam`（清 3 条），collector 新采集已挡。
+- **about 说明最新**：每周→每日；信源数动态 `len(SOURCES)=48`；AgeClub 角标=国内（region 用 source_id 查 config 真相源）。
+- 部署 56fa127008 已含 fav 修复；rJVdY4 重跑输出 manual+清招聘的干净版，待确认后提交 main。

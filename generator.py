@@ -13,6 +13,7 @@ import html
 import hashlib
 from datetime import datetime, timedelta
 
+import config
 from config import (
     SITE_TITLE, SITE_SUBTITLE, OUTPUT_DIR, DATA_DIR,
     NEWS_EVENT_TYPES, NEWS_DOMAINS, TAG_POOL,
@@ -454,7 +455,8 @@ def merge_articles(scored, raw):
     for s in scored:
         s['view'] = 'curated'
         src = s.get('source', '')
-        s['region'] = 'overseas' if is_overseas_source(src) else ('domestic' if src else 'unknown')
+        _reg = config.get_source_region(src)
+        s['region'] = _reg if _reg else ('overseas' if is_overseas_source(src) else ('domestic' if src else 'unknown'))
         # Classify event type + domain
         title_text = s.get("title_cn") or s.get("title", "")
         summary_text = s.get("summary", "") or s.get("raw_content", "")
@@ -501,7 +503,8 @@ def merge_articles(scored, raw):
         r['recommendation'] = ''
         r['viral'] = False
         src = r.get('source', '')
-        r['region'] = 'overseas' if is_overseas_source(src) else ('domestic' if src else 'unknown')
+        _reg = config.get_source_region(src)
+        r['region'] = _reg if _reg else ('overseas' if is_overseas_source(src) else ('domestic' if src else 'unknown'))
         # Classify event type + domain for raw articles too
         title_text = r.get("title_cn") or r.get("title", "")
         summary_text = r.get("summary", "") or r.get("raw_content", "")
@@ -1151,7 +1154,9 @@ def generate_html(scored_articles=None, output_path=None):
         '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
         '<span class="filter-label">排序</span>',
         '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓">评分 ↓</button>',
-        '<button class="export-fav" title="导出收藏为 feedback.jsonl">⬇ 导出收藏</button>',
+        '<button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出</button>',
+        '<button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>',
+        '<button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙</button>',
         '</div></div>',
         signal_line,
 

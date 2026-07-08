@@ -648,6 +648,53 @@ SOURCES = {
         "notes": "中国老龄协会一手资讯",
         "kind": "primary",
     },
+    # === 新增：一手 VC 博客 + YouTube 热门视频（2026-07-08 补全缺口）===
+    "third_act": {
+        "name": "Third Act Ventures",
+        "l1_domain": "thirdact.vc",
+        "l2_channels": [
+            ("insights", "https://news.google.com/rss/search?q=site:thirdact.vc+when:30d&hl=en-US", "google_news"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "专注 aging 的早期 VC，一手投资逻辑",
+        "kind": "vc",
+    },
+    "sevenwire": {
+        "name": "7Wire Ventures",
+        "l1_domain": "7wireventures.com",
+        "l2_channels": [
+            ("perspectives", "https://app.sandhill.io/feeds/7wire-ventures", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "医疗/老龄化 VC，perspectives 一手洞察(RSS)",
+        "kind": "vc",
+    },
+    "khosla": {
+        "name": "Khosla Ventures",
+        "l1_domain": "khoslaventures.com",
+        "l2_channels": [
+            ("insights", "https://news.google.com/rss/search?q=site:khoslaventures.com+when:30d&hl=en-US", "google_news"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "重仓 longevity/healthspan 的头部 VC",
+        "kind": "vc",
+    },
+    "youtube_silver": {
+        "name": "YouTube - 银发热门视频",
+        "l1_domain": "youtube.com",
+        "l2_channels": [
+            ("the_villages", "https://news.google.com/rss/search?q=The+Villages+OR+senior+living+OR+retirement+community+site:youtube.com+when:1y&hl=en-US", "google_news"),
+            ("aging_tech", "https://news.google.com/rss/search?q=aging+tech+OR+age+tech+site:youtube.com+when:30d&hl=en-US", "google_news"),
+            ("home_health", "https://news.google.com/rss/search?q=Home+Health+Care+News+OR+homecare+OR+fiercehealthcare+site:youtube.com+when:30d&hl=en-US", "google_news"),
+        ],
+        "tier": 3,
+        "region": "overseas",
+        "notes": "监控银发相关 YouTube 热门视频(含 The Villages C端爆款)",
+        "kind": "video",
+    },
 }
 
 # ================================================================
@@ -946,3 +993,33 @@ SOURCE_TIER_WEIGHTS = {1: 3, 2: 2, 3: 1}
 # Max articles to pass to AI scoring (was 30, now 20)
 MAX_ARTICLES_TO_SCORE = 20
 MAX_ARTICLE_AGE_DAYS = 7
+
+# ================================================================
+# 9. REGION LOOKUP (single source of truth)
+# ================================================================
+_SOURCE_REGION_CACHE = None
+
+def get_source_region(name):
+    """Return 'domestic' / 'overseas' for a source NAME, from SOURCES when known.
+    Falls back to '' so caller can apply its own heuristic. Replaces the
+    brittle 'pure-ASCII name => overseas' heuristic that mislabeled domestic
+    English-named sources (e.g. AgeClub)."""
+    global _SOURCE_REGION_CACHE
+    if _SOURCE_REGION_CACHE is None:
+        _SOURCE_REGION_CACHE = {
+            (v.get("name") or "").strip(): (v.get("region") or "").strip()
+            for v in SOURCES.values()
+            if v.get("name")
+        }
+    key = (name or "").strip()
+    if key in _SOURCE_REGION_CACHE:
+        return _SOURCE_REGION_CACHE[key]
+    # 鲁棒匹配：归一化名（去空格/连字符）+ l1_domain 包含
+    import re as _re
+    nk = _re.sub(r"[\s\-_]+", "", key).lower()
+    for v in SOURCES.values():
+        sn = _re.sub(r"[\s\-_]+", "", (v.get("name") or "")).lower()
+        dom = (v.get("l1_domain") or "").lower()
+        if sn == nk or (dom and (dom in key.lower() or nk and dom.replace(".", "") in nk)):
+            return v.get("region") or ""
+    return ""

@@ -50,6 +50,18 @@ STEPS = [
     ("noise_spike_guard.run_daily_step()", "noise_spike_guard", "run_daily_step", ()),
 ]
 
+def git_pull_main():
+    """拉取远端 main，使流水线能读到用户从网站「同步云端」上传的 feedback.jsonl（收藏云端桥接）。
+    失败不阻断流水线（本地已有数据可继续）。"""
+    try:
+        import subprocess
+        r = subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"],
+                           cwd=BASE_DIR, capture_output=True, text=True, timeout=90)
+        head = (r.stdout or r.stderr or "").strip().replace("\n", " ")[:220]
+        print("[run_daily] git pull main -> rc=%s %s" % (r.returncode, head))
+    except Exception as e:
+        print("[run_daily] git pull skipped: %s" % e)
+
 
 def run_step(label, module_name, func_name, args):
     try:
@@ -70,6 +82,7 @@ def main():
     print("=" * 64)
     print("Silver Pulse 每日流水线  %s" % datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     print("=" * 64)
+    git_pull_main()
 
     steps = STEPS
     if os.environ.get("SKIP_COLLECTOR"):

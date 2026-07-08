@@ -515,7 +515,8 @@ __SIDEBAR__
     <div class="callout">
       <b>⭐ 我的收藏</b>：侧栏「⭐ 我的收藏」可一键只看已收藏的资讯 / 企业。<br>
       <b>收藏按钮</b>：每条资讯 / 企业卡片上的「收藏」按钮写入浏览器 localStorage，无需登录。<br>
-      <b>⬇ 导出收藏</b>：点击「⬇ 导出收藏」导出 feedback.jsonl，供后续回灌评分与选题改进。
+      <b>☁ 同步云端（推荐）</b>：点「☁ 同步云端」并首次配置 GitHub Token（仅存本地浏览器）后，收藏会直接写入仓库的 <code>data/feedback.jsonl</code>，AI 流水线下次运行即自动读取并优化选题权重——你无需再手动导出或挪文件。<br>
+      <b>⬇ 导出收藏</b>：仅作离线备份用，正常流程不必使用。
     </div>
   </div>
 
@@ -525,7 +526,7 @@ __SIDEBAR__
 <div class="tab-content" id="tab-enterprise">
 
   <div class="callout" style="margin-bottom:20px;">
-    <b>📌 本页用途：</b>企业有哪些字段（17 字段 Schema）、怎么分类（13 一级 + 70 二级）、数据从哪来（7 个来源）。
+    <b>📌 本页用途：</b>企业有哪些字段（21 字段 Schema）、怎么分类（13 一级 + 70 二级）、数据从哪来（7 个来源）。
   </div>
 
   <div class="section">
@@ -603,7 +604,7 @@ __SIDEBAR__
     <h3>整体架构</h3>
     <p>Silver Pulse 银脉由三个核心模块组成：</p>
     <ul>
-      <li><b>资讯看板</b>（index.html）：每周银发经济投融资新闻聚合</li>
+      <li><b>资讯看板</b>（index.html）：每日银发经济投融资新闻聚合</li>
       <li><b>企业数据库</b>（enterprise.html）：全球银发经济企业图谱</li>
       <li><b>网站说明</b>（about.html）：本页面，规则与字段说明</li>
     </ul>

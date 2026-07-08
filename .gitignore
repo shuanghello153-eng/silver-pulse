@@ -33,3 +33,16 @@ self_audit.py
 data/l2_baseline.json
 data/noise_blocklist.json
 data/pitfalls_log.json
+
+# 可视化回归 / 截图调试产物
+data/shots/
+data/visual_regression_report.md
+visual_regression.py
+
+# 早期 websearch 候选中间产物（非 INC5000 合并脚本，调试用）
+data/enterprise/_candidates_websearch.json
+data/enterprise/_merge_candidates.py
+data/enterprise/_websearch_report.md
+
+# 每日生成的日志类（run_daily 每次重写）
+data/update_log.json
