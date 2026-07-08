@@ -1,13 +1,32 @@
 # -*- coding: utf-8 -*-
-"""Upload key files to GitHub via Contents API (fallback when git push fails)."""
+"""Upload key files to GitHub via Contents API (fallback when git push fails).
+
+NOTE: switched the HTTP layer from `urllib` to `requests` because on the
+Windows automation host `urllib` ignores the HTTPS_PROXY env var and the
+direct TLS connection to api.github.com is reset (SSL EOF). `requests`
+correctly honors the proxy and the token auth, so unattended daily deploys
+succeed. Logic / file set / output format unchanged.
+"""
 import base64, json, os, sys
-import urllib.request, urllib.error
+
+import requests
 
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OWNER = "shuanghello153-eng"
 REPO = "silver-pulse"
 BRANCH = "main"
 API_BASE = f"https://api.github.com/repos/{OWNER}/{REPO}/contents"
+
+# Honor proxy env vars (HTTPS_PROXY/HTTP_PROXY) if present; requests reads them
+# automatically, but be explicit so it works regardless of urllib behaviour.
+_PROXIES = {}
+for _k in ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy"):
+    if os.environ.get(_k):
+        _PROXIES["https" if _k.lower().startswith("https") else "http"] = os.environ[_k]
+_HEADERS = {
+    "Authorization": f"token {TOKEN}",
+    "Accept": "application/vnd.github.v3+json",
+}
 
 FILES = [
     "index.html",
@@ -27,15 +46,14 @@ FILES = [
 
 def get_sha(path):
     url = f"{API_BASE}/{path}?ref={BRANCH}"
-    req = urllib.request.Request(url)
-    req.add_header("Authorization", f"token {TOKEN}")
-    req.add_header("Accept", "application/vnd.github.v3+json")
     try:
-        with urllib.request.urlopen(req) as resp:
-            data = json.loads(resp.read().decode())
-            return data.get("sha")
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
+        r = requests.get(url, headers=_HEADERS, proxies=_PROXIES or None, timeout=60)
+        if r.status_code == 404:
+            return None
+        r.raise_for_status()
+        return r.json().get("sha")
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 404:
             return None
         raise
 
@@ -50,20 +68,25 @@ def upload_file(path, content_bytes):
         body["sha"] = sha
 
     url = f"{API_BASE}/{path}"
-    req = urllib.request.Request(url, method="PUT")
-    req.add_header("Authorization", f"token {TOKEN}")
-    req.add_header("Accept", "application/vnd.github.v3+json")
-    req.add_header("Content-Type", "application/json")
-    req.data = json.dumps(body).encode()
-
     try:
-        with urllib.request.urlopen(req) as resp:
-            result = json.loads(resp.read().decode())
-            print(f"  OK: {path} (sha: {result.get('content',{}).get('sha','?')[:7]})")
-            return True
-    except urllib.error.HTTPError as e:
-        err = json.loads(e.read().decode())
-        print(f"  FAIL: {path} - {err.get('message','?')}")
+        r = requests.put(
+            url,
+            headers={**_HEADERS, "Content-Type": "application/json"},
+            data=json.dumps(body).encode(),
+            proxies=_PROXIES or None,
+            timeout=60,
+        )
+        r.raise_for_status()
+        result = r.json()
+        print(f"  OK: {path} (sha: {result.get('content', {}).get('sha', '?')[:7]})")
+        return True
+    except requests.HTTPError as e:
+        msg = "?"
+        try:
+            msg = e.response.json().get("message", "?")
+        except Exception:
+            pass
+        print(f"  FAIL: {path} - {msg}")
         return False
 
 base_dir = os.path.dirname(os.path.abspath(__file__))

@@ -960,6 +960,14 @@ document.getElementById('search-input').addEventListener('input',function(){
 const ssEl=document.getElementById('sort-select');
 if(ssEl){ssEl.addEventListener('change',function(){sortMode=this.value;updateDisplay();});}
 updateDisplay();
+
+function toggleMoreTags(){{
+  const box=document.getElementById('more-tags-box');
+  const btn=document.getElementById('toggle-more-tags');
+  if(!box||!btn)return;
+  if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
+  else{{box.style.display='none';const n=box.querySelectorAll('.filter-btn').length;btn.textContent='+'+n;btn.classList.remove('active');}}
+}}
 """
 
 
@@ -1020,6 +1028,25 @@ def generate_html(scored_articles=None, output_path=None):
     event_list = [e for e in NEWS_EVENT_TYPES.keys() if e in present_events]
     domain_list = [d for d in NEWS_DOMAINS if d in present_domains]
     tag_list = sorted(present_tags)
+
+    # Tag pills: show TOP-N + "more" toggle (避免标签膨胀时炸屏)
+    _TAG_SHOW = 12
+    if len(tag_list) > _TAG_SHOW:
+        _shown = tag_list[:_TAG_SHOW]
+        _rest  = tag_list[_TAG_SHOW:]
+        _tag_btns = "".join(
+            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in _shown
+        )
+        _tag_btns += (
+            f'<button class="filter-btn filter-btn-more" id="toggle-more-tags" onclick="toggleMoreTags()">+{len(_rest)}</button>'
+            f'<div id="more-tags-box" style="display:none;">'
+            + "".join(f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in _rest)
+            + '</div>'
+        )
+    else:
+        _tag_btns = "".join(
+            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in tag_list
+        )
 
     curated_count = sum(1 for a in merged if a.get("view") == "curated")
     total_count = len(merged)
@@ -1104,31 +1131,27 @@ def generate_html(scored_articles=None, output_path=None):
         '</div></div>',
         signal_line,
 
-        # Filter section (event type + domain + tags + search)
+        # Filter section — compact single row (事件 · 领域 · 标签 merged, T27)
         '<div class="filter-section" id="filter-section">',
-        # Event type row
-        '<div class="filter-row">',
-        '<span class="filter-label">事件:</span>',
-        '<div class="filter-btns">',
-        '<button class="filter-btn active" data-group="event" data-value="all">全部</button>',
+        '  <div class="filter-row filter-row-compact">',
+        '    <span class="filter-label">事件:</span>',
+        '    <div class="filter-btns">',
+        '      <button class="filter-btn active" data-group="event" data-value="all">全部</button>',
         event_buttons,
-        '</div>',
-        '</div>',
-        # Domain row
-        '<div class="filter-row">',
-        '<span class="filter-label">领域:</span>',
-        '<div class="filter-btns">',
-        '<button class="filter-btn active" data-group="domain" data-value="all">全部</button>',
+        '    </div>',
+        '    <span class="filter-divider">|</span>',
+        '    <span class="filter-label">领域:</span>',
+        '    <div class="filter-btns">',
+        '      <button class="filter-btn active" data-group="domain" data-value="all">全部</button>',
         domain_buttons,
-        '</div>',
-        '</div>',
-        # Tag row
-        '<div class="filter-row">',
-        '<span class="filter-label">标签:</span>',
-        '<div class="filter-btns">',
-        '<button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
-        tag_buttons,
-        '</div>',
+        '    </div>',
+        '    <span class="filter-divider">|</span>',
+        '    <span class="filter-label">标签:</span>',
+        '    <div class="filter-btns" id="tag-btns-wrap">',
+        '      <button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
+        _tag_btns,
+        '    </div>',
+        '  </div>',
         '</div>',
 
         # 精选 (Selected) view: selected cards（按评分降序，与全量同款）

@@ -487,17 +487,29 @@ def generate():
     # --- 研究价值 TOP 15 不再单独成块：精选视图默认按研究价值降序，
     #     融资金额/有融资优先等排序通过工具栏下拉实现（见 #ent-sort）。---
 
-    # Tag filter options (union of all tags actually present)
-    all_tags = sorted({t for e in enterprises for t in (e.get("tags") or []) if t})
+    # Tag filter options — TOP-N high-frequency pills + collapsible "more" to avoid explosion
+    from collections import Counter
+    tag_counter = Counter(t for e in enterprises for t in (e.get("tags") or []) if t)
+    TAG_SHOW_LIMIT = 24  # 只展示最高频的 N 个标签，其余折叠
+    top_tags = [t for t, _ in tag_counter.most_common(TAG_SHOW_LIMIT)]
+    more_tags = [t for t, _ in tag_counter.most_common()[TAG_SHOW_LIMIT:]]
 
-    # Tag pill buttons (replaces <select>, 与资讯页一致)
     tag_pills_html = (
-        '<button class="f-btn active" data-tag="all">全部标签</button>'
+        '<button class="f-btn active" data-tag="all">全部</button>'
         '<button class="f-btn" data-tag="__funded__">有融资/IPO</button>'
         + "".join(
-            f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}</button>' for t in all_tags
+            f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in top_tags
         )
     )
+    if more_tags:
+        tag_pills_html += (
+            f'<button class="f-btn f-btn-more" id="ent-toggle-tags" onclick="toggleEntTags()">+{len(more_tags)}</button>'
+            f'<div id="ent-more-tags" style="display:none;margin-top:6px;">'
+            + "".join(
+                f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in more_tags
+            )
+            + '</div>'
+        )
 
     # L1 filter buttons (no numbering)
     cat_buttons = "\n".join(
@@ -782,6 +794,22 @@ function hideAllL2Rows() {{
 }}
 
 filterEnt();
+
+function toggleEntTags() {{
+  const box = document.getElementById('ent-more-tags');
+  const btn = document.getElementById('ent-toggle-tags');
+  if (!box || !btn) return;
+  if (box.style.display === 'none') {{
+    box.style.display = '';
+    btn.textContent = '收起 ▲';
+    btn.classList.add('active');
+  }} else {{
+    box.style.display = 'none';
+    const n = box.querySelectorAll('.f-btn').length;
+    btn.textContent = '+' + n;
+    btn.classList.remove('active');
+  }}
+}}
 </script>
 </body>
 </html>"""

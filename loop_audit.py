@@ -47,6 +47,12 @@ KNOWN_ISSUES = [
         "check": lambda issues: any("data-group=\"tier\"" in i.get("detail", "") or "data-group=\"special\"" in i.get("detail", "") for i in issues),
         "description": "层级/特色筛选行已删除，残留为回归",
     },
+    {
+        "id": "tag_explosion",
+        "name": "标签云爆炸（筛选胶囊过多无折叠）",
+        "check": lambda issues: any("tag_explosion" in i.get("tags", []) for i in issues),
+        "description": "筛选胶囊数超阈值且无折叠机制，会导致页面炸屏（2026-07-08 曾发生）",
+    },
 ]
 
 
@@ -147,6 +153,29 @@ def _check_html_structure(html_str, page_name, issues):
             "message": "收藏空状态提示(fav-empty)缺失",
             "detail": "fav-empty class not found",
             "tags": [],
+        })
+
+    # 标签云爆炸回归检测（2026-07-08 曾因渲染全部标签导致炸屏）
+    # 若筛选胶囊数过多且没有折叠机制 -> 视为回归
+    pill_count = html_str.count('data-tag=')
+    has_fold = ('ent-toggle-tags' in html_str) or ('toggle-more-tags' in html_str)
+    if page_name == "enterprise" and pill_count > 40 and not has_fold:
+        issues.append({
+            "page": page_name,
+            "severity": "CRITICAL",
+            "category": "regression",
+            "message": "企业库标签云爆炸：%d 个筛选胶囊且无折叠机制" % pill_count,
+            "detail": "pill_count=%d, no fold" % pill_count,
+            "tags": ["tag_explosion"],
+        })
+    if page_name == "index" and pill_count > 30 and not has_fold:
+        issues.append({
+            "page": page_name,
+            "severity": "WARN",
+            "category": "regression",
+            "message": "资讯页标签过多：%d 个筛选胶囊且无折叠机制" % pill_count,
+            "detail": "pill_count=%d, no fold" % pill_count,
+            "tags": ["tag_explosion"],
         })
 
 

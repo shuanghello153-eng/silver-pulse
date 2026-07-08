@@ -160,6 +160,9 @@ TAG_POOL = {
     "订阅制": {"type": "special", "desc": "商业模式为订阅制"},
     "B2B2C": {"type": "special", "desc": "商业模式为B2B2C"},
     "硬件+服务": {"type": "special", "desc": "硬件+服务结合模式"},
+    # Emerging sub-tracks / business models (2026-07-08 标签池迭代补充)
+    "养老金融": {"type": "special", "desc": "养老/退休金融服务赛道（养老金、养老理财、投顾），国内个人养老金制度落地后高频出现"},
+    "按效付费": {"type": "special", "desc": "基于价值/效果的付费模式（value-based / outcome-based），与按服务量付费相对"},
     # Geographic (for overseas enterprises)
     "日本": {"type": "geo", "desc": "日本企业"},
     "以色列": {"type": "geo", "desc": "以色列企业"},

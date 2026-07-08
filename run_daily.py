@@ -46,6 +46,8 @@ STEPS = [
     ("validator.main()", "validator", "main", ()),
     # L2 质量自审（Loop Engineering Layer 2）：HTML走查/数据质量/UI一致性/已知问题回归
     ("loop_audit.run_daily_step()", "loop_audit", "run_daily_step", ()),
+    # L2 进化层（Loop Engineering Layer 2 写查分离之「进化」）：噪音spike/精选暴跌/规则漂移检测+保守回调
+    ("noise_spike_guard.run_daily_step()", "noise_spike_guard", "run_daily_step", ()),
 ]
 
 

@@ -28,3 +28,8 @@ data/enterprise/_build_candidates.py
 # 诊断脚本（非核心流水线）
 diag.py
 self_audit.py
+
+# Loop Engineering 运行时状态（每日 regenerate，不入库避免每日提交噪音）
+data/l2_baseline.json
+data/noise_blocklist.json
+data/pitfalls_log.json

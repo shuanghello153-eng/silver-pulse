@@ -107,6 +107,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .13s;font-family:inherit}
 .filter-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
 .filter-btn.active{background:var(--accent-grad);color:#fff;border-color:transparent;font-weight:600}
+/* 紧凑筛选行 (T27: 事件·领域·标签合并一行) */
+.filter-row-compact{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.filter-divider{color:var(--border-strong);font-size:11px;margin:0 2px;user-select:none}
+/* 折叠按钮 */
+.filter-btn-more,.f-btn-more{padding:3px 10px;border-radius:13px;border:1px dashed var(--accent);background:var(--accent-light);
+  font-size:11.5px;cursor:pointer;color:var(--accent-strong);white-space:nowrap;transition:all .13s;font-family:inherit;font-weight:600}
+.filter-btn-more:hover,.f-btn-more:hover{background:var(--accent);color:#fff;border-style:solid}
+.filter-btn-more.active,.f-btn-more.active{background:var(--accent);color:#fff;border-style:solid}
+#more-tags-box{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
 
 /* ===== 资讯流卡片 ===== */
 .feed-item{display:flex;gap:14px;padding:15px 4px;border-bottom:1px solid var(--border);transition:background .12s}

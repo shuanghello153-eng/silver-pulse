@@ -23,6 +23,17 @@ from config import (
 
 CACHE_FILE = os.path.join(DATA_DIR, "history.json")
 
+# 动态噪音封禁名单（由 noise_spike_guard 自动维护，连续2天 spike 时写入）
+# 格式: {"domains": [...]} —— 这些源域名产出的条目直接判为不相关
+NOISE_BLOCKLIST_PATH = os.path.join(DATA_DIR, "noise_blocklist.json")
+_NOISE_BLOCK_DOMAINS = set()
+try:
+    _bl = json.load(open(NOISE_BLOCKLIST_PATH, "r", encoding="utf-8"))
+    if isinstance(_bl, dict) and _bl.get("domains"):
+        _NOISE_BLOCK_DOMAINS = set(_bl["domains"])
+except Exception:
+    _NOISE_BLOCK_DOMAINS = set()
+
 # Optional direct-RSS fallback for a few key google_news sources (verified feeds).
 # Left intentionally small; the main resilience comes from rss -> google_news fallback.
 DIRECT_RSS_FALLBACK = {
@@ -86,6 +97,12 @@ def is_relevant(text, entity_name=None):
     if not text:
         return False
     text_lower = text.lower()
+    # 动态噪音封禁（noise_spike_guard 自动维护）：命中封禁源域名直接判不相关
+    if _NOISE_BLOCK_DOMAINS:
+        src = (entity_name or "").lower()
+        for blk in _NOISE_BLOCK_DOMAINS:
+            if blk and blk.lower() in src:
+                return False
     for kw in IRRELEVANT_KEYWORDS:
         if kw.lower() in text_lower:
             return False
