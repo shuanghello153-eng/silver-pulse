@@ -894,10 +894,95 @@ CN_RELEVANCE_KEYWORDS = [
     "康养", "医养", "助老", "陪护",
 ]
 
+# === 反向词（初筛强剔除）===
+# 2026-07-09 用户建议"反向词删掉（可能有老年游戏/老年消费/老年平板）"：
+# 原列表含 child/children/teen/adolescent/infant 等【泛词】，会误杀
+#   "老年游戏/老年平板/老年消费" 这类正经银发选题 —— 故删除。
+# 只保留【明确儿科/孕产】词（与老年人群硬冲突、绝不会是银发选题）：
+#   pediatric/pediatrics/pregnancy/maternity/neonatal。
+# 注意：这些词仍被 IRRELEVANT_KEYWORDS 在 is_relevant 中强剔除；
+# 老年游戏/老年平板/老年消费 现在能正常进入（它们不含上述儿科词）。
 IRRELEVANT_KEYWORDS = [
-    "pediatric", "pediatrics", "children", "infant", "neonatal",
-    "pregnancy", "maternity", "adolescent", "teen", "child",
+    "pediatric", "pediatrics", "pregnancy", "maternity", "neonatal",
 ]
+
+
+# ================================================================
+# 5b. 跨源 / 跨周零成本去重（在"模型之前"拦截重复文章）
+# ----------------------------------------------------------------
+# 目的：同一篇文章被多个 RSS/Google News 源重复收录时，只让第一条进入
+#       后续流程（含最强模型调用），其余直接拦截 —— 0 模型成本去重。
+# 做法：归一化标题（去空格/标点/大小写）+ URL 哈希 作为签名，存到
+#       data/dedup_store.json（跨运行持久化，2 周滑动窗口）。
+# 与 is_relevant 的关系：先 is_relevant 做银发相关性初筛，再去重，
+#       最后才进模型 —— 去重是相关性之后的第二道 0 成本闸门。
+# ================================================================
+class DedupStore:
+    PATH = os.path.join(DATA_DIR, "dedup_store.json")
+    WINDOW_DAYS = 14  # 2 周内同一篇文章视为重复
+
+    def __init__(self):
+        self.seen = {}  # sig -> first_seen_iso
+        self.load()
+
+    def load(self):
+        import json as _json
+        try:
+            with open(self.PATH, "r", encoding="utf-8") as f:
+                self.seen = _json.load(f)
+        except Exception:
+            self.seen = {}
+        self._expire()
+
+    def _expire(self):
+        from datetime import datetime, timezone
+        cutoff = datetime.now(timezone.utc).timestamp() - self.WINDOW_DAYS * 86400
+        before = len(self.seen)
+        self.seen = {
+            k: v for k, v in self.seen.items()
+            if self._to_ts(v) > cutoff
+        }
+        if len(self.seen) != before:
+            self.save()
+
+    @staticmethod
+    def _to_ts(iso):
+        from datetime import datetime, timezone
+        try:
+            return datetime.fromisoformat(iso).timestamp()
+        except Exception:
+            return 0
+
+    @staticmethod
+    def _norm(text):
+        import re as _re
+        if not text:
+            return ""
+        s = (text or "").lower()
+        s = _re.sub(r"[\s\-_，。、；：！？!?.,;:()（）\[\]【】\"'’\"\/\\]+", "", s)
+        return s
+
+    def sig(self, title="", url=""):
+        import hashlib
+        t = self._norm(title)
+        u = (url or "").split("?")[0].rstrip("/").lower()
+        raw = (t + "|" + u) if u else t
+        return hashlib.md5(raw.encode("utf-8")).hexdigest()[:16]
+
+    def is_dup(self, title="", url=""):
+        return self.sig(title, url) in self.seen
+
+    def mark(self, title="", url=""):
+        from datetime import datetime, timezone
+        self.seen[self.sig(title, url)] = datetime.now(timezone.utc).isoformat()
+
+    def save(self):
+        import json as _json
+        try:
+            with open(self.PATH, "w", encoding="utf-8") as f:
+                _json.dump(self.seen, f, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
 
 # === 强/弱 两级相关性（2026-07-08 收紧）===
 # 强词：明确属于银发/养老/照护/认知症/康养等核心领域。命中即视为相关。

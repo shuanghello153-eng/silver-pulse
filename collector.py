@@ -654,6 +654,8 @@ def collect_all(history=None):
 
     # Filter by date and relevance, then score
     relevant_articles = []
+    dedup_store = config.DedupStore()  # 跨源/跨周 0 成本去重（标题归一化 + URL 哈希）
+    cross_dup_blocked = 0
     for art in all_articles:
         text = f"{art['title']} {art.get('summary', '')}"
 
@@ -669,11 +671,19 @@ def collect_all(history=None):
 
         # Only keep relevant articles
         if art["relevant"]:
+            # 跨源去重：同一篇文章被多家源重复收录（URL 不同）时，
+            # 只放行第一条进后续流程（含最强模型），其余 0 成本拦截。
+            if dedup_store.is_dup(art.get("title", ""), art.get("url", "")):
+                cross_dup_blocked += 1
+                continue
+            dedup_store.mark(art.get("title", ""), art.get("url", ""))
             # Score the article
             source_id = art.get("source_id", "")
             source_config = SOURCES.get(source_id, {})
             art["signal_score"] = score_article(art, source_config)
             relevant_articles.append(art)
+    if cross_dup_blocked:
+        _clog(f"[dedup] cross-source blocked: {cross_dup_blocked} duplicate article(s)")
 
     # Sort by signal_score descending (primary), then date descending (secondary)
     relevant_articles.sort(

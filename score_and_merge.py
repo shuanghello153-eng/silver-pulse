@@ -11,6 +11,7 @@ import re
 from datetime import datetime
 import config
 from collector import is_job_spam
+from selection.signal_strength import compute_signal_strength
 
 DATA_DIR = "data"
 RAW_FILE = os.path.join(DATA_DIR, f"raw_{datetime.now().strftime('%Y%m%d')}.json")
@@ -161,11 +162,20 @@ def main():
         if event not in tags and len(tags) < 3:
             tags.append(event)
         recommendation = gen_recommendation(a, tags)
+        # 信号强度脚本分（0~10，零成本）：0722 后仅 >=5 的文章喂强模
+        _src_id = a.get("source_id", "")
+        _tier = config.SOURCES.get(_src_id, {}).get("tier", 2)
+        _sig_str, _sig_bd = compute_signal_strength(
+            {"title": title, "summary": a.get("summary", ""), "date": a.get("date", "")},
+            source_tier=_tier,
+        )
         max_id += 1
         entry = {
             "title": title,
             "final_score": final_score,
             "signal_score": signal,
+            "signal_strength": _sig_str,
+            "signal_breakdown": _sig_bd,
             "category": category,
             "tags": tags[:3],
             "recommendation": recommendation,
