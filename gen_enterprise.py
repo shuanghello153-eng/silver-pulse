@@ -684,6 +684,10 @@ __SIDEBAR__
     <span class="f-label">标签</span>
     <div class="filter-btns ent-tag-pills">{tag_pills_html}</div>
   </div>
+  <div class="filter-row fav-tag-filter" id="fav-tag-filter">
+    <span class="f-label">收藏标签</span>
+    <div class="filter-btns" id="fav-tag-pills"></div>
+  </div>
   {l2_filter_html}
 </div>
 

@@ -439,6 +439,22 @@ body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
 .toolbar-filter-btn{padding:4px 13px;border-radius:15px;border:1.5px dashed #94a3b8;background:transparent;font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:.15s;font-family:inherit;font-weight:600;display:inline-flex;align-items:center;gap:4px}
 .toolbar-filter-btn:hover{background:rgba(148,163,184,.12);border-style:solid}
 .toolbar-filter-btn.on{background:rgba(148,163,184,.20);border-style:solid;color:#475569}
+
+/* 收藏标签弹层（点击🏷打开，给收藏打标签） */
+.sp-tag-pop{position:fixed;z-index:200;background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;box-shadow:var(--shadow-lg);padding:10px;display:flex;flex-wrap:wrap;gap:6px;max-width:280px}
+.sp-tag-pop-h{width:100%;font-size:11px;color:var(--text-muted);font-weight:700;margin-bottom:4px}
+.sp-tag-chip{font-size:12px;padding:4px 11px;border-radius:14px;border:1px solid var(--border);background:var(--surface-2);color:var(--text-secondary);cursor:pointer;font-family:inherit;transition:.13s}
+.sp-tag-chip:hover{border-color:var(--accent)}
+.sp-tag-chip.on{background:var(--accent-grad);color:#fff;border-color:transparent;font-weight:700}
+.sp-tag-input{width:100%;margin-top:4px;padding:6px 9px;border:1px solid var(--border);border-radius:8px;font-size:12px;font-family:inherit;outline:none;box-sizing:border-box}
+.sp-tag-input:focus{border-color:var(--accent)}
+
+/* 收藏标签筛选条（仅 fav-mode 下显示） */
+.fav-tag-filter{display:none}
+body.fav-mode .fav-tag-filter{display:flex}
+/* fav-mode 下：未收藏项隐藏（已在上方定义，这里补充标签命中缺失态） */
+body.fav-mode .feed-item[data-fav-tag-miss="1"]{display:none !important}
+body.fav-mode .ent-card[data-fav-tag-miss="1"]{display:none !important}
 """
 
 FEEDBACK_JS = """<script>
@@ -478,11 +494,103 @@ function spRenderFavFilter(){
     }
   });
 }
+/* ===== 收藏标签（可筛标签）=====
+   存储：sp_fav_tags::<type>::<id> = JSON 数组；打标签即视为已收藏。 */
+var SP_FAV_TAGS=['重点','选题参考','竞品','跟进','深度'];
+var spFavTagFilter=[];   /* fav-mode 下激活的标签筛选 */
+function spFavTagsKey(t,id){return 'sp_fav_tags::'+t+'::'+id;}
+function spGetFavTags(t,id){try{var v=localStorage.getItem(spFavTagsKey(t,id));return v?JSON.parse(v):[];}catch(e){return[];}}
+function spSetFavTags(t,id,arr){if(arr&&arr.length){localStorage.setItem(spFavTagsKey(t,id),JSON.stringify(arr));}else{localStorage.removeItem(spFavTagsKey(t,id));}}
+/* 切换某个标签：加标签自动置为已收藏；返回当前标签数组 */
+function spToggleFavTag(t,id,tag){
+  var arr=spGetFavTags(t,id);
+  var i=arr.indexOf(tag);
+  if(i>=0)arr.splice(i,1);else arr.push(tag);
+  spSetFavTags(t,id,arr);
+  if(arr.length){
+    if(localStorage.getItem(spKey(t,id))!=='1'){
+      localStorage.setItem(spKey(t,id),'1');
+      var fb=document.querySelector('.fav-btn[data-type="'+t+'"][data-id="'+id+'"]');
+      if(fb){
+        fb.classList.add('on');
+        var ico=fb.querySelector('.ico');if(ico)ico.textContent='🔖';
+        var l=fb.querySelector('.lbl');if(l)l.textContent='已收藏';
+        var c=spCardOf(fb);if(c)c.dataset.fav='1';
+      }
+    }
+  }
+  spRenderFavFilter();
+  return arr;
+}
+/* fav-mode 下按激活标签筛选收藏（未命中则打 data-fav-tag-miss 由 CSS 隐藏） */
+function spApplyFavTagFilter(){
+  var sel=spFavTagFilter;
+  document.querySelectorAll('.feed-item,.ent-card').forEach(function(c){
+    if(c.dataset.fav!=='1'){c.removeAttribute('data-fav-tag-miss');return;}
+    var t=c.classList.contains('ent-card')?'ent':'news';
+    var id=c.dataset.cardId||c.dataset.serial||'';
+    if(!id){c.removeAttribute('data-fav-tag-miss');return;}
+    var tags=spGetFavTags(t,id);
+    var miss=(sel.length>0)&&!sel.some(function(x){return tags.indexOf(x)>=0;});
+    if(miss)c.setAttribute('data-fav-tag-miss','1');else c.removeAttribute('data-fav-tag-miss');
+  });
+}
+/* 收藏标签弹层（单例） */
+function spCloseTagPopover(){var p=document.getElementById('sp-tag-pop');if(p)p.remove();document.removeEventListener('click',spPopOutside);}
+function spPopOutside(e){
+  var p=document.getElementById('sp-tag-pop');
+  if(p&&!p.contains(e.target)&&!(e.target.closest&&e.target.closest('.act-btn[data-act="favtag"]'))){spCloseTagPopover();}
+}
+function spOpenTagPopover(btn){
+  spCloseTagPopover();
+  var t=btn.dataset.type,id=btn.dataset.id;
+  var pop=document.createElement('div');pop.id='sp-tag-pop';pop.className='sp-tag-pop';
+  var head=document.createElement('div');head.className='sp-tag-pop-h';head.textContent='收藏标签（点击切换）';pop.appendChild(head);
+  var cur=spGetFavTags(t,id);
+  SP_FAV_TAGS.forEach(function(tag){
+    var chip=document.createElement('button');chip.className='sp-tag-chip'+(cur.indexOf(tag)>=0?' on':'');chip.textContent=tag;
+    chip.onclick=function(){spToggleFavTag(t,id,tag);chip.classList.toggle('on');};
+    pop.appendChild(chip);
+  });
+  var inp=document.createElement('input');inp.className='sp-tag-input';inp.placeholder='自定义标签后回车';
+  inp.onkeydown=function(e){if(e.key==='Enter'){var v=inp.value.trim();if(v){spToggleFavTag(t,id,v);spOpenTagPopover(btn);}}};
+  pop.appendChild(inp);
+  document.body.appendChild(pop);
+  var r=btn.getBoundingClientRect();
+  var pw=pop.offsetWidth,ph=pop.offsetHeight;
+  var left=Math.min(r.left,window.innerWidth-pw-8);if(left<8)left=8;
+  var top=r.bottom+6;if(top+ph>window.innerHeight-8)top=r.top-ph-6;
+  pop.style.left=left+'px';pop.style.top=top+'px';
+  setTimeout(function(){document.addEventListener('click',spPopOutside);},0);
+}
+/* fav-mode 下渲染收藏标签筛选条 */
+function spBuildFavTagPills(){
+  var wrap=document.getElementById('fav-tag-pills');if(!wrap)return;
+  wrap.innerHTML='';
+  var all=document.createElement('button');all.className='filter-btn active';all.textContent='全部';all.dataset.ftag='all';
+  all.onclick=function(){spFavTagFilter=[];spRenderFavTagPills();if(window.spReapply)spReapply();};
+  wrap.appendChild(all);
+  SP_FAV_TAGS.forEach(function(tag){
+    var b=document.createElement('button');b.className='filter-btn';b.textContent=tag;b.dataset.ftag=tag;
+    b.onclick=function(){var i=spFavTagFilter.indexOf(tag);if(i>=0)spFavTagFilter.splice(i,1);else spFavTagFilter.push(tag);spRenderFavTagPills();if(window.spReapply)spReapply();};
+    wrap.appendChild(b);
+  });
+}
+function spRenderFavTagPills(){
+  var wrap=document.getElementById('fav-tag-pills');if(!wrap)return;
+  wrap.querySelectorAll('.filter-btn').forEach(function(b){
+    var t=b.dataset.ftag;
+    b.classList.toggle('active',(t==='all')?(spFavTagFilter.length===0):(spFavTagFilter.indexOf(t)>=0));
+  });
+}
 function spToggleFavFilter(){
   var on=!document.body.classList.contains('fav-mode');
   document.body.classList.toggle('fav-mode',on);
   var btns=document.querySelectorAll('.fav-filter-btn');
   btns.forEach(function(b){b.classList.toggle('on',on);});
+  /* 退出 fav-mode 时清空标签筛选 */
+  if(!on){spFavTagFilter=[];spRenderFavTagPills();}
+  spBuildFavTagPills();
 }
 /* 评分色阶：根据分数加 CSS 类 */
 function spScoreClass(score){
@@ -611,10 +719,11 @@ function spInitFav(){
     var s=el.textContent.trim();
     el.classList.add(spScoreClass(s));
   });
-  /* 收藏按钮初始化 */
+  /* 收藏按钮初始化（有标签也算已收藏） */
   document.querySelectorAll('.fav-btn').forEach(function(b){
     var k=spKey(b.dataset.type,b.dataset.id);
     var on=localStorage.getItem(k)==='1';
+    if(!on && spGetFavTags(b.dataset.type,b.dataset.id).length){on=true;}
     if(on){
       b.classList.add('on');
       var ico=b.querySelector('.ico');if(ico)ico.textContent='🔖';
@@ -649,6 +758,7 @@ function spInitFav(){
       if(act==='hide')spToggleHide(b);
       else if(act==='note')spEditNote(t,id);
       else if(act==='read')spToggleRead(b);
+      else if(act==='favtag')spOpenTagPopover(b);
     });
   });
   /* 备注内容渲染 + 点击编辑 */
@@ -665,9 +775,16 @@ function spInitFav(){
   });
   /* 工具栏总开关 */
   spInitToggles();
+  /* 收藏标签筛选条 */
+  spBuildFavTagPills();
   /* 应用隐藏/已读初始状态到筛选 */
   if(window.spReapply)spReapply();
 }
+/* 包装 spReapply：筛选后追加收藏标签命中计算 */
+(function(){
+  var _orig=window.spReapply||function(){};
+  window.spReapply=function(){_orig();spApplyFavTagFilter();};
+})();
 if(document.readyState!=='loading'){spInitFav();}else{document.addEventListener('DOMContentLoaded',spInitFav);}
 </script>
 """
@@ -695,6 +812,12 @@ def sp_card_actions(t, id, with_read=False):
         '<button class="act-btn" data-act="note" data-type="%s" data-id="%s" '
         'title="添加/编辑备注（仅存本机浏览器）"><span class="ico">📝</span>'
         '<span class="lbl">备注</span></button>' % (t, id)
+    )
+    # 收藏标签：给收藏打标签，可在 fav-mode 下按标签筛选
+    parts.append(
+        '<button class="act-btn" data-act="favtag" data-type="%s" data-id="%s" '
+        'title="给收藏加标签（fav-mode 下可筛选）"><span class="ico">🏷</span>'
+        '<span class="lbl">标签</span></button>' % (t, id)
     )
     if with_read:
         parts.append(

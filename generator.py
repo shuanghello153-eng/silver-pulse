@@ -1231,6 +1231,12 @@ def generate_html(scored_articles=None, output_path=None):
         '  </div>',
         '</div>',
 
+        # 收藏标签筛选条（仅 fav-mode 下显示）
+        '<div class="filter-row fav-tag-filter" id="fav-tag-filter">',
+        '  <span class="filter-label">收藏标签</span>',
+        '  <div class="filter-btns" id="fav-tag-pills"></div>',
+        '</div>',
+
         # 精选 (Selected) view: selected cards（按评分降序，与全量同款）
         '<div id="selected-container">',
         selected_html,
