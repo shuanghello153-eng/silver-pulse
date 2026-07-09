@@ -30,12 +30,13 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
+_NOW = datetime.now()  # 用于"近期有动态"窗口判定（与 BUILD_STAMP 同进程，偏差可忽略）
 
 # Import from config
 import sys
 from ui_common import COMMON_CSS, SIDEBAR, THEME_JS, FEEDBACK_CSS, FEEDBACK_JS
 sys.path.insert(0, BASE_DIR)
-from config import ENTERPRISE_CATEGORIES, ENT_RV_HIGH, ENT_RV_MID
+from config import ENTERPRISE_CATEGORIES, ENT_RV_HIGH, ENT_RV_MID, NEWS_RECENT_DAYS, SOURCES
 
 # 13 L1 categories (no numbering in display)
 L1_CATS = list(ENTERPRISE_CATEGORIES.keys())
@@ -125,7 +126,7 @@ def _extract_fund_num(display):
     return val * mult
 
 
-def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_by_entity=None):
+def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_by_entity=None, last_news_date=None):
     """Build a compact horizontal card for one enterprise.
     All fields directly visible, empty fields hidden."""
     name = esc(ent.get("name", ""))
@@ -226,6 +227,17 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     # Research-value badge — 只显示数字（删"研究价值"文字 + "值得深写"标签）
     if rv is not None:
         header_parts.append(f'<span class="badge-rv {_score_class(rv)}">{esc(str(rv))}</span>')
+
+    # "近期有动态"徽标：最近一次被资讯关联的时间在 NEWS_RECENT_DAYS 窗口内
+    is_recent = False
+    if last_news_date:
+        try:
+            _ld = datetime.strptime(last_news_date, "%Y-%m-%d")
+            is_recent = (_NOW - _ld).days <= NEWS_RECENT_DAYS
+        except (TypeError, ValueError):
+            is_recent = False
+    if is_recent:
+        header_parts.append('<span class="ent-badge badge-recent">🔥 近期有动态</span>')
     # 收藏按钮（localStorage 反馈）
     if serial:
         header_parts.append(f'<button class="fav-btn" data-type="ent" data-id="{esc(serial)}"><span class="ico">☆</span><span class="lbl">收藏</span></button>')
@@ -378,7 +390,9 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
         f'data-rv="{esc(str(rv if rv is not None else 0))}" '
         f'data-fund="{fund_val:.4f}" '
         f'data-hasfund="{has_fund}" '
-        f'data-ipo="{is_ipo}">\n'
+        f'data-ipo="{is_ipo}" '
+        f'data-recent="{1 if is_recent else 0}" '
+        f'data-lastnews="{esc(last_news_date or "")}">\n'
         + "\n".join(parts) + "\n"
         + '</div>'
     )
@@ -418,6 +432,69 @@ def generate():
         en = (n.get("entity_name") or "").strip().lower()
         if en:
             news_by_entity.setdefault(en, []).append(n)
+
+    # === "近期有动态"：为企业计算最近一次被资讯关联的时间 last_news_date ===
+    # 来源优先级（取最大日期）：
+    #   1) 企业自身 news_coverage.latest_news 的各条日期
+    #   2) enterprise_scores[serial].last_event_date（未来管道填充）
+    #   3) scored_latest 按 entity_name 精确匹配（当前数据 entity_name 多为空）
+    #   4) 兜底：企业名（name/name_cn）在资讯标题子串匹配（带噪音词黑名单，
+    #      排除"英国/美国/融资"等泛词，且排除与信源同名误命中），仅补充少量命中。
+    _src_names = set((s.get("name") or "").strip().lower() for s in SOURCES.values())
+    _NOISE_TOKENS = {"英国", "美国", "中国", "广东", "全国", "全球", "行业",
+                     "融资", "上市", "公司", "企业", "集团", "地区", "城市", "香港"}
+
+    def _pdate(s):
+        try:
+            return datetime.strptime(s, "%Y-%m-%d")
+        except (TypeError, ValueError):
+            return None
+
+    # 预构建企业名变体（小写），用于标题子串兜底匹配
+    _name_variants = []
+    for e in enterprises:
+        _name_variants.append((
+            e.get("serial", ""),
+            (e.get("name") or "").strip().lower(),
+            (e.get("name_cn") or "").strip().lower(),
+        ))
+    _fallback_date = {}  # serial -> date（标题子串兜底命中）
+    for n in scored_list:
+        _title = ((n.get("title") or "") + " " + (n.get("title_cn") or "")).lower()
+        _nd = _pdate(n.get("date"))
+        if not _nd:
+            continue
+        for _serial, _nm, _nmc in _name_variants:
+            _hit = False
+            if _nmc and len(_nmc) >= 2 and _nmc in _title and _nmc not in _NOISE_TOKENS:
+                _hit = True
+            elif _nm and len(_nm) >= 4 and _nm in _title and _nm not in _src_names:
+                _hit = True
+            if _hit:
+                if _serial not in _fallback_date or _nd > _fallback_date[_serial]:
+                    _fallback_date[_serial] = _nd
+
+    last_news_map = {}
+    for e in enterprises:
+        _serial = e.get("serial", "")
+        _ds = []
+        _nc = e.get("news_coverage")
+        if isinstance(_nc, dict):
+            for _x in (_nc.get("latest_news") or []):
+                _d = _pdate(_x.get("date"))
+                if _d:
+                    _ds.append(_d)
+        _sc = ent_scores_map.get(_serial)
+        if _sc:
+            _led = _sc.get("last_event_date")
+            if _led:
+                _d = _pdate(_led)
+                if _d:
+                    _ds.append(_d)
+        if _serial in _fallback_date:
+            _ds.append(_fallback_date[_serial])
+        if _ds:
+            last_news_map[_serial] = max(_ds).strftime("%Y-%m-%d")
 
     # --- Phase 2: TOP 15 by research_value ---
     top_ranked = []
@@ -494,7 +571,7 @@ def generate():
         reverse=True,
     )
     cards_html = "\n".join(
-        build_card(e, ent_scores_map, news_map, competitors_map.get(e.get("serial", "")), news_by_entity)
+        build_card(e, ent_scores_map, news_map, competitors_map.get(e.get("serial", "")), news_by_entity, last_news_map.get(e.get("serial", "")))
         for e in enterprises_sorted
     )
 
@@ -554,6 +631,7 @@ def generate():
 <meta http-equiv="Expires" content="0">
 <title>Silver Pulse 银脉 · 企业库</title>
 <style>__COMMON_CSS__</style>
+<style>__RECENT_CSS__</style>
 </head>
 <body>
 
@@ -562,7 +640,6 @@ __SIDEBAR__
 
 <!-- 顶部工具条（不常用按钮集中在此） -->
 <div class="top-tools" id="top-tools">
-  <button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出收藏</button>
   <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
   <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>
 </div>
@@ -587,6 +664,7 @@ __SIDEBAR__
     <button class="sort-arrow active" data-sort="rv" onclick="setEntSort('rv')">评分 ↓</button>
     <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
+    <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业（按最近动态时间倒序）">🔥 近期有动态</button>
     <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
   </div>
   <div class="filter-row" id="cat-filter">
@@ -621,6 +699,7 @@ let activeView = 'curated';
 let activeTag = 'all';
 let entSortMode = 'rv';
 let entSortDir = 'desc';
+let activeRecent = false;
 
 function setEntSort(mode) {{
   if (entSortMode === mode) {{
@@ -643,6 +722,19 @@ function sortEnt() {{
   const list = document.getElementById('ent-list');
   if (!list) return;
   const cards = Array.from(list.querySelectorAll('.ent-card'));
+  if (activeRecent) {{
+    // 聚焦近期：按最近动态时间倒序（无日期的排末尾）
+    cards.sort(function(a, b) {{
+      const da = a.dataset.lastnews || '';
+      const db = b.dataset.lastnews || '';
+      if (da && db) return db.localeCompare(da);
+      if (da) return -1;
+      if (db) return 1;
+      return 0;
+    }});
+    cards.forEach(function(c) {{ list.appendChild(c); }});
+    return;
+  }}
   cards.sort(function(a, b) {{
     let cmp;
     if (mode === 'fund') {{
@@ -654,6 +746,13 @@ function sortEnt() {{
     return cmp;
   }});
   cards.forEach(function(c) {{ list.appendChild(c); }});
+}}
+
+function spToggleRecentFilter() {{
+  activeRecent = !activeRecent;
+  const btn = document.querySelector('.recent-filter-btn');
+  if (btn) btn.classList.toggle('active', activeRecent);
+  filterEnt();
 }}
 
 function filterEnt() {{
@@ -678,8 +777,9 @@ function filterEnt() {{
     const viewMatch = activeView === 'all' || curated;
     const tag = (card.dataset.tags || '').split(' ').filter(Boolean);
     const tagMatch = activeTag === 'all' || (activeTag === '__funded__' ? (card.dataset.hasfund === '1') : tag.includes(activeTag));
+    const recentMatch = !activeRecent || card.dataset.recent === '1';
 
-    if (regMatch && searchMatch && viewMatch && tagMatch) {{
+    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
       if (cat && l2) {{
         if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};
@@ -725,7 +825,8 @@ function filterEnt() {{
     const catLabel = activeCat === 'all' ? '全部分类' : activeCat;
     const l2Label = activeL2 === 'all' ? '' : ' · ' + activeL2;
     const tagLabel = activeTag === 'all' ? '' : ' · ' + (activeTag === '__funded__' ? '有融资/IPO' : activeTag);
-    rc.textContent = `展示 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}${{l2Label}}${{tagLabel}}`;
+    const recentLabel = activeRecent ? ' · 近期有动态' : '';
+    rc.textContent = `展示 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}${{l2Label}}${{tagLabel}}${{recentLabel}}`;
   }}
 }}
 
@@ -826,6 +927,15 @@ function toggleEntTags() {{
 </html>"""
 
     html_content = html_content.replace("__COMMON_CSS__", COMMON_CSS + FEEDBACK_CSS).replace("__SIDEBAR__", SIDEBAR("enterprise"))
+
+    RECENT_CSS = """
+/* 近期有动态徽标 + 筛选按钮 */
+.ent-badge.badge-recent { background:#fff1e6; color:#e8590c; border:1px solid #ffd8a8; font-weight:600; white-space:nowrap; }
+.recent-filter-btn { margin-left:10px; padding:5px 12px; border:1px solid var(--line,#e3e3e8); border-radius:999px; background:#fff; color:#555; cursor:pointer; font-size:13px; transition:.15s; }
+.recent-filter-btn:hover { border-color:#ffa94d; }
+.recent-filter-btn.active { background:#e8590c; color:#fff; border-color:#e8590c; }
+"""
+    html_content = html_content.replace("__RECENT_CSS__", RECENT_CSS)
     html_content = html_content.replace("</body>", THEME_JS + FEEDBACK_JS + "\n</body>")
     out_path = os.path.join(OUTPUT_DIR, "enterprise.html")
     with open(out_path, "w", encoding="utf-8") as f:

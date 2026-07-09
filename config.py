@@ -24,6 +24,12 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # 阈值依据 data/enterprise/enterprise_scores.json 分位数：P50=26 / P75=35 / P90=43 / max=68。
 ENT_RV_HIGH = 48   # ≥ 此值 → s-high（绿，研究价值高，约 Top 6%，真正值得深写）
 ENT_RV_MID = 26    # ≥ 此值且 < HIGH → s-mid（蓝，研究价值中，约 44%）；< 此值 → s-low（灰，约 50%）
+
+# 企业库"近期有动态"判定窗口（天）。last_news_date 距今 ≤ 此值 → 卡片显示
+# "🔥 近期有动态"标签，并支持"只看近期有动态"筛选聚焦。
+# 来源优先级：企业 news_coverage.latest_news 最大日期 > enterprise_scores.last_event_date
+#   > scored_latest 按 entity_name 匹配 > 企业名在资讯标题子串兜底匹配。
+NEWS_RECENT_DAYS = 30
 ENTERPRISE_CATEGORIES = {
     "购物渠道": {
         "label": "购物渠道",
@@ -207,7 +213,7 @@ SOURCES = {
         "l2_channels": [
             ("daily_briefing", "https://www.mcknightsseniorliving.com/home/news/daily-briefing/", "google_news"),
         ],
-        "tier": 1,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "",
     },
@@ -247,7 +253,7 @@ SOURCES = {
         "l2_channels": [
             ("feed", "https://thegerontechnologist.com/feed/", "rss"),
         ],
-        "tier": 1,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "AgeTech Map来源，RSS聚合文章+播客（/feed/ 实测可用，整站google_news查询为0需直连）",
     },
@@ -258,7 +264,7 @@ SOURCES = {
             ("venture_capital", "https://www.fiercehealthcare.com/keyword/venture-capital-vc", "google_news"),
             ("funding_round", "https://www.fiercehealthcare.com/keyword/funding-round", "google_news"),
         ],
-        "tier": 1,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "VC和funding两个频道分开监控",
     },
@@ -268,7 +274,7 @@ SOURCES = {
         "l2_channels": [
             ("health_wellness_biotech", "https://news.crunchbase.com/feed/", "rss"),
         ],
-        "tier": 1,
+        "tier": 2,  # 用户指定T2（二手/专业平台）2026-07-09
         "region": "overseas",
         "notes": "Crunchbase官方融资资讯，专注health/wellness/biotech",
     },
@@ -280,7 +286,7 @@ SOURCES = {
             ("investor", "https://www.mobihealthnews.com/categories/investor", "google_news"),
             ("news", "https://www.mobihealthnews.com/news", "google_news"),
         ],
-        "tier": 1,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "数字健康核心媒体，investor频道专门报道融资",
     },
@@ -291,7 +297,7 @@ SOURCES = {
         "l2_channels": [
             ("blog", "https://www.startuphealth.com/startup-health-blog?format=rss", "rss"),
         ],
-        "tier": 2,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "每周投融资资讯，关注health transformation企业",
     },
@@ -301,7 +307,7 @@ SOURCES = {
         "l2_channels": [
             ("home", "https://www.agetech.news/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 2,  # 用户提"AgeTech"指代不明确，保守维持T2（agetech.news已断更）；若指agetech.com请告知
         "region": "overseas",
         "notes": "已断更，保留在信源库做历史参考",
     },
@@ -313,7 +319,7 @@ SOURCES = {
             ("venture", "https://www.agetech.com/venture/", "google_news"),
             ("companies", "https://www.agetech.com/companies/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 1,  # 用户指定T1（AgeTech）2026-07-09
         "region": "overseas",
         "notes": "AgeTech企业+融资+新闻综合平台",
     },
@@ -329,13 +335,14 @@ SOURCES = {
     },
     "agetechcollaborative": {
         "name": "AgeTech Collaborative",
-        "l1_domain": "home.agetechcollaborative.org",
+        "l1_domain": "agetechcollaborative.org",
         "l2_channels": [
-            ("startup_directory", "https://home.agetechcollaborative.org/startup/directory", "manual"),
+            ("feed", "https://agetechcollaborative.org/feed/", "rss"),
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "AARP旗下AgeTech企业库，手动入库",
+        "notes": "AARP旗下AgeTech企业库/资讯，2026-07-09 实测直连RSS可用（原manual改直连）",
+        "kind": "primary",
     },
     "maryfurlong": {
         "name": "Mary Furlong",
@@ -374,7 +381,7 @@ SOURCES = {
         "l2_channels": [
             ("podcast", "https://www.creatinganewhealthcare.com/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "Dr. Zeev Neuwirth播客",
     },
@@ -384,7 +391,7 @@ SOURCES = {
         "l2_channels": [
             ("home", "https://www.finsmes.com/", "google_news"),
         ],
-        "tier": 3,
+        "tier": 1,  # 用户指定T1 2026-07-09（虽为aggregator，按用户意图升T1）
         "region": "overseas",
         "notes": "泛科技融资聚合（噪音重灾区），降级为T3仅进观察池",
         "kind": "aggregator",
@@ -395,7 +402,7 @@ SOURCES = {
         "l2_channels": [
             ("healthcare", "https://www.prnewswire.com/news-releases/healthcare-hospital-management/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "新闻稿平台，无RSS",
     },
@@ -405,7 +412,7 @@ SOURCES = {
         "l2_channels": [
             ("home", "https://femtechinsider.com/", "google_news"),
         ],
-        "tier": 2,
+        "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
         "notes": "女性健康科技，与银发女性健康相关",
     },
@@ -519,7 +526,7 @@ SOURCES = {
         "l2_channels": [
             ("google_news", "https://news.google.com/rss/search?q=site:ageclub.net+when:7d&hl=zh-CN", "google_news"),
         ],
-        "tier": 2,
+        "tier": 1,  # 用户指定T1（国内最大银发财经，相当于筛选过一次）2026-07-09
         "region": "domestic",
         "notes": "国内银发经济头部媒体",
     },
@@ -529,7 +536,7 @@ SOURCES = {
         "l2_channels": [
             ("google_news", "https://news.google.com/rss/search?q=site:36kr.com+银发+OR+养老+OR+老年+when:7d&hl=zh-CN", "google_news"),
         ],
-        "tier": 2,
+        "tier": 2,  # 用户指定T2（二手/专业平台）2026-07-09
         "region": "domestic",
         "notes": "36氪银发经济板块",
     },
@@ -586,6 +593,7 @@ SOURCES = {
         "tier": 1,
         "region": "overseas",
         "notes": "美国老年服务行业协会，一手行业动态/政策/研究",
+        "news_window_days": 30,
         "kind": "primary",
     },
     "argentum": {
@@ -597,6 +605,7 @@ SOURCES = {
         "tier": 1,
         "region": "overseas",
         "notes": "美国养老社区协会，一手行业资讯",
+        "news_window_days": 30,
         "kind": "primary",
     },
     "nic_seniors": {
@@ -608,6 +617,7 @@ SOURCES = {
         "tier": 2,
         "region": "overseas",
         "notes": "美国养老地产与投资研究中心，一手数据与报告",
+        "news_window_days": 30,
         "kind": "primary",
     },
     "ncoa": {
@@ -619,6 +629,7 @@ SOURCES = {
         "tier": 2,
         "region": "overseas",
         "notes": "美国国家老龄化委员会，一手政策与倡导",
+        "news_window_days": 30,
         "kind": "primary",
     },
     "mca_gov": {
@@ -630,6 +641,7 @@ SOURCES = {
         "tier": 1,
         "region": "domestic",
         "notes": "民政部一手政策/通知（养老/老龄一手源）",
+        "news_window_days": 30,
         "kind": "primary",
     },
     "gov_policy": {
@@ -641,6 +653,7 @@ SOURCES = {
         "tier": 1,
         "region": "domestic",
         "notes": "国务院政策文件一手源（银发经济/养老）",
+        "news_window_days": 30,
         "kind": "primary",
     },
     "cncaprc": {
@@ -652,6 +665,7 @@ SOURCES = {
         "tier": 2,
         "region": "domestic",
         "notes": "中国老龄协会一手资讯",
+        "news_window_days": 30,
         "kind": "primary",
     },
     # === 新增：一手 VC 博客 + YouTube 热门视频（2026-07-08 补全缺口）===
@@ -700,6 +714,49 @@ SOURCES = {
         "region": "overseas",
         "notes": "监控银发相关 YouTube 热门视频(含 The Villages C端爆款)",
         "kind": "video",
+    },
+    # === 新增：已验证直连 RSS 一手源（消除 Google News 单点依赖，2026-07-09）===
+    # 这些源整站 feed，经 is_relevant 两级闸门过滤泛噪音。
+    "longevity_tech": {
+        "name": "Longevity Technology",
+        "l1_domain": "longevity.technology",
+        "l2_channels": [
+            ("feed", "https://www.longevity.technology/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "长寿/老龄化科技/融资，2026-07-09 实测直连RSS可用（最对口长寿经济源）",
+        "kind": "primary",
+    },
+    "fierce_biotech": {
+        "name": "Fierce Biotech",
+        "l1_domain": "fiercebiotech.com",
+        "l2_channels": [
+            ("feed", "https://www.fiercebiotech.com/rss/xml", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "生物科技融资一线媒体，整站RSS直连（银发生物科技强补充）",
+    },
+    "eu_startups": {
+        "name": "EU-Startups",
+        "l1_domain": "eu-startups.com",
+        "l2_channels": [
+            ("feed", "https://www.eu-startups.com/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "欧洲创业/融资一线媒体，直连RSS（欧洲银发创业补充）",
+    },
+    "silicon_canals": {
+        "name": "Silicon Canals",
+        "l1_domain": "siliconcanals.com",
+        "l2_channels": [
+            ("feed", "https://siliconcanals.com/feed/", "rss"),
+        ],
+        "tier": 3,
+        "region": "overseas",
+        "notes": "欧洲科技/融资媒体，直连RSS（补充，降级T3仅进观察池）",
     },
 }
 
