@@ -182,7 +182,15 @@ def _check_one_link(url, timeout):
                                       stream=True, headers={"User-Agent": "Mozilla/5.0"})
                     if r2.status_code < 400:
                         return (url, "ok")
-                    return (url, "dead:%d" % r.status_code)
+                    # 访问控制类状态码（反爬/鉴权/限流）：页面本身多半存在，
+                    # 只是拒绝机器人（如 Crunchbase 走 Cloudflare 常年 403）。
+                    # 对"可信度死链检测"而言这不是真死链，降级为待人工复查，避免狼来了。
+                    if r2.status_code in (401, 403, 429):
+                        return (url, "pending:blocked_%d" % r2.status_code)
+                    return (url, "dead:%d" % r2.status_code)
+                # 访问控制类：同上，判为待复查而非死链
+                if r.status_code in (401, 429):
+                    return (url, "pending:blocked_%d" % r.status_code)
                 return (url, "dead:%d" % r.status_code)
             return (url, "ok")
         except requests.exceptions.RequestException as e:
