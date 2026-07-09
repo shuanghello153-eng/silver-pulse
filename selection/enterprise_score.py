@@ -207,6 +207,44 @@ def compute_base_value(ent, news_cov=None):
     return min(70, v1 + v2 + v3 + v4), (v1, v2, v3, v4)
 
 
+def _evidence_depth(ent):
+    """连续「资料厚度」微调分 (0~12)，游离于 base 的 70 上限之外。
+
+    目的（DATA 分身 B1/B5 报告痛点）：base_value 全是粗离散档，大量头部
+    企业撞档并列、天花板卡在 61（S/A 级永远空缺）。本项按企业携带的
+    **可量化证据丰富度** 打连续小分，让"资料越全 = 越好写 = 研究价值越高"
+    的企业自然往上分层、打破并列，直接强化小爽认同的"信息丰富度最高权重"。
+
+    纯代码、零 AI、确定性；只读已有字段，不新增任何数据依赖。
+    """
+    depth = 0.0
+    desc = (ent.get("description") or "").strip()
+    hl = (ent.get("highlights") or "").strip()
+    bm = (ent.get("business_model") or "").strip()
+    # 描述厚度：每 60 字 +1，上限 4
+    depth += min(4.0, len(desc) / 60.0)
+    # 亮点：有且详实 +2，仅有 +1
+    depth += 2.0 if len(hl) > 40 else (1.0 if hl else 0.0)
+    # 商业模式描述厚度：每 30 字 +1，上限 2
+    depth += min(2.0, len(bm) / 30.0)
+    # 可追溯外链
+    if (ent.get("website_url") or "").strip():
+        depth += 1.0
+    if (ent.get("crunchbase_url") or "").strip():
+        depth += 1.0
+    # 投资方数量（可核信息源）
+    inv = ent.get("investors") or ""
+    if isinstance(inv, list):
+        inv_n = len([x for x in inv if str(x).strip()])
+    else:
+        inv_n = 1 if str(inv).strip() else 0
+    depth += min(2.0, float(inv_n))
+    # 标签密度（每 2 个 +1，上限 2）
+    tags = ent.get("tags") or []
+    depth += min(2.0, len(tags) / 2.0)
+    return min(12.0, depth)
+
+
 # ----------------------------------------------------------------------------
 # event_boost (dynamic, from news)
 # ----------------------------------------------------------------------------
@@ -345,7 +383,10 @@ def main():
         boost, last_date, rids, top_event = compute_event_boost(ent, news, today_dt)
         # MIRROR_BONUS: explicit "以海外为镜" adjustment, overseas only (cap 100)
         mirror = config.MIRROR_BONUS if is_overseas else 0
-        rv = min(100, base + boost + mirror)
+        # 连续资料厚度微调（0~12，游离于 base 70 上限外）：打破头部并列、
+        # 让天花板突破 61 使 S/A 级不再空缺（DATA B1/B5 报告痛点）。
+        depth = _evidence_depth(ent)
+        rv = min(100, base + boost + mirror + depth)
 
         # ---- worth_deep_write: 4 standards (S1 size / S2 event /
         #      S3 model diff / S4 cn_fit>=12) ----
@@ -383,6 +424,7 @@ def main():
             "base_value": int(base),
             "event_boost": int(boost),
             "mirror_bonus": int(mirror),
+            "evidence_depth": round(float(depth), 1),
             "v1": int(v1), "v2": int(v2), "v3": int(v3), "v4": int(v4),
             "last_event_date": last_date,
             "related_news_ids": rids,
