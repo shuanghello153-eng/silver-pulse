@@ -119,7 +119,18 @@ def main():
         it["novelty"] = nov
         it["signal"] = ds.get("signal", 0)
         final = sum((ds.get(k, 0) or 0) * w[k]["weight"] for k in w)
-        adj = config.SOURCE_ADJ.get(it.get("tier"), 0.0)
+        # 来源分层加成(SOURCE_ADJ)必须体现在 final_score 里。
+        # 旧 bug：条目缺 tier 字段 -> SOURCE_ADJ.get(None, 0.0)=0.0，加成被静默丢弃，
+        #   终分与 dim_scores 加权和差一个 ±SOURCE_ADJ（±0.30），selfcheck 报警。
+        # 修复：优先用条目 tier；缺失时从 source 名回解 tier，并写回条目，
+        #   保证与 selfcheck 的重算口径一致（selfcheck 也按 source 名回解 tier）。
+        tier = it.get("tier")
+        if tier is None:
+            tier = config.SOURCE_NAME_TO_TIER.get(it.get("source"))
+        if tier is None:
+            tier = 2  # 未知信源兜底：T2 加成=0，不偏不倚
+        adj = config.SOURCE_ADJ.get(tier, 0.0)
+        it["tier"] = tier
         it["final_score"] = round(final + adj, 2)
     json.dump(data, open(SCORED, "w", encoding="utf-8"),
               ensure_ascii=False, indent=2)

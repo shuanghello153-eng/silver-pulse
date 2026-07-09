@@ -1,7 +1,7 @@
 [
   {
     "title": "银发快讯 | 同仁堂医养在港交所上市；46岁+下沉市场用户占比达46.3%；蚂蚁健康、仁济医院等推出“AI陪诊码” - AgeClub",
-    "final_score": 7.04,
+    "final_score": 7.34,
     "signal_score": 10,
     "category": "high",
     "tags": [
@@ -43,11 +43,12 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
-    "final_score": 5.37,
+    "final_score": 5.67,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -86,11 +87,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 1
   },
   {
     "title": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？ - AgeClub",
-    "final_score": 4.83,
+    "final_score": 5.13,
     "signal_score": 6,
     "category": "watch",
     "tags": [
@@ -130,7 +132,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "城乡三级养老服务网络建设管理指引发布 - 新京报",
@@ -173,7 +176,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 3
+    "cluster_size": 3,
+    "tier": 2
   },
   {
     "title": "融资数千万，一年冲刺3000家，中老年赛道的细分生意，为何让资本押注？ - 36 Kr",
@@ -216,7 +220,8 @@
       "产业资本/投资机构"
     ],
     "is_main": false,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 2
   },
   {
     "title": "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网",
@@ -258,7 +263,8 @@
       "养老服务"
     ],
     "is_main": false,
-    "cluster_size": 3
+    "cluster_size": 3,
+    "tier": 2
   },
   {
     "title": "城乡三级养老服务网络建设管理指引发布 - 大河财立方",
@@ -300,7 +306,8 @@
       "健康服务"
     ],
     "is_main": false,
-    "cluster_size": 3
+    "cluster_size": 3,
+    "tier": 2
   },
   {
     "title": "视频 | 中国工商银行养老金融部副总经理吕艾国：推出“个人养老保障计划”解决两大类难题 - cb.com.cn",
@@ -342,7 +349,8 @@
       "行业服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "BedHub Launches Nationwide After Founder’s Personal Search for Senior Care - EIN Presswire",
@@ -385,11 +393,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "The Villages, Florida｜Peter Santenello 爆款 vlog（900万+ 播放，C端现象级）",
-    "final_score": 3.06,
+    "final_score": 2.76,
     "signal_score": 1,
     "category": "archive",
     "tags": [
@@ -430,11 +439,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 3
   },
   {
     "title": "《Some Kind of Heaven》｜The Villages 养老社区纪录片（圣丹斯参展）",
-    "final_score": 2.48,
+    "final_score": 2.18,
     "signal_score": 1,
     "category": "archive",
     "tags": [
@@ -476,11 +486,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 3
   },
   {
     "title": "REDICO and Ciel Senior Living Announce Joint Venture Partnership to Develop a New Senior Living Community in Rehoboth Beach - PR Newswire",
-    "final_score": 4.44,
+    "final_score": 4.74,
     "signal_score": 8,
     "category": "high",
     "tags": [
@@ -521,7 +532,8 @@
       "康复设备"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside - citybiz",
@@ -564,11 +576,12 @@
       "养老地产"
     ],
     "is_main": true,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 2
   },
   {
     "title": "Frazier Healthcare Partners Acquires MatrixCare - Hospice News",
-    "final_score": 5.04,
+    "final_score": 5.34,
     "signal_score": 8,
     "category": "high",
     "tags": [
@@ -608,7 +621,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Kindred Home Care Acquires Helping Hands Group - HomeCare Magazine",
@@ -653,7 +667,8 @@
     "domains": [
       "养老服务",
       "产业资本/投资机构"
-    ]
+    ],
+    "tier": 2
   },
   {
     "title": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal",
@@ -696,11 +711,12 @@
     "cluster_size": 2,
     "domains": [
       "养老地产"
-    ]
+    ],
+    "tier": 2
   },
   {
     "title": "银发快讯 | 投资超2亿，首个开源鸿蒙养老护理院落地；红松推出AI生活记录产品；具身智能「墨奇智能」融资超10亿 - AgeClub",
-    "final_score": 7.62,
+    "final_score": 7.92,
     "signal_score": 10,
     "category": "high",
     "tags": [
@@ -742,11 +758,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
-    "final_score": 5.37,
+    "final_score": 5.67,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -785,7 +802,8 @@
       "购物渠道"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Avid Health Acquires Tech Medical Home Care - HomeCare Magazine",
@@ -831,11 +849,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States - Home Health Care News",
-    "final_score": 4.56,
+    "final_score": 4.86,
     "signal_score": 6,
     "category": "watch",
     "tags": [
@@ -877,7 +896,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "“粤港养老通”上线 在粤养老香港长者津贴可直达内地账户 - 广州市人民政府",
@@ -921,11 +941,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "National Healthcare Properties closes $197M in senior living acquisitions - McKnight's Senior Living",
-    "final_score": 5.82,
+    "final_score": 6.12,
     "signal_score": 8,
     "category": "high",
     "tags": [
@@ -968,7 +989,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "广东上线“粤港养老通” 港元津贴一键直达 - cb.com.cn",
@@ -1012,7 +1034,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "工行广东分行正式上线“粤港养老通” 助力跨境养老金融服务再升级 - 新浪财经",
@@ -1055,7 +1078,8 @@
       "行业服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "NIC Launches Affordability Calculator to Help Measure Long-Term Cost of Assisted Living - Boston Real Estate Times",
@@ -1101,7 +1125,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "养老服务改革有新发展 民政部发布新指引 - 潮新闻",
@@ -1144,7 +1169,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 品玩",
@@ -1187,7 +1213,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 2
   },
   {
     "title": "广东：“粤港养老通”上线在粤养老长者港币津贴一键直达- 银龄在线 - 中国老龄协会",
@@ -1231,11 +1258,12 @@
       "行业服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "GAO Releases Report on Assisted Living Spending and Coverage - LeadingAge",
-    "final_score": 3.44,
+    "final_score": 3.74,
     "signal_score": 5,
     "category": "watch",
     "tags": [
@@ -1275,7 +1303,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Ep. 32 - Building a Tech-Enabled Healthcare Roll-Up * Home Care Acquisitions & M&A Strategy - YouTube",
@@ -1320,11 +1349,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造 - AgeClub",
-    "final_score": 7.47,
+    "final_score": 7.77,
     "signal_score": 12,
     "category": "high",
     "tags": [
@@ -1364,7 +1394,8 @@
       "适老化改造"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI - The AI Journal",
@@ -1408,7 +1439,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "Heart to Heart Hospice Increases Cybersecurity With CyberMaxx Partnership - HomeCare Magazine",
@@ -1452,7 +1484,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "@在粤养老的香港长者！“粤港养老通”正式上线 津贴直达内地账户 - 广州日报新花城",
@@ -1496,7 +1529,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "J-N-J Home Care Services Launches 24-Hour Senior Care at Home in Dallas, TX - openPR.com",
@@ -1541,7 +1575,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元 - 36 Kr",
@@ -1586,7 +1621,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经",
@@ -1629,11 +1665,12 @@
       "健康服务"
     ],
     "is_main": false,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 2
   },
   {
     "title": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
-    "final_score": 5.94,
+    "final_score": 6.24,
     "signal_score": 12,
     "category": "high",
     "tags": [
@@ -1673,7 +1710,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Nation’s first state-run long-term care insurance program launches in WA - Chinook Observer",
@@ -1717,11 +1755,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康 - AgeClub",
-    "final_score": 6.0,
+    "final_score": 6.3,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -1761,11 +1800,12 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "每人最高800元/月，京东接入居家养老服务国补；5起银发投融资；上海推进老年助医陪诊；优必选推出家用陪伴仿生机器人 | 行业动态 - AgeClub",
-    "final_score": 7.61,
+    "final_score": 7.91,
     "signal_score": 10,
     "category": "high",
     "tags": [
@@ -1808,11 +1848,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！ - AgeClub",
-    "final_score": 6.17,
+    "final_score": 6.47,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -1852,11 +1893,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
-    "final_score": 6.0,
+    "final_score": 6.3,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -1896,11 +1938,12 @@
       "养老地产"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
-    "final_score": 5.8,
+    "final_score": 6.1,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -1941,11 +1984,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式 - AgeClub",
-    "final_score": 4.85,
+    "final_score": 5.15,
     "signal_score": 4,
     "category": "archive",
     "tags": [
@@ -1984,7 +2028,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "湖南上线灵活就业参保“一件事” 养老医保自由搭配最快7天办结 - 湖南省人民政府",
@@ -2028,7 +2073,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "烟台发布《烟台养老产业三年行动方案》 - 新浪财经",
@@ -2071,7 +2117,8 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "Athulya Senior Care Launches Free Dementia Awareness Initiative in Bengaluru - Passionate In Marketing",
@@ -2116,7 +2163,8 @@
       "失智老人赛道"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "养老补贴上线电商平台，北京西城老人开出全国首单，失能老人下单居家养老服务可“打五折” - 新浪财经",
@@ -2162,7 +2210,8 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "普惠养老进万家 | 夯！大家养老年金保险产品上线支付宝 - 新浪财经",
@@ -2205,11 +2254,12 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "Atria Puts Turnaround Skills to Work in Transformation of Former Holiday Portfolio",
-    "final_score": 5.17,
+    "final_score": 5.47,
     "signal_score": 8,
     "category": "high",
     "tags": [
@@ -2252,7 +2302,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Athulya Geriatric Care Hospitals launches India's largest exclusive senior citizen hospital, completing a 360° elder care continuum - Business Standard",
@@ -2295,11 +2346,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑 - AgeClub",
-    "final_score": 6.17,
+    "final_score": 6.47,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -2339,11 +2391,12 @@
       "健康服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Blue Ridge Care, Katie’s Comfort House Launch Collaborative Partnership - Hospice News",
-    "final_score": 3.81,
+    "final_score": 4.11,
     "signal_score": 6,
     "category": "watch",
     "tags": [
@@ -2383,11 +2436,12 @@
       "养老服务"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Why Senior Living Operators Shouldn’t Ignore Trend of Older Adults Working Longer",
-    "final_score": 3.81,
+    "final_score": 4.11,
     "signal_score": 6,
     "category": "watch",
     "tags": [
@@ -2428,7 +2482,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "养老服务国补上线京东 符合条件每人每月最高可领800元 - 紫牛新闻",
@@ -2471,7 +2526,8 @@
       "购物渠道"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 2
   },
   {
     "title": "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com",
@@ -2517,7 +2573,8 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 2
   },
   {
     "title": "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com",
@@ -2563,11 +2620,12 @@
       "产业资本/投资机构"
     ],
     "is_main": false,
-    "cluster_size": 2
+    "cluster_size": 2,
+    "tier": 2
   },
   {
     "title": "Competitive, Selective, Hot: Senior Living M&A Still Surging in 2026",
-    "final_score": 5.5,
+    "final_score": 5.8,
     "signal_score": 19,
     "category": "high",
     "tags": [
@@ -2611,11 +2669,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "美国机器人伴侣公司融资700万美元，超2.3万份预购验证银发陪伴市场 - AgeClub",
-    "final_score": 6.6,
+    "final_score": 6.9,
     "signal_score": 7,
     "category": "high",
     "tags": [
@@ -2655,11 +2714,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands",
-    "final_score": 4.54,
+    "final_score": 4.84,
     "signal_score": 6,
     "category": "watch",
     "tags": [
@@ -2704,11 +2764,12 @@
       "产业资本/投资机构"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
-    "final_score": 6.0,
+    "final_score": 6.3,
     "signal_score": 4,
     "category": "archive",
     "tags": [
@@ -2748,11 +2809,12 @@
       "购物渠道"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   },
   {
     "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
-    "final_score": 4.88,
+    "final_score": 5.18,
     "signal_score": 4,
     "category": "archive",
     "tags": [
@@ -2792,6 +2854,7 @@
       "购物渠道"
     ],
     "is_main": true,
-    "cluster_size": 1
+    "cluster_size": 1,
+    "tier": 1
   }
 ]
