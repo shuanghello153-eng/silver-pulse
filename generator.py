@@ -21,6 +21,7 @@ from config import (
 )
 
 from ui_common import COMMON_CSS as CSS_STYLES, SIDEBAR, THEME_JS, FEEDBACK_CSS, FEEDBACK_JS
+from ui_common import sp_card_actions, sp_note_placeholder
 
 OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCE_NAMES  # alias for clarity
 ALL_TAG_NAMES = set(TAG_POOL.keys())
@@ -605,6 +606,11 @@ def build_card_html(art):
         '%s'
         '</div>'
     ) % (_score_class(fs), _fmt_score(fs), dim_html, fav_html)
+    # 列表内操作按钮（不再显示 / 备注 / 已读）
+    actions_html = sp_card_actions("news", url_hash, with_read=True)
+    actions_line = '<div class="feed-tags" style="margin-top:6px;">%s</div>' % actions_html
+    # 卡片底部备注占位（点击编辑，仅存本机）
+    note_html = sp_note_placeholder("news", url_hash)
     extra = []
     cl = art.get("cluster_id", "") or ""
     if entity_name:
@@ -617,7 +623,7 @@ def build_card_html(art):
     funded = 1 if (art.get("event") == "融资" or "融资" in (art.get("tags") or [])) else 0
     tier = SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or "")
     card = (
-        '<div class="feed-item" id="news-%s" data-view="%s" data-score="%s" '
+        '<div class="feed-item" id="news-%s" data-card-id="%s" data-view="%s" data-score="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
         'data-tags="%s" data-region="%s" '
         'data-entity="%s" data-source="%s" data-tier="%s" '
@@ -632,10 +638,12 @@ def build_card_html(art):
         '%s\n'
         '%s\n'
         '%s\n'
+        '%s\n'
+        '%s\n'
         '  </div>\n'
         '</div>'
     ) % (
-        url_hash, view, _fmt_score(fs), date or "", event_type, ",".join(domains),
+        url_hash, url_hash, view, _fmt_score(fs), date or "", event_type, ",".join(domains),
         ",".join(tags), region,
         entity_name, src_search, SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or ""),
         novelty, signal, funded,
@@ -646,8 +654,10 @@ def build_card_html(art):
         summary_html,
         rec_html,
         score_html,
+        actions_line,
         extra_html,
         tag_html,
+        note_html,
     )
     return card
 
@@ -757,6 +767,11 @@ def build_selected_card_html(art):
         '%s'
         '</div>'
     ) % (_score_class(fs), _fmt_score(fs), dim_html, fav_html)
+    # 列表内操作按钮（不再显示 / 备注 / 已读）
+    actions_html = sp_card_actions("news", url_hash, with_read=True)
+    actions_line = '<div class="feed-tags" style="margin-top:6px;">%s</div>' % actions_html
+    # 卡片底部备注占位（点击编辑，仅存本机）
+    note_html = sp_note_placeholder("news", url_hash)
 
     # 主体 / 聚类 标签
     extra = []
@@ -774,7 +789,7 @@ def build_selected_card_html(art):
     signal = float(art.get("signal") or (art.get("dim_scores") or {}).get("signal") or 0)
     funded = 1 if (art.get("event") == "融资" or "融资" in (art.get("tags") or [])) else 0
     card = (
-        '<div class="feed-item" id="news-%s" data-view="selected" data-score="%s" '
+        '<div class="feed-item" id="news-%s" data-card-id="%s" data-view="selected" data-score="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
         'data-tags="%s" data-region="%s" '
         'data-entity="%s" data-source="%s" data-tier="%s" '
@@ -788,10 +803,12 @@ def build_selected_card_html(art):
         '%s\n'
         '%s\n'
         '%s\n'
+        '%s\n'
+        '%s\n'
         '  </div>\n'
         '</div>'
     ) % (
-        url_hash, _fmt_score(fs), date or "", event_type, ",".join(domains),
+        url_hash, url_hash, _fmt_score(fs), date or "", event_type, ",".join(domains),
         ",".join(tags), region,
         entity_name, src_search, SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or ""),
         novelty, signal, funded,
@@ -802,7 +819,9 @@ def build_selected_card_html(art):
         summary_html,
         rec_html,
         score_html,
+        actions_line,
         extra_html,
+        note_html,
     )
     return card
 
@@ -877,6 +896,7 @@ let searchTerm='';
 let sortMode='score';
 let sortDir='desc';
 let activeTime='all';
+window.spReapply=updateDisplay;
 const feedItems=document.querySelectorAll('.feed-item');
 const feedContainer=document.getElementById('feed-container');
 const selectedContainer=document.getElementById('selected-container');
@@ -917,6 +937,8 @@ function updateDisplay(){
     const dm=activeDomain==='all'||doms.split(',').includes(activeDomain);
     const tm=activeTag==='all'||tgs.split(',').includes(activeTag);
     const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm)||entity.includes(searchTerm)||source.includes(searchTerm)||tgs.toLowerCase().includes(searchTerm);
+    const hiddenMatch=(window.spShowHidden===true)||(item.dataset.hide!=='1');
+    const readMatch=(window.spUnreadOnly===true)?(item.dataset.read!=='1'):true;
     const dateStr=item.dataset.date||'';
     let tmTime=true;
     if(activeTime!=='all'&&dateStr){
@@ -925,7 +947,7 @@ function updateDisplay(){
       const d=new Date(dateStr.replace(/-/g,'/'));
       tmTime = d>=cut;
     }
-    if(rm&&em&&dm&&tm&&sm&&tmTime){
+    if(rm&&em&&dm&&tm&&sm&&tmTime&&hiddenMatch&&readMatch){
       item.style.display='flex';
       visible++;
     }else{item.style.display='none'}
@@ -1173,6 +1195,8 @@ def generate_html(scored_articles=None, output_path=None):
         '<span class="filter-label">排序</span>',
         '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓">评分 ↓</button>',
         '<button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
+        '<button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 显示已隐藏</button>',
+        '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 只看未读</button>',
         '</div></div>',
         signal_line,
 

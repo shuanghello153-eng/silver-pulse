@@ -415,6 +415,30 @@ FEEDBACK_CSS = """
 /* 已收藏模式：仅显示已收藏项 */
 body.fav-mode .feed-item:not([data-fav="1"]){display:none !important}
 body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
+
+/* ===== 列表内操作：不再显示 / 备注 / 已读（与收藏按钮风格一致）===== */
+.act-btn{display:inline-flex;align-items:center;gap:4px;font-size:11px;line-height:1;border:1px solid var(--border);background:var(--surface);color:var(--text-secondary);border-radius:20px;padding:3px 10px;cursor:pointer;transition:.15s;user-select:none;font-family:inherit;white-space:nowrap}
+.act-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
+.act-btn .ico{font-size:12px}
+.act-btn.on{border-color:var(--bad);background:rgba(220,38,38,.10);color:var(--bad);font-weight:600}
+/* 已读按钮（仅资讯） */
+.read-btn{display:inline-flex;align-items:center;gap:4px;font-size:11px;line-height:1;border:1px solid var(--border);background:var(--surface);color:var(--text-secondary);border-radius:20px;padding:3px 10px;cursor:pointer;transition:.15s;user-select:none;font-family:inherit;white-space:nowrap}
+.read-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
+.read-btn .ico{font-size:12px}
+.read-btn.read-on{border-color:var(--good);background:rgba(22,163,74,.12);color:var(--good);font-weight:600}
+/* 卡片底部备注（点击编辑） */
+.card-note{font-size:11.5px;color:var(--accent-strong);background:var(--surface-2);border-left:3px solid var(--accent);border-radius:0 6px 6px 0;padding:5px 9px;margin-top:6px;cursor:pointer;line-height:1.5;word-break:break-word}
+.card-note:hover{background:var(--accent-light)}
+.card-note.empty{display:none}
+.card-note.has-note{display:block}
+/* 已读卡片变灰（仅资讯） */
+.feed-item[data-read="1"]{opacity:.55}
+.feed-item[data-read="1"] .feed-title a{color:var(--text-muted)}
+.feed-item[data-read="1"]:hover{opacity:.82}
+/* 工具栏筛选胶囊（显示已隐藏 / 只看未读） */
+.toolbar-filter-btn{padding:4px 13px;border-radius:15px;border:1.5px dashed #94a3b8;background:transparent;font-size:12px;cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:.15s;font-family:inherit;font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.toolbar-filter-btn:hover{background:rgba(148,163,184,.12);border-style:solid}
+.toolbar-filter-btn.on{background:rgba(148,163,184,.20);border-style:solid;color:#475569}
 """
 
 FEEDBACK_JS = """<script>
@@ -523,7 +547,64 @@ function spGhSync(){
   if(res.status===200||res.status===201){alert('✅ 已同步 '+lines.length+' 条收藏到云端！下次流水线会自动读取优化选题。');}
   else{var msg='同步失败（HTTP '+res.status+'）';try{var j=JSON.parse(res.responseText);if(j&&j.message)msg+='：'+j.message;}catch(e){}alert(msg);}
 }
-/* 初始化：评分色阶 + 收藏状态 + 筛选胶囊 */
+/* ===== 列表内操作：不再显示 / 备注 / 已读 ===== */
+var spShowHidden=false;   /* 工具栏「显示已隐藏」总开关 */
+var spUnreadOnly=false;   /* 工具栏「只看未读」总开关（仅资讯） */
+function spHideKey(t,id){return 'sp_hide::'+t+'::'+id;}
+function spNoteKey(t,id){return 'sp_note::'+t+'::'+id;}
+function spReadKey(t,id){return 'sp_read::'+t+'::'+id;}
+/* 不再显示（同步所有同 id 卡片，因精选/全量会有重复卡片） */
+function spSetHide(t,id,on){
+  localStorage.setItem(spHideKey(t,id),on?'1':'0');
+  document.querySelectorAll('.feed-item[data-card-id="'+id+'"],.ent-card[data-card-id="'+id+'"]').forEach(function(c){c.dataset.hide=on?'1':'0';});
+  document.querySelectorAll('.act-btn[data-act="hide"][data-type="'+t+'"][data-id="'+id+'"]').forEach(function(b){b.classList.toggle('on',on);var l=b.querySelector('.lbl');if(l)l.textContent=on?'已隐藏':'不再显示';});
+}
+function spToggleHide(b){
+  var t=b.dataset.type,id=b.dataset.id;
+  var on=localStorage.getItem(spHideKey(t,id))!=='1';
+  spSetHide(t,id,on);
+  if(window.spReapply)spReapply();
+}
+/* 备注：编辑并存本机（同步所有同 id 备注占位） */
+function spEditNote(t,id){
+  var k=spNoteKey(t,id);
+  var cur=localStorage.getItem(k)||'';
+  var v=prompt('为该卡片添加备注（仅保存在本机浏览器）：',cur);
+  if(v===null)return;
+  v=v.trim();
+  if(v===''){localStorage.removeItem(k);}else{localStorage.setItem(k,v);}
+  document.querySelectorAll('.card-note[data-card-type="'+t+'"][data-card-id="'+id+'"]').forEach(function(el){spRenderNote(el,t,id);});
+}
+function spRenderNote(el,t,id){
+  var v=localStorage.getItem(spNoteKey(t,id));
+  if(v){el.textContent='📝 '+v;el.classList.add('has-note');el.classList.remove('empty');}
+  else{el.textContent='';el.classList.remove('has-note');el.classList.add('empty');}
+}
+/* 已读未读（仅资讯，同步所有同 id 卡片） */
+function spSetRead(t,id,on){
+  localStorage.setItem(spReadKey(t,id),on?'1':'0');
+  document.querySelectorAll('.feed-item[data-card-id="'+id+'"]').forEach(function(c){c.dataset.read=on?'1':'0';});
+  document.querySelectorAll('.read-btn[data-type="'+t+'"][data-id="'+id+'"]').forEach(function(b){b.classList.toggle('read-on',on);var l=b.querySelector('.lbl');if(l)l.textContent=on?'已读':'未读';var ico=b.querySelector('.ico');if(ico)ico.textContent=on?'●':'○';});
+}
+function spToggleRead(b){
+  var t=b.dataset.type,id=b.dataset.id;
+  var on=localStorage.getItem(spReadKey(t,id))!=='1';
+  spSetRead(t,id,on);
+  if(window.spReapply)spReapply();
+}
+function spMarkRead(t,id){
+  if(localStorage.getItem(spReadKey(t,id))==='1')return;
+  spSetRead(t,id,true);
+}
+/* 工具栏总开关（显示已隐藏 / 只看未读）*/
+function spInitToggles(){
+  var hb=document.getElementById('hide-toggle');
+  if(hb)hb.addEventListener('click',function(){spShowHidden=!spShowHidden;hb.classList.toggle('on',spShowHidden);if(window.spReapply)spReapply();});
+  var ub=document.getElementById('unread-toggle');
+  if(ub)ub.addEventListener('click',function(){spUnreadOnly=!spUnreadOnly;ub.classList.toggle('on',spUnreadOnly);if(window.spReapply)spReapply();});
+}
+
+/* 初始化：评分色阶 + 收藏状态 + 筛选胶囊 + 列表内操作 */
 function spInitFav(){
   /* 评分徽章加色阶类 */
   document.querySelectorAll('.badge-score').forEach(function(el){
@@ -547,7 +628,85 @@ function spInitFav(){
     b.addEventListener('click',spToggleFavFilter);
   });
   spRenderFavFilter();
+
+  /* 列表内操作按钮（不再显示 / 备注 / 已读）初始化 */
+  document.querySelectorAll('.act-btn,.read-btn').forEach(function(b){
+    var t=b.dataset.type,id=b.dataset.id,act=b.dataset.act;
+    if(act==='hide'){
+      if(localStorage.getItem(spHideKey(t,id))==='1'){
+        b.classList.add('on');var l=b.querySelector('.lbl');if(l)l.textContent='已隐藏';
+        var c=spCardOf(b);if(c)c.dataset.hide='1';
+      }
+    }else if(act==='read'){
+      if(localStorage.getItem(spReadKey(t,id))==='1'){
+        b.classList.add('read-on');var l=b.querySelector('.lbl');if(l)l.textContent='已读';
+        var ico=b.querySelector('.ico');if(ico)ico.textContent='●';
+        var c=spCardOf(b);if(c)c.dataset.read='1';
+      }
+    }
+    b.addEventListener('click',function(e){
+      e.preventDefault();e.stopPropagation();
+      if(act==='hide')spToggleHide(b);
+      else if(act==='note')spEditNote(t,id);
+      else if(act==='read')spToggleRead(b);
+    });
+  });
+  /* 备注内容渲染 + 点击编辑 */
+  document.querySelectorAll('.card-note').forEach(function(el){
+    spRenderNote(el,el.dataset.cardType,el.dataset.cardId);
+    el.addEventListener('click',function(){spEditNote(el.dataset.cardType,el.dataset.cardId);});
+  });
+  /* 资讯标题点击 → 标记已读 */
+  document.querySelectorAll('.feed-item .feed-title a').forEach(function(a){
+    a.addEventListener('click',function(){
+      var c=a.closest('.feed-item');
+      if(c&&c.dataset.cardId)spMarkRead('news',c.dataset.cardId);
+    });
+  });
+  /* 工具栏总开关 */
+  spInitToggles();
+  /* 应用隐藏/已读初始状态到筛选 */
+  if(window.spReapply)spReapply();
 }
 if(document.readyState!=='loading'){spInitFav();}else{document.addEventListener('DOMContentLoaded',spInitFav);}
 </script>
 """
+
+
+# ============================================================
+# 5. 列表内操作助手（不再显示 / 备注 / 已读）—— Python 端生成 HTML 片段
+#    与收藏按钮（.fav-btn）并列，统一视觉；数据全部存 localStorage。
+# ============================================================
+def sp_card_actions(t, id, with_read=False):
+    """返回收藏按钮之外的「列表内操作」按钮组 HTML。
+
+    - 不再显示（隐藏，可找回）：sp_hide::<type>::<id>
+    - 备注（点击编辑，存本机）：sp_note::<type>::<id>
+    - 已读/未读（仅资讯，可选）：sp_read::<type>::<id>
+    type ∈ {news, ent}；id 对资讯为 url_hash，对企业为 serial。
+    """
+    parts = []
+    parts.append(
+        '<button class="act-btn" data-act="hide" data-type="%s" data-id="%s" '
+        'title="暂不考虑（隐藏，可在工具栏找回）"><span class="ico">🚫</span>'
+        '<span class="lbl">不再显示</span></button>' % (t, id)
+    )
+    parts.append(
+        '<button class="act-btn" data-act="note" data-type="%s" data-id="%s" '
+        'title="添加/编辑备注（仅存本机浏览器）"><span class="ico">📝</span>'
+        '<span class="lbl">备注</span></button>' % (t, id)
+    )
+    if with_read:
+        parts.append(
+            '<button class="read-btn" data-act="read" data-type="%s" data-id="%s" '
+            'title="标记已读/未读（与收藏无关）"><span class="ico">○</span>'
+            '<span class="lbl">未读</span></button>' % (t, id)
+        )
+    return "".join(parts)
+
+
+def sp_note_placeholder(t, id):
+    """卡片底部备注占位 div，初始为空（.empty 隐藏），JS 初始化时填充。"""
+    return ('<div class="card-note empty" data-card-type="%s" data-card-id="%s"></div>'
+            % (t, id))
+
