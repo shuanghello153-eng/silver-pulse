@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-10T00:35:13",
+  "generated_at": "2026-07-10T01:37:30",
   "script": "verify_deliverables.py",
   "checks": [
     {
       "name": "T50 企业-资讯关联回填(URL契约+前缀兜底)",
-      "enterprises_with_assoc": 43,
-      "total_assoc_links": 81,
+      "enterprises_with_assoc": 10,
+      "total_assoc_links": 14,
       "dangling_refs": 0,
       "dangling_sample": [],
       "consumer_fallback": "gen_enterprise.py 159+161 前缀兜底已复刻",
