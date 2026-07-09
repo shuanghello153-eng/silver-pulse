@@ -470,7 +470,7 @@ def build_card_html(art):
     extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
     novelty = float(art.get("novelty") or 0)
     signal = float(art.get("signal") or (art.get("dim_scores") or {}).get("signal") or 0)
-    funded = 1 if (art.get("event") == "融资" or "融资" in (art.get("tags") or [])) else 0
+    funded = 1 if (art.get("event_type") == "融资" or "融资" in (art.get("tags") or [])) else 0
     tier = SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or "")
     card = (
         '<div class="feed-item" id="news-%s" data-card-id="%s" data-view="%s" data-score="%s" '
@@ -637,7 +637,7 @@ def build_selected_card_html(art):
     src_search = art.get("source", "") or ""
     novelty = float(art.get("novelty") or 0)
     signal = float(art.get("signal") or (art.get("dim_scores") or {}).get("signal") or 0)
-    funded = 1 if (art.get("event") == "融资" or "融资" in (art.get("tags") or [])) else 0
+    funded = 1 if (art.get("event_type") == "融资" or "融资" in (art.get("tags") or [])) else 0
     card = (
         '<div class="feed-item" id="news-%s" data-card-id="%s" data-view="selected" data-score="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
@@ -758,6 +758,11 @@ function sortContainer(c){
     if(sortMode==='date'){
       return (b.dataset.date||'')<(a.dataset.date||'')?-1:1;
     }
+    if(sortMode==='signal'){
+      const sa=parseFloat(a.dataset.signal)||0, sb=parseFloat(b.dataset.signal)||0;
+      if(sb!==sa) return sb-sa;
+      return (parseFloat(b.dataset.score)||0)-(parseFloat(a.dataset.score)||0);
+    }
     const va=parseFloat(a.dataset.score)||0, vb=parseFloat(b.dataset.score)||0;
     let cmp = vb-va;
     if(sortDir==='asc') cmp=-cmp;
@@ -855,14 +860,16 @@ document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(btn=>{
 document.getElementById('search-input').addEventListener('input',function(){
   searchTerm=this.value.toLowerCase().trim();updateDisplay();
 });
-// 排序箭头：评分↓ → 评分↑ → 时间↓ 循环
+// 排序箭头：评分↓ → 评分↑ → 时间↓ → 信号↓ 循环
 function cycleSort(){
   if(sortMode==='score'&&sortDir==='desc'){sortDir='asc';}
   else if(sortMode==='score'&&sortDir==='asc'){sortMode='date';sortDir='desc';}
+  else if(sortMode==='date'){sortMode='signal';sortDir='desc';}
   else{sortMode='score';sortDir='desc';}
   const btn=document.getElementById('sort-btn');
   if(btn){
     if(sortMode==='date'){btn.textContent='时间 ↓';btn.classList.remove('active');}
+    else if(sortMode==='signal'){btn.textContent='信号 ↓';btn.classList.add('active');}
     else{btn.textContent='评分 '+(sortDir==='desc'?'↓':'↑');btn.classList.add('active');}
   }
   updateDisplay();
@@ -1055,7 +1062,7 @@ def generate_html(scored_articles=None, output_path=None):
         '</div>',
         '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
         '<span class="filter-label">排序</span>',
-        '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓">评分 ↓</button>',
+        '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓ / 信号↓">评分 ↓</button>',
         '<button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
         '<button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 显示已隐藏</button>',
         '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 只看未读</button>',
