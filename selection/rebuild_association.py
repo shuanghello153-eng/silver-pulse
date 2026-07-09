@@ -204,6 +204,12 @@ def rebuild(dry=False):
     return covered, total_links, type_counter
 
 
+def run_daily_step():
+    """供 run_daily.py 调用：每周跑批时重算企业-资讯关联，
+    挂在 enterprise_score 之后，确保 related_news_ids 不被其覆盖清空。"""
+    return rebuild(dry=False)
+
+
 if __name__ == "__main__":
     dry = "--dry" in sys.argv
     rebuild(dry=dry)

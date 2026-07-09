@@ -49,6 +49,9 @@ STEPS = [
     ("selection.recommend.run_daily_step()", "selection.recommend", "run_daily_step", ()),
     # [COST: zero] 企业研究价值分（base_value + event_boost）
     ("selection.enterprise_score.main()", "selection.enterprise_score", "main", ()),
+    # [COST: zero] 企业-资讯关联重建（T40）：必须位于 enterprise_score 之后，
+    # 否则上一步重写 enterprise_scores.json 会把 related_news_ids 清空。
+    ("selection.rebuild_association.run_daily_step()", "selection.rebuild_association", "run_daily_step", ()),
     # [COST: zero] 自动反哺企业标签
     ("tag_enterprises.run_daily_step()", "tag_enterprises", "run_daily_step", ()),
     # [COST: zero] 生成 index.html（资讯看板 + 选题雷达）
