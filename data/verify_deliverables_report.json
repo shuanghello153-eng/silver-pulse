@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T01:37:30",
+  "generated_at": "2026-07-10T03:25:39",
   "script": "verify_deliverables.py",
   "checks": [
     {
@@ -33,9 +33,11 @@
     },
     {
       "name": "S-01 signal_strength 字段",
-      "present": false,
-      "status": "INFO",
-      "note": "字段尚未写入 scored_latest(待全量重评跑 signal_strength.py)，属预期，非失败"
+      "present": true,
+      "count": 63,
+      "total": 63,
+      "status": "PASS",
+      "note": "全部 63/63 条已含 signal_strength（纯脚本回填，无key）"
     }
   ],
   "overall": "PASS"

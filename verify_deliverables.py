@@ -131,12 +131,21 @@ def main():
     report["checks"].append(c4)
 
     # ---- Check 5: S-01 signal_strength 字段落地 ----
-    has_ss = any("signal_strength" in n for n in news)
+    ss_count = sum(1 for n in news if "signal_strength" in n)
+    has_ss = ss_count == len(news) and len(news) > 0
+    if ss_count == len(news) and len(news) > 0:
+        c5_status, c5_note = "PASS", f"全部 {ss_count}/{len(news)} 条已含 signal_strength（纯脚本回填，无key）"
+    elif ss_count > 0:
+        c5_status, c5_note = "WARN", f"部分落地 {ss_count}/{len(news)} 条，仍有缺失"
+    else:
+        c5_status, c5_note = "INFO", "字段尚未写入 scored_latest（待跑 backfill_signal_strength.py），属预期，非失败"
     c5 = {
         "name": "S-01 signal_strength 字段",
         "present": has_ss,
-        "status": "INFO",
-        "note": "字段尚未写入 scored_latest(待全量重评跑 signal_strength.py)，属预期，非失败",
+        "count": ss_count,
+        "total": len(news),
+        "status": c5_status,
+        "note": c5_note,
     }
     report["checks"].append(c5)
 
