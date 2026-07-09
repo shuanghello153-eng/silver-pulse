@@ -34434,5 +34434,694 @@
     "business_model_cn": "",
     "news_coverage": "",
     "name_cn": ""
+  },
+  {
+    "name": "Teton.ai",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "摔倒监测",
+    "tags": [
+      "融资过亿",
+      "AI",
+      "硬件+服务"
+    ],
+    "description": "丹麦AI医疗公司，通过计算机视觉与传感器预测老年护理场景中的跌倒与健康衰退风险，帮助养老机构从被动响应转向主动预防。",
+    "highlights": "计算机视觉+传感器预测跌倒风险，提升机构主动照护能力。",
+    "funding_latest": {
+      "date": "2025-09",
+      "amount": "$20M",
+      "round": "Series A",
+      "display": "Series A $20M (2025-09)"
+    },
+    "funding_total": {
+      "amount": "$20M",
+      "display": "累计约$20M"
+    },
+    "investors": "Plural领投，Bertelsmann Investments、Antler Elevate、Nebular、PSV Tech跟投",
+    "founded": "",
+    "value_score": 38,
+    "source": "WebSearch: theaiinsider.tech 2025-09-11",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Teton.ai",
+    "website_url": "https://teton.ai",
+    "business_model": "B2B 养老机构AI监测SaaS+硬件",
+    "desc_cn": "丹麦AI医疗公司，通过计算机视觉与传感器预测老年护理场景中的跌倒与健康衰退风险，帮助养老机构从被动响应转向主动预防。",
+    "business_model_cn": "B2B 养老机构AI监测SaaS+硬件",
+    "serial": "#1131"
+  },
+  {
+    "name": "Lizzy Care",
+    "region": "海外",
+    "category_l1": "失智老人赛道",
+    "category_l2": "照护机构",
+    "tags": [
+      "融资",
+      "痴呆",
+      "B2B2C"
+    ],
+    "description": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程照护协调与个性化健康教育。",
+    "highlights": "面向痴呆症家庭的居家照护协调平台。",
+    "funding_latest": {
+      "date": "2025-02",
+      "amount": "$2.6M",
+      "round": "Seed",
+      "display": "Seed $2.6M (2025-02)"
+    },
+    "funding_total": {
+      "amount": "$2.6M",
+      "display": "累计$2.6M"
+    },
+    "investors": "Boomerang Ventures领投",
+    "founded": "",
+    "value_score": 30,
+    "source": "WebSearch: theaiinsider.tech 2025-02-18",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lizzy%20Care",
+    "website_url": "",
+    "business_model": "B2B2C 居家痴呆照护协调平台",
+    "desc_cn": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程照护协调与个性化健康教育。",
+    "business_model_cn": "B2B2C 居家痴呆照护协调平台",
+    "serial": "#1132"
+  },
+  {
+    "name": "Zingage",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "专业级护理",
+    "tags": [
+      "融资过亿",
+      "AI",
+      "订阅制"
+    ],
+    "description": "纽约AI居家护理交付平台，自动化排班、调度与报销流程，帮助居家护理机构提升运营效率与覆盖率。",
+    "highlights": "AI自动化居家护理排班与运营交付。",
+    "funding_latest": {
+      "date": "2025-10",
+      "amount": "$12.5M",
+      "round": "Seed",
+      "display": "Seed $12.5M (2025-10)"
+    },
+    "funding_total": {
+      "amount": "$12.5M",
+      "display": "累计$12.5M"
+    },
+    "investors": "Bessemer Venture Partners领投，TQ Ventures、South Park Commons等跟投",
+    "founded": "",
+    "value_score": 34,
+    "source": "WebSearch: hitconsultant.net 2025-10-08 / healthcareittoday 2025-11-18",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Zingage",
+    "website_url": "https://zingage.com",
+    "business_model": "B2B 居家护理AI运营SaaS(订阅)",
+    "desc_cn": "纽约AI居家护理交付平台，自动化排班、调度与报销流程，帮助居家护理机构提升运营效率与覆盖率。",
+    "business_model_cn": "B2B 居家护理AI运营SaaS(订阅)",
+    "serial": "#1133"
+  },
+  {
+    "name": "Gladys",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "专业级护理",
+    "tags": [
+      "融资",
+      "AI",
+      "订阅制"
+    ],
+    "description": "英国AI居家护理技术平台，旨在通过技术改善英国破碎的居家照护体系，优化护理人员调度与服务质量。",
+    "highlights": "英国AI居家护理平台，优化照护调度。",
+    "funding_latest": {
+      "date": "2025-10",
+      "amount": "£1.5M",
+      "round": "Seed",
+      "display": "Seed £1.5M (2025-10)"
+    },
+    "funding_total": {
+      "amount": "£1.5M",
+      "display": "累计£1.5M"
+    },
+    "investors": "Cornerstone VC领投",
+    "founded": "",
+    "value_score": 28,
+    "source": "WebSearch: cornerstonevc.co 2025-10-13",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Gladys",
+    "website_url": "",
+    "business_model": "B2B 居家护理AI平台(订阅)",
+    "desc_cn": "英国AI居家护理技术平台，旨在通过技术改善英国破碎的居家照护体系，优化护理人员调度与服务质量。",
+    "business_model_cn": "B2B 居家护理AI平台(订阅)",
+    "serial": "#1134"
+  },
+  {
+    "name": "Janus Living",
+    "region": "海外",
+    "category_l1": "养老地产",
+    "category_l2": "运营商",
+    "tags": [
+      "IPO上市",
+      "成熟期",
+      "对标标的"
+    ],
+    "description": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+    "highlights": "养老地产REIT，2026年申报IPO，估值目标约$50亿。",
+    "funding_latest": {
+      "date": "2026-03",
+      "amount": "估值约$5B",
+      "round": "IPO(申报)",
+      "display": "IPO申报 估值约$50亿 (2026-03)"
+    },
+    "funding_total": {
+      "amount": "拟募资约$7.4亿",
+      "display": "IPO拟募资约$7.4亿"
+    },
+    "investors": "Healthpeak为外部管理人并注入资产",
+    "founded": "",
+    "value_score": 50,
+    "source": "WebSearch: Reuters 2026-03-16 / renaissancecapital.com",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Janus%20Living",
+    "website_url": "https://janusliving.com",
+    "business_model": "RIDEA结构 上市养老地产REIT",
+    "desc_cn": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+    "business_model_cn": "RIDEA结构 上市养老地产REIT",
+    "serial": "#1135"
+  },
+  {
+    "name": "Healthpeak Properties",
+    "region": "海外",
+    "category_l1": "养老地产",
+    "category_l2": "运营商",
+    "tags": [
+      "IPO上市",
+      "成熟期",
+      "上市公司"
+    ],
+    "description": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+    "highlights": "医疗地产REIT，分拆养老组合成立Janus Living。",
+    "funding_latest": {
+      "date": "2026-01",
+      "amount": "NYSE: PEAK",
+      "round": "IPO上市",
+      "display": "NYSE: PEAK 上市公司"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": "公开市场",
+    "founded": "",
+    "value_score": 54,
+    "source": "WebSearch: ir.healthpeak.com 2026-01-07",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Healthpeak",
+    "website_url": "https://www.healthpeak.com",
+    "business_model": "上市医疗/养老地产REIT(RIDEA)",
+    "desc_cn": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+    "business_model_cn": "上市医疗/养老地产REIT(RIDEA)",
+    "serial": "#1136"
+  },
+  {
+    "name": "The Care Team",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "临终关怀",
+    "tags": [
+      "已被收购",
+      "成熟期"
+    ],
+    "description": "美国临终关怀与缓和医疗提供商，2025年在Revelstoke Capital支持下连续收购Traditions Health等资产，扩张至伊利诺伊、印第安纳、俄亥俄、弗吉尼亚等州。",
+    "highlights": "PE支持的临终关怀平台，2025年连续并购扩张。",
+    "funding_latest": {
+      "date": "2025-12",
+      "amount": "并购扩张",
+      "round": "并购",
+      "display": "Revelstoke支持 并购扩张 (2025-12)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": "Revelstoke Capital Partners(PE)",
+    "founded": "",
+    "value_score": 30,
+    "source": "WebSearch: prnewswire 2025-12-04 / mcguirewoods 2025-12-11",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=The%20Care%20Team",
+    "website_url": "",
+    "business_model": "B2B 临终关怀/缓和医疗运营+并购",
+    "desc_cn": "美国临终关怀与缓和医疗提供商，2025年在Revelstoke Capital支持下连续收购Traditions Health等资产，扩张至伊利诺伊、印第安纳、俄亥俄、弗吉尼亚等州。",
+    "business_model_cn": "B2B 临终关怀/缓和医疗运营+并购",
+    "serial": "#1137"
+  },
+  {
+    "name": "VitalCaring",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "临终关怀",
+    "tags": [
+      "已被收购",
+      "成熟期"
+    ],
+    "description": "美国家庭健康、临终关怀与缓和医疗运营商，2025年12月收购Traditions Health的家居健康与临终关怀业务，行业并购整合加速的代表。",
+    "highlights": "家居健康+临终关怀运营商，2025年并购Traditions Health资产。",
+    "funding_latest": {
+      "date": "2025-12",
+      "amount": "并购扩张",
+      "round": "并购",
+      "display": "并购Traditions Health资产 (2025-12)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": "PE/战略投资者",
+    "founded": "",
+    "value_score": 30,
+    "source": "WebSearch: homehealthcarenews.com 2025-12-04",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=VitalCaring",
+    "website_url": "",
+    "business_model": "B2B 家居健康/临终关怀运营+并购",
+    "desc_cn": "美国家庭健康、临终关怀与缓和医疗运营商，2025年12月收购Traditions Health的家居健康与临终关怀业务，行业并购整合加速的代表。",
+    "business_model_cn": "B2B 家居健康/临终关怀运营+并购",
+    "serial": "#1138"
+  },
+  {
+    "name": "ECP",
+    "region": "海外",
+    "category_l1": "适老化改造",
+    "category_l2": "智慧养老软件",
+    "tags": [
+      "融资过亿",
+      "成熟期"
+    ],
+    "description": "密尔沃基辅助生活专用软件龙头，2025年12月完成数亿美元成长融资，加速AI与按效付费(value-based care)能力建设。",
+    "highlights": "辅助生活专用软件龙头，获数亿美元成长投资。",
+    "funding_latest": {
+      "date": "2025-12",
+      "amount": "数亿美元",
+      "round": "成长期融资",
+      "display": "数亿美元成长融资 (2025-12)"
+    },
+    "funding_total": {
+      "amount": "数亿美元",
+      "display": "累计数亿美元"
+    },
+    "investors": "Level Equity领投",
+    "founded": "",
+    "value_score": 32,
+    "source": "WebSearch: hitconsultant.net 2025-12-08 / ecp123.com",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ECP%20assisted%20living",
+    "website_url": "https://www.ecp123.com",
+    "business_model": "B2B 辅助生活管理SaaS",
+    "desc_cn": "密尔沃基辅助生活专用软件龙头，2025年12月完成数亿美元成长融资，加速AI与按效付费(value-based care)能力建设。",
+    "business_model_cn": "B2B 辅助生活管理SaaS",
+    "serial": "#1139"
+  },
+  {
+    "name": "Biopeak",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "长寿诊所",
+    "tags": [
+      "融资",
+      "长寿科技",
+      "模式创新"
+    ],
+    "description": "长寿诊所运营商，2026年1月获270万美元融资，用于开设新诊所、强化诊断能力与 proprietary AI，主打整合式长寿医学服务。",
+    "highlights": "长寿诊所连锁，获$2.7M扩张融资。",
+    "funding_latest": {
+      "date": "2026-01",
+      "amount": "$2.7M",
+      "round": "早期融资",
+      "display": "早期融资 $2.7M (2026-01)"
+    },
+    "funding_total": {
+      "amount": "$2.7M",
+      "display": "累计$2.7M"
+    },
+    "investors": "未披露",
+    "founded": "",
+    "value_score": 26,
+    "source": "WebSearch: cxodigitalpulse.com 2026-01-30",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Biopeak",
+    "website_url": "",
+    "business_model": "B2C/B2B 长寿诊所+诊断",
+    "desc_cn": "长寿诊所运营商，2026年1月获270万美元融资，用于开设新诊所、强化诊断能力与 proprietary AI，主打整合式长寿医学服务。",
+    "business_model_cn": "B2C/B2B 长寿诊所+诊断",
+    "serial": "#1140"
+  },
+  {
+    "name": "Blue Longevity Clinic",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "长寿诊所",
+    "tags": [
+      "融资",
+      "长寿科技",
+      "欧洲"
+    ],
+    "description": "欧洲长寿医学诊所，2025年获200万欧元融资，计划于希腊、土耳其、保加利亚新开诊所，结合线下诊疗与数字健康。",
+    "highlights": "欧洲长寿诊所，获€2M扩张融资。",
+    "funding_latest": {
+      "date": "2025-07",
+      "amount": "€2M",
+      "round": "早期融资",
+      "display": "早期融资 €2M (2025-07)"
+    },
+    "funding_total": {
+      "amount": "€2M",
+      "display": "累计€2M"
+    },
+    "investors": "未披露",
+    "founded": "",
+    "value_score": 24,
+    "source": "WebSearch: startuphub.ai 2025-07-22",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Blue%20Longevity%20Clinic",
+    "website_url": "",
+    "business_model": "B2C/B2B 长寿诊所(欧洲多国)",
+    "desc_cn": "欧洲长寿医学诊所，2025年获200万欧元融资，计划于希腊、土耳其、保加利亚新开诊所，结合线下诊疗与数字健康。",
+    "business_model_cn": "B2C/B2B 长寿诊所(欧洲多国)",
+    "serial": "#1141"
+  },
+  {
+    "name": "LegUp",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家照护平台",
+    "tags": [
+      "融资",
+      "印度",
+      "B2B2C"
+    ],
+    "description": "印度照护科技平台，连接现代家庭与可信照护人员，2025年2月获Bluebridge Capital 2000万卢比(约25万美元) pre-seed融资。",
+    "highlights": "印度居家照护匹配平台，获pre-seed融资。",
+    "funding_latest": {
+      "date": "2025-02",
+      "amount": "₹2Cr(~$0.25M)",
+      "round": "Pre-Seed",
+      "display": "Pre-Seed ₹2Cr (2025-02)"
+    },
+    "funding_total": {
+      "amount": "₹2Cr",
+      "display": "累计₹2Cr"
+    },
+    "investors": "Bluebridge Capital",
+    "founded": "",
+    "value_score": 20,
+    "source": "WebSearch: bwdisrupt.com 2025-02-07 / entrackr 2025-02-07",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LegUp",
+    "website_url": "",
+    "business_model": "B2B2C 居家照护匹配平台",
+    "desc_cn": "印度照护科技平台，连接现代家庭与可信照护人员，2025年2月获Bluebridge Capital 2000万卢比(约25万美元) pre-seed融资。",
+    "business_model_cn": "B2B2C 居家照护匹配平台",
+    "serial": "#1142"
+  },
+  {
+    "name": "BrainCheck",
+    "region": "海外",
+    "category_l1": "失智老人赛道",
+    "category_l2": "病情早筛",
+    "tags": [
+      "融资过亿",
+      "AI",
+      "对标标的"
+    ],
+    "description": "数字认知评估与照护平台，2026年2月追加1300万美元Series A，用AI辅助早期痴呆/认知障碍筛查，帮助医疗系统规模化早筛。",
+    "highlights": "AI数字认知评估，早筛痴呆，获$13M Series A。",
+    "funding_latest": {
+      "date": "2026-02",
+      "amount": "$13M",
+      "round": "Series A",
+      "display": "Series A $13M (2026-02)"
+    },
+    "funding_total": {
+      "amount": "$13M",
+      "display": "累计$13M"
+    },
+    "investors": "未披露(多家机构)",
+    "founded": "",
+    "value_score": 36,
+    "source": "WebSearch: hitconsultant.net 2026-03-02 / businesswire 2026-02-26",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BrainCheck",
+    "website_url": "https://braincheck.com",
+    "business_model": "B2B 数字认知评估SaaS(医疗系统)",
+    "desc_cn": "数字认知评估与照护平台，2026年2月追加1300万美元Series A，用AI辅助早期痴呆/认知障碍筛查，帮助医疗系统规模化早筛。",
+    "business_model_cn": "B2B 数字认知评估SaaS(医疗系统)",
+    "serial": "#1143"
+  },
+  {
+    "name": "Sonida Senior Living",
+    "region": "海外",
+    "category_l1": "养老地产",
+    "category_l2": "运营商",
+    "tags": [
+      "IPO上市",
+      "成熟期",
+      "对标标的"
+    ],
+    "description": "美国大型纯Play养老社区业主-运营商，运营独立生活、辅助生活与记忆照护社区，纽交所上市(代码SNDA)，2025全年业绩稳健。",
+    "highlights": "纽交所上市(SNDA)养老社区运营商。",
+    "funding_latest": {
+      "date": "2026-03",
+      "amount": "NYSE: SNDA",
+      "round": "IPO上市",
+      "display": "NYSE: SNDA 上市公司"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": "公开市场",
+    "founded": "",
+    "value_score": 46,
+    "source": "WebSearch: sonidaseniorliving.com IR / MarketWatch 2026-03-11",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sonida%20Senior%20Living",
+    "website_url": "https://investors.sonidaseniorliving.com",
+    "business_model": "上市养老社区业主-运营商",
+    "desc_cn": "美国大型纯Play养老社区业主-运营商，运营独立生活、辅助生活与记忆照护社区，纽交所上市(代码SNDA)，2025全年业绩稳健。",
+    "business_model_cn": "上市养老社区业主-运营商",
+    "serial": "#1144"
+  },
+  {
+    "name": "Cadence",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "慢病管理",
+    "tags": [
+      "融资过亿",
+      "AI",
+      "按效付费",
+      "对标标的"
+    ],
+    "description": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+    "highlights": "AI慢病管理，获$100M Series C，被大型医疗系统采用。",
+    "funding_latest": {
+      "date": "2026-06",
+      "amount": "$100M",
+      "round": "Series C",
+      "display": "Series C $100M (2026-06)"
+    },
+    "funding_total": {
+      "amount": "$100M+",
+      "display": "累计$100M+"
+    },
+    "investors": "Spark Capital领投",
+    "founded": "",
+    "value_score": 40,
+    "source": "WebSearch: cadence.care 2026-06-23 / pulse2 2026-06-23",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cadence",
+    "website_url": "https://cadence.care",
+    "business_model": "B2B 临床AI慢病管理(按效付费)",
+    "desc_cn": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+    "business_model_cn": "B2B 临床AI慢病管理(按效付费)",
+    "serial": "#1145"
+  },
+  {
+    "name": "Enzo Health",
+    "region": "海外",
+    "category_l1": "养老服务",
+    "category_l2": "专业级护理",
+    "tags": [
+      "融资过亿",
+      "AI"
+    ],
+    "description": "开发AI工作流工具，自动完成患者接入与病历审核等任务，面向家居健康与临终关怀机构，2025年获2000万美元Series A(N47领投)。",
+    "highlights": "AI运营工作流，服务家居健康与临终关怀机构，获$20M Series A。",
+    "funding_latest": {
+      "date": "2025",
+      "amount": "$20M",
+      "round": "Series A",
+      "display": "Series A $20M (2025)"
+    },
+    "funding_total": {
+      "amount": "$20M",
+      "display": "累计$20M"
+    },
+    "investors": "N47领投",
+    "founded": "",
+    "value_score": 33,
+    "source": "WebSearch: dealroom.co 2025 (Enzo Health Series A)",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Enzo%20Health",
+    "website_url": "https://enzo.health",
+    "business_model": "B2B 家居健康/临终关怀AI运营SaaS",
+    "desc_cn": "开发AI工作流工具，自动完成患者接入与病历审核等任务，面向家居健康与临终关怀机构，2025年获2000万美元Series A(N47领投)。",
+    "business_model_cn": "B2B 家居健康/临终关怀AI运营SaaS",
+    "serial": "#1146"
+  },
+  {
+    "name": "Avaí Bio",
+    "region": "海外",
+    "category_l1": "医疗健康",
+    "category_l2": "长寿科技",
+    "tags": [
+      "IPO上市",
+      "长寿科技",
+      "模式创新"
+    ],
+    "description": "长寿生物科技公司(原Avant Technologies，2026年2月更名为Avaí Bio，OTCQB:AVAI)，推进两项针对糖尿病与年龄相关疾病的细胞治疗项目。",
+    "highlights": "长寿细胞治疗公司，OTCQB:AVAI上市。",
+    "funding_latest": {
+      "date": "2026-02",
+      "amount": "OTCQB: AVAI",
+      "round": "IPO上市",
+      "display": "OTCQB: AVAI 上市公司(更名)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": "公开市场",
+    "founded": "",
+    "value_score": 30,
+    "source": "WebSearch: nasdaq.com press-release 2026-04-23",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Avaí%20Bio",
+    "website_url": "https://www.avaibio.com",
+    "business_model": "上市公司 长寿细胞治疗(生物科技)",
+    "desc_cn": "长寿生物科技公司(原Avant Technologies，2026年2月更名为Avaí Bio，OTCQB:AVAI)，推进两项针对糖尿病与年龄相关疾病的细胞治疗项目。",
+    "business_model_cn": "上市公司 长寿细胞治疗(生物科技)",
+    "serial": "#1147"
+  },
+  {
+    "name": "Validose",
+    "region": "海外",
+    "category_l1": "健康服务",
+    "category_l2": "慢病管理",
+    "tags": [
+      "融资",
+      "模式创新"
+    ],
+    "description": "精准给药(precision medication delivery)公司，2025年2月获200万美元pre-seed，解决临床试验与慢病用药依从性难题。",
+    "highlights": "精准给药平台，获$2M pre-seed。",
+    "funding_latest": {
+      "date": "2025-02",
+      "amount": "$2M",
+      "round": "Pre-Seed",
+      "display": "Pre-Seed $2M (2025-02)"
+    },
+    "funding_total": {
+      "amount": "$2M",
+      "display": "累计$2M"
+    },
+    "investors": "10XBeta Venture Studio",
+    "founded": "",
+    "value_score": 22,
+    "source": "WebSearch: LinkedIn/press 2025-02-18",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Validose",
+    "website_url": "",
+    "business_model": "B2B 精准给药技术",
+    "desc_cn": "精准给药(precision medication delivery)公司，2025年2月获200万美元pre-seed，解决临床试验与慢病用药依从性难题。",
+    "business_model_cn": "B2B 精准给药技术",
+    "serial": "#1148"
+  },
+  {
+    "name": "PillSafe",
+    "region": "海外",
+    "category_l1": "养老用品",
+    "category_l2": "智能用品",
+    "tags": [
+      "融资",
+      "订阅制"
+    ],
+    "description": "无线用药依从性系统公司，2026年3月获种子轮融资，瞄准庞大的非依从性用药市场，提供智能药盒+远程监护。",
+    "highlights": "无线用药依从系统，获种子轮融资。",
+    "funding_latest": {
+      "date": "2026-03",
+      "amount": "种子轮",
+      "round": "Seed",
+      "display": "Seed (2026-03)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": "未披露",
+    "founded": "",
+    "value_score": 22,
+    "source": "WebSearch: getbiobrief.com 2026-03-17",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PillSafe",
+    "website_url": "",
+    "business_model": "B2C/B2B 智能药盒+依从性订阅",
+    "desc_cn": "无线用药依从性系统公司，2026年3月获种子轮融资，瞄准庞大的非依从性用药市场，提供智能药盒+远程监护。",
+    "business_model_cn": "B2C/B2B 智能药盒+依从性订阅",
+    "serial": "#1149"
+  },
+  {
+    "name": "SilverAssist",
+    "region": "海外",
+    "category_l1": "养老照护",
+    "category_l2": "居家照护匹配",
+    "tags": [
+      "已被收购",
+      "模式创新",
+      "对标标的"
+    ],
+    "description": "养老生活推荐聚合平台，2026年1月收购Caring.com，整合行业领先的推荐网络，加速全国触达与运营商连接，颠覆按线索付费的聚合模式。",
+    "highlights": "养老推荐聚合平台，并购Caring.com。",
+    "funding_latest": {
+      "date": "2026-01",
+      "amount": "并购Caring.com",
+      "round": "并购",
+      "display": "并购Caring.com (2026-01)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": "Growth Catalyst Partners",
+    "founded": "",
+    "value_score": 30,
+    "source": "WebSearch: growthcatalystpartners.com 2026-01-12 / seniorhousingnews 2026-01-23",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SilverAssist",
+    "website_url": "https://silverassist.com",
+    "business_model": "B2B 养老推荐聚合+并购",
+    "desc_cn": "养老生活推荐聚合平台，2026年1月收购Caring.com，整合行业领先的推荐网络，加速全国触达与运营商连接，颠覆按线索付费的聚合模式。",
+    "business_model_cn": "B2B 养老推荐聚合+并购",
+    "serial": "#1150"
+  },
+  {
+    "name": "国民养老保险",
+    "region": "国内",
+    "category_l1": "养老金融",
+    "category_l2": "保险科技",
+    "tags": [
+      "养老金融",
+      "成熟期",
+      "国资背景"
+    ],
+    "description": "国内专业养老保险公司，由17家产业与金融股东共同出资设立，聚焦养老保险、养老理财与第三支柱养老金融，是养老金融高质量发展方案下的代表性持牌机构。",
+    "highlights": "17家股东出资设立的专业养老保险公司，第三支柱代表。",
+    "funding_latest": {
+      "date": "2022",
+      "amount": "股东出资设立",
+      "round": "设立",
+      "display": "股东出资设立 (2022)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": "17家产业/金融股东(含国新资本等)",
+    "founded": "2022",
+    "value_score": 44,
+    "source": "WebSearch: 清华五道口养老金融50人论坛 / 行业公开资料",
+    "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%9B%BD%E6%B0%91%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9",
+    "website_url": "",
+    "business_model": "B2B/B2C 养老保险+养老理财(持牌)",
+    "name_cn": "国民养老保险",
+    "desc_cn": "国内专业养老保险公司，由17家产业与金融股东共同出资设立，聚焦养老保险、养老理财与第三支柱养老金融，是养老金融高质量发展方案下的代表性持牌机构。",
+    "business_model_cn": "B2B/B2C 养老保险+养老理财(持牌)",
+    "serial": "#1151"
   }
 ]

@@ -832,6 +832,59 @@ SOURCES = {
         "region": "overseas",
         "notes": "泛欧科技/VC融资媒体，直连RSS（噪音偏大，仅进观察池T3）",
     },
+    # === 新增：2026-07-10 一手信源补充（T39，C2）===
+    # 均为"一手/原始发布"机构（协会/政府科研/慈善），区别于二手媒体。
+    # 沙箱对其直连RSS验证失败（AARP 307跳转HTML、alz.org 404、nia.nih.gov 000被拦截、
+    # ageuk.org.uk 404），故先按现有 primary 源惯例经 Google News 代理接入；
+    # 生产环境待验证直连 feed（标注"待生产验证"）。
+    "aarp": {
+        "name": "AARP",
+        "l1_domain": "aarp.org",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:aarp.org+aging+OR+senior+OR+%22older+adult%22+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 1,
+        "region": "overseas",
+        "notes": "美国最大老龄非营利组织，一手研究/倡导/媒体；直连RSS沙箱未验证(307→HTML)，先经Google News代理接入，生产环境待验证直连feed",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "alz_association": {
+        "name": "Alzheimer's Association",
+        "l1_domain": "alz.org",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:alz.org+Alzheimer+OR+dementia+OR+caregiving+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 1,
+        "region": "overseas",
+        "notes": "阿尔茨海默协会，一手痴呆研究/政策/照护；直连RSS沙箱404未验证，先经Google News代理接入，生产环境待验证直连feed",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "nia_nih": {
+        "name": "NIA (NIH)",
+        "l1_domain": "nia.nih.gov",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:nia.nih.gov+aging+OR+%22older+adult%22+OR+geriatric+when:7d&hl=en-US", "google_news"),
+        ],
+        "tier": 1,
+        "region": "overseas",
+        "notes": "美国国家衰老研究所，一手科研/临床指南；直连feed沙箱000(被拦截)未验证，先经Google News代理接入，生产环境待验证直连feed",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "age_uk": {
+        "name": "Age UK",
+        "l1_domain": "ageuk.org.uk",
+        "l2_channels": [
+            ("news", "https://news.google.com/rss/search?q=site:ageuk.org.uk+older+people+OR+ageing+OR+care+when:7d&hl=en-GB", "google_news"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "英国最大老龄慈善机构，一手研究/倡导；直连RSS沙箱404未验证，先经Google News代理接入，生产环境待验证直连feed",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
 }
 
 # ================================================================
