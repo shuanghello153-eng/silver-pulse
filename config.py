@@ -430,11 +430,14 @@ SOURCES = {
         "name": "HIT Consultant",
         "l1_domain": "hitconsultant.net",
         "l2_channels": [
-            ("home", "https://hitconsultant.net/", "google_news"),
+            # 自主推进(2026-07-09): 原 google_news 模式在生产跑2次0条；
+            # 实测站点直连RSS https://hitconsultant.net/feed/ 可达(200/rss+xml)，
+            # 故改直连RSS去单点故障、稳定产数。下游行业相关度闸门仍会过滤非银发内容。
+            ("feed", "https://hitconsultant.net/feed/", "rss"),
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "医疗IT媒体",
+        "notes": "医疗IT媒体；直连RSS(原google_news代理0产出已弃)",
     },
     "pulse2": {
         "name": "Pulse 2.0",
