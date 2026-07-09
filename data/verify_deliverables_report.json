@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T03:25:39",
+  "generated_at": "2026-07-10T05:25:35",
   "script": "verify_deliverables.py",
   "checks": [
     {
@@ -38,6 +38,13 @@
       "total": 63,
       "status": "PASS",
       "note": "全部 63/63 条已含 signal_strength（纯脚本回填，无key）"
+    },
+    {
+      "name": "渲染产物 vs 数据一致性(enterprise.html)",
+      "rendered_cards": 1325,
+      "data_enterprises": 1325,
+      "status": "PASS",
+      "note": "渲染卡片数 1325 == 数据企业数 1325，无漂移"
     }
   ],
   "overall": "PASS"

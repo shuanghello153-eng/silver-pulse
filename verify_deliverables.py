@@ -10,6 +10,7 @@ verify_deliverables.py — 独立核验近期已提交成果是否"真生效"（
   - D-15/D-16 推荐理由空壳修复 + entity_name 补全
   - 资讯 final_score 完整性
   - S-01 signal_strength 字段落地状态（INFO，待全量重评）
+  - 渲染产物 vs 数据一致性（enterprise.html 卡片数 == all_enterprises.json 条数，防 04-25 类孤儿重生成漂移）
 
 用法：python verify_deliverables.py
 输出：打印 JSON 摘要 + 写 data/verify_deliverables_report.json
@@ -46,7 +47,8 @@ def main():
 
     # ---- 载入数据 ----
     news = load_robust("data/scored_latest.json")  # list, 63 条
-    es = load_robust("data/enterprise/enterprise_scores.json")  # dict, 1130 家
+    es = load_robust("data/enterprise/enterprise_scores.json")  # dict, 1325 家(key=serial)
+    ent_all = load_robust("data/enterprise/all_enterprises.json")  # list, 1325 家
     # 消费契约（见 gen_enterprise.py 446-448 + 159）：related_news_ids 存的是
     # 新闻 URL，news_map 按 url 建索引，且带前缀兜底(split("?")[0] startswith)。
     # 因此核验必须用 URL 作 key，不能用 news.id（短整型）——用 id 查会得到假阳性。
@@ -148,6 +150,38 @@ def main():
         "note": c5_note,
     }
     report["checks"].append(c5)
+
+    # ---- Check 6: 渲染产物 vs 数据一致性（防孤儿重生成/未提交漂移） ----
+    # 背景：后台"企业库扩充"自动化可能重跑 gen_enterprise 但被截断未提交，导致仓库
+    # HTML 卡片数与 data 实际企业数不一致（2026-07-10 04:25 真实发生过）。
+    # 本检查直接比对 enterprise.html 的 ent-card 卡片数与 all_enterprises.json 条数。
+    try:
+        with open(os.path.join(ROOT, "enterprise.html"), encoding="utf-8") as f:
+            ent_html = f.read()
+        rendered_cards = ent_html.count('class="ent-card"')
+    except (FileNotFoundError, OSError):
+        rendered_cards = None
+    if isinstance(ent_all, list):
+        data_ents = len(ent_all)
+    else:
+        data_ents = len(ent_all.get("items", ent_all.get("enterprises", [])))
+    if rendered_cards is None:
+        c6_status, c6_note = "INFO", "enterprise.html 未找到，跳过渲染比对"
+    elif rendered_cards == data_ents:
+        c6_status, c6_note = "PASS", f"渲染卡片数 {rendered_cards} == 数据企业数 {data_ents}，无漂移"
+    else:
+        c6_status, c6_note = "WARN", (
+            f"渲染卡片数 {rendered_cards} != 数据企业数 {data_ents}，"
+            "疑似孤儿重生成/未提交漂移（参考 2026-07-10 04:25 修复）"
+        )
+    c6 = {
+        "name": "渲染产物 vs 数据一致性(enterprise.html)",
+        "rendered_cards": rendered_cards,
+        "data_enterprises": data_ents,
+        "status": c6_status,
+        "note": c6_note,
+    }
+    report["checks"].append(c6)
 
     blocking = [c for c in report["checks"] if c["status"] in ("FAIL", "WARN")]
     report["overall"] = "PASS" if not blocking else "NEEDS_ATTENTION"
