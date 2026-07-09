@@ -758,6 +758,77 @@ SOURCES = {
         "region": "overseas",
         "notes": "欧洲科技/融资媒体，直连RSS（补充，降级T3仅进观察池）",
     },
+    # === 新增：2026-07-09 增量信源发现（已验证直连 RSS 6 源）===
+    "weekly_source_au": {
+        "name": "The Weekly Source",
+        "l1_domain": "theweeklysource.com.au",
+        "l2_channels": [
+            ("feed", "https://www.theweeklysource.com.au/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "澳大利亚养老/老年护理行业媒体，直连RSS（含并购、运营商扩张交易稿）",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "care_england": {
+        "name": "Care England",
+        "l1_domain": "careengland.org.uk",
+        "l2_channels": [
+            ("feed", "https://www.careengland.org.uk/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "英国成人社会照护头部协会官方源，直连RSS",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "care_provider_alliance": {
+        "name": "Care Provider Alliance",
+        "l1_domain": "careprovideralliance.org.uk",
+        "l2_channels": [
+            ("feed", "https://careprovideralliance.org.uk/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "英国照护提供者联盟官方源，直连RSS（与Care England互补）",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "koureisha_jutaku": {
+        "name": "週刊 高齢者住宅新聞 Online",
+        "l1_domain": "koureisha-jutaku.com",
+        "l2_channels": [
+            ("feed", "https://www.koureisha-jutaku.com/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "日本老年住宅/养老地产/照护经营报纸，直连RSS（日语源，需确认中日混排处理）",
+        "lang": "ja",
+        "news_window_days": 30,
+        "kind": "primary",
+    },
+    "lifespan_io": {
+        "name": "Lifespan.io",
+        "l1_domain": "lifespan.io",
+        "l2_channels": [
+            ("feed", "https://www.lifespan.io/feed/", "rss"),
+        ],
+        "tier": 2,
+        "region": "overseas",
+        "notes": "长寿科技研究媒体（LEV基金会），直连RSS（与Longevity.Technology研究视角互补）",
+        "kind": "primary",
+    },
+    "tech_eu": {
+        "name": "Tech.eu",
+        "l1_domain": "tech.eu",
+        "l2_channels": [
+            ("feed", "https://tech.eu/feed/", "rss"),
+        ],
+        "tier": 3,
+        "region": "overseas",
+        "notes": "泛欧科技/VC融资媒体，直连RSS（噪音偏大，仅进观察池T3）",
+    },
 }
 
 # ================================================================
