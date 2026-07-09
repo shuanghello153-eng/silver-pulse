@@ -1150,7 +1150,6 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="main">',
         # ===== 顶部工具条（不常用按钮集中在此，不干扰主操作区）=====
         '<div class="top-tools" id="top-tools">',
-        '<button class="export-fav" title="导出收藏为 feedback.jsonl（无需Token）">⬇ 导出收藏</button>',
         '<a class="dl-btn" href="weekly_topics.json" download>⬇ 下载选题JSON</a>',
         '<button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>',
         '<button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>',
@@ -1245,64 +1244,12 @@ def generate_html(scored_articles=None, output_path=None):
     with open(root_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    # Export weekly_topics.json (精选 items, 5-dim schema) alongside HTML
-    try:
-        export_weekly_topics(selected, OUTPUT_DIR)
-    except Exception as e:
-        print("WARN export_weekly_topics failed: %s" % e)
-
     print("Generated: %s" % output_path)
     print("Articles: %s total (%s curated)" % (total_count, curated_count))
     print("Event types: %s" % event_list)
     print("Domains: %s" % domain_list)
     print("Tags: %s" % tag_list)
     return output_path
-
-
-def export_weekly_topics(selected, out_dir):
-    """Export 精选 (selected) items to weekly_topics.json.
-
-    Schema uses the site's 5-dimension scores (industry/signal/writing/cn_fit/
-    urgency) — single source of truth, no separate F1-F6 scheme. v1: export all
-    selected items; v2 may add an "采纳" checkbox.
-    """
-    items = []
-    for a in selected:
-        ds = a.get("dim_scores") or {}
-        items.append({
-            "title": a.get("title_cn") or a.get("title", ""),
-            "url": a.get("url", ""),
-            "source": translate_source_name(a.get("source", "")),
-            "date": a.get("date", ""),
-            "region": a.get("region", ""),
-            "event_type": a.get("event_type", ""),
-            "entity_name": a.get("entity_name", ""),
-            "final_score": a.get("final_score") or 0,
-            "dim_scores": {
-                "industry": ds.get("industry"),
-                "signal": ds.get("signal"),
-                "writing": ds.get("writing"),
-                "cn_fit": ds.get("cn_fit"),
-                "urgency": ds.get("urgency"),
-            },
-            "recommendation": a.get("recommendation", ""),
-            "tags": a.get("tags", []) or [],
-        })
-    payload = {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "count": len(items),
-        "schema": "5维: industry/signal/writing/cn_fit/urgency (0-10); final_score=加权终分",
-        "items": items,
-    }
-    out1 = os.path.join(out_dir, "weekly_topics.json")
-    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "weekly_topics.json")
-    for p in (out1, root):
-        try:
-            with open(p, "w", encoding="utf-8") as f:
-                json.dump(payload, f, ensure_ascii=False, indent=2)
-        except Exception as e:
-            print("WARN export_weekly_topics write %s failed: %s" % (p, e))
-    print("Exported weekly_topics.json: %s items" % len(items))
 
 
 if __name__ == "__main__":
