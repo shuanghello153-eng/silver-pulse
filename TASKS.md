@@ -104,4 +104,5 @@ A/B双套评分❌ / 强模型全量评分⏸️(需key) / 企业分自进化⏸
 4. **全量重生 + 部署（已完成）**：generator / gen_enterprise / gen_about 重生三页（63 精选 / 1302 企业 / 62 源）→ deploy_ghpages → **c773370 已推 gh-pages**；output/ 与根目录 HTML 同步提交（ca76338）。
 5. **核验（T42 PASS）**：verify_deliverables 整体 PASS（T50 关联 0 悬空 / T12 事件卡齐 / D-15/D-16 推荐理由干净 / final_score 完整）。
 6. **待小爽判断（不擅自做）**：T27 权重校准 / T35 收藏回灌(需导出 feedback.jsonl) / T46 医疗白名单 / T30 强模(需 key) / 07-22 降级(7/15)。
-7. **遗留未跟踪**：`.tmp_rescue/`（崩溃救援中间文件 111KB×2）未提交，待小爽确认后删除；`expand_enterprises*.py` 已提交追溯。
+7. **遗留未跟踪**：`data/scored_latest.json.bak_20260710_032450`（signal_strength 回填安全网）保留本地未跟踪；`.tmp_rescue/` 待小爽确认后删除；`expand_enterprises*.py` 已提交追溯。
+8. **2026-07-10 04:25 一致性修复**：后台"企业库扩充"自动化将库 1302→1325 并跑了 `enterprise_score.py`/`gen_enterprise.py`，但被截断未提交，已提交孤儿重生成(6e706c1)；核验 1325=1325 且重跑 idempotent。已提交状态现与数据一致。**部署提示**：gh-pages 仍显示旧企业数，需在部署自动化里重跑 `gen_enterprise` 推送才会反映 1325（本次未擅自 deploy）。
