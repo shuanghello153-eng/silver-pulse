@@ -42,6 +42,9 @@ from config import ENTERPRISE_CATEGORIES, ENT_RV_HIGH, ENT_RV_MID, NEWS_RECENT_D
 # 13 L1 categories (no numbering in display)
 L1_CATS = list(ENTERPRISE_CATEGORIES.keys())
 
+# 事件簇对照：cluster_id -> 同事件其他来源链接（module-level，generate 内填充）
+CLUSTER_SOURCES = {}
+
 
 def load_enterprises():
     path = os.path.join(DATA_DIR, "enterprise/all_enterprises.json")
@@ -161,10 +164,12 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
                                 n = n2
                                 break
                     if n:
+                        _u = n.get("url", "")
                         recent_news.append({
                             "title": n.get("title", "") or n.get("title_cn", ""),
                             "date": n.get("date", ""),
-                            "url": n.get("url", ""),
+                            "url": _u,
+                            "sources": CLUSTER_SOURCES.get(_u, []),
                         })
             # 兜底：按企业名直接匹配 scored_latest 新闻（去重，最多 3 条）
             if not recent_news and news_by_entity:
@@ -181,6 +186,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
                         "title": n.get("title", "") or n.get("title_cn", ""),
                         "date": n.get("date", ""),
                         "url": u,
+                        "sources": CLUSTER_SOURCES.get(u, []),
                     })
                     if len(recent_news) >= 3:
                         break
@@ -311,8 +317,17 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
                 link = "index.html"
             t = esc(rn["title"])
             d = f' <span class="ent-recent-date">({esc(rn["date"])})</span>' if rn["date"] else ""
+            # 同事件多来源对照（事件簇对照卡：直接附多个渠道链接，点击跳转）
+            src_html = ""
+            srcs = rn.get("sources") or []
+            if srcs:
+                src_links = " · ".join(
+                    f'<a href="{esc(s["url"])}" target="_blank" rel="noopener" class="ent-src-link">{esc(s["source"] or "来源")}</a>'
+                    for s in srcs if s.get("url")
+                )
+                src_html = f' <span class="ent-cluster-srcs">〔同事件：{src_links}〕</span>'
             rec_items.append(
-                f'<a href="{esc(link)}" class="ent-recent-link">{t}</a>{d}'
+                f'<a href="{esc(link)}" class="ent-recent-link">{t}</a>{d}{src_html}'
             )
         parts.append(f'<div class="ent-recent">🔥 近期热点: {" · ".join(rec_items)}</div>')
 
@@ -434,6 +449,30 @@ def generate():
     except Exception:
         news_map = {}
         scored_list = []
+
+    # 事件簇对照：按 cluster_id 聚合，记录每条新闻的"同事件其他来源"
+    CLUSTER_SOURCES.clear()
+    _cluster_map = {}
+    for _n in scored_list:
+        _cid = _n.get("cluster_id")
+        if _cid:
+            _cluster_map.setdefault(_cid, []).append(_n)
+    for _cid, _grp in _cluster_map.items():
+        if len(_grp) <= 1:
+            continue
+        for _n in _grp:
+            _u = _n.get("url")
+            if not _u:
+                continue
+            _others = [
+                {"source": _o.get("source", ""),
+                 "title": _o.get("title", "") or _o.get("title_cn", ""),
+                 "url": _o.get("url", "")}
+                for _o in _grp if _o.get("url") and _o.get("url") != _u
+            ]
+            if _others:
+                CLUSTER_SOURCES[_u] = _others
+
     # 按主体名建立索引，用于企业卡片"相关资讯"匹配
     news_by_entity = {}
     for n in scored_list:
@@ -1012,6 +1051,9 @@ function toggleEntTags() {{
     RECENT_CSS = """
 /* 近期有动态徽标 + 筛选按钮 */
 .ent-badge.badge-recent { background:#fff1e6; color:#e8590c; border:1px solid #ffd8a8; font-weight:600; white-space:nowrap; }
+.ent-cluster-srcs { font-size:12px; color:#868e96; margin-left:4px; }
+.ent-src-link { color:#1c7ed6; text-decoration:none; }
+.ent-src-link:hover { text-decoration:underline; }
 .recent-filter-btn { margin-left:10px; padding:5px 12px; border:1px solid var(--line,#e3e3e8); border-radius:999px; background:#fff; color:#555; cursor:pointer; font-size:13px; transition:.15s; }
 .recent-filter-btn:hover { border-color:#ffa94d; }
 .recent-filter-btn.active { background:#e8590c; color:#fff; border-color:#e8590c; }
