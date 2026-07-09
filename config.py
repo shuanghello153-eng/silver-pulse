@@ -182,6 +182,101 @@ TAG_POOL = {
 }
 
 # ================================================================
+# 3b. ARTICLE_TAG_POOL / ARTICLE_TAG_RULES
+# ================================================================
+# 【T34 标签体系重构 2026-07-10】
+# 资讯(article)标签与企业(enterprise)标签解耦：
+#   - 上段 TAG_POOL 实际被 generator.py / scorer.py / gen_about.py 当作
+#     「UI 标签徽章 + 强模 industry prompt 词表」在用（属 UI/SRC 地盘，不触碰），
+#     所以此处另起 ARTICLE_TAG_POOL，专门承载「资讯交叉维度标签」。
+#   - 设计原则：标签只放「横切维度」，绝不与分类重复——
+#       * event_type（融资/收购并购/产品发布/政策法规/行业趋势/人事变动/其他事件）
+#         由 generator.classify_event_type 承担；
+#       * domains（养老地产/居家养老/认知症/失智老人赛道…）由
+#         generator.classify_domain 承担；
+#       * 本池只放「资本性质 / 反常识 / 政策·支付方 / 技术 / 市场 / 模式」这类
+#         横跨多个分类、能帮选题/写稿做「二次筛选」的维度。
+#   - 反常识 为「自动标签」：novelty>=6 时由 selection/tagger.py 自动打上，
+#     不靠关键词命中。
+#   - 每条资讯标签数严格 2~5（selection/tagger.detect_cross_tags 强制约束）。
+ARTICLE_TAG_POOL = {
+    # 资本性质（强调「特殊」资本事件；普通融资不入此列，由 event_type=融资 表达）
+    "IPO":          {"type": "capital",  "desc": "已上市/递交招股书/公开募股（巨头，信息量丰富）"},
+    "收购":          {"type": "capital",  "desc": "发生并购/被收购（资本整合信号）"},
+    "大额融资":       {"type": "capital",  "desc": "单笔融资过亿（量级信号，资本加码）"},
+    "战略投资":       {"type": "capital",  "desc": "战略投资/产业资本/CVC 入股"},
+    # 反常识 / 信号强度
+    "反常识":         {"type": "novelty",  "desc": "novelty≥6：角度稀缺、反直觉、打破常识（自动标签）"},
+    # 政策 / 支付方
+    "政策利好":       {"type": "tailwind", "desc": "政策/法规带来的正面催化"},
+    "支付方创新":      {"type": "tailwind", "desc": "Medicare/Medicaid/商业保险/长护险等支付端创新"},
+    # 技术维度
+    "AI应用":        {"type": "tech",     "desc": "AI/大模型/机器人落地应用"},
+    "数字疗法":       {"type": "tech",     "desc": "软件驱动的治疗/干预"},
+    "远程医疗":       {"type": "tech",     "desc": "远程/虚拟照护"},
+    "智能硬件":       {"type": "tech",     "desc": "可穿戴/传感器/硬件+服务"},
+    # 市场维度
+    "中国对标":       {"type": "market",   "desc": "对中国创业者/市场有深度参照价值"},
+    "银发出海":       {"type": "market",   "desc": "面向海外/跨境扩张"},
+    # 模式维度
+    "订阅制":         {"type": "model",    "desc": "订阅制商业模式"},
+    "按效付费":       {"type": "model",    "desc": "value-based / outcome-based 付费"},
+    "B2B2C":        {"type": "model",    "desc": "B2B2C 渠道结构"},
+}
+
+# 自动打标规则：detect_cross_tags 时按「顺序=优先级」逐条匹配，命中即加标签，
+# 最终受 2~5 上限约束。反常识单独由 novelty 触发（见下）。
+# 关键词同时覆盖中英文（scored_latest 含大量中文 AgeClub/36Kr 与英文海外源）。
+ARTICLE_TAG_RULES = [
+    # —— 资本性质 ——
+    ("IPO",     ["ipo", "ipo filing", "goes public", "上市", "敲钟", "挂牌",
+                 "公开募股", "nasdaq", "nyse", "港交所", "向 sec 递交", "debut on"]),
+    ("收购",     ["acquires", "acquisition", "acquired", "收购", "并购", "merger",
+                 "买下", "被收购", "takeover", "buyout"]),
+    ("战略投资",   ["strategic investment", "战略投资", "产业资本", "corporate venture",
+                 "cvc", "战略入股", "领投"]),
+    # 大额融资：由金额解析兜底（见 detect_cross_tags 内 _big_funding），此处只兜关键词
+    ("大额融资",   ["亿", "billion", "十亿", "亿元", "series c", "series d", "c轮", "d轮",
+                 "mega round", "超大轮", "9-figure", "8-figure"]),
+    # 融资活跃：所有融资/投资类事件的「横切」标记（与 event_type=融资 不同轴，
+    # 表达「资本正在加码该赛道」这一视角，避免把 event_type 本身塞回 tags）
+    ("融资活跃",   ["融资", "raises", "funding", "获投", "获融", "series", "round of",
+                 "investment", "本轮", "invests", "capital"]),
+    # 新品上线：产品/服务发布类事件的「横切」标记（与 event_type=产品发布 不同轴）
+    ("新品上线",   ["发布", "推出", "launch", "上线", "新品", "debut", "unveil", "首发",
+                 "released", "rollout", "announces"]),
+    # —— 政策 / 支付方 ——
+    ("政策利好",   ["medicare", "medicaid", "cms", "fda", "政策", "法规", "长护险", "津贴",
+                 "补贴", "法案", "指导意见", "管理办法", "条例", "利好", "国务院", "民政部",
+                 "卫健委", "rule", "regulation", "bill", "legislation", "reform"]),
+    ("支付方创新",  ["medicare advantage", "medicaid", "long-term care insurance", "长护险",
+                 "commercial insurance", "insurtech", "保险科技", "value-based", "按效付费",
+                 "支付方", "payer", "reimbursement", "报销", "商保"]),
+    # —— 技术维度 ——
+    ("AI应用",   ["ai", "人工智能", "大模型", "机器人", "gpt", "machine learning", "算法",
+                 "智能", "robot", "algorithm", "generative"]),
+    ("数字疗法",   ["digital therapeutics", "数字疗法", "digital health", "软件医疗", "samd",
+                 "digital therapeutic"]),
+    ("远程医疗",   ["telehealth", "remote patient", "远程医疗", "虚拟照护", "远程康复",
+                 "virtual care", "remote monitoring"]),
+    ("智能硬件",   ["wearable", "可穿戴", "传感器", "智能床垫", "电子皮肤", "硬件", "辅具",
+                 "rehab device", "康复设备", "sensor", "device"]),
+    # —— 市场维度 ——
+    ("中国对标",   ["中国", "国内", "china", "chinese", "对标", "参照", "可复制", "银发",
+                 "养老", "老龄化", "民政部", "卫健委"]),
+    ("银发出海",   ["出海", "global", "overseas expansion", "国际市场", "东南亚", "日本市场",
+                 "欧洲市场", "美国市场", "expand to", "enters", "launches in"]),
+    # —— 模式维度 ——
+    ("订阅制",    ["订阅", "subscription", "saas", "按月付费", "membership model"]),
+    ("按效付费",   ["value-based", "outcome-based", "按效付费", "按效果付费", "绩效付费",
+                 "pay-for-performance"]),
+    ("B2B2C",   ["b2b2c", "平台型", "marketplace", "渠道方", "聚合平台"]),
+]
+
+# 反常识自动标签阈值（selection/tagger 使用）。novelty>=该值即打「反常识」。
+ARTICLE_NOVELTY_TAG_THRESHOLD = 6
+
+# ================================================================
 # 4. SOURCES — L1 (domain) + L2 (channel URL)
 # ================================================================
 # Each source has:
@@ -309,7 +404,8 @@ SOURCES = {
         ],
         "tier": 2,  # 用户提"AgeTech"指代不明确，保守维持T2（agetech.news已断更）；若指agetech.com请告知
         "region": "overseas",
-        "notes": "已断更，保留在信源库做历史参考",
+        "notes": "已断更，保留在信源库做历史参考；unreliable: proxy dependent（仅经Google News代理，已断更）",
+        "unreliable": "proxy dependent",
     },
     "agetech_com": {
         "name": "AgeTech.com",
@@ -321,7 +417,8 @@ SOURCES = {
         ],
         "tier": 1,  # 用户指定T1（AgeTech）2026-07-09
         "region": "overseas",
-        "notes": "AgeTech企业+融资+新闻综合平台",
+        "notes": "AgeTech企业+融资+新闻综合平台；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "agetech_space": {
         "name": "AgeTech.space",
@@ -383,7 +480,8 @@ SOURCES = {
         ],
         "tier": 1,  # 用户指定T1 2026-07-09
         "region": "overseas",
-        "notes": "Dr. Zeev Neuwirth播客",
+        "notes": "Dr. Zeev Neuwirth播客；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "finsmes": {
         "name": "FinSMEs",
@@ -393,8 +491,9 @@ SOURCES = {
         ],
         "tier": 1,  # 用户指定T1 2026-07-09（虽为aggregator，按用户意图升T1）
         "region": "overseas",
-        "notes": "泛科技融资聚合（噪音重灾区），降级为T3仅进观察池",
+        "notes": "泛科技融资聚合（噪音重灾区），降级为T3仅进观察池；备胎直连RSS finsmes.com/feed",
         "kind": "aggregator",
+        "fallback_rss": "https://www.finsmes.com/feed/",
     },
     "prnewswire": {
         "name": "PR Newswire",
@@ -424,7 +523,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "需付费，Google News代理采集摘要",
+        "notes": "需付费，Google News代理采集摘要；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "hitconsultant": {
         "name": "HIT Consultant",
@@ -447,8 +547,9 @@ SOURCES = {
         ],
         "tier": 3,
         "region": "overseas",
-        "notes": "泛科技创业媒体（噪音重灾区），降级为T3仅进观察池",
+        "notes": "泛科技创业媒体（噪音重灾区），降级为T3仅进观察池；备胎直连RSS pulse2.com/feed",
         "kind": "aggregator",
+        "fallback_rss": "https://pulse2.com/feed/",
     },
     "businesswire": {
         "name": "Business Wire",
@@ -458,7 +559,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "新闻稿平台，无RSS",
+        "notes": "新闻稿平台，无RSS；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "techcrunch": {
         "name": "TechCrunch",
@@ -468,8 +570,9 @@ SOURCES = {
         ],
         "tier": 3,
         "region": "overseas",
-        "notes": "泛科技媒体（噪音风险），降级为T3仅进观察池",
+        "notes": "泛科技媒体（噪音风险），降级为T3仅进观察池；备胎直连RSS techcrunch.com/feed",
         "kind": "aggregator",
+        "fallback_rss": "https://techcrunch.com/feed/",
     },
     "betakit": {
         "name": "BetaKit",
@@ -479,8 +582,9 @@ SOURCES = {
         ],
         "tier": 3,
         "region": "overseas",
-        "notes": "加拿大泛科技媒体（噪音风险），降级为T3仅进观察池",
+        "notes": "加拿大泛科技媒体（噪音风险），降级为T3仅进观察池；备胎直连RSS betakit.com/feed",
         "kind": "aggregator",
+        "fallback_rss": "https://betakit.com/feed/",
     },
     "coverager": {
         "name": "Coverager",
@@ -490,7 +594,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "保险科技媒体",
+        "notes": "保险科技媒体；备胎直连RSS coverager.com/feed",
+        "fallback_rss": "https://coverager.com/feed/",
     },
     "yahoofinance": {
         "name": "Yahoo Finance",
@@ -510,7 +615,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "现代医疗杂志",
+        "notes": "现代医疗杂志；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "homecaremag": {
         "name": "HomeCare Magazine",
@@ -520,7 +626,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "居家护理杂志",
+        "notes": "居家护理杂志；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     # === T2 Chinese sources via Google News ===
     "ageclub": {
@@ -531,7 +638,8 @@ SOURCES = {
         ],
         "tier": 1,  # 用户指定T1（国内最大银发财经，相当于筛选过一次）2026-07-09
         "region": "domestic",
-        "notes": "国内银发经济头部媒体",
+        "notes": "国内银发经济头部媒体；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "36kr_silver": {
         "name": "36氪-银发经济",
@@ -541,7 +649,8 @@ SOURCES = {
         ],
         "tier": 2,  # 用户指定T2（二手/专业平台）2026-07-09
         "region": "domestic",
-        "notes": "36氪银发经济板块",
+        "notes": "36氪银发经济板块；unreliable: proxy dependent（经Google News代理，无稳定直连RSS，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "vcbeat_aging": {
         "name": "动脉网-养老医疗",
@@ -551,7 +660,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "domestic",
-        "notes": "动脉网养老医疗板块，域名索引问题导致采集量低",
+        "notes": "动脉网养老医疗板块，域名索引问题导致采集量低；unreliable: proxy dependent（经Google News代理，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "silver_economy_cn": {
         "name": "Google News - 银发经济",
@@ -561,7 +671,8 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "domestic",
-        "notes": "Google News中文银发经济关键词聚合",
+        "notes": "Google News中文银发经济关键词聚合；unreliable: proxy dependent（本身即GN聚合，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     # === T3 Broad overseas ===
     "silver_economy_news": {
@@ -572,7 +683,8 @@ SOURCES = {
         ],
         "tier": 3,
         "region": "overseas",
-        "notes": "宽覆盖海外银发经济新闻",
+        "notes": "宽覆盖海外银发经济新闻；unreliable: proxy dependent（本身即GN聚合，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     "aging_tech_news": {
         "name": "Google News - Aging Tech",
@@ -582,7 +694,8 @@ SOURCES = {
         ],
         "tier": 3,
         "region": "overseas",
-        "notes": "宽覆盖Aging Tech新闻",
+        "notes": "宽覆盖Aging Tech新闻；unreliable: proxy dependent（本身即GN聚合，仅靠Bing News二级兜底）",
+        "unreliable": "proxy dependent",
     },
     # === 一手/原始信源补充（2026-07-08 深挖）===
     # 行业协会 / 政府 / 监管原始发布：直接监控其域名，经 Google News 代理，
@@ -619,9 +732,10 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "美国养老地产与投资研究中心，一手数据与报告",
+        "notes": "美国养老地产与投资研究中心，一手数据与报告；unreliable: proxy dependent（直连RSS未验证，经Google News代理，仅靠Bing News二级兜底）",
         "news_window_days": 30,
         "kind": "primary",
+        "unreliable": "proxy dependent",
     },
     "ncoa": {
         "name": "NCOA",
@@ -631,9 +745,10 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "美国国家老龄化委员会，一手政策与倡导",
+        "notes": "美国国家老龄化委员会，一手政策与倡导；unreliable: proxy dependent（直连RSS未验证，经Google News代理，仅靠Bing News二级兜底）",
         "news_window_days": 30,
         "kind": "primary",
+        "unreliable": "proxy dependent",
     },
     "mca_gov": {
         "name": "民政部",
@@ -643,9 +758,10 @@ SOURCES = {
         ],
         "tier": 1,
         "region": "domestic",
-        "notes": "民政部一手政策/通知（养老/老龄一手源）",
+        "notes": "民政部一手政策/通知（养老/老龄一手源）；unreliable: proxy dependent（gov.cn直连RSS受限，经Google News代理，仅靠Bing News二级兜底）",
         "news_window_days": 30,
         "kind": "primary",
+        "unreliable": "proxy dependent",
     },
     "gov_policy": {
         "name": "国务院政策(银发)",
@@ -655,9 +771,10 @@ SOURCES = {
         ],
         "tier": 1,
         "region": "domestic",
-        "notes": "国务院政策文件一手源（银发经济/养老）",
+        "notes": "国务院政策文件一手源（银发经济/养老）；unreliable: proxy dependent（gov.cn直连RSS受限，经Google News代理，仅靠Bing News二级兜底）",
         "news_window_days": 30,
         "kind": "primary",
+        "unreliable": "proxy dependent",
     },
     "cncaprc": {
         "name": "中国老龄协会",
@@ -667,9 +784,10 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "domestic",
-        "notes": "中国老龄协会一手资讯",
+        "notes": "中国老龄协会一手资讯；unreliable: proxy dependent（gov.cn直连RSS受限，经Google News代理，仅靠Bing News二级兜底）",
         "news_window_days": 30,
         "kind": "primary",
+        "unreliable": "proxy dependent",
     },
     # === 新增：一手 VC 博客 + YouTube 热门视频（2026-07-08 补全缺口）===
     "third_act": {
@@ -680,8 +798,9 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "专注 aging 的早期 VC，一手投资逻辑",
+        "notes": "专注 aging 的早期 VC，一手投资逻辑；unreliable: proxy dependent（经Google News代理，仅靠Bing News二级兜底）",
         "kind": "vc",
+        "unreliable": "proxy dependent",
     },
     "sevenwire": {
         "name": "7Wire Ventures",
@@ -702,8 +821,9 @@ SOURCES = {
         ],
         "tier": 2,
         "region": "overseas",
-        "notes": "重仓 longevity/healthspan 的头部 VC",
+        "notes": "重仓 longevity/healthspan 的头部 VC；备胎直连RSS khoslaventures.com/feed",
         "kind": "vc",
+        "fallback_rss": "https://www.khoslaventures.com/feed/",
     },
     "youtube_silver": {
         "name": "YouTube - 银发热门视频",
@@ -715,8 +835,9 @@ SOURCES = {
         ],
         "tier": 3,
         "region": "overseas",
-        "notes": "监控银发相关 YouTube 热门视频(含 The Villages C端爆款)",
+        "notes": "监控银发相关 YouTube 热门视频(含 The Villages C端爆款)；unreliable: proxy dependent（经Google News代理，仅靠Bing News二级兜底）",
         "kind": "video",
+        "unreliable": "proxy dependent",
     },
     # === 新增：已验证直连 RSS 一手源（消除 Google News 单点依赖，2026-07-09）===
     # 这些源整站 feed，经 is_relevant 两级闸门过滤泛噪音。
@@ -1067,6 +1188,16 @@ SILVER_WEAK_KEYWORDS = [
     "robotics", "robot", "artificial intelligence", "technology", "tech",
     "company", "raised",
 ]
+
+# ================================================================
+# 5c. 阶段2 低模二筛（relevance_screener）开关
+# ================================================================
+# 初筛(collector.is_relevant) 宽进；二筛严出。默认不启用（无需 key，但避免误伤
+# 存量，待小爽确认阈值后再开）。骨架见 selection/relevance_screener.py。
+ENABLE_RELEVANCE_SCREENER = False   # True 时 run_daily 会调用二筛并从主流程剔除被拦项
+ENABLE_LLM_SCREENER = False         # True 时启用 LLMBackend(hy3/DeepSeek) 语义判断
+LLM_SCREENER_BACKEND = "deepseek"   # "hy3" / "deepseek"
+LLM_SCREENER_API_KEY_ENV = "SILVER_LLM_API_KEY"  # 真实 key 走环境变量，绝不入库
 
 # ================================================================
 # 6. SCORING (reserved, paused)

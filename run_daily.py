@@ -28,6 +28,9 @@ STEPS = [
     # [COST: zero] 源健康监控 + 健康报告（data/health_report.json + 控制台摘要）
     #   在采集步骤后运行，不阻断主流程；即便上游失败也基于已有数据出报告。
     ("source_health.build_report()", "source_health", "build_report", ()),
+    # [COST: zero] 阶段2 低模二筛（relevance_screener）：二筛严出，
+    #   默认 ENABLE_RELEVANCE_SCREENER=False -> 该步为空操作，不影响现有流水线。
+    ("selection.relevance_screener.run_daily_step()", "selection.relevance_screener", "run_daily_step", ()),
     # [COST: zero] 信号过滤 + 聚合 + history 去重
     ("score_and_merge.main()", "score_and_merge", "main", ()),
     # [COST: zero] 企业实体名回填（用企业库名称/别名匹配标题+摘要，

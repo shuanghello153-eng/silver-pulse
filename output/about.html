@@ -1,4 +1,4 @@
-<!-- build:20260710004255 -->
+<!-- build:20260710012000 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -346,14 +346,28 @@ html,body{overflow-x:hidden}
 <div class="main">
 
 <div class="header">
-  <h2>网站说明</h2>
-  <p>Silver Pulse 银脉 · 银发经济投融资资讯聚合 + 企业数据库</p>
+  <h2>网站说明（人话版）</h2>
+  <p>Silver Pulse 银脉 · 帮你把全球银发经济的好选题，一次性摆到桌面上</p>
 </div>
 
-<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 20260710004255</p>
+<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 20260710012000</p>
 <div style="margin:10px 0;padding:8px 12px;border-radius:8px;background:#b453091a;color:#b45309;font-weight:600;border:1px solid #b4530955;">🕒 数据更新日期：2026-07-08 · ⚠️ 数据偏旧（最新 2026-07-08，今日 2026-07-10）</div>
+
+<div class="callout" style="border-color:var(--accent);">
+  <b>一句话看懂：</b>这是一个<b>银发经济（养老 / 适老科技 / 老年消费）的选题情报台</b>。
+  每周自动从 62 个海内外信源抓取投融资、产品、政策动态，
+  用一套评分帮你挑出<b>最值得写的高分内容</b>，并配套一个全球企业库方便你查背景。
+  <ul style="margin-top:8px;">
+    <li><b>这是什么</b>：银发经济的「选题雷达 + 企业图谱」，是给内容创作者用的，不是新闻客户端。</li>
+    <li><b>数据哪来</b>：62 个一手 / 专业信源（行业协会官网、垂直媒体、披露平台等），脚本自动采集，不编造假数据，每条都能追到原文链接。</li>
+    <li><b>怎么用</b>：看板按「精选 / 全量」切换，配合分类、标签、地区筛选；看到有用的点「🔖 收藏」，用「🚫 不再显示」清掉噪音，用「📝 备注」写自己的想法（都只存在你自己浏览器里）。</li>
+    <li><b>评分什么意思</b>：资讯看「评分」(0–10，越高越值得写)；企业看「研究分」(0–100，越高越值得深写)。「精选」= 各自的高分优质内容，不是编辑主观挑的。</li>
+    <li><b>多久更新</b>：每周日 11:00（北京时间）自动跑一次全量更新，节假日照常，你不用手动点。</li>
+  </ul>
+</div>
+
 <div class="callout">
-  本页所有评分 / 阈值 / 分类数字均读取自 config.py（单一真相源），每次网站规则变更后会随每周流水线自动重生成；并有规则漂移检测器校验一致性。
+  下面三栏分别是：资讯版怎么看、企业库怎么看、以及给好奇技术细节的人准备的评分规则。所有数字都实时读取自 config.py，规则一改网页就跟着变。
 </div>
 
 <div class="tab-bar">
@@ -530,12 +544,12 @@ html,body{overflow-x:hidden}
     <p style="margin-top:12px;"><b>第四步：展示排序</b></p>
     <ul>
       <li>默认按日期降序（最新优先）</li>
-      <li><b>精选视图</b>：展示评分≥5.0（按精选阈值）或人工精选的条目；评分已激活，精选与全量不再是同一份数据</li>
+      <li><b>精选视图</b>：只摆「评分」高的优质条目（按信源层级差异化阈值，约前 40–50% 高分内容）；想看全部就切「全量」。</li>
       <li><b>全量视图</b>：展示所有通过相关性过滤的条目</li>
       <li>可按事件类型、涉及领域、标签、地区多级筛选</li>
     </ul>
     <div class="callout">
-      <b>精选 vs 全量 说明</b>：选题雷达 6 维评分已激活，精选默认展示 ≥5.0 的高价值/值得关注条目（按 SELECT_THRESHOLDS 差异化），全量则展示所有通过过滤的条目；两者数据已不相同。
+      <b>精选 vs 全量 说明</b>：两者不是同一份数据——「精选」是按「评分」由高到低切出来的高分优质内容，「全量」是所有通过相关性过滤的条目。日常只看精选就够，需要时再翻全量。
     </div>
   </div>
 
@@ -597,9 +611,9 @@ html,body{overflow-x:hidden}
   <div class="section">
     <h3>更新机制</h3>
     <ul>
-      <li><b>资讯采集</b>：每周 01:00 北京时间自动执行</li>
-      <li><b>企业库扩充</b>：每周 04:00，自动融合新数据源扩充企业库</li>
-      <li><b>自审报告</b>：每周 06:00，生成本日数据质量自审报告推送到WorkBuddy对话</li>
+      <li><b>资讯采集</b>：每周日 11:00（北京时间）随全量流水线自动执行一次</li>
+      <li><b>企业库扩充</b>：随每周日 11:00 流水线（采集后）自动融合新数据源扩充企业库</li>
+      <li><b>自审报告</b>：随每周日 11:00 流水线（采集后）生成每周数据质量自审报告推送到 WorkBuddy 对话</li>
       <li><b>采集窗口</b>：过去 7 天的资讯</li>
       <li><b>每周积分消耗</b>：约25-50K tokens（采集8-12K + 分类/标签迭代3-5K + 推荐理由12-31K + HTML生成2-3K + 企业库扩充5-10K + 自审报告3-5K）</li>
       <li><b>展示逻辑</b>：精选条目优先展示，全量条目可切换查看</li>
@@ -720,7 +734,7 @@ html,body{overflow-x:hidden}
       <b>空字段处理</b>：如果某个字段为空，前端直接不展示该字段，不显示占位符。<br>
       <b>名称规则</b>：企业名称保留原始语言——中文名写中文，英文名保留英文不翻译。<br>
       <b>标签规则</b>：标签来自TAG_POOL，最多5个，与分类（L1/L2）独立。<br>
-      <b>价值评分</b>：value_score 即「企业研究价值分」(0–100)，由 selection.enterprise_score 计算，已在企业卡片以「研究价值」徽章展示，并用于默认排序。
+      <b>价值评分</b>：value_score 即「企业研究分」(0–100)，由 selection.enterprise_score 计算，已在企业卡片以「研究分」徽章展示，并用于默认排序。
     </div>
   </div>
 
@@ -780,7 +794,7 @@ html,body{overflow-x:hidden}
       <li><b>主条优先</b>：每簇只保留一条 <code>is_main=True</code> 主条（最高分/最权威源），其余标记为折叠（folded / is_duplicate_of 指向主条），不单独进精选。</li>
     </ul>
 
-    <p style="margin-top:12px;"><b>五、企业研究价值公式（research_value = 0–100）</b></p>
+    <p style="margin-top:12px;"><b>五、企业研究分公式（research_value = 0–100）</b></p>
     <ul>
       <li><b>base_value（0–70）</b>：V1 规模(0–25) + <b>V2 信息丰富度(0–20，最高权重)</b> + V3 模式创新(0–15) + V4 国内可比性(0–15)，合计封顶 70。</li>
       <li><b>权重调整（2026-07-07，用户共同决策）</b>：信息丰富度(V2)上调为最高分量；国内企业的 V4（标杆可借鉴）下调——国内标杆稀少（海外10≈国内1），故国内企业分数更依赖 V2 信息丰富度 + 最新事件动态，而非「可借鉴」维度。</li>
@@ -844,12 +858,12 @@ html,body{overflow-x:hidden}
         <tr><th>模块</th><th>频率</th><th>时间</th><th>积分消耗</th><th>方式</th></tr>
       </thead>
       <tbody>
-        <tr><td>RSS采集</td><td>每周</td><td>每周 01:00 北京时间</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
+        <tr><td>RSS采集</td><td>每周</td><td>每周日 11:00（随全量流水线）</td><td>约8-12K tokens</td><td>自动化（feedparser解析 + 内容提取）</td></tr>
         <tr><td>分类+标签</td><td>每周</td><td>采集后（并入每周流水线）</td><td>约3-5K tokens</td><td>自动化（关键词匹配，无AI调用；标签池迭代一并完成）</td></tr>
         <tr><td>推荐理由生成</td><td>每周</td><td>采集后</td><td>约12-31K tokens</td><td>AI生成（仅精选条目，约62条×200-500 tokens/条）</td></tr>
         <tr><td>HTML生成</td><td>每周</td><td>采集后</td><td>约2-3K tokens</td><td>自动化（模板渲染）</td></tr>
-        <tr><td>企业库扩充</td><td>每周</td><td>每周 04:00</td><td>约5-10K tokens</td><td>AI扫描+融合新数据源扩充企业库</td></tr>
-        <tr><td>每周自审报告</td><td>每周</td><td>每周 06:00</td><td>约3-5K tokens</td><td>AI读取数据生成自审报告推送到WorkBuddy对话</td></tr>
+        <tr><td>企业库扩充</td><td>每周</td><td>随流水线（采集后）</td><td>约5-10K tokens</td><td>AI扫描+融合新数据源扩充企业库</td></tr>
+        <tr><td>每周自审报告</td><td>每周</td><td>随流水线（采集后）</td><td>约3-5K tokens</td><td>AI读取数据生成自审报告推送到WorkBuddy对话</td></tr>
         <tr><td>企业库</td><td>不定期</td><td>—</td><td>手动</td><td>新数据源融合时更新</td></tr>
         <tr><td>评分</td><td>每周</td><td>随每周流水线</td><td>—</td><td>由代码优先 6 维选题雷达引擎实时计算（详见 网站规则）</td></tr>
       </tbody>

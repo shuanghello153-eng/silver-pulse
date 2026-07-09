@@ -9,7 +9,7 @@ All fields directly visible — no click-to-expand.
 Empty fields are hidden (not displayed).
 
 v6 changes:
-- 精选/全量切换 (curated = has funding or has real highlights; all = everything)
+- 精选/全量切换 (curated = 研究分 rv >= ENT_RV_MID 的高分优质企业；与资讯"精选=高分"统一规则)
 - 搜索范围扩展到 name + description + tags
 - 结果计数显示
 - 更紧凑的布局
@@ -42,6 +42,9 @@ from config import ENTERPRISE_CATEGORIES, ENT_RV_HIGH, ENT_RV_MID, NEWS_RECENT_D
 # 13 L1 categories (no numbering in display)
 L1_CATS = list(ENTERPRISE_CATEGORIES.keys())
 
+# 模块级缓存：generate() 内填充企业研究分，供 is_curated 统一按分数阈值判定。
+_ENT_SCORES = {}
+
 # 事件簇对照：cluster_id -> 同事件其他来源链接（module-level，generate 内填充）
 CLUSTER_SOURCES = {}
 
@@ -59,32 +62,25 @@ def esc(text):
     return html.escape(str(text))
 
 
-def is_curated(ent):
+def is_curated(ent, rv=None):
     """Determine if an enterprise is 'curated' (精选).
-    Curated = has real funding info OR has meaningful highlights."""
-    # Has funding_latest with real data
-    fl = ent.get("funding_latest")
-    if fl and isinstance(fl, dict):
-        display = fl.get("display", "")
-        if display and "未披露" not in display and "未公开" not in display:
-            return True
-    # Has funding_total with real data
-    ft = ent.get("funding_total")
-    if ft and isinstance(ft, dict):
-        display = ft.get("display", "")
-        if display and "未披露" not in display and "未公开" not in display:
-            return True
-    # Has investors
-    inv = ent.get("investors")
-    if inv:
-        inv_str = inv if isinstance(inv, str) else ", ".join(inv)
-        if inv_str and "未披露" not in inv_str:
-            return True
-    # Has IPO
-    desc = ent.get("description", "")
-    if desc and ("上市" in desc or "IPO" in desc):
-        return True
-    return False
+
+    与资讯页统一规则：精选 = 高分优质，按各自分数阈值切分。
+    企业库以「研究分」(research_value, 0–100) 为阈值，
+    rv >= ENT_RV_MID（约前 50% 高分企业）即入选精选。
+    rv 由调用方传入（build_card 内已算好），缺省时从 _ENT_SCORES 缓存读取，
+    再缺省回退到 ent 自身 value_score。
+    """
+    if rv is None:
+        sc = _ENT_SCORES.get(ent.get("serial", "")) if ent.get("serial") else None
+        rv = (sc or {}).get("research_value")
+    if rv is None:
+        rv = ent.get("value_score") or 0
+    try:
+        rv = float(rv)
+    except (TypeError, ValueError):
+        rv = 0.0
+    return rv >= ENT_RV_MID
 
 
 _FUND_UNIT = {"b": 1000.0, "bn": 1000.0, "亿": 100.0, "m": 1.0, "mn": 1.0,
@@ -93,7 +89,7 @@ _FUND_UNIT = {"b": 1000.0, "bn": 1000.0, "亿": 100.0, "m": 1.0, "mn": 1.0,
 
 
 def _score_class(score):
-    """企业研究价值分专用色阶：s-high(≥ENT_RV_HIGH) / s-mid(≥ENT_RV_MID) / s-low(<ENT_RV_MID)。
+    """企业研究分专用色阶：s-high(≥ENT_RV_HIGH) / s-mid(≥ENT_RV_MID) / s-low(<ENT_RV_MID)。
     企业分量纲 0–61，不能用资讯的 ≥7/4–6.9 阈值（否则 88% 全绿失效）。"""
     try:
         s = float(score)
@@ -204,7 +200,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
 
     # Serial for data attribute
     serial = ent.get("serial", "")
-    curated = is_curated(ent)
+    curated = is_curated(ent, rv)
 
     # --- Build card HTML ---
     parts = []
@@ -449,6 +445,9 @@ def generate():
     except Exception:
         news_map = {}
         scored_list = []
+    # 同步到模块级缓存，供 is_curated 按研究分阈值统一判定精选
+    _ENT_SCORES.clear()
+    _ENT_SCORES.update(ent_scores_map)
 
     # 事件簇对照：按 cluster_id 聚合，记录每条新闻的"同事件其他来源"
     CLUSTER_SOURCES.clear()

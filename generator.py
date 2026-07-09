@@ -434,7 +434,7 @@ def build_card_html(art):
     url_hash = _url_hash(url)
     entity_name = art.get("entity_name", "") or ""
     src_search = art.get("source", "") or ""
-    # 评分面板（与精选卡片完全一致：综合分 + 6 维 + 收藏）
+    # 评分面板（与精选卡片完全一致：评分 + 6 维 + 收藏）
     fs = art.get("final_score") or 0
     ds = art.get("dim_scores") or {}
     dims = [
@@ -451,7 +451,7 @@ def build_card_html(art):
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score %s" title="综合评分">%s</span>'
+        '<span class="badge-score %s" title="评分">%s</span>'
         '<span class="dim-line">%s</span>'
         '%s'
         '</div>'
@@ -594,7 +594,7 @@ def build_selected_card_html(art):
     rec = art.get("recommendation", "") or art.get("recommendation_reason", "")
     rec_html = '<p class="feed-rec">★ %s</p>' % rec if rec else ""
 
-    # 评分面板：综合分 + 5 维评分
+    # 评分面板：评分 + 5 维评分
     fs = art.get("final_score") or 0
     ds = art.get("dim_scores") or {}
     dims = [
@@ -612,7 +612,7 @@ def build_selected_card_html(art):
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score %s" title="综合评分">%s</span>'
+        '<span class="badge-score %s" title="评分">%s</span>'
         '<span class="dim-line">%s</span>'
         '%s'
         '</div>'

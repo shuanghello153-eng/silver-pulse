@@ -197,10 +197,15 @@ def _amount_magnitude(text):
     return "小额"
 
 
-def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0, _seen=None):
+def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0,
+                       event_type="", _seen=None):
     """生成差异化、去冗余的推荐理由。
 
     Args:
+        event_type: 已分类的事件类型（融资/收购并购/产品发布/政策法规/行业趋势…）。
+                    作为理由「主标签」锚点——标签字段自 T34 起只承载交叉维度，
+                    不再等于分类，故理由主维度必须显式用 event_type，避免前缀与
+                    分类重复、且能命中 CHINA_REF_VARIANTS 对应变体。
         _seen: dict[str, int] 可选的已见计数器 {模板前缀: 使用次数}，
               调用方传入可在批次内做去重（同模板最多用 2 次强制换）。
     """
@@ -213,7 +218,7 @@ def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0, _
                or article.get("raw_content") or "")
     blob = (title + " " + summary)
     blob_low = blob.lower()
-    primary = tags[0] if tags else "行业趋势"
+    primary = event_type or (tags[0] if tags else "行业趋势")
     amount = detect_amount(blob)
     has_amount = bool(amount) and (amount.lower() in blob_low)
 
@@ -323,6 +328,12 @@ def run_daily_step():
             return "行业趋势"
         def classify_domain(t, s, tags):
             return []
+    try:
+        from selection.tagger import detect_cross_tags
+    except Exception:
+        # 兜底：tagger 不可导入时，保留原 tags 不重算
+        def detect_cross_tags(t, s, event_type="", novelty=0, region=""):
+            return []
     with open(SCORED_LATEST_PATH, "r", encoding="utf-8") as f:
         arts = json.load(f)
     n = 0
@@ -334,15 +345,16 @@ def run_daily_step():
         tags = art.get("tags") or []
         event_type = classify_event_type(title, summary, tags)
         domains = classify_domain(title, summary, tags)
-        # 带上 event_type 进 tags 首位（与 score_and_merge 行为一致，便于展示）
-        if event_type not in tags and len(tags) < 5:
-            tags = [event_type] + tags
+        # 【T34】重打「交叉维度」标签：不再把 event_type 塞进 tags 首位，
+        # 标签只承载横切维度（资本/反常识/政策·支付方/技术/市场/模式），
+        # 与 event_type / domains 彻底解耦。detect_cross_tags 内部强制 2~5 个。
+        novelty = float(art.get("novelty") or 0)
+        region = art.get("region", "") or ""
+        tags = detect_cross_tags(title, summary, event_type=event_type,
+                                 novelty=novelty, region=region, domains=domains)
         entity = art.get("entity_name", "") or ""
-        try:
-            novelty = float(art.get("novelty") or 0)
-        except Exception:
-            novelty = 0
-        rec = gen_recommendation(art, tags, entity, domains, novelty, _seen=_seen)
+        rec = gen_recommendation(art, tags, entity, domains, novelty,
+                                 event_type=event_type, _seen=_seen)
         art["recommendation"] = rec
         art["tags"] = tags
         art["event_type"] = event_type

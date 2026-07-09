@@ -645,7 +645,7 @@ function spGhSync(){
   var repo=localStorage.getItem('sp_gh_repo')||'shuanghello153-eng/silver-pulse';
   var branch=localStorage.getItem('sp_gh_branch')||'main';
   var lines=[];
-  for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k.indexOf('sp_fav::')===0&&localStorage.getItem(k)==='1'){var p=k.split('::');lines.push(JSON.stringify({type:p[1],id:decodeURIComponent(p[2]),ts:new Date().toISOString()}));}}
+  for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k.indexOf('sp_fav::')===0&&localStorage.getItem(k)==='1'){var p=k.split('::');var nid=decodeURIComponent(p[2]);var note=localStorage.getItem(spNoteKey(p[1],nid))||'';lines.push(JSON.stringify({type:p[1],id:nid,note:note,ts:new Date().toISOString()}));}}
   if(!lines.length){alert('还没有收藏任何内容，先去资讯看板或企业库点「🔖」吧。');return;}
   var btn=document.querySelector('.sync-fav');if(btn){btn.classList.add('syncing');btn.textContent='同步中';}
   var NL=String.fromCharCode(10);
@@ -691,8 +691,13 @@ function spEditNote(t,id){
 }
 function spRenderNote(el,t,id){
   var v=localStorage.getItem(spNoteKey(t,id));
-  if(v){el.textContent='📝 '+v;el.classList.add('has-note');el.classList.remove('empty');}
-  else{el.textContent='';el.classList.remove('has-note');el.classList.add('empty');}
+  if(v){
+    /* 列表里只显示前 20 字（灰色小字），悬停看全文 */
+    var disp=(v.length>20)?(v.slice(0,20)+'…'):v;
+    el.textContent='📝 '+disp;
+    el.classList.add('has-note');el.classList.remove('empty');
+    el.title=v;
+  } else {el.textContent='';el.classList.remove('has-note');el.classList.add('empty');el.removeAttribute('title');}
 }
 /* 已读未读（仅资讯，同步所有同 id 卡片） */
 function spSetRead(t,id,on){

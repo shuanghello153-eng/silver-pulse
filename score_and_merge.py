@@ -19,26 +19,10 @@ SCORED_FILE = os.path.join(DATA_DIR, "scored_latest.json")
 
 MIN_SIGNAL = 4.0  # Exclude noise (signal_score < 4.0 = no meaningful positive signal)
 
-# Tag detection keywords
-TAG_MAP = [
-    ("融资", ["raises", "raises series", "series a", "series b", "series c", "funding", "融资", "战略融资", "A轮", "B轮", "C轮", "天使轮", "seed round"]),
-    ("收购", ["acquires", "acquisition", "acquired", "收购", "并购"]),
-    ("IPO上市", ["ipo", "ipo filing", "goes public", "上市"]),
-    ("战略合作", ["partners with", "partnership", "strategic partnership", "战略合作", "达成合作"]),
-    ("产品发布", ["launches", "launching", "unveils", "introduces", "debuts", "发布", "上线", "推出"]),
-    ("政策法规", ["medicaid", "medicare", "cms", "fda", "政策", "法规", "津贴", "长护险"]),
-    ("居家养老", ["home care", "home health", "居家护理", "居家照护", "居家养老"]),
-    ("养老地产", ["senior housing", "assisted living", "养老社区", "养老地产", "护理院"]),
-    ("认知症", ["dementia", "alzheimer", "认知症", "失智", "阿尔茨海默"]),
-    ("数字疗法", ["digital health", "telehealth", "remote", "数字疗法", "远程医疗"]),
-    ("保险科技", ["insurance", "insurtech", "保险科技", "长护险"]),
-    ("健康服务", ["caregiver", "caregiving", "护理", "康养", "医养"]),
-    ("康复设备", ["rehab", "康复", "辅助器具", "辅具"]),
-    ("养老用品", ["wearable", "智能床垫", "电子皮肤", "养老用品", "硬件"]),
-    ("长寿科技", ["longevity", "长寿", "anti-aging"]),
-    ("智慧养老", ["ai", "人工智能", "机器人", "智慧养老", "智能"]),
-    ("行业趋势", ["market", "report", "趋势", "洞察", "研究报告"]),
-]
+# Tag detection: 2026-07-10 T34 重构 —— 标签只保留「交叉维度」，不再与分类重复。
+# 词表与规则统一在 config.ARTICLE_TAG_POOL / ARTICLE_TAG_RULES，
+# 实际打标委托 selection.tagger.detect_cross_tags（单一事实来源）。
+from selection.tagger import detect_cross_tags
 
 CHINA_REF = {
     "融资": "中国银发企业可参照其融资节奏与估值逻辑，关注同赛道国内玩家。",
@@ -71,16 +55,6 @@ EVENT_MAP = [
 ]
 
 
-def detect_tags(text):
-    tags = []
-    for tag, kws in TAG_MAP:
-        if any(kw.lower() in text.lower() for kw in kws):
-            tags.append(tag)
-            if len(tags) >= 3:
-                break
-    return tags[:3]
-
-
 def detect_event(text):
     for event, kws in EVENT_MAP:
         if any(kw.lower() in text.lower() for kw in kws):
@@ -101,9 +75,10 @@ def detect_amount(text):
     return ""
 
 
-def gen_recommendation(article, tags):
+def gen_recommendation(article, tags, event_type=""):
     text = f"{article.get('title','')} {article.get('summary','')}"
-    primary = tags[0] if tags else "行业趋势"
+    # 主标签以「事件类型」为锚（标签已不再承载分类，避免理由前缀与分类重复）
+    primary = event_type or (tags[0] if tags else "行业趋势")
     amount = detect_amount(text)
     rec = f"{primary}事件"
     if amount:
@@ -157,11 +132,20 @@ def main():
             category = "watch"
         else:
             category = "archive"
-        tags = detect_tags(f"{title} {a.get('summary','')}")
         event = detect_event(f"{title} {a.get('summary','')}")
-        if event not in tags and len(tags) < 3:
-            tags.append(event)
-        recommendation = gen_recommendation(a, tags)
+        # 子赛道 domains（与 event_type 不同轴），既存 entry 也用于 tags 兜底补足
+        try:
+            from generator import classify_domain
+            domains = classify_domain(title, a.get('summary', ''), [])
+        except Exception:
+            domains = []
+        tags = detect_cross_tags(title, a.get('summary', ''),
+                                 event_type=event,
+                                 novelty=a.get('novelty', 0),
+                                 region=config.get_source_region(a.get('source', ''))
+                                 or (config.SOURCES.get(a.get('source_id', ''), {}) or {}).get('region') or "",
+                                 domains=domains)
+        recommendation = gen_recommendation(a, tags, event_type=event)
         # 信号强度脚本分（0~10，零成本）：0722 后仅 >=5 的文章喂强模
         _src_id = a.get("source_id", "")
         _tier = config.SOURCES.get(_src_id, {}).get("tier", 2)
@@ -177,7 +161,9 @@ def main():
             "signal_strength": _sig_str,
             "signal_breakdown": _sig_bd,
             "category": category,
-            "tags": tags[:3],
+            "tags": tags[:5],
+            "event_type": event,
+            "domains": domains,
             "recommendation": recommendation,
             "id": max_id,
             "summary": a.get("summary", ""),

@@ -321,30 +321,55 @@ def _build_manual_article(seed):
     }
 
 
+def _fetch_with_retry(url, timeout, retries=1):
+    """GET url with timeout; retry once on transient failure (proxy flakiness).
+
+    Returns requests.Response or raises on final failure.
+    """
+    last_err = None
+    for _attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, headers=HTTP_HEADERS, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except Exception as e:  # noqa: BLE001 - 容错：覆盖超时/连接/HTTP错误，交由上层fallback
+            last_err = e
+            _clog(f"    _fetch_with_retry attempt {_attempt+1} failed: "
+                  f"{type(e).__name__}: {e}")
+    if last_err:
+        raise last_err
+    raise RuntimeError("unreachable")
+
+
 def collect_from_rss(source_id, feed_url, source_type, source_name,
-                    news_window_days=7, hl="en-US"):
+                    news_window_days=7, hl="en-US", source_config=None,
+                    timeout=None):
     """
     Collect articles from an RSS feed.
     Handles three types: direct RSS, RSS via HTTP (with headers), Google News RSS.
+
+    Google News / Bing News 走代理，网络抖动/限流频繁，故：
+      - 默认超时拉长到 30s（直连 RSS 仍为 15s）；
+      - 单源可在 source_config 里用 "timeout" 覆盖；
+      - 失败时内部重试一次，再失败则由 collect_all 的 fallback 链接管。
     """
+    source_config = source_config or {}
     try:
         if source_type == "rss":
             # Direct RSS — fetch via requests WITH timeout, then parse.
             # feedparser.parse(url) uses urllib without a timeout and can hang
             # the whole pipeline on a slow/dead feed, so we never call it on a URL.
-            resp = requests.get(feed_url, headers=HTTP_HEADERS, timeout=15)
-            resp.raise_for_status()
+            resp = _fetch_with_retry(feed_url, timeout or 15)
             feed = feedparser.parse(resp.text)
         elif source_type == "rss_http":
             # RSS via requests with headers (for sites that block feedparser)
-            resp = requests.get(feed_url, headers=HTTP_HEADERS, timeout=15)
-            resp.raise_for_status()
+            resp = _fetch_with_retry(feed_url, timeout or 15)
             feed = feedparser.parse(resp.text)
         elif source_type in ("google_news", "bing_news"):
             # Google News RSS proxy，或 Bing News RSS 作为二级聚合兜底（同构易接）。
             target_url = _build_news_url(feed_url, source_type, news_window_days, hl)
-            resp = requests.get(target_url, headers=HTTP_HEADERS, timeout=15)
-            resp.raise_for_status()
+            # 代理源更慢更脆：默认 30s 超时 + 重试一次；单源可用 timeout 覆盖
+            resp = _fetch_with_retry(target_url, timeout or 30, retries=1)
             feed = feedparser.parse(resp.text)
         else:
             _clog(f"[{source_name}] Unknown type: {source_type}")
@@ -486,30 +511,35 @@ def _build_news_url(feed_url, source_type, news_window_days=7, hl="en-US"):
 
 
 def _fallback_for_channel(source_id, source_config, channel_url, channel_method):
-    """Return (fallback_url, fallback_method) or None.
+    """Return a LIST of (fallback_url, fallback_method) candidates, in priority order.
 
-    Resilience chain (network ON is assumed; this only triggers when a specific
-    source fails so one dead feed never zeroes out the whole day's collection):
-      - rss / rss_http  -> google_news site:domain   (covers 403 / empty direct feeds)
-      - google_news      -> known direct RSS (if listed in DIRECT_RSS_FALLBACK)
+    collect_all 会依次尝试，直到某个候选产出文章，确保「一个坏掉的备胎不会
+    吃掉后面更稳的兜底」（例如配置的直连 RSS 404，仍能回落到 Bing News）。
+
+    Resilience chain (network ON is assumed; triggers only when a feed fails):
+      - rss / rss_http  -> google_news site:domain          (covers 403 / empty)
+      - google_news      -> ①显式 fallback_rss ②DIRECT_RSS_FALLBACK
+                           ③ Bing News RSS（无需 Key 的二级聚合兜底）
     """
     if channel_method in ("rss", "rss_http"):
         domain = source_config.get("l1_domain", "")
         if domain:
-            return (_google_news_url_for_domain(domain), "google_news")
+            return [(_google_news_url_for_domain(domain), "google_news")]
     elif channel_method == "google_news":
-        direct = DIRECT_RSS_FALLBACK.get(source_id)
+        cands = []
+        direct = source_config.get("fallback_rss") or DIRECT_RSS_FALLBACK.get(source_id)
         if direct:
-            return (direct, "rss")
-        # 二级兜底：Google News 之外再用 Bing News RSS（同样无需 Key 的聚合源）
+            cands.append((direct, "rss"))
         bing = _build_news_url(
             channel_url, "bing_news",
             news_window_days=source_config.get("news_window_days", 7),
             hl=source_config.get("hl", "en-US"),
         )
         if bing:
-            return (bing, "bing_news")
-    return None
+            cands.append((bing, "bing_news"))
+        if cands:
+            return cands
+    return []
 
 
 def score_article(article, source_config):
@@ -582,22 +612,29 @@ def collect_all(history=None):
                 source_id, channel_url, channel_method, source_name,
                 news_window_days=win_days,
                 hl=source_config.get("hl", "en-US"),
+                source_config=source_config,
+                timeout=source_config.get("timeout"),
             )
             # Fallback: if the primary method returned nothing (403 / empty /
-            # timeout), try the alternative so one dead feed never empties the day.
-            # 链路：rss/rss_http -> google_news；google_news -> 直连RSS -> Bing News。
+            # timeout), try alternatives in order so one dead feed never empties
+            # the day. 链路：rss/rss_http -> google_news；
+            # google_news -> 直连RSS(fallback_rss) -> Bing News。
             if not channel_articles:
-                fb = _fallback_for_channel(
+                fb_list = _fallback_for_channel(
                     source_id, source_config, channel_url, channel_method
                 )
-                if fb:
-                    fb_url, fb_method = fb
-                    _clog(f"  [{channel_name}] primary empty -> fallback ({fb_method})")
+                for fb_idx, (fb_url, fb_method) in enumerate(fb_list):
+                    _clog(f"  [{channel_name}] primary empty -> fallback "
+                          f"#{fb_idx+1} ({fb_method})")
                     channel_articles = collect_from_rss(
                         source_id, fb_url, fb_method, source_name,
                         news_window_days=win_days,
                         hl=source_config.get("hl", "en-US"),
+                        source_config=source_config,
+                        timeout=source_config.get("timeout"),
                     )
+                    if channel_articles:
+                        break
             # 增量跨周去重：本源 seen 集合里已存在的 URL 视为跨周重复，跳过
             # （保留归档：raw_*.json / scored_latest.json 从不删除，逻辑只过滤）
             for art in channel_articles:
