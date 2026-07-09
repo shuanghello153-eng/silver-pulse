@@ -27,11 +27,6 @@ OVERSEAS_SOURCE_NAMES = OVERSEAS_SOURCE_NAMES  # alias for clarity
 ALL_TAG_NAMES = set(TAG_POOL.keys())
 BUILD_STAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 
-# Selection-radar (选题雷达) data sources
-ENT_SCORES_PATH = os.path.join(DATA_DIR, "enterprise", "enterprise_scores.json")
-ALL_ENT_PATH = os.path.join(DATA_DIR, "enterprise", "all_enterprises.json")
-SCORED_LATEST_PATH = os.path.join(DATA_DIR, "scored_latest.json")
-
 _esc = html.escape
 
 
@@ -47,151 +42,6 @@ def _parse_date(s):
         return datetime.strptime(s, "%Y-%m-%d")
     except Exception:
         return None
-
-
-def build_radar_data():
-    """Assemble the 选题雷达 block data.
-
-    Returns a dict with top_ents / top_news / signal, or None on failure
-    (so the caller can fall back to '暂无数据').
-    """
-    # --- top enterprises by research_value ---
-    top_ents = []
-    try:
-        with open(ENT_SCORES_PATH, "r", encoding="utf-8") as f:
-            ent_scores = json.load(f)
-        with open(ALL_ENT_PATH, "r", encoding="utf-8") as f:
-            ents = json.load(f)
-        by_serial = {e.get("serial"): e for e in ents}
-        joined = []
-        for serial, sc in ent_scores.items():
-            e = by_serial.get(serial)
-            if not e:
-                continue
-            joined.append((serial, sc, e))
-        joined.sort(key=lambda t: t[1].get("research_value", 0) or 0, reverse=True)
-        for i, (serial, sc, e) in enumerate(joined[:8], start=1):
-            rv = sc.get("research_value") or e.get("value_score") or 0
-            deep = bool(sc.get("worth_deep_write"))
-            bm = (e.get("business_model") or "").strip()
-            reason = bm[:40]
-            te = sc.get("top_event")
-            if te:
-                if reason:
-                    reason = reason + " · 近期: " + te
-                else:
-                    reason = "近期: " + te
-            top_ents.append({
-                "rank": i,
-                "name": e.get("name", ""),
-                "rv": rv,
-                "deep": deep,
-                "region": e.get("region", ""),
-                "reason": reason,
-            })
-    except Exception:
-        top_ents = []
-
-    # --- load scored_latest once (reused by top news + signal) ---
-    news = []
-    try:
-        with open(SCORED_LATEST_PATH, "r", encoding="utf-8") as f:
-            news = json.load(f)
-    except Exception:
-        news = []
-
-    # --- top news (is_main only) by final_score ---
-    top_news = []
-    dup_map = {}
-    try:
-        # count folded siblings per main url (via is_duplicate_of)
-        for n in news:
-            d = n.get("is_duplicate_of")
-            if d:
-                dup_map[d] = dup_map.get(d, 0) + 1
-        mains = [n for n in news if n.get("is_main")]
-        mains.sort(key=lambda n: n.get("final_score") or 0, reverse=True)
-        for n in mains[:10]:
-            url = n.get("url", "")
-            top_news.append({
-                "score": n.get("final_score") or 0,
-                "tier": SOURCE_NAME_TO_TIER.get(n.get("source"), 3),
-                "title": n.get("title_cn") or n.get("title", ""),
-                "url": url,
-                "tags": n.get("tags", []) or [],
-                "fold": dup_map.get(url, 0),
-            })
-    except Exception:
-        top_news = []
-
-    # --- signal overview: last 7 days (relative to latest news date) by event_type ---
-    signal = []
-    try:
-        dates = [_parse_date(n.get("date")) for n in news]
-        dates = [d for d in dates if d]
-        ref = max(dates) if dates else datetime.now()
-        cut = ref - timedelta(days=7)
-        counts = {}
-        for n in news:
-            d = _parse_date(n.get("date"))
-            if d and d >= cut:
-                evt = n.get("event_type", "其他事件") or "其他事件"
-                counts[evt] = counts.get(evt, 0) + 1
-        signal = ["%s %d" % (k, v) for k, v in
-                  sorted(counts.items(), key=lambda kv: kv[1], reverse=True)]
-    except Exception:
-        signal = []
-
-    if not top_ents and not top_news and not signal:
-        return None
-    return {"top_ents": top_ents, "top_news": top_news, "signal": signal}
-
-
-def build_radar_html(rd):
-    if not rd:
-        return ('<div class="radar-block">'
-                '<h3 class="radar-title">📡 选题雷达</h3>'
-                '<p class="radar-empty">暂无数据</p>'
-                '</div>')
-
-    parts = ['<div class="radar-block">', '<h3 class="radar-title">📡 选题雷达（资讯维度）</h3>']
-
-    # 📰 TOP news
-    parts.append('<div class="radar-sub">')
-    parts.append('<div class="radar-sub-h">📰 精选资讯 TOP 10（按评分）</div>')
-    if rd["top_news"]:
-        for n in rd["top_news"]:
-            fold = ('<span class="radar-fold">· 同事件 %d 条折叠</span>'
-                    % n["fold"]) if n["fold"] > 0 else ""
-            tags = " ".join('<span class="radar-tags">#%s</span>'
-                           % _esc(t) for t in n["tags"][:3])
-            parts.append(
-                '<div class="radar-news">'
-                '<span class="radar-score">[%.1f]</span>'
-                '<span class="radar-tier">[T%d]</span>'
-                '<a class="radar-ntitle" href="%s" target="_blank" rel="noopener">%s</a>'
-                '%s%s'
-                '</div>' % (
-                    n["score"], n["tier"], _esc(n["url"]),
-                    _esc(n["title"]), tags, fold,
-                )
-            )
-    else:
-        parts.append('<p class="radar-empty">暂无数据</p>')
-    parts.append('</div>')
-
-    # 📊 signal overview
-    parts.append('<div class="radar-sub">')
-    parts.append('<div class="radar-sub-h">📊 今日信号概览</div>')
-    if rd["signal"]:
-        parts.append('<div class="radar-signal">%s</div>'
-                     % " · ".join(_esc(s) for s in rd["signal"]))
-    else:
-        parts.append('<p class="radar-empty">近 7 日暂无信号</p>')
-    parts.append('</div>')
-
-    parts.append('</div>')
-    return "\n".join(parts)
 
 
 def load_raw_articles():
@@ -1179,11 +1029,14 @@ def generate_html(scored_articles=None, output_path=None):
 
         # Main content
         '<div class="main">',
-        # ===== 顶部工具条（不常用按钮集中在此，不干扰主操作区）=====
+        # ===== 顶部工具条（A5：不常用按钮收进「更多」，顶部只留筛选栏）=====
         '<div class="top-tools" id="top-tools">',
+        '<button class="tools-more-btn" id="tools-more-btn" title="导出 / 同步 / 设置" onclick="spToggleTools()"><span class="ico">⋯</span><span class="lbl">更多</span></button>',
+        '<div class="top-tools-more" id="tools-more">',
         '<a class="dl-btn" href="weekly_topics.json" download>⬇ 下载选题JSON</a>',
         '<button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>',
         '<button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>',
+        '</div>',
         '</div>',
         '<div class="header">',
         '<div class="header-top" style="display:flex;align-items:center;gap:12px;">',

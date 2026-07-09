@@ -87,6 +87,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .top-tools{display:flex;align-items:center;gap:6px;margin-bottom:8px;padding:6px 10px;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);flex-wrap:wrap;font-size:11px}
 .top-tools .dl-btn,.top-tools .sync-fav,.top-tools .sync-set{font-size:11px;padding:3px 10px;border-radius:8px;opacity:.7;transition:all .15s}
 .top-tools .dl-btn:hover,.top-tools .sync-fav:hover,.top-tools .sync-set:hover{opacity:1}
+/* 折叠区（A5：不常用按钮收进「更多」） */
+.tools-more-btn{display:inline-flex;align-items:center;gap:3px;font-size:11px;padding:3px 10px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text-secondary);cursor:pointer;transition:all .15s;font-family:inherit;font-weight:600}
+.tools-more-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
+.tools-more-btn.on{background:var(--accent-light);border-color:var(--accent);color:var(--accent-strong)}
+.top-tools-more{display:none;width:100%;flex-wrap:wrap;gap:6px;margin-top:7px;padding-top:8px;border-top:1px dashed var(--border)}
+.top-tools-more.open{display:flex}
 
 /* ===== 筛选 / 搜索 ===== */
 .filter-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px}
@@ -712,6 +718,17 @@ function spInitToggles(){
   if(ub)ub.addEventListener('click',function(){spUnreadOnly=!spUnreadOnly;ub.classList.toggle('on',spUnreadOnly);if(window.spReapply)spReapply();});
 }
 
+/* 顶部工具条「更多」折叠（A5：收起导出/同步/设置） */
+function spToggleTools(){
+  var m=document.getElementById('tools-more');
+  if(m){m.classList.toggle('open');}
+  var b=document.getElementById('tools-more-btn');
+  if(b&&m){
+    var open=m.classList.contains('open');
+    b.classList.toggle('on',open);
+    var l=b.querySelector('.lbl');if(l)l.textContent=open?'收起':'更多';
+  }
+}
 /* 初始化：评分色阶 + 收藏状态 + 筛选胶囊 + 列表内操作 */
 function spInitFav(){
   /* 评分徽章加色阶类 */

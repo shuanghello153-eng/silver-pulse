@@ -248,8 +248,8 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     # 收藏按钮（localStorage 反馈）
     if serial:
         header_parts.append(f'<button class="fav-btn" data-type="ent" data-id="{esc(serial)}"><span class="ico">☆</span><span class="lbl">收藏</span></button>')
-        # 列表内操作：不再显示 / 备注（已读仅资讯页，企业库不需要）
-        header_parts.append(sp_card_actions("ent", esc(serial), with_read=False))
+        # 列表内操作：不再显示 / 备注 / 已读（A8：企业库也支持已读未读）
+        header_parts.append(sp_card_actions("ent", esc(serial), with_read=True))
 
     parts.append(f'<div class="ent-header">{" ".join(header_parts)}</div>')
 
@@ -402,7 +402,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
                       "主板", "挂牌", "公开募股", "public listing", "上市公司"]) else 0
 
     return (
-        f'<div class="ent-card" id="{ent_anchor}" data-region="{region_attr}" '
+        f'<div class="ent-card" id="{ent_anchor}" data-card-id="{esc(serial)}" data-region="{region_attr}" '
         f'data-cat="{esc(cat_attr)}" '
         f'data-l2="{esc(cat_l2)}" '
         f'data-tags="{esc(" ".join(ent.get("tags") or []))}" '
@@ -698,10 +698,13 @@ def generate():
 __SIDEBAR__
 <div class="main">
 
-<!-- 顶部工具条（不常用按钮集中在此） -->
+<!-- 顶部工具条（A5：不常用按钮收进「更多」） -->
 <div class="top-tools" id="top-tools">
-  <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
-  <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>
+  <button class="tools-more-btn" id="tools-more-btn" title="同步 / 设置" onclick="spToggleTools()"><span class="ico">⋯</span><span class="lbl">更多</span></button>
+  <div class="top-tools-more" id="tools-more">
+    <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
+    <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>
+  </div>
 </div>
 
 <div class="header">
@@ -735,6 +738,7 @@ __SIDEBAR__
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
     <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业（按最近动态时间倒序）">🔥 近期有动态</button>
     <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
+    <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读企业（点过的企业会变灰）">👁 只看未读</button>
     <button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的企业">🙈 显示已隐藏</button>
   </div>
   <div class="filter-row" id="cat-filter">
@@ -872,6 +876,7 @@ function filterEnt() {{
     const tagMatch = activeTag === 'all' || (activeTag === '__funded__' ? (card.dataset.hasfund === '1') : tag.includes(activeTag));
     const recentMatch = !activeRecent || card.dataset.recent === '1';
     const hiddenMatch = (window.spShowHidden === true) || (card.dataset.hide !== '1');
+    const readMatch = (window.spUnreadOnly !== true) || (card.dataset.read !== '1');
     const timeMatch = (activeEntTime === 'all') ? true : (function() {{
       const d = card.dataset.lastnews || '';
       if (!d) return false;
@@ -881,7 +886,7 @@ function filterEnt() {{
       return dd >= cut;
     }})();
 
-    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && timeMatch) {{
+    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && readMatch && timeMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
       if (cat && l2) {{
         if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};
