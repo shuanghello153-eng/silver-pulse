@@ -10,7 +10,25 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4ydU8wUVliS3k2UldPV0pUcWVYMEhZUEtpVVFPWDJiOVNGUGphMmFSaEM1TUpTTHZzQ0d0REFaTXpoWmUtUWszNzBVQ1lQcHMtTFJtSUx3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOTMxNy1RWXBicmNuQ0pxdENXRlBGcURDS1Y1S2xydUpQQl8yR2M0X250LVBld0ZneTc0QXdFNnI5alo4NjcxWnRyRDR0eG8wYlBjb1lB?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbGR2UmxJM2gtVVg1YlNiSjUwZDNTenFTUjJNcGphRlpYX0g0dFRhbHB0SEZZdnlCTGxrN1VhV2t3LTVuSUhLYkk2aUtIWjJORWxCbmxB?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSFltZnR3bHdHejZ4NGhUb2Y4SmRlM2VHZVFqYjZqWS1Jb2s4NkFnNjJ0UENfeklwZUxBc1BaQnBsUzJOQTktcnN1bFRqRTVzZVVTSXN3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSWlLcFludFVvcFB5VFlsenNpNUt0eWhkbEpfd2xCUWhjbFlhNEE5ZnlKeEZOOTVxd2JvWmk2aXllUFNwZWdUOXpLVmk2TDhvNk1PSTB3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
@@ -1242,7 +1260,9 @@
     "v3": 10,
     "v4": 9,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=30，命中1项：S3差异化模式）"
@@ -1440,20 +1460,23 @@
     "deep_write_reason": "未达深度写标准（rv=35，命中1项：S3差异化模式）"
   },
   "#0091": {
-    "research_value": 49,
-    "grade": "C",
+    "research_value": 64,
+    "grade": "B",
     "base_value": 49,
-    "event_boost": 0,
+    "event_boost": 15,
     "mirror_bonus": 0,
     "v1": 25,
     "v2": 8,
     "v3": 4,
     "v4": 12,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
+    "last_event_date": "2026-07-03",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
+    "top_event": "融资",
     "worth_deep_write": true,
-    "deep_write_reason": "命中标准: S1大企业 / S4标杆可借鉴 —— 值得深度写"
+    "deep_write_reason": "命中标准: S1大企业 / S2近期事件 / S4标杆可借鉴 —— 值得深度写"
   },
   "#0092": {
     "research_value": 16,
@@ -2016,20 +2039,23 @@
     "deep_write_reason": "未达深度写标准（rv=35，命中1项：S3差异化模式）"
   },
   "#0127": {
-    "research_value": 21,
+    "research_value": 36,
     "grade": "—",
     "base_value": 21,
-    "event_boost": 0,
+    "event_boost": 15,
     "mirror_bonus": 0,
     "v1": 3,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
+    "last_event_date": "2026-07-08",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4ydU8wUVliS3k2UldPV0pUcWVYMEhZUEtpVVFPWDJiOVNGUGphMmFSaEM1TUpTTHZzQ0d0REFaTXpoWmUtUWszNzBVQ1lQcHMtTFJtSUx3?oc=5",
+      "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rSmZDd3JYN1UtelZIUGNsUXdTT1lZWDB1eXBRamx2NW5iM3lweXExVllXRXc4RV9CLUlpY2lHM3RCR2VqQ2xCZDVWckxqZw?oc=5"
+    ],
+    "top_event": "融资",
     "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
+    "deep_write_reason": "未达深度写标准（rv=36，命中1项：S2近期事件）"
   },
   "#0128": {
     "research_value": 35,
@@ -2496,20 +2522,23 @@
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
   "#0157": {
-    "research_value": 35,
-    "grade": "—",
+    "research_value": 50,
+    "grade": "C",
     "base_value": 35,
-    "event_boost": 0,
+    "event_boost": 15,
     "mirror_bonus": 0,
     "v1": 3,
     "v2": 8,
     "v3": 15,
     "v4": 9,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
-    "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=35，命中1项：S3差异化模式）"
+    "last_event_date": "2026-07-06",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5"
+    ],
+    "top_event": "融资",
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S2近期事件 / S3差异化模式 —— 值得深度写"
   },
   "#0158": {
     "research_value": 21,
@@ -5194,7 +5223,9 @@
     "v3": 10,
     "v4": 9,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=30，命中1项：S3差异化模式）"
@@ -6432,20 +6463,22 @@
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
   "#0403": {
-    "research_value": 38,
-    "grade": "—",
+    "research_value": 53,
+    "grade": "C",
     "base_value": 38,
-    "event_boost": 0,
+    "event_boost": 15,
     "mirror_bonus": 0,
     "v1": 20,
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
-    "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=38，命中1项：S1大企业）"
+    "last_event_date": "2026-07-07",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5"
+    ],
+    "top_event": "融资",
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S1大企业 / S2近期事件 —— 值得深度写"
   },
   "#0404": {
     "research_value": 16,
@@ -6650,7 +6683,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
@@ -6730,7 +6765,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
@@ -6762,7 +6799,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
@@ -6778,7 +6817,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=16，命中0项：无）"
@@ -6986,7 +7027,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
@@ -7034,7 +7077,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
@@ -7050,7 +7095,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
@@ -7385,9 +7432,12 @@
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
+    "last_event_date": "2026-07-03",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXg0R1JmQ1BvOW5KRXNJSEg4QkdIZWdFWkZhdVdPNXl0M2tDaEV1bjExNWN6LTI2cEhxc3VNVTdfSk9teVI5QUR6WHh0NVNQa0tCMDN4UHBCR01maUhoOFpOc09UcDF4TXlWd1FCc3diX1pCZlFKeE9hb1pGcXVhUFBTMXloNHBpVVVWYzQwd2JnSWpVQnBQcXZCR1lwdGExbklUQXo3NUlSckZGc0wyd0lEMUo3Zw?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
+    "top_event": "产品发布",
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=35，命中0项：无）"
   },
@@ -7760,20 +7810,22 @@
     "deep_write_reason": "未达深度写标准（rv=36，命中0项：无）"
   },
   "#0486": {
-    "research_value": 21,
-    "grade": "—",
+    "research_value": 46,
+    "grade": "C",
     "base_value": 16,
-    "event_boost": 0,
+    "event_boost": 25,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 3,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
-    "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
+    "last_event_date": "2026-07-03",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5"
+    ],
+    "top_event": "收购并购",
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
   },
   "#0487": {
     "research_value": 36,
@@ -7818,7 +7870,9 @@
     "v3": 10,
     "v4": 10,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": true,
     "deep_write_reason": "命中标准: S3差异化模式 —— 值得深度写"
@@ -7882,7 +7936,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": true,
     "deep_write_reason": "命中标准: S1大企业 —— 值得深度写"
@@ -8858,7 +8914,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
@@ -8905,9 +8963,12 @@
     "v2": 8,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
+    "last_event_date": "2026-07-08",
+    "related_news_ids": [
+      "https://www.youtube.com/results?search_query=Peter+Santenello+The+Villages+Florida",
+      "https://www.youtube.com/results?search_query=Some+Kind+of+Heaven+The+Villages+documentary"
+    ],
+    "top_event": "其他事件",
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
   },
@@ -9354,7 +9415,9 @@
     "v3": 10,
     "v4": 10,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=36，命中1项：S3差异化模式）"
@@ -9610,7 +9673,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
@@ -9898,7 +9963,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=26，命中0项：无）"
@@ -15696,20 +15763,22 @@
     "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
   },
   "#0982": {
-    "research_value": 21,
-    "grade": "—",
+    "research_value": 46,
+    "grade": "C",
     "base_value": 16,
-    "event_boost": 0,
+    "event_boost": 25,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 3,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
-    "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=21，命中0项：无）"
+    "last_event_date": "2026-07-08",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxORWxQN0JPRUk4aDZtRmNOTjdmdUo3bkh6cDZfQlVvODZCTTl2YXZfM1BJTHRVZ2hLdlJqZmJ6MHpiVHdXNE8xekdfaDN2NF81SzNyYmt4TjZ5c0Y0LURYRWdJSFN0dmllQ3JlcHlZakhrcHJJNlJBMl9UT1kyYVdYbEgxVW1IQQ?oc=5"
+    ],
+    "top_event": "收购并购",
+    "worth_deep_write": true,
+    "deep_write_reason": "命中标准: S2近期事件 —— 值得深度写"
   },
   "#0983": {
     "research_value": 21,
@@ -15920,20 +15989,22 @@
     "deep_write_reason": "未达深度写标准（rv=18，命中0项：无）"
   },
   "#0996": {
-    "research_value": 23,
+    "research_value": 38,
     "grade": "—",
     "base_value": 18,
-    "event_boost": 0,
+    "event_boost": 15,
     "mirror_bonus": 5,
     "v1": 3,
     "v2": 5,
     "v3": 4,
     "v4": 6,
-    "last_event_date": null,
-    "related_news_ids": [],
-    "top_event": null,
+    "last_event_date": "2026-07-02",
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMitAJBVV95cUxQLXJmODlqMVlTTE5TeTNqR09VdV9CXzhmd25iSnUyV18wZDBaSU5uaGdMdHZ0TEtRWUIweUxCdzhDb3hfT1YzeVpTRnp5Tk1DcGxPTHNNQ3pidG5zWW5tSlVzUEg2UTRrM2ZrNEJqdnVJV2l2WnFMU0xVMmI5RHJRdnVBQzlkRWZUUHpKU3Yzd2EyYlJJQ2dCNlhpZE05MHQ3YUZTOWJ2UlY1cEZnYUI3NFZrSTRkMXBTbnJmSHc5eVNtZHRPbDVGZ3RGTTNwSlZ1NktLWHVHM2UtZ05RQnV5MWYwN2hxMnVBWHlnZlNOMkhhNko3YnpsNDhnR0ZUY2dBbGVmVlZPR3pxX3dVTkRnQjlCdzBqVUFLXzFnbnhSNjZsRUxPTTRLWDJ6NVVCZ182LU1rX9IBugJBVV95cUxONU12Z2s4REtPMi01ZDJMc0JkR2xpcGRRY0FKODBDS2JycnBsdWY1QTUyM2hsU2VSZnVOdVdISFFBSFpaSUdyX2dURUNpM3dsb3diRFk4X2s3VnJZeFRFS2RSemdNb3MxNGc5SlM2N1BmS3Z5MUpqUXlLTTVHcndxcDVrejhXcURQMGVWbGVLbmp3RFRQN0ttdjdjejBoemE4LUNrVUU4a0x2Q0dpdTZqTFFhazlMQWVfNFNXTWhDRkx3RFg2NTNWcFIzMUVlLTFaXy11S3hqMURkSlk5eGtEc2NiVHdvTXQxcHUtT3FDV2pMU0pKdktYVDRTX2J5NXluX3NvNXlTVEFXY2loSzYxOXhlajlVYVQ5bjkyWjFDRzI2TTlLb2liUGo5cDI5RjFqNWJhaHh6anJCQQ?oc=5"
+    ],
+    "top_event": "产品发布",
     "worth_deep_write": false,
-    "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
+    "deep_write_reason": "未达深度写标准（rv=38，命中1项：S2近期事件）"
   },
   "#0997": {
     "research_value": 18,
@@ -16618,7 +16689,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
@@ -16778,7 +16851,14 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
@@ -16986,7 +17066,10 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=30，命中1项：S1大企业）"
@@ -17002,7 +17085,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17050,7 +17135,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17082,7 +17169,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17146,7 +17235,10 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17194,7 +17286,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17322,7 +17416,10 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17370,7 +17467,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17610,7 +17709,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=13，命中0项：无）"
@@ -17658,7 +17759,9 @@
     "v3": 15,
     "v4": 15,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": true,
     "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
@@ -17754,7 +17857,9 @@
     "v3": 15,
     "v4": 15,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": true,
     "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
@@ -17802,7 +17907,9 @@
     "v3": 15,
     "v4": 15,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": true,
     "deep_write_reason": "命中标准: S3差异化模式 / S4标杆可借鉴 —— 值得深度写"
@@ -17818,7 +17925,12 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=33，命中0项：无）"
@@ -17834,7 +17946,15 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=40，命中1项：S1大企业）"
@@ -17882,7 +18002,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
@@ -17994,7 +18116,9 @@
     "v3": 4,
     "v4": 6,
     "last_event_date": null,
-    "related_news_ids": [],
+    "related_news_ids": [
+      "https://www.youtube.com/results?search_query=Some+Kind+of+Heaven+The+Villages+documentary"
+    ],
     "top_event": null,
     "worth_deep_write": false,
     "deep_write_reason": "未达深度写标准（rv=23，命中0项：无）"
