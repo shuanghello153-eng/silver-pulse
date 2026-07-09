@@ -89,6 +89,20 @@ def run_daily_step(threshold=None):
 
     if threshold is None:
         threshold = CLUSTER_SIM_THRESHOLD
+        # 可选覆盖：threshold_override.json 里的 CLUSTER_SIM_THRESHOLD 字段。
+        # 仅当 ENABLE_AUTO_THRESHOLD 开启（Loop 进化步已激活）时生效，
+        # 护栏：绝不默认自动改阈值（与 config.ENABLE_AUTO_THRESHOLD 约定一致）。
+        # 离线回测请直接用 run_daily_step(threshold=...) 传参，无需改此处。
+        try:
+            from config import ENABLE_AUTO_THRESHOLD
+            if ENABLE_AUTO_THRESHOLD:
+                ov_path = os.path.join(DATA_DIR, "threshold_override.json")
+                if os.path.exists(ov_path):
+                    ov = json.load(open(ov_path, "r", encoding="utf-8"))
+                    if "CLUSTER_SIM_THRESHOLD" in ov:
+                        threshold = float(ov["CLUSTER_SIM_THRESHOLD"])
+        except Exception:
+            pass
 
     if not os.path.exists(SCORED_PATH):
         print("[cluster] scored_latest.json 不存在，跳过")

@@ -1,0 +1,310 @@
+{
+  "thresholds": {
+    "0.7": {
+      "total_clusters": 55,
+      "multi_clusters": 7,
+      "isolated_clusters": 48,
+      "avg_size_multi": 2.14,
+      "max_cluster_size": 3,
+      "merge_rate_pct": 12.7
+    },
+    "0.75": {
+      "total_clusters": 57,
+      "multi_clusters": 5,
+      "isolated_clusters": 52,
+      "avg_size_multi": 2.2,
+      "max_cluster_size": 3,
+      "merge_rate_pct": 8.8
+    },
+    "0.82": {
+      "total_clusters": 60,
+      "multi_clusters": 3,
+      "isolated_clusters": 57,
+      "avg_size_multi": 2.0,
+      "max_cluster_size": 2,
+      "merge_rate_pct": 5.0
+    }
+  },
+  "misfire_merge": {
+    "0.7": [],
+    "0.75": [],
+    "0.82": []
+  },
+  "miss_merge": {
+    "0.7": [],
+    "0.75": [],
+    "0.82": []
+  },
+  "suppressed_at_082": [],
+  "recall_gain_075_vs_082": [
+    {
+      "sim": 0.819,
+      "event_type": "产品发布",
+      "title_a": "城乡三级养老服务网络建设管理指引发布 - 新京报",
+      "title_b": "城乡三级养老服务网络建设管理指引发布 - 大河财立方"
+    },
+    {
+      "sim": 0.807,
+      "event_type": "收购并购",
+      "title_a": "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside - citybiz",
+      "title_b": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal"
+    },
+    {
+      "sim": 0.784,
+      "event_type": "产品发布",
+      "title_a": "城乡三级养老服务网络建设管理指引发布 - 新京报",
+      "title_b": "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网"
+    },
+    {
+      "sim": 0.749,
+      "event_type": "产品发布",
+      "title_a": "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网",
+      "title_b": "城乡三级养老服务网络建设管理指引发布 - 大河财立方"
+    }
+  ],
+  "recall_gain_070_vs_082": [
+    {
+      "sim": 0.819,
+      "event_type": "产品发布",
+      "title_a": "城乡三级养老服务网络建设管理指引发布 - 新京报",
+      "title_b": "城乡三级养老服务网络建设管理指引发布 - 大河财立方"
+    },
+    {
+      "sim": 0.807,
+      "event_type": "收购并购",
+      "title_a": "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside - citybiz",
+      "title_b": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal"
+    },
+    {
+      "sim": 0.784,
+      "event_type": "产品发布",
+      "title_a": "城乡三级养老服务网络建设管理指引发布 - 新京报",
+      "title_b": "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网"
+    },
+    {
+      "sim": 0.749,
+      "event_type": "产品发布",
+      "title_a": "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网",
+      "title_b": "城乡三级养老服务网络建设管理指引发布 - 大河财立方"
+    },
+    {
+      "sim": 0.723,
+      "event_type": "产品发布",
+      "title_a": "广东上线“粤港养老通” 港元津贴一键直达 - cb.com.cn",
+      "title_b": "广东：“粤港养老通”上线在粤养老长者港币津贴一键直达- 银龄在线 - 中国老龄协会"
+    },
+    {
+      "sim": 0.719,
+      "event_type": "收购并购",
+      "title_a": "Avid Health Acquires Tech Medical Home Care - HomeCare Magazine",
+      "title_b": "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States - Home Health Care News"
+    }
+  ],
+  "multi_clusters_detail": {
+    "0.7": [
+      {
+        "cluster_id": "C0001",
+        "size": 2,
+        "min_pairwise_sim": 0.966,
+        "titles": [
+          "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
+          "融资数千万，一年冲刺3000家，中老年赛道的细分生意，为何让资本押注？ - 36 Kr"
+        ],
+        "final_scores": [
+          5.37,
+          4.8
+        ]
+      },
+      {
+        "cluster_id": "C0019",
+        "size": 3,
+        "min_pairwise_sim": 0.749,
+        "titles": [
+          "城乡三级养老服务网络建设管理指引发布 - 新京报",
+          "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网",
+          "城乡三级养老服务网络建设管理指引发布 - 大河财立方"
+        ],
+        "final_scores": [
+          4.77,
+          4.77,
+          4.77
+        ]
+      },
+      {
+        "cluster_id": "C0023",
+        "size": 2,
+        "min_pairwise_sim": 0.723,
+        "titles": [
+          "广东上线“粤港养老通” 港元津贴一键直达 - cb.com.cn",
+          "广东：“粤港养老通”上线在粤养老长者港币津贴一键直达- 银龄在线 - 中国老龄协会"
+        ],
+        "final_scores": [
+          3.48,
+          5.0
+        ]
+      },
+      {
+        "cluster_id": "C0027",
+        "size": 2,
+        "min_pairwise_sim": 0.87,
+        "titles": [
+          "极光月狐发布 | 中国养老健康产品发展洞察 - 品玩",
+          "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经"
+        ],
+        "final_scores": [
+          5.0,
+          4.85
+        ]
+      },
+      {
+        "cluster_id": "C0038",
+        "size": 2,
+        "min_pairwise_sim": 1.0,
+        "titles": [
+          "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com",
+          "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com"
+        ],
+        "final_scores": [
+          3.33,
+          3.33
+        ]
+      },
+      {
+        "cluster_id": "C0041",
+        "size": 2,
+        "min_pairwise_sim": 0.807,
+        "titles": [
+          "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside - citybiz",
+          "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal"
+        ],
+        "final_scores": [
+          5.14,
+          5.14
+        ]
+      },
+      {
+        "cluster_id": "C0044",
+        "size": 2,
+        "min_pairwise_sim": 0.719,
+        "titles": [
+          "Avid Health Acquires Tech Medical Home Care - HomeCare Magazine",
+          "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States - Home Health Care News"
+        ],
+        "final_scores": [
+          4.8,
+          4.56
+        ]
+      }
+    ],
+    "0.75": [
+      {
+        "cluster_id": "C0001",
+        "size": 2,
+        "min_pairwise_sim": 0.966,
+        "titles": [
+          "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
+          "融资数千万，一年冲刺3000家，中老年赛道的细分生意，为何让资本押注？ - 36 Kr"
+        ],
+        "final_scores": [
+          5.37,
+          4.8
+        ]
+      },
+      {
+        "cluster_id": "C0019",
+        "size": 3,
+        "min_pairwise_sim": 0.749,
+        "titles": [
+          "城乡三级养老服务网络建设管理指引发布 - 新京报",
+          "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网",
+          "城乡三级养老服务网络建设管理指引发布 - 大河财立方"
+        ],
+        "final_scores": [
+          4.77,
+          4.77,
+          4.77
+        ]
+      },
+      {
+        "cluster_id": "C0027",
+        "size": 2,
+        "min_pairwise_sim": 0.87,
+        "titles": [
+          "极光月狐发布 | 中国养老健康产品发展洞察 - 品玩",
+          "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经"
+        ],
+        "final_scores": [
+          5.0,
+          4.85
+        ]
+      },
+      {
+        "cluster_id": "C0039",
+        "size": 2,
+        "min_pairwise_sim": 1.0,
+        "titles": [
+          "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com",
+          "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com"
+        ],
+        "final_scores": [
+          3.33,
+          3.33
+        ]
+      },
+      {
+        "cluster_id": "C0042",
+        "size": 2,
+        "min_pairwise_sim": 0.807,
+        "titles": [
+          "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside - citybiz",
+          "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal"
+        ],
+        "final_scores": [
+          5.14,
+          5.14
+        ]
+      }
+    ],
+    "0.82": [
+      {
+        "cluster_id": "C0001",
+        "size": 2,
+        "min_pairwise_sim": 0.966,
+        "titles": [
+          "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？ - AgeClub",
+          "融资数千万，一年冲刺3000家，中老年赛道的细分生意，为何让资本押注？ - 36 Kr"
+        ],
+        "final_scores": [
+          5.37,
+          4.8
+        ]
+      },
+      {
+        "cluster_id": "C0029",
+        "size": 2,
+        "min_pairwise_sim": 0.87,
+        "titles": [
+          "极光月狐发布 | 中国养老健康产品发展洞察 - 品玩",
+          "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经"
+        ],
+        "final_scores": [
+          5.0,
+          4.85
+        ]
+      },
+      {
+        "cluster_id": "C0041",
+        "size": 2,
+        "min_pairwise_sim": 1.0,
+        "titles": [
+          "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com",
+          "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program - krem.com"
+        ],
+        "final_scores": [
+          3.33,
+          3.33
+        ]
+      }
+    ]
+  }
+}
