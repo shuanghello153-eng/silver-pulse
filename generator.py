@@ -942,7 +942,7 @@ function updateDisplay(){
     const dateStr=item.dataset.date||'';
     let tmTime=true;
     if(activeTime!=='all'&&dateStr){
-      const days={'2w':14,'1m':30,'3m':90}[activeTime]||0;
+      const days={'1w':7,'2w':14,'1m':30,'3m':90}[activeTime]||0;
       const cut=new Date();cut.setDate(cut.getDate()-days);
       const d=new Date(dateStr.replace(/-/g,'/'));
       tmTime = d>=cut;
@@ -1023,9 +1023,18 @@ if(sbEl){sbEl.addEventListener('click',cycleSort);}
 document.querySelectorAll('.filter-btn[data-time]').forEach(btn=>{
   btn.addEventListener('click',function(){
     document.querySelectorAll('.filter-btn[data-time]').forEach(b=>b.classList.remove('active'));
-    this.classList.add('active');activeTime=this.dataset.time;updateDisplay();
+    this.classList.add('active');activeTime=this.dataset.time;
+    try{localStorage.setItem('sp_time_filter',activeTime);}catch(e){}
+    updateDisplay();
   });
 });
+(function(){
+  var st=null;try{st=localStorage.getItem('sp_time_filter');}catch(e){}
+  if(st){
+    activeTime=st;
+    document.querySelectorAll('.filter-btn[data-time]').forEach(function(b){b.classList.toggle('active',b.dataset.time===st);});
+  }
+})();
 updateDisplay();
 
 function toggleMoreTags(){{
@@ -1224,6 +1233,7 @@ def generate_html(scored_articles=None, output_path=None):
         '    <span class="filter-label">时间</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-time="all">全部</button>',
+        '      <button class="filter-btn" data-time="1w">近1周</button>',
         '      <button class="filter-btn" data-time="2w">近2周</button>',
         '      <button class="filter-btn" data-time="1m">近1月</button>',
         '      <button class="filter-btn" data-time="3m">近3月</button>',

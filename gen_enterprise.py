@@ -670,6 +670,14 @@ __SIDEBAR__
     <span class="f-label" style="margin-left:12px;">排序</span>
     <button class="sort-arrow active" data-sort="rv" onclick="setEntSort('rv')">评分 ↓</button>
     <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
+    <span class="f-label" style="margin-left:12px;">时间</span>
+    <div class="filter-btns" id="ent-time-pills">
+      <button class="f-btn active" data-enttime="all">全部</button>
+      <button class="f-btn" data-enttime="1w">近1周</button>
+      <button class="f-btn" data-enttime="2w">近2周</button>
+      <button class="f-btn" data-enttime="1m">近1月</button>
+      <button class="f-btn" data-enttime="3m">近3月</button>
+    </div>
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
     <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业（按最近动态时间倒序）">🔥 近期有动态</button>
     <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
@@ -712,6 +720,7 @@ let activeTag = 'all';
 let entSortMode = 'rv';
 let entSortDir = 'desc';
 let activeRecent = false;
+let activeEntTime = 'all';
 window.spReapply = filterEnt;
 
 function setEntSort(mode) {{
@@ -792,8 +801,16 @@ function filterEnt() {{
     const tagMatch = activeTag === 'all' || (activeTag === '__funded__' ? (card.dataset.hasfund === '1') : tag.includes(activeTag));
     const recentMatch = !activeRecent || card.dataset.recent === '1';
     const hiddenMatch = (window.spShowHidden === true) || (card.dataset.hide !== '1');
+    const timeMatch = (activeEntTime === 'all') ? true : (function() {{
+      const d = card.dataset.lastnews || '';
+      if (!d) return false;
+      const days = {{'1w':7,'2w':14,'1m':30,'3m':90}}[activeEntTime] || 0;
+      const cut = new Date(); cut.setDate(cut.getDate() - days);
+      const dd = new Date(d.replace(/-/g, '/'));
+      return dd >= cut;
+    }})();
 
-    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch) {{
+    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && timeMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
       if (cat && l2) {{
         if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};
@@ -914,6 +931,24 @@ document.querySelectorAll('.f-btn-l2').forEach(btn => {{
     filterEnt();
   }});
 }});
+
+// 时间筛选（按近期有动态的资讯日期过滤）
+document.querySelectorAll('#ent-time-pills [data-enttime]').forEach(btn => {{
+  btn.addEventListener('click', function() {{
+    document.querySelectorAll('#ent-time-pills [data-enttime]').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    activeEntTime = this.dataset.enttime;
+    try{{localStorage.setItem('sp_ent_time_filter', activeEntTime);}}catch(e){{}}
+    filterEnt();
+  }});
+}});
+(function() {{
+  var st = null; try{{st = localStorage.getItem('sp_ent_time_filter');}}catch(e){{}}
+  if (st) {{
+    activeEntTime = st;
+    document.querySelectorAll('#ent-time-pills [data-enttime]').forEach(function(b) {{ b.classList.toggle('active', b.dataset.enttime === st); }});
+  }}
+}})();
 
 function hideAllL2Rows() {{
   document.querySelectorAll('.l2-row').forEach(row => row.style.display = 'none');
