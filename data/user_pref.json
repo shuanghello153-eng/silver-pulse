@@ -1,0 +1,19 @@
+{
+  "weights": {
+    "industry": 0.18,
+    "signal": 0.24,
+    "writing": 0.14,
+    "cn_fit": 0.19,
+    "urgency": 0.15,
+    "novelty": 0.1
+  },
+  "history": [
+    {
+      "favorites": 1,
+      "news": 1,
+      "ents": 0,
+      "avg_novelty": 0.0,
+      "delta": {}
+    }
+  ]
+}
