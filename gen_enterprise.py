@@ -127,7 +127,7 @@ def _extract_fund_num(display):
     return val * mult
 
 
-def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_by_entity=None, last_news_date=None):
+def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_by_entity=None, last_news_date=None, news_count=0):
     """Build a compact horizontal card for one enterprise.
     All fields directly visible, empty fields hidden."""
     name = esc(ent.get("name", ""))
@@ -395,6 +395,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
         f'data-curated="{curated_attr}" '
         f'data-serial="{esc(serial)}" '
         f'data-rv="{esc(str(rv if rv is not None else 0))}" '
+        f'data-news="{news_count}" '
         f'data-fund="{fund_val:.4f}" '
         f'data-hasfund="{has_fund}" '
         f'data-ipo="{is_ipo}" '
@@ -466,6 +467,7 @@ def generate():
             (e.get("name_cn") or "").strip().lower(),
         ))
     _fallback_date = {}  # serial -> date（标题子串兜底命中）
+    _fallback_count = {}  # serial -> 兜底匹配到的资讯条数
     for n in scored_list:
         _title = ((n.get("title") or "") + " " + (n.get("title_cn") or "")).lower()
         _nd = _pdate(n.get("date"))
@@ -480,6 +482,7 @@ def generate():
             if _hit:
                 if _serial not in _fallback_date or _nd > _fallback_date[_serial]:
                     _fallback_date[_serial] = _nd
+                _fallback_count[_serial] = _fallback_count.get(_serial, 0) + 1
 
     last_news_map = {}
     for e in enterprises:
@@ -502,6 +505,17 @@ def generate():
             _ds.append(_fallback_date[_serial])
         if _ds:
             last_news_map[_serial] = max(_ds).strftime("%Y-%m-%d")
+
+    # === 匹配到的资讯文章数量（用于默认排序主键）===
+    # 来源：enterprise_scores 的 related_news_ids（管道权威匹配）+ 标题子串兜底命中数
+    news_count_map = {}
+    for _serial, _sc in ent_scores_map.items():
+        if not isinstance(_sc, dict):
+            continue
+        _rids = _sc.get("related_news_ids") or []
+        news_count_map[_serial] = len(_rids)
+    for _serial, _c in _fallback_count.items():
+        news_count_map[_serial] = news_count_map.get(_serial, 0) + _c
 
     # --- Phase 2: TOP 15 by research_value ---
     top_ranked = []
@@ -578,7 +592,7 @@ def generate():
         reverse=True,
     )
     cards_html = "\n".join(
-        build_card(e, ent_scores_map, news_map, competitors_map.get(e.get("serial", "")), news_by_entity, last_news_map.get(e.get("serial", "")))
+        build_card(e, ent_scores_map, news_map, competitors_map.get(e.get("serial", "")), news_by_entity, last_news_map.get(e.get("serial", "")), news_count_map.get(e.get("serial", ""), 0))
         for e in enterprises_sorted
     )
 
@@ -668,7 +682,8 @@ __SIDEBAR__
     <button class="f-btn" data-reg="1">国内</button>
     <button class="f-btn" data-reg="2">海外</button>
     <span class="f-label" style="margin-left:12px;">排序</span>
-    <button class="sort-arrow active" data-sort="rv" onclick="setEntSort('rv')">评分 ↓</button>
+    <button class="sort-arrow active" data-sort="news" onclick="setEntSort('news')">匹配资讯 ↓</button>
+    <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">评分 ↓</button>
     <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
     <span class="f-label" style="margin-left:12px;">时间</span>
     <div class="filter-btns" id="ent-time-pills">
@@ -717,7 +732,7 @@ let activeCat = 'all';
 let activeL2 = 'all';
 let activeView = 'curated';
 let activeTag = 'all';
-let entSortMode = 'rv';
+let entSortMode = 'news';
 let entSortDir = 'desc';
 let activeRecent = false;
 let activeEntTime = 'all';
@@ -734,7 +749,7 @@ function setEntSort(mode) {{
     const m = b.dataset.sort;
     b.classList.toggle('active', m === entSortMode);
     const arrow = (m === entSortMode) ? (entSortDir === 'desc' ? '↓' : '↑') : '↓';
-    b.textContent = (m === 'rv' ? '评分 ' : '融资金额 ') + arrow;
+    b.textContent = (m === 'news' ? '匹配资讯 ' : (m === 'rv' ? '评分 ' : '融资金额 ')) + arrow;
   }});
   filterEnt();
 }}
@@ -744,6 +759,23 @@ function sortEnt() {{
   const list = document.getElementById('ent-list');
   if (!list) return;
   const cards = Array.from(list.querySelectorAll('.ent-card'));
+  if (mode === 'news') {{
+    // 默认排序：主键=匹配到的资讯文章数量降序；次键=近期有动态的企业上浮；再次=研究价值降序
+    cards.sort(function(a, b) {{
+      const ca = parseInt(a.dataset.news || '0', 10);
+      const cb = parseInt(b.dataset.news || '0', 10);
+      let cmp = cb - ca;
+      if (cmp === 0) {{
+        cmp = (b.dataset.recent === '1' ? 1 : 0) - (a.dataset.recent === '1' ? 1 : 0);
+      }}
+      if (cmp === 0) {{
+        cmp = (parseFloat(b.dataset.rv) || 0) - (parseFloat(a.dataset.rv) || 0);
+      }}
+      return cmp;
+    }});
+    cards.forEach(function(c) {{ list.appendChild(c); }});
+    return;
+  }}
   if (activeRecent) {{
     // 聚焦近期：按最近动态时间倒序（无日期的排末尾）
     cards.sort(function(a, b) {{
