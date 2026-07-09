@@ -47,6 +47,11 @@ data/enterprise/_websearch_report.md
 # 每日生成的日志类（run_daily 每次重写）
 data/update_log.json
 
+# ===== Selfcheck 三道校验运行时产物（每周 regenerate，不入库避免噪音） =====
+data/selfcheck_backups/
+data/SELFCHECK_REPORT.md
+data/selfcheck_baseline.json
+
 # ===== 生成物HTML：不纳入 main 版本控制 =====
 # 仅通过 gh-pages 分支部署；纳入 main 会导致自动化每日提交与开发提交在
 # output/*.html / 根目录 *.html 上反复冲突（rebase 卡死）。

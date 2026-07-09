@@ -23,7 +23,11 @@ sys.path.insert(0, BASE_DIR)
 
 STEPS = [
     # [COST: zero] RSS 采集 48 信源 + Google News + manual 种子注入
+    #   （含增量跨周去重 + 每源健康统计，落 seen_urls.json / source_health.json）
     ("collector.collect_all()", "collector", "collect_all", ()),
+    # [COST: zero] 源健康监控 + 健康报告（data/health_report.json + 控制台摘要）
+    #   在采集步骤后运行，不阻断主流程；即便上游失败也基于已有数据出报告。
+    ("source_health.build_report()", "source_health", "build_report", ()),
     # [COST: zero] 信号过滤 + 聚合 + history 去重
     ("score_and_merge.main()", "score_and_merge", "main", ()),
     # [COST: zero] L2 自纠：两级闸门重过存量，清旧噪音
@@ -56,6 +60,9 @@ STEPS = [
     ("loop_audit.run_daily_step()", "loop_audit", "run_daily_step", ()),
     # [COST: zero] L2 进化层（噪音spike/精选暴跌/规则漂移检测+封禁）
     ("noise_spike_guard.run_daily_step()", "noise_spike_guard", "run_daily_step", ()),
+    # [COST: zero] 三道零成本校验：死链检测 / JSON 字段断言 / 评分一致性抽样
+    #   （生成 HTML 之后、部署之前）。字段断言硬错可阻断部署；其余仅报告。
+    ("selfcheck.run_daily_step()", "selfcheck", "run_daily_step", ()),
     # [COST: zero] 可观测性：每日健康报告 + 趋势历史
     ("daily_health.run_daily_step()", "daily_health", "run_daily_step", ()),
     # [COST: zero] Loop 自我进化：阈值自适应（方向1）。默认 ENABLE_AUTO_THRESHOLD=False
@@ -133,12 +140,19 @@ def main():
     for label, ok, err, ret in results:
         if label == "loop_audit.run_daily_step()" and ok and isinstance(ret, dict) and ret.get("has_blocking"):
             audit_blocking.append("loop_audit(%d critical)" % ret["critical"])
-    if critical_failed or audit_blocking:
+    # 三道校验：仅「字段断言硬错」阻断部署（死链/评分不一致仅报告，不阻断）。
+    selfcheck_blocking = []
+    for label, ok, err, ret in results:
+        if label == "selfcheck.run_daily_step()" and ok and isinstance(ret, dict) and ret.get("has_blocking"):
+            selfcheck_blocking.append("selfcheck(%d 硬错)" % ret.get("schema_hard_errors", 0))
+    if critical_failed or audit_blocking or selfcheck_blocking:
         blocked_by = []
         if critical_failed:
             blocked_by.append("步骤失败: " + ", ".join(critical_failed))
         if audit_blocking:
             blocked_by.append("质量自审: " + ", ".join(audit_blocking))
+        if selfcheck_blocking:
+            blocked_by.append("三道校验: " + ", ".join(selfcheck_blocking))
         print("DEPLOY skipped: -> %s" % " | ".join(blocked_by))
         print("STATE.md 已标 FAIL，09:00 补跑将重试。")
     else:
@@ -149,8 +163,8 @@ def main():
         except Exception as e:  # noqa: BLE001
             print("DEPLOY gh-pages skipped: %s" % e)
 
-    # 退出码与部署门槛一致：关键步失败 或 质量自审 CRITICAL 阻断 → 视为失败（1），触发补跑
-    return 0 if not (critical_failed or audit_blocking) else 1
+    # 退出码与部署门槛一致：关键步失败 / 质量自审 CRITICAL / 三道校验硬错 阻断 → 失败（1），触发补跑
+    return 0 if not (critical_failed or audit_blocking or selfcheck_blocking) else 1
 
 
 if __name__ == "__main__":
