@@ -11,7 +11,7 @@
       "产品发布",
       "健康服务"
     ],
-    "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
+    "recommendation": "行业报告揭示结构性机会，可作为选题地图。",
     "id": 158,
     "summary": "银发快讯 | 同仁堂医养在港交所上市；46岁+下沉市场用户占比达46.3%；蚂蚁健康、仁济医院等推出“AI陪诊码”&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4ydU8wUVliS3k2UldPV0pUcWVYMEhZUEtpVVFPWDJiOVNGUGphMmFSaEM1TUpTTHZzQ0d0REFaTXpoWmUtUWszNzBVQ1lQcHMtTFJtSUx3?oc=5",
@@ -20,7 +20,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 10.0,
       "writing": 6.0,
@@ -31,7 +31,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "同仁堂",
     "cluster_id": "C0000",
     "title_cn": "银发快讯 | 同仁堂医养在港交所上市；46岁+下沉市场用户占比达46.3%；蚂蚁健康、仁济医院等推出“AI陪诊码” - AgeClub",
     "summary_cn": "银发快讯 | 同仁堂医养在港交所上市；46岁+下沉市场用户占比达46.3%；蚂蚁健康、仁济医院等推出“AI陪诊码”&nbsp;&nbsp;AgeClub",
@@ -39,9 +39,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 10.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -55,7 +53,7 @@
       "行业趋势",
       "融资"
     ],
-    "recommendation": "产业资本/投资机构：。行业报告揭示结构性机会，可作为选题地图。",
+    "recommendation": "行业报告揭示结构性机会，可作为选题地图。",
     "id": 159,
     "summary": "融资数千万，一年冲刺3000家！中老年赛道的细分生意，为何让资本押注？&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzOTMxNy1RWXBicmNuQ0pxdENXRlBGcURDS1Y1S2xydUpQQl8yR2M0X250LVBld0ZneTc0QXdFNnI5alo4NjcxWnRyRDR0eG8wYlBjb1lB?oc=5",
@@ -64,7 +62,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -83,9 +81,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 2,
     "tier": 1
@@ -100,7 +96,7 @@
       "智慧养老",
       "行业趋势"
     ],
-    "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+    "recommendation": "行业报告揭示结构性机会，可作为选题地图。",
     "id": 162,
     "summary": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RNHB1NzZCbF9NMzBTMjBhWHBsa3VqbUxNczU2T3FQRHFRcXlfRXFQdjF6NnJ5N0hRSTRTR21NTTR2SFNnN0dYRTV1Nll5S3dVM0xlNVhR?oc=5",
@@ -109,7 +105,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "其他事件",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 6.0,
@@ -120,7 +116,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "腾讯",
     "cluster_id": "C0015",
     "title_cn": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？ - AgeClub",
     "summary_cn": "阿里腾讯押注10亿！估值飙至70亿的“通用机器人”，会是未来养老的答案吗？&nbsp;&nbsp;AgeClub",
@@ -128,9 +124,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -144,7 +138,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "健康服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+    "recommendation": "宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
     "id": 172,
     "summary": "城乡三级养老服务网络建设管理指引发布&nbsp;&nbsp;新京报",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Pdm5MYXFxRUkwaGk4RjI4VzYwdzRHLVpGemVtNU1nTmdCS0ZlZjg5UU1vcndqQjgyTzFBQXo5WjBJaHlONEQzTU1GWUkyemRuMVBOWkQ0Y3M0R05VOGoya0tGelo?oc=5",
@@ -153,7 +147,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -172,9 +166,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 3,
     "tier": 2
@@ -188,7 +180,7 @@
       "行业趋势",
       "融资"
     ],
-    "recommendation": "产业资本/投资机构：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+    "recommendation": "宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
     "id": 174,
     "summary": "融资数千万，一年冲刺3000家，中老年赛道的细分生意，为何让资本押注？&nbsp;&nbsp;36 Kr",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RMUd2ZmQzUEMyXzFzZHNQclV6QnRUbVFCdU1OQm15T0Q1ZVE3Y2E4eThFZGljRXU3c1RZaXNBeGxPLXF4eFc2ZnA4bmFiNU1m?oc=5",
@@ -197,7 +189,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -216,9 +208,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": false,
     "cluster_size": 2,
     "tier": 2
@@ -229,9 +219,10 @@
     "signal_score": 4,
     "category": "archive",
     "tags": [
+      "行业趋势",
       "产品发布"
     ],
-    "recommendation": "养老服务：新品亮相。海外新品的功能定义和定价策略，是国内产品经理的免费教材。",
+    "recommendation": "跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
     "id": 179,
     "summary": "民政部发布城乡三级养老服务网络建设管理指引（全文）&nbsp;&nbsp;观点网",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZUFk3bnNKYTF4ZnE1X2xGNmlGd2E0TmZjSnpvZllZRmdsX3h2YmR3OFBZNHpBdFVTVlNlNHhOc1pBMkt6d3NTLWpMOWxsZw?oc=5",
@@ -240,7 +231,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -251,7 +242,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "政部发布城乡三级养老",
     "cluster_id": "C0019",
     "title_cn": "民政部发布城乡三级养老服务网络建设管理指引（全文） - 观点网",
     "summary_cn": "民政部发布城乡三级养老服务网络建设管理指引（全文）&nbsp;&nbsp;观点网",
@@ -259,9 +250,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": false,
     "cluster_size": 3,
     "tier": 2
@@ -272,9 +261,10 @@
     "signal_score": 4,
     "category": "archive",
     "tags": [
+      "行业趋势",
       "产品发布"
     ],
-    "recommendation": "健康服务：新品亮相。新产品发布揭示用户需求演进，国内团队可对照自身产品路线图。",
+    "recommendation": "行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
     "id": 180,
     "summary": "城乡三级养老服务网络建设管理指引发布&nbsp;&nbsp;大河财立方",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42aGt6UUFtbEJmY3dJUG9vUk81UnNHTEFvVFJRYnB0eEFhdXBjclIzbC01ZWx6ajJ1dFF2LU55UFZGdzNMai1tLUNMWVVCb2NUY0lfTmlxeDA1MXB3SC1kakZvcFBVd2hrWVE?oc=5",
@@ -283,7 +273,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -302,9 +292,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": false,
     "cluster_size": 3,
     "tier": 2
@@ -315,9 +303,10 @@
     "signal_score": 4,
     "category": "archive",
     "tags": [
+      "行业趋势",
       "产品发布"
     ],
-    "recommendation": "行业服务：新品亮相。海外新品的功能定义和定价策略，是国内产品经理的免费教材。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 181,
     "summary": "视频 | 中国工商银行养老金融部副总经理吕艾国：推出“个人养老保障计划”解决两大类难题&nbsp;&nbsp;cb.com.cn",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLb0lWYjdYa3dwWk0yNVZPT0xJSGZQd1U4a2pQMDhxQThQWjl4b1VkNEc3Y0kxeF9GWkE2dlh6WlRzUkxHUktmQWRYNUZqU1NGbk04TlI3cUNsSXA2WWxuUQ?oc=5",
@@ -326,7 +315,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -337,7 +326,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "个人养老",
     "cluster_id": "C0020",
     "title_cn": "视频 | 中国工商银行养老金融部副总经理吕艾国：推出“个人养老保障计划”解决两大类难题 - cb.com.cn",
     "summary_cn": "视频 | 中国工商银行养老金融部副总经理吕艾国：推出“个人养老保障计划”解决两大类难题&nbsp;&nbsp;cb.com.cn",
@@ -345,9 +334,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "行业服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -358,9 +345,10 @@
     "signal_score": 4,
     "category": "archive",
     "tags": [
+      "行业趋势",
       "产品发布"
     ],
-    "recommendation": "养老服务：新产品/服务上线。海外新品的功能定义和定价策略，是国内产品经理的免费教材。",
+    "recommendation": "行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
     "id": 186,
     "summary": "BedHub Launches Nationwide After Founder’s Personal Search for Senior Care&nbsp;&nbsp;EIN Presswire",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeUtIQWlvb2gydFZobnZMRTNtT3NuUVpLSlFjdGRVSDQ1cDVEWjJTSFJndG9CN3phUkZkT0liZkFVa3o2TWxTcmlKRG9GOVRJNHQwNUlSS25MUFJ5MEJDUGdGSV9XLWRBNndacE1MdlpTWUZkZV9xajBGR2Z6X1Q0dFVGbDRFNXdsbHYxUDR3dnBHaGVHbEFjTEFjcnRmaTFxZC1IS25Eem1rZm9qYm9fR29Vc3ZWa2V2ampLc1BR?oc=5",
@@ -369,7 +357,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -380,7 +368,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "BedHub",
     "cluster_id": "C0021",
     "title_cn": "BedHub Launches Nationwide After Founder’s Personal Search for Senior Care - EIN Presswire",
     "summary_cn": "BedHub Launches Nationwide After Founder’s Personal Search for Senior Care&nbsp;&nbsp;EIN Presswire",
@@ -388,10 +376,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -406,7 +391,7 @@
       "养老地产",
       "行业趋势"
     ],
-    "recommendation": "养老地产：。行业报告揭示结构性机会，可作为选题地图。",
+    "recommendation": "行业报告揭示结构性机会，可作为选题地图。",
     "id": 187,
     "summary": "C端用户视角的美国最大退休社区 The Villages 记录，现象级传播（900万+ 播放），是观察美国养老社区 C端需求与生活方式的标杆样本。",
     "url": "https://www.youtube.com/results?search_query=Peter+Santenello+The+Villages+Florida",
@@ -415,7 +400,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "其他事件",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 1.0,
       "writing": 6.0,
@@ -426,7 +411,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "The Villages",
     "cluster_id": "C0016",
     "title_cn": "The Villages, Florida｜Peter Santenello 爆款 vlog（900万+ 播放，C端现象级）",
     "summary_cn": "C端用户视角的美国最大退休社区 The Villages 记录，现象级传播（900万+ 播放），是观察美国养老社区 C端需求与生活方式的标杆样本。",
@@ -434,10 +419,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 1.0,
-    "domains": [
-      "养老地产",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 3
@@ -452,7 +434,7 @@
       "养老地产",
       "行业趋势"
     ],
-    "recommendation": "行业服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+    "recommendation": "跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
     "id": 188,
     "summary": "Lance Oppenheim 执导、纪录美国最大退休社区 The Villages 真实生活的独立纪录片，被多家媒体评为观察美国老龄化现象的必看样本。",
     "url": "https://www.youtube.com/results?search_query=Some+Kind+of+Heaven+The+Villages+documentary",
@@ -461,7 +443,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "其他事件",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 1.0,
       "writing": 4.0,
@@ -472,7 +454,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "The Villages",
     "cluster_id": "C0017",
     "title_cn": "《Some Kind of Heaven》｜The Villages 养老社区纪录片（圣丹斯参展）",
     "summary_cn": "Lance Oppenheim 执导、纪录美国最大退休社区 The Villages 真实生活的独立纪录片，被多家媒体评为观察美国老龄化现象的必看样本。",
@@ -480,11 +462,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 1.0,
-    "domains": [
-      "行业服务",
-      "养老地产",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 3
@@ -499,7 +477,7 @@
       "战略合作",
       "行业趋势"
     ],
-    "recommendation": "养老地产：新产品/服务上线。从新品发布的市场反馈，可预判国内同类需求的成熟时间窗口。",
+    "recommendation": "战略合作：新产品/服务上线。海外新品的功能定义和定价策略，是国内产品经理的免费教材。",
     "id": 189,
     "summary": "REDICO and Ciel Senior Living Announce Joint Venture Partnership to Develop a New Senior Living Community in Rehoboth Beach&nbsp;&nbsp;PR Newswire",
     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQU1NLY1YzczBxMVJybXBmZlIyUE1icGcyX1ducTRmbGtvWnFKSGwtZWRPdUZncGwwVlVaNEZHMGpzT1FlaUxnOU1lenI5cnRKeUg4RXZOWEZTbWxfSmNwUHpDcTZvU2tIQ0NSZUthZkVQZjl1Tm91WGsxYnM3T053RS1ObEFDVHZPUk9kZGdDdUx1VllfLS1Ocklka2g4OF81VnNUc05jNXU1QXpjRVhvVWk2X25KeE5rVVF5Vlh2SVJLeThXZ0NqbjJIcjExcEQ2bS1YYnpQYVgyNkVHakdXekZCeEY5ME84WlJiWHg5RjMxMUJoa2JjcHVwY21GVlZyZm1Nd19qYTBUZEE?oc=5",
@@ -508,7 +486,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 8.0,
       "writing": 6.0,
@@ -527,10 +505,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 8.0,
-    "domains": [
-      "养老地产",
-      "康复设备"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -541,10 +516,11 @@
     "signal_score": 6,
     "category": "watch",
     "tags": [
+      "行业趋势",
       "收购",
       "收购并购"
     ],
-    "recommendation": "养老地产：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 190,
     "summary": "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside&nbsp;&nbsp;citybiz",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaFNKNDh6RUp5T3pSZ3JHekJUalN3VEhQRXlnMnJ0M0dkbE5LOVh6S2FUajhGMGVOaEs1c3FVaUM0clJFa0JSaHpTdkFZc242NHdZWmNOMVhZNlJXd2N5dkQwUHB2aE93WkU3VjdDVjhUbEhIRTBDYUhiUTVXMHZyczhSSVJ5OGktdmxvM05DVjhCWGpZeVgwbDFjSE5FVFNxN3pPSEhLRDZ2SDlqTGo4LWF0NTRrUkl2REpkeHF1TFBuU1VZTGw3YTdOZ2diNnc2Wk5JWGQ3OWFLYWlMQ0E?oc=5",
@@ -553,7 +529,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 8.0,
@@ -564,7 +540,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Associates NYC",
     "cluster_id": "C0042",
     "title_cn": "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside - citybiz",
     "summary_cn": "Lee & Associates NYC Completes $7.5 Million Land Acquisition for Sunrise Senior Living Community in Oceanside&nbsp;&nbsp;citybiz",
@@ -572,9 +548,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "养老地产"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 2,
     "tier": 2
@@ -585,10 +559,11 @@
     "signal_score": 8,
     "category": "high",
     "tags": [
+      "行业趋势",
       "收购",
       "收购并购"
     ],
-    "recommendation": "健康服务：。行业报告揭示结构性机会，可作为选题地图。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 191,
     "summary": "Frazier Healthcare Partners Acquires MatrixCare&nbsp;&nbsp;Hospice News",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbkhwXzA5U3pxVm1zWkVDRGhCY2ZkZzJmSzZGODAyTGJzVlhlM01nM0l0aEJXTkVJQ0hiYW8zTnJ3aGhaeW5IN2dyaHdZUC1zNEp6RV9neGpKUm5GLWRURE16UUFiRU94ZXNNNVF5OGNNOGRPbThhUzJ6Ty15NGVBSVY2bnVZbjJ1TlU0?oc=5",
@@ -597,7 +572,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 8.0,
       "writing": 6.0,
@@ -608,7 +583,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Frazier Healthcare Partners",
     "cluster_id": "C0043",
     "title_cn": "Frazier Healthcare Partners Acquires MatrixCare - Hospice News",
     "summary_cn": "Frazier Healthcare Partners Acquires MatrixCare&nbsp;&nbsp;Hospice News",
@@ -616,10 +591,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 8.0,
-    "domains": [
-      "健康服务",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -630,11 +602,12 @@
     "signal_score": 7,
     "category": "high",
     "tags": [
+      "行业趋势",
       "收购",
       "居家养老",
       "收购并购"
     ],
-    "recommendation": "养老服务：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 192,
     "summary": "Kindred Home Care Acquires Helping Hands Group&nbsp;&nbsp;HomeCare Magazine",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORWxQN0JPRUk4aDZtRmNOTjdmdUo3bkh6cDZfQlVvODZCTTl2YXZfM1BJTHRVZ2hLdlJqZmJ6MHpiVHdXNE8xekdfaDN2NF81SzNyYmt4TjZ5c0Y0LURYRWdJSFN0dmllQ3JlcHlZakhrcHJJNlJBMl9UT1kyYVdYbEgxVW1IQQ?oc=5",
@@ -643,7 +616,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -654,7 +627,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Ping",
     "cluster_id": "C0044",
     "title_cn": "Kindred Home Care Acquires Helping Hands Group - HomeCare Magazine",
     "summary_cn": "Kindred Home Care Acquires Helping Hands Group&nbsp;&nbsp;HomeCare Magazine",
@@ -664,10 +637,7 @@
     "signal": 7.0,
     "is_main": true,
     "cluster_size": 1,
-    "domains": [
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "tier": 2
   },
   {
@@ -676,10 +646,11 @@
     "signal_score": 6,
     "category": "watch",
     "tags": [
+      "行业趋势",
       "收购",
       "收购并购"
     ],
-    "recommendation": "养老地产：。宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 193,
     "summary": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside&nbsp;&nbsp;New York Real Estate Journal",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjNpM0VRZVNMQTFqbDFlSzIwWTlJT1YtUnFaS2tFVXpTQ0ZFTTdOaDRzZWU0VUVxYWdhQ1c0WHpEQ0N6V1lQNnBQa3pjZDRrd0I4WlFQNm84YmFNbmdrOUllaUJxQWdMT29FS0o1V3dvUTZHQ1poRU1LU1U1NVRqaU41ekdZWTdHem0zQXNoRkV6SW1RZkxJdWUxdW0xUXBHbFdGTFo4enZEcUdzODcyMmlueTJzNGRYZVFBN0JLeDI?oc=5",
@@ -688,7 +659,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 8.0,
@@ -699,7 +670,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Associates NYC",
     "cluster_id": "C0042",
     "title_cn": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside - New York Real Estate Journal",
     "summary_cn": "Lee & Associates NYC completes $7.5 million land acquisition for Sunrise Senior Living Community in Oceanside&nbsp;&nbsp;New York Real Estate Journal",
@@ -709,9 +680,7 @@
     "signal": 6.0,
     "is_main": false,
     "cluster_size": 2,
-    "domains": [
-      "养老地产"
-    ],
+    "domains": [],
     "tier": 2
   },
   {
@@ -725,7 +694,7 @@
       "产品发布",
       "养老地产"
     ],
-    "recommendation": "养老地产：。行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 45,
     "summary": "银发快讯 | 投资超2亿，首个开源鸿蒙养老护理院落地；红松推出AI生活记录产品；具身智能「墨奇智能」融资超10亿&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
@@ -734,7 +703,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 10.0,
       "writing": 8.0,
@@ -745,7 +714,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "红松",
     "cluster_id": "C0002",
     "title_cn": "银发快讯 | 投资超2亿，首个开源鸿蒙养老护理院落地；红松推出AI生活记录产品；具身智能「墨奇智能」融资超10亿 - AgeClub",
     "summary_cn": "银发快讯 | 投资超2亿，首个开源鸿蒙养老护理院落地；红松推出AI生活记录产品；具身智能「墨奇智能」融资超10亿&nbsp;&nbsp;AgeClub",
@@ -753,10 +722,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 10.0,
-    "domains": [
-      "养老地产",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -770,7 +736,7 @@
       "行业趋势",
       "融资"
     ],
-    "recommendation": "购物渠道：。行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 58,
     "summary": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
@@ -779,7 +745,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -790,7 +756,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "新项目",
     "cluster_id": "C0003",
     "title_cn": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
     "summary_cn": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进&nbsp;&nbsp;AgeClub",
@@ -798,9 +764,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "购物渠道"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -816,7 +780,7 @@
       "居家养老",
       "收购并购"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 160,
     "summary": "Avid Health Acquires Tech Medical Home Care&nbsp;&nbsp;HomeCare Magazine",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU29FN1U3eF9BMDA5ZDlrcmU0QnVKQU1YZzBfZk14WFZkel9ZRjdHcGxNOFM4N2ZXRG94dW5BTTE3WERXX19nMnZLcnlFYjJkWktXdnMxWkVMTEo2Y0pFV3RSeVNXaHNLclB1UUhpenpwVVdQN3JaalFSbVEwVjJiQmx3?oc=5",
@@ -825,7 +789,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -836,7 +800,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Avid Health",
     "cluster_id": "C0045",
     "title_cn": "Avid Health Acquires Tech Medical Home Care - HomeCare Magazine",
     "summary_cn": "Avid Health Acquires Tech Medical Home Care&nbsp;&nbsp;HomeCare Magazine",
@@ -844,10 +808,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "健康服务",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -863,7 +824,7 @@
       "居家养老",
       "收购并购"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 163,
     "summary": "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States&nbsp;&nbsp;Home Health Care News",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZFg3amY0UkR3Y3kxdl9fV0RTVGVIMHY3X2VXcThUdHNnb2FxUGZkeUd6M0s4OUZIMU03Mzh3aVJaeDJyUlY3M0RST3hNblY0bnNpeHN6RlowNHNlSUdJTnJ4QUQ0MWNDRzVIbzZubjdBb2ZmajBDeTkyZ0x6eW05RkpEMDRXY0pINUtlT3hmR3BOcUFzRzRzVENhM0tkS2dfOEc1Wm9fV2YxdkRyYWZQdUJUZzJWYVh6Tlp1Sg?oc=5",
@@ -872,7 +833,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 6.0,
@@ -883,7 +844,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Avid Health at Home",
     "cluster_id": "C0046",
     "title_cn": "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States - Home Health Care News",
     "summary_cn": "Avid Health at Home Acquires Tech Medical Home Care Services, Enters 2 New States&nbsp;&nbsp;Home Health Care News",
@@ -891,10 +852,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "健康服务",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -909,7 +867,7 @@
       "产品发布",
       "政策法规"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 164,
     "summary": "“粤港养老通”上线 在粤养老香港长者津贴可直达内地账户&nbsp;&nbsp;广州市人民政府",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSmJrX3hYQ0FHZ2hpNlJXbHhrN3BPM1lBTXVtd0pLX0V5Sjcxb0hwc2V3eV9QV2FVRWF4NzNkRlRsSk00VHNtTWViZUt4S3R0R1NYN3JUZXpKNjA5Tm8zQzk4NU4tbkZwb1M0eERoRDUxbmhreGZOWXZzbHpUN2xjU2dGdnM5NEE?oc=5",
@@ -918,7 +876,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "政策法规",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -929,7 +887,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "粤港养老",
     "cluster_id": "C0052",
     "title_cn": "“粤港养老通”上线 在粤养老香港长者津贴可直达内地账户 - 广州市人民政府",
     "summary_cn": "“粤港养老通”上线 在粤养老香港长者津贴可直达内地账户&nbsp;&nbsp;广州市人民政府",
@@ -937,9 +895,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -954,7 +910,7 @@
       "收购",
       "收购并购"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 166,
     "summary": "National Healthcare Properties closes $197M in senior living acquisitions&nbsp;&nbsp;McKnight's Senior Living",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSUY5ZGJfZnZDdEVZN01JMEFIMEIxU0puczNOY3loRGhUMVBpMWpnY3BxM2plSkFaUzRvcnJSSWNob1dRdmVqdXBEaEFmWjIya1Q1d01BdFd1Z0RkZl9Dam52TmF6UnhydDREdE91a0NTZHIyNzUzUTRGSUhDZFh0bmZJRmo0WmdDQVJ6SEpwX25seDMzNk9uOGQ3cVNaTGNjZnpOdWhScFBjOGxpc3Y4azNvUngtaTQ?oc=5",
@@ -963,7 +919,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 8.0,
       "writing": 8.0,
@@ -974,7 +930,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "National Healthcare Properties",
     "cluster_id": "C0047",
     "title_cn": "National Healthcare Properties closes $197M in senior living acquisitions - McKnight's Senior Living",
     "summary_cn": "National Healthcare Properties closes $197M in senior living acquisitions&nbsp;&nbsp;McKnight's Senior Living",
@@ -982,12 +938,7 @@
     "centrality": 6,
     "novelty": 2,
     "signal": 8.0,
-    "domains": [
-      "健康服务",
-      "养老地产",
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1002,7 +953,7 @@
       "产品发布",
       "政策法规"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 167,
     "summary": "广东上线“粤港养老通” 港元津贴一键直达&nbsp;&nbsp;cb.com.cn",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JT3k4S3p4bVdfaUszRE5nVXBac0k3VldvTjlPQ2dfSXhXa1NmaHRrNjhLbkV5QkZ1ZTZkZWRKSTNkR3h3aWRHbEQ3Tzg2NC1xVTJpaTdwZzA3dGpDTkZVVzhB?oc=5",
@@ -1011,7 +962,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1022,7 +973,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "粤港养老",
     "cluster_id": "C0023",
     "title_cn": "广东上线“粤港养老通” 港元津贴一键直达 - cb.com.cn",
     "summary_cn": "广东上线“粤港养老通” 港元津贴一键直达&nbsp;&nbsp;cb.com.cn",
@@ -1030,9 +981,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1046,7 +995,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 168,
     "summary": "工行广东分行正式上线“粤港养老通” 助力跨境养老金融服务再升级&nbsp;&nbsp;新浪财经",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SWlI0cmlmSThKZzZHeENJNHVKRnNNVW53Z0xneF9aSHlaektEMm5samgzUEVlcDNuSmI5U0xmbnYzVUVDN1RCbXhwV3RjTHhOekNLTHNJV3d6OWpmMUFHUjRRQk5MV3FfT2xMQUxEVHBNNXdXb2c?oc=5",
@@ -1055,7 +1004,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1066,7 +1015,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "粤港养老",
     "cluster_id": "C0024",
     "title_cn": "工行广东分行正式上线“粤港养老通” 助力跨境养老金融服务再升级 - 新浪财经",
     "summary_cn": "工行广东分行正式上线“粤港养老通” 助力跨境养老金融服务再升级&nbsp;&nbsp;新浪财经",
@@ -1074,9 +1023,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "行业服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1091,7 +1038,7 @@
       "产品发布",
       "养老地产"
     ],
-    "recommendation": "养老地产：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 173,
     "summary": "NIC Launches Affordability Calculator to Help Measure Long-Term Cost of Assisted Living&nbsp;&nbsp;Boston Real Estate Times",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEU4RS01VXVCYUJPblBWR054RVZGeTRyZkVYUU8tV1hhN1pUZnROT05kUEV6dERCX1FVX1ZmZDZwUERWZU84ZjFhTHdvcGZUUW1BU0RzQnpPSC0yUzZ3alZudkVzY1J3OElWMllEbllrQWJkaXNOZ2FpWkhueVhKbWJpeW5HdlBkSDlUQzBieE5vNmc1WkJNRTFaYlprLXkyejVwN2swWUxIT05FSlFHN2hfNXloOWppZUt0NFVIWQ?oc=5",
@@ -1100,7 +1047,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1111,7 +1058,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "NIC",
     "cluster_id": "C0025",
     "title_cn": "NIC Launches Affordability Calculator to Help Measure Long-Term Cost of Assisted Living - Boston Real Estate Times",
     "summary_cn": "NIC Launches Affordability Calculator to Help Measure Long-Term Cost of Assisted Living&nbsp;&nbsp;Boston Real Estate Times",
@@ -1119,11 +1066,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老地产",
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1137,7 +1080,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 175,
     "summary": "养老服务改革有新发展 民政部发布新指引&nbsp;&nbsp;潮新闻",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS0RiVTVkQ2RWTHlMdWNKbXlhZFFjUGNOV1A0czN5NldCOUFEcGpGLVUzR2ItLWZNTng4QTVubndiS3lJck10bldQWkM3dlVuV1pZVENvVlh2WlVYblY2WUt3cWVxUC1HQ09pRTUtelY2Mk5SZ0hVdmtIN1k5R0tTWkgzYlVQZ3VUaXNiQmdOSjBKUThHYXlKeWdhR1AzZw?oc=5",
@@ -1146,7 +1089,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1165,9 +1108,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1181,7 +1122,7 @@
       "产品发布",
       "行业趋势"
     ],
-    "recommendation": "健康服务：新品亮相。从新品发布的市场反馈，可预判国内同类需求的成熟时间窗口。",
+    "recommendation": "极光月狐：新品亮相。海外新品的功能定义和定价策略，是国内产品经理的免费教材。",
     "id": 176,
     "summary": "极光月狐发布 | 中国养老健康产品发展洞察&nbsp;&nbsp;品玩",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sbFZlb3ZDcHlPSE9lX1gwVkRrN21XNTJ6cWtfYTZTbzlQWWFfbUJwZXh5MGFTdmlmQ2VwcmVmYTVOSURkWmNUcA?oc=5",
@@ -1190,7 +1131,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1201,7 +1142,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "极光月狐",
     "cluster_id": "C0027",
     "title_cn": "极光月狐发布 | 中国养老健康产品发展洞察 - 品玩",
     "summary_cn": "极光月狐发布 | 中国养老健康产品发展洞察&nbsp;&nbsp;品玩",
@@ -1209,9 +1150,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 2,
     "tier": 2
@@ -1226,7 +1165,7 @@
       "产品发布",
       "政策法规"
     ],
-    "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 177,
     "summary": "广东：“粤港养老通”上线在粤养老长者港币津贴一键直达- 银龄在线&nbsp;&nbsp;中国老龄协会",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95cEJkMjlTNFJPemltbTJyZ1FDcFhHZEhTcUdSbzdTMEh3LWNlUE0wd2t4a3V6TEdkcE1vVnZDYU05bUpjcXRnNDJhRXNJLUhKa1lTMHJHUkJYUQ?oc=5",
@@ -1235,7 +1174,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1246,7 +1185,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "粤港养老",
     "cluster_id": "C0028",
     "title_cn": "广东：“粤港养老通”上线在粤养老长者港币津贴一键直达- 银龄在线 - 中国老龄协会",
     "summary_cn": "广东：“粤港养老通”上线在粤养老长者港币津贴一键直达- 银龄在线&nbsp;&nbsp;中国老龄协会",
@@ -1254,9 +1193,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "行业服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1270,7 +1207,7 @@
       "养老地产",
       "行业趋势"
     ],
-    "recommendation": "养老服务：。海外 CCRC 模式的运营数据，是国内养老地产投资的重要参照。",
+    "recommendation": "养老地产存量改造经验对中国大量老旧设施有参考价值。",
     "id": 178,
     "summary": "GAO Releases Report on Assisted Living Spending and Coverage&nbsp;&nbsp;LeadingAge",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeHdaMGpZdk5FZ01OSmlCUHVXR252bkRRWU9xVkNHcFhLMC16UENxaVNpNHhKQUhqS0x6Ri0zTUdFcTc1TzZaTjNGMk9LM3pZT0E1SGNORXZmUFVIMmlhck00UkRGaGFXM21yWkZQUGhvQW9ZdzNkWWdrc3BYZXZuTVRUUm5kb2F2UTY2VQ?oc=5",
@@ -1290,7 +1227,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "GAO",
     "cluster_id": "C0055",
     "title_cn": "GAO Releases Report on Assisted Living Spending and Coverage - LeadingAge",
     "summary_cn": "GAO Releases Report on Assisted Living Spending and Coverage&nbsp;&nbsp;LeadingAge",
@@ -1298,10 +1235,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 5.0,
-    "domains": [
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1312,11 +1246,12 @@
     "signal_score": 6,
     "category": "watch",
     "tags": [
+      "行业趋势",
       "收购",
       "居家养老",
       "收购并购"
     ],
-    "recommendation": "健康服务：。行业集中度的变化趋势，揭示了哪些细分正在走向整合。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 182,
     "summary": "Ep. 32 - Building a Tech-Enabled Healthcare Roll-Up * Home Care Acquisitions & M&amp;A Strategy&nbsp;&nbsp;YouTube",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wY2VXNzJDelMyMFAxdUc1VzQxdENNRTN4M243d2M5a3RUczBCT1l2QkRkNy1FaGJMY2s1OTBaUWJNUG1uOXQ4Snowb2JPY2JOc0p4Ynp3?oc=5",
@@ -1325,7 +1260,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 6.0,
@@ -1344,10 +1279,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "健康服务",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1362,7 +1294,7 @@
       "融资",
       "智慧养老"
     ],
-    "recommendation": "适老化改造：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 15,
     "summary": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
@@ -1371,7 +1303,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 10.0,
       "writing": 8.0,
@@ -1382,7 +1314,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "如身机器人",
     "cluster_id": "C0004",
     "title_cn": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造 - AgeClub",
     "summary_cn": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造&nbsp;&nbsp;AgeClub",
@@ -1390,9 +1322,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 10.0,
-    "domains": [
-      "适老化改造"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1407,7 +1337,7 @@
       "融资",
       "智慧养老"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 125,
     "summary": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI&nbsp;&nbsp;The AI Journal",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmY4cEd3dThGZkdjNHlyYkcyMm5ub0FyZC02d0U4dVNnSUxFV2I4clQ3NFAwZjdfY01ZZmgwSm9YVFB6Mm9PaW10RFN3UDg0a0VGZVJjNnJzMkhISjFBa0t3YTFzQ3FSNWdvZWZxV2dJX1NiXzRHTFd5ZGxyMjAzVFp5bW43U0FhTHpPaC10Z1hxX3VJTHVvUmhEMDgxcUV0V1hhMWFRV0xZdmJS?oc=5",
@@ -1416,7 +1346,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 8.0,
@@ -1427,7 +1357,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Callie Care",
     "cluster_id": "C0005",
     "title_cn": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI - The AI Journal",
     "summary_cn": "Callie Care Raises $500K Pre-Seed to Tackle America’s Senior Care Gap With Phone-First AI&nbsp;&nbsp;The AI Journal",
@@ -1435,9 +1365,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1452,7 +1380,7 @@
       "战略合作",
       "行业趋势"
     ],
-    "recommendation": "养老服务：。跨行业的银发渗透案例，往往隐藏着尚未被发现的蓝海。",
+    "recommendation": "宏观趋势数据中的微观机会点，值得拆解为具体选题方向。",
     "id": 143,
     "summary": "Heart to Heart Hospice Increases Cybersecurity With CyberMaxx Partnership&nbsp;&nbsp;HomeCare Magazine",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZzlTcGp4Q2hhS1hyaC1yYUhQTVNQMlA1Ry1Zel9KS251YWJRQmRLamI1bG1sai1kSzdsOGJReTVhUlZBbmpQejhtVmxFZTM2dTNOSU9sQnFkbF92YlZrZDExYWxVMEFWVWxyM1c0VVpkN0NlMkVEVW9TYVlFamFjWmp4eHFTMnR6V01nY1VTeXpsRVN3Y25sZ1RrSmZtUDA?oc=5",
@@ -1461,7 +1389,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "其他事件",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 5.0,
       "writing": 4.0,
@@ -1472,7 +1400,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Heart to Heart Hospice",
     "cluster_id": "C0018",
     "title_cn": "Heart to Heart Hospice Increases Cybersecurity With CyberMaxx Partnership - HomeCare Magazine",
     "summary_cn": "Heart to Heart Hospice Increases Cybersecurity With CyberMaxx Partnership&nbsp;&nbsp;HomeCare Magazine",
@@ -1480,9 +1408,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 5.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1497,7 +1423,7 @@
       "产品发布",
       "政策法规"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 147,
     "summary": "@在粤养老的香港长者！“粤港养老通”正式上线 津贴直达内地账户&nbsp;&nbsp;广州日报新花城",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeTN4Zm55Z29nN2dWNkNyeDVYd1oxdjF0TlN3aVA3Q3hBWkhPTV9ZMDR3YXFNWG9rQ0l5SzlOcEpJN1JnWmU2MkhDekRmSXI2bTRQQ0o1cGRlc041amk1cWJVY2pQeFN6REQ1M3dHR3FjcGJ2bU1lUjluekQ5ZlhOYWhreXNMbVMydHc?oc=5",
@@ -1506,7 +1432,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1517,7 +1443,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "在粤养老",
     "cluster_id": "C0029",
     "title_cn": "@在粤养老的香港长者！“粤港养老通”正式上线 津贴直达内地账户 - 广州日报新花城",
     "summary_cn": "@在粤养老的香港长者！“粤港养老通”正式上线 津贴直达内地账户&nbsp;&nbsp;广州日报新花城",
@@ -1525,9 +1451,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1542,7 +1466,7 @@
       "产品发布",
       "居家养老"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 148,
     "summary": "J-N-J Home Care Services Launches 24-Hour Senior Care at Home in Dallas, TX&nbsp;&nbsp;openPR.com",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNm9iS0ZUNlBVZmE0elYwMC1GSHZGeE52aXNJZW0yblRUbTAxYm9UUkdPSThKM2VxZFNKdjN0WW5wQWJySldudnBxREdEeHRSMmtoQzdyNDlScjNwMHlQT096eXZPU3dudW5leXg2YndHRTRObmNFZXcwMjV5ZlNfYjFDOE9WNmVDLXN1b3hyS3ppeWdFUGd3M3lGUXVzQQ?oc=5",
@@ -1551,7 +1475,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1562,7 +1486,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "J-N-J Home Care Services",
     "cluster_id": "C0030",
     "title_cn": "J-N-J Home Care Services Launches 24-Hour Senior Care at Home in Dallas, TX - openPR.com",
     "summary_cn": "J-N-J Home Care Services Launches 24-Hour Senior Care at Home in Dallas, TX&nbsp;&nbsp;openPR.com",
@@ -1570,10 +1494,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1589,7 +1510,7 @@
       "IPO上市",
       "健康服务"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 161,
     "summary": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元&nbsp;&nbsp;36 Kr",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rSmZDd3JYN1UtelZIUGNsUXdTT1lZWDB1eXBRamx2NW5iM3lweXExVllXRXc4RV9CLUlpY2lHM3RCR2VqQ2xCZDVWckxqZw?oc=5",
@@ -1598,7 +1519,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 8.0,
@@ -1609,7 +1530,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "同仁堂",
     "cluster_id": "C0006",
     "title_cn": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元 - 36 Kr",
     "summary_cn": "同仁堂医养上市破发：股价下跌39%，公司市值15.6亿港元&nbsp;&nbsp;36 Kr",
@@ -1617,9 +1538,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1633,7 +1552,7 @@
       "产品发布",
       "行业趋势"
     ],
-    "recommendation": "健康服务：新品亮相。从新品发布的市场反馈，可预判国内同类需求的成熟时间窗口。",
+    "recommendation": "极光月狐：新品亮相。产品迭代方向反映用户痛点迁移，国内团队应保持同步敏感度。",
     "id": 165,
     "summary": "极光月狐发布 | 中国养老健康产品发展洞察&nbsp;&nbsp;新浪财经",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xNDNoT2t3UXk3MU1pY3hFanhyT3BUdWFKR25kbm5CRXJXNm5hdkFWNnZtaUtRdld6LWJIT3J6YWJIZUlpV0tuRXI1N3N2NjFRVm15TDZLY05tNUhNaUNoajNkTENqQ0tGcnpPVUhfZ19jQQ?oc=5",
@@ -1642,7 +1561,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -1653,7 +1572,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "极光月狐",
     "cluster_id": "C0027",
     "title_cn": "极光月狐发布 | 中国养老健康产品发展洞察 - 新浪财经",
     "summary_cn": "极光月狐发布 | 中国养老健康产品发展洞察&nbsp;&nbsp;新浪财经",
@@ -1661,9 +1580,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": false,
     "cluster_size": 2,
     "tier": 2
@@ -1678,7 +1595,7 @@
       "融资",
       "智慧养老"
     ],
-    "recommendation": "产业资本/投资机构：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 17,
     "summary": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
@@ -1687,7 +1604,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 10.0,
       "writing": 6.0,
@@ -1698,7 +1615,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "如身机器人",
     "cluster_id": "C0007",
     "title_cn": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
     "summary_cn": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台&nbsp;&nbsp;AgeClub",
@@ -1706,9 +1623,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 10.0,
-    "domains": [
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1723,7 +1638,7 @@
       "产品发布",
       "保险科技"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 171,
     "summary": "Nation’s first state-run long-term care insurance program launches in WA&nbsp;&nbsp;Chinook Observer",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVXVCSTNuV1VFLWM4OHJxRHpXd2pLQjBjNFFGb19rcnZtQXFjTC1ZM2FSdnozLVE3a25UQ05SMnVXc3dfQU56WENrVF9jZWlsMUlDcU02RGo1amNUbHJ4bDJOYTNYZFZqbEFmN2Z4VWRvVEE2NFZOcEpmZ09hRjBnQVpFZHdzekFWOEIyVl9jREh0U211UXJkYXNVa3M0ZFRyNnBYLTB6TjZQRTB1WHpJQzdrcmpjTnV5VlE?oc=5",
@@ -1732,7 +1647,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 8.0,
       "writing": 6.0,
@@ -1743,7 +1658,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "state-run long-term care insurance program",
     "cluster_id": "C0031",
     "title_cn": "Nation’s first state-run long-term care insurance program launches in WA - Chinook Observer",
     "summary_cn": "Nation’s first state-run long-term care insurance program launches in WA&nbsp;&nbsp;Chinook Observer",
@@ -1751,9 +1666,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 8.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -1768,7 +1681,7 @@
       "融资",
       "长寿科技"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 77,
     "summary": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
@@ -1777,7 +1690,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 8.0,
@@ -1788,7 +1701,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "只卖健康",
     "cluster_id": "C0008",
     "title_cn": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康 - AgeClub",
     "summary_cn": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康&nbsp;&nbsp;AgeClub",
@@ -1796,9 +1709,7 @@
     "centrality": 6,
     "novelty": 2,
     "signal": 7.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1814,7 +1725,7 @@
       "产品发布",
       "居家养老"
     ],
-    "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 46,
     "summary": "每人最高800元/月，京东接入居家养老服务国补；5起银发投融资；上海推进老年助医陪诊；优必选推出家用陪伴仿生机器人 | 行业动态&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
@@ -1823,7 +1734,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 10.0,
       "writing": 6.0,
@@ -1834,7 +1745,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "优必选",
     "cluster_id": "C0009",
     "title_cn": "每人最高800元/月，京东接入居家养老服务国补；5起银发投融资；上海推进老年助医陪诊；优必选推出家用陪伴仿生机器人 | 行业动态 - AgeClub",
     "summary_cn": "每人最高800元/月，京东接入居家养老服务国补；5起银发投融资；上海推进老年助医陪诊；优必选推出家用陪伴仿生机器人 | 行业动态&nbsp;&nbsp;AgeClub",
@@ -1842,11 +1753,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 10.0,
-    "domains": [
-      "购物渠道",
-      "健康服务",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1861,7 +1768,7 @@
       "融资",
       "政策法规"
     ],
-    "recommendation": "产业资本/投资机构：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 80,
     "summary": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbGR2UmxJM2gtVVg1YlNiSjUwZDNTenFTUjJNcGphRlpYX0g0dFRhbHB0SEZZdnlCTGxrN1VhV2t3LTVuSUhLYkk2aUtIWjJORWxCbmxB?oc=5",
@@ -1870,7 +1777,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -1881,7 +1788,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "罗湖银发科技",
     "cluster_id": "C0010",
     "title_cn": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！ - AgeClub",
     "summary_cn": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！&nbsp;&nbsp;AgeClub",
@@ -1889,9 +1796,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1906,7 +1811,7 @@
       "收购",
       "收购并购"
     ],
-    "recommendation": "养老地产：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 81,
     "summary": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
@@ -1915,7 +1820,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 8.0,
@@ -1926,7 +1831,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "英国",
     "cluster_id": "C0049",
     "title_cn": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
     "summary_cn": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道&nbsp;&nbsp;AgeClub",
@@ -1934,9 +1839,7 @@
     "centrality": 6,
     "novelty": 2,
     "signal": 7.0,
-    "domains": [
-      "养老地产"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1952,7 +1855,7 @@
       "健康服务",
       "智慧养老"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 82,
     "summary": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
@@ -1961,7 +1864,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 8.0,
@@ -1972,7 +1875,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "万美元",
     "cluster_id": "C0011",
     "title_cn": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
     "summary_cn": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题&nbsp;&nbsp;AgeClub",
@@ -1980,9 +1883,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -1996,7 +1897,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 149,
     "summary": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSFltZnR3bHdHejZ4NGhUb2Y4SmRlM2VHZVFqYjZqWS1Jb2s4NkFnNjJ0UENfeklwZUxBc1BaQnBsUzJOQTktcnN1bFRqRTVzZVVTSXN3?oc=5",
@@ -2005,7 +1906,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2016,7 +1917,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "奶商指数",
     "cluster_id": "C0032",
     "title_cn": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式 - AgeClub",
     "summary_cn": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式&nbsp;&nbsp;AgeClub",
@@ -2024,9 +1925,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2041,7 +1940,7 @@
       "政策法规",
       "产品发布"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 150,
     "summary": "湖南上线灵活就业参保“一件事” 养老医保自由搭配最快7天办结&nbsp;&nbsp;湖南省人民政府",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pRWdpM0VPVk5kOHBxM012Y2txRHRtcW9hVGIzWURZNDJBVHQ0emVNcVo4YmF6TGJyU2k4QW1oTnBadHZPU1NLb0dfS3UzVVJrSnFfQkJRdnBqZmVVNzJMYTBFMnpzcGVzRUF0M1VNcWw5YmlwNGFkOHhrVF9lZw?oc=5",
@@ -2050,7 +1949,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "政策法规",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2061,7 +1960,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "湖南",
     "cluster_id": "C0053",
     "title_cn": "湖南上线灵活就业参保“一件事” 养老医保自由搭配最快7天办结 - 湖南省人民政府",
     "summary_cn": "湖南上线灵活就业参保“一件事” 养老医保自由搭配最快7天办结&nbsp;&nbsp;湖南省人民政府",
@@ -2069,9 +1968,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2085,7 +1982,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 151,
     "summary": "烟台发布《烟台养老产业三年行动方案》&nbsp;&nbsp;新浪财经",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIc0pzVzVDcHdjTjluZGdCSXN3ei10RUxLY1hsUTN5UTR5Qm85b1RUU0pUZ1BNTTZIT3FHZUZlUnBocW1vSjZ2bFVya1A0bVhjbk94cUhTalY2dHMyT2FwbE5NRXdRTzYwdU5JVXA0aG9JRk9zakE?oc=5",
@@ -2094,7 +1991,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2105,7 +2002,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "烟台养老",
     "cluster_id": "C0033",
     "title_cn": "烟台发布《烟台养老产业三年行动方案》 - 新浪财经",
     "summary_cn": "烟台发布《烟台养老产业三年行动方案》&nbsp;&nbsp;新浪财经",
@@ -2113,9 +2010,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2130,7 +2025,7 @@
       "认知症",
       "行业趋势"
     ],
-    "recommendation": "养老服务：新产品/服务上线。新产品的技术路径选择，对国产化方案有直接参考价值。",
+    "recommendation": "Athulya Senior Care：新产品/服务上线。海外新品的功能定义和定价策略，是国内产品经理的免费教材。",
     "id": 152,
     "summary": "Athulya Senior Care Launches Free Dementia Awareness Initiative in Bengaluru&nbsp;&nbsp;Passionate In Marketing",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXg0R1JmQ1BvOW5KRXNJSEg4QkdIZWdFWkZhdVdPNXl0M2tDaEV1bjExNWN6LTI2cEhxc3VNVTdfSk9teVI5QUR6WHh0NVNQa0tCMDN4UHBCR01maUhoOFpOc09UcDF4TXlWd1FCc3diX1pCZlFKeE9hb1pGcXVhUFBTMXloNHBpVVVWYzQwd2JnSWpVQnBQcXZCR1lwdGExbklUQXo3NUlSckZGc0wyd0lEMUo3Zw?oc=5",
@@ -2139,7 +2034,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2150,7 +2045,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "Athulya Senior Care",
     "cluster_id": "C0034",
     "title_cn": "Athulya Senior Care Launches Free Dementia Awareness Initiative in Bengaluru - Passionate In Marketing",
     "summary_cn": "Athulya Senior Care Launches Free Dementia Awareness Initiative in Bengaluru&nbsp;&nbsp;Passionate In Marketing",
@@ -2158,10 +2053,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "养老服务",
-      "失智老人赛道"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2177,7 +2069,7 @@
       "产品发布",
       "居家养老"
     ],
-    "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 169,
     "summary": "养老补贴上线电商平台，北京西城老人开出全国首单，失能老人下单居家养老服务可“打五折”&nbsp;&nbsp;新浪财经",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0g5TzZVeGJYZ05WMWVJSWctTGwtOFhJLUVjR1l1d3M5M3RxWS1VMGhkc3FTOTd3WjNtZ2Y3WjBHd0hLNnctX0QzRExTdHVuMUFmbkEyVmdHMWRLVTkwMzJIdXdhZ3RVRVJ1bWk0eDRYZmZ0dHpLb01OQ203WmxTYjFGeC0?oc=5",
@@ -2186,7 +2078,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "政策法规",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2197,7 +2089,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "失能老人下单居家养老",
     "cluster_id": "C0054",
     "title_cn": "养老补贴上线电商平台，北京西城老人开出全国首单，失能老人下单居家养老服务可“打五折” - 新浪财经",
     "summary_cn": "养老补贴上线电商平台，北京西城老人开出全国首单，失能老人下单居家养老服务可“打五折”&nbsp;&nbsp;新浪财经",
@@ -2205,10 +2097,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "购物渠道",
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2222,7 +2111,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 170,
     "summary": "普惠养老进万家 | 夯！大家养老年金保险产品上线支付宝&nbsp;&nbsp;新浪财经",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0TEFCeVZNMUp4Tk5VNTlvcWxrYVVuZ1dLSllQQ1BZRmVBanJhbmd6TnpRVTRYV25YcXd6THFHZGY3U3A1ZV9CMWM3aGtNcjRiMFNkUjBMUHZxanJyS0R0VFByQ25tdTRjUWEtTS1jSXNUc1o5MWc?oc=5",
@@ -2231,7 +2120,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2242,7 +2131,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "普惠养老",
     "cluster_id": "C0035",
     "title_cn": "普惠养老进万家 | 夯！大家养老年金保险产品上线支付宝 - 新浪财经",
     "summary_cn": "普惠养老进万家 | 夯！大家养老年金保险产品上线支付宝&nbsp;&nbsp;新浪财经",
@@ -2250,9 +2139,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2268,7 +2155,7 @@
       "收购",
       "收购并购"
     ],
-    "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 54,
     "summary": "Atria Senior Living has put considerable resources into improvement, exemplified by the operator’s turnaround of its portfolio of communities formerly operated by Holiday Retirement. In 2021, Atria acquired the senior living management company Holiday Retirement. In 2024, real estate investment trust (REIT) Welltower (NYSE: WELL) transitioned 89 former Holiday by Atria communities to a half-dozen [&#8230;] The post Atria Puts Turnaround Skills to Work in Transformation of Former Holiday Portfoli",
     "url": "https://seniorhousingnews.com/2026/07/02/atria-puts-turnaround-skills-to-work-in-transformation-of-former-holiday-portfolio/",
@@ -2277,7 +2164,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 8.0,
       "writing": 8.0,
@@ -2288,7 +2175,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Atria",
     "cluster_id": "C0012",
     "title_cn": "Atria Puts Turnaround Skills to Work in Transformation of Former Holiday Portfolio",
     "summary_cn": "Atria Senior Living has put considerable resources into improvement, exemplified by the operator’s turnaround of its portfolio of communities formerly operated by Holiday Retirement. In 2021, Atria acquired the senior living management company Holiday Retirement. In 2024, real estate investment trust (REIT) Welltower (NYSE: WELL) transitioned 89 former Holiday by Atria communities to a half-dozen [&#8230;] The post Atria Puts Turnaround Skills to Work in Transformation of Former Holiday Portfoli",
@@ -2296,11 +2183,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 8.0,
-    "domains": [
-      "行业服务",
-      "养老地产",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2314,7 +2197,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "养老服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 55,
     "summary": "Athulya Geriatric Care Hospitals launches India's largest exclusive senior citizen hospital, completing a 360° elder care continuum&nbsp;&nbsp;Business Standard",
     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQLXJmODlqMVlTTE5TeTNqR09VdV9CXzhmd25iSnUyV18wZDBaSU5uaGdMdHZ0TEtRWUIweUxCdzhDb3hfT1YzeVpTRnp5Tk1DcGxPTHNNQ3pidG5zWW5tSlVzUEg2UTRrM2ZrNEJqdnVJV2l2WnFMU0xVMmI5RHJRdnVBQzlkRWZUUHpKU3Yzd2EyYlJJQ2dCNlhpZE05MHQ3YUZTOWJ2UlY1cEZnYUI3NFZrSTRkMXBTbnJmSHc5eVNtZHRPbDVGZ3RGTTNwSlZ1NktLWHVHM2UtZ05RQnV5MWYwN2hxMnVBWHlnZlNOMkhhNko3YnpsNDhnR0ZUY2dBbGVmVlZPR3pxX3dVTkRnQjlCdzBqVUFLXzFnbnhSNjZsRUxPTTRLWDJ6NVVCZ182LU1rX9IBugJBVV95cUxONU12Z2s4REtPMi01ZDJMc0JkR2xpcGRRY0FKODBDS2JycnBsdWY1QTUyM2hsU2VSZnVOdVdISFFBSFpaSUdyX2dURUNpM3dsb3diRFk4X2s3VnJZeFRFS2RSemdNb3MxNGc5SlM2N1BmS3Z5MUpqUXlLTTVHcndxcDVrejhXcURQMGVWbGVLbmp3RFRQN0ttdjdjejBoemE4LUNrVUU4a0x2Q0dpdTZqTFFhazlMQWVfNFNXTWhDRkx3RFg2NTNWcFIzMUVlLTFaXy11S3hqMURkSlk5eGtEc2NiVHdvTXQxcHUtT3FDV2pMU0pKdktYVDRTX2J5NXluX3NvNXlTVEFXY2loSzYxOXhlajlVYVQ5bjkyWjFDRzI2TTlLb2liUGo5cDI5RjFqNWJhaHh6anJCQQ?oc=5",
@@ -2323,7 +2206,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 8.0,
       "writing": 8.0,
@@ -2334,7 +2217,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Elder",
     "cluster_id": "C0036",
     "title_cn": "Athulya Geriatric Care Hospitals launches India's largest exclusive senior citizen hospital, completing a 360° elder care continuum - Business Standard",
     "summary_cn": "Athulya Geriatric Care Hospitals launches India's largest exclusive senior citizen hospital, completing a 360° elder care continuum&nbsp;&nbsp;Business Standard",
@@ -2342,9 +2225,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 8.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2359,7 +2240,7 @@
       "融资",
       "智慧养老"
     ],
-    "recommendation": "健康服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 97,
     "summary": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSWlLcFludFVvcFB5VFlsenNpNUt0eWhkbEpfd2xCUWhjbFlhNEE5ZnlKeEZOOTVxd2JvWmk2aXllUFNwZWdUOXpLVmk2TDhvNk1PSTB3?oc=5",
@@ -2368,7 +2249,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 6.0,
@@ -2379,7 +2260,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "异化路径破解银发健康",
     "cluster_id": "C0013",
     "title_cn": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑 - AgeClub",
     "summary_cn": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑&nbsp;&nbsp;AgeClub",
@@ -2387,9 +2268,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "健康服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2404,7 +2283,7 @@
       "战略合作",
       "行业趋势"
     ],
-    "recommendation": "养老服务：新产品/服务上线。新产品的技术路径选择，对国产化方案有直接参考价值。",
+    "recommendation": "战略合作：新产品/服务上线。产品迭代方向反映用户痛点迁移，国内团队应保持同步敏感度。",
     "id": 129,
     "summary": "Blue Ridge Care, Katie’s Comfort House Launch Collaborative Partnership&nbsp;&nbsp;Hospice News",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa28tRUZudDRfRFpPdi01S25uV1pOYlF4U3BXN3M2YXdwU1RsV3RNcjJWeV95X19sN0JUc0kwbFJLVmlGQmFUZnRBVHl6bS1ORnBvdFNxa054VEpLYVhUQkUwckRQcjJlUUk2QnhKVWtZUFhySEZ0Ql9NcloyY2Z6Rm9GTEJ0ZlN4eG83YXZRR1RyYnVPc0hHNkRyUWQ4QWU5R3NWT3dZUVA?oc=5",
@@ -2413,7 +2292,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 6.0,
@@ -2432,9 +2311,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "养老服务"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2448,7 +2325,7 @@
       "养老地产",
       "行业趋势"
     ],
-    "recommendation": "养老地产：。养老地产存量改造经验对中国大量老旧设施有参考价值。",
+    "recommendation": "海外 CCRC 模式的运营数据，是国内养老地产投资的重要参照。",
     "id": 130,
     "summary": "This story is part of your SHN+ subscription The baby boomers are working beyond the traditional retirement years of previous generations. Senior living operators should prepare now. The number of working older adults aged 65 and up has tripled over the past 25 years, according to a June report from AARP. Based on trends and [&#8230;] The post Why Senior Living Operators Shouldn’t Ignore Trend of Older Adults Working Longer appeared first on Senior Housing News.",
     "url": "https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/",
@@ -2468,7 +2345,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "美国退休人员协会",
     "cluster_id": "C0056",
     "title_cn": "Why Senior Living Operators Shouldn’t Ignore Trend of Older Adults Working Longer",
     "summary_cn": "This story is part of your SHN+ subscription The baby boomers are working beyond the traditional retirement years of previous generations. Senior living operators should prepare now. The number of working older adults aged 65 and up has tripled over the past 25 years, according to a June report from AARP. Based on trends and [&#8230;] The post Why Senior Living Operators Shouldn’t Ignore Trend of Older Adults Working Longer appeared first on Senior Housing News.",
@@ -2476,11 +2353,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "养老地产",
-      "康复设备",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2494,7 +2367,7 @@
       "行业趋势",
       "产品发布"
     ],
-    "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 153,
     "summary": "养老服务国补上线京东 符合条件每人每月最高可领800元&nbsp;&nbsp;紫牛新闻",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RMzY1LUtNb3JaM0gzZ29tRm9ILXF4SHdJRkFRbkxwRHZpbldnTGJEWHQyd1V3TEI4aTNXREh2cXZxQnZYOGw4bVVMR3NLeXRzaFZLeGhNcFRJMGlNeWxLX3BsM1F6LWx3?oc=5",
@@ -2503,7 +2376,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2514,7 +2387,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "养老服务国补",
     "cluster_id": "C0038",
     "title_cn": "养老服务国补上线京东 符合条件每人每月最高可领800元 - 紫牛新闻",
     "summary_cn": "养老服务国补上线京东 符合条件每人每月最高可领800元&nbsp;&nbsp;紫牛新闻",
@@ -2522,9 +2395,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "购物渠道"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 2
@@ -2539,7 +2410,7 @@
       "产品发布",
       "保险科技"
     ],
-    "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 154,
     "summary": "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program&nbsp;&nbsp;krem.com",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS09UcmZJTHhYNEFPcV9QVkxnY054SGxqS0tMMkFfUmhLRnBpaENUUU1BYk9xZlViUDQxc1JUUEc5UjI1Y3pCM3Izc3BWc3gxU2F3WlBFUnIwQ0xpaXdtdjc0WXQzcy1faG5QeHFZMXdmdVN1ZWZDVkk3c0pWUWM1bDJhOVkxd25zTExaZFp2QnhYUHVFeENMNDVoeDFSYktvUGhZS2tocTlpSktkSkxRTU00VU8yU09RM2hnd19yd2JSSjNsRlRkdWVNN0N6ckNJUmZ4VVNsa3h2S1ZzaVVtdnZ2R01YS3FXenlWQVBkVzdQdw?oc=5",
@@ -2548,7 +2419,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2567,11 +2438,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "行业服务",
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 2,
     "tier": 2
@@ -2586,7 +2453,7 @@
       "产品发布",
       "保险科技"
     ],
-    "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 155,
     "summary": "WA Cares Fund benefits open, launching nation’s first public long-term care insurance program&nbsp;&nbsp;krem.com",
     "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNem00eTJsYmU5UVpLYmNKX1hTY2hJX2ItUk1ESUpiLXRJMFZiSnIxNjVBT2cwSUgxNkFtQ3hTVXl0ZU1MMzJ6Vm9zU0pYRG5LSmxQY21UV2drOG1MamNGNVNDbWxESTlRVU4yLVZHU0ZLMVo5em8wTzBtNS1aMDFVM3BDYmtNcnNRNWJwajduQl9rM0xJZ3hGdUtBX1IybUJZTVdBNTA5ZENNSXFremJQNGNxdTNMVElDS3dCTnB5cWhxdS1XbHBfS25HUU5LNlE4QnFvVUNCbERWSjRubEFZUlZuNUNqQ1ozdHJFNWFGTkwxX1VkOTNDMXNvNXF1Q1U5NVF0MmM2d0Z2a1NWVkFvV2ZFN0hTb042X1BzY2I3NFg4dWk5VXlr?oc=5",
@@ -2595,7 +2462,7 @@
     "viral": false,
     "view": "raw",
     "region": "overseas",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2614,11 +2481,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "行业服务",
-      "养老服务",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": false,
     "cluster_size": 2,
     "tier": 2
@@ -2634,7 +2497,7 @@
       "养老地产",
       "收购并购"
     ],
-    "recommendation": "行业服务：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 5,
     "summary": "This story is part of your SHN+ subscription “Competitive.” “Selective.” “Robust.” “Hot.” “Momentum.” These are some of the descriptions that leaders of senior living brokerage, investment, and lending firms used to describe senior living mergers and acquisitions (M&#38;A) and investment activity at the midpoint of this year. The industry is coming off a record investment [&#8230;] The post Competitive, Selective, Hot: Senior Living M&amp;A Still Surging in 2026 appeared first on Senior Housing ",
     "url": "https://seniorhousingnews.com/2026/07/01/competitive-selective-hot-senior-living-ma-still-surging-in-2026/",
@@ -2643,7 +2506,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 10.0,
       "writing": 8.0,
@@ -2662,12 +2525,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 10.0,
-    "domains": [
-      "行业服务",
-      "养老地产",
-      "康复设备",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2682,7 +2540,7 @@
       "融资",
       "智慧养老"
     ],
-    "recommendation": "产业资本/投资机构：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 120,
     "summary": "美国机器人伴侣公司融资700万美元，超2.3万份预购验证银发陪伴市场&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
@@ -2691,7 +2549,7 @@
     "viral": false,
     "view": "curated",
     "region": "domestic",
-    "event_type": "融资",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 7.0,
       "writing": 8.0,
@@ -2710,9 +2568,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 7.0,
-    "domains": [
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2728,7 +2584,7 @@
       "养老地产",
       "收购并购"
     ],
-    "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 133,
     "summary": "Transactions Benchmark, National Development acquire New York site Benchmark Senior Living and National Development announced the acquisition and financing of a property in East Islip, New York. The site will be developed into Benchmark at East Islip, a 90-unit assisted living and memory care community, planned to open in 2028, according to a press release. [&#8230;] The post Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands appeared f",
     "url": "https://seniorhousingnews.com/2026/07/01/senior-living-dealbook-benchmark-national-development-acquire-new-york-site-asbury-place-maryville-rebrands/",
@@ -2737,7 +2593,7 @@
     "viral": false,
     "view": "curated",
     "region": "overseas",
-    "event_type": "收购并购",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 6.0,
       "writing": 8.0,
@@ -2748,7 +2604,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "Senior Living and National Development",
     "cluster_id": "C0051",
     "title_cn": "Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands",
     "summary_cn": "Transactions Benchmark, National Development acquire New York site Benchmark Senior Living and National Development announced the acquisition and financing of a property in East Islip, New York. The site will be developed into Benchmark at East Islip, a 90-unit assisted living and memory care community, planned to open in 2028, according to a press release. [&#8230;] The post Senior Living Dealbook: Benchmark, National Development Acquire New York Site; Asbury Place Maryville Rebrands appeared f",
@@ -2756,13 +2612,7 @@
     "centrality": 6,
     "novelty": 0,
     "signal": 6.0,
-    "domains": [
-      "购物渠道",
-      "养老地产",
-      "养老服务",
-      "失智老人赛道",
-      "产业资本/投资机构"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2777,7 +2627,7 @@
       "产品发布",
       "智慧养老"
     ],
-    "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 156,
     "summary": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
@@ -2786,7 +2636,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 8.0,
@@ -2797,7 +2647,7 @@
     },
     "is_curated": true,
     "is_selected": true,
-    "entity_name": "",
+    "entity_name": "优必选",
     "cluster_id": "C0040",
     "title_cn": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
     "summary_cn": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力&nbsp;&nbsp;AgeClub",
@@ -2805,9 +2655,7 @@
     "centrality": 10,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "购物渠道"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1
@@ -2822,7 +2670,7 @@
       "产品发布",
       "智慧养老"
     ],
-    "recommendation": "购物渠道：。头部企业的战略动向，是判断行业下一个风口的最佳线索。",
+    "recommendation": "头部企业的战略动向，是判断行业下一个风口的最佳线索。",
     "id": 157,
     "summary": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕&nbsp;&nbsp;AgeClub",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
@@ -2831,7 +2679,7 @@
     "viral": false,
     "view": "raw",
     "region": "domestic",
-    "event_type": "产品发布",
+    "event_type": "行业趋势",
     "dim_scores": {
       "signal": 4.0,
       "writing": 6.0,
@@ -2842,7 +2690,7 @@
     },
     "is_curated": false,
     "is_selected": false,
-    "entity_name": "",
+    "entity_name": "银发科技",
     "cluster_id": "C0041",
     "title_cn": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
     "summary_cn": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕&nbsp;&nbsp;AgeClub",
@@ -2850,9 +2698,7 @@
     "centrality": 7,
     "novelty": 0,
     "signal": 4.0,
-    "domains": [
-      "购物渠道"
-    ],
+    "domains": [],
     "is_main": true,
     "cluster_size": 1,
     "tier": 1

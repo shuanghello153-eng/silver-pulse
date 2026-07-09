@@ -30,6 +30,9 @@ STEPS = [
     ("source_health.build_report()", "source_health", "build_report", ()),
     # [COST: zero] 信号过滤 + 聚合 + history 去重
     ("score_and_merge.main()", "score_and_merge", "main", ()),
+    # [COST: zero] 企业实体名回填（用企业库名称/别名匹配标题+摘要，
+    #   供聚类主规则(entity+event_type)与推荐理由使用；匹配不到留空，绝不瞎填）
+    ("selection.enrich_entity.run_daily_step()", "selection.enrich_entity", "run_daily_step", ()),
     # [COST: zero] L2 自纠：两级闸门重过存量，清旧噪音
     ("purge_legacy.run_daily_step()", "purge_legacy", "run_daily_step", ()),
     # [COST: model-optional] L3 5 维打分（规则兜底；无模型跳过）

@@ -217,8 +217,17 @@ def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0, _
         insight = ""
 
     # 组装
-    head = (subj + "：" if subj else "") + insight
-    head = head.rstrip("，")
+    # 仅在 insight 非空时才用「主语：」结构；否则（如领域型 primary
+    # 融资/收购/IPO/政策/产品 之外的事件类型，insight 为空）不能硬拼出
+    # 「领域：。」这种空壳（旧 bug）。insight 为空时退化为空，由下方
+    # ref 变体独立成句，绝不产生「：。」
+    if subj and insight:
+        head = subj + "：" + insight
+    elif insight:
+        head = insight
+    else:
+        head = ""
+    head = head.rstrip("，") if head else ""
     # 随机选变体 + 去重（同类型模板最多用 2 次后强制换下一个变体）
     variants = CHINA_REF_VARIANTS.get(primary, CHINA_REF_VARIANTS["行业趋势"])
     usage_key = primary

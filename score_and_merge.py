@@ -201,6 +201,16 @@ def main():
         json.dump(merged, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(merged)} total to {SCORED_FILE}")
 
+    # 企业实体名回填（事件聚类主规则 entity_name+event_type 依赖此字段）。
+    # 关键：即便单独跑 score_and_merge.py，也要在本步内把 entity_name 落库，
+    # 不依赖 run_daily 后续编排，避免「entity_name 100% 为空」回归。
+    # 优先企业库精确匹配，未命中走兜底规则；匹配不到留空，绝不瞎填。
+    try:
+        from selection import enrich_entity
+        enrich_entity.run_daily_step()
+    except Exception as e:  # noqa: BLE001
+        print("  [WARN] enrich_entity 失败（不影响已落库评分）: %s" % e)
+
 
 def is_overseas(source_name):
     """Simple check: if source name is in our overseas set, or pure ASCII."""
