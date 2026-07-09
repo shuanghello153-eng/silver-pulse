@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-10T00:35:13",
+  "script": "verify_deliverables.py",
+  "checks": [
+    {
+      "name": "T50 企业-资讯关联回填(URL契约+前缀兜底)",
+      "enterprises_with_assoc": 43,
+      "total_assoc_links": 81,
+      "dangling_refs": 0,
+      "dangling_sample": [],
+      "consumer_fallback": "gen_enterprise.py 159+161 前缀兜底已复刻",
+      "status": "PASS"
+    },
+    {
+      "name": "T12 事件簇对照卡-数据就绪",
+      "missing_url": 0,
+      "missing_cluster_id": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "D-15/D-16 推荐理由&entity_name",
+      "news_total": 63,
+      "empty_recommend": 0,
+      "colon_dot_bug": 0,
+      "empty_entity_name": 12,
+      "entity_fill_rate": 0.81,
+      "status": "PASS"
+    },
+    {
+      "name": "资讯 final_score 完整性",
+      "bad": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "S-01 signal_strength 字段",
+      "present": false,
+      "status": "INFO",
+      "note": "字段尚未写入 scored_latest(待全量重评跑 signal_strength.py)，属预期，非失败"
+    }
+  ],
+  "overall": "PASS"
+}
