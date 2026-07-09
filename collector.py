@@ -21,6 +21,13 @@ from config import (
     MAX_ARTICLES_TO_SCORE,
 )
 
+# 源健康监控 + 增量跨周去重（零模型成本）。collect_all 在采集时调用这些函数
+# 记录每源产出/异常并持久化 seen 状态；build_report 在 run_daily 采集步骤后调用。
+from source_health import (
+    load_seen_state, save_seen_state,
+    update_seen_state, record_source_run,
+)
+
 CACHE_FILE = os.path.join(DATA_DIR, "history.json")
 
 # === 静音模式（降本）：详细日志写文件，stdout 只留一行摘要 ===
@@ -54,7 +61,18 @@ except Exception:
 # Optional direct-RSS fallback for a few key google_news sources (verified feeds).
 # Left intentionally small; the main resilience comes from rss -> google_news fallback.
 DIRECT_RSS_FALLBACK = {
-    # source_id: direct_rss_url  (only add after verifying the feed works)
+    # source_id: direct_rss_url
+    # 只填「当前走 google_news 且调研已验证直连 RSS 可用」的源；
+    # 已是直连(rss)的源（seniorhousingnews/hospicenews/homehealthcarenews/
+    # thegerontechnologist/crunchbase_news/startuphealth）不重复填。
+    # Google News 代理失效(限流/改版/空结果)时，自动降级到直连 RSS，消除单点故障。
+    "fiercehealthcare":   "https://www.fiercehealthcare.com/rss/xml",
+    "prnewswire":         "https://www.prnewswire.com/rss/news-releases-list.rss",
+    "femtechinsider":     "https://femtechinsider.com/feed/",
+    "hitconsultant":      "https://www.hitconsultant.net/feed/",
+    "yahoofinance":       "https://finance.yahoo.com/news/rssindex",
+    "leadingage":         "https://www.leadingage.org/feed",
+    "argentum":           "https://www.argentum.org/feed",
 }
 
 HTTP_HEADERS = {
@@ -303,7 +321,8 @@ def _build_manual_article(seed):
     }
 
 
-def collect_from_rss(source_id, feed_url, source_type, source_name):
+def collect_from_rss(source_id, feed_url, source_type, source_name,
+                    news_window_days=7, hl="en-US"):
     """
     Collect articles from an RSS feed.
     Handles three types: direct RSS, RSS via HTTP (with headers), Google News RSS.
@@ -321,31 +340,9 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
             resp = requests.get(feed_url, headers=HTTP_HEADERS, timeout=15)
             resp.raise_for_status()
             feed = feedparser.parse(resp.text)
-        elif source_type == "google_news":
-            # Google News RSS proxy
-            if "news.google.com" in feed_url:
-                # Already a Google News RSS URL (e.g. AgeClub, 36kr)
-                target_url = feed_url
-            else:
-                # Direct site/channel URL → wrap in Google News RSS proxy.
-                # 精准监控二级频道：若频道路径含信号词(invest/fund/venture/ipo
-                # 等)，把该词加入查询，避免只查整站导致频道语义丢失。
-                from urllib.parse import quote
-                clean = feed_url.split("//")[-1].rstrip("/")
-                parts = clean.split("/")
-                domain = parts[0]
-                path_kw = ""
-                if len(parts) > 1:
-                    seg = parts[-1] if parts[-1] else (parts[-2] if len(parts) > 2 else "")
-                    seg = seg.replace("-", " ").replace("_", " ")
-                    if any(w in seg.lower() for w in
-                           ["invest", "fund", "venture", "vc", "ipo", "merger",
-                            "acqui", "capital", "financ", "deal", "aging", "senior", "care"]):
-                        path_kw = seg
-                q = f"site:{domain}"
-                if path_kw:
-                    q += f"+{quote(path_kw)}"
-                target_url = f"https://news.google.com/rss/search?q={q}+when:7d&hl=en-US"
+        elif source_type in ("google_news", "bing_news"):
+            # Google News RSS proxy，或 Bing News RSS 作为二级聚合兜底（同构易接）。
+            target_url = _build_news_url(feed_url, source_type, news_window_days, hl)
             resp = requests.get(target_url, headers=HTTP_HEADERS, timeout=15)
             resp.raise_for_status()
             feed = feedparser.parse(resp.text)
@@ -413,12 +410,79 @@ def collect_from_rss(source_id, feed_url, source_type, source_name):
         return []
 
 
-def _google_news_url_for_domain(domain, hl="en-US"):
-    """Build a Google News RSS search URL that monitors an entire domain."""
+def _google_news_url_for_domain(domain, hl="en-US", when_days=14):
+    """Build a Google News RSS search URL that monitors an entire domain.
+
+    when_days 默认 14（增量兜底窗口），由调用方根据增量状态传入。
+    """
     from urllib.parse import quote
     clean = domain.split("//")[-1].rstrip("/")
     domain = clean.split("/")[0]
-    return f"https://news.google.com/rss/search?q={quote('site:' + domain)}+when:7d&hl={hl}"
+    return f"https://news.google.com/rss/search?q={quote('site:' + domain)}+when:{when_days}d&hl={hl}"
+
+
+def _effective_window_days(source_id, source_config, seen_state):
+    """根据增量状态算本源抓取窗口（天）。
+
+    基础窗口取配置 news_window_days（缺省 14，对应方案「增量窗口相应拉长」），
+    若距上次成功运行已超过基础窗口（如漏跑一周），窗口自动拉长到
+    gap+2 天（≤30）以补漏——仍由 seen 集合过滤掉跨周重复。
+    """
+    base = int(source_config.get("news_window_days", 14))
+    src = seen_state.get("sources", {}).get(source_id, {})
+    last_run = src.get("last_run")
+    if last_run:
+        try:
+            gap = (datetime.now() - datetime.strptime(last_run, "%Y-%m-%d")).days
+            if gap > base:
+                return min(gap + 2, 30)
+        except Exception:
+            pass
+    return base
+
+
+def _build_news_url(feed_url, source_type, news_window_days=7, hl="en-US"):
+    """Build a Google News or Bing News RSS search URL for a channel.
+
+    - 若 feed_url 已是 Google News RSS URL，去掉写死的 when:N 再套用配置窗口，
+      保证源定义里的 news_window_days 生效（新闻 7 天 / 协会政策 30 天）。
+    - 否则把域名/频道 URL 包成 `site:domain [+keyword]` 查询，套用每源窗口。
+    - source_type="bing_news" 返回 Bing News RSS 等价 URL（无 when: 参数），
+      作为 Google News 之外的第二聚合源。
+    """
+    from urllib.parse import quote, urlparse, parse_qs, urlencode
+    if "news.google.com" in feed_url:
+        parsed = urlparse(feed_url)
+        qs = parse_qs(parsed.query)
+        q = qs.get("q", [""])[0]
+        # 去掉写死的 when:N，再套用配置窗口
+        q = re.sub(r"\bwhen:\d+d\b", "", q, flags=re.I).strip()
+        q = re.sub(r"\s+", " ", q).strip()
+        q = f"{q} when:{news_window_days}d" if q else f"when:{news_window_days}d"
+        hl_used = qs.get("hl", [hl])[0]
+        return ("https://news.google.com/rss/search?"
+                + urlencode({"q": q, "hl": hl_used}))
+    # 域名/频道 URL → 包成 site: 查询
+    clean = feed_url.split("//")[-1].rstrip("/")
+    parts = clean.split("/")
+    domain = parts[0]
+    path_kw = ""
+    if len(parts) > 1:
+        seg = parts[-1] if parts[-1] else (parts[-2] if len(parts) > 2 else "")
+        seg = seg.replace("-", " ").replace("_", " ")
+        if any(w in seg.lower() for w in
+               ["invest", "fund", "venture", "vc", "ipo", "merger",
+                "acqui", "capital", "financ", "deal", "aging", "senior", "care"]):
+            path_kw = seg
+    q = f"site:{domain}"
+    if path_kw:
+        q += f"+{quote(path_kw)}"
+    if source_type == "google_news":
+        return ("https://news.google.com/rss/search?"
+                + urlencode({"q": f"{q} when:{news_window_days}d", "hl": hl}))
+    # Bing News RSS —— 二级聚合兜底，无 when: 窗口参数
+    return ("https://www.bing.com/news/search?"
+            + urlencode({"q": q, "format": "rss", "setlang": hl}))
 
 
 def _fallback_for_channel(source_id, source_config, channel_url, channel_method):
@@ -437,6 +501,14 @@ def _fallback_for_channel(source_id, source_config, channel_url, channel_method)
         direct = DIRECT_RSS_FALLBACK.get(source_id)
         if direct:
             return (direct, "rss")
+        # 二级兜底：Google News 之外再用 Bing News RSS（同样无需 Key 的聚合源）
+        bing = _build_news_url(
+            channel_url, "bing_news",
+            news_window_days=source_config.get("news_window_days", 7),
+            hl=source_config.get("hl", "en-US"),
+        )
+        if bing:
+            return (bing, "bing_news")
     return None
 
 
@@ -486,23 +558,34 @@ def collect_all(history=None):
     if history is None:
         history = load_history()
 
+    # --- 增量跨周去重状态（与源健康监控共享，零模型成本）---
+    seen_state = load_seen_state()
     all_articles = []
 
     for source_id, source_config in SOURCES.items():
         source_name = source_config["name"]
         _clog(f"Collecting from {source_name}...")
 
-        all_channel_articles = []
+        # 本源已见 URL 集合 + 上次文章日期 → 增量窗口 & 跨周去重
+        src_seen = seen_state["sources"].get(source_id, {}).get("seen", {})
+        win_days = _effective_window_days(source_id, source_config, seen_state)
+
+        run_raw = 0
+        run_dup = 0
+        incremental_new = []
         for channel_name, channel_url, channel_method in source_config.get("l2_channels", []):
             if channel_method == "manual":
                 _clog(f"  [{channel_name}] Skipping manual channel")
                 continue
 
             channel_articles = collect_from_rss(
-                source_id, channel_url, channel_method, source_name
+                source_id, channel_url, channel_method, source_name,
+                news_window_days=win_days,
+                hl=source_config.get("hl", "en-US"),
             )
             # Fallback: if the primary method returned nothing (403 / empty /
             # timeout), try the alternative so one dead feed never empties the day.
+            # 链路：rss/rss_http -> google_news；google_news -> 直连RSS -> Bing News。
             if not channel_articles:
                 fb = _fallback_for_channel(
                     source_id, source_config, channel_url, channel_method
@@ -511,19 +594,42 @@ def collect_all(history=None):
                     fb_url, fb_method = fb
                     _clog(f"  [{channel_name}] primary empty -> fallback ({fb_method})")
                     channel_articles = collect_from_rss(
-                        source_id, fb_url, fb_method, source_name
+                        source_id, fb_url, fb_method, source_name,
+                        news_window_days=win_days,
+                        hl=source_config.get("hl", "en-US"),
                     )
-            all_channel_articles.extend(channel_articles)
+            # 增量跨周去重：本源 seen 集合里已存在的 URL 视为跨周重复，跳过
+            # （保留归档：raw_*.json / scored_latest.json 从不删除，逻辑只过滤）
+            for art in channel_articles:
+                run_raw += 1
+                h = url_hash(art["url"])
+                if h in src_seen:
+                    run_dup += 1
+                    continue
+                incremental_new.append(art)
 
+        # 二次安全去重（同一 run 内多频道重复）沿用 history.json 全局 hash
         new_count = 0
-        for article in all_channel_articles:
+        for article in incremental_new:
             if is_duplicate(article["url"], history):
+                run_dup += 1
                 continue
             mark_seen(article["url"], history)
             all_articles.append(article)
             new_count += 1
 
-        _clog(f"  -> {new_count} new articles")
+        _clog(f"  -> {new_count} new (raw={run_raw}, cross-week dup skipped={run_dup})")
+
+        # 记录本源健康/去重状态（持久化，供下一周增量 + 健康报告）
+        update_seen_state(seen_state, source_id, source_config, incremental_new, run_raw, run_dup)
+        record_source_run(
+            source_id, source_config,
+            raw=run_raw, dup=run_dup,
+            new_pre=len(incremental_new), new=new_count,
+        )
+
+    # 持久化增量去重状态（在相关性/评分之前保存，防下游异常丢状态）
+    save_seen_state(seen_state)
 
     # 存量手动种子注入（如 YouTube 历史爆款视频）：绕过 7 天日期限制，持久进入情报台
     manual_path = os.path.join(DATA_DIR, "manual_news.json")

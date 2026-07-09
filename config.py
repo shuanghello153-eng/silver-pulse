@@ -902,7 +902,15 @@ SELECT_THRESHOLDS = {
 SOURCE_ADJ = {1: 0.3, 2: 0.0, 3: -0.3}
 
 # Event clustering
-CLUSTER_SIM_THRESHOLD = 0.82      # cosine > this AND same event_type => same cluster
+# 余弦回退阈值（同 event_type 且 title 向量余弦 > 此值 => 同簇）。
+# 实测结论（2026-07-09，selection/backtest_cluster.py，63 条 scored_latest）：
+#   entity_name 字段 100% 为空 => 主规则(entity+event_type)实际从不触发，
+#   余弦回退是唯一的聚类机制。0.82 过严：仅合并 3 对，遗漏 4~6 对"同事件不同源"报道
+#   （漏合并，正是主人担心的重复事件没合并）；0.70/0.75 在本数据集上误合并均为 0。
+# 选 0.75：能召回全部"明显同事件"重复报道，且留出 0.72~0.73 噪声区之上的安全余量；
+#   0.70 虽多召回 2 对但更接近误合并风险区。故由 0.82 下调至 0.75。
+# 回测可用 cluster.run_daily_step(threshold=...) 直接改档，不依赖此处常量。
+CLUSTER_SIM_THRESHOLD = 0.75      # cosine > this AND same event_type => same cluster
 CLUSTER_NONMAIN_PENALTY = 1.5     # folded (non-main) items lose this from final
 
 # Enterprise research-value event boost (used by enterprise_score.py, Phase 2)
