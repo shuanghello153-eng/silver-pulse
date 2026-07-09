@@ -271,6 +271,50 @@ def extract_summary(entry):
     return ""
 
 
+def extract_full_content(url, timeout=8, max_chars=8000):
+    """T33 正文抓取骨架（已落地基础版，未接入 run_daily）。
+
+    设计：
+    - 输入单条资讯 URL，返回正文纯文本（best-effort），失败返回 ""。
+    - 正文抽取策略：requests 拉取 → 去掉 script/style/nav/header/footer →
+      取剩余文本 → 折叠空白 → 截断 max_chars。
+    - 存储方案（待接入）：落盘到 data/article_bodies/<sha1(url)>.txt，
+      并在 scored_latest.json 的条目上加 ``body_path`` 字段；阶段4强模
+      五维评分时优先读正文而非仅摘要。
+    - 开关：config.EXTRACT_FULL_CONTENT（默认 False）控制是否启用，避免
+      在免费期/限流时额外消耗网络与令牌。
+    """
+    import requests
+    try:
+        resp = requests.get(
+            url, timeout=timeout,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; SilverPulse/1.0)"},
+        )
+        resp.raise_for_status()
+        html = resp.text
+    except Exception:
+        return ""
+    html = re.sub(r"(?is)<(script|style|nav|header|footer|aside|form)[^>]*>.*?</\1>", " ", html)
+    text = re.sub(r"(?is)<[^>]+>", " ", html)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:max_chars]
+
+
+def store_full_content(news_id, text):
+    """T33 存储占位：把正文写入 data/article_bodies/，返回相对路径。
+
+    未接入主流程；待 extract_full_content 与 run_daily 打通后启用。
+    """
+    import hashlib
+    import os
+    body_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "article_bodies")
+    os.makedirs(body_dir, exist_ok=True)
+    path = os.path.join(body_dir, "%s.txt" % hashlib.sha1(news_id.encode("utf-8")).hexdigest()[:16])
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    return os.path.relpath(path, os.path.dirname(os.path.abspath(__file__)))
+
+
 # 招聘帖垃圾过滤：VC 的 "Top" / 职业页常把招聘信息当资讯喂进来
 _JOB_ROLE_RE = re.compile(
     r"\b(senior|staff|principal|lead|junior|associate|entry[ -]level)\b.*@", re.I
