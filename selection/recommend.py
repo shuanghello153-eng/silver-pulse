@@ -21,6 +21,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 SCORED_LATEST_PATH = os.path.join(DATA_DIR, "scored_latest.json")
 
+try:
+    from signal_strength import _parse_amount, FUNDING_KEYWORDS
+except Exception:  # 兜底（极少出现）
+    def _parse_amount(text):
+        return 0, None
+    FUNDING_KEYWORDS = ["融资", "获投", "获融", "本轮", "轮融资", "funding", "raises"]
+
 # 国内参照模板（按事件/领域差异化）— 每类 3–5 变体，随机选择降重复率
 # 格式: {事件类型: [变体1, 变体2, ...]}
 # 零模型成本，纯关键词拼接 + 随机化。
@@ -157,6 +164,39 @@ def detect_amount(text):
     return ""
 
 
+def _signal_of(article):
+    """从 article 实际字段取信号强度分（signal_strength 脚本评分优先，
+    其次 dim_scores.signal，再次旧字段 signal）。"""
+    sig = article.get("signal_score")
+    if sig is None:
+        ds = article.get("dim_scores") or {}
+        sig = ds.get("signal")
+    if sig is None:
+        sig = article.get("signal")
+    try:
+        return float(sig)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def _amount_magnitude(text):
+    """把融资金额文本转成中文量级词（亿元级/千万级…），用于理由"读分"。"""
+    val, cur = _parse_amount(text)
+    if val <= 0:
+        return ""
+    if val >= 5_000_000_000:
+        return "数十亿级"
+    if val >= 1_000_000_000:
+        return "十亿级"
+    if val >= 100_000_000:
+        return "亿元级"
+    if val >= 10_000_000:
+        return "千万级"
+    if val >= 1_000_000:
+        return "百万级"
+    return "小额"
+
+
 def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0, _seen=None):
     """生成差异化、去冗余的推荐理由。
 
@@ -237,9 +277,33 @@ def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0, _
     chosen_idx = min(idx + offset, len(variants) - 1)
     ref = variants[chosen_idx].rstrip("。")
     _seen[usage_key] = used_count + 1
-    parts = [p for p in (head, ref) if p]
+
+    # —— B2：理由"读分数"，而非空话 ——
+    # 从 article 实际字段抽取信号强度 / 反常识度 / 融资量级，写进理由，
+    # 让选题/写稿人一眼知道这条资讯的"硬指标"在哪。
+    score_bits = []
+    sig = _signal_of(article)
+    if sig:
+        s = round(sig)
+        if s >= 8:
+            score_bits.append("信号强度%d分（强信号）" % s)
+        elif s >= 5:
+            score_bits.append("信号强度%d分" % s)
+        else:
+            score_bits.append("信号强度偏弱(%d分)" % s)
     if novelty and novelty >= 6:
-        parts.append("此事反常识，适合做差异化切入")
+        score_bits.append("反常识度%d分、角度稀缺" % round(novelty))
+    # 融资量级：正文含融资关键词且解析到金额（不限于 primary==融资，
+    # 因分类器可能把"融资数千万"归到行业趋势，遗漏量级信息）
+    is_fund = any(k in blob_low for k in FUNDING_KEYWORDS)
+    if has_amount and is_fund:
+        mag = _amount_magnitude(blob)
+        if mag:
+            score_bits.append("融资量级%s" % mag)
+
+    parts = [p for p in (head, ref) if p]
+    if score_bits:
+        parts.append("；".join(score_bits) + "。")
     rec = "。".join(parts)
     if rec and not rec.endswith("。"):
         rec += "。"
