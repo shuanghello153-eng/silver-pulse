@@ -115,18 +115,17 @@ def detect_cross_tags(title, summary, event_type="", novelty=0, region="", domai
     # 强制 2~5
     tags = tags[:5]
     if len(tags) < 2:
-        # 兜底 1：用子赛道 domains 补足（与 event_type 不同轴，可接受为交叉维度）
-        for d in (domains or []):
-            if d and d not in tags:
-                tags.append(d)
-                if len(tags) >= 2:
-                    break
+        # 兜底：用「横切维度」官方标签池补足，绝不把领域名/事件类型塞回标签。
+        # 标签只承载交叉维度（资本/技术/市场/模式/政策·支付方…），与 domains /
+        # event_type 彻底解耦，避免卡片上「同一词既是领域徽章又是标签」的双显问题。
+        _GENERIC_PAD = ["资本", "技术", "市场", "模式", "政策·支付方"]
+        for g in _GENERIC_PAD:
+            if g not in tags:
+                tags.append(g)
+            if len(tags) >= 2:
+                break
     if len(tags) < 2:
-        # 兜底 2：仍不足 → 用事件类型最后兜底（极少见，多为纯噪声但被上游放行）
-        if event_type and event_type not in tags:
-            tags.append(event_type)
-    if len(tags) < 2:
-        # 兜底 3：占位（极罕见）
+        # 极罕见占位
         tags.append("常规资讯")
     return tags[:5]
 

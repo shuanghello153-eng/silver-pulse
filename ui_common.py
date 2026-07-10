@@ -190,6 +190,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .timeline-date{font-weight:700}
 .timeline-count{color:var(--text-muted);margin-left:7px}
 
+/* ===== 选题雷达说明块 ===== */
+.radar-head{background:linear-gradient(135deg,var(--accent-light),var(--surface));border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:var(--radius);padding:14px 18px;margin:6px 0 18px;box-shadow:var(--shadow-sm)}
+.radar-head h3{margin:0 0 6px;font-size:17px;color:var(--accent-strong)}
+.radar-sub{margin:0;font-size:13px;line-height:1.7;color:var(--text-secondary)}
+.radar-sub b{color:var(--accent-strong)}
+
 /* ===== 空状态 ===== */
 .empty-state{text-align:center;padding:54px 20px;color:var(--text-muted)}
 .empty-state .es-ico{font-size:40px;opacity:.5}
@@ -718,9 +724,15 @@ function spMarkRead(t,id){
 /* 工具栏总开关（显示已隐藏 / 只看未读）*/
 function spInitToggles(){
   var hb=document.getElementById('hide-toggle');
-  if(hb)hb.addEventListener('click',function(){spShowHidden=!spShowHidden;hb.classList.toggle('on',spShowHidden);if(window.spReapply)spReapply();});
+  if(hb){
+    try{if(localStorage.getItem('sp_show_hidden')==='1'){spShowHidden=true;hb.classList.add('on');}}catch(e){}
+    hb.addEventListener('click',function(){spShowHidden=!spShowHidden;hb.classList.toggle('on',spShowHidden);try{localStorage.setItem('sp_show_hidden',spShowHidden?'1':'0');}catch(e){}if(window.spReapply)spReapply();});
+  }
   var ub=document.getElementById('unread-toggle');
-  if(ub)ub.addEventListener('click',function(){spUnreadOnly=!spUnreadOnly;ub.classList.toggle('on',spUnreadOnly);if(window.spReapply)spReapply();});
+  if(ub){
+    try{if(localStorage.getItem('sp_unread_only')==='1'){spUnreadOnly=true;ub.classList.add('on');}}catch(e){}
+    ub.addEventListener('click',function(){spUnreadOnly=!spUnreadOnly;ub.classList.toggle('on',spUnreadOnly);try{localStorage.setItem('sp_unread_only',spUnreadOnly?'1':'0');}catch(e){}if(window.spReapply)spReapply();});
+  }
 }
 
 /* 顶部工具条「更多」折叠（A5：收起导出/同步/设置） */

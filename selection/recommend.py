@@ -283,32 +283,10 @@ def gen_recommendation(article, tags, entity_name="", domains=None, novelty=0,
     ref = variants[chosen_idx].rstrip("。")
     _seen[usage_key] = used_count + 1
 
-    # —— B2：理由"读分数"，而非空话 ——
-    # 从 article 实际字段抽取信号强度 / 反常识度 / 融资量级，写进理由，
-    # 让选题/写稿人一眼知道这条资讯的"硬指标"在哪。
-    score_bits = []
-    sig = _signal_of(article)
-    if sig:
-        s = round(sig)
-        if s >= 8:
-            score_bits.append("信号强度%d分（强信号）" % s)
-        elif s >= 5:
-            score_bits.append("信号强度%d分" % s)
-        else:
-            score_bits.append("信号强度偏弱(%d分)" % s)
-    if novelty and novelty >= 6:
-        score_bits.append("反常识度%d分、角度稀缺" % round(novelty))
-    # 融资量级：正文含融资关键词且解析到金额（不限于 primary==融资，
-    # 因分类器可能把"融资数千万"归到行业趋势，遗漏量级信息）
-    is_fund = any(k in blob_low for k in FUNDING_KEYWORDS)
-    if has_amount and is_fund:
-        mag = _amount_magnitude(blob)
-        if mag:
-            score_bits.append("融资量级%s" % mag)
-
+    # 推荐理由只承担「洞察」职责：讲清「这条为什么值得写 / 对中国有何借鉴」，
+    # 绝不重复卡片上已展示的评分维度（信号/反常芯片）与融资金额——那些卡片已给，
+    # 重复只会稀释信息。这是 Loop 哲学的落地：理由每次跑批都更干净。
     parts = [p for p in (head, ref) if p]
-    if score_bits:
-        parts.append("；".join(score_bits) + "。")
     rec = "。".join(parts)
     if rec and not rec.endswith("。"):
         rec += "。"

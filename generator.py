@@ -168,6 +168,11 @@ def classify_event_type(title, summary, tags):
                                   "sold to", "bought by", "acquired by"]):
         return "收购并购"
 
+    if any(kw in text for kw in ["ipo", "上市", "敲钟", "挂牌", "公开募股",
+                                  "goes public", "listed on", "listing",
+                                  "首次公开发行", "新股上市", "港交所", "纳斯达克"]):
+        return "IPO上市"
+
     if any(kw in text for kw in ["融资", "funding", "raises", "raised", "investment", "invest",
                                   "series a", "series b", "series c", "seed round", "天使轮",
                                   "a轮", "b轮", "c轮", "种子轮", "ipo", "上市",
@@ -376,11 +381,15 @@ def build_card_html(art):
     date = art.get("date", "")
     raw_summary = (art.get("summary_cn") or art.get("summary") or art.get("raw_content", "") or "")[:300]
     summary = deduplicate_summary(title, raw_summary)
-    tags = art.get("tags", [])
+    tags = art.get("tags", []) or []
     view = art.get("view", "curated")
     region = art.get("region", "unknown")
     event_type = art.get("event_type", "其他事件")
-    domains = art.get("domains", [])
+    domains = art.get("domains", []) or []
+    # 卡片去重：标签若与领域同名（如"健康服务"既是领域又是兜底标签），
+    # 只在领域徽章展示一次，避免「同一词双显」。
+    _domain_set = set(domains)
+    tags = [t for t in tags if t and t not in _domain_set]
     is_viral = art.get("viral", False)
 
     # Build region badge
@@ -445,8 +454,17 @@ def build_card_html(art):
         ("时效", ds.get("urgency")),
         ("反常", ds.get("novelty")),
     ]
+    # 6 维人话解释（悬停可见）——让非技术用户秒懂每个芯片含义
+    _DIM_EXPLAIN = {
+        "产业": "赛道匹配度：这条资讯属于哪个银发细分赛道，与你关注的选题方向有多贴合",
+        "信号": "事件强度：发生了多大级别的事（融资/收购/政策…），分越高越该优先看",
+        "文笔": "可读性：原文/摘要的阅读顺畅度（规则兜底，仅供参考）",
+        "中文契合": "国内相关性：对国内银发创业者的可借鉴程度",
+        "时效": "新鲜度：距离今天多久，越新越该优先写",
+        "反常": "反共识度：是否反常识/差异化，分越高故事性越强",
+    }
     dim_html = "".join(
-        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
+        '<span class="dim-chip" title="%s">%s <b>%s</b></span>' % (_DIM_EXPLAIN.get(k, ""), k, _fmt_score(v)) for k, v in dims
     )
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
@@ -466,7 +484,7 @@ def build_card_html(art):
     if entity_name:
         extra.append('<span class="badge-tag">主体 %s</span>' % _esc(entity_name))
     if cl:
-        extra.append('<span class="badge-domain">聚类 %s</span>' % _esc(str(cl)))
+        extra.append('<span class="badge-domain" title="该资讯与同主题其他资讯被系统归为一组，便于横向对比">同主题</span>')
     extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
     novelty = float(art.get("novelty") or 0)
     signal = float(art.get("signal") or (art.get("dim_scores") or {}).get("signal") or 0)
@@ -558,10 +576,13 @@ def build_selected_card_html(art):
     date = art.get("date", "")
     raw_summary = (art.get("summary_cn") or art.get("summary") or art.get("raw_content", "") or "")[:300]
     summary = deduplicate_summary(title, raw_summary)
-    tags = art.get("tags", [])
+    tags = art.get("tags", []) or []
     region = art.get("region", "unknown")
     event_type = art.get("event_type", "其他事件")
-    domains = art.get("domains", [])
+    domains = art.get("domains", []) or []
+    # 卡片去重：标签若与领域同名，只在领域徽章展示一次（避免双显）
+    _domain_set = set(domains)
+    tags = [t for t in tags if t and t not in _domain_set]
     viral = art.get("viral", False)
 
     region_tag = ""
@@ -605,8 +626,17 @@ def build_selected_card_html(art):
         ("时效", ds.get("urgency")),
         ("反常", ds.get("novelty")),
     ]
+    # 6 维人话解释（悬停可见）
+    _DIM_EXPLAIN = {
+        "产业": "赛道匹配度：这条资讯属于哪个银发细分赛道，与你关注的选题方向有多贴合",
+        "信号": "事件强度：发生了多大级别的事（融资/收购/政策…），分越高越该优先看",
+        "文笔": "可读性：原文/摘要的阅读顺畅度（规则兜底，仅供参考）",
+        "中文契合": "国内相关性：对国内银发创业者的可借鉴程度",
+        "时效": "新鲜度：距离今天多久，越新越该优先写",
+        "反常": "反共识度：是否反常识/差异化，分越高故事性越强",
+    }
     dim_html = "".join(
-        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
+        '<span class="dim-chip" title="%s">%s <b>%s</b></span>' % (_DIM_EXPLAIN.get(k, ""), k, _fmt_score(v)) for k, v in dims
     )
     url_hash = _url_hash(url)
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
@@ -630,7 +660,7 @@ def build_selected_card_html(art):
     if ent:
         extra.append('<span class="badge-tag">主体 %s</span>' % _esc(ent))
     if cl:
-        extra.append('<span class="badge-domain">聚类 %s</span>' % _esc(str(cl)))
+        extra.append('<span class="badge-domain" title="该资讯与同主题其他资讯被系统归为一组，便于横向对比">同主题</span>')
     extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
 
     entity_name = art.get("entity_name", "") or ""
@@ -728,7 +758,7 @@ def build_timeline_html(log):
         )
     return (
         '<div class="update-timeline" id="update-timeline">'
-        '<div class="timeline-title">🕒 精选更新时间线（点击按发布日筛选）</div>'
+        '<div class="timeline-title">🕒 精选更新时间线（每日精选条数）</div>'
         '<div class="timeline-list">%s</div>'
         '</div>' % "\n".join(entries)
     )
@@ -1068,6 +1098,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 只看未读</button>',
         '</div></div>',
         signal_line,
+        build_timeline_html(update_log),
 
         # Filter section — 紧凑两行（事件·领域·标签 合并一行 + 时间一行，对齐企业库）
         '<div class="filter-section" id="filter-section">',
@@ -1105,6 +1136,14 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="filter-row fav-tag-filter" id="fav-tag-filter">',
         '  <span class="filter-label">收藏标签</span>',
         '  <div class="filter-btns" id="fav-tag-pills"></div>',
+        '</div>',
+
+        # 选题雷达区块说明（让非技术用户秒懂这块是什么、怎么看）
+        '<div class="radar-head" id="radar-head">',
+        '<h3>📡 今日选题雷达</h3>',
+        '<p class="radar-sub">系统每天自动从各大信源筛选出「值得写」的资讯，按综合分排序。'
+        '卡片下方 6 个芯片是打分维度（鼠标悬停看含义）；'
+        '<b>★ 推荐理由只讲「为什么值得写、对中国有何借鉴」</b>，不重复卡片已有信息。</p>',
         '</div>',
 
         # 精选 (Selected) view: selected cards（按评分降序，与全量同款）

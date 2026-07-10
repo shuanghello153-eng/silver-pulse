@@ -227,9 +227,9 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     if region:
         header_parts.append(f'<span class="ent-badge badge-region">{esc(region)}</span>')
 
-    # Research-value badge — 只显示数字（删"研究价值"文字 + "值得深写"标签）
+    # Research-value badge — 加"研究分"标签 + hover 解释（避免裸数字看不懂）
     if rv is not None:
-        header_parts.append(f'<span class="badge-rv {_score_class(rv)}">{esc(str(rv))}</span>')
+        header_parts.append(f'<span class="badge-rv {_score_class(rv)}" title="研究价值分：综合规模/信息密度/商业模式/国内可比性打分（0-100），越高越值得深写">研究分 {esc(str(rv))}</span>')
 
     # "近期有动态"徽标：最近一次被资讯关联的时间在 NEWS_RECENT_DAYS 窗口内
     is_recent = False
