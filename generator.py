@@ -914,7 +914,30 @@ function toggleMoreTags(){{
   const btn=document.getElementById('toggle-more-tags');
   if(!box||!btn)return;
   if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
-  else{{box.style.display='none';const n=box.querySelectorAll('.filter-btn').length;btn.textContent='+'+n;btn.classList.remove('active');}}
+  else{{box.style.display='none';
+    const n=box.querySelectorAll('.filter-btn').length;
+    btn.textContent=n>=100?('~'+Math.floor(n/100)*100+'+'):(n>=20?('~'+Math.floor(n/10)*10+ '+'):('+'+n));
+    btn.classList.remove('active');
+  }}
+}}
+
+function toggleMoreEvts(){{
+  const box=document.getElementById('more-evts-box');
+  const btn=document.getElementById('toggle-more-evts');
+  if(!box||!btn)return;
+  if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
+  else{{box.style.display='none';btn.textContent='+▼';btn.classList.remove('active');}}
+}}
+
+function toggleMoreDomains(){{
+  const box=document.getElementById('more-domains-box');
+  const btn=document.getElementById('toggle-more-domains');
+  if(!box||!btn)return;
+  if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
+  else{{box.style.display='none';
+    const n=box.querySelectorAll('.filter-btn').length;
+    btn.textContent='+'+n; btn.classList.remove('active');
+  }}
 }}
 """
 
@@ -978,7 +1001,7 @@ def generate_html(scored_articles=None, output_path=None):
     tag_list = sorted(present_tags)
 
     # Tag pills: show TOP-N + "more" toggle (避免标签膨胀时炸屏)
-    _TAG_SHOW = 8
+    _TAG_SHOW = 6
     if len(tag_list) > _TAG_SHOW:
         _shown = tag_list[:_TAG_SHOW]
         _rest  = tag_list[_TAG_SHOW:]
@@ -1016,13 +1039,46 @@ def generate_html(scored_articles=None, output_path=None):
     selected_count = len(selected)
     update_log = update_update_log(selected_count)
 
-    # Build filter buttons
-    event_buttons = "".join(
-        '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
-    )
-    domain_buttons = "".join(
-        '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list
-    )
+    # Build filter buttons — 事件/领域都做折叠限制，避免炸屏
+    _EVT_SHOW = 5
+    if len(event_list) > _EVT_SHOW:
+        event_buttons = "".join(
+            '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list[:_EVT_SHOW]
+        )
+        _evt_rest = len(event_list[_EVT_SHOW:])
+        if _evt_rest >= 20:
+            _evt_label = "~%d+" % (_evt_rest // 10 * 10)
+        else:
+            _evt_label = "+%d" % _evt_rest
+        event_buttons += (
+            '<button class="filter-btn filter-btn-more" id="toggle-more-evts" onclick="toggleMoreEvts()">%s</button>'
+            % _evt_label
+            + '<div id="more-evts-box" style="display:none;">'
+            + "".join('<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list[_EVT_SHOW:])
+            + '</div>'
+        )
+    else:
+        event_buttons = "".join(
+            '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
+        )
+
+    _DOM_SHOW = 6
+    if len(domain_list) > _DOM_SHOW:
+        domain_buttons = "".join(
+            '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list[:_DOM_SHOW]
+        )
+        _dom_rest = len(domain_list[_DOM_SHOW:])
+        domain_buttons += (
+            '<button class="filter-btn filter-btn-more" id="toggle-more-domains" onclick="toggleMoreDomains()">+%s</button>' % _dom_rest
+            + '<div id="more-domains-box" style="display:none;">'
+            + "".join('<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list[_DOM_SHOW:])
+            + '</div>'
+        )
+    else:
+        domain_buttons = "".join(
+            '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list
+        )
+
     tag_buttons = "".join(
         '<button class="filter-btn" data-group="tag" data-value="%s">%s</button>' % (t, t) for t in tag_list
     )
@@ -1078,10 +1134,13 @@ def generate_html(scored_articles=None, output_path=None):
         '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
         '<span class="filter-label">排序</span>',
         '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓ / 信号↓">评分 ↓</button>',
-        '<button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
-        '<button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 显示已隐藏</button>',
-        '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 只看未读</button>',
         '</div></div>',
+        # 辅助工具栏（次要操作，独立一行降低视觉权重）
+        '<div class="index-sub-tools">',
+        '<button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
+        '<button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 已隐藏</button>',
+        '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 未读</button>',
+        '</div>',
         signal_line,
 
         # Filter section — 两行分组（事件+领域 / 标签+时间），统一风格

@@ -215,8 +215,8 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
             cat_text += f" · {cat_l2}"
         header_parts.append(f'<span class="ent-badge badge-cat">{cat_text}</span>')
 
-    # Tags (醒目颜色) — 限制显示数量，超出折叠
-    TAG_PER_CARD = 6
+    # Tags (限制更严：每卡最多3个标签，超出折叠)
+    TAG_PER_CARD = 3
     if tags and isinstance(tags, list):
         visible_tags = [t for t in tags if t][:TAG_PER_CARD]
         hidden_count = len([t for t in tags if t]) - len(visible_tags)
@@ -422,6 +422,15 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     )
 
 
+def _fold_label(n):
+    """格式化折叠数字：>=100取整百，>=20取整十，否则原样。"""
+    if n >= 100:
+        return f"~{n//100*100}+"
+    elif n >= 20:
+        return f"~{n//10*10}+"
+    return f"+{n}"
+
+
 def generate():
     enterprises = load_enterprises()
     total = len(enterprises)
@@ -607,7 +616,7 @@ def generate():
                     "rv": rv,
                     "deep": bool((ent_scores_map.get(o.get("serial", "")) or {}).get("worth_deep_write")),
                 }
-                for rv, o in cands[:5]
+                for rv, o in cands[:3]
             ]
     except Exception:
         competitors_map = {}
@@ -645,7 +654,7 @@ def generate():
     # Tag filter options — TOP-N high-frequency pills + collapsible "more" to avoid explosion
     from collections import Counter
     tag_counter = Counter(t for e in enterprises for t in (e.get("tags") or []) if t)
-    TAG_SHOW_LIMIT = 8  # 筛选栏只展示最高频的 N 个标签，其余折叠（减少视觉噪音）
+    TAG_SHOW_LIMIT = 6  # 筛选栏只展示最高频的 N 个标签，其余折叠（减少视觉噪音）
     top_tags = [t for t, _ in tag_counter.most_common(TAG_SHOW_LIMIT)]
     more_tags = [t for t, _ in tag_counter.most_common()[TAG_SHOW_LIMIT:]]
 
@@ -658,7 +667,7 @@ def generate():
     )
     if more_tags:
         tag_pills_html += (
-            f'<button class="f-btn f-btn-more" id="ent-toggle-tags" onclick="toggleEntTags()">+{len(more_tags)}</button>'
+            f'<button class="f-btn f-btn-more" id="ent-toggle-tags" onclick="toggleEntTags()">{_fold_label(len(more_tags))}</button>'
             f'<div id="ent-more-tags" style="display:none;margin-top:6px;">'
             + "".join(
                 f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in more_tags
@@ -681,7 +690,7 @@ def generate():
     )
     if rest_cats:
         cat_buttons += (
-            f'<button class="f-btn f-btn-more" id="ent-toggle-cats" onclick="toggleEntCats()">+{len(rest_cats)}</button>'
+            f'<button class="f-btn f-btn-more" id="ent-toggle-cats" onclick="toggleEntCats()">{_fold_label(len(rest_cats))}</button>'
             f'<div id="ent-more-cats" style="display:none;margin-top:6px;">'
             + "".join(
                 f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
@@ -735,21 +744,31 @@ __SIDEBAR__
 </div>
 
 <div class="toolbar">
-  <div class="filter-row">
+  <!-- 主筛选行：视图 / 地区 / 排序 / 搜索 -->
+  <div class="filter-row filter-main">
     <span class="f-label">视图</span>
     <div class="view-toggle">
       <button class="view-btn active" data-view="curated">精选 ({curated_count})</button>
       <button class="view-btn" data-view="all">全量 ({total})</button>
     </div>
-    <span class="f-label" style="margin-left:12px;">地区</span>
-    <button class="f-btn active" data-reg="all">全部</button>
-    <button class="f-btn" data-reg="1">国内</button>
-    <button class="f-btn" data-reg="2">海外</button>
-    <span class="f-label" style="margin-left:12px;">排序</span>
-    <button class="sort-arrow active" data-sort="news" onclick="setEntSort('news')">匹配资讯 ↓</button>
-    <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">评分 ↓</button>
-    <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额 ↓</button>
-    <span class="f-label" style="margin-left:12px;">时间</span>
+    <span class="f-label">地区</span>
+    <div class="btn-group">
+      <button class="f-btn active" data-reg="all">全部</button>
+      <button class="f-btn" data-reg="1">国内</button>
+      <button class="f-btn" data-reg="2">海外</button>
+    </div>
+    <span class="f-label">排序</span>
+    <div class="sort-group">
+      <button class="sort-arrow active" data-sort="news" onclick="setEntSort('news')">资讯相关</button>
+      <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">研究分</button>
+      <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额</button>
+    </div>
+    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
+  </div>
+
+  <!-- 辅助筛选行：时间 / 快捷筛选（次要） -->
+  <div class="filter-row filter-sub">
+    <span class="f-label">时间</span>
     <div class="filter-btns" id="ent-time-pills">
       <button class="f-btn active" data-enttime="all">全部</button>
       <button class="f-btn" data-enttime="1w">近1周</button>
@@ -757,11 +776,12 @@ __SIDEBAR__
       <button class="f-btn" data-enttime="1m">近1月</button>
       <button class="f-btn" data-enttime="3m">近3月</button>
     </div>
-    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
-    <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业（按最近动态时间倒序）">🔥 近期有动态</button>
-    <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
-    <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读企业（点过的企业会变灰）">👁 只看未读</button>
-    <button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的企业">🙈 显示已隐藏</button>
+    <div class="quick-filters">
+      <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业">🔥 近期动态</button>
+      <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
+      <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读企业">👁 未读</button>
+      <button class="toolbar-filter-btn" id="hide-toggle" title="显示被隐藏的企业">🙈 已隐藏</button>
+    </div>
   </div>
   <div class="filter-row" id="cat-filter">
     <span class="f-label">分类</span>
@@ -1065,7 +1085,7 @@ function toggleEntTags() {{
   }} else {{
     box.style.display = 'none';
     const n = box.querySelectorAll('.f-btn').length;
-    btn.textContent = '+' + n;
+    btn.textContent = n >= 100 ? ('~' + Math.floor(n/100)*100 + '+') : (n >= 20 ? ('~' + Math.floor(n/10)*10 + '+') : ('+' + n));
     btn.classList.remove('active');
   }}
 }}
@@ -1081,7 +1101,7 @@ function toggleEntCats() {{
   }} else {{
     box.style.display = 'none';
     const n = box.querySelectorAll('.f-btn').length;
-    btn.textContent = '+' + n;
+    btn.textContent = n >= 100 ? ('~' + Math.floor(n/100)*100 + '+') : (n >= 20 ? ('~' + Math.floor(n/10)*10 + '+') : ('+' + n));
     btn.classList.remove('active');
   }}
 }}
