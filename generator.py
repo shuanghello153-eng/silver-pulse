@@ -909,36 +909,7 @@ document.querySelectorAll('.filter-btn[data-time]').forEach(btn=>{
 })();
 updateDisplay();
 
-function toggleMoreTags(){{
-  const box=document.getElementById('more-tags-box');
-  const btn=document.getElementById('toggle-more-tags');
-  if(!box||!btn)return;
-  if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
-  else{{box.style.display='none';
-    const n=box.querySelectorAll('.filter-btn').length;
-    btn.textContent=n>=100?('~'+Math.floor(n/100)*100+'+'):(n>=20?('~'+Math.floor(n/10)*10+ '+'):('+'+n));
-    btn.classList.remove('active');
-  }}
-}}
-
-function toggleMoreEvts(){{
-  const box=document.getElementById('more-evts-box');
-  const btn=document.getElementById('toggle-more-evts');
-  if(!box||!btn)return;
-  if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
-  else{{box.style.display='none';btn.textContent='+▼';btn.classList.remove('active');}}
-}}
-
-function toggleMoreDomains(){{
-  const box=document.getElementById('more-domains-box');
-  const btn=document.getElementById('toggle-more-domains');
-  if(!box||!btn)return;
-  if(box.style.display==='none'){{box.style.display='';btn.textContent='收起 ▲';btn.classList.add('active');}}
-  else{{box.style.display='none';
-    const n=box.querySelectorAll('.filter-btn').length;
-    btn.textContent='+'+n; btn.classList.remove('active');
-  }}
-}}
+updateDisplay();
 """
 
 
@@ -1000,25 +971,6 @@ def generate_html(scored_articles=None, output_path=None):
     domain_list = [d for d in NEWS_DOMAINS if d in present_domains]
     tag_list = sorted(present_tags)
 
-    # Tag pills: show TOP-N + "more" toggle (避免标签膨胀时炸屏)
-    _TAG_SHOW = 6
-    if len(tag_list) > _TAG_SHOW:
-        _shown = tag_list[:_TAG_SHOW]
-        _rest  = tag_list[_TAG_SHOW:]
-        _tag_btns = "".join(
-            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in _shown
-        )
-        _tag_btns += (
-            f'<button class="filter-btn filter-btn-more" id="toggle-more-tags" onclick="toggleMoreTags()">+{len(_rest)}</button>'
-            f'<div id="more-tags-box" style="display:none;">'
-            + "".join(f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in _rest)
-            + '</div>'
-        )
-    else:
-        _tag_btns = "".join(
-            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in tag_list
-        )
-
     curated_count = sum(1 for a in merged if a.get("view") == "curated")
     total_count = len(merged)
     domestic_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "domestic")
@@ -1039,48 +991,21 @@ def generate_html(scored_articles=None, output_path=None):
     selected_count = len(selected)
     update_log = update_update_log(selected_count)
 
-    # Build filter buttons — 事件/领域都做折叠限制，避免炸屏
-    _EVT_SHOW = 5
-    if len(event_list) > _EVT_SHOW:
-        event_buttons = "".join(
-            '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list[:_EVT_SHOW]
-        )
-        _evt_rest = len(event_list[_EVT_SHOW:])
-        if _evt_rest >= 20:
-            _evt_label = "~%d+" % (_evt_rest // 10 * 10)
-        else:
-            _evt_label = "+%d" % _evt_rest
-        event_buttons += (
-            '<button class="filter-btn filter-btn-more" id="toggle-more-evts" onclick="toggleMoreEvts()">%s</button>'
-            % _evt_label
-            + '<div id="more-evts-box" style="display:none;">'
-            + "".join('<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list[_EVT_SHOW:])
-            + '</div>'
-        )
-    else:
-        event_buttons = "".join(
-            '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
-        )
+    # Build filter buttons — 全展示不折叠
+    event_buttons = "".join(
+        '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
+    )
 
-    _DOM_SHOW = 6
-    if len(domain_list) > _DOM_SHOW:
-        domain_buttons = "".join(
-            '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list[:_DOM_SHOW]
-        )
-        _dom_rest = len(domain_list[_DOM_SHOW:])
-        domain_buttons += (
-            '<button class="filter-btn filter-btn-more" id="toggle-more-domains" onclick="toggleMoreDomains()">+%s</button>' % _dom_rest
-            + '<div id="more-domains-box" style="display:none;">'
-            + "".join('<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list[_DOM_SHOW:])
-            + '</div>'
-        )
-    else:
-        domain_buttons = "".join(
-            '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list
-        )
+    domain_buttons = "".join(
+        '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list
+    )
 
-    tag_buttons = "".join(
-        '<button class="filter-btn" data-group="tag" data-value="%s">%s</button>' % (t, t) for t in tag_list
+    # Tag pills: 全展示不折叠
+    _tag_btns = (
+        '<button class="filter-btn active" data-group="tag" data-value="all">全部</button>'
+        + "".join(
+            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in tag_list
+        )
     )
 
     # Inject values into JS template
@@ -1102,30 +1027,26 @@ def generate_html(scored_articles=None, output_path=None):
         '<style>%s%s</style>' % (CSS_STYLES, FEEDBACK_CSS),
         '</head>\n<body>',
 
-        # Sidebar (unified component)
+        # Sidebar
         SIDEBAR("index"),
 
         # Main content
         '<div class="main">',
-        # ===== 顶部工具条（A5：不常用按钮收进「更多」，顶部只留筛选栏）=====
-        '<div class="top-tools" id="top-tools">',
-        '<button class="tools-more-btn" id="tools-more-btn" title="导出 / 同步 / 设置" onclick="spToggleTools()"><span class="ico">⋯</span><span class="lbl">更多</span></button>',
-        '<div class="top-tools-more" id="tools-more">',
-        '<a class="dl-btn" href="weekly_topics.json" download>⬇ 下载选题JSON</a>',
-        '<button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>',
-        '<button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>',
-        '</div>',
-        '</div>',
+
+        # Header
         '<div class="header">',
         '<div class="header-top" style="display:flex;align-items:center;gap:12px;">',
         '<h2>银发经济每周速览</h2>',
         '<div class="header-stats" id="header-stats">更新于 %s · 数据 %s · 共 %s 条</div>' % (today_str, data_date_str, total_count),
         '</div>',
+
+        # 第1行：视图 / 地区 / 搜索 / 排序
         '<div class="filter-bar">',
         '<div class="view-pills">',
         '<button class="view-pill active" id="pill-curated" onclick="setView(\'curated\')">精选(%s)</button>' % selected_count,
         '<button class="view-pill" id="pill-all" onclick="setView(\'all\')">全量(%s)</button>' % total_count,
         '</div>',
+        '<span class="filter-label">地区</span>',
         '<div class="region-pills" id="region-pills">',
         '<button class="region-pill active" data-region="all">全部</button>',
         '<button class="region-pill" data-region="domestic">国内(%s)</button>' % domestic_curated,
@@ -1135,35 +1056,39 @@ def generate_html(scored_articles=None, output_path=None):
         '<span class="filter-label">排序</span>',
         '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓ / 信号↓">评分 ↓</button>',
         '</div></div>',
-        # 辅助工具栏（次要操作，独立一行降低视觉权重）
-        '<div class="index-sub-tools">',
-        '<button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
-        '<button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 已隐藏</button>',
-        '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 未读</button>',
-        '</div>',
-        signal_line,
 
-        # Filter section — 两行分组（事件+领域 / 标签+时间），统一风格
+        # 筛选区：每行独占一个筛选项类型
         '<div class="filter-section" id="filter-section">',
+
+        # 第2行：事件（独占一行）
         '  <div class="filter-row">',
         '    <span class="filter-label">事件</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-group="event" data-value="all">全部</button>',
         event_buttons,
         '    </div>',
-        '    <span class="filter-label" style="margin-left:16px;">领域</span>',
+        '  </div>',
+
+        # 第3行：领域（独占一行）
+        '  <div class="filter-row">',
+        '    <span class="filter-label">领域</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-group="domain" data-value="all">全部</button>',
         domain_buttons,
         '    </div>',
         '  </div>',
+
+        # 第4行：标签（独占一行）
         '  <div class="filter-row">',
         '    <span class="filter-label">标签</span>',
         '    <div class="filter-btns" id="tag-btns-wrap">',
-        '      <button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
         _tag_btns,
         '    </div>',
-        '    <span class="filter-label" style="margin-left:16px;">时间</span>',
+        '  </div>',
+
+        # 第5行：时间[左] + 辅助按钮[右]
+        '  <div class="filter-row filter-last">',
+        '    <span class="filter-label">时间</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-time="all">全部</button>',
         '      <button class="filter-btn" data-time="1w">近1周</button>',
@@ -1171,11 +1096,19 @@ def generate_html(scored_articles=None, output_path=None):
         '      <button class="filter-btn" data-time="1m">近1月</button>',
         '      <button class="filter-btn" data-time="3m">近3月</button>',
         '    </div>',
+        '    <div class="aux-group">',
+        '      <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
+        '      <button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 已隐藏</button>',
+        '      <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 未读</button>',
+        '    </div>',
         '  </div>',
         '</div>',
 
+        # 信号概览（放在所有筛选下方、列表上方）
+        signal_line,
+
         # 收藏标签筛选条（仅 fav-mode 下显示）
-        '<div class="filter-row fav-tag-filter" id="fav-tag-filter">',
+        '<div class="filter-row fav-tag-filter" id="fav-tag-filter" style="display:none;">',
         '  <span class="filter-label">收藏标签</span>',
         '  <div class="filter-btns" id="fav-tag-pills"></div>',
         '</div>',

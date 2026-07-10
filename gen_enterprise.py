@@ -651,53 +651,29 @@ def generate():
     # --- 研究价值 TOP 15 不再单独成块：精选视图默认按研究价值降序，
     #     融资金额/研究价值排序通过工具栏箭头按钮实现（见 setEntSort）。---
 
-    # Tag filter options — TOP-N high-frequency pills + collapsible "more" to avoid explosion
+    # Tag filter options — 全展示不折叠
     from collections import Counter
     tag_counter = Counter(t for e in enterprises for t in (e.get("tags") or []) if t)
-    TAG_SHOW_LIMIT = 6  # 筛选栏只展示最高频的 N 个标签，其余折叠（减少视觉噪音）
-    top_tags = [t for t, _ in tag_counter.most_common(TAG_SHOW_LIMIT)]
-    more_tags = [t for t, _ in tag_counter.most_common()[TAG_SHOW_LIMIT:]]
+    all_tags = [t for t, _ in tag_counter.most_common()]
 
     tag_pills_html = (
         '<button class="f-btn active" data-tag="all">全部</button>'
         '<button class="f-btn" data-tag="__funded__">有融资/IPO</button>'
         + "".join(
-            f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in top_tags
+            f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in all_tags
         )
     )
-    if more_tags:
-        tag_pills_html += (
-            f'<button class="f-btn f-btn-more" id="ent-toggle-tags" onclick="toggleEntTags()">{_fold_label(len(more_tags))}</button>'
-            f'<div id="ent-more-tags" style="display:none;margin-top:6px;">'
-            + "".join(
-                f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in more_tags
-            )
-            + '</div>'
-        )
 
-    # L1 filter buttons — 按数量降序排列，只显示 TOP 8，其余折叠
-    CAT_SHOW_LIMIT = 6  # 筛选栏只展示 TOP 6 个一级分类，其余折叠（减少视觉噪音）
+    # L1 filter buttons — 全部展示不折叠，点击展开L2子类
     sorted_l1 = sorted(L1_CATS, key=lambda c: cat_counts.get(c, 0), reverse=True)
-    shown_cats = sorted_l1[:CAT_SHOW_LIMIT]
-    rest_cats = sorted_l1[CAT_SHOW_LIMIT:]
 
     cat_buttons = (
         '<button class="f-btn active" data-cat="all">全部</button>'
         + "".join(
-            f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
-            for l1 in shown_cats
+            f'<button class="f-btn" data-cat="{esc(l1)}" onclick="toggleL2Cat(\'{esc(l1)}\')">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
+            for l1 in sorted_l1
         )
     )
-    if rest_cats:
-        cat_buttons += (
-            f'<button class="f-btn f-btn-more" id="ent-toggle-cats" onclick="toggleEntCats()">{_fold_label(len(rest_cats))}</button>'
-            f'<div id="ent-more-cats" style="display:none;margin-top:6px;">'
-            + "".join(
-                f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
-                for l1 in rest_cats
-            )
-            + '</div>'
-        )
 
     # L2 filter buttons grouped by L1 (hidden by default, shown when L1 is selected)
     l2_filter_html = ""
@@ -729,22 +705,13 @@ def generate():
 __SIDEBAR__
 <div class="main">
 
-<!-- 顶部工具条（A5：不常用按钮收进「更多」） -->
-<div class="top-tools" id="top-tools">
-  <button class="tools-more-btn" id="tools-more-btn" title="同步 / 设置" onclick="spToggleTools()"><span class="ico">⋯</span><span class="lbl">更多</span></button>
-  <div class="top-tools-more" id="tools-more">
-    <button class="sync-fav" title="同步收藏到云端仓库（首次需配置Token）" onclick="spGhSync()">☁ 同步云端</button>
-    <button class="sync-set" title="配置 GitHub Token" onclick="spGhSettings()">⚙ 设置</button>
-  </div>
-</div>
-
 <div class="header">
   <h2>银发经济企业数据库</h2>
-  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · 13 个一级分类</p>
+  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · {len(L1_CATS)} 个一级分类</p>
 </div>
 
 <div class="toolbar">
-  <!-- 主筛选行：视图 / 地区 / 排序 / 搜索 -->
+  <!-- 第1行：视图 / 地区 / 排序 / 搜索 -->
   <div class="filter-row filter-main">
     <span class="f-label">视图</span>
     <div class="view-toggle">
@@ -766,8 +733,21 @@ __SIDEBAR__
     <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签..." oninput="filterEnt()">
   </div>
 
-  <!-- 辅助筛选行：时间 / 快捷筛选（次要） -->
-  <div class="filter-row filter-sub">
+  <!-- 第2行：分类（L1全展示，点击展开L2子类） -->
+  <div class="filter-row" id="cat-filter">
+    <span class="f-label">分类</span>
+    {cat_buttons}
+  </div>
+  {l2_filter_html}
+
+  <!-- 第3行：标签（全展示不折叠） -->
+  <div class="filter-row">
+    <span class="f-label">标签</span>
+    <div class="filter-btns ent-tag-pills">{tag_pills_html}</div>
+  </div>
+
+  <!-- 第4行：时间[左] + 辅助按钮[右] -->
+  <div class="filter-row filter-last">
     <span class="f-label">时间</span>
     <div class="filter-btns" id="ent-time-pills">
       <button class="f-btn active" data-enttime="all">全部</button>
@@ -776,27 +756,19 @@ __SIDEBAR__
       <button class="f-btn" data-enttime="1m">近1月</button>
       <button class="f-btn" data-enttime="3m">近3月</button>
     </div>
-    <div class="quick-filters">
+    <div class="aux-group">
       <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业">🔥 近期动态</button>
       <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
       <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读企业">👁 未读</button>
       <button class="toolbar-filter-btn" id="hide-toggle" title="显示被隐藏的企业">🙈 已隐藏</button>
     </div>
   </div>
-  <div class="filter-row" id="cat-filter">
-    <span class="f-label">分类</span>
-    <button class="f-btn active" data-cat="all">全部</button>
-    {cat_buttons}
-  </div>
-  <div class="filter-row">
-    <span class="f-label">标签</span>
-    <div class="filter-btns ent-tag-pills">{tag_pills_html}</div>
-  </div>
-  <div class="filter-row fav-tag-filter" id="fav-tag-filter">
+
+  <!-- 收藏标签筛选条（仅 fav-mode 下显示） -->
+  <div class="filter-row fav-tag-filter" id="fav-tag-filter" style="display:none;">
     <span class="f-label">收藏标签</span>
     <div class="filter-btns" id="fav-tag-pills"></div>
   </div>
-  {l2_filter_html}
 </div>
 
 <div class="result-count" id="result-count"></div>
@@ -1074,36 +1046,30 @@ function hideAllL2Rows() {{
 
 filterEnt();
 
+/* L1分类点击 → 展开/收起L2子类 */
+function toggleL2Cat(l1Name) {{
+  const row = document.getElementById('l2-' + l1Name);
+  if (!row) return;
+  if (row.style.display === 'none') {{
+    // 先关闭其他所有L2
+    document.querySelectorAll('.l2-row').forEach(function(r) {{ r.style.display = 'none'; }});
+    row.style.display = '';
+  }} else {{
+    row.style.display = 'none';
+  }}
+}}
+
 function toggleEntTags() {{
   const box = document.getElementById('ent-more-tags');
   const btn = document.getElementById('ent-toggle-tags');
   if (!box || !btn) return;
-  if (box.style.display === 'none') {{
-    box.style.display = '';
-    btn.textContent = '收起 ▲';
-    btn.classList.add('active');
-  }} else {{
-    box.style.display = 'none';
-    const n = box.querySelectorAll('.f-btn').length;
-    btn.textContent = n >= 100 ? ('~' + Math.floor(n/100)*100 + '+') : (n >= 20 ? ('~' + Math.floor(n/10)*10 + '+') : ('+' + n));
-    btn.classList.remove('active');
-  }}
+  box.style.display = box.style.display === 'none' ? '' : 'none';
 }}
 
 function toggleEntCats() {{
   const box = document.getElementById('ent-more-cats');
-  const btn = document.getElementById('ent-toggle-cats');
-  if (!box || !btn) return;
-  if (box.style.display === 'none') {{
-    box.style.display = '';
-    btn.textContent = '收起 ▲';
-    btn.classList.add('active');
-  }} else {{
-    box.style.display = 'none';
-    const n = box.querySelectorAll('.f-btn').length;
-    btn.textContent = n >= 100 ? ('~' + Math.floor(n/100)*100 + '+') : (n >= 20 ? ('~' + Math.floor(n/10)*10 + '+') : ('+' + n));
-    btn.classList.remove('active');
-  }}
+  if (!box) return;
+  box.style.display = box.style.display === 'none' ? '' : 'none';
 }}
 </script>
 </body>
@@ -1112,12 +1078,12 @@ function toggleEntCats() {{
     html_content = html_content.replace("__COMMON_CSS__", COMMON_CSS + FEEDBACK_CSS).replace("__SIDEBAR__", SIDEBAR("enterprise"))
 
     RECENT_CSS = """
-/* 近期有动态徽标 + 筛选按钮 */
+/* 近期有动态徽标 + 筛选按钮（与统一按钮高度28px对齐） */
 .ent-badge.badge-recent { background:#fff1e6; color:#e8590c; border:1px solid #ffd8a8; font-weight:600; white-space:nowrap; }
 .ent-cluster-srcs { font-size:12px; color:#868e96; margin-left:4px; }
 .ent-src-link { color:#1c7ed6; text-decoration:none; }
 .ent-src-link:hover { text-decoration:underline; }
-.recent-filter-btn { margin-left:10px; padding:5px 12px; border:1px solid var(--line,#e3e3e8); border-radius:999px; background:#fff; color:#555; cursor:pointer; font-size:13px; transition:.15s; }
+.recent-filter-btn { margin-left:0; padding:4px 11px; border:1.5px solid #e3e3e8; border-radius:14px; background:#fff; color:#555; cursor:pointer; font-size:11.5px; transition:.15s; height:28px; line-height:1; display:inline-flex; align-items:center; gap:3px; box-sizing:border-box; font-weight:600; }
 .recent-filter-btn:hover { border-color:#ffa94d; }
 .recent-filter-btn.active { background:#e8590c; color:#fff; border-color:#e8590c; }
 """
