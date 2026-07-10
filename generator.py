@@ -454,17 +454,9 @@ def build_card_html(art):
         ("时效", ds.get("urgency")),
         ("反常", ds.get("novelty")),
     ]
-    # 6 维人话解释（悬停可见）——让非技术用户秒懂每个芯片含义
-    _DIM_EXPLAIN = {
-        "产业": "赛道匹配度：这条资讯属于哪个银发细分赛道，与你关注的选题方向有多贴合",
-        "信号": "事件强度：发生了多大级别的事（融资/收购/政策…），分越高越该优先看",
-        "文笔": "可读性：原文/摘要的阅读顺畅度（规则兜底，仅供参考）",
-        "中文契合": "国内相关性：对国内银发创业者的可借鉴程度",
-        "时效": "新鲜度：距离今天多久，越新越该优先写",
-        "反常": "反共识度：是否反常识/差异化，分越高故事性越强",
-    }
+    # 6 维评分芯片
     dim_html = "".join(
-        '<span class="dim-chip" title="%s">%s <b>%s</b></span>' % (_DIM_EXPLAIN.get(k, ""), k, _fmt_score(v)) for k, v in dims
+        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
     )
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
@@ -627,16 +619,9 @@ def build_selected_card_html(art):
         ("反常", ds.get("novelty")),
     ]
     # 6 维人话解释（悬停可见）
-    _DIM_EXPLAIN = {
-        "产业": "赛道匹配度：这条资讯属于哪个银发细分赛道，与你关注的选题方向有多贴合",
-        "信号": "事件强度：发生了多大级别的事（融资/收购/政策…），分越高越该优先看",
-        "文笔": "可读性：原文/摘要的阅读顺畅度（规则兜底，仅供参考）",
-        "中文契合": "国内相关性：对国内银发创业者的可借鉴程度",
-        "时效": "新鲜度：距离今天多久，越新越该优先写",
-        "反常": "反共识度：是否反常识/差异化，分越高故事性越强",
-    }
+    # 6 维评分芯片
     dim_html = "".join(
-        '<span class="dim-chip" title="%s">%s <b>%s</b></span>' % (_DIM_EXPLAIN.get(k, ""), k, _fmt_score(v)) for k, v in dims
+        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
     )
     url_hash = _url_hash(url)
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
@@ -993,7 +978,7 @@ def generate_html(scored_articles=None, output_path=None):
     tag_list = sorted(present_tags)
 
     # Tag pills: show TOP-N + "more" toggle (避免标签膨胀时炸屏)
-    _TAG_SHOW = 12
+    _TAG_SHOW = 8
     if len(tag_list) > _TAG_SHOW:
         _shown = tag_list[:_TAG_SHOW]
         _rest  = tag_list[_TAG_SHOW:]
@@ -1098,30 +1083,28 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 只看未读</button>',
         '</div></div>',
         signal_line,
-        build_timeline_html(update_log),
 
-        # Filter section — 紧凑两行（事件·领域·标签 合并一行 + 时间一行，对齐企业库）
+        # Filter section — 两行分组（事件+领域 / 标签+时间），统一风格
         '<div class="filter-section" id="filter-section">',
-        '  <div class="filter-row filter-row-compact">',
-        '    <span class="filter-label">事件:</span>',
+        '  <div class="filter-row">',
+        '    <span class="filter-label">事件</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-group="event" data-value="all">全部</button>',
         event_buttons,
         '    </div>',
-        '    <span class="filter-divider">|</span>',
-        '    <span class="filter-label">领域:</span>',
+        '    <span class="filter-label" style="margin-left:16px;">领域</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-group="domain" data-value="all">全部</button>',
         domain_buttons,
         '    </div>',
-        '    <span class="filter-divider">|</span>',
-        '    <span class="filter-label">标签:</span>',
+        '  </div>',
+        '  <div class="filter-row">',
+        '    <span class="filter-label">标签</span>',
         '    <div class="filter-btns" id="tag-btns-wrap">',
         '      <button class="filter-btn active" data-group="tag" data-value="all">全部</button>',
         _tag_btns,
         '    </div>',
-        '    <span class="filter-divider">|</span>',
-        '    <span class="filter-label">时间</span>',
+        '    <span class="filter-label" style="margin-left:16px;">时间</span>',
         '    <div class="filter-btns">',
         '      <button class="filter-btn active" data-time="all">全部</button>',
         '      <button class="filter-btn" data-time="1w">近1周</button>',
@@ -1136,14 +1119,6 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="filter-row fav-tag-filter" id="fav-tag-filter">',
         '  <span class="filter-label">收藏标签</span>',
         '  <div class="filter-btns" id="fav-tag-pills"></div>',
-        '</div>',
-
-        # 选题雷达区块说明（让非技术用户秒懂这块是什么、怎么看）
-        '<div class="radar-head" id="radar-head">',
-        '<h3>📡 今日选题雷达</h3>',
-        '<p class="radar-sub">系统每天自动从各大信源筛选出「值得写」的资讯，按综合分排序。'
-        '卡片下方 6 个芯片是打分维度（鼠标悬停看含义）；'
-        '<b>★ 推荐理由只讲「为什么值得写、对中国有何借鉴」</b>，不重复卡片已有信息。</p>',
         '</div>',
 
         # 精选 (Selected) view: selected cards（按评分降序，与全量同款）

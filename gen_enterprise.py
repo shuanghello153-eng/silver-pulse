@@ -640,7 +640,7 @@ def generate():
     # Tag filter options — TOP-N high-frequency pills + collapsible "more" to avoid explosion
     from collections import Counter
     tag_counter = Counter(t for e in enterprises for t in (e.get("tags") or []) if t)
-    TAG_SHOW_LIMIT = 24  # 只展示最高频的 N 个标签，其余折叠
+    TAG_SHOW_LIMIT = 12  # 只展示最高频的 N 个标签，其余折叠
     top_tags = [t for t, _ in tag_counter.most_common(TAG_SHOW_LIMIT)]
     more_tags = [t for t, _ in tag_counter.most_common()[TAG_SHOW_LIMIT:]]
 
@@ -661,11 +661,29 @@ def generate():
             + '</div>'
         )
 
-    # L1 filter buttons (no numbering)
-    cat_buttons = "\n".join(
-        f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
-        for l1 in L1_CATS
+    # L1 filter buttons — 按数量降序排列，只显示 TOP 8，其余折叠
+    CAT_SHOW_LIMIT = 8
+    sorted_l1 = sorted(L1_CATS, key=lambda c: cat_counts.get(c, 0), reverse=True)
+    shown_cats = sorted_l1[:CAT_SHOW_LIMIT]
+    rest_cats = sorted_l1[CAT_SHOW_LIMIT:]
+
+    cat_buttons = (
+        '<button class="f-btn active" data-cat="all">全部</button>'
+        + "".join(
+            f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
+            for l1 in shown_cats
+        )
     )
+    if rest_cats:
+        cat_buttons += (
+            f'<button class="f-btn f-btn-more" id="ent-toggle-cats" onclick="toggleEntCats()">+{len(rest_cats)}</button>'
+            f'<div id="ent-more-cats" style="display:none;margin-top:6px;">'
+            + "".join(
+                f'<button class="f-btn" data-cat="{esc(l1)}">{esc(l1)}<span class="cnt">{cat_counts.get(l1, 0)}</span></button>'
+                for l1 in rest_cats
+            )
+            + '</div>'
+        )
 
     # L2 filter buttons grouped by L1 (hidden by default, shown when L1 is selected)
     l2_filter_html = ""
@@ -1034,6 +1052,22 @@ filterEnt();
 function toggleEntTags() {{
   const box = document.getElementById('ent-more-tags');
   const btn = document.getElementById('ent-toggle-tags');
+  if (!box || !btn) return;
+  if (box.style.display === 'none') {{
+    box.style.display = '';
+    btn.textContent = '收起 ▲';
+    btn.classList.add('active');
+  }} else {{
+    box.style.display = 'none';
+    const n = box.querySelectorAll('.f-btn').length;
+    btn.textContent = '+' + n;
+    btn.classList.remove('active');
+  }}
+}}
+
+function toggleEntCats() {{
+  const box = document.getElementById('ent-more-cats');
+  const btn = document.getElementById('ent-toggle-cats');
   if (!box || !btn) return;
   if (box.style.display === 'none') {{
     box.style.display = '';
