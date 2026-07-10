@@ -93,8 +93,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   font-size:12.5px;font-weight:600;color:var(--text-secondary);transition:all .15s;white-space:nowrap;font-family:inherit}
 .view-pill.active,.region-pill.active{background:var(--accent-grad);color:#fff;box-shadow:var(--shadow-sm)}
 .search-inline{padding:7px 14px;border:1px solid var(--border);border-radius:12px;font-size:12.5px;outline:none;
-  background:var(--surface);color:var(--text);width:180px;transition:all .15s;font-family:inherit}
-.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:230px}
+  background:var(--surface);color:var(--text);width:220px;transition:all .15s;font-family:inherit}
+.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:280px}
 
 .news-search-row{margin-bottom:16px}
 .news-search{width:100%;box-sizing:border-box;padding:11px 17px;border:1.5px solid var(--border);border-radius:14px;
@@ -102,9 +102,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .news-search:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(14,165,183,.10)}
 
 .filter-section{background:transparent;border:none;border-radius:0;padding:0;margin-bottom:14px;box-shadow:none}
-.filter-row{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;line-height:1}
+.filter-row{display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap;line-height:1}
 .filter-row:last-child{margin-bottom:0}
-.filter-label{font-size:11.5px;color:var(--text-muted);width:36px;font-weight:700;letter-spacing:.3px;margin-right:8px;flex-shrink:0;text-align:left}
+.filter-label{font-size:11.5px;color:var(--text-muted);width:28px;font-weight:700;letter-spacing:.3px;margin-right:4px;flex-shrink:0;text-align:left}
 .filter-btns{display:flex;flex-wrap:wrap;gap:5px;flex:1;justify-content:flex-start;align-items:center}
 /* 统一按钮高度 28px */
 .filter-btn{padding:4px 13px;border-radius:14px;border:1px solid var(--border);background:var(--surface);
@@ -200,7 +200,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 
 /* ===== 企业库通用按钮：统一高度 28px ===== */
 .toolbar{margin-bottom:16px}
-.f-label{font-size:11.5px;color:var(--text-muted);font-weight:700;margin-right:8px;width:36px;flex-shrink:0;text-align:left}
+.f-label{font-size:11.5px;color:var(--text-muted);font-weight:700;margin-right:4px;width:28px;flex-shrink:0;text-align:left}
 .f-btn{padding:4px 12px;border-radius:14px;border:1px solid var(--border);background:var(--surface);font-size:12px;
   cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s;font-family:inherit;height:28px;line-height:1;display:inline-flex;align-items:center}
 .f-btn:hover{border-color:var(--accent);color:var(--accent-strong)}

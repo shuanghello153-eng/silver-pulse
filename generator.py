@@ -272,7 +272,7 @@ def classify_domain(title, summary, tags):
                          "cognitive impairment", "mci", "认知障碍", "脑健康",
                          "脑科学", "neuroscience", "neurodegenerative", "帕金森",
                          "parkinson", "脑萎缩", "认知训练", "脑力训练"],
-        "产业资本/投资机构": ["投资机构", "基金", "vc", "pe", "资本", "风投",
+        "产业资本": ["投资机构", "基金", "vc", "pe", "资本", "风投",
                              "venture capital", "private equity", "fund", "investor",
                              "family office", "angel", "incubator", "lp", "gp",
                              "加速器", "孵化器", "母基金", "fof", "投资平台",
@@ -284,10 +284,10 @@ def classify_domain(title, summary, tags):
             matched.append(domain)
 
     if not matched:
-        # Default: check if funding/acquisition related → "产业资本/投资机构"
+        # Default: check if funding/acquisition related → "产业资本"
         if any(kw in text for kw in ["funding", "融资", "raises", "investment", "收购",
                                       "acquisition", "merger", "ipo", "vc", "资本"]):
-            matched.append("产业资本/投资机构")
+            matched.append("产业资本")
         else:
             matched.append("健康服务")  # broadest fallback
 
@@ -995,7 +995,7 @@ def generate_html(scored_articles=None, output_path=None):
     # Build filter buttons — 全展示不折叠，带数量徽章
     from collections import Counter as _Ctr
     _evt_ctr = _Ctr(a.get("event_type", "") for a in merged if a.get("event_type"))
-    _dom_ctr = _Ctr(a.get("domain", "") for a in merged if a.get("domain"))
+    _dom_ctr = _Ctr(d for a in merged for d in (a.get("domains") or []) if d)
     _tag_ctr = _Ctr(t for a in merged for t in (a.get("tags") or []) if t)
     event_buttons = "".join(
         f'<button class="filter-btn" data-group="event" data-value="{e}">{e}<span class="cnt">{_evt_ctr.get(e, 0)}</span></button>' for e in event_list
@@ -1103,7 +1103,7 @@ def generate_html(scored_articles=None, output_path=None):
         '      <button class="filter-btn" data-time="3m">近3月</button>',
         '    </div>',
         '    <div class="aux-group">',
-        '      <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
+        '      <button class="fav-filter-btn" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
         '      <button class="toolbar-filter-btn" id="hide-toggle" title="显示被「不再显示」隐藏的卡片">🙈 已隐藏</button>',
         '      <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读资讯（与收藏无关）">👁 未读</button>',
         '    </div>',

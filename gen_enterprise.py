@@ -769,7 +769,7 @@ __SIDEBAR__
     </div>
     <div class="aux-group">
       <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业">🔥 近期动态</button>
-      <button class="fav-filter-btn" onclick="spToggleFavFilter()" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
+      <button class="fav-filter-btn" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>
       <button class="toolbar-filter-btn" id="unread-toggle" title="只看未读企业">👁 未读</button>
       <button class="toolbar-filter-btn" id="hide-toggle" title="显示被隐藏的企业">🙈 已隐藏</button>
     </div>
