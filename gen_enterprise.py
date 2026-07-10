@@ -215,13 +215,18 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
             cat_text += f" · {cat_l2}"
         header_parts.append(f'<span class="ent-badge badge-cat">{cat_text}</span>')
 
-    # Tags (醒目颜色)
+    # Tags (醒目颜色) — 限制显示数量，超出折叠
+    TAG_PER_CARD = 6
     if tags and isinstance(tags, list):
+        visible_tags = [t for t in tags if t][:TAG_PER_CARD]
+        hidden_count = len([t for t in tags if t]) - len(visible_tags)
         tags_html = "".join(
-            f'<span class="ent-tag">{esc(t)}</span>' for t in tags[:5] if t
+            f'<span class="ent-tag">{esc(t)}</span>' for t in visible_tags
         )
+        if hidden_count > 0:
+            tags_html += f'<span class="tag-overflow" onclick="this.parentElement.classList.toggle(\'limit-tags\');this.style.display=\'none\'">+{hidden_count}</span>'
         if tags_html:
-            header_parts.append(f'<span class="ent-tags">{tags_html}</span>')
+            header_parts.append(f'<span class="ent-tags limit-tags">{tags_html}</span>')
 
     # Region (低调，放最后)
     if region:
@@ -640,7 +645,7 @@ def generate():
     # Tag filter options — TOP-N high-frequency pills + collapsible "more" to avoid explosion
     from collections import Counter
     tag_counter = Counter(t for e in enterprises for t in (e.get("tags") or []) if t)
-    TAG_SHOW_LIMIT = 12  # 只展示最高频的 N 个标签，其余折叠
+    TAG_SHOW_LIMIT = 8  # 筛选栏只展示最高频的 N 个标签，其余折叠（减少视觉噪音）
     top_tags = [t for t, _ in tag_counter.most_common(TAG_SHOW_LIMIT)]
     more_tags = [t for t, _ in tag_counter.most_common()[TAG_SHOW_LIMIT:]]
 
@@ -662,7 +667,7 @@ def generate():
         )
 
     # L1 filter buttons — 按数量降序排列，只显示 TOP 8，其余折叠
-    CAT_SHOW_LIMIT = 8
+    CAT_SHOW_LIMIT = 6  # 筛选栏只展示 TOP 6 个一级分类，其余折叠（减少视觉噪音）
     sorted_l1 = sorted(L1_CATS, key=lambda c: cat_counts.get(c, 0), reverse=True)
     shown_cats = sorted_l1[:CAT_SHOW_LIMIT]
     rest_cats = sorted_l1[CAT_SHOW_LIMIT:]
