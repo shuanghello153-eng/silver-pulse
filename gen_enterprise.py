@@ -654,15 +654,26 @@ def generate():
     # Tag filter options — 全展示不折叠
     from collections import Counter
     tag_counter = Counter(t for e in enterprises for t in (e.get("tags") or []) if t)
-    all_tags = [t for t, _ in tag_counter.most_common()]
+    TAG_SHOW_LIMIT = 12  # 筛选栏展示最高频的 N 个标签，其余折叠（避免全屏爆炸）
+    top_tags = [t for t, _ in tag_counter.most_common(TAG_SHOW_LIMIT)]
+    more_tags = [t for t, _ in tag_counter.most_common()[TAG_SHOW_LIMIT:]]
 
     tag_pills_html = (
         '<button class="f-btn active" data-tag="all">全部</button>'
         '<button class="f-btn" data-tag="__funded__">有融资/IPO</button>'
         + "".join(
-            f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in all_tags
+            f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in top_tags
         )
     )
+    if more_tags:
+        tag_pills_html += (
+            f'<button class="f-btn f-btn-more" id="ent-toggle-tags" onclick="toggleEntTags()">{_fold_label(len(more_tags))}</button>'
+            f'<div id="ent-more-tags" style="display:none;margin-top:6px" class="ent-more-tags-wrap">'
+            + "".join(
+                f'<button class="f-btn" data-tag="{esc(t)}">{esc(t)}<span class="cnt">{tag_counter[t]}</span></button>' for t in more_tags
+            )
+            + '</div>'
+        )
 
     # L1 filter buttons — 全部展示不折叠，点击展开L2子类
     sorted_l1 = sorted(L1_CATS, key=lambda c: cat_counts.get(c, 0), reverse=True)
@@ -891,6 +902,7 @@ function filterEnt() {{
     const recentMatch = !activeRecent || card.dataset.recent === '1';
     const hiddenMatch = (window.spShowHidden === true) || (card.dataset.hide !== '1');
     const readMatch = (window.spUnreadOnly !== true) || (card.dataset.read !== '1');
+    const favMatch = !document.body.classList.contains('fav-mode') || card.dataset.fav === '1';
     const timeMatch = (activeEntTime === 'all') ? true : (function() {{
       const d = card.dataset.lastnews || '';
       if (!d) return false;
@@ -900,7 +912,7 @@ function filterEnt() {{
       return dd >= cut;
     }})();
 
-    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && readMatch && timeMatch) {{
+    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && readMatch && favMatch && timeMatch) {{
       if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
       if (cat && l2) {{
         if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};

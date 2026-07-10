@@ -809,6 +809,7 @@ function updateDisplay(){
     const sm=searchTerm===''||title.includes(searchTerm)||summary.includes(searchTerm)||entity.includes(searchTerm)||source.includes(searchTerm)||tgs.toLowerCase().includes(searchTerm);
     const hiddenMatch=(window.spShowHidden===true)||(item.dataset.hide!=='1');
     const readMatch=(window.spUnreadOnly===true)?(item.dataset.read!=='1'):true;
+    const favMatch=!document.body.classList.contains('fav-mode')||item.dataset.fav==='1';
     const dateStr=item.dataset.date||'';
     let tmTime=true;
     if(activeTime!=='all'&&dateStr){
@@ -817,7 +818,7 @@ function updateDisplay(){
       const d=new Date(dateStr.replace(/-/g,'/'));
       tmTime = d>=cut;
     }
-    if(rm&&em&&dm&&tm&&sm&&tmTime&&hiddenMatch&&readMatch){
+    if(rm&&em&&dm&&tm&&sm&&tmTime&&hiddenMatch&&readMatch&&favMatch){
       item.style.display='flex';
       visible++;
     }else{item.style.display='none'}
@@ -991,20 +992,24 @@ def generate_html(scored_articles=None, output_path=None):
     selected_count = len(selected)
     update_log = update_update_log(selected_count)
 
-    # Build filter buttons — 全展示不折叠
+    # Build filter buttons — 全展示不折叠，带数量徽章
+    from collections import Counter as _Ctr
+    _evt_ctr = _Ctr(a.get("event_type", "") for a in merged if a.get("event_type"))
+    _dom_ctr = _Ctr(a.get("domain", "") for a in merged if a.get("domain"))
+    _tag_ctr = _Ctr(t for a in merged for t in (a.get("tags") or []) if t)
     event_buttons = "".join(
-        '<button class="filter-btn" data-group="event" data-value="%s">%s</button>' % (e, e) for e in event_list
+        f'<button class="filter-btn" data-group="event" data-value="{e}">{e}<span class="cnt">{_evt_ctr.get(e, 0)}</span></button>' for e in event_list
     )
 
     domain_buttons = "".join(
-        '<button class="filter-btn" data-group="domain" data-value="%s">%s</button>' % (d, d) for d in domain_list
+        f'<button class="filter-btn" data-group="domain" data-value="{d}">{d}<span class="cnt">{_dom_ctr.get(d, 0)}</span></button>' for d in domain_list
     )
 
-    # Tag pills: 全展示不折叠
+    # Tag pills: 全展示不折叠，带数量徽章
     _tag_btns = (
         '<button class="filter-btn active" data-group="tag" data-value="all">全部</button>'
         + "".join(
-            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}</button>' for t in tag_list
+            f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}<span class="cnt">{_tag_ctr.get(t, 0)}</span></button>' for t in tag_list
         )
     )
 
@@ -1040,8 +1045,9 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="header-stats" id="header-stats">更新于 %s · 数据 %s · 共 %s 条</div>' % (today_str, data_date_str, total_count),
         '</div>',
 
-        # 第1行：视图 / 地区 / 搜索 / 排序
+        # 第1行：视图 / 地区 / 排序 / 搜索
         '<div class="filter-bar">',
+        '<span class="filter-label">视图</span>',
         '<div class="view-pills">',
         '<button class="view-pill active" id="pill-curated" onclick="setView(\'curated\')">精选(%s)</button>' % selected_count,
         '<button class="view-pill" id="pill-all" onclick="setView(\'all\')">全量(%s)</button>' % total_count,
@@ -1052,9 +1058,9 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="domestic">国内(%s)</button>' % domestic_curated,
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div>',
-        '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
         '<span class="filter-label">排序</span>',
         '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓ / 信号↓">评分 ↓</button>',
+        '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
         '</div></div>',
 
         # 筛选区：每行独占一个筛选项类型
