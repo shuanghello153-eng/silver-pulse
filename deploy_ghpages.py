@@ -30,11 +30,11 @@ def _no_proxy_env():
     The automation host sets HTTPS_PROXY=http://127.0.0.1:7890, but that local
     proxy resets HTTPS tunnels to github.com (WinError 10054). Direct connections
     to github.com work fine, so we strip the proxy for all git ops here. Without
-    this, every nightly `git push` fails 3x with 'Connection was reset'.
+    NOTE: network posture is flaky — sometimes the direct path resets and the
+    local proxy (127.0.0.1:7890) is required, sometimes the reverse. As of the
+    current environment the proxy is the working path, so we KEEP proxy vars.
     """
     e = dict(os.environ)
-    for k in ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy"):
-        e.pop(k, None)
     return e
 
 

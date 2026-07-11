@@ -92,20 +92,14 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .view-pill,.region-pill{padding:6px 15px;border-radius:18px;border:none;background:transparent;cursor:pointer;
   font-size:12.5px;font-weight:600;color:var(--text-secondary);transition:all .15s;white-space:nowrap;font-family:inherit}
 .view-pill.active,.region-pill.active{background:var(--accent-grad);color:#fff;box-shadow:var(--shadow-sm)}
-.search-inline{padding:7px 14px;border:1px solid var(--border);border-radius:12px;font-size:12.5px;outline:none;
-  background:var(--surface);color:var(--text);width:220px;transition:all .15s;font-family:inherit}
-.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:280px}
-/* 独立搜索行：input+按钮常驻，手机端不挤压 */
-.search-bar{display:flex;gap:8px;align-items:center;margin-bottom:12px}
-.search-box{flex:1 1 auto;min-width:0;padding:10px 16px;border:1.5px solid var(--border);border-radius:12px;
-  font-size:13.5px;outline:none;background:var(--surface);color:var(--text);transition:all .15s;font-family:inherit}
-.search-box:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12)}
-.search-btn{flex:0 0 auto;padding:10px 22px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
-  font-size:13.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
+.search-inline{padding:7px 12px;border:1px solid var(--border);border-radius:12px;font-size:12.5px;outline:none;
+  background:var(--surface);color:var(--text);width:150px;transition:all .15s;font-family:inherit}
+.search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:200px}
+/* 搜索内联进工具栏(与视图/地区/排序同排), 输入框缩短, 按钮 flex:0 0 auto 常驻不挤压 */
+.search-inline-group{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;margin-left:2px}
+.search-btn{flex:0 0 auto;padding:7px 16px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
+  font-size:12.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
 .search-btn:hover{opacity:.9}
-.search-clear{flex:0 0 auto;padding:10px 16px;border:1px solid var(--border);border-radius:12px;background:var(--surface);
-  color:var(--text-secondary);font-size:13px;cursor:pointer;font-family:inherit;white-space:nowrap}
-.search-clear:hover{border-color:var(--accent);color:var(--accent-strong)}
 
 .news-search-row{margin-bottom:16px}
 .news-search{width:100%;box-sizing:border-box;padding:11px 17px;border:1.5px solid var(--border);border-radius:14px;
@@ -364,9 +358,10 @@ html,body{overflow-x:hidden}
   .header-top{gap:8px}
   .header h2{font-size:18px}
   .header-stats{font-size:11px}
-  /* 搜索框全宽 */
-  .search-inline{width:100%;box-sizing:border-box;padding:9px 13px;font-size:13px}
-  .search-inline:focus{width:100%}
+  /* 搜索内联组：手机端不撑破, 输入框可缩、按钮常驻 */
+  .search-inline-group{flex:1 1 auto;min-width:0;margin-left:0}
+  .search-inline{width:calc(100% - 64px);box-sizing:border-box;padding:9px 13px;font-size:13px}
+  .search-inline:focus{width:calc(100% - 64px)}
   /* 筛选区：紧凑化 */
   .filter-section{padding:10px 12px;margin-bottom:12px}
   .filter-row{gap:6px;margin-bottom:8px}

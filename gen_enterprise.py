@@ -539,7 +539,11 @@ def generate():
         '健康监测': ['血压血糖', '跌倒检测', '步态检测', '咳嗽检测', '防跌倒', '紧急呼叫', '医疗警报'],
         '精神健康': ['心理咨询', '抑郁'],
         '渠道': ['线上渠道', '线下渠道', '电视购物', '会员营销', '私域渠道', '特殊渠道', '代工厂'],
-        '文娱社交': ['相亲', '婚恋', '交友', '老年相亲', '老年社交', '社交平台', '兴趣社群', '短视频', '直播'],
+        '文娱社交': ['老年社交', '社交平台', '兴趣社群', '短视频', '直播'],
+        '相亲': ['婚恋', '老年相亲', '老人相亲', '银发相亲', '老年婚恋', '交友'],
+        '护理平台': ['寻找护理', '护理员支持', '护理匹配', '护理协调', '护理管理'],
+        '陪伴机器人': ['仿生陪伴', 'AI机器宠物', 'AI伴侣', '虚拟陪伴', '社交机器人'],
+        '机器人': ['养老机器人', '康复机器人', '医疗机器人', '服务机器人', '人形机器人'],
     }
     # 反向展开：每个词(含同义词与规范词) -> 规范词；以及 规范词 -> 全部可匹配词
     SYN_FLAT = {}
@@ -852,13 +856,7 @@ __SIDEBAR__
 </div>
 
 <div class="toolbar">
-  <!-- 搜索行（独立一行，手机端不挤压，按钮常驻） -->
-  <div class="search-bar">
-    <input type="text" class="search-box" id="search" placeholder="搜索企业名称 / 描述 / 标签（如 老年鞋、响午、SODH）" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
-    <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
-    <button type="button" class="search-clear" onclick="document.getElementById('search').value='';filterEnt();">清除</button>
-  </div>
-  <!-- 第1行：视图 / 地区 / 排序 -->
+  <!-- 第1行：视图 / 地区 / 排序 / 搜索(内联, 输入框缩短, 按钮常驻) -->
   <div class="filter-row filter-main">
     <span class="f-label">视图</span>
     <div class="view-toggle">
@@ -876,6 +874,11 @@ __SIDEBAR__
       <button class="sort-arrow active" data-sort="news" onclick="setEntSort('news')">资讯相关</button>
       <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">研究分</button>
       <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额</button>
+    </div>
+    <span class="f-label">搜索</span>
+    <div class="search-inline-group">
+      <input type="text" class="search-inline" id="search" placeholder="老年鞋/响午/SODH/相亲" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
+      <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
     </div>
   </div>
 

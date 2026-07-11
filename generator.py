@@ -1041,16 +1041,13 @@ def generate_html(scored_articles=None, output_path=None):
 
         # Header
         '<div class="header">',
-        '<div class="header-top" style="display:flex;align-items:center;gap:12px;">',
+        '<div class="header-top" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">',
         '<h2>银发经济每周速览</h2>',
         '<div class="header-stats" id="header-stats">更新于 %s · 数据 %s · 共 %s 条</div>' % (today_str, data_date_str, total_count),
-        '</div>',
-
-        # 搜索行（独立一行，input+按钮常驻，与企业库一致）
-        '<div class="search-bar">',
-        '<input type="text" class="search-box" id="search-input" placeholder="搜索标题 / 摘要 / 标签（输入后回车或点按钮）" onkeydown="if(event.key===\'Enter\'){doNewsSearch();}">',
+        '<div class="search-inline-group" style="margin-left:auto">',
+        '<input type="text" class="search-inline" id="search-input" placeholder="搜索标题/摘要/标签" onkeydown="if(event.key===\'Enter\'){doNewsSearch();}">',
         '<button type="button" class="search-btn" onclick="doNewsSearch()">搜索</button>',
-        '<button type="button" class="search-clear" onclick="document.getElementById(\'search-input\').value=\'\';doNewsSearch();">清除</button>',
+        '</div>',
         '</div>',
 
         # 第1行：视图 / 地区 / 排序
