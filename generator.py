@@ -758,7 +758,7 @@ let activeEvent='all';
 let activeDomain='all';
 let activeTag='all';
 let searchTerm='';
-let sortMode='score';
+let sortMode='date';
 let sortDir='desc';
 let activeTime='all';
 window.spReapply=updateDisplay;
@@ -873,9 +873,10 @@ document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(btn=>{
     this.classList.add('active');activeTag=this.dataset.value;updateDisplay();
   });
 });
-document.getElementById('search-input').addEventListener('input',function(){
-  searchTerm=this.value.toLowerCase().trim();updateDisplay();
-});
+function doNewsSearch(){
+  var si=document.getElementById('search-input');
+  searchTerm=(si?si.value:'').toLowerCase().trim();updateDisplay();
+}
 // 排序箭头：评分↓ → 评分↑ → 时间↓ → 信号↓ 循环
 function cycleSort(){
   if(sortMode==='score'&&sortDir==='desc'){sortDir='asc';}
@@ -884,7 +885,7 @@ function cycleSort(){
   else{sortMode='score';sortDir='desc';}
   const btn=document.getElementById('sort-btn');
   if(btn){
-    if(sortMode==='date'){btn.textContent='时间 ↓';btn.classList.remove('active');}
+    if(sortMode==='date'){btn.textContent='时间 ↓';btn.classList.add('active');}
     else if(sortMode==='signal'){btn.textContent='信号 ↓';btn.classList.add('active');}
     else{btn.textContent='评分 '+(sortDir==='desc'?'↓':'↑');btn.classList.add('active');}
   }
@@ -985,9 +986,9 @@ def generate_html(scored_articles=None, output_path=None):
     # Build cards
     cards_html = "".join(build_card_html(art) for art in merged)
 
-    # Build 精选 (Selected) view cards — 按综合评分降序（与全量同款卡片）
+    # Build 精选 (Selected) view cards — 默认按时间倒序（最新在前），与默认排序一致
     selected = [a for a in merged if is_selected(a)]
-    selected.sort(key=lambda a: (a.get("final_score", 0) or 0), reverse=True)
+    selected.sort(key=lambda a: a.get("date", "0000-00-00"), reverse=True)
     selected_html = "".join(build_selected_card_html(a) for a in selected)
     selected_count = len(selected)
     update_log = update_update_log(selected_count)
@@ -1045,7 +1046,14 @@ def generate_html(scored_articles=None, output_path=None):
         '<div class="header-stats" id="header-stats">更新于 %s · 数据 %s · 共 %s 条</div>' % (today_str, data_date_str, total_count),
         '</div>',
 
-        # 第1行：视图 / 地区 / 排序 / 搜索
+        # 搜索行（独立一行，input+按钮常驻，与企业库一致）
+        '<div class="search-bar">',
+        '<input type="text" class="search-box" id="search-input" placeholder="搜索标题 / 摘要 / 标签（输入后回车或点按钮）" onkeydown="if(event.key===\'Enter\'){doNewsSearch();}">',
+        '<button type="button" class="search-btn" onclick="doNewsSearch()">搜索</button>',
+        '<button type="button" class="search-clear" onclick="document.getElementById(\'search-input\').value=\'\';doNewsSearch();">清除</button>',
+        '</div>',
+
+        # 第1行：视图 / 地区 / 排序
         '<div class="filter-bar">',
         '<span class="filter-label">视图</span>',
         '<div class="view-pills">',
@@ -1059,8 +1067,7 @@ def generate_html(scored_articles=None, output_path=None):
         '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
         '</div>',
         '<span class="filter-label">排序</span>',
-        '<button class="sort-arrow active" id="sort-btn" title="点击切换：评分↓ / 评分↑ / 时间↓ / 信号↓">评分 ↓</button>',
-        '<input class="search-inline" type="text" id="search-input" placeholder="搜索标题/摘要/标签...">',
+        '<button class="sort-arrow active" id="sort-btn" title="点击切换：时间↓ / 信号↓ / 评分↓ / 评分↑">时间 ↓</button>',
         '</div></div>',
 
         # 筛选区：每行独占一个筛选项类型

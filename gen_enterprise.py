@@ -521,6 +521,7 @@ def generate():
         '鞋服': ['服装', '鞋子', '老年鞋', '老年服饰'],
         '个护': ['护肤', '染发剂', '假发'],
         '健康管理': ['综合医疗', '初级保健', '微型诊所', '医疗服务商', '医疗编码', '疾病预测', '服药管理', '物理治疗', '肌肉骨骼护理', '诊所', '医保', '处方药', '中医'],
+        'SODH': ['社会决定因素', '社会护理网络', '健康社会因素', '支持性护理'],
         '慢病管理': ['糖尿病'],
         '认知症': ['痴呆症', '神经退化', '阿尔茨海默', '病情早筛', '音乐疗法', '回忆疗法'],
         '行业媒体': ['B2C媒体'],
@@ -538,6 +539,7 @@ def generate():
         '健康监测': ['血压血糖', '跌倒检测', '步态检测', '咳嗽检测', '防跌倒', '紧急呼叫', '医疗警报'],
         '精神健康': ['心理咨询', '抑郁'],
         '渠道': ['线上渠道', '线下渠道', '电视购物', '会员营销', '私域渠道', '特殊渠道', '代工厂'],
+        '文娱社交': ['相亲', '婚恋', '交友', '老年相亲', '老年社交', '社交平台', '兴趣社群', '短视频', '直播'],
     }
     # 反向展开：每个词(含同义词与规范词) -> 规范词；以及 规范词 -> 全部可匹配词
     SYN_FLAT = {}
@@ -850,7 +852,13 @@ __SIDEBAR__
 </div>
 
 <div class="toolbar">
-  <!-- 第1行：视图 / 地区 / 排序 / 搜索 -->
+  <!-- 搜索行（独立一行，手机端不挤压，按钮常驻） -->
+  <div class="search-bar">
+    <input type="text" class="search-box" id="search" placeholder="搜索企业名称 / 描述 / 标签（如 老年鞋、响午、SODH）" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
+    <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
+    <button type="button" class="search-clear" onclick="document.getElementById('search').value='';filterEnt();">清除</button>
+  </div>
+  <!-- 第1行：视图 / 地区 / 排序 -->
   <div class="filter-row filter-main">
     <span class="f-label">视图</span>
     <div class="view-toggle">
@@ -869,7 +877,6 @@ __SIDEBAR__
       <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">研究分</button>
       <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额</button>
     </div>
-    <input type="text" class="search-inline" id="search" placeholder="搜索企业名称/描述/标签...（输入后回车或点按钮）" onkeydown="if(event.key==='Enter'){{filterEnt();}}"> <button type="button" class="sort-arrow" onclick="filterEnt()">搜索</button>
   </div>
 
   <!-- 第2行：分类（L1全展示，点击展开L2子类） -->

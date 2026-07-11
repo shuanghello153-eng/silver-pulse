@@ -95,6 +95,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .search-inline{padding:7px 14px;border:1px solid var(--border);border-radius:12px;font-size:12.5px;outline:none;
   background:var(--surface);color:var(--text);width:220px;transition:all .15s;font-family:inherit}
 .search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:280px}
+/* 独立搜索行：input+按钮常驻，手机端不挤压 */
+.search-bar{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+.search-box{flex:1 1 auto;min-width:0;padding:10px 16px;border:1.5px solid var(--border);border-radius:12px;
+  font-size:13.5px;outline:none;background:var(--surface);color:var(--text);transition:all .15s;font-family:inherit}
+.search-box:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12)}
+.search-btn{flex:0 0 auto;padding:10px 22px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
+  font-size:13.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
+.search-btn:hover{opacity:.9}
+.search-clear{flex:0 0 auto;padding:10px 16px;border:1px solid var(--border);border-radius:12px;background:var(--surface);
+  color:var(--text-secondary);font-size:13px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.search-clear:hover{border-color:var(--accent);color:var(--accent-strong)}
 
 .news-search-row{margin-bottom:16px}
 .news-search{width:100%;box-sizing:border-box;padding:11px 17px;border:1.5px solid var(--border);border-radius:14px;
@@ -519,6 +530,10 @@ body.fav-mode .ent-card:not([data-fav="1"]){display:none !important}
 .sp-tag-input{width:100%;margin-top:4px;padding:6px 9px;border:1px solid var(--border);border-radius:8px;font-size:12px;font-family:inherit;outline:none;box-sizing:border-box}
 .sp-tag-input:focus{border-color:var(--accent)}
 
+/* 复制链接提示 toast */
+.sp-toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(18px);background:rgba(15,23,42,.92);color:#fff;font-size:12.5px;padding:9px 16px;border-radius:10px;box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;z-index:320;font-family:inherit;max-width:80vw}
+.sp-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
 /* 收藏标签筛选条（仅 fav-mode 下显示） */
 .fav-tag-filter{display:none}
 body.fav-mode .fav-tag-filter{display:flex}
@@ -877,6 +892,24 @@ function spInitFav(){
   var _orig=window.spReapply||function(){};
   window.spReapply=function(){_orig();spApplyFavTagFilter();};
 })();
+/* ===== 复制外部链接（Crunchbase/官网）：原地不动，避免开一堆新标签 ===== */
+function spCopyLink(e,url,label){
+  if(e&&e.preventDefault)e.preventDefault();
+  var ok=false;
+  try{ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url);ok=true;} }catch(_){}
+  if(!ok){ try{ var ta=document.createElement('textarea');ta.value=url;ta.style.position='fixed';ta.style.opacity='0';ta.style.top='0';ta.style.left='0';document.body.appendChild(ta);ta.focus();ta.select();document.execCommand('copy');document.body.removeChild(ta);ok=true;}catch(_){} }
+  spToast(ok?('已复制'+label+'链接，可粘贴打开'):('复制失败，链接：'+url));
+  return false;
+}
+var _spToastTimer=null;
+function spToast(msg){
+  var t=document.getElementById('sp-toast');
+  if(!t){t=document.createElement('div');t.id='sp-toast';t.className='sp-toast';document.body.appendChild(t);}
+  t.textContent=msg;t.classList.add('show');
+  if(_spToastTimer)clearTimeout(_spToastTimer);
+  _spToastTimer=setTimeout(function(){t.classList.remove('show');},1900);
+}
+
 if(document.readyState!=='loading'){spInitFav();}else{document.addEventListener('DOMContentLoaded',spInitFav);}
 </script>
 """
