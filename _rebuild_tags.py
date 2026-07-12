@@ -804,6 +804,81 @@ MISLABEL_FIX={
  'Sage':['AI科技','健康监测'],
  'Rune Labs':['心理健康服务','数字化','认知症'],
 }
+# 走查修正落地下发(2026-07-12 v1): 74 处问题 → 71 家企业, 由 CSV 走查结论离线计算
+# 机制同 MISLABEL_FIX: 企业名(优先name_cn, 回退name) → 目标tag_l2全量列表(替换生效)
+WALKTHROUGH_FIX={
+ '6Degrees':['智能硬件', '社交平台'],
+ 'AdaptHealth':['医疗器械', '智能硬件'],
+ 'Aetna':['保险'],
+ 'Alignment Health':['保险'],
+ 'Apple':['健康监测', '智能硬件'],
+ 'Apree':['远程医疗'],
+ 'Author Health':['保险', '心理健康服务'],
+ 'Benesse':['教育'],
+ 'Best Buy Health':['慢病管理'],
+ 'Cala Health':['智能硬件', '认知症'],
+ 'Center Well':['专业护理', '远程医疗'],
+ 'Cera':['远程医疗'],
+ 'Ceresti':['照护系统', '认知症'],
+ 'Cigna':['保险'],
+ 'Clever Care Health Plan':['保险'],
+ 'Clover Health':['保险'],
+ 'Eight Sleep':['智能硬件', '睡眠科技'],
+ 'ElliQ':['陪伴机器人'],
+ 'EllieGrid':['健康管理'],
+ 'Encompass Health':['专业护理', '康复医疗', '远程医疗'],
+ 'Family First':['专业护理', '护理平台'],
+ 'Function Health':['长寿科技'],
+ 'GoodRx':['药品'],
+ 'Hamilton Health Box':['远程医疗'],
+ 'Harbor Health':['远程医疗'],
+ 'HarmonyCares':['居家护理', '远程医疗'],
+ 'Heyday Health':['居家护理'],
+ 'Hinge Health':['慢病管理'],
+ 'Hometeam':['居家护理'],
+ 'Humana':['保险'],
+ 'Iora Health':['护理平台'],
+ 'MedMinder':['健康管理'],
+ 'Nichii Gakkan':['居家护理'],
+ 'Oak Street Health':['保险', '健康管理'],
+ 'One Medical':['养老社区', '远程医疗'],
+ 'PalCare':['智能硬件', '照护系统'],
+ 'PharmAdva':['健康管理'],
+ 'Philips (Lifeline)':['产业资本', '智能硬件'],
+ 'PillSafe':['健康管理'],
+ 'SCAN Health Plan':['保险'],
+ 'Salvo Health':['慢病管理', '远程医疗'],
+ 'Senpai':['陪伴机器人'],
+ 'Solace':['临终关怀', '养老金融', '慢病管理'],
+ 'Sunrise Medical':['适老化'],
+ 'Sword Health':['慢病管理'],
+ 'Teton.ai':['AI科技', '健康监测'],
+ 'UnitedHealth':['保险'],
+ 'Vitable':['远程医疗'],
+ 'Vytalize Health':['保险', '虚拟护理'],
+ 'Wellth':['保险', '健康管理', '慢病管理'],
+ 'joyforall':['认知症'],
+ 'reev.care':['康复医疗', '智能硬件'],
+ 'ŌURA':['智能硬件'],
+ '一龄集团':['健康管理'],
+ '乐力':['保健品', '营养食品'],
+ '九为健康':['AI科技', '药品'],
+ '享睡Sleepace':['健康监测'],
+ '伊维养老':['智能硬件', '适老化改造'],
+ '佰丝堂':['营养食品'],
+ '倍益康':['康复医疗', '智能硬件'],
+ '傲鲨智能':['外骨骼', '适老化'],
+ '凯撒医疗':['保险'],
+ '唯艾':['智能硬件', '药品'],
+ '安护通':['居家护理', '慢病管理'],
+ '小诺家护':['康复医疗', '远程医疗'],
+ '斯坦福长寿研究中心':['养老金融', '长寿科技'],
+ '智云健康':['慢病管理'],
+ '清雷科技':['健康监测'],
+ '矩侨工业':['智能硬件', '机器人'],
+ '腾讯 Robotics X':['机器人'],
+ '问岐健康':['AI科技', '药品'],
+}
 _ml=0
 for e in data:
     nm=e.get('name_cn') or e.get('name')
@@ -953,6 +1028,26 @@ for e in data:
         _rd+=1
 print('=== 规则D: 49家边界个案已自决处置:', _rd, '家 ===')
 json.dump(RULED_APPLIED, open('output/_ruleD_applied.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+
+# ---------------------------------------------------------------
+# 9.5 走查修正落地(WALKTHROUGH_FIX · 2026-07-12 v1)
+#     机制同 MISLABEL_FIX: 按企业名(优先name_cn, 回退name)将 tag_l2 整体替换为走查目标列表。
+#     目标列表由离线脚本依据 CSV 走查结论解析计算: (当前tag_l2 − 原二级) ∪ 建议二级,
+#     仅含 L2_TO_L1 既有标签, 已做幂等/越界预检(74 处问题 → 71 家, 0 跳过)。
+# ---------------------------------------------------------------
+_wt=0
+for e in data:
+    nm=e.get('name_cn') or e.get('name')
+    key=nm
+    if key not in WALKTHROUGH_FIX and e.get('name') in WALKTHROUGH_FIX:
+        key=e.get('name')
+    if key in WALKTHROUGH_FIX:
+        _fixed=sorted({L2_RENAME.get(STRUCT_MERGE.get(x,x), STRUCT_MERGE.get(x,x)) for x in WALKTHROUGH_FIX[key]})
+        _fixed=[x for x in _fixed if x not in STRUCT_DROP]
+        e['tag_l2']=_fixed
+        e['tag_l1']=sorted({canon_l1(x) for x in e['tag_l2']})
+        _wt+=1
+print('=== 走查修正(WALKTHROUGH_FIX)已落地:', _wt, '家 ===')
 
 # 规则A兜底: 任何仍为空 tag_l2 的企业, 用描述补打, 仍空则按 category_l2 兜底(零丢失, 必有>=1标签)
 _empty_fixed=0
