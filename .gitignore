@@ -62,3 +62,6 @@ index.html
 enterprise.html
 about.html
 _shots/
+
+# 标签重建临时备份(不入库)
+data/enterprise/*.bak*.json
