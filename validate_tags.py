@@ -32,7 +32,9 @@ dup=[k for k in L2 if k in FIELD_DUP]
 check('与列表字段重复 = 0', len(dup)==0, '冲突: '+', '.join(dup) if dup else '无')
 
 # 4. 无同类词
-no_syn=[k for k in L2 if k not in syn or len(syn.get(k,[]))==0]
+# 判定: canon 的同义词集合去重后长度 <= 1 (即只有自身) 算失败。
+# 这样能真检出"退化 canon"(仅有自身别名、搜不到别名扩展), 不再伪绿。
+no_syn=[k for k in L2 if k not in syn or len(set(syn.get(k,[])))<=1]
 check('无同类词的二级标签 = 0', len(no_syn)==0, '缺: '+', '.join(no_syn) if no_syn else '全部覆盖')
 
 # 5. 0标签企业
