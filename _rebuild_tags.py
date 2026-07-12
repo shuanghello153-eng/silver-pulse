@@ -1006,6 +1006,9 @@ OPTIMIZE_FIX_20260712={
  'CareCentrix':['居家护理'],'Concerto Care':['居家护理'],'Kins':['居家护理'],'DispatchHealth':['居家护理'],
  'AccentCare':['居家护理'],'Right At Home':['居家护理'],'InnovAge':['居家护理'],'Addus HomeCare':['居家护理'],
  'Emoha Elder Care':['居家护理'],'BelleVie':['居家护理'],
+ # ---- 补正(主智能体验证): 智能硬件残留的展会/康复设备, 按原指令A移出 ----
+ 'CMEF':['咨询研究'],'SIC保利老博会':['咨询研究'],
+ '一康医疗':['康复设备'],'盈康生命':['康复设备'],
 }
 _ml=0
 for e in data:
