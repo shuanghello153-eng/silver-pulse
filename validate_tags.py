@@ -41,9 +41,9 @@ check('无同类词的二级标签 = 0', len(no_syn)==0, '缺: '+', '.join(no_sy
 zero=[e.get('name') or e.get('name_cn') for e in data if not e.get('tag_l2')]
 check('0标签企业 = 0', len(zero)==0, f'{len(zero)}家: '+', '.join(zero[:5]) if zero else '无')
 
-# 6. 单企业<=5
-over5=[(e.get('name_cn') or e.get('name'), len(e.get('tag_l2',[]))) for e in data if len(e.get('tag_l2',[]))>5]
-check('单企业标签 <= 5', len(over5)==0, f'{len(over5)}家超限: '+', '.join(f'{n}({c})' for n,c in over5[:8]) if over5 else '无')
+# 6. 单企业<=3 (规则B: v4 由旧 5 改为 3)
+over3=[(e.get('name_cn') or e.get('name'), len(e.get('tag_l2',[]))) for e in data if len(e.get('tag_l2',[]))>3]
+check('单企业标签 <= 3', len(over3)==0, f'{len(over3)}家超限: '+', '.join(f'{n}({c})' for n,c in over3[:8]) if over3 else '无')
 
 # 7. >100 伞词 (报告, 不强制)
 big={k:v for k,v in L2.items() if v>100}

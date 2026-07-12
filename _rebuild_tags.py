@@ -696,11 +696,28 @@ for e in data:
             raw.discard('产业资本'); capital_dropped.append({'name':name or name_cn,'l2':l2,'cat1':e.get('category_l1')})
     # 养老机构/社区互斥
     if '养老机构' in raw: raw.discard('养老社区')
-    # 暂存原始 canonical, 统一在循环后做重命名 + 截断(<=5)
+    # 暂存原始 canonical, 统一在循环后做重命名 + 截断
     e['_raw']=raw
 
-# 统一重命名 + 单企业标签截断(<=5, 保留最稀有/区分度最高的)
+# 规则B: 单企业二级标签 <=3 (v4 由旧 5 改为 3)
+#   - 同一一级下多个二级标签 -> 只保留最精确(最稀有=最具区分度)的 1 个 (含"居家护理+护理平台""健康管理+健康监测""文娱+社交平台"等近义合并)
+#   - 跨一级仍 >3 -> 按一级优先级(行业>业务>产品近似, 取 L1_LIST 顺序)保留前 3
+def _truncate_l2(l2_list):
+    if len(l2_list)<=3: return l2_list
+    by_l1=defaultdict(list)
+    for x in l2_list: by_l1[canon_l1(x)].append(x)
+    kept=[]
+    for l1,items in by_l1.items():
+        items=sorted(items, key=lambda t:_gc.get(t,0))   # 最稀有=最精确
+        kept.append(items[0])
+    if len(kept)<=3: return kept
+    pri={l:i for i,l in enumerate(L1_LIST)}              # 行业型一级优先
+    kept=sorted(kept, key=lambda t:pri.get(canon_l1(t),99))
+    return kept[:3]
+
+# 统一重命名 + 单企业标签截断(<=3)
 _gc=Counter()
+TRUNC_LOG={}
 for e in data:
     for x in e.get('_raw',[]): _gc[L2_RENAME.get(x,x)]+=1
 for e in data:
@@ -708,8 +725,11 @@ for e in data:
     l2_list=sorted({L2_RENAME.get(x,x) for x in raw})
     l2_list=[STRUCT_MERGE.get(x,x) for x in l2_list]
     l2_list=[x for x in l2_list if x not in STRUCT_DROP]
-    if len(l2_list)>5:
-        l2_list=sorted(l2_list, key=lambda t:_gc.get(t,0))[:5]
+    _pre=l2_list
+    if len(l2_list)>3:
+        l2_list=_truncate_l2(l2_list)
+    if len(_pre)>3:
+        TRUNC_LOG[(e.get('name_cn') or e.get('name'))]={'before':_pre,'after':l2_list}
     l1_list=sorted({canon_l1(x) for x in l2_list})
     e['tag_l1']=l1_list; e['tag_l2']=l2_list
 
@@ -897,6 +917,73 @@ for e in data:
         if len(cur)>before: _ma+=1
 print('=== 收编手动补丁(增量)应用于:', _ma, '家 ===')
 
+# ---------------------------------------------------------------
+# 9. 规则D: 49家边界个案(原【动你标注】)由脚本自决处置 (v4 授权)
+#    判定原则: 以企业主营/核心产品为准, 剥离上一轮标出的"非本桶"spurious 标签(nonmed_hit),
+#    保留最贴切的 1~3 个二级标签, 一级自动推导。剥离后若仍>3则交由下方规则B截断兜底。
+#    处置明细写入 output/_ruleD_applied.json 供交付文档引用。
+# ---------------------------------------------------------------
+RULED_APPLIED=[]
+try:
+    _boundary=json.load(open('output/_动你标注_v3.json',encoding='utf-8'))
+except Exception:
+    _boundary=[]
+_BOUNDARY_MAP={}
+for b in _boundary:
+    _k=b.get('name') or b.get('name_en')
+    if _k: _BOUNDARY_MAP[_k]=b
+_rd=0
+for e in data:
+    nm=e.get('name_cn') or e.get('name'); key=nm
+    if key not in _BOUNDARY_MAP and e.get('name') in _BOUNDARY_MAP:
+        key=e.get('name')
+    if key in _BOUNDARY_MAP:
+        b=_BOUNDARY_MAP[key]
+        nonmed=set(b.get('nonmed_hit') or [])
+        cur=e.get('tag_l2',[])
+        new=[x for x in cur if x not in nonmed]
+        if not new: new=cur[:]                       # 安全网: 不会因剥离变空
+        new=sorted(set(new))[:3]                      # 规则B上限≤3
+        e['tag_l2']=new
+        e['tag_l1']=sorted({canon_l1(x) for x in e['tag_l2']})
+        RULED_APPLIED.append({'name':key,'bucket':b.get('bucket'),
+                              'old_l2':cur,'new_l2':e['tag_l2'],
+                              'dropped':sorted(set(cur)-set(new)),
+                              'reason':'剥离非本桶标签('+('/'.join(sorted(nonmed)) or '无')+'), 按主营保留贴切标签'})
+        _rd+=1
+print('=== 规则D: 49家边界个案已自决处置:', _rd, '家 ===')
+json.dump(RULED_APPLIED, open('output/_ruleD_applied.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+
+# 规则A兜底: 任何仍为空 tag_l2 的企业, 用描述补打, 仍空则按 category_l2 兜底(零丢失, 必有>=1标签)
+_empty_fixed=0
+for e in data:
+    if not e.get('tag_l2'):
+        desc=(e.get('description') or e.get('desc_cn') or '')
+        cur=set(tag_from_desc(desc))
+        c2=e.get('category_l2')
+        if c2:
+            cc=map_raw(c2)
+            if cc: cur.add(cc)
+        if cur:
+            cur={L2_RENAME.get(STRUCT_MERGE.get(x,x),STRUCT_MERGE.get(x,x)) for x in cur}
+            cur={x for x in cur if x not in STRUCT_DROP}
+        if cur:
+            e['tag_l2']=sorted(cur)
+            e['tag_l1']=sorted({canon_l1(x) for x in e['tag_l2']})
+            _empty_fixed+=1
+print('=== 规则A兜底: 空tag_l2已补:', _empty_fixed, '家 ===')
+
+# 规则B最终兜底: 所有修正(MISLABEL_FIX/MANUAL_ADD/规则D)之后, 再次确保每家企业<=3
+_rb=0
+for e in data:
+    l2=e.get('tag_l2',[])
+    if len(l2)>3:
+        l2=_truncate_l2(l2)
+        e['tag_l2']=l2
+        e['tag_l1']=sorted({canon_l1(x) for x in l2})
+        _rb+=1
+print('=== 规则B最终兜底: 二次截断', _rb, '家 ===')
+
 # 统计
 l1c=Counter(); l2c=Counter()
 for e in data:
@@ -973,6 +1060,23 @@ for k,v in _existing_syn.items():
         _merged[k]=sorted(set(v))   # 保留脚本未覆盖的已有别名(含孤儿), 零丢失
 tag_synonyms={k:v for k,v in _merged.items() if v}
 json.dump(tag_synonyms, open('data/enterprise/tag_synonyms.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+
+# ---- v4: 真相源回写(all_enterprises.json) ----
+# 重算后的 tag_l1/tag_l2 落盘, 使其成为真正可重跑的 SSoT; 其余字段原样保留。
+json.dump(data, open(DATA,'w',encoding='utf-8'), ensure_ascii=False, indent=2)
+print('=== 已回写 all_enterprises.json (', len(data), '家 ) ===')
+
+# v4: 导出权威 L2->L1 映射(基于实际最终L2名 + canon_l1, 零漂移), 供交付脚本使用
+_l2l1={}
+for e in data:
+    for l2 in e.get('tag_l2',[]):
+        _l2l1[l2]=canon_l1(l2)
+json.dump(_l2l1, open('data/enterprise/_l2_l1.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
+print('=== 已导出 L2->L1 映射:', len(_l2l1), '个二级标签 ===')
+
+# v4: 导出 >3 标签缩减清单(规则B)供交付文档
+json.dump([{'name':k,'before':v['before'],'after':v['after']} for k,v in TRUNC_LOG.items()],
+          open('output/_trunc_log.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump(data, open(DATA,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump({'capital_kept':capital_kept,'capital_dropped':capital_dropped,'vague_media':vague_media},
           open('data/enterprise/_rebuild_review.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
