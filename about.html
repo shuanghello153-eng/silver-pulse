@@ -1,4 +1,4 @@
-<!-- build:20260712093653 -->
+<!-- build:20260712165438 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -85,13 +85,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   font-size:12.5px;font-weight:600;color:var(--text-secondary);transition:all .15s;white-space:nowrap;font-family:inherit}
 .view-pill.active,.region-pill.active{background:var(--accent-grad);color:#fff;box-shadow:var(--shadow-sm)}
 .search-inline{padding:7px 12px;border:1px solid var(--border);border-radius:12px;font-size:12.5px;outline:none;
-  background:var(--surface);color:var(--text);width:150px;transition:all .15s;font-family:inherit}
+  background:var(--surface);color:var(--text);width:200px;transition:border-color .15s,box-shadow .15s;font-family:inherit}
 .search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:200px}
 /* 搜索内联进工具栏(与视图/地区/排序同排), 输入框缩短, 按钮 flex:0 0 auto 常驻不挤压 */
 .search-inline-group{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;margin-left:2px}
 .search-btn{flex:0 0 auto;padding:7px 16px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
   font-size:12.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
 .search-btn:hover{opacity:.9}
+
+.ent-loadmore-wrap{display:flex;justify-content:center;margin:28px 0 8px}
+.ent-loadmore-btn{padding:11px 28px;border:1px solid var(--border);border-radius:14px;background:var(--surface);
+  color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer;font-family:inherit;transition:.15s}
+.ent-loadmore-btn:hover{background:var(--accent-grad);color:#fff;border-color:transparent}
+
+/* 返回顶部按钮：fixed 右下角，默认隐藏，超过 1 屏才显示 */
+.sp-totop{position:fixed;right:22px;bottom:22px;z-index:150;width:44px;height:44px;border:none;border-radius:50%;
+  background:var(--accent-grad);color:#fff;font-size:20px;line-height:1;font-weight:700;cursor:pointer;
+  box-shadow:0 6px 18px rgba(14,165,183,.35);display:none;align-items:center;justify-content:center;
+  transition:opacity .2s,transform .2s;font-family:inherit;opacity:.92}
+.sp-totop:hover{opacity:1;transform:translateY(-2px)}
+.sp-totop.show{display:flex}
+.sp-totop svg{width:20px;height:20px;display:block}
 
 .news-search-row{margin-bottom:16px}
 .news-search{width:100%;box-sizing:border-box;padding:11px 17px;border:1.5px solid var(--border);border-radius:14px;
@@ -318,7 +332,7 @@ html,body{overflow-x:hidden}
   .theme-toggle span:last-child{display:none}
   .main{margin-left:56px;width:calc(100% - 56px);max-width:calc(100vw - 56px);padding:24px 20px 60px}
   .header h2{font-size:20px}
-  .search-inline{width:150px}.search-inline:focus{width:200px}
+  .search-inline{width:160px}.search-inline:focus{width:160px}
   .feed-time{width:44px}
   .ent-meta{flex-wrap:wrap;gap:6px}
   .meta-item{white-space:normal;word-break:break-all}
@@ -416,7 +430,7 @@ html,body{overflow-x:hidden}
   <p>Silver Pulse 银脉 · 帮你把全球银发经济的好选题，一次性摆到桌面上</p>
 </div>
 
-<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 20260712093653</p>
+<p style="font-size:13px;color:var(--text-secondary);margin-top:4px;">📌 本页由代码从 config.py 实时生成 · 生成时间 20260712165438</p>
 <div style="margin:10px 0;padding:8px 12px;border-radius:8px;background:#b453091a;color:#b45309;font-weight:600;border:1px solid #b4530955;">🕒 数据更新日期：2026-07-08 · ⚠️ 数据偏旧（最新 2026-07-08，今日 2026-07-12）</div>
 
 <div class="callout" style="border-color:var(--accent);">
@@ -1018,6 +1032,33 @@ function toggleTheme(){
   var s=localStorage.getItem('theme');
   if(s==='dark'){document.documentElement.classList.add('dark');}
   else if(s==='light'){document.documentElement.classList.remove('dark');}
+})();
+
+/* ===== 一键返回顶部：滚动超过 1 屏才显示，点击平滑回顶 ===== */
+(function(){
+  var btn=document.createElement('button');
+  btn.id='sp-totop';
+  btn.className='sp-totop';
+  btn.setAttribute('aria-label','返回顶部');
+  btn.setAttribute('title','返回顶部');
+  btn.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>';
+  document.body.appendChild(btn);
+  var ticking=false;
+  function onScroll(){
+    if(ticking) return;
+    ticking=true;
+    window.requestAnimationFrame(function(){
+      if(window.scrollY > window.innerHeight){ btn.classList.add('show'); }
+      else { btn.classList.remove('show'); }
+      ticking=false;
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
+  btn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  onScroll();
 })();
 </script>
 
