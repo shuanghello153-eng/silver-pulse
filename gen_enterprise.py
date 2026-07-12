@@ -843,7 +843,7 @@ __SIDEBAR__
     </div>
     <span class="f-label">搜索</span>
     <div class="search-inline-group">
-      <input type="text" class="search-inline" id="search" placeholder="老年鞋/响午/SODH/相亲" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
+      <input type="text" class="search-inline" id="search" placeholder="搜索企业 / 行业 / 关键词" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
       <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
     </div>
   </div>
@@ -890,6 +890,9 @@ __SIDEBAR__
 
 <div id="ent-list">
 {cards_html}
+</div>
+<div class="ent-loadmore-wrap">
+  <button id="ent-loadmore" class="ent-loadmore-btn" style="display:none;">加载更多</button>
 </div>
 
 <div class="footer">
@@ -981,7 +984,9 @@ function spToggleRecentFilter() {{
   filterEnt();
 }}
 
+var entRendered = 40, ENT_PAGE = 40, lastMatched = [];
 function filterEnt() {{
+  entRendered = ENT_PAGE;   // 每次筛选从头分页(渐进渲染, 先显示前40家)
   sortEnt();
   const qRaw = (document.getElementById('search').value || '').trim().toLowerCase();
   const q = qRaw;
@@ -1046,14 +1051,14 @@ function filterEnt() {{
         l2VisCounts[cat][l2] = (l2VisCounts[cat][l2] || 0) + 1;
       }}
       if (catMatch && l2Match) {{
-        card.style.display = '';
+        card._matched = true;
         visible++;
         matched.push(card);
       }} else {{
-        card.style.display = 'none';
+        card._matched = false;
       }}
     }} else {{
-      card.style.display = 'none';
+      card._matched = false;
     }}
   }});
 
@@ -1069,6 +1074,10 @@ function filterEnt() {{
     const list = document.getElementById('ent-list');
     matched.forEach(function(c) {{ list.appendChild(c); }});
   }}
+
+  // 渐进渲染: 只显示前 entRendered 张, 其余隐藏(点"加载更多"再显示)
+  lastMatched = matched;
+  paintEnt();
 
   // Update L1 category counts
   document.querySelectorAll('#cat-filter [data-cat]').forEach(btn => {{
@@ -1100,7 +1109,7 @@ function filterEnt() {{
     const l2Label = activeL2 === 'all' ? '' : ' · ' + activeL2;
     const tagLabel = activeTag === 'all' ? '' : ' · ' + (activeTag === '__funded__' ? '有融资/IPO' : activeTag);
     const recentLabel = activeRecent ? ' · 近期有动态' : '';
-    rc.textContent = `展示 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}${{l2Label}}${{tagLabel}}${{recentLabel}}`;
+    rc.textContent = `展示 ${{Math.min(entRendered, visible)}} / 共 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}${{l2Label}}${{tagLabel}}${{recentLabel}}`;
   }}
 }}
 
@@ -1113,6 +1122,35 @@ document.querySelectorAll('.view-btn').forEach(btn => {{
     filterEnt();
   }});
 }});
+
+// 渐进渲染: 控制可见卡片数量(方案A: 先显示前40家, 点"加载更多"追加)
+function paintEnt() {{
+  const matched = lastMatched || [];
+  matched.forEach(function(c) {{ c.style.display = 'none'; }});
+  const show = matched.slice(0, entRendered);
+  show.forEach(function(c) {{ c.style.display = ''; }});
+  const btn = document.getElementById('ent-loadmore');
+  if (btn) {{
+    if (entRendered < matched.length) {{
+      btn.style.display = '';
+      btn.textContent = '加载更多（剩余 ' + (matched.length - entRendered) + ' 家）';
+    }} else {{
+      btn.style.display = 'none';
+    }}
+  }}
+}}
+// 加载更多按钮
+(function() {{
+  const btn = document.getElementById('ent-loadmore');
+  if (btn) {{
+    btn.addEventListener('click', function() {{
+      entRendered += ENT_PAGE;
+      paintEnt();
+      const rc = document.getElementById('result-count');
+      if (rc) rc.textContent = '展示 ' + Math.min(entRendered, lastMatched.length) + ' / 共 ' + lastMatched.length + ' 家企业';
+    }});
+  }}
+}})();
 
 // Sort toggle is handled via onclick="setEntSort(...)" arrow buttons (see toolbar)
 

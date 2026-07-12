@@ -93,13 +93,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   font-size:12.5px;font-weight:600;color:var(--text-secondary);transition:all .15s;white-space:nowrap;font-family:inherit}
 .view-pill.active,.region-pill.active{background:var(--accent-grad);color:#fff;box-shadow:var(--shadow-sm)}
 .search-inline{padding:7px 12px;border:1px solid var(--border);border-radius:12px;font-size:12.5px;outline:none;
-  background:var(--surface);color:var(--text);width:150px;transition:all .15s;font-family:inherit}
+  background:var(--surface);color:var(--text);width:200px;transition:border-color .15s,box-shadow .15s;font-family:inherit}
 .search-inline:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(14,165,183,.12);width:200px}
 /* 搜索内联进工具栏(与视图/地区/排序同排), 输入框缩短, 按钮 flex:0 0 auto 常驻不挤压 */
 .search-inline-group{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;margin-left:2px}
 .search-btn{flex:0 0 auto;padding:7px 16px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
   font-size:12.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
 .search-btn:hover{opacity:.9}
+
+.ent-loadmore-wrap{display:flex;justify-content:center;margin:28px 0 8px}
+.ent-loadmore-btn{padding:11px 28px;border:1px solid var(--border);border-radius:14px;background:var(--surface);
+  color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer;font-family:inherit;transition:.15s}
+.ent-loadmore-btn:hover{background:var(--accent-grad);color:#fff;border-color:transparent}
 
 .news-search-row{margin-bottom:16px}
 .news-search{width:100%;box-sizing:border-box;padding:11px 17px;border:1.5px solid var(--border);border-radius:14px;
@@ -326,7 +331,7 @@ html,body{overflow-x:hidden}
   .theme-toggle span:last-child{display:none}
   .main{margin-left:56px;width:calc(100% - 56px);max-width:calc(100vw - 56px);padding:24px 20px 60px}
   .header h2{font-size:20px}
-  .search-inline{width:150px}.search-inline:focus{width:200px}
+  .search-inline{width:160px}.search-inline:focus{width:160px}
   .feed-time{width:44px}
   .ent-meta{flex-wrap:wrap;gap:6px}
   .meta-item{white-space:normal;word-break:break-all}

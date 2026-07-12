@@ -44,7 +44,7 @@ MERGE = {
     '大脑训练':'认知训练','VR认知训练':'认知训练','认知康复':'认知康复','认知锻炼':'认知训练',
     # 远程医疗
     '远程监控':'远程医疗','远程患者照护':'远程医疗','远程照护':'远程医疗','远程检查':'远程医疗',
-    '远程营养':'远程医疗','上门医疗':'远程医疗','医养结合':'远程医疗','虚拟':'远程医疗','远程监测':'远程监测',
+    '远程营养':'远程医疗','上门医疗':'远程医疗','医养结合':'远程医疗','虚拟':'远程医疗','远程监测':'远程医疗',
     '远程医疗':'远程医疗','RPM':'远程医疗','远程护理':'远程医疗',
     # 居家护理
     '居家照护':'居家护理','居家养老':'居家护理','上门照护':'居家护理','居家/上门护理':'居家护理',
@@ -497,6 +497,20 @@ L2_RENAME = {
 }
 # 一级"行业服务" -> "产业服务"
 L1_RENAME = {'行业服务':'产业服务'}
+# 真·行业媒体白名单（主营=内容生产/资讯聚合/行业研究发布，收入靠广告/订阅/峰会）
+# 仅这些企业保留"行业媒体"标签；其余一律摘除(避免兜底桶把 298 家企业扫进来)
+MEDIA_TRUE = {
+ 'AgeClub','ITH康养家','养老福祉圈','小咖云','SuperAging News','SeniorHousingLiving',
+ 'SeniorSafetyAdvice','Caregiver Media Group','AARP','AARP Innovation Labs / AgeTech Collaborative',
+ 'Aging2.0 Collective','SeniorPlanet',
+}
+# 0标签兜底: 原仅挂"行业媒体"被摘除后无标签的边际企业, 按公开描述给最贴合标签(不编造)
+MANUAL_TAGS = {
+ '半月浮生':['老年文娱'],'英国':['咨询研究'],'GoGoGrandparent':['数字化'],'Golden':['养老金融'],
+ 'GoodTrust':['临终关怀'],'美林证券，美国银行旗下':['养老金融'],'OXO':['银发日用'],
+ 'ReBoot Accel':['教育'],'Silvur':['养老金融'],'True Link':['养老金融'],'iRelaunch':['教育'],
+ '赛富时':['数字化'],'SilverSneakers':['健身'],'IAC':['数字化'],
+}
 # 幽灵标签(<=2家): 并入近义 canonical 或 删除(噪声)
 GHOST_MERGE = {
  '嵌入式健康':'健康管理','咖啡':'营养食品','面包店':'营养食品','特医食品':'营养食品','手部震颤':'认知症',
@@ -516,6 +530,7 @@ GHOST_MERGE = {
  '养老住房':'养老社区','养老院':'养老机构','慢性肾病':'慢病管理','认知康复':'认知症','行业服务':'咨询研究',
  '中医智能化':'健康管理','抗衰老':'长寿科技','细胞重编程':'长寿科技','安宁疗护/临终':'临终关怀','抗衰老药物':'长寿科技',
  '康复器械':'康复',
+ '废弃':None,   # 噪声标签(源数据误带), 直接删除
 }
 
 # ---------------------------------------------------------------
@@ -565,6 +580,9 @@ for e in data:
     if key in BRAND_OVERRIDE:
         raw.discard('行业媒体')
         raw.update(BRAND_OVERRIDE[key])
+    # ---- 行业媒体: 仅白名单真媒体保留, 其余一律摘除(避免兜底桶把298家扫进来) ----
+    if '行业媒体' in raw and key not in MEDIA_TRUE:
+        raw.discard('行业媒体')
     # ---- 幽灵标签(<=2家)合并/删除 ----
     _nr=set()
     for c in raw:
@@ -574,10 +592,13 @@ for e in data:
         else:
             _nr.add(c)
     raw=_nr
+    # ---- 0标签兜底: 原仅挂"行业媒体"被摘除的边际企业, 按公开描述补最贴合标签 ----
+    if key in MANUAL_TAGS:
+        raw.update(MANUAL_TAGS[key])
     # 摘掉与列表融资字段重复的标签(有融资/融资过亿/已被收购 已在 funding 字段展示, 不重复成标签)
     for d in ('有融资','融资过亿','已被收购'): raw.discard(d)
     # 0标签/行业媒体 -> 描述补打 (品牌已重归类的企业跳过)
-    is_media=('行业媒体' in (e.get('category_l2') or '')) or ('行业媒体' in (e.get('category_l1') or ''))
+    is_media = key in MEDIA_TRUE   # 只有白名单真媒体才会走"保留行业媒体"分支
     desc=(e.get('description') or e.get('desc_cn') or '')
     if key not in BRAND_OVERRIDE and ((not raw) or is_media):
         if is_media and is_vague(desc):
@@ -627,21 +648,32 @@ print('=== SODH命中企业数:', sum(1 for e in data if 'SODH' in e.get('tag_l2
 print('=== 产业资本保留:',len(capital_kept),' 摘掉:',len(capital_dropped))
 print('=== 待联网(描述太泛)行业媒体:',len(vague_media))
 print('=== 行业媒体剩余:', sum(1 for e in data if '行业媒体' in e.get('tag_l2',[])))
+print('    名单:', [ (e.get('name_cn') or e.get('name')) for e in data if '行业媒体' in e.get('tag_l2',[]) ])
+print('=== 废弃残留:', sum(1 for e in data if '废弃' in e.get('tag_l2',[])))
+print('=== 远程监测残留:', sum(1 for e in data if '远程监测' in e.get('tag_l2',[])))
 print('=== 产业服务企业:', sum(1 for e in data if '产业服务' in e.get('tag_l1',[])))
 print('=== 数据总数:',len(data),'(应=%d)'%N0)
 
 # ---- 构建权威同类词表(覆盖全部最终二级标签, 用于前端搜索扩展) ----
+# 规则: 同类词不得与一级/二级分类名重名(必查四条之三)
+_FORBID_SYN = set(L1_LIST) | {'行业服务'}   # 一级名 + 旧一级名(已改名产业服务)
 fin_syn={}
 for raw_k,canon in MERGE.items():
+    if raw_k in _FORBID_SYN: continue
     fc=L2_RENAME.get(canon,canon)
+    if fc in _FORBID_SYN: continue
     fin_syn.setdefault(fc,set()).add(raw_k)
 all_final=set()
 for e in data:
     for x in e.get('tag_l2',[]): all_final.add(x)
 for c in all_final:
+    if c in _FORBID_SYN: continue
     fin_syn.setdefault(c,set()).add(c)
     for old,new in L2_RENAME.items():
         if new==c: fin_syn[c].add(old)
+# 二次清洗: 同类词集合内若混入一级名, 剔除
+for c in list(fin_syn.keys()):
+    fin_syn[c] = {s for s in fin_syn[c] if s not in _FORBID_SYN}
 tag_synonyms={k:sorted(v) for k,v in fin_syn.items() if v}
 json.dump(tag_synonyms, open('data/enterprise/tag_synonyms.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump(data, open(DATA,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
