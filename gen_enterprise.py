@@ -134,8 +134,11 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     All fields directly visible, empty fields hidden."""
     name = esc(ent.get("name", ""))
     region = ent.get("region", "")
-    cat_l1 = esc(ent.get("category_l1", ""))
-    cat_l2 = esc(ent.get("category_l2", ""))
+    # 筛选属性改用清洗后的 tag_l1/tag_l2（不再读陈旧的 category_l1/category_l2，否则筛选树与卡片对不上）
+    cat_l1_list = ent.get("tag_l1") or []
+    cat_l2_list = ent.get("tag_l2") or []
+    cat_l1 = " ".join(str(x) for x in cat_l1_list if x)   # 空格拼接，供 JS 按空格 split 做多值匹配
+    cat_l2 = " ".join(str(x) for x in cat_l2_list if x)
     tags = ent.get("tag_l2") or ent.get("tags") or []
     tag_l1 = ent.get("tag_l1") or []
     description = esc(ent.get("description", ""))
@@ -238,12 +241,12 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     # Header line: name + category badge + tags + region
     header_parts = [f'<span class="ent-name">{name}</span>']
 
-    # Category badge (L1 · L2)
-    if cat_l1:
-        cat_text = cat_l1
-        if cat_l2:
-            cat_text += f" · {cat_l2}"
-        header_parts.append(f'<span class="ent-badge badge-cat">{cat_text}</span>')
+    # Category badge (primary L1 · L2，取自清洗后的 tag_l1/tag_l2)
+    if cat_l1_list:
+        cat_text = cat_l1_list[0]
+        if cat_l2_list:
+            cat_text += f" · {cat_l2_list[0]}"
+        header_parts.append(f'<span class="ent-badge badge-cat">{esc(cat_text)}</span>')
 
     # 一级标签 tag_l1（行业大类，与 tag_l2 是两个独立字段，描边灰底区分）
     if tag_l1 and isinstance(tag_l1, list):
@@ -721,17 +724,24 @@ def generate():
     except Exception:
         competitors_map = {}
 
-    # Category distribution (L1 and L2)
+    # Category distribution (L1 and L2) — 用清洗后的 tag_l1/tag_l2 (非源 category 字段, 避免陈旧标签)
     cat_counts = {}
-    l2_counts = {}  # {l1: {l2: count}}
+    l2_total = {}
+    l2_to_l1 = {}
     for e in enterprises:
-        l1 = e.get("category_l1", "")
-        l2 = e.get("category_l2", "")
-        cat_counts[l1] = cat_counts.get(l1, 0) + 1
-        if l1 not in l2_counts:
-            l2_counts[l1] = {}
-        if l2:
-            l2_counts[l1][l2] = l2_counts[l1].get(l2, 0) + 1
+        tl1 = e.get("tag_l1") or []
+        tl2 = e.get("tag_l2") or []
+        for l1 in tl1:
+            cat_counts[l1] = cat_counts.get(l1, 0) + 1
+        for l2 in tl2:
+            l2_total[l2] = l2_total.get(l2, 0) + 1
+            d = l2_to_l1.setdefault(l2, {})
+            for l1 in tl1:
+                d[l1] = d.get(l1, 0) + 1
+    l2_counts = {}  # {l1: {l2: count}}
+    for l2, tot in l2_total.items():
+        dom = max(l2_to_l1[l2].items(), key=lambda kv: kv[1])[0]
+        l2_counts.setdefault(dom, {})[l2] = tot
 
     # Build cards — 精选优先、研究价值降序（精选视图默认按价值排）
     def _disp_rv(e):
@@ -776,7 +786,7 @@ def generate():
         )
 
     # L1 filter buttons — 全部展示不折叠，点击展开L2子类
-    sorted_l1 = sorted(L1_CATS, key=lambda c: cat_counts.get(c, 0), reverse=True)
+    sorted_l1 = sorted(cat_counts.keys(), key=lambda c: cat_counts.get(c, 0), reverse=True)
 
     cat_buttons = (
         '<button class="f-btn active" data-cat="all">全部</button>'
@@ -788,8 +798,8 @@ def generate():
 
     # L2 filter buttons grouped by L1 (hidden by default, shown when L1 is selected)
     l2_filter_html = ""
-    for l1 in L1_CATS:
-        l2_list = ENTERPRISE_CATEGORIES.get(l1, {}).get("l2", [])
+    for l1 in sorted_l1:
+        l2_list = sorted(l2_counts.get(l1, {}).keys(), key=lambda t: -l2_counts[l1].get(t, 0))
         if not l2_list:
             continue
         l2_btns = " ".join(
@@ -818,7 +828,7 @@ __SIDEBAR__
 
 <div class="header">
   <h2>银发经济企业数据库</h2>
-  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · {len(L1_CATS)} 个一级分类</p>
+  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · {len(cat_counts)} 个一级分类</p>
 </div>
 
 <div class="toolbar">
@@ -1001,11 +1011,12 @@ function filterEnt() {{
   const catVisCounts = {{}};
   const l2VisCounts = {{}};
   const matched = [];
+  let totalVis = 0;
 
   cards.forEach(card => {{
     const reg = card.dataset.region;
-    const cat = card.dataset.cat;
-    const l2 = card.dataset.l2 || '';
+    const catList = (card.dataset.cat || '').split(' ').filter(Boolean);
+    const l2List = (card.dataset.l2 || '').split(' ').filter(Boolean);
     const curated = card.dataset.curated === '1';
 
     // 搜索打分：3=标签精确命中(含扩展同义词) 2=标签子串命中(最小颗粒度, 如 护理⊂专业护理/硬件⊂智能硬件) 1=仅在名称/描述/推荐理由 0=不命中
@@ -1026,8 +1037,8 @@ function filterEnt() {{
 
     const regMatch = activeReg === 'all' || reg === activeReg;
     const searchMatch = !q || score > 0;
-    const catMatch = activeCat === 'all' || cat === activeCat;
-    const l2Match = activeL2 === 'all' || l2 === activeL2;
+    const catMatch = activeCat === 'all' || catList.indexOf(activeCat) >= 0;
+    const l2Match = activeL2 === 'all' || l2List.indexOf(activeL2) >= 0;
     const viewMatch = activeView === 'all' || curated;
     const tag = (card.dataset.tags || '').split(' ').filter(Boolean);
     const tagMatch = activeTag === 'all' || (activeTag === '__funded__' ? (card.dataset.hasfund === '1') : tag.includes(activeTag));
@@ -1045,10 +1056,12 @@ function filterEnt() {{
     }})();
 
     if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && readMatch && favMatch && timeMatch) {{
-      if (cat) catVisCounts[cat] = (catVisCounts[cat] || 0) + 1;
-      if (cat && l2) {{
-        if (!l2VisCounts[cat]) l2VisCounts[cat] = {{}};
-        l2VisCounts[cat][l2] = (l2VisCounts[cat][l2] || 0) + 1;
+      totalVis++;
+      catList.forEach(function(c){{ catVisCounts[c] = (catVisCounts[c]||0)+1; }});
+      if (activeCat === 'all') {{
+        catList.forEach(function(c){{ l2List.forEach(function(l){{ if(!l2VisCounts[c]) l2VisCounts[c]={{}}; l2VisCounts[c][l]=(l2VisCounts[c][l]||0)+1; }}); }});
+      }} else if (catList.indexOf(activeCat) >= 0) {{
+        l2List.forEach(function(l){{ if(!l2VisCounts[activeCat]) l2VisCounts[activeCat]={{}}; l2VisCounts[activeCat][l]=(l2VisCounts[activeCat][l]||0)+1; }});
       }}
       if (catMatch && l2Match) {{
         card._matched = true;
@@ -1084,9 +1097,7 @@ function filterEnt() {{
     const c = btn.dataset.cat;
     const cntEl = btn.querySelector('.cnt');
     if (c === 'all') {{
-      let allVis = 0;
-      Object.values(catVisCounts).forEach(v => allVis += v);
-      if (cntEl) cntEl.textContent = allVis;
+      if (cntEl) cntEl.textContent = totalVis;
     }} else {{
       if (cntEl) cntEl.textContent = catVisCounts[c] || 0;
     }}
@@ -1305,7 +1316,7 @@ function toggleEntCats() {{
     print(f"Generated: {out_path}")
     print(f"Total: {total} | Domestic: {domestic} | Overseas: {overseas} | Curated: {curated_count}")
 
-    for l1 in L1_CATS:
+    for l1 in cat_counts.keys():
         print(f"  {l1}: {cat_counts.get(l1, 0)}")
 
     return out_path
