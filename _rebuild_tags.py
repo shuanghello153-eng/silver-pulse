@@ -322,6 +322,53 @@ def l1_of(canon):
     return '行业服务'
 
 # ---------------------------------------------------------------
+# 4.5 二级标签 -> 一级标签 单归属规范映射 (v3 重盘 · 宪法级硬规则)
+#     每个二级标签恰好对应一个一级标签; 全库企业据此重算 tag_l1。
+#     判定优先级: 行业 > 业务 > 产品。
+#       - 行业: 主营行业清晰(医疗/金融/食品/文娱/消费/智能科技...) -> 归对应行业一级。
+#       - 业务: 做什么服务/模式(养老服务/护理/健康管理...) -> 归业务一级。
+#       - 产品: 卖什么具体东西(辅具/硬件/营养品...) -> 归产品一级。
+#     注意: 键必须是"重命名后的最终二级标签名"(见 L2_RENAME)。
+#     凡未在此表的二级标签, 回退到 l1_of() 兜底, 保证零丢失。
+# ---------------------------------------------------------------
+L2_TO_L1 = {
+    # —— 医疗健康(行业: 医疗/健康服务) ——
+    '慢病管理':'医疗健康','认知症':'医疗健康','认知训练':'医疗健康','临终关怀':'医疗健康',
+    '医疗器械':'医疗健康','远程医疗':'医疗健康','健康监测':'医疗健康','健康管理':'医疗健康',
+    '陪诊':'医疗健康','AI医疗':'医疗健康','SODH':'医疗健康','药品':'医疗健康','康复医疗':'医疗健康',
+    # —— 养老服务(业务: 养老照护运营) ——
+    '居家护理':'养老服务','专业护理':'养老服务','养老社区':'养老服务','养老机构':'养老服务',
+    '适老化':'养老服务','适老化改造':'养老服务','智慧养老':'养老服务','护理平台':'养老服务',
+    '虚拟护理':'养老服务','医护配置':'养老服务',
+    # —— 康复辅具(产品/行业: 康复辅具) ——
+    '外骨骼':'康复辅具','康复设备':'康复辅具','康复器械':'康复辅具',
+    # —— 食品营养(行业: 食品/营养) ——
+    '保健品':'食品营养','营养食品':'食品营养',
+    # —— 消费品(行业/产品: 消费) ——
+    '鞋服':'消费品','个护':'消费品','眼镜':'消费品','助听器':'消费品',
+    '智能硬件':'消费品','日用':'消费品','老年产品':'消费品','消费品':'消费品',
+    # —— 文娱社交(行业: 文娱/社交/旅游/教育/就业) ——
+    '旅游':'文娱社交','教育':'文娱社交','文娱':'文娱社交','健身':'文娱社交','相亲':'文娱社交',
+    '社交平台':'文娱社交','陪伴服务':'文娱社交','时间银行':'文娱社交','社区':'文娱社交','会员俱乐部':'文娱社交',
+    '就业':'文娱社交','行业媒体':'文娱社交','咨询研究':'文娱社交','陪伴机器人':'文娱社交',
+    # —— 金融保险(行业: 金融/保险/资本) ——
+    '保险':'金融保险','养老金融':'金融保险','产业资本':'金融保险','保险科技':'金融保险','金融理财':'金融保险','金融服务':'金融保险',
+    # —— 智能科技(行业: 智能/AI/机器人/数字化/硬件科技) ——
+    'AI科技':'智能科技','机器人':'智能科技','数字化':'智能科技','智能科技':'智能科技','照护系统':'智能科技',
+    '长寿科技':'智能科技','睡眠科技':'智能科技',
+    # —— 女性健康(行业: 女性健康) ——
+    '女性健康':'女性健康','女性健康服务':'女性健康','更年期':'女性健康',
+    # —— 精神健康(行业: 精神/心理) ——
+    '精神健康':'精神健康','心理健康服务':'精神健康',
+    # —— 渠道零售(行业: 渠道/零售/电商) ——
+    '渠道零售':'渠道零售','渠道':'渠道零售','零售':'渠道零售','电商':'渠道零售',
+}
+def canon_l1(x):
+    """二级标签 -> 唯一一级标签 (单归属). 优先用 L2_TO_L1, 否则回退 l1_of+L1_RENAME."""
+    if x in L2_TO_L1: return L2_TO_L1[x]
+    return L1_RENAME.get(l1_of(x), l1_of(x))
+
+# ---------------------------------------------------------------
 # 5. Excel 解析: 企业名称 -> (细分领域_1列表, 细分领域_2列表)
 # ---------------------------------------------------------------
 def parse_excel():
@@ -663,7 +710,7 @@ for e in data:
     l2_list=[x for x in l2_list if x not in STRUCT_DROP]
     if len(l2_list)>5:
         l2_list=sorted(l2_list, key=lambda t:_gc.get(t,0))[:5]
-    l1_list=sorted({L1_RENAME.get(l1_of(x), l1_of(x)) for x in l2_list})
+    l1_list=sorted({canon_l1(x) for x in l2_list})
     e['tag_l1']=l1_list; e['tag_l2']=l2_list
 
 # 企业级错标修正(审计发现: 描述与标签明显矛盾的企业, 按公开资料重打)
@@ -747,7 +794,7 @@ for e in data:
         _fixed=sorted({L2_RENAME.get(STRUCT_MERGE.get(x,x), STRUCT_MERGE.get(x,x)) for x in MISLABEL_FIX[key]})
         _fixed=[x for x in _fixed if x not in STRUCT_DROP]
         e['tag_l2']=_fixed
-        e['tag_l1']=sorted({L1_RENAME.get(l1_of(x), l1_of(x)) for x in e['tag_l2']})
+        e['tag_l1']=sorted({canon_l1(x) for x in e['tag_l2']})
         _ml+=1
 print('=== 企业级错标已修正:', _ml, '家 ===')
 
@@ -846,7 +893,7 @@ for e in data:
         before=len(cur)
         cur.update(L2_RENAME.get(v,v) for v in MANUAL_ADD[key])
         e['tag_l2']=sorted(cur)
-        e['tag_l1']=sorted({L1_RENAME.get(l1_of(x), l1_of(x)) for x in e['tag_l2']})
+        e['tag_l1']=sorted({canon_l1(x) for x in e['tag_l2']})
         if len(cur)>before: _ma+=1
 print('=== 收编手动补丁(增量)应用于:', _ma, '家 ===')
 
@@ -909,6 +956,22 @@ for w,cs in _word_canon.items():
         for c in cs:
             if c!=w: fin_syn[c].discard(w)
 tag_synonyms={k:sorted(v) for k,v in fin_syn.items() if v}
+# ---- v3 修复: 重跑时保留/合并已有同类词别名, 绝不覆盖丢失 ----
+# 理由: 之前 json.dump(...,'w') 会整体重写文件, 若有人在校验外手动增补过别名则重跑即丢。
+# 现在改为 merge: 以脚本重算结果为基础, 并入文件中已存在但脚本未覆盖到的别名(含孤儿canon全保留)。
+try:
+    _existing_syn=json.load(open('data/enterprise/tag_synonyms.json',encoding='utf-8'))
+except Exception:
+    _existing_syn={}
+_merged={}
+for k,v in tag_synonyms.items():
+    _merged[k]=sorted(set(v))
+for k,v in _existing_syn.items():
+    if k in _merged:
+        _merged[k]=sorted(set(_merged[k])|set(v))
+    else:
+        _merged[k]=sorted(set(v))   # 保留脚本未覆盖的已有别名(含孤儿), 零丢失
+tag_synonyms={k:v for k,v in _merged.items() if v}
 json.dump(tag_synonyms, open('data/enterprise/tag_synonyms.json','w',encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump(data, open(DATA,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump({'capital_kept':capital_kept,'capital_dropped':capital_dropped,'vague_media':vague_media},
