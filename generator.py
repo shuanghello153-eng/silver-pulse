@@ -762,6 +762,9 @@ let sortMode='date';
 let sortDir='desc';
 let activeTime='all';
 window.spReapply=updateDisplay;
+const NEWS_PAGE=40;
+let feedRendered=NEWS_PAGE;
+let spVisible=[];
 const feedItems=document.querySelectorAll('.feed-item');
 const feedContainer=document.getElementById('feed-container');
 const selectedContainer=document.getElementById('selected-container');
@@ -787,7 +790,8 @@ function sortContainer(c){
 }
 
 function updateDisplay(){
-  let visible=0;
+  feedRendered=NEWS_PAGE;
+  spVisible=[];
   feedItems.forEach(item=>{
     const v=item.dataset.view;
     const evt=item.dataset.event||'';
@@ -819,8 +823,7 @@ function updateDisplay(){
       tmTime = d>=cut;
     }
     if(rm&&em&&dm&&tm&&sm&&tmTime&&hiddenMatch&&readMatch&&favMatch){
-      item.style.display='flex';
-      visible++;
+      spVisible.push(item);
     }else{item.style.display='none'}
   });
   if(activeView==='curated'){
@@ -831,10 +834,27 @@ function updateDisplay(){
     if(selectedContainer) selectedContainer.style.display='none';
   }
   sortContainer(activeView==='curated'?selectedContainer:feedContainer);
+  const visible=spVisible.length;
+  paintFeed();
   const s=document.getElementById('header-stats');
   s.textContent='更新于 %s · 数据 %s · 共 '+visible+' 条';
   const es=document.getElementById('empty-state');
   if(es) es.classList.toggle('hidden', visible>0);
+}
+
+// 渐进渲染：先显示前 feedRendered 条，其余隐藏（点"加载更多"或滚动到底部再加载）
+function paintFeed(){
+  const n=spVisible.length;
+  feedItems.forEach(function(it){it.style.display='none';});
+  const show=spVisible.slice(0,feedRendered);
+  show.forEach(function(it){it.style.display='flex';});
+  const btn=document.getElementById('feed-loadmore');
+  if(btn){
+    if(feedRendered<n){
+      btn.style.display='';
+      btn.textContent='加载更多（剩余 '+(n-feedRendered)+' 条）';
+    }else{btn.style.display='none';}
+  }
 }
 
 function setView(view){
@@ -909,6 +929,29 @@ document.querySelectorAll('.filter-btn[data-time]').forEach(btn=>{
     document.querySelectorAll('.filter-btn[data-time]').forEach(function(b){b.classList.toggle('active',b.dataset.time===st);});
   }
 })();
+
+// 加载更多（手动兜底）
+(function(){
+  var btn=document.getElementById('feed-loadmore');
+  if(btn){btn.addEventListener('click',function(){ feedRendered+=NEWS_PAGE; paintFeed(); });}
+})();
+// 无限滚动：接近底部自动加载下一批（复用 +NEWS_PAGE 渐进渲染）
+(function(){
+  var loading=false;
+  function tryAuto(){
+    if(loading) return;
+    var btn=document.getElementById('feed-loadmore');
+    if(!btn||btn.style.display==='none') return;
+    if(window.innerHeight+window.scrollY >= document.documentElement.scrollHeight - 600){
+      loading=true; feedRendered+=NEWS_PAGE; paintFeed();
+      setTimeout(function(){loading=false;},60);
+    }
+  }
+  window.addEventListener('scroll',tryAuto,{passive:true});
+  window.addEventListener('resize',tryAuto,{passive:true});
+  tryAuto();
+})();
+
 updateDisplay();
 
 updateDisplay();
@@ -1131,6 +1174,11 @@ def generate_html(scored_articles=None, output_path=None):
         # Feed container (全量 view)
         '<div id="feed-container">',
         cards_html,
+        '</div>',
+
+        # 加载更多按钮（无限滚动的手动兜底）
+        '<div class="ent-loadmore-wrap">',
+        '<button id="feed-loadmore" class="ent-loadmore-btn" style="display:none;">加载更多</button>',
         '</div>',
 
         # Empty state (shown when filters yield nothing)

@@ -106,6 +106,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
   color:var(--accent);font-size:13.5px;font-weight:700;cursor:pointer;font-family:inherit;transition:.15s}
 .ent-loadmore-btn:hover{background:var(--accent-grad);color:#fff;border-color:transparent}
 
+/* 返回顶部按钮：fixed 右下角，默认隐藏，超过 1 屏才显示 */
+.sp-totop{position:fixed;right:22px;bottom:22px;z-index:150;width:44px;height:44px;border:none;border-radius:50%;
+  background:var(--accent-grad);color:#fff;font-size:20px;line-height:1;font-weight:700;cursor:pointer;
+  box-shadow:0 6px 18px rgba(14,165,183,.35);display:none;align-items:center;justify-content:center;
+  transition:opacity .2s,transform .2s;font-family:inherit;opacity:.92}
+.sp-totop:hover{opacity:1;transform:translateY(-2px)}
+.sp-totop.show{display:flex}
+.sp-totop svg{width:20px;height:20px;display:block}
+
 .news-search-row{margin-bottom:16px}
 .news-search{width:100%;box-sizing:border-box;padding:11px 17px;border:1.5px solid var(--border);border-radius:14px;
   font-size:13.5px;outline:none;background:var(--surface);color:var(--text);transition:all .15s;font-family:inherit}
@@ -465,6 +474,33 @@ function toggleTheme(){
   var s=localStorage.getItem('theme');
   if(s==='dark'){document.documentElement.classList.add('dark');}
   else if(s==='light'){document.documentElement.classList.remove('dark');}
+})();
+
+/* ===== 一键返回顶部：滚动超过 1 屏才显示，点击平滑回顶 ===== */
+(function(){
+  var btn=document.createElement('button');
+  btn.id='sp-totop';
+  btn.className='sp-totop';
+  btn.setAttribute('aria-label','返回顶部');
+  btn.setAttribute('title','返回顶部');
+  btn.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>';
+  document.body.appendChild(btn);
+  var ticking=false;
+  function onScroll(){
+    if(ticking) return;
+    ticking=true;
+    window.requestAnimationFrame(function(){
+      if(window.scrollY > window.innerHeight){ btn.classList.add('show'); }
+      else { btn.classList.remove('show'); }
+      ticking=false;
+    });
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
+  btn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  onScroll();
 })();
 </script>
 """

@@ -1163,6 +1163,28 @@ function paintEnt() {{
   }}
 }})();
 
+// 无限滚动：接近底部自动加载下一批（复用 +ENT_PAGE 渐进渲染，按钮保留为兜底）
+(function() {{
+  let autoLoading = false;
+  function tryAutoLoad() {{
+    if (autoLoading) return;
+    const btn = document.getElementById('ent-loadmore');
+    if (!btn || btn.style.display === 'none') return;
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 600) {{
+      autoLoading = true;
+      entRendered += ENT_PAGE;
+      paintEnt();
+      const rc = document.getElementById('result-count');
+      if (rc) rc.textContent = '展示 ' + Math.min(entRendered, lastMatched.length) + ' / 共 ' + lastMatched.length + ' 家企业';
+      setTimeout(function() {{ autoLoading = false; }}, 60);
+    }}
+  }}
+  window.addEventListener('scroll', tryAutoLoad, {{passive:true}});
+  window.addEventListener('resize', tryAutoLoad, {{passive:true}});
+  // 首次渲染后若内容已接近底部（如当前筛选结果很少），也尝试触发
+  tryAutoLoad();
+}})();
+
 // Sort toggle is handled via onclick="setEntSort(...)" arrow buttons (see toolbar)
 
 // Tag pill toggle (replaces old <select>)
