@@ -316,7 +316,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "智慧养老"
+   "陪诊"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -574,7 +574,6 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理",
    "养老机构"
   ],
   "business_tags": {
@@ -714,6 +713,7 @@
    "消费品"
   ],
   "tag_l2": [
+   "纸尿裤",
    "个人护理"
   ],
   "business_tags": {
@@ -1237,11 +1237,9 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "养老社区",
    "康复医疗"
   ],
   "business_tags": {
@@ -1377,10 +1375,10 @@
   "desc_cn": "老年健康管理和陪诊服务平台，提供就医陪同、健康体检、慢病管理等服务。",
   "business_model_cn": "B2C 健康养生服务",
   "tag_l1": [
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "慢病管理"
+   "陪诊"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -1573,7 +1571,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "智慧养老"
+   "适老化改造"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -1582,7 +1580,8 @@
   },
   "stage": "融资中",
   "recommend": "【特霍芬】聚焦养老社区/认知症，聚焦老年人居住环境智能化改造。，B2B模式，研究价值分16。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0028",
@@ -1616,12 +1615,12 @@
   "desc_cn": "智能家居和智慧养老企业，提供基于AIoT的居家养老安全监测解决方案。",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "医疗健康",
+   "消费品"
   ],
   "tag_l2": [
-   "健康监测",
-   "居家护理"
+   "智能硬件",
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -1630,7 +1629,8 @@
   },
   "stage": "融资中",
   "recommend": "【百芝龙】聚焦健康监测/健康管理/居家护理，提供基于AIoT的居家养老安全监测解决方案。，B2B+B2C模式，研究价值分16。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0029",
@@ -2554,7 +2554,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "智慧养老"
+   "陪诊"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -3331,9 +3331,11 @@
   "desc_cn": "上海剪爱是老年人理发服务品牌，专注于为行动不便老人提供上门理发服务，解决老年人生活服务痛点。",
   "business_model_cn": "银发经济企业",
   "tag_l1": [
+   "养老服务",
    "消费品"
   ],
   "tag_l2": [
+   "家政生活服务",
    "个人护理"
   ],
   "business_tags": {
@@ -3373,7 +3375,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "康复设备"
+   "护理床"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -3409,11 +3411,9 @@
   "desc_cn": "东方华康是康复医疗集团，运营多家康复医院和护理院，提供术后康复、老年慢病管理、失能照护等服务。",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "医疗",
    "养老机构"
   ],
   "business_tags": {
@@ -3937,6 +3937,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -4073,11 +4074,9 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
    "文娱社交"
   ],
   "tag_l2": [
-   "养老社区",
    "旅游"
   ],
   "business_tags": {
@@ -4324,8 +4323,7 @@
    "文娱社交"
   ],
   "tag_l2": [
-   "相亲",
-   "社交"
+   "相亲"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -4541,8 +4539,7 @@
    "文娱社交"
   ],
   "tag_l2": [
-   "相亲",
-   "社交"
+   "相亲"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -4692,11 +4689,9 @@
   "desc_cn": "佰丝堂是中医养生品牌，提供中药调理、药膳食疗等传统中医养生服务。",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "医疗健康",
-   "食品营养"
+   "医疗健康"
   ],
   "tag_l2": [
-   "营养食品",
    "药品"
   ],
   "business_tags": {
@@ -4871,12 +4866,10 @@
   "desc_cn": "健特药业是保健品品牌，旗下脑白金是中国最知名的老年保健品之一。",
   "business_model_cn": "B2C 老年健康食品",
   "tag_l1": [
-   "医疗健康",
-   "食品营养"
+   "医疗健康"
   ],
   "tag_l2": [
-   "药品",
-   "保健品"
+   "药品"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -5599,11 +5592,9 @@
   "desc_cn": "博远资本是专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有投资布局。",
   "business_model_cn": "B2B 医疗器械",
   "tag_l1": [
-   "产业资本",
    "医疗健康"
   ],
   "tag_l2": [
-   "投资机构",
    "药品"
   ],
   "business_tags": {
@@ -5683,7 +5674,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "康复设备"
+   "护理床"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -5760,6 +5751,7 @@
    "消费品"
   ],
   "tag_l2": [
+   "纸尿裤",
    "个人护理"
   ],
   "business_tags": {
@@ -6201,10 +6193,10 @@
   "desc_cn": "唯艾是中医艾灸健康品牌，提供智能艾灸设备和中医养生服务。",
   "business_model_cn": "B2B/B2C 硬件产品",
   "tag_l1": [
-   "养老服务"
+   "消费品"
   ],
   "tag_l2": [
-   "智慧养老"
+   "智能硬件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -6213,7 +6205,8 @@
   },
   "stage": "未披露",
   "recommend": "【唯艾】聚焦健康管理/智能硬件，中医艾灸健康品牌，B2B+B2C模式，研究价值分27。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0136",
@@ -6452,7 +6445,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "多呵是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "个人护理品牌，面向家庭及中老年群体提供洗护类产品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -6464,8 +6457,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "多呵",
-  "desc_cn": "多呵是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "个人护理品牌，面向家庭及中老年群体提供洗护类产品。",
+  "business_model_cn": "B2C 个护",
   "tag_l1": [
    "消费品"
   ],
@@ -6682,7 +6675,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "天空树是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "个人护理品牌，主打头皮头发或肌肤护理类适老产品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -6694,8 +6687,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "天空树",
-  "desc_cn": "天空树是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "个人护理品牌，主打头皮头发或肌肤护理类适老产品。",
+  "business_model_cn": "B2C 个护",
   "tag_l1": [
    "消费品"
   ],
@@ -6738,7 +6731,8 @@
    "养老服务"
   ],
   "tag_l2": [
-   "上门"
+   "上门",
+   "家政生活服务"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -6908,7 +6902,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "女王新款是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "女装/妈妈装电商品牌，面向中老年女性提供服饰。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -6920,8 +6914,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "女王新款",
-  "desc_cn": "女王新款是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "女装/妈妈装电商品牌，面向中老年女性提供服饰。",
+  "business_model_cn": "B2C 银发女装",
   "tag_l1": [
    "消费品"
   ],
@@ -7004,7 +6998,7 @@
   ],
   "tag_l2": [
    "上门",
-   "居家护理"
+   "家政生活服务"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -7409,7 +7403,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "家有购物是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "家庭电视购物与媒体零售平台，通过频道与电商提供居家生活类商品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -7421,8 +7415,8 @@
   "website_url": "http://www.jyh.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "家有购物",
-  "desc_cn": "家有购物是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "家庭电视购物与媒体零售平台，通过频道与电商提供居家生活类商品。",
+  "business_model_cn": "媒体零售/电视购物",
   "tag_l1": [
    "渠道零售"
   ],
@@ -7625,7 +7619,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "医疗",
    "康复医疗"
   ],
   "business_tags": {
@@ -7839,7 +7832,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "左点是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "左点健康产业（深圳）有限公司（ZDEER，2014年创立）旗下智能健康品牌，聚焦家庭健康场景，产品涵盖智能艾灸盒、助听器、睡眠仪等，获天图、高瓴等机构多轮融资。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -7851,13 +7844,13 @@
   "website_url": "https://www.zdeer.com.cn",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "左点",
-  "desc_cn": "左点是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "左点健康产业（深圳）有限公司（ZDEER，2014年创立）旗下智能健康品牌，聚焦家庭健康场景，产品涵盖智能艾灸盒、助听器、睡眠仪等，获天图、高瓴等机构多轮融资。",
+  "business_model_cn": "B2C 智能健康硬件",
   "tag_l1": [
    "消费品"
   ],
   "tag_l2": [
-   "智能硬件"
+   "助听器"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -8072,7 +8065,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "康复之家是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "北京康复之家健康管理集团有限公司（2004年创立）是国内家用医疗器械连锁服务商，经营制氧机、轮椅、护理床、血糖仪等，全国数百家直营门店。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8084,13 +8077,14 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "康复之家",
-  "desc_cn": "康复之家是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "北京康复之家健康管理集团有限公司（2004年创立）是国内家用医疗器械连锁服务商，经营制氧机、轮椅、护理床、血糖仪等，全国数百家直营门店。",
+  "business_model_cn": "B2C 家用医疗器械零售",
   "tag_l1": [
-   "养老服务"
+   "康复辅具"
   ],
   "tag_l2": [
-   "适老化改造"
+   "轮椅",
+   "护理床"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -8188,7 +8182,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "康林仁和是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "保健品品牌/零售商，面向中老年群体提供营养保健类商品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8200,8 +8194,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "康林仁和",
-  "desc_cn": "康林仁和是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "保健品品牌/零售商，面向中老年群体提供营养保健类商品。",
+  "business_model_cn": "B2C 保健品零售",
   "tag_l1": [
    "食品营养"
   ],
@@ -8358,10 +8352,10 @@
   "desc_cn": "彭世是足浴养生连锁品牌，在中老年养生保健市场有广泛布局。",
   "business_model_cn": "B2C/B2B 加盟连锁",
   "tag_l1": [
-   "养老服务"
+   "消费品"
   ],
   "tag_l2": [
-   "智慧养老"
+   "个人护理"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -8370,7 +8364,8 @@
   },
   "stage": "未披露",
   "recommend": "【彭世】聚焦健康管理，足浴养生连锁品牌，B2B+B2C模式，研究价值分21。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0191",
@@ -8577,7 +8572,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "快乐购是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "快乐购物股份有限公司（湖南广电旗下，2005年创立，2015年A股上市，现芒果超媒）是国内领先的家庭电视购物与媒体零售平台。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8589,8 +8584,8 @@
   "website_url": "https://www.happigo.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "快乐购",
-  "desc_cn": "快乐购是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "快乐购物股份有限公司（湖南广电旗下，2005年创立，2015年A股上市，现芒果超媒）是国内领先的家庭电视购物与媒体零售平台。",
+  "business_model_cn": "媒体零售/电视购物",
   "tag_l1": [
    "渠道零售"
   ],
@@ -8613,7 +8608,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "快团团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "腾讯旗下社群团购工具与平台，连接团长与社区消费者提供日用百货团购。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8625,8 +8620,8 @@
   "website_url": "https://ktt.pinduoduo.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "快团团",
-  "desc_cn": "快团团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "腾讯旗下社群团购工具与平台，连接团长与社区消费者提供日用百货团购。",
+  "business_model_cn": "社群团购平台",
   "tag_l1": [
    "渠道零售"
   ],
@@ -8689,7 +8684,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "恒发是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "服饰鞋帽品牌/零售商，面向家庭及中老年群体提供鞋服产品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8701,8 +8696,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "恒发",
-  "desc_cn": "恒发是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "服饰鞋帽品牌/零售商，面向家庭及中老年群体提供鞋服产品。",
+  "business_model_cn": "B2C 银发鞋服",
   "tag_l1": [
    "消费品"
   ],
@@ -8765,7 +8760,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "悟空百货是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "北京泽它贸易有限公司（2019年获红杉等投资）创立的中老年群体电商平台，与染博士同体系，聚焦银发人群居家消费品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8777,8 +8772,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "悟空百货",
-  "desc_cn": "悟空百货是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "北京泽它贸易有限公司（2019年获红杉等投资）创立的中老年群体电商平台，与染博士同体系，聚焦银发人群居家消费品。",
+  "business_model_cn": "B2C 银发电商",
   "tag_l1": [
    "渠道零售"
   ],
@@ -8879,7 +8874,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "惠买集团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "电视购物与全媒体电商零售集团，主营居家生活类商品零售。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -8891,8 +8886,8 @@
   "website_url": "http://www.huimai365.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "惠买集团",
-  "desc_cn": "惠买集团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "电视购物与全媒体电商零售集团，主营居家生活类商品零售。",
+  "business_model_cn": "媒体零售/电视购物",
   "tag_l1": [
    "渠道零售"
   ],
@@ -9187,7 +9182,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "摩登银龄是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "银发内容与时尚IP，聚焦中老年群体生活方式与文娱内容。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -9199,8 +9194,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "摩登银龄",
-  "desc_cn": "摩登银龄是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "银发内容与时尚IP，聚焦中老年群体生活方式与文娱内容。",
+  "business_model_cn": "银发文娱/内容",
   "tag_l1": [
    "文娱社交"
   ],
@@ -9418,7 +9413,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "时尚奶奶团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "2019年成立于北京的银发女性时尚IP与社群平台，由平均年龄65岁以上女性组成，通过旗袍走秀、直播带货与形体培训商业化，全网粉丝超3000万。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -9430,8 +9425,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "时尚奶奶团",
-  "desc_cn": "时尚奶奶团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "2019年成立于北京的银发女性时尚IP与社群平台，由平均年龄65岁以上女性组成，通过旗袍走秀、直播带货与形体培训商业化，全网粉丝超3000万。",
+  "business_model_cn": "银发文娱/MCN",
   "tag_l1": [
    "文娱社交"
   ],
@@ -9570,7 +9565,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "昱芝夕是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "个人护理品牌，提供洗护/护肤类适老产品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -9582,8 +9577,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "昱芝夕",
-  "desc_cn": "昱芝夕是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "个人护理品牌，提供洗护/护肤类适老产品。",
+  "business_model_cn": "B2C 个护",
   "tag_l1": [
    "消费品"
   ],
@@ -9606,7 +9601,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "昱言养老是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -9618,8 +9613,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "昱言养老",
-  "desc_cn": "昱言养老是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
+  "business_model_cn": "B2B 养老产业咨询",
   "tag_l1": [
    "养老服务"
   ],
@@ -9934,7 +9929,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "最美芳华是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "银发女性内容/社群平台，聚焦中老年女性生活与文娱。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -9946,8 +9941,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "最美芳华",
-  "desc_cn": "最美芳华是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "银发女性内容/社群平台，聚焦中老年女性生活与文娱。",
+  "business_model_cn": "银发文娱/内容",
   "tag_l1": [
    "文娱社交"
   ],
@@ -10087,7 +10082,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "染博士是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "北京泽它贸易有限公司旗下银发染发新国货美妆品牌（2021年创立），首创亲肤低敏染膏，获红杉中国等VC投资，聚焦中老年“在家安全染发”。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -10099,8 +10094,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "染博士",
-  "desc_cn": "染博士是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "北京泽它贸易有限公司旗下银发染发新国货美妆品牌（2021年创立），首创亲肤低敏染膏，获红杉中国等VC投资，聚焦中老年“在家安全染发”。",
+  "business_model_cn": "B2C 银发个护美妆",
   "tag_l1": [
    "消费品"
   ],
@@ -10754,7 +10749,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "海之声是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "海之声听力（1996年创立）是全国性专业听力服务机构，主营助听器验配与听觉康复，全国近200家直营听力中心，覆盖20余省区。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -10766,8 +10761,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "海之声",
-  "desc_cn": "海之声是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "海之声听力（1996年创立）是全国性专业听力服务机构，主营助听器验配与听觉康复，全国近200家直营听力中心，覆盖20余省区。",
+  "business_model_cn": "B2C 听力健康服务",
   "tag_l1": [
    "消费品"
   ],
@@ -10790,7 +10785,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "海森林是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "青岛海森林发制品集团（2002年创立）是国内高端假发/发制品龙头，产品涵盖女士头套、男士发块、发帘等，出口全球30余国，多次冲刺IPO。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -10802,13 +10797,13 @@
   "website_url": "https://www.seaforesthair.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "海森林",
-  "desc_cn": "海森林是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "青岛海森林发制品集团（2002年创立）是国内高端假发/发制品龙头，产品涵盖女士头套、男士发块、发帘等，出口全球30余国，多次冲刺IPO。",
+  "business_model_cn": "B2C/B2B 发制品制造与零售",
   "tag_l1": [
    "消费品"
   ],
   "tag_l2": [
-   "助听器"
+   "个人护理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -10817,7 +10812,8 @@
   },
   "stage": "未披露",
   "recommend": "【海森林】聚焦个护，行业服务领域企业，B2B模式，研究价值分21。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0254",
@@ -11022,7 +11018,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "爱普雷德是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "南京爱普雷德电子科技有限公司（2012年创立）是智慧养老SaaS与解决方案提供商，为政府、养老机构及社区提供互联网+智慧养老系统（智慧养老院、家庭养老床位、适老化改造等）。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -11034,13 +11030,13 @@
   "website_url": "https://www.aplid.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "爱普雷德",
-  "desc_cn": "爱普雷德是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "南京爱普雷德电子科技有限公司（2012年创立）是智慧养老SaaS与解决方案提供商，为政府、养老机构及社区提供互联网+智慧养老系统（智慧养老院、家庭养老床位、适老化改造等）。",
+  "business_model_cn": "B2B 智慧养老SaaS",
   "tag_l1": [
-   "消费品"
+   "养老服务"
   ],
   "tag_l2": [
-   "助听器"
+   "智慧养老"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -11049,7 +11045,8 @@
   },
   "stage": "未披露",
   "recommend": "【爱普雷德】聚焦数字化/照护系统，行业服务领域企业，B2B模式，研究价值分21。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0260",
@@ -11255,7 +11252,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "环球捕手是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "跨境社交电商平台，聚焦进口食品与健康品类的社群分销。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -11267,8 +11264,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "环球捕手",
-  "desc_cn": "环球捕手是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "跨境社交电商平台，聚焦进口食品与健康品类的社群分销。",
+  "business_model_cn": "B2C 跨境社交电商",
   "tag_l1": [
    "渠道零售"
   ],
@@ -11308,10 +11305,10 @@
   "desc_cn": "瑞光康泰是健康养生品牌，为银发人群提供健康管理或养生保健产品和服务。",
   "business_model_cn": "B2C 健康养生服务",
   "tag_l1": [
-   "养老服务"
+   "食品营养"
   ],
   "tag_l2": [
-   "智慧养老"
+   "保健品"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -11320,7 +11317,8 @@
   },
   "stage": "未披露",
   "recommend": "【瑞光康泰】聚焦健康管理，健康服务领域企业，B2C模式，研究价值分21。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0267",
@@ -11369,7 +11367,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "瑞贝卡是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "河南瑞贝卡发制品股份有限公司（600439.SH）是全球假发/发制品龙头，产品覆盖工艺发、化纤发、教习头及发套，银发群体（白发/脱发）为假发核心消费人群，海外营收占比较高。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -11381,8 +11379,8 @@
   "website_url": "https://www.rebeccafashion.com.cn",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "瑞贝卡",
-  "desc_cn": "瑞贝卡是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "河南瑞贝卡发制品股份有限公司（600439.SH）是全球假发/发制品龙头，产品覆盖工艺发、化纤发、教习头及发套，银发群体（白发/脱发）为假发核心消费人群，海外营收占比较高。",
+  "business_model_cn": "B2B/B2C 发制品制造与零售",
   "tag_l1": [
    "消费品"
   ],
@@ -11443,7 +11441,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "甲子科技是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "北京甲子科技有限责任公司（2014年创立）是智慧养老与适老化改造服务商，业务涵盖甲子适老化改造、养老运营系统、甲子商城与智能穿戴。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -11455,8 +11453,8 @@
   "website_url": "http://www.jiazi-it.com",
   "business_model": "B2B 科技研发",
   "name_cn": "甲子科技",
-  "desc_cn": "甲子科技是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 科技研发",
+  "desc_cn": "北京甲子科技有限责任公司（2014年创立）是智慧养老与适老化改造服务商，业务涵盖甲子适老化改造、养老运营系统、甲子商城与智能穿戴。",
+  "business_model_cn": "B2B 智慧养老科技",
   "tag_l1": [
    "智能科技"
   ],
@@ -11572,12 +11570,10 @@
   "desc_cn": "百善药业是营养保健品品牌，在中老年健康营养市场有布局，提供适合银发人群的保健产品。",
   "business_model_cn": "B2C 老年健康食品",
   "tag_l1": [
-   "医疗健康",
-   "食品营养"
+   "医疗健康"
   ],
   "tag_l2": [
-   "药品",
-   "保健品"
+   "药品"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -11714,7 +11710,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "益生康健是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "保健品品牌/零售商，面向中老年群体提供营养保健类商品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -11726,8 +11722,8 @@
   "website_url": "https://www.yeecaregroup.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "益生康健",
-  "desc_cn": "益生康健是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "保健品品牌/零售商，面向中老年群体提供营养保健类商品。",
+  "business_model_cn": "B2C 保健品零售",
   "tag_l1": [
    "食品营养"
   ],
@@ -11982,7 +11978,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "票圈视频是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "面向中老年群体的短视频与社交内容平台。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -11994,13 +11990,13 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "票圈视频",
-  "desc_cn": "票圈视频是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "面向中老年群体的短视频与社交内容平台。",
+  "business_model_cn": "银发短视频/社交",
   "tag_l1": [
-   "养老服务"
+   "文娱社交"
   ],
   "tag_l2": [
-   "智慧养老"
+   "文娱"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -12215,7 +12211,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "福玛玛是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "女装/妈妈装品牌，面向中老年女性提供服饰。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -12227,8 +12223,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "福玛玛",
-  "desc_cn": "福玛玛是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "女装/妈妈装品牌，面向中老年女性提供服饰。",
+  "business_model_cn": "B2C 银发女装",
   "tag_l1": [
    "消费品"
   ],
@@ -12290,7 +12286,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "章华是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "浙江章华保健美发实业有限公司（SAVOL 章华）是国产染发与洗护化妆品品牌，主打植物染发剂、洗发护发产品，中老年染发为主要消费场景之一。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -12302,8 +12298,8 @@
   "website_url": "http://www.savolherb.cn",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "章华",
-  "desc_cn": "章华是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "浙江章华保健美发实业有限公司（SAVOL 章华）是国产染发与洗护化妆品品牌，主打植物染发剂、洗发护发产品，中老年染发为主要消费场景之一。",
+  "business_model_cn": "B2C 洗护化妆品",
   "tag_l1": [
    "消费品"
   ],
@@ -12326,7 +12322,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "米兰登是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "米兰登服饰（广东）有限公司（1995年创立）旗下中老年女装知名品牌，主打天然麻棉环保面料的功能性高端女装。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -12338,8 +12334,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "米兰登",
-  "desc_cn": "米兰登是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "米兰登服饰（广东）有限公司（1995年创立）旗下中老年女装知名品牌，主打天然麻棉环保面料的功能性高端女装。",
+  "business_model_cn": "B2C 银发女装",
   "tag_l1": [
    "消费品"
   ],
@@ -12362,7 +12358,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "粤嘉康是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "保健品品牌/零售商，面向中老年群体提供营养保健类商品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -12374,8 +12370,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "粤嘉康",
-  "desc_cn": "粤嘉康是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "保健品品牌/零售商，面向中老年群体提供营养保健类商品。",
+  "business_model_cn": "B2C 保健品零售",
   "tag_l1": [
    "食品营养"
   ],
@@ -12826,7 +12822,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "老人头是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "老人头尚品有限公司旗下百年鞋业品牌（1899年创立于上海，总部温州），浙江老字号，主营皮鞋与休闲鞋，近年推出适老健步鞋款。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -12838,8 +12834,8 @@
   "website_url": "https://www.laorentou.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "老人头",
-  "desc_cn": "老人头是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "老人头尚品有限公司旗下百年鞋业品牌（1899年创立于上海，总部温州），浙江老字号，主营皮鞋与休闲鞋，近年推出适老健步鞋款。",
+  "business_model_cn": "B2C 银发鞋服",
   "tag_l1": [
    "消费品"
   ],
@@ -13017,7 +13013,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "老美华是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "天津老美華鞋业服饰有限公司，始创于1911年的中华老字号，以手工布鞋、传统中式鞋服著称，近年推出适老健步鞋与银发鞋服产品线。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -13029,8 +13025,8 @@
   "website_url": "http://www.laomeihua.net",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "老美华",
-  "desc_cn": "老美华是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "天津老美華鞋业服饰有限公司，始创于1911年的中华老字号，以手工布鞋、传统中式鞋服著称，近年推出适老健步鞋与银发鞋服产品线。",
+  "business_model_cn": "B2C 中华老字号鞋服",
   "tag_l1": [
    "消费品"
   ],
@@ -13093,7 +13089,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "聚鲨环球是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "电视购物/家庭购物平台（环球购物），提供居家生活类商品全媒体零售。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -13105,8 +13101,8 @@
   "website_url": "https://www.sharkshopping.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "聚鲨环球",
-  "desc_cn": "聚鲨环球是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "电视购物/家庭购物平台（环球购物），提供居家生活类商品全媒体零售。",
+  "business_model_cn": "媒体零售/电视购物",
   "tag_l1": [
    "渠道零售"
   ],
@@ -13206,7 +13202,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "自然之声是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "北京自然之声助听器技术服务有限公司（1996年创立）是国内助听器验配与听觉康复直营连锁龙头，全国超2500家直营服务网点。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -13218,8 +13214,8 @@
   "website_url": "http://www.ztq.com.cn",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "自然之声",
-  "desc_cn": "自然之声是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "北京自然之声助听器技术服务有限公司（1996年创立）是国内助听器验配与听觉康复直营连锁龙头，全国超2500家直营服务网点。",
+  "business_model_cn": "B2C 听力健康服务",
   "tag_l1": [
    "消费品"
   ],
@@ -13320,7 +13316,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "舒悦是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "上海舒悦人生贸易有限公司（2018年创立）旗下老人鞋品牌，参与《老人鞋》国家标准制定，全国超1500家专卖店，专注中老年鞋履（爸妈鞋）。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -13332,8 +13328,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "舒悦",
-  "desc_cn": "舒悦是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "上海舒悦人生贸易有限公司（2018年创立）旗下老人鞋品牌，参与《老人鞋》国家标准制定，全国超1500家专卖店，专注中老年鞋履（爸妈鞋）。",
+  "business_model_cn": "B2C 银发鞋服",
   "tag_l1": [
    "消费品"
   ],
@@ -13549,7 +13545,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "芬香电商是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "社交电商平台，依托社群团长模式提供分销与优惠购物。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -13561,8 +13557,8 @@
   "website_url": "https://www.fenxiangbuy.com",
   "business_model": "B2C 电商平台",
   "name_cn": "芬香电商",
-  "desc_cn": "芬香电商是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2C 电商平台",
+  "desc_cn": "社交电商平台，依托社群团长模式提供分销与优惠购物。",
+  "business_model_cn": "社交电商",
   "tag_l1": [
    "渠道零售"
   ],
@@ -14056,7 +14052,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "趣得多是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "社交电商/会员制电商平台，面向家庭消费群体提供日用商品。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -14068,8 +14064,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "趣得多",
-  "desc_cn": "趣得多是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "社交电商/会员制电商平台，面向家庭消费群体提供日用商品。",
+  "business_model_cn": "社交电商",
   "tag_l1": [
    "渠道零售"
   ],
@@ -14092,7 +14088,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "足力健是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "足力健是专注中老年群体的老人鞋/银发鞋服品牌运营商，隶属北京孝夕阳科技股份有限公司（2015年成立），以“老人鞋”品类切入银发消费品市场，主打防滑、减震、宽楦适老 footwear。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -14104,8 +14100,8 @@
   "website_url": "http://www.zljllcy.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "足力健",
-  "desc_cn": "足力健是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "足力健是专注中老年群体的老人鞋/银发鞋服品牌运营商，隶属北京孝夕阳科技股份有限公司（2015年成立），以“老人鞋”品类切入银发消费品市场，主打防滑、减震、宽楦适老 footwear。",
+  "business_model_cn": "B2C 银发鞋服消费品",
   "tag_l1": [
    "消费品"
   ],
@@ -14935,7 +14931,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "银发无忧是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "上海银发无忧科技发展有限公司（2013年创立）是中老年一站式生活服务平台与老年用品零售品牌，覆盖衣食用住行乐，O2O体验店+电商模式。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -14947,8 +14943,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "银发无忧",
-  "desc_cn": "银发无忧是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "上海银发无忧科技发展有限公司（2013年创立）是中老年一站式生活服务平台与老年用品零售品牌，覆盖衣食用住行乐，O2O体验店+电商模式。",
+  "business_model_cn": "B2C 老年用品O2O零售",
   "tag_l1": [
    "养老服务"
   ],
@@ -14971,7 +14967,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "银彩聚乐部是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "银发社群与活动平台，为中老年群体提供兴趣社交与活动服务。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -14983,13 +14979,13 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "银彩聚乐部",
-  "desc_cn": "银彩聚乐部是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "银发社群与活动平台，为中老年群体提供兴趣社交与活动服务。",
+  "business_model_cn": "银发社群/活动",
   "tag_l1": [
-   "养老服务"
+   "文娱社交"
   ],
   "tag_l2": [
-   "智慧养老"
+   "文娱"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -15063,12 +15059,10 @@
   "desc_cn": "链老网是养老机构运营商，运营养老社区或康养项目。",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
    "文娱社交"
   ],
   "tag_l2": [
-   "文娱",
-   "养老社区"
+   "文娱"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -15394,7 +15388,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "韩愢是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "广东瑞邦日化有限公司旗下健康染发品牌（2008年创立），专注家用型健康染发膏，攻克中老年染发痛点，是国内健康染护头部品牌。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -15406,8 +15400,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "韩愢",
-  "desc_cn": "韩愢是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "广东瑞邦日化有限公司旗下健康染发品牌（2008年创立），专注家用型健康染发膏，攻克中老年染发痛点，是国内健康染护头部品牌。",
+  "business_model_cn": "B2C 银发个护美妆",
   "tag_l1": [
    "消费品"
   ],
@@ -15430,7 +15424,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "韩金靓是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "广州无与伦比企业集团有限公司旗下健康染发品牌（2011年创立），以汉方草本配方主打“一梳黑/清水黑发”，稳占国内黑发市场重要份额。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -15442,8 +15436,8 @@
   "website_url": "",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "韩金靓",
-  "desc_cn": "韩金靓是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "广州无与伦比企业集团有限公司旗下健康染发品牌（2011年创立），以汉方草本配方主打“一梳黑/清水黑发”，稳占国内黑发市场重要份额。",
+  "business_model_cn": "B2C 银发个护美妆",
   "tag_l1": [
    "消费品"
   ],
@@ -15618,7 +15612,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "鲸灵集团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "鲸灵集团（2017年杭州创立）是AI私域电商平台与数字供应链公司，旗下蜂享家、好衣库，链接数字团长与品牌商，获腾讯、IDG等投资。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -15630,8 +15624,8 @@
   "website_url": "https://www.jingling.group",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "鲸灵集团",
-  "desc_cn": "鲸灵集团是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "鲸灵集团（2017年杭州创立）是AI私域电商平台与数字供应链公司，旗下蜂享家、好衣库，链接数字团长与品牌商，获腾讯、IDG等投资。",
+  "business_model_cn": "B2B2C 社交电商SaaS",
   "tag_l1": [
    "渠道零售"
   ],
@@ -15731,7 +15725,7 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [],
-  "description": "麦考林是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
+  "description": "老牌邮购与电商零售企业，曾以服饰邮购目录切入家庭消费市场。",
   "highlights": "行业服务领域企业",
   "funding_latest": null,
   "funding_total": null,
@@ -15743,8 +15737,8 @@
   "website_url": "http://www.mecoxlane.com",
   "business_model": "B2B 行业媒体/数据服务",
   "name_cn": "麦考林",
-  "desc_cn": "麦考林是银发经济领域行业服务商，为养老产业提供相关产品或服务。",
-  "business_model_cn": "B2B 行业媒体/数据服务",
+  "desc_cn": "老牌邮购与电商零售企业，曾以服饰邮购目录切入家庭消费市场。",
+  "business_model_cn": "B2C 邮购/电商零售",
   "tag_l1": [
    "渠道零售"
   ],
@@ -16024,11 +16018,9 @@
   "desc_cn": "帕金森及运动障碍患者智能餐勺与慢病管理",
   "business_model_cn": "B2C 老年健身/健康",
   "tag_l1": [
-   "医疗健康",
    "文娱社交"
   ],
   "tag_l2": [
-   "慢病管理",
    "健身"
   ],
   "business_tags": {
@@ -16069,12 +16061,10 @@
   "desc_cn": "移动互联网护理平台，连接C端、护士、护理机构",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
    "健康监测",
-   "居家护理",
    "用药管理"
   ],
   "business_tags": {
@@ -16239,7 +16229,8 @@
   },
   "stage": "成长期",
   "recommend": "【去哪养老网】聚焦产业资本/护理平台/数字化，养老服务搜索展示消费评价平台，B2B模式，研究价值分21。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0394",
@@ -16272,7 +16263,8 @@
    "消费品"
   ],
   "tag_l2": [
-   "尿失禁"
+   "尿失禁",
+   "纸尿裤"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -16314,13 +16306,10 @@
   "desc_cn": "半失能、失能、失智老人医养结合，11家连锁机构",
   "business_model_cn": "B2C/B2B 加盟连锁",
   "tag_l1": [
-   "产业资本",
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
-   "康复医疗",
-   "投资机构"
+   "康复医疗"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -16792,7 +16781,8 @@
    "消费品"
   ],
   "tag_l2": [
-   "尿失禁"
+   "尿失禁",
+   "纸尿裤"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -16983,8 +16973,7 @@
   ],
   "tag_l2": [
    "专业护理",
-   "康复医疗",
-   "适老化改造"
+   "康复医疗"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -17248,7 +17237,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "适老化改造"
+   "陪诊"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -17896,12 +17885,10 @@
   "desc_cn": "家用无感睡眠监测垫，居家、养老机构双场景硬件",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "居家护理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -17943,12 +17930,10 @@
   "desc_cn": "鼾症、睡眠呼吸暂停居家监测，适配老年慢病人群",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "医疗健康",
    "消费品"
   ],
   "tag_l2": [
-   "个人护理",
-   "慢病管理"
+   "个人护理"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -18026,12 +18011,10 @@
   "desc_cn": "复星蜂巢配套养老社区，高净值客群",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
-   "金融保险"
+   "养老服务"
   ],
   "tag_l2": [
-   "养老机构",
-   "保险"
+   "养老机构"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -18184,10 +18167,10 @@
   "desc_cn": "手动/电动轮椅、护理器械全产业链",
   "business_model_cn": "B2B 医疗器械",
   "tag_l1": [
-   "医疗健康"
+   "康复辅具"
   ],
   "tag_l2": [
-   "医疗器械"
+   "轮椅"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -18228,6 +18211,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -18266,6 +18250,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -18306,7 +18291,7 @@
   ],
   "tag_l2": [
    "养老机构",
-   "康复设备"
+   "护理床"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -18463,7 +18448,8 @@
    "消费品"
   ],
   "tag_l2": [
-   "尿失禁"
+   "尿失禁",
+   "纸尿裤"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -18907,8 +18893,7 @@
    "产业资本"
   ],
   "tag_l2": [
-   "咨询研究",
-   "投资机构"
+   "咨询研究"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -20243,12 +20228,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "上门",
-   "医疗"
+   "上门"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -20314,11 +20297,9 @@
    ]
   },
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "AI",
    "女性健康"
   ],
   "business_tags": {
@@ -20535,11 +20516,9 @@
   "desc_cn": "居家护理+价值医疗模式，为Medicare Advantage人群提供服务。",
   "business_model_cn": "B2C/B2B 老年健康保险",
   "tag_l1": [
-   "养老服务",
-   "金融保险"
+   "养老服务"
   ],
   "tag_l2": [
-   "保险",
    "远程护理"
   ],
   "business_tags": {
@@ -20822,10 +20801,12 @@
    ]
   },
   "tag_l1": [
+   "消费品",
    "渠道零售"
   ],
   "tag_l2": [
-   "零售"
+   "零售",
+   "智能硬件"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -20836,7 +20817,8 @@
   },
   "stage": "未披露",
   "recommend": "【亚马逊】聚焦渠道，Alexa语音助手+AWS云服务布局智慧养老，B2C模式，研究价值分39。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0490",
@@ -20911,7 +20893,8 @@
   },
   "stage": "未披露",
   "recommend": "【宝马】聚焦行业媒体/适老化改造，车内适老化设计+辅助驾驶技术，B2C模式，研究价值分26。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0492",
@@ -21221,8 +21204,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "护理平台"
+   "家政生活服务"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -21404,12 +21386,10 @@
   "desc_cn": "居家生命体征监测系统",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "居家护理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -22029,11 +22009,9 @@
   "desc_cn": "养老社区与老年医疗服务",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "医疗",
    "养老机构"
   ],
   "business_tags": {
@@ -22500,12 +22478,10 @@
   "desc_cn": "Mayo Clinic（梅奥诊所）是美国顶级医疗中心，在老年医学、远程医疗和AI辅助诊断领域处于领先地位，运营多个老年医学研究中心。",
   "business_model_cn": "B2B/B2C 远程医疗",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "诊所",
-   "AI"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -22859,11 +22835,9 @@
   "desc_cn": "Pivotal Ventures是Melinda French Gates创立的投资和慈善机构，关注女性经济赋权和老年人财务安全，在银发经济领域有战略投资布局。",
   "business_model_cn": "银发经济企业",
   "tag_l1": [
-   "产业资本",
    "医疗健康"
   ],
   "tag_l2": [
-   "投资机构",
    "女性健康"
   ],
   "business_tags": {
@@ -23172,7 +23146,8 @@
   },
   "stage": "未披露",
   "recommend": "【三星】聚焦健康管理/医疗器械/数字化，智能健康设备+适老化电子产品，韩国养老服务平台，B2C模式，研究价值分44。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0542",
@@ -23312,11 +23287,9 @@
   "desc_cn": "Stanford Center on Longevity（斯坦福长寿研究中心）是全球顶级老龄化研究机构，研究长寿社会的金融、健康和生活方式变革，发布影响力很大的年度报告。",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "智能科技",
-   "金融保险"
+   "智能科技"
   ],
   "tag_l2": [
-   "养老金融",
    "长寿科技"
   ],
   "business_tags": {
@@ -23495,11 +23468,9 @@
   "desc_cn": "非紧急医疗接送服务",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "医疗健康",
-   "金融保险"
+   "医疗健康"
   ],
   "tag_l2": [
-   "保险",
    "药品"
   ],
   "business_tags": {
@@ -24039,12 +24010,9 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "认知症",
-   "护理平台",
    "远程护理"
   ],
   "business_tags": {
@@ -24090,7 +24058,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "医疗",
    "专业护理",
    "康复医疗"
   ],
@@ -24208,14 +24175,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
-   "医疗健康",
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "医疗",
-   "专业护理",
-   "社交"
+   "专业护理"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -24283,12 +24246,10 @@
   },
   "name_cn": "橡树街健康",
   "tag_l1": [
-   "医疗健康",
-   "金融保险"
+   "医疗健康"
   ],
   "tag_l2": [
-   "诊所",
-   "保险"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -24347,6 +24308,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -25105,7 +25067,8 @@
   },
   "stage": "未披露",
   "recommend": "【Netflix】聚焦数字化/行业媒体，作为长寿市场服务模式的类比参照，B2B模式，研究价值分37。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0587",
@@ -25221,11 +25184,9 @@
   "desc_cn": "共享住宿平台，推行现代长者人才理念",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "养老服务",
    "文娱社交"
   ],
   "tag_l2": [
-   "适老化改造",
    "旅游"
   ],
   "business_tags": {
@@ -25282,10 +25243,10 @@
   },
   "name_cn": "赛富时",
   "tag_l1": [
-   "养老服务"
+   "文娱社交"
   ],
   "tag_l2": [
-   "智慧养老"
+   "就业"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -25294,7 +25255,8 @@
   },
   "stage": "未披露",
   "recommend": "【Salesforce】聚焦行业媒体，推行永久混合办公为老年员工延长职业周期创造条件，B2B模式，研究价值分51。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0591",
@@ -25317,10 +25279,10 @@
   "desc_cn": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
   "business_model_cn": "B2B 科技研发",
   "tag_l1": [
-   "养老服务"
+   "文娱社交"
   ],
   "tag_l2": [
-   "适老化改造"
+   "就业"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -25329,7 +25291,8 @@
   },
   "stage": "未披露",
   "recommend": "【Google】聚焦产业资本/数字化/行业媒体，设有职场回归项目吸纳职业中断的资深人才，B2B模式，研究价值分26。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0592",
@@ -25352,12 +25315,10 @@
   "desc_cn": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
   "business_model_cn": "B2B 科技研发",
   "tag_l1": [
-   "养老服务",
    "智能科技"
   ],
   "tag_l2": [
-   "机器人",
-   "适老化改造"
+   "AI"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -25366,7 +25327,8 @@
   },
   "stage": "未披露",
   "recommend": "【IBM】聚焦数字化/行业媒体，设有职场回归项目吸纳职业中断的资深人才，B2B模式，研究价值分26。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0593",
@@ -25745,8 +25707,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "诊所",
-   "慢病管理"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -25840,8 +25801,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "药品",
-   "认知症"
+   "药品"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -26532,11 +26492,9 @@
   "desc_cn": "为痴呆症患者提供个性化护理和帮助，远程护理",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "认知症",
    "远程护理"
   ],
   "business_tags": {
@@ -26762,9 +26720,11 @@
   "desc_cn": "Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准为助听器",
   "business_model_cn": "B2B AI/数据驱动",
   "tag_l1": [
+   "医疗健康",
    "消费品"
   ],
   "tag_l2": [
+   "健康监测",
    "助听器"
   ],
   "business_tags": {
@@ -26774,7 +26734,8 @@
   },
   "stage": "未披露",
   "recommend": "【Apple】聚焦健康监测/健康管理，Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准...，B2B模式，研究价值分26。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0623",
@@ -27080,11 +27041,9 @@
    ]
   },
   "tag_l1": [
-   "医疗健康",
-   "金融保险"
+   "医疗健康"
   ],
   "tag_l2": [
-   "保险",
    "心理健康"
   ],
   "business_tags": {
@@ -27762,12 +27721,10 @@
   "desc_cn": "专门从事女性健身补充剂销售",
   "business_model_cn": "B2C 老年健身/健康",
   "tag_l1": [
-   "医疗健康",
-   "食品营养"
+   "医疗健康"
   ],
   "tag_l2": [
-   "女性健康",
-   "营养食品"
+   "女性健康"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -29134,12 +29091,10 @@
   "desc_cn": "文化包容性Medicare Advantage计划，东方福利",
   "business_model_cn": "B2C/B2B 老年健康保险",
   "tag_l1": [
-   "文娱社交",
-   "金融保险"
+   "文娱社交"
   ],
   "tag_l2": [
-   "文娱",
-   "保险"
+   "文娱"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -29232,8 +29187,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "慢病管理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -29279,8 +29233,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "慢病管理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -29936,11 +29889,9 @@
   "desc_cn": "机器学习预测哪些患者有再入院风险",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "文娱社交",
-   "智能科技"
+   "文娱社交"
   ],
   "tag_l2": [
-   "AI",
    "教育"
   ],
   "business_tags": {
@@ -30656,11 +30607,9 @@
   "desc_cn": "美国领先的社会护理网络，536,269个计划地点",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "护理平台",
    "SDOH"
   ],
   "business_tags": {
@@ -31584,8 +31533,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "诊所",
-   "医疗"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -31671,7 +31619,8 @@
   ],
   "tag_l2": [
    "尿失禁",
-   "女性健康"
+   "女性健康",
+   "纸尿裤"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -31779,12 +31728,10 @@
   "desc_cn": "远程患者监控、护理和协调平台",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "护理平台"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -31824,12 +31771,9 @@
   "desc_cn": "慢性病管理的虚拟护理管理平台",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "慢病管理",
-   "护理平台",
    "远程护理"
   ],
   "business_tags": {
@@ -31960,11 +31904,9 @@
   "desc_cn": "AI辅助虚拟护理服务，主要服务医院",
   "business_model_cn": "B2B AI/数据驱动",
   "tag_l1": [
-   "养老服务",
-   "智能科技"
+   "养老服务"
   ],
   "tag_l2": [
-   "AI",
    "专业护理",
    "远程护理"
   ],
@@ -32045,7 +31987,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "家政生活服务"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -32084,11 +32026,9 @@
   "desc_cn": "虚拟价值型医疗服务，Medicare和双重合格患者",
   "business_model_cn": "B2C/B2B 老年健康保险",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "医疗",
    "远程护理"
   ],
   "business_tags": {
@@ -32774,11 +32714,9 @@
   "desc_cn": "宠物机器人，为阿尔茨海默症或痴呆患者带来舒适和陪伴",
   "business_model_cn": "B2B/B2C 服务机器人",
   "tag_l1": [
-   "医疗健康",
    "文娱社交"
   ],
   "tag_l2": [
-   "认知症",
    "陪伴机器人"
   ],
   "business_tags": {
@@ -32873,7 +32811,8 @@
   },
   "stage": "未披露",
   "recommend": "【Kalogon】聚焦产业资本/智能硬件/消费品，智能坐垫预防轮椅使用者压疮，B2B模式，研究价值分26。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#0752",
@@ -33201,12 +33140,10 @@
   "desc_cn": "超越助听器，教患者用大脑来聆听",
   "business_model_cn": "银发经济企业",
   "tag_l1": [
-   "康复辅具",
-   "智能科技"
+   "康复辅具"
   ],
   "tag_l2": [
-   "听力训练",
-   "AI"
+   "听力训练"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -34181,8 +34118,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "慢病管理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -34372,8 +34308,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "心理健康",
-   "认知症"
+   "心理健康"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -34493,14 +34428,12 @@
   "desc_cn": "非紧急医疗运输、个人护理服务和远程患者监控",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "产业资本",
    "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
    "健康监测",
-   "专业护理",
-   "投资机构"
+   "专业护理"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -34536,12 +34469,10 @@
   "desc_cn": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
   "business_model_cn": "B2C/B2B 老年健康保险",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "诊所",
-   "AI"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -35022,13 +34953,10 @@
   "desc_cn": "虚拟/上门初级保健、物理治疗和慢性护理管理",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "上门",
-   "慢病管理",
-   "护理平台"
+   "上门"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -35441,12 +35369,10 @@
   "desc_cn": "会员制初级保健机构，2023年被亚马逊收购",
   "business_model_cn": "B2C 社交娱乐平台",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "诊所",
-   "养老社区"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -35525,12 +35451,10 @@
   "desc_cn": "利用智能手机传感器分析人的步态",
   "business_model_cn": "B2C 智能可穿戴设备",
   "tag_l1": [
-   "医疗健康",
-   "康复辅具"
+   "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "康复设备"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -35850,12 +35774,10 @@
   "desc_cn": "面向55岁以上老人和居住社区的社交网络",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "医疗健康",
-   "文娱社交"
+   "医疗健康"
   ],
   "tag_l2": [
-   "SDOH",
-   "社交"
+   "SDOH"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -36479,7 +36401,6 @@
   ],
   "tag_l2": [
    "健康监测",
-   "认知症",
    "跌倒监测"
   ],
   "business_tags": {
@@ -36629,8 +36550,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "慢病管理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -36761,13 +36681,9 @@
   "desc_cn": "营养师虚拟咨询服务在线平台",
   "business_model_cn": "B2C 老年健康食品",
   "tag_l1": [
-   "养老服务",
-   "智能科技",
-   "食品营养"
+   "养老服务"
   ],
   "tag_l2": [
-   "平台",
-   "营养食品",
    "远程护理"
   ],
   "business_tags": {
@@ -37565,8 +37481,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "认知症"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -38881,11 +38796,9 @@
   "desc_cn": "虚拟临终关怀提供商，为重病患者提供全人护理",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "临终关怀",
    "远程护理"
   ],
   "business_tags": {
@@ -39444,7 +39357,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -40240,11 +40152,9 @@
   "desc_cn": "女性健康补充剂，针对围绝经期，被Nameless CPG收购",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "医疗健康",
-   "食品营养"
+   "医疗健康"
   ],
   "tag_l2": [
-   "营养食品",
    "女性健康",
    "更年期"
   ],
@@ -40460,12 +40370,10 @@
   "desc_cn": "解决健康社会决定因素，减少服务不足人群医疗差距",
   "business_model_cn": "B2B 行业媒体/数据服务",
   "tag_l1": [
-   "医疗健康",
-   "金融保险"
+   "医疗健康"
   ],
   "tag_l2": [
-   "SDOH",
-   "保险"
+   "SDOH"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -41452,14 +41360,10 @@
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "name_cn": "百思买健康",
   "tag_l1": [
-   "产业资本",
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "居家护理",
-   "投资机构"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -41681,12 +41585,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "专业护理",
-   "临终关怀"
+   "专业护理"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -42059,7 +41961,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "家政生活服务"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -42507,12 +42409,10 @@
   "desc_cn": "目标客户是康复护理设施的管理层和运营团队，AI驱动的运营自动化，减轻护理团队的行政和管理负担",
   "business_model_cn": "B2B AI/数据驱动",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "康复医疗",
-   "AI"
+   "康复医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -43086,11 +42986,9 @@
   "desc_cn": "专注于长寿(Longevity)领域，研发专有的长寿蛋白配方(α-Klotho)，用于治疗神经退行性疾病中的认知障碍等疾病",
   "business_model_cn": "B2B 科技研发",
   "tag_l1": [
-   "医疗健康",
    "智能科技"
   ],
   "tag_l2": [
-   "认知症",
    "长寿科技"
   ],
   "business_tags": {
@@ -43157,12 +43055,10 @@
    ]
   },
   "tag_l1": [
-   "医疗健康",
-   "金融保险"
+   "医疗健康"
   ],
   "tag_l2": [
-   "用药管理",
-   "保险"
+   "用药管理"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -43279,7 +43175,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "康复设备"
+   "护理床"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -43392,11 +43288,9 @@
   "desc_cn": "通过护理自动化减轻团队工作量，提供卓越护理并提升效率。",
   "business_model_cn": "护理自动化SaaS：以流程自动化减轻护理团队工作量、提升照护效率",
   "tag_l1": [
-   "养老服务",
    "智能科技"
   ],
   "tag_l2": [
-   "智慧养老",
    "机器人"
   ],
   "business_tags": {
@@ -43498,8 +43392,7 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "慢病管理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -43957,8 +43850,7 @@
    "金融保险"
   ],
   "tag_l2": [
-   "保险科技",
-   "养老金融"
+   "保险科技"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -43994,12 +43886,10 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "医疗健康",
-   "文娱社交"
+   "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "社交"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44664,7 +44554,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -45278,7 +45167,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -45395,7 +45283,6 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理",
    "远程护理"
   ],
   "business_tags": {
@@ -45624,11 +45511,9 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "AI",
    "跌倒监测"
   ],
   "business_tags": {
@@ -45821,13 +45706,10 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "居家护理",
-   "慢病管理"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -45861,12 +45743,10 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "健康监测",
-   "AI"
+   "健康监测"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -46056,12 +45936,10 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "医疗健康",
-   "康复辅具"
+   "医疗健康"
   ],
   "tag_l2": [
-   "跌倒监测",
-   "康复设备"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -46635,11 +46513,9 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务",
    "智能科技"
   ],
   "tag_l2": [
-   "居家护理",
    "机器人"
   ],
   "business_tags": {
@@ -47117,7 +46993,8 @@
   },
   "stage": "未披露",
   "recommend": "【腾讯 Robotics X】聚焦居家护理/机器人，大厂居家服务机器人探索。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#1076",
@@ -47156,7 +47033,8 @@
   },
   "stage": "未披露",
   "recommend": "【海尔兄弟机器人】聚焦机器人，家电巨头切入服务机器人。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#1077",
@@ -48089,10 +47967,10 @@
   "business_model_cn": "",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务"
+   "消费品"
   ],
   "tag_l2": [
-   "智慧养老"
+   "智能硬件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -48101,7 +47979,8 @@
   },
   "stage": "未披露",
   "recommend": "【京东方 BOE】聚焦数字化，面板巨头布局智慧养老重资产。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#1102",
@@ -48216,9 +48095,8 @@
    "智能科技"
   ],
   "tag_l2": [
-   "陪伴机器人",
    "机器人",
-   "AI"
+   "陪伴机器人"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -48583,12 +48461,10 @@
   "news_coverage": "",
   "name_cn": "华晶科技",
   "tag_l1": [
-   "养老服务",
-   "智能科技"
+   "养老服务"
   ],
   "tag_l2": [
-   "养老机构",
-   "AI"
+   "养老机构"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -48676,7 +48552,8 @@
   },
   "stage": "未披露",
   "recommend": "【自变量机器人】聚焦AI科技，大湾区估值破200亿的具身智能新贵，其“先低风险家庭场景、再渗透养老”的务实路径对国内养老机器人商业化节奏有直接参考价值（S2 热点+S4 可比）。。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "serial": "#1116",
@@ -48707,6 +48584,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -49203,12 +49081,10 @@
   "news_coverage": "",
   "name_cn": "",
   "tag_l1": [
-   "养老服务",
-   "医疗健康"
+   "养老服务"
   ],
   "tag_l2": [
-   "专业护理",
-   "临终关怀"
+   "专业护理"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -49391,11 +49267,9 @@
   "business_model_cn": "B2B 养老机构AI监测SaaS+硬件",
   "serial": "#1131",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "AI",
    "跌倒监测"
   ],
   "business_tags": {
@@ -50445,8 +50319,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "专业护理",
-   "养老机构"
+   "康养地产"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -50455,7 +50328,8 @@
   },
   "stage": "已上市",
   "recommend": "【Omega Healthcare Investors】聚焦产业资本/养老机构，纯护理院 REIT 模式，其' triple-net 租赁给运营商'结构对国内护理院重资产退出有启发。，研究价值分78。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "name": "CareTrust REIT",
@@ -50537,11 +50411,9 @@
   "business_model_cn": "B2B2C 居家输液与专科药房，按疗程与药品毛利获利",
   "serial": "#1158",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "居家护理",
    "用药管理"
   ],
   "business_tags": {
@@ -50682,8 +50554,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "专业护理",
-   "养老机构"
+   "康养地产"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -50692,7 +50563,8 @@
   },
   "stage": "已上市",
   "recommend": "【Sabra Health Care REIT】聚焦产业资本/养老机构，护理院 REIT 的另一资本样本，与 Omega 形成对照。，研究价值分68。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "name": "LTC Properties",
@@ -51418,12 +51290,11 @@
   "business_model_cn": "B2C/B2B 失禁护理与伤口护理，品牌快消品模式",
   "serial": "#1178",
   "tag_l1": [
-   "产业资本",
    "消费品"
   ],
   "tag_l2": [
    "尿失禁",
-   "投资机构"
+   "纸尿裤"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -51652,7 +51523,6 @@
    "文娱社交"
   ],
   "tag_l2": [
-   "社交",
    "文娱"
   ],
   "business_tags": {
@@ -51926,11 +51796,9 @@
   },
   "serial": "#1189",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "平台",
    "用药管理"
   ],
   "business_tags": {
@@ -52662,7 +52530,8 @@
   },
   "stage": "未披露",
   "recommend": "【松延动力】聚焦AI科技/产业资本/机器人，通用人形机器人，家庭陪护场景探索，B2B模式。",
-  "payor_model": "未披露"
+  "payor_model": "未披露",
+  "needs_review": true
  },
  {
   "name": "白马星球",
@@ -53788,6 +53657,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -53842,6 +53712,7 @@
    "康复辅具"
   ],
   "tag_l2": [
+   "轮椅",
    "助行器"
   ],
   "business_tags": {
@@ -54006,7 +53877,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -54117,7 +53987,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -54226,7 +54095,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -54281,7 +54149,6 @@
    "医疗健康"
   ],
   "tag_l2": [
-   "认知症",
    "认知训练"
   ],
   "business_tags": {
@@ -55149,11 +55016,9 @@
   },
   "serial": "#1248",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "AI",
    "体检筛查"
   ],
   "business_tags": {
@@ -55315,11 +55180,9 @@
   },
   "serial": "#1251",
   "tag_l1": [
-   "智能科技",
-   "食品营养"
+   "智能科技"
   ],
   "tag_l2": [
-   "营养食品",
    "长寿科技"
   ],
   "business_tags": {
@@ -55480,11 +55343,9 @@
   },
   "serial": "#1254",
   "tag_l1": [
-   "医疗健康",
-   "智能科技"
+   "医疗健康"
   ],
   "tag_l2": [
-   "AI",
    "跌倒监测"
   ],
   "business_tags": {
@@ -56725,12 +56586,10 @@
   },
   "serial": "#1277",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "心理健康",
-   "护理平台"
+   "心理健康"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -57100,12 +56959,10 @@
   },
   "serial": "#1284",
   "tag_l1": [
-   "养老服务",
    "医疗健康"
   ],
   "tag_l2": [
-   "跌倒监测",
-   "智慧养老"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -57266,10 +57123,11 @@
   },
   "serial": "#1287",
   "tag_l1": [
-   "医疗健康"
+   "康复辅具"
   ],
   "tag_l2": [
-   "医疗器械"
+   "轮椅",
+   "护理床"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -57320,11 +57178,9 @@
   },
   "serial": "#1288",
   "tag_l1": [
-   "医疗健康",
    "智能科技"
   ],
   "tag_l2": [
-   "医疗",
    "机器人"
   ],
   "business_tags": {
@@ -58197,7 +58053,6 @@
   ],
   "tag_l2": [
    "女性健康",
-   "医疗器械",
    "康复机器人"
   ],
   "business_tags": {
@@ -58305,11 +58160,9 @@
   },
   "serial": "#1306",
   "tag_l1": [
-   "文娱社交",
-   "食品营养"
+   "文娱社交"
   ],
   "tag_l2": [
-   "营养食品",
    "健身"
   ],
   "business_tags": {
@@ -58363,13 +58216,10 @@
    ]
   },
   "tag_l1": [
-   "文娱社交",
-   "智能科技"
+   "文娱社交"
   ],
   "tag_l2": [
-   "社交",
-   "文娱",
-   "AI"
+   "文娱"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -58859,11 +58709,9 @@
    ]
   },
   "tag_l1": [
-   "文娱社交",
-   "智能科技"
+   "文娱社交"
   ],
   "tag_l2": [
-   "AI",
    "陪伴机器人"
   ],
   "business_tags": {
@@ -59244,9 +59092,8 @@
    "文娱社交"
   ],
   "tag_l2": [
-   "旅游",
    "旅居养老",
-   "社交"
+   "旅游"
   ],
   "business_tags": {
    "customer": "未标注",
