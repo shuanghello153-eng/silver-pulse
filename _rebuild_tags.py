@@ -1953,6 +1953,399 @@ for e in data:
         _v11d += 1
 print('=== v11 信息补全(DESC_PATCH) =', _v11d, '家 ===')
 
+# =====================================================================
+# v12 聚类循环合并 (SSoT 收口)
+# 输入: output/_v12_info_0..3.json(信息补全) / _v12_split_TD1..5.json(自上而下)
+#        / _v12_bottomup.json(自下而上) / _v12_bigtags.json(32个大标签键集)
+# 机制: 补简介 -> 合并 REASSIGN(同键union) -> 新标签注册进 L2_TO_L1+SYNONYMS
+#        -> 逐企业剥 BIGTAGS_32 后加具体标签+新标签(仅对重指派/命中新标签者) -> 截断<=3
+# =====================================================================
+import os as _os
+_V12_DIR = 'output'
+def _v12_load(p):
+    fp = _os.path.join(_V12_DIR, p)
+    return json.load(open(fp, encoding='utf-8')) if _os.path.exists(fp) else {}
+
+# ---- 1) 信息补全 ----
+V12_DESC_PATCH = {}
+for _f in ['_v12_info_0.json','_v12_info_1.json','_v12_info_2.json','_v12_info_3.json','_v12_info_4.json','_v12_info_5.json','_v12_info_6.json']:
+    V12_DESC_PATCH.update(_v12_load(_f))
+_v12d = 0
+for e in data:
+    nm = e.get('name_cn') or e.get('name')
+    if nm in V12_DESC_PATCH:
+        for fld, val in V12_DESC_PATCH[nm].items():
+            e[fld] = val
+        _v12d += 1
+print('=== v12 信息补全(DESC_PATCH) =', _v12d, '家 ===')
+
+# ---- 2) 收集 REASSIGN + NEW_TAGS(同名按成员并集, l1 取一致值) ----
+V12_REASSIGN = {}    # key -> set(tags)
+V12_NEWTAG = {}      # name -> {'l1':.., 'members':set()}
+V12_NEW_SYN = {}     # name -> [aliases]  (来自拆分智能体的新标签别名, 校验#4需要)
+def _merge_newtag(name, l1, members):
+    d = V12_NEWTAG.setdefault(name, {'l1': l1, 'members': set()})
+    d['l1'] = l1
+    d['members'] |= set(members or [])
+for _f in ['_v12_split_TD1.json','_v12_split_TD2.json','_v12_split_TD3.json','_v12_split_TD4.json','_v12_split_TD5.json','_v12_split_RD2_1.json','_v12_split_RD2_2.json','_v12_split_RD2_3.json','_v12_split_RD2_4.json','_v12_split_RD2_5.json','_v12_split_RD3_1.json','_v12_split_RD3_2.json','_v12_split_RD3_3.json','_v12_split_RD3_4.json','_v12_split_RD3_5.json','_v12_split_RD3_6.json']:
+    d = _v12_load(_f)
+    for k, vs in d.get('REASSIGN', {}).items():
+        V12_REASSIGN.setdefault(k, set()).update(vs)
+    for name, info in d.get('NEW_TAGS', {}).items():
+        _merge_newtag(name, info.get('l1'), info.get('members', []))
+        for _w in (info.get('synonyms') or []):
+            if _w not in V12_NEW_SYN.setdefault(name, []):
+                V12_NEW_SYN[name].append(_w)
+# RD3 后个别企业仍残留已拆大标签(仅 1-2 家), 直接重指派到具体标签
+V12_REASSIGN['Imperative Care'] = {'医疗器械'}
+V12_REASSIGN['Gubbe'] = {'远程监护'}
+V12_REASSIGN['华晶科技'] = {'养老机构','智能硬件'}
+
+_bu = _v12_load('_v12_bottomup.json')
+for name, info in _bu.get('NEW_TAG_CANDIDATES', {}).items():
+    _merge_newtag(name, info.get('l1'), info.get('members', []))
+
+# ---- 3) 注册新标签到 L2_TO_L1 + SYNONYMS(给真实别名, 否则校验#4不过) ----
+L1_NAMES = set(L2_TO_L1.values())   # 10 个一级名(不可作为二级)
+V12_SYN = {
+ '健康管理': ['健康档案','健康服务'],
+ '睡眠监测': ['睡眠追踪','睡眠健康'],
+ '特医食品': ['特医','临床营养'],
+ '膳食配送': ['餐食配送','送餐服务'],
+ '个性化营养': ['定制营养','营养定制'],
+ '适老家居': ['适老家具','养老家具'],
+ '人形机器人': ['类人机器人'],
+ '服务机器人': ['商用服务机器人','接待机器人'],
+ '视觉辅助': ['视觉辅助设备','低视力辅助'],
+ '神经调控': ['神经刺激','脑神经调控'],
+ '遗产规划': ['身后事规划','财富传承'],
+ '殡葬服务': ['殡仪服务','生命礼仪'],
+ '女性健康平台': ['女性健康社区','她健康'],
+ '长护险经办': ['长护险','长期护理险经办'],
+ '养老人才培训': ['照护人才培训','养老护理培训'],
+ '美妆护肤': ['老年美妆','护肤'],
+ '养老膳食': ['老年餐','养老餐食'],
+ '短视频直播': ['中老年短视频','银发直播'],
+ '听力验配': ['听力检测','助听验配'],
+}
+# RD2 轮新增二级标签别名(校验#4: 同义词集合须>=2)
+V12_SYN_RD2 = {
+  '居家护理SaaS': ['居家护理软件','护理系统SaaS'],
+  '养老运营SaaS': ['养老机构软件','养老管理系统'],
+  '护工匹配': ['照护人力匹配','护理员匹配'],
+  '护士派遣': ['护士外派','临床护士配置'],
+  '居家医疗护理': ['上门医疗护理','居家护理服务'],
+  '安宁疗护': ['临终关怀','缓和医疗'],
+  '远程医疗': ['在线诊疗','互联网医疗'],
+  '远程监护': ['远程监测','远程健康监护'],
+  '护理者支持': ['照护者支持','家属照护支持'],
+  '医养结合机构': ['医养结合','医养机构'],
+  '听力设备': ['听力器械','助听设备'],
+  '用药提醒': ['服药提醒','用药通知'],
+  '智能药盒': ['智能药箱','电子药盒'],
+  '药品配送': ['送药服务','药品到家'],
+  '中药': ['中草药','中药材'],
+  'OTC药品': ['非处方药','OTC'],
+  '阿尔茨海默药物': ['抗痴呆药物','AD药物'],
+  '抗衰老药物': ['抗衰药','长寿药'],
+  '假肢': ['义肢','假肢矫形'],
+  '康复辅助器具': ['辅助器具','适老辅具'],
+  '适老化改造': ['居家适老改造','无障碍适老'],
+  '适老家具': ['老年家具','适老化家具'],
+  '持续照料社区(CCRC)': ['CCRC','持续照料退休社区'],
+  '保险养老社区': ['险企养老社区','保险系养老社区'],
+  '认知症照护': ['失智照护','认知障碍照护'],
+  '糖尿病管理': ['糖尿病照护','血糖管理'],
+  '高血压管理': ['血压管理','高血压照护'],
+  '认知筛查': ['认知评估','认知功能筛查'],
+  '认知数字疗法': ['认知数字治疗','数字认知训练'],
+  '膳食补充剂': ['营养补充剂','膳食营养'],
+  '中药滋补': ['滋补养生','中药调养'],
+  '功能性食品': ['功能型食品','机能食品'],
+  '养老产业投资': ['养老投资','银发产业基金'],
+  '行业展会': ['养老展会','行业博览会'],
+  '养老咨询': ['养老顾问','养老服务咨询'],
+  '养老信息服务': ['养老数据服务','银发信息服务'],
+  '兴趣社区': ['兴趣社群','爱好社区'],
+  '邻里社交': ['邻里圈','社区社交'],
+  '紧急呼叫': ['紧急呼救','SOS呼叫'],
+}
+V12_SYN.update(V12_SYN_RD2)
+V12_SYN.update(V12_NEW_SYN)   # RD3 轮智能体产出的新标签别名
+for name, info in V12_NEWTAG.items():
+    if name in L1_NAMES:   # 一级名不可注册为二级(校验#1)
+        continue
+    L2_TO_L1[name] = info['l1']
+    SYNONYMS.setdefault(name, [])
+    for w in V12_SYN.get(name, [name]):
+        if w not in SYNONYMS[name]:
+            SYNONYMS[name].append(w)
+
+# 既有二级标签补别名(校验#4: 同义词集合须 >=2)
+V12_SYN_FIX = {
+  '外骨骼': ['外骨骼机器人','可穿戴外骨骼'],
+  '假发': ['假发定制','毛发补饰'],
+  '康复器械': ['理疗器械','康复器材'],
+  '中药': ['中草药','中药材'],
+  '持续照料社区': ['CCRC','持续照料退休社区'],
+}
+for _n, _al in V12_SYN_FIX.items():
+    if _n in L2_TO_L1:
+        for _w in _al:
+            if _w not in SYNONYMS.get(_n, []):
+                SYNONYMS.setdefault(_n, []).append(_w)
+# v12 校验修正补充: 口腔科诊所独立成标签(4 家齿科企业此前错标助行器)
+L2_TO_L1['口腔医疗'] = '医疗健康'
+SYNONYMS.setdefault('口腔医疗', [])
+for _w in ['牙科','口腔诊疗','齿科']:
+    if _w not in SYNONYMS['口腔医疗']:
+        SYNONYMS['口腔医疗'].append(_w)
+# v12 校验修正补充: 社区居家/政府养老信息化平台独立成标签(从养老运营系统析出)
+L2_TO_L1['养老信息化'] = '智能科技'
+SYNONYMS.setdefault('养老信息化', [])
+for _w in ['养老数字化','社区养老平台']:
+    if _w not in SYNONYMS['养老信息化']:
+        SYNONYMS['养老信息化'].append(_w)
+
+# ---- 4) BIGTAGS_32: 本轮要溶解的大标签(固定32 + 动态所有>=20的标签) ----
+_BIG = _v12_load('_v12_bigtags.json')
+_l2c_pre = Counter()
+for e in data:
+    for x in e.get('tag_l2', []): _l2c_pre[x]+=1
+BIGTAGS_32 = set(_BIG.keys()) | {t for t,c in _l2c_pre.items() if c >= 20}
+
+# ---- 5) 逐企业应用(仅剥被重指派/命中新标签者; 新标签保护不被截断丢弃) ----
+PROTECTED = set(V12_NEWTAG.keys())
+def _trunc_v12(l2_list):
+    s = list(dict.fromkeys(l2_list))
+    prot = [x for x in s if x in PROTECTED]
+    rest = [x for x in s if x not in PROTECTED]
+    if len(prot) >= 3:
+        return prot[:3]
+    by_l1 = defaultdict(list)
+    for x in rest:
+        by_l1[canon_l1(x)].append(x)
+    kept = []
+    for l1, items in by_l1.items():
+        items = sorted(items, key=lambda t: _gc.get(t, 0))
+        kept.append(items[0])
+    return (prot + kept)[:3]
+
+_ent_newtags = defaultdict(set)
+for name, info in V12_NEWTAG.items():
+    for m in info['members']:
+        _ent_newtags[m].add(name)
+
+_v12r = 0
+for e in data:
+    nm = e.get('name_cn') or e.get('name')
+    base = set(e.get('tag_l2', []))
+    add = set()
+    if nm in V12_REASSIGN:
+        add |= {t for t in V12_REASSIGN[nm] if t not in L1_NAMES}
+    if nm in _ent_newtags:
+        add |= _ent_newtags[nm]
+    if add:
+        base = (base - BIGTAGS_32) | add
+        new = _trunc_v12(sorted(base))
+        if set(new) != set(e.get('tag_l2', [])):
+            e['tag_l2'] = sorted(new)
+            e['tag_l1'] = sorted({canon_l1(x) for x in new})
+            _v12r += 1
+print('=== v12 聚类合并: 重指派企业', _v12r, '家 | 新标签', len(V12_NEWTAG), '个 ===')
+
+# ---- 6) 全局清理(收口校验 + 收敛) ----
+# 6a) 一级名被误当二级 / 日用错标 -> 逐企业重指派到具体二级
+V12_REASSIGN_OVERRIDE = {
+  # 消费品(17) -> 具体二级
+  '多呵':'行业媒体','昱芝夕':'行业媒体','享佳健康':'行业媒体','康林仁和':'行业媒体','益生康健':'行业媒体','粤嘉康':'行业媒体',
+  '染博士':'美妆护肤','章华':'美妆护肤','韩愢':'美妆护肤','韩金靓':'美妆护肤','卡唯朵':'美妆护肤','不老谜语':'美妆护肤',
+  '韩束':'美妆护肤','珀莱雅':'美妆护肤','可氏利夫':'美妆护肤','乐霂':'美妆护肤','令羽(肤恩)':'美妆护肤','天空树':'美妆护肤',
+  'Stripes Beauty':'美妆护肤',
+  'Bloom Nutrition':'保健品','Jellydrops':'营养食品','远方好物':'保健品','HealthKart':'保健品',
+  'VTN':'电商','银发无忧':'零售','百思买':'电商',
+  '中顺洁柔':'个人护理','OXO':'适老家居',
+  # 渠道零售(9) -> 具体二级
+  'VTN':'电商','享佳健康':'行业媒体','康林仁和':'行业媒体','益生康健':'行业媒体','粤嘉康':'行业媒体',
+  '远方好物':'保健品','银发无忧':'零售','百思买':'电商','HealthKart':'保健品',
+}
+OVERRIDE_REMOVE = {'消费品','渠道零售','日用'}
+_ov=0
+for e in data:
+    nm = e.get('name_cn') or e.get('name')
+    if nm in V12_REASSIGN_OVERRIDE:
+        l2 = e.get('tag_l2', [])
+        new = [t for t in l2 if t not in OVERRIDE_REMOVE]
+        tgt = V12_REASSIGN_OVERRIDE[nm]
+        if tgt not in new and len(new) < 3:
+            new.append(tgt)
+        new = sorted(new)
+        if new != l2:
+            e['tag_l2'] = new
+            e['tag_l1'] = sorted({canon_l1(x) for x in new})
+            _ov+=1
+print('=== v12 清理: L1误用/日用 重指派', _ov, '家 ===')
+
+# 6c) 幽灵标签(<3)溶解: 成员改派到具体二级(先于伞词剥离, 避免漏加)
+V12_GHOST_DISSOLVE = {
+  '假肢矫形':'康复设备',
+  '女性健康':'更年期',
+  '女性健康平台':'更年期',
+  '长寿科技':'美妆护肤',
+  '会员俱乐部':'社区',
+  '临终关怀':'养老机构',
+  '数字平台':'AI医疗',
+  '投资机构':'银发产业基金',
+  '助听器':'听力设备',
+  # RD3 后剩 <3 成员的旧大标签, 将其余成员归并到合适的具体标签
+  '养老社区':'养老机构',
+  'AI':'智慧养老',
+  '养老运营SaaS':'养老运营系统',
+  # 迭代剥离后剩 <3 成员的残余大/伞词, 归并到具体兄弟标签
+  '适老家居':'适老家居产品',
+  '适老化改造':'无障碍改造',
+  '居家护理':'居家医疗护理',
+  '康复设备':'康复辅助器具',
+  '平台':'医疗器械',
+  # 校验修正后掉到 <3 成员的旧标签, 归并到兄弟具体标签
+  'OTC药品':'药品',
+  '假肢':'康复辅助器具',
+  '养老产业投资':'银发产业基金',
+  '护理AI助手':'居家护理SaaS',
+  '资讯平台':'资讯门户',
+  '假发':'美妆护肤',
+  '咨询研究':'养老咨询',
+}
+_gd=0
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if not l2: continue
+    hit = [g for g in l2 if g in V12_GHOST_DISSOLVE]
+    if not hit: continue
+    new = [t for t in l2 if t not in V12_GHOST_DISSOLVE]
+    new = new[:3]   # 预留位给目标标签
+    for g in hit:
+        tgt = V12_GHOST_DISSOLVE[g]
+        if tgt not in new and len(new) < 3:
+            new.append(tgt)
+    new = sorted(new)
+    if new != l2:
+        e['tag_l2'] = new
+        e['tag_l1'] = sorted({canon_l1(x) for x in new})
+        _gd+=1
+print('=== v12 清理: 溶解幽灵标签', _gd, '家 ===')
+
+# 6b) 大标签/伞词收敛剥离(企业已有具体标签时, 剥掉动态>=20大标签与已知伞词)
+#     与 _v12_detect.py 的 UMBRELLA 同源(此处为 SSoT 端实际执行集合)
+V12_UMBRELLA = {'智慧养老','居家护理','养老社区','康复设备','AI','社交','平台',
+                '营养食品','认知症','医疗器械','慢病管理','保险','养老金融',
+                '护理平台','临终关怀','医疗'}
+_l2c_now = Counter()
+for e in data:
+    for x in e.get('tag_l2', []): _l2c_now[x]+=1
+BIG_NOW = {t for t,c in _l2c_now.items() if c >= 20}
+STRIP_SET = V12_UMBRELLA | BIG_NOW
+_su=0
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if not l2: continue
+    has_spec = [x for x in l2 if x not in STRIP_SET]
+    if has_spec:
+        new = [x for x in l2 if x not in STRIP_SET]
+        if new != l2:
+            e['tag_l2'] = sorted(new)
+            e['tag_l1'] = sorted({canon_l1(x) for x in new})
+            _su+=1
+print('=== v12 清理: 剥大标签/伞词', _su, '家 ===')
+
+# 6b' 迭代二次剥离: 单次 pass 内大标签互相遮蔽(伞词+另一大标签并存时 has_spec 为空, 不剥)
+# 用"当前已剥后"的分布重算 BIG_NOW 再剥, 反复至稳定, 彻底消解这类残留。
+_iter = 0
+while True:
+    _iter += 1
+    _l2c2 = Counter()
+    for e in data:
+        for x in e.get('tag_l2', []): _l2c2[x]+=1
+    BIG2 = {t for t,c in _l2c2.items() if c >= 20}
+    STRIP2 = V12_UMBRELLA | BIG2
+    _su2 = 0
+    for e in data:
+        l2 = e.get('tag_l2', [])
+        if not l2: continue
+        has_spec = [x for x in l2 if x not in STRIP2]
+        if has_spec:
+            new = [x for x in l2 if x not in STRIP2]
+            if new != l2:
+                e['tag_l2'] = sorted(new)
+                e['tag_l1'] = sorted({canon_l1(x) for x in new})
+                _su2 += 1
+    if _su2 == 0:
+        break
+    if _iter >= 6:
+        break
+print('=== v12 清理: 迭代二次剥大标签/伞词 稳定于第', _iter, '轮(末轮', _su2, '家) ===')
+
+# ---- 7) v12 校验修正(独立教研校验后的手术式修正) ----
+# 来源: output/_v12_fix_N.json, 结构 {"remove":{名:[标签]}, "add":{名:[标签]}, "remove_enterprise":[名]}
+# 仅做精准删错标/加正标/删超标条目, 不触碰其他收敛逻辑。
+V12_FIX_FILES = ['_v12_fix_1.json','_v12_fix_2.json','_v12_fix_3.json','_v12_fix_4.json','_v12_fix_5.json','_v12_fix_6.json','_v12_fix_7.json']
+_fix_remove = {}; _fix_add = {}; _fix_drop = []
+_fix_names_all = set()
+for _ff in V12_FIX_FILES:
+    try:
+        _fj = _v12_load(_ff)
+    except Exception:
+        _fj = {}
+    if not _fj: continue
+    for k,vs in (_fj.get('remove') or {}).items():
+        _fix_names_all.add(k); _fix_remove.setdefault(k, set()).update(vs)
+    for k,vs in (_fj.get('add') or {}).items():
+        _fix_names_all.add(k); _fix_add.setdefault(k, set()).update(vs)
+    _fix_drop += (_fj.get('remove_enterprise') or [])
+# 7a) 同名去重(合并标签, 保留一条)
+_seen = {}
+_data_n0 = len(data)
+for e in data:
+    _k = e.get('name_cn') or e.get('name')
+    if _k in _seen:
+        _seen[_k]['tag_l2'] = sorted(set(_seen[_k].get('tag_l2', [])) | set(e.get('tag_l2', [])))
+        _seen[_k]['tag_l1'] = sorted(set(_seen[_k].get('tag_l1', [])) | set(e.get('tag_l1', [])))
+    else:
+        _seen[_k] = e
+data = list(_seen.values())
+print('=== v12 校验修正: 同名去重', _data_n0-len(data), '条 ===')
+# 7b) 整条删除(超出库范围)
+_data_n1 = len(data)
+data = [e for e in data if (e.get('name_cn') or e.get('name')) not in set(_fix_drop)]
+print('=== v12 校验修正: 删除企业', _data_n1-len(data), '家 ===')
+# 7c) 逐企业: 删错标 + 加正标(上限3, 先去伞词)
+_unfound = _fix_names_all - {e.get('name_cn') or e.get('name') for e in data}
+_fx=0
+for e in data:
+    nm = e.get('name_cn') or e.get('name')
+    l2 = list(e.get('tag_l2', []))
+    changed=False
+    if nm in _fix_remove:
+        new=[t for t in l2 if t not in _fix_remove[nm]]
+        if new!=l2: l2=new; changed=True
+    if nm in _fix_add:
+        for t in _fix_add[nm]:
+            if t in L1_NAMES: continue
+            if t not in l2:
+                l2=list(l2)+[t]; changed=True
+    if changed:
+        # 优先保留新增正标(均为经独立教研校验的具体标签, 不再剥伞词), 再补原有, 上限3
+        _added=list(_fix_add.get(nm, set()))
+        _rest=[t for t in l2 if t not in set(_added)]
+        l2=(_added+_rest)[:3]
+        e['tag_l2']=sorted(l2)
+        e['tag_l1']=sorted({canon_l1(x) for x in l2})
+        _fx+=1
+if _unfound:
+    print('   ⚠ 修正名未命中(请核对):', sorted(_unfound))
+print('=== v12 校验修正: 修正企业', _fx, '家 ===')
+
+
 # 统计
 l1c=Counter(); l2c=Counter()
 for e in data:

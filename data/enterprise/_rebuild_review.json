@@ -21,7 +21,6 @@
   "群业咨询",
   "Seen Health",
   "Sprinter Health",
-  "Vytalize Health",
   "Greycroft Partners",
   "Humana / Aetna / UnitedHealth / Cigna",
   "凯撒医疗",
@@ -48,7 +47,6 @@
   "Oak HC/FT",
   "Rethink Impact",
   "Ziegler长寿基金",
-  "Author Health",
   "Clever Care Health Plan",
   "Family First",
   "Heyday Health",
@@ -95,6 +93,11 @@
    "cat1": "养老服务"
   },
   {
+   "name": "Vytalize Health",
+   "l2": "专业级护理",
+   "cat1": "养老服务"
+  },
+  {
    "name": "Google",
    "l2": "行业媒体",
    "cat1": "行业服务"
@@ -106,6 +109,11 @@
   },
   {
    "name": "Apree",
+   "l2": "行业媒体",
+   "cat1": "行业服务"
+  },
+  {
+   "name": "Author Health",
    "l2": "行业媒体",
    "cat1": "行业服务"
   },
@@ -168,11 +176,6 @@
    "name": "Altek Corporation",
    "l2": "AI视觉照护",
    "cat1": "智能硬件/辅具"
-  },
-  {
-   "name": "BrainCheck",
-   "l2": "病情早筛",
-   "cat1": "失智老人赛道"
   },
   {
    "name": "Sonida Senior Living",

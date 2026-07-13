@@ -1,0 +1,26 @@
+{
+  "remove": {
+    "Pyx Health": ["文娱"],
+    "Gyenno": ["健身"],
+    "Dimer Health": ["教育"],
+    "老年人才网": ["教育"],
+    "RapidClaims": ["兴趣社群"],
+    "Tennr": ["资讯平台"],
+    "Hometouch": ["居家护理SaaS"],
+    "点可": ["护理AI助手"],
+    "苗米": ["护理AI助手"],
+    "百善九号": ["护理AI助手", "居家护理SaaS"]
+  },
+  "add": {
+    "Pyx Health": ["专业护理"],
+    "Gyenno": ["康复器械"],
+    "Dimer Health": ["医疗信息化"],
+    "老年人才网": ["就业"],
+    "RapidClaims": ["医疗信息化"],
+    "Hometouch": ["居家照护"],
+    "点可": ["紧急呼叫"],
+    "苗米": ["紧急呼叫"],
+    "百善九号": ["养老运营系统"]
+  },
+  "remove_enterprise": ["网飞 Netflix"]
+}

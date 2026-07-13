@@ -1,0 +1,34 @@
+{
+  "remove": {
+    "家有购物": ["电商"],
+    "快团团": ["电商"],
+    "环球捕手": ["电商"],
+    "聚鲨环球": ["电商"],
+    "芬香电商": ["电商"],
+    "趣得多": ["电商"],
+    "Wayfair": ["电商服务"],
+    "Cohere Health": ["保险科技"],
+    "DigitalOwl": ["保险科技"],
+    "Nirvana": ["保险科技"],
+    "国民养老保险": ["保险科技"],
+    "Cake": ["金融理财"],
+    "LifeAfterMe": ["金融理财"],
+    "Vynca": ["金融理财"],
+    "Pivotal Ventures": ["金融理财"],
+    "Empathy": ["遗产规划"],
+    "Artifcts": ["遗产规划"]
+  },
+  "add": {
+    "Cohere Health": ["陪伴社交"],
+    "DigitalOwl": ["陪伴社交"],
+    "Nirvana": ["陪伴社交"],
+    "国民养老保险": ["保险"],
+    "Cake": ["遗产规划"],
+    "LifeAfterMe": ["遗产规划"],
+    "Vynca": ["就医导航"],
+    "Pivotal Ventures": ["养老科技VC"],
+    "Empathy": ["安宁疗护"],
+    "Artifcts": ["陪伴社交"]
+  },
+  "remove_enterprise": []
+}
