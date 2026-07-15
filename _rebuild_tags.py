@@ -2295,7 +2295,9 @@ print('=== v12 清理: 迭代二次剥大标签/伞词 稳定于第', _iter, '�
 # ---- 7) v12 校验修正(独立教研校验后的手术式修正) ----
 # 来源: output/_v12_fix_N.json, 结构 {"remove":{名:[标签]}, "add":{名:[标签]}, "remove_enterprise":[名]}
 # 仅做精准删错标/加正标/删超标条目, 不触碰其他收敛逻辑。
-V12_FIX_FILES = ['_v12_fix_1.json','_v12_fix_2.json','_v12_fix_3.json','_v12_fix_4.json','_v12_fix_5.json','_v12_fix_6.json','_v12_fix_7.json','_v12_fix_8.json']
+V12_FIX_FILES = ['_v12_fix_1.json','_v12_fix_2.json','_v12_fix_3.json','_v12_fix_4.json',
+                  '_v12_fix_5.json','_v12_fix_6.json','_v12_fix_7.json','_v12_fix_8.json',
+                  '_v12_fix_9.json']
 _fix_remove = {}; _fix_add = {}; _fix_drop = []
 _fix_names_all = set()
 for _ff in V12_FIX_FILES:
@@ -2446,8 +2448,10 @@ for e in data:
 # 3.5d) 交叉属性标签(横向维度): 给来源标签成员追加属性标签
 V12_CROSSTAG = {
     'AI': {'AI医疗', 'AI行为跌倒监测', '人形机器人'},
-    'SaaS': {'养老运营系统', '养老信息化', '医疗信息化'},
+    'SaaS': {'养老运营系统', '养老信息化', '医疗信息化', '数字慢病管理'},
     '跌倒监测': {'可穿戴跌倒监测', '非穿戴跌倒监测', 'AI行为跌倒监测'},
+    # v12.2: 机器人作为交叉属性(在3.6d中单独处理拆分,这里补充残留)
+    '机器人': {'服务机器人'},
 }
 _ct_apply = defaultdict(set)
 for _ct, _src in V12_CROSSTAG.items():
@@ -2472,7 +2476,192 @@ for e in data:
         _rename_cnt += 1
 print('=== v12.1 改名/拆分/交叉: 重算 tag_l1', _rename_cnt, '家 ===')
 
-# ---- 构建权威同类词表(已下移至此: 在 3.5 改名/拆分/交叉之后写盘前重算, 以纳入改名/新建标签) ----
+# ============================================================
+# 3.6) v12.2 全面标签优化 (2026-07-15 小爽反馈第二轮)
+# ============================================================
+
+# --- 3.6a) 纯改名(旧→新, 全量替换) ---
+V12_2_RENAME = {
+    # 投资类: 去前缀/缩短
+    '老年服务VC': 'VC',
+    '养老科技VC': 'VC',
+    '影响力与并购投资': '并购投资',
+    '银发产业基金': '产业基金',
+    '养老地产REIT': '养老REIT',
+    '医疗健康投资': 'VC',          # 医疗健康投资=VC的一种,不单独成标签
+    # 养老运营: 去掉"连锁"
+    '连锁养老运营': '养老运营',
+    # 认知症: 去掉"照护"(很多非照护)
+    '认知症照护': '认知症',
+}
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if l2:
+        nl = list(dict.fromkeys(V12_2_RENAME.get(t, t) for t in l2))
+        if nl != l2:
+            e['tag_l2'] = nl
+
+# --- 3.6b) 冗余/伞词/泛词 删除 (成员已在其他标签覆盖 或 需fix_9重分配) ---
+V12_2_DELETE = {
+    '健康监测',        # 太泛, 15家逐家分具体标签(fix_9)
+    '养老运营系统',     # 全部已有SaaS, 冗余
+    '养老信息化',       # 全部已有SaaS, 冗余
+    '医疗信息化',       # 全部已有SaaS, 冗余
+    '智慧养老',         # 伞词, 4家逐家分(fix_9)
+    '居家医疗平台',     # 与居家医疗重复
+    '可穿戴跌倒监测',   # 已由跌倒监测CROSSTAG覆盖
+    '非穿戴跌倒监测',   # 同上
+    'AI行为跌倒监测',   # 同上
+    '护理转介平台',     # → 并入护理协调(同类词)
+    '养老信息服务',     # → fix_9重分配(大部分→行业媒体)
+    '医疗',             # 太泛, 6家逐家分(fix_9)
+    '口腔医疗',         # 【动你标注】4家全错标!描述=辅具→fix_9改为康复器械
+    '医养结合机构',     # → 拆为养老运营/机构+远程医疗(fix_9)
+    '保险养老社区',     # → 拆为保险+养老运营/持续照料社区(fix_9)
+    '蛋白营养粉',       # → 并入保健品/膳食补充剂(fix_9)
+}
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if l2:
+        nl = [t for t in l2 if t not in V12_2_DELETE]
+        if nl != l2:
+            e['tag_l2'] = nl
+
+# --- 3.6c) 小标签合并 (<5或近义词合并) ---
+V12_2_MERGE = {
+    '中药': '中药滋补',              # 3+3=6
+    '高血压管理': '慢病管理',        # 3→慢病管理
+    '肾脏病管理': '慢病管理',        # 3→慢病管理
+    '专科慢病管理': '慢病管理',      # 4→慢病管理
+    '数字慢病管理': '慢病管理',      # 7→慢病管理 (同时这些企业追加SaaS)
+    '抗衰长寿补剂': '抗衰老药物',    # 3→8=11
+    '养老产业服务': '养老咨询',       # 3→9=12
+    '健康评估': '健康管理',           # 3→6=9
+    '适老家具': '改造',               # 3→改造(适老家具是改造的产品形态)
+    '认知症': '认知症',               # 保持; 上文已将认知症照护改名认知症,这里确保旧认知症不丢
+    '可穿戴设备': '智能硬件',         # 4→16=20
+}
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if not l2:
+        continue
+    nl = []
+    merged = set()
+    for t in l2:
+        if t in V12_2_MERGE and V12_2_MERGE[t] != t:
+            merged.add(V12_2_MERGE[t])
+        else:
+            nl.append(t)
+    for m in merged:
+        if m not in nl:
+            nl.append(m)
+    nl2 = list(dict.fromkeys(nl))
+    if nl2 != l2:
+        e['tag_l2'] = nl2
+
+# 数字慢病管理的企业额外追加SaaS (它们都是SaaS型慢病管理)
+for e in data:
+    if '慢病管理' in e.get('tag_l2', []):
+        desc = (e.get('desc_cn') or e.get('description') or '').lower()
+        if any(w in desc for w in ['数字','digital','saas','平台','软件','system','ai健康','数据']):
+            l2 = e.setdefault('tag_l2', [])
+            if 'SaaS' not in l2:
+                l2.append('SaaS')
+                e['tag_l2'] = sorted(l2)[:3]
+
+# --- 3.6d) 机器人系列: "X机器人" 拆为 "X业务 + 机器人"交叉属性 ---
+V12_2_ROBOT_SPLIT = {
+    '训练机器人': ['康复器械'],      # 康复训练机器人 → 康复器械+机器人
+    '护理机器人': ['居家护理'],       # 护理机器人 → 居家护理+机器人
+    '陪伴机器人': ['陪伴社交'],       # 陪伴机器人 → 陪伴社交+机器人
+    '服务机器人': [],                 # 服务机器人 → 只留机器人(各家企业有其他领域标签)
+    # 人形机器人保留为独立标签(产品形态区分度高), 不拆
+}
+_robot_add = defaultdict(set)
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if not l2:
+        continue
+    hit = [t for t in l2 if t in V12_2_ROBOT_SPLIT]
+    if not hit:
+        continue
+    rest = [t for t in l2 if t not in V12_2_ROBOT_SPLIT]
+    for t in hit:
+        for domain in V12_2_ROBOT_SPLIT[t]:
+            if domain and domain not in rest:
+                rest.append(domain)
+        _robot_add[e.get('name_cn') or e.get('name')].add('机器人')
+    e['tag_l2'] = sorted(list(dict.fromkeys(rest)))[:3]
+for e in data:
+    nm = e.get('name_cn') or e.get('name')
+    if nm in _robot_add:
+        l2 = e.setdefault('tag_l2', [])
+        if '机器人' not in l2:
+            l2.append('机器人')
+            e['tag_l2'] = sorted(l2)[:3]
+
+# --- 3.6e) 新标签注册(L2_TO_L1 + 同义词) ---
+V12_2_NEWREG = {
+    'VC': ('产业资本', ['创业投资','风险投资','创投基金','Venture Capital',
+                         '老年服务VC','养老科技VC','医疗健康投资']),
+    '产业基金': ('产业资本', ['银发产业基金','产业投资基金','私募股权基金']),
+    '养老REIT': ('产业资本', ['养老地产REIT','医疗REIT','医疗地产信托',
+                               ' healthcare REIT',' senior housing REIT']),
+    '并购投资': ('产业资本', ['影响力投资','并购基金','PE投资','影响力与并购投资']),
+    '养老运营': ('养老服务', ['连锁养老','养老连锁','养老机构运营','养老运营商',
+                              '连锁养老运营','养老院运营']),
+    '认知症': ('医疗健康', ['认知障碍','痴呆照护','失智照护','阿尔茨海默照护',
+                             '记忆护理','认知症照护','memory care']),
+    '机器人': ('智能科技', ['服务机器人','陪伴机器人','护理机器人','训练机器人',
+                            '人形机器人','老年机器人',' companion robot']),
+    '慢病管理': ('医疗健康', ['慢性病管理','慢病数字化','高血压管理','肾脏病管理',
+                               '专科慢病管理','糖尿病管理','数字慢病管理']),
+    '中药滋补': ('食品营养', ['中药滋补品','滋补中药','中草药保健']),
+    '健康管理': ('医疗健康', ['健康评估','体检管理','健康追踪']),
+}
+for _n, (_l1, _syns) in V12_2_NEWREG.items():
+    L2_TO_L1[_n] = _l1
+    SYNONYMS.setdefault(_n, [])
+    for _w in ([_n] + _syns):
+        if _w not in SYNONYMS[_n]:
+            SYNONYMS[_n].append(_w)
+
+# 同步追加: 护理转介平台的同类词并入护理协调
+for _w in ['护理转介','照护转介','转诊平台']:
+    if _w not in SYNONYMS.get('护理协调', []):
+        SYNONYMS.setdefault('护理协调', []).append(_w)
+
+# --- 3.6f) v12.2 后重算 tag_l1 ---
+_v122_cnt = 0
+for e in data:
+    nl1 = sorted({canon_l1(x) for x in e.get('tag_l2', [])})
+    if nl1 != e.get('tag_l1'):
+        e['tag_l1'] = nl1
+        _v122_cnt += 1
+print('=== v12.2 全面优化: 改名/删/并/拆/新注册/重算 tag_l1', _v122_cnt, '家 ===')
+
+# 3.6g) 3.6后二次伞词剥离: 3.5/3.6改名可能引入新的伞词残留(如fix_9加了"医疗"/"护理平台"
+#      等已被删除的旧标签名, 但企业可能还携带其他伞词)。重算STRIP_SET再剥一轮。
+_l2c_post36 = Counter()
+for e in data:
+    for x in e.get('tag_l2', []): _l2c_post36[x] += 1
+BIG_POST36 = {t for t,c in _l2c_post36.items() if c >= 20}
+STRIP_POST36 = (V12_UMBRELLA | BIG_POST36) - V12_STRIP_EXEMPT
+_su2 = 0
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if not l2: continue
+    has_spec = [x for x in l2 if x not in STRIP_POST36]
+    if has_spec:
+        new = [x for x in l2 if x not in STRIP_POST36]
+        if new != l2:
+            e['tag_l2'] = sorted(new)
+            e['tag_l1'] = sorted({canon_l1(x) for x in new})
+            _su2 += 1
+if _su2:
+    print('=== v12.2 后处理: 二次伞词剥离', _su2, '家 ===')
+
+# ---- 构建权威同类词表(已下移至此: 在 3.5+3.6 改名/拆分/交叉之后写盘前重算, 以纳入改名/新建标签) ----
 # 规则: 同类词不得与一级/二级分类名重名(必查四条之三)
 _FORBID_SYN = set(L1_LIST) | {'行业服务'}   # 一级名 + 旧一级名(已改名产业服务)
 fin_syn={}
