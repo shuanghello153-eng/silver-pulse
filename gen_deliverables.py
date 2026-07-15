@@ -39,7 +39,7 @@ for l2 in l2c:
     l1_groups[l2_to_l1.get(l2, '?')].append(l2)
 
 # ---- 从 _v12_fix_*.json 实时统计改动 ----
-fix_files = ['_v12_fix_%d.json' % i for i in range(1, 8)]
+fix_files = ['output/_v12_fix_%d.json' % i for i in range(1, 10)]
 changes = []          # (name, removed_list, added_list)
 removed_set, added_set = Counter(), Counter()
 dropped = []
@@ -88,38 +88,24 @@ for l1 in L1_ORDER:
         syn_txt = '、'.join(syns) if syns else '（仅自身）'
         A('- **%s**（%d 家）  ｜ 同类词：%s' % (l2, l2c[l2], syn_txt))
     A('')
-A('## 三、v12 循环改动对照（实时统计自 `_v12_fix_1..7.json`）')
+A('## 三、全量企业标签清单（从 SSoT JSON 实时读取，供逐条核对）')
 A('')
-A('- 本次共修正企业（去重）：**%d** 家' % uniq_changed)
+A('> ⚠️ 本表为 **最终标签状态**，不是改动历史。每行 = 一家企业的当前一级+二级标签。')
+A('')
+A('| 企业 | 一级标签 | 二级标签 |')
+A('| --- | --- | --- |')
+for e in sorted(d, key=lambda x: (x.get('name_cn') or x.get('name'))):
+    nm = e.get('name_cn') or e.get('name')
+    l1s = '、'.join(e.get('tag_l1', [])) or '—'
+    l2s = '、'.join(e.get('tag_l2', [])) or '—'
+    A('| %s | %s | %s |' % (nm, l1s, l2s))
+A('')
+A('## 四、v12 改动统计（自 `_v12_fix_1..9.json`，仅供参考）')
+A('')
+A('- 修正企业（去重）：**%d** 家' % uniq_changed)
 A('- 移除错标：%d 项 ｜ 新增正标：%d 项 ｜ 删除超标企业：%d 家（%s）' % (
     sum(removed_set.values()), sum(added_set.values()),
     len(dropped), '、'.join(dropped) if dropped else '无'))
-A('')
-A('### 3.1 逐家企业改动明细')
-A('')
-A('| 企业 | 移除标签 | 新增标签 |')
-A('| --- | --- | --- |')
-for nm, rem, add in sorted(changes, key=lambda x: x[0]):
-    A('| %s | %s | %s |' % (nm, '、'.join(rem) if rem else '—', '、'.join(add) if add else '—'))
-A('')
-A('## 四、各二级标签企业数分布（TOP 30）')
-A('')
-for k, v in l2c.most_common(30):
-    A('- %s：**%d** 家' % (k, v))
-A('')
-A('## 五、校验证据')
-A('')
-A('### 5.1 validate_tags.py 9/9')
-A('')
-A('```')
-A(val_out.rstrip())
-A('```')
-A('')
-A('### 5.2 _v12_detect.py 收敛判定')
-A('')
-A('```')
-A(det_out.rstrip())
-A('```')
 A('')
 
 md_path = 'output/标签体系_全映射_%s_%s.md' % (DATE, VER)
