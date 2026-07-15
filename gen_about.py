@@ -112,13 +112,19 @@ def generate():
         )
     source_table = "\n".join(source_rows)
 
-    # Build 13-category list with L2
+    # Build category list with L2
     cat_rows = []
     for cat_key, cat_info in ENTERPRISE_CATEGORIES.items():
-        l2_list = cat_info.get("l2", [])
+        # 兼容两种格式：新格式=列表，旧格式={label,l2}
+        if isinstance(cat_info, list):
+            l2_list = cat_info
+            label = cat_key
+        else:
+            l2_list = cat_info.get("l2", [])
+            label = cat_info.get("label", cat_key)
         l2_html = " ".join(f'<span class="l2-chip">{l2}</span>' for l2 in l2_list)
         cat_rows.append(
-            f"<tr><td class='cat-name'>{cat_info['label']}</td><td>{len(l2_list)}</td><td>{l2_html}</td></tr>"
+            f"<tr><td class='cat-name'>{label}</td><td>{len(l2_list)}</td><td>{l2_html}</td></tr>"
         )
     cat_table = "\n".join(cat_rows)
 
@@ -579,7 +585,7 @@ __SIDEBAR__
   </div>
 
   <div class="section">
-    <h3>13 分类体系（{len(ENTERPRISE_CATEGORIES)} 个一级 + {sum(len(c.get("l2",[])) for c in ENTERPRISE_CATEGORIES.values())} 个二级）</h3>
+    <h3>分类体系（{len(ENTERPRISE_CATEGORIES)} 个一级 + {sum(len(c) if isinstance(c, list) else len(c.get("l2",[])) for c in ENTERPRISE_CATEGORIES.values())} 个二级）</h3>
     <p>企业库采用 13 个一级分类，每个分类下设若干二级子类。企业按原始分类自动映射到对应类别。展示时<b>不显示编码</b>，直接显示分类名称。</p>
     <table class="info-table">
       <thead>
