@@ -2106,6 +2106,12 @@ SYNONYMS.setdefault('养老信息化', [])
 for _w in ['养老数字化','社区养老平台']:
     if _w not in SYNONYMS['养老信息化']:
         SYNONYMS['养老信息化'].append(_w)
+# v12.1 校验修正补充: 养老信息/媒体平台独立成标签(小爽: Lottie/Caring.com 等属养老信息平台)
+L2_TO_L1['养老信息平台'] = '产业资本'
+SYNONYMS.setdefault('养老信息平台', [])
+for _w in ['养老信息门户','养老平台','养老目录']:
+    if _w not in SYNONYMS['养老信息平台']:
+        SYNONYMS['养老信息平台'].append(_w)
 
 # ---- 4) BIGTAGS_32: 本轮要溶解的大标签(固定32 + 动态所有>=20的标签) ----
 _BIG = _v12_load('_v12_bigtags.json')
@@ -2158,7 +2164,7 @@ print('=== v12 聚类合并: 重指派企业', _v12r, '家 | 新标签', len(V12
 # 6a) 一级名被误当二级 / 日用错标 -> 逐企业重指派到具体二级
 V12_REASSIGN_OVERRIDE = {
   # 消费品(17) -> 具体二级
-  '多呵':'行业媒体','昱芝夕':'行业媒体','享佳健康':'行业媒体','康林仁和':'行业媒体','益生康健':'行业媒体','粤嘉康':'行业媒体',
+  '多呵':'行业媒体','昱芝夕':'美妆护肤','享佳健康':'行业媒体','康林仁和':'行业媒体','益生康健':'行业媒体','粤嘉康':'行业媒体',
   '染博士':'美妆护肤','章华':'美妆护肤','韩愢':'美妆护肤','韩金靓':'美妆护肤','卡唯朵':'美妆护肤','不老谜语':'美妆护肤',
   '韩束':'美妆护肤','珀莱雅':'美妆护肤','可氏利夫':'美妆护肤','乐霂':'美妆护肤','令羽(肤恩)':'美妆护肤','天空树':'美妆护肤',
   'Stripes Beauty':'美妆护肤',
@@ -2196,22 +2202,20 @@ V12_GHOST_DISSOLVE = {
   '临终关怀':'养老机构',
   '数字平台':'AI医疗',
   '投资机构':'银发产业基金',
-  '助听器':'听力设备',
   # RD3 后剩 <3 成员的旧大标签, 将其余成员归并到合适的具体标签
   '养老社区':'养老机构',
   'AI':'智慧养老',
   '养老运营SaaS':'养老运营系统',
   # 迭代剥离后剩 <3 成员的残余大/伞词, 归并到具体兄弟标签
-  '适老家居':'适老家居产品',
-  '适老化改造':'无障碍改造',
-  '居家护理':'居家医疗护理',
-  '康复设备':'康复辅助器具',
+  '适老家居':'适老化',
+  '适老化改造':'适老化',
+  '康复设备':'康复器械',
   '平台':'医疗器械',
   # 校验修正后掉到 <3 成员的旧标签, 归并到兄弟具体标签
   'OTC药品':'药品',
-  '假肢':'康复辅助器具',
+  '假肢':'康复器械',
   '养老产业投资':'银发产业基金',
-  '护理AI助手':'居家护理SaaS',
+  '护理AI助手':'居家护理',
   '资讯平台':'资讯门户',
   '假发':'美妆护肤',
   '咨询研究':'养老咨询',
@@ -2237,14 +2241,17 @@ print('=== v12 清理: 溶解幽灵标签', _gd, '家 ===')
 
 # 6b) 大标签/伞词收敛剥离(企业已有具体标签时, 剥掉动态>=20大标签与已知伞词)
 #     与 _v12_detect.py 的 UMBRELLA 同源(此处为 SSoT 端实际执行集合)
-V12_UMBRELLA = {'智慧养老','居家护理','养老社区','康复设备','AI','社交','平台',
+V12_UMBRELLA = {'智慧养老','养老社区','康复设备','社交','平台',
                 '营养食品','认知症','医疗器械','慢病管理','保险','养老金融',
                 '护理平台','临终关怀','医疗'}
+# 2026-07-15 修复: 认知训练/认知数字疗法是具体二级标签(非伞词), 不应因成员>=20被动态大标签剥离误伤。
+# 此前 认知训练 因本轮聚类重指派后成员数越过20, 被当作"大标签"溶解, 导致从基线19家掉到1家。
+V12_STRIP_EXEMPT = {'认知训练', '认知数字疗法'}
 _l2c_now = Counter()
 for e in data:
     for x in e.get('tag_l2', []): _l2c_now[x]+=1
 BIG_NOW = {t for t,c in _l2c_now.items() if c >= 20}
-STRIP_SET = V12_UMBRELLA | BIG_NOW
+STRIP_SET = (V12_UMBRELLA | BIG_NOW) - V12_STRIP_EXEMPT
 _su=0
 for e in data:
     l2 = e.get('tag_l2', [])
@@ -2267,7 +2274,7 @@ while True:
     for e in data:
         for x in e.get('tag_l2', []): _l2c2[x]+=1
     BIG2 = {t for t,c in _l2c2.items() if c >= 20}
-    STRIP2 = V12_UMBRELLA | BIG2
+    STRIP2 = (V12_UMBRELLA | BIG2) - V12_STRIP_EXEMPT
     _su2 = 0
     for e in data:
         l2 = e.get('tag_l2', [])
@@ -2288,7 +2295,7 @@ print('=== v12 清理: 迭代二次剥大标签/伞词 稳定于第', _iter, '�
 # ---- 7) v12 校验修正(独立教研校验后的手术式修正) ----
 # 来源: output/_v12_fix_N.json, 结构 {"remove":{名:[标签]}, "add":{名:[标签]}, "remove_enterprise":[名]}
 # 仅做精准删错标/加正标/删超标条目, 不触碰其他收敛逻辑。
-V12_FIX_FILES = ['_v12_fix_1.json','_v12_fix_2.json','_v12_fix_3.json','_v12_fix_4.json','_v12_fix_5.json','_v12_fix_6.json','_v12_fix_7.json']
+V12_FIX_FILES = ['_v12_fix_1.json','_v12_fix_2.json','_v12_fix_3.json','_v12_fix_4.json','_v12_fix_5.json','_v12_fix_6.json','_v12_fix_7.json','_v12_fix_8.json']
 _fix_remove = {}; _fix_add = {}; _fix_drop = []
 _fix_names_all = set()
 for _ff in V12_FIX_FILES:
@@ -2367,7 +2374,105 @@ print('=== 远程监测残留:', sum(1 for e in data if '远程监测' in e.get(
 print('=== 产业服务企业:', sum(1 for e in data if '产业服务' in e.get('tag_l1',[])))
 print('=== 数据总数:',len(data),'(应=%d)'%N0)
 
-# ---- 构建权威同类词表(覆盖全部最终二级标签, 用于前端搜索扩展) ----
+# ---- 构建权威同类词表(已下移: 见 3.5 块之后, 写盘前重算, 以纳入改名/新建标签) ----
+
+# ---- 3.5) v12.1 标签改名/拆分/交叉属性标签(所有 v12 处理之后, 写盘之前) ----
+# 放在最后: 避免 v12 聚类/清理/校验块的字典(使用旧名)在中途把旧标签名重新写回。
+# 3.5a) 纯改名(旧名->新名), 全量替换(小爽拍板)
+V12_RENAME = {
+    '居家照护': '居家护理',
+    '居家医疗护理': '居家医疗',
+    '听力设备': '助听器',
+    '听力验配': '助听器',
+    '康复辅助器具': '康复器械',
+    '助行辅具': '助行器',
+    '无障碍改造': '适老化',
+}
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if l2:
+        nl = list(dict.fromkeys(V12_RENAME.get(t, t) for t in l2))
+        if nl != l2:
+            e['tag_l2'] = nl
+
+# 3.5b) 新标签/改名标签注册到 L2_TO_L1 + 同义词(校验#1/#4需要)
+V12_NEWREG = {
+    '居家护理': ('养老服务', ['上门护理', '居家照护']),
+    '居家医疗': ('医疗健康', ['居家医疗护理', '上门医疗']),
+    '助听器': ('康复辅具', ['听力设备', '听力验配', '助听设备']),
+    '改造': ('养老服务', ['适老化改造', '居家改造', '环境改造']),
+    '护理协调': ('养老服务', ['护理协调SaaS', '护理调度']),
+    '跌倒监测': ('智能科技', ['跌倒检测', '防跌监测']),
+    'SaaS': ('智能科技', ['软件即服务', '养老系统SaaS']),
+    'AI': ('智能科技', ['人工智能', '智能算法']),
+}
+for _n, (_l1, _syns) in V12_NEWREG.items():
+    L2_TO_L1[_n] = _l1
+    SYNONYMS.setdefault(_n, [])
+    for _w in ([_n] + _syns):
+        if _w not in SYNONYMS[_n]:
+            SYNONYMS[_n].append(_w)
+for _n, _syns in [('康复器械', ['康复辅助器具', '辅助器具', '适老辅具']),
+                  ('助行器', ['助行辅具', '助行器具']),
+                  ('适老化', ['适老化改造', '无障碍适老'])]:
+    if _n in L2_TO_L1:
+        for _w in _syns:
+            if _w not in SYNONYMS.get(_n, []):
+                SYNONYMS.setdefault(_n, []).append(_w)
+
+# 3.5c) 标签拆分(旧标签成员 -> 多标签组合)
+V12_SPLIT = {
+    '居家护理SaaS': ['居家护理', 'SaaS'],
+    '护理协调SaaS': ['护理协调', 'SaaS'],
+    '养老运营SaaS': ['养老运营系统', 'SaaS'],
+    '适老家居产品': ['适老化', '改造'],
+}
+for e in data:
+    l2 = e.get('tag_l2', [])
+    if not l2:
+        continue
+    hit = [t for t in l2 if t in V12_SPLIT]
+    if not hit:
+        continue
+    rest = [t for t in l2 if t not in V12_SPLIT]
+    add = []
+    for t in hit:
+        for nt in V12_SPLIT[t]:
+            if nt not in add and nt not in rest:
+                add.append(nt)
+    nl = list(dict.fromkeys(rest + add))
+    e['tag_l2'] = nl[:3]
+
+# 3.5d) 交叉属性标签(横向维度): 给来源标签成员追加属性标签
+V12_CROSSTAG = {
+    'AI': {'AI医疗', 'AI行为跌倒监测', '人形机器人'},
+    'SaaS': {'养老运营系统', '养老信息化', '医疗信息化'},
+    '跌倒监测': {'可穿戴跌倒监测', '非穿戴跌倒监测', 'AI行为跌倒监测'},
+}
+_ct_apply = defaultdict(set)
+for _ct, _src in V12_CROSSTAG.items():
+    for e in data:
+        if set(e.get('tag_l2', [])) & _src:
+            _ct_apply[e.get('name_cn') or e.get('name')].add(_ct)
+for e in data:
+    nm = e.get('name_cn') or e.get('name')
+    if nm in _ct_apply:
+        l2 = e.setdefault('tag_l2', [])
+        for _ct in _ct_apply[nm]:
+            if _ct not in l2:
+                l2.append(_ct)
+        e['tag_l2'] = sorted(l2)[:3]
+
+# 3.5e) 改名/拆分/交叉后重算 tag_l1(必须与 tag_l2 同步)
+_rename_cnt = 0
+for e in data:
+    nl1 = sorted({canon_l1(x) for x in e.get('tag_l2', [])})
+    if nl1 != e.get('tag_l1'):
+        e['tag_l1'] = nl1
+        _rename_cnt += 1
+print('=== v12.1 改名/拆分/交叉: 重算 tag_l1', _rename_cnt, '家 ===')
+
+# ---- 构建权威同类词表(已下移至此: 在 3.5 改名/拆分/交叉之后写盘前重算, 以纳入改名/新建标签) ----
 # 规则: 同类词不得与一级/二级分类名重名(必查四条之三)
 _FORBID_SYN = set(L1_LIST) | {'行业服务'}   # 一级名 + 旧一级名(已改名产业服务)
 fin_syn={}
@@ -2405,6 +2510,7 @@ for w,cs in _word_canon.items():
         for c in cs:
             if c!=w: fin_syn[c].discard(w)
 tag_synonyms={k:sorted(v) for k,v in fin_syn.items() if v}
+
 # ---- 优化轮: 真相源权威回写 ----
 # tag_synonyms.json 完全由脚本重算(fin_syn)决定, 不再 merge 历史文件,
 # 避免历史孤儿 canon 无限累积导致词条数膨胀(违背 64/743 红线的根因)。

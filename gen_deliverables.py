@@ -7,8 +7,8 @@ from collections import Counter, defaultdict
 DATA = 'data/enterprise/all_enterprises.json'
 SYN  = 'data/enterprise/tag_synonyms.json'
 L2L1 = 'data/enterprise/_l2_l1.json'
-DATE = '2026-07-13'
-VER  = 'v12'
+DATE = '2026-07-15'
+VER  = 'v12.1'
 
 d    = json.load(open(DATA, encoding='utf-8'))
 syn  = json.load(open(SYN,  encoding='utf-8'))

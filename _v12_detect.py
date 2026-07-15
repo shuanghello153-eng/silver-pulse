@@ -38,9 +38,14 @@ for e in es:
         all_final.add(x)
 
 # 伞词集合(与重建脚本 V12_UMBRELLA 同源; 适老化改造/保健品已转为原子标签故移除, 投资机构已溶散)
-UMBRELLA = {'智慧养老','居家护理','养老社区','康复设备','AI','社交','平台',
+UMBRELLA = {'智慧养老','养老社区','康复设备','社交','平台',
             '营养食品','认知症','医疗器械','慢病管理','保险','养老金融',
             '护理平台','临终关怀','医疗'}
+
+# v12.1 起: 以下"规范大类"经用户明确拍板做大(合并/改名/横向属性), 与智慧养老同样冻结,
+# 不触发 >=阈值 的"需继续拆分"闸门。
+ALLOWED_LARGE = {'适老化','居家护理','助听器','康复器械','助行器','跌倒监测','SaaS','AI',
+                 '养老运营系统','改造','护理协调','养老信息平台','认知训练','认知数字疗法'}
 
 # 弱简介判定(与补全标准一致)
 GENERIC = ['银发经济领域','行业服务商','专注于','致力于','提供','解决方案','服务商','平台','领域的','一家']
@@ -63,11 +68,13 @@ l2c = Counter()
 for e in es:
     for x in (e.get('tag_l2') or []):
         l2c[x] += 1
-over = {k: v for k, v in l2c.items() if v >= THRESHOLD}
+over = {k: v for k, v in l2c.items() if v >= THRESHOLD and k not in ALLOWED_LARGE}
+frozen_large = {k: v for k, v in l2c.items() if v >= THRESHOLD and k in ALLOWED_LARGE}
 print('\n[1] 二级标签总数: %d | 企业记录: %d | 去重企业: %d' % (len(l2c), len(es), len({e.get('name_cn') or e.get('name') for e in es})))
 print('    仍 >=%d 的标签(需继续拆分): %d 个, 覆盖 %d 家企业' % (THRESHOLD, len(over), sum(over.values())))
 for k in sorted(over, key=lambda x: -over[x]):
     print('      ! %-10s %3d' % (k, over[k]))
+print('    冻结规范大类(>=%d 但已拍板保留): %s' % (THRESHOLD, ', '.join('%s(%d)' % (k, v) for k, v in sorted(frozen_large.items(), key=lambda x: -x[1])) or '无'))
 
 # ---------- [2] 弱简介残留 ----------
 wc = Counter()
