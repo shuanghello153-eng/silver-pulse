@@ -1157,6 +1157,161 @@ SOURCES = {
         "notes": "助听器实验室声学测评+年度榜单;助听细分产品发现器",
         "kind": "ranking",
     },
+    # ===== W1 北美 × 医疗健康+养老服务 候选源（2026-07-16 入库，研究员判断档位）=====
+    "seniorcare_investor": {
+        "name": "Irving Levin Associates – The SeniorCare Investor",
+        "l1_domain": "levinassociates.com",
+        "l2_channels": [
+            ("seniorcare", "https://seniorcare.levinassociates.com/", "manual"),
+        ],
+        "tier": 1,  # 北美养老/护理 M&A 最权威一手交易情报源
+        "region": "overseas",
+        "notes": "追踪自1993年 35,000+ 笔长期护理 M&A；直接产出收购并购事件+估值/交易量数据（T1 一手交易源）",
+        "kind": "transaction",
+    },
+    "braff_group": {
+        "name": "The Braff Group",
+        "l1_domain": "thebraffgroup.com",
+        "l2_channels": [
+            ("transaction", "https://thebraffgroup.com/transaction/", "manual"),
+        ],
+        "tier": 1,  # 居家护理/临终关怀 M&A 一手源
+        "region": "overseas",
+        "notes": "专注 home health/care/hospice M&A，已完成近 400 笔；强收购信号（T1 一手交易源）",
+        "kind": "transaction",
+    },
+    "skilled_nursing_news": {
+        "name": "Skilled Nursing News – Finance",
+        "l1_domain": "skillednursingnews.com",
+        "l2_channels": [
+            ("finance", "https://skillednursingnews.com/category/finance/", "manual"),
+        ],
+        "tier": 1,  # SNF 并购/融资高频频道
+        "region": "overseas",
+        "notes": "日更 SNF 垂直媒体，含 Dealbook 专栏；补齐库内缺失的专业护理院并购/融资频道（T1）",
+        "kind": "media",
+    },
+    "behavioral_health_business": {
+        "name": "Behavioral Health Business – M&A",
+        "l1_domain": "bhbusiness.com",
+        "l2_channels": [
+            ("ma", "https://bhbusiness.com/category/finance/ma/", "manual"),
+        ],
+        "tier": 1,  # 行为健康并购事件源
+        "region": "overseas",
+        "notes": "行为健康 exec 媒体，M&A 专栏周更（含 ABA/心理/物质使用治疗并购），库内该细分空白（T1）",
+        "kind": "media",
+    },
+    "rock_health": {
+        "name": "Rock Health – Insights",
+        "l1_domain": "rockhealth.com",
+        "l2_channels": [
+            ("insights", "https://rockhealth.com/insights/", "manual"),
+        ],
+        "tier": 1,  # 数字健康融资第一手研究
+        "region": "overseas",
+        "notes": "数字健康融资权威；半年度 funding overview，AI/远程/临床 workflow 细分（T1 一手研究源）",
+        "kind": "research",
+    },
+    "medcity_news": {
+        "name": "MedCity News – Health Tech",
+        "l1_domain": "medcitynews.com",
+        "l2_channels": [
+            ("health_tech", "https://medcitynews.com/category/health-tech/", "manual"),
+        ],
+        "tier": 2,  # 数字健康初创融资/并购快讯
+        "region": "overseas",
+        "notes": "健康科技创新媒体，Health Tech 频道日更（初创/融资/并购），与 age-tech 交叉（T2）",
+        "kind": "media",
+    },
+    "healthcare_it_news": {
+        "name": "Healthcare IT News – News",
+        "l1_domain": "healthcareitnews.com",
+        "l2_channels": [
+            ("news", "https://www.healthcareitnews.com/news", "manual"),
+        ],
+        "tier": 2,  # 老年护理科技政策与产品
+        "region": "overseas",
+        "notes": "医疗 IT 媒体（EHR/互操作/远程/AI），日更；老年护理科技政策与产品动态（T2）",
+        "kind": "media",
+    },
+    "massdevice": {
+        "name": "MassDevice – Mergers & Acquisitions",
+        "l1_domain": "massdevice.com",
+        "l2_channels": [
+            ("ma", "https://www.massdevice.com/category/business_financial_news/mergers_acquisitions/", "manual"),
+        ],
+        "tier": 1,  # 康复辅具/听力/器械并购源
+        "region": "overseas",
+        "notes": "医疗器械商业媒体，M&A 归档 300+ 页；康复辅具/听力/器械并购事件源（T1）",
+        "kind": "media",
+    },
+    "medtech_dive": {
+        "name": "MedTech Dive – Digital Health",
+        "l1_domain": "medtechdive.com",
+        "l2_channels": [
+            ("digital_health", "https://www.medtechdive.com/topic/digital-health/", "manual"),
+        ],
+        "tier": 2,  # 数字健康融资/并购
+        "region": "overseas",
+        "notes": "Industry Dive 旗下，Digital Health 频道日更，覆盖融资与 M&A（可穿戴、CMS 支付、IPO）（T2）",
+        "kind": "media",
+    },
+    "hearing_review": {
+        "name": "The Hearing Review – Industry News",
+        "l1_domain": "hearingreview.com",
+        "l2_channels": [
+            ("industry_news", "https://www.hearingreview.com/inside-hearing/industry-news/", "manual"),
+        ],
+        "tier": 2,  # 助听器/听力细分
+        "region": "overseas",
+        "notes": "听力行业贸易杂志，行业新闻档案含 M&A/销售数据；助听器/听力细分并购与产品动态（T2）",
+        "kind": "media",
+    },
+    "dtx_alliance": {
+        "name": "Digital Therapeutics Alliance – Public Newsletter",
+        "l1_domain": "dtxalliance.org",
+        "l2_channels": [
+            ("newsletter", "https://dtxalliance.org/category/public-newsletter", "manual"),
+        ],
+        "tier": 2,  # 数字疗法一手协会
+        "region": "overseas",
+        "notes": "全球数字疗法非营利贸易协会，成员 17 国；支付方/CMS 编码/认证，反查头部生态（T2 协会）",
+        "kind": "association",
+    },
+    "nahc": {
+        "name": "National Alliance for Care at Home (NAHC) – Newsroom",
+        "l1_domain": "nahc.org",
+        "l2_channels": [
+            ("newsroom", "https://nahc.org/newsroom", "manual"),
+        ],
+        "tier": 1,  # 美居家照护最大协会一手源
+        "region": "overseas",
+        "notes": "美居家照护最大协会（原 NAHC+NHPCO 合并），10,000+ 机构会员；居家护理/临终关怀一手政策与交易动态（T1）",
+        "kind": "association",
+    },
+    "carp": {
+        "name": "CARP – Advocacy/News",
+        "l1_domain": "carp.ca",
+        "l2_channels": [
+            ("advocacy", "https://www.carp.ca/advocacy/", "manual"),
+        ],
+        "tier": 2,  # 加拿大银发政策一手源
+        "region": "overseas",
+        "notes": "加拿大最大退休者倡导组织，250,000+ 会员；加拿大银发政策/长期护理一手源，补北美加拿大视角（T2）",
+        "kind": "association",
+    },
+    "hcaoa": {
+        "name": "Home Care Association of America (HCAOA) – News Releases",
+        "l1_domain": "hcaoa.org",
+        "l2_channels": [
+            ("news_releases", "https://www.hcaoa.org/news-releases.html", "manual"),
+        ],
+        "tier": 2,  # 家庭照护一手政策/会员并购动态（W1 候选时 Cloudflare 拦截，研究员判断 T2 入库）
+        "region": "overseas",
+        "notes": "美家庭照护机构协会；家庭照护一手政策/会员并购动态（T2 协会；URL 经搜索确认存在，直连待复核）",
+        "kind": "association",
+    },
 }
 
 # ================================================================

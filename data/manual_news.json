@@ -1,18 +1,520 @@
 [
-  {
-    "title": "The Villages, Florida｜Peter Santenello 爆款 vlog（900万+ 播放，C端现象级）",
-    "url": "https://www.youtube.com/results?search_query=Peter+Santenello+The+Villages+Florida",
-    "source_id": "youtube_silver",
-    "source": "YouTube - 银发热门视频",
-    "summary": "C端用户视角的美国最大退休社区 The Villages 记录，现象级传播（900万+ 播放），是观察美国养老社区 C端需求与生活方式的标杆样本。",
-    "tags": ["退休社区", "美国养老", "热门视频", "C端", "The Villages"]
-  },
-  {
-    "title": "《Some Kind of Heaven》｜The Villages 养老社区纪录片（圣丹斯参展）",
-    "url": "https://www.youtube.com/results?search_query=Some+Kind+of+Heaven+The+Villages+documentary",
-    "source_id": "youtube_silver",
-    "source": "YouTube - 银发热门视频",
-    "summary": "Lance Oppenheim 执导、纪录美国最大退休社区 The Villages 真实生活的独立纪录片，被多家媒体评为观察美国老龄化现象的必看样本。",
-    "tags": ["退休社区", "美国养老", "纪录片", "热门视频", "The Villages"]
-  }
+ {
+  "title": "The Villages, Florida｜Peter Santenello 爆款 vlog（900万+ 播放，C端现象级）",
+  "url": "https://www.youtube.com/results?search_query=Peter+Santenello+The+Villages+Florida",
+  "source_id": "youtube_silver",
+  "source": "YouTube - 银发热门视频",
+  "summary": "C端用户视角的美国最大退休社区 The Villages 记录，现象级传播（900万+ 播放），是观察美国养老社区 C端需求与生活方式的标杆样本。",
+  "tags": [
+   "退休社区",
+   "美国养老",
+   "热门视频",
+   "C端",
+   "The Villages"
+  ]
+ },
+ {
+  "title": "《Some Kind of Heaven》｜The Villages 养老社区纪录片（圣丹斯参展）",
+  "url": "https://www.youtube.com/results?search_query=Some+Kind+of+Heaven+The+Villages+documentary",
+  "source_id": "youtube_silver",
+  "source": "YouTube - 银发热门视频",
+  "summary": "Lance Oppenheim 执导、纪录美国最大退休社区 The Villages 真实生活的独立纪录片，被多家媒体评为观察美国老龄化现象的必看样本。",
+  "tags": [
+   "退休社区",
+   "美国养老",
+   "纪录片",
+   "热门视频",
+   "The Villages"
+  ]
+ },
+ {
+  "title": "Lys Therapeutics 募 2900 万美元",
+  "summary": "推进抗衰老脑疗法管线，面向老年神经退行性疾病治疗。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-07-11",
+  "tags": [
+   "融资",
+   "抗衰老"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "长寿资本聚首 Gstaad",
+  "summary": "抗衰老生物科技获主流资本加持，银发长寿赛道受关注。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-07-10",
+  "tags": [
+   "抗衰老",
+   "资本"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "BedHub 全国上线",
+  "summary": "解决家庭寻找优质养老照护机构的难题，养老照护匹配平台。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-07-09",
+  "tags": [
+   "养老运营",
+   "平台"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "居家养老需求推动老年照护可穿戴设备成核心品类",
+  "summary": "居家养老场景带动照护可穿戴设备需求增长。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-07-08",
+  "tags": [
+   "可穿戴",
+   "居家护理"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "华盛顿州 AI 驱动 Medicare 审查致老人就医被拒/延误",
+  "summary": "行业警示：AI 自动审查影响老年人医疗可及性。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-07-07",
+  "tags": [
+   "政策",
+   "AI",
+   "Medicare"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "SeniorCRE 警告：孤岛式 AI 无法成为养老社区运营智能",
+  "summary": "养老社区运营需整合型 AI 而非孤岛方案。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-06-29",
+  "tags": [
+   "养老运营",
+   "AI"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Hera 获 2700 万美元 A 轮",
+  "summary": "扩张 AI 养老照护协同平台。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-06-26",
+  "tags": [
+   "融资",
+   "AI照护"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Rejuvenate Bio 获新融资并携手默克",
+  "summary": "推进抗衰老基因疗法研发。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-06-24",
+  "tags": [
+   "融资",
+   "抗衰老"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Futurewave 可穿戴智能系统欲重塑养老院居民-员工沟通",
+  "summary": "养老院内部沟通效率提升方案。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-06-22",
+  "tags": [
+   "可穿戴",
+   "养老运营"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Vali Health 募 600 万美元",
+  "summary": "将 AI Agent 用于居家照护场景。",
+  "source_id": "agetech_com",
+  "source": "AgeTech.com",
+  "url": "https://www.agetech.com/news/",
+  "date": "2026-06-19",
+  "tags": [
+   "融资",
+   "AI照护"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "阿尔茨海默血液检测在真实世界准不准？",
+  "summary": "评估血液生物标志物检测在临床真实世界的准确度。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-07-15",
+  "tags": [
+   "认知症",
+   "诊断"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "FDA 批准早期阿尔茨海默病居家注射 Leqembi",
+  "summary": "早期 AD 患者可在家自行注射 Leqembi，治疗可及性提升。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-07-14",
+  "tags": [
+   "认知症",
+   "FDA",
+   "政策"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "THC/CBD 缓解晚期阿尔茨海默躁动显潜力",
+  "summary": "大麻素成分对晚期痴呆躁动症状的缓解研究。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-07-14",
+  "tags": [
+   "认知症",
+   "非药物"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "患者借临床试验与 AI 音乐重塑生活",
+  "summary": "临床试验结合 AI 音乐疗法改善患者生活。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-05-04",
+  "tags": [
+   "认知症",
+   "疗法"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "两位女性推动改变痴呆症社会叙事",
+  "summary": "倡导者推动社会对痴呆症认知转变。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-04-09",
+  "tags": [
+   "认知症",
+   "倡导"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "一家人对抗后皮质萎缩（痴呆相关）的经历",
+  "summary": "家庭照护后皮质萎缩患者的真实经历。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-04-02",
+  "tags": [
+   "认知症",
+   "照护"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "2026 年 FDA 批准的阿尔茨海默疗法全景",
+  "summary": "盘点 2026 年 FDA 批准的 AD 疗法。",
+  "source_id": "being_patient",
+  "source": "Being Patient",
+  "url": "https://beingpatient.com/alzheimers-disease/",
+  "date": "2026-06-22",
+  "tags": [
+   "认知症",
+   "FDA"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Stannah 爬楼机获红点设计奖",
+  "summary": "适老化无障碍设计获红点奖认可。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "适老硬件",
+   "设计"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "斯洛伐克推出首个银发经济创新生态系统",
+  "summary": "国家级银发经济生态建设。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "政策",
+   "生态"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "法国游泳联合会发起防溺水宣传，覆盖老年群体",
+  "summary": "老年防溺水公益宣传。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "安全",
+   "公益"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Arcadie 老年公寓向长者开放避暑降温空间",
+  "summary": "极端高温下老年公寓开放避暑。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "养老运营",
+   "高温"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "高温下长者与照护团队告急，AD-PA 提养老诉求",
+  "summary": "高温天气暴露养老照护短板。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "养老运营",
+   "高温"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Lanton 建秸秆老年住宅以隔热护长者",
+  "summary": "绿色适老建筑实践。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "适老硬件",
+   "建筑"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "银发创新实验室如何支持健康老龄化",
+  "summary": "创新实验室助力健康老龄化。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "创新",
+   "健康"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "高温期间 Synerpa 机构向居家老人开放",
+  "summary": "机构高温期开放给居家老人。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "养老运营",
+   "高温"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "欧洲百岁老人榜法国居首，长寿主题",
+  "summary": "欧洲长寿人口分布。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "长寿",
+   "数据"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "长者住院管理凸显居家照护缺失环节",
+  "summary": "住院管理暴露居家照护缺口。",
+  "source_id": "silvereco",
+  "source": "Silvereco",
+  "url": "https://www.silvereco.fr/actualites/",
+  "date": "2026-07-15",
+  "tags": [
+   "居家护理",
+   "痛点"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "国家卫健委发布《老年合理用药促进行动（2026—2030年）》",
+  "summary": "国内老年用药安全政策出台。",
+  "source_id": "vcbeat_aging",
+  "source": "动脉网",
+  "url": "https://vcbeat.top/",
+  "date": "2026-07-15",
+  "tags": [
+   "政策",
+   "用药"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Pearl Health 完成 1.1 亿美元融资",
+  "summary": "扩展 Medicare/价值医疗业务。",
+  "source_id": "vcbeat_aging",
+  "source": "动脉网",
+  "url": "https://vcbeat.top/",
+  "date": "2026-07-08",
+  "tags": [
+   "融资",
+   "价值医疗"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "Third Act Ventures 入选 2025 顶级健康科技种子基金",
+  "summary": "专注 aging 的早期 VC 获行业认可。",
+  "source_id": "third_act",
+  "source": "Third Act Ventures",
+  "url": "https://thirdact.vc/",
+  "date": "2025-12-01",
+  "tags": [
+   "VC",
+   "荣誉"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "MedCity News 探讨 AgeTech 投融资前景",
+  "summary": "含 Third Act 合伙人的 AgeTech 投融资观点。",
+  "source_id": "third_act",
+  "source": "Third Act Ventures",
+  "url": "https://thirdact.vc/",
+  "date": "2025-04-15",
+  "tags": [
+   "VC",
+   "AgeTech"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "解析记忆照护（长期照护）服务/成本/收益",
+  "summary": "记忆照护服务内容、成本与获益分析。",
+  "source_id": "alzheimers_net",
+  "source": "Alzheimers.net",
+  "url": "https://www.alzheimers.net/",
+  "date": "2026-07-15",
+  "tags": [
+   "认知症",
+   "长期照护"
+  ],
+  "ingest_time": "2026-07-15"
+ },
+ {
+  "title": "The Ensign Group 经 REIT 收购得州 2 家养老院（250 床）",
+  "summary": "美国上市养老运营商 The Ensign Group（NYSE: ENSG）2026-07 通过 REIT 结构收购得州 2 家养老院（共 250 床），延续其以并购扩张 SNF/senior living 版图的策略，Q1 业绩强劲。",
+  "source_id": "skilled_nursing_news",
+  "source": "Skilled Nursing News",
+  "url": "https://skillednursingnews.com/category/finance/",
+  "date": "2026-07-15",
+  "tags": [
+   "收购",
+   "养老运营",
+   "SNF",
+   "近期并购"
+  ],
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "title": "Saber Healthcare 从 Ciena 收购横跨 3 州 27 家养老院",
+  "summary": "美国 SNF 运营商 Saber Healthcare 2026-07 完成其史上最大交易之一，从 Ciena 收购横跨 3 个州的 27 家养老院，进一步扩张养老护理网络。",
+  "source_id": "skilled_nursing_news",
+  "source": "Skilled Nursing News",
+  "url": "https://skillednursingnews.com/category/finance/",
+  "date": "2026-07-15",
+  "tags": [
+   "收购",
+   "养老运营",
+   "近期并购"
+  ],
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "title": "Resmed 以 4.9 亿美元向 PE 出售养老软件 MatrixCare",
+  "summary": "呼吸/康复设备巨头 Resmed 2026-07 以 4.9 亿美元将其老年护理 EHR/软件业务 MatrixCare 出售给私募股权，反映养老软件赛道整合加速。",
+  "source_id": "massdevice",
+  "source": "MassDevice",
+  "url": "https://www.massdevice.com/category/business_financial_news/mergers_acquisitions/",
+  "date": "2026-07-15",
+  "tags": [
+   "出售",
+   "养老软件",
+   "M&A"
+  ],
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "title": "Abridge 完成 3 亿美元 E 轮融资，临床文档 AI 持续 mega round",
+  "summary": "临床文档 AI 平台 Abridge 完成 Series E 3 亿美元融资（连续大额轮），用生成式 AI 自动生成病历草稿，已深入养老/护理场景，估值与资本热度居数字健康前列。",
+  "source_id": "medcity_news",
+  "source": "MedCity News",
+  "url": "https://medcitynews.com/category/health-tech/",
+  "date": "2026-07-15",
+  "tags": [
+   "融资",
+   "AI",
+   "高融资",
+   "近期融资"
+  ],
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "title": "PointClickCare 扩展 AI 产品 Chart Advisor 至 senior living",
+  "summary": "北美养老社区 EHR 龙头 PointClickCare 2026-05 将其 AI 产品 Chart Advisor 扩展至 senior living 场景，用 AI 辅助护理记录与质量改进。",
+  "source_id": "pointclickcare_official",
+  "source": "PointClickCare 官方",
+  "url": "https://www.pointclickcare.com/",
+  "date": "2026-07-16",
+  "tags": [
+   "AI",
+   "养老软件",
+   "产品"
+  ],
+  "ingest_time": "2026-07-16"
+ }
 ]
