@@ -306,7 +306,10 @@ for ws in wb.worksheets:
             if not silver:
                 excluded.append(('无银发信号且无法分类(疑似非银发)', disp_name+' | '+biz[:24])); continue
             l1, l2 = '行业服务', ''
-        # 银发门禁：泛类二级(文娱/教育/旅游/电商等)若无任何真实银发信号，视为非银发剔除
+        # 银发信号铁律（小爽 2026-07-16）：无银发信号者一律删除，绝不进「行业服务」兜底。
+        # - 无法分类且无信号 → 直接剔除（line 307 已拦）；
+        # - 泛类二级(文娱/教育/旅游/电商等)无信号 → 剔除；
+        # - 只有“有真实银发业务”才允许落到 行业服务/空L2（line 308），绝不用它当非银发的垃圾桶。
         if l2 in GENERIC_L2 and not silver:
             excluded.append(('无银发信号(疑似非银发)', disp_name+' | '+biz[:24])); continue
         desc = biz
