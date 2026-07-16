@@ -503,10 +503,10 @@
   "desc_cn": "社区居家养老SaaS系统提供商，为养老机构和社区养老服务中心提供信息化管理平台。",
   "business_model_cn": "B2B SaaS/软件平台",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -1427,9 +1427,8 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "睡眠监测",
-   "康复器械",
-   "可穿戴监测"
+   "跌倒监测",
+   "睡眠监测"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -1480,8 +1479,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "睡眠监测",
-   "可穿戴监测"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -1624,7 +1622,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -2064,9 +2062,8 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "睡眠监测",
-   "可穿戴监测",
-   "紧急呼叫"
+   "跌倒监测",
+   "睡眠监测"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -2669,7 +2666,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "适老化"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -3163,10 +3160,10 @@
   "desc_cn": "一康是康复医疗设备品牌，专注于智能康复训练设备研发，服务养老机构和社区康复中心。",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务"
+   "康复辅具"
   ],
   "tag_l2": [
-   "养老机构"
+   "康复器械"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -3439,7 +3436,6 @@
    "养老服务"
   ],
   "tag_l2": [
-   "养老机构",
    "康复医疗"
   ],
   "business_tags": {
@@ -6197,11 +6193,9 @@
   "desc_cn": "唯艾面向失能与高龄老人群体，经营成人纸尿裤、护理垫等个人护理适老用品，减轻家庭与机构的日常照护负担。",
   "business_model_cn": "日用品销售",
   "tag_l1": [
-   "养老服务",
    "消费品"
   ],
   "tag_l2": [
-   "居家护理",
    "个人护理"
   ],
   "business_tags": {
@@ -7221,12 +7215,10 @@
   "desc_cn": "安养帮是养老机构运营商，运营养老社区或康养项目。",
   "business_model_cn": "B2C/B2B 社区/居家服务",
   "tag_l1": [
-   "养老服务",
-   "行业服务"
+   "养老服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "养老信息平台"
+   "养老机构"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -8695,8 +8687,6 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "助听器",
-   "助行器",
    "医疗器械"
   ],
   "business_tags": {
@@ -11092,10 +11082,10 @@
   "desc_cn": "南京爱普雷德电子科技有限公司（2012年创立）是智慧养老SaaS与解决方案提供商，为政府、养老机构及社区提供互联网+智慧养老系统（智慧养老院、家庭养老床位、适老化改造等）。",
   "business_model_cn": "B2B 智慧养老SaaS",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -11411,10 +11401,10 @@
   "desc_cn": "主营助行、助听、假肢及康复辅助器具等适老产品，帮助行动与感官存在障碍的长者提升生活自理能力",
   "business_model_cn": "B2C 老年辅助器具/康复器械",
   "tag_l1": [
-   "康复辅具"
+   "养老服务"
   ],
   "tag_l2": [
-   "助行器"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -11521,10 +11511,12 @@
   "desc_cn": "北京甲子科技有限责任公司（2014年创立）是智慧养老与适老化改造服务商，业务涵盖甲子适老化改造、养老运营系统、甲子商城与智能穿戴。",
   "business_model_cn": "B2B 智慧养老科技",
   "tag_l1": [
+   "养老服务",
    "康复辅具"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "助行器",
+   "适老化"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -11722,7 +11714,6 @@
    "养老服务"
   ],
   "tag_l2": [
-   "养老机构",
    "康复医疗"
   ],
   "business_tags": {
@@ -12569,11 +12560,10 @@
   "desc_cn": "面向银发人群的康复辅具与适老化设备企业，主营康复设备相关的产品（如轮椅、助行器、护理床、助听器、适老化家居改造等），为老年人及行动不便人群提供肢体辅助与康复支持，中国市场，服务于中老年及相关群体",
   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
   "tag_l1": [
-   "康复辅具"
+   "消费品"
   ],
   "tag_l2": [
-   "轮椅",
-   "助行器"
+   "个人护理"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -12768,11 +12758,10 @@
   "desc_cn": "面向银发人群的康复辅具与适老化设备企业，主营医疗器械相关的产品（如轮椅、助行器、护理床、助听器、适老化家居改造等），为老年人及行动不便人群提供肢体辅助与康复支持，中国市场，服务于中老年及相关群体",
   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
   "tag_l1": [
-   "康复辅具"
+   "养老服务"
   ],
   "tag_l2": [
-   "轮椅",
-   "助行器"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -14022,8 +14011,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "助行器",
-   "轮椅"
+   "医疗器械"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -14566,11 +14554,10 @@
   "desc_cn": "面向银发人群的康复辅具与适老化设备企业，主营医疗器械相关的产品（如轮椅、助行器、护理床、助听器、适老化家居改造等），为老年人及行动不便人群提供肢体辅助与康复支持，中国市场，服务于中老年及相关群体",
   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
   "tag_l1": [
-   "康复辅具"
+   "养老服务"
   ],
   "tag_l2": [
-   "轮椅",
-   "助行器"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -15178,10 +15165,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营文娱相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，中国市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "行业服务"
+   "文娱社交"
   ],
   "tag_l2": [
-   "养老咨询"
+   "兴趣社群"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -15870,11 +15857,10 @@
   "desc_cn": "面向银发人群的康复辅具与适老化设备企业，主营医疗器械相关的产品（如轮椅、助行器、护理床、助听器、适老化家居改造等），为老年人及行动不便人群提供肢体辅助与康复支持，中国市场，服务于中老年及相关群体",
   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
   "tag_l1": [
-   "康复辅具"
+   "养老服务"
   ],
   "tag_l2": [
-   "轮椅",
-   "助行器"
+   "诊所"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -19289,7 +19275,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -20034,10 +20020,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -21818,7 +21804,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "中医养生"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -23358,10 +23344,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -23592,7 +23578,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -25008,7 +24994,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "适老化"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -25542,10 +25528,10 @@
   "desc_cn": "AI收入周期技术，10000+医疗服务供应商",
   "business_model_cn": "B2B AI/数据驱动",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "陪伴服务"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -25563,9 +25549,9 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [
-   "有融资"
+   "医疗器械"
   ],
-  "description": "面向银发经济的行业服务企业，围绕尿失禁等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "description": "德国柏林的老年护理智能失禁监测方案商。核心产品 Sensa 系统：一次性传感贴片监测失禁用者的干湿状态，实时向护理人员推送提醒，帮助养老机构减少渗漏与压疮。B2B 面向临床与护理机构。",
   "highlights": "尿失禁数字解决方案",
   "funding_latest": {
    "date": "2020年",
@@ -25581,13 +25567,13 @@
   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Advosense",
   "website_url": "https://www.advosense.com",
   "business_model": "B2B 行业媒体/数据服务",
-  "desc_cn": "面向银发经济的行业服务企业，围绕尿失禁等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "desc_cn": "德国柏林的老年护理智能失禁监测方案商。核心产品 Sensa 系统：一次性传感贴片监测失禁用者的干湿状态，实时向护理人员推送提醒，帮助养老机构减少渗漏与压疮。B2B 面向临床与护理机构。",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
-   "行业服务"
+   "康复辅具"
   ],
   "tag_l2": [
-   "养老咨询"
+   "医疗器械"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -26041,7 +26027,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -26165,10 +26151,10 @@
   "desc_cn": "面向银发经济的行业服务企业，围绕居家护理等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -26226,8 +26212,10 @@
   "region": "海外",
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
-  "tags": [],
-  "description": "面向银发经济的行业服务企业，围绕智慧养老等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "tags": [
+   "养老软件"
+  ],
+  "description": "由 Castlight（医疗导航）与 Vera Whole Health（进阶初级护理）于2022年合并而成的医疗科技公司，提供数据驱动的健康导航平台+进阶初级护理中心，服务含老年在内的风险人群，按价值医疗（VBC）模式运营。B2B 健康平台。",
   "highlights": "为36000名员工提供医疗保健",
   "funding_latest": null,
   "funding_total": null,
@@ -26238,13 +26226,13 @@
   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Apree",
   "website_url": "https://apreehealth.com",
   "business_model": "B2B 行业媒体/数据服务",
-  "desc_cn": "面向银发经济的行业服务企业，围绕智慧养老等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "desc_cn": "由 Castlight（医疗导航）与 Vera Whole Health（进阶初级护理）于2022年合并而成的医疗科技公司，提供数据驱动的健康导航平台+进阶初级护理中心，服务含老年在内的风险人群，按价值医疗（VBC）模式运营。B2B 健康平台。",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -26370,9 +26358,9 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [
-   "有融资"
+   "养老软件"
   ],
-  "description": "面向银发经济的行业服务企业，围绕尿失禁等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "description": "德国柏林的护理数字化 SaaS 厂商。核心产品 alea 系统：基于传感夹+IoT+AI，实时监测失禁状态、跌倒与体位并自动生成护理记录，已获 CE 医疗器械认证，服务多家养老院。B2B 护理机构软件。",
   "highlights": "护理基础设施",
   "funding_latest": {
    "date": "2016年",
@@ -26390,13 +26378,13 @@
   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AssistMe",
   "website_url": "https://www.assistme.com",
   "business_model": "B2C/B2B 养老护理服务",
-  "desc_cn": "面向银发经济的行业服务企业，围绕尿失禁等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "desc_cn": "德国柏林的护理数字化 SaaS 厂商。核心产品 alea 系统：基于传感夹+IoT+AI，实时监测失禁状态、跌倒与体位并自动生成护理记录，已获 CE 医疗器械认证，服务多家养老院。B2B 护理机构软件。",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -26570,11 +26558,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营健康社会决定因素、远程护理相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "远程护理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -26656,9 +26643,9 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [
-   "有融资"
+   "养老软件"
   ],
-  "description": "面向银发经济的行业服务企业，围绕平台等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "description": "美国家庭医疗与临终关怀机构的 AI 排班与劳动力管理 SaaS。通过智能路线规划、实时可见性与患者互动提升临床团队利用率、降低缺诊率，已与主流 EMR 集成。B2B 医疗运营软件。",
   "highlights": "面向家庭健康的调度和劳动力管理平台",
   "funding_latest": {
    "date": "2024年2月",
@@ -26677,13 +26664,13 @@
   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Axle%20Health",
   "website_url": "https://www.axlehealth.com",
   "business_model": "B2B 行业媒体/数据服务",
-  "desc_cn": "面向银发经济的行业服务企业，围绕平台等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "desc_cn": "美国家庭医疗与临终关怀机构的 AI 排班与劳动力管理 SaaS。通过智能路线规划、实时可见性与患者互动提升临床团队利用率、降低缺诊率，已与主流 EMR 集成。B2B 医疗运营软件。",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -27393,7 +27380,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -27514,7 +27501,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "慢病管理"
+   "居家护理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -27712,12 +27699,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务",
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "远程医疗",
-   "陪伴服务"
+   "远程医疗"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -27784,11 +27769,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "护理协调"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -27864,11 +27848,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营智慧养老相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "专业护理",
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -28419,11 +28402,10 @@
    ]
   },
   "tag_l1": [
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "远程医疗"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -28465,10 +28447,10 @@
   "desc_cn": "面向银发经济的行业服务企业，围绕居家护理、护理平台等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -28720,11 +28702,10 @@
    ]
   },
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -28761,8 +28742,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "安宁疗护",
-   "居家护理"
+   "安宁疗护"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -28832,10 +28812,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -29087,11 +29067,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营智慧养老相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -29263,11 +29242,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营人工智能相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -29755,10 +29733,10 @@
   "desc_cn": "融资很高，不是面向老人的",
   "business_model_cn": "B2C 社交娱乐平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "陪伴服务"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -29992,10 +29970,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营保险相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -30092,9 +30070,9 @@
   "category_l1": "行业服务",
   "category_l2": "行业媒体",
   "tags": [
-   "有融资"
+   "尿失禁"
   ],
-  "description": "面向银发经济的行业服务企业，围绕尿失禁等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "description": "美国 Pelvital 旗下 FDA 认证的居家盆底康复器械，针对女性压力性尿失禁（SUI），通过经阴道机械振动疗法强化盆底肌，5分钟/天、6周见效，处方与自费双渠道。面向消费者的医疗器械。",
   "highlights": "尿失禁治疗科技服务商",
   "funding_latest": {
    "date": "2016年",
@@ -30110,13 +30088,13 @@
   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=flyte",
   "website_url": "https://www.flytehealth.com",
   "business_model": "B2B 科技研发",
-  "desc_cn": "面向银发经济的行业服务企业，围绕尿失禁等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+  "desc_cn": "美国 Pelvital 旗下 FDA 认证的居家盆底康复器械，针对女性压力性尿失禁（SUI），通过经阴道机械振动疗法强化盆底肌，5分钟/天、6周见效，处方与自费双渠道。面向消费者的医疗器械。",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
-   "行业服务"
+   "消费品"
   ],
   "tag_l2": [
-   "养老咨询"
+   "尿失禁"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -30232,11 +30210,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营人工智能相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -30362,7 +30339,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -30642,11 +30619,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营健康社会决定因素相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "SDOH"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -31149,10 +31125,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营健康监测相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -31192,11 +31168,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "远程护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -31408,8 +31383,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "家政"
+   "护工平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -31578,8 +31552,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "护工平台",
-   "居家护理"
+   "护工平台"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -31620,8 +31593,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "护工平台",
-   "居家护理"
+   "护工平台"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -31702,12 +31674,10 @@
   "desc_cn": "AI咳嗽检测和分类，7亿+样本，55岁以上占74%",
   "business_model_cn": "B2B AI/数据驱动",
   "tag_l1": [
-   "养老服务",
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "慢病管理",
-   "陪伴服务"
+   "慢病管理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -31856,11 +31826,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营护理平台相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "远程护理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -31950,7 +31919,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -32192,10 +32161,10 @@
   "desc_cn": "面向银发经济的行业服务企业，围绕适老化改造等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
   "business_model_cn": "B2B/B2C 银发行业服务",
   "tag_l1": [
-   "行业服务"
+   "养老服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "适老化"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -32377,7 +32346,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "康复医疗"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -32416,11 +32385,10 @@
   "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营远程护理相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
   "tag_l1": [
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "兴趣社群",
-   "陪伴服务"
+   "远程护理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -32501,11 +32469,10 @@
   "desc_cn": "面向银发人群的专业护理服务企业，主营护理平台、智慧养老相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
   "business_model_cn": "B2C/B2B 居家及机构护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "护理协调"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -32926,11 +32893,10 @@
   "desc_cn": "英国养老照护管理软件商，为养老院与居家照护机构打造电子化护理计划、日常记录、事故管理与用药（eMAR）工具，并满足CQC监管与NHS数据标准。",
   "business_model_cn": "SaaS订阅(£5/人起)",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "护理协调"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -35490,10 +35456,10 @@
   "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
   "business_model_cn": "B2C/B2B 老年文娱社交平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "陪伴服务"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -35910,10 +35876,10 @@
   "desc_cn": "帮助护理人员记录居民健康状况，管理任务",
   "business_model_cn": "B2C/B2B 养老护理服务",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -36114,11 +36080,9 @@
   "desc_cn": "Season Health 运营食物即药物福利，医生可开具杂货与医学定制餐盒处方，由零售与配送伙伴履约，并向医疗补助与商业健康险报销。",
   "business_model_cn": "B2B报销结算",
   "tag_l1": [
-   "行业服务",
    "食品营养"
   ],
   "tag_l2": [
-   "养老咨询",
    "膳食配送"
   ],
   "business_tags": {
@@ -36876,12 +36840,10 @@
   "desc_cn": "24/7按需医疗会员制，面对面+远程",
   "business_model_cn": "B2C 社交娱乐平台",
   "tag_l1": [
-   "养老服务",
-   "文娱社交"
+   "养老服务"
   ],
   "tag_l2": [
-   "远程医疗",
-   "陪伴服务"
+   "远程医疗"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -37163,7 +37125,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -37897,10 +37859,10 @@
   "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
   "business_model_cn": "B2C/B2B 老年文娱社交平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "陪伴服务"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -38191,10 +38153,10 @@
    ]
   },
   "tag_l1": [
-   "行业服务"
+   "金融保险"
   ],
   "tag_l2": [
-   "行业研究"
+   "保险"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -39038,10 +39000,9 @@
   "category_l1": "老年文娱",
   "category_l2": "社交平台",
   "tags": [
-   "老年文娱",
-   "社交平台"
+   "养老软件"
   ],
-  "description": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+  "description": "面向言语障碍人群（含中风、帕金森等导致的老年失语患者）的语音识别AI解决方案，通过机器学习识别非标准语音并转换为清晰语音，帮助失语老人重新沟通。采用B2B技术授权+面向终端用户的App模式。",
   "highlights": "言语障碍人士的语音AI解决方案",
   "funding_latest": null,
   "funding_total": "$20M",
@@ -39056,13 +39017,13 @@
   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Voiceitt",
   "website_url": "https://www.voiceitt.com",
   "business_model": "B2B AI/数据驱动",
-  "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+  "desc_cn": "面向言语障碍人群（含中风、帕金森等导致的老年失语患者）的语音识别AI解决方案，通过机器学习识别非标准语音并转换为清晰语音，帮助失语老人重新沟通。采用B2B技术授权+面向终端用户的App模式。",
   "business_model_cn": "B2C/B2B 老年文娱社交平台",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "陪伴服务"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -40678,7 +40639,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "紧急呼叫"
   ],
   "business_tags": {
    "customer": "B2C",
@@ -41461,10 +41422,10 @@
    ]
   },
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -41768,7 +41729,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -42075,7 +42036,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -43513,10 +43474,10 @@
   "business_model_cn": "B2B SaaS/养老与健康管理软件",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -43830,10 +43791,10 @@
   "business_model_cn": "B2B SaaS/养老与健康管理软件",
   "news_coverage": "",
   "tag_l1": [
-   "文娱社交"
+   "行业服务"
   ],
   "tag_l2": [
-   "陪伴服务"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -43984,10 +43945,10 @@
   "business_model_cn": "B2B SaaS订阅",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44063,7 +44024,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44100,7 +44061,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44290,7 +44251,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44363,11 +44324,9 @@
   "business_model_cn": "B2B SaaS/养老与健康管理软件",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务",
    "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
    "养老信息平台"
   ],
   "business_tags": {
@@ -44405,7 +44364,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44791,7 +44750,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -44828,10 +44787,10 @@
   "business_model_cn": "B2B SaaS订阅",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -45101,12 +45060,10 @@
   "business_model_cn": "B2B佣金+服务费",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务",
-   "金融保险"
+   "养老服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "长护险"
+   "护工平台"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -45336,7 +45293,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -46581,10 +46538,10 @@
   "business_model_cn": "B2B系统+运营费",
   "news_coverage": "",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -47792,10 +47749,10 @@
   "news_coverage": "",
   "name_cn": "华晶科技",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -48693,10 +48650,10 @@
   "business_model_cn": "B2B 居家护理AI运营SaaS(订阅)",
   "serial": "#1133",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -48738,10 +48695,10 @@
   "business_model_cn": "B2B 居家护理AI平台(订阅)",
   "serial": "#1134",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -48964,7 +48921,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -49972,12 +49929,11 @@
   "business_model_cn": "B2B2C 家用医疗设备销售、租赁与上门服务",
   "serial": "#1165",
   "tag_l1": [
-   "养老服务",
    "康复辅具"
   ],
   "tag_l2": [
-   "居家护理",
-   "助行器"
+   "助行器",
+   "医疗器械"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -50865,10 +50821,10 @@
   },
   "serial": "#1185",
   "tag_l1": [
-   "行业服务"
+   "康复辅具"
   ],
   "tag_l2": [
-   "养老咨询"
+   "助听器"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -51255,7 +51211,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -51640,7 +51596,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B+B2C",
@@ -53546,7 +53502,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -53597,10 +53553,10 @@
   },
   "serial": "#1235",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -53649,10 +53605,10 @@
   },
   "serial": "#1236",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -53755,10 +53711,10 @@
   },
   "serial": "#1238",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -53810,11 +53766,10 @@
   },
   "serial": "#1239",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理",
-   "护理协调"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -53865,10 +53820,10 @@
   },
   "serial": "#1240",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -54633,10 +54588,10 @@
   },
   "serial": "#1254",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -54909,7 +54864,7 @@
    "康复辅具"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -55823,10 +55778,10 @@
   },
   "serial": "#1276",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -55979,10 +55934,10 @@
   },
   "serial": "#1279",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -56147,10 +56102,10 @@
   },
   "serial": "#1282",
   "tag_l1": [
-   "养老服务"
+   "康复辅具"
   ],
   "tag_l2": [
-   "养老机构"
+   "跌倒监测"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -57789,7 +57744,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -58071,7 +58026,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -58619,7 +58574,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "未标注",
@@ -59343,10 +59298,10 @@
   },
   "name_cn": "",
   "tag_l1": [
-   "养老服务"
+   "行业服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "养老信息平台"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59397,7 +59352,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "养老机构"
+   "居家护理"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59649,10 +59604,10 @@
   },
   "name_cn": "",
   "tag_l1": [
-   "康复辅具"
+   "消费品"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "智能家居"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59751,10 +59706,10 @@
   },
   "name_cn": "",
   "tag_l1": [
-   "康复辅具"
+   "消费品"
   ],
   "tag_l2": [
-   "可穿戴监测"
+   "智能家居"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59805,7 +59760,7 @@
    "养老服务"
   ],
   "tag_l2": [
-   "居家护理"
+   "养老机构"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59857,7 +59812,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "养老软件"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59911,7 +59866,7 @@
    "行业服务"
   ],
   "tag_l2": [
-   "养老咨询"
+   "AI医疗"
   ],
   "business_tags": {
    "customer": "B2B",
@@ -59921,5 +59876,189 @@
   "stage": "成长期",
   "recommend": "",
   "payor_model": "未披露"
+ },
+ {
+  "serial": "#1353",
+  "name": "红松 Hongsong",
+  "region": "国内",
+  "category_l1": "文娱社交",
+  "category_l2": "兴趣社群",
+  "tags": [],
+  "description": "国内退休人群文娱直播课社区头部，提供兴趣课程+社交直播，模式反常识标杆；已完成A+轮。",
+  "highlights": "",
+  "funding_latest": {
+   "date": "未披露",
+   "amount": "数千万人民币",
+   "round": "A+轮",
+   "display": "A+轮 数千万人民币 (贝塔斯曼亚洲/创世伙伴/蓝驰)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "贝塔斯曼亚洲/创世伙伴/蓝驰",
+  "founded": "未披露",
+  "value_score": 0,
+  "source": "信源治理入库(W2文娱) 2026-07-16",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://hongsong.tuixiu.com",
+  "business_model": "B2C社区",
+  "desc_cn": "国内退休人群文娱直播课社区头部，提供兴趣课程+社交直播，模式反常识标杆；已完成A+轮。",
+  "business_model_cn": "B2C银发文娱社区",
+  "news_coverage": {
+   "news_count": 0,
+   "news_quality": "unscored",
+   "latest_news": null
+  },
+  "name_cn": "",
+  "tag_l1": [],
+  "tag_l2": [],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "",
+  "payor_model": "未披露",
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "serial": "#1354",
+  "name": "携程老友会",
+  "region": "国内",
+  "category_l1": "文娱社交",
+  "category_l2": "旅游",
+  "tags": [],
+  "description": "国内银发旅游头部品牌（携程旗下），“老有意思旅行团”六大主题游；450万+会员、7000+线路，携程增长最快业务模块之一。",
+  "highlights": "",
+  "funding_latest": {
+   "date": "未披露",
+   "amount": "未披露(携程旗下)",
+   "round": "未披露",
+   "display": "未披露(携程旗下)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "未披露"
+  },
+  "investors": "携程",
+  "founded": "未披露",
+  "value_score": 0,
+  "source": "信源治理入库(W2文娱) 2026-07-16",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://www.ctrip.com",
+  "business_model": "B2C平台",
+  "desc_cn": "国内银发旅游头部品牌（携程旗下），“老有意思旅行团”六大主题游；450万+会员、7000+线路，携程增长最快业务模块之一。",
+  "business_model_cn": "B2C银发旅游",
+  "news_coverage": {
+   "news_count": 0,
+   "news_quality": "unscored",
+   "latest_news": null
+  },
+  "name_cn": "",
+  "tag_l1": [],
+  "tag_l2": [],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "",
+  "payor_model": "未披露",
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "serial": "#1355",
+  "name": "Silversurfers",
+  "region": "海外",
+  "category_l1": "文娱社交",
+  "category_l2": "社区",
+  "tags": [],
+  "description": "英国最大50+在线社区，30万+注册、社媒100万+关注，UGC活力老人内容（论坛/展示/交友）。",
+  "highlights": "",
+  "funding_latest": {
+   "date": "未披露",
+   "amount": "未披露",
+   "round": "未披露",
+   "display": "未披露"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "未披露"
+  },
+  "investors": "未披露",
+  "founded": "未披露",
+  "value_score": 0,
+  "source": "信源治理入库(W2文娱) 2026-07-16",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://www.silversurfers.com",
+  "business_model": "UGC社区",
+  "desc_cn": "英国最大50+在线社区，30万+注册、社媒100万+关注，UGC活力老人内容（论坛/展示/交友）。",
+  "business_model_cn": "UGC活力老人社区",
+  "news_coverage": {
+   "news_count": 0,
+   "news_quality": "unscored",
+   "latest_news": null
+  },
+  "name_cn": "",
+  "tag_l1": [],
+  "tag_l2": [],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "stage": "成熟",
+  "recommend": "",
+  "payor_model": "未披露",
+  "ingest_time": "2026-07-16"
+ },
+ {
+  "serial": "#1356",
+  "name": "Whispp",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "AI医疗",
+  "tags": [],
+  "description": "语音重建AI，助言语障碍老人恢复自然声音；2026-07-07获LUMO Labs领投融资。",
+  "highlights": "",
+  "funding_latest": {
+   "date": "2026-07-07",
+   "amount": "$5.7M",
+   "round": "早期",
+   "display": "$5.7M (LUMO Labs领投)"
+  },
+  "funding_total": {
+   "amount": "约$5.7M",
+   "display": "累计约$5.7M"
+  },
+  "investors": "LUMO Labs等",
+  "founded": "未披露",
+  "value_score": 0,
+  "source": "信源治理入库(W3 AIGC) 2026-07-16",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://www.whispp.com",
+  "business_model": "B2C/B2B App",
+  "desc_cn": "语音重建AI，助言语障碍老人恢复自然声音；2026-07-07获LUMO Labs领投融资。",
+  "business_model_cn": "B2C语音重建AI",
+  "news_coverage": {
+   "news_count": 0,
+   "news_quality": "unscored",
+   "latest_news": null
+  },
+  "name_cn": "",
+  "tag_l1": [],
+  "tag_l2": [],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "stage": "早期",
+  "recommend": "",
+  "payor_model": "未披露",
+  "ingest_time": "2026-07-16"
  }
 ]
