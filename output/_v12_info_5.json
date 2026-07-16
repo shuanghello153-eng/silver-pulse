@@ -1,0 +1,157 @@
+{
+  "Mable": {
+    "description": "Mable is an Australian online marketplace where older and disabled Australians hire independent support workers for in-home care, transport and social support, paying workers directly and paying Mable a transaction fee.",
+    "desc_cn": "Mable 运营澳大利亚居家照护在线交易市场，老年人与残障人士直接雇佣独立护工上门照料、陪伴与接送，公司按交易额收取服务费。",
+    "business_model_cn": "交易佣金"
+  },
+  "Mealogic": {
+    "description": "Mealogic prepares and home-delivers medically tailored meals and electrolyte-balanced nutrition for people with diabetes, renal and cardiac conditions, billing health plans and Medicaid managed-care programs.",
+    "desc_cn": "Mealogic 为糖尿病、肾病与心脏病患者配制并按周配送医学定制餐食，向商业健康险与医疗补助计划结算费用。",
+    "business_model_cn": "餐食销售/B2B结算"
+  },
+  "MedArrive": {
+    "description": "MedArrive sends employed EMS clinicians—paramedics and EMTs—into patients' homes to deliver in-home care, chronic disease monitoring and social-determinant interventions under contract with health plans.",
+    "desc_cn": "MedArrive 派遣受雇的急救医务人员（急救员与护理员）上门为慢病老人做体检、用药管理与生活支持，按健康险合同结算。",
+    "business_model_cn": "B2B健康险服务"
+  },
+  "Naborforce": {
+    "description": "Naborforce runs a vetted local 'Neighbor' network that visits older adults for companionship, transportation, errands and light caregiving, sold as a benefit to health plans and employers who pay per visit.",
+    "desc_cn": "Naborforce 组建经筛查的本地邻里照护员网络，为老人上门陪伴、代买代办与接送，按次向健康险公司与雇主结算。",
+    "business_model_cn": "按次服务费/B2B"
+  },
+  "NeoSilver": {
+    "description": "NeoSilver is a French service that books vetted activity leaders—sophrology, sport, music, art—into senior residences (EHPAD) and lets families reserve local cultural and wellness activities for older relatives.",
+    "desc_cn": "NeoSilver 是法国企业，为养老院与老年公寓派遣经审核的活动带领者（舒缓训练、运动、音乐、艺术），并让家属为长辈预约周边文娱与康养课程。",
+    "business_model_cn": "B2B活动服务/预订佣金"
+  },
+  "Nomad Health": {
+    "description": "Nomad Health is a digital marketplace where clinicians—nurses, therapists, physicians—apply directly to travel and per-diem healthcare jobs posted by hospitals, bypassing staffing agencies and charging facilities a placement fee.",
+    "desc_cn": "Nomad Health 是医疗人才在线交易市场，护士、治疗师与医生直接应聘医院发布的出差与临时岗位，向医疗机构收取招聘服务费。",
+    "business_model_cn": "招聘服务费/佣金"
+  },
+  "Oshi Health": {
+    "description": "Oshi Health operates a nationwide virtual gastroenterology clinic where GI specialists, dietitians and behavioral-health clinicians treat digestive conditions via telehealth, contracting with health plans and employers per member.",
+    "desc_cn": "Oshi Health 运营覆盖全美的虚拟胃肠专科诊所，由胃肠科医生、营养师与心理师通过远程问诊诊治消化疾病，向健康险与雇主按会员收费。",
+    "business_model_cn": "B2B按会员收费"
+  },
+  "Pearl Health": {
+    "description": "Pearl Health enables primary-care groups to take on Medicare risk by aggregating them into ACOs, supplying population-health analytics, prior-authorization automation and shared-savings administration for a cut of savings.",
+    "desc_cn": "Pearl Health 帮助基层医疗机构组建责任医疗组织承接联邦医保按价值付费，供应人群健康分析与行政自动化工具，并分享结余收益。",
+    "business_model_cn": "结余分成/SaaS"
+  },
+  "Perry": {
+    "description": "Perry is a telehealth practice for menopause, pairing women with clinicians who prescribe hormone therapy and symptom-management plans and ship medications to the home by mail.",
+    "desc_cn": "Perry 是更年期远程诊疗诊所，由医生为女性开具激素疗法与症状管理方案，并通过邮寄配送药品。",
+    "business_model_cn": "诊疗+药品邮寄"
+  },
+  "PurFoods": {
+    "description": "PurFoods, operating Mom's Meals, cooks and ships home-delivered medically tailored meals to Medicaid, Medicare and dual-eligible members, with condition-specific menus for diabetes, cardiac and post-surgery diets.",
+    "desc_cn": "PurFoods 以 Mom's Meals 品牌为医疗补助、联邦医保及双重资格人群烹制并按周配送疾病定制餐食，覆盖糖尿病、心病与术后饮食。",
+    "business_model_cn": "B2B餐食结算"
+  },
+  "Season Health": {
+    "description": "Season Health runs a 'food-as-medicine' benefit that lets clinicians prescribe grocery and medically tailored meal boxes, fulfilled through retail and delivery partners and reimbursed by Medicaid and commercial health plans.",
+    "desc_cn": "Season Health 运营食物即药物福利，医生可开具杂货与医学定制餐盒处方，由零售与配送伙伴履约，并向医疗补助与商业健康险报销。",
+    "business_model_cn": "B2B报销结算"
+  },
+  "Sidecar Health": {
+    "description": "Sidecar Health sells affordable, transparent health insurance that gives members a Visa benefit card to pay clinicians directly at negotiated rates, letting them shop for care without network restrictions.",
+    "desc_cn": "Sidecar Health 出售透明定价的健康险，会员持签证福利卡按协商价直接向诊所付费，可自主选择就医机构而不受限网络。",
+    "business_model_cn": "保费收入"
+  },
+  "SimplyConnect": {
+    "description": "SimplyConnect is a UK care-coordination and social-prescribing system that lets NHS teams, local authorities and community groups make closed-loop referrals to verified social services and track wellbeing outcomes.",
+    "desc_cn": "SimplyConnect 是英国社会处方与照护协调系统，协助国民保健署、地方政府与社区组织向已审核的社会服务机构发起闭环转介并追踪成效。",
+    "business_model_cn": "B2B SaaS订阅"
+  },
+  "Stepful": {
+    "description": "Stepful trains people for healthcare careers—medical assistants, patient care techs—through short online programs with clinical rotations, placing graduates into care facilities and charging tuition or income-share agreements.",
+    "desc_cn": "Stepful 通过短期在线课程加临床实习培训医疗助理与患者护理员，向学员收学费或按收入分成，并输送至养老机构与医院就业。",
+    "business_model_cn": "学费/收入分成"
+  },
+  "Tia": {
+    "description": "Tia operates women-focused clinics and a virtual app covering gynecology, primary care and mental health, charging members visit fees and insurance, with a membership model for ongoing care.",
+    "desc_cn": "Tia 运营面向女性的诊所与远程应用，覆盖妇科、初级保健与心理健康，按问诊收费并支持会员制持续照护。",
+    "business_model_cn": "问诊费/会员制"
+  },
+  "Upsidehom": {
+    "description": "UpsideHōM sells a membership that connects aging adults with vetted home-care aides, home-modification contractors and companion services, bundling vetting, scheduling and concierge coordination for a monthly fee.",
+    "desc_cn": "UpsideHōM 以会员制为居家养老长者对接经筛选的照护员、适老化改造承包商与陪伴服务，打包审核、排班与管家式协调并按月收费。",
+    "business_model_cn": "会员月费"
+  },
+  "VitalTech": {
+    "description": "VitalTech sells a remote patient monitoring and telehealth system that streams vitals from wearables and home devices to care teams, flagging falls, heart and glucose changes for senior-living and home-health agencies.",
+    "desc_cn": "VitalTech 销售远程健康监测与远程问诊系统，将可穿戴与居家设备的心率、血糖等数据传给照护团队，为养老机构与居家护理机构预警跌倒与异常。",
+    "business_model_cn": "B2B SaaS订阅"
+  },
+  "Vivian Labs": {
+    "description": "Vivian offers employers a menopause benefit that gives staff access to vetted clinicians, peer community and evidence-based resources for midlife women's health, charged as a per-employee annual subscription.",
+    "desc_cn": "Vivian 向雇主供应更年期员工福利，让女性员工对接经筛选的医生、同侪社群与循证健康资源，按每位员工年度订阅收费。",
+    "business_model_cn": "B2B按人订阅"
+  },
+  "Yurtle": {
+    "description": "Yurtle is a UK employee-benefit that blends caregiver insurance cash payouts, a vetted care-provider marketplace and an AI care-ally app to reduce workplace absence, sold to employers as a per-employee subscription.",
+    "desc_cn": "Yurtle 是英国雇主员工福利，结合照护者保险现金给付、经筛选的照护机构名单与 AI 助手应用以减少误工，按每位员工订阅向雇主收费。",
+    "business_model_cn": "B2B按人订阅"
+  },
+  "Zinnia": {
+    "description": "Zinnia TV streams research-backed, ad-free videos designed for people with dementia and cognitive loss, calming agitation and sparking conversation; sold as a subscription to families and long-term-care facilities.",
+    "desc_cn": "Zinnia TV 为认知障碍与痴呆老人推送无广告、节奏舒缓的定制视频，缓解焦躁并引发交流，向家庭与长期照护机构收取订阅费。",
+    "business_model_cn": "订阅费"
+  },
+  "Ōmcare": {
+    "description": "Ōmcare makes a home health hub that locks and dispenses medications on schedule, runs two-way video visits with clinicians and confirms adherence, sold to health plans, home-health agencies and family caregivers.",
+    "desc_cn": "Ōmcare 生产居家健康终端，按时锁定并发放药物、支持与医护双向视频并确认服药依从性，销往健康险公司、居家护理机构与家属。",
+    "business_model_cn": "硬件+服务销售"
+  },
+  "Nestimate": {
+    "description": "Nestimate builds analytics software that helps 401(k) fiduciaries, advisers and recordkeepers evaluate and embed guaranteed lifetime-income options inside defined-contribution plans, licensed as a B2B subscription.",
+    "desc_cn": "Nestimate 开发分析软件，协助 401(k) 受托人、顾问与账管机构评估并把保底终身收入产品嵌入缴费确定型退休计划，以 B2B 订阅授权。",
+    "business_model_cn": "B2B SaaS订阅"
+  },
+  "Homage": {
+    "description": "Homage is a Singapore on-demand service that matches licensed care professionals with seniors for home nursing, companionship and therapy visits, billing per visit and offering subscription care plans to families.",
+    "desc_cn": "Homage 是新加坡按需上门照护服务，将持证护理员匹配给老人做居家护理、陪伴与康复探访，按次计费并向家庭出售照护套餐。",
+    "business_model_cn": "按次+套餐费"
+  },
+  "Trusty.care": {
+    "description": "Trusty.care gives insurance agents a quoting and enrollment system for Medicare Advantage, Supplement and long-term-care policies, with client needs-analysis and carrier connectivity, charging agents and agencies a subscription.",
+    "desc_cn": "Trusty.care 为保险代理人供应联邦医保优势、补充险与长期护理险的报价与投保系统，含客户需求和分析与保险公司对接，向代理人收订阅费。",
+    "business_model_cn": "B2B SaaS订阅"
+  },
+  "Elder": {
+    "description": "Elder is a UK service that matches older adults needing round-the-clock help with vetted live-in carers within 24 hours, handling matching, contracts and backup cover while charging families a weekly care fee.",
+    "desc_cn": "Elder 是英国居家全时照护服务，24 小时内为需全天候照料的老人匹配经审核的住家护理员，负责匹配、合同与替补，按周向家庭收费。",
+    "business_model_cn": "按周照护费"
+  },
+  "Patronus": {
+    "description": "Patronus, based in Berlin, sells a smartwatch with built-in SIM that connects seniors directly to a 24/7 emergency call centre and a companion app that updates relatives on location and wellbeing, on a device-plus-subscription model.",
+    "desc_cn": "Patronus 总部位于柏林，销售内置 SIM 卡的智能应急手表，老人可一键直连 24 小时急救中心，配套应用向家属实时同步位置与状态，走设备加订阅模式。",
+    "business_model_cn": "硬件+订阅费"
+  },
+  "Aloe Care Health": {
+    "description": "Aloe Care Health makes a 4G smart-home hub with fall detection, motion and voice alerts that notify a family/caregiver app, sold with monitoring plans to older adults and their remote care circles.",
+    "desc_cn": "Aloe Care Health 制造含跌倒检测、动作与语音告警的 4G 智能家居中枢，向家属与照护者应用推送提醒，配合监测套餐售予老人及其远程照护圈。",
+    "business_model_cn": "硬件+监测套餐"
+  },
+  "Cuideo": {
+    "description": "Cuideo is a Spanish service that assigns trained local carers to older adults for ongoing home care—personal care, meals, companionship—billing families a recurring monthly fee and vetting staff centrally.",
+    "desc_cn": "Cuideo 是西班牙居家照护服务，为老人指派本地受训护理员做长期个人照料、用餐与陪伴，向家庭收月度定期费并集中审核人员。",
+    "business_model_cn": "月度定期费"
+  },
+  "Herewith": {
+    "description": "Herewith is a San Francisco service that screens care professionals through background checks and virtual interviews, then matches them with families needing in-home care for seniors, charging placement and management fees.",
+    "desc_cn": "Herewith 是旧金山上门照护服务，通过背景调查与视频面试筛选护理员，再匹配给需居家照护老人的家庭，收取匹配与管理费。",
+    "business_model_cn": "匹配+管理费"
+  },
+  "Empassion Health": {
+    "description": "Empassion Health coordinates advanced-illness and palliative care for frail, seriously ill older adults, aligning medical, social and family support through a care-coordination team paid by health plans and provider groups.",
+    "desc_cn": "Empassion Health 为体弱重病老人协调晚期与舒缓疗护，由协调团队整合医疗、社会与家庭支持，向健康险公司与医疗集团结算费用。",
+    "business_model_cn": "B2B健康险结算"
+  },
+  "eCaring": {
+    "description": "eCaring sells home-care agency software with electronic visit verification, caregiver scheduling, point-of-care charts and same-day caregiver pay, helping agencies comply with Medicaid EVV rules and manage shifts.",
+    "desc_cn": "eCaring 销售居家照护机构管理软件，含电子查勤、护理员排班、到点记录与当日结算薪酬，协助机构满足医疗补助查勤规定并管理班次。",
+    "business_model_cn": "B2B SaaS订阅"
+  }
+}

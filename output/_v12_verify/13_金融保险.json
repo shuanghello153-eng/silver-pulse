@@ -1,0 +1,942 @@
+{
+ "bundle": "13_金融保险",
+ "L2_TO_L1": {
+  "保险科技": "金融保险",
+  "保险": "金融保险",
+  "金融理财": "金融保险",
+  "金融服务": "金融保险",
+  "遗产规划": "?",
+  "长护险经办": "?"
+ },
+ "synonyms": {
+  "保险科技": [
+   "InsurTech",
+   "保险科技",
+   "保险科技平台",
+   "保险科技服务",
+   "保险科技解决方案"
+  ],
+  "保险": [
+   "Medicare Advantage",
+   "保险",
+   "保险(MA)/初级保健",
+   "保险助手",
+   "保险服务",
+   "保险经纪",
+   "医疗保险",
+   "医疗保险+诊所",
+   "医疗保险计划",
+   "医疗险"
+  ],
+  "金融理财": [
+   "理财",
+   "财务规划",
+   "财富管理",
+   "资产配置",
+   "金融理财"
+  ],
+  "金融服务": [
+   "企业金融",
+   "支付金融",
+   "资金管理",
+   "金融服务",
+   "金融解决方案"
+  ],
+  "遗产规划": [
+   "财富传承",
+   "身后事规划",
+   "遗产规划",
+   "遗产记录"
+  ],
+  "长护险经办": [
+   "长护险",
+   "长护险经办",
+   "长期护理险经办"
+  ]
+ },
+ "tags": {
+  "保险科技": [
+   {
+    "name": "CareVoice",
+    "name_en": "CareVoice",
+    "description": "CareVoice 是一家总部位于上海/香港的保险科技公司（2014年成立），为健康与寿险公司提供 CareVoiceOS——一套基于API的数字化健康操作系统，覆盖症状分诊、医生查询、保单管理与理赔自动化，服务全球30余家保险公司，2024年完成千万美元级B轮融资。",
+    "desc_cn": "帮助保险公司将健康和保健功能整合到平台",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Chapter",
+    "name_en": "Chapter",
+    "description": "数字健康初创公司，帮助老年人了解医疗保险方案。成立于2020年。",
+    "desc_cn": "数字健康初创公司，帮助老年人了解医疗保险方案。成立于2020年。",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Coinbase",
+    "name_en": "Coinbase",
+    "description": "面向银发经济的行业服务企业，围绕保险科技等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕保险科技等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Alaffia Health",
+    "name_en": "Alaffia Health",
+    "description": "生成式AI简化健康计划索赔操作",
+    "desc_cn": "生成式AI简化健康计划索赔操作",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Anatomy Financial",
+    "name_en": "Anatomy Financial",
+    "description": "AI金融操作系统，向医疗保险公司收费",
+    "desc_cn": "AI金融操作系统，向医疗保险公司收费",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Assured Allies",
+    "name_en": "Assured Allies",
+    "description": "数据驱动的健康干预帮助老年人更健康生活，降低理赔风险",
+    "desc_cn": "数据驱动的健康干预帮助老年人更健康生活，降低理赔风险",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "circleengage",
+    "name_en": "circleengage",
+    "description": "面向银发经济的行业服务企业，围绕保险科技等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕保险科技等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Cohere Health",
+    "name_en": "Cohere Health",
+    "description": "面向银发人群的银发社交与文娱平台企业，主营人工智能相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营人工智能相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Daffodil Health",
+    "name_en": "Daffodil Health",
+    "description": "生成式AI为付款人自动化网络外定价",
+    "desc_cn": "生成式AI为付款人自动化网络外定价",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "DigitalOwl",
+    "name_en": "DigitalOwl",
+    "description": "面向银发人群的银发社交与文娱平台企业，主营人工智能相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营人工智能相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Nirvana",
+    "name_en": "Nirvana",
+    "description": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "business_model_cn": "B2C/B2B 老年文娱社交平台",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Spark Advisors",
+    "name_en": "Spark Advisors",
+    "description": "帮助医疗保险经纪人进行营销、销售支持、后台管理",
+    "desc_cn": "帮助医疗保险经纪人进行营销、销售支持、后台管理",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Trusty.care",
+    "name_en": "Trusty.care",
+    "description": "Trusty.care gives insurance agents a quoting and enrollment system for Medicare Advantage, Supplement and long-term-care policies, with client needs-analysis and carrier connectivity, charging agents and agencies a subscription.",
+    "desc_cn": "Trusty.care 为保险代理人供应联邦医保优势、补充险与长期护理险的报价与投保系统，含客户需求和分析与保险公司对接，向代理人收订阅费。",
+    "business_model_cn": "B2B SaaS订阅",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "国民养老保险",
+    "name_en": "国民养老保险",
+    "description": "国内专业养老保险公司，由17家产业与金融股东共同出资设立，聚焦养老保险、养老理财与第三支柱养老金融，是养老金融高质量发展方案下的代表性持牌机构。",
+    "desc_cn": "国内专业养老保险公司，由17家产业与金融股东共同出资设立，聚焦养老保险、养老理财与第三支柱养老金融，是养老金融高质量发展方案下的代表性持牌机构。",
+    "business_model_cn": "B2B/B2C 养老保险+养老理财(持牌)",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Capital Rx",
+    "name_en": "Capital Rx",
+    "description": "新一代药品福利管理(PBM)平台，以透明化技术重构处方药报销，降低自费与医保支出。纽约；Series C。",
+    "desc_cn": "新一代药品福利管理(PBM)平台，以透明化技术重构处方药报销，降低自费与医保支出。纽约；Series C。",
+    "business_model_cn": "透明化药品福利管理(PBM)",
+    "tag_l2": [
+     "保险科技"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   }
+  ],
+  "保险": [
+   {
+    "name": "Humana / Aetna / UnitedHealth / Cigna",
+    "name_en": "Humana / Aetna / UnitedHealth / Cigna",
+    "description": "美国四大健康保险巨头（Humana、Aetna、UnitedHealth、Cigna），在Medicare Advantage市场占据主导地位，是美国老年健康保险市场的核心参与者。",
+    "desc_cn": "美国四大健康保险巨头（Humana、Aetna、UnitedHealth、Cigna），在Medicare Advantage市场占据主导地位，是美国老年健康保险市场的核心参与者。",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "凯撒医疗",
+    "name_en": "凯撒医疗",
+    "description": "Kaiser Permanente（凯撒医疗）是美国最大的非营利性整合医疗体系，服务1200万+会员，在老年健康管理和Medicare Advantage市场占据重要地位。",
+    "desc_cn": "Kaiser Permanente（凯撒医疗）是美国最大的非营利性整合医疗体系，服务1200万+会员，在老年健康管理和Medicare Advantage市场占据重要地位。",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "联邦医疗保险优势计划",
+    "name_en": "联邦医疗保险优势计划",
+    "description": "Medicare Advantage（联邦医疗保险优势计划，又称Part C）是美国政府Medicare的私营化版本，由商业保险公司运营，覆盖超过50%的Medicare受益人（约3100万人）。",
+    "desc_cn": "Medicare Advantage（联邦医疗保险优势计划，又称Part C）是美国政府Medicare的私营化版本，由商业保险公司运营，覆盖超过50%的Medicare受益人（约3100万人）。",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Humana",
+    "name_en": "Humana",
+    "description": "美国头部Medicare Advantage运营商",
+    "desc_cn": "美国头部Medicare Advantage运营商",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Aetna",
+    "name_en": "Aetna",
+    "description": "美国头部Medicare Advantage运营商",
+    "desc_cn": "美国头部Medicare Advantage运营商",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "UnitedHealth",
+    "name_en": "UnitedHealth",
+    "description": "美国头部Medicare Advantage运营商",
+    "desc_cn": "美国头部Medicare Advantage运营商",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Cigna",
+    "name_en": "Cigna",
+    "description": "美国头部Medicare Advantage运营商",
+    "desc_cn": "美国头部Medicare Advantage运营商",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Clever Care Health Plan",
+    "name_en": "Clever Care Health Plan",
+    "description": "文化包容性Medicare Advantage计划，东方福利",
+    "desc_cn": "文化包容性Medicare Advantage计划，东方福利",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Devoted Health",
+    "name_en": "Devoted Health",
+    "description": "Devoted Health 成立于2017年，由Todd Park与Ed Park兄弟创办，是一家面向老年人群的Medicare Advantage健康险公司（覆盖美国29州），将保险计划与自研Orinoco技术平台、Devoted Medical虚拟/居家医疗及\"健康向导\"个性化服务结合，累计融资超22亿美元。",
+    "desc_cn": "现代医疗保险优势计划提供商，服务14万+会员",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Remodel Health",
+    "name_en": "Remodel Health",
+    "description": "雇主和经纪人应对ICHRA过渡",
+    "desc_cn": "雇主和经纪人应对ICHRA过渡",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Sidecar Health",
+    "name_en": "Sidecar Health",
+    "description": "Sidecar Health sells affordable, transparent health insurance that gives members a Visa benefit card to pay clinicians directly at negotiated rates, letting them shop for care without network restrictions.",
+    "desc_cn": "Sidecar Health 出售透明定价的健康险，会员持签证福利卡按协商价直接向诊所付费，可自主选择就医机构而不受限网络。",
+    "business_model_cn": "保费收入",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Clover Health",
+    "name_en": "Clover Health",
+    "description": "以技术驱动的Medicare Advantage健康险公司（NASDAQ:CLOV），用Clover Assistant赋能医生决策。",
+    "desc_cn": "以技术驱动的Medicare Advantage健康险公司（NASDAQ:CLOV），用Clover Assistant赋能医生决策。",
+    "business_model_cn": "B2B2C Medicare Advantage保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Alignment Health",
+    "name_en": "Alignment Health",
+    "description": "以人为中心的Medicare Advantage健康险公司（NASDAQ:ALHC），强调慢病管理与个性化照护。",
+    "desc_cn": "以人为中心的Medicare Advantage健康险公司（NASDAQ:ALHC），强调慢病管理与个性化照护。",
+    "business_model_cn": "B2B2C Medicare Advantage保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "CareMax",
+    "name_en": "CareMax",
+    "description": "为Medicare受益人与复杂慢病人群提供综合医疗与养老关怀服务的上市公司（NASDAQ:CMAX）。",
+    "desc_cn": "为Medicare受益人与复杂慢病人群提供综合医疗与养老关怀服务的上市公司（NASDAQ:CMAX）。",
+    "business_model_cn": "B2B2C Medicare医疗+养老",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "SCAN Health Plan",
+    "name_en": "SCAN Health Plan",
+    "description": "美国大型非营利Medicare Advantage健康计划，专注老年人群，提供MA与健康计划服务。",
+    "desc_cn": "美国大型非营利Medicare Advantage健康计划，专注老年人群，提供MA与健康计划服务。",
+    "business_model_cn": "B2B2C Medicare Advantage保险",
+    "tag_l2": [
+     "保险"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   }
+  ],
+  "金融理财": [
+   {
+    "name": "Cake",
+    "name_en": "Cake",
+    "description": "全场景临终规划与文档管理",
+    "desc_cn": "全场景临终规划与文档管理",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Pivotal Ventures",
+    "name_en": "Pivotal Ventures",
+    "description": "Pivotal Ventures是Melinda French Gates创立的投资和慈善机构，关注女性经济赋权和老年人财务安全，在银发经济领域有战略投资布局。",
+    "desc_cn": "Pivotal Ventures是Melinda French Gates创立的投资和慈善机构，关注女性经济赋权和老年人财务安全，在银发经济领域有战略投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Silvur",
+    "name_en": "Silvur",
+    "description": "Silvur（前称Kindur，2016年成立）是一家退休财务规划金融科技公司，为信用合作社与金融机构提供白标\"Retirement Simplified\"平台，核心是基于数千变量的\"退休评分\"工具，帮助50岁以上用户测算退休金可持续性与社保、医保优化，并集成Medicare投保指导；累计融资约2000万美元。",
+    "desc_cn": "退休财务规划工具",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Vynca",
+    "name_en": "Vynca",
+    "description": "预立医疗指示数字化",
+    "desc_cn": "预立医疗指示数字化",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "401GO",
+    "name_en": "401GO",
+    "description": "面向银发经济的行业服务企业，围绕养老金融等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕养老金融等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "LifeAfterMe",
+    "name_en": "LifeAfterMe",
+    "description": "确保亲人不必担心收集重要数字数据",
+    "desc_cn": "确保亲人不必担心收集重要数字数据",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Luminary",
+    "name_en": "Luminary",
+    "description": "Luminary builds AI-powered estate and wealth-transfer planning software for financial, legal and tax advisors, turning trust and will documents into visual models that simulate gifting, charitable and generational transfer strategies.",
+    "desc_cn": "Luminary为财富、法律与税务顾问开发遗产与财富传承规划软件，借助AI抽取信托与遗嘱数据并模拟赠与、慈善及代际传承方案，面向老龄化客户的资产传递需求。",
+    "business_model_cn": "B2B SaaS订阅",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "NewRetirement",
+    "name_en": "NewRetirement",
+    "description": "数字优先退休理财规划服务",
+    "desc_cn": "数字优先退休理财规划服务",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Nestimate",
+    "name_en": "Nestimate",
+    "description": "Nestimate builds analytics software that helps 401(k) fiduciaries, advisers and recordkeepers evaluate and embed guaranteed lifetime-income options inside defined-contribution plans, licensed as a B2B subscription.",
+    "desc_cn": "Nestimate 开发分析软件，协助 401(k) 受托人、顾问与账管机构评估并把保底终身收入产品嵌入缴费确定型退休计划，以 B2B 订阅授权。",
+    "business_model_cn": "B2B SaaS订阅",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Guaranteed",
+    "name_en": "Guaranteed",
+    "description": "面向老年人的退休理财与年金咨询平台，帮助规划退休收入，获Cake Ventures投资。",
+    "desc_cn": "面向老年人的退休理财与年金咨询平台，帮助规划退休收入，获Cake Ventures投资。",
+    "business_model_cn": "B2B2C 退休理财规划",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Bright",
+    "name_en": "Bright",
+    "description": "退休收入与理财规划平台，帮助临近退休人群优化储蓄与支出，获Cake Ventures投资。",
+    "desc_cn": "退休收入与理财规划平台，帮助临近退休人群优化储蓄与支出，获Cake Ventures投资。",
+    "business_model_cn": "B2B2C 退休理财规划",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Vestwell",
+    "name_en": "Vestwell",
+    "description": "职场养老金/退休储蓄科技平台，为企业提供自动化、合规的退休计划管理。纽约；Seedtable 2026老年护理榜评分第一（Series E）。",
+    "desc_cn": "职场养老金/退休储蓄科技平台，为企业提供自动化、合规的退休计划管理。纽约；Seedtable 2026老年护理榜评分第一（Series E）。",
+    "business_model_cn": "B2B 职场养老金科技平台",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Warren",
+    "name_en": "Warren",
+    "description": "比利时职场养老金平台兼财务教练服务，弥补补充养老金体系短板。2026年6月完成1000万欧元融资。",
+    "desc_cn": "比利时职场养老金平台兼财务教练服务，弥补补充养老金体系短板。2026年6月完成1000万欧元融资。",
+    "business_model_cn": "职场养老金+财务教练(比利时)",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Pensionbox",
+    "name_en": "Pensionbox",
+    "description": "印度退休储蓄金融科技，面向国家养老金体系(NPS)提供产品与分销。2026年2月获Zerodha 200万美元投资。",
+    "desc_cn": "印度退休储蓄金融科技，面向国家养老金体系(NPS)提供产品与分销。2026年2月获Zerodha 200万美元投资。",
+    "business_model_cn": "印度国家养老金(NPS)金融科技",
+    "tag_l2": [
+     "金融理财"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   }
+  ],
+  "金融服务": [
+   {
+    "name": "银行＆保险公司",
+    "name_en": "银行＆保险公司",
+    "description": "银行养老理财、保险年金、增额终身寿等银发主流理财渠道",
+    "desc_cn": "银行养老理财、保险年金、增额终身寿等银发主流理财渠道",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "True Link Financial",
+    "name_en": "True Link Financial",
+    "description": "为老年人和残疾人管理资金、防止金融欺诈。管理资产超10亿美元，服务家庭超25万。",
+    "desc_cn": "为老年人和残疾人管理资金、防止金融欺诈。管理资产超10亿美元，服务家庭超25万。",
+    "business_model_cn": "B2C 老年金融理财",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "美国银行",
+    "name_en": "美国银行",
+    "description": "Bank of America（美国银行）在银发经济领域提供退休规划、财富管理、老年金融防欺诈等服务，是全球最大的退休账户管理机构之一。",
+    "desc_cn": "Bank of America（美国银行）在银发经济领域提供退休规划、财富管理、老年金融防欺诈等服务，是全球最大的退休账户管理机构之一。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Eversafe",
+    "name_en": "Eversafe",
+    "description": "老年金融诈骗监测与防护",
+    "desc_cn": "老年金融诈骗监测与防护",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "富达投资",
+    "name_en": "富达投资",
+    "description": "Fidelity Investments（富达投资）是全球最大的资产管理公司之一，管理资产超过4万亿美元，在退休规划和养老金融领域是行业标杆。",
+    "desc_cn": "Fidelity Investments（富达投资）是全球最大的资产管理公司之一，管理资产超过4万亿美元，在退休规划和养老金融领域是行业标杆。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Golden",
+    "name_en": "Golden",
+    "description": "老年人资金安全管理服务",
+    "desc_cn": "老年人资金安全管理服务",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "摩根大通",
+    "name_en": "摩根大通",
+    "description": "JPMorgan Chase（摩根大通）是全球最大的金融服务公司之一，通过其Age-Linked投资策略和JPMorgan Asset Management布局银发经济赛道。",
+    "desc_cn": "JPMorgan Chase（摩根大通）是全球最大的金融服务公司之一，通过其Age-Linked投资策略和JPMorgan Asset Management布局银发经济赛道。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "美林证券，美国银行旗下",
+    "name_en": "美林证券，美国银行旗下",
+    "description": "美林证券（Merrill Lynch，现属美国银行 Bank of America）是全球领先的投资银行与财富管理机构，为个人与机构客户提供证券经纪、资产管理与退休理财规划服务，是养老金融领域重要的退休金与IRA管理方之一。",
+    "desc_cn": "面向全年龄段提供财富管理、退休规划服务",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "保德信金融",
+    "name_en": "保德信金融",
+    "description": "Prudential Financial（保德信金融）是全球最大的金融服务公司之一，在退休金管理、年金和老年财富规划领域是行业领导者。",
+    "desc_cn": "Prudential Financial（保德信金融）是全球最大的金融服务公司之一，在退休金管理、年金和老年财富规划领域是行业领导者。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Silver Bills",
+    "name_en": "Silver Bills",
+    "description": "面向银发经济的行业服务企业，围绕养老金融等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕养老金融等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "True Link",
+    "name_en": "True Link",
+    "description": "True Link Financial 成立于2012年（旧金山），是一家专注弱势群体财务保护的金融科技公司，核心产品为可自定义消费规则的True Link Visa预付卡，能屏蔽电话诈骗、可疑商户以防范老年人金融欺诈与滥用，并为特殊需要信托、代表受款人提供投资管理与信托服务；管理资产超16亿美元。",
+    "desc_cn": "为老年人提供账单管理、限额支付卡等服务",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Carefull",
+    "name_en": "Carefull",
+    "description": "AI帮助银行和理财顾问保护老年客户免受金融诈骗",
+    "desc_cn": "AI帮助银行和理财顾问保护老年客户免受金融诈骗",
+    "business_model_cn": "B2B 咨询服务",
+    "tag_l2": [
+     "金融服务"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   }
+  ],
+  "遗产规划": [
+   {
+    "name": "Empathy",
+    "name_en": "Empathy",
+    "description": "面向银发人群的临终关怀与安宁疗护企业，主营临终关怀相关的服务（如居家临终照护、家属哀伤支持、安宁疗护等），为临终老人及家庭提供身心慰藉，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的临终关怀与安宁疗护企业，主营临终关怀相关的服务（如居家临终照护、家属哀伤支持、安宁疗护等），为临终老人及家庭提供身心慰藉，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 临终关怀与安宁疗护",
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Everplans",
+    "name_en": "Everplans",
+    "description": "面向银发经济的行业服务企业，围绕临终关怀等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕临终关怀等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "FreeWill",
+    "name_en": "FreeWill",
+    "description": "在线遗嘱订立、遗产规划工具",
+    "desc_cn": "在线遗嘱订立、遗产规划工具",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "GoodTrust",
+    "name_en": "GoodTrust",
+    "description": "遗产规划、数字资产继承",
+    "desc_cn": "遗产规划、数字资产继承",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Artifcts",
+    "name_en": "Artifcts",
+    "description": "面向银发（中老年）人群的老年文娱领域企业，主营遗产记录业务：提供记忆与遗产的数字化记录与分享",
+    "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营遗产记录业务：提供记忆与遗产的数字化记录与分享",
+    "business_model_cn": "B2C/B2B 老年文娱社交平台",
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Trust & Will",
+    "name_en": "Trust & Will",
+    "description": "在线遗嘱与信托设立平台企业，帮助家庭便捷完成遗产与临终法律安排，服务于个人与家庭的养老金融需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "在线遗嘱与信托设立平台企业，帮助家庭便捷完成遗产与临终法律安排，服务于个人与家庭的养老金融需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C 养老金融/遗产规划",
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   }
+  ],
+  "长护险经办": [
+   {
+    "name": "福寿康",
+    "name_en": "福寿康",
+    "description": "国内头部居家养老护理服务连锁品牌，成立于上海，业务覆盖全国数十个城市，提供居家护理、长护险服务、康复训练等。已完成多轮融资，投资方包括红杉中国等。",
+    "desc_cn": "国内头部居家养老护理服务连锁品牌，成立于上海，业务覆盖全国数十个城市，提供居家护理、长护险服务、康复训练等。已完成多轮融资，投资方包括红杉中国等。",
+    "business_model_cn": "B2C/B2B 加盟连锁",
+    "tag_l2": [
+     "长护险经办"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "颐家",
+    "name_en": "颐家",
+    "description": "居家养老护理服务商，成立于上海，提供居家护理、康复、陪护等服务，是上海长护险定点服务机构。",
+    "desc_cn": "居家养老护理服务商，成立于上海，提供居家护理、康复、陪护等服务，是上海长护险定点服务机构。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "长护险经办"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "璞缘照护",
+    "name_en": "璞缘照护",
+    "description": "专注居家护理养老服务，在全国30个城市连锁布局长护定点业务，以社区为依托，承接多地社区日照、养老服务中心、养老驿站的运营服务。2023.03 A轮融资数千万元",
+    "desc_cn": "专注居家护理养老服务，在全国30个城市连锁布局长护定点业务，以社区为依托，承接多地社区日照、养老服务中心、养老驿站的运营服务。2023.03 A轮融资数千万元",
+    "business_model_cn": "B2C/B2B 加盟连锁",
+    "tag_l2": [
+     "长护险经办"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "Yurtle",
+    "name_en": "Yurtle",
+    "description": "Yurtle is a UK employee-benefit that blends caregiver insurance cash payouts, a vetted care-provider marketplace and an AI care-ally app to reduce workplace absence, sold to employers as a per-employee subscription.",
+    "desc_cn": "Yurtle 是英国雇主员工福利，结合照护者保险现金给付、经筛选的照护机构名单与 AI 助手应用以减少误工，按每位员工订阅向雇主收费。",
+    "business_model_cn": "B2B按人订阅",
+    "tag_l2": [
+     "长护险经办"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   },
+   {
+    "name": "The Helper Bees",
+    "name_en": "The Helper Bees",
+    "description": "The Helper Bees operates a home-care marketplace and care-concierge service integrated with Medicare Advantage and insurance plans, matching members to vetted caregivers and managing benefits-funded in-home support.",
+    "desc_cn": "The Helper Bees 运营与医疗保险优势计划对接的居家照护市场与顾问服务，为会员匹配经审核的护理人员并管理福利内上门支持。",
+    "business_model_cn": "B2B佣金+服务费",
+    "tag_l2": [
+     "长护险经办"
+    ],
+    "tag_l1": [
+     "金融保险"
+    ]
+   }
+  ]
+ }
+}

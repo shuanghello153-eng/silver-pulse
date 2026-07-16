@@ -1,0 +1,192 @@
+# -*- coding: utf-8 -*-
+import json
+
+SRC = 'G:/workbuddy/2026-06-28-23-34-20/silver-pulse/output/_v12_bigtags.json'
+OUT = 'G:/workbuddy/2026-06-28-23-34-20/silver-pulse/output/_v12_split_TD3.json'
+
+d = json.load(open(SRC, encoding='utf-8'))
+keys = ['健康监测','AI','智能硬件','养老机构','营养食品','适老化改造','文娱','专业护理','机器人','医疗器械']
+
+# mapping[source_tag][member_key] = [target L2 tags]
+M = {
+ '健康监测': {
+   '百芝龙':['智慧养老'],'享睡':['睡眠监测'],'星巡智能':['智慧养老'],'lyflynks':['用药管理'],
+   '兆观智能':['体检筛查'],'享睡Sleepace':['睡眠监测'],'CarePredict':['跌倒监测'],
+   'Current Health':['慢病管理'],'Aktiia':['慢病管理'],'Apple':['跌倒监测','助听器'],
+   'CardioSignal':['体检筛查'],'Cloud DX':['慢病管理'],'CoachCare':['慢病管理'],
+   'HealthArc':['慢病管理'],'Hyfe AI':['慢病管理'],'Metyos':['慢病管理'],'MindMics':['慢病管理'],
+   'Modivcare':['远程护理'],'OneStep':['跌倒监测'],'SafelyYou':['跌倒监测'],'Sava':['慢病管理'],
+   'SomaReality':['认知训练'],'万蕴':['跌倒监测'],'Videra Health':['心理健康'],'Voxela':['跌倒监测'],
+   '百思买健康':['远程护理'],'Clairvoyant Networks':['慢病管理'],'DNX':['远程护理'],
+   'GrandCare Systems':['智慧养老'],'Cooey Health':['远程护理'],'Sensi':['远程护理'],
+   'Sensara':['跌倒监测'],'Wanda Health':['慢病管理'],'Percipio Health':['慢病管理'],
+   'Cherish':['跌倒监测'],'Cera｜英国居家医疗AI':['远程护理'],'中科华意':['认知训练'],
+   'Idoven':['体检筛查'],'Kraydel':['跌倒监测'],'Tunstall':['远程护理'],'Lifted':['跌倒监测'],
+   'Watcherr':['跌倒监测'],
+ },
+ 'AI': {
+   '清澜技术':['智慧养老'],'甲子科技':['智慧养老'],'Lyft Health':['上门'],'IBM':['就业'],
+   'Alaffia Health':['保险科技'],'Anatomy Financial':['保险科技'],'Citizen Health':['平台'],
+   'Cohere Health':['保险科技'],'Credo Health':['AI医疗'],'Daffodil Health':['保险科技'],
+   'DigitalOwl':['保险科技'],'Friendi.fi':['社交'],'Infinitus Systems':['平台'],'Miihealth':['慢病管理'],
+   'Somnee':['睡眠监测'],'SpinSci':['平台'],'Thoughtful AI':['保险科技'],'Thrive AI Health':['慢病管理'],
+   'Together by Renee':['用药管理'],'Two Chairs':['平台'],'Voiceitt':['康复医疗'],'Duos':['保险'],
+   'Google Gemini AI 健康教练':['慢病管理'],'Hippocratic AI':['AI医疗'],'Care Daily':['智慧养老'],
+   'Jona':['平台'],'新奈医疗':['睡眠监测'],'智医向量':['AI医疗'],'Zingage':['居家护理'],
+   'Gladys':['居家护理'],'Cadence':['慢病管理'],'Enzo Health':['临终关怀'],
+   'Callie Care｜语音AI照护':['社交'],'Neurable':['认知训练'],'深睿医疗':['AI医疗'],
+   '阶梯医疗':['AI医疗'],'AIM':['AI医疗'],'Jubo':['智慧养老'],
+ },
+ '智能硬件': {
+   '百芝龙':['智慧养老'],'作为科技':['跌倒监测'],'倍轻松':['个人护理'],'兆观':['睡眠监测'],
+   '博博科技':['跌倒监测'],'唯艾':['个人护理'],'心永科技':['慢病管理'],'达旦无极':['跌倒监测'],
+   '唯艾科技':['个人护理'],'苗米科技':['跌倒监测'],'Inspiren':['智慧养老'],'亚马逊':['智慧养老'],
+   '宝马':['智慧养老'],'元公司（Meta）':['认知训练'],'GreatCall':['跌倒监测'],'三星':['智慧养老'],
+   '6Degrees':['智慧养老'],'AceAge':['用药管理'],'Embr Labs':['女性健康'],'HiDO':['用药管理'],
+   'Kalogon':['轮椅'],'Lilli':['远程护理'],'Lotus Ring':['智慧养老'],'Nobi':['跌倒监测'],
+   'Toi Labs':['智慧养老'],'欧若拉':['慢病管理'],'飞利浦（Lifeline）':['跌倒监测'],'Orion':['睡眠监测'],
+   '八睡眠':['睡眠监测'],'ONSCREEN':['社交'],'Brava':['智慧养老'],'GrandCare Systems':['智慧养老'],
+   'GrandPad':['社交'],'PalCare':['远程护理'],'Haelo':['跌倒监测'],'九为健康':['智慧养老'],
+   '京东方':['智慧养老'],'松延动力':['陪伴机器人'],
+ },
+ '养老机构': {
+   '南京新百':['居家护理'],'织生科技':['认知训练'],'集思鸣智':['认知训练'],'鹤灵医疗':['康复医疗'],
+   '东方华康':['康复医疗'],'和家健脑':['认知训练'],'康语轩':['认知症'],'美邸中国':['认知症'],
+   '脑动极光':['认知训练'],'虚之实':['认知训练'],'记忆家':['认知症'],'松龄护老':['居家护理'],
+   '复星保德信颐养':['养老社区'],'厚福医疗':['护理床'],'天佑安康':['咨询研究'],
+   'Athulya Senior Care':['居家护理'],'Rippl Care':['心理健康'],'A Place for Mom':['咨询研究'],
+   '布鲁克代尔':['养老社区'],'Hebrew Senior Life':['养老社区'],'Riverspring Living':['康复医疗'],
+   'Artis Senior Living':['养老社区'],'Brightview Senior Living':['认知症'],'Log my Care':['平台'],
+   'Lottie':['平台'],'SeniorHousingLiving':['平台'],'Welbi':['养老社区'],'华晶科技':['智慧养老'],
+   'Pansy Homecare':['居家护理'],'Lizzy Care':['居家护理'],'Ensign 集团':['康复医疗'],
+   'LTC 地产':['康养地产'],'Clariane（原 Korian）':['养老社区'],'Emeis（原 Orpea）':['养老社区'],
+   'OnShift':['护理人力'],'PARO':['陪伴机器人'],
+ },
+ '营养食品': {
+   'WonderLab':['保健品'],'养乃世家':['保健品'],'冬泽':['特医食品'],'yooLab':['个性化营养'],
+   '维小饭':['个性化营养'],'玛土撒拉':['特医食品'],'麦孚营养':['特医食品'],'冬泽特医':['特医食品'],
+   '优生活羊奶':['保健品'],'Air Protein':['保健品'],'Bioniq':['个性化营养'],'Bobbie':['保健品'],
+   'ByHeart':['保健品'],'Day Two':['个性化营养'],'DiningRD':['膳食配送'],'Foodsmart':['膳食配送'],
+   'Huel':['保健品'],'Mealogic':['膳食配送'],'Mend':['个性化营养'],'Modify Health':['膳食配送'],
+   'Nourish':['个性化营养'],'NourishedRx':['膳食配送'],'PurFoods':['膳食配送'],'RxDiet':['个性化营养'],
+   'YgEia3':['保健品'],'Healthnix':['个性化营养'],'Miils':['个性化营养'],'澳维诺':['保健品'],
+   '好健康':['保健品'],'因你inne':['保健品'],'Seraphina Therapeutics (fatty15)':['保健品'],
+   'Mom\'s Meals':['膳食配送'],'Silver Cuisine':['膳食配送'],'Magic Kitchen':['膳食配送'],
+   'Kate Farms':['特医食品'],'脂代科技':['保健品'],
+ },
+ '适老化改造': {
+   '特霍芬':['智慧养老'],'万德厨':['适老家居'],'中匠福':['适老家居'],'云芯信息':['适老家居'],
+   '佛山建泰':['适老家居'],'佛山永爱':['适老家居'],'台格':['适老家居'],'和乐春晖':['适老家居'],
+   '嘉年乐':['适老家居'],'天华设计':['适老家居'],'安馨康养':['适老家居'],'志贺康养':['适老家居'],
+   '悠幸':['适老家居'],'救救帮':['适老家居'],'来邦科技':['适老家居'],'栖城设计':['适老家居'],
+   '沐恒实业':['适老家居'],'爱牵挂':['适老家居'],'盛通养老':['适老家居'],'福康通':['适老家居'],
+   '遇禾规划':['适老家居'],'甲子科技(甲子养老)':['智慧养老'],'小咖云':['平台'],'101 Mobility':['轮椅'],
+   'K4Connect':['智慧养老'],'Steadiwear':['康复设备'],'大和房屋工业 (Daiwa House)':['康养地产'],
+   '积水房屋 (Sekisui House)':['康养地产'],'Stannah｜楼梯升降':['轮椅'],'Doro｜老人手机':['智慧养老'],
+   '华康岛':['适老家居'],'伊维养老':['适老家居'],
+ },
+ '文娱': {
+   '小年糕':['社交'],'彩视':['社交'],'闲趣岛':['旅游'],'乐龄圈':['社交'],'半月浮生':['教育'],
+   '就爱广场舞':['健身'],'心乐空间':['社交'],'摩登银龄':['社交'],'时尚奶奶团':['社交'],
+   '晶彩人生':['社交'],'最美芳华':['社交'],'爱风尚':['社交'],'票圈视频':['社交'],'糖豆':['社交'],
+   '老柚':['社交'],'舞动时代':['社交'],'退休俱乐部':['社交'],'遇见美好':['社交'],'银彩聚乐部':['社交'],
+   '链老网':['养老社区'],'锣钹科技':['社交'],'鹏翼时代':['社交'],'现名 CoGenerate':['就业'],
+   '网飞':['社交'],'AgeWell Global':['社交'],'Clever Care Health Plan':['保险'],'NeoSilver':['社交'],
+   'Seniorworld':['社交'],'Uniper｜抗孤独虚拟互动':['社交'],'The Joy Club':['会员俱乐部'],'Clyx':['社交'],
+ },
+ '专业护理': {
+   '抚理健康':['居家护理'],'一号护工':['居家护理'],'医护到家':['上门'],'小柏家护':['居家护理'],
+   '戴恩':['居家护理'],'擎浩护理':['居家护理'],'智宇孝老':['居家护理'],'柏老汇':['居家护理'],
+   '泰康安宁疗护':['临终关怀'],'泰心康护':['居家护理'],'爱侬养老':['居家护理'],'福寿家':['居家护理'],
+   '立奇电子':['居家护理'],'老友记':['居家护理'],'金牌护士':['居家护理'],'银汤屋':['居家护理'],
+   '阿福医疗':['居家护理'],'青鸟软通':['居家护理'],'小橙长护':['居家护理'],'Home Instead':['居家护理'],
+   'Geri Care':['康复医疗'],'Papa':['居家护理'],'hellocare.ai':['远程护理'],'Modivcare':['远程护理'],
+   'LHC Group':['居家护理'],'eCaring':['护理平台'],'Aline (Sherpa)':['护理平台'],'Smartcare':['护理平台'],
+   'PalCare':['远程护理'],'IntellaTriage':['远程护理'],'Cera｜英国居家医疗AI':['远程护理'],
+ },
+ '机器人': {
+   '优必选':['康复机器人'],'ForSight Robotics':['康复机器人'],'Labrador Systems':['服务机器人'],
+   'Amba':['康复机器人'],'Labrador':['服务机器人'],'Diligent Robotics':['服务机器人'],
+   '乐聚机器人':['人形机器人'],'麦迪科技':['康复机器人'],'达闼机器人':['人形机器人'],
+   '欧圣电气':['康复机器人'],'中科行智':['康复机器人'],'中科源码':['陪伴机器人'],
+   '森丽康科技':['陪伴机器人'],'腾讯':['服务机器人'],'海尔':['服务机器人'],'星动纪元':['服务机器人'],
+   '朗毅机器人':['人形机器人'],'骅羲智能':['人形机器人'],'Andromeda Robotics':['陪伴机器人'],
+   '银河通用':['人形机器人'],'自变量':['人形机器人'],'浙江人形机器人创新中心':['人形机器人'],
+   '星尘智能':['人形机器人'],'松延动力':['人形机器人'],'泉智博':['智能硬件'],'Cartken':['服务机器人'],
+   '钛米机器人':['康复机器人'],'LOVOT':['陪伴机器人'],'PARO':['陪伴机器人'],'Temi':['陪伴机器人'],
+   '达闼科技':['人形机器人'],
+ },
+ '医疗器械': {
+   '依瑞德':['神经调控'],'和佳医疗':['康复设备'],'品驰':['神经调控'],'景昱':['康复设备'],
+   '瑞尔齿科':['康复设备'],'美呀植牙':['康复设备'],'谊安医疗':['康复设备'],'通策医疗':['康复设备'],
+   '鱼跃':['康复设备'],'鼎植口腔':['康复设备'],'曼景科技':['神经调控'],'品驰医疗':['神经调控'],
+   '爱康医疗':['康复设备'],'Cala Health':['康复设备'],'Ellipsis Health':['康复医疗'],
+   'NeuroClues':['体检筛查'],'Starling Medical':['慢病管理'],'Tennr':['平台'],
+   'LambdaVision':['视觉辅助'],'SetPoint Medical':['神经调控'],'Intus Care':['慢病管理'],
+   'AdaptHealth':['康复设备'],'Optain Health':['视觉辅助'],'IrisVision':['视觉辅助'],
+   'eSight':['视觉辅助'],'NuEyes':['视觉辅助'],'九安医疗':['慢病管理'],'乐心医疗':['慢病管理'],
+   '三诺生物':['慢病管理'],'康泰医学':['慢病管理'],'翔宇医疗':['康复设备'],
+ },
+}
+
+# Fallback per source tag (guarantees coverage)
+FALLBACK = {
+ '健康监测':'慢病管理','AI':'平台','智能硬件':'智慧养老','养老机构':'养老社区',
+ '营养食品':'保健品','适老化改造':'适老家居','文娱':'社交','专业护理':'居家护理',
+ '机器人':'服务机器人','医疗器械':'康复设备',
+}
+
+REASSIGN = {}
+counts = {k:0 for k in keys}
+missing = []
+for k in keys:
+    for m in d[k]:
+        key = m.get('name_cn') or m.get('name')
+        if key in M[k]:
+            targets = M[k][key]
+        else:
+            targets = [FALLBACK[k]]
+            missing.append((k, key))
+        # merge into REASSIGN
+        if key in REASSIGN:
+            for t in targets:
+                if t not in REASSIGN[key]:
+                    REASSIGN[key].append(t)
+        else:
+            REASSIGN[key] = list(targets)
+        counts[k] += 1
+
+# Verify every member of the 10 tags is present exactly once in source iteration
+# Build NEW_TAGS from new tag definitions
+NEW_TAGS = {
+ '睡眠监测':{'l1':'医疗健康','members':['享睡','享睡Sleepace','兆观','八睡眠','Orion','Somnee','新奈医疗']},
+ '特医食品':{'l1':'食品营养','members':['冬泽','玛土撒拉','麦孚营养','冬泽特医','Kate Farms']},
+ '膳食配送':{'l1':'食品营养','members':['DiningRD','Foodsmart','Mealogic','Modify Health','NourishedRx','PurFoods','Mom\'s Meals','Silver Cuisine','Magic Kitchen']},
+ '个性化营养':{'l1':'食品营养','members':['yooLab','维小饭','Bioniq','Day Two','Healthnix','Miils','RxDiet','Mend','Nourish']},
+ '适老家居':{'l1':'养老服务','members':['万德厨','中匠福','云芯信息','佛山建泰','佛山永爱','台格','和乐春晖','嘉年乐','天华设计','安馨康养','志贺康养','悠幸','救救帮','来邦科技','栖城设计','沐恒实业','爱牵挂','盛通养老','福康通','遇禾规划','华康岛','伊维养老']},
+ '人形机器人':{'l1':'智能科技','members':['乐聚机器人','达闼机器人','浙江人形机器人创新中心','星尘智能','松延动力','银河通用','自变量','朗毅机器人','骅羲智能','达闼科技']},
+ '服务机器人':{'l1':'智能科技','members':['海尔','腾讯','星动纪元','Cartken','Labrador Systems','Labrador','Diligent Robotics']},
+ '视觉辅助':{'l1':'医疗健康','members':['LambdaVision','Optain Health','IrisVision','eSight','NuEyes']},
+ '神经调控':{'l1':'医疗健康','members':['依瑞德','品驰','曼景科技','品驰医疗','SetPoint Medical']},
+}
+
+# Sanity: every new-tag member must actually appear in REASSIGN (reassigned to that new tag)
+for nt, info in NEW_TAGS.items():
+    for mem in info['members']:
+        assert mem in REASSIGN, f'new tag {nt} member {mem} not in REASSIGN'
+        assert nt in REASSIGN[mem], f'new tag {nt} member {mem} not reassigned to {nt} -> {REASSIGN[mem]}'
+
+out = {'REASSIGN': REASSIGN, 'NEW_TAGS': NEW_TAGS}
+json.dump(out, open(OUT,'w',encoding='utf-8'), ensure_ascii=False, indent=1)
+
+print('REASSIGN entries:', len(REASSIGN))
+print('counts per source tag (members reassigned):')
+for k in keys:
+    print('  ', k, counts[k])
+print('new tags:', len(NEW_TAGS))
+for nt, info in NEW_TAGS.items():
+    print('  ', nt, '('+info['l1']+')', len(info['members']), 'members')
+if missing:
+    print('MISSING (used fallback):', missing)
+else:
+    print('No missing members; all explicitly mapped.')

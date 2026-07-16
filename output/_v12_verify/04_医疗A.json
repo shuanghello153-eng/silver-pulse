@@ -1,0 +1,3735 @@
+{
+ "bundle": "04_医疗A",
+ "L2_TO_L1": {
+  "护士上门": "?",
+  "认知数字疗法": "?",
+  "认知训练": "医疗健康",
+  "AI医疗": "医疗健康",
+  "诊所": "医疗健康",
+  "更年期": "医疗健康",
+  "健康监测": "医疗健康",
+  "居家照护": "?",
+  "安宁疗护": "?",
+  "居家医疗平台": "?",
+  "睡眠监测": "?",
+  "远程监护": "?",
+  "体检筛查": "医疗健康",
+  "心理健康": "医疗健康",
+  "居家医疗护理": "?",
+  "用药提醒": "?"
+ },
+ "synonyms": {
+  "护士上门": [
+   "护士上门",
+   "护士到家"
+  ],
+  "认知数字疗法": [
+   "数字认知训练",
+   "认知数字治疗",
+   "认知数字疗法"
+  ],
+  "认知训练": [
+   "脑力训练",
+   "认知训练"
+  ],
+  "AI医疗": [
+   "AI医疗",
+   "AI医疗代理",
+   "AI医疗客服",
+   "AI医疗解决方案",
+   "AI数字健康平台",
+   "AI辅助诊断",
+   "医学影像AI",
+   "医疗AI"
+  ],
+  "诊所": [
+   "clinic",
+   "医生集团",
+   "看病",
+   "社区诊所",
+   "诊所",
+   "诊所集团",
+   "连锁诊所",
+   "门诊"
+  ],
+  "更年期": [
+   "围绝经期",
+   "女性更年期",
+   "更年期",
+   "更年期健康",
+   "绝经期"
+  ],
+  "健康监测": [
+   "4D毫米波雷达",
+   "AI家庭传感器",
+   "AI防跌倒",
+   "PERS/RPM/智能科技",
+   "PERS/跌倒监测",
+   "vitals监测",
+   "传感监测",
+   "体征监测",
+   "体征追踪",
+   "健康分析",
+   "健康监测",
+   "健康记录",
+   "全身MRI",
+   "医疗警报",
+   "可穿戴监测",
+   "咳嗽检测",
+   "多传感器监测",
+   "安全呼叫",
+   "家庭健康评估",
+   "家庭监测",
+   "平衡恢复",
+   "平衡测量",
+   "心脏检测",
+   "心脏监测",
+   "摔倒监测",
+   "柔性传感",
+   "步态分析",
+   "步态检测",
+   "毫米波传感",
+   "毫米波监测",
+   "监护科技",
+   "自学习传感",
+   "血压监测",
+   "血压血糖",
+   "血糖监测",
+   "语音远程监测",
+   "跌倒/行为监测",
+   "跌倒检测",
+   "跌倒检测/紧急呼叫",
+   "跌倒监测",
+   "远程患者监测",
+   "防跌倒",
+   "防跌倒训练",
+   "雷达监测",
+   "非接触传感"
+  ],
+  "居家照护": [
+   "上门照料",
+   "居家养老护理",
+   "居家照护"
+  ],
+  "安宁疗护": [
+   "临终关怀",
+   "安宁疗护",
+   "缓和医疗"
+  ],
+  "居家医疗平台": [
+   "居家医疗平台",
+   "居家医院"
+  ],
+  "睡眠监测": [
+   "睡眠健康",
+   "睡眠监测",
+   "睡眠追踪"
+  ],
+  "远程监护": [
+   "远程健康监护",
+   "远程监护"
+  ],
+  "体检筛查": [
+   "checkup",
+   "体检",
+   "体检筛查",
+   "早筛",
+   "筛查"
+  ],
+  "心理健康": [
+   "VR培训",
+   "VR疗法",
+   "孤独干预",
+   "心理健康",
+   "心理健康服务",
+   "心理咨询",
+   "抑郁",
+   "焦虑/抑郁",
+   "睡眠CBT",
+   "神经助眠",
+   "精神健康",
+   "行为激活"
+  ],
+  "居家医疗护理": [
+   "上门医疗护理",
+   "居家医疗护理",
+   "居家护理服务"
+  ],
+  "用药提醒": [
+   "服药提醒",
+   "用药提醒",
+   "用药通知"
+  ]
+ },
+ "tags": {
+  "护士上门": [
+   {
+    "name": "安护通",
+    "name_en": "安护通",
+    "description": "居家护理服务平台，提供专业护理员上门服务，覆盖居家养老、术后护理、慢病管理等场景。",
+    "desc_cn": "居家护理服务平台，提供专业护理员上门服务，覆盖居家养老、术后护理、慢病管理等场景。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家康复",
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "抚理健康",
+    "name_en": "抚理健康",
+    "description": "居家养老护理服务商，提供专业护理员上门服务，覆盖生活照料、医疗护理、康复陪伴等。",
+    "desc_cn": "居家养老护理服务商，提供专业护理员上门服务，覆盖生活照料、医疗护理、康复陪伴等。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家康复",
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "易得康",
+    "name_en": "易得康",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "一号护工",
+    "name_en": "一号护工",
+    "description": "一号护工是居家养老护理服务平台，提供专业护理员上门服务，涵盖生活照料、医疗护理、康复训练等。",
+    "desc_cn": "一号护工是居家养老护理服务平台，提供专业护理员上门服务，涵盖生活照料、医疗护理、康复训练等。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家康复",
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "医护到家",
+    "name_en": "医护到家",
+    "description": "医护到家是上门医疗护理服务平台，提供护士上门、护理员上门等服务，专注老年居家医疗需求。",
+    "desc_cn": "医护到家是上门医疗护理服务平台，提供护士上门、护理员上门等服务，专注老年居家医疗需求。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "小柏家护",
+    "name_en": "小柏家护",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "戴恩",
+    "name_en": "戴恩",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "智宇孝老",
+    "name_en": "智宇孝老",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "柏老汇",
+    "name_en": "柏老汇",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "泰心康护",
+    "name_en": "泰心康护",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "爱侬养老",
+    "name_en": "爱侬养老",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "福寿家",
+    "name_en": "福寿家",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "立奇电子",
+    "name_en": "立奇电子",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "老友记",
+    "name_en": "老友记",
+    "description": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "金牌护士",
+    "name_en": "金牌护士",
+    "description": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "银汤屋",
+    "name_en": "银汤屋",
+    "description": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "阿福医疗",
+    "name_en": "阿福医疗",
+    "description": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "青鸟软通",
+    "name_en": "青鸟软通",
+    "description": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营专业护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，中国市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Homage",
+    "name_en": "Homage",
+    "description": "Homage is a Singapore on-demand service that matches licensed care professionals with seniors for home nursing, companionship and therapy visits, billing per visit and offering subscription care plans to families.",
+    "desc_cn": "Homage 是新加坡按需上门照护服务，将持证护理员匹配给老人做居家护理、陪伴与康复探访，按次计费并向家庭出售照护套餐。",
+    "business_model_cn": "按次+套餐费",
+    "tag_l2": [
+     "居家康复",
+     "护士上门"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "认知数字疗法": [
+   {
+    "name": "Autotune Me",
+    "name_en": "Autotune Me",
+    "description": "使用音乐解决阿尔茨海默病症状",
+    "desc_cn": "使用音乐解决阿尔茨海默病症状",
+    "business_model_cn": "B2C 休闲文娱",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "元公司（Meta）",
+    "name_en": "Meta",
+    "description": "Meta（前Facebook）在银发经济领域通过Oculus VR设备为老年人提供社交和认知训练体验，同时研究VR在老年认知衰退干预中的应用。",
+    "desc_cn": "Meta（前Facebook）在银发经济领域通过Oculus VR设备为老年人提供社交和认知训练体验，同时研究VR在老年认知衰退干预中的应用。",
+    "business_model_cn": "B2B/B2C 硬件产品",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Actif",
+    "name_en": "Actif",
+    "description": "创建于2021年，针对老年人的体育和认知锻炼",
+    "desc_cn": "创建于2021年，针对老年人的体育和认知锻炼",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Isaac Health",
+    "name_en": "Isaac Health",
+    "description": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+    "desc_cn": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "LifeBio",
+    "name_en": "LifeBio",
+    "description": "面向银发经济的行业服务企业，围绕认知训练等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕认知训练等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "LUCID (Resonance Rx)",
+    "name_en": "LUCID (Resonance Rx)",
+    "description": "AI音乐疗法、音频认知行为疗法和认知游戏",
+    "desc_cn": "AI音乐疗法、音频认知行为疗法和认知游戏",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "NeuroNation",
+    "name_en": "NeuroNation",
+    "description": "强化大脑，日常记忆训练",
+    "desc_cn": "强化大脑，日常记忆训练",
+    "business_model_cn": "硬件产品",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Thinkie",
+    "name_en": "Thinkie",
+    "description": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+    "desc_cn": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+    "business_model_cn": "B2C 智能可穿戴设备",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Virtuleap",
+    "name_en": "Virtuleap",
+    "description": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+    "desc_cn": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "NewDays",
+    "name_en": "NewDays",
+    "description": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+    "desc_cn": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "RetroBrain R&D",
+    "name_en": "RetroBrain R&D",
+    "description": "开发手势控制游戏机memoreCare，科学改善老人身心健康",
+    "desc_cn": "开发手势控制游戏机memoreCare，科学改善老人身心健康",
+    "business_model_cn": "B2C/B2B 认知训练/数字疗法",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Effectivate",
+    "name_en": "Effectivate",
+    "description": "Effectivate offers a machine-learning cognitive-training program that adapts daily brain exercises to each older adult's performance, targeting memory, processing speed, and executive function to slow age-related decline.",
+    "desc_cn": "Effectivate 以机器学习驱动认知训练，按每位老人的表现自适应调整每日脑力练习，针对记忆、处理速度与共执行功能延缓衰退。",
+    "business_model_cn": "B2C/B2B订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Mindr",
+    "name_en": "Mindr",
+    "description": "Mindr is an AI brain-health coach that sends daily personalized activities—cognitive, physical, and social—to middle-aged adults and especially family caregivers, aiming to lower later dementia risk.",
+    "desc_cn": "Mindr 是 AI 脑健康教练，向中年人尤其是家庭照护者推送每日个性化认知、运动与社交活动，以降低日后痴呆风险。",
+    "business_model_cn": "B2C/B2B订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Neurable",
+    "name_en": "Neurable",
+    "description": "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。",
+    "desc_cn": "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。",
+    "business_model_cn": "B2C 消费级BCI硬件+订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "MindMate",
+    "name_en": "MindMate",
+    "description": "面向认知障碍与早期痴呆的APP，提供脑力训练、记忆游戏与日常提醒，延缓认知衰退。",
+    "desc_cn": "面向认知障碍与早期痴呆的APP，提供脑力训练、记忆游戏与日常提醒，延缓认知衰退。",
+    "business_model_cn": "B2C 认知训练APP",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Constant Therapy",
+    "name_en": "Constant Therapy",
+    "description": "提供基于证据的神经康复（言语、语言、认知）个性化训练平台，用于卒中与脑损伤后恢复。",
+    "desc_cn": "提供基于证据的神经康复（言语、语言、认知）个性化训练平台，用于卒中与脑损伤后恢复。",
+    "business_model_cn": "B2B2C 神经康复APP",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HappyNeuron Pro",
+    "name_en": "HappyNeuron Pro",
+    "description": "面向临床与治疗师的专业认知训练平台企业，提供标准化大脑训练项目用于老年认知康复与认知障碍干预，服务于康复机构、治疗师与认知障碍人群",
+    "desc_cn": "面向临床与治疗师的专业认知训练平台企业，提供标准化大脑训练项目用于老年认知康复与认知障碍干预，服务于康复机构、治疗师与认知障碍人群",
+    "business_model_cn": "B2B/B2C 认知训练平台",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Dakim",
+    "name_en": "Dakim",
+    "description": "早期老年认知训练企业，提供大屏触摸式脑健康活动，用于养老社区与家庭的认知刺激、认知训练与认知症早期干预，服务于养老机构与居家老年人群",
+    "desc_cn": "早期老年认知训练企业，提供大屏触摸式脑健康活动，用于养老社区与家庭的认知刺激、认知训练与认知症早期干预，服务于养老机构与居家老年人群",
+    "business_model_cn": "B2B/B2C 认知训练平台",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "BrainHQ",
+    "name_en": "BrainHQ",
+    "description": "Posit Science出品的循证脑训练平台，多项研究支持其改善老年认知处理速度。",
+    "desc_cn": "Posit Science出品的循证脑训练平台，多项研究支持其改善老年认知处理速度。",
+    "business_model_cn": "B2C/B2B 脑训练订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "认知训练": [
+   {
+    "name": "Autotune Me",
+    "name_en": "Autotune Me",
+    "description": "使用音乐解决阿尔茨海默病症状",
+    "desc_cn": "使用音乐解决阿尔茨海默病症状",
+    "business_model_cn": "B2C 休闲文娱",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "元公司（Meta）",
+    "name_en": "Meta",
+    "description": "Meta（前Facebook）在银发经济领域通过Oculus VR设备为老年人提供社交和认知训练体验，同时研究VR在老年认知衰退干预中的应用。",
+    "desc_cn": "Meta（前Facebook）在银发经济领域通过Oculus VR设备为老年人提供社交和认知训练体验，同时研究VR在老年认知衰退干预中的应用。",
+    "business_model_cn": "B2B/B2C 硬件产品",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Actif",
+    "name_en": "Actif",
+    "description": "创建于2021年，针对老年人的体育和认知锻炼",
+    "desc_cn": "创建于2021年，针对老年人的体育和认知锻炼",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Isaac Health",
+    "name_en": "Isaac Health",
+    "description": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+    "desc_cn": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "LifeBio",
+    "name_en": "LifeBio",
+    "description": "面向银发经济的行业服务企业，围绕认知训练等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕认知训练等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "LUCID (Resonance Rx)",
+    "name_en": "LUCID (Resonance Rx)",
+    "description": "AI音乐疗法、音频认知行为疗法和认知游戏",
+    "desc_cn": "AI音乐疗法、音频认知行为疗法和认知游戏",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "NeuroNation",
+    "name_en": "NeuroNation",
+    "description": "强化大脑，日常记忆训练",
+    "desc_cn": "强化大脑，日常记忆训练",
+    "business_model_cn": "硬件产品",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Thinkie",
+    "name_en": "Thinkie",
+    "description": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+    "desc_cn": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+    "business_model_cn": "B2C 智能可穿戴设备",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Virtuleap",
+    "name_en": "Virtuleap",
+    "description": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+    "desc_cn": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "NewDays",
+    "name_en": "NewDays",
+    "description": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+    "desc_cn": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "RetroBrain R&D",
+    "name_en": "RetroBrain R&D",
+    "description": "开发手势控制游戏机memoreCare，科学改善老人身心健康",
+    "desc_cn": "开发手势控制游戏机memoreCare，科学改善老人身心健康",
+    "business_model_cn": "B2C/B2B 认知训练/数字疗法",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Effectivate",
+    "name_en": "Effectivate",
+    "description": "Effectivate offers a machine-learning cognitive-training program that adapts daily brain exercises to each older adult's performance, targeting memory, processing speed, and executive function to slow age-related decline.",
+    "desc_cn": "Effectivate 以机器学习驱动认知训练，按每位老人的表现自适应调整每日脑力练习，针对记忆、处理速度与共执行功能延缓衰退。",
+    "business_model_cn": "B2C/B2B订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Mindr",
+    "name_en": "Mindr",
+    "description": "Mindr is an AI brain-health coach that sends daily personalized activities—cognitive, physical, and social—to middle-aged adults and especially family caregivers, aiming to lower later dementia risk.",
+    "desc_cn": "Mindr 是 AI 脑健康教练，向中年人尤其是家庭照护者推送每日个性化认知、运动与社交活动，以降低日后痴呆风险。",
+    "business_model_cn": "B2C/B2B订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Neurable",
+    "name_en": "Neurable",
+    "description": "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。",
+    "desc_cn": "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。",
+    "business_model_cn": "B2C 消费级BCI硬件+订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "MindMate",
+    "name_en": "MindMate",
+    "description": "面向认知障碍与早期痴呆的APP，提供脑力训练、记忆游戏与日常提醒，延缓认知衰退。",
+    "desc_cn": "面向认知障碍与早期痴呆的APP，提供脑力训练、记忆游戏与日常提醒，延缓认知衰退。",
+    "business_model_cn": "B2C 认知训练APP",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Constant Therapy",
+    "name_en": "Constant Therapy",
+    "description": "提供基于证据的神经康复（言语、语言、认知）个性化训练平台，用于卒中与脑损伤后恢复。",
+    "desc_cn": "提供基于证据的神经康复（言语、语言、认知）个性化训练平台，用于卒中与脑损伤后恢复。",
+    "business_model_cn": "B2B2C 神经康复APP",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HappyNeuron Pro",
+    "name_en": "HappyNeuron Pro",
+    "description": "面向临床与治疗师的专业认知训练平台企业，提供标准化大脑训练项目用于老年认知康复与认知障碍干预，服务于康复机构、治疗师与认知障碍人群",
+    "desc_cn": "面向临床与治疗师的专业认知训练平台企业，提供标准化大脑训练项目用于老年认知康复与认知障碍干预，服务于康复机构、治疗师与认知障碍人群",
+    "business_model_cn": "B2B/B2C 认知训练平台",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Dakim",
+    "name_en": "Dakim",
+    "description": "早期老年认知训练企业，提供大屏触摸式脑健康活动，用于养老社区与家庭的认知刺激、认知训练与认知症早期干预，服务于养老机构与居家老年人群",
+    "desc_cn": "早期老年认知训练企业，提供大屏触摸式脑健康活动，用于养老社区与家庭的认知刺激、认知训练与认知症早期干预，服务于养老机构与居家老年人群",
+    "business_model_cn": "B2B/B2C 认知训练平台",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "BrainHQ",
+    "name_en": "BrainHQ",
+    "description": "Posit Science出品的循证脑训练平台，多项研究支持其改善老年认知处理速度。",
+    "desc_cn": "Posit Science出品的循证脑训练平台，多项研究支持其改善老年认知处理速度。",
+    "business_model_cn": "B2C/B2B 脑训练订阅",
+    "tag_l2": [
+     "认知数字疗法",
+     "认知训练"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "AI医疗": [
+   {
+    "name": "Sword Health",
+    "name_en": "Sword Health",
+    "description": "全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女性骨盆健康。运用AI。",
+    "desc_cn": "全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女性骨盆健康。运用AI。",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Credo Health",
+    "name_en": "Credo Health",
+    "description": "AI医疗记录收集和分析，促进价值型护理",
+    "desc_cn": "AI医疗记录收集和分析，促进价值型护理",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Ellipsis Health",
+    "name_en": "Ellipsis Health",
+    "description": "融资很高，不是面向老人的",
+    "desc_cn": "融资很高，不是面向老人的",
+    "business_model_cn": "B2C 社交娱乐平台",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Rune Labs",
+    "name_en": "Rune Labs",
+    "description": "面向银发（中老年）人群的康复设备领域企业，主营精神&神经业务：提供神经退行性疾病相关的精准神经学SaaS方案",
+    "desc_cn": "面向银发（中老年）人群的康复设备领域企业，主营精神&神经业务：提供神经退行性疾病相关的精准神经学SaaS方案",
+    "business_model_cn": "B2B/B2C 康复设备/跌倒预防",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "SiftWell Analytics",
+    "name_en": "SiftWell Analytics",
+    "description": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "business_model_cn": "B2C/B2B 老年文娱社交平台",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Swift Medical",
+    "name_en": "Swift Medical",
+    "description": "数字伤口护理管理，AI技术",
+    "desc_cn": "数字伤口护理管理，AI技术",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Thoughtful AI",
+    "name_en": "Thoughtful AI",
+    "description": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "business_model_cn": "B2C/B2B 老年文娱社交平台",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Voiceitt",
+    "name_en": "Voiceitt",
+    "description": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "business_model_cn": "B2C/B2B 老年文娱社交平台",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Hippocratic AI",
+    "name_en": "Hippocratic AI",
+    "description": "医疗AI代理，执行低风险、面向患者的行政和运营任务。估值35亿；已与50+大型医疗系统/支付方合作；累计完成1.15亿+临床患者互动。累计融资4.04亿美...",
+    "desc_cn": "医疗AI代理，执行低风险、面向患者的行政和运营任务。估值35亿；已与50+大型医疗系统/支付方合作；累计完成1.15亿+临床患者互动。累计融资4.04亿美...",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "问岐健康",
+    "name_en": "问岐健康",
+    "description": "探索中医智能化服务",
+    "desc_cn": "探索中医智能化服务",
+    "business_model_cn": "B2B 中医智能化服务",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "智医向量",
+    "name_en": "智医向量机器人",
+    "description": "专注为医疗机构提供人工智能解决方案的企业，产品包括 AI 辅助诊断、对话机器人及数字孪生医生等，旨在通过 AI 提升医疗健康领域的效率与可及性",
+    "desc_cn": "专注为医疗机构提供人工智能解决方案的企业，产品包括 AI 辅助诊断、对话机器人及数字孪生医生等，旨在通过 AI 提升医疗健康领域的效率与可及性",
+    "business_model_cn": "B2B 医疗AI解决方案",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Cadence",
+    "name_en": "Cadence",
+    "description": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+    "desc_cn": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+    "business_model_cn": "B2B 临床AI慢病管理(按效付费)",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Enzo Health",
+    "name_en": "Enzo Health",
+    "description": "开发AI工作流工具，自动完成患者接入与病历审核等任务，面向家居健康与临终关怀机构，2025年获2000万美元Series A(N47领投)。",
+    "desc_cn": "开发AI工作流工具，自动完成患者接入与病历审核等任务，面向家居健康与临终关怀机构，2025年获2000万美元Series A(N47领投)。",
+    "business_model_cn": "B2B 家居健康/临终关怀AI运营SaaS",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "IO Health",
+    "name_en": "IO Health",
+    "description": "面向临终关怀（hospice）与家庭健康的AI初创公司，用AI简化临床文档与运营。2025年10月完成200万美元种子轮（Nina Capital领投）。",
+    "desc_cn": "面向临终关怀（hospice）与家庭健康的AI初创公司，用AI简化临床文档与运营。2025年10月完成200万美元种子轮（Nina Capital领投）。",
+    "business_model_cn": "B2B 安宁疗护AI文档/运营SaaS",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "深睿医疗",
+    "name_en": "深睿医疗",
+    "description": "将AI引入医疗全流程（影像诊断、临床决策）的医疗人工智能企业，覆盖医疗机构与居民健康场景。2024-2025年获近5亿元投资。",
+    "desc_cn": "将AI引入医疗全流程（影像诊断、临床决策）的医疗人工智能企业，覆盖医疗机构与居民健康场景。2024-2025年获近5亿元投资。",
+    "business_model_cn": "B2B 医疗AI影像与决策平台",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "傲意科技",
+    "name_en": "傲意科技",
+    "description": "脑机接口（BCI）与智能神经康复企业，涉足人体感知缺失康复、智能神经康复训练，与多家医疗机构合作。",
+    "desc_cn": "脑机接口（BCI）与智能神经康复企业，涉足人体感知缺失康复、智能神经康复训练，与多家医疗机构合作。",
+    "business_model_cn": "B2B 脑机接口康复医疗器械",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "阶梯医疗",
+    "name_en": "阶梯医疗",
+    "description": "植入式脑机接口（BCI）公司，研发用于神经系统疾病治疗与监测的植入电极系统，涉足神经疾病病灶监测及调控。",
+    "desc_cn": "植入式脑机接口（BCI）公司，研发用于神经系统疾病治疗与监测的植入电极系统，涉足神经疾病病灶监测及调控。",
+    "business_model_cn": "B2B 植入式脑机接口医疗器械",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Kaia Health",
+    "name_en": "Kaia Health",
+    "description": "数字肌肉骨骼与慢病康复APP，提供AI-guided 运动治疗，用于老年背痛与慢性疼痛管理。",
+    "desc_cn": "数字肌肉骨骼与慢病康复APP，提供AI-guided 运动治疗，用于老年背痛与慢性疼痛管理。",
+    "business_model_cn": "B2B2C 数字康复APP",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "AIM",
+    "name_en": "AIM",
+    "description": "台湾AI医疗影像公司，分析既有胸部X光与CT，早期筛查老年人骨质疏松、心血管等慢性病。成立于2020年，台北；获1.25亿新台币种子融资。",
+    "desc_cn": "台湾AI医疗影像公司，分析既有胸部X光与CT，早期筛查老年人骨质疏松、心血管等慢性病。成立于2020年，台北；获1.25亿新台币种子融资。",
+    "business_model_cn": "AI医学影像早筛(老年骨质疏松/心血管)",
+    "tag_l2": [
+     "AI医疗"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "诊所": [
+   {
+    "name": "梅奥诊所",
+    "name_en": "梅奥诊所",
+    "description": "Mayo Clinic（梅奥诊所）是美国顶级医疗中心，在老年医学、远程医疗和AI辅助诊断领域处于领先地位，运营多个老年医学研究中心。",
+    "desc_cn": "Mayo Clinic（梅奥诊所）是美国顶级医疗中心，在老年医学、远程医疗和AI辅助诊断领域处于领先地位，运营多个老年医学研究中心。",
+    "business_model_cn": "B2B/B2C 远程医疗",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "橡树街健康",
+    "name_en": "Oak Street Health",
+    "description": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+    "desc_cn": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "9amHealth",
+    "name_en": "9amHealth",
+    "description": "虚拟心脏代谢诊所，预防糖尿病、肥胖症等",
+    "desc_cn": "虚拟心脏代谢诊所，预防糖尿病、肥胖症等",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Center Well",
+    "name_en": "Center Well",
+    "description": "Humana将老年护理诊所和Kindred at Home整合为CenterWell品牌",
+    "desc_cn": "Humana将老年护理诊所和Kindred at Home整合为CenterWell品牌",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "ChenMed",
+    "name_en": "ChenMed",
+    "description": "Oak Street竞争对手，强调更高医患配比和医生强化培训",
+    "desc_cn": "Oak Street竞争对手，强调更高医患配比和医生强化培训",
+    "business_model_cn": "B2C 教育/培训",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "CVS Health",
+    "name_en": "CVS Health",
+    "description": "收购Oak Street Health、Amedisys等，布局老年护理",
+    "desc_cn": "收购Oak Street Health、Amedisys等，布局老年护理",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Hamilton Health Box",
+    "name_en": "Hamilton Health Box",
+    "description": "面向银发经济的行业服务企业，围绕诊所等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕诊所等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Harbor Health",
+    "name_en": "Harbor Health",
+    "description": "初级和专科诊所集团",
+    "desc_cn": "初级和专科诊所集团",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Maven Clinic",
+    "name_en": "Maven Clinic",
+    "description": "Maven Clinic 成立于2014年，总部位于美国纽约，是全球领先的女性与家庭虚拟医疗诊所，覆盖生育、孕产、育儿及更年期与中年健康（menopause & midlife）等人生阶段，以员工福利形式服务逾2300家企业与健康计划，连接妇产科、营养、心理、泌乳等30余个专科，2021年成为女性与家庭健康领域首家独角兽企业",
+    "desc_cn": "Maven Clinic 成立于2014年，总部位于美国纽约，是全球领先的女性与家庭虚拟医疗诊所，覆盖生育、孕产、育儿及更年期与中年健康（menopause & midlife）等人生阶段，以员工福利形式服务逾2300家企业与健康计划，连接妇产科、营养、心理、泌乳等30余个专科，2021年成为女性与家庭健康领域首家独角兽企业",
+    "business_model_cn": "B2B/B2C 女性健康医疗/服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Midi Health",
+    "name_en": "Midi Health",
+    "description": "最快发展的虚拟护理诊所，专门服务绝经期女性",
+    "desc_cn": "最快发展的虚拟护理诊所，专门服务绝经期女性",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Moneta Health",
+    "name_en": "Moneta Health",
+    "description": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
+    "desc_cn": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Omena",
+    "name_en": "Omena",
+    "description": "面向银发（中老年）人群的健康服务领域企业，主营健康养生业务：提供数字健康、慢病管理与专科养生支持",
+    "desc_cn": "面向银发（中老年）人群的健康服务领域企业，主营健康养生业务：提供数字健康、慢病管理与专科养生支持",
+    "business_model_cn": "B2B/B2C 女性健康医疗/服务",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "One Medical",
+    "name_en": "One Medical",
+    "description": "会员制初级保健机构，2023年被亚马逊收购",
+    "desc_cn": "会员制初级保健机构，2023年被亚马逊收购",
+    "business_model_cn": "B2C 社交娱乐平台",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Tia",
+    "name_en": "Tia",
+    "description": "Tia operates women-focused clinics and a virtual app covering gynecology, primary care and mental health, charging members visit fees and insurance, with a membership model for ongoing care.",
+    "desc_cn": "Tia 运营面向女性的诊所与远程应用，覆盖妇科、初级保健与心理健康，按问诊收费并支持会员制持续照护。",
+    "business_model_cn": "问诊费/会员制",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Iora Health",
+    "name_en": "Iora Health",
+    "description": "创立之初就专注于老年人(Medicare受益者)的初级保健，强调关系和团队协作。被Amazon通过One Medical以39亿美元收购",
+    "desc_cn": "创立之初就专注于老年人(Medicare受益者)的初级保健，强调关系和团队协作。被Amazon通过One Medical以39亿美元收购",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Fountain Life",
+    "name_en": "Fountain Life",
+    "description": "Fountain Life runs membership-based longevity clinics offering whole-body MRI, advanced blood biomarkers, genomics, and AI-driven annual assessments to detect disease early and extend healthspan.",
+    "desc_cn": "Fountain Life 运营会员制长寿诊所，以全身 MRI、进阶血液标志物、基因测序与 AI 年度评估实现疾病早筛、延长健康寿命。",
+    "business_model_cn": "B2C会员费",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Herself Health",
+    "name_en": "Herself Health",
+    "description": "面向 65 岁以上、参加 Medicare 的女性提供进阶初级医疗服务的医疗科技公司，关注老年女性的特异性健康需求。融资金额未公开核实",
+    "desc_cn": "面向 65 岁以上、参加 Medicare 的女性提供进阶初级医疗服务的医疗科技公司，关注老年女性的特异性健康需求。融资金额未公开核实",
+    "business_model_cn": "B2B/B2C 老年女性初级医疗",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Biopeak",
+    "name_en": "Biopeak",
+    "description": "长寿诊所运营商，2026年1月获270万美元融资，用于开设新诊所、强化诊断能力与 proprietary AI，主打整合式长寿医学服务。",
+    "desc_cn": "长寿诊所运营商，2026年1月获270万美元融资，用于开设新诊所、强化诊断能力与 proprietary AI，主打整合式长寿医学服务。",
+    "business_model_cn": "B2C/B2B 长寿诊所+诊断",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Blue Longevity Clinic",
+    "name_en": "Blue Longevity Clinic",
+    "description": "欧洲长寿医学诊所，2025年获200万欧元融资，计划于希腊、土耳其、保加利亚新开诊所，结合线下诊疗与数字健康。",
+    "desc_cn": "欧洲长寿医学诊所，2025年获200万欧元融资，计划于希腊、土耳其、保加利亚新开诊所，结合线下诊疗与数字健康。",
+    "business_model_cn": "B2C/B2B 长寿诊所(欧洲多国)",
+    "tag_l2": [
+     "诊所"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "更年期": [
+   {
+    "name": "Alloy",
+    "name_en": "Alloy",
+    "description": "更年期初创公司",
+    "desc_cn": "更年期初创公司",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Bloom Nutrition",
+    "name_en": "Bloom Nutrition",
+    "description": "专门从事女性健身补充剂销售",
+    "desc_cn": "专门从事女性健身补充剂销售",
+    "business_model_cn": "B2C 老年健身/健康",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Domma",
+    "name_en": "Domma",
+    "description": "治疗更年期荷尔蒙失调的非侵入性疗法",
+    "desc_cn": "治疗更年期荷尔蒙失调的非侵入性疗法",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Elektra Health",
+    "name_en": "Elektra Health",
+    "description": "面向银发人群的慢病管理服务企业，主营女性健康相关的服务（如慢病监测、用药管理、远程健康管理等），帮助中老年慢性病患者进行长期疾病管控，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的慢病管理服务企业，主营女性健康相关的服务（如慢病监测、用药管理、远程健康管理等），帮助中老年慢性病患者进行长期疾病管控，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2B/B2C 慢病管理服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Embr Labs",
+    "name_en": "Embr Labs",
+    "description": "通过温度解决健康问题，管理潮热、睡眠、压力",
+    "desc_cn": "通过温度解决健康问题，管理潮热、睡眠、压力",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Evernow",
+    "name_en": "Evernow",
+    "description": "数字化手段管理更年期症状，定制化治疗方案",
+    "desc_cn": "数字化手段管理更年期症状，定制化治疗方案",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Gennev",
+    "name_en": "Gennev",
+    "description": "面向银发经济的行业服务企业，围绕女性健康、更年期等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕女性健康、更年期等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Menolabs",
+    "name_en": "Menolabs",
+    "description": "更年期保健产品，被Dr. Reddy's收购",
+    "desc_cn": "更年期保健产品，被Dr. Reddy's收购",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Pearl Health",
+    "name_en": "Pearl Health",
+    "description": "Pearl Health enables primary-care groups to take on Medicare risk by aggregating them into ACOs, supplying population-health analytics, prior-authorization automation and shared-savings administration for a cut of savings.",
+    "desc_cn": "Pearl Health 帮助基层医疗机构组建责任医疗组织承接联邦医保按价值付费，供应人群健康分析与行政自动化工具，并分享结余收益。",
+    "business_model_cn": "结余分成/SaaS",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Perry",
+    "name_en": "Perry",
+    "description": "Perry is a telehealth practice for menopause, pairing women with clinicians who prescribe hormone therapy and symptom-management plans and ship medications to the home by mail.",
+    "desc_cn": "Perry 是更年期远程诊疗诊所，由医生为女性开具激素疗法与症状管理方案，并通过邮寄配送药品。",
+    "business_model_cn": "诊疗+药品邮寄",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Stripes Beauty",
+    "name_en": "Stripes Beauty",
+    "description": "Naomi Watts创立，针对更年期需求，被收购",
+    "desc_cn": "Naomi Watts创立，针对更年期需求，被收购",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "更年期",
+     "美妆护肤"
+    ],
+    "tag_l1": [
+     "医疗健康",
+     "消费品"
+    ]
+   },
+   {
+    "name": "Vi Health",
+    "name_en": "Vi Health",
+    "description": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "desc_cn": "面向银发（中老年）人群的老年文娱领域企业，主营社交平台业务：面向中老年及照护群体的社交、陪伴与社区互动",
+    "business_model_cn": "B2C/B2B 老年文娱社交平台",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Vivian Labs",
+    "name_en": "Vivian Labs",
+    "description": "Vivian offers employers a menopause benefit that gives staff access to vetted clinicians, peer community and evidence-based resources for midlife women's health, charged as a per-employee annual subscription.",
+    "desc_cn": "Vivian 向雇主供应更年期员工福利，让女性员工对接经筛选的医生、同侪社群与循证健康资源，按每位员工年度订阅收费。",
+    "business_model_cn": "B2B按人订阅",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Wile",
+    "name_en": "Wile",
+    "description": "女性健康补充剂，针对围绝经期，被Nameless CPG收购",
+    "desc_cn": "女性健康补充剂，针对围绝经期，被Nameless CPG收购",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "八睡眠",
+    "name_en": "Eight Sleep",
+    "description": "智能床系统(消费品)。开发AI睡眠代理；计划进军医疗领域(更年期睡眠、睡眠呼吸暂停)，寻求FDA批准",
+    "desc_cn": "智能床系统(消费品)。开发AI睡眠代理；计划进军医疗领域(更年期睡眠、睡眠呼吸暂停)，寻求FDA批准",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "更年期",
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Peppy",
+    "name_en": "Peppy",
+    "description": "英国雇主更年期与女性健康福利平台企业，为职场女性提供专家支持，覆盖围绝经期管理，服务于企业福利与女性员工。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "英国雇主更年期与女性健康福利平台企业，为职场女性提供专家支持，覆盖围绝经期管理，服务于企业福利与女性员工。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2B/B2C 女性健康平台",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Stella",
+    "name_en": "Stella",
+    "description": "面向更年期女性的数字健康平台企业，提供症状评估、专家咨询与个性化管理方案，服务于围绝经期女性群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "面向更年期女性的数字健康平台企业，提供症状评估、专家咨询与个性化管理方案，服务于围绝经期女性群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2B/B2C 女性健康平台",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Lotus",
+    "name_en": "Lotus",
+    "description": "面向女性全生命周期（含围绝经期）的数字健康公司，获1843 Capital等投资。",
+    "desc_cn": "面向女性全生命周期（含围绝经期）的数字健康公司，获1843 Capital等投资。",
+    "business_model_cn": "B2B2C 女性数字健康",
+    "tag_l2": [
+     "更年期"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "健康监测": [
+   {
+    "name": "百芝龙",
+    "name_en": "百芝龙",
+    "description": "百芝龙智慧科技运用Wi-Fi与毫米波无线智能感知技术，通过非视觉、无感的人体行为识别实现老人跌倒、滞留与呼吸脉搏监测，为政府、养老机构与家庭输出智能看护整体方案。",
+    "desc_cn": "百芝龙以无线智能感知技术实现无摄像头、无穿戴的跌倒与体征监测，设备可在一分钟内报警并派发工单，已落地上海多个社区与养老机构。",
+    "business_model_cn": "硬件销售+方案授权",
+    "tag_l2": [
+     "健康监测",
+     "陪诊"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "友达颐康",
+    "name_en": "友达颐康",
+    "description": "研发与销售适老化家居、无障碍改造及养老社区配套产品，提升居家养老的安全性与便利性",
+    "desc_cn": "研发与销售适老化家居、无障碍改造及养老社区配套产品，提升居家养老的安全性与便利性",
+    "business_model_cn": "B2C 适老家居消费品",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "瑞光康泰",
+    "name_en": "瑞光康泰",
+    "description": "深圳瑞光康泰科技研发脉搏波血压计与健康一体机，采用专利脉搏波双管双传感技术实现精准血压测量，并推出互联网+血压整体方案及鸿蒙智联智能血压管理服务。",
+    "desc_cn": "瑞光康泰是国家级高新技术企业，主营心血管检测设备与慢病健康管理，其脉搏波血压计经三甲医院临床验证并接入鸿蒙生态，服务过万余家医疗机构。",
+    "business_model_cn": "硬件销售",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "大耳马医学",
+    "name_en": "大耳马医学",
+    "description": "鼾症、睡眠呼吸暂停居家监测，适配老年慢病人群",
+    "desc_cn": "鼾症、睡眠呼吸暂停居家监测，适配老年慢病人群",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Inspiren",
+    "name_en": "Inspiren",
+    "description": "AI驱动的老年生活技术，用于监测和改善老年人生活质量。",
+    "desc_cn": "AI驱动的老年生活技术，用于监测和改善老年人生活质量。",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "三星",
+    "name_en": "三星",
+    "description": "Samsung（三星）在银发经济领域通过智能健康设备、Digital Health平台和适老化电子产品布局老年健康市场，同时在韩国本土市场运营养老服务平台。",
+    "desc_cn": "Samsung（三星）在银发经济领域通过智能健康设备、Digital Health平台和适老化电子产品布局老年健康市场，同时在韩国本土市场运营养老服务平台。",
+    "business_model_cn": "B2C 老年健康食品",
+    "tag_l2": [
+     "健康监测",
+     "可穿戴设备"
+    ],
+    "tag_l1": [
+     "医疗健康",
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Glooko",
+    "name_en": "Glooko",
+    "description": "面向银发人群的血压血糖监测与管理企业，主营慢病管理相关的产品与服务（如血糖仪、血压计、数据管理平台等），服务中老年糖尿病与高血压患者的日常健康管理，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的血压血糖监测与管理企业，主营慢病管理相关的产品与服务（如血糖仪、血压计、数据管理平台等），服务中老年糖尿病与高血压患者的日常健康管理，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2B/B2C 血压血糖监测管理",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HealthSnap",
+    "name_en": "HealthSnap",
+    "description": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Hello Heart",
+    "name_en": "Hello Heart",
+    "description": "心脏健康管理，无线血压袖带+APP跟踪",
+    "desc_cn": "心脏健康管理，无线血压袖带+APP跟踪",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Sensi.AI",
+    "name_en": "Sensi.AI",
+    "description": "音频AI监控老年人健康，美国80%+大型家庭护理网络使用",
+    "desc_cn": "音频AI监控老年人健康，美国80%+大型家庭护理网络使用",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Toi Labs",
+    "name_en": "Toi Labs",
+    "description": "TrueLoo智能马桶座，光学传感器分析马桶活动",
+    "desc_cn": "TrueLoo智能马桶座，光学传感器分析马桶活动",
+    "business_model_cn": "B2C 智能可穿戴设备",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "YgEia3",
+    "name_en": "YgEia3",
+    "description": "与公司合作开发全面健康测试",
+    "desc_cn": "与公司合作开发全面健康测试",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Lindera",
+    "name_en": "Lindera",
+    "description": "开发AI步行分析App优化日常照护并专注防跌倒",
+    "desc_cn": "开发AI步行分析App优化日常照护并专注防跌倒",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Jubo Health",
+    "name_en": "Jubo Health",
+    "description": "连网照护方案VitalLink测生命体征、FamilyLine管探访",
+    "desc_cn": "连网照护方案VitalLink测生命体征、FamilyLine管探访",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HaloCare",
+    "name_en": "HaloCare",
+    "description": "爱尔兰辅助生活技术，用智能设备虚拟监护老人居家",
+    "desc_cn": "爱尔兰辅助生活技术，用智能设备虚拟监护老人居家",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Sage",
+    "name_en": "Sage",
+    "description": "Sage deploys AI-powered sensors and analytics in senior-living and skilled-nursing facilities to detect mobility decline, fall risk, and health changes, giving care teams early warnings to prevent hospitalization.",
+    "desc_cn": "Sage 在养老机构与护理院部署 AI 传感与分析，识别活动力下降、跌倒风险与健康变化，提前预警护理团队以防住院。",
+    "business_model_cn": "B2B SaaS订阅",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "乐湾养老",
+    "name_en": "乐湾养老",
+    "description": "智慧养老物联网平台企业，深度结合IoT技术为老年人提供定位预警、健康管理与环境监测等服务，赋能养老机构与社区居家养老场景，提升照护安全性与管理效率",
+    "desc_cn": "智慧养老物联网平台企业，深度结合IoT技术为老年人提供定位预警、健康管理与环境监测等服务，赋能养老机构与社区居家养老场景，提升照护安全性与管理效率",
+    "business_model_cn": "B2B 智慧养老IoT平台",
+    "tag_l2": [
+     "健康监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "居家照护": [
+   {
+    "name": "三替护理",
+    "name_en": "三替护理",
+    "description": "三替护理是居家养老护理服务品牌，提供专业护理员上门、医院陪护、居家照料等服务，深耕浙江市场。",
+    "desc_cn": "三替护理是居家养老护理服务品牌，提供专业护理员上门、医院陪护、居家照料等服务，深耕浙江市场。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "乐陪护",
+    "name_en": "乐陪护",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "天壹智慧",
+    "name_en": "天壹智慧",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Home Instead",
+    "name_en": "Home Instead",
+    "description": "居家护工服务网络",
+    "desc_cn": "居家护工服务网络",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Lively",
+    "name_en": "Lively",
+    "description": "面向银发人群的健康养生服务企业，主营居家护理相关的服务（如中医理疗、艾灸养生、健康调理与亚健康改善等），关注中老年群体的日常养生保健，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的健康养生服务企业，主营居家护理相关的服务（如中医理疗、艾灸养生、健康调理与亚健康改善等），关注中老年群体的日常养生保健，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C 健康养生服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Angels on Call Homecare",
+    "name_en": "Angels on Call Homecare",
+    "description": "面向银发经济的行业服务企业，围绕居家护理等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕居家护理等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Caredoc",
+    "name_en": "Caredoc",
+    "description": "韩国排名第一的老年护理品牌",
+    "desc_cn": "韩国排名第一的老年护理品牌",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Right At Home",
+    "name_en": "Right At Home",
+    "description": "Right at Home是居家护理加盟品牌，提供个人护理、companionship、护理管理等服务，在全美和全球拥有500+加盟点。",
+    "desc_cn": "Right at Home是居家护理加盟品牌，提供个人护理、companionship、护理管理等服务，在全美和全球拥有500+加盟点。",
+    "business_model_cn": "B2C/B2B 加盟连锁",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "爱德斯家庭护理",
+    "name_en": "Addus HomeCare",
+    "description": "美国家庭护理服务提供商，以家庭及社区为基础，面向老人、长期病患、残疾人士等提供个人护理、日常生活活动支援、成人日间看护等服务。2009年上市融资5400万美元",
+    "desc_cn": "美国家庭护理服务提供商，以家庭及社区为基础，面向老人、长期病患、残疾人士等提供个人护理、日常生活活动支援、成人日间看护等服务。2009年上市融资5400万美元",
+    "business_model_cn": "上市企业",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "BelleVie",
+    "name_en": "BelleVie",
+    "description": "英国居家护理提供商，包括个人护理、陪伴、做家务，以及痴呆症、帕金森、癌症等专业护理。2019年种子轮260万英镑",
+    "desc_cn": "英国居家护理提供商，包括个人护理、陪伴、做家务，以及痴呆症、帕金森、癌症等专业护理。2019年种子轮260万英镑",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家照护",
+     "认知症照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Senniors",
+    "name_en": "Senniors",
+    "description": "西班牙超100城上门照护，含理疗心理等综合居家疗法",
+    "desc_cn": "西班牙超100城上门照护，含理疗心理等综合居家疗法",
+    "business_model_cn": "B2C/B2B 居家照护服务平台",
+    "tag_l2": [
+     "居家康复",
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Anytime Home Care",
+    "name_en": "Anytime Home Care",
+    "description": "Anytime Home Care provides non-medical in-home care—companionship, personal hygiene, meal preparation, and housekeeping—through local franchise offices serving older and disabled adults.",
+    "desc_cn": "Anytime Home Care 经本地加盟网点为老人与失能成人安排非医疗居家照护，含陪伴、个人清洁、备餐与家务协助。",
+    "business_model_cn": "B2C加盟服务费",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "BrightStar Care",
+    "name_en": "BrightStar Care",
+    "description": "BrightStar Care franchises home-care agencies that supply both non-medical caregiving and skilled nursing, staffing a network of more than 15,000 caregivers for in-home and facility-based clients.",
+    "desc_cn": "BrightStar Care 以加盟模式运营居家照护机构，同时安排非医疗陪护与专业护理，照护者网络超过 1.5 万人，服务居家与机构客户。",
+    "business_model_cn": "B2B/B2C加盟+服务费",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "HomeWell Franchising",
+    "name_en": "HomeWell Franchising",
+    "description": "HomeWell Franchising licenses a home-care franchise model that delivers personal care, companionship, and household assistance to seniors and adults who are homebound or need support.",
+    "desc_cn": "HomeWell 以特许经营授权居家照护模式，为居家不便或需协助的老人与成人安排个人护理、陪伴与家务服务。",
+    "business_model_cn": "B2C加盟授权费",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Visiting Angels｜上门照护加盟",
+    "name_en": "Visiting Angels",
+    "description": "美国大型非医疗居家照护加盟网络(1992)，遍布数百个 franchise 网点，提供陪伴、个人护理与家务协助。",
+    "desc_cn": "美国大型非医疗居家照护加盟网络(1992)，遍布数百个 franchise 网点，提供陪伴、个人护理与家务协助。",
+    "business_model_cn": "B2C 非医疗居家照护加盟，按服务时长收费加加盟费",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Age Care Labs",
+    "name_en": "Age Care Labs",
+    "description": "印度居家养老平台，运营Emoha与Epoch Elder Care两大品牌，提供居家与机构照护服务。2026年7月完成900万美元B1轮增长融资（Shrem Group领投）。",
+    "desc_cn": "印度居家养老平台，运营Emoha与Epoch Elder Care两大品牌，提供居家与机构照护服务。2026年7月完成900万美元B1轮增长融资（Shrem Group领投）。",
+    "business_model_cn": "B2C/B2B 居家与机构养老综合服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   },
+   {
+    "name": "Amada Senior Care",
+    "name_en": "Amada Senior Care",
+    "description": "居家养老护理企业，以特许经营与自营结合，提供个人护理、陪伴与养老咨询，服务于居家老年群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "居家养老护理企业，以特许经营与自营结合，提供个人护理、陪伴与养老咨询，服务于居家老年群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C/B2B 居家照护服务",
+    "tag_l2": [
+     "居家照护"
+    ],
+    "tag_l1": [
+     "养老服务"
+    ]
+   }
+  ],
+  "安宁疗护": [
+   {
+    "name": "泰康安宁疗护",
+    "name_en": "泰康安宁疗护",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Iris Healthcare",
+    "name_en": "Iris Healthcare",
+    "description": "临终意愿规划与姑息治疗对接",
+    "desc_cn": "临终意愿规划与姑息治疗对接",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Compassus",
+    "name_en": "Compassus",
+    "description": "面向银发人群的临终关怀与安宁疗护企业，主营临终关怀、居家护理相关的服务（如居家临终照护、家属哀伤支持、安宁疗护等），为临终老人及家庭提供身心慰藉，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的临终关怀与安宁疗护企业，主营临终关怀、居家护理相关的服务（如居家临终照护、家属哀伤支持、安宁疗护等），为临终老人及家庭提供身心慰藉，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 临终关怀与安宁疗护",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Tuesday Health",
+    "name_en": "Tuesday Health",
+    "description": "面向银发（中老年）人群的养老服务领域企业，主营临终关怀业务：提供临终及重病长者的舒缓疗护与全人关怀",
+    "desc_cn": "面向银发（中老年）人群的养老服务领域企业，主营临终关怀业务：提供临终及重病长者的舒缓疗护与全人关怀",
+    "business_model_cn": "B2C/B2B 临终关怀/舒缓疗护服务",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Vitas",
+    "name_en": "Vitas",
+    "description": "美国最大临终关怀机构",
+    "desc_cn": "美国最大临终关怀机构",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "VyncaCare",
+    "name_en": "VyncaCare",
+    "description": "姑息治疗、高级护理计划和增强护理管理",
+    "desc_cn": "姑息治疗、高级护理计划和增强护理管理",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "LHC Group",
+    "name_en": "LHC Group",
+    "description": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+    "desc_cn": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+    "business_model_cn": "上市企业",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Aveanna Healthcare",
+    "name_en": "Aveanna Healthcare",
+    "description": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+    "desc_cn": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+    "business_model_cn": "上市企业",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "The Pennant Group",
+    "name_en": "The Pennant Group",
+    "description": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+    "desc_cn": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+    "business_model_cn": "上市企业",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Enhabit",
+    "name_en": "Enhabit",
+    "description": "面向银发（中老年）人群的养老服务领域企业，主营临终关怀业务：提供临终及重病长者的舒缓疗护与全人关怀",
+    "desc_cn": "面向银发（中老年）人群的养老服务领域企业，主营临终关怀业务：提供临终及重病长者的舒缓疗护与全人关怀",
+    "business_model_cn": "B2C/B2B 临终关怀/舒缓疗护服务",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "IO Health Technologies",
+    "name_en": "IO Health Technologies",
+    "description": "AI驱动的居家医疗/临终关怀合规平台，为居家医疗和临终关怀机构提供AI平台，确保行政合规和质量",
+    "desc_cn": "AI驱动的居家医疗/临终关怀合规平台，为居家医疗和临终关怀机构提供AI平台，确保行政合规和质量",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "安宁疗护",
+     "护理协调SaaS"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Empassion Health",
+    "name_en": "Empassion Health",
+    "description": "Empassion Health coordinates advanced-illness and palliative care for frail, seriously ill older adults, aligning medical, social and family support through a care-coordination team paid by health plans and provider groups.",
+    "desc_cn": "Empassion Health 为体弱重病老人协调晚期与舒缓疗护，由协调团队整合医疗、社会与家庭支持，向健康险公司与医疗集团结算费用。",
+    "business_model_cn": "B2B健康险结算",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "White Orchid Hospice",
+    "name_en": "White Orchid Hospice",
+    "description": "White Orchid Hospice delivers hospice and palliative care across Houston, Corpus Christi, and San Antonio, supporting terminally ill patients and families with in-home and facility-based comfort care.",
+    "desc_cn": "White Orchid Hospice 在休斯顿、科珀斯克里斯蒂与圣安东尼奥开展安宁疗护与缓和医疗，以居家及机构形式为临终患者与家属开展舒适照护。",
+    "business_model_cn": "安宁疗护服务收费",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HealthFlex Hospice",
+    "name_en": "HealthFlex Hospice",
+    "description": "HealthFlex Hospice offers home-health and hospice services including skilled nursing, therapy, and end-of-life care delivered by visiting clinicians to patients in their own homes.",
+    "desc_cn": "HealthFlex Hospice 安排到宅临床团队为老人开展居家医疗、安宁疗护、专业护理与临终关怀服务。",
+    "business_model_cn": "安宁疗护服务收费",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "The Care Team",
+    "name_en": "The Care Team",
+    "description": "美国临终关怀与缓和医疗提供商，2025年在Revelstoke Capital支持下连续收购Traditions Health等资产，扩张至伊利诺伊、印第安纳、俄亥俄、弗吉尼亚等州。",
+    "desc_cn": "美国临终关怀与缓和医疗提供商，2025年在Revelstoke Capital支持下连续收购Traditions Health等资产，扩张至伊利诺伊、印第安纳、俄亥俄、弗吉尼亚等州。",
+    "business_model_cn": "B2B 临终关怀/缓和医疗运营+并购",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "VitalCaring",
+    "name_en": "VitalCaring",
+    "description": "美国家庭健康、临终关怀与缓和医疗运营商，2025年12月收购Traditions Health的家居健康与临终关怀业务，行业并购整合加速的代表。",
+    "desc_cn": "美国家庭健康、临终关怀与缓和医疗运营商，2025年12月收购Traditions Health的家居健康与临终关怀业务，行业并购整合加速的代表。",
+    "business_model_cn": "B2B 家居健康/临终关怀运营+并购",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Ensign 集团",
+    "name_en": "The Ensign Group",
+    "description": "美国西部领先的专业护理院与康复服务商，纳斯达克代码 ENSG，并分拆出 CareTrust REIT 与 Pennant Group。",
+    "desc_cn": "美国西部领先的专业护理院与康复服务商，纳斯达克代码 ENSG，并分拆出 CareTrust REIT 与 Pennant Group。",
+    "business_model_cn": "自营护理院、康复与临终关怀，靠医保与商业支付方结算",
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "居家医疗平台": [
+   {
+    "name": "Amedisys",
+    "name_en": "Amedisys",
+    "description": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+    "desc_cn": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Sprinter Health",
+    "name_en": "Sprinter Health",
+    "description": "提供上门移动医疗服务（抽血、生命体征、医疗测试），主要支付方Medicare/Medicaid。",
+    "desc_cn": "提供上门移动医疗服务（抽血、生命体征、医疗测试），主要支付方Medicare/Medicaid。",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Lyft Health",
+    "name_en": "Lyft Health",
+    "description": "Lyft Health 是网约车平台 Lyft 的医疗出行（非紧急医疗转运，NEMT）业务线，与医疗机构、健康险公司及政府医保计划合作，为老年患者、Medicaid 参保人等提供就医接送与医疗物资配送服务。",
+    "desc_cn": "医疗场景用车服务",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Geri Care",
+    "name_en": "Geri Care",
+    "description": "印度首家专注于老年人的综合医疗服务提供商，2018年创立，提供360度连续护理模式，包括预防、诊断、治疗、康复和长期护理。",
+    "desc_cn": "印度首家专注于老年人的综合医疗服务提供商，2018年创立，提供360度连续护理模式，包括预防、诊断、治疗、康复和长期护理。",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "BrightSpring Health",
+    "name_en": "BrightSpring Health",
+    "description": "面向银发经济的行业服务企业，围绕智慧养老等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕智慧养老等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "健康服务平台",
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "CareCentrix",
+    "name_en": "CareCentrix",
+    "description": "面向银发人群的专业护理服务企业，主营居家护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营居家护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Concerto Care",
+    "name_en": "Concerto Care",
+    "description": "面向银发人群的专业护理服务企业，主营居家护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营居家护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Family First",
+    "name_en": "Family First",
+    "description": "面向银发人群的专业护理服务企业，主营保险相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营保险相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Nice healthcare",
+    "name_en": "Nice healthcare",
+    "description": "虚拟/上门初级保健、物理治疗和慢性护理管理",
+    "desc_cn": "虚拟/上门初级保健、物理治疗和慢性护理管理",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Signify Health",
+    "name_en": "Signify Health",
+    "description": "家庭健康评估，强调预防，会员平均年龄71岁",
+    "desc_cn": "家庭健康评估，强调预防，会员平均年龄71岁",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Upward Health",
+    "name_en": "Upward Health",
+    "description": "面向复杂疾病患者，由商业保险、医疗保险、医疗补助100%付款",
+    "desc_cn": "面向复杂疾病患者，由商业保险、医疗保险、医疗补助100%付款",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Optum (Home & Community)",
+    "name_en": "Optum (Home & Community)",
+    "description": "UHG旗下Optum Home & Community（含Landmark），深度布局老年居家和社区护理，UHG是最大MA提供商",
+    "desc_cn": "UHG旗下Optum Home & Community（含Landmark），深度布局老年居家和社区护理，UHG是最大MA提供商",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "DispatchHealth",
+    "name_en": "DispatchHealth",
+    "description": "提供上门的紧急和急性护理服务（移动急诊室/居家医院模式），老年人是核心受益者。总融资额约7.3亿美元",
+    "desc_cn": "提供上门的紧急和急性护理服务（移动急诊室/居家医院模式），老年人是核心受益者。总融资额约7.3亿美元",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Medically Home",
+    "name_en": "Medically Home",
+    "description": "提供\"居家医院\"技术和服务平台，赋能医疗系统将急性护理转移到家庭，主要服务老年患者。总融资额约2.7-2.8亿美元",
+    "desc_cn": "提供\"居家医院\"技术和服务平台，赋能医疗系统将急性护理转移到家庭，主要服务老年患者。总融资额约2.7-2.8亿美元",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "AccentCare",
+    "name_en": "AccentCare",
+    "description": "PE大额并购支撑，规模头部。以线下服务交付为主，连锁居家机构标准化运营。2019收购，2018融资3.75亿",
+    "desc_cn": "PE大额并购支撑，规模头部。以线下服务交付为主，连锁居家机构标准化运营。2019收购，2018融资3.75亿",
+    "business_model_cn": "B2C/B2B 加盟连锁",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "AvevoRx",
+    "name_en": "AvevoRx",
+    "description": "AvevoRx is a specialty home-infusion pharmacy that delivers intravenous medications, supplies, and clinical monitoring so patients receive chemotherapy, hydration, and other infusion therapies at home.",
+    "desc_cn": "AvevoRx 是专科居家输液药房，配送静脉药物、耗材与临床监测，使患者在家中接受化疗、补液等输液治疗。",
+    "business_model_cn": "B2C/B2B药房履约",
+    "tag_l2": [
+     "居家医疗平台"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "睡眠监测": [
+   {
+    "name": "清澜技术",
+    "name_en": "清澜技术",
+    "description": "清澜技术基于60GHz毫米波雷达研发无感生命体征监测仪，实时探测老人呼吸、心率、跌倒与离床状态并支持双向语音告警，已与泰康、平安等机构合作并销往日本、欧美市场。",
+    "desc_cn": "清澜技术以毫米波雷达为核心打造无摄像头、无穿戴的养老监测设备，可识别跌倒、呼吸心率异常与睡眠状况，面向机构与居家养老做主动守护。",
+    "business_model_cn": "硬件销售+系统订阅",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "清雷",
+    "name_en": "清雷",
+    "description": "毫米波雷达健康监测企业，通过非接触式传感器实现跌倒检测、睡眠监测、生命体征监测等智慧养老功能。",
+    "desc_cn": "毫米波雷达健康监测企业，通过非接触式传感器实现跌倒检测、睡眠监测、生命体征监测等智慧养老功能。",
+    "business_model_cn": "B2C 智能可穿戴设备",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "享睡",
+    "name_en": "享睡",
+    "description": "享睡是睡眠健康品牌，专注老年人睡眠监测和睡眠改善产品。",
+    "desc_cn": "享睡是睡眠健康品牌，专注老年人睡眠监测和睡眠改善产品。",
+    "business_model_cn": "B2C 健康养生服务",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "作为科技",
+    "name_en": "作为科技",
+    "description": "作为科技是智能适老化产品研发商，专注防跌倒监测、睡眠监测等智慧养老设备。",
+    "desc_cn": "作为科技是智能适老化产品研发商，专注防跌倒监测、睡眠监测等智慧养老设备。",
+    "business_model_cn": "B2B/B2C 硬件产品",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "兆观",
+    "name_en": "兆观",
+    "description": "兆观是睡眠监测和呼吸健康设备品牌，专注老年人睡眠呼吸监测产品。",
+    "desc_cn": "兆观是睡眠监测和呼吸健康设备品牌，专注老年人睡眠呼吸监测产品。",
+    "business_model_cn": "B2B/B2C 硬件产品",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "兆观智能",
+    "name_en": "兆观智能",
+    "description": "无感床垫式睡眠呼吸监测，老年睡眠呼吸暂停筛查二类医疗器械",
+    "desc_cn": "无感床垫式睡眠呼吸监测，老年睡眠呼吸暂停筛查二类医疗器械",
+    "business_model_cn": "B2B 医疗器械",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "享睡Sleepace",
+    "name_en": "享睡Sleepace",
+    "description": "家用无感睡眠监测垫，居家、养老机构双场景硬件",
+    "desc_cn": "家用无感睡眠监测垫，居家、养老机构双场景硬件",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Somnee",
+    "name_en": "Somnee",
+    "description": "AI驱动神经技术改善睡眠，非专门面向老人",
+    "desc_cn": "AI驱动神经技术改善睡眠，非专门面向老人",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Zen Sleep",
+    "name_en": "Zen Sleep",
+    "description": "失眠认知行为疗法(CBT-I)应用程序",
+    "desc_cn": "失眠认知行为疗法(CBT-I)应用程序",
+    "business_model_cn": "B2B/B2C 健康服务",
+    "tag_l2": [
+     "心理健康",
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Orion",
+    "name_en": "Orion",
+    "description": "AI智能温控床垫罩，对标Eight Sleep，通过水循环调节床垫温度，AI监测睡眠数据。价格比竞品低$400-$800",
+    "desc_cn": "AI智能温控床垫罩，对标Eight Sleep，通过水循环调节床垫温度，AI监测睡眠数据。价格比竞品低$400-$800",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "八睡眠",
+    "name_en": "Eight Sleep",
+    "description": "智能床系统(消费品)。开发AI睡眠代理；计划进军医疗领域(更年期睡眠、睡眠呼吸暂停)，寻求FDA批准",
+    "desc_cn": "智能床系统(消费品)。开发AI睡眠代理；计划进军医疗领域(更年期睡眠、睡眠呼吸暂停)，寻求FDA批准",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "更年期",
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Elemind",
+    "name_en": "Elemind",
+    "description": "可穿戴神经技术，EEG驱动无药物声脉冲引导快速入睡",
+    "desc_cn": "可穿戴神经技术，EEG驱动无药物声脉冲引导快速入睡",
+    "business_model_cn": "B2C/B2B 适老智能硬件",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Ultrahuman",
+    "name_en": "Ultrahuman",
+    "description": "追踪睡眠、运动、血糖等生物标志物的产品套件优化健康",
+    "desc_cn": "追踪睡眠、运动、血糖等生物标志物的产品套件优化健康",
+    "business_model_cn": "B2C 健康智能硬件",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "新奈医疗",
+    "name_en": "新奈医疗",
+    "description": "聚焦老年睡眠呼吸治疗，AI呼吸机产品打开市场",
+    "desc_cn": "聚焦老年睡眠呼吸治疗，AI呼吸机产品打开市场",
+    "business_model_cn": "B2B/B2C 睡眠呼吸治疗",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Butlr",
+    "name_en": "Butlr",
+    "description": "用热传感（thermal）实现非接触式存在/跌倒/睡眠监测的AI平台，保护隐私，适用于养老场景。",
+    "desc_cn": "用热传感（thermal）实现非接触式存在/跌倒/睡眠监测的AI平台，保护隐私，适用于养老场景。",
+    "business_model_cn": "B2B 非接触式传感AI平台",
+    "tag_l2": [
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "远程监护": [
+   {
+    "name": "Current Health",
+    "name_en": "Current Health",
+    "description": "居家生命体征监测系统",
+    "desc_cn": "居家生命体征监测系统",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "远程监护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Allwayswithyou",
+    "name_en": "Allwayswithyou",
+    "description": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "CoachCare",
+    "name_en": "CoachCare",
+    "description": "远程患者监控、慢性病管理和远程治疗监控",
+    "desc_cn": "远程患者监控、慢性病管理和远程治疗监控",
+    "business_model_cn": "B2B/B2C 健康服务",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Lilli",
+    "name_en": "Lilli",
+    "description": "AI远程监控设备，支持家庭护理，9:1投资回报率",
+    "desc_cn": "AI远程监控设备，支持家庭护理，9:1投资回报率",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "百思买健康",
+    "name_en": "Best Buy Health",
+    "description": "提供PERS(Lively)、RPM(Current Health)及技术服务整合(Geek Squad)，主要服务老年人居家健康和技术需求。Curren...",
+    "desc_cn": "提供PERS(Lively)、RPM(Current Health)及技术服务整合(Geek Squad)，主要服务老年人居家健康和技术需求。Curren...",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Clairvoyant Networks",
+    "name_en": "Clairvoyant Networks",
+    "description": "远程监测解决方案（Theora360云平台），利用AI最大化长者与慢性病患者的生活质量。",
+    "desc_cn": "远程监测解决方案（Theora360云平台），利用AI最大化长者与慢性病患者的生活质量。",
+    "business_model_cn": "AI远程监测云平台（Theora360）：利用AI提升长者与慢病患者生活质量",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "DNX",
+    "name_en": "DNX",
+    "description": "通过语音消息与干预改善老人远程监测、行为改变与孤独缓解",
+    "desc_cn": "通过语音消息与干预改善老人远程监测、行为改变与孤独缓解",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Cooey Health",
+    "name_en": "Cooey Health",
+    "description": "个性化远程患者照护，整合生理与行为健康并延伸计费管理",
+    "desc_cn": "个性化远程患者照护，整合生理与行为健康并延伸计费管理",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "PalCare",
+    "name_en": "PalCare",
+    "description": "PalCare builds wireless emergency-call, nurse-call, door-access, and wander-management hardware with cloud software that lets senior-living communities monitor resident safety and staff response in real time.",
+    "desc_cn": "PalCare 研发无线紧急呼叫、护士呼叫、门禁与走失预警硬件及云端软件，帮助养老机构实时掌握住户安全与员工响应。",
+    "business_model_cn": "B2B硬件+软件订阅",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Gubbe",
+    "name_en": "Gubbe",
+    "description": "芬兰连接老人与看护者App，含传感器跌倒监测",
+    "desc_cn": "芬兰连接老人与看护者App，含传感器跌倒监测",
+    "business_model_cn": "B2B SaaS/养老与健康管理软件",
+    "tag_l2": [
+     "远程监护"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Sensi",
+    "name_en": "Sensi",
+    "description": "Sensi places battery-powered acoustic sensors in seniors' homes that detect sounds of falls, distress, or abnormal activity through audio analytics, alerting caregivers while preserving privacy by processing sound on-device.",
+    "desc_cn": "Sensi 在老人家中布设声学传感器，借音频分析识别跌倒、呼救与异常活动并通知照护者，声音在设备端处理以保护隐私。",
+    "business_model_cn": "B2B/B2C硬件+订阅",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Wanda Health",
+    "name_en": "Wanda Health",
+    "description": "Wanda Health (Bristol) supplies remote patient-monitoring devices and a clinician dashboard that track vital signs of chronic-disease patients at home, automatically escalating readings to care teams.",
+    "desc_cn": "Wanda Health 位于布里斯托，为居家慢病患者配备远程监测设备与医生看板，自动追踪生命体征并上报异常读数。",
+    "business_model_cn": "B2B/B2C监测订阅",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Percipio Health",
+    "name_en": "Percipio Health",
+    "description": "Percipio Health turns ordinary smartphones into remote patient-monitoring tools, using the camera and AI to measure vital signs and adherence, then feeding insights to home-health and payer care teams.",
+    "desc_cn": "Percipio Health 将智能手机变为远程监测工具，借摄像头与 AI 测体征、查依从，并将洞察回传居家照护与支付方团队。",
+    "business_model_cn": "B2B监测订阅",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "IntellaTriage",
+    "name_en": "IntellaTriage",
+    "description": "IntellaTriage runs a nurse-staffed, 24/7 remote triage and monitoring service for home-health and hospice agencies, handling patient calls and escalating urgent cases to on-call clinicians.",
+    "desc_cn": "IntellaTriage 为居家医疗与安宁疗护机构运营护士值守的全天候远程分诊与监测，受理患者来电并将紧急情况上报临床团队。",
+    "business_model_cn": "B2B分诊服务费",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Tunstall",
+    "name_en": "Tunstall",
+    "description": "英国老牌远程照护（telecare）与紧急呼叫服务商，为大量老年与脆弱人群提供24/7监测。",
+    "desc_cn": "英国老牌远程照护（telecare）与紧急呼叫服务商，为大量老年与脆弱人群提供24/7监测。",
+    "business_model_cn": "B2B 远程照护+紧急呼叫",
+    "tag_l2": [
+     "远程护理",
+     "远程监护"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   }
+  ],
+  "体检筛查": [
+   {
+    "name": "善诊",
+    "name_en": "善诊",
+    "description": "成立于2015年，上海，老年体检服务平台。通过整合全国体检机构资源，为老年人和企业客户提供专业体检服务及健康管理方案。累计融资近10亿元。",
+    "desc_cn": "成立于2015年，上海，老年体检服务平台。通过整合全国体检机构资源，为老年人和企业客户提供专业体检服务及健康管理方案。累计融资近10亿元。",
+    "business_model_cn": "B2C 健康养生服务",
+    "tag_l2": [
+     "体检筛查",
+     "健康管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "AgenT",
+    "name_en": "AgenT",
+    "description": "使用常规抽血进行早期阿尔茨海默病检测",
+    "desc_cn": "使用常规抽血进行早期阿尔茨海默病检测",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "CardioSignal",
+    "name_en": "CardioSignal",
+    "description": "数字心脏生物标志物检测心脏病",
+    "desc_cn": "数字心脏生物标志物检测心脏病",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Hibiscus Health",
+    "name_en": "Hibiscus Health",
+    "description": "面部血流分析技术30秒检测早期糖尿病风险",
+    "desc_cn": "面部血流分析技术30秒检测早期糖尿病风险",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Linus Health",
+    "name_en": "Linus Health",
+    "description": "面向银发人群的认知症早期筛查与数字健康企业，主营认知症相关的服务（如认知功能评估、早筛工具、数字化诊断与干预等），助力认知症早发现早干预，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的认知症早期筛查与数字健康企业，主营认知症相关的服务（如认知功能评估、早筛工具、数字化诊断与干预等），助力认知症早发现早干预，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2B/B2C 认知症早筛与数字健康",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Ivory",
+    "name_en": "Ivory",
+    "description": "大脑健康初创公司，覆盖1500万面临痴呆症风险的印度人",
+    "desc_cn": "大脑健康初创公司，覆盖1500万面临痴呆症风险的印度人",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Xella Health",
+    "name_en": "Xella Health",
+    "description": "女性精准健康平台，聚焦生育、衰老与身体变化的纵向数据，提供先进诊断+个性化临床指导，覆盖激素健康、早癌筛查与预防护理。2026年初完成超370万美元 pre-seed 融资，计划2026年春发布",
+    "desc_cn": "女性精准健康平台，聚焦生育、衰老与身体变化的纵向数据，提供先进诊断+个性化临床指导，覆盖激素健康、早癌筛查与预防护理。2026年初完成超370万美元 pre-seed 融资，计划2026年春发布",
+    "business_model_cn": "B2C/B2B 女性精准健康",
+    "tag_l2": [
+     "体检筛查",
+     "健康管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Idoven",
+    "name_en": "Idoven",
+    "description": "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。",
+    "desc_cn": "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。",
+    "business_model_cn": "B2B2C AI心电监测",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "InsideTracker",
+    "name_en": "InsideTracker",
+    "description": "消费级长寿健康平台企业，通过血液生物标志物结合AI提供个性化健康与长寿建议，服务于追求健康老龄化的高认知人群。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "消费级长寿健康平台企业，通过血液生物标志物结合AI提供个性化健康与长寿建议，服务于追求健康老龄化的高认知人群。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C/B2B 长寿健康检测",
+    "tag_l2": [
+     "体检筛查",
+     "健康管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Function Health",
+    "name_en": "Function Health",
+    "description": "提供100+项指标年度体检与趋势追踪的会员制健康平台，面向 longevity 人群。",
+    "desc_cn": "提供100+项指标年度体检与趋势追踪的会员制健康平台，面向 longevity 人群。",
+    "business_model_cn": "B2C 长寿体检订阅",
+    "tag_l2": [
+     "体检筛查",
+     "健康管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Prenuvo",
+    "name_en": "Prenuvo",
+    "description": "全身MRI早筛连锁服务企业，提供30分钟无痛全身MRI早筛，面向高支付力健康与长寿人群，布局预防式体检市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "全身MRI早筛连锁服务企业，提供30分钟无痛全身MRI早筛，面向高支付力健康与长寿人群，布局预防式体检市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C/B2B 长寿健康检测",
+    "tag_l2": [
+     "体检筛查",
+     "健康管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Bluecrest",
+    "name_en": "Bluecrest",
+    "description": "英国平价健康筛查与体检企业，为成人（含老人）提供常规指标检测与风险预警，服务于大众健康筛查市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "英国平价健康筛查与体检企业，为成人（含老人）提供常规指标检测与风险预警，服务于大众健康筛查市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C/B2B 健康筛查",
+    "tag_l2": [
+     "体检筛查",
+     "健康管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "TytoCare",
+    "name_en": "TytoCare",
+    "description": "家用远程体检设备与平台企业，使老人可在家完成听诊、体温、耳镜等检查并连线医生，服务于远程医疗场景。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "家用远程体检设备与平台企业，使老人可在家完成听诊、体温、耳镜等检查并连线医生，服务于远程医疗场景。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2B/B2C 远程医疗/体检",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Neurotrack",
+    "name_en": "Neurotrack",
+    "description": "通过眼动（eye-tracking）进行阿尔茨海默风险早期筛查的认知健康公司。",
+    "desc_cn": "通过眼动（eye-tracking）进行阿尔茨海默风险早期筛查的认知健康公司。",
+    "business_model_cn": "B2B2C 认知早筛平台",
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "心理健康": [
+   {
+    "name": "Rippl Care",
+    "name_en": "Rippl Care",
+    "description": "面向银发人群的失智/认知症照护机构企业，主营养老机构、心理健康相关的服务（如认知症照护专区、记忆照护、早期筛查与长期照护等），为失智老人及其家庭提供专业化照护，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的失智/认知症照护机构企业，主营养老机构、心理健康相关的服务（如认知症照护专区、记忆照护、早期筛查与长期照护等），为失智老人及其家庭提供专业化照护，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2B/B2C 失智照护机构运营",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Author Health",
+    "name_en": "Author Health",
+    "description": "面向银发经济的行业服务企业，围绕心理健康等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕心理健康等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Brightside Health",
+    "name_en": "Brightside Health",
+    "description": "面向银发经济的行业服务企业，围绕心理健康等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕心理健康等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Cerebral",
+    "name_en": "Cerebral",
+    "description": "在线心理健康，软银投资",
+    "desc_cn": "在线心理健康，软银投资",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Grow Therapy",
+    "name_en": "Grow Therapy",
+    "description": "面向银发经济的行业服务企业，围绕平台、保险等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕平台、保险等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Headway",
+    "name_en": "Headway",
+    "description": "Headway 成立于2019年，是美国心理健康科技公司，搭建全美最大的\"接受保险\"治疗师与精神科医生网络，为患者按保险、专科、地区匹配并直接预约，同时为治疗师承担资质认证、保险理赔与结算等行政工作；截至2025年网络覆盖6.5万+持证服务提供者、促成超3000万次咨询。",
+    "desc_cn": "帮助患者与受保险保障的治疗师连接，估值23亿",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "MindAhead",
+    "name_en": "MindAhead",
+    "description": "基于行为激活的治疗应用程序，轻度认知障碍和痴呆症",
+    "desc_cn": "基于行为激活的治疗应用程序，轻度认知障碍和痴呆症",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Spring Health",
+    "name_en": "Spring Health",
+    "description": "心理健康初创公司，估值33亿美元",
+    "desc_cn": "心理健康初创公司，估值33亿美元",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Talkiatry",
+    "name_en": "Talkiatry",
+    "description": "精神科护理初创公司",
+    "desc_cn": "精神科护理初创公司",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Two Chairs",
+    "name_en": "Two Chairs",
+    "description": "专有算法帮助将合适治疗师与患者匹配",
+    "desc_cn": "专有算法帮助将合适治疗师与患者匹配",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Videra Health",
+    "name_en": "Videra Health",
+    "description": "AI检测面部表情和肢体语言变化筛查心理健康",
+    "desc_cn": "AI检测面部表情和肢体语言变化筛查心理健康",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Zen Sleep",
+    "name_en": "Zen Sleep",
+    "description": "失眠认知行为疗法(CBT-I)应用程序",
+    "desc_cn": "失眠认知行为疗法(CBT-I)应用程序",
+    "business_model_cn": "B2B/B2C 健康服务",
+    "tag_l2": [
+     "心理健康",
+     "睡眠监测"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Mayden",
+    "name_en": "Mayden",
+    "description": "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。",
+    "desc_cn": "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。",
+    "business_model_cn": "B2B 护理EHR SaaS",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "EnLite Health Solutions",
+    "name_en": "EnLite Health Solutions",
+    "description": "提供数据驱动的个性化治疗项目，覆盖成瘾、心理健康到老年照护等需求。成立于2017年，布宜诺斯艾利斯；获25万美元种子融资。",
+    "desc_cn": "提供数据驱动的个性化治疗项目，覆盖成瘾、心理健康到老年照护等需求。成立于2017年，布宜诺斯艾利斯；获25万美元种子融资。",
+    "business_model_cn": "数据驱动个性化治疗平台(含老年照护)",
+    "tag_l2": [
+     "心理健康"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "居家医疗护理": [
+   {
+    "name": "万德厨",
+    "name_en": "万德厨",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "南京携才",
+    "name_en": "南京携才",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "上门",
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "慈康生命",
+    "name_en": "慈康生命",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "上门",
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "擎浩护理",
+    "name_en": "擎浩护理",
+    "description": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "desc_cn": "提供居家照护、专业护理及智慧养老等上门或机构化服务，满足失能、半失能老人的日常照护需求",
+    "business_model_cn": "B2C 居家/机构专业护理服务",
+    "tag_l2": [
+     "上门",
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Vytalize Health",
+    "name_en": "Vytalize Health",
+    "description": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的专业护理服务企业，主营远程护理相关的服务（如居家护理、机构照护、远程护理、术后康复与长期照护等），为失能半失能及高龄老人提供专业级照护支持，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 居家及机构护理服务",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Cityblock Health",
+    "name_en": "Cityblock Health",
+    "description": "面向银发人群的银发社交与文娱平台企业，主营医疗服务相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的银发社交与文娱平台企业，主营医疗服务相关的服务（如老年兴趣社交、线上社群、文娱活动与教育培训等），满足中老年群体的社交陪伴与精神文化需求，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HarmonyCares",
+    "name_en": "HarmonyCares",
+    "description": "面向银发人群的健康食品与保健品企业，主营智慧养老相关的产品（如营养补充剂、中老年保健品、OTC滋补与营养食品等），关注中老年群体的慢病营养与日常健康养护，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "desc_cn": "面向银发人群的健康食品与保健品企业，主营智慧养老相关的产品（如营养补充剂、中老年保健品、OTC滋补与营养食品等），关注中老年群体的慢病营养与日常健康养护，海外（主要面向欧美等市场）市场，服务于中老年及相关群体",
+    "business_model_cn": "B2C 老年健康食品/保健品",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "UnitedHealth Group (UHG)",
+    "name_en": "UnitedHealth Group (UHG)",
+    "description": "通过Optum收购多家医生团体，布局价值型护理",
+    "desc_cn": "通过Optum收购多家医生团体，布局价值型护理",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Landmark Health",
+    "name_en": "Landmark Health",
+    "description": "为患有多种慢性病的复杂老年患者群体提供居家医疗服务，隶属于Optum/UHG，被Optum以35亿美元收购",
+    "desc_cn": "为患有多种慢性病的复杂老年患者群体提供居家医疗服务，隶属于Optum/UHG，被Optum以35亿美元收购",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Ready Responders",
+    "name_en": "Ready Responders",
+    "description": "美国家庭健康服务提供商，为患者提供紧急护理、出院后的过渡护理以及社区护理等医疗服务。2020年B+C轮1.02亿美元，谷歌风投入股",
+    "desc_cn": "美国家庭健康服务提供商，为患者提供紧急护理、出院后的过渡护理以及社区护理等医疗服务。2020年B+C轮1.02亿美元，谷歌风投入股",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "专业护理",
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "养老服务",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Pansy Homecare",
+    "name_en": "Pansy Homecare",
+    "description": "以私人付费为主的居家照护机构，专注家庭场景下的失智症（dementia）照护",
+    "desc_cn": "以私人付费为主的居家照护机构，专注家庭场景下的失智症（dementia）照护",
+    "business_model_cn": "B2B/B2C 居家照护与医疗履约",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Lizzy Care",
+    "name_en": "Lizzy Care",
+    "description": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程照护协调与个性化健康教育。",
+    "desc_cn": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程照护协调与个性化健康教育。",
+    "business_model_cn": "B2B2C 居家痴呆照护协调平台",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "日医学馆",
+    "name_en": "Nichii Gakkan",
+    "description": "日本大型居家护理与医疗服务集团，东京证交所上市，提供访视护理、照护管理与健康服务。",
+    "desc_cn": "日本大型居家护理与医疗服务集团，东京证交所上市，提供访视护理、照护管理与健康服务。",
+    "business_model_cn": "B2C 访视护理与照护管理，医保加自费结算",
+    "tag_l2": [
+     "居家医疗护理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "用药提醒": [
+   {
+    "name": "爱晖",
+    "name_en": "爱晖",
+    "description": "国内服药管理，研发难度很大",
+    "desc_cn": "国内服药管理，研发难度很大",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "AceAge",
+    "name_en": "AceAge",
+    "description": "智慧用药产品，管理3种以上药物",
+    "desc_cn": "智慧用药产品，管理3种以上药物",
+    "business_model_cn": "B2B 制药/生物科技",
+    "tag_l2": [
+     "智能药盒",
+     "用药提醒",
+     "用药管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "AdhereTech",
+    "name_en": "AdhereTech",
+    "description": "提醒人们服药并在不服药时干预",
+    "desc_cn": "提醒人们服药并在不服药时干预",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "HiDO",
+    "name_en": "HiDO",
+    "description": "患者友好型设备+移动APP，用药自动化",
+    "desc_cn": "患者友好型设备+移动APP，用药自动化",
+    "business_model_cn": "B2B/B2C 硬件产品",
+    "tag_l2": [
+     "智能药盒",
+     "用药提醒",
+     "用药管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Medisafe",
+    "name_en": "Medisafe",
+    "description": "药物管理APP，可视化时间表+提醒",
+    "desc_cn": "药物管理APP，可视化时间表+提醒",
+    "business_model_cn": "B2B 制药/生物科技",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Together by Renee",
+    "name_en": "Together by Renee",
+    "description": "拍摄处方照片管理药物，AI读取保险覆盖",
+    "desc_cn": "拍摄处方照片管理药物，AI读取保险覆盖",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "用药提醒",
+     "用药管理"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Wellth",
+    "name_en": "Wellth",
+    "description": "数字健康公司，利用行为经济学和财务激励提高慢性病人群的依从性。明确服务于Medicare Advantage(MA)、Medicaid、D-SNP等老年高...",
+    "desc_cn": "数字健康公司，利用行为经济学和财务激励提高慢性病人群的依从性。明确服务于Medicare Advantage(MA)、Medicaid、D-SNP等老年高...",
+    "business_model_cn": "B2C/B2B 老年健康保险",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Good Life Sorted",
+    "name_en": "Good Life Sorted",
+    "description": "老人App与智能家技术提醒用药、连社交减孤立",
+    "desc_cn": "老人App与智能家技术提醒用药、连社交减孤立",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Validose",
+    "name_en": "Validose",
+    "description": "精准给药(precision medication delivery)公司，2025年2月获200万美元pre-seed，解决临床试验与慢病用药依从性难题。",
+    "desc_cn": "精准给药(precision medication delivery)公司，2025年2月获200万美元pre-seed，解决临床试验与慢病用药依从性难题。",
+    "business_model_cn": "B2B 精准给药技术",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "PillSafe",
+    "name_en": "PillSafe",
+    "description": "无线用药依从性系统公司，2026年3月获种子轮融资，瞄准庞大的非依从性用药市场，提供智能药盒+远程监护。",
+    "desc_cn": "无线用药依从性系统公司，2026年3月获种子轮融资，瞄准庞大的非依从性用药市场，提供智能药盒+远程监护。",
+    "business_model_cn": "B2C/B2B 智能药盒+依从性订阅",
+    "tag_l2": [
+     "智能药盒",
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Catalia 健康",
+    "name_en": "Catalia Health",
+    "description": "AI 患者参与与慢病管理公司(2014)，旗舰产品 Mabu 机器人+Care Insights 平台，陪伴慢病老人并推动用药依从。",
+    "desc_cn": "AI 患者参与与慢病管理公司(2014)，旗舰产品 Mabu 机器人+Care Insights 平台，陪伴慢病老人并推动用药依从。",
+    "business_model_cn": "B2B2C AI 慢病管理，按企业与合作支付方订阅",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Lumata Health",
+    "name_en": "Lumata Health",
+    "description": "通过AI与患者参与平台提升视力保护（vision-saving）治疗的依从性与可及性，已对接全美大型眼科网络。2025年3月完成2300万美元B轮。",
+    "desc_cn": "通过AI与患者参与平台提升视力保护（vision-saving）治疗的依从性与可及性，已对接全美大型眼科网络。2025年3月完成2300万美元B轮。",
+    "business_model_cn": "B2B 眼科慢病管理SaaS",
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "EllieGrid",
+    "name_en": "EllieGrid",
+    "description": "智能药盒公司，通过APP提醒与色彩编码帮助老人按时按量服药。",
+    "desc_cn": "智能药盒公司，通过APP提醒与色彩编码帮助老人按时按量服药。",
+    "business_model_cn": "B2C 智能药盒",
+    "tag_l2": [
+     "智能药盒",
+     "用药提醒"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ]
+ }
+}

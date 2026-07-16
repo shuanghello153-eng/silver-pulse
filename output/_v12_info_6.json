@@ -1,0 +1,147 @@
+{
+  "MyndVR": {
+    "description": "MyndVR delivers curated virtual-reality content and headsets to senior-living communities and skilled-nursing facilities, using immersive media to ease chronic pain, anxiety, and loneliness among older adults.",
+    "desc_cn": "MyndVR 为养老院与护理机构打造虚拟现实影音库与头显设备，借沉浸式体验减轻老人的慢性疼痛、焦虑与孤独感。",
+    "business_model_cn": "B2B设备与内容订阅"
+  },
+  "PalCare": {
+    "description": "PalCare builds wireless emergency-call, nurse-call, door-access, and wander-management hardware with cloud software that lets senior-living communities monitor resident safety and staff response in real time.",
+    "desc_cn": "PalCare 研发无线紧急呼叫、护士呼叫、门禁与走失预警硬件及云端软件，帮助养老机构实时掌握住户安全与员工响应。",
+    "business_model_cn": "B2B硬件+软件订阅"
+  },
+  "Intus Care": {
+    "description": "Intus Care analyzes claims, clinical, and social-determinant data for PACE (Program of All-Inclusive Care for the Elderly) organizations, flagging members at high risk of hospitalization or chronic-disease deterioration to guide proactive care.",
+    "desc_cn": "Intus Care 汇总 PACE 长者全面照护项目的理赔、临床与社会数据，识别高住院与慢病恶化风险成员，协助机构主动干预。",
+    "business_model_cn": "B2B SaaS订阅"
+  },
+  "Effectivate": {
+    "description": "Effectivate offers a machine-learning cognitive-training program that adapts daily brain exercises to each older adult's performance, targeting memory, processing speed, and executive function to slow age-related decline.",
+    "desc_cn": "Effectivate 以机器学习驱动认知训练，按每位老人的表现自适应调整每日脑力练习，针对记忆、处理速度与共执行功能延缓衰退。",
+    "business_model_cn": "B2C/B2B订阅"
+  },
+  "Endear Health": {
+    "description": "Endear Health operates an API and data layer that connects Medicare Advantage plans with home- and community-based care providers, streamlining member onboarding, benefits navigation, and care coordination.",
+    "desc_cn": "Endear Health 运营连接医疗保险优势计划与社区照护机构的 API 与数据层，简化会员入网、福利导航与照护协同。",
+    "business_model_cn": "B2B SaaS/接口费"
+  },
+  "Sensi": {
+    "description": "Sensi places battery-powered acoustic sensors in seniors' homes that detect sounds of falls, distress, or abnormal activity through audio analytics, alerting caregivers while preserving privacy by processing sound on-device.",
+    "desc_cn": "Sensi 在老人家中布设声学传感器，借音频分析识别跌倒、呼救与异常活动并通知照护者，声音在设备端处理以保护隐私。",
+    "business_model_cn": "B2B/B2C硬件+订阅"
+  },
+  "Sage": {
+    "description": "Sage deploys AI-powered sensors and analytics in senior-living and skilled-nursing facilities to detect mobility decline, fall risk, and health changes, giving care teams early warnings to prevent hospitalization.",
+    "desc_cn": "Sage 在养老机构与护理院部署 AI 传感与分析，识别活动力下降、跌倒风险与健康变化，提前预警护理团队以防住院。",
+    "business_model_cn": "B2B SaaS订阅"
+  },
+  "Fountain Life": {
+    "description": "Fountain Life runs membership-based longevity clinics offering whole-body MRI, advanced blood biomarkers, genomics, and AI-driven annual assessments to detect disease early and extend healthspan.",
+    "desc_cn": "Fountain Life 运营会员制长寿诊所，以全身 MRI、进阶血液标志物、基因测序与 AI 年度评估实现疾病早筛、延长健康寿命。",
+    "business_model_cn": "B2C会员费"
+  },
+  "Wanda Health": {
+    "description": "Wanda Health (Bristol) supplies remote patient-monitoring devices and a clinician dashboard that track vital signs of chronic-disease patients at home, automatically escalating readings to care teams.",
+    "desc_cn": "Wanda Health 位于布里斯托，为居家慢病患者配备远程监测设备与医生看板，自动追踪生命体征并上报异常读数。",
+    "business_model_cn": "B2B/B2C监测订阅"
+  },
+  "Percipio Health": {
+    "description": "Percipio Health turns ordinary smartphones into remote patient-monitoring tools, using the camera and AI to measure vital signs and adherence, then feeding insights to home-health and payer care teams.",
+    "desc_cn": "Percipio Health 将智能手机变为远程监测工具，借摄像头与 AI 测体征、查依从，并将洞察回传居家照护与支付方团队。",
+    "business_model_cn": "B2B监测订阅"
+  },
+  "The Helper Bees": {
+    "description": "The Helper Bees operates a home-care marketplace and care-concierge service integrated with Medicare Advantage and insurance plans, matching members to vetted caregivers and managing benefits-funded in-home support.",
+    "desc_cn": "The Helper Bees 运营与医疗保险优势计划对接的居家照护市场与顾问服务，为会员匹配经审核的护理人员并管理福利内上门支持。",
+    "business_model_cn": "B2B佣金+服务费"
+  },
+  "Uniper Care": {
+    "description": "Uniper Care delivers a TV- and tablet-based social channel that connects older adults to live group classes, community events, and one-to-one video visits, combating isolation for seniors and their families.",
+    "desc_cn": "Uniper Care 以电视与平板为终端搭建社交渠道，让老人参与直播课程、社区活动与一对一视频探访，缓解孤独。",
+    "business_model_cn": "B2B/B2C订阅"
+  },
+  "Neursantys": {
+    "description": "Neursantys develops a non-invasive bioelectronic wearable that measures and trains the vestibular system to improve balance and reduce fall risk in older adults with dizziness or mobility impairment.",
+    "desc_cn": "Neursantys 研发非侵入式生物电子可穿戴设备，测量并训练前庭系统，改善平衡、降低头晕与行动不便老人的跌倒风险。",
+    "business_model_cn": "B2B/B2C设备销售"
+  },
+  "Mindr": {
+    "description": "Mindr is an AI brain-health coach that sends daily personalized activities—cognitive, physical, and social—to middle-aged adults and especially family caregivers, aiming to lower later dementia risk.",
+    "desc_cn": "Mindr 是 AI 脑健康教练，向中年人尤其是家庭照护者推送每日个性化认知、运动与社交活动，以降低日后痴呆风险。",
+    "business_model_cn": "B2C/B2B订阅"
+  },
+  "Healthnix": {
+    "description": "Healthnix builds clinical software that lets physicians prescribe biomarker-driven personalized nutrition plans at scale, integrating lab data to guide dietary interventions for chronic conditions.",
+    "desc_cn": "Healthnix 开发临床软件，使医生依据生物标志物大规模开具个性化营养处方，整合检验数据指导慢病膳食干预。",
+    "business_model_cn": "B2B软件订阅"
+  },
+  "Miils": {
+    "description": "Miils offers an AI meal-planning app for older adults that generates tailored recipes and grocery lists with nutritional guidance, and lets users order ingredients through a simplified online shopping flow.",
+    "desc_cn": "Miils 面向老人推出 AI 配餐应用，生成个性化食谱与购物清单并附营养建议，支持简易线上下单采购食材。",
+    "business_model_cn": "B2C订阅+佣金"
+  },
+  "卓道医疗": {
+    "description": "卓道医疗 develops upper-limb rehabilitation robots and the 'Ark' (智慧方舟) intelligent rehab system used in hospitals and rehab centers to deliver gamified, data-tracked therapy for stroke and elderly patients.",
+    "desc_cn": "卓道医疗研发上肢康复机器人与『智慧方舟』智能康复系统，供医院与康复中心为卒中及老年患者开展游戏化、可量化的康复训练。",
+    "business_model_cn": "B2B康复设备销售"
+  },
+  "智听科技": {
+    "description": "智听科技 designs and manufactures self-developed hearing aids as a domestically produced alternative to imported brands, offering hearing testing, fitting, and after-sales service for age-related hearing loss.",
+    "desc_cn": "智听科技自主研发并制造助听器，以国产替代进口品牌，为老年性听力下降人群构建测听、验配与售后服务体系。",
+    "business_model_cn": "B2C助听器销售"
+  },
+  "百善九号": {
+    "description": "百善九号 builds an AI-assisted operating system for senior-living communities that integrates health monitoring, daily-life services, and operations management into one connected service for older residents.",
+    "desc_cn": "百善九号构建 AI 辅助的养老社区操作系统，将健康监测、生活服务与运营管理整合为面向住养长者的统一服务体系。",
+    "business_model_cn": "B2B系统+运营费"
+  },
+  "朗毅机器人": {
+    "description": "朗毅机器人 develops an embodied 'navigation brain'—perception, mapping, and path-planning software—that lets service robots move safely and autonomously in senior-care and other indoor environments.",
+    "desc_cn": "朗毅机器人研发具身『导航大脑』，即感知、建图与路径规划软件，使服务机器人在养老等室内场景中安全自主移动。",
+    "business_model_cn": "B2B机器人技术授权"
+  },
+  "中天益寿林": {
+    "description": "中天益寿林 operates senior-care and integrated medical-nursing facilities that combine on-site care staffing with a smart management system covering health records, alerts, and daily operations.",
+    "desc_cn": "中天益寿林运营医养结合的养老机构，将现场护理团队与涵盖健康档案、预警和日常运营的智慧管理系统相融合。",
+    "business_model_cn": "养老机构运营收费"
+  },
+  "韩束": {
+    "description": "韩束 launched a men's oil-control and firming serum that became a hit among middle-aged and older Chinese men, driving the brand past 300 million yuan in multi-platform sales within the mature-skincare segment.",
+    "desc_cn": "韩束推出男士控油紧致精华，在中老年男性中成为爆款，带动品牌在熟龄护肤品类主流电商与内容渠道销售额突破 3 亿元。",
+    "business_model_cn": "B2C护肤品销售"
+  },
+  "AvevoRx": {
+    "description": "AvevoRx is a specialty home-infusion pharmacy that delivers intravenous medications, supplies, and clinical monitoring so patients receive chemotherapy, hydration, and other infusion therapies at home.",
+    "desc_cn": "AvevoRx 是专科居家输液药房，配送静脉药物、耗材与临床监测，使患者在家中接受化疗、补液等输液治疗。",
+    "business_model_cn": "B2C/B2B药房履约"
+  },
+  "Anytime Home Care": {
+    "description": "Anytime Home Care provides non-medical in-home care—companionship, personal hygiene, meal preparation, and housekeeping—through local franchise offices serving older and disabled adults.",
+    "desc_cn": "Anytime Home Care 经本地加盟网点为老人与失能成人安排非医疗居家照护，含陪伴、个人清洁、备餐与家务协助。",
+    "business_model_cn": "B2C加盟服务费"
+  },
+  "BrightStar Care": {
+    "description": "BrightStar Care franchises home-care agencies that supply both non-medical caregiving and skilled nursing, staffing a network of more than 15,000 caregivers for in-home and facility-based clients.",
+    "desc_cn": "BrightStar Care 以加盟模式运营居家照护机构，同时安排非医疗陪护与专业护理，照护者网络超过 1.5 万人，服务居家与机构客户。",
+    "business_model_cn": "B2B/B2C加盟+服务费"
+  },
+  "HomeWell Franchising": {
+    "description": "HomeWell Franchising licenses a home-care franchise model that delivers personal care, companionship, and household assistance to seniors and adults who are homebound or need support.",
+    "desc_cn": "HomeWell 以特许经营授权居家照护模式，为居家不便或需协助的老人与成人安排个人护理、陪伴与家务服务。",
+    "business_model_cn": "B2C加盟授权费"
+  },
+  "IntellaTriage": {
+    "description": "IntellaTriage runs a nurse-staffed, 24/7 remote triage and monitoring service for home-health and hospice agencies, handling patient calls and escalating urgent cases to on-call clinicians.",
+    "desc_cn": "IntellaTriage 为居家医疗与安宁疗护机构运营护士值守的全天候远程分诊与监测，受理患者来电并将紧急情况上报临床团队。",
+    "business_model_cn": "B2B分诊服务费"
+  },
+  "White Orchid Hospice": {
+    "description": "White Orchid Hospice delivers hospice and palliative care across Houston, Corpus Christi, and San Antonio, supporting terminally ill patients and families with in-home and facility-based comfort care.",
+    "desc_cn": "White Orchid Hospice 在休斯顿、科珀斯克里斯蒂与圣安东尼奥开展安宁疗护与缓和医疗，以居家及机构形式为临终患者与家属开展舒适照护。",
+    "business_model_cn": "安宁疗护服务收费"
+  },
+  "HealthFlex Hospice": {
+    "description": "HealthFlex Hospice offers home-health and hospice services including skilled nursing, therapy, and end-of-life care delivered by visiting clinicians to patients in their own homes.",
+    "desc_cn": "HealthFlex Hospice 安排到宅临床团队为老人开展居家医疗、安宁疗护、专业护理与临终关怀服务。",
+    "business_model_cn": "安宁疗护服务收费"
+  }
+}

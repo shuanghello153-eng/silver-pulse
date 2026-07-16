@@ -1,0 +1,275 @@
+[
+ {
+  "name": "CareCentrix",
+  "desc_cn": "CareCentrix 是一家面向健康险公司、医疗补助(Medicaid)及商业保险计划的服务商，提供以家庭为中心的护理协调与居家福利管理。其 HomeBridge/HomeFirst Analytics 平台通过预测分析为会员匹配居家护理、DME 医疗器械、家庭输液、睡眠管理及安宁疗护等服务，并承诺节约成本。已运营近 30 年，服务 Medicare Advantage 等支付方。",
+  "tag_l2": ["养老软件", "护理协调"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Careforth",
+  "desc_cn": "Careforth 是美国领先的家属照护支持公司（NCQA 认证），通过'结构化家庭照护'项目为 Medicaid 符合条件的家庭照护者提供一对一护理教练、定制化照护计划，并发放免税津贴（部分州每月最高约 2,000 美元）。其 App 整合消息、用药提醒与文档管理，帮助家属把失能亲人留在家中照护，平均可为每位会员节省约 6 万美元/年。",
+  "tag_l2": ["照护支持"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "CareGuide",
+  "desc_cn": "CareGuide 是加拿大公司，运营一系列在线照护供需对接平台（含 ElderCare.com 长者照护、Sitter.com 等），帮助家庭快速、安全地寻找并雇佣保姆、家政及长者居家照护人员，同时提供 HeartPayroll 家政薪酬发放服务。平台在北美拥有超 850 万用户，2018 年完成 600 万美元 A 轮融资。",
+  "tag_l2": ["养老信息平台", "护工平台"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "circleengage",
+  "desc_cn": "CircleEngage（前身 Trusty，2018 年成立）是面向 Medicare 及政府医保的健康险会员管理与互动 SaaS 平台，为健康险公司、FMO 和保险经纪人提供报价投保、CRM、佣金管理与会员留存工具，已签约经纪人数从 1,000 增长至 5 万，累计融资约 1,300 万美元。它持有保险代理牌照，定位为医保销售赋能与会员互动技术商。",
+  "tag_l2": ["保险科技"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Citizen Health",
+  "desc_cn": "Citizen Health 是一家美国 AI 消费者健康平台，聚焦罕见及复杂疾病患者，整合临床、基因、影像与患者可报告结果等纵向健康数据，借助 AI'健康倡导者'帮助患者解读病历、跟踪症状、对接下一步诊疗，并连接病友社区（已建 60+ 社区、覆盖 123 种疾病）。2025 年完成 3,000 万美元 A 轮（8VC 领投），累计融资约 4,400 万美元，数据已被 FDA 接受用于监管申报。",
+  "tag_l2": ["AI医疗"],
+  "confidence": "high",
+  "note": "原标签'文娱/兴趣社群'明显错误，实为 AI 消费者健康数据平台。"
+ },
+ {
+  "name": "Cityblock Health",
+  "desc_cn": "Cityblock Health 是一家技术赋能、按价值付费的医疗提供商，专注服务 Medicaid 及医保双重资格(dual-eligible)等复杂需求人群，提供初级医疗、行为健康与社工服务（解决食物、住房等社会需求）。由 Medicaid 医生 Toyin Ajayi 创立，覆盖多个州，86% 会员为 Medicaid 或双重资格人群，83% 有 2 种以上慢病。",
+  "tag_l2": ["慢病管理", "诊所"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Clara Home Care",
+  "desc_cn": "Clara Home Care 是美国长者居家照护对接平台，通过算法和护理顾问将家庭匹配到经过背景核查、持证培训的居家照护人员，并提供 Clara Payroll 代缴薪酬与税费，相比中介节省约 20–40% 费用。服务覆盖美国主要都会区，强调 24 小时响应与快速到岗。",
+  "tag_l2": ["护工平台"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Cloud DX",
+  "desc_cn": "Cloud DX 是加拿大远程患者监测(RPM)设备与软件公司，持有 FDA 注册与加拿大卫生部许可，其 Connected Health™ 平台包含血压计、血氧仪等生命体征硬件、医生仪表盘与远程问诊，用于慢病、术后及安宁期居家管理，帮助长者原居安老。为 Medtronic、Teladoc 等提供 RPM，据称用户满意度 89–100%。",
+  "tag_l2": ["可穿戴监测", "慢病管理"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Cohere Health",
+  "desc_cn": "Cohere Health 是面向健康险公司的临床智能 SaaS 平台，用经临床训练的负责任 AI 自动化事前授权(prior authorization)与支付准确性审核，可实时自动批准最高 90% 的申请、降低约 47% 管理成本。服务 Humana、Geisinger 等，年处理超 1,200 万次事前授权，连续多年入选 Gartner 医保支付方 Hype Cycle。",
+  "tag_l2": ["AI医疗"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Compassus",
+  "desc_cn": "Compassus 是美国全国性居家照护提供商，提供临终关怀(hospice)、居家医疗、居家输液与姑息治疗，持有 Medicare 认证，在 31 个州拥有 150+ 个服务机构。公司源于 1979 年的临终关怀业务，强调以患者住所为中心、由跨学科团队提供身心社灵照护。",
+  "tag_l2": ["安宁疗护"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Concerto Care",
+  "desc_cn": "ConcertoCare（由 ConcertoHealth 与 Perfect Health 合并）是技术赋能、按风险付费的居家综合照护提供商，面向有复杂医疗与社会需求的老年 Medicare/Medicaid 会员，由医生带领下涵盖医疗、行为健康与社工的跨学科团队上门服务，并依托自有 Patient3D® 人口健康平台。宣称可降低住院率 47%，累计融资约 1.5 亿美元。",
+  "tag_l2": ["居家医疗", "慢病管理"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "DarioHealth",
+  "desc_cn": "DarioHealth（纳斯达克:DRIO）是数字疗法(DTx)公司，提供覆盖糖尿病、高血压、体重、肌骨与行为健康的多慢病平台，含智能血糖仪/血压计等联网设备、App 与一对一教练。以 B2B2C 模式服务健康险与公司雇主，发表 100+ 篇同行评审研究，为客户带来最高 5 倍 ROI、人均年省约 5,077 美元。",
+  "tag_l2": ["糖尿病", "可穿戴监测"],
+  "confidence": "high",
+  "note": "原标签'智能药盒'不准确，实为糖尿病/多慢病数字疗法平台。"
+ },
+ {
+  "name": "Daughterhood",
+  "desc_cn": "Daughterhood 是由老龄化政策专家 Anne Tumlinson 于 2015 年创立的非营利社群，专为照顾年迈父母等家人的家属（尤其女性）提供支持。通过免费的线上互助小组(Circles)、播客、博客与资源库，陪伴照护者从确诊、日常照护到临终及照护后的全过程，强调'你不是一个人'。它属于照护者教育与互助社区，而非商业产品。",
+  "tag_l2": ["兴趣社群", "照护支持"],
+  "confidence": "high",
+  "note": "非营利社群，非商业公司；原标签'养老信息平台'不准确。"
+ },
+ {
+  "name": "DigitalOwl",
+  "desc_cn": "DigitalOwl 是保险科技(InsurTech)公司，用专有 NLP/生成式 AI 把繁杂的非结构化病历转化为结构化数据与摘要，服务保险（寿险核保、长期护理理赔、意外伤害）与法律行业，支持点击溯源、API 接入与工作流自动化。客户为保险公司、再保、TPA 与律所，累计融资超 3,800 万美元（Insight Partners 领投 A 轮），符合 HIPAA/SOC2。",
+  "tag_l2": ["保险科技"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "DiningRD",
+  "desc_cn": "DiningRD 是面向养老社区与长期照护机构(CCRC、记忆照护、疗养院等)的餐饮营养软件与营养师咨询公司，核心产品 DiningManager 套件含菜单规划(PlateFul)、住民营养档案(MealCard)与平板点餐(TableSide)。旗下近 900 名注册营养师服务全美 49 州超 8,500 家机构，成立于 1993 年，获私募股权支持。",
+  "tag_l2": ["养老膳食", "养老软件"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Elektra Health",
+  "desc_cn": "Elektra Health 是专注更年期的虚拟照护平台，为处于中年/更年期的女性提供经委员会认证医生的远程问诊（可开激素与非激素处方）、一对一 menopause 教练、循证教育与私密社群。已接入 Aetna、UnitedHealthcare、Anthem 等主流保险，强调用早干预降低健康计划与雇主成本。由 Cityblock 早期成员 Jannine Versi 联合创立。",
+  "tag_l2": ["更年期"],
+  "confidence": "high",
+  "note": "原标签'智能药盒/更年期'中'智能药盒'不准确，保留'更年期'。"
+ },
+ {
+  "name": "Family First",
+  "desc_cn": "Family First（同名机构较多，此处指面向长者的居家照护与照护管理机构，如 Family First at Home / Home Companions）提供专业居家照护、持证护理员匹配，以及由认证照护经理、咨询师与保险倡导师组成的综合照护管理服务，帮助家庭评估需求、安排就医与应对老化挑战。多为家庭式或地区性机构，服务长者原居安老。",
+  "tag_l2": ["护工平台", "照护支持"],
+  "confidence": "med",
+  "note": "名称存在多家同名机构（居家照护机构、成人家庭之家等），未锁定唯一主体；原标签'养老信息平台'不准确，按居家照护/照护管理机构处理。"
+ },
+ {
+  "name": "Foodsmart",
+  "desc_cn": "Foodsmart 是远程营养健康平台，通过电话或视频将会员与注册营养师(RD)连接，提供个性化营养方案，并配套 App 含菜谱规划、比价与食品配送商城（接入 Instacart、Walmart、Grubhub）；多数会员由健康险覆盖、自付为 0。可用于管理糖尿病、高血压、体重及协助申请 SNAP 福利，以 B2B2C 模式服务健康险与雇主。",
+  "tag_l2": ["个性化营养", "膳食配送"],
+  "confidence": "high",
+  "note": "原标签'保健品/营养食品/膳食配送'中'保健品/营养食品'不准确，保留'膳食配送'并加'个性化营养'。"
+ },
+ {
+  "name": "Foundation Partners Group",
+  "desc_cn": "Foundation Partners Group 是美国殡葬与墓园服务运营商，成立于 2010 年，在 21 个州拥有约 197 家殡仪馆、火化中心与 18 处墓园，每年服务超 11.5 万个家庭。以 ShareLife® 客户体验为中心，并通过为独立殡仪馆提供继任规划（可被收购后保留原品牌）实现规模化扩张。",
+  "tag_l2": ["殡葬"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Friendi.fi",
+  "desc_cn": "Friendi.fi 是一家早期（2024 年成立、承诺融资超 1,000 万美元）的 AI 陪伴公司，训练自有对话式 AI 模型与老年人、自闭症青年等群体建立'友谊'关系，并在友好对话中穿插持证专业人员指导的健康 coaching；通过与照护机构及 Medicare/Medicaid 支付方合作，为低收入人群提供价值。创始人来自 care.coach。",
+  "tag_l2": ["陪伴机器人"],
+  "confidence": "high",
+  "note": "非常早期阶段（2024 年成立），目前以文本互动为主。"
+ },
+ {
+  "name": "Gather Health",
+  "desc_cn": "Gather Health 是面向 65 岁以上 Medicare（含双重资格）长者的'社会型'初级医疗提供商，提供诊所、上门与虚拟三种照护模式，由全科医生、负责社会支持的 Guide Partner 与上门访视的医疗技术员组成环绕式团队，并设社区活动中心解决孤独、住房、食物等社会决定因素(SDOH)。成立于 2022 年，总部波士顿，累计融资约 5,250 万美元（Khosla、Maverick 等）。",
+  "tag_l2": ["诊所", "SDOH"],
+  "confidence": "high",
+  "note": "原标签'保健品/营养食品/SDOH'中'保健品/营养食品'不准确，保留'SDOH'并加'诊所'。"
+ },
+ {
+  "name": "Gennev",
+  "desc_cn": "Gennev 是美国数字更年期诊所，提供经更年期认证 OB/GYN 的远程问诊、注册营养师健康教练、社群与免费教育，覆盖全 50 州；方案含处方药（如激素疗法）、营养与生活方式干预。由前微软高管 Jill Angelo 于 2016 年创立，2022 年被 Unified Women's Healthcare 收购，定位'后半生女性健康平台'。",
+  "tag_l2": ["更年期"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Glooko",
+  "desc_cn": "Glooko 是糖尿病管理远程监测平台，其 App 可同步 200+ 款血糖仪、CGM、胰岛素泵与健康追踪设备的数据，并提供医生仪表盘、远程协作与 EndoTool 住院血糖管理系统（FDA 认证），帮助 1 型/2 型/妊娠糖尿病及前期人群改善血糖控制。服务全球 29+ 国家、逾 300 万用户，支持按 CPT 代码报销。",
+  "tag_l2": ["糖尿病", "可穿戴监测"],
+  "confidence": "high",
+  "note": "原标签'糖尿病/可穿戴监测'准确。"
+ },
+ {
+  "name": "Grayce",
+  "desc_cn": "Grayce 是雇主提供的家庭照护导航福利平台，为在职照护者（照顾年迈父母或家人）匹配硕士层级的社会工作者作为专属 Care Partner，协助预约就医、交通、家政、保险与公共项目申请及丧亲安排，并配套同龄社群与教育资源，以降低职业倦怠与缺勤。成立于 2020 年，已完成 1,040 万美元 A 轮；2025 年起客户转介至 Cariloop。",
+  "tag_l2": ["照护支持"],
+  "confidence": "high",
+  "note": "原标签'养老信息平台'不准确，实为雇主提供的家庭照护者支持福利。"
+ },
+ {
+  "name": "GroundGame Health/SameSky Health",
+  "desc_cn": "GroundGame Health 与 SameSky Health 于 2024 年合并（由 7wireVentures 领投 1,700 万美元），专注解决健康相关的社会需求(SDOH)。其经 HITRUST 认证的平台通过文化适配的外联与成员互动，帮助 Medicaid 参保人与医疗计划'闭环'其食物、住房、交通等社会需求，提升弱势群体的就医依从性与健康公平。原标签'慢病管理'不准确，其核心价值在 SDOH 而非慢病诊疗。",
+  "tag_l2": ["SDOH", "照护支持"],
+  "confidence": "high",
+  "note": "2024 年 GroundGame Health 与 SameSky Health 合并；核心解决社会决定因素(SDOH)，非慢病管理。"
+ },
+ {
+  "name": "Grow Therapy",
+  "desc_cn": "Grow Therapy 是心理健康平台，连接来访者、持证心理治疗师与健康险公司，提供覆盖保险（多数主流商业保险与 Medicaid）的线上心理治疗预约与匹配。平台上已有 1.9 万至 2.6 万+ 名治疗师，并以 B2B2C 模式服务雇主与健康计划，降低看诊门槛与等待时间。",
+  "tag_l2": ["心理健康"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Hamilton Health Box",
+  "desc_cn": "Hamilton Health Box 是按需付费(value-based)的初级医疗提供商，2019 年成立于休斯顿，通过部署在乡村、医疗资源不足地区及雇主场所的'微型诊所(microclinics™)'提供小型化、就近的门诊服务；2024 年完成 1,000 万美元 A 轮融资。原标签'诊所'准确。",
+  "tag_l2": ["诊所"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "HarmonyCares",
+  "desc_cn": "HarmonyCares（前身为 U.S. Medical Management）是美国最大的上门初级医疗(house call)机构之一，由医生带队为行动不便的慢性病长者提供居家看诊、护理协调与按价值付费的综合照护；服务覆盖 15–17 个州、7 万+ 患者，2024 年完成约 2 亿美元融资。原标签误归为'保健品/营养食品'，实为居家医疗服务。",
+  "tag_l2": ["居家医疗"],
+  "confidence": "high",
+  "note": "原标签_l1'食品营养'与标签'保健品/营养食品'明显错误，已纠正为居家医疗。"
+ },
+ {
+  "name": "HealthArc",
+  "desc_cn": "HealthArc 是统一的虚拟照护平台，提供远程患者监测(RPM)与慢病管理(CCM)等模块，可整合 40+ 款健康监测设备，面向医疗机构、支付方与雇主；宣称服务 6.5 万患者，以 B2B SaaS 模式帮助医生开展按服务付费的远程照护。原标签'养老信息平台'不准确，实为慢病/远程监测软件平台。",
+  "tag_l2": ["慢病管理", "可穿戴监测"],
+  "confidence": "high",
+  "note": "原标签'养老信息平台'不准确，应为慢病管理与可穿戴监测。"
+ },
+ {
+  "name": "HealthSnap",
+  "desc_cn": "HealthSnap 是集成式虚拟照护管理(VCM)平台，提供远程患者监测(RPM)、慢病管理(CCM)与预防性照护(PCM)，已接入 150+ 医疗系统与 10 万+ 患者，在高血压、糖尿病、肥胖等慢病上改善临床结局；面向医院与健康计划销售，并可与 EHR 集成。原标签'养老软件'基本合理但更精确为慢病管理/远程护理。",
+  "tag_l2": ["慢病管理", "远程护理"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Homeage",
+  "desc_cn": "Homeage 是新加坡起家的科技驱动型居家照护平台（2016 年创立，Gillian Tee 联合创办，2021 年完成 2,980 万美元 C 轮），通过自研匹配引擎将长者与经过筛选、培训的护理专业人员对接，提供个人照护(ADL 协助)、居家护理(护士上门操作)、康复治疗(物理/作业/言语治疗)及远程问诊、送药等，业务覆盖新加坡、马来西亚与澳大利亚。",
+  "tag_l2": ["护工平台", "居家医疗"],
+  "confidence": "high",
+  "note": ""
+ },
+ {
+  "name": "Imperative Care",
+  "desc_cn": "Imperative Care 是商业化阶段的医疗器械公司（2015 年创立于加州，Fred Khosravi 创办），专注血栓栓塞性疾病，核心产品为用于缺血性卒中取栓的 Zoom Stroke System，以及用于静脉血栓(Symphony)与急性肢体缺血(Prodigy)的血栓切除系统，并研发 Telos 血管介入机器人。其业务为向医院销售神经血管/血管介入器械，与日常养老照护间接相关（卒中在老年人群高发）。",
+  "tag_l2": ["医疗器械"],
+  "confidence": "med",
+  "note": "医疗器械公司，产品为卒中/血管取栓器械；与银发经济的直接相关度在于卒中在老年人群高发，但非养老服务企业。"
+ },
+ {
+  "name": "In-House Health",
+  "desc_cn": "In-House Health 是面向现代护理团队的 AI 技术平台（2023 年成立于丹佛，2024 年完成 400 万美元种子轮，投资方含 NEA、Longevity Venture Partners），用机器学习自动化护士排班与人力调度工作流，根据历史数据从分诊到出院生成班次建议，改善床边体验、患者安全与财务结果。它服务医院护理运营，与养老照护间接相关。",
+  "tag_l2": ["养老软件"],
+  "confidence": "med",
+  "note": "实为医院护理团队的人工智能排班/人力调度 SaaS，与养老直接关联较弱；按医疗信息化软件归类。"
+ },
+ {
+  "name": "InHome Therapy",
+  "desc_cn": "InHome Therapy 是居家康养领域的外包康复治疗服务商（2021 年成立），为家庭健康机构(home health agency)提供物理、作业与言语治疗师的派驻与全流程管理（薪酬、培训、合规），让机构在 48 小时内获得上门治疗人力；自称累计 250 万+ 患者访问、合作 350+ 家机构。其模式为 B2B 康复治疗人力供应。",
+  "tag_l2": ["居家康复"],
+  "confidence": "high",
+  "note": "原标签'专业护理/康复医疗'基本合理，更精确为居家康复（上门 PT/OT/ST）。"
+ },
+ {
+  "name": "K4Connect",
+  "desc_cn": "K4Connect 是使命驱动型的 AgeTech 公司，为全美养老社区（独立生活、辅助生活、记忆照护）提供企业级 SaaS：K4Community 互动平台（居民沟通、参与、健康、安全与智能家居）与 FusionOS 数据互操作平台，连接可穿戴设备、EHR 与 50+ 应用以打通社区运营数据，提升居民独立性与运营效率。",
+  "tag_l2": ["养老软件"],
+  "confidence": "high",
+  "note": "原标签'适老化'不准确，实为养老社区 SaaS 平台。"
+ },
+ {
+  "name": "Kemtai",
+  "desc_cn": "Kemtai 是数字物理治疗平台，用自研计算机视觉（无需传感器/可穿戴，任意带摄像头设备即可运行，FDA 注册、CE 认证）实时分析人体 111 个关键点动作并提供纠正指导，覆盖 2,000+ 项练习，用于居家/临床康复训练与动作评估；以 B2B 模式服务医疗系统、数字健康与药械企业。原标签'眼镜/健身'明显错误。",
+  "tag_l2": ["居家康复", "AI医疗"],
+  "confidence": "high",
+  "note": "原标签'眼镜/健身'错误，实为基于计算机视觉的数字康复(AI医疗)。"
+ },
+ {
+  "name": "Kinto",
+  "desc_cn": "Kinto 是面向痴呆症家庭照护者的科技赋能型照护辅导服务（2017 年创立，2024 年被 Rippl Care 收购），通过 App 提供一对一持证 Care Coach 辅导、个性化课程与同伴互助小组，并以 Medicare/Medicaid、医院与 ACO 为支付与分发渠道免费提供给照护者；核心改善照护者福祉而非直接治疗患者。原标签'远程护理'不准确。",
+  "tag_l2": ["照护支持", "认知症"],
+  "confidence": "high",
+  "note": "原标签'远程护理'不准确；实为痴呆症照护者支持，归照护支持+认知症。"
+ },
+ {
+  "name": "Kismet",
+  "desc_cn": "存在两家同名实体：① Kismet Healthcare（澳大利亚，2023 年成立）是 AI 驱动的平台，帮助家庭在 NDIS 与养老体系中导航、搜寻/预约/支付照护与医疗服务提供商，被称为'个性化礼宾'，2025 年获 3,250 万澳元种子轮、用户超 10 万；② Kismet Health（美国）是面向儿童的远程医疗平台。本库按银发语境取前者。",
+  "tag_l2": ["养老信息平台"],
+  "confidence": "med",
+  "note": "同名实体有歧义：已按澳大利亚养老/残障照护导航平台(Kismet Healthcare)处理；另有美国儿科远程医疗公司 Kismet Health。"
+ },
+ {
+  "name": "Koda Health",
+  "desc_cn": "Koda Health 是预先医疗指示(ACP)基础设施公司（源自 2020 年德州医学中心 Biodesign Fellowship），其 EMR 集成的 SaaS 平台帮助患者通过视频引导完成预设医疗指示、DNR、医疗授权委托书等法定文件并线上公证、共享；用 AI 预测性触达提升完成率，与 Houston Methodist、Cigna 等合作，使临终住院率降低 79%。原标签'养老软件'合理。",
+  "tag_l2": ["安宁疗护", "养老软件"],
+  "confidence": "high",
+  "note": "核心为预先医疗指示/临终目标一致性规划，归安宁疗护(临终照护)更准确。"
+ }
+]

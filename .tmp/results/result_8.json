@@ -1,0 +1,240 @@
+[
+  {
+    "name": "LifeBio",
+    "desc_cn": "LifeBio 是一家生命故事回忆疗法平台，通过引导式提问帮助老年人记录人生故事，向养老机构、医疗保健组织和家庭用户以订阅方式提供。其核心亮点是将回忆疗法用于认知激活与个性化照护，已被较多养老社区采用。",
+    "tag_l2": ["认知训练"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Linus Health",
+    "desc_cn": "Linus Health 是一家 AI 数字认知评估公司，通过平板上的认知任务及早发现阿尔茨海默病等认知障碍，产品已获 FDA 注册，向医疗机构与健康计划以 SaaS 方式销售。亮点是把认知筛查嵌入常规体检流程，支持大规模早期干预。",
+    "tag_l2": ["认知筛查"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Meela",
+    "desc_cn": "Meela 是一家面向老年人的 AI 陪伴公司，既能按设定时间主动给独居老人打电话聊天（语音伴侣），也为养老社区提供 AI 运营策略工具 Meela ONE。商业模式为 B2B 软件订阅与面向家庭的陪伴服务，亮点是用 AI 语音缓解孤独并预警异常。",
+    "tag_l2": ["陪伴服务"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Mend",
+    "desc_cn": "Mend（mend.com）是一家面向医疗机构的行为健康 AI 平台，用自动化沟通、日程提醒与远程问诊降低患者爽约率、提升就诊转化，按 SaaS 向诊所和医院收费。注：同时存在澳洲的 Mend 癌症/慢病康复 App，公开信息存在重名歧义。",
+    "tag_l2": ["养老软件"],
+    "confidence": "med",
+    "note": "同名实体歧义：美国行为健康平台 mend.com 与澳洲 Mend 康复 App，本次按 mend.com 处理，建议人工复核确切主体。"
+  },
+  {
+    "name": "myo",
+    "desc_cn": "myo（德国 Myosotis 公司）是一款连接养老院住客、家属与护理人员的 SaaS 沟通应用，用平板/电视推送活动、消息与日程，已在德语区 250 多家养老机构部署。商业模式为面向机构的年度订阅，亮点是把家属沟通与日常照护可视化。",
+    "tag_l2": ["养老软件"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Nirvana",
+    "desc_cn": "Nirvana 旗下与老年相关的业务主要指向 Nirvana Adult Day Care（佛罗里达的成人日托照护）及 Nirvana Healthcare 的老年医学科，提供日托、慢病管理与老年综合照护，按服务/医保收费。注：Nirvana 同时还有 PBM 医疗支付平台与护理派遣业务。",
+    "tag_l2": ["专业护理"],
+    "confidence": "med",
+    "note": "同名实体较多（成人日托/老年医学/PBM/护理派遣），本次按成人日托照护理解，建议人工复核具体指向。"
+  },
+  {
+    "name": "Omena",
+    "desc_cn": "Omena 是一家法国女性更年期健康 App（FemTech），提供症状追踪、个性化建议与远程健康指导，以订阅制面向用户收费，曾获约 98.8 万欧元种子轮融资。亮点是把更年期这一被忽视阶段做成数字化全程管理产品。",
+    "tag_l2": ["更年期"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "PeopleOne Health",
+    "desc_cn": "PeopleOne Health 是一家位于佛罗里达奥兰多的价值型基础医疗集团，以每月约 160 美元的会员费提供接近私人医生的便捷初级诊疗与慢病管理，并在社区设健康中心。亮点是用低价会员制+按价值付费模式提升就医可及性。",
+    "tag_l2": ["诊所"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Punto Health",
+    "desc_cn": "Punto Health 是一家伦敦的 AI 失智照护平台，旗下 PuntoTest/PuntoCare/PuntoClinic 提供认知筛查、照护计划与家属支持，曾获 230 万欧元种子轮融资，向 NHS 及养老机构以 SaaS 销售。亮点是把痴呆筛查与持续照护闭环数字化。",
+    "tag_l2": ["认知症"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Pyx Health",
+    "desc_cn": "Pyx Health 是一家解决老年人孤独与社会隔离的公司，为 Medicare/Medicaid 会员提供 App、人工呼叫中心关怀以及生鲜配送，按人头向健康计划（payer）收费。亮点是用'真人+科技'组合显著降低孤独相关的医疗支出。",
+    "tag_l2": ["陪伴服务"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "RapidClaims",
+    "desc_cn": "RapidClaims 是一家医疗收入周期自动化公司，用自主 AI 完成医学编码、账单与理赔（产品含 RapidCode/RapidVBC/RapidRecovery），向医院与 RCM 机构按 SaaS/用量收费，总部在纽约。亮点是把人工编码环节做到近乎全自动，提升回款效率。",
+    "tag_l2": ["AI医疗"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Redi Health",
+    "desc_cn": "Redi Health 是一个数字化的患者支持平台，连接药企与患者，提供用药依从、福利查询与疾病管理工具，通过 B2B2C（向制药与支付方收费）模式运营，已完成 B 轮融资。亮点是把药企患者援助项目做成可量化的依从性提升产品。",
+    "tag_l2": ["养老软件"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Rune Labs",
+    "desc_cn": "Rune Labs 是一家精密神经科软件公司，其 StrivePD 通过 Apple Watch 等可穿戴设备追踪帕金森症状与运动数据，已获 FDA 许可，向临床与药物试验机构提供数据与决策支持。亮点是把日常可穿戴数据转化为可用于诊疗和研究的神经标志物。",
+    "tag_l2": ["可穿戴监测"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "SafelyYou",
+    "desc_cn": "SafelyYou 是一家用 AI 视频识别预防老年人跌倒的公司，在养老/记忆照护社区部署摄像头实时检测跌倒并报警，宣称准确率约 99%，按机构订阅收费。亮点是用计算机视觉把跌倒事后处置前移到事前预防，降低骨折与住院。",
+    "tag_l2": ["跌倒监测"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Senior.com",
+    "desc_cn": "Senior.com 是一家面向老年人和照护者的电商平台，销售助行、居家安全、康复等适老产品，成立于 2004 年、总部加州尔湾，靠商品销售营利。亮点是较早专注银发垂直电商，形成稳定的适老用品选品与复购。",
+    "tag_l2": ["电商"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "SeniorCare.com",
+    "desc_cn": "SeniorCare.com 是一个养老资源信息门户，汇总辅助生活、居家照护等服务商信息并提供筛选与指南，还设有奖学金与老龄化专家委员会，靠广告/服务商入驻营利。亮点是把分散的养老选择做成可检索的决策平台。",
+    "tag_l2": ["养老信息平台"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "SeniorSafetyAdvice",
+    "desc_cn": "SeniorSafetyAdvice 是由职业治疗师（OT）创办的老年居家安全科普网站，提供适老化改造、防跌倒与居家养老的指南与产品评测，靠内容与联盟营销获利。亮点是用专业视角产出可信的居家安全信息，并非社交陪伴平台。",
+    "tag_l2": ["养老咨询"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "SiftWell Analytics",
+    "desc_cn": "SiftWell Analytics 是一家为医疗支付方（payer）提供全会员 AI 洞察的公司，做风险分层、照护缺口识别与干预推荐，团队多有医疗责任组织背景，融资约 930 万美元。亮点是把分散的会员数据转化为可执行的精准照护信号。",
+    "tag_l2": ["AI医疗"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Sugar.fit",
+    "desc_cn": "Sugar.fit（印度 Ragus Healthcare）是一款糖尿病逆转与肥胖管理 App，结合 CGM 连续血糖监测、医生/教练指导和 GLP-1 用药管理，以订阅制面向个人与雇主提供。亮点是把糖尿病管理做成可量化的'逆转'式数字疗程。",
+    "tag_l2": ["糖尿病"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Thoughtful AI",
+    "desc_cn": "Thoughtful AI 是一家为医疗收入周期管理（RCM）提供 AI Agent 自动化的公司，用智能体处理理赔、核销与申诉等流程，按 SaaS 向医院与 billing 机构收费。亮点是用可替代重复性人工作业的 AI 员工降低运营成本、加快回款。",
+    "tag_l2": ["AI医疗"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Tuesday Health",
+    "desc_cn": "Tuesday Health 是一家按价值付费的安宁/缓和疗护服务集团，为重病老人提供线下+远程的缓和医疗与临终关怀，已与 Humana、Buckeye 等支付方合作。亮点是把缓和疗护做成可规模化的按人头付费服务体系。",
+    "tag_l2": ["安宁疗护"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "vermut",
+    "desc_cn": "vermut 是一个面向 55 岁以上人群的抗孤独社交平台，通过本地活动与兴趣小组帮助中老年人建立线下联结，在西班牙与美国运营、用户约 10 万。亮点是用'本地活动+社区'而非纯线上聊天来真正减少孤独。",
+    "tag_l2": ["社区"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Vi Health",
+    "desc_cn": "Vi Health 是一家荷兰更年期健康平台，面向职场女性提供症状管理与健康指导，作为企业员工健康福利（B2B2C）向雇主销售，总部鹿特丹、融资约 130 万欧元。亮点是把更年期支持嵌入企业福利，填补职场健康空白。",
+    "tag_l2": ["更年期"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Vitable",
+    "desc_cn": "Vitable 是一家澳洲个性化维生素订阅品牌，按问卷与算法为个人配制每日分装营养包，D2C 订阅直邮、持有 TGA 相关资质。亮点是把膳食补充剂做成'按人定制+每日分装'的订阅模式。",
+    "tag_l2": ["保健品"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Welbi",
+    "desc_cn": "Welbi 是一款面向养老社区的入住长者参与（resident engagement）AI 平台，自动编排活动、匹配同伴并对接 EHR 电子健康档案，按机构订阅收费。亮点是用 AI 把日常活动与社交参与数据化，提升长者满意度与留存。",
+    "tag_l2": ["养老软件"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Wheel",
+    "desc_cn": "Wheel 是一家虚拟医疗基础设施公司，既运营可弹性调用的临床医生网络，也为企业提供白标远程问诊平台，按平台与接诊量向企业收费。亮点是把'虚拟医疗能力'做成可嵌入各类产品的底层服务。",
+    "tag_l2": ["远程医疗"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Enhabit",
+    "desc_cn": "Enhabit（NYSE: EHAB）是美国全国性的居家健康与临终关怀服务商，在 34 个州运营约 255 个居家护理点和 112 个临终关怀点，靠医保与服务收费。亮点是居家医疗+安宁疗护双线布局的上市规模企业。",
+    "tag_l2": ["安宁疗护"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Arya Health",
+    "desc_cn": "Arya Health 是一家为急性期后照护（居家护理/临终关怀）机构提供 AI 行政代理的公司，自动化排班、合规文档与招聘流程，按 SaaS 向机构收费。亮点是用 AI 替护理机构承担高重复的运营行政工作，缓解人手压力。",
+    "tag_l2": ["养老软件"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Amba",
+    "desc_cn": "Amba 是一款面向养老社区的被动式传感监测 SaaS，通过床垫/环境传感器追踪睡眠、活动与生命体征并预警跌倒，配 HeyAmba AI 生成照护洞察，按机构订阅收费。亮点是用无穿戴、不打扰的方式实现持续健康监护。",
+    "tag_l2": ["远程护理"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Artifcts",
+    "desc_cn": "Artifcts 是一款帮助用户为物件拍摄并留存背后故事与传承信息的 App，常用于长辈整理遗物、缩小住房和家族记忆保存，以个人订阅收费。亮点是把'断舍离'与代际传承变成可分享的数字档案（并非专属老年产品，但深受银发用户使用）。",
+    "tag_l2": ["文娱"],
+    "confidence": "med",
+    "note": "产品并非专做银发，但老年用户群体明显，按通用文娱/传承工具收录。"
+  },
+  {
+    "name": "ONSCREEN",
+    "desc_cn": "ONSCREEN 是一家面向老年人的视频陪伴公司，提供接电视/平板的简易视频通话设备与 AI 伴侣'Joy'（含 JoyTV/JoyTablet 等），靠硬件销售与订阅营利。亮点是把视频通话做成老人无需操作即可用的'客厅伴侣'，降低数字鸿沟。",
+    "tag_l2": ["智能硬件", "陪伴服务"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Embodied Labs",
+    "desc_cn": "Embodied Labs 是一家用 VR/沉浸式体验培训养老与照护人员的公司，让学员'代入'阿尔茨海默、视力听力衰退、社会隔离等长者视角以培养共情与照护技能，向养老机构、院校与政府组织按席位/订阅收费，已服务 85+ 机构。亮点是用第一人称 VR 显著提升培训留存与同理心。",
+    "tag_l2": ["护工培训"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Discover Live",
+    "desc_cn": "Discover Live 是一个面向老年人与不便出行人群的'直播云游'平台，由真人导览带观众实时虚拟游览全球景点，常与养老机构、老年事务机构合作（如纽约州老年事务办公室），按活动/机构收费。亮点是用实时直播把旅游体验带给行动受限的长者，兼具社交与认知刺激。",
+    "tag_l2": ["旅游"],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "锋物科技",
+    "desc_cn": "锋物科技（天津，2019 年成立）是一家物业数字化与智慧社区平台商，提供 AI 安防、IoT 设备管理与物业运营系统，并布局'物业+养老'服务与巡护机器人（跌倒监测、陪伴、紧急响应），向地产/物业以 SaaS 与解决方案收费，已服务 60+ 物业百强。亮点是把智慧社区底座延伸到居家与社区养老场景。",
+    "tag_l2": ["智能家居"],
+    "confidence": "high",
+    "note": ""
+  }
+]

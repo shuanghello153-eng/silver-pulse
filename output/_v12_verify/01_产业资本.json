@@ -1,0 +1,1375 @@
+{
+ "bundle": "01_产业资本",
+ "L2_TO_L1": {
+  "银发产业基金": "?",
+  "养老地产REIT": "?",
+  "医疗信息化": "?",
+  "资讯门户": "?",
+  "养老信息服务": "?",
+  "老年服务VC": "?",
+  "养老咨询": "?",
+  "行业研究": "?",
+  "行业展会": "?",
+  "医疗健康投资": "?",
+  "行业媒体": "产业资本",
+  "影响力与并购投资": "?",
+  "养老科技VC": "?",
+  "咨询研究": "产业资本"
+ },
+ "synonyms": {
+  "银发产业基金": [
+   "养老产业基金",
+   "银发产业基金",
+   "银发基金"
+  ],
+  "养老地产REIT": [
+   "养老REITs",
+   "养老地产REIT",
+   "养老地产信托"
+  ],
+  "医疗信息化": [
+   "医疗SaaS平台",
+   "医疗信息化",
+   "医疗数字化服务"
+  ],
+  "资讯门户": [
+   "资讯门户",
+   "银发门户"
+  ],
+  "养老信息服务": [
+   "养老信息服务",
+   "养老数据服务",
+   "银发信息服务"
+  ],
+  "老年服务VC": [
+   "养老服务VC",
+   "老年服务VC",
+   "老年服务风投"
+  ],
+  "养老咨询": [
+   "养老咨询",
+   "养老服务咨询",
+   "养老顾问"
+  ],
+  "行业研究": [
+   "产业研究",
+   "行业报告",
+   "行业研究"
+  ],
+  "行业展会": [
+   "养老展会",
+   "行业博览会",
+   "行业展会"
+  ],
+  "医疗健康投资": [
+   "健康产业投资",
+   "医疗健康VC",
+   "医疗健康投资"
+  ],
+  "行业媒体": [
+   "B2C媒体",
+   "信息目录",
+   "内容媒体",
+   "媒体",
+   "数字营销",
+   "营销媒体",
+   "行业媒体",
+   "行业资讯"
+  ],
+  "影响力与并购投资": [
+   "养老并购投资",
+   "影响力与并购投资",
+   "影响力投资"
+  ],
+  "养老科技VC": [
+   "养老科技VC",
+   "养老科技风投",
+   "老年科技VC"
+  ],
+  "咨询研究": [
+   "医疗人员培训",
+   "咨询研究",
+   "市场研究",
+   "战略咨询",
+   "护工培训"
+  ]
+ },
+ "tags": {
+  "银发产业基金": [
+   {
+    "name": "BAI资本",
+    "name_en": "BAI资本",
+    "description": "贝塔斯曼亚洲投资基金（Bertelsmann Asia Investments），关注消费、教育、医疗健康领域的早期和成长期投资，在银发经济领域有多个布局。",
+    "desc_cn": "贝塔斯曼亚洲投资基金（Bertelsmann Asia Investments），关注消费、教育、医疗健康领域的早期和成长期投资，在银发经济领域有多个布局。",
+    "business_model_cn": "B2C 教育/培训",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "国寿大健康",
+    "name_en": "国寿大健康",
+    "description": "国寿大健康是中国人寿旗下大健康产业投资基金，聚焦医疗健康和养老服务领域的股权投资。",
+    "desc_cn": "国寿大健康是中国人寿旗下大健康产业投资基金，聚焦医疗健康和养老服务领域的股权投资。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "太保资本",
+    "name_en": "太保资本",
+    "description": "作为产业资本方，围绕康养地产与银发赛道进行投资布局，赋能养老产业生态",
+    "desc_cn": "作为产业资本方，围绕康养地产与银发赛道进行投资布局，赋能养老产业生态",
+    "business_model_cn": "产业资本/康养投资",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "普健济康",
+    "name_en": "普健济康",
+    "description": "普健济康是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "普健济康是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "栈道资本",
+    "name_en": "栈道资本",
+    "description": "栈道资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "栈道资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "达晨财智",
+    "name_en": "达晨财智",
+    "description": "达晨财智是国内领先的本土创投机构，管理资产规模超350亿元，在医疗健康和养老产业有多个投资布局。",
+    "desc_cn": "达晨财智是国内领先的本土创投机构，管理资产规模超350亿元，在医疗健康和养老产业有多个投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "达风投资",
+    "name_en": "达风投资",
+    "description": "达风投资是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "达风投资是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "金鼎资本",
+    "name_en": "金鼎资本",
+    "description": "金鼎资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "金鼎资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "铱创投资",
+    "name_en": "铱创投资",
+    "description": "铱创投资是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "铱创投资是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "银创资本",
+    "name_en": "银创资本",
+    "description": "银创资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "银创资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "长岭资本",
+    "name_en": "长岭资本",
+    "description": "长岭资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "长岭资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "高樟资本",
+    "name_en": "高樟资本",
+    "description": "高樟资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "desc_cn": "高樟资本是关注银发经济赛道的投资机构，在医疗健康和养老产业有投资布局。",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Primetime Partners",
+    "name_en": "Primetime Partners",
+    "description": "Primetime Partners是专注银发经济（50+人群）的风险投资基金，由Alan Patricof创立，投资了多个老年科技和老年消费项目。",
+    "desc_cn": "Primetime Partners是专注银发经济（50+人群）的风险投资基金，由Alan Patricof创立，投资了多个老年科技和老年消费项目。",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Ziegler长寿基金",
+    "name_en": "Ziegler长寿基金",
+    "description": "Ziegler（B.C. Ziegler and Company）是一家成立于1932年的美国精品投资银行与财富管理机构，长期深耕医疗与养老（senior living）行业，为养老社区、养老运营商及长寿科技企业提供融资、并购顾问与资本市场服务，其Ziegler Senior Living为行业权威研究品牌。",
+    "desc_cn": "长寿专项基金，投资二十余家长寿赛道企业",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "银发产业基金"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "养老地产REIT": [
+   {
+    "name": "Janus Living",
+    "name_en": "Janus Living",
+    "description": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+    "desc_cn": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+    "business_model_cn": "RIDEA结构 上市养老地产REIT",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Healthpeak Properties",
+    "name_en": "Healthpeak Properties",
+    "description": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+    "desc_cn": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+    "business_model_cn": "上市医疗/养老地产REIT(RIDEA)",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Welltower｜医疗地产信托",
+    "name_en": "Welltower",
+    "description": "全球最大医疗地产信托(REIT)，纽交所代码 WELL，专注养老社区、医疗办公楼与长期急症护理地产的持有与运营，是美国'银发地产'赛道的定价锚。",
+    "desc_cn": "全球最大医疗地产信托(REIT)，纽交所代码 WELL，专注养老社区、医疗办公楼与长期急症护理地产的持有与运营，是美国'银发地产'赛道的定价锚。",
+    "business_model_cn": "REIT：持有并运营养老社区/医疗办公楼/长期护理地产，靠租金与资产增值获利",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Ventas｜医疗REIT",
+    "name_en": "Ventas",
+    "description": "美国老牌医疗地产信托(REIT)，纽交所代码 VTR，资产覆盖养老社区、医疗办公楼与生物实验室，是养老地产证券化另一龙头。",
+    "desc_cn": "美国老牌医疗地产信托(REIT)，纽交所代码 VTR，资产覆盖养老社区、医疗办公楼与生物实验室，是养老地产证券化另一龙头。",
+    "business_model_cn": "REIT：持有养老社区/医疗办公楼/生命科学实验室，多元化配置分散风险",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Omega 医疗投资者",
+    "name_en": "Omega Healthcare Investors",
+    "description": "专注 skilled nursing(专业护理院)与长期急症医院的医疗 REIT，纽交所代码 OHI，是美国护理院地产最大持有人之一。",
+    "desc_cn": "专注 skilled nursing(专业护理院)与长期急症医院的医疗 REIT，纽交所代码 OHI，是美国护理院地产最大持有人之一。",
+    "business_model_cn": "REIT：持有护理院与长期护理地产，以 triple-net 净租赁给运营商",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "CareTrust REIT",
+    "name_en": "CareTrust REIT",
+    "description": "专注养老社区与医疗地产的 REIT，纳斯达克代码 CTRE，2014 年从 Ensign Group 分拆，以高出租率与稳健派息著称。",
+    "desc_cn": "专注养老社区与医疗地产的 REIT，纳斯达克代码 CTRE，2014 年从 Ensign Group 分拆，以高出租率与稳健派息著称。",
+    "business_model_cn": "REIT：持有养老社区与医疗地产并净租赁",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "国家医疗投资者",
+    "name_en": "National Health Investors",
+    "description": "专注养老社区与医疗地产的 REIT，纽交所代码 NHI，以稳健租约与运营商合作伙伴关系著称。",
+    "desc_cn": "专注养老社区与医疗地产的 REIT，纽交所代码 NHI，以稳健租约与运营商合作伙伴关系著称。",
+    "business_model_cn": "REIT：持有养老与医疗地产并净租赁",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Sabra 医疗REIT",
+    "name_en": "Sabra Health Care REIT",
+    "description": "专注 skilled nursing 与养老社区的医疗 REIT，纳斯达克代码 SBRA，2010 年从 Sun Healthcare 分拆。",
+    "desc_cn": "专注 skilled nursing 与养老社区的医疗 REIT，纳斯达克代码 SBRA，2010 年从 Sun Healthcare 分拆。",
+    "business_model_cn": "REIT：持有护理院与养老社区并净租赁",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "LTC 地产",
+    "name_en": "LTC Properties",
+    "description": "专注养老社区与护理院的 REIT，纽交所代码 LTC，成立于 1992 年，以组合多元化著称。",
+    "desc_cn": "专注养老社区与护理院的 REIT，纽交所代码 LTC，成立于 1992 年，以组合多元化著称。",
+    "business_model_cn": "REIT：持有养老与护理地产并净租赁",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "医疗地产信托",
+    "name_en": "Healthcare Realty Trust",
+    "description": "专注医疗办公楼( Medical Office Building)的 REIT，纽交所代码 HR，2022 年与 Healthcare Trust of America 合并。",
+    "desc_cn": "专注医疗办公楼( Medical Office Building)的 REIT，纽交所代码 HR，2022 年与 Healthcare Trust of America 合并。",
+    "business_model_cn": "REIT：持有并运营医疗办公楼，租给医生集团与医院",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "医疗地产信托(MPT)",
+    "name_en": "Medical Properties Trust",
+    "description": "专注医院地产的 REIT，纽交所代码 MPW，曾为全球最大医院房东之一；近年因租户 Steward 破产陷入动荡，是 REIT 风险案例。",
+    "desc_cn": "专注医院地产的 REIT，纽交所代码 MPW，曾为全球最大医院房东之一；近年因租户 Steward 破产陷入动荡，是 REIT 风险案例。",
+    "business_model_cn": "REIT：持有医院地产并净租赁（租户高度集中风险）",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "多元医疗信托",
+    "name_en": "Diversified Healthcare Trust",
+    "description": "拥有医疗办公楼与养老社区的 REIT，纳斯达克代码 DHC，资产覆盖美国多州。",
+    "desc_cn": "拥有医疗办公楼与养老社区的 REIT，纳斯达克代码 DHC，资产覆盖美国多州。",
+    "business_model_cn": "REIT：持有医疗办公楼与养老社区并租赁",
+    "tag_l2": [
+     "养老地产REIT"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "医疗信息化": [
+   {
+    "name": "Adonis",
+    "name_en": "Adonis",
+    "description": "AI收入周期技术，10000+医疗服务供应商",
+    "desc_cn": "AI收入周期技术，10000+医疗服务供应商",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Apree",
+    "name_en": "Apree",
+    "description": "面向银发经济的行业服务企业，围绕智慧养老等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕智慧养老等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "健康服务平台",
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Arbital Health",
+    "name_en": "Arbital Health",
+    "description": "第三方结果导向合同裁决机构，基于价值的医疗",
+    "desc_cn": "第三方结果导向合同裁决机构，基于价值的医疗",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Axle Health",
+    "name_en": "Axle Health",
+    "description": "面向银发经济的行业服务企业，围绕平台等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕平台等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "健康服务平台",
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "GroundGame Health/SameSky Health",
+    "name_en": "GroundGame Health/SameSky Health",
+    "description": "面向银发经济的行业服务企业，围绕医疗服务等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "desc_cn": "面向银发经济的行业服务企业，围绕医疗服务等方向开展相关服务，连接养老产业上下游资源，海外（主要面向欧美等市场）市场，服务于银发产业从业者、服务机构与中老年消费群体",
+    "business_model_cn": "B2B/B2C 银发行业服务",
+    "tag_l2": [
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Infinitus Systems",
+    "name_en": "Infinitus Systems",
+    "description": "AI自动拨打医疗保健相关电话",
+    "desc_cn": "AI自动拨打医疗保健相关电话",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "健康服务平台",
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "SpinSci",
+    "name_en": "SpinSci",
+    "description": "AI驱动改善患者互动和简化工作流程",
+    "desc_cn": "AI驱动改善患者互动和简化工作流程",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "健康服务平台",
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Tennr",
+    "name_en": "Tennr",
+    "description": "医疗保健领域传真通信现代化",
+    "desc_cn": "医疗保健领域传真通信现代化",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "医疗信息化",
+     "资讯平台"
+    ],
+    "tag_l1": [
+     "产业资本",
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "Calico｜Alphabet 长寿实验室",
+    "name_en": "Calico",
+    "description": "Alphabet(谷歌)旗下长寿研究实验室，2013 年由 Art Levinson 领衔创立，研究衰老生物学与延长健康寿命，资源雄厚但未上市。",
+    "desc_cn": "Alphabet(谷歌)旗下长寿研究实验室，2013 年由 Art Levinson 领衔创立，研究衰老生物学与延长健康寿命，资源雄厚但未上市。",
+    "business_model_cn": "企业研究院模式：基础研究加生物数据平台，非直接产品变现",
+    "tag_l2": [
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "杭州微脉",
+    "name_en": "杭州微脉",
+    "description": "基于阿里云基础设施的SaaS医疗与健康平台，提供全流程就医管理与慢病/健康管理服务，依赖区域医疗网络（江浙沪）。",
+    "desc_cn": "基于阿里云基础设施的SaaS医疗与健康平台，提供全流程就医管理与慢病/健康管理服务，依赖区域医疗网络（江浙沪）。",
+    "business_model_cn": "B2B/B2B2C 医疗健康SaaS平台",
+    "tag_l2": [
+     "健康服务平台",
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   },
+   {
+    "name": "智医慧云",
+    "name_en": "智医慧云",
+    "description": "医疗健康数字营销服务企业，连接制药公司与各大医疗平台，提供药企边界服务、渠道链接与数字化营销解决方案，服务于医药企业与医疗渠道方",
+    "desc_cn": "医疗健康数字营销服务企业，连接制药公司与各大医疗平台，提供药企边界服务、渠道链接与数字化营销解决方案，服务于医药企业与医疗渠道方",
+    "business_model_cn": "B2B 医疗数字营销",
+    "tag_l2": [
+     "医疗信息化"
+    ],
+    "tag_l1": [
+     "医疗健康"
+    ]
+   }
+  ],
+  "资讯门户": [
+   {
+    "name": "ITH康养家",
+    "name_en": "ITH康养家",
+    "description": "ITH康养家是智慧康养产业媒体平台，聚焦养老科技、智慧康养解决方案，提供行业资讯、企业访谈和产业研究。",
+    "desc_cn": "ITH康养家是智慧康养产业媒体平台，聚焦养老科技、智慧康养解决方案，提供行业资讯、企业访谈和产业研究。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "上品折扣",
+    "name_en": "上品折扣",
+    "description": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "desc_cn": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "business_model_cn": "B2B 行业媒体/内容服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "享佳健康",
+    "name_en": "享佳健康",
+    "description": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "desc_cn": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "business_model_cn": "B2B 行业媒体/内容服务",
+    "tag_l2": [
+     "资讯平台",
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "产业资本",
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "康林仁和",
+    "name_en": "康林仁和",
+    "description": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "desc_cn": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "business_model_cn": "B2B 行业媒体/内容服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "最美芳华",
+    "name_en": "最美芳华",
+    "description": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "desc_cn": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "business_model_cn": "B2B 行业媒体/内容服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "益生康健",
+    "name_en": "益生康健",
+    "description": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "desc_cn": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "business_model_cn": "B2B 行业媒体/内容服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "粤嘉康",
+    "name_en": "粤嘉康",
+    "description": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "desc_cn": "面向银发产业提供行业资讯、媒体内容与渠道服务，连接供给端企业与中老年消费及产业人群",
+    "business_model_cn": "B2B 行业媒体/内容服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "养老福祉圈",
+    "name_en": "养老福祉圈",
+    "description": "养老福祉圈是上海国展展览中心有限公司（CHINA AID）运营的养老产业资讯新媒体（微信公众号chinaaidsh），每日分享福祉产业最新政策资讯、热门活动、项目案例及先锋人物，依托上海国际养老、辅具及康复医疗博览会（AID）面向行业专业人群。",
+    "desc_cn": "养老辅具与福祉产业垂直媒体，聚焦适老产品赛道",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "葫芦（Hulu）",
+    "name_en": "Hulu",
+    "description": "Hulu（葫芦）是美国主流的订阅制流媒体视频平台（由NBC环球与迪士尼控股），提供影视剧、直播电视及原创内容点播服务。",
+    "desc_cn": "订阅制内容平台，作为长寿市场服务模式的类比参照",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   },
+   {
+    "name": "SuperAging News",
+    "name_en": "SuperAging News",
+    "description": "营销服务组织，结合数字出版与电商，触达长寿市场受众。",
+    "desc_cn": "营销服务组织，结合数字出版与电商，触达长寿市场受众。",
+    "business_model_cn": "数字出版+电商银发营销媒体：触达长寿市场受众的营销服务",
+    "tag_l2": [
+     "资讯门户"
+    ],
+    "tag_l1": [
+     "文娱社交"
+    ]
+   }
+  ],
+  "养老信息服务": [
+   {
+    "name": "去哪养老网",
+    "name_en": "去哪养老网",
+    "description": "去哪养老网（运营主体无锡老来福网络科技，后升级为优悠乐）是国内专业的\"互联网+养老\"服务平台，为老人及家属免费提供养老机构在线咨询、导航、预约、预订养老床位及养生度假基地服务，并通过机构管理小助手实现信息动态更新，2016年获薛鹤峰数千万元A轮融资。",
+    "desc_cn": "养老服务搜索展示消费评价平台",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "孝爱宝",
+    "name_en": "孝爱宝",
+    "description": "孝爱宝是湖北孝爱智慧养老有限公司推出的智慧养老服务平台，运用互联网、大数据与人工智能，以\"六助\"（助餐、助浴、助洁、助急、助医、助乐）为重点，为60岁以上老人提供居家、社区及机构养老的一键式服务、慢病管理与上门照护。",
+    "desc_cn": "养老服务搜索展示消费评价平台",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "安养养老（安养帮）",
+    "name_en": "安养养老（安养帮）",
+    "description": "安养帮（anyang100.com，运营主体北京柯云网络科技）创办于2018年，是一家全国性养老信息服务平台，为老年家庭提供养老机构查询、养老顾问一对一咨询、入住协助与养老生活规划等一站式服务，已为超6.5万个家庭提供养老方案，覆盖全国数十城市的养老机构与居家养老服务。",
+    "desc_cn": "线上机构检索、点评、预约入住服务",
+    "business_model_cn": "B2C/B2B 养老社区运营",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Seniorly",
+    "name_en": "Seniorly",
+    "description": "养老机构在线搜索与咨询",
+    "desc_cn": "养老机构在线搜索与咨询",
+    "business_model_cn": "B2B 咨询服务",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Dwellr",
+    "name_en": "Dwellr",
+    "description": "直接与老年生活社区联系，无中间人无佣金",
+    "desc_cn": "直接与老年生活社区联系，无中间人无佣金",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Lottie",
+    "name_en": "Lottie",
+    "description": "Lottie is a UK care-finding service that lets families compare care homes, home care and retirement living options with real-time bed availability and pricing, backed by free expert advice and a vetted provider directory.",
+    "desc_cn": "英国养老照护信息服务机构，帮助家庭比对养老院、居家照护与退休社区，展示实时空床与价格，并配以免费顾问与经审核的供应商名录。",
+    "business_model_cn": "B2C引流+CRM订阅",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "SeniorHousingLiving",
+    "name_en": "SeniorHousingLiving",
+    "description": "老年住房、健康、技术等内容，给护理交易引流",
+    "desc_cn": "老年住房、健康、技术等内容，给护理交易引流",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Caring.com",
+    "name_en": "Caring.com",
+    "description": "全美养老社区与居家照护免费目录与家庭顾问指导",
+    "desc_cn": "全美养老社区与居家照护免费目录与家庭顾问指导",
+    "business_model_cn": "B2B SaaS/养老与健康管理软件",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "SilverAssist",
+    "name_en": "SilverAssist",
+    "description": "养老生活推荐聚合平台，2026年1月收购Caring.com，整合行业领先的推荐网络，加速全国触达与运营商连接，颠覆按线索付费的聚合模式。",
+    "desc_cn": "养老生活推荐聚合平台，2026年1月收购Caring.com，整合行业领先的推荐网络，加速全国触达与运营商连接，颠覆按线索付费的聚合模式。",
+    "business_model_cn": "B2B 养老推荐聚合+并购",
+    "tag_l2": [
+     "养老信息服务"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "老年服务VC": [
+   {
+    "name": "Battery Ventures",
+    "name_en": "Battery Ventures",
+    "description": "风投机构，投资A Place for Mom、ClearCare",
+    "desc_cn": "风投机构，投资A Place for Mom、ClearCare",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Blue Venture Fund",
+    "name_en": "Blue Venture Fund",
+    "description": "Blue Venture Fund（Blue Ventures）是一家专注于数字健康与医疗创新的美国风险投资机构，投资早期健康科技初创企业，覆盖远程医疗、慢病管理与老年健康等方向。",
+    "desc_cn": "风投机构，投资Wider Circle",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Canaan",
+    "name_en": "Canaan",
+    "description": "Canaan Partners（Canaan）是一家成立于1987年的美国早期风险投资机构，专注科技与医疗健康（生命科学）领域的初创投资，在数字健康、生物技术及养老服务相关科技企业有较多布局。",
+    "desc_cn": "风投机构，投资Papa",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Comcast Ventures",
+    "name_en": "Comcast Ventures",
+    "description": "Comcast Ventures 是美国传媒与通信巨头康卡斯特（Comcast）的企业风险投资部门，投资早期至成长期的科技、媒体、消费与连接健康（connected health）领域初创公司。",
+    "desc_cn": "风投机构，投资Papa",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Magnify Ventures",
+    "name_en": "Magnify Ventures",
+    "description": "风投机构，投资Papa",
+    "desc_cn": "风投机构，投资Papa",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "软银愿景基金",
+    "name_en": "软银愿景基金",
+    "description": "软银愿景基金（SoftBank Vision Fund）是软银集团于2017年设立的千亿美元级全球科技投资基金，由孙正义主导，广泛投资AI、芯片、出行与前沿科技，并布局了护理机器人、数字健康与养老科技等银发相关企业。",
+    "desc_cn": "软银旗下风投基金，投资Papa",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Tiger Global",
+    "name_en": "Tiger Global",
+    "description": "Tiger Global Management 是一家总部位于纽约的全球投资管理机构（2001年成立），业务涵盖公开市场股票与私募股权/风险投资，长期投资互联网、软件、金融科技及医疗健康领域，亦参与多家健康科技企业的成长融资。",
+    "desc_cn": "风投机构，投资Papa",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Generator Ventures",
+    "name_en": "Generator Ventures",
+    "description": "风投机构，投资ActiveProtective、CareLinx、Vesta Healthcare、Wellthy等",
+    "desc_cn": "风投机构，投资ActiveProtective、CareLinx、Vesta Healthcare、Wellthy等",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "老年服务VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "养老咨询": [
+   {
+    "name": "昱言养老",
+    "name_en": "昱言养老",
+    "description": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
+    "desc_cn": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
+    "business_model_cn": "B2B 养老产业咨询",
+    "tag_l2": [
+     "养老咨询"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "方文咨询",
+    "name_en": "方文咨询",
+    "description": "方文咨询是一家关注养老产业创新与创业的咨询/研究服务机构，为养老企业提供产业研究、市场分析与战略/投融资顾问内容，常在养老行业媒体发表养老公司研究与市场观察文章，覆盖社区居家养老、机构养老及康养互联网平台等方向。",
+    "desc_cn": "养老行业运营咨询，聚焦机构运营提升、公建民营投标",
+    "business_model_cn": "B2B 咨询服务",
+    "tag_l2": [
+     "养老咨询"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "群业咨询",
+    "name_en": "群业咨询",
+    "description": "群业（上海）投资咨询有限公司（2006年前后创立，创始人郭玉群）是国内最早从事大健康与养老产业专业咨询的服务机构之一，总部位于上海，为万科、中国人寿、太平保险、中信、华润等大型房企、保险集团及央国企提供养老产业发展战略规划、项目落地设计与投融资投行服务，参与杭州万科随园嘉树、太平梧桐人家等标杆项目。",
+    "desc_cn": "康养产业规划咨询，服务地方政府康养产业落地",
+    "business_model_cn": "B2G 政企合作",
+    "tag_l2": [
+     "养老咨询"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "A Place for Mom",
+    "name_en": "A Place for Mom",
+    "description": "A Place for Mom（APFM）成立于2000年，是美国最大的老年生活（senior living）转介服务平台，免费为家庭对接全美1.6万+养老社区与居家护理机构（独立生活、辅助生活、记忆照护、居家护理等），由养老机构支付佣金；2017年起由 General Atlantic 与 Silver Lake 控股。",
+    "desc_cn": "养老机构匹配咨询",
+    "business_model_cn": "B2B 咨询服务",
+    "tag_l2": [
+     "养老咨询"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "美世咨询",
+    "name_en": "美世咨询",
+    "description": "Mercer（美世咨询）是全球领先的人力资源咨询公司，在退休规划、养老金管理和员工福利领域是行业标杆，服务全球数百万退休人员。",
+    "desc_cn": "Mercer（美世咨询）是全球领先的人力资源咨询公司，在退休规划、养老金管理和员工福利领域是行业标杆，服务全球数百万退休人员。",
+    "business_model_cn": "B2B 咨询服务",
+    "tag_l2": [
+     "养老咨询"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Ping",
+    "name_en": "Ping",
+    "description": "对齐公司愿景与利益相关者，涉及战略、销售与产品开发。",
+    "desc_cn": "对齐公司愿景与利益相关者，涉及战略、销售与产品开发。",
+    "business_model_cn": "银发企业战略咨询：对齐公司愿景与利益相关者，覆盖战略、销售与产品开发",
+    "tag_l2": [
+     "养老咨询"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "行业研究": [
+   {
+    "name": "AgeClub",
+    "name_en": "AgeClub",
+    "description": "银发产业数据与创新服务平台，成立于2016年，北京。聚焦银发经济产业研究、企业服务、投资对接和行业峰会，是国内银发经济领域头部产业媒体。",
+    "desc_cn": "银发产业数据与创新服务平台，成立于2016年，北京。聚焦银发经济产业研究、企业服务、投资对接和行业峰会，是国内银发经济领域头部产业媒体。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "行业研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "AARP Innovation Labs / AgeTech Collaborative",
+    "name_en": "AARP Innovation Labs / AgeTech Collaborative",
+    "description": "AARP是美国最大的老年人权益倡导组织（3800万会员），其AgeTech Collaborative项目旨在加速老年科技创新生态，连接创业者、投资人和养老服务机构。",
+    "desc_cn": "AARP是美国最大的老年人权益倡导组织（3800万会员），其AgeTech Collaborative项目旨在加速老年科技创新生态，连接创业者、投资人和养老服务机构。",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "行业研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Aging2.0 Collective",
+    "name_en": "Aging2.0 Collective",
+    "description": "Aging2.0 Collective是全球性老年科技创新网络，由Stephen Johnston创立，在全球30+城市设有分部，连接创业者、投资人和养老服务机构，定期举办创新峰会和孵化器项目。",
+    "desc_cn": "Aging2.0 Collective是全球性老年科技创新网络，由Stephen Johnston创立，在全球30+城市设有分部，连接创业者、投资人和养老服务机构，定期举办创新峰会和孵化器项目。",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "行业研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "美国退休人员协会",
+    "name_en": "AARP",
+    "description": "美国退休人员协会，50岁+会员制组织",
+    "desc_cn": "美国退休人员协会，50岁+会员制组织",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "行业研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Caregiver Media Group",
+    "name_en": "Caregiver Media Group",
+    "description": "《今日护理员》杂志，护理书籍和会议",
+    "desc_cn": "《今日护理员》杂志，护理书籍和会议",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "行业研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "行业展会": [
+   {
+    "name": "AID上海老博会",
+    "name_en": "AID上海老博会",
+    "description": "中国国际老龄产业博览会，每年在上海举办，汇聚全球养老产品与服务供应商，是国内最大养老产业展会之一。",
+    "desc_cn": "中国国际老龄产业博览会，每年在上海举办，汇聚全球养老产品与服务供应商，是国内最大养老产业展会之一。",
+    "business_model_cn": "B2B 行业服务/媒体",
+    "tag_l2": [
+     "行业展会"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "CMEF",
+    "name_en": "CMEF",
+    "description": "中国国际医疗器械博览会（China Medical Equipment Fair），每年春秋两届，是中国最大的医疗器械及养老康复设备展会。",
+    "desc_cn": "中国国际医疗器械博览会（China Medical Equipment Fair），每年春秋两届，是中国最大的医疗器械及养老康复设备展会。",
+    "business_model_cn": "B2B 医疗器械",
+    "tag_l2": [
+     "行业展会"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "EE广州老博会",
+    "name_en": "EE广州老博会",
+    "description": "广州国际养老健康产业博览会，聚焦华南地区养老产业，涵盖养老机构、智能家居、康复辅具等领域。",
+    "desc_cn": "广州国际养老健康产业博览会，聚焦华南地区养老产业，涵盖养老机构、智能家居、康复辅具等领域。",
+    "business_model_cn": "B2B 行业服务/媒体",
+    "tag_l2": [
+     "行业展会"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "SIC保利老博会",
+    "name_en": "SIC保利老博会",
+    "description": "保利国际老博会（SIC），由保利集团主办，聚焦养老产业全链条，包括养老地产、康养设备、养老服务等领域。",
+    "desc_cn": "保利国际老博会（SIC），由保利集团主办，聚焦养老产业全链条，包括养老地产、康养设备、养老服务等领域。",
+    "business_model_cn": "B2B/B2C 硬件产品",
+    "tag_l2": [
+     "行业展会"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "医疗健康投资": [
+   {
+    "name": "千骥资本",
+    "name_en": "千骥资本",
+    "description": "千骥资本是专注医疗健康领域的风险投资基金，在老年医疗、康复护理等银发经济赛道有多个投资布局。",
+    "desc_cn": "千骥资本是专注医疗健康领域的风险投资基金，在老年医疗、康复护理等银发经济赛道有多个投资布局。",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "医疗健康投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "博远资本",
+    "name_en": "博远资本",
+    "description": "博远资本是专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有投资布局。",
+    "desc_cn": "博远资本是专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有投资布局。",
+    "business_model_cn": "B2B 医疗器械",
+    "tag_l2": [
+     "医疗健康投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Kaiser Permanente Ventures",
+    "name_en": "Kaiser Permanente Ventures",
+    "description": "凯撒医疗旗下风投，投资Vesta Healthcare、SilverLink",
+    "desc_cn": "凯撒医疗旗下风投，投资Vesta Healthcare、SilverLink",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "医疗健康投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Oak HC/FT",
+    "name_en": "Oak HC/FT",
+    "description": "风投机构，投资Vesta Healthcare、Devoted Health等",
+    "desc_cn": "风投机构，投资Vesta Healthcare、Devoted Health等",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "医疗健康投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "行业媒体": [
+   {
+    "name": "知识矩阵",
+    "name_en": "知识矩阵",
+    "description": "知识矩阵是营养保健品品牌，在中老年健康营养市场有布局，提供适合银发人群的保健产品。",
+    "desc_cn": "知识矩阵是营养保健品品牌，在中老年健康营养市场有布局，提供适合银发人群的保健产品。",
+    "business_model_cn": "B2C 老年健康食品",
+    "tag_l2": [
+     "保健品",
+     "行业媒体"
+    ],
+    "tag_l1": [
+     "产业资本",
+     "食品营养"
+    ]
+   },
+   {
+    "name": "Log my Care",
+    "name_en": "Log my Care",
+    "description": "Log my Care is a UK care management software that lets care homes and home-care providers write digital care plans, log daily activities, manage incidents and medications, and stay CQC-compliant via a carer app and web dashboard.",
+    "desc_cn": "英国养老照护管理软件商，为养老院与居家照护机构打造电子化护理计划、日常记录、事故管理与用药（eMAR）工具，并满足CQC监管与NHS数据标准。",
+    "business_model_cn": "SaaS订阅(£5/人起)",
+    "tag_l2": [
+     "行业媒体"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Ōmcare",
+    "name_en": "Ōmcare",
+    "description": "Ōmcare makes a home health hub that locks and dispenses medications on schedule, runs two-way video visits with clinicians and confirms adherence, sold to health plans, home-health agencies and family caregivers.",
+    "desc_cn": "Ōmcare 生产居家健康终端，按时锁定并发放药物、支持与医护双向视频并确认服药依从性，销往健康险公司、居家护理机构与家属。",
+    "business_model_cn": "硬件+服务销售",
+    "tag_l2": [
+     "智能硬件",
+     "行业媒体"
+    ],
+    "tag_l1": [
+     "产业资本",
+     "消费品"
+    ]
+   }
+  ],
+  "影响力与并购投资": [
+   {
+    "name": "Apax Partners",
+    "name_en": "Apax Partners",
+    "description": "Apax Partners是全球知名私募股权投资公司，管理资产超过500亿美元，在医疗健康和养老服务领域有多个投资布局。",
+    "desc_cn": "Apax Partners是全球知名私募股权投资公司，管理资产超过500亿美元，在医疗健康和养老服务领域有多个投资布局。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "影响力与并购投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Emerson Collective",
+    "name_en": "Emerson Collective",
+    "description": "影响力投资机构，投资Tembo Health、GoodTrust、FreeWill等",
+    "desc_cn": "影响力投资机构，投资Tembo Health、GoodTrust、FreeWill等",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "影响力与并购投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Rethink Impact",
+    "name_en": "Rethink Impact",
+    "description": "影响力投资机构，投资Wellthy、CareAcademy",
+    "desc_cn": "影响力投资机构，投资Wellthy、CareAcademy",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "影响力与并购投资"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "养老科技VC": [
+   {
+    "name": "Greycroft Partners",
+    "name_en": "Greycroft Partners",
+    "description": "Greycroft Partners是专注早期和成长期投资的VC，在消费科技和医疗健康领域有布局，投资了多个老年科技项目。",
+    "desc_cn": "Greycroft Partners是专注早期和成长期投资的VC，在消费科技和医疗健康领域有布局，投资了多个老年科技项目。",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "养老科技VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Techstars Future of Longevity Accelerator",
+    "name_en": "Techstars Future of Longevity Accelerator",
+    "description": "Techstars Future of Longevity是Techstars旗下专注银发经济的加速器项目，每年孵化10+老年科技创业公司，由MetLife基金会赞助。",
+    "desc_cn": "Techstars Future of Longevity是Techstars旗下专注银发经济的加速器项目，每年孵化10+老年科技创业公司，由MetLife基金会赞助。",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "养老科技VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "a16z",
+    "name_en": "a16z",
+    "description": "头部风投机构，投资Honor、Bold、Devoted Health等",
+    "desc_cn": "头部风投机构，投资Honor、Bold、Devoted Health等",
+    "business_model_cn": "银发经济企业",
+    "tag_l2": [
+     "养老科技VC"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ],
+  "咨询研究": [
+   {
+    "name": "麻省理工学院年龄实验室",
+    "name_en": "麻省理工学院年龄实验室",
+    "description": "MIT AgeLab（麻省理工学院年龄实验室）由Joseph Coughlin博士创立，是全球领先的老年科技学术研究机构，研究老龄化与技术的交叉领域。",
+    "desc_cn": "MIT AgeLab（麻省理工学院年龄实验室）由Joseph Coughlin博士创立，是全球领先的老年科技学术研究机构，研究老龄化与技术的交叉领域。",
+    "business_model_cn": "B2B 科技研发",
+    "tag_l2": [
+     "咨询研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "斯坦福长寿研究中心",
+    "name_en": "斯坦福长寿研究中心",
+    "description": "Stanford Center on Longevity（斯坦福长寿研究中心）是全球顶级老龄化研究机构，研究长寿社会的金融、健康和生活方式变革，发布影响力很大的年度报告。",
+    "desc_cn": "Stanford Center on Longevity（斯坦福长寿研究中心）是全球顶级老龄化研究机构，研究长寿社会的金融、健康和生活方式变革，发布影响力很大的年度报告。",
+    "business_model_cn": "B2B 行业媒体/数据服务",
+    "tag_l2": [
+     "咨询研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   },
+   {
+    "name": "Season Health",
+    "name_en": "Season Health",
+    "description": "Season Health runs a 'food-as-medicine' benefit that lets clinicians prescribe grocery and medically tailored meal boxes, fulfilled through retail and delivery partners and reimbursed by Medicaid and commercial health plans.",
+    "desc_cn": "Season Health 运营食物即药物福利，医生可开具杂货与医学定制餐盒处方，由零售与配送伙伴履约，并向医疗补助与商业健康险报销。",
+    "business_model_cn": "B2B报销结算",
+    "tag_l2": [
+     "咨询研究"
+    ],
+    "tag_l1": [
+     "产业资本"
+    ]
+   }
+  ]
+ }
+}

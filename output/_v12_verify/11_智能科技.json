@@ -1,0 +1,736 @@
+{
+ "bundle": "11_智能科技",
+ "L2_TO_L1": {
+  "机器人": "智能科技",
+  "居家护理SaaS": "?",
+  "服务机器人": "?",
+  "紧急呼叫": "?",
+  "护理AI助手": "?"
+ },
+ "synonyms": {
+  "机器人": [
+   "AI语音护理记录",
+   "云端机器人",
+   "人形机器人康养应用",
+   "具身养老机器人",
+   "具身智能通用平台",
+   "养老机器人",
+   "养老陪伴人形机器人",
+   "医疗服务机器人",
+   "医疗机器人",
+   "医院机器人",
+   "居家服务机器人",
+   "康养机器人",
+   "护理自动化",
+   "日常辅助机器人",
+   "机器人",
+   "机器人关节模组",
+   "治疗机器人",
+   "通用具身智能大模型",
+   "配送机器人"
+  ],
+  "居家护理SaaS": [
+   "居家护理SaaS",
+   "居家护理软件",
+   "护理系统SaaS"
+  ],
+  "服务机器人": [
+   "商用服务机器人",
+   "接待机器人",
+   "服务机器人"
+  ],
+  "紧急呼叫": [
+   "SOS呼叫",
+   "紧急呼叫",
+   "紧急呼救"
+  ],
+  "护理AI助手": [
+   "AI护理记录",
+   "护理AI助手",
+   "智能护理助手"
+  ]
+ },
+ "tags": {
+  "机器人": [
+   {
+    "name": "Ageless Innovation",
+    "name_en": "Ageless Innovation",
+    "description": "以Joy for All Companion Pets系列为起点，专注创造促进乐趣和陪伴的产品，降低护理成本并为老年人建立联系。",
+    "desc_cn": "以Joy for All Companion Pets系列为起点，专注创造促进乐趣和陪伴的产品，降低护理成本并为老年人建立联系。",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Tombot",
+    "name_en": "Tombot",
+    "description": "加利福尼亚机器人公司，生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。",
+    "desc_cn": "加利福尼亚机器人公司，生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "ElliQ",
+    "name_en": "ElliQ",
+    "description": "ElliQ是以色列Intuition Robotics开发的AI老年社交陪伴机器人，能主动发起对话、提醒服药、推荐活动，已在美国数千家庭部署。由Dor Skuler创立。",
+    "desc_cn": "ElliQ是以色列Intuition Robotics开发的AI老年社交陪伴机器人，能主动发起对话、提醒服药、推荐活动，已在美国数千家庭部署。由Dor Skuler创立。",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Embodied",
+    "name_en": "Embodied",
+    "description": "智能伴侣机器人研发商，情感功能，家庭健康护理",
+    "desc_cn": "智能伴侣机器人研发商，情感功能，家庭健康护理",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "joyforall",
+    "name_en": "joyforall",
+    "description": "宠物机器人，为阿尔茨海默症或痴呆患者带来舒适和陪伴",
+    "desc_cn": "宠物机器人，为阿尔茨海默症或痴呆患者带来舒适和陪伴",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Navel",
+    "name_en": "Navel",
+    "description": "下一代社交机器人，在德国多家养老院使用",
+    "desc_cn": "下一代社交机器人，在德国多家养老院使用",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "JOY FOR ALL",
+    "name_en": "JOY FOR ALL",
+    "description": "交互式陪伴猫/狗，为长者带来舒适、陪伴与乐趣。",
+    "desc_cn": "交互式陪伴猫/狗，为长者带来舒适、陪伴与乐趣。",
+    "business_model_cn": "交互式陪伴宠物机器人：为长者提供舒适、陪伴与乐趣",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Intuition Robotics",
+    "name_en": "Intuition Robotics",
+    "description": "AI社交陪伴机器人ElliQ，缓解老人孤独、健康教练",
+    "desc_cn": "AI社交陪伴机器人ElliQ，缓解老人孤独、健康教练",
+    "business_model_cn": "B2C/B2B 养老陪伴/辅助机器人硬件",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "玄源科技",
+    "name_en": "玄源科技 X-ORIGIN-AI",
+    "description": "消费级AI机器人，围绕全生命周期需求构建个性化AI伴侣",
+    "desc_cn": "消费级AI机器人，围绕全生命周期需求构建个性化AI伴侣",
+    "business_model_cn": "B2C 银发陪伴机器人消费品",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "江苏艾雨文承",
+    "name_en": "江苏艾雨文承",
+    "description": "推出集多功能一体的智能养老机器人“大头阿亮”（已至第四代）",
+    "desc_cn": "推出集多功能一体的智能养老机器人“大头阿亮”（已至第四代）",
+    "business_model_cn": "B2C 银发陪伴机器人消费品",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "大象机器人",
+    "name_en": "大象机器人",
+    "description": "仿生陪伴机器人（metaPanda/metaCat/metaDog），海外销售占70%",
+    "desc_cn": "仿生陪伴机器人（metaPanda/metaCat/metaDog），海外销售占70%",
+    "business_model_cn": "B2C 仿生陪伴机器人消费品",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "萌友智能",
+    "name_en": "萌友智能",
+    "description": "首款AI机器宠物Ropet，2025 CES受欢迎，早鸟价189美元",
+    "desc_cn": "首款AI机器宠物Ropet，2025 CES受欢迎，早鸟价189美元",
+    "business_model_cn": "B2C AI机器宠物消费品",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "中科源码",
+    "name_en": "中科源码",
+    "description": "长者陪伴机器人“小丽”，在成都太保家园等应用",
+    "desc_cn": "长者陪伴机器人“小丽”，在成都太保家园等应用",
+    "business_model_cn": "B2C 银发陪伴机器人消费品",
+    "tag_l2": [
+     "机器人",
+     "陪伴机器人"
+    ],
+    "tag_l1": [
+     "文娱社交",
+     "智能科技"
+    ]
+   },
+   {
+    "name": "森丽康科技",
+    "name_en": "森丽康科技",
+    "description": "推出长者陪伴机器人“小丽”",
+    "desc_cn": "推出长者陪伴机器人“小丽”",
+    "business_model_cn": "B2C 银发陪伴机器人消费品",
+    "tag_l2": [
+     "机器人",
+     "陪伴机器人"
+    ],
+    "tag_l1": [
+     "文娱社交",
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Andromeda Robotics",
+    "name_en": "Andromeda Robotics",
+    "description": "澳大利亚墨尔本公司，开发名为 Abi 的 AI 陪伴人形机器人，通过吹泡泡、对话等方式缓解养老院居民的孤独感。2025年9月完成2300万美元A轮融资，计划拓展美国市场",
+    "desc_cn": "澳大利亚墨尔本公司，开发名为 Abi 的 AI 陪伴人形机器人，通过吹泡泡、对话等方式缓解养老院居民的孤独感。2025年9月完成2300万美元A轮融资，计划拓展美国市场",
+    "business_model_cn": "B2C 养老陪伴机器人消费品",
+    "tag_l2": [
+     "机器人",
+     "陪伴机器人"
+    ],
+    "tag_l1": [
+     "文娱社交",
+     "智能科技"
+    ]
+   },
+   {
+    "name": "泉智博",
+    "name_en": "泉智博",
+    "description": "机器人一体化关节模组解决方案提供商，2025年关节模组年出货量突破10万台，与乐聚机器人、松延动力等多家本体企业合作。2026年4月完成数亿元A++轮（深投控领投）。",
+    "desc_cn": "机器人一体化关节模组解决方案提供商，2025年关节模组年出货量突破10万台，与乐聚机器人、松延动力等多家本体企业合作。2026年4月完成数亿元A++轮（深投控领投）。",
+    "business_model_cn": "B2B 机器人关节模组（养老机器人供应链）",
+    "tag_l2": [
+     "机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "LOVOT",
+    "name_en": "LOVOT",
+    "description": "日本Groove X出品的情感陪伴机器人，以可爱外形与交互为独居老人与家庭提供情感陪伴。",
+    "desc_cn": "日本Groove X出品的情感陪伴机器人，以可爱外形与交互为独居老人与家庭提供情感陪伴。",
+    "business_model_cn": "B2C 情感陪伴机器人",
+    "tag_l2": [
+     "机器人",
+     "陪伴机器人"
+    ],
+    "tag_l1": [
+     "文娱社交",
+     "智能科技"
+    ]
+   }
+  ],
+  "居家护理SaaS": [
+   {
+    "name": "Vesta Healthcare",
+    "name_en": "Vesta Healthcare",
+    "description": "让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。",
+    "desc_cn": "让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。",
+    "business_model_cn": "B2C/B2B 社区/居家服务",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "GeoH",
+    "name_en": "GeoH",
+    "description": "家庭护理管理和支付软件",
+    "desc_cn": "家庭护理管理和支付软件",
+    "business_model_cn": "B2C/B2B 养老护理服务",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "NurseBuddy",
+    "name_en": "NurseBuddy",
+    "description": "居家照护软件，用AI排班与护理计划节省80%时间",
+    "desc_cn": "居家照护软件，用AI排班与护理计划节省80%时间",
+    "business_model_cn": "B2B SaaS/养老与健康管理软件",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Nourish Care",
+    "name_en": "Nourish Care",
+    "description": "英国照护管理软件，灵活记录协调与报告社交照护",
+    "desc_cn": "英国照护管理软件，灵活记录协调与报告社交照护",
+    "business_model_cn": "B2B SaaS/养老与健康管理软件",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "eCaring",
+    "name_en": "eCaring",
+    "description": "eCaring sells home-care agency software with electronic visit verification, caregiver scheduling, point-of-care charts and same-day caregiver pay, helping agencies comply with Medicaid EVV rules and manage shifts.",
+    "desc_cn": "eCaring 销售居家照护机构管理软件，含电子查勤、护理员排班、到点记录与当日结算薪酬，协助机构满足医疗补助查勤规定并管理班次。",
+    "business_model_cn": "B2B SaaS订阅",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Aline (Sherpa)",
+    "name_en": "Aline (Sherpa)",
+    "description": "养老生活操作系统，整合销售、运营、租赁与居民照护工作流",
+    "desc_cn": "养老生活操作系统，整合销售、运营、租赁与居民照护工作流",
+    "business_model_cn": "B2B SaaS/养老与健康管理软件",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Smartcare",
+    "name_en": "Smartcare",
+    "description": "养老照护软件与EMR，自动化排班匹配护工提升留存",
+    "desc_cn": "养老照护软件与EMR，自动化排班匹配护工提升留存",
+    "business_model_cn": "B2B SaaS/养老与健康管理软件",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Zingage",
+    "name_en": "Zingage",
+    "description": "纽约AI居家护理交付平台，自动化排班、调度与报销流程，帮助居家护理机构提升运营效率与覆盖率。",
+    "desc_cn": "纽约AI居家护理交付平台，自动化排班、调度与报销流程，帮助居家护理机构提升运营效率与覆盖率。",
+    "business_model_cn": "B2B 居家护理AI运营SaaS(订阅)",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Gladys",
+    "name_en": "Gladys",
+    "description": "英国AI居家护理技术平台，旨在通过技术改善英国破碎的居家照护体系，优化护理人员调度与服务质量。",
+    "desc_cn": "英国AI居家护理技术平台，旨在通过技术改善英国破碎的居家照护体系，优化护理人员调度与服务质量。",
+    "business_model_cn": "B2B 居家护理AI平台(订阅)",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "WellSky",
+    "name_en": "WellSky",
+    "description": "post-acute与家庭护理领域头部SaaS与数据分析平台，连接机构、支付方与家庭，优化照护交付。",
+    "desc_cn": "post-acute与家庭护理领域头部SaaS与数据分析平台，连接机构、支付方与家庭，优化照护交付。",
+    "business_model_cn": "B2B 照护运营SaaS+数据",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "AlayaCare",
+    "name_en": "AlayaCare",
+    "description": "加拿大居家与社区护理SaaS平台，整合临床、排班、远程监测与家庭端，提升居家养老运营效率。",
+    "desc_cn": "加拿大居家与社区护理SaaS平台，整合临床、排班、远程监测与家庭端，提升居家养老运营效率。",
+    "business_model_cn": "B2B 居家护理SaaS",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "ClearCare",
+    "name_en": "ClearCare",
+    "description": "家庭护理机构运营SaaS企业（已被WellSky收购），提供排班、计费与家庭门户等一体化运营工具，服务于居家护理机构。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "家庭护理机构运营SaaS企业（已被WellSky收购），提供排班、计费与家庭门户等一体化运营工具，服务于居家护理机构。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2B 居家照护SaaS",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "CareJoy",
+    "name_en": "CareJoy",
+    "description": "家庭护理机构运营平台企业，提供排班、计费、合规与家庭沟通一体化方案，服务于居家养老护理服务商。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "家庭护理机构运营平台企业，提供排班、计费、合规与家庭沟通一体化方案，服务于居家养老护理服务商。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2B 居家照护运营平台",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Hometeam",
+    "name_en": "Hometeam",
+    "description": "将技术平台与人力结合的家庭护理企业，以自研APP提升护理协调与家属可视性，提供居家养老照护服务。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "将技术平台与人力结合的家庭护理企业，以自研APP提升护理协调与家属可视性，提供居家养老照护服务。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C/B2B 居家照护服务",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Hometouch",
+    "name_en": "Hometouch",
+    "description": "英国居家照护平台企业，直接雇佣并培训护理员，提供透明定价的居家养老护理服务。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "英国居家照护平台企业，直接雇佣并培训护理员，提供透明定价的居家养老护理服务。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C/B2B 居家照护服务",
+    "tag_l2": [
+     "居家护理SaaS"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   }
+  ],
+  "服务机器人": [
+   {
+    "name": "ForSight Robotics",
+    "name_en": "ForSight Robotics",
+    "description": "机器人白内障手术创新。半数美国人在80岁患白内障，三分之一在60岁以下就患病。",
+    "desc_cn": "机器人白内障手术创新。半数美国人在80岁患白内障，三分之一在60岁以下就患病。",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Labrador Systems",
+    "name_en": "Labrador Systems",
+    "description": "日常辅助机器人，送餐、洗衣服等",
+    "desc_cn": "日常辅助机器人，送餐、洗衣服等",
+    "business_model_cn": "B2B/B2C 服务机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Labrador",
+    "name_en": "Labrador",
+    "description": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活",
+    "desc_cn": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活",
+    "business_model_cn": "B2C/B2B 养老陪伴/辅助机器人硬件",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Diligent Robotics",
+    "name_en": "Diligent Robotics",
+    "description": "AI机器人助手Moxi在医院执行日常非护理任务，减轻医护负担",
+    "desc_cn": "AI机器人助手Moxi在医院执行日常非护理任务，减轻医护负担",
+    "business_model_cn": "B2B 医疗机器人解决方案",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "腾讯",
+    "name_en": "腾讯 Robotics X",
+    "description": "居家服务机器人“小五”，面向人机协作的养老服务",
+    "desc_cn": "居家服务机器人“小五”，面向人机协作的养老服务",
+    "business_model_cn": "B2B/B2C 居家服务机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "海尔",
+    "name_en": "海尔兄弟机器人",
+    "description": "海尔智家旗下与星动纪元合作服务机器人",
+    "desc_cn": "海尔智家旗下与星动纪元合作服务机器人",
+    "business_model_cn": "B2B 服务机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "星动纪元",
+    "name_en": "星动纪元",
+    "description": "与海尔合作服务机器人",
+    "desc_cn": "与海尔合作服务机器人",
+    "business_model_cn": "B2B 服务机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Cartken",
+    "name_en": "Cartken",
+    "description": "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。",
+    "desc_cn": "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。",
+    "business_model_cn": "B2B 自主配送机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "钛米机器人",
+    "name_en": "钛米机器人",
+    "description": "医疗服务机器人公司（TMiRob），产品涵盖消毒、配送、巡检等机器人，可向养老机构与医养场景延伸。",
+    "desc_cn": "医疗服务机器人公司（TMiRob），产品涵盖消毒、配送、巡检等机器人，可向养老机构与医养场景延伸。",
+    "business_model_cn": "B2B 医疗服务机器人",
+    "tag_l2": [
+     "服务机器人"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   }
+  ],
+  "紧急呼叫": [
+   {
+    "name": "Aloe Care Health",
+    "name_en": "Aloe Care Health",
+    "description": "Aloe Care Health makes a 4G smart-home hub with fall detection, motion and voice alerts that notify a family/caregiver app, sold with monitoring plans to older adults and their remote care circles.",
+    "desc_cn": "Aloe Care Health 制造含跌倒检测、动作与语音告警的 4G 智能家居中枢，向家属与照护者应用推送提醒，配合监测套餐售予老人及其远程照护圈。",
+    "business_model_cn": "硬件+监测套餐",
+    "tag_l2": [
+     "紧急呼叫"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "LIBIFY",
+    "name_en": "LIBIFY",
+    "description": "德国紧急呼叫系统（家用/移动），含跌倒传感器与GPS定位",
+    "desc_cn": "德国紧急呼叫系统（家用/移动），含跌倒传感器与GPS定位",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "紧急呼叫"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "CARU",
+    "name_en": "CARU",
+    "description": "瑞士紧急呼叫系统，支持按钮/语音与自动跌倒检测",
+    "desc_cn": "瑞士紧急呼叫系统，支持按钮/语音与自动跌倒检测",
+    "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+    "tag_l2": [
+     "紧急呼叫"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Doro｜老人手机",
+    "name_en": "Doro",
+    "description": "瑞典斯德哥尔摩证交所上市公司，专注老年人简易手机、紧急呼叫与远程看护(telecare)设备。",
+    "desc_cn": "瑞典斯德哥尔摩证交所上市公司，专注老年人简易手机、紧急呼叫与远程看护(telecare)设备。",
+    "business_model_cn": "B2C 老人手机与远程看护设备，硬件加服务费",
+    "tag_l2": [
+     "紧急呼叫"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Medical Guardian",
+    "name_en": "Medical Guardian",
+    "description": "美国家用医疗警报与跌倒监测服务企业，提供多种紧急呼叫与活动监测方案，服务于居家老人的安全看护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "美国家用医疗警报与跌倒监测服务企业，提供多种紧急呼叫与活动监测方案，服务于居家老人的安全看护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C 家用医疗警报",
+    "tag_l2": [
+     "紧急呼叫"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "MobileHelp",
+    "name_en": "MobileHelp",
+    "description": "家用与移动医疗警报系统企业，提供带GPS的紧急呼叫设备，服务居家与户外老人的紧急呼叫需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "desc_cn": "家用与移动医疗警报系统企业，提供带GPS的紧急呼叫设备，服务居家与户外老人的紧急呼叫需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "business_model_cn": "B2C 家用医疗警报",
+    "tag_l2": [
+     "紧急呼叫"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   }
+  ],
+  "护理AI助手": [
+   {
+    "name": "点可",
+    "name_en": "点可",
+    "description": "点可（杭州）物联技术有限公司研发毫米波雷达监护设备，实现跌倒检测准确率超99%，并运营点可物联App支持健康监护、设备状态管理与紧急报警，构成完整的AIoT养老看护体系。",
+    "desc_cn": "点可物联聚焦毫米波雷达与人体行为识别技术，推出无感跌倒与体征监测硬件及配套App，为家庭与养老机构输出AIoT看护能力。",
+    "business_model_cn": "硬件销售+App订阅",
+    "tag_l2": [
+     "护理AI助手"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "苗米",
+    "name_en": "苗米",
+    "description": "南京苗米科技基于中科院无线感知核心技术，研发毫米波AI融合感知器与AI智能照护灯，实现跌倒、离床、呼吸心率及睡眠的无感监测，并为海尔、美的等龙头企业供应下一代智能雷达。",
+    "desc_cn": "苗米科技以毫米波雷达与AI算法推出无穿戴、保护隐私的养老监测产品，可识别姿态轨迹、跌倒与生命体征并自动生成睡眠报告，覆盖居家与机构场景。",
+    "business_model_cn": "硬件销售+技术授权",
+    "tag_l2": [
+     "护理AI助手"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "Voize",
+    "name_en": "Voize",
+    "description": "AI语音护理记录助手，利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老机构落地",
+    "desc_cn": "AI语音护理记录助手，利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老机构落地",
+    "business_model_cn": "B2B AI/数据驱动",
+    "tag_l2": [
+     "护理AI助手"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   },
+   {
+    "name": "百善九号",
+    "name_en": "百善九号",
+    "description": "百善九号 builds an AI-assisted operating system for senior-living communities that integrates health monitoring, daily-life services, and operations management into one connected service for older residents.",
+    "desc_cn": "百善九号构建 AI 辅助的养老社区操作系统，将健康监测、生活服务与运营管理整合为面向住养长者的统一服务体系。",
+    "business_model_cn": "B2B系统+运营费",
+    "tag_l2": [
+     "护理AI助手"
+    ],
+    "tag_l1": [
+     "智能科技"
+    ]
+   }
+  ]
+ }
+}

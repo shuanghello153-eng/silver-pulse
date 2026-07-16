@@ -1,0 +1,360 @@
+[
+  {
+    "name": "锦好医疗",
+    "desc_cn": "锦好医疗是国内助听器研发制造企业，主营助听器及听力检测设备的研发、生产与销售，产品以OTC助听器为主并出口海外，已在北交所上市。",
+    "tag_l2": [
+      "助听器"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "锦欣福星",
+    "desc_cn": "锦欣福星是锦欣生殖旗下的康养业务平台，在成都等地运营医养结合养老机构与老年病医院，提供机构养老、康复护理及认知症照护服务。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "长岭资本",
+    "desc_cn": "长岭资本（Long Hill Capital）由NEA前中国团队于2016年创立，是主题驱动型创投基金，专注大健康与老龄化领域早期投资，管理规模约60亿元，案例包括海吉亚医疗、固生堂中医、零氪科技等。",
+    "tag_l2": [
+      "VC"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "阳光大姐",
+    "desc_cn": "阳光大姐是济南知名家政服务品牌，提供母婴护理、养老护理、家政保洁等上门服务，并开展家政服务员职业技能培训与劳务派遣。",
+    "tag_l2": [
+      "家政"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "阿尔发",
+    "desc_cn": "天津阿尔发是成立于1994年的无糖健康食品企业，专注控糖食品与调节血糖保健食品（如无糖饼干、富铬奶粉、消渴麦片）研发生产，产品进驻沃尔玛、永辉等商超及天猫京东，主要面向糖尿病人群。",
+    "tag_l2": [
+      "营养食品",
+      "糖尿病"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "阿福医疗",
+    "desc_cn": "阿福医疗是一家居家护理与护士上门服务平台，为术后、失能及长期照护人群提供专业护士上门换药、管路护理、健康监测等服务。",
+    "tag_l2": [
+      "居家护理",
+      "护士上门"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "青鸟软通",
+    "desc_cn": "青鸟软通（现通用环球青鸟）是国内全域智慧康养综合服务商，核心产品为面向养老企业的「汇养通」SaaS管理平台，并运营「青鸟颐居」连锁养老机构，业务覆盖全国20余省。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "高樟资本",
+    "desc_cn": "高樟资本是范卫锋2015年创立的早期创投基金，专注内容消费、新消费与数字经济早期投资，曾投出星球研究所、菠萝斑马等，亦布局老年消费品牌「时尚奶奶团」。",
+    "tag_l2": [
+      "VC"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "鱼跃",
+    "desc_cn": "鱼跃医疗是国内家用医疗器械龙头，主营制氧机、血压计、血糖仪、呼吸机等健康监测与治疗设备的研发制造，产品覆盖院端与家庭场景，已登陆A股。",
+    "tag_l2": [
+      "医疗器械"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "鲲鱼健康",
+    "desc_cn": "鲲鱼健康是一家专注特殊医学用途配方食品（特医食品）与营养健康产品的企业，为术后、慢病及老年人群提供医学营养补充解决方案。",
+    "tag_l2": [
+      "营养食品"
+    ],
+    "confidence": "med",
+    "note": "建议复核具体产品线与母公司背景"
+  },
+  {
+    "name": "鹏翼时代",
+    "desc_cn": "鹏翼时代是百洋医药集团旗下医疗健康人才服务商，提供养老护理员、医疗护理员培训与职业技能认证，并向医院、康养机构输出护理人力（劳务派遣）。",
+    "tag_l2": [
+      "护工培训"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "麦孚",
+    "desc_cn": "麦孚营养是一家医学营养与特殊医学用途配方食品企业，为进食受限、消化吸收障碍及疾病状态下的患者（含老年人群）提供肠内营养产品。",
+    "tag_l2": [
+      "营养食品"
+    ],
+    "confidence": "med",
+    "note": "建议复核具体产品注册与渠道"
+  },
+  {
+    "name": "鼎植口腔",
+    "desc_cn": "鼎植口腔是国内种植牙专科连锁口腔机构，主打疑难种植（穿颧穿翼）与口腔综合治疗，以直营诊所模式在多地扩张。",
+    "tag_l2": [
+      "诊所"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Alz You Need",
+    "desc_cn": "Alz You Need 是一个面向阿尔茨海默病家属与照护者的信息平台，提供认知症照护知识、资源导航与社区支持，帮助用户应对照护全流程。",
+    "tag_l2": [
+      "认知症"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "yooLab",
+    "desc_cn": "YouLabs 是一家印度长寿与精准健康公司，通过医生主导的个性化健康方案、表观遗传年龄检测及肽类/补剂，借助WhatsApp AI提供抗衰与健康管理服务。",
+    "tag_l2": [
+      "长寿抗衰",
+      "个性化营养"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Accompany Health",
+    "desc_cn": "Accompany Health 是一家美国以价值医疗为基础的综合初级保健机构，为复杂医疗需求的Medicaid人群提供上门与社区照护，并干预社会决定因素（SDOH）以改善健康。",
+    "tag_l2": [
+      "SDOH"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Empathy",
+    "desc_cn": "Empathy 是一款美国的丧亲与遗产事务管理应用，帮助用户处理逝者身后的遗产清算、账单、保险理赔等事务，提供分步指导与专家支持。",
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Rippl Care",
+    "desc_cn": "Rippl Care 是一家美国专注痴呆症（认知症）照护的公司，为认知症患者及其家属提供记忆保健、行为健康与照护者支持服务。",
+    "tag_l2": [
+      "心理健康",
+      "认知症"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Silvernest",
+    "desc_cn": "Silvernest 是一个面向婴儿潮一代的房屋合租匹配平台，帮助空巢老人与合适室友配对共享住房，兼顾陪伴与租金收益。",
+    "tag_l2": [
+      "邻里社交"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Vytalize Health",
+    "desc_cn": "Vytalize Health 是一家美国面向老年人的价值医疗初级保健管理机构，通过ACO模式与数据分析平台为老年患者提供慢病管理与协调照护。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Everplans",
+    "desc_cn": "Everplans 是一个美国临终与身后事务规划平台，帮助用户在线制定「数字遗产档案」，涵盖遗嘱、丧葬、保险等安排并共享给指定联系人。",
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Lively",
+    "desc_cn": "Lively（原GreatCall）是美国面向老年人的紧急响应与健康管理品牌，提供医疗警报设备、跌倒检测与24小时求助响应，以及简易手机Jitterbug。",
+    "tag_l2": [
+      "紧急呼叫",
+      "跌倒监测"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Silver Bills",
+    "desc_cn": "SilverBills 是一家为老年人提供账单管理与代缴费服务的公司，由其团队代为审核、支付各类账单并防欺诈，减轻长者与家属的财务事务负担。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Wayfair",
+    "desc_cn": "Wayfair 是美国大型线上家居家具电商，销售家具、家纺与居家用品，通过其电商平台与自有物流触达包括银发族在内的广泛家庭消费群体。",
+    "tag_l2": [
+      "电商"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "Coinbase",
+    "desc_cn": "Coinbase 是美国领先的加密货币交易所，提供数字资产买卖、托管与钱包服务，面向大众投资者（含退休人群）提供加密资产入口。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "confidence": "med",
+    "note": "非典型银发垂直企业，按金融属性归入金融理财，建议核实入库逻辑"
+  },
+  {
+    "name": "401GO",
+    "desc_cn": "401GO 是一家美国退休金（401k）计划管理金融科技公司，为中小企业提供自动化、低成本的员工退休账户设立与缴费管理服务。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "AccessibleGO",
+    "desc_cn": "AccessibleGO 是一个无障碍旅游预订平台，提供适合老年人与残障人士的酒店、机票及景点票务，并标注无障碍设施信息。",
+    "tag_l2": [
+      "旅游"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Allwayswithyou",
+    "desc_cn": "Allwayswithyou 是一款面向老年人的远程陪伴与照护提醒应用，通过定时提醒、语音互动与家属端同步，帮助独居长者按时用药与起居。",
+    "tag_l2": [
+      "陪伴服务"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Angels on Call Homecare",
+    "desc_cn": "Angels on Call 是一家美国居家照护机构，为老年人与术后人群提供上门的护理、陪伴及个人照料服务，由注册护士与护理员执行。",
+    "tag_l2": [
+      "居家护理"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Author Health",
+    "desc_cn": "Author Health 是一家专注老年人复杂精神健康需求的美国医疗公司，为老年群体提供抑郁、焦虑及认知相关行为的专业诊疗与照护协调。",
+    "tag_l2": [
+      "心理健康"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Auxa Health",
+    "desc_cn": "Auxa Health 是一家美国医疗协调平台，聚焦社会决定因素（SDOH）筛查与社区资源对接，帮助慢病与老年患者在就医之外获得生活支持。",
+    "tag_l2": [
+      "SDOH"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "b.well Connected Health",
+    "desc_cn": "b.well Connected Health 是一个美国消费者健康超级应用，整合电子病历、保险、预约与远程问诊，帮助家庭（含老年用户）统一管理健康数据与医疗服务。",
+    "tag_l2": [
+      "养老软件",
+      "远程医疗"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Birdie",
+    "desc_cn": "Birdie 是英国居家照护管理SaaS平台，为护理机构提供排班、监测与合规工具，并通过传感器与家属端App实现远程关怀。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "BirdWatch",
+    "desc_cn": "BirdWatch 是一家提供老年人居家看护与定期巡查（home watch）服务的公司，由巡查员上门检查长者安全、代收邮件、处理日常事务。",
+    "tag_l2": [
+      "家政"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Bobbie",
+    "desc_cn": "Bobbie 是美国有机婴儿配方奶粉品牌，采用订阅制直送，主打欧盟标准配方；与银发经济关联较弱，按营养品类归类。",
+    "tag_l2": [
+      "营养食品"
+    ],
+    "confidence": "low",
+    "note": "主营婴幼儿配方奶粉，非银发垂直，建议核实入库逻辑"
+  },
+  {
+    "name": "Bridge Group",
+    "desc_cn": "Bridge Group（Bridge Senior Living）是美国养老社区运营商，开发并管理独立生活、辅助生活及记忆照护型养老社区。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Brightside Health",
+    "desc_cn": "Brightside Health 是美国在线精神心理健康平台，通过视频问诊与消息提供焦虑、抑郁的药物与心理治疗，并接受Medicare/Medicaid等保险。",
+    "tag_l2": [
+      "心理健康",
+      "远程医疗"
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "name": "BrightSpring Health",
+    "desc_cn": "BrightSpring Health Services 是美国面向复杂慢病与残疾人群的家外医疗与药房服务平台，提供居家护理、康复与用药配送，已登陆纳斯达克（BTSG）。",
+    "tag_l2": [
+      "居家护理"
+    ],
+    "confidence": "med",
+    "note": ""
+  },
+  {
+    "name": "Athulya Senior Care",
+    "desc_cn": "Athulya Senior Care 是印度最大的辅助生活养老运营商，在南部多城运营12处设施，提供辅助生活、认知症照护、过渡期护理、康复与安宁疗护，已服务3.5万名长者。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "confidence": "high",
+    "note": ""
+  }
+]

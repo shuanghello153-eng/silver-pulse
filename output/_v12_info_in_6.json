@@ -1,0 +1,414 @@
+[
+ {
+  "name": "MyndVR",
+  "name_cn": "",
+  "description": "为老人提供虚拟现实疗法以减轻疼痛焦虑的VR方案",
+  "desc_cn": "为老人提供虚拟现实疗法以减轻疼痛焦虑的VR方案",
+  "business_model_cn": "B2C/B2B 认知训练/数字疗法",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "心理健康"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "PalCare",
+  "name_cn": "",
+  "description": "养老紧急呼叫、护士呼叫、门禁与走失管理硬件软件平台",
+  "desc_cn": "养老紧急呼叫、护士呼叫、门禁与走失管理硬件软件平台",
+  "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "远程护理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Intus Care",
+  "name_cn": "",
+  "description": "养老医疗分析平台，预测住院与慢病风险优化PACE照护",
+  "desc_cn": "养老医疗分析平台，预测住院与慢病风险优化PACE照护",
+  "business_model_cn": "B2B SaaS/养老与健康管理软件",
+  "tag_l1": [
+   "医疗健康",
+   "智能科技"
+  ],
+  "tag_l2": [
+   "平台",
+   "慢病管理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Effectivate",
+  "name_cn": "",
+  "description": "机器学习脑训练平台，个性化改善老人记忆与认知",
+  "desc_cn": "机器学习脑训练平台，个性化改善老人记忆与认知",
+  "business_model_cn": "B2C/B2B 认知训练/数字疗法",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "认知训练"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Endear Health",
+  "name_cn": "",
+  "description": "API连接平台让支付方与供方为老人提供最佳会员体验",
+  "desc_cn": "API连接平台让支付方与供方为老人提供最佳会员体验",
+  "business_model_cn": "B2B SaaS/养老与健康管理软件",
+  "tag_l1": [
+   "智能科技"
+  ],
+  "tag_l2": [
+   "平台"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Sensi",
+  "name_cn": "",
+  "description": "触发式音频分析平台，在家护中预测预防异常且保隐私",
+  "desc_cn": "触发式音频分析平台，在家护中预测预防异常且保隐私",
+  "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "远程护理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Sage",
+  "name_cn": "",
+  "description": "AI养老护理平台，预测分析预防跌倒与衰退，服务护理机构",
+  "desc_cn": "AI养老护理平台，预测分析预防跌倒与衰退，服务护理机构",
+  "business_model_cn": "B2B SaaS/养老与健康管理软件",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "健康监测"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Fountain Life",
+  "name_cn": "",
+  "description": "高端长寿诊所，提供全面体检与早筛服务",
+  "desc_cn": "高端长寿诊所，提供全面体检与早筛服务",
+  "business_model_cn": "B2C/B2B 长寿科技/健康服务",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "诊所"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Wanda Health",
+  "name_cn": "",
+  "description": "布里斯托远程患者监测平台，加速居家慢病管理增长",
+  "desc_cn": "布里斯托远程患者监测平台，加速居家慢病管理增长",
+  "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "慢病管理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Percipio Health",
+  "name_cn": "",
+  "description": "智能手机远程患者监测平台，AI分析健康数据",
+  "desc_cn": "智能手机远程患者监测平台，AI分析健康数据",
+  "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "慢病管理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "The Helper Bees",
+  "name_cn": "",
+  "description": "提供审核家居护理服务的技术平台，与保险计划集成",
+  "desc_cn": "提供审核家居护理服务的技术平台，与保险计划集成",
+  "business_model_cn": "B2C/B2B 居家照护服务平台",
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "保险科技"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Uniper Care",
+  "name_cn": "",
+  "description": "数字平台连接老人到社区活动、互动内容与远程关怀",
+  "desc_cn": "数字平台连接老人到社区活动、互动内容与远程关怀",
+  "business_model_cn": "B2C/B2B 老年文娱社交平台",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "社区"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Neursantys",
+  "name_cn": "",
+  "description": "非侵入式生物电子平台测量并恢复前庭平衡，降跌倒风险",
+  "desc_cn": "非侵入式生物电子平台测量并恢复前庭平衡，降跌倒风险",
+  "business_model_cn": "B2B/B2C 康复设备/跌倒预防",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "康复医疗"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Mindr",
+  "name_cn": "",
+  "description": "AI驱动教练平台，为中年期（尤其照护者）提供每日脑健康活动降痴呆风险",
+  "desc_cn": "AI驱动教练平台，为中年期（尤其照护者）提供每日脑健康活动降痴呆风险",
+  "business_model_cn": "B2B/B2C 脑健康数字服务",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "认知训练"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Healthnix",
+  "name_cn": "",
+  "description": "软件工具助临床医生大规模提供基于生物标志物的个性化营养",
+  "desc_cn": "软件工具助临床医生大规模提供基于生物标志物的个性化营养",
+  "business_model_cn": "B2B 临床营养软件",
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "个性化营养"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Miils",
+  "name_cn": "",
+  "description": "AI为老年人提供个性化膳食计划、营养信息与简易在线杂货采购",
+  "desc_cn": "AI为老年人提供个性化膳食计划、营养信息与简易在线杂货采购",
+  "business_model_cn": "B2C 银发膳食营养服务",
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "个性化营养",
+   "养老膳食"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "卓道医疗",
+  "name_cn": "卓道医疗",
+  "description": "围绕核心产品搭建智能康复综合解决方案（智慧方舟）",
+  "desc_cn": "围绕核心产品搭建智能康复综合解决方案（智慧方舟）",
+  "business_model_cn": "B2B 智能康复设备",
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "康复机器人"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "智听科技",
+  "name_cn": "智听科技",
+  "description": "专注老年听力障碍解决方案，凭国产替代获资本认可",
+  "desc_cn": "专注老年听力障碍解决方案，凭国产替代获资本认可",
+  "business_model_cn": "B2C 助听器",
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "助听器"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "百善九号",
+  "name_cn": "百善九号",
+  "description": "打造养老领域操作系统/AI数智乐龄生活服务平台",
+  "desc_cn": "打造养老领域操作系统/AI数智乐龄生活服务平台",
+  "business_model_cn": "B2B 智慧养老平台/运营",
+  "tag_l1": [
+   "养老服务",
+   "智能科技"
+  ],
+  "tag_l2": [
+   "AI",
+   "护理平台"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "朗毅机器人",
+  "name_cn": "朗毅机器人",
+  "description": "专注具身导航大脑研发，为养老场景提供技术基座",
+  "desc_cn": "专注具身导航大脑研发，为养老场景提供技术基座",
+  "business_model_cn": "B2B 机器人技术基座",
+  "tag_l1": [
+   "智能科技"
+  ],
+  "tag_l2": [
+   "人形机器人"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "中天益寿林",
+  "name_cn": "中天益寿林",
+  "description": "将医疗养老机构运营与智慧管理系统结合，提供一体化服务",
+  "desc_cn": "将医疗养老机构运营与智慧管理系统结合，提供一体化服务",
+  "business_model_cn": "养老机构运营（医养结合）",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老机构"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "韩束",
+  "name_cn": "韩束",
+  "description": "推出男士控油紧致精华，中老年男性护肤爆款，多平台超3亿",
+  "desc_cn": "推出男士控油紧致精华，中老年男性护肤爆款，多平台超3亿",
+  "business_model_cn": "B2C 银发护肤消费品",
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "个人护理",
+   "美妆护肤"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "AvevoRx",
+  "name_cn": "",
+  "description": "居家专科输液药房服务，为患者在家提供输液药物与治疗履约",
+  "desc_cn": "居家专科输液药房服务，为患者在家提供输液药物与治疗履约",
+  "business_model_cn": "B2C/B2B 居家护理服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "上门"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "Anytime Home Care",
+  "name_cn": "",
+  "description": "提供陪伴、个人护理、生活协助、备餐、家务等非医疗居家照护",
+  "desc_cn": "提供陪伴、个人护理、生活协助、备餐、家务等非医疗居家照护",
+  "business_model_cn": "B2C/B2B 居家护理服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "专业护理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "BrightStar Care",
+  "name_cn": "",
+  "description": "提供个人居家照护、补充性护理人员派遣及家庭医疗服务，网络逾15,000名照护者",
+  "desc_cn": "提供个人居家照护、补充性护理人员派遣及家庭医疗服务，网络逾15,000名照护者",
+  "business_model_cn": "B2B/B2C 居家照护与医疗履约",
+  "tag_l1": [
+   "医疗健康"
+  ],
+  "tag_l2": [
+   "医疗"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "HomeWell Franchising",
+  "name_cn": "",
+  "description": "为老年人及居家不便者提供个人护理、陪伴与家务服务的居家护理特许经营体系",
+  "desc_cn": "为老年人及居家不便者提供个人护理、陪伴与家务服务的居家护理特许经营体系",
+  "business_model_cn": "B2C/B2B 居家护理服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "专业护理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "IntellaTriage",
+  "name_cn": "",
+  "description": "为居家医疗与安宁疗护机构提供护士主导的全天候分诊与看护解决方案",
+  "desc_cn": "为居家医疗与安宁疗护机构提供护士主导的全天候分诊与看护解决方案",
+  "business_model_cn": "B2B 监护科技/分诊服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "远程护理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "White Orchid Hospice",
+  "name_cn": "",
+  "description": "覆盖休斯顿、科珀斯克里斯蒂、圣安东尼奥的安宁疗护与缓和医疗提供商",
+  "desc_cn": "覆盖休斯顿、科珀斯克里斯蒂、圣安东尼奥的安宁疗护与缓和医疗提供商",
+  "business_model_cn": "安宁疗护/缓和医疗服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "专业护理"
+  ],
+  "weak_reason": "template"
+ },
+ {
+  "name": "HealthFlex Hospice",
+  "name_cn": "",
+  "description": "提供居家医疗与安宁疗护等上门健康服务",
+  "desc_cn": "提供居家医疗与安宁疗护等上门健康服务",
+  "business_model_cn": "安宁疗护/缓和医疗服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "专业护理"
+  ],
+  "weak_reason": "template"
+ }
+]

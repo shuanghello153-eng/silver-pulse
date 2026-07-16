@@ -2,7 +2,7 @@
 """
 Generate about.html — Silver Pulse 网站说明栏目 v2.
 Three tabs: 资讯版说明 / 企业库说明 / 网站规则
-Updated for v5.0 config: 13-class system, event-type classification,
+Updated for current config: 8-class system, event-type classification,
 tag pool, L1/L2 source hierarchy, data filtering logic.
 """
 import os
@@ -69,8 +69,8 @@ ENTERPRISE_SOURCES = [
 ENTERPRISE_FIELDS = [
     ("name", "str", "企业名称（中文名写中文，英文名保留英文不翻译）"),
     ("region", "str", "地区：国内 / 海外"),
-    ("category_l1", "str", "一级分类（13类之一）"),
-    ("category_l2", "str", "二级分类（70个子类之一）"),
+    ("category_l1", "str", "一级分类（8类之一）"),
+    ("category_l2", "str", "二级分类（98个子类之一）"),
     ("tags", "list", "标签（来自TAG_POOL，最多5个）"),
     ("description", "str", "一句话业务描述"),
     ("highlights", "str", "亮点（关键数据/里程碑/特色）"),
@@ -392,7 +392,7 @@ __SIDEBAR__
       <tbody>{event_table}</tbody>
     </table>
 
-    <p style="margin-top:16px;"><b>涉及领域 L2</b>（复用企业库13个一级分类名称）：</p>
+    <p style="margin-top:16px;"><b>涉及领域 L2</b>（复用企业库一级分类名称）：</p>
     <p style="font-size:13px;color:var(--text-secondary);">{", ".join(NEWS_DOMAINS)}</p>
     <div class="callout">
       <b>分类逻辑</b>：事件类型通过关键词匹配自动判定（融资/收购/政策/产品/趋势/人事/其他）。<br>
@@ -562,7 +562,7 @@ __SIDEBAR__
 <div class="tab-content" id="tab-enterprise">
 
   <div class="callout" style="margin-bottom:20px;">
-    <b>📌 本页用途：</b>企业有哪些字段（21 字段 Schema）、怎么分类（13 一级 + 70 二级）、数据从哪来（7 个来源）。
+    <b>📌 本页用途：</b>企业有哪些字段（21 字段 Schema）、怎么分类（8 一级 + 98 二级）、数据从哪来（7 个来源）。
   </div>
 
   <div class="section">
@@ -586,7 +586,7 @@ __SIDEBAR__
 
   <div class="section">
     <h3>分类体系（{len(ENTERPRISE_CATEGORIES)} 个一级 + {sum(len(c) if isinstance(c, list) else len(c.get("l2",[])) for c in ENTERPRISE_CATEGORIES.values())} 个二级）</h3>
-    <p>企业库采用 13 个一级分类，每个分类下设若干二级子类。企业按原始分类自动映射到对应类别。展示时<b>不显示编码</b>，直接显示分类名称。</p>
+    <p>企业库采用 {len(ENTERPRISE_CATEGORIES)} 个一级分类，每个分类下设若干二级子类。企业按原始分类自动映射到对应类别。展示时<b>不显示编码</b>，直接显示分类名称。</p>
     <table class="info-table">
       <thead>
         <tr><th>一级分类</th><th>二级数</th><th>二级子类</th></tr>
@@ -668,8 +668,8 @@ __SIDEBAR__
       两者在UI上<b>分开展示</b>：分类用独立行展示，标签用蓝色badge展示，不混在同一行。
     </div>
     <ul>
-      <li><b>资讯分类</b>：事件类型L1（7类）+ 涉及领域L2（复用企业库13类名称）</li>
-      <li><b>企业分类</b>：一级分类L1（13类）+ 二级分类L2（70子类）</li>
+      <li><b>资讯分类</b>：事件类型L1（7类）+ 涉及领域L2（复用企业库一级分类名称）</li>
+      <li><b>企业分类</b>：一级分类L1（8类）+ 二级分类L2（98子类）</li>
       <li><b>标签池</b>：资本信号 / 背书信号 / 发展阶段 / 特殊标记 / 地理标记</li>
     </ul>
   </div>

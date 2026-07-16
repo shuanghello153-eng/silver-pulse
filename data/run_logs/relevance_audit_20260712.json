@@ -1,0 +1,108 @@
+{
+  "total": 512,
+  "sample_n": 8,
+  "samples": [
+    {
+      "title": "CarbonSix 获 4000 万美元 A 轮融资，在全球制造业部署实体 AI - PR Newswire",
+      "hits": {
+        "strong": [],
+        "weak": [
+          "融资",
+          "万美元",
+          "AI"
+        ],
+        "irrelevant": [],
+        "known_ent": []
+      }
+    },
+    {
+      "title": "江西城乡居民养老保险资助可线上办 - 凤凰网江西",
+      "hits": {
+        "strong": [
+          "养老"
+        ],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": []
+      }
+    },
+    {
+      "title": "Fortitude Re 宣布与 Unum Group 达成 38 亿美元长期护理再保险协议 - Yahoo Finan",
+      "hits": {
+        "strong": [],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": []
+      }
+    },
+    {
+      "title": "McKnight’s Senior Living 网站获最高奖，印刷杂志获认可 - McKnight's Senior ",
+      "hits": {
+        "strong": [
+          "senior",
+          "senior living"
+        ],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": []
+      }
+    },
+    {
+      "title": "长护险：老龄化+政策驱动，激发银发经济新蓝海 - AgeClub",
+      "hits": {
+        "strong": [
+          "银发",
+          "老龄化",
+          "银发经济"
+        ],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": [
+          "ageclub"
+        ]
+      }
+    },
+    {
+      "title": "Lakewood 辅助生活机构员工因致两名老年住客身体伤害被控疏忽 - 科罗拉多第一司法区检察官办公室",
+      "hits": {
+        "strong": [
+          "老年"
+        ],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": []
+      }
+    },
+    {
+      "title": "East Islip 辅助生活项目将动工 - Long Island Business News",
+      "hits": {
+        "strong": [],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": []
+      }
+    },
+    {
+      "title": "记忆照护创新奖得主：Robert Archer，Dimensions Living Appleton 生活丰富总监",
+      "hits": {
+        "strong": [
+          "照护",
+          "senior",
+          "memory care",
+          "senior housing"
+        ],
+        "weak": [],
+        "irrelevant": [],
+        "known_ent": [
+          "apple"
+        ]
+      }
+    }
+  ],
+  "word_stats": {
+    "strong": 5,
+    "weak": 1,
+    "known_ent": 2,
+    "irrelevant": 0
+  }
+}
