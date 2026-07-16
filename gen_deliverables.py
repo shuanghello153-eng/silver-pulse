@@ -8,15 +8,14 @@ import openpyxl
 DATA = 'data/enterprise/all_enterprises.json'
 SYN  = 'data/enterprise/tag_synonyms.json'
 L2L1 = 'data/enterprise/_l2_l1.json'
-DATE = '2026-07-15'
-VER  = 'V4'
+DATE = '2026-07-16'
+VER  = 'V20'
 
 d    = json.load(open(DATA, encoding='utf-8'))
 syn  = json.load(open(SYN,  encoding='utf-8'))
 l2l1 = json.load(open(L2L1, encoding='utf-8'))
 
-L1_ORDER = ['产业资本','养老服务','医疗健康','康复辅具','文娱社交','智能科技',
-            '消费品','渠道零售','金融保险','食品营养']
+L1_ORDER = ['养老服务','康复辅具','消费品','文娱社交','食品营养','行业服务','金融保险','投资机构']
 
 # 校验证据
 val_out = subprocess.run([sys.executable, 'validate_tags.py'], capture_output=True, text=True, encoding='utf-8').stdout
@@ -57,11 +56,15 @@ for l1 in L1_ORDER:
         syn_txt = '、'.join(syns) if syns else '（仅自身）'
         A('- **%s**（%d 家）  ｜ 同类词：%s' % (l2, l2c[l2], syn_txt))
     A('')
-A('## 三、本回合重点改动说明（供核对）')
+A('## 三、本回合重点改动说明（V20，供核对）')
 A('')
-A('- **居家护理**：按定义"上门、非医疗的照顾服务"收紧。同类词剔除医疗/社区/旅行/加盟类（31→13）；挂标企业从 95 家核到 49 家，46 家错标企业（SaaS/机器人/护士上门/智能硬件/养老信息平台等）已重分类。')
-A('- **单标签聚类**：791 家单标签企业补了第二个（不同）标签 112 家，单标签率降到约 51%。')
-A('- **大桶走查**：10 个≥40 企业数的二级标签全部过审。6 个为横切属性标签（智能硬件/SaaS/AI/机器人/跌倒监测/远程医疗）按规则文档不硬拆；保险/慢病管理/康复器械因多数企业记录缺子类信息，留待 Excel 手筛；外骨骼已是独立标签。')
+A('- **删除 3 个一级**（渠道零售 / 智能科技 / 医疗健康），企业按真实领域 + 产品形态重归 8 个一级。WHY 见《TAGGING_RULES_V20.md》。')
+A('- **根治「同二级挂多一级」**：原 57 个跨一级重复 L2 与「删 3 一级重归属」是同一问题两面（同一二级被记到多个一级）。本回合建立 **L2→L1 唯一映射表**（每个二级只属 1 个一级），再由 tag_l2 反推 tag_l1，一次性消除结构性错位。')
+A('- **合并 9 组**：助听辅具→助听器、陪伴社交→陪伴服务、养老→养老信息平台、呼吸→康复器械、特医食品→营养食品、肾病→慢病管理、出行→适老化、中药滋补→保健品、抗衰→保健品。')
+A('- **删除裸维度词 SaaS / AI**（共 50 处），改以真实领域 + 产品形态归位（如原「SaaS 养老系统」→ 养老服务下的具体业务标签）。')
+A('- **移除 8 家错挂助听器**：瑞尔齿科 / 美呀植牙 / 鼎植口腔 / 通策医疗 / 谊安医疗 / 维达 / 豪悦 / 美丽岛（牙科 / 呼吸机 / 纸品，非听力设备）。')
+A('- **派生一级**：每家企业 tag_l1 由其 tag_l2 经唯一映射表反推，零手工错位；validate_tags 9/9 全绿。')
+A('- **41 家待核实**：原仅含 SaaS/AI 或信息缺失的企业暂用关键词兜底标签，列入 `data/enterprise/_v20_fallback_pending.json`，由信息准确性子智能体核实补全（见走查报告）。')
 A('')
 md_path = 'output/标签体系_全映射_%s_%s.md' % (DATE, VER)
 open(md_path, 'w', encoding='utf-8').write('\n'.join(L))
