@@ -1,0 +1,63 @@
+{
+  "serial": "#0802",
+  "name": "Nirvana",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+    "专业护理"
+  ],
+  "description": "Nirvana 旗下与老年相关的业务主要指向 Nirvana Adult Day Care（佛罗里达的成人日托照护）及 Nirvana Healthcare 的老年医学科，提供日托、慢病管理与老年综合照护，按服务/医保收费。注：Nirvana 同时还有 PBM 医疗支付平台与护理派遣业务。",
+  "highlights": [
+    "成人日托+老年医学+护理派遣+PBM(药品福利)综合照护",
+    "照护与用药支付纵向一体化，结算Medicare",
+    "反常识以平台整合而非单点服务切入老年照护",
+    "A轮2420万美元，由Northzone等领投"
+  ],
+  "funding_latest": {
+    "date": "2024年9月",
+    "amount": "2420万美元",
+    "round": "A轮",
+    "display": "A轮 2420万美元 (2024年9月)"
+  },
+  "funding_total": "$20M+",
+  "investors": "Northzone, Battery Ventures, ENIAC Ventures, Inspired Capital, Adams Street Partners",
+  "founded": 2020,
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nirvana",
+  "website_url": "https://www.nirvana.com",
+  "business_model": "B2C/B2B 老年健康保险",
+  "desc_cn": "面向老年群体的综合照护与支付平台，整合成人日托、老年医学门诊与居家护理派遣，并自建PBM处理处方与理赔。收入来自政府医保（Medicare/Medicaid）结算与老人个人自付，照护与用药支付一体化。核心银发价值在“日托+上门护理+用药支付”闭环，对应国内社区居家养老与长护险药品配送整合。",
+  "business_model_cn": "B2C/B2B 老年文娱社交平台",
+  "tag_l1": [
+    "养老服务"
+  ],
+  "tag_l2": [
+    "专业护理"
+  ],
+  "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+  },
+  "stage": "A轮",
+  "recommend": "面向老人群体的综合照护加支付平台，把成人日托、老年医学科与居家护理派遣捏在一起，还自建药品福利管理来处理处方和理赔，A轮拿2420万美元、由头部基金领投，信号与信息都足。打法是用'日托加上门护理加用药支付'的纵向闭环、而非单点服务切老年照护，这是和单科诊所最大的不同。可复制靠政府医保结算，国内社区居家养老和长护险的药品配送整合刚起步；适合小爽写'老年照护支付整合'案例，也提示它仍绑美国医保、规模尚小。",
+  "payor_model": "混合支付",
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 49.6,
+  "events": [
+    {
+      "date": "2024-09",
+      "text": "完成2420万美元A轮融资，由Northzone、Battery Ventures等领投"
+    }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "成人日托+老年医学+护理派遣直接服务老年群体，并结算Medicare/Medicaid，属银发照护基础设施。",
+  "name_cn": "Nirvana",
+  "数据来源": "联网精评"
+}

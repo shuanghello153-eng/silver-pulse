@@ -1,0 +1,45 @@
+{
+  "serial": "#1188",
+  "name_cn": "Optain Health",
+  "tag_l1": [
+    "康复辅具"
+  ],
+  "tag_l2": [
+    "视觉辅助"
+  ],
+  "recommend": "信号：2025年9月拿到2600万美元A轮、由Insight领投，7家美国医疗系统战略入局，眼睛组学升温。信息量：披露便携相机不散瞳即拍视网膜，测糖网、青光与黄斑变并评估心血管风险，其合作网络覆盖2800万名患者、25个州，数据厚。差异化：把视网膜当全身健康窗口，在基层用AI替代专科读片。可复制：国内已有类似（鹰瞳科技、腾讯觅影等眼底AI），但其便携设备加卫生系统共建加全身风险外延的组合，对国内基层医疗眼筛商业化有参考。",
+  "desc_cn": "Optain Health是纽约的AI视网膜影像早筛公司，2023年由Aegis Ventures联合11家美国卫生系统共建。便携机器人相机免散瞳拍视网膜，AI识别糖尿病视网膜病变、青光眼、年龄相关性黄斑变性并评估心血管风险（oculomics）。2025年9月完成2600万美元A轮（Insight Partners领投，Memorial Hermann、Northwell等7家卫生系统战略入局），合作体系覆盖2800万患者/25州，技术源自澳洲Mingguang He教授十余年研究。",
+  "silver_reason": "黄斑变性、糖网、青光眼在老年高发，视网膜AI早筛契合银发慢病与致盲防控。",
+  "payor_model": "B端机构采购",
+  "funding_latest": {
+    "date": "2025-09",
+    "amount": "2600万美元",
+    "round": "A轮",
+    "display": "2600万美元 (2025年9月 A轮)"
+  },
+  "funding_total": {
+    "amount": "2600万美元",
+    "display": "2600万美元"
+  },
+  "stage": "A轮",
+  "founded_year": 2023,
+  "highlights": [
+    "便携机器人相机免散瞳拍视网膜",
+    "测糖网/青光/黄斑变+心血管风险（oculomics）",
+    "7家卫生系统战略入局",
+    "覆盖2800万患者/25州"
+  ],
+  "events": [
+    {
+      "date": "2025-09",
+      "text": "完成2600万美元A轮，Insight Partners领投"
+    }
+  ],
+  "business_model": "B2B 视网膜AI筛查SaaS+硬件",
+  "coverage_regions": "美国/澳大利亚/全球",
+  "domestic_competitors": [
+    "鹰瞳科技Airdoc",
+    "腾讯觅影",
+    "乐普眼底AI"
+  ]
+}

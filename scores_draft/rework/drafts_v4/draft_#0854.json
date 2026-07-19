@@ -1,0 +1,53 @@
+{
+  "serial": "#0854",
+  "name": "SiftWell Analytics",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+    "AI医疗"
+  ],
+  "description": "SiftWell Analytics 是一家为医疗支付方（payer）提供全会员 AI 洞察的公司，做风险分层、照护缺口识别与干预推荐，团队多有医疗责任组织背景，融资约 930 万美元。亮点是把分散的会员数据转化为可执行的精准照护信号。",
+  "highlights": "识别高风险个人提高质量分数",
+  "funding_latest": {
+    "date": "2024年2月",
+    "amount": "580万美元",
+    "display": "580万美元 (2024年2月)"
+  },
+  "funding_total": "$5.8M",
+  "investors": "AlleyCorp, Arkin Digital Health, Tau Ventures, The Charlotte Fund",
+  "founded": "2020",
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SiftWell%20Analytics",
+  "website_url": "https://www.siftwell.com",
+  "business_model": "B2B AI/数据驱动",
+  "desc_cn": "为医疗支付方做全会员AI洞察的公司，做风险分层、照护缺口识别与干预推荐，团队多有医疗责任组织背景，亮点在把分散的会员数据转成可执行的精准照护信号，帮助支付方提前介入高风险人群。",
+  "business_model_cn": "B2C/B2B 老年文娱社交平台",
+  "tag_l1": [
+    "行业服务"
+  ],
+  "tag_l2": [
+    "AI医疗"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+  },
+  "stage": "未搜到",
+  "recommend": "为医疗支付方提供全会员AI洞察，做风险分层、识别照护缺口并推荐干预，2024年融580万美元、累计580万。亮点是把零散会员数据变成能落地的精准照护提示；国内惠民保与商保正缺这类风控工具，可借鉴其会员分层逻辑，但数据孤岛是落地难点；其会员风控外溢信号值得跟踪，信息较足。",
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "name_cn": "SiftWell Analytics",
+  "events": [
+    "未搜到"
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "为医疗支付方做会员风险洞察，支撑精准照护，属银发数据服务，对支付方控费有价值。",
+  "update_time": "2026-07-17"
+}

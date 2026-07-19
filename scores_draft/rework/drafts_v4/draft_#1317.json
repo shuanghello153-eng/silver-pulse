@@ -1,0 +1,78 @@
+{
+  "serial": "#1317",
+  "name": "PointClickCare",
+  "name_cn": "PointClickCare",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "长期照护SaaS",
+  "tags": [
+    "养老软件"
+  ],
+  "description": "面向长期照护与急性期后护理机构的云端软件平台，打通临床、财务与运营数据。成立于1995年，加拿大；累计融资约2.97亿加元；2026-05 扩展 AI 产品 Chart Advisor 至 senior living 场景。",
+  "highlights": [
+    "北美长期照护与急性期后护理头部EHR/SaaS，连接3万+机构与各大健康计划",
+    "2026年推出AI-native Advisor Suite（Chart/Referral/Billing/MDS Advisor）",
+    "连续7年获Best in KLAS，并将Chart Advisor扩展至senior living养老社区"
+  ],
+  "funding_latest": {
+    "amount": "2.97亿加元",
+    "round": "二次市场",
+    "date": "",
+    "display": "二次市场 2.97亿加元"
+  },
+  "funding_total": {
+    "amount": "累计约2.97亿加元",
+    "display": "累计约2.97亿加元"
+  },
+  "investors": "Hellman & Friedman, JMI Equity, Dragoneer",
+  "founded": 1995,
+  "value_score": 0,
+  "source": "Failory 2026 elder care list",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PointClickCare",
+  "website_url": "http://www.pointclickcare.com",
+  "business_model": "Cloud EHR/SaaS platform for long-term and post-acute care providers, integrating clinical, financial, operational data.",
+  "desc_cn": "北美长期照护与急性期后护理云端EHR/SaaS厂商，连接3万多家机构与各大健康计划，提供电子病历与计费管理。2026年推出AI-native Advisor Suite覆盖病历/转诊/计费/MDS，并将Chart Advisor扩展至养老社区。收入来自订阅与AI模块增购，是国内养老信息化直接参照。",
+  "business_model_cn": "长期照护云端EHR/SaaS",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "面向长期照护与急性期后护理机构的云端软件平台，打通临床、财务与运营数据。成立于1995年，加拿大；累计融资约2.97亿加元。"
+    ]
+  },
+  "tag_l1": [
+    "行业服务"
+  ],
+  "tag_l2": [
+    "养老软件"
+  ],
+  "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "做云端病历SaaS、主攻北美长期照护、急性期后护理这两类场景的厂商，把3万多家机构和各健康计划连起来，做电子病历与计费管理，2026年上新了AI原生的顾问套件覆盖病历、转诊与计费，信号与信息都足。打法是给养老机构做底层数据系统、靠AI模块增购加深黏性，这是和通用HIS最大的不同。可复制靠订阅，国内养老信息化刚起步、长护险评估报销打通是刚需；适合小爽写'养老SaaS基建'案例，也提示它绑死北美支付网络、国内医疗IT割裂难照搬。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 5.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 8.0,
+  "research_value": 65.6,
+  "events": [
+    {
+      "date": "2026-05",
+      "text": "Chart Advisor扩展至senior living养老社区场景"
+    },
+    {
+      "date": "2026-06",
+      "text": "发布AI-native Advisor Suite（计费/转诊/MDS顾问）"
+    }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "长期照护与急性期后护理机构SaaS直接服务养老护理场景，PointClickCare属核心银发。",
+  "数据来源": "联网精评",
+  "flag": []
+}

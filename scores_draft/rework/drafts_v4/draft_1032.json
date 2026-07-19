@@ -1,0 +1,52 @@
+{
+  "serial": "#1032",
+  "name": "Endear Health",
+  "name_cn": "Endear Health",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "健康平台API",
+  "tags": [
+    "保险"
+  ],
+  "description": "Endear Health operates an API and data layer that connects Medicare Advantage plans with home- and community-based care providers, streamlining member onboarding, benefits navigation, and care coordination.",
+  "highlights": "支付方-供方API中台",
+  "funding_latest": "Venture",
+  "funding_total": "未搜到",
+  "investors": [
+    "未搜到"
+  ],
+  "founded": "未搜到",
+  "value_score": 0,
+  "source": "Omdena",
+  "crunchbase_url": "",
+  "website_url": "https://endearhealth.com",
+  "business_model": "",
+  "desc_cn": "做连接美国老年医保优势计划与社区居家照护机构的保险数据接口层，简化会员接入、福利导航与协调，亮点在当支付方和供方之间的中台，成长期、信息薄，是医保与养老服务打通的接口样本。",
+  "business_model_cn": "B2B SaaS/接口费",
+  "news_coverage": "",
+  "tag_l1": [
+    "金融保险"
+  ],
+  "tag_l2": [
+    "保险"
+  ],
+  "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "做养老保险基础设施的公司，搭起一套数据接口层，把美国老年医保（优势计划）同社区居家照护服务商连起来，简化入会、福利查询与资源协调，其差异化是做支付方与供方之间的中间层；成长期、公开信息薄。国内医保与养老服务割裂，可借鉴其API中台思路，但需政策推动数据互通、落地仍待观察，保险赛道值得跟踪。",
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "events": [
+    "未搜到"
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "连接医保优势计划与居家照护机构的数据中台，属银发保险基础设施，打通支付供方。",
+  "update_time": "2026-07-17"
+}

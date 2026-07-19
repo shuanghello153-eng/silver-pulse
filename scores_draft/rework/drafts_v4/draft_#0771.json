@@ -1,0 +1,49 @@
+{
+  "serial": "#0771",
+  "name_cn": "Luminary",
+  "tag_l1": [
+    "金融保险"
+  ],
+  "tag_l2": [
+    "金融理财"
+  ],
+  "recommend": "信号：2024年4月拿到由8VC、洛克菲勒等领投的A轮，并获美国理财媒体年度创新奖，财富传承赛道受捧。信息量：披露服务家族办公室、RIA与险企，年超千亿美元家族赠予待释放，SOC2认证，数据中等。差异化：把信托与遗产规划做成顾问协作SaaS，用AI把原始文件变可视化与情景模拟，切遗产规划数字化空白。可复制：国内竞品较少（顾问式遗产规划SaaS刚起步），但高净值传承需求上升，其开放架构加人机协作AI思路对国内家族信托科技有借鉴。",
+  "desc_cn": "Luminary是纽约的信托与遗产规划数据协作平台，2021年前后成立，创始人David Barnard（前AllianceBernstein财富负责人）与Joe Lonsdale（8VC、Addepar、Palantir联合创始人）。2024年4月完成由8VC、Focus Financial、Rockefeller Asset Management等领投的A轮/可转换票据融资，并获ThinkAdvisor 2024创新奖与Family Wealth Report两项大奖。平台用human-in-the-loop AI把信托/遗产原始文件数字化，连接顾问、律师、税务师做可视化与情景模拟，客户含家族办公室、RIA、险企。",
+  "silver_reason": "遗产规划与财富传承直接服务高净值老龄群体及代际转移，属银发金融配套。",
+  "payor_model": "B端机构采购",
+  "funding_latest": {
+    "date": "2024-04",
+    "amount": "约3000万美元",
+    "round": "A轮/可转换票据",
+    "display": "约3000万美元 (2024年4月 A轮)"
+  },
+  "funding_total": {
+    "amount": "约3000万美元",
+    "display": "约3000万美元"
+  },
+  "stage": "A轮",
+  "founded_year": 2021,
+  "highlights": [
+    "信托/遗产规划协作SaaS",
+    "human-in-the-loop AI数字化文件",
+    "SOC2 Type II认证",
+    "获ThinkAdvisor 2024创新奖",
+    "客户含家族办公室/RIA/险企"
+  ],
+  "events": [
+    {
+      "date": "2024-04",
+      "text": "完成A轮/可转换票据，8VC等领投"
+    },
+    {
+      "date": "2024",
+      "text": "获ThinkAdvisor与Family Wealth Report两项大奖"
+    }
+  ],
+  "business_model": "B2B 顾问遗产规划SaaS订阅",
+  "coverage_regions": "美国",
+  "domestic_competitors": [
+    "家族信托科技公司（银行/信托系）",
+    "理财魔方等财富科技"
+  ]
+}

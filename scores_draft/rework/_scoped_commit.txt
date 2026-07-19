@@ -1,0 +1,36 @@
+待处理新草稿 serial 数: 80
+单企业PASS: 56  FAIL: 24
+[R10] 实际比对候选对: 0  新草稿被拦: 0
+============================================================
+scoped合并报告 (新草稿 80 家)
+  单企业PASS:   56
+  R10拦下:      0
+  最终PASS:     56
+  最终FAIL:     24
+  FAIL明细(前25):
+    0254: R-field-dedup:与highlights[1]雷同(9字≥8阈值)
+    0140: R-field-dedup:与highlights[0]雷同(16字≥8阈值); R-field-dedup:与highlights[1]雷同(18字≥8阈值); R-field-dedup:与description(英文)雷同(16字≥10阈值)
+    0256: R-field-dedup:与highlights[0]雷同(9字≥8阈值); R-field-dedup:与highlights[3]雷同(20字≥8阈值)
+    0604: R-field-dedup:与highlights[0]雷同(9字≥8阈值)
+    0633: R-field-dedup:与highlights[1]雷同(9字≥8阈值)
+    0722: R-field-dedup:与highlights[0]雷同(10字≥8阈值); R-field-dedup:与highlights[1]雷同(10字≥8阈值)
+    0788: R-field-dedup:与highlights[2]雷同(17字≥8阈值); R-field-dedup:与funding_latest.display雷同(8字≥8阈值)
+    0801: R-field-dedup:与highlights[3]雷同(10字≥8阈值); R-field-dedup:与funding_latest.display雷同(9字≥8阈值)
+    0805: R-field-dedup:与highlights[2]雷同(13字≥8阈值); R-field-dedup:与highlights[3]雷同(12字≥8阈值)
+    0862: R-field-dedup:与highlights[0]雷同(9字≥8阈值); R-field-dedup:与highlights[2]雷同(13字≥8阈值)
+    0890: R-field-dedup:与highlights[0]雷同(9字≥8阈值); R-field-dedup:与highlights[1]雷同(14字≥8阈值); R-field-dedup:与highlights[3]雷同(10字≥8阈值)
+    0905: R-field-dedup:与highlights[0]雷同(8字≥8阈值); R-field-dedup:与highlights[1]雷同(12字≥8阈值); R-field-dedup:与highlights[2]雷同(32字≥8阈值); R-field-
+    0876: R-field-dedup:与highlights[3]雷同(8字≥8阈值)
+    0828: R-field-dedup:与highlights[3]雷同(9字≥8阈值)
+    1111: R-field-dedup:与description(英文)雷同(18字≥10阈值)
+    1488: R2:字数过长(271>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(16字≥10阈值)
+    1500: R2:字数过长(284>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(10字≥10阈值); R-field-dedup:与description(英文)雷同(10字≥10阈值)
+    1501: R2:字数过长(260>220，疑似啰嗦); R-field-dedup:与description(英文)雷同(10字≥10阈值)
+    1503: R2:字数过长(275>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(16字≥10阈值)
+    1516: R2:字数过长(256>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(12字≥10阈值)
+    0631: R2:字数过长(311>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(18字≥10阈值); R-field-dedup:与highlights[1]雷同(25字≥8阈值); R-field-dedup:与highlights[2]雷同
+    0036: R2:字数过长(288>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(19字≥10阈值); R-field-dedup:与highlights[0]雷同(13字≥8阈值); R-field-dedup:与highlights[1]雷同
+    1333: R2:字数过长(317>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(15字≥10阈值)
+    1356: R2:字数过长(311>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(31字≥10阈值); R-field-dedup:与funding_latest.display雷同(10字≥8阈值); R-field-dedup:与descri
+============================================================
+已写回主库: 56 家（含 recommend/desc_cn/silver_reason/payor_model）

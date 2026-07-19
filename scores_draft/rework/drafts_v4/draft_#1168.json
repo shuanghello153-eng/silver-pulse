@@ -1,0 +1,73 @@
+{
+  "name": "Cera",
+  "region": "海外",
+  "category_l1": "养老照护平台",
+  "category_l2": "居家医疗AI平台",
+  "tags": [
+    "远程医疗",
+    "保险"
+  ],
+  "description": "英国最大数字化居家医疗提供商，伦敦创立(2016)，以 AI 平台调度护工、远程监测与远程医疗，累计融资约 4.21 亿美元（含 2025-01 与 2026-05 两轮各 1.5 亿美元 Series C）。",
+  "highlights": [
+    "英国最大数字化居家医疗平台，1万+护工、月均250万次上门访视",
+    "预测式AI(防跌倒/防住院)使住院率降最高70%，年营收约5亿美元",
+    "AI调度+远程监测+远程医疗一体化，已跑通NHS式支付"
+  ],
+  "funding_latest": {
+    "date": "2025",
+    "amount": "1.5亿美元 Series C (2026-05); 累计约4.21亿美元",
+    "round": "Series C",
+    "display": "1.5亿美元 Series C (2026-05)，累计约4.21亿美元"
+  },
+  "funding_total": {
+    "amount": "约4.21亿美元",
+    "display": "累计约4.21亿美元(13轮)"
+  },
+  "investors": "BDT & MSD Partners, Schroders Capital 等",
+  "founded": 2016,
+  "value_score": 83,
+  "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cera",
+  "website_url": "https://www.ceracare.co.uk",
+  "business_model": "B2B2C 数字化居家医疗：AI 调度护工+远程监测+远程医疗，按服务与保险结算",
+  "name_cn": "Cera｜英国居家医疗AI",
+  "desc_cn": "英国数字化居家医疗运营商，以预测式AI（防跌倒/防住院）调度万名护工并配合远程监测与远程问诊，向老年与失能人群提供到家照护。收入来自NHS/地方议会公共支付、个人自费与保险，月均250万次上门访视、年化收入约5亿美元。银发价值在用预测式AI降低住院来绑定公共支付方，是居家养老的规模样板。",
+  "business_model_cn": "B2B2C 数字化居家医疗：AI 调度护工、远程监测与远程医疗，按服务与保险结算",
+  "serial": "#1168",
+  "tag_l1": [
+    "养老服务",
+    "金融保险"
+  ],
+  "tag_l2": [
+    "远程医疗",
+    "保险"
+  ],
+  "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "运营商",
+    "channel": []
+  },
+  "stage": "C轮",
+  "recommend": "英国做数字化居家医疗的运营商，用预测式AI（防跌倒、防住院）调度上万护工、再配远程监测和远程问诊，给老年与失能人群做到家照护，每月上门约250万次、全年收入约5亿美元，信号与信息都强。打法是用预测式AI压低住院率、从而绑住公共支付方，这是和传统护工中介最大的不同。可复制靠公共医疗支付，国内居家养老仍靠人力、AI调度刚起步；适合小爽写'AI调度居家照护'案例，也提示其重人力、护工供给与公共预算是扩张瓶颈。",
+  "payor_model": "混合支付",
+  "signal_strength": 4.55,
+  "info_score": 8.0,
+  "diff_score": 8.0,
+  "copy_score": 6.0,
+  "research_value": 65.7,
+  "events": [
+    {
+      "date": "2025-01",
+      "text": "完成1.5亿美元Series C"
+    },
+    {
+      "date": "2026-05",
+      "text": "再完成1.5亿美元Series C，累计融资约4.21亿美元"
+    }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "英国头部居家养老医疗平台，AI驱动调度护工直接服务老年与失能群体，属核心银发。",
+  "数据来源": "联网精评",
+  "flag": []
+}

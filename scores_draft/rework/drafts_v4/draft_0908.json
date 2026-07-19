@@ -1,0 +1,57 @@
+{
+  "serial": "#0908",
+  "name": "Voxela",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+    "跌倒监测"
+  ],
+  "description": "AI图像分析检测跌倒和走动，护理机构和医院",
+  "highlights": "护理机构和医院",
+  "funding_latest": {
+    "date": "2024年10月",
+    "round": "Pre-A",
+    "display": "Pre-A (2024年10月)"
+  },
+  "funding_total": "$4.68M",
+  "investors": [
+    "Third Act Ventures",
+    "BlackCrow Capital",
+    "Risktaker"
+  ],
+  "founded": "2021",
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Voxela",
+  "website_url": "https://www.voxela.com",
+  "business_model": "B2B AI/数据驱动",
+  "desc_cn": "用AI视频分析在护理机构与医院里识别跌倒与异常走动的平台，2024年Pre-A轮、累计约四百万美元，亮点在视觉监测不打扰老人，但摄像头隐私与误报率是部署时必须权衡的关键问题。",
+  "business_model_cn": "B2B AI/数据驱动",
+  "tag_l1": [
+    "康复辅具"
+  ],
+  "tag_l2": [
+    "跌倒监测"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "做AI视频分析、在护理机构、医院与养老院识别跌倒和异常走动的平台，于2024年拿到Pre-A轮融资、累计约468万美元。亮点在视觉监测不惊扰老人；但摄像头涉及隐私、误报率与部署成本是关键。国内养老院安防升级有需求，可借鉴其视觉跌倒预警，需配隐私合规与家属知情同意，信息中等。",
+  "payor_model": "B端机构采购+政府付费",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "name_cn": "Voxela",
+  "events": [
+    "未搜到"
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "AI视频跌倒与走动监测，服务护理机构与医院，属核心银发安全监测，降意外风险。",
+  "update_time": "2026-07-17"
+}

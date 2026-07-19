@@ -1,0 +1,92 @@
+{
+  "serial": "#0725",
+  "name": "Headway",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+    "心理健康"
+  ],
+  "description": "Headway 成立于2019年，是美国心理健康科技公司，搭建全美最大的\"接受保险\"治疗师与精神科医生网络，为患者按保险、专科、地区匹配并直接预约，同时为治疗师承担资质认证、保险理赔与结算等行政工作；截至2025年网络覆盖6.5万+持证服务提供者、促成超3000万次咨询。",
+  "highlights": [
+    "搭建接受保险的治疗师网络，承担资质与理赔结算",
+    "2024年7月完成1亿美元D轮，扩展至MA/Medicaid",
+    "2025年收购Tezi推AI，覆盖6.5万+治疗师、超3000万次咨询"
+  ],
+  "funding_latest": {
+    "date": "2024年7月",
+    "amount": "1亿美元",
+    "round": "D轮",
+    "display": "D轮 1亿美元 (2024年7月)"
+  },
+  "funding_total": {
+    "amount": "$321M",
+    "display": "$321M (截至2025年)"
+  },
+  "investors": "Spark Capital, Accel, Andreessen Horowitz, GV (Google Ventures), Forerunner Ventures, Thrive Capital, Global Founders Capital, Health Care Service Corporation",
+  "founded": 2019,
+  "value_score": 43,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Headway",
+  "website_url": "https://headway.co",
+  "business_model": "B2C/B2B 老年健康保险",
+  "desc_cn": "搭建接受商保与政府医保支付的治疗师网络，替治疗师承担资质审核、理赔与排班获客，向保险机构按服务结算、向治疗师收订阅费。覆盖6.5万+治疗师、累计超3000万次咨询。银发关联在2024年接入MA/Medicaid后触达老年心理人群，但产品本为全龄设计，是国内精神卫生纳入医保与老年抑郁筛查的结算侧样本。",
+  "business_model_cn": "B2C/B2B 老年健康保险",
+  "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+      {
+        "title": "Headway Raises $100M Series D, Expands to Medicare Advantage & Medicaid",
+        "date": "2024-07-23",
+        "source": "VCA Online",
+        "url": "https://www.vcaonline.com/news/2024072304/headway-raises-100-million-in-series-d-funding-plans-expansion-to-serve-people-with-medicare-advantage-and-medicaid-insurance-coverage/"
+      },
+      {
+        "title": "健康保险咨询平台提供商Headway获得1亿美元D轮融资",
+        "date": "2024-07-23",
+        "source": "动脉网",
+        "url": "https://www.vbdata.cn/intelDetail/208287"
+      }
+    ],
+    "snippets": [
+      "Headway为接受保险的全美治疗师网络，2024年7月完成1亿美元D轮（Spark Capital领投），估值23亿美元，并扩展至Medicare Advantage/Medicaid。",
+      "2026年3月收购Tezi团队推进AI，利好老年心理照护可及性。"
+    ]
+  },
+  "tag_l1": [
+    "养老服务"
+  ],
+  "tag_l2": [
+    "心理健康"
+  ],
+  "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "搭起一个'接受保险'的治疗师网络，帮治疗师做资质审核、理赔和排班获客，对保险机构按服务算账、对治疗师收会员订阅，覆盖6.5万多名治疗师、累计问诊超3000万次，D轮拿了1亿美元，这项医疗服务信号与信息都强。打法是用结算侧中台降低看精神科医疗的门槛，这是和传统心理咨询最大的不同。可复制靠医保结算，国内精神卫生被纳入医保刚推进；须提醒小爽它本为全龄设计、仅接了MA这类老年医疗险后触达老年，属泛医疗擦边标的。",
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 4.55,
+  "info_score": 9.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 64.7,
+  "events": [
+    {
+      "date": "2024-07",
+      "text": "完成1亿美元D轮，Spark Capital领投，扩展至MA/Medicaid"
+    },
+    {
+      "date": "2026-03",
+      "text": "收购Tezi团队推进AI"
+    }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "心理健康平台面向全龄，仅通过接入MA/Medicaid触达老年群体，非专为银发设计",
+  "name_cn": "Headway",
+  "数据来源": "联网精评",
+  "flag": []
+}

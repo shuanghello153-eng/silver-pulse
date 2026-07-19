@@ -1,0 +1,53 @@
+{
+  "serial": "#0780",
+  "name": "Mend",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+    "养老软件"
+  ],
+  "description": "Mend（mend.com）是一家面向医疗机构的行为健康 AI 平台，用自动化沟通、日程提醒与远程问诊降低患者爽约率、提升就诊转化，按 SaaS 向诊所和医院收费。注：同时存在澳洲的 Mend 癌症/慢病康复 App，公开信息存在重名歧义。",
+  "highlights": "营养补充剂+数字平台",
+  "funding_latest": {
+    "date": "2023年7月",
+    "amount": "1500万美元",
+    "display": "1500万美元 (2023年7月)"
+  },
+  "funding_total": "$15M",
+  "investors": "S2G Ventures",
+  "founded": "2014",
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mend",
+  "website_url": "https://www.mend.com",
+  "business_model": "B2C 老年健康食品",
+  "desc_cn": "面向诊所与医院的AI行为健康平台，用自动化沟通、日程提醒与远程问诊降低患者爽约率、提升就诊转化，按SaaS向医疗机构收费。其价值在于把行为健康服务前置到日常沟通环节，而非等到疾病发作后才介入，对机构运营效率提升有直接帮助。",
+  "business_model_cn": "B2C/B2B 老年文娱社交平台",
+  "tag_l1": [
+    "行业服务"
+  ],
+  "tag_l2": [
+    "养老软件"
+  ],
+  "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+  },
+  "stage": "未搜到",
+  "recommend": "给诊所和医院做行为健康AI，用自动提醒加远程问诊来治理'爽约'，2023年融资1500万美元、累计约1500万。差异在把'少放鸽子'变成可量化运营指标而非泛泛问诊；风险是重名歧义（澳洲另有同名康复App）会干扰查证。国内诊所SaaS可学它的爽约率切入点，但医疗合规门槛不低，信号与信息都足。",
+  "payor_model": "B端机构采购+政府付费",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "name_cn": "Mend",
+  "events": [
+    "未搜到"
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "行为健康AI服务医疗机构，靠自动提醒降爽约，属银发场景下的B端效率工具，对机构运营有直接价值。",
+  "update_time": "2026-07-17"
+}

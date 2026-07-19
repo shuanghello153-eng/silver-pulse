@@ -1,0 +1,53 @@
+{
+  "serial": "#0827",
+  "name": "RapidClaims",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+    "AI医疗"
+  ],
+  "description": "RapidClaims 是一家医疗收入周期自动化公司，用自主 AI 完成医学编码、账单与理赔（产品含 RapidCode/RapidVBC/RapidRecovery），向医院与 RCM 机构按 SaaS/用量收费，总部在纽约。亮点是把人工编码环节做到近乎全自动，提升回款效率。",
+  "highlights": "AI帮助医疗服务提供商实现医疗编码自动化",
+  "funding_latest": {
+    "date": "2024年2月",
+    "amount": "310万美元",
+    "display": "310万美元 (2024年2月)"
+  },
+  "funding_total": "$11M",
+  "investors": "Accel (lead)",
+  "founded": "2022",
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=RapidClaims",
+  "website_url": "https://www.rapidclaims.ai",
+  "business_model": "B2B AI/数据驱动",
+  "desc_cn": "医疗收入周期自动化公司，用自主AI完成医学编码、账单与理赔，向医院与理赔管理机构按SaaS或用量收费，总部在纽约，亮点在把最重的编码环节做到近乎全自动，从而缩短回款周期、降低人工差错与运营成本。",
+  "business_model_cn": "B2C/B2B 老年文娱社交平台",
+  "tag_l1": [
+    "行业服务"
+  ],
+  "tag_l2": [
+    "AI医疗"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+  },
+  "stage": "未搜到",
+  "recommend": "做医疗收入周期自动化的公司，用AI做编码、出账与理赔，2024年融310万美元、累计1100万，投资方含Accel。差异在把最枯燥的编码环节近乎全自动、加速回款；本质是B端效率工具，与老人无直接关系，但其流程智能化信号值得跟踪。国内医院与险企的理赔自动化是真实需求，可对标其智能体化思路，信息中等。",
+  "payor_model": "B端机构采购+政府付费",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "name_cn": "RapidClaims",
+  "events": [
+    "未搜到"
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "医疗编码与理赔自动化，服务医院与支付方，属银发B端效率基建，与老人间接但相关。",
+  "update_time": "2026-07-17"
+}

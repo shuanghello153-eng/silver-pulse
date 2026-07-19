@@ -1,0 +1,72 @@
+{
+  "name": "AdaptHealth",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "家用医疗设备(HME)",
+  "tags": [
+    "助行器",
+    "医疗器械"
+  ],
+  "description": "美国领先家用医疗设备(HME)与服务商，纳斯达克代码 AHCO，提供呼吸机、氧气、营养与行动辅助等上门服务。",
+  "highlights": [
+    "家用医疗设备(HME)龙头(纳斯达克AHCO)，47州约640网点",
+    "四大板块：睡眠/呼吸/糖尿病/居家康复",
+    "服务Medicare/Medicaid/商保，年触达430万患者",
+    "与Humana签按人头价值医疗DME合约，覆盖百万MA会员"
+  ],
+  "funding_latest": {
+    "date": "2013",
+    "amount": "上市公司(纳斯达克:AHCO)",
+    "round": "上市",
+    "display": "上市公司 纳斯达克:AHCO (2013)"
+  },
+  "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+  },
+  "investors": "公共市场",
+  "founded": 2013,
+  "value_score": 63,
+  "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AdaptHealth",
+  "website_url": "https://www.adapthealth.com",
+  "business_model": "B2B2C 家用医疗设备销售+租赁+上门服务",
+  "name_cn": "AdaptHealth",
+  "desc_cn": "家用医疗设备(HME)连锁商，向慢病老人提供呼吸机、制氧机、睡眠与糖尿病器械及上门安装维护，47州约640网点。收入来自政府Medicare/Medicaid、商业保险报销与设备租赁。银发价值在“产品+上门服务”闭环，直接服务居家老人呼吸与慢病管理。",
+  "business_model_cn": "B2B2C 家用医疗设备销售、租赁与上门服务",
+  "serial": "#1165",
+  "tag_l1": [
+    "康复辅具"
+  ],
+  "tag_l2": [
+    "助行器",
+    "医疗器械"
+  ],
+  "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "产品商",
+    "channel": []
+  },
+  "stage": "已上市",
+  "recommend": "给慢病老人供家用医疗硬件的连锁商，呼吸机、制氧、睡眠监测到糖尿病器械一应俱全，还上门安装维护，铺在47个州约640处网点，一年服务约430万患者，信号与信息都足。打法是'产品加上门服务'闭环直接服务居家老人的呼吸与慢病，这是和纯电商卖器械最大的不同。可复制靠医保报销，国内家用医疗设备渗透低；适合小爽写'家用医疗设备上门服务'案例，也提示它和Humana签了按人头打包的DME合约、国内缺这类支付设计。",
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 5.0,
+  "copy_score": 7.0,
+  "research_value": 64.7,
+  "events": [
+    {
+      "date": "2026-01",
+      "text": "Moody's上调AdaptHealth评级至Ba2(原Ba3)"
+    },
+    {
+      "date": "2023",
+      "text": "与Humana签按人头价值医疗DME合约，覆盖33州百万MA会员"
+    }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "家用呼吸机、制氧与糖尿病器械主要服务慢病老人居家场景，属核心银发健康服务。",
+  "flag": []
+}

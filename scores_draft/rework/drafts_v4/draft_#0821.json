@@ -1,0 +1,63 @@
+{
+  "serial": "#0821",
+  "name": "PeopleOne Health",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+    "诊所"
+  ],
+  "description": "PeopleOne Health 是一家位于佛罗里达奥兰多的价值型基础医疗集团，以每月约 160 美元的会员费提供接近私人医生的便捷初级诊疗与慢病管理，并在社区设健康中心。亮点是用低价会员制+按价值付费模式提升就医可及性。",
+  "highlights": [
+    "雇主全额付费价值医疗初级保健，员工无自付/免赔",
+    "医生日均仅16人、NPS 90+(行业均35)",
+    "9家社区健康中心(宾州/佛州)，预防+慢病管理",
+    "B轮3230万美元，由GV(Google Ventures)领投，雇主省费达30%"
+  ],
+  "funding_latest": {
+    "date": "2024年10月",
+    "amount": "3230万美元",
+    "round": "B轮",
+    "display": "B轮 3230万美元 (2024年10月)"
+  },
+  "funding_total": "$32.3M",
+  "investors": "GV (lead)",
+  "founded": 2021,
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PeopleOne%20Health",
+  "website_url": "https://www.peopleonehealth.com",
+  "business_model": "B2C/B2B 养老护理服务",
+  "desc_cn": "面向雇主的价值医疗初级保健服务商，由企业全额付费为员工采购会员，员工享无自付、无免赔的线下+虚拟全科、慢病管理与预防服务。医生日均仅看约16人以保证时长，已在宾州与佛州运营9家社区健康中心。收入来自B端雇主会员费，核心价值在把预防与慢病管理前置以降低整体医疗支出。",
+  "business_model_cn": "B2C/B2B 专业护理服务",
+  "tag_l1": [
+    "养老服务"
+  ],
+  "tag_l2": [
+    "诊所"
+  ],
+  "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+  },
+  "stage": "B轮",
+  "recommend": "雇主全额买单的按效果付费基层保健，员工零自付，医生日均仅看16人、满意度超90分，已在两州开9家社区中心，2024年拿到3230万美元B轮、由GV领投。亮点在'低价会员+按效果付费'提升可及性；但主要服务在职员工而非老人，属擦边银发样本，其规模化扩张信号仍值得跟踪。国内基层医疗可参考其会员制设计，信息较足。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 49.6,
+  "events": [
+    {
+      "date": "2024-10",
+      "text": "完成3230万美元B轮融资，由GV(Google Ventures)领投"
+    }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "雇主全额付费的价值医疗初级保健，主要服务在职员工，非老年专属、不涉Medicare。",
+  "name_cn": "PeopleOne Health",
+  "数据来源": "联网精评"
+}

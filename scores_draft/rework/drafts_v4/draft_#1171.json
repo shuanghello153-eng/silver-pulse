@@ -1,0 +1,76 @@
+{
+  "name": "BioAge Labs",
+  "region": "海外",
+  "category_l1": "长寿科技/生物医药",
+  "category_l2": "抗衰老药物",
+  "tags": [
+    "长寿抗衰"
+  ],
+  "description": "长寿与代谢衰老疗法公司，纳斯达克代码 BIOA，2024-09 IPO 募资 1.98 亿美元；核心管线 azelaprag 与 GLP-1 联用减重。",
+  "highlights": [
+    "长寿科技生物公司(纳斯达克BIOA)，2024-09 IPO募1.98亿",
+    "核心azelaprag(GLP-1联用减重)2025底因肝安全暂停",
+    "转向NLRP3抑制剂BGE-102，2026年1月再融1.15亿",
+    "用衰老队列数据反推代谢靶点的discovery平台"
+  ],
+  "funding_latest": {
+    "round": "IPO",
+    "amount": "1.98亿美元",
+    "currency": "USD",
+    "date": "2024-09",
+    "display": "纳斯达克IPO募资1.98亿美元 (2024-09)",
+    "investors": [
+      "NASDAQ公开发行"
+    ]
+  },
+  "funding_total": {
+    "amount": "约2.5亿美元",
+    "display": "累计约2.5亿美元(含IPO)"
+  },
+  "investors": [
+    "NASDAQ公开发行"
+  ],
+  "founded": 2017,
+  "value_score": 66,
+  "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BioAge%20Labs",
+  "website_url": "https://www.bioagelabs.com",
+  "business_model": "B2B 抗衰药物研发，授权/合作+资本市场退出",
+  "name_cn": "BioAge Labs｜长寿科技",
+  "desc_cn": "长寿科技生物公司，用衰老队列数据反推代谢衰老靶点，研发GLP-1联用减重药与NLRP3抑制剂等抗衰疗法。尚未商业化，收入来自研发合作与资本市场融资。银发价值在面向年龄相关慢病，但其“概念叙事—临床兑现”落差揭示抗衰创业的支付与单点依赖风险。",
+  "business_model_cn": "B2B 抗衰药物研发，授权合作与资本市场退出",
+  "serial": "#1171",
+  "tag_l1": [
+    "消费品"
+  ],
+  "tag_l2": [
+    "长寿抗衰"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "产品商",
+    "channel": []
+  },
+  "stage": "已上市",
+  "recommend": "做长寿科学的生物公司，借一大群老年人的随访数据去找代谢类靶点，主力是与GLP-1搭档的减重药、外加NLRP3方向的抑制剂等抗衰路线，2024年9月登陆美股募得1.98亿美元、2026年1月又融1.15亿，信号与信息都足。打法是用队列数据跑靶点发现、讲抗衰叙事，这是和常规药企最大的不同。可复制难，国内抗衰热但临床松动；适合小爽写'抗衰概念兑现风险'案例，也提示其主力管线因肝安全暂停、叙事和临床兑现落差大、支付端未成型。",
+  "payor_model": "未搜到",
+  "signal_strength": 6.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 4.0,
+  "research_value": 65.7,
+  "update_time": "2026-07-18",
+  "events": [
+    {
+      "date": "2025-12",
+      "text": "azelaprag(STRIDES II期)因肝转氨酶升高暂停，股价再挫"
+    },
+    {
+      "date": "2026-01",
+      "text": "定价1.15亿美元公开增发，推进NLRP3抑制剂BGE-102"
+    }
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "抗衰老与代谢衰老疗法面向年龄相关慢病，属银发科技前沿，但临床兑现风险高。",
+  "flag": []
+}
