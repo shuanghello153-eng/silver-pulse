@@ -1,33 +1,77 @@
 {
-  "serial": "#1259",
-  "recommend": "英国AI非穿戴养老监测厂商，获NHS Care Tech Fund百万英镑资助，并落地Whzan Guardian 4D试点（信号）。公开试点数据称跌倒事件降66%、呼叫救护车降97.5%，效果量化清晰（信息量）。和国内清澜技术、清雷等非穿戴监测相比，其绑定NHS政府付费的养老采购渠道是壁垒（差异化）。国内已有类似（清澜技术、清雷），其非穿戴加政府买单路径可借鉴（可复制）。",
-  "desc_cn": "这家英国公司用毫米波与环境传感做非穿戴养老监测，识别跌倒、离床等异常并告警，方案关联Whzan团队的Guardian技术，曾获英国NHS照护科技基金约100万英镑资助，试点显示跌倒事件下降66%、呼叫急救车比例降97.5%。",
-  "silver_reason": "以非穿戴方式对独居与机构老人做无感跌倒与异常监测，降低照护人力负担，契合银发养老监测的隐私友好与低侵入趋势。",
-  "payor_model": "B端机构采购+政府付费",
+  "name": "Lifted",
+  "name_cn": "Lifted",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "远程监测",
+  "tags": [
+    "跌倒监测"
+  ],
+  "description": "英国AI养老监测公司，用非穿戴传感器识别跌倒、离床等异常并告警家属/护理方。",
+  "desc_cn": "英国非穿戴养老监测企业，采用毫米波与环境传感识别跌倒、离床等异常并告警，方案关联Whzan团队的Guardian 4D技术，曾获英国NHS照护科技基金约100万英镑资助，试点显示跌倒事件下降66%、呼叫急救车比例降97.5%。",
+  "highlights": "英国非穿戴跌倒监测（NHS政府渠道）",
   "funding_latest": {
-    "display": "NHS Care Tech Fund 约100万英镑资助"
+    "amount": "100万英镑",
+    "round": "政府资助",
+    "date": "2023",
+    "display": "获英国政府照护科技基金约100万英镑资助"
   },
   "funding_total": {
-    "display": "未搜到"
+    "amount": "累计未披露",
+    "display": "获英国政府照护科技基金约100万英镑资助"
+  },
+  "investors": [
+    "NHS Care Tech Fund（英国政府成人社会照护科技基金）"
+  ],
+  "founded": "2019",
+  "value_score": 0,
+  "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lifted",
+  "website_url": "https://www.lifted.ai",
+  "business_model": "B2B 养老AI监测",
+  "business_model_cn": "B2B 养老AI监测",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "英国AI养老监测公司，用非穿戴传感器识别跌倒、离床等异常并告警家属/护理方。"
+    ]
+  },
+  "serial": "#1259",
+  "tag_l1": [
+    "康复辅具"
+  ],
+  "tag_l2": [
+    "跌倒监测"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
   },
   "stage": "成长期",
-  "founded_year": null,
-  "highlights": [
-    "NHS照护科技基金资助",
-    "Whzan Guardian技术",
-    "跌倒降66%",
-    "呼救降97.5%"
-  ],
+  "recommend": "英国AI非穿戴养老监测厂商，获NHS Care Tech Fund百万英镑资助，并落地Whzan Guardian技术试点（信号）。公开试点数据称跌倒事件降66%、呼叫救护车降97.5%，效果量化清晰（信息量）。和国内清澜技术、清雷等非穿戴监测相比，其绑定NHS政府付费的养老采购渠道是壁垒（差异化）。国内已有类似（清澜技术、清雷），其非穿戴加政府买单路径可借鉴（可复制）。",
+  "payor_model": "B端机构采购+政府付费",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 5.5,
+  "research_value": 45.6,
   "events": [
-    "获英国NHS照护科技基金约100万英镑资助"
+    "关联Whzan团队Guardian 4D传感监测技术，面向养老机构与居家做非穿戴跌倒、离床监测",
+    "获英国成人社会照护科技基金（Care Tech Fund）约100万英镑资助，用于Redbridge等地试点推广",
+    "试点数据显示跌倒事件下降66%、跌倒后呼叫救护车比例降约97.5%"
   ],
-  "business_model": "监测平台向养老机构与NHS收费（B端+政府付费）",
-  "coverage_regions": [
-    "英国"
-  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "以非穿戴方式对独居与机构老人做无感跌倒与异常监测，降低照护人力负担，契合银发养老监测的隐私友好与低侵入趋势。",
+  "update_time": "2026-07-19",
   "domestic_competitors": [
     "清澜技术",
-    "清雷",
-    "百芝龙"
+    "清雷"
+  ],
+  "coverage_regions": [
+    "英国",
+    "海外"
   ]
 }

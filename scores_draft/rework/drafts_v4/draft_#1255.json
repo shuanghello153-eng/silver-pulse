@@ -1,34 +1,87 @@
 {
-  "serial": "#1255",
-  "recommend": "自主配送机器人厂商，2024年累计融资达2250万美元，最新一轮由468 Capital领投（信号）。公开披露月均完成约3.6万次配送，运营数据扎实（信息量）。和国内南京新百、九如城等养老配送玩家相比，其跨国商超与工业客户基底是机器人落地的差异化壁垒（差异化）。国内已有类似（南京新百、九如城），其机器人加场景运营轻资产打法可借鉴（可复制）。",
-  "desc_cn": "该公司研发自主配送机器人，为园区、社区与养老机构送去餐食和药品，当年累计融资约2250万美元，当轮由468资本领投、Magna与Shell参投，对外披露月均执行约3.6万单配送任务。",
-  "silver_reason": "用自主配送机器人缓解养老机构与社区老人的餐药末端配送人力短缺，属养老服务自动化方向，可降低照护人力成本并提升配送时效。",
-  "payor_model": "B端机构采购",
+  "name": "Cartken",
+  "name_cn": "Cartken",
+  "region": "海外",
+  "category_l1": "养老机器人",
+  "category_l2": "配送机器人",
+  "tags": [
+    "养老机构"
+  ],
+  "description": "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。",
+  "desc_cn": "德美自主配送机器人企业，2019年创立，以AI与计算机视觉驱动室内外通用的自主导航，用低成本传感器替代激光雷达，为养老机构、园区及工业客户送餐送药，2024年完成A轮后累计融资2250万美元，月均配送约3.6万单，已在美、德、日落地并与Uber Eats合作。",
+  "highlights": "室内外通用配送机器人，月均3.6万单",
   "funding_latest": {
-    "display": "2024-07 最新轮1000万美元（468 Capital领投）"
+    "amount": "1000万美元",
+    "round": "A轮",
+    "date": "2024-07",
+    "display": "2024年A轮1000万美元"
   },
   "funding_total": {
-    "display": "累计约2250万美元"
+    "amount": "累计2250万美元",
+    "display": "累计2250万美元（2024）"
+  },
+  "investors": [
+    "468 Capital",
+    "Magna International",
+    "Shell Ventures",
+    "Mitsubishi Electric",
+    "Incubate Fund",
+    "LDV Partners",
+    "Vela Partners",
+    "Volex"
+  ],
+  "founded": "2019",
+  "value_score": 0,
+  "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cartken",
+  "website_url": "https://www.cartken.com",
+  "business_model": "B2B 自主配送机器人",
+  "business_model_cn": "B2B 自主配送机器人",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。"
+    ]
+  },
+  "serial": "#1255",
+  "tag_l1": [
+    "养老服务"
+  ],
+  "tag_l2": [
+    "养老机构"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
   },
   "stage": "成长期",
-  "founded_year": null,
-  "highlights": [
-    "累计融资2250万美元",
-    "468 Capital领投",
-    "月均3.6万次配送",
-    "自主配送机器人"
-  ],
+  "recommend": "自主配送机器人厂商，2024年累计融资达2250万美元、最新一轮由468 Capital领投（信号）。公开披露月均完成约3.6万次配送，运营数据扎实（信息量）。和国内南京新百、九如城等养老配送玩家相比，其跨国工业与商超客户基底、室内外通用的低成本导航是机器人落地的差异化壁垒（差异化）。国内已有类似（南京新百、九如城），其机器人加场景运营轻资产打法可借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 5.5,
+  "research_value": 45.6,
   "events": [
-    "2024-07 完成累计2250万美元融资"
+    "2019年创立（总部慕尼黑/旧金山，前Google工程师团队）",
+    "2024年7月完成1000万美元A轮、累计融资达2250万美元，468 Capital领投，Magna、Shell、三菱电机等参投",
+    "公开披露月均完成约3.6万次配送，2023年节省员工通勤时间超1万小时",
+    "在日本东京与Uber Eats、三菱电机合作落地配送机器人"
   ],
-  "business_model": "配送机器人销售与运营服务，向机构与企业收费（B端）",
-  "coverage_regions": [
-    "美国",
-    "全球"
-  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "用自主配送机器人缓解养老机构与社区老人的餐药末端配送人力短缺，属养老服务自动化方向，可降低照护人力成本并提升配送时效。",
+  "update_time": "2026-07-19",
   "domestic_competitors": [
     "南京新百",
-    "九如城",
-    "天壹智慧"
+    "九如城"
+  ],
+  "coverage_regions": [
+    "美国",
+    "德国",
+    "日本",
+    "海外"
   ]
 }

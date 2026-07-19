@@ -1,33 +1,82 @@
 {
-  "serial": "#1277",
-  "recommend": "英国护理电子健康档案SaaS，2000年成立、2023年获G Square投资，资本与口碑长期沉淀（信号）。公开称承载800万患者记录、4万用户、服务200余家机构，规模数据透明（信息量）。和国内乐湾、优享陪诊等护理信息化相比，其二十余年专科EHR积累是壁垒（差异化）。国内已有类似（乐湾、优享陪诊），其垂直护理SaaS打法可借鉴（可复制）。",
-  "desc_cn": "这家英国企业2000年创立，主营护理与心理健康的电子健康档案系统，代表产品iaptus服务于护理机构与心理照护，2023年引入G Square作为投资方，公开称管理800万份患者档案、4万名用户，覆盖200多家机构。",
-  "silver_reason": "为老年护理与心理照护机构提供信息化电子档案，提升跨机构照护连续性与数据可追溯性，是银发养老服务数字化的海外成熟样本。",
-  "payor_model": "B端机构采购",
+  "name": "Mayden",
+  "name_cn": "Mayden",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "健康记录",
+  "tags": [
+    "心理健康"
+  ],
+  "description": "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。",
+  "desc_cn": "英国Bath的医疗软件企业，2000年创立，核心产品iaptus是面向心理诊疗与社区护理的电子健康档案（EHR）SaaS，已承载约800万患者记录、服务200多家机构（含100家NHS机构），2023年获欧洲医疗投资机构G Square战略投资，并入选NHS采购框架。",
+  "highlights": "英国EHR护理信息化SaaS（iaptus）",
   "funding_latest": {
-    "display": "2023 G Square投资（金额未披露）"
+    "amount": "未披露",
+    "round": "战略投资",
+    "date": "2023-11",
+    "display": "2023年获欧洲医疗投资机构战略投资（金额未披露）"
   },
   "funding_total": {
-    "display": "未搜到"
+    "amount": "累计未披露",
+    "display": "累计未披露（2023年战略投资）"
+  },
+  "investors": [
+    "G Square Capital"
+  ],
+  "founded": "2000",
+  "value_score": 0,
+  "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mayden",
+  "website_url": "https://www.mayden.co.uk",
+  "business_model": "B2B 护理EHR SaaS",
+  "business_model_cn": "B2B 护理EHR SaaS",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。"
+    ]
+  },
+  "serial": "#1277",
+  "tag_l1": [
+    "养老服务"
+  ],
+  "tag_l2": [
+    "心理健康"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
   },
   "stage": "成长期",
-  "founded_year": 2000,
-  "highlights": [
-    "2000年成立",
-    "2023 G Square投资",
-    "800万患者记录",
-    "4万用户"
-  ],
+  "recommend": "英国护理电子健康档案SaaS，2000年成立、2023年获G Square投资，资本与口碑长期沉淀（信号）。公开称承载800万患者记录、4万用户、服务200余家机构，规模数据透明（信息量）。和国内乐湾、优享陪诊等护理信息化相比，其二十余年专科EHR积累是壁垒（差异化）。国内已有类似（乐湾、优享陪诊），其垂直护理SaaS打法可借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 7.5,
+  "research_value": 45.6,
   "events": [
-    "2023 获G Square投资"
+    "2000年于英国Bath创立（创始人Chris May，最初为医疗分析咨询）",
+    "2008年推出核心产品iaptus电子健康档案（EHR）",
+    "2023年11月获欧洲医疗投资机构G Square战略投资",
+    "2024年入选NHS英格兰临床数字健康解决方案（CDHS）采购框架",
+    "iaptus已承载约800万患者记录、4万用户，服务200余家机构（含100家NHS机构）"
   ],
-  "business_model": "护理EHR SaaS订阅，向机构收费（B端）",
-  "coverage_regions": [
-    "英国"
-  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "为老年护理与心理照护机构提供信息化电子档案，提升跨机构照护连续性与数据可追溯性，是银发养老服务数字化的海外成熟样本。",
+  "update_time": "2026-07-19",
   "domestic_competitors": [
     "乐湾",
-    "优享陪诊",
-    "南京新百"
+    "优享陪诊"
+  ],
+  "coverage_regions": [
+    "英国",
+    "澳大利亚",
+    "加拿大",
+    "爱尔兰",
+    "海外"
   ]
 }

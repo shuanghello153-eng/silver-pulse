@@ -1,34 +1,80 @@
 {
   "serial": "#1221",
-  "recommend": "低视力AR眼镜属消费级康复辅具，2016年成立、与HTC VIVE合作推出e3+，并进入美国商业保险报销目录（信号）。其轻量AR加图像增强方案持有多项低视力辅助专利，技术壁垒清晰（信息量）。和国内集思鸣智、响午的辅具路线形成对照，定位更偏消费级AR（差异化）。国内已有类似（集思鸣智、响午），其硬件加保险报销双轮模式值得借鉴（可复制）。",
-  "desc_cn": "这家美国企业自2016年起深耕低视力增强现实眼镜，Pro系列轻量产品面向阅读与出行困难的老年群体，提供放大、对比增强与文字识别，后续携手HTC VIVE推出e3+型号，并可纳入美国商保报销。",
-  "silver_reason": "以AR眼镜帮助低视力老人恢复阅读、出行等基础能力，属康复辅具与视觉辅助范畴，直接改善老年群体生活质量，是银发消费级辅具的典型海外样本。",
-  "payor_model": "个人自费",
+  "name": "NuEyes",
+  "name_cn": "NuEyes",
+  "region": "海外",
+  "category_l1": "智能硬件",
+  "category_l2": "视觉障碍",
+  "tags": [
+    "视觉辅助",
+    "眼镜"
+  ],
+  "description": "智能视觉辅具企业，推出轻量AI智能眼镜，为低视力与阅读困难的老年人群提供图像放大、对比增强与文字识别功能，属于医疗器械类消费级产品",
+  "desc_cn": "美国低视力增强现实眼镜企业，2016年成立，主推Pro系列轻量智能眼镜，为黄斑变性、青光眼、视网膜色素变性等低视力老人提供图像放大、对比增强与文字识别，已获美国联邦及商业保险报销，并先后与ODG、三星、HTC等合作。",
+  "highlights": "轻量低视力辅具，已打通美国保险报销",
   "funding_latest": {
-    "display": "未搜到（曾进入孵化器/加速器）"
+    "amount": "超100万美元",
+    "round": "种子轮",
+    "date": "2017-06",
+    "display": "2017年种子轮超百万美元（Arab Angel 等）"
   },
   "funding_total": {
-    "display": "未搜到"
+    "amount": "累计未披露",
+    "display": "种子轮超百万美元（2017）"
   },
-  "stage": "成长期",
-  "founded_year": 2016,
-  "highlights": [
-    "2016年成立",
-    "与HTC VIVE合作e3+",
-    "进入美国保险报销目录",
-    "低视力AR眼镜"
+  "investors": [
+    "Arab Angel",
+    "战略合作伙伴"
   ],
+  "founded": "2016",
+  "stage": "种子期",
+  "value_score": 0,
+  "source": "WebSearch(NuEyes官网/PRNewswire/GlobeNewswire/OCBJ/Tracxn)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NuEyes",
+  "website_url": "https://www.nueyes.com",
+  "business_model": "B2C 低视力智能眼镜硬件",
+  "business_model_cn": "B2C 视觉辅具硬件",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "推出轻量AI智能眼镜，为低视力与阅读困难的老人提供放大、对比增强与文字识别。"
+    ]
+  },
+  "tag_l1": [
+    "康复辅具",
+    "消费品"
+  ],
+  "tag_l2": [
+    "视觉辅助",
+    "眼镜"
+  ],
+  "business_tags": {
+    "customer": "B2C",
+    "role": "技术服务商",
+    "channel": []
+  },
+  "recommend": "2016年成立、已获美国联邦与商保报销的低视力智能眼镜（信号）。其轻量方案以实时放大、对比增强和文字识别见长并获CES奖项，技术壁垒清晰（信息量）。相比eSight、IrisVision等美国同类更轻量且打通报销，定位消费级辅具（差异化）。国内竞品较少，其硬件加保险报销双轮模式值得借鉴（可复制）。",
+  "payor_model": "个人自费",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 5.5,
+  "research_value": 45.6,
   "events": [
-    "与HTC VIVE达成合作推出e3+"
+    "2016年1月于美国加州Newport Beach成立，创始人为美国海军退伍军人Mark Greget",
+    "2017年6月完成种子轮融资，投资方含早期风投Arab Angel及战略伙伴",
+    "2020年12月发布Pro 3 AR智能眼镜",
+    "2022年8月与三星达成医疗合作",
+    "产品已获美国联邦、州及商业保险报销"
   ],
-  "business_model": "AR硬件销售（个人自费），部分市场由商业保险报销",
+  "silver_verdict": "核心银发",
+  "silver_reason": "以AR眼镜帮助低视力老人恢复阅读、出行等基础能力，属康复辅具与视觉辅助范畴，直接改善老年群体生活质量，是银发消费级辅具的典型海外样本。",
+  "domestic_competitors": null,
   "coverage_regions": [
     "美国",
-    "全球"
+    "海外"
   ],
-  "domestic_competitors": [
-    "集思鸣智",
-    "响午",
-    "安泰康成"
-  ]
+  "update_time": "2026-07-19"
 }

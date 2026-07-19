@@ -1,34 +1,78 @@
 {
-  "serial": "#1254",
-  "recommend": "面向养老场景的无标记动作捕捉跌倒风险SaaS，已销往25国并与Microsoft、Intel、NBA合作（信号）。其步态算法持有专利、公开客户覆盖多国机构，数据透明度高（信息量）。和国内乐湾、医家通等养老软件相比，其无摄像头纯视觉方案与跨国客户群是壁垒（差异化）。国内已有类似（乐湾、医家通），其无穿戴监测打法可平移借鉴（可复制）。",
-  "desc_cn": "这家加拿大公司提供无需标记的动作捕捉步态与跌倒风险分析，凭借普通摄像头与人工智能视频识别步态异常、预测跌倒，业务已拓展至25个国家，与微软、英特尔及NBA达成合作并持有专利，主要服务养老机构与医院。",
-  "silver_reason": "以无穿戴、无摄像头依赖的视觉分析预测老人跌倒风险，对接养老机构与医院的防跌倒需求，是银发康复护理领域低侵入监测的海外代表。",
-  "payor_model": "B端机构采购",
+  "name": "Kinesense",
+  "name_cn": "Kinesense",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "步态分析",
+  "tags": [
+    "养老软件"
+  ],
+  "description": "通过AI视频分析步态与活动模式，早期预测跌倒风险，用于养老机构与医院。",
+  "desc_cn": "加拿大Alberta的动作捕捉企业，2014年创立，核心产品Kinetisense以无标记、单普通摄像头的3D视觉分析人体动作，面向养老机构与医院提供跌倒风险与步态评估，业务已拓展至25国以上，客户含NBA、Mayo Clinic等，并持有相关专利。",
+  "highlights": "AI步态分析预测跌倒风险",
   "funding_latest": {
-    "display": "未搜到（天使/种子阶段）"
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
   },
   "funding_total": {
-    "display": "未搜到"
+    "amount": "累计未披露",
+    "display": "累计未披露"
   },
-  "stage": "初创期",
-  "founded_year": null,
-  "highlights": [
-    "销往25国",
-    "微软/英特尔/NBA合作",
-    "无标记动作捕捉专利",
-    "跌倒风险SaaS"
+  "investors": [
+    "未搜到"
   ],
+  "founded": "2014",
+  "value_score": 0,
+  "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kinesense",
+  "website_url": "https://www.kinesense.com",
+  "business_model": "B2B 步态跌倒风险SaaS",
+  "business_model_cn": "B2B 步态跌倒风险SaaS",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "通过AI视频分析步态与活动模式，早期预测跌倒风险，用于养老机构与医院。"
+    ]
+  },
+  "serial": "#1254",
+  "tag_l1": [
+    "行业服务"
+  ],
+  "tag_l2": [
+    "养老软件"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+  },
+  "stage": "成长期",
+  "recommend": "面向养老的无标记动作捕捉跌倒风险SaaS，已落地25国、客户含NBA等机构（信号）。其步态算法持有专利，跨国客户群提供真实世界数据，透明度高（信息量）。和国内乐湾、医家通等养老软件相比，其无穿戴、仅凭普通摄像头的视觉方案与运动科学基底是壁垒（差异化）。国内已有类似（乐湾、医家通），其无穿戴监测打法可平移借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 7.5,
+  "research_value": 45.6,
   "events": [
-    "与微软、英特尔及NBA达成合作"
+    "2014年于加拿大阿尔伯塔省Medicine Hat创立（创始人Dr. Ryan Comeau、David Schnare）",
+    "推出无标记3D动作捕捉系统，用于跌倒风险与步态评估",
+    "业务拓展至25个以上国家，客户含NBA、Mayo Clinic等机构",
+    "与Buurtzorg（荷兰最大老年评估机构）合作开发跌倒风险评估产品"
   ],
-  "business_model": "步态/跌倒风险分析SaaS，向机构收费（B端）",
-  "coverage_regions": [
-    "加拿大",
-    "全球25国"
-  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "以无穿戴、无摄像头依赖的视觉分析预测老人跌倒风险，对接养老机构与医院的防跌倒需求，是银发康复护理领域低侵入监测的海外代表。",
+  "update_time": "2026-07-19",
   "domestic_competitors": [
     "乐湾",
-    "医家通",
-    "麦麦养老"
+    "医家通"
+  ],
+  "coverage_regions": [
+    "加拿大",
+    "海外"
   ]
 }

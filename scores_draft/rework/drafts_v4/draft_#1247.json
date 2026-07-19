@@ -1,35 +1,88 @@
 {
-  "serial": "#1247",
-  "recommend": "西班牙AI医疗心电平台，2024年获CE Mark IIa认证、可判读22种心律，技术里程碑密集（信号）。2025年公布房颤识别准确率96.4%，临床验证数据扎实（信息量）。和国内心永科技、瑞光康泰等可穿戴心电厂商相比，其云端判读加IIa认证壁垒突出（差异化）。国内已有类似（心永科技、瑞光康泰），其软件即医疗器械申报路径可借鉴（可复制）。",
-  "desc_cn": "这家西班牙公司2018年创立，用人工智能解读心电图，核心平台Willem面向养老机构与基层医疗提供远程心电筛查，2024年取得欧盟CE IIa类医疗器械认证，可识别22种心律，2025年房颤识别准确率公布为96.4%。",
-  "silver_reason": "用AI心电筛查提前发现房颤等老年高发心血管风险，属可穿戴监测与体检筛查方向，可降低老年心脑血管意外发生率，契合银发健康管理需求。",
-  "payor_model": "B端机构采购",
+  "name": "Idoven",
+  "name_cn": "Idoven",
+  "region": "海外",
+  "category_l1": "长寿科技/生物医药",
+  "category_l2": "AI心电",
+  "tags": [
+    "心血管",
+    "可穿戴监测",
+    "体检筛查"
+  ],
+  "description": "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。",
+  "desc_cn": "西班牙AI心电平台企业，2018年于马德里创立，核心产品Willem以云端AI解读心电图，面向养老机构与基层医疗提供远程心电筛查，2024年取得欧盟CE IIa类医疗器械认证、可识别22种心律，2025年房颤识别准确率公布为96.4%。",
+  "highlights": "AI心电监测，老年心血管风险早筛",
   "funding_latest": {
-    "display": "2022 A轮1850万欧元"
+    "amount": "1290万美元",
+    "round": "A轮",
+    "date": "2022",
+    "display": "2022年A轮1290万美元（Insight Partners、Northzone领投）"
   },
   "funding_total": {
-    "display": "累计约1850万欧元"
+    "amount": "累计约1980万美元（含EIC资助）",
+    "display": "累计约1980万美元（含EIC资助）"
+  },
+  "investors": [
+    "Insight Partners",
+    "Northzone",
+    "Wayra",
+    "Accel",
+    "EIC Accelerator"
+  ],
+  "founded": "2018",
+  "value_score": 0,
+  "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Idoven",
+  "website_url": "https://www.idoven.ai",
+  "business_model": "B2B2C AI心电监测",
+  "business_model_cn": "B2B2C AI心电监测",
+  "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+      "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。"
+    ]
+  },
+  "serial": "#1247",
+  "tag_l1": [
+    "消费品",
+    "康复辅具"
+  ],
+  "tag_l2": [
+    "心血管",
+    "可穿戴监测",
+    "体检筛查"
+  ],
+  "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "技术服务商",
+    "channel": []
   },
   "stage": "成长期",
-  "founded_year": 2018,
-  "highlights": [
-    "2024 CE IIa认证",
-    "可判读22种心律",
-    "2025 房颤准确率96.4%",
-    "Willem平台"
-  ],
+  "recommend": "西班牙AI医疗心电平台，2024年获CE Mark IIa认证、可判读22种心律，技术里程碑密集（信号）。2025年公布房颤识别准确率96.4%，临床验证数据扎实（信息量）。和国内心永科技、瑞光康泰等可穿戴心电厂商相比，其云端判读加IIa认证壁垒突出（差异化）。国内已有类似（心永科技、瑞光康泰），其软件即医疗器械申报路径可借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 5.5,
+  "research_value": 45.6,
   "events": [
-    "2024 获CE IIa类认证",
-    "2025 公布房颤识别准确率96.4%"
+    "2018年于马德里创立（源自西班牙国家心血管研究中心CNIC）",
+    "2021年完成200万欧元种子轮（Wayra、Accel等）",
+    "2022年获1290万美元A轮（Insight Partners、Northzone领投，另含EIC资助约690万美元）",
+    "2024年Willem获欧盟CE IIa认证，覆盖22种心律",
+    "2025年公布房颤AI识别准确率96.4%（同行评审研究）"
   ],
-  "business_model": "AI心电SaaS，向医疗机构与养老机构收费（B端）",
+  "silver_verdict": "核心银发",
+  "silver_reason": "用AI心电筛查提前发现房颤等老年高发心血管风险，属可穿戴监测与体检筛查方向，可降低老年心脑血管意外发生率，契合银发健康管理需求。",
+  "update_time": "2026-07-19",
+  "domestic_competitors": [
+    "心永科技",
+    "瑞光康泰"
+  ],
   "coverage_regions": [
     "西班牙",
     "欧洲"
-  ],
-  "domestic_competitors": [
-    "心永科技",
-    "瑞光康泰",
-    "善诊"
   ]
 }
