@@ -1,0 +1,598 @@
+{
+  "batch": 12,
+  "enterprises": [
+    {
+      "serial": "#0744",
+      "signal_strength": 3.55,
+      "info_score": 7.0,
+      "diff_score": 6.0,
+      "copy_score": 5.0,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "年信号稳、信息披露足，AI代拨核保在海外已成规模，但根植美国预授权体系难直接平移；对国内做医疗外呼SaaS、用AI替人工跑流程的团队，是最该拆解的样板。",
+        "rec_v2": "它不蹭养老热点却踩中医疗降本刚需，顶级机构押注、模式清晰，信号与信息都扎实；国内做医疗外呼SaaS的团队最该拆解其产品化路径。",
+        "rec_v3": "信息量够、差异化在'电话即服务'的冷门切口，信号平稳。可复制性低因绑定美国医保，但其在B端把合规外呼产品化的路径值得借鉴。",
+        "info_score": 7.0,
+        "diff_score": 6.0,
+        "copy_score": 5.0,
+        "signal_strength": 3.55,
+        "research_value": 53.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "AI自动外呼处理医疗核保与预授权",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {"date": "2024-10", "text": "完成5150万美元C轮，a16z、Kleiner Perkins等领投"}
+      ],
+      "highlights": [
+        "获a16z、Kleiner Perkins、Coatue、GV等顶级机构投资",
+        "AI自动外呼替代人工核保与保险核实，降本显著",
+        "累计融资约1.03亿美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "AI医疗行政自动化，服务通用医疗场景，未针对老年人群，银发关联弱"
+    },
+    {
+      "serial": "#0768",
+      "signal_strength": 3.55,
+      "info_score": 7.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 57.7,
+      "recommend": {
+        "rec_v1": "信号平稳但信息扎实，英国养老选择平台的透明化打法罕见；国内养老机构信息分散、比价难，这套'实时空床+专家把关'模式极值得本地化抄。",
+        "rec_v2": "信号中等、信息扎实，它把找养老院做成'携程式'比对，差异点在实时床位与免费顾问。国内创业者可复制其信息聚合逻辑，切入养老决策焦虑场景。",
+        "rec_v3": "信号稳健、信息披露充分、顶级VC背书，模式清晰可学。难在海外供给端已规范，国内要先建审核信任，但其'帮家庭做养老决策'的定位可直接借。",
+        "info_score": 7.0,
+        "diff_score": 6.0,
+        "copy_score": 7.0,
+        "signal_strength": 3.55,
+        "research_value": 57.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "英国养老照护比对平台，实时查空床与价格并配免费顾问",
+      "founded": 2021,
+      "stage": "融资中",
+      "events": [
+        {"date": "2023-10", "text": "完成1635万欧元A轮，Accel与General Catalyst领投"}
+      ],
+      "highlights": [
+        "实时显示养老院空床与价格，解决信息不透明",
+        "获Accel、General Catalyst投资",
+        "免费专家顾问+审核供应商名录，C端零门槛"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "英国养老照护比对平台，直接服务家庭为老人选养老院，核心银发"
+    },
+    {
+      "serial": "#0783",
+      "signal_strength": 3.55,
+      "info_score": 9.0,
+      "diff_score": 8.0,
+      "copy_score": 7.0,
+      "research_value": 67.7,
+      "recommend": {
+        "rec_v1": "信号价值高、信息披露极全，更年期虚拟诊所已跑成保险覆盖的独角兽；国内中年女性健康长期被忽视，这套'专科平台+保险支付'路径最该被抄。",
+        "rec_v2": "信号稳、信息披露充分，差异化在把更年期从边缘做成全国医疗系统：AI提效、保险买单。可复制性中等——国内缺商保但需求刚性，可学其聚焦被低估人群。",
+        "rec_v3": "信号强、它用5年做到估值10亿，靠的是切入被忽略的银发前段人群。信息量足、模式清晰，国内女性长寿管理团队应重点拆解其获客与支付结构。",
+        "info_score": 9.0,
+        "diff_score": 8.0,
+        "copy_score": 7.0,
+        "signal_strength": 3.55,
+        "research_value": 67.7
+      },
+      "payor_model": "商业保险支付+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "聚焦更年期与中年女性的虚拟护理诊所，保险覆盖全美50州",
+      "founded": 2021,
+      "stage": "融资中",
+      "events": [
+        {"date": "2025-10", "text": "完成5000万美元C轮"},
+        {"date": "2026-02", "text": "完成1亿美元D轮，估值超10亿美元成独角兽"}
+      ],
+      "highlights": [
+        "2026年2月D轮1亿美元，估值破10亿成独角兽",
+        "保险覆盖全美50州、触达4500万女性",
+        "自研AI引擎做病历分析与排程自动化",
+        "周活患者超2.5万、累计服务23万+"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "聚焦更年期/中年女性虚拟护理，属 aging 健康与长寿经济，核心银发"
+    },
+    {
+      "serial": "#0817",
+      "signal_strength": 3.55,
+      "info_score": 5.0,
+      "diff_score": 4.0,
+      "copy_score": 5.0,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号与信息一般，牛初乳营养品定位偏通用保健；银发关联弱，但'以生物分子做功能食品'的思路，对想做老年营养品的团队有原料端参考。",
+        "rec_v2": "信号偏弱、信息有限、差异化低、属同质化保健品赛道，可复制性中等。国内创业者若做老年膳食补充，可借鉴其'临床级成分'叙事。",
+        "rec_v3": "信号低、信息量有限、模式常规，靠私募输血。对银发库价值仅'功能营养原料'一点，可复制性低但做老年免疫/肠道健康产品的可顺带参考其成分路线。",
+        "info_score": 5.0,
+        "diff_score": 4.0,
+        "copy_score": 5.0,
+        "signal_strength": 3.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "以牛初乳细胞与生物分子为核心的营养保健品企业",
+      "founded": 2007,
+      "stage": "融资中",
+      "events": [
+        {"date": "2023-10", "text": "完成5229万美元私募股权融资"}
+      ],
+      "highlights": [
+        "聚焦牛初乳生物活性成分的营养保健品",
+        "2007年成立，深耕功能营养赛道",
+        "获私募股权5229万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "牛初乳营养保健品，面向通用健康消费，非老年专属"
+    },
+    {
+      "serial": "#0885",
+      "signal_strength": 3.55,
+      "info_score": 7.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 55.7,
+      "recommend": {
+        "rec_v1": "信号稳、信息足，家庭护理协调平台已获顶级机构下注；国内居家养老照护供需错配严重，其'匹配+支付导航'一体模式最值得本地化。",
+        "rec_v2": "信号与信息都足，差异化在把零散的家护供给做成可调度网络并嵌入保险。可复制性中——国内缺商保但长护险起步，可学供给整合。",
+        "rec_v3": "信号稳、它用B轮6000万验证家护匹配价值。信息披露完整、模式清晰，对想做'养老护理版滴滴'的团队是最该拆的支付与质控样本。",
+        "info_score": 7.0,
+        "diff_score": 6.0,
+        "copy_score": 6.0,
+        "signal_strength": 3.55,
+        "research_value": 55.7
+      },
+      "payor_model": "商业保险支付+B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国家庭护理协调平台，匹配优质供应商并对接保险支付",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {"date": "2022-06", "text": "完成6000万美元B轮，a16z与Bond领投"}
+      ],
+      "highlights": [
+        "累计融资约9250万美元",
+        "对接保险支付，简化家庭护理流程",
+        "获a16z、Bond等顶级机构投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家庭护理协调平台，直接服务居家养老照护，核心银发"
+    },
+    {
+      "serial": "#0889",
+      "signal_strength": 3.55,
+      "info_score": 7.0,
+      "diff_score": 6.0,
+      "copy_score": 5.0,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号与信息中等，治疗师匹配算法有亮点但非银发专属；国内老年抑郁/认知症照护缺专业心理资源，其'算法撮合+标准化服务'可间接借鉴。",
+        "rec_v2": "信号中等、差异化在把心理咨询做成可匹配的标准品，可复制性中。对银发库价值有限，但做老年精神健康可学其用数据提效匹配。",
+        "rec_v3": "信号平稳、信息量够、模式清晰，却偏通用心理健康。想切入老年心理服务的创业者，可参考其算法派单与线上线下结合。",
+        "info_score": 7.0,
+        "diff_score": 6.0,
+        "copy_score": 5.0,
+        "signal_strength": 3.55,
+        "research_value": 53.7
+      },
+      "payor_model": "商业保险支付+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "用专有算法匹配治疗师与患者的心理健康服务平台",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {"date": "未披露", "text": "完成7200万美元C轮融资"}
+      ],
+      "highlights": [
+        "专有算法做治疗师-患者精准匹配",
+        "累计融资约1亿美元",
+        "获Maveron、Amplo等投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用心理健康匹配平台，未聚焦老年心理/认知症，银发关联弱"
+    },
+    {
+      "serial": "#0907",
+      "signal_strength": 3.55,
+      "info_score": 7.0,
+      "diff_score": 7.0,
+      "copy_score": 6.0,
+      "research_value": 57.7,
+      "recommend": {
+        "rec_v1": "信号稳、信息实，肌骨慢病护理平台把理疗/营养做成一体化；老年跌倒与关节病高发，其'虚拟+线下'模式对国内康复与养老结合很有抄点。",
+        "rec_v2": "信号与信息都实，差异化在多学科协同的肌骨管理，可复制性中。国内长护与康复资源稀缺，可学其把非手术肌骨护理标准化、保险化。",
+        "rec_v3": "信号稳、它用B轮5300万验证肌骨垂直价值。信息完整、模式清晰，对做老年康复/运动功能的团队，是最该看的'防跌倒前置护理'样本。",
+        "info_score": 7.0,
+        "diff_score": 7.0,
+        "copy_score": 6.0,
+        "signal_strength": 3.55,
+        "research_value": 57.7
+      },
+      "payor_model": "商业保险支付+B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "虚拟与面对面结合的肌肉骨骼护理平台，覆盖理疗与慢病管理",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {"date": "2025-03", "text": "完成5300万美元B轮"}
+      ],
+      "highlights": [
+        "多学科MSK护理（医生+理疗+营养）",
+        "2025年B轮5300万美元",
+        "虚拟+线下结合，适合慢病与老年运动功能"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "肌骨护理关乎老年跌倒与关节健康，核心银发康复场景"
+    },
+    {
+      "serial": "#1280",
+      "signal_strength": 3.55,
+      "info_score": 5.0,
+      "diff_score": 8.0,
+      "copy_score": 6.0,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号中等但信息有料，AR眼镜做居家神经康复切口独特；国内康复资源紧缺、卒中后遗多，这套'游戏化+可穿戴'方案极值得借鉴。",
+        "rec_v2": "信号中等、差异化在把神经康复从医院搬到客厅，软硬一体。可复制性中——国内需过器械准入，但交互设计与居家场景可直接参考。",
+        "rec_v3": "信号偏低、它用1220万欧验证AR康复硬件。信息量有限但方向稀缺，可复制性低但想做老年神经/跌倒康复的创业者，应重点看其'居家可量化训练'产品逻辑。",
+        "info_score": 5.0,
+        "diff_score": 8.0,
+        "copy_score": 6.0,
+        "signal_strength": 3.55,
+        "research_value": 53.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "用AR眼镜为帕金森/卒中患者做居家神经康复训练",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {"date": "2025-03", "text": "完成1220万欧元早期融资"}
+      ],
+      "highlights": [
+        "AR眼镜居家神经康复，覆盖帕金森与卒中",
+        "2025年融资1220万欧元",
+        "软硬一体，降低康复机构依赖"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AR神经康复服务帕金森/卒中（高发老年），核心银发"
+    },
+    {
+      "serial": "#1320",
+      "signal_strength": 3.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 51.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息新，比利时职场养老金平台补足第二支柱缺口；国内个人养老金刚起步，其'雇主端+财务教练'组合对养老金融普惠化很有借鉴。",
+        "rec_v2": "信号中等、差异化在把补充养老做成职场标配并配教练，可复制性高。国内养老第三支柱缺运营，可学其用轻量工具提升参与率。",
+        "rec_v3": "信号中等、它2026年刚融千万欧，方向稀缺。信息有限但价值清晰，可复制性高，想做国内养老金融/企业年金服务的团队，应把它与Vestwell对照研究。",
+        "info_score": 5.0,
+        "diff_score": 6.0,
+        "copy_score": 7.0,
+        "signal_strength": 3.55,
+        "research_value": 51.7
+      },
+      "payor_model": "B端机构采购+个人缴费",
+      "business_tags_role": "服务商",
+      "desc_cn": "比利时职场养老金平台，兼提供财务教练弥补补充养老短板",
+      "founded": "",
+      "stage": "融资中",
+      "events": [
+        {"date": "2026-06", "text": "完成1000万欧元融资"}
+      ],
+      "highlights": [
+        "比利时职场养老金+财务教练",
+        "2026年6月融资1000万欧元",
+        "与美企Vestwell形成欧美养老金融对照"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "职场养老金+财务教练，补足补充养老，核心银发金融"
+    },
+    {
+      "serial": "#1330",
+      "signal_strength": 3.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 52.7,
+      "recommend": {
+        "rec_v1": "信号稳、信息新，自建IRA支持另类资产的退休账户已跑通；国内个人养老金产品单一，其'账户+多元配置'思路对养老金融设计有启发。",
+        "rec_v2": "信号稳、差异化在让普通人用退休账户投房产/私募，可复制性中。国内税延养老刚起步，可学其账户体验与资产拓展逻辑。",
+        "rec_v3": "信号稳、它2026年B轮7310万，方向清晰。信息量中等，可复制性中，对想做国内养老资金账户/配置平台的团队，是最该看的'退休账户产品化'样本。",
+        "info_score": 6.0,
+        "diff_score": 6.0,
+        "copy_score": 6.0,
+        "signal_strength": 3.55,
+        "research_value": 52.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "自建IRA退休账户平台，支持含另类资产的养老储蓄",
+      "founded": 2018,
+      "stage": "融资中",
+      "events": [
+        {"date": "2026", "text": "完成7310万美元B轮"}
+      ],
+      "highlights": [
+        "自建IRA账户，可投另类资产",
+        "2026年B轮7310万美元",
+        "累计融资约1亿美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "自建IRA退休账户，退休储蓄核心场景，核心银发金融"
+    },
+    {
+      "serial": "#1351",
+      "signal_strength": 3.55,
+      "info_score": 9.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 65.7,
+      "recommend": {
+        "rec_v1": "信号稳、信息极实，养老EHR龙头被4.9亿美元收购印证赛道价值；国内养老机构信息化薄弱，其'文档+报销+合规一体化'最该被抄。",
+        "rec_v2": "信号稳、差异化在成为长护机构的底层系统而非工具，可复制性高。国内做养老SaaS的团队，应学它如何把reimbursement与运营绑死、建壁垒。",
+        "rec_v3": "信号稳、它年营收2.2亿美元、被PE高价接手，说明养老软件能成基础设施。信息完整，可复制性高，想做机构端数字化的人，重点看其产品矩阵与黏性逻辑。",
+        "info_score": 9.0,
+        "diff_score": 7.0,
+        "copy_score": 7.0,
+        "signal_strength": 3.55,
+        "research_value": 65.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "面向养老与长期照护机构的EHR与运营SaaS平台",
+      "founded": "",
+      "stage": "被收购",
+      "events": [
+        {"date": "2026-07", "text": "ResMed以4.9亿美元现金将其出售给Frazier Healthcare Partners"}
+      ],
+      "highlights": [
+        "服务超1.5万家养老/长护机构",
+        "2026财年营收约2.2亿美元、经营利润约5500万",
+        "被PE以4.9亿美元收购，印证养老软件价值",
+        "多次获Best in KLAS奖项"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老/长护机构EHR与运营SaaS，直接服务银发机构，核心银发"
+    },
+    {
+      "serial": "#0561",
+      "signal_strength": 3.05,
+      "info_score": 8.0,
+      "diff_score": 8.0,
+      "copy_score": 7.0,
+      "research_value": 63.2,
+      "recommend": {
+        "rec_v1": "信号偏低但信息扎实，神经退行虚拟护理已获CVS等下注；国内认知症照护缺口巨大，其'患者+照护者'双端模式最该被抄。",
+        "rec_v2": "信号偏低、差异化在把罕见的神经专科做成可及的虚拟服务并托住照护者，可复制性中高。国内痴呆高发，可学其支付与协调框架。",
+        "rec_v3": "信号偏低、它A轮2500万、背靠医疗巨头，方向稀缺。信息完整、模式清晰，可复制性中高，想做老年认知症管理的团队，应重点看其远程问诊与照护协同。",
+        "info_score": 8.0,
+        "diff_score": 8.0,
+        "copy_score": 7.0,
+        "signal_strength": 3.05,
+        "research_value": 63.2
+      },
+      "payor_model": "商业保险支付+B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "为阿尔茨海默/帕金森患者及照护者提供虚拟专科护理与协调",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {"date": "2024-11", "text": "完成2500万美元A轮，B Capital领投"}
+      ],
+      "highlights": [
+        "专注神经退行性疾病虚拟专科护理",
+        "获CVS Health Ventures、GV等投资",
+        "同时赋能照护者，累计融资4610万美元",
+        "覆盖全美神经科专家远程问诊"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "神经退行(阿尔茨海默/帕金森)虚拟护理，核心老年疾病，核心银发"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0744",
+      "name": "Infinitus Systems",
+      "intro": "用AI自动拨打医疗电话，帮医疗机构处理保险核实与预授权等行政流程。",
+      "old_tags": {
+        "tag_l1": ["行业服务"],
+        "tag_l2": ["AI医疗"],
+        "business_tags": {"customer": "B2B", "role": "技术服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "医疗信息化", "reason": "AI自动外呼处理核保/预授权，属医疗后台信息化，可补标签颗粒度"}
+      ]
+    },
+    {
+      "serial": "#0768",
+      "name": "Lottie",
+      "intro": "英国养老照护信息比对平台，帮家庭查养老院空床与价格并配免费顾问。",
+      "old_tags": {
+        "tag_l1": ["行业服务"],
+        "tag_l2": ["养老信息平台"],
+        "business_tags": {"customer": "B2B", "role": "服务商(媒体/数据)", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "养老咨询", "reason": "含免费专家顾问与供应商审核，信息+服务属性，可补'咨询'维度"}
+      ]
+    },
+    {
+      "serial": "#0783",
+      "name": "Midi Health",
+      "intro": "聚焦更年期与中年女性的虚拟护理诊所，保险覆盖全美，已成独角兽。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["诊所"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "远程医疗", "reason": "以虚拟问诊为核心交付，应补远程医疗标签"},
+        {"action": "add", "tag": "女性健康", "reason": "聚焦更年期/中年女性，女性健康是核心维度，当前缺失"}
+      ]
+    },
+    {
+      "serial": "#0817",
+      "name": "PanTheryx",
+      "intro": "以牛初乳细胞与生物分子为核心的功能营养保健品企业。",
+      "old_tags": {
+        "tag_l1": ["食品营养"],
+        "tag_l2": ["保健品"],
+        "business_tags": {"customer": "B2B", "role": "服务商(媒体/数据)", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "business_tags.role=产品商", "reason": "实为营养保健品产品商，非媒体/数据服务商"}
+      ]
+    },
+    {
+      "serial": "#0885",
+      "name": "Tomorrow Health",
+      "intro": "美国家庭护理协调平台，匹配优质供应商并对接保险支付。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["护工平台", "居家护理"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "护理协调", "reason": "核心为家护供给协调与支付导航，可补'协调'维度"}
+      ]
+    },
+    {
+      "serial": "#0889",
+      "name": "Two Chairs",
+      "intro": "用专有算法匹配治疗师与患者的心理健康服务平台。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["心理健康"],
+        "business_tags": {"customer": "B2B", "role": "服务商(媒体/数据)", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "心理咨询", "reason": "核心交付为治疗师匹配与心理咨询，补颗粒度"}
+      ]
+    },
+    {
+      "serial": "#0907",
+      "name": "Vori Health",
+      "intro": "虚拟与面对面结合的肌肉骨骼护理平台，覆盖理疗与慢病管理。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["远程医疗"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "康复护理", "reason": "聚焦肌骨康复与运动功能，可补康复维度"}
+      ]
+    },
+    {
+      "serial": "#1280",
+      "name": "Strolll",
+      "intro": "用AR眼镜为帕金森/卒中患者提供居家神经康复训练。",
+      "old_tags": {
+        "tag_l1": ["康复辅具", "消费品"],
+        "tag_l2": ["视觉辅助", "眼镜"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l2: 视觉辅助→神经康复", "reason": "产品实为神经康复AR眼镜，'视觉辅助'误导向视力辅助"},
+        {"action": "change", "tag": "business_tags.role=产品商", "reason": "软硬一体产品商，非纯服务商"}
+      ]
+    },
+    {
+      "serial": "#1320",
+      "name": "Warren",
+      "intro": "比利时职场养老金平台兼财务教练，补足补充养老短板。",
+      "old_tags": {
+        "tag_l1": ["金融保险"],
+        "tag_l2": ["金融理财"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "business_tags.customer=B2B(雇主)", "reason": "职场养老金由雇主端采购，当前未标注"}
+      ]
+    },
+    {
+      "serial": "#1330",
+      "name": "AltoIRA",
+      "intro": "自建IRA个人退休账户平台，支持含另类资产的养老储蓄。",
+      "old_tags": {
+        "tag_l1": ["金融保险"],
+        "tag_l2": ["金融理财"],
+        "business_tags": {"customer": "B2B", "role": "服务商(媒体/数据)", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "business_tags.customer=B2C", "reason": "自建IRA为个人退休账户，面向个人而非B2B"},
+        {"action": "change", "tag": "business_tags.role=服务商", "reason": "当前role误标为媒体/数据服务商"}
+      ]
+    },
+    {
+      "serial": "#1351",
+      "name": "MatrixCare",
+      "intro": "面向养老与长期照护机构的EHR与运营SaaS平台，刚被4.9亿美元收购。",
+      "old_tags": {
+        "tag_l1": ["行业服务"],
+        "tag_l2": ["养老软件"],
+        "business_tags": {"customer": "B2B", "role": "服务商(媒体/数据)", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "business_tags.role=产品商", "reason": "为养老机构提供EHR软件产品，非媒体/数据服务商"}
+      ]
+    },
+    {
+      "serial": "#0561",
+      "name": "Synapticure",
+      "intro": "为阿尔茨海默/帕金森等神经退行患者及照护者提供虚拟专科护理。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["远程医疗"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "认知症照护", "reason": "专注阿尔茨海默等认知症，可补核心人群标签"}
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0744",
+      "name": "Infinitus Systems",
+      "verdict": "泛医疗擦边",
+      "reason": "AI医疗行政自动化，服务通用医疗场景，未针对老年人群，银发关联弱"
+    },
+    {
+      "serial": "#0817",
+      "name": "PanTheryx",
+      "verdict": "泛医疗擦边",
+      "reason": "牛初乳营养保健品，面向通用健康消费，非老年专属"
+    },
+    {
+      "serial": "#0889",
+      "name": "Two Chairs",
+      "verdict": "泛医疗擦边",
+      "reason": "通用心理健康匹配平台，未聚焦老年心理/认知症，银发关联弱"
+    }
+  ]
+}

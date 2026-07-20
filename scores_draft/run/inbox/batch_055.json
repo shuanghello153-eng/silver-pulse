@@ -1,0 +1,498 @@
+{
+ "batch": 55,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0413",
+   "name": "小羊养老",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "陪诊服务",
+   "tags": [
+    "陪诊"
+   ],
+   "description": "专业的陪诊业务和适老化改造业务是小羊养老目前最主要的服务。2022.08天使轮数百万元融资",
+   "highlights": "专业的陪诊业务和适老化改造业务是小羊养老目前最主要的服务。2022.08天使...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2022",
+   "value_score": 16,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%B0%8F%E7%BE%8A%E5%85%BB%E8%80%81",
+   "website_url": "",
+   "business_model": "B2B/B2C 健康服务",
+   "name_cn": "小羊养老",
+   "desc_cn": "专业的陪诊业务和适老化改造业务是小羊养老目前最主要的服务。2022.08天使轮数百万元融资",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "陪诊"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【小羊养老】聚焦居家护理/陪诊，专业的陪诊业务和适老化改造业务是小羊养老目前最主要的服务。2022.08天使...，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0414",
+   "name": "清檬养老",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "自主研发养老人才教育培训体系和智慧照护体系，提供24小时居家照护服务、社区托管照护服务、上门服务、康复护理以及疗养度假服务。未融资，获得奖项较多",
+   "highlights": "提供24小时居家照护服务、社区托管照护服务、上门服务、康复护理以及疗养度假服...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%B8%85%E6%AA%AC%E5%85%BB%E8%80%81",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "清檬养老",
+   "desc_cn": "自主研发养老人才教育培训体系和智慧照护体系，提供24小时居家照护服务、社区托管照护服务、上门服务、康复护理以及疗养度假服务。未融资，获得奖项较多",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【清檬养老】聚焦居家护理/文娱社交，提供24小时居家照护服务、社区托管照护服务、上门服务、康复护理以及疗养度假服...，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0415",
+   "name": "玛土撒拉",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "特医食品",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "深耕于特医食品行业，集研发、生产、销售于一体的医学营养科技型企业。出品四大系列医学营养产品：特医食品系列、营养强化系列、低GI系列、控能食品系列。2022...",
+   "highlights": "集研发、生产、销售于一体的医学营养科技型企业。出品四大系列医学营养产品：特医...",
+   "funding_latest": {
+    "date": "2023.04",
+    "amount": "近亿元",
+    "round": "A+轮",
+    "display": "A+轮 近亿元 (2023.04)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 28,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%8E%9B%E5%9C%9F%E6%92%92%E6%8B%89",
+   "website_url": "https://www.methuselah.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "玛土撒拉",
+   "desc_cn": "深耕于特医食品行业，集研发、生产、销售于一体的医学营养科技型企业。出品四大系列医学营养产品：特医食品系列、营养强化系列、低GI系列、控能食品系列。2022...",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【玛土撒拉】聚焦产业资本/特医食品/营养食品，集研发、生产、销售于一体的医学营养科技型企业。出品四大系列医学营养产品：特医...，B2C模式，研究价值分28。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0416",
+   "name": "甲子科技(甲子养老)",
+   "region": "国内",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "居家护理",
+    "助行器"
+   ],
+   "description": "线下门店销售代步车、适老辅具，上门测量改造服务",
+   "highlights": "上门测量改造服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%94%B2%E5%AD%90%E7%A7%91%E6%8A%80%28%E7%94%B2%E5%AD%90%E5%85%BB%E8%80%81%29",
+   "website_url": "https://www.china60.com",
+   "business_model": "银发经济企业",
+   "name_cn": "甲子科技(甲子养老)",
+   "desc_cn": "线下门店销售代步车、适老辅具，上门测量改造服务",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "养老服务",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【甲子科技(甲子养老)】聚焦渠道，上门测量改造服务，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0417",
+   "name": "令羽(肤恩)",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "老年护肤",
+   "tags": [
+    "个人护理",
+    "美妆护肤"
+   ],
+   "description": "茶香香氛润肤乳，主打老年干燥肌基础保湿",
+   "highlights": "主打老年干燥肌基础保湿",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BB%A4%E7%BE%BD%28%E8%82%A4%E6%81%A9%29",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "令羽(肤恩)",
+   "desc_cn": "茶香香氛润肤乳，主打老年干燥肌基础保湿",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理",
+    "美妆护肤"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【令羽(肤恩)】聚焦个护/消费品，主打老年干燥肌基础保湿，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0418",
+   "name": "瑞邦生物",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "美妆护肤"
+   ],
+   "description": "食品肽原料，旗下拥有韩愢染发自有消费品牌",
+   "highlights": "旗下拥有韩愢染发自有消费品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%91%9E%E9%82%A6%E7%94%9F%E7%89%A9",
+   "website_url": "https://www.chinacollagen.net",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "瑞邦生物",
+   "desc_cn": "食品肽原料，旗下拥有韩愢染发自有消费品牌",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "美妆护肤"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【瑞邦生物】聚焦个护，旗下拥有韩愢染发自有消费品牌，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0419",
+   "name": "麦孚营养",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "全营养、特定疾病、老年营养特医配方",
+   "highlights": "全营养、特定疾病、老年营养特医配方",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 16,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%BA%A6%E5%AD%9A%E8%90%A5%E5%85%BB",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "麦孚营养",
+   "desc_cn": "全营养、特定疾病、老年营养特医配方",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【麦孚营养】聚焦个护，全营养、特定疾病、老年营养特医配方，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0421",
+   "name": "优生活羊奶",
+   "region": "国内",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "功能性食品"
+   ],
+   "description": "液态羊奶、羊奶粉，广东、福建中老年市场深耕",
+   "highlights": "广东、福建中老年市场深耕",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%98%E7%94%9F%E6%B4%BB%E7%BE%8A%E5%A5%B6",
+   "website_url": "http://youshenghuojia.com",
+   "business_model": "银发经济企业",
+   "name_cn": "优生活羊奶",
+   "desc_cn": "液态羊奶、羊奶粉，广东、福建中老年市场深耕",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "功能性食品"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【优生活羊奶】聚焦渠道，广东、福建中老年市场深耕，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0422",
+   "name": "退休俱乐部(东犁)",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "旅游"
+   ],
+   "description": "电视节目引流中老年周边、长线康养旅游，线下聚会服务",
+   "highlights": "线下聚会服务",
+   "funding_latest": {
+    "round": "B轮",
+    "display": "B轮"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 16,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%80%80%E4%BC%91%E4%BF%B1%E4%B9%90%E9%83%A8%28%E4%B8%9C%E7%8A%81%29",
+   "website_url": "",
+   "business_model": "B2C 老年出行服务",
+   "name_cn": "退休俱乐部(东犁)",
+   "desc_cn": "电视节目引流中老年周边、长线康养旅游，线下聚会服务",
+   "business_model_cn": "B2C 老年出行服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "成长期",
+   "recommend": "【退休俱乐部(东犁)】聚焦个护/产业资本，线下聚会服务，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0423",
+   "name": "彭世修脚",
+   "region": "国内",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "个人护理"
+   ],
+   "description": "修脚、足疗、采耳、推拿中老年线下社区养生服务",
+   "highlights": "修脚、足疗、采耳、推拿中老年线下社区养生服务",
+   "funding_latest": {
+    "amount": "本土民营无外部融资",
+    "display": "本土民营无外部融资"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2003",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%BD%AD%E4%B8%96%E4%BF%AE%E8%84%9A",
+   "website_url": "https://www.pengshixiujiao.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "彭世修脚",
+   "desc_cn": "修脚、足疗、采耳、推拿中老年线下社区养生服务",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【彭世修脚】聚焦产业资本/渠道，修脚、足疗、采耳、推拿中老年线下社区养生服务，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0424",
+   "name": "唯艾科技",
+   "region": "国内",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "个人护理"
+   ],
+   "description": "家用、门店智能艾灸理疗，中老年养生体验转化产品",
+   "highlights": "中老年养生体验转化产品",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 16,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%94%AF%E8%89%BE%E7%A7%91%E6%8A%80",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "唯艾科技",
+   "desc_cn": "家用、门店智能艾灸理疗，中老年养生体验转化产品",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【唯艾科技】聚焦渠道，中老年养生体验转化产品，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0426",
+   "name": "苗米科技",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "毫米波+红外融合跌倒、生命体征监测设备，华东社区养老深耕",
+   "highlights": "华东社区养老深耕",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 32,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%8B%97%E7%B1%B3%E7%A7%91%E6%8A%80",
+   "website_url": "http://www.wieyes.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "苗米科技",
+   "desc_cn": "毫米波+红外融合跌倒、生命体征监测设备，华东社区养老深耕",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【苗米科技】聚焦个护/健康监测/智能硬件，华东社区养老深耕，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

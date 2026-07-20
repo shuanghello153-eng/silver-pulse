@@ -1,0 +1,492 @@
+{
+  "batch": 21,
+  "enterprises": [
+    {
+      "serial": "#0029",
+      "signal_strength": 1.05,
+      "info_score": 8.0,
+      "diff_score": 7.0,
+      "copy_score": 8.0,
+      "research_value": 57.1,
+      "recommend": "信号中等（近一年无新融资披露）、信息较透明（公开年服务量超3000万小时、布局60余城）。差异化在“长护险+商保+自费”混合支付设计与自研智能派单系统，构成线下护理站网点壁垒；国内区域运营商可借鉴其“政府长护险引流+增值服务变现”的现金流模型，但需本地长护险资质与护理员供给支撑。",
+      "desc_cn": "国内头部居家照护机构，以长护险为切入口，为失能半失能老人提供上门生活照料、临床护理与康复训练。依托全国60余城的300多家医疗护理站与自研数字化系统实现智能派单；支付端形成“长护险+商保+自费”组合，并推出毫米波雷达“巡护360”监测产品，提升居家安全与服务效率。",
+      "payor_model": "政府长护险+商保+个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2011,
+      "stage": "C轮",
+      "highlights": [
+        "全国60余城布局、300多家医疗护理站、年服务量超3000万小时",
+        "长护险标杆，自研“申护析”智慧照护系统与“巡护360”毫米波雷达监测",
+        "形成“长护险+商保+自费”混合支付体系",
+        "获复星医药、长岭资本、腾讯、红杉中国等投资"
+      ],
+      "events": [
+        { "date": "2024", "text": "完成C轮、C+轮数亿元融资（泰合资本担任顾问）" },
+        { "date": "2025", "text": "实施数智整合照护服务平台战略，年服务量达3142万小时" },
+        { "date": "2026-04", "text": "母公司数颐联康与如身机器人成立合资公司颐身智联，布局康养机器人" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以长护险为切入口，为失能半失能老人提供上门护理与康复，是银发照护基础设施",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024", "amount": "数亿元", "round": "C轮/C+轮", "display": "C轮/C+轮 数亿元 (2024)" },
+      "funding_total": { "amount": "累计数亿元（含腾讯、红杉、复星等）", "display": "累计数亿元" },
+      "investors": "复星医药, 长岭资本, 方正和生投资, 腾讯, 红杉中国, 启明创投, 国寿股权"
+    },
+    {
+      "serial": "#0036",
+      "signal_strength": 1.05,
+      "info_score": 6.0,
+      "diff_score": 7.0,
+      "copy_score": 5.0,
+      "research_value": 45.1,
+      "recommend": "信号中等（近一年无新融资披露）、信息量一般（专利200余项、获Ⅱ类医疗器械认证等可查）。差异化在基于柔性驱动器的主动式人机协作训练，相比刚性外骨骼更强调安全与舒适，构成技术壁垒；国内康复设备商可借鉴其“柔性驱动器+临床认证”的医工结合路径，但需打通医院采购与康复师培训体系。",
+      "desc_cn": "医疗康养外骨骼机器人厂商，围绕自研柔性驱动器技术开发下肢康复外骨骼等医疗设备，用于卒中、脊髓损伤及老年群体的步态康复训练。核心产品已取得Ⅱ类医疗器械NMPA认证并批量进入公立医院、康养中心与养老院，收入来自设备销售与机构采购，并以物联网与大数据提升康复训练效率。",
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2016,
+      "stage": "成长期",
+      "highlights": [
+        "基于柔性驱动器的主动式下肢外骨骼，获Ⅱ类医疗器械NMPA认证",
+        "国内外专利200余项，广东省柔性可穿戴康复机器人工程技术研究中心",
+        "联想创投连投4轮，并有分享投资、四环医药、威高集团等入股",
+        "2024年国家级高新技术企业、2025年省级创新型/国家级科技型中小企业"
+      ],
+      "events": [
+        { "date": "2021-02", "text": "获数千万元A+轮融资（联想创投等）" },
+        { "date": "2022", "text": "完成数千万元战略融资（尚元基金独家投资）" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复外骨骼直接服务卒中与老年步态康复人群，属银发康复硬件",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2022", "amount": "数千万", "round": "战略融资", "display": "战略融资 数千万 (2022)" },
+      "funding_total": { "amount": "累计过亿元", "display": "累计过亿元" },
+      "investors": "联想创投, 分享投资, 四环医药, 威高集团"
+    },
+    {
+      "serial": "#0157",
+      "signal_strength": 1.05,
+      "info_score": 7.0,
+      "diff_score": 8.0,
+      "copy_score": 7.0,
+      "research_value": 54.2,
+      "recommend": "信号强（新近资本密集加注、累计真实场景运行超1000小时）、信息透明度高。差异化在“场景—数据—模型”闭环与双模态载人/照护机器人，壁垒在真实养老数据资产；国内具身智能团队可借鉴其“先跑真实场景再训模型”路径落地康养场景，但需跨机构数据合规与硬件量产能力。",
+      "desc_cn": "具身智能康养机器人公司，面向失能半失能及独居老人研发“齐家”载人轮椅护理机器人、格物康复训练与修身理疗系列产品。采用“机器人+服务+数据”运营模式，通过真实机构与家庭场景采集任务数据训练自研QiCare OS，并以“千户计划”推进机器人进入居家与养老机构。",
+      "payor_model": "B端机构采购+家庭订阅/租赁",
+      "business_tags_role": "产品商",
+      "founded": 2023,
+      "stage": "Pre-A",
+      "highlights": [
+        "全球首个载人与服务双模态具身养老护理机器人，七自由度20kg力控机械臂",
+        "自研QiCare OS（VLM大脑+Skill Policy小脑+Safety Supervisor）",
+        "累计真实养老场景运行超1000小时、机构连续运行超45天",
+        "2026年4月完成亿元Pre-A轮（清松资本、润泽科技、平湖泽新）"
+      ],
+      "events": [
+        { "date": "2026-07-03", "text": "完成亿元Pre-A轮融资（清松资本、润泽科技、平湖泽新）" },
+        { "date": "2025-10-09", "text": "完成千万级天使++轮（力合金融）" },
+        { "date": "2026-04", "text": "与福寿康母公司成立合资公司颐身智联机器人" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复与失能老人照护机器人直接服务银发人群，属具身智能康养硬件",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2026-04", "amount": "亿元级", "round": "Pre-A", "display": "Pre-A 亿元级 (2026-04)" },
+      "funding_total": { "amount": "累计约亿元级", "display": "累计约亿元级" },
+      "investors": "清松资本, 润泽科技, 平湖泽新, 力合金融"
+    },
+    {
+      "serial": "#0476",
+      "signal_strength": 1.05,
+      "info_score": 5.0,
+      "diff_score": 7.0,
+      "copy_score": 5.0,
+      "research_value": 42.1,
+      "recommend": "信号中等（2024年被AARP收购后退出独立融资序列）、信息披露一般。差异化在用算法做“室友兼容度”匹配并配套背景调查、电子租约与自动收租工具，把空巢老人的闲置房间变成收入与陪伴来源；国内可做类似“代际合住”平台，但需解决中国式邻里信任、房产证与合租法律障碍。",
+      "desc_cn": "面向50+房主与空巢老人的合住匹配平台，用算法为拥有空置房间的老年屋主匹配兼容室友，并提供背景调查、电子租约与自动收租。会员订阅是收入主线，同时缓解老年孤独与住房成本；2024年被全美最大退休者组织AARP收购，接入其殡葬与临终服务网络。",
+      "payor_model": "个人自费（会员订阅）",
+      "business_tags_role": "平台",
+      "founded": 2015,
+      "stage": "被收购",
+      "highlights": [
+        "面向空巢老人的跨代合住匹配，兼顾陪伴与租金收益",
+        "配套背景调查、电子租约、自动收租等工具链",
+        "累计用户超10万、累计融资约1800万美元",
+        "2024年被AARP以约1亿美元收购"
+      ],
+      "events": [
+        { "date": "2022", "text": "完成2000万美元B轮融资" },
+        { "date": "2024", "text": "被美国退休人员协会AARP以约1亿美元收购" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为空巢老人提供合住与陪伴的银发住房服务，直接服务老年群体",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024", "amount": "被AARP收购(约1亿美元)", "round": "被收购", "display": "被AARP收购 (2024)" },
+      "funding_total": { "amount": "累计约1800万美元", "display": "累计约$18M" },
+      "investors": "AARP, Moderne Ventures, Incenter, Qiming Venture Partners USA 等"
+    },
+    {
+      "serial": "#0489",
+      "signal_strength": 1.05,
+      "info_score": 6.0,
+      "diff_score": 2.0,
+      "copy_score": 1.0,
+      "research_value": 27.1,
+      "recommend": "信号弱（养老仅为 Alexa、药房等生态补位，无独立银发主业）、信息透明度高（产品与定价公开）。差异化在借物流与语音入口做“药品配送+紧急呼叫”轻量照护，壁垒在既有用户与履约网络；国内综合平台宜学其“用电商履约做适老药品配送”思路，但医保支付与处方流转受牌照约束，难照搬形态。",
+      "desc_cn": "综合电商与云巨头，银发布局集中在健康：Amazon Pharmacy整合PillPack为Medicare Part D老人提供分装药品与照护者代管，Alexa Emergency Assist提供跌倒/紧急呼叫远程照护。养老并非主业，多为生态补位而非独立银发业务。",
+      "payor_model": "个人自费（电商/会员/医保自付）",
+      "business_tags_role": "平台",
+      "founded": 1994,
+      "stage": "已上市",
+      "highlights": [
+        "Amazon Pharmacy(PillPack)为Medicare Part D老人提供分装药品与照护者代管",
+        "Alexa Emergency Assist提供24/7紧急呼叫（Alexa Together 2025-05停服）",
+        "One Medical接入医保的初级诊疗",
+        "银发布局多为品牌/生态补位，无独立养老主业"
+      ],
+      "events": [
+        { "date": "2021-12", "text": "推出Alexa Together远程照护订阅" },
+        { "date": "2025-05", "text": "Alexa Together停服，转为Alexa Emergency Assist" },
+        { "date": "2025", "text": "Amazon Pharmacy上线照护者代管与Medicare Part D分装药功能" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "综合电商巨头，养老仅Alexa/药房等边缘布局，无实质银发主业（Medicare药房仅为生态一环）",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": ["未融资"]
+    },
+    {
+      "serial": "#0496",
+      "signal_strength": 1.05,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 5.0,
+      "research_value": 38.1,
+      "recommend": "信号中等（2024年被殡葬集团收购、累计用户超1亿）、信息透明度较高。差异化在把“临终规划”做成类Expedia的一站式信息+电商入口，并以白标B2B方式进入机构采购；国内可做临终/遗嘱数字向导，但需绕开殡葬牌照与敏感的死亡话题付费意愿，先从免费科普+机构合作起步。",
+      "desc_cn": "临终与遗产规划数字平台，提供遗嘱、预先医疗指示、殡葬安排与悲伤支持等工具与5000余篇指南，采用免费+高级订阅并为企业（医疗系统、保险公司、金融机构）提供白标版本。2024年被美国第二大殡葬服务商Foundation Partners Group收购，接入其250余家殡葬机构网络。",
+      "payor_model": "个人自费（订阅）+B端机构采购",
+      "business_tags_role": "平台",
+      "founded": 2015,
+      "stage": "被收购",
+      "highlights": [
+        "累计超1亿用户使用的临终规划数字目录（5000余篇指南）",
+        "免费+高级订阅，并向医疗系统/保险公司/金融机构输出白标平台",
+        "2024年9月被Foundation Partners Group（全美第二大殡葬商）收购",
+        "曾获AARP等投资，2021年种子轮370万美元"
+      ],
+      "events": [
+        { "date": "2024-09", "text": "被Foundation Partners Group收购" },
+        { "date": "2021-07", "text": "完成370万美元种子轮（AARP、InHealth Ventures等）" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "临终/遗产规划偏法律金融，与老年群体相关但非直接照护服务",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024-09", "amount": "被收购", "round": "被收购", "display": "被Foundation Partners Group收购 (2024-09)" },
+      "funding_total": { "amount": "$5.05M", "display": "累计$5.05M" },
+      "investors": "InHealth Ventures, Two Lanterns Venture Partners, Pillar VC, LaunchCapital, AARP"
+    },
+    {
+      "serial": "#0559",
+      "signal_strength": 1.05,
+      "info_score": 8.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 55.2,
+      "recommend": "信号强（新近完成新一轮大额融资）、信息透明度高。差异化在“为老年社区而生”的EHR而非改造通用HIS，嵌入AI做主动式风险预警，壁垒在数千社区数据与医护满意度；国内养老SaaS可借鉴其“以临床结果(减事件/增收入)为卖点”打法，但需适配民政/医保双轨台账。",
+      "desc_cn": "专为老年生活与辅助生活社区打造的EHR一体化平台，覆盖入住办理、电子药历(eMAR)、护理记录、账单与AI洞察。由老年医学医生与前Apple工程负责人创立，已服务美加数千家社区，客户含Sonida、Bickford等；收入来自社区SaaS订阅，宣称降低23%意外事件、提升20%收入。",
+      "payor_model": "B端机构采购（SaaS订阅）",
+      "business_tags_role": "平台",
+      "founded": 2020,
+      "stage": "B轮",
+      "highlights": [
+        "专为老年/辅助生活社区设计的EHR+eMAR+护理追踪一体化",
+        "由老年医学医生与前Apple工程负责人联合创立",
+        "客户覆盖美加数千社区（Sonida、Bickford、Koelsch等）",
+        "宣称降低23%意外事件、提升20%收入、87%员工认可护理质量"
+      ],
+      "events": [
+        { "date": "2025-08", "text": "完成2900万美元B轮（Base10 Partners领投，General Catalyst、Matrix跟投）" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为老年生活/辅助生活社区提供运营数字化，是银发机构IT基础设施",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2025-08", "amount": "2900万美元", "round": "B轮", "display": "B轮 2900万美元 (2025-08)" },
+      "funding_total": { "amount": "$44M", "display": "累计$44M" },
+      "investors": "General Catalyst, Matrix Partners, Base10 Partners, Equitage Ventures, Stanford University, Senior Living Transformation Company"
+    },
+    {
+      "serial": "#0618",
+      "signal_strength": 1.05,
+      "info_score": 6.0,
+      "diff_score": 3.0,
+      "copy_score": 8.0,
+      "research_value": 43.1,
+      "recommend": "信号偏弱（2024年被收购后产品停止独立演进）、信息透明度一般。差异化在深耕长期照护30余年的EHR+RCM一体化与3300家机构存量客户，壁垒在护理院端工作流沉淀；国内做养老HIS可借鉴其“以营收周期管理绑定临床记录”的变现逻辑，但独立老牌EHR在行业整合中易丧失迭代，需平台化续命。",
+      "desc_cn": "长期照护电子健康记录(EHR)与营收周期管理(RCM)老牌厂商，面向养老院、skilled nursing与临终护理机构提供临床文档、用药管理与合规报表。2024年1月被老年照护云平台PointClickCare收购，约3300家机构客户正迁移至后者的互联护理网络。",
+      "payor_model": "B端机构付费（养老院/SNF出售EHR SaaS）",
+      "business_tags_role": "平台",
+      "founded": 1982,
+      "stage": "被收购",
+      "highlights": [
+        "长期照护EHR+RCM老牌厂商，2023年约3300家SNF/AL机构客户",
+        "2024年1月被PointClickCare收购，客户迁移至其互联护理网络",
+        "传统EHR行业整合案例，体现护理院端工作流壁垒",
+        "团队约40人随交易加入PointClickCare"
+      ],
+      "events": [
+        { "date": "2024-01", "text": "被PointClickCare收购（CPSI剥离）" },
+        { "date": "2025-06", "text": "随CPSI子公司交易进一步整合至PointClickCare平台" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为养老院/护理院提供长期照护IT系统，属银发机构基础设施",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024-01", "amount": "未披露", "round": "被收购", "display": "被PointClickCare收购 (2024-01)" },
+      "funding_total": { "amount": "未披露", "display": "被并购，无独立累计融资披露" },
+      "investors": ["PointClickCare"]
+    },
+    {
+      "serial": "#0631",
+      "signal_strength": 1.05,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 45.2,
+      "recommend": "信号强（新近完成新一轮融资、财年增速约900%）、信息透明度高。差异化在用Uber式物流引擎做居家医护排班，壁垒在实时路由算法与EMR集成；国内上门护理平台可借鉴其“AI排班+自动提醒”降本提效，但需先打通院内HIS与医保结算，且护工供给密度决定模型价值。",
+      "desc_cn": "居家医疗与临终关怀机构的AI排班与运力调度SaaS，用机器学习结合交通、资质与地理数据自动匹配医护与患者、实时改派并自动发送到达提醒。团队具Uber物流背景，宣称提升临床效率17%–30%、减少55%爽约；客户含Cityblock、Grandcare，2024财年增速达900%。",
+      "payor_model": "B端机构采购（SaaS订阅）",
+      "business_tags_role": "平台",
+      "founded": 2020,
+      "stage": "A轮",
+      "highlights": [
+        "Uber背景团队打造的居家医护AI排班与路线优化引擎",
+        "宣称提升临床效率17%–30%、减少55%爽约、降手动排班70%",
+        "客户含Cityblock Health、Grandcare，FY2024增速约900%",
+        "已集成主流EMR，SOC 2与HIPAA合规"
+      ],
+      "events": [
+        { "date": "2025-05", "text": "完成1000万美元A轮（F-Prime领投，YC、Pear、Lightbank跟投）" },
+        { "date": "2024-02", "text": "完成420万美元种子轮（F-Prime、YC等）" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "服务家庭医疗与临终关怀机构运营效率，支撑居家老年照护",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2025-05", "amount": "1000万美元", "round": "A轮", "display": "A轮 1000万美元 (2025-05)" },
+      "funding_total": { "amount": "$15.2M", "display": "累计$15.2M" },
+      "investors": "F-Prime, Y Combinator, Pear VC, Lightbank"
+    },
+    {
+      "serial": "#0640",
+      "signal_strength": 1.05,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 40.2,
+      "recommend": "信号偏弱（仅完成早期融资、规模仍小）、信息透明度一般。差异化在“自有技师+家庭经理”的信任式房屋巡查，把独居老人的居家安全做成订阅关系而非一次性维修；国内社区可借鉴其“定期上门巡检+紧急联络”模式服务空巢老人，但需控制人力成本、避免与家政平台正面竞争。",
+      "desc_cn": "面向房主的居家巡查与房屋维护礼宾服务（公益公司PBC），派驻自有技师并配“家庭经理”定期上门检查安全、代收邮件、处理维修，按会员订阅收费。主打“PropCare”信任式关系而非交易平台，2024年9月服务约500户、年营收约180万美元，当前聚焦华盛顿与费城两市场。",
+      "payor_model": "个人自费（会员订阅）",
+      "business_tags_role": "服务商",
+      "founded": 2022,
+      "stage": "种子期",
+      "highlights": [
+        "“自有技师+家庭经理”的信任式房屋巡查（PropCare）",
+        "公共效益公司(PBC)，设1% for Housing Justice公益计划",
+        "2024年9月服务约500客户、年营收约180万美元",
+        "种子轮320万美元（Social Leverage、FJ Labs、Path VC等）"
+      ],
+      "events": [
+        { "date": "2024-01", "text": "完成320万美元种子轮（Social Leverage、Starting Line、Berger等）" },
+        { "date": "2024-09", "text": "服务约500客户，团队近30人" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以定期上门巡查服务独居/空巢老人居家安全，属银发居家看护场景",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024-01", "amount": "320万美元", "round": "种子轮", "display": "种子轮 320万美元 (2024-01)" },
+      "funding_total": { "amount": "$3.2M", "display": "$3.2M" },
+      "investors": "Social Leverage, Starting Line, Berger Investments, FJ Labs, Path VC"
+    },
+    {
+      "serial": "#0676",
+      "signal_strength": 1.05,
+      "info_score": 3.0,
+      "diff_score": 3.0,
+      "copy_score": 3.0,
+      "research_value": 24.1,
+      "recommend": "信号偏弱、公开信息较少。差异化在“按病人匹配专科”而非笼统好医生榜单，用精算把共病老人的多专科割裂缝合起来，壁垒在专科网络与风险模型；国内可做类似“专科转诊协调”中台，但价值医疗支付环境不同，需先有按效果付费的医保或商保土壤才能成立。",
+      "desc_cn": "多专科价值医疗(value-based care)协调平台，用精算与数据科学为初级医疗组织匹配最合适的专科医生，管理专科风险并简化合同与支付。当前网络含150余名专科医生，落地南卡与佐治亚，并与Pearl Health合作，聚焦慢病与共病老人的专科协同。",
+      "payor_model": "B端机构采购（医保/付款人）",
+      "business_tags_role": "服务商",
+      "founded": 2021,
+      "stage": "种子期",
+      "highlights": [
+        "多专科价值医疗协调网络，用精算做“按病人匹配专科”",
+        "已接入150余名专科医生，落地南卡、佐治亚并与Pearl Health合作",
+        "聚焦共病/慢病老人的专科协同与风险管控",
+        "2024年3月完成300万美元种子轮（CT Innovations领投）"
+      ],
+      "events": [
+        { "date": "2024-03", "text": "完成300万美元种子轮（CT Innovations、AlleyCorp、CityLight等）" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用价值医疗协调平台，虽服务共病老人群体但无老年专属定位，非银发主业",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024-03", "amount": "300万美元", "round": "种子轮", "display": "种子轮 300万美元 (2024-03)" },
+      "funding_total": { "amount": "$3M (Seed)", "display": "$3M Seed" },
+      "investors": "CT Innovations, AlleyCorp, Black Opal, CityLight"
+    },
+    {
+      "serial": "#0688",
+      "signal_strength": 1.05,
+      "info_score": 3.0,
+      "diff_score": 2.0,
+      "copy_score": 2.0,
+      "research_value": 20.1,
+      "recommend": "信号弱、信息透明度低。差异化在把“员工为什么留下”而非“为什么离职”作为产品支点，用单一人才台账打通合规与职业发展；其与银发无直接关联，属医疗HR基础设施。国内医院可借鉴其“资质生命周期管理”思路优化护理员管理，但养老机构HR数字化程度低、付费意愿弱，短期难放量。",
+      "desc_cn": "医疗行业员工关系与人才发展SaaS，把临床人员的资质、继续教育与合规数据汇成统一台账，帮医院降低流失、提升留任。面向医疗机构HR而非患者，并引入AI做技能缺口与职业路径分析，解决护士等高流失岗位的用工痛点。",
+      "payor_model": "B端机构采购（HR SaaS）",
+      "business_tags_role": "平台",
+      "founded": 2021,
+      "stage": "种子期",
+      "highlights": [
+        "医疗行业首个员工关系/人才发展管理系统（Keys平台）",
+        "把资质、继续教育、合规汇成“单一真相源”降护理员事务负担",
+        "2024年5月完成200万美元种子轮",
+        "CEO Sarah Worthy，聚焦高护士流失率机构的留任"
+      ],
+      "events": [
+        { "date": "2024-05", "text": "完成200万美元种子轮" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "医疗HR软件，服务对象为医疗机构员工而非老年人群",
+      "数据来源": "联网精评",
+      "funding_latest": { "date": "2024-05", "amount": "200万美元", "round": "种子轮", "display": "种子轮 200万美元 (2024-05)" },
+      "funding_total": { "amount": "$2.3M", "display": "累计$2.3M" },
+      "investors": ["未搜到"]
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0029",
+      "name": "福寿康",
+      "intro": "国内头部居家照护机构，以长护险为切入口服务失能半失能老人，并自研数字化系统与监测硬件。",
+      "old_tags": { "tag_l1": ["养老服务", "金融保险"], "tag_l2": ["居家护理", "长护险"], "business_tags": { "customer": "B2B+B2C", "role": "服务商", "channel": [] } },
+      "suggested": [
+        { "action": "add", "tag": "智慧养老", "reason": "自研“申护析”系统与“巡护360”毫米波雷达监测，数字化属性突出" }
+      ]
+    },
+    {
+      "serial": "#0036",
+      "name": "迈步",
+      "intro": "医疗康养外骨骼机器人厂商，聚焦柔性驱动器与下肢康复设备。",
+      "old_tags": { "tag_l1": ["康复辅具"], "tag_l2": ["外骨骼"], "business_tags": { "customer": "B2B+B2C", "role": "产品商", "channel": [] } },
+      "suggested": [
+        { "action": "add", "tag": "康复机器人", "reason": "产品为获NMPA认证的康复外骨骼机器人，可补“康复机器人”标签" }
+      ]
+    },
+    {
+      "serial": "#0157",
+      "name": "如身机器人",
+      "intro": "具身智能康养机器人公司，研发载人/照护双模态机器人服务失能失智老人。",
+      "old_tags": { "tag_l1": ["文娱社交"], "tag_l2": ["健身"], "business_tags": { "customer": "B2B+B2C", "role": "产品商", "channel": [] } },
+      "suggested": [
+        { "action": "change", "tag": "康复辅具", "reason": "现标签“文娱社交/健身”严重误标，实为康养机器人企业" },
+        { "action": "change", "tag": "康养机器人", "reason": "主营齐家载人护理机器人、格物康复、修身理疗，应归康养机器人而非健身" }
+      ]
+    },
+    {
+      "serial": "#0476",
+      "name": "Silvernest",
+      "intro": "面向空巢老人的合住匹配平台，2024年被AARP收购。",
+      "old_tags": { "tag_l1": ["文娱社交"], "tag_l2": ["邻里社交"], "business_tags": { "customer": "B2B", "role": "平台", "channel": [] } },
+      "suggested": [
+        { "action": "change", "tag": "养老服务", "reason": "实为老年住房/合住服务，非文娱社交" },
+        { "action": "change", "tag": "代际共居", "reason": "核心是基于算法匹配的跨代合住，建议用“代际共居/银发住房”标签" }
+      ]
+    },
+    {
+      "serial": "#0489",
+      "name": "亚马逊",
+      "intro": "综合电商与云巨头，银发仅边缘布局。",
+      "old_tags": { "tag_l1": ["消费品"], "tag_l2": ["零售"], "business_tags": { "customer": "B2C", "role": "平台", "channel": ["线上"] } },
+      "suggested": [
+        { "action": "add", "tag": "智慧养老(边缘)", "reason": "Alexa Emergency Assist与Medicare药房属边缘银发布局，可标注但不宜升为主类" }
+      ]
+    },
+    {
+      "serial": "#0496",
+      "name": "Cake",
+      "intro": "临终与遗产规划数字平台，2024年被殡葬集团收购。",
+      "old_tags": { "tag_l1": ["金融保险"], "tag_l2": ["遗产规划"], "business_tags": { "customer": "B2B", "role": "平台", "channel": [] } },
+      "suggested": [
+        { "action": "add", "tag": "临终规划", "reason": "业务覆盖遗嘱/预先医疗指示/悲伤支持，建议补“临终规划”标签" }
+      ]
+    },
+    {
+      "serial": "#0559",
+      "name": "August Health",
+      "intro": "专为老年生活社区设计的EHR一体化平台。",
+      "old_tags": { "tag_l1": ["行业服务"], "tag_l2": ["养老软件"], "business_tags": { "customer": "B2B", "role": "平台", "channel": [] } },
+      "suggested": []
+    },
+    {
+      "serial": "#0618",
+      "name": "American HealthTech",
+      "intro": "长期照护EHR与营收周期管理厂商，2024年被PointClickCare收购。",
+      "old_tags": { "tag_l1": ["行业服务"], "tag_l2": ["养老软件"], "business_tags": { "customer": "B2B", "role": "平台", "channel": [] } },
+      "suggested": []
+    },
+    {
+      "serial": "#0631",
+      "name": "Axle Health",
+      "intro": "居家医疗与临终关怀机构AI排班SaaS。",
+      "old_tags": { "tag_l1": ["行业服务"], "tag_l2": ["养老软件"], "business_tags": { "customer": "B2B", "role": "平台", "channel": [] } },
+      "suggested": [
+        { "action": "add", "tag": "居家医疗", "reason": "核心场景为家庭医疗/临终关怀上门排班，建议补“居家医疗”标签" }
+      ]
+    },
+    {
+      "serial": "#0640",
+      "name": "BirdWatch",
+      "intro": "面向房主（含独居老人）的居家巡查礼宾服务。",
+      "old_tags": { "tag_l1": ["养老服务"], "tag_l2": ["家政"], "business_tags": { "customer": "B2B", "role": "服务商", "channel": [] } },
+      "suggested": [
+        { "action": "add", "tag": "居家安全", "reason": "核心是定期上门安全巡查，建议补“居家安全”标签" }
+      ]
+    },
+    {
+      "serial": "#0676",
+      "name": "Conduce Health",
+      "intro": "多专科价值医疗协调平台，非老年专属。",
+      "old_tags": { "tag_l1": ["养老服务"], "tag_l2": ["护理协调"], "business_tags": { "customer": "B2B", "role": "服务商", "channel": [] } },
+      "suggested": [
+        { "action": "change", "tag": "医疗服务", "reason": "实为通用价值医疗协调平台，非养老服务，建议改为医疗服务/价值医疗" }
+      ]
+    },
+    {
+      "serial": "#0688",
+      "name": "DoorSpace",
+      "intro": "医疗行业员工关系与人才发展SaaS。",
+      "old_tags": { "tag_l1": ["养老服务"], "tag_l2": ["照护支持"], "business_tags": { "customer": "B2B", "role": "平台", "channel": [] } },
+      "suggested": [
+        { "action": "change", "tag": "医疗信息化", "reason": "非银发，属医疗机构HR SaaS" },
+        { "action": "change", "tag": "人才管理", "reason": "核心是解决护士等临床人才留任，建议改“照护支持”为“人才管理”" }
+      ]
+    }
+  ],
+  "nonsilver": [
+    { "serial": "#0489", "name": "亚马逊", "verdict": "非银发", "reason": "综合电商巨头，养老仅Alexa/药房等边缘布局，无实质银发主业" },
+    { "serial": "#0496", "name": "Cake", "verdict": "泛医疗擦边", "reason": "临终/遗产规划偏法律金融，与老年相关但非直接照护服务" },
+    { "serial": "#0676", "name": "Conduce Health", "verdict": "非银发", "reason": "通用价值医疗协调平台，无老年专属定位" },
+    { "serial": "#0688", "name": "DoorSpace", "verdict": "非银发", "reason": "医疗HR软件，不服务老年人群" }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "batch": 6,
+  "enterprises": [
+    {
+      "serial": "#1174",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 69.7,
+      "recommend": "信号稳、跨代照护集团财报透明信息量足；差异化在把儿童教育与高龄照护做成跨代融合（老幼共托/社区综合体），可复制性受国内'教育+养老'牌照与支付分割拖累——最该学的是用统一会员体系打通全生命周期服务、以数字化护理记录沉淀标准。",
+      "desc_cn": "运营360余处养老设施与儿童教育机构，主打'老幼共托'社区综合体与居家照护服务。收入来自介护保险给付、B2C会员费及B2B机构合作。核心银发价值在跨代融合照护模式——以统一会员体系串联全生命周期服务，并以自研'神AI'护理辅助系统与数字化护理记录提升照护效率，对应国内'一老一小'服务整合缺口。",
+      "payor_model": "政府介护保险+个人自付(B2C会员/B2B机构)",
+      "business_tags_role": "运营商",
+      "founded": 1955,
+      "stage": "已上市",
+      "highlights": [
+        "日本'教育+养老'跨代融合，运营360+养老设施(2025)",
+        "自研'神AI'护理辅助系统，入选联合国SDGs优秀案例",
+        "高端养老社区Aria护国寺全面部署传感器+AI护理"
+      ],
+      "events": [
+        {
+          "date": "2025-05",
+          "text": "北东北首座有偿老人HOME'リハビリホームボンセジュール菜園'开业"
+        },
+        {
+          "date": "2025-12",
+          "text": "'リハビリホームグランダ中野南'开业，引入睡眠传感器/脸认证服药AI"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "运营养老住宅与高龄照护，跨代融合模式直接服务老龄人群",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#1175",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 65.7,
+      "recommend": "信号稳、龙头连锁财报透明信息量足；差异化在居家护理连锁化与专业照护管理（Care Manager）制度，可复制性受国内长护险刚起步、照护人才短缺拖累——最该学的是以'照护管理师'为枢纽整合家访护理与医保结算的标准化运营。",
+      "desc_cn": "日本头部居家护理连锁，提供访视护理、日间照料、照护管理与健康服务。收入以政府介护保险给付与税金支付为主、个人自费补充。核心银发价值在'照护管理师(Care Manager)'枢纽模式——由专业管理师评估需求、整合家访护理与医保结算，支撑全国连锁标准化运营，对应国内长护险刚起步、照护人才短缺的运营难题。",
+      "payor_model": "政府介护保险+税金支付为主，个人自费补充",
+      "business_tags_role": "服务商",
+      "founded": 1973,
+      "stage": "已上市",
+      "highlights": [
+        "日本居家护理连锁化标杆，介护行业综合排名第一",
+        "照护管理师(Care Manager)制度整合家访护理与医保结算",
+        "业务横跨访视护理、照护管理与健康服务"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家访视护理与照护管理，直接服务失能/半失能老人",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#1177",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 64.7,
+      "recommend": "信号稳、北欧老牌硬件商信息量足；差异化在把老人机做成'简易交互+一键紧急呼叫+远程看护'的telecare闭环，可复制性高、国内老人机多为低价功能机——最该学的是用硬件入口绑定急救/子女守护订阅服务，而非单卖设备。",
+      "desc_cn": "北欧老牌适老硬件商，核心产品为简易交互老人手机与一键紧急呼叫设备，并配套远程看护(telecare)订阅服务。收入来自硬件销售与按月telecare服务费，部分由地方政府采购。核心银发价值在用'硬件入口+子女守护/急救订阅'闭环解决独居老人安全痛点，对应国内老人机多停留低价功能机、缺服务绑定的现状。",
+      "payor_model": "个人自费(硬件+telecare服务费)，部分地方政府采购",
+      "business_tags_role": "产品商",
+      "founded": 1974,
+      "stage": "已上市",
+      "highlights": [
+        "北欧老牌适老硬件商，专注老人简易手机",
+        "'一键紧急呼叫+远程看护(telecare)'产品闭环",
+        "硬件+订阅服务费双收入模式"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老人机与紧急呼叫/远程看护设备，专为老年人安全设计",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#1178",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 65.7,
+      "recommend": "信号稳、全球失禁护理龙头财报透明信息量足；差异化在品牌矩阵与渠道深度、有清晰护理级定位壁垒，可复制性高但国内成人纸尿裤仍处低价散乱——最该学的是以'护理级品牌+医疗/养老渠道'做消费升级，而非拼价格抢量。",
+      "desc_cn": "全球失禁与伤口护理领导品牌，主打成人纸尿裤、失禁护理及医疗敷料，覆盖消费与医疗双渠道。收入来自个人快消购买与B端医院/养老机构采购。核心银发价值在失禁护理这一老年刚需的'品牌化+渠道深度'——以护理级定位做消费升级而非拼价格，对应国内成人纸尿裤仍处低价散乱、缺乏强势品牌的局面。",
+      "payor_model": "个人自费(快消)+B端机构采购(医院/养老)",
+      "business_tags_role": "产品商",
+      "founded": 2017,
+      "stage": "已上市",
+      "highlights": [
+        "全球失禁护理领导品牌，2017自SCA分拆",
+        "失禁/伤口护理产品矩阵，覆盖医疗与消费渠道",
+        "成人纸尿裤品牌化与渠道深度"
+      ],
+      "events": [
+        {
+          "date": "2017",
+          "text": "自SCA分拆上市，聚焦失禁/伤口护理"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "失禁护理为老年刚需，产品直接服务失能/高龄人群",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0010",
+      "signal_strength": 6.05,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 67.2,
+      "recommend": "信号强、持二类证的数字疗法闭环信息量足；差异化在AI认知评估+训练游戏覆盖认知症早筛早干预，可复制性受国内支付方缺位拖累——最该学的是借医保/商保+社区共建'认知友好'筛查网络的获客路径。",
+      "desc_cn": "专注认知症(阿尔茨海默)的数字疗法企业，提供AI认知评估、筛查与游戏化训练产品，已获NMPA二类医疗器械注册证。收入来自B端医院/体检/保险采购与个人自费订阅。核心银发价值在'科普-筛查-诊断-干预-随访'闭环——用早筛早干预覆盖认知障碍人群，对应国内认知症知晓率低、筛查网络缺位的巨大需求。",
+      "payor_model": "B端机构(医院/体检/保险)采购+个人自费订阅",
+      "business_tags_role": "产品商",
+      "founded": 2016,
+      "stage": "A轮",
+      "highlights": [
+        "认知症(阿尔茨海默)数字疗法，持二类医疗器械注册证",
+        "'科普-筛查-诊断-干预-随访'闭环，服务超1300万用户",
+        "亿元级A+轮，千骥资本领投"
+      ],
+      "events": [
+        {
+          "date": "2025-09",
+          "text": "完成亿元级A+轮融资，千骥资本领投"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知症数字疗法，直接服务认知障碍老年人群",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0478",
+      "signal_strength": 6.05,
+      "info_score": 9,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 71.2,
+      "recommend": "信号强、临床ROI经第三方验证信息量极高；差异化在AI+执业理疗师的数字肌骨疼痛管理、以省下的手术费论证4.7倍回报，可复制性受国内商保薄弱与医患习惯拖累——最该学的是用'可量化的省钱证据'绑定企业/医保采购，而非卖课程。",
+      "desc_cn": "AI肌骨(MSK)疼痛数字理疗服务商，由AI加执业理疗师远程提供疼痛管理与康复，并以第三方验证的4.7倍临床ROI(Medicare Advantage 2026)证明可省手术费。收入来自企业/健康计划雇主采购与保险报销。核心银发价值在老年肌骨疼痛高发——用'可量化省钱证据'绑定支付方采购，对应国内商保薄弱、数字理疗缺支付闭环的困境。",
+      "payor_model": "企业/健康计划雇主采购(B2B)+保险报销(德)",
+      "business_tags_role": "服务商",
+      "founded": 2015,
+      "stage": "成长期",
+      "highlights": [
+        "AI+执业理疗师数字肌骨(MSK)疼痛管理",
+        "第三方验证ROI达4.7倍(Medicare Advantage 2026)，降低手术率",
+        "扩展女性骨盆健康，覆盖雇主/健康计划/医保优势"
+      ],
+      "events": [
+        {
+          "date": "2025-06",
+          "text": "以2.85亿美元收购德国Kaia Health"
+        },
+        {
+          "date": "2025-06",
+          "text": "再融资4000万美元、估值40亿美元，IPO推迟至2028"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "肌骨疼痛核心人群为老年人，且有专门老年临床证据与Medicare Advantage项目",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0389",
+      "signal_strength": 5.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 53.7,
+      "recommend": "信号中等、防抖勺有FDA/CE认证信息量尚可；差异化在主动抵消手抖的康复机器人+用药随访闭环，可复制性受单品市场规模小、支付以自费拖累——最该学的是以'硬件+慢病管理SaaS'绑定医院随诊，做帕金森垂直专科。",
+      "desc_cn": "专注帕金森等运动障碍的康复科技企业，核心产品为可主动抵消约85%手抖的防抖餐勺(获FDA/CE)，并配套用药随访APP形成慢病管理闭环。收入来自B端医院/康复机构采购与个人自费设备。核心银发价值在震颤老人的日常进食自理——以'硬件+慢病管理SaaS'绑定医院随诊做帕金森垂直专科，对应国内该细分器械仍稀缺。",
+      "payor_model": "B端机构(医院/康复)+个人自费(设备/服务)",
+      "business_tags_role": "产品商",
+      "founded": 2013,
+      "stage": "B轮",
+      "highlights": [
+        "帕金森防抖餐勺(睿餐)，主动抵消85%手抖，获FDA/CE",
+        "'餐勺+医动力APP'用药随访慢病管理闭环",
+        "B+轮(2021)，产品销往10+国"
+      ],
+      "events": [
+        {
+          "date": "2021-09",
+          "text": "完成1亿元B+轮融资(启明创投、斯道资本)"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "帕金森为老年高发运动障碍，智能餐勺直接服务震颤老人",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0466",
+      "signal_strength": 5.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 62.6,
+      "recommend": "信号中高、NHS合同+AI降住院率70%信息量足；差异化在用上门护理数据训练风险预测、替政府省百万英镑/日，可复制性受国内政府买单模式不同拖累——最该学的是以'数据预测+上门服务'撬动长护险/民政采购的降本逻辑。",
+      "desc_cn": "英国数字优先居家医疗龙头，提供上门护理并用人上门护理数据训练AI风险预测，使病情恶化预警比传统快约30倍、住院率降约70%。收入约90%来自NHS/地方政府合同。核心银发价值在'数据预测+上门服务'的政府降本逻辑——用降低住院率替财政省钱撬动采购，对应国内长护险/民政居家养老的降本需求。",
+      "payor_model": "政府NHS/地方政府合同(B2G)为主+个人自付",
+      "business_tags_role": "服务商",
+      "founded": 2016,
+      "stage": "成长期",
+      "highlights": [
+        "欧洲最大数字优先居家医疗，覆盖3000万人口",
+        "AI预测病情恶化比传统快30倍，住院率降70%",
+        "90%收入来自NHS/地方政府合同；2025获1.5亿美元"
+      ],
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "完成超1.5亿美元融资，累计13轮约4.21亿美元"
+        },
+        {
+          "date": "2026",
+          "text": "预计每年为NHS节省10亿英镑"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家上门护理主要服务高龄与慢性病患者，AI预测降住院率",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0468",
+      "signal_strength": 5.55,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 3,
+      "research_value": 59.6,
+      "recommend": "信号中、以色列手术机器人技术信息量足；差异化在白内障手术机器人解决外科医生短缺、对准老龄化视力刚需，可复制性低——国内达芬奇腔镜已验证路径但眼科机器人仍早，最该学的是'专科手术机器人+培训生态'的落地节奏。",
+      "desc_cn": "以色列眼科手术机器人企业，主营白内障等手术机器人，解决外科医生短缺、对准老龄化视力刚需，已获ISO 13485认证并启动首例人体临床试验。收入将来自B端医院采购与患者自费手术费。核心银发价值在高龄白内障高发——用专科手术机器人提升可及性，对应国内眼科手术机器人仍处早期、达芬奇腔镜已验证路径的窗口。",
+      "payor_model": "B端医疗机构/医院采购+患者自费(手术费)",
+      "business_tags_role": "产品商",
+      "founded": 2020,
+      "stage": "B轮",
+      "highlights": [
+        "白内障等眼科手术机器人，解决外科医生短缺",
+        "获ISO 13485认证，启动首例人体临床试验",
+        "累计融资1.95亿美元，Eclipse领投"
+      ],
+      "events": [
+        {
+          "date": "2025-06",
+          "text": "完成1.25亿美元B轮(累计1.95亿)"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "白内障手术需求集中于高龄人群，机器人提升可及性",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0683",
+      "signal_strength": 5.55,
+      "info_score": 9,
+      "diff_score": 8,
+      "copy_score": 4,
+      "research_value": 67.6,
+      "recommend": "信号中高、保险+自研平台信息量足；差异化在把老年医保优势计划与自研技术平台、虚拟医疗及'健康向导'捆绑，可复制性受国内社保框架不同拖累——最该学的是'保险+服务一体化'用健康结果换保费竞争力的打法。",
+      "desc_cn": "美国Medicare Advantage(老年医保优势计划)一体化险企，将保险与自研技术平台、虚拟/居家医疗及'健康向导'捆绑。收入来自政府CMS按人头给付与个人保费。核心银发价值在'保险+服务一体化'——用健康结果换保费竞争力，对应国内商业长护险与'保险+康养'融合刚起步、缺运营经验的现状。",
+      "payor_model": "政府CMS医保给付(按人头付费)+个人保费",
+      "business_tags_role": "服务商",
+      "founded": 2017,
+      "stage": "成长期",
+      "highlights": [
+        "面向老年Medicare Advantage的一体化保险+医疗",
+        "自研Orinoco平台+虚拟/居家医疗+健康向导",
+        "覆盖多州、多次入选最佳联邦医保优先计划"
+      ],
+      "events": [
+        {
+          "date": "2026-01",
+          "text": "完成F轮3.66亿美元融资"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为老年Medicare受益人群设计的医保优势计划险企",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0866",
+      "signal_strength": 5.55,
+      "info_score": 9,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 61.6,
+      "recommend": "信号中高、公司新闻稿与第三方报道透明信息量足；差异化在AI精准分诊心理福利、以2.2倍ROI绑定雇主采购，反共识性低、国内已有同类竞品入局——最该学的是用'可量化省费证据'说服企业EAP采购，而非堆功能凑数。",
+      "desc_cn": "AI精准心理健康福利平台，用算法为员工匹配心理咨询与治疗资源，独立研究认证每投入1美元省2.2美元。收入来自雇主与健康计划订阅，员工免费使用。核心银发价值有限——客群以在职雇员为主、老年用户占比小，但'可量化省费'说服企业EAP采购的逻辑，可为国内老年心理服务B端付费提供参考。",
+      "payor_model": "B端机构付费(雇主与健康计划订阅，员工免费)",
+      "business_tags_role": "平台",
+      "founded": 2016,
+      "stage": "成长期",
+      "highlights": [
+        "AI精准心理健康匹配，覆盖超1000万生命",
+        "独立研究认证每投入$1省$2.20(2.2x ROI)",
+        "客户含微软/Target/JPMorgan等400+雇主"
+      ],
+      "events": [
+        {
+          "date": "2024-07",
+          "text": "完成1亿美元E轮、估值33亿美元"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "雇主心理福利平台，并非专为老龄设计，老年用户仅占客群一小部分",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    },
+    {
+      "serial": "#0886",
+      "signal_strength": 5.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 62.6,
+      "recommend": "信号中高、多次并购与创始团队光环信息量足；差异化在'收入与雇主省下的医疗费挂钩'的激励设计，可复制性受国内自保雇主体系缺位拖累——最该学的是'省钱才赚钱'的支付绑定，而非简单做就医导航。",
+      "desc_cn": "由Livongo创始人创立的AI医疗福利导航平台，提供生成式AI导诊(WayFinding)整合手术、药房与虚拟问诊，并以'收入与雇主省下的医疗费挂钩'为激励。收入来自自保雇主/健康计划付费。核心银发价值有限——客群以在职雇员为主、老龄为泛化覆盖，其'省钱才赚钱'的支付绑定逻辑可为国内就医导航商业化提供借鉴。",
+      "payor_model": "B端机构付费(自保雇主/健康计划，与省费挂钩)",
+      "business_tags_role": "平台",
+      "founded": 2020,
+      "stage": "成长期",
+      "highlights": [
+        "Livongo创始人创立的AI医疗福利导航",
+        "'WayFinding'生成式AI导诊，整合手术/药房/虚拟问诊",
+        "2025以6.21亿美元收购Accolade，估值约22亿"
+      ],
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "以6.21亿美元收购Accolade，估值约22亿"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "面向自保雇主的就医导航平台，客群以在职雇员为主，老龄为泛化覆盖",
+      "数据来源": "联网精评",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null
+    }
+  ],
+  "tag_review": [
+    {"serial": "#1174", "name": "Benesse", "intro": "日本'教育+养老'跨代融合运营商，运营360+养老设施并以自研'神AI'提升护理效率。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "养老服务", "reason": "运营360+养老设施，为核心业务"}, {"action": "add", "tag": "跨代融合", "reason": "老幼共托社区综合体独创模式"}, {"action": "add", "tag": "认知症照护", "reason": "神AI重点支持BPSD管理"}]},
+    {"serial": "#1175", "name": "Nichii Gakkan", "intro": "日本居家护理连锁龙头，以照护管理师制度整合家访护理与医保结算。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "居家护理", "reason": "访视护理+日间照料连锁化"}, {"action": "add", "tag": "照护管理", "reason": "Care Manager枢纽整合医保结算"}, {"action": "add", "tag": "长护险服务", "reason": "对应国内长护险运营参考"}]},
+    {"serial": "#1177", "name": "Doro", "intro": "北欧老牌适老硬件商，做老人机+一键紧急呼叫+telecare订阅。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "适老硬件", "reason": "简易交互老人手机为核心"}, {"action": "add", "tag": "紧急呼叫", "reason": "一键SOS是产品关键功能"}, {"action": "add", "tag": "远程看护", "reason": "telecare订阅服务形成闭环"}]},
+    {"serial": "#1178", "name": "Essity", "intro": "全球失禁与伤口护理领导品牌，覆盖消费与医疗双渠道。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "失禁护理", "reason": "成人纸尿裤为核心银发刚需"}, {"action": "add", "tag": "成人纸尿裤", "reason": "品牌化消费级产品"}, {"action": "add", "tag": "伤口护理", "reason": "医疗敷料补齐B端渠道"}]},
+    {"serial": "#0010", "name": "博斯腾", "intro": "认知症数字疗法企业，持二类证、服务超1300万用户。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "认知症数字疗法", "reason": "持NMPA二类证的核心模式"}, {"action": "add", "tag": "早筛早干预", "reason": "科普-筛查-干预-随访闭环"}, {"action": "add", "tag": "脑健康", "reason": "支付宝入口覆盖千万级用户"}]},
+    {"serial": "#0478", "name": "Sword Health", "intro": "AI肌骨疼痛数字理疗服务商，以4.7倍临床ROI绑定支付方。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "数字理疗", "reason": "AI+执业理疗师远程康复"}, {"action": "add", "tag": "肌骨疼痛", "reason": "MSK为最大成本驱动人群含老年"}, {"action": "add", "tag": "AI康复", "reason": "AI Care平台跨生理/心理/女性健康"}]},
+    {"serial": "#0389", "name": "Gyenno", "intro": "帕金森康复科技企业，防抖餐勺(睿餐)获FDA/CE。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "帕金森康复", "reason": "专注运动障碍垂直专科"}, {"action": "add", "tag": "防抖餐勺", "reason": "主动抵消85%手抖的旗舰硬件"}, {"action": "add", "tag": "慢病管理", "reason": "医动力APP用药随访闭环"}]},
+    {"serial": "#0466", "name": "Cera Care", "intro": "英国AI居家医疗龙头，90%收入来自NHS/地方政府合同。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "居家医疗", "reason": "上门护理+AI风险预测"}, {"action": "add", "tag": "政府合同", "reason": "B2G降本逻辑撬动采购"}, {"action": "add", "tag": "AI预测", "reason": "住院率降70%的核心能力"}]},
+    {"serial": "#0468", "name": "ForSight Robotics", "intro": "以色列眼科(白内障)手术机器人商，已启动首例人体临床。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "手术机器人", "reason": "专科手术机器人定位"}, {"action": "add", "tag": "眼科", "reason": "白内障等眼科术式"}, {"action": "add", "tag": "白内障", "reason": "需求集中于高龄人群"}]},
+    {"serial": "#0683", "name": "Devoted Health", "intro": "美国Medicare Advantage一体化险企，保险+自研平台+健康向导。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "医保优势计划", "reason": "专为老年Medicare受益人群"}, {"action": "add", "tag": "保险+医疗", "reason": "垂直一体化整合服务"}, {"action": "add", "tag": "健康管理", "reason": "Orinoco平台+健康向导"}]},
+    {"serial": "#0866", "name": "Spring Health", "intro": "AI精准心理健康雇主福利平台，2.2倍ROI绑定雇主采购。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "心理健康", "reason": "AI精准分诊心理福利"}, {"action": "add", "tag": "雇主福利", "reason": "B端订阅、员工免费"}, {"action": "add", "tag": "EAP", "reason": "对应企业员工帮助计划采购"}]},
+    {"serial": "#0886", "name": "Transcarent", "intro": "Livongo创始人创立的AI医疗福利导航平台，'省钱才赚钱'支付绑定。", "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null}, "suggested": [{"action": "add", "tag": "医疗导航", "reason": "WayFinding生成式AI导诊"}, {"action": "add", "tag": "就医福利", "reason": "面向自保雇主的福利平台"}, {"action": "add", "tag": "AI导诊", "reason": "整合手术/药房/虚拟问诊"}]}
+  ],
+  "nonsilver": [
+    {"serial": "#0866", "name": "Spring Health", "verdict": "泛医疗擦边", "reason": "雇主心理福利平台，并非专为老龄设计，老年用户仅占客群一小部分，银发价值有限。"},
+    {"serial": "#0886", "name": "Transcarent", "verdict": "泛医疗擦边", "reason": "面向自保雇主的就医导航平台，客群以在职雇员为主，老龄为泛化覆盖，非核心银发。"}
+  ]
+}

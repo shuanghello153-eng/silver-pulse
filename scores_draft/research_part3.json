@@ -1,0 +1,119 @@
+{
+  "enterprises": [
+    {
+      "serial": "#0030",
+      "founded_verified": "2017-01-05（杭州程天科技发展有限公司注册成立）",
+      "hq": "浙江杭州（余杭区未来科技城）",
+      "one_liner": "外骨骼机器人技术公司，专注医疗康复与养老助行，为行动不便老人及残障人群提供下肢康复外骨骼与消费级助行外骨骼。",
+      "key_products": ["下肢外骨骼机器人（UGO悠行等，获国内首个神经康复NMPA注册证）", "消费级助行外骨骼（速行髋关节助力外骨骼，专为老人助行/社区康养）", "康复辅助机器人（UFU悠扶）", "工业/特种外骨骼"],
+      "funding_latest_corrected": {"round": "B+轮", "amount": "约1亿元人民币（亿元级）", "currency": "RMB", "date": "2026-03-05", "investors": ["农银资本（农银投资，领投）", "汇川产投", "杭州资本"]},
+      "funding_total_corrected": {"amount": "累计约3.90亿元人民币（公开披露9次融资）", "currency": "RMB"},
+      "events": ["2026-03-05 完成亿元级B+轮融资（农银资本领投），一年内第二轮", "2025-03-27 完成近亿元B轮（锡创投、国联投资）", "2022-02 完成过亿元A+轮（达晨财智、国投证券、保利资本、蓝驰创投）", "2025年 入选国家级专精特新'小巨人'企业", "2026年 出海品牌Ascentiz登陆Kickstarter，45天筹款超250万美元"],
+      "payor_model": "混合（B端：医院/康复机构采购；C端：消费级外骨骼个人自付）",
+      "business_tags_suggest": {"role": "器械商（康复机器人/外骨骼制造商）", "note": "兼具B2B医疗设备与B2C消费级硬件双属性，可加'科技服务商'"},
+      "latest_news": [
+        {"title": "程天科技再获亿元级B+轮融资，农银资本领投，加速外骨骼'人机融合'新消费时代", "date": "2026-03-05", "source": "web", "url": "https://new.qq.com/rain/a/20260305A01RWK00"},
+        {"title": "程天科技斩获亿元级B+轮融资", "date": "2026-03-05", "source": "web", "url": "https://www.sohu.com/a/992687388_118792"},
+        {"title": "程天科技获近亿元B轮（具身智能外骨骼）", "date": "2025-03-27", "source": "web", "url": "https://m.36kr.com/p/3222526561422466"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "核心产品专为老年人助行/康复设计，明确服务老龄化与养老场景（速行髋关节助力外骨骼面向老人助行、社区康养），银发刚需属性强。",
+      "info_aid": "程天科技是国内外骨骼康复机器人领军企业、国家级专精特新小巨人，产品直接服务老年行动障碍群体，已累计服务超92万人次，银发刚需属性强。",
+      "diff_aid": "与通用康复器械不同，程天以'消费级助行外骨骼'切入银发新消费，医疗+消费双轮驱动，具身智能+脑机接口技术壁垒高，且已出海众筹验证。",
+      "copy_aid": "可讲'外骨骼从康复工具到老人日常助力伙伴'的科技向善故事，亚残运会/景区助行案例与250万美元出海众筹适合做银发科技叙事。",
+      "sources": ["https://www.roboct.com/qiyedongtai/351", "https://vc.pedaily.cn/company/123101", "https://vcbeat.net/comp/ba8b4010ab3311e8931b79dee1dcac67", "https://36kr.com/project/1679674699846402"]
+    },
+    {
+      "serial": "#0038",
+      "founded_verified": "2019年（以在线学习业务启牛学堂2019年7月上线为起点）；前身尔湾科技2017年3月成立，2022年3月品牌升级为量子之歌。库内'2012'不实（2012年为创始人早期已注销的外卖项目）",
+      "hq": "北京",
+      "one_liner": "成人终身学习服务提供商（NASDAQ:QSG），旗下启牛学堂（财商）、讲真（成人素养）、千尺学堂（中老年兴趣学习/银发研学），以'线上+线下'兴趣学习切入银发教育。",
+      "key_products": ["启牛学堂（金融素养在线课程）", "讲真（成人技能/素养）", "千尺学堂（中老年兴趣学习+千尺游学+四季千尺社区老年学堂）", "潮玩业务（奇梦岛/Letsvan，2025起战略转型）"],
+      "funding_latest_corrected": {"round": "IPO（纳斯达克上市）", "amount": "约4063万美元（发行325万份ADS，每股12.50美元）", "currency": "USD", "date": "2023-01-25", "investors": ["公众投资者（NASDAQ:QSG）"]},
+      "funding_total_corrected": {"amount": "上市前累计超3亿美元（含DCM/GGV/启明创投/险峰长青/新东方产业基金等）", "currency": "USD"},
+      "events": ["2023-01-25 纳斯达克IPO（QSG），为中概股底稿审查落地后首家赴美上市中企", "2022-03-30 尔湾科技品牌升级为量子之歌", "2025年 战略转型潮玩，全资控股深圳熠起文化（Letsvan/奇梦岛）", "2025年 千尺学堂深化银发布局，获评中福协文化养老分会副会长单位", "2025财年营收27.26亿元（同比降28.18%），净利3.57亿元"],
+      "payor_model": "个人自付（C端课程费为主，毛利率超80%）；含B端企业/金融服务",
+      "business_tags_suggest": {"role": "服务商（教育/内容平台）", "note": "可加'平台'；银发侧为'服务商(银发教育/文旅)'"},
+      "latest_news": [
+        {"title": "量子之歌发布2025财年财报：营收27.26亿元，净利3.57亿元，战略聚焦潮玩", "date": "2025-09-17", "source": "web", "url": "https://m.dutenews.com/n/article/10128185"},
+        {"title": "深耕银发市场文化养老领域，量子之歌成中福协文化养老分会副会长单位", "date": "2025", "source": "web", "url": "https://www.huashangtop.com/topi/1/360776.html"},
+        {"title": "量子之歌靠卖课给老人毛利超80%，过半营收砸向营销获客", "date": "2025-03-11", "source": "web", "url": "http://www.looktmt.com/0068/903/62257224632.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "旗下千尺学堂、四季千尺社区老年学堂、千尺游学均专为中老年兴趣学习与银发文旅设计，公司为中福协文化养老分会副会长单位、战略定位于银发经济（尽管集团整体含全龄财商业务）。",
+      "info_aid": "量子之歌旗下千尺学堂是中老年兴趣学习头部平台，累计注册用户约1.396亿，以'线上课程+线下游学+社区学堂'服务银发群体精神文化需求，银发教育赛道政策友好。",
+      "diff_aid": "区别于普通教育机构，量子之歌把'卖课'沉淀的信任关系延展到银发文旅/健康消费品，构建'教育入口+康养旅居+健康消费'银发生态，且已转向银发深耕。",
+      "copy_aid": "可讲'退休后的人生第二课堂'叙事（书法八段锦到游学看世界）呼应积极老龄化；但须平衡'卖课给老人'争议与投诉舆情，叙事需审慎。",
+      "sources": ["https://finance.sina.com.cn/stock/relnews/2023-02-16/doc-imyfwcct1269444.shtml", "https://www.iheima.com/article-349571.html", "https://m.dutenews.com/n/article/10128185", "https://www.huashangtop.com/topi/1/360776.html"]
+    },
+    {
+      "serial": "#0070",
+      "founded_verified": "1999-05-28（广东中顺纸业集团有限公司成立）",
+      "hq": "广东中山",
+      "one_liner": "国内首批A股上市的生活用纸龙头（002511.SZ），以'洁柔'等品牌主营生活用纸，近年通过子公司广东老桐学跨界布局银发产业（老年大学/游学/健康养老）。",
+      "key_products": ["生活用纸（Face系列等八大品牌）", "个护用品（朵蕾蜜卫生巾等）", "健康精品（棉柔巾/湿厕纸/一次性用品）", "银发侧：广东老桐学（银发学校/老年游学）"],
+      "funding_latest_corrected": {"round": "IPO（深交所主板）", "amount": "2010-11-25 A股IPO募资（无近期外部融资轮次）", "currency": "RMB", "date": "2010-11-25", "investors": ["公众股东（002511.SZ）"]},
+      "funding_total_corrected": {"amount": "A股上市公司（无外部融资轮次，主营靠经营现金流）", "currency": "RMB"},
+      "events": ["2010-11-25 深交所上市，国内首批A股生活用纸企业", "2024-12 设全资子公司广东老桐学（出资500万元）布局银发产业（老年大学/游学）", "2025年 获银发消费创新大奖", "2026-03 参加2026银发健康消费峰会，推'药房转型健康服务中心'渠道合作"],
+      "payor_model": "混合（个人自付：C端零售纸品/护理品；B端：商消/药店/机构渠道）",
+      "business_tags_suggest": {"role": "制造商（快消/个护用品）", "note": "新拓'服务商(银发教育/游学)'（经老桐学子公司的跨界尝试）"},
+      "latest_news": [
+        {"title": "中顺洁柔于广东中山市新设公司 探索健康养老、老年游学等领域", "date": "2024-12-17", "source": "web", "url": "https://m.zhitongcaijing.com/article/share.html?content_id=954087"},
+        {"title": "最新嘉宾阵容发布！中顺洁柔等确认参加2026银发健康消费峰会", "date": "2026", "source": "web", "url": "https://www.toutiao.com/article/7615435213108871726"},
+        {"title": "银发健康消费'新战场'：中顺洁柔谈药店从'药品销售'转向'健康服务中心'", "date": "2026-03-30", "source": "web", "url": "https://caifuhao.eastmoney.com/news/20260330092557296669650"}
+      ],
+      "silver_verdict": "非银发",
+      "silver_reason": "主业为全龄生活用纸快消，银发仅通过新设子公司老桐学试水老年教育/游学，尚无比重大、非专为老人设计，属跨界擦边而非核心银发。",
+      "info_aid": "中顺洁柔是A股生活用纸龙头，品牌与渠道力强，2024年底新设老桐学子公司试水银发（老年大学/游学），但目前银发收入占比极低、尚处布局期。",
+      "diff_aid": "与纯银发企业不同，其银发布局是快消巨头用品牌/渠道跨界，靠'纸品+护理+老年教育/游学'组合触达银发，协同性待验证。",
+      "copy_aid": "可讲'一张纸到美好生活陪伴者'的国民品牌转型故事，但银发叙事素材单薄，需谨慎避免夸大银发占比。",
+      "sources": ["https://www.zsjr.com/", "https://m.zhitongcaijing.com/article/share.html?content_id=954087", "https://caifuhao.eastmoney.com/news/20260330092557296669650", "https://www.toutiao.com/article/7615435213108871726"]
+    },
+    {
+      "serial": "#0082",
+      "founded_verified": "2005-03-23（亲和源集团有限公司，前身上海康桥公共事业投资有限公司）",
+      "hq": "上海（浦东新区）",
+      "one_liner": "国内高端会员制养老社区（CCRC）运营商，融居家/社区/机构养老于一体，旗舰店上海浦东康桥，为宜华健康（已退市）全资子公司。",
+      "key_products": ["会员制养老社区（亲和源老年公寓）", "养老会员卡（A卡/B卡/熟年卡/岁悦卡，可继承转让）", "秘书式+三师服务、康复护理、医养结合", "旅居养老（亲和旅居）及枣庄/大目湾等连锁项目"],
+      "funding_latest_corrected": {"round": "被并购（宜华健康全资收购）", "amount": "约4.08亿元人民币（累计收购对价，分两次）", "currency": "RMB", "date": "2016", "investors": ["宜华健康医疗股份有限公司"]},
+      "funding_total_corrected": {"amount": "约5.08亿元（2010年A轮1亿+2016年被收购4.08亿）", "currency": "RMB"},
+      "events": ["2008-05 上海亲和源老年公寓正式开园（国内首个会员制养老社区）", "2010-12 完成A轮1亿元融资（挚信资本）", "2016年 宜华健康分两次全资收购，签业绩对赌（2019起对赌失败、连续亏损）", "2025-09 枣庄项目获农行牵头6.2亿元养老银团贷款", "2026-01 枣庄亲和源康养中心三期试运营；存在多起合同纠纷/失信被执行风险"],
+      "payor_model": "个人自付（高客单会员卡费+年度服务费为主）",
+      "business_tags_suggest": {"role": "服务商（养老社区运营商/会员制养老地产）", "note": "兼具'地产REITs'式预付费会员制属性"},
+      "latest_news": [
+        {"title": "枣庄首笔6.2亿元养老银团贷款落地，亲和源康养社区三期建设提速", "date": "2025-09-19", "source": "web", "url": "http://www.zzrbw.com/zzrbPaper/pad/con/202509/19/content_75738.html"},
+        {"title": "锚定'圈圈相融' 激活银发经济 亲和源新年开局跑出加速度", "date": "2026-01-16", "source": "web", "url": "https://mp.weixin.qq.com/s?__biz=MzIyMDE5MzQxOQ==&mid=2653448808&idx=5"},
+        {"title": "亲和源股份有限公司（百度百科，含历史沿革与法律风险）", "date": "2026", "source": "web", "url": "https://baike.baidu.com/item/%E4%BA%B2%E5%92%8C%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/19991356"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "亲和源是专为老年人设计的高端会员制CCRC养老社区，业务完全围绕养老（居家/社区/机构一体化、康复护理、旅居养老），银发属性纯粹且明确。",
+      "info_aid": "亲和源是中国高端会员制养老社区标杆，2008年上海康桥开园，CCRC全周期照护模式成熟，布局全国多城，2024年位列中国养老产业品牌前十。",
+      "diff_aid": "与地产REITs不同，亲和源以'会员卡+年费'预付费模式锁定高净值老人，但曾陷对赌失败、亏损与会员费纠纷舆情，扩张已转'坚守与收缩'。",
+      "copy_aid": "可讲'快乐养老'理念与CCRC中国式样本，但须提示法律/失信风险与对赌教训，叙事需平衡、不宜过度美化。",
+      "sources": ["https://baike.baidu.com/item/%E4%BA%B2%E5%92%8C%E6%BA%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/19991356", "https://m.qcc.com/firm/1dfdba0d680f5722e1af701e8eb0ed20.html", "http://www.zzrbw.com/zzrbPaper/pad/con/202509/19/content_75738.html", "https://www.qinheyuan.com"]
+    },
+    {
+      "serial": "#0086",
+      "founded_verified": "1993-08-16（仙乐健康科技股份有限公司）",
+      "hq": "广东汕头（泰山路83号）",
+      "one_liner": "营养保健食品CDMO龙头（创业板300791.SZ），为全球品牌提供研发/代工一站式解决方案，覆盖软糖/软胶囊/口服液等多剂型，深度布局银发营养与抗衰。",
+      "key_products": ["营养健康食品CDMO（软胶囊、软糖、口服液、片剂、粉剂）", "抗衰研究院（SIRIO Institute on Ageing，2025成立）", "循证营养平台WELMAX", "银发营养/健康老龄化产品线、宠物营养"],
+      "funding_latest_corrected": {"round": "IPO（深交所创业板）", "amount": "2019-09-25 创业板IPO募资（无近期外部融资轮次）", "currency": "RMB", "date": "2019-09-25", "investors": ["公众股东（300791.SZ）"]},
+      "funding_total_corrected": {"amount": "A股上市公司（2019创业板IPO）；另通过收购德国Ayanda、美国Best Formulations扩张", "currency": "RMB"},
+      "events": ["2019-09-25 深交所创业板上市（300791.SZ），A股首家营养保健食品研发生产型上市公司", "2016年 收购德国Ayanda；2023年 收购美国Best Formulations", "2025年 成立仙乐健康抗衰研究院（联合莱布尼兹老龄化研究所等）", "2026-04 牵头发布'循证营养技术规范'团体标准（T/CS 283-2026）", "2026年 泰国工厂及美国软糖二线投产，发布TGA软糖家族"],
+      "payor_model": "B端机构付费（品牌商/零售商代工，CDMO模式为主）",
+      "business_tags_suggest": {"role": "制造商（营养保健品CDMO/代工）", "note": "toB供应链属性强，C端声量弱"},
+      "latest_news": [
+        {"title": "AI高通量筛选'提速'抗衰研发，仙乐健康画出一张新路线图", "date": "2026-05", "source": "web", "url": "https://www.siriopharma.com/news/459.html"},
+        {"title": "仙乐健康：精准营养业务完成商业化验证 泰国工厂及美国软糖二线投产", "date": "2026-04-23", "source": "web", "url": "https://www.cls.cn/detail/xk/c97915abdae3f605a28afc73608427a4"},
+        {"title": "循证为本 科技赋能｜仙乐健康30余款新品重磅发布（含银发营养赛道）", "date": "2026-04-23", "source": "web", "url": "https://www.cfsn.cn/news/detail/2137/345777.html?view=pc"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "主营全龄营养保健品CDMO，银发/抗衰健康老龄化是其重点人群赛道之一（官网明确列middle-aged and elderly）但非专为老人，属泛健康擦边。",
+      "info_aid": "仙乐健康是A股营养保健品CDMO龙头（按2024收入中国第一），具备软糖/软胶囊等多剂型与全球7大基地，银发营养（骨关、心脑、抗衰）是其明确布局的人群赛道。",
+      "diff_aid": "与品牌方不同，仙乐是'卖铲子'的代工研发商，不直接面向老人，但凭循证营养与抗衰研究院（联合莱布尼兹老龄化研究所）卡位银发健康供应链上游。",
+      "copy_aid": "可讲'为全球银发品牌造好营养'的幕后供应链故事+抗衰科学叙事，但需注意其toB属性、C端声量弱，银发需借客户案例体现。",
+      "sources": ["https://www.siriopharma.com/about/zl46b.html", "https://www.siriopharma.com/news/459.html", "https://www.cls.cn/detail/xk/c97915abdae3f605a28afc73608427a4", "https://baike.weixin.qq.com/v168033177.htm"]
+    }
+  ]
+}

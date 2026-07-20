@@ -1,0 +1,602 @@
+[
+ {
+  "serial": "#0741",
+  "name": "Imperative Care",
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2015,
+  "funding_latest": {
+   "date": "2024年7月",
+   "amount": "1.5亿美元",
+   "round": "E轮",
+   "display": "E轮 1.5亿美元 (2024年7月)"
+  },
+  "funding_total": {
+   "amount": "$696M",
+   "display": "$696M (含2026年1亿美元可转债)"
+  },
+  "investors": "Ally Bridge Group, Bain Capital Life Sciences, Perceptive Advisors, Elevage Medical Technologies, Catalio Capital Management",
+  "payor_model": "B端机构采购（医院/诊所）",
+  "desc_cn": "神经血管介入器械商，专注卒中与血栓取栓",
+  "recommend": "信号强、FDA管线与招股信息透明，信息量足；差异化在把取栓做成覆盖卒中到外周血管的平台，可复制性受高值耗材注册与术者生态限制——最该学'以单点临床痛点切入再平台化扩张'的器械路径，国内可对标神经介入集采下的差异化耗材。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "Zoom Stroke System 取栓系统获FDA许可，覆盖缺血性卒中全流程",
+   "累计融资约6亿美元，2026年再获1亿美元可转债推进血管介入",
+   "分拆 Telos 血管介入机器人平台与 Kandu 卒中康复数字健康子公司"
+  ],
+  "events": [
+   {
+    "date": "2019-12",
+    "text": "完成8500万美元C轮融资，加速卒中取栓产品商业化"
+   },
+   {
+    "date": "2024-07",
+    "text": "完成1.5亿美元E轮融资"
+   },
+   {
+    "date": "2026-03",
+    "text": "完成1亿美元可转债融资，推进血管介入管线"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 5.0,
+  "copy_score": 4.0,
+  "research_value": 52.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "神经血管介入器械用于卒中(老年高发)，但属通用医疗器械，非银发专属产品",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#0772",
+  "name": "Mable",
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2017,
+  "funding_latest": {
+   "date": "2021年9月",
+   "amount": "1亿美元",
+   "round": "私募股权",
+   "display": "私募股权 1亿美元 (2021年9月)"
+  },
+  "funding_total": {
+   "amount": "$100M+",
+   "display": "$100M+"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费（用户直付护工）+平台佣金",
+  "desc_cn": "澳大利亚居家照护交易市场，对接老人与独立护工",
+  "recommend": "信号中等、平台抽佣模式轻量透明，信息量一般；差异化在用户直付护工、平台抽佣的撮合，可复制性高——最该学的是把零散居家照护做成类滴滴的按需市场，国内难点在缺乏NDIS式支付与护工资质信任，宜从高净值居家照护切入。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "连接老年与残障用户与独立护工，按需雇佣上门照护/接送/陪伴",
+   "用户直付护工、平台按交易额抽佣的轻资产模式",
+   "依托澳洲NDIS残障与养老支持体系获取需求"
+  ],
+  "events": [
+   {
+    "date": "2021-09",
+    "text": "完成1亿美元私募股权融资"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 5.0,
+  "diff_score": 5.0,
+  "copy_score": 6.0,
+  "research_value": 50.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "直接为老年人与残障者匹配居家照护与陪伴服务，核心服务银发人群",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0789",
+  "name": "Modivcare",
+  "name_cn": null,
+  "region": null,
+  "stage": "已上市",
+  "founded": 2021,
+  "funding_latest": {
+   "date": "2024年7月",
+   "amount": "5.25亿美元",
+   "round": "定期贷款",
+   "display": "定期贷款 5.25亿美元 (2024年7月)"
+  },
+  "funding_total": {
+   "amount": "未搜到",
+   "display": "纳斯达克上市公司(MODV)，营收约27-29亿美元/年"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "政府医保(Medicaid)+商业保险支付",
+  "desc_cn": "美国院后护理物流平台，整合转运/护理/远程监测",
+  "recommend": "信号中等、公司财报与医保绑定透明，信息量尚可；差异化在整合非紧急转运+居家护理+远程监测的院后护理，可复制性受Medicaid/MA支付与重资产拖累——最该学'以医保控费入口整合碎片化院后服务'思路，国内宜学支付方协同而非重资产照搬。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "整合非紧急医疗转运、个人护理与远程患者监测的一体化院后护理网络",
+   "深度对接Medicaid与Medicare Advantage会员，做医保控费入口",
+   "5.25亿美元定期贷款支撑全国护理物流扩张"
+  ],
+  "events": [
+   {
+    "date": "2024-07",
+    "text": "完成5.25亿美元定期贷款融资"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 6.0,
+  "diff_score": 5.0,
+  "copy_score": 3.0,
+  "research_value": 47.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "为老年及失能人群提供医疗转运、居家护理与远程监测，是银发 care logistics 核心环节",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0869",
+  "name": "Stepful",
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2026年6月",
+   "amount": "$5700万",
+   "round": "C轮",
+   "display": "C轮 $5700万 (2026年6月)"
+  },
+  "funding_total": {
+   "amount": "$112M",
+   "display": "累计约$1.1亿(含2026年C轮5700万)"
+  },
+  "investors": "Oak HC/FT (lead)",
+  "payor_model": "学员学费+收入分成(ISA)",
+  "desc_cn": "短期在线培训医疗助理，按收入分成输送养老机构",
+  "recommend": "信号中等、课程与就业闭环清晰，信息量一般；差异化在用短周期在线培训+临床实习批量供给一线护理人力，并用收入分成绑定结果，可复制性高——最该学的是'以护理人力短缺为锚点、培训即输送'的轻资产模式，国内可对标养老护理员职业资格与灵活用工结合。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "短周期在线课程+临床实习，快速培养医疗助理/护理员",
+   "学费或收入分成(ISA)模式，毕业即输送至养老机构与医院",
+   "直击照护人力短缺，C轮5700万美元加速扩张"
+  ],
+  "events": [
+   {
+    "date": "2026-06",
+    "text": "完成5700万美元C轮融资，Oak HC/FT领投"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 52.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "为养老/医疗机构批量培养一线护理人力，直接支撑银发照护供给",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0966",
+  "name": "Duos",
+  "name_cn": null,
+  "region": null,
+  "stage": "B轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2025.10",
+   "amount": "1.3亿美元",
+   "round": "B轮",
+   "display": "B轮 1.3亿美元 (2025.10)"
+  },
+  "funding_total": {
+   "amount": "$167M",
+   "display": "累计$167M (截至2025年10月)"
+  },
+  "investors": "FTV Capital, Forerunner Ventures, SJF Ventures, Castellan",
+  "payor_model": "商业保险支付（Medicare Advantage）",
+  "desc_cn": "AI健康导航平台，帮老年用户激活并使用保险福利",
+  "recommend": "信号强、Medicare Advantage绑定与会员福利激活透明，信息足；差异化在AI助老年用户吃透复杂健康福利导航，可复制性受国内商保薄弱制约——最该学'站支付方侧做老年健康福利激活与履约'，国内可切入惠民保/企业福利导航。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "聚焦Medicare Advantage会员的福利激活与健康导航，AI驱动",
+   "B轮1.3亿美元，累计融资约1.67亿美元",
+   "连接支付方与老年用户，提升保险福利利用率"
+  ],
+  "events": [
+   {
+    "date": "2025-10",
+    "text": "完成1.3亿美元B轮融资，FTV Capital领投"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 58.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专门服务老年群体、帮其用好健康保险福利，深度绑定银发支付方",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0974",
+  "name": "Eight Sleep",
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2014,
+  "funding_latest": {
+   "round": "战略轮",
+   "amount": "5000万美元",
+   "currency": "USD",
+   "date": "2026-03",
+   "display": "战略轮 5000万美元 (2026-03, Tether领投)",
+   "investors": [
+    "Tether Investments",
+    "Khosla Ventures",
+    "Founders Fund",
+    "HSG",
+    "Y Combinator"
+   ]
+  },
+  "funding_total": {
+   "amount": "约3.1亿美元",
+   "display": "累计约3.1亿美元(估值15亿美元)"
+  },
+  "investors": [
+   "Tether Investments",
+   "Khosla Ventures",
+   "Founders Fund",
+   "HSG",
+   "Y Combinator"
+  ],
+  "payor_model": "个人自付(C端)：硬件销售+Autopilot会员订阅；2026入华取消订阅费改DTC电商",
+  "desc_cn": "消费级AI智能睡眠硬件，主打温控床垫与睡眠监测",
+  "recommend": "信号强、科技媒体与资本动态极透明，信息量足；差异化在'硬件+睡眠数据订阅'且已入华，可复制性受高价订阅争议与本土智能床红海制约——最该学的是以更年期/睡眠呼吸等细分痛点做差异化硬件，其入华去订阅改DTC的本土化取舍值得国内硬件创业者对照。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "Pod智能床垫罩：水循环温控+心率/呼吸/HRV生物监测",
+   "硬件+Autopilot AI睡眠代理订阅，2026入华改DTC去订阅",
+   "累计融资超3.1亿美元，估值15亿美元"
+  ],
+  "events": [
+   {
+    "date": "2025-08",
+    "text": "完成1亿美元D轮(红杉中国领投)"
+   },
+   {
+    "date": "2026-03",
+    "text": "获Tether等5000万美元战略轮，估值15亿美元"
+   },
+   {
+    "date": "2026-04",
+    "text": "正式进入中国市场，取消订阅改DTC电商"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 8.0,
+  "diff_score": 4.0,
+  "copy_score": 5.0,
+  "research_value": 55.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "消费级睡眠硬件，更年期/睡眠呼吸障碍人群是重要用户但非专属银发定位",
+  "website_url": null,
+  "business_tags_role": "技术服务商"
+ },
+ {
+  "serial": "#1145",
+  "name": "Cadence",
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2026-06",
+   "amount": "$100M",
+   "round": "Series C",
+   "display": "Series C $100M (2026-06)"
+  },
+  "funding_total": {
+   "amount": "$241M",
+   "display": "累计$241M (含2026年C轮1亿美元)"
+  },
+  "investors": "Spark Capital领投，Thrive Capital、General Catalyst等跟投",
+  "payor_model": "政府医保(Medicare)按效付费+商保",
+  "desc_cn": "临床AI慢病管理平台，为老年慢病提供居家远程护理",
+  "recommend": "信号强、临床结局与医保节省数据公开透明，信息量足；差异化在把慢病管理做成'AI主动护理+按效付费'并嵌入医疗系统，可复制性强——最该学'以临床结局和医保控费为支点、用AI延展护理人力'的价值医疗路径，国内可对标医联体慢病管理的按效付费试点。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "AI主动护理引擎对接Medicare，日均生命体征监测与用药调整",
+   "服务超10万活跃患者、合作20+领先医疗系统",
+   "2026年C轮1亿美元，估值约12.3亿美元，年省Medicare约2.7亿美元/周"
+  ],
+  "events": [
+   {
+    "date": "2025-07",
+    "text": "推出AI主动护理引擎，向Medicare患者开放APCM"
+   },
+   {
+    "date": "2026-06",
+    "text": "完成1亿美元C轮，Spark Capital领投，新签Duke Health等"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 8.0,
+  "copy_score": 5.0,
+  "research_value": 60.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专为老年慢病人群设计AI主动护理，直接服务银发健康",
+  "website_url": null,
+  "business_tags_role": "技术服务商"
+ },
+ {
+  "serial": "#1168",
+  "name": "Cera",
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2016,
+  "funding_latest": {
+   "date": "2026-05",
+   "amount": "1.5亿美元",
+   "round": "Series C",
+   "display": "1.5亿美元 Series C (2026-05)，累计约4.21亿美元"
+  },
+  "funding_total": {
+   "amount": "约4.21亿美元",
+   "display": "累计约4.21亿美元(13轮)"
+  },
+  "investors": "BDT & MSD Partners, Schroders Capital 等",
+  "payor_model": "政府医保(NHS/地方议会)+个人自费+保险",
+  "desc_cn": "英国数字化居家医疗平台，AI调度护工与远程监测",
+  "recommend": "信号强、住院率降七成等硬指标与规模化数据极透明，信息量足；差异化在AI调度护工+远程监测的居家医疗一体化且已跑通支付，可复制性中等——最该学的是以预测式AI降低住院来绑定NHS式支付方的居家养老路径，国内可对标长护险下的AI照护调度。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "英国最大数字化居家医疗平台，1万+护工、月均250万次上门访视",
+   "预测式AI(防跌倒/防住院)使住院率降最高70%，年营收约5亿美元",
+   "AI调度+远程监测+远程医疗一体化，已跑通NHS式支付"
+  ],
+  "events": [
+   {
+    "date": "2025-01",
+    "text": "完成1.5亿美元Series C"
+   },
+   {
+    "date": "2026-05",
+    "text": "再完成1.5亿美元Series C，累计融资约4.21亿美元"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 8.0,
+  "diff_score": 8.0,
+  "copy_score": 6.0,
+  "research_value": 65.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "英国头部居家养老医疗平台，AI驱动照护直接服务老年群体",
+  "website_url": null,
+  "business_tags_role": "运营商"
+ },
+ {
+  "serial": "#1245",
+  "name": "Retro Biosciences",
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2021,
+  "funding_latest": {
+   "amount": "1.8亿美元",
+   "round": "早期",
+   "date": "2023",
+   "display": "早期 1.8亿美元 (2023, Sam Altman注资)"
+  },
+  "funding_total": {
+   "amount": "累计约1.8亿美元",
+   "display": "累计约1.8亿美元"
+  },
+  "investors": [
+   "Sam Altman (单一金主)"
+  ],
+  "payor_model": "研发阶段，未来药品上市或B端合作支付",
+  "desc_cn": "长寿生物科技公司，细胞重编程延长健康寿命",
+  "recommend": "信号中等、单一金主注资与多管线并行信息有限，信息量偏低；差异化在同时押注细胞重编程/自噬/血浆稀释三大延寿机制，可复制性低——最该学'以上游衰老机制而非单病种'的广谱抗衰思路，国内宜关注其部分重编程技术的授权与转化机会而非直接复制。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "聚焦细胞重编程/自噬/血浆稀释三大延寿机制并行",
+   "获OpenAI CEO Sam Altman 1.8亿美元单一注资",
+   "目标为健康寿命延长10年，尚处临床前阶段"
+  ],
+  "events": [
+   {
+    "date": "2023",
+    "text": "完成1.8亿美元早期融资，推进细胞重编程管线"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 4.0,
+  "diff_score": 8.0,
+  "copy_score": 3.0,
+  "research_value": 47.7,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "延寿技术研发与银发老龄相关，但非直接面向老年人的产品或服务",
+  "website_url": null,
+  "business_tags_role": "制造商(药)"
+ },
+ {
+  "serial": "#1311",
+  "name": "Qida",
+  "name_cn": null,
+  "region": null,
+  "stage": "B轮",
+  "founded": 2018,
+  "funding_latest": {
+   "amount": "3700万欧元",
+   "round": "B轮",
+   "date": "2025-11",
+   "display": "B轮 3700万欧元 (2025-11, Quadrille领投)"
+  },
+  "funding_total": {
+   "amount": "累计约5700万欧元",
+   "display": "累计约5700万欧元(4轮,含2025 B轮)"
+  },
+  "investors": "Quadrille Capital领投，Asabys/Kibo/Creas/Ship2B等跟投",
+  "payor_model": "政府医保+个人自付",
+  "desc_cn": "西班牙养老医疗整合服务商，提供医养结合照护",
+  "recommend": "信号中等、医养结合与B Corp社企定位清晰，信息量一般；差异化在把居家照护、预防与公共医保协同做成一体化平台且已盈利，可复制性高——最该学的是以技术+预防型居家照护绑定公共支付、并延伸到慢病保险，国内长护险与社区养老可直接借鉴。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "西班牙领先居家照护整合商，已服务2万+家庭且盈利",
+   "B Corp社企，与加泰罗尼亚政府共建公共健康监测软件",
+   "推出西班牙首款慢病(帕金森)保险，做成'养老亚马逊'市场"
+  ],
+  "events": [
+   {
+    "date": "2025-11",
+    "text": "完成3700万欧元B轮，Quadrille Capital领投"
+   },
+   {
+    "date": "2026-07",
+    "text": "获ICO旗下Axis最高1500万欧元注资，收购本地运营商"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 4.0,
+  "diff_score": 5.0,
+  "copy_score": 6.0,
+  "research_value": 47.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "主营西班牙养老与医疗整合服务，直接服务银发人群",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#1352",
+  "name": "Abridge",
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2018,
+  "funding_latest": {
+   "date": "2026-04",
+   "amount": "3.16亿美元",
+   "round": "Series E扩展",
+   "display": "Series E扩展 3.16亿美元 (2026-04)"
+  },
+  "funding_total": {
+   "amount": "累计约8.3亿美元",
+   "display": "累计约8.3亿美元(估值53亿美元)"
+  },
+  "investors": [
+   "a16z",
+   "NVIDIA NVentures",
+   "Eli Lilly等"
+  ],
+  "payor_model": "B端机构采购（医疗系统SaaS订阅）",
+  "desc_cn": "环境式临床AI，实时生成病历并延伸计费决策",
+  "recommend": "信号强、部署规模与Nvidia/礼来合作极透明，信息足；差异化在环境式临床记录延伸至计费与支付裁决'医疗操作系统'，可复制性受Epic集成与合规制约——最该学从病历生成单点切入再向临床决策与支付延伸AI路径，国内可对标电子病历厂商AI助理。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "环境式AI实时生成病历，部署250+医疗系统、年处理超8000万次问诊",
+   "从转录扩展到计费/临床决策/支付方裁决，对标'医疗操作系统'",
+   "与NVIDIA共建临床对话基础模型，获礼来战略投资"
+  ],
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "完成3亿美元E轮，a16z领投，估值53亿美元"
+   },
+   {
+    "date": "2026-04",
+    "text": "再获3.16亿美元E轮扩展，累计融资超8.6亿美元"
+   },
+   {
+    "date": "2026-06",
+    "text": "与NVIDIA合作开发临床对话基础模型，礼来战略投资"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 4.0,
+  "research_value": 59.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "临床文档AI面向全体患者，老年科室有应用但非专属银发定位",
+  "website_url": null,
+  "business_tags_role": "技术服务商"
+ },
+ {
+  "serial": "#0034",
+  "name": "美篇",
+  "name_cn": null,
+  "region": null,
+  "stage": "A轮",
+  "founded": 2015,
+  "funding_latest": {
+   "date": "2017-12",
+   "amount": "4300万美元",
+   "round": "A+",
+   "display": "A+ 4300万美元 (2017-12)"
+  },
+  "funding_total": {
+   "amount": "累计约1.8亿元（5轮）",
+   "display": "累计约1.8亿元（5轮）"
+  },
+  "investors": "经纬中国领投，真格基金跟投",
+  "payor_model": "个人自费（电商/内容付费）+B端广告",
+  "desc_cn": "中老年图文创作与兴趣社交社区，号称'老红书'",
+  "recommend": "信号中等、用户规模与'老红书'定位信息透明，信息量足；差异化在从中老年图文创作工具长成内容与电商社区，可复制性高——最该学的是'以低门槛创作工具聚拢银发用户、再自然延伸变现'的路径，国内已验证，后续可关注其向本地生活与适老服务的纵深。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "中老年图文创作社区，用户超1亿，被称为'老红书'",
+   "从工具(排版/影集)延伸至电商与内容变现",
+   "银发文娱社交标杆，国内对照价值高"
+  ],
+  "events": [
+   {
+    "date": "2017-12",
+    "text": "完成4300万美元A+轮，经纬中国领投"
+   }
+  ],
+  "signal_strength": 4.05,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 8.0,
+  "research_value": 61.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "中老年专属图文社交与内容创作社区，核心用户为银发群体",
+  "website_url": null,
+  "business_tags_role": "平台"
+ }
+]

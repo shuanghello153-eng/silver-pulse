@@ -1,0 +1,681 @@
+{
+ "batch": 103,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "Clover Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "医疗保险计划",
+   "tags": [
+    "保险"
+   ],
+   "description": "以技术驱动的Medicare Advantage健康险公司（NASDAQ:CLOV），用Clover Assistant赋能医生决策。",
+   "desc_cn": "以技术驱动的Medicare Advantage健康险公司（NASDAQ:CLOV），用Clover Assistant赋能医生决策。",
+   "highlights": "技术驱动MA计划，上市（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "NASDAQ上市公司",
+    "display": "NASDAQ上市公司"
+   },
+   "investors": "",
+   "founded": "2014",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clover+Health",
+   "website_url": "https://www.cloverhealth.com",
+   "business_model": "B2B2C Medicare Advantage保险",
+   "business_model_cn": "B2B2C Medicare Advantage保险",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "以技术驱动的Medicare Advantage健康险公司（NASDAQ:CLOV），用Clover Assistant赋能医生决策。"
+    ]
+   },
+   "serial": "#1242",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Clover Health】聚焦产业资本/保险，技术驱动MA计划，上市（S1），B2B+B2C模式。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Alignment Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "医疗保险计划",
+   "tags": [
+    "保险",
+    "慢病管理"
+   ],
+   "description": "以人为中心的Medicare Advantage健康险公司（NASDAQ:ALHC），强调慢病管理与个性化照护。",
+   "desc_cn": "以人为中心的Medicare Advantage健康险公司（NASDAQ:ALHC），强调慢病管理与个性化照护。",
+   "highlights": "MA计划，上市（S1），慢病管理导向",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "NASDAQ上市公司",
+    "display": "NASDAQ上市公司"
+   },
+   "investors": "",
+   "founded": "2013",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Alignment+Health",
+   "website_url": "https://www.alignmenthealthplan.com",
+   "business_model": "B2B2C Medicare Advantage保险",
+   "business_model_cn": "B2B2C Medicare Advantage保险",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "以人为中心的Medicare Advantage健康险公司（NASDAQ:ALHC），强调慢病管理与个性化照护。"
+    ]
+   },
+   "serial": "#1243",
+   "tag_l1": [
+    "金融保险",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "保险",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Alignment Health】聚焦产业资本/保险，MA计划，上市（S1），慢病管理导向，B2B+B2C模式。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "CareMax",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "医疗保险+诊所",
+   "tags": [
+    "保险",
+    "慢病管理"
+   ],
+   "description": "为Medicare受益人与复杂慢病人群提供综合医疗与养老关怀服务的上市公司（NASDAQ:CMAX）。",
+   "desc_cn": "为Medicare受益人与复杂慢病人群提供综合医疗与养老关怀服务的上市公司（NASDAQ:CMAX）。",
+   "highlights": "Medicare综合医疗+养老关怀，上市",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "NASDAQ上市公司",
+    "display": "NASDAQ上市公司"
+   },
+   "investors": "",
+   "founded": "2011",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CareMax",
+   "website_url": "https://www.caremax.com",
+   "business_model": "B2B2C Medicare医疗+养老",
+   "business_model_cn": "B2B2C Medicare医疗+养老",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "为Medicare受益人与复杂慢病人群提供综合医疗与养老关怀服务的上市公司（NASDAQ:CMAX）。"
+    ]
+   },
+   "serial": "#1244",
+   "tag_l1": [
+    "金融保险",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "保险",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【CareMax】聚焦健康管理，Medicare综合医疗+养老关怀，上市，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Life Biosciences",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "衰老干预",
+   "tags": [
+    "长寿抗衰"
+   ],
+   "description": "专注衰老干预（包括休眠神经元重激活等）的长寿生物科技公司，曾获多轮融资。",
+   "desc_cn": "专注衰老干预（包括休眠神经元重激活等）的长寿生物科技公司，曾获多轮融资。",
+   "highlights": "衰老干预长寿生物科技",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Life+Biosciences",
+   "website_url": "https://www.lifebiosciences.com",
+   "business_model": "B2B 长寿生物技术研发",
+   "business_model_cn": "B2B 长寿生物技术研发",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "专注衰老干预（包括休眠神经元重激活等）的长寿生物科技公司，曾获多轮融资。"
+    ]
+   },
+   "serial": "#1246",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Life Biosciences】聚焦产业资本/健康管理，衰老干预长寿生物科技，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Idoven",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "AI心电",
+   "tags": [
+    "心血管",
+    "可穿戴监测",
+    "体检筛查"
+   ],
+   "description": "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。",
+   "desc_cn": "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。",
+   "highlights": "AI心电监测，老年心血管风险早筛",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Idoven",
+   "website_url": "https://www.idoven.ai",
+   "business_model": "B2B2C AI心电监测",
+   "business_model_cn": "B2B2C AI心电监测",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。"
+    ]
+   },
+   "serial": "#1247",
+   "tag_l1": [
+    "消费品",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "心血管",
+    "可穿戴监测",
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Idoven】聚焦产业资本，AI心电监测，老年心血管风险早筛，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "InsideTracker",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "血液生物标志",
+   "tags": [
+    "体检筛查",
+    "长寿抗衰"
+   ],
+   "description": "消费级长寿健康平台企业，通过血液生物标志物结合AI提供个性化健康与长寿建议，服务于追求健康老龄化的高认知人群。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "消费级长寿健康平台企业，通过血液生物标志物结合AI提供个性化健康与长寿建议，服务于追求健康老龄化的高认知人群。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "血液标志物+AI个性化长寿建议",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2009",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=InsideTracker",
+   "website_url": "https://www.insidetracker.com",
+   "business_model": "B2C 长寿血液检测订阅",
+   "business_model_cn": "B2C/B2B 长寿健康检测",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过血液生物标志物+AI提供个性化健康与长寿建议的消费级平台。"
+    ]
+   },
+   "serial": "#1248",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查",
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【InsideTracker】聚焦健康管理，血液标志物+AI个性化长寿建议，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Function Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "全面体检",
+   "tags": [
+    "体检筛查",
+    "长寿抗衰"
+   ],
+   "description": "提供100+项指标年度体检与趋势追踪的会员制健康平台，面向 longevity 人群。",
+   "desc_cn": "提供100+项指标年度体检与趋势追踪的会员制健康平台，面向 longevity 人群。",
+   "highlights": "会员制全面体检+趋势追踪",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Function+Health",
+   "website_url": "https://www.functionhealth.com",
+   "business_model": "B2C 长寿体检订阅",
+   "business_model_cn": "B2C 长寿体检订阅",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "提供100+项指标年度体检与趋势追踪的会员制健康平台，面向 longevity 人群。"
+    ]
+   },
+   "serial": "#1249",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查",
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Function Health】聚焦健康管理，会员制全面体检+趋势追踪，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Prenuvo",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "全身MRI",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "全身MRI早筛连锁服务企业，提供30分钟无痛全身MRI早筛，面向高支付力健康与长寿人群，布局预防式体检市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "全身MRI早筛连锁服务企业，提供30分钟无痛全身MRI早筛，面向高支付力健康与长寿人群，布局预防式体检市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "全身MRI早筛连锁",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Prenuvo",
+   "website_url": "https://www.prenuvo.com",
+   "business_model": "B2C 全身MRI早筛",
+   "business_model_cn": "B2C/B2B 长寿健康检测",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "提供30分钟无痛全身MRI早筛的连锁服务，面向高支付力健康与长寿人群。"
+    ]
+   },
+   "serial": "#1250",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Prenuvo】聚焦健康管理，全身MRI早筛连锁，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Elysium Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "补剂",
+   "tags": [
+    "药品"
+   ],
+   "description": "将长寿科研转化为消费级补剂（如NAD+前体Basis）的公司，与MIT等研究机构合作。",
+   "desc_cn": "将长寿科研转化为消费级补剂（如NAD+前体Basis）的公司，与MIT等研究机构合作。",
+   "highlights": "长寿消费补剂（科研转化）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2014",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Elysium+Health",
+   "website_url": "https://www.elysiumhealth.com",
+   "business_model": "B2C 长寿补剂订阅",
+   "business_model_cn": "B2C 长寿补剂订阅",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "将长寿科研转化为消费级补剂（如NAD+前体Basis）的公司，与MIT等研究机构合作。"
+    ]
+   },
+   "serial": "#1251",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Elysium Health】聚焦健康管理，长寿消费补剂（科研转化），B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Peppy",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "更年期健康",
+   "tags": [
+    "更年期"
+   ],
+   "description": "英国雇主更年期与女性健康福利平台企业，为职场女性提供专家支持，覆盖围绝经期管理，服务于企业福利与女性员工。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "英国雇主更年期与女性健康福利平台企业，为职场女性提供专家支持，覆盖围绝经期管理，服务于企业福利与女性员工。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "英国雇主更年期福利平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Peppy",
+   "website_url": "https://www.peppy.health",
+   "business_model": "B2B 雇主女性健康福利",
+   "business_model_cn": "B2B/B2C 女性健康平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国雇主更年期与女性健康福利平台，为职场女性提供专家支持，覆盖围绝经期。"
+    ]
+   },
+   "serial": "#1252",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Peppy】聚焦女性健康，英国雇主更年期福利平台，B2B模式。",
+   "payor_model": "商业保险",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Stella",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "更年期健康",
+   "tags": [
+    "更年期"
+   ],
+   "description": "面向更年期女性的数字健康平台企业，提供症状评估、专家咨询与个性化管理方案，服务于围绝经期女性群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "面向更年期女性的数字健康平台企业，提供症状评估、专家咨询与个性化管理方案，服务于围绝经期女性群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "更年期女性数字健康平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2021",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Stella",
+   "website_url": "https://www.stella.io",
+   "business_model": "B2B2C 更年期数字健康",
+   "business_model_cn": "B2B/B2C 女性健康平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向更年期女性的数字健康平台，提供症状评估、专家咨询与个性化管理方案。"
+    ]
+   },
+   "serial": "#1253",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Stella】聚焦女性健康，更年期女性数字健康平台，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Kinesense",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "步态分析",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "通过AI视频分析步态与活动模式，早期预测跌倒风险，用于养老机构与医院。",
+   "desc_cn": "通过AI视频分析步态与活动模式，早期预测跌倒风险，用于养老机构与医院。",
+   "highlights": "AI步态分析预测跌倒风险",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kinesense",
+   "website_url": "https://www.kinesense.com",
+   "business_model": "B2B 步态跌倒风险SaaS",
+   "business_model_cn": "B2B 步态跌倒风险SaaS",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过AI视频分析步态与活动模式，早期预测跌倒风险，用于养老机构与医院。"
+    ]
+   },
+   "serial": "#1254",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Kinesense】聚焦AI科技/健康监测，AI步态分析预测跌倒风险，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

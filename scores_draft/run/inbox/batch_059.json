@@ -1,0 +1,586 @@
+{
+ "batch": 59,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0506",
+   "name": "富达投资",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Fidelity Investments（富达投资）是全球最大的资产管理公司之一，管理资产超过4万亿美元，在退休规划和养老金融领域是行业标杆。",
+   "highlights": "全球最大资产管理公司之一，退休规划标杆",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1946",
+   "value_score": 33,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%AF%8C%E8%BE%BE%E6%8A%95%E8%B5%84",
+   "website_url": "https://www.fidelity.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "富达投资",
+   "desc_cn": "Fidelity Investments（富达投资）是全球最大的资产管理公司之一，管理资产超过4万亿美元，在退休规划和养老金融领域是行业标杆。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【富达投资】聚焦产业资本/养老金融/行业媒体，全球最大资产管理公司之一，退休规划标杆，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0507",
+   "name": "FreeWill",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "遗产规划"
+   ],
+   "description": "在线遗嘱订立、遗产规划工具",
+   "highlights": "免费在线遗嘱平台，已帮助筹集超过90亿美元慈善遗赠",
+   "funding_latest": {
+    "date": "2022",
+    "amount": "未披露",
+    "round": "Series B",
+    "display": "Series B 未披露 (2022)"
+   },
+   "funding_total": {
+    "amount": "$30M+",
+    "display": "累计$30M+"
+   },
+   "investors": "Norwest Venture Partners, Founders Fund, Bessemer Venture Partners,_e2015",
+   "founded": "2017",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=FreeWill",
+   "website_url": "https://www.freewill.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "在线遗嘱订立、遗产规划工具",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "遗产规划"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【FreeWill】聚焦产业资本/行业媒体，免费在线遗嘱平台，已帮助筹集超过90亿美元慈善遗赠，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0508",
+   "name": "Gather",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "兴趣社群",
+    "短视频"
+   ],
+   "description": "机构合作的虚拟直播学习活动",
+   "highlights": "老年社交活动平台，帮助社区组织管理活动",
+   "funding_latest": {
+    "date": "2022",
+    "amount": "未披露",
+    "round": "Series A",
+    "display": "Series A 未披露 (2022)"
+   },
+   "funding_total": {
+    "amount": "$10M+",
+    "display": "累计$10M+"
+   },
+   "investors": "Matrix Partners, Founders Fund",
+   "founded": "2018",
+   "value_score": 41,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Gather",
+   "website_url": "https://www.gather.co/",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "机构合作的虚拟直播学习活动",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "low",
+    "latest_news": [],
+    "snippets": [
+     "未检索到名为 Gather 的明确老年社交/活动平台公司新闻,疑似数据集条目难以独立验证",
+     "建议标记为 unverified(检索结果多为老年服务项目资助类泛内容)"
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "短视频"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Gather】聚焦产业资本/文娱社交，老年社交活动平台，帮助社区组织管理活动，B2C模式，研究价值分41。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0509",
+   "name": "GoGoGrandparent",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "无 App 叫车服务",
+   "highlights": "YC孵化，让老年人通过电话使用Uber/外卖等服务，已实现盈利",
+   "funding_latest": {
+    "date": "2019-06",
+    "amount": "未披露",
+    "round": "Grant",
+    "display": "Grant 未披露 (2019-06)"
+   },
+   "funding_total": {
+    "amount": "$120K",
+    "display": "累计$120K"
+   },
+   "investors": "Y Combinator, MassChallenge",
+   "founded": "2016",
+   "value_score": 43,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GoGoGrandparent",
+   "website_url": "https://gogograndparent.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "无 App 叫车服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "蒙大拿州与GoGoGrandparent合作，为老年人提供免费交通和送货服务",
+      "date": "2025-06-09",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/newsDetail/d92b511a457111f0b7af00163e034e34"
+     },
+     {
+      "title": "纽约州扩大GoGoGrandparent交通伙伴计划",
+      "date": "2025-09",
+      "source": "纽约州长办公室",
+      "url": "https://www.governor.ny.gov/sites/default/files/2025-09/08.29.25.rel_.gogograndparent_chinese.pdf"
+     }
+    ],
+    "snippets": [
+     "GoGoGrandparent为老年出行聚合平台，老人可电话叫车（Uber/Lyft），无需智能手机。",
+     "2025年与蒙大拿州、纽约州合作提供政府资助的免费老人交通，未检索到近期新融资轮次。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【GoGoGrandparent】聚焦产业资本/行业媒体，YC孵化，让老年人通过电话使用Uber/外卖等服务，已实现盈利，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0510",
+   "name": "Golden",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "老年人资金安全管理服务",
+   "highlights": "老年人财务管理平台，连接老人与子女的财务账户",
+   "funding_latest": {
+    "date": "2017-02",
+    "amount": "未披露",
+    "round": "Seed",
+    "display": "Seed 未披露 (2017-02)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "Singularity University, Village Capital",
+   "founded": "2016",
+   "value_score": 31,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Golden",
+   "website_url": "https://www.joingolden.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "老年人资金安全管理服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Golden】聚焦行业媒体，老年人财务管理平台，连接老人与子女的财务账户，B2B模式，研究价值分31。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0512",
+   "name": "GreatCall",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "老人手机、一键呼叫可穿戴设备",
+   "highlights": "老年智能健康手机及服务，2018年被Best Buy以$800M收购",
+   "funding_latest": {
+    "date": "2017",
+    "amount": "未披露",
+    "round": "后期融资",
+    "display": "后期融资 未披露 (2017)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "Summit Partners, 和睦医疗",
+   "founded": "2006",
+   "value_score": 42,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GreatCall",
+   "website_url": "https://www.greatcall.com/",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "老人手机、一键呼叫可穿戴设备",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "news_coverage": {
+    "news_count": 8,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Lively (formerly GreatCall) Medical Alert Plans",
+      "date": "2026-06-17",
+      "source": "SafeHome",
+      "url": "https://www.safehome.org/medical-alert-systems/greatcall/"
+     },
+     {
+      "title": "GreatCall Crunchbase Profile",
+      "date": "2026",
+      "source": "Crunchbase",
+      "url": "https://www.crunchbase.com/organization/greatcall"
+     }
+    ],
+    "snippets": [
+     "GreatCall(现 Lively,属 Best Buy Health)为老年人提供紧急响应手机(Jitterbug)与医疗警报",
+     "2018年被 Best Buy 收购,近年新闻以产品评测为主,大型融资新闻有限"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【GreatCall】聚焦康复/智能硬件，老年智能健康手机及服务，2018年被Best Buy以$800M收购，B2C模式，研究价值分42。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0513",
+   "name": "Greycroft Partners",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "Greycroft Partners是专注早期和成长期投资的VC，在消费科技和医疗健康领域有布局，投资了多个老年科技项目。",
+   "highlights": "早期+成长期VC，老年科技投资布局",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2006",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Greycroft%20Partners",
+   "website_url": "https://www.greycroft.com/",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "Greycroft Partners是专注早期和成长期投资的VC，在消费科技和医疗健康领域有布局，投资了多个老年科技项目。",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Greycroft Partners】聚焦产业资本，早期+成长期VC，老年科技投资布局，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0514",
+   "name": "Hebrew Senior Life",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "康养地产",
+    "康复医疗"
+   ],
+   "description": "养老社区与老年医疗服务",
+   "highlights": "养老社区与老年医疗服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hebrew%20Senior%20Life",
+   "website_url": "https://www.hebrewseniorlife.org",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "养老社区与老年医疗服务",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康养地产",
+    "康复医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hebrew Senior Life】聚焦健康管理/养老社区/行业媒体，养老社区与老年医疗服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0515",
+   "name": "Home Instead",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "居家护工服务网络",
+   "highlights": "居家护工服务网络",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$140M (与 Honor 共同融资, 2025)",
+    "display": "$140M (与 Honor 共同融资, 2025)"
+   },
+   "investors": "Honor, Ashbridge Partners, JD Arnold Care, Thomas Point Capital",
+   "founded": "1994",
+   "value_score": 43,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Home%20Instead",
+   "website_url": "https://www.homeinstead.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "居家护工服务网络",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Honor and Home Instead Secure $140M to Revolutionize Aging Care",
+      "date": "2025-03-25",
+      "source": "SignalBase",
+      "url": "https://www.trysignalbase.com/news/funding/honor-and-home-instead-secure-140m-to-revolutionize-aging-care-for-a-new-era"
+     },
+     {
+      "title": "Honor Acquires Home Instead",
+      "date": "2021-08-06",
+      "source": "Home Instead",
+      "url": "https://www.homeinstead.co.uk/honor-acquires-home-instead/"
+     }
+    ],
+    "snippets": [
+     "Home Instead为全球居家养老护理连锁，2021年被Honor以约21亿美元收购。",
+     "2025年3月Honor与Home Instead共同获1.4亿美元融资，用于扩展服务与研发。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Home Instead】聚焦专业护理/产业资本/居家护理，居家护工服务网络，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0516",
+   "name": "Humana / Aetna / UnitedHealth / Cigna",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "美国四大健康保险巨头（Humana、Aetna、UnitedHealth、Cigna），在Medicare Advantage市场占据主导地位，是美国老年健康保险市场的核心参与者。",
+   "highlights": "美国四大健康保险巨头，Medicare Advantage市场主导",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 31,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Humana%20/%20Aetna%20/%20UnitedHealth%20/%20Cigna",
+   "website_url": "",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "美国四大健康保险巨头（Humana、Aetna、UnitedHealth、Cigna），在Medicare Advantage市场占据主导地位，是美国老年健康保险市场的核心参与者。",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Humana / Aetna / UnitedHealth / Cigna】聚焦产业资本/保险/健康管理，美国四大健康保险巨头，Medicare Advantage市场主导，B2B+B2C模式，研究价值分31。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0517",
+   "name": "Iris Healthcare",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "临终意愿规划与姑息治疗对接",
+   "highlights": "临终意愿规划与姑息治疗对接",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "Hatteras Venture Partners, LiveOak Ventures 等 (6位投资人)",
+   "founded": "2015",
+   "value_score": 31,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Iris%20Healthcare",
+   "website_url": "https://www.irishealthcare.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "临终意愿规划与姑息治疗对接",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Iris Healthcare】聚焦临终关怀/行业媒体，临终意愿规划与姑息治疗对接，B2B模式，研究价值分31。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0518",
+   "name": "摩根大通",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "JPMorgan Chase（摩根大通）是全球最大的金融服务公司之一，通过其Age-Linked投资策略和JPMorgan Asset Management布局银发经济赛道。",
+   "highlights": "全球最大金融服务公司之一，银发经济投资布局",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1799",
+   "value_score": 33,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%91%A9%E6%A0%B9%E5%A4%A7%E9%80%9A",
+   "website_url": "https://www.jpmorganchase.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "摩根大通",
+   "desc_cn": "JPMorgan Chase（摩根大通）是全球最大的金融服务公司之一，通过其Age-Linked投资策略和JPMorgan Asset Management布局银发经济赛道。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【摩根大通】聚焦养老金融/行业媒体，全球最大金融服务公司之一，银发经济投资布局，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,7013 @@
+{
+  "fails": {
+    "2": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费（理财顾问费）)"
+    ],
+    "3": [
+      "R7:silver_reason过短(19)"
+    ],
+    "4": [
+      "R7:silver_reason过短(15)",
+      "R8:payor_model非规范词表(个人自费（服务佣金）)"
+    ],
+    "5": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费（会员/虚拟礼物）)"
+    ],
+    "6": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费（旅游团费+会员费+电商）)"
+    ],
+    "7": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费（课程费+会员订阅）)"
+    ],
+    "8": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购（养老机构/社区/政府）)"
+    ],
+    "13": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费（医院采购+家庭版）)"
+    ],
+    "14": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(个人自费+B端采购（医院/家庭）)"
+    ],
+    "15": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购（医院/机构）+ 个人自费（患者）)"
+    ],
+    "16": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(广告主投放与个人增值服务（流量变现）)"
+    ],
+    "17": [
+      "R8:payor_model非规范词表(政府医保(长护险)+个人自付+商业保险)"
+    ],
+    "18": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费（会员+直播打赏）)"
+    ],
+    "19": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费（课程费+会员+衍生消费）)"
+    ],
+    "21": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(政府长护险+商业保险支付（及个人自付）)"
+    ],
+    "22": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府长护险+个人自付（个人仅承担10%）)"
+    ],
+    "23": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(个人自费+B端企业采购（银行/保险打包）)"
+    ],
+    "24": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购（养老机构/社区/政府适老化改造）)"
+    ],
+    "25": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "26": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "27": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+商业保险支付)"
+    ],
+    "28": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "29": [
+      "R8:payor_model非规范词表(政府长护险+商保+个人自费)"
+    ],
+    "32": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "33": [
+      "R7:silver_reason过短(27)"
+    ],
+    "34": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费（电商/内容付费）+B端广告)"
+    ],
+    "35": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "36": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "37": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "39": [
+      "R7:silver_reason过短(28)"
+    ],
+    "40": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "41": [
+      "R7:silver_reason过短(28)"
+    ],
+    "42": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(政府长护险+个人自付)"
+    ],
+    "43": [
+      "R7:silver_reason过短(25)"
+    ],
+    "44": [
+      "R7:silver_reason过短(29)"
+    ],
+    "45": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购+政府筛查)"
+    ],
+    "46": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "47": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购（展位）)"
+    ],
+    "48": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(LP出资+被投企业)"
+    ],
+    "49": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购（展位）)"
+    ],
+    "50": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购（展位）)"
+    ],
+    "51": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购（会员/广告）)"
+    ],
+    "52": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "53": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端机构采购（展位）)"
+    ],
+    "54": [
+      "R7:silver_reason过短(24)"
+    ],
+    "56": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(个人自费+政府长护险+B端机构采购)"
+    ],
+    "57": [
+      "R7:silver_reason过短(27)"
+    ],
+    "58": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(个人自费+政府长护险+B端机构采购)"
+    ],
+    "59": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "61": [
+      "R8:payor_model非规范词表(政府补贴+爱心捐助+个人低自付)"
+    ],
+    "62": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购+政府购买服务)"
+    ],
+    "64": [
+      "R8:payor_model非规范词表(政府购买服务+公益捐助)"
+    ],
+    "65": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "66": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(医保+长护险+个人自付)"
+    ],
+    "68": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "71": [
+      "R7:silver_reason过短(27)"
+    ],
+    "72": [
+      "R7:silver_reason过短(26)"
+    ],
+    "73": [
+      "R7:silver_reason过短(26)"
+    ],
+    "75": [
+      "R7:silver_reason过短(27)"
+    ],
+    "76": [
+      "R7:silver_reason过短(29)"
+    ],
+    "77": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "78": [
+      "R7:silver_reason过短(28)"
+    ],
+    "79": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "80": [
+      "R7:silver_reason过短(29)"
+    ],
+    "81": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "83": [
+      "R8:payor_model非规范词表(个人自费+政府长护险+医保)"
+    ],
+    "84": [
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "85": [
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "87": [
+      "R7:silver_reason过短(27)"
+    ],
+    "89": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购+商业保险)"
+    ],
+    "90": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(医保+个人自费)"
+    ],
+    "92": [
+      "R7:silver_reason过短(25)"
+    ],
+    "93": [
+      "R7:silver_reason过短(25)"
+    ],
+    "94": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "95": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "96": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "97": [
+      "R7:silver_reason过短(22)"
+    ],
+    "98": [
+      "R8:payor_model非规范词表(B端机构采购(医疗机构))"
+    ],
+    "99": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "101": [
+      "R7:silver_reason过短(22)"
+    ],
+    "102": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "103": [
+      "R7:silver_reason过短(20)"
+    ],
+    "104": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "105": [
+      "R7:silver_reason过短(18)"
+    ],
+    "106": [
+      "R7:silver_reason过短(18)"
+    ],
+    "107": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "108": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "109": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(C端会员费+B端机构分成)"
+    ],
+    "110": [
+      "R7:silver_reason过短(25)"
+    ],
+    "111": [
+      "R7:silver_reason过短(24)"
+    ],
+    "112": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "113": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(LP出资(基金))"
+    ],
+    "114": [
+      "R7:silver_reason过短(24)"
+    ],
+    "115": [
+      "R7:silver_reason过短(24)"
+    ],
+    "116": [
+      "R7:silver_reason过短(21)"
+    ],
+    "117": [
+      "R7:silver_reason过短(17)"
+    ],
+    "118": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(个人自费+政府购买服务)"
+    ],
+    "119": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "120": [
+      "R8:payor_model非规范词表(LP出资(基金))"
+    ],
+    "121": [
+      "R8:payor_model非规范词表(个人自费+部分医保)"
+    ],
+    "122": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "123": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购(订阅))"
+    ],
+    "125": [
+      "R6:desc_cn过短(74)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "126": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "127": [
+      "R7:silver_reason过短(29)"
+    ],
+    "128": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "129": [
+      "R2:rec_v2字数39越界(需40-90)",
+      "R2:rec_v3字数38越界(需40-90)",
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端医院/机构采购 + 政府医疗采购)"
+    ],
+    "130": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端机构采购(咨询服务))"
+    ],
+    "131": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端机构采购+政府公卫)"
+    ],
+    "132": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(B端医疗机构采购+部分医保)"
+    ],
+    "134": [
+      "R7:silver_reason过短(22)"
+    ],
+    "135": [
+      "R6:desc_cn过短(75)"
+    ],
+    "136": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(个人自费+政府长护险)"
+    ],
+    "137": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "138": [
+      "R8:payor_model非规范词表(母公司及LP出资)"
+    ],
+    "139": [
+      "R6:desc_cn过短(75)"
+    ],
+    "140": [
+      "R6:desc_cn过短(64)",
+      "R8:payor_model非规范词表(商业保险支付+个人保费)"
+    ],
+    "141": [
+      "R6:desc_cn过短(78)",
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "142": [
+      "R7:silver_reason过短(25)"
+    ],
+    "144": [
+      "R6:desc_cn过短(79)",
+      "R7:silver_reason过短(27)"
+    ],
+    "145": [
+      "R6:desc_cn过短(73)",
+      "R8:payor_model非规范词表(个人自费+门店零售)"
+    ],
+    "146": [
+      "R6:desc_cn过短(75)",
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(政府长护险+个人自费+B端采购)"
+    ],
+    "147": [
+      "R8:payor_model非规范词表(B端原料采购(OEM/ODM品牌方)+个人自费(终端保健品))"
+    ],
+    "149": [
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "150": [
+      "R8:payor_model非规范词表(母公司及LP出资)"
+    ],
+    "151": [
+      "R8:payor_model非规范词表(商业保险支付+政府长护险+企业年金)"
+    ],
+    "152": [
+      "R8:payor_model非规范词表(B端原料采购+个人自费)"
+    ],
+    "153": [
+      "R6:desc_cn过短(79)",
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "155": [
+      "R8:payor_model非规范词表(个人自费+加盟费(B端))"
+    ],
+    "157": [
+      "R8:payor_model非规范词表(B端机构采购+家庭订阅/租赁)"
+    ],
+    "158": [
+      "R8:payor_model非规范词表(个人自费+加盟费(B端))"
+    ],
+    "159": [
+      "R8:payor_model非规范词表(个人自费+加盟费(B端))"
+    ],
+    "160": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "161": [
+      "R6:desc_cn过短(79)",
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费+B端机构合作)"
+    ],
+    "162": [
+      "R8:payor_model非规范词表(政府购买服务+个人自费)"
+    ],
+    "163": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "164": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购+政府适老化补贴)"
+    ],
+    "165": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人服务费+会员费)"
+    ],
+    "167": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "168": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "169": [
+      "R6:desc_cn过短(76)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人服务费+会员费)"
+    ],
+    "170": [
+      "R7:silver_reason过短(27)"
+    ],
+    "171": [
+      "R7:silver_reason过短(26)"
+    ],
+    "172": [
+      "R8:payor_model非规范词表(个人自费+商业保险合作)"
+    ],
+    "173": [
+      "R8:payor_model非规范词表(个人自费+B端机构采购+政府长护险)"
+    ],
+    "174": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "175": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(政府购买服务+个人低自付)"
+    ],
+    "176": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(个人自费+广告与电商)"
+    ],
+    "178": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "179": [
+      "R7:silver_reason过短(28)"
+    ],
+    "180": [
+      "R7:silver_reason过短(29)"
+    ],
+    "181": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "182": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(个人自费+政府补贴+B端机构采购)"
+    ],
+    "183": [
+      "R7:silver_reason过短(23)"
+    ],
+    "184": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "185": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "188": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "189": [
+      "R7:silver_reason过短(25)"
+    ],
+    "190": [
+      "R7:silver_reason过短(29)"
+    ],
+    "191": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "192": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费+政府项目采购)"
+    ],
+    "193": [
+      "R7:silver_reason过短(28)"
+    ],
+    "194": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "195": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "197": [
+      "R7:silver_reason过短(26)"
+    ],
+    "198": [
+      "R7:silver_reason过短(21)"
+    ],
+    "199": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "200": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(个人自费+政府项目采购)"
+    ],
+    "201": [
+      "R7:silver_reason过短(23)"
+    ],
+    "202": [
+      "R6:desc_cn通用套话开头",
+      "R7:silver_reason过短(20)"
+    ],
+    "203": [
+      "R7:silver_reason过短(18)"
+    ],
+    "205": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "207": [
+      "R7:silver_reason过短(21)"
+    ],
+    "208": [
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "209": [
+      "R7:silver_reason过短(26)"
+    ],
+    "210": [
+      "R8:payor_model非规范词表(个人自费+保险支付)"
+    ],
+    "211": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "212": [
+      "R8:payor_model非规范词表(B端品牌合作+个人消费)"
+    ],
+    "213": [
+      "R8:payor_model非规范词表(个人自费+长护险+政府购买服务)"
+    ],
+    "214": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(个人自费+B端(社区/政府)采购)"
+    ],
+    "215": [
+      "R7:silver_reason过短(29)"
+    ],
+    "217": [
+      "R8:payor_model非规范词表(个人自费+检测服务收费)"
+    ],
+    "218": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端品牌合作+个人消费)"
+    ],
+    "219": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(个人自费+B端采购)"
+    ],
+    "220": [
+      "R8:payor_model非规范词表(个人自费+B端(养老机构/渠道)采购)"
+    ],
+    "221": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费(顾问服务费)+B端机构获客/品牌展示服务费)"
+    ],
+    "222": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端(养老院/渠道)采购+个人自费)"
+    ],
+    "223": [
+      "R8:payor_model非规范词表(B端(政府/房企/机构)咨询与数据服务付费)"
+    ],
+    "224": [
+      "R8:payor_model非规范词表(B端(被投企业/基金)服务费+投资收益)"
+    ],
+    "225": [
+      "R8:payor_model非规范词表(医保支付+医院采购+个人自费)"
+    ],
+    "226": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(个人自费(聚会/旅居套餐)+B端(酒店/场地)合作)"
+    ],
+    "228": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费+医保/残联补贴)"
+    ],
+    "229": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(政府购买服务+个人自费)"
+    ],
+    "230": [
+      "R8:payor_model非规范词表(个人学费+B端机构培训费)"
+    ],
+    "231": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "233": [
+      "R8:payor_model非规范词表(B端机构采购(养老机构/医院)+个人自费)"
+    ],
+    "234": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费+政府购买服务)"
+    ],
+    "235": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费(电商/直播)+B端渠道分销)"
+    ],
+    "236": [
+      "R8:payor_model非规范词表(基金LP出资+投资回报)"
+    ],
+    "237": [
+      "R8:payor_model非规范词表(B端(开发商/政府)设计服务费)"
+    ],
+    "238": [
+      "R8:payor_model非规范词表(医院软件采购年费+患者端订阅)"
+    ],
+    "239": [
+      "R8:payor_model非规范词表(个人自费+订阅服务)"
+    ],
+    "241": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(未搜到（主体无法确认）)"
+    ],
+    "243": [
+      "R8:payor_model非规范词表(个人自费+保险支付)"
+    ],
+    "244": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "245": [
+      "R7:silver_reason过短(18)"
+    ],
+    "246": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "247": [
+      "R7:silver_reason过短(14)"
+    ],
+    "248": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(商业保险支付+个人自费)"
+    ],
+    "249": [
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(商业保险支付+个人自费)"
+    ],
+    "250": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "251": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "252": [
+      "R7:silver_reason过短(15)"
+    ],
+    "254": [
+      "R7:silver_reason过短(16)"
+    ],
+    "255": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "256": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(政府医保+个人自费)"
+    ],
+    "257": [
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(政府补贴+个人自费)"
+    ],
+    "258": [
+      "R7:silver_reason过短(13)"
+    ],
+    "259": [
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(B端机构采购（政府/养老机构）)"
+    ],
+    "260": [
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "261": [
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "262": [
+      "R7:silver_reason过短(17)"
+    ],
+    "263": [
+      "R7:silver_reason过短(14)"
+    ],
+    "264": [
+      "R7:silver_reason过短(17)"
+    ],
+    "266": [
+      "R7:silver_reason过短(16)"
+    ],
+    "267": [
+      "R7:silver_reason过短(21)"
+    ],
+    "268": [
+      "R7:silver_reason过短(26)"
+    ],
+    "269": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(医保+个人自费)"
+    ],
+    "270": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构采购（政府/机构）)"
+    ],
+    "271": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)"
+    ],
+    "273": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(医保+个人自费)"
+    ],
+    "274": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)"
+    ],
+    "275": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)"
+    ],
+    "276": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(B端机构采购+政府医保)"
+    ],
+    "277": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(个人自费（会员制）)"
+    ],
+    "278": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(21)"
+    ],
+    "279": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端机构采购+政府项目+个人自费)"
+    ],
+    "280": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(20)"
+    ],
+    "281": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(19)"
+    ],
+    "282": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费+B端采购)"
+    ],
+    "283": [
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "284": [
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(个人自费+广告/B端变现)"
+    ],
+    "285": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)"
+    ],
+    "286": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(13)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "287": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(12)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "288": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(个人自费+B端采购)"
+    ],
+    "289": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(政府长护险+个人自付+B端采购)"
+    ],
+    "290": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)"
+    ],
+    "291": [
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "292": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(12)"
+    ],
+    "293": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(13)"
+    ],
+    "294": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)"
+    ],
+    "295": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(17)"
+    ],
+    "296": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(9)",
+      "R8:payor_model非规范词表(个人自费+广告/B端)"
+    ],
+    "297": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费（直销）)"
+    ],
+    "298": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+B端采购)"
+    ],
+    "299": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+保险/政府补贴)"
+    ],
+    "300": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自付+政府医保/长护险)"
+    ],
+    "301": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(13)"
+    ],
+    "302": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(16)"
+    ],
+    "303": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(11)",
+      "R8:payor_model非规范词表(个人自费+部分医保)"
+    ],
+    "304": [
+      "R3:rec_v1/v3雷同(0.51)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(13)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "305": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(13)",
+      "R8:payor_model非规范词表(个人自费（高端）+保险)"
+    ],
+    "306": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(11)"
+    ],
+    "307": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(10)",
+      "R8:payor_model非规范词表(政府买单（助老项目）+个人自费)"
+    ],
+    "308": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(11)",
+      "R8:payor_model非规范词表(B端机构采购+个人免费)"
+    ],
+    "309": [
+      "R3:rec_v1/v3雷同(0.54)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(13)"
+    ],
+    "310": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(11)",
+      "R8:payor_model非规范词表(个人自费+虚拟礼物/B端)"
+    ],
+    "311": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(10)"
+    ],
+    "312": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(12)",
+      "R8:payor_model非规范词表(B端机构采购（大厂/政府）)"
+    ],
+    "313": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(个人自费+广告)"
+    ],
+    "314": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)"
+    ],
+    "315": [
+      "R3:rec_v1/v3雷同(0.58)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购（医院/政府）+个人自费)"
+    ],
+    "316": [
+      "R3:rec_v1/v3雷同(0.57)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(13)",
+      "R8:payor_model非规范词表(个人自费（部分医保）)"
+    ],
+    "317": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(12)"
+    ],
+    "318": [
+      "R6:desc_cn过短(9)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "319": [
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(24)"
+    ],
+    "320": [
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "321": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(22)"
+    ],
+    "322": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(24)"
+    ],
+    "323": [
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(21)"
+    ],
+    "324": [
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(19)"
+    ],
+    "325": [
+      "R6:desc_cn过短(9)"
+    ],
+    "326": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(医院渠道+个人自费)"
+    ],
+    "327": [
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "328": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府医保+个人自付)"
+    ],
+    "329": [
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "330": [
+      "R2:rec_v2字数38越界(需40-90)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(18)"
+    ],
+    "331": [
+      "R2:rec_v1字数39越界(需40-90)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(26)"
+    ],
+    "332": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(26)"
+    ],
+    "333": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(B端医院采购)"
+    ],
+    "334": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费+政府长护险)"
+    ],
+    "335": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+政府医保)"
+    ],
+    "336": [
+      "R2:rec_v1字数38越界(需40-90)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "337": [
+      "R2:rec_v1字数38越界(需40-90)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "338": [
+      "R2:rec_v2字数39越界(需40-90)",
+      "R2:rec_v3字数39越界(需40-90)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "339": [
+      "R2:rec_v1字数37越界(需40-90)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(19)"
+    ],
+    "340": [
+      "R2:rec_v1字数38越界(需40-90)",
+      "R2:rec_v3字数39越界(需40-90)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "341": [
+      "R2:rec_v1字数39越界(需40-90)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "342": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "343": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "344": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "345": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "346": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "347": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "348": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "349": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "350": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "351": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "352": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "353": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "354": [
+      "R6:desc_cn过短(33)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "355": [
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(27)"
+    ],
+    "356": [
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "357": [
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "358": [
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "359": [
+      "R6:desc_cn过短(34)"
+    ],
+    "360": [
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(26)"
+    ],
+    "361": [
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(26)"
+    ],
+    "362": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端品牌合作+个人活动付费)"
+    ],
+    "363": [
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(政府购买服务+长护险+个人自费)"
+    ],
+    "364": [
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "365": [
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(20)"
+    ],
+    "366": [
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "367": [
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费+政府医保)"
+    ],
+    "368": [
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(21)"
+    ],
+    "369": [
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "370": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(22)"
+    ],
+    "371": [
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费+政府医保)"
+    ],
+    "372": [
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "373": [
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(22)"
+    ],
+    "374": [
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(22)"
+    ],
+    "375": [
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(政府购买服务+个人自费)"
+    ],
+    "376": [
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(18)"
+    ],
+    "377": [
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "378": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "379": [
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端品牌商+个人自费)"
+    ],
+    "380": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "381": [
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "382": [
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(19)"
+    ],
+    "383": [
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费+政府医保)"
+    ],
+    "384": [
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "385": [
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(B端机构合作+个人免费)"
+    ],
+    "386": [
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(22)"
+    ],
+    "387": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端保险机构付费（健康险公司采购CareVoiceOS）)"
+    ],
+    "388": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(16)"
+    ],
+    "390": [
+      "R6:desc_cn过短(32)",
+      "R8:payor_model非规范词表(商业保险支付+雇主福利)"
+    ],
+    "391": [
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(27)"
+    ],
+    "393": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(23)"
+    ],
+    "395": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+政府医保)"
+    ],
+    "396": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(19)"
+    ],
+    "399": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(15)"
+    ],
+    "400": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "402": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(17)"
+    ],
+    "404": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(19)"
+    ],
+    "405": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(18)"
+    ],
+    "407": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(15)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "409": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(政府长护险+个人自付)"
+    ],
+    "410": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+政府医保)"
+    ],
+    "412": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(19)"
+    ],
+    "413": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "414": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "415": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(17)"
+    ],
+    "416": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(20)"
+    ],
+    "417": [
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(17)"
+    ],
+    "418": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "419": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(17)"
+    ],
+    "421": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(17)"
+    ],
+    "422": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(19)"
+    ],
+    "423": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(17)"
+    ],
+    "424": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "426": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "427": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "429": [
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "430": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "431": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费+商业保险支付)"
+    ],
+    "432": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+商业保险支付)"
+    ],
+    "434": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府长护险+B端机构采购+个人自费)"
+    ],
+    "435": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+政府长护险)"
+    ],
+    "437": [
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(17)"
+    ],
+    "438": [
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(19)"
+    ],
+    "439": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(19)"
+    ],
+    "440": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "442": [
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(19)"
+    ],
+    "444": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端医疗机构采购+个人自费)"
+    ],
+    "445": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(医保报销+个人自付)"
+    ],
+    "446": [
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(医保+个人自付)"
+    ],
+    "448": [
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(B端机构订阅/广告)"
+    ],
+    "449": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端机构服务采购)"
+    ],
+    "450": [
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人保费自付)"
+    ],
+    "451": [
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(医保+长护险+个人自付)"
+    ],
+    "453": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(B端/G端咨询采购)"
+    ],
+    "454": [
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(B端/G端咨询采购)"
+    ],
+    "455": [
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端/G端服务采购)"
+    ],
+    "457": [
+      "R7:silver_reason过短(25)"
+    ],
+    "458": [
+      "R7:silver_reason过短(24)"
+    ],
+    "459": [
+      "R8:payor_model非规范词表(政府医保(Medicaid/D-SNP管理式医疗)+按人头风)"
+    ],
+    "460": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "462": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自付+商业保险)"
+    ],
+    "463": [
+      "R7:silver_reason过短(27)"
+    ],
+    "465": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端企业采购+个人自费)"
+    ],
+    "466": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(政府NHS/地方政府合同(B2G)为主+个人自付)"
+    ],
+    "467": [
+      "R8:payor_model非规范词表(商业保险支付(寿险/雇员福利)+B端机构采购)"
+    ],
+    "468": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(B端医疗机构/医院采购+患者自费(手术费))"
+    ],
+    "469": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid PACE按人头)"
+    ],
+    "470": [
+      "R6:desc_cn通用套话开头",
+      "R8:payor_model非规范词表(B端机构付费（雇主与健康计划采购，会员零自付）+拓展Medi)"
+    ],
+    "471": [
+      "R7:silver_reason过短(28)"
+    ],
+    "472": [
+      "R7:silver_reason过短(20)"
+    ],
+    "474": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(政府医保(Medicare Advantage/CMS GU)"
+    ],
+    "476": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费（会员订阅）)"
+    ],
+    "477": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid))"
+    ],
+    "479": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构加个人自费（机器宠物硬件销售）)"
+    ],
+    "480": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费(订阅月费+资产管理费))"
+    ],
+    "481": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业健康计划)"
+    ],
+    "483": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(企业/保险采购(雇主福利+健康险))"
+    ],
+    "484": [
+      "R8:payor_model非规范词表(B端机构采购(养老社区佣金))"
+    ],
+    "485": [
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(会员费+基金资助)"
+    ],
+    "487": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(会员费+活动赞助)"
+    ],
+    "488": [
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人会员费)"
+    ],
+    "489": [
+      "R8:payor_model非规范词表(个人自费（电商/会员/医保自付）)"
+    ],
+    "490": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(基金LP出资)"
+    ],
+    "491": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(个人购车自费)"
+    ],
+    "492": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人管理费/账户费)"
+    ],
+    "494": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人订阅+B端合作)"
+    ],
+    "496": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费（订阅）+B端机构采购)"
+    ],
+    "498": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(15)",
+      "R8:payor_model非规范词表(B端机构采购+个人学费)"
+    ],
+    "499": [
+      "R2:rec_v1字数36越界(需40-90)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自费+保险支付)"
+    ],
+    "500": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(C端个人自费（家庭照护者购买用品）)"
+    ],
+    "501": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(B端医疗机构或支付方加个人（居家监测方案）)"
+    ],
+    "502": [
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(B端/G端项目采购)"
+    ],
+    "503": [
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "504": [
+      "R2:rec_v1字数37越界(需40-90)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端金融机构采购+个人订阅)"
+    ],
+    "505": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(免费+广告变现)"
+    ],
+    "506": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人管理费)"
+    ],
+    "507": [
+      "R2:rec_v1字数37越界(需40-90)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(免费+慈善机构合作)"
+    ],
+    "508": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端机构采购+个人免费)"
+    ],
+    "509": [
+      "R2:rec_v1字数37越界(需40-90)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+政府资助)"
+    ],
+    "510": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(15)",
+      "R8:payor_model非规范词表(个人/家庭订阅)"
+    ],
+    "511": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费（遗嘱或信托服务）加B端顾问合作)"
+    ],
+    "512": [
+      "R2:rec_v1字数36越界(需40-90)",
+      "R2:rec_v2字数39越界(需40-90)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费+月度订阅)"
+    ],
+    "513": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(基金LP出资)"
+    ],
+    "514": [
+      "R2:rec_v3字数39越界(需40-90)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(17)",
+      "R8:payor_model非规范词表(医保+个人自付)"
+    ],
+    "515": [
+      "R2:rec_v1字数32越界(需40-90)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自付+长护险/政府)"
+    ],
+    "516": [
+      "R2:rec_v1字数30越界(需40-90)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare/商业保险支付)"
+    ],
+    "517": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端医疗机构采购+保险)"
+    ],
+    "518": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人/机构服务费)"
+    ],
+    "519": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "520": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "521": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "522": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "523": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "524": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "525": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "526": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "527": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage/商业保险)"
+    ],
+    "528": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "529": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "530": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "531": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)"
+    ],
+    "532": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "533": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "534": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "535": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "536": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "537": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "538": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "539": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "540": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "541": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "542": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "543": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "544": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "545": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "546": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "547": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "548": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "550": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "551": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "552": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "553": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "554": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)"
+    ],
+    "555": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "556": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "558": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid 专业护理)+个)"
+    ],
+    "559": [
+      "R8:payor_model非规范词表(B端机构采购（SaaS订阅）)"
+    ],
+    "560": [
+      "R8:payor_model非规范词表(政府医保(Medicare/VA)+商业保险(部分覆盖))"
+    ],
+    "561": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业保险（在)"
+    ],
+    "562": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "563": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "566": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "567": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "568": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "569": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "570": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "571": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "572": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(32)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "573": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "574": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "575": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)"
+    ],
+    "576": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "577": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "578": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "579": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "580": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "581": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "582": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "583": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "584": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "585": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "586": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "587": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "588": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "589": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "590": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "591": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "592": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "596": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "597": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "598": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端中小企业付费（401k管理SaaS）加员工缴费)"
+    ],
+    "599": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "600": [
+      "R8:payor_model非规范词表(商业保险支付)"
+    ],
+    "601": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "603": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "604": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购加个人自费（智能药盒硬件）)"
+    ],
+    "605": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "606": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "607": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "608": [
+      "R7:silver_reason过短(26)"
+    ],
+    "609": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "610": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "611": [
+      "R8:payor_model非规范词表(政府医保(Medicare/长护险)+个人自费)"
+    ],
+    "612": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "613": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "614": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "615": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "616": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "617": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "618": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构付费（养老院/SNF出售EHR SaaS）)"
+    ],
+    "619": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "620": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "621": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "622": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "623": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "625": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "626": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "627": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "628": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicare Advanta)"
+    ],
+    "629": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "630": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "631": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购（SaaS订阅）)"
+    ],
+    "633": [
+      "R7:silver_reason过短(25)"
+    ],
+    "634": [
+      "R8:payor_model非规范词表(商业保险(药房福利计划)+政府医保(医疗器械DME))"
+    ],
+    "635": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "636": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "637": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "638": [
+      "R7:silver_reason过短(25)"
+    ],
+    "639": [
+      "R7:silver_reason过短(23)"
+    ],
+    "640": [
+      "R8:payor_model非规范词表(个人自费（会员订阅）)"
+    ],
+    "641": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "642": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费(B2C订阅+零售))"
+    ],
+    "643": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(32)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "645": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "646": [
+      "R8:payor_model非规范词表(医保支付+个人自费)"
+    ],
+    "648": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "650": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "651": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "652": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府医保(Medicaid/Medicare 长期照护LTS)"
+    ],
+    "653": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "655": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "657": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "658": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "659": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "660": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "661": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "662": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "663": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "664": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "665": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "667": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(政府医保(Medicaid/双重资格))"
+    ],
+    "668": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "669": [
+      "R8:payor_model非规范词表(政府医保(Medicare Advantage)+个人自付)"
+    ],
+    "670": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "671": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "672": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "673": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "674": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "675": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid))"
+    ],
+    "676": [
+      "R8:payor_model非规范词表(B端机构采购（医保/付款人）)"
+    ],
+    "679": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "680": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "681": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "682": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(商业保险支付+雇主福利)"
+    ],
+    "684": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "686": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "687": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "688": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端机构采购（HR SaaS）)"
+    ],
+    "689": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费（会员月费）+B端机构采购（养老社区分成）)"
+    ],
+    "690": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "691": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "692": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "693": [
+      "R8:payor_model非规范词表(商业保险支付（含Medicare/Medicaid）+个人自)"
+    ],
+    "694": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费+处方渠道（Original Medicare Pa)"
+    ],
+    "695": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "696": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(混合（政府老龄署或医疗组织B2G采购加个人订阅；MCO或Me)"
+    ],
+    "697": [
+      "R8:payor_model非规范词表(个人自费（硬件销售+订阅）)"
+    ],
+    "698": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "699": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "700": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(商业保险+雇主福利)"
+    ],
+    "701": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "702": [
+      "R8:payor_model非规范词表(B端机构采购（专科药房按次付费）)"
+    ],
+    "703": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(处方渠道（DME合作方配送）+医保（HCPCS编码覆盖）)"
+    ],
+    "704": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "705": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "706": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "707": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "708": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "709": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "710": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "711": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "713": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "714": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "715": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(雇主福利支付)"
+    ],
+    "716": [
+      "R8:payor_model非规范词表(政府医保(Medicaid)+商业保险)"
+    ],
+    "717": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(商业保险+Medicaid+Medicare(支付方直付)+)"
+    ],
+    "718": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "719": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "720": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(32)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "721": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "722": [
+      "R8:payor_model非规范词表(政府医保(Medicare/MA)+商业保险+企业自保+自办)"
+    ],
+    "723": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "724": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "725": [
+      "R8:payor_model非规范词表(商业保险支付+政府医保(MA/Medicaid))"
+    ],
+    "726": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "727": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+商业保险)"
+    ],
+    "728": [
+      "R8:payor_model非规范词表(个人自费+商业保险)"
+    ],
+    "729": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(商业保险+Medicare Advantage+企业福利)"
+    ],
+    "731": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "733": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "734": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "735": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "736": [
+      "R8:payor_model非规范词表(个人自费+保险支付)"
+    ],
+    "737": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "738": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自费(B2C订阅+零售))"
+    ],
+    "739": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "740": [
+      "R8:payor_model非规范词表(B端机构采购（雇主/医保支付，按效果付费）)"
+    ],
+    "741": [
+      "R8:payor_model非规范词表(B端机构采购（医院/诊所）)"
+    ],
+    "742": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "743": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端机构采购(医院订阅/招聘费))"
+    ],
+    "744": [
+      "R8:payor_model非规范词表(B端机构采购（健康险公司/药企/医疗系统按用量付费）)"
+    ],
+    "745": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "746": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "747": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "748": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "750": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "751": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "752": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(商业保险)"
+    ],
+    "753": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "754": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(商业保险支付+个人自费)"
+    ],
+    "755": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "756": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(政府支付(NDIS/养老)+个人自付)"
+    ],
+    "757": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(B端机构采购（医院/医保）+个人自费)"
+    ],
+    "758": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "759": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)"
+    ],
+    "760": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)"
+    ],
+    "761": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "762": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购（养老机构/健康计划订阅）+个人自费)"
+    ],
+    "763": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "764": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "765": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "766": [
+      "R8:payor_model非规范词表(政府医保(Medicare Advantage/传统Medi)"
+    ],
+    "767": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "769": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "770": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "771": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "772": [
+      "R8:payor_model非规范词表(个人自费（用户直付护工）+平台佣金)"
+    ],
+    "773": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "774": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "775": [
+      "R8:payor_model非规范词表(B端机构采购(医疗/健康品牌)+政府医保(Medicaid))"
+    ],
+    "776": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "777": [
+      "R8:payor_model非规范词表(个人自费(C端订阅)+B端机构采购(药企/支付方))"
+    ],
+    "778": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "779": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购（养老社区）+个人自费（月费订阅）)"
+    ],
+    "780": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "781": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费（保健品零售）)"
+    ],
+    "782": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "784": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "785": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "786": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "787": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "788": [
+      "R6:desc_cn通用套话开头",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业保险+个)"
+    ],
+    "789": [
+      "R8:payor_model非规范词表(政府医保(Medicaid)+商业保险支付)"
+    ],
+    "790": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(31)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "791": [
+      "R8:payor_model非规范词表(政府医保(Medicare/MA)+商业保险+个人自付（按价)"
+    ],
+    "792": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "793": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "794": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "795": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "796": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "797": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "798": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "799": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "800": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "801": [
+      "R8:payor_model非规范词表(B端机构采购(雇主按月会员费))"
+    ],
+    "802": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+个人自费)"
+    ],
+    "803": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ],
+    "804": [
+      "R8:payor_model非规范词表(B端机构采购(养老机构)+个人自费)"
+    ],
+    "805": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构付费（招聘服务费）)"
+    ],
+    "806": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业保险支付)"
+    ],
+    "807": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业保险)"
+    ],
+    "808": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "809": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "811": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "812": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "813": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "814": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "815": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "816": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "817": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费（C端保健品消费，经Tmall等电商渠道）)"
+    ],
+    "818": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购（健康计划/政府支付）)"
+    ],
+    "819": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "820": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "821": [
+      "R8:payor_model非规范词表(B端机构采购(雇主全额付费))"
+    ],
+    "822": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "823": [
+      "R8:payor_model非规范词表(B端机构采购+个人自费(硬件))"
+    ],
+    "824": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "825": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "826": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "827": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "828": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(B端机构采购(药企/支付方))"
+    ],
+    "829": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "830": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(商业保险)"
+    ],
+    "831": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ],
+    "832": [
+      "R7:silver_reason过短(26)"
+    ],
+    "833": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "834": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(商业保险支付（保险全额买单）+个人基本零自付)"
+    ],
+    "835": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(B端机构采购(机构订阅))"
+    ],
+    "836": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "837": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "838": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "839": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "841": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业保险)"
+    ],
+    "842": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "843": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "844": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "845": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "846": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "847": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "848": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "849": [
+      "R7:silver_reason过短(23)"
+    ],
+    "851": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "852": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "853": [
+      "R8:payor_model非规范词表(商业保险/雇主福利（雇主赞助险；会员Visa福利卡直付并按节)"
+    ],
+    "854": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "856": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "857": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)"
+    ],
+    "858": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "859": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "860": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "861": [
+      "R8:payor_model非规范词表(混合支付(健康计划+政府Medicare价值医疗合同，B端机)"
+    ],
+    "862": [
+      "R7:silver_reason过短(26)"
+    ],
+    "863": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "864": [
+      "R7:silver_reason过短(26)"
+    ],
+    "865": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "866": [
+      "R8:payor_model非规范词表(B端机构付费(雇主与健康计划订阅，员工免费))"
+    ],
+    "867": [
+      "R8:payor_model非规范词表(政府医保(Medicare)+商业保险+个人自费)"
+    ],
+    "868": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "870": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "871": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)"
+    ],
+    "872": [
+      "R8:payor_model非规范词表(混合（商业保险+政府Medicare/MA，价值医疗风险合同)"
+    ],
+    "873": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(个人自费（订阅制，无保险覆盖）)"
+    ],
+    "874": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "875": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(B端机构采购（健康险计划/雇主/价值医疗组织）)"
+    ],
+    "876": [
+      "R8:payor_model非规范词表(商保直连+Medicare Part C按次报销+个人自付)"
+    ],
+    "877": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "878": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "879": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "880": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "881": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "882": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "883": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "884": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "885": [
+      "R8:payor_model非规范词表(政府医保(Medicare Advantage/Medica)"
+    ],
+    "887": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "888": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "889": [
+      "R8:payor_model非规范词表(商业保险支付（Aetna/Kaiser在网）+部分Medic)"
+    ],
+    "890": [
+      "R7:silver_reason过短(21)"
+    ],
+    "891": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "893": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费（会员月费及Upside+护理包）)"
+    ],
+    "894": [
+      "R8:payor_model非规范词表(商业保险+政府医保(Medicare/Medicaid))"
+    ],
+    "896": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "897": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "898": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "899": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "900": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)"
+    ],
+    "901": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(商业保险)"
+    ],
+    "902": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "903": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "904": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "905": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费（会员订阅）+B端健康计划合作)"
+    ],
+    "906": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "907": [
+      "R8:payor_model非规范词表(商业保险支付(含Medicare)+雇主福利+个人自费)"
+    ],
+    "908": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "910": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(商业保险+政府医保)"
+    ],
+    "911": [
+      "R8:payor_model非规范词表(B端机构采购（理财顾问/险企 SaaS 订阅）)"
+    ],
+    "912": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "913": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "914": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "915": [
+      "R8:payor_model非规范词表(B端机构付费（健康计划/药企/零售商按平台与接诊量计费）)"
+    ],
+    "916": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "917": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "918": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "919": [
+      "R8:payor_model非规范词表(B端机构采购（企业/运动队/高校的员工健康检测与数据订阅）)"
+    ],
+    "920": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "921": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "922": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "923": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(3)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "924": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "925": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(个人自费（硬件+会员）+ B端机构采购（军方/企业健康/险企)"
+    ],
+    "926": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "927": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "928": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "929": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "930": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "931": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "932": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "933": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)"
+    ],
+    "934": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "936": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "937": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "939": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "940": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "941": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "942": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "943": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "944": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自付为主（月付订阅约30-50美元）+ 部分经医院/养老)"
+    ],
+    "947": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "948": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "955": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "956": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "957": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "958": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "959": [
+      "R7:silver_reason过短(26)"
+    ],
+    "961": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "962": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端机构采购（SaaS订阅）)"
+    ],
+    "963": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "964": [
+      "R8:payor_model非规范词表(B端机构采购（医院植入设备）；远期或由医保/商保覆盖，尚未商)"
+    ],
+    "965": [
+      "R7:silver_reason过短(25)"
+    ],
+    "966": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(商业保险支付（Medicare Advantage）)"
+    ],
+    "967": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "968": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(政府资助（NASA/SBIR 非稀释资金）+ 未来医保/个人)"
+    ],
+    "969": [
+      "R1:recommend非dict(缺三版)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构付费（向医疗系统、健康计划/支付方、药企收SaaS与)"
+    ],
+    "970": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "971": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "972": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(政府医保(Medicare/商保)覆盖临床问诊 + 个人自费)"
+    ],
+    "973": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "974": [
+      "R8:payor_model非规范词表(个人自付(C端)：硬件销售+Autopilot会员订阅；20)"
+    ],
+    "975": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(B端机构采购(药企研发/授权))"
+    ],
+    "976": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购(药企研发/授权))"
+    ],
+    "977": [
+      "R8:payor_model非规范词表(混合（客户为健康计划，终极支付方为政府Medicare或Me)"
+    ],
+    "978": [
+      "R8:payor_model非规范词表(政府医保(CMS过渡支付TPT)+商业保险（植入式器械，医院)"
+    ],
+    "979": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "980": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)"
+    ],
+    "981": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "982": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "983": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "984": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "985": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "986": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "987": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "988": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "989": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "990": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "991": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)"
+    ],
+    "992": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "993": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "994": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "995": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "996": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "997": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "998": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "999": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1000": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1001": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1002": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1003": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1004": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1005": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1006": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1007": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1008": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1009": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1010": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1011": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1012": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1013": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1014": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1016": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1017": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1018": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1019": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1020": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1021": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1022": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1023": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1024": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1025": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1026": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1027": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(PACE)"
+    ],
+    "1028": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1029": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1030": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1031": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1032": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1034": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1035": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1036": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1037": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1038": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1039": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1040": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1041": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1042": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1043": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1044": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1045": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1046": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1047": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1048": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1049": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1050": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1051": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1052": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1053": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1054": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1055": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1056": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1057": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1058": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1059": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1060": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1061": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1062": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(31)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1063": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1064": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1065": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1066": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1067": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1068": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1069": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(33)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1070": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1071": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1072": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1073": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1074": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1075": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1076": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1077": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1078": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1079": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1080": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1081": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1082": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1083": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1084": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1085": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1086": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1087": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1088": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1089": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1090": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1091": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1092": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1093": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1094": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1095": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1096": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1097": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1098": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1099": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1100": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1101": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1102": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1103": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1104": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1105": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1106": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1107": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1108": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1109": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1110": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1111": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1112": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1113": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1114": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1115": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1116": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1117": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1118": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1119": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1120": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1121": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1122": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1123": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1124": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1125": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1126": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1127": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1128": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1129": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1130": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1131": [
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(26)"
+    ],
+    "1132": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购+家庭自费)"
+    ],
+    "1133": [
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(20)"
+    ],
+    "1134": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1137": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1138": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1139": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1140": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费（诊所服务与会员方案）)"
+    ],
+    "1141": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1142": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1146": [
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(24)"
+    ],
+    "1148": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1149": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1150": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1151": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1172": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1175": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(政府介护保险+税金支付为主，个人自费补充)"
+    ],
+    "1176": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1180": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1181": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1182": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1183": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1184": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1185": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1186": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(23)"
+    ],
+    "1187": [
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(B端机构采购（SaaS订阅）)"
+    ],
+    "1188": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(24)"
+    ],
+    "1189": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(26)"
+    ],
+    "1190": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费（家庭居家/机构照护）+ B端机构采购（养老机构合作)"
+    ],
+    "1191": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1192": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1193": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1194": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1195": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1196": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1198": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1199": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1200": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1201": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1202": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1203": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1204": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1205": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1206": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1207": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1208": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1209": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1210": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1211": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1212": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1213": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1214": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1215": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1216": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1217": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1218": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1219": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1220": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1221": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1222": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1223": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1224": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(3)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1225": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1226": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1227": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1228": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1229": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1230": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1231": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1232": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1233": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1234": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1235": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1236": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1237": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1238": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1239": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1240": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1241": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1242": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "1243": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "1244": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1246": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1247": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1248": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1249": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1250": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1251": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1252": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(商业保险)"
+    ],
+    "1253": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1254": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1255": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1256": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1257": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1258": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1259": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1260": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1261": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1262": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1263": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(32)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1264": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1265": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1266": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1267": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1268": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1269": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1270": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1271": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1272": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1273": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1274": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1275": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(17)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1276": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1277": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1278": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1279": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1281": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1282": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1283": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1284": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(10)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1285": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1286": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1287": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1288": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1289": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1290": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1291": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1292": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1293": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1294": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1295": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1296": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1297": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1298": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1299": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1300": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1301": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1302": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(Medicare Advantage)"
+    ],
+    "1303": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1304": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1305": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1306": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1307": [
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(19)"
+    ],
+    "1308": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(政府资助（NIH/NIA）+ B端机构采购（老年服务组织订阅)"
+    ],
+    "1309": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(18)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1311": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(政府医保+个人自付)"
+    ],
+    "1312": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(20)"
+    ],
+    "1313": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1314": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构采购（机构订阅）+ 个人自费（家庭用户）)"
+    ],
+    "1315": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(个人自费（家庭支付照护费）)"
+    ],
+    "1316": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1318": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1319": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(自费)"
+    ],
+    "1321": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1322": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1323": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1324": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(11)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1325": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1326": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1327": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1328": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1329": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1330": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费（账户月费/年费由个人承担，资金来自rollover)"
+    ],
+    "1332": [
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(25)"
+    ],
+    "1333": [
+      "R6:desc_cn过短(14)"
+    ],
+    "1334": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(混合（C端家庭免费，B端机构订阅listing与运营工具）)"
+    ],
+    "1335": [
+      "R6:desc_cn过短(14)",
+      "R7:silver_reason过短(27)"
+    ],
+    "1336": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(B端机构采购（药企/临床机构）)"
+    ],
+    "1337": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1338": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(B端机构采购（医疗/养老机构）+ 政府医保(Medicaid)"
+    ],
+    "1339": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1340": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1341": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1342": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1343": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(16)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1344": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1345": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1346": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(19)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1347": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(13)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1348": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(15)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1349": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(20)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1350": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1352": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购（医疗系统SaaS订阅）)"
+    ],
+    "1353": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1354": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1355": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1356": [
+      "R6:desc_cn过短(12)",
+      "R7:silver_reason过短(17)"
+    ],
+    "1357": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1358": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1359": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(26)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1360": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1361": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1362": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1363": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1364": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1365": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1366": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1367": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1368": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1369": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1370": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1371": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1372": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1373": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1374": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1375": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1376": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1378": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1379": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1380": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1381": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1382": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1384": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1385": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1386": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1387": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1388": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(33)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1389": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1390": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1391": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1392": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1393": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1394": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1395": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1396": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(34)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1397": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1398": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1399": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1400": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(32)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1401": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1402": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1403": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1404": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1405": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1406": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1407": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1408": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1410": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1411": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1412": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1413": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1415": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1416": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1417": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(23)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1418": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(31)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1419": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1420": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(30)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1421": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1422": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1423": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1424": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(33)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1426": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1428": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1429": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1430": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1431": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1432": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1433": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1434": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1435": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1436": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1437": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1438": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1439": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1440": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1441": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1442": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1443": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1444": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1445": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1447": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1448": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1450": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1451": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1452": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(24)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1453": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1454": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1455": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(21)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1456": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1457": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1458": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1459": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(33)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1460": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1461": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1462": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1463": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1464": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1465": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1466": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1467": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(9)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1468": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1469": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1470": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1471": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1472": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1473": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1474": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1475": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1476": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1477": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1478": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1479": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1480": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1481": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1482": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1483": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1484": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1485": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1486": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1487": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1488": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(8)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1489": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1490": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)"
+    ],
+    "1491": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1492": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1493": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1494": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1495": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1496": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1497": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1498": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1499": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1500": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1501": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1502": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1503": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1504": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(29)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1505": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1506": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1507": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1508": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1509": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1510": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1511": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1512": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(22)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1513": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(政府医保/商业保险支付)"
+    ],
+    "1514": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1515": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1516": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1517": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1518": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1519": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1520": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(27)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1521": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(25)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1522": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1523": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(28)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1524": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1525": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1526": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1527": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1528": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费+部分政府补贴)"
+    ],
+    "1529": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1530": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(5)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1531": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1532": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1533": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1534": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(B端机构采购/政府买单)"
+    ],
+    "1535": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1536": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(7)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ],
+    "1537": [
+      "R1:recommend非dict(缺三版)",
+      "R6:desc_cn过短(6)",
+      "R7:silver_reason过短(14)",
+      "R8:payor_model非规范词表(个人自费/家庭自费)"
+    ]
+  },
+  "checked": 1502,
+  "ok": 132
+}

@@ -1,0 +1,888 @@
+[
+  {
+    "serial": "#0728",
+    "name": "Hedia",
+    "name_cn": "Hedia",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "糖尿病"
+    ],
+    "region": "海外",
+    "desc_cn": "面向胰岛素依赖型糖尿病患者的IIb类数字疗法(DTx)应用，按血糖、碳水、活动量等个性化输入生成胰岛素剂量建议，经CE认证在11国上市，80%日活来自医护推荐；通过B2B（诊所/保险公司集成Glooko）与B2C订阅双轨变现。属全龄慢病管理，对老年价值在降低低血糖风险、简化用药决策。",
+    "description": "糖尿病管理数字疗法，糖尿病助手",
+    "silver_reason": "糖尿病数字疗法服务全龄胰岛素依赖患者，无老年专属定位，属泛医疗。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人自费+商业保险",
+    "business_model": "B2B/B2C 健康服务",
+    "funding_latest": {
+      "date": "2024年3月",
+      "amount": "300万欧元",
+      "round": "种子轮",
+      "display": "种子轮 300万欧元 (2024年3月)"
+    },
+    "funding_total": "$3M",
+    "investors": "EISMEA, Startupbootcamp Digital Health Berlin",
+    "stage": "种子期",
+    "founded": 2016,
+    "highlights": [
+      "糖尿病管理数字疗法，获CE认证IIb类医疗器械",
+      "与Glooko集成，将餐时胰岛素计算嵌入远程患者监测平台",
+      "临床研究显示新用户12周低血糖风险下降、亚优化控制者eA1c改善",
+      "B2B模式，80%日活来自医护推荐，留存率高"
+    ],
+    "signal_strength": 1.55,
+    "info_score": 5.0,
+    "diff_score": 4.0,
+    "copy_score": 4.0,
+    "research_value": 35.6,
+    "recommend": {
+      "rec_v1": "信号弱但种子轮清晰；其糖尿病数字疗法国内已有同类，差异不大，创业者可学其教练+算法闭环，但需避开红海找细分。",
+      "rec_v2": "信息中等、模式常规：糖尿病助手竞争激烈；国内复制容易却难突围，建议研究其欧洲医保准入与个性化推送策略。",
+      "rec_v3": "糖尿病管理非银发独属；其亮点是B2B+B2C双轨，国内可借鉴渠道组合，但产品同质、需做差异化定位。",
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 4,
+      "signal_strength": 1.55,
+      "research_value": 35.6
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.hedia.com"
+  },
+  {
+    "serial": "#1196",
+    "name": "兴业控股",
+    "name_cn": "兴业控股",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B/B2C 医养结合机构运营（上市）",
+    "description": "港股上市公司（0132.HK），以医养结合为核心扩张养老业务版图，2026年中标的广东郁南养老服务项目标志其走出佛山大本营。银发经济“十五五”规划纲要下加速布局。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B/B2C 医养结合机构运营（上市）",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "港股上市公司(0132.HK)",
+      "display": "港股上市公司(0132.HK)"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": "港股上市公司，医养版图逆势扩张（S1标杆）",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B/B2C 医养结合机构运营（上市）」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入运营商赛道）。",
+    "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+    "website_url": "https://www.cnpv.com.hk"
+  },
+  {
+    "serial": "#1275",
+    "name": "Portever",
+    "name_cn": "Portever",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "CCRC"
+    ],
+    "region": "海外",
+    "desc_cn": "养老机构运营（养老社区/CCRC）",
+    "description": "海外养老社区与退休生活运营商，提供持续照料退休社区（CCRC）模式，涵盖独立生活到护理的全周期照护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B/B2C 养老社区运营",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": "海外CCRC养老社区运营商",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构运营（养老社区/CCRC）」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老社区赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.portever.com"
+  },
+  {
+    "serial": "#1278",
+    "name": "Oomph! Wellness",
+    "name_cn": "Oomph! Wellness",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "文娱"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B 养老机构康养活动",
+    "description": "英国为养老机构提供活力康养（wellbeing）活动与训练的公司，提升入住老人身心活跃度。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 养老机构康养活动",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2011",
+    "highlights": "英国养老机构活力康养活动",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 养老机构康养活动」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入活力康养赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.oomph-wellness.org"
+  },
+  {
+    "serial": "#1306",
+    "name": "EmpowerMe Wellness",
+    "name_cn": "EmpowerMe Wellness",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "健身"
+    ],
+    "region": "海外",
+    "desc_cn": "养老机构运营（综合养老）",
+    "description": "为自理与辅助生活老人提供整合式预防健康、健身与营养服务的养老运营企业，布局活力养老市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B/B2C 综合养老服务",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2016",
+    "highlights": "预防式综合养老服务",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构运营（综合养老）」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入综合养老赛道）。",
+    "source": "WebSearch(企业库扩充B5: 公司官网/Crunchbase/Tracxn等)",
+    "website_url": "https://www.empowermewellness.com"
+  },
+  {
+    "serial": "#1361",
+    "name": "辽阳市白塔区百善居家和社区养老服务中心",
+    "name_cn": "辽阳市白塔区百善居家和社区养老服务中心",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "养老膳食"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "社区共享食堂，社区共享儿女！\n【提供资源】社区居民\n【需求资源】绿色食品，生活用品，营养食材！",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1370",
+    "name": "重庆经纬",
+    "name_cn": "重庆经纬",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "主要经营银行、康养设备销售、维护、租赁、运营\n【提供资源】康养设备，养老院、社区\n【需求资源】产品，落地、活动方案",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1385",
+    "name": "四川福孝家养老服务有限公司",
+    "name_cn": "四川福孝家养老服务有限公司",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "6家社区养老机构，床位400张，居家服务800人，员工200人。\n【提供资源】服务场次，服务团队\n【需求资源】医养衔接，专业医疗资源",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1388",
+    "name": "山东泉辉养老产业发展有限公司",
+    "name_cn": "山东泉辉养老产业发展有限公司",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "220张床位\n【提供资源】线下实体\n【需求资源】线上链接和银发业态",
+    "description": "220张床位\n【提供资源】线下实体\n【需求资源】线上链接和银发业态",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1396",
+    "name": "江西哦咔科技有限公司",
+    "name_cn": "江西哦咔科技有限公司",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "养区养老\n【提供资源】有社区养老院\n【需求资源】智能设备引入养老赛道",
+    "description": "养区养老\n【提供资源】有社区养老院\n【需求资源】智能设备引入养老赛道",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1397",
+    "name": "广能(广州)规划设计公司",
+    "name_cn": "广能(广州)规划设计公司",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "医疗运营多年，娴熟医养结合幵发。\n【提供资源】大湾区地方资源尤其政府层\n【需求资源】需国央企愿意投入实体医养结合的养老院",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1417",
+    "name": "无锡市德盛社会工作服务中心",
+    "name_cn": "无锡市德盛社会工作服务中心",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "社区"
+    ],
+    "region": "国内",
+    "desc_cn": "社区养老\n【提供资源】服务\n【需求资源】志愿者",
+    "description": "社区养老\n【提供资源】服务\n【需求资源】志愿者",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1504",
+    "name": "辽宁丹泉康护养老服务有限公司",
+    "name_cn": "辽宁丹泉康护养老服务有限公司",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "社区"
+    ],
+    "region": "国内",
+    "desc_cn": "沈阳60个驿站\n【提供资源】驿站\n【需求资源】驿站合作运营",
+    "description": "沈阳60个驿站\n【提供资源】驿站\n【需求资源】驿站合作运营",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1509",
+    "name": "浙江爱柯智能科技有限公司",
+    "name_cn": "浙江爱柯智能科技有限公司",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "中老年友好型纺织用品服务商\n【提供资源】机构纺织用品解决方案\n【需求资源】养老机构或者线下私域零售商",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1520",
+    "name": "华阴市欣怡居养老服务有限公司",
+    "name_cn": "华阴市欣怡居养老服务有限公司",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "社区"
+    ],
+    "region": "国内",
+    "desc_cn": "社区养老中心\n【提供资源】社区\n【需求资源】生活常用品",
+    "description": "社区养老中心\n【提供资源】社区\n【需求资源】生活常用品",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1524",
+    "name": "金沙和谐疗养医院有限公司",
+    "name_cn": "金沙和谐疗养医院有限公司",
+    "tag_l1": [
+      "养老服务",
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "养老机构",
+      "社区"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "公建民营敬老院和乡镇社区居家智慧养老\n【提供资源】敬老院场地居室\n【需求资源】智慧型功能工具及服务及流程",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1526",
+    "name": "福建百龄康养产业发展集团有限公司",
+    "name_cn": "福建百龄康养产业发展集团有限公司",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "目前运营11家养老机构\n【提供资源】相关行业情况\n【需求资源】营销、招聘和融资",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1527",
+    "name": "中天无限科技公司",
+    "name_cn": "中天无限科技公司",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "策划组织老年产业银发经济论坛等主题活动，老年产业合作。\n【提供资源】基金会，上市公司，媒体关系，养老机构等\n【需求资源】企业合作，专家合作，养老机构等",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1529",
+    "name": "光大百龄帮",
+    "name_cn": "光大百龄帮",
+    "tag_l1": [
+      "养老服务",
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老机构",
+      "养老信息平台"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "养老机构\n【提供资源】养老大数据\n【需求资源】智慧养老，比如高盛资本投资的那个养老机构",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1531",
+    "name": "重庆大顺7号科技有限公司",
+    "name_cn": "重庆大顺7号科技有限公司",
+    "tag_l1": [
+      "养老服务",
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老机构",
+      "养老信息平台"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦养老机构的",
+    "description": "10000+养老会员，托管10家养老院\n【提供资源】10000+养老会员，托管10家养老院\n【需求资源】上下游产业全产业链都可以和我们合作",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 35.6,
+    "recommend": "信号偏弱、信息量一般，其「养老机构」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入养老机构赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  }
+]

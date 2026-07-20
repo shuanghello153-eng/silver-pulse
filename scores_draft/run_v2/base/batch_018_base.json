@@ -1,0 +1,639 @@
+[
+ {
+  "serial": "#1131",
+  "name": "Teton.ai",
+  "name_cn": "Teton.ai",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2025-09",
+   "amount": "$20M",
+   "round": "Series A",
+   "display": "Series A $20M (2025-09)"
+  },
+  "funding_total": {
+   "amount": "$20M",
+   "display": "累计约$20M"
+  },
+  "investors": "Plural领投，Bertelsmann Investments、Antler Elevate、Nebular、PSV Tech跟投",
+  "payor_model": "B端机构采购",
+  "desc_cn": "丹麦AI养老机构跌倒风险预测服务商",
+  "recommend": "信号偏弱、信息量一般，其「B2B 养老机构AI监测SaaS+硬件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入摔倒监测赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "视觉辅助"
+  ],
+  "highlights": [
+   "计算机视觉+传感预测老年护理跌倒风险",
+   "从被动响应转向主动预防的照护范式"
+  ],
+  "events": [
+   {
+    "date": "2025-09",
+    "text": "完成2000万美元A轮，Plural领投"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 48.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "业务实质服务养老机构与老年护理场景，属核心银发监测。",
+  "website_url": "https://teton.ai",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1133",
+  "name": "Zingage",
+  "name_cn": "Zingage",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2025-10",
+   "amount": "$12.5M",
+   "round": "Seed",
+   "display": "Seed $12.5M (2025-10)"
+  },
+  "funding_total": {
+   "amount": "$12.5M",
+   "display": "累计$12.5M"
+  },
+  "investors": "Bessemer Venture Partners领投，TQ Ventures、South Park Commons等跟投",
+  "payor_model": "B端机构采购",
+  "desc_cn": "美居家护理AI排班与报销SaaS",
+  "recommend": "信号偏弱、信息量一般，其「B2B 居家护理AI运营SaaS(订阅)」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入专业级护理赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老软件"
+  ],
+  "highlights": [
+   "AI自动化居家护理排班、调度与报销",
+   "面向居家护理机构提升运营效率"
+  ],
+  "events": [
+   {
+    "date": "2025-10",
+    "text": "完成1250万美元种子轮，Bessemer领投"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 5.0,
+  "copy_score": 7.0,
+  "research_value": 46.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家护理为老年照护核心场景，属核心银发。",
+  "website_url": "https://zingage.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1146",
+  "name": "Enzo Health",
+  "name_cn": "Enzo Health",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2025",
+   "amount": "$20M",
+   "round": "Series A",
+   "display": "Series A $20M (2025)"
+  },
+  "funding_total": {
+   "amount": "$20M",
+   "display": "累计$20M"
+  },
+  "investors": "N47领投",
+  "payor_model": "B端机构采购",
+  "desc_cn": "美家居健康与临终关怀AI工作流",
+  "recommend": "信号偏弱、信息量一般，其「B2B 家居健康/临终关怀AI运营SaaS」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入专业级护理赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "highlights": [
+   "AI工作流自动化患者接入与病历审核",
+   "面向家居健康与临终关怀机构"
+  ],
+  "events": [
+   {
+    "date": "2025",
+    "text": "完成2000万美元A轮，N47领投"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 5.0,
+  "copy_score": 7.0,
+  "research_value": 46.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "服务家居健康与临终关怀（老年）机构，属核心银发。",
+  "website_url": "https://enzo.health",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1186",
+  "name": "Neurable",
+  "name_cn": "Neurable",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2015,
+  "funding_latest": {
+   "amount": "3500万美元",
+   "round": "A轮",
+   "date": "2025-12",
+   "display": "A轮 3500万美元 (2025-12)"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费",
+  "desc_cn": "消费级脑机接口认知健康硬件商",
+  "recommend": "信号偏弱、信息量一般，其「B2C 消费级BCI硬件+订阅」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入脑机接口赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "认知训练"
+  ],
+  "highlights": [
+   "消费级脑机接口（BCI）头戴设备",
+   "AI结合日常脑电做认知健康"
+  ],
+  "events": [
+   {
+    "date": "2025-12",
+    "text": "完成3500万美元A轮"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 8.0,
+  "copy_score": 4.0,
+  "research_value": 49.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "消费级认知健康硬件，非老年专属照护，属泛医疗。",
+  "website_url": "https://www.neurable.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1188",
+  "name": "Optain Health",
+  "name_cn": "Optain Health",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2018,
+  "funding_latest": {
+   "amount": "2600万美元",
+   "round": "A轮",
+   "date": "2025-09",
+   "display": "A轮 2600万美元 (2025-09)"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": "Insight Partners",
+  "payor_model": "B端机构采购",
+  "desc_cn": "AI视网膜影像慢病早筛服务商",
+  "recommend": "信号偏弱、信息量一般，其「B2B 视网膜AI筛查SaaS+硬件」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入视觉健康赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "视觉辅助"
+  ],
+  "highlights": [
+   "AI+机器人视网膜成像（oculomics）",
+   "通过视网膜筛查眼疾与全身健康风险"
+  ],
+  "events": [
+   {
+    "date": "2025-09",
+    "text": "完成2600万美元A轮，Insight Partners等"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 4.0,
+  "research_value": 45.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "视网膜筛查为通用医疗影像，非老年专属，属泛医疗。",
+  "website_url": "https://www.optainhealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1189",
+  "name": "Lumata Health",
+  "name_cn": "Lumata Health",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": 2018,
+  "funding_latest": {
+   "amount": "2300万美元",
+   "round": "B轮",
+   "date": "2025-03",
+   "display": "B轮 2300万美元 (2025-03)"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购",
+  "desc_cn": "眼科慢病治疗依从性AI平台",
+  "recommend": "信号偏弱、信息量一般，其「B2B 眼科慢病管理SaaS」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入视觉健康赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "用药提醒"
+  ],
+  "highlights": [
+   "AI提升视力保护治疗依从性与可及性",
+   "已对接全美大型眼科网络"
+  ],
+  "events": [
+   {
+    "date": "2025-03",
+    "text": "完成2300万美元B轮"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 5.0,
+  "copy_score": 4.0,
+  "research_value": 43.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "眼科治疗依从性平台，通用医疗，非老年专属，属泛医疗。",
+  "website_url": "https://www.lumatahealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1307",
+  "name": "Clyx",
+  "name_cn": "Clyx",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "未搜到",
+  "funding_latest": {
+   "amount": "1400万美元",
+   "round": "A轮",
+   "date": "2025-09",
+   "display": "A轮 1400万美元 (2025-09)"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": "Blitzscaling Ventures",
+  "payor_model": "个人自费",
+  "desc_cn": "欧美老年抗孤独社交平台",
+  "recommend": "信号偏弱、信息量一般，其「B2C 老年抗孤独社交App」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入抗孤独社交平台赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "兴趣社群",
+   "陪伴服务"
+  ],
+  "highlights": [
+   "面向老年人的抗孤独社交产品",
+   "兴趣社群+视频连线+AI陪伴"
+  ],
+  "events": [
+   {
+    "date": "2025-09",
+    "text": "完成1400万美元A轮，Blitzscaling领投"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 4.0,
+  "diff_score": 7.0,
+  "copy_score": 8.0,
+  "research_value": 49.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "明确面向老年人社交抗孤独，属核心银发。",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1312",
+  "name": "Jubo",
+  "name_cn": "Jubo",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": 2018,
+  "funding_latest": {
+   "amount": "2350万美元",
+   "round": "B轮",
+   "date": "",
+   "display": "B轮 2350万美元"
+  },
+  "funding_total": {
+   "amount": "累计约2350万美元",
+   "display": "累计约2350万美元"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购",
+  "desc_cn": "台湾AI养老照护数据平台",
+  "recommend": "信号偏弱、信息量一般，其「AI养老照护数据平台(台湾)」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入AI养老平台赛道）。",
+  "business_tags": {
+   "customer": "未标注",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务",
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老软件",
+   "远程护理"
+  ],
+  "highlights": [
+   "连接机构与居家场景的AI照护平台",
+   "沉淀照护数据，累计融资约2350万美元"
+  ],
+  "events": [
+   {
+    "date": "2018",
+    "text": "公司成立（台湾）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 8.0,
+  "research_value": 50.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "AI养老照护平台服务老年人，属核心银发。",
+  "website_url": "http://www.jubo.health",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1335",
+  "name": "Altoida",
+  "name_cn": "Altoida",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2016,
+  "funding_latest": {
+   "date": "2022",
+   "amount": "1400万美元",
+   "round": "Series A",
+   "display": "Series A $14M (默克领投)"
+  },
+  "funding_total": {
+   "amount": "约$2000万",
+   "display": "累计约$2000万"
+  },
+  "investors": "M Ventures(默克)",
+  "payor_model": "B端机构采购",
+  "desc_cn": "AR+AI阿尔茨海默风险早筛",
+  "recommend": "信号偏弱、信息量一般，其「B2B 数字生物标记」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入认知症赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "认知筛查"
+  ],
+  "highlights": [
+   "AR+AI数字生物标志物",
+   "平板10分钟预测阿尔茨海默风险"
+  ],
+  "events": [
+   {
+    "date": "2016",
+    "text": "公司成立"
+   },
+   {
+    "date": "2022",
+    "text": "完成1400万美元A轮，默克风投领投"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 8.0,
+  "copy_score": 5.0,
+  "research_value": 51.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "认知症（阿尔茨海默）早筛直接服务老年群体，属核心银发。",
+  "website_url": "https://www.altoida.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1332",
+  "name": "Rejuvenate Bio",
+  "name_cn": "Rejuvenate Bio",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2026-06-24",
+   "amount": "新融资(未披露额)",
+   "round": "近期",
+   "display": "新融资(携手默克)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "未披露"
+  },
+  "investors": "默克等",
+  "payor_model": "B端机构采购",
+  "desc_cn": "抗衰老基因疗法生物科技公司",
+  "recommend": "信号偏弱、公开信息较少，其「生物科技」打法差异化突出；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入神经/抗衰老赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "保健品"
+  ],
+  "highlights": [
+   "抗衰老基因疗法",
+   "携手默克推进研发"
+  ],
+  "events": [
+   {
+    "date": "2026-06",
+    "text": "宣布新融资并与默克推进研发合作"
+   }
+  ],
+  "signal_strength": 2.3,
+  "info_score": 3.0,
+  "diff_score": 7.0,
+  "copy_score": 2.0,
+  "research_value": 33.9,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "抗衰老基因疗法属泛再生医学，非银发服务，属泛医疗。",
+  "website_url": "https://www.rejuvenatebio.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1333",
+  "name": "Vali Health",
+  "name_cn": "Vali Health",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2026-06-19",
+   "amount": "600万美元",
+   "round": "近期",
+   "display": "$6M"
+  },
+  "funding_total": {
+   "amount": "约$600万",
+   "display": "累计约$600万"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费",
+  "desc_cn": "居家照护场景AI健康管理工具",
+  "recommend": "信号偏弱、信息量一般，其「B2C 健康App」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护平台赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "保健品"
+  ],
+  "highlights": [
+   "将AI Agent用于居家照护健康管理",
+   "面向家庭场景的健康管理工具"
+  ],
+  "events": [
+   {
+    "date": "2026-06",
+    "text": "完成600万美元近期融资"
+   }
+  ],
+  "signal_strength": 2.3,
+  "info_score": 4.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 44.9,
+  "silver_verdict": "核心银发",
+  "silver_reason": "AI Agent用于居家照护场景，服务老年家庭，属核心银发。",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1356",
+  "name": "Whispp",
+  "name_cn": "Whispp",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2026-07-07",
+   "amount": "$5.7M",
+   "round": "早期",
+   "display": "$5.7M (LUMO Labs领投)"
+  },
+  "funding_total": {
+   "amount": "约$5.7M",
+   "display": "累计约$5.7M"
+  },
+  "investors": "LUMO Labs等",
+  "payor_model": "个人自费",
+  "desc_cn": "言语障碍老人语音重建AI",
+  "recommend": "信号偏弱、信息量一般，其「B2C语音重建AI」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入AI医疗赛道）。",
+  "business_tags": {
+   "role": "服务商"
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老软件"
+  ],
+  "highlights": [
+   "语音重建AI助言语障碍老人恢复自然声音",
+   "消费级App化交付"
+  ],
+  "events": [
+   {
+    "date": "2026-07-07",
+    "text": "完成570万美元早期融资，LUMO Labs领投"
+   }
+  ],
+  "signal_strength": 2.3,
+  "info_score": 4.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 44.9,
+  "silver_verdict": "核心银发",
+  "silver_reason": "明确服务言语障碍老人，属核心银发。",
+  "website_url": "https://www.whispp.com",
+  "business_tags_role": null
+ }
+]

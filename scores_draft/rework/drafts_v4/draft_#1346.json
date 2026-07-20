@@ -1,33 +1,78 @@
 {
   "serial": "#1346",
-  "recommend": "法国养老EHPAD非药物语音AI厂商，2024年获SilverEco提名，凭自动电话干预缓解认知症行为障碍、减少神经阻滞剂使用（信号）。公开资料有限，其向养老机构输出的语音关怀模块尚缺规模数据（信息量）。和国内江苏艾雨文承、中科源码等相比，其非药物加自动呼叫定位少见（差异化）。国内已有类似（江苏艾雨文承、中科源码），其减药化语音陪伴养老打法可借鉴（可复制）。",
-  "desc_cn": "这家法国公司面向EHPAD养老机构提供非药物语音AI，通过自动电话与语音交互缓解认知症老人的行为障碍、减少精神类药物使用，曾摘得SilverEco奖项提名，对外运营数据有限。",
-  "silver_reason": "以非药物、自动语音干预改善认知症老人行为与情绪，降低精神类药物依赖，属文娱社交与陪伴服务方向的银发照护创新。",
-  "payor_model": "B端机构采购",
+  "name": "Livana Connect",
+  "region": "海外",
+  "category_l1": "智能科技",
+  "category_l2": "远程监护",
+  "tags": [
+    "陪伴服务"
+  ],
+  "description": "老年人连接与远程关怀技术方案（法国）。",
+  "highlights": [
+    "创始人为阿尔茨海默家属（Nicolas Raulin）",
+    "获法国银发经济奖项提名",
+    "服务养老机构与认知症家庭"
+  ],
   "funding_latest": {
-    "display": "未搜到（获SilverEco提名）"
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
   },
   "funding_total": {
-    "display": "未搜到"
+    "amount": "未披露",
+    "display": "未披露"
   },
-  "stage": "未搜到",
-  "founded_year": null,
-  "highlights": [
-    "法国EHPAD语音AI",
-    "2024 SilverEco提名",
-    "非药物行为干预",
-    "减神经阻滞剂"
+  "investors": [
+    "未搜到"
   ],
+  "founded": "未搜到",
+  "value_score": 0,
+  "source": "信源治理入库(Silvereco) 2026-07-15",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "未搜到",
+  "business_model": "B2B2C",
+  "desc_cn": "这家法国公司面向EHPAD养老机构提供非药物语音AI，通过自动电话与语音交互缓解认知症老人的行为困扰，并降低精神类药物依赖，曾摘得SilverEco奖项提名，对外运营数据有限。",
+  "business_model_cn": "B2B 远程关怀",
+  "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+  },
+  "name_cn": "Livana Connect",
+  "tag_l1": [
+    "文娱社交"
+  ],
+  "tag_l2": [
+    "陪伴服务"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+  },
+  "stage": "初创期",
+  "recommend": "法国养老EHPAD非药物语音AI厂商，2024年获SilverEco提名，凭自动电话干预缓解认知症行为障碍、减少精神类药物使用（信号）。公开资料有限，其向养老机构输出的语音关怀模块尚缺规模数据（信息量）。和国内江苏艾雨文承、中科源码等相比，其非药物加自动呼叫定位少见（差异化）。国内已有类似（江苏艾雨文承、中科源码），其减药化语音陪伴养老打法可借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 7.5,
+  "research_value": 45.6,
   "events": [
-    "2024 获SilverEco奖项提名"
+    "由Nicolas Raulin创立（受祖父阿尔茨海默症触动）",
+    "推出复古座机造型的语音陪伴设备Livana Connect",
+    "获法国SilverEco银发经济奖项提名",
+    "面向EHPAD机构与家庭提供认知刺激通话"
   ],
-  "business_model": "语音关怀模块向养老机构收费（B端）",
+  "silver_verdict": "核心银发",
+  "silver_reason": "以非药物、自动语音干预改善认知症老人行为与情绪，降低精神类药物依赖，属文娱社交与陪伴服务方向的银发照护创新。",
+  "update_time": "2026-07-19",
   "coverage_regions": [
     "法国"
   ],
   "domestic_competitors": [
     "江苏艾雨文承",
-    "中科源码",
-    "大象机器人"
+    "中科源码"
   ]
 }

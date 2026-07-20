@@ -1,0 +1,528 @@
+{
+ "batch": 16,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0766",
+   "name": "Livara Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "康复医疗"
+   ],
+   "description": "为肌肉骨骼疾病患者减少不必要的手术",
+   "highlights": "为肌肉骨骼疾病患者减少不必要的手术",
+   "funding_latest": {
+    "amount": "1500万美元",
+    "round": "B轮",
+    "display": "B轮 1500万美元"
+   },
+   "funding_total": "$15M",
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Livara%20Health",
+   "website_url": "https://www.livarahealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "为肌肉骨骼疾病患者减少不必要的手术",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康复医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Livara Health】聚焦产业资本/慢病管理/行业媒体，为肌肉骨骼疾病患者减少不必要的手术，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0775",
+   "name": "Mealogic",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "膳食配送"
+   ],
+   "description": "Mealogic prepares and home-delivers medically tailored meals and electrolyte-balanced nutrition for people with diabetes, renal and cardiac conditions, billing health plans and Medicaid managed-care programs.",
+   "highlights": "非专门面向老人",
+   "funding_latest": {
+    "date": "2025年6月",
+    "amount": "1600万美元",
+    "round": "后期VC",
+    "display": "后期VC 1600万美元 (2025年6月)"
+   },
+   "funding_total": "$16M",
+   "investors": "",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mealogic",
+   "website_url": "https://www.mealogic.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Mealogic 为糖尿病、肾病与心脏病患者配制并按周配送医学定制餐食，向商业健康险与医疗补助计划结算费用。",
+   "business_model_cn": "餐食销售/B2B结算",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Mealogic】聚焦产业资本/保健品/健康管理，非专门面向老人，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0777",
+   "name": "Medisafe",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "用药提醒"
+   ],
+   "description": "药物管理APP，可视化时间表+提醒",
+   "highlights": "可视化时间表+提醒",
+   "funding_latest": {
+    "date": "2021年",
+    "amount": "3000万美元",
+    "round": "C轮",
+    "display": "C轮 3000万美元 (2021年)"
+   },
+   "funding_total": null,
+   "investors": "Sanofi Ventures (Series C)",
+   "founded": "2012",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Medisafe",
+   "website_url": "https://www.medisafe.com",
+   "business_model": "B2B 制药/生物科技",
+   "desc_cn": "药物管理APP，可视化时间表+提醒",
+   "business_model_cn": "B2B 制药/生物科技",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药提醒"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "成长期",
+   "recommend": "【Medisafe】聚焦产业资本/健康管理/文娱社交，可视化时间表+提醒，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0788",
+   "name": "Modify Health",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "养老膳食",
+    "膳食配送"
+   ],
+   "description": "营养师处方、医学定制膳食和肠道健康测试",
+   "highlights": "营养师处方、医学定制膳食和肠道健康测试",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "1350万美元",
+    "round": "C轮",
+    "display": "C轮 1350万美元 (2024年12月)"
+   },
+   "funding_total": "$28.9M",
+   "investors": "Nashville Capital Network, River Cities Capital, Dohmen Company Foundation",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Modify%20Health",
+   "website_url": "https://www.modifyhealth.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "营养师处方、医学定制膳食和肠道健康测试",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "养老膳食",
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Modify Health】聚焦产业资本/保健品/营养食品，营养师处方、医学定制膳食和肠道健康测试，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0801",
+   "name": "Nice healthcare",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "虚拟/上门初级保健、物理治疗和慢性护理管理",
+   "highlights": "虚拟/上门初级保健、物理治疗和慢性护理管理",
+   "funding_latest": {
+    "date": "2022年3月",
+    "amount": "3000万美元",
+    "round": "A轮",
+    "display": "A轮 3000万美元 (2022年3月)"
+   },
+   "funding_total": "$42M",
+   "investors": "DNA Capital, Waterline Ventures, Indievc",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nice%20healthcare",
+   "website_url": "https://www.nice.healthcare",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "虚拟/上门初级保健、物理治疗和慢性护理管理",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Nice healthcare】聚焦产业资本/保健品/居家护理，虚拟/上门初级保健、物理治疗和慢性护理管理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0802",
+   "name": "Nirvana",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "专业护理"
+   ],
+   "description": "Nirvana 旗下与老年相关的业务主要指向 Nirvana Adult Day Care（佛罗里达的成人日托照护）及 Nirvana Healthcare 的老年医学科，提供日托、慢病管理与老年综合照护，按服务/医保收费。注：Nirvana 同时还有 PBM 医疗支付平台与护理派遣业务。",
+   "highlights": "AI技术为医疗服务提供者和患者提供即时保险验证",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "2420万美元",
+    "round": "A轮",
+    "display": "A轮 2420万美元 (2024年9月)"
+   },
+   "funding_total": "$20M+",
+   "investors": "Northzone, Battery Ventures, ENIAC Ventures, Inspired Capital, Adams Street Partners",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nirvana",
+   "website_url": "https://www.nirvana.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Nirvana 旗下与老年相关的业务主要指向 Nirvana Adult Day Care（佛罗里达的成人日托照护）及 Nirvana Healthcare 的老年医学科，提供日托、慢病管理与老年综合照护，按服务/医保收费。注：Nirvana 同时还有 PBM 医疗支付平台与护理派遣业务。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "专业护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Nirvana】聚焦产业资本/保险科技/文娱社交，AI技术为医疗服务提供者和患者提供即时保险验证，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0803",
+   "name": "Nobel Hygiene",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "纸尿裤"
+   ],
+   "description": "个人卫生用品，包括成人尿布和卫生巾",
+   "highlights": "包括成人尿布和卫生巾",
+   "funding_latest": {
+    "date": "2022年9月",
+    "amount": "1600万美元",
+    "round": "C轮",
+    "display": "C轮 1600万美元 (2022年9月)"
+   },
+   "funding_total": "$20M",
+   "investors": "Neo Asset Management",
+   "founded": "2000",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nobel%20Hygiene",
+   "website_url": "https://www.nobelhygiene.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "个人卫生用品，包括成人尿布和卫生巾",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "纸尿裤"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Nobel Hygiene】聚焦产业资本/消费品/行业媒体，包括成人尿布和卫生巾，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0804",
+   "name": "Nobi",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "智能灯跌倒检测，销往21个国家",
+   "highlights": "销往21个国家",
+   "funding_latest": {
+    "date": "2025年1月",
+    "amount": "3670万美元",
+    "round": "B轮",
+    "display": "B轮 3670万美元 (2025年1月)"
+   },
+   "funding_total": {
+    "amount": "$51.2M",
+    "display": "$51.2M (截至2025年1月)"
+   },
+   "investors": "Angelini Ventures, Nexus NeuroTech Ventures, 15th Rock",
+   "founded": "2018",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nobi",
+   "website_url": "https://www.nobi.be",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "智能灯跌倒检测，销往21个国家",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Nobi】聚焦产业资本/健康监测/智能硬件，销往21个国家，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0806",
+   "name": "Nourish",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "个性化营养"
+   ],
+   "description": "将人们与受保险覆盖的注册营养师连接",
+   "highlights": "将人们与受保险覆盖的注册营养师连接",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "3500万美元",
+    "round": "A轮",
+    "display": "A轮 3500万美元 (2024年3月)"
+   },
+   "funding_total": "$115M",
+   "investors": "Index Ventures, J.P. Morgan Growth Equity (lead)",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nourish",
+   "website_url": "https://www.usenourish.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "将人们与受保险覆盖的注册营养师连接",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Nourish】聚焦产业资本/保险/营养食品，将人们与受保险覆盖的注册营养师连接，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0821",
+   "name": "PeopleOne Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "诊所"
+   ],
+   "description": "PeopleOne Health 是一家位于佛罗里达奥兰多的价值型基础医疗集团，以每月约 160 美元的会员费提供接近私人医生的便捷初级诊疗与慢病管理，并在社区设健康中心。亮点是用低价会员制+按价值付费模式提升就医可及性。",
+   "highlights": "以雇主为中心的预防性护理混合医疗服务提供商",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "3230万美元",
+    "round": "B轮",
+    "display": "B轮 3230万美元 (2024年10月)"
+   },
+   "funding_total": "$32.3M",
+   "investors": "GV (lead)",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PeopleOne%20Health",
+   "website_url": "https://www.peopleonehealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "PeopleOne Health 是一家位于佛罗里达奥兰多的价值型基础医疗集团，以每月约 160 美元的会员费提供接近私人医生的便捷初级诊疗与慢病管理，并在社区设健康中心。亮点是用低价会员制+按价值付费模式提升就医可及性。",
+   "business_model_cn": "B2C/B2B 专业护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【PeopleOne Health】聚焦专业护理/产业资本/健康管理，以雇主为中心的预防性护理混合医疗服务提供商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "商业保险",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0823",
+   "name": "Pillo Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "药品配送"
+   ],
+   "description": "帮助老人科学用药、买正版药",
+   "highlights": "帮助老人科学用药、买正版药",
+   "funding_latest": {
+    "date": "2019年",
+    "amount": "1100万美元",
+    "round": "A轮",
+    "display": "A轮 1100万美元 (2019年)"
+   },
+   "funding_total": "$37.5M",
+   "investors": "BioAdvance, Hackensack Meridian, Samsung Ventures",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Pillo%20Health",
+   "website_url": "https://www.pillohealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "帮助老人科学用药、买正版药",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Pillo Health】聚焦产业资本/保健品/健康管理，帮助老人科学用药、买正版药，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0828",
+   "name": "Redi Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Redi Health 是一个数字化的患者支持平台，连接药企与患者，提供用药依从、福利查询与疾病管理工具，通过 B2B2C（向制药与支付方收费）模式运营，已完成 B 轮融资。亮点是把药企患者援助项目做成可量化的依从性提升产品。",
+   "highlights": "连接制药公司、医疗保健提供商和患者",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "1400万美元",
+    "round": "B轮",
+    "display": "B轮 1400万美元 (2024年2月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Redi%20Health",
+   "website_url": "https://www.redihealth.com",
+   "business_model": "B2B 制药/生物科技",
+   "desc_cn": "Redi Health 是一个数字化的患者支持平台，连接药企与患者，提供用药依从、福利查询与疾病管理工具，通过 B2B2C（向制药与支付方收费）模式运营，已完成 B 轮融资。亮点是把药企患者援助项目做成可量化的依从性提升产品。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Redi Health】聚焦产业资本/健康管理，连接制药公司、医疗保健提供商和患者，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  }
+ ]
+}

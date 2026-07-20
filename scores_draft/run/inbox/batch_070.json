@@ -1,0 +1,509 @@
+{
+ "batch": 70,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0684",
+   "name": "DigitalOwl",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "DigitalOwl 是保险科技(InsurTech)公司，用专有 NLP/生成式 AI 把繁杂的非结构化病历转化为结构化数据与摘要，服务保险（寿险核保、长期护理理赔、意外伤害）与法律行业，支持点击溯源、API 接入与工作流自动化。客户为保险公司、再保、TPA 与律所，累计融资超 3,800 万美元（Insight Partners 领投 A 轮），符合 HIPAA/SOC2。",
+   "highlights": "AI和机器学习为付款人提供医疗文件分析",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "1200万美元",
+    "display": "1200万美元 (2024年1月)"
+   },
+   "funding_total": {
+    "amount": "$38.6M",
+    "display": "$38.6M"
+   },
+   "investors": "Insight Partners, Reinsurance Group of America, Ibex Investors 等",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=DigitalOwl",
+   "website_url": "https://www.digitalowl.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "DigitalOwl 是保险科技(InsurTech)公司，用专有 NLP/生成式 AI 把繁杂的非结构化病历转化为结构化数据与摘要，服务保险（寿险核保、长期护理理赔、意外伤害）与法律行业，支持点击溯源、API 接入与工作流自动化。客户为保险公司、再保、TPA 与律所，累计融资超 3,800 万美元（Insight Partners 领投 A 轮），符合 HIPAA/SOC2。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【DigitalOwl】聚焦产业资本/文娱社交，AI和机器学习为付款人提供医疗文件分析，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0686",
+   "name": "DiningRD",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "养老膳食",
+    "养老软件"
+   ],
+   "description": "DiningRD 是面向养老社区与长期照护机构(CCRC、记忆照护、疗养院等)的餐饮营养软件与营养师咨询公司，核心产品 DiningManager 套件含菜单规划(PlateFul)、住民营养档案(MealCard)与平板点餐(TableSide)。旗下近 900 名注册营养师服务全美 49 州超 8,500 家机构，成立于 1993 年，获私募股权支持。",
+   "highlights": "46个州4000+医疗保健社区提供营养师咨询和餐饮服务",
+   "funding_latest": {
+    "round": "收购",
+    "display": "收购"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2004",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=DiningRD",
+   "website_url": "https://www.diningrd.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "DiningRD 是面向养老社区与长期照护机构(CCRC、记忆照护、疗养院等)的餐饮营养软件与营养师咨询公司，核心产品 DiningManager 套件含菜单规划(PlateFul)、住民营养档案(MealCard)与平板点餐(TableSide)。旗下近 900 名注册营养师服务全美 49 州超 8,500 家机构，成立于 1993 年，获私募股权支持。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "食品营养",
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老膳食",
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【DiningRD】聚焦保健品/营养食品，46个州4000+医疗保健社区提供营养师咨询和餐饮服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0687",
+   "name": "Domma",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "治疗更年期荷尔蒙失调的非侵入性疗法",
+   "highlights": "治疗更年期荷尔蒙失调的非侵入性疗法",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "95万欧元",
+    "display": "95万欧元 (2024年2月)"
+   },
+   "funding_total": {
+    "amount": "$1.41M",
+    "display": "$1.41M"
+   },
+   "investors": "ENISA, Antai Ventures, Medex Partners, Secways",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Domma",
+   "website_url": "https://www.domma.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "治疗更年期荷尔蒙失调的非侵入性疗法",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Domma】聚焦产业资本/女性健康/行业媒体，治疗更年期荷尔蒙失调的非侵入性疗法，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0690",
+   "name": "Dwellr",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "直接与老年生活社区联系，无中间人无佣金",
+   "highlights": "无中间人无佣金",
+   "funding_latest": {
+    "date": "2023年10月",
+    "display": "(2023年10月)"
+   },
+   "funding_total": {
+    "amount": "$500K (Pre-Seed)",
+    "display": "$500K Pre-Seed"
+   },
+   "investors": "Move Venture Capital, Invest Nebraska",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Dwellr",
+   "website_url": "https://www.dwellr.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "直接与老年生活社区联系，无中间人无佣金",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Dwellr】聚焦产业资本/护理平台/行业媒体，无中间人无佣金，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0691",
+   "name": "Eargo",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "助听器"
+   ],
+   "description": "外形小巧，可放入耳朵内",
+   "highlights": "可放入耳朵内",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Eargo",
+   "website_url": "https://eargo.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "外形小巧，可放入耳朵内",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Eargo】聚焦助听器/行业媒体，可放入耳朵内，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0692",
+   "name": "eargym",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "助听器"
+   ],
+   "description": "个性化听力健康伴侣APP，沉浸式游戏提高听力",
+   "highlights": "沉浸式游戏提高听力",
+   "funding_latest": {
+    "amount": "50万美元",
+    "display": "50万美元"
+   },
+   "funding_total": null,
+   "investors": "Twinkl (领投)",
+   "founded": "2020",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=eargym",
+   "website_url": "https://www.eargym.com",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "个性化听力健康伴侣APP，沉浸式游戏提高听力",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【eargym】聚焦产业资本/文娱社交，沉浸式游戏提高听力，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0695",
+   "name": "Ellipsis Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "融资很高，不是面向老人的",
+   "highlights": "不是面向老人的",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$75M",
+    "display": "$75M"
+   },
+   "investors": "Salesforce, Khosla Ventures, SJF Ventures 等",
+   "founded": "2017",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ellipsis%20Health",
+   "website_url": "https://ellipsishealth.com",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "融资很高，不是面向老人的",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ellipsis Health】聚焦AI医疗/产业资本/文娱社交，不是面向老人的，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0698",
+   "name": "Embr Labs",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "通过温度解决健康问题，管理潮热、睡眠、压力",
+   "highlights": "管理潮热、睡眠、压力",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "300万美元",
+    "display": "300万美元 (2024年10月)"
+   },
+   "funding_total": "$3M",
+   "investors": "DigiTx Partners, Safar Partners, Bose Ventures, Intel Capital",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Embr%20Labs",
+   "website_url": "https://embrlabs.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "通过温度解决健康问题，管理潮热、睡眠、压力",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Embr Labs】聚焦产业资本/健康监测/健康管理，管理潮热、睡眠、压力，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0699",
+   "name": "Evernow",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "数字化手段管理更年期症状，定制化治疗方案",
+   "highlights": "定制化治疗方案",
+   "funding_latest": {
+    "date": "2022年",
+    "display": "(2022年)"
+   },
+   "funding_total": "$28.5M",
+   "investors": "NEA (lead), Gwyneth Paltrow, others",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Evernow",
+   "website_url": "https://www.evernow.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "数字化手段管理更年期症状，定制化治疗方案",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Evernow】聚焦产业资本/女性健康/行业媒体，定制化治疗方案，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0701",
+   "name": "findhelp",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "美国领先的社会护理网络，536,269个计划地点",
+   "highlights": "536,269个计划地点",
+   "funding_latest": null,
+   "funding_total": "$49.2M",
+   "investors": "TPG Rise Fund (growth lead)",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=findhelp",
+   "website_url": "https://company.findhelp.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "美国领先的社会护理网络，536,269个计划地点",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【findhelp】聚焦专业护理/健康管理，536,269个计划地点，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0704",
+   "name": "Foodsmart",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "个性化营养",
+    "膳食配送"
+   ],
+   "description": "Foodsmart 是远程营养健康平台，通过电话或视频将会员与注册营养师(RD)连接，提供个性化营养方案，并配套 App 含菜谱规划、比价与食品配送商城（接入 Instacart、Walmart、Grubhub）；多数会员由健康险覆盖、自付为 0。可用于管理糖尿病、高血压、体重及协助申请 SNAP 福利，以 B2B2C 模式服务健康险与雇主。",
+   "highlights": "740万患者",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "2亿美元",
+    "display": "2亿美元 (2024年6月)"
+   },
+   "funding_total": "$200M",
+   "investors": "The Rise Fund (lead)",
+   "founded": "2011",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Foodsmart",
+   "website_url": "https://www.foodsmart.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "Foodsmart 是远程营养健康平台，通过电话或视频将会员与注册营养师(RD)连接，提供个性化营养方案，并配套 App 含菜谱规划、比价与食品配送商城（接入 Instacart、Walmart、Grubhub）；多数会员由健康险覆盖、自付为 0。可用于管理糖尿病、高血压、体重及协助申请 SNAP 福利，以 B2B2C 模式服务健康险与雇主。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养",
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Foodsmart】聚焦产业资本/保健品/远程医疗，740万患者，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0705",
+   "name": "Foundation Partners Group",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "殡葬"
+   ],
+   "description": "Foundation Partners Group 是美国殡葬与墓园服务运营商，成立于 2010 年，在 21 个州拥有约 197 家殡仪馆、火化中心与 18 处墓园，每年服务超 11.5 万个家庭。以 ShareLife® 客户体验为中心，并通过为独立殡仪馆提供继任规划（可被收购后保留原品牌）实现规模化扩张。",
+   "highlights": "收购Cake",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Foundation%20Partners%20Group",
+   "website_url": "https://foundationpartners.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Foundation Partners Group 是美国殡葬与墓园服务运营商，成立于 2010 年，在 21 个州拥有约 197 家殡仪馆、火化中心与 18 处墓园，每年服务超 11.5 万个家庭。以 ShareLife® 客户体验为中心，并通过为独立殡仪馆提供继任规划（可被收购后保留原品牌）实现规模化扩张。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "殡葬"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Foundation Partners Group】聚焦临终关怀/行业媒体，收购Cake，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

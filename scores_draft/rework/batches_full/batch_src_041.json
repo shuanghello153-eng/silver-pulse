@@ -1,0 +1,866 @@
+[
+  {
+    "serial": "#1302",
+    "name": "SCAN Health Plan",
+    "name_cn": "SCAN Health Plan",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "保险"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B2C Medicare Advantage保险",
+    "description": "美国大型非营利Medicare Advantage健康计划，专注老年人群，提供MA与健康计划服务。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "Medicare Advantage",
+    "business_model": "B2B2C Medicare Advantage保险",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "1977",
+    "highlights": "大型非营利MA计划，专注老年（S1）",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 3.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B2C Medicare Advantage保险」打法差异化突出；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入医疗保险计划赛道）。",
+    "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+    "website_url": "https://www.scanhealthplan.com"
+  },
+  {
+    "serial": "#1303",
+    "name": "翔宇医疗",
+    "name_cn": "翔宇医疗",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B 康复医疗器械（上市）",
+    "description": "国内康复医疗器械上市公司（上交所），产品涵盖康复评定、训练与治疗设备，广泛服务于老年康复与养老机构。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 康复医疗器械（上市）",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "上市公司(翔宇医疗)",
+      "display": "上市公司(翔宇医疗)"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2002",
+    "highlights": "康复医疗器械上市（S1）",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 康复医疗器械（上市）」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入康复器械赛道）。",
+    "source": "WebSearch(企业库扩充B5: 公司官网/Crunchbase/Tracxn等)",
+    "website_url": "https://www.xiangyu.cn"
+  },
+  {
+    "serial": "#1304",
+    "name": "伟思医疗",
+    "name_cn": "伟思医疗",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B 康复医疗器械（上市）",
+    "description": "国内康复医疗器械上市公司（上交所），聚焦电刺激、磁刺激与康复机器人，服务于神经与盆底康复等老年相关场景。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 康复医疗器械（上市）",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "上市公司(伟思医疗)",
+      "display": "上市公司(伟思医疗)"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2001",
+    "highlights": "康复医疗器械上市，神经/盆底康复",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 康复医疗器械（上市）」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入康复器械赛道）。",
+    "source": "WebSearch(企业库扩充B5: 公司官网/Crunchbase/Tracxn等)",
+    "website_url": "https://www.vishee.com"
+  },
+  {
+    "serial": "#1305",
+    "name": "Nymbl Science",
+    "name_cn": "Nymbl Science",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "健身"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B2C 防跌倒训练APP",
+    "description": "面向老人的防跌倒平衡训练APP，通过每日简短双重任务训练改善平衡、降低跌倒风险。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B2C 防跌倒训练APP",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2016",
+    "highlights": "防跌倒平衡训练APP",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B2C 防跌倒训练APP」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入防跌倒训练赛道）。",
+    "source": "WebSearch(企业库扩充B5: 公司官网/Crunchbase/Tracxn等)",
+    "website_url": "https://www.nymblscience.com"
+  },
+  {
+    "serial": "#1328",
+    "name": "华康岛",
+    "name_cn": "华康岛",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能硬件"
+    ],
+    "region": "国内",
+    "desc_cn": "适老化改造(加盟)",
+    "description": "安徽华康岛科技有限公司旗下品牌，专注适老化改造，以'八心八养'体系提供居家适老化空间与智能硬件方案。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "适老化改造品牌，居家空间+智能硬件方案(加盟模式)。",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": "适老化物理改造+智能硬件结合的家装路线，是'居家适老化'民生刚需样本，对国内适老化改造规模化有借鉴（S4）。",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「适老化改造(加盟)」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入适老化改造赛道）。",
+    "source": "搜狐《2026适老化改造加盟机遇》(2026)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1329",
+    "name": "伊维养老",
+    "name_cn": "伊维养老",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能硬件"
+    ],
+    "region": "国内",
+    "desc_cn": "适老化智能硬件",
+    "description": "辽宁厚嘉科技有限公司旗下品牌，深耕适老化智能硬件与物理空间改造垂直赛道，强调'适老细节'的产品逻辑。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "适老化智能硬件+空间改造(垂直深耕)。",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": "与华康岛形成'适老化硬件'对照；强调产品细节的本土硬件公司，对国内适老化智能硬件选品有参考价值（S4）。",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「适老化智能硬件」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入适老化智能硬件赛道）。",
+    "source": "QQ新闻《2026养老院适老化改造市场洞察》(2026)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1339",
+    "name": "SingFit",
+    "name_cn": "SingFit",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "文娱"
+    ],
+    "region": "海外",
+    "desc_cn": "治疗性音乐/歌唱数字疗法，非药物改善痴呆认知。",
+    "description": "治疗性音乐/歌唱数字疗法，非药物改善痴呆认知。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B2C",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "早期/孵化",
+      "round": "早期",
+      "display": "孵化器阶段"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "2014",
+    "highlights": "成立于2014年",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B2C 音乐疗法」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入认知症赛道）。",
+    "source": "信源治理入库(CB/AgeTech) 2026-07-15",
+    "website_url": "https://www.singfit.com"
+  },
+  {
+    "serial": "#1340",
+    "name": "Optina Diagnostics",
+    "name_cn": "Optina Diagnostics",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "视网膜高光谱成像检测脑淀粉样蛋白，AD 早筛。",
+    "description": "视网膜高光谱成像检测脑淀粉样蛋白，AD 早筛。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B设备",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "超3000万美元",
+      "round": "成长",
+      "display": ">$30M"
+    },
+    "funding_total": {
+      "amount": "超$3000万",
+      "display": "累计>$30M"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 影像诊断」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入认知症赛道）。",
+    "source": "信源治理入库(ADDF) 2026-07-15",
+    "website_url": "https://www.optinadiagnostics.com"
+  },
+  {
+    "serial": "#1343",
+    "name": "Assystel",
+    "name_cn": "Assystel",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "紧急呼叫"
+    ],
+    "region": "海外",
+    "desc_cn": "远程协助与家庭安全警报（法国）。",
+    "description": "远程协助与家庭安全警报（法国）。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "未搜到",
+    "business_model": "B2C设备",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 安全警报」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入远程监护赛道）。",
+    "source": "信源治理入库(Silvereco) 2026-07-15",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1344",
+    "name": "Xray Moov",
+    "name_cn": "Xray Moov",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能硬件"
+    ],
+    "region": "海外",
+    "desc_cn": "上门医疗影像/放射检查移动服务（法国）。",
+    "description": "上门医疗影像/放射检查移动服务（法国）。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "B2C服务",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 上门影像」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入上门医疗赛道）。",
+    "source": "信源治理入库(Silvereco) 2026-07-15",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1345",
+    "name": "Swissvoice",
+    "name_cn": "Swissvoice",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "助听器"
+    ],
+    "region": "海外",
+    "desc_cn": "老年人易用通信终端/电话设备（瑞士）。",
+    "description": "老年人易用通信终端/电话设备（瑞士）。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B设备",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 适老通信」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入适老硬件赛道）。",
+    "source": "信源治理入库(Silvereco) 2026-07-15",
+    "website_url": "https://www.swissvoice.net"
+  },
+  {
+    "serial": "#1349",
+    "name": "Ome",
+    "name_cn": "Ome",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能家居"
+    ],
+    "region": "海外",
+    "desc_cn": "防厨房火灾、助力居家养老的厨房安全产品。",
+    "description": "防厨房火灾、助力居家养老的厨房安全产品。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "B2C硬件",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "种子",
+      "round": "种子",
+      "display": "种子轮"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 厨房安全」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入适老硬件赛道）。",
+    "source": "信源治理入库(thirdact.vc) 2026-07-15",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1353",
+    "name": "红松 Hongsong",
+    "name_cn": "红松 Hongsong",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群"
+    ],
+    "region": "国内",
+    "desc_cn": "B2C银发文娱社区",
+    "description": "国内退休人群文娱直播课社区头部，提供兴趣课程+社交直播，模式反常识标杆；已完成A+轮。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "未搜到",
+    "business_model": "B2C社区",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "数千万人民币",
+      "round": "A+轮",
+      "display": "A+轮 数千万人民币 (贝塔斯曼亚洲/创世伙伴/蓝驰)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": "贝塔斯曼亚洲/创世伙伴/蓝驰",
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C银发文娱社区」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入兴趣社群赛道）。",
+    "source": "信源治理入库(W2文娱) 2026-07-16",
+    "website_url": "https://hongsong.tuixiu.com"
+  },
+  {
+    "serial": "#1355",
+    "name": "Silversurfers",
+    "name_cn": "Silversurfers",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "社区"
+    ],
+    "region": "海外",
+    "desc_cn": "UGC活力老人社区",
+    "description": "英国最大50+在线社区，30万+注册、社媒100万+关注，UGC活力老人内容（论坛/展示/交友）。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "未搜到",
+    "business_model": "UGC社区",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「UGC活力老人社区」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入社区赛道）。",
+    "source": "信源治理入库(W2文娱) 2026-07-16",
+    "website_url": "https://www.silversurfers.com"
+  },
+  {
+    "serial": "#1359",
+    "name": "深圳艺心灵文化传媒有限公司",
+    "name_cn": "深圳艺心灵文化传媒有限公司",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "行业媒体"
+    ],
+    "region": "国内",
+    "desc_cn": "自媒体\n【提供资源】流量\n【需求资源】想转行银发赛道",
+    "description": "自媒体\n【提供资源】流量\n【需求资源】想转行银发赛道",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "未搜到",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「文娱」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入文娱赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1368",
+    "name": "山海岛滋补行",
+    "name_cn": "山海岛滋补行",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "保健品"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦保健品的",
+    "description": "虫草贝母松茸等藏区特产\n年2000万\n【提供资源】优质藏区滋补养生产品\n【需求资源】银发养生人群渠道",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「保健品」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入保健品赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1369",
+    "name": "联众昌",
+    "name_cn": "联众昌",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "保健品"
+    ],
+    "region": "国内",
+    "desc_cn": "大健康\n【提供资源】市场\n【需求资源】药食同源产品及配套",
+    "description": "大健康\n【提供资源】市场\n【需求资源】药食同源产品及配套",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「保健品」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入保健品赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1371",
+    "name": "山西尧望旅行社有限公司",
+    "name_cn": "山西尧望旅行社有限公司",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "旅游"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦旅游的",
+    "description": "母公司和省文旅厅战略合作，银发客户精品小包团，定制团为主，5人团体，年营收预估500万，毛利率20%。\n【提供资源】高端定制旅游项目，康养项目\n【需求资源】银发客户45～70岁女性为主",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "未搜到",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「旅游」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入旅游赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1375",
+    "name": "开开华彩",
+    "name_cn": "开开华彩",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "教育"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦教育的",
+    "description": "公司年收入上亿+\n【提供资源】中老年课程，产品合作\n【需求资源】中老年商务渠道",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「教育」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入教育赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1376",
+    "name": "兰州机场佰翔酒店",
+    "name_cn": "兰州机场佰翔酒店",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "康养地产"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦旅游的",
+    "description": "兰州新区规模最大的准五星级酒店，今年底即将开业\n【提供资源】酒店自身及上下游资源，酒店拥有客房558间+中餐厅、西餐厅、特色餐厅+2个千平米宴会厅等\n【需求资源】银发经济关联产业资源皆可以对接，如旅居养老、疗休养等等",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "未搜到",
+    "business_model": "",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 5.5,
+    "research_value": 41.6,
+    "recommend": "信号偏弱、信息量一般，其「旅游」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入旅游赛道）。",
+    "source": "飞书·养老行业供需对接表(2025)",
+    "website_url": "未搜到"
+  }
+]

@@ -1,0 +1,677 @@
+{
+ "batch": 107,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "Trust & Will",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "遗产规划",
+   "tags": [
+    "金融理财",
+    "遗产规划"
+   ],
+   "description": "在线遗嘱与信托设立平台企业，帮助家庭便捷完成遗产与临终法律安排，服务于个人与家庭的养老金融需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "在线遗嘱与信托设立平台企业，帮助家庭便捷完成遗产与临终法律安排，服务于个人与家庭的养老金融需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "在线遗嘱与信托设立平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Trust+&+Will",
+   "website_url": "https://www.trustandwill.com",
+   "business_model": "B2C 遗产规划SaaS",
+   "business_model_cn": "B2C 养老金融/遗产规划",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "在线遗嘱与信托设立平台，帮助家庭便捷完成遗产与临终法律安排。"
+    ]
+   },
+   "serial": "#1292",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财",
+    "遗产规划"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Trust & Will】聚焦产业资本，在线遗嘱与信托设立平台，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Alto Pharmacy",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "数字药房",
+   "tags": [
+    "智能药盒",
+    "药品配送"
+   ],
+   "description": "技术驱动数字药房企业，提供送药上门与用药管理，便利慢病与老年用药，服务于患者与医疗体系。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "技术驱动数字药房企业，提供送药上门与用药管理，便利慢病与老年用药，服务于患者与医疗体系。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "数字药房送药上门",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Alto+Pharmacy",
+   "website_url": "https://www.alto.com",
+   "business_model": "B2B2C 数字药房",
+   "business_model_cn": "B2C/B2B 数字药房",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "技术驱动的数字药房，提供送药上门与用药管理，便利慢病与老年用药。"
+    ]
+   },
+   "serial": "#1293",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Alto Pharmacy】聚焦产业资本，数字药房送药上门，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "EyeQue",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "视力检测",
+   "tags": [
+    "眼镜"
+   ],
+   "description": "家用视力与眼健康自测设备企业，帮助老人追踪视力变化，属于消费级眼健康硬件。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "家用视力与眼健康自测设备企业，帮助老人追踪视力变化，属于消费级眼健康硬件。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "家用视力自测设备",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=EyeQue",
+   "website_url": "https://www.eyeque.com",
+   "business_model": "B2C 家用视力检测硬件",
+   "business_model_cn": "B2C 眼健康硬件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "提供家用视力与眼健康自测设备，帮助老人追踪视力变化。"
+    ]
+   },
+   "serial": "#1294",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【EyeQue】聚焦健康管理/医疗器械，家用视力自测设备，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Neurotrack",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "认知健康",
+   "category_l2": "认知评估",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "通过眼动（eye-tracking）进行阿尔茨海默风险早期筛查的认知健康公司。",
+   "desc_cn": "通过眼动（eye-tracking）进行阿尔茨海默风险早期筛查的认知健康公司。",
+   "highlights": "眼动认知早筛，阿尔茨海默风险",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2012",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Neurotrack",
+   "website_url": "https://www.neurotrack.com",
+   "business_model": "B2B2C 认知早筛平台",
+   "business_model_cn": "B2B2C 认知早筛平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过眼动（eye-tracking）进行阿尔茨海默风险早期筛查的认知健康公司。"
+    ]
+   },
+   "serial": "#1295",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Neurotrack】聚焦AI科技/认知症，眼动认知早筛，阿尔茨海默风险，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "乐心医疗",
+   "name_cn": "乐心医疗",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "家用医疗",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "国内家用医疗与健康穿戴上市公司（深交所），产品含血压计、智能手环、体脂秤等，布局慢病健康监测。",
+   "desc_cn": "国内家用医疗与健康穿戴上市公司（深交所），产品含血压计、智能手环、体脂秤等，布局慢病健康监测。",
+   "highlights": "健康穿戴与家用监测上市（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "上市公司(乐心医疗)",
+    "display": "上市公司(乐心医疗)"
+   },
+   "investors": "",
+   "founded": "2002",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=乐心医疗",
+   "website_url": "https://www.lifesense.com",
+   "business_model": "B2B2C 健康穿戴/家用监测（上市）",
+   "business_model_cn": "B2B2C 健康穿戴/家用监测（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "国内家用医疗与健康穿戴上市公司（深交所），产品含血压计、智能手环、体脂秤等，布局慢病健康监测。"
+    ]
+   },
+   "serial": "#1296",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐心医疗】聚焦产业资本/医疗器械，健康穿戴与家用监测上市（S1），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "三诺生物",
+   "name_cn": "三诺生物",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "家用医疗",
+   "tags": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "description": "国内血糖监测龙头上市公司（深交所），家用血糖仪与慢病管理，深度服务老年糖尿病群体。",
+   "desc_cn": "国内血糖监测龙头上市公司（深交所），家用血糖仪与慢病管理，深度服务老年糖尿病群体。",
+   "highlights": "血糖监测龙头，上市（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "上市公司(三诺生物)",
+    "display": "上市公司(三诺生物)"
+   },
+   "investors": "",
+   "founded": "2002",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=三诺生物",
+   "website_url": "https://www.sinocare.com",
+   "business_model": "B2B2C 血糖监测（上市）",
+   "business_model_cn": "B2B2C 血糖监测（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "国内血糖监测龙头上市公司（深交所），家用血糖仪与慢病管理，深度服务老年糖尿病群体。"
+    ]
+   },
+   "serial": "#1297",
+   "tag_l1": [
+    "食品营养",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【三诺生物】聚焦产业资本/医疗器械，血糖监测龙头，上市（S1），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "康泰医学",
+   "name_cn": "康泰医学",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "家用医疗",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "国内医疗器械上市公司（深交所），产品含脉搏血氧、血压、心电、监护等家用与临床监测设备。",
+   "desc_cn": "国内医疗器械上市公司（深交所），产品含脉搏血氧、血压、心电、监护等家用与临床监测设备。",
+   "highlights": "监护/血氧监测上市医械（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "上市公司(康泰医学)",
+    "display": "上市公司(康泰医学)"
+   },
+   "investors": "",
+   "founded": "1996",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=康泰医学",
+   "website_url": "https://www.contec.com.cn",
+   "business_model": "B2B2C 监护监测设备（上市）",
+   "business_model_cn": "B2B2C 监护监测设备（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "国内医疗器械上市公司（深交所），产品含脉搏血氧、血压、心电、监护等家用与临床监测设备。"
+    ]
+   },
+   "serial": "#1298",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【康泰医学】聚焦产业资本/医疗器械，监护/血氧监测上市医械（S1），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "达闼科技",
+   "name_cn": "达闼科技",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "云端机器人",
+   "tags": [
+    "人形机器人"
+   ],
+   "description": "云端智能机器人公司（CloudMinds），提供云端大脑+机器人本体，服务机器人可用于养老陪护与导诊场景。",
+   "desc_cn": "云端智能机器人公司（CloudMinds），提供云端大脑+机器人本体，服务机器人可用于养老陪护与导诊场景。",
+   "highlights": "云端智能服务机器人，养老陪护延展",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=达闼科技",
+   "website_url": "https://www.cloudminds.com",
+   "business_model": "B2B 云端服务机器人",
+   "business_model_cn": "B2B 云端服务机器人",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "云端智能机器人公司（CloudMinds），提供云端大脑+机器人本体，服务机器人可用于养老陪护与导诊场景。"
+    ]
+   },
+   "serial": "#1299",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "人形机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【达闼科技】聚焦产业资本/机器人，云端智能服务机器人，养老陪护延展，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "hear.com",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "听觉辅具",
+   "tags": [
+    "助听器"
+   ],
+   "description": "高端助听器DTC平台与听力中心网络企业，连接用户与本地听力专家完成验配，服务于听损人群。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "高端助听器DTC平台与听力中心网络企业，连接用户与本地听力专家完成验配，服务于听损人群。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "高端助听器DTC+听力中心网络",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2012",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=hear.com",
+   "website_url": "https://www.hear.com",
+   "business_model": "B2C 高端助听器平台",
+   "business_model_cn": "B2C 助听器DTC平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "高端助听器的DTC平台与听力中心网络，连接用户与本地听力专家完成验配。"
+    ]
+   },
+   "serial": "#1300",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【hear.com】聚焦辅具，高端助听器DTC+听力中心网络，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Amada Senior Care",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家照护",
+   "tags": [
+    "居家护理",
+    "陪伴服务"
+   ],
+   "description": "居家养老护理企业，以特许经营与自营结合，提供个人护理、陪伴与养老咨询，服务于居家老年群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "居家养老护理企业，以特许经营与自营结合，提供个人护理、陪伴与养老咨询，服务于居家老年群体。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "居家养老护理（特许经营+自营）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2007",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Amada+Senior+Care",
+   "website_url": "https://www.amadaseniorcare.com",
+   "business_model": "B2B2C 居家养老护理",
+   "business_model_cn": "B2C/B2B 居家照护服务",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "居家养老护理公司，以特许经营+自营结合提供个人护理、陪伴与养老咨询。"
+    ]
+   },
+   "serial": "#1301",
+   "tag_l1": [
+    "养老服务",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Amada Senior Care】聚焦居家护理，居家养老护理（特许经营+自营），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "SCAN Health Plan",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "医疗保险计划",
+   "tags": [
+    "保险"
+   ],
+   "description": "美国大型非营利Medicare Advantage健康计划，专注老年人群，提供MA与健康计划服务。",
+   "desc_cn": "美国大型非营利Medicare Advantage健康计划，专注老年人群，提供MA与健康计划服务。",
+   "highlights": "大型非营利MA计划，专注老年（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "1977",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B4: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SCAN+Health+Plan",
+   "website_url": "https://www.scanhealthplan.com",
+   "business_model": "B2B2C Medicare Advantage保险",
+   "business_model_cn": "B2B2C Medicare Advantage保险",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "美国大型非营利Medicare Advantage健康计划，专注老年人群，提供MA与健康计划服务。"
+    ]
+   },
+   "serial": "#1302",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【SCAN Health Plan】聚焦产业资本/保险，大型非营利MA计划，专注老年（S1），B2B+B2C模式。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "翔宇医疗",
+   "name_cn": "翔宇医疗",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "康复器械",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "国内康复医疗器械上市公司（上交所），产品涵盖康复评定、训练与治疗设备，广泛服务于老年康复与养老机构。",
+   "desc_cn": "国内康复医疗器械上市公司（上交所），产品涵盖康复评定、训练与治疗设备，广泛服务于老年康复与养老机构。",
+   "highlights": "康复医疗器械上市（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "上市公司(翔宇医疗)",
+    "display": "上市公司(翔宇医疗)"
+   },
+   "investors": "",
+   "founded": "2002",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B5: 公司官网/Crunchbase/Tracxn等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=翔宇医疗",
+   "website_url": "https://www.xiangyu.cn",
+   "business_model": "B2B 康复医疗器械（上市）",
+   "business_model_cn": "B2B 康复医疗器械（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "国内康复医疗器械上市公司（上交所），产品涵盖康复评定、训练与治疗设备，广泛服务于老年康复与养老机构。"
+    ]
+   },
+   "serial": "#1303",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【翔宇医疗】聚焦产业资本/康复，康复医疗器械上市（S1），B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,680 @@
+{
+ "batch": 106,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "CareVision",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护平台",
+   "category_l2": "家庭沟通",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "英国养老照护平台企业，提供家庭门户、护理记录与运营工具，连接养老机构与家属，提升照护透明度。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "英国养老照护平台企业，提供家庭门户、护理记录与运营工具，连接养老机构与家属，提升照护透明度。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "英国养老家庭门户SaaS",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CareVision",
+   "website_url": "https://www.carevision.co.uk",
+   "business_model": "B2B 养老家庭门户SaaS",
+   "business_model_cn": "B2B 养老照护沟通平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国养老照护平台，提供家庭门户、护理记录与运营工具，连接机构与家属。"
+    ]
+   },
+   "serial": "#1279",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【CareVision】聚焦居家护理/数字化，英国养老家庭门户SaaS，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Kaia Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "数字康复",
+   "tags": [
+    "健身",
+    "AI医疗"
+   ],
+   "description": "数字肌肉骨骼与慢病康复APP，提供AI-guided 运动治疗，用于老年背痛与慢性疼痛管理。",
+   "desc_cn": "数字肌肉骨骼与慢病康复APP，提供AI-guided 运动治疗，用于老年背痛与慢性疼痛管理。",
+   "highlights": "数字MSK康复APP，AI指导运动治疗",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kaia+Health",
+   "website_url": "https://www.kaiahealth.com",
+   "business_model": "B2B2C 数字康复APP",
+   "business_model_cn": "B2B2C 数字康复APP",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "数字肌肉骨骼与慢病康复APP，提供AI-guided 运动治疗，用于老年背痛与慢性疼痛管理。"
+    ]
+   },
+   "serial": "#1281",
+   "tag_l1": [
+    "文娱社交",
+    "行业服务"
+   ],
+   "tag_l2": [
+    "健身",
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Kaia Health】聚焦康复，数字MSK康复APP，AI指导运动治疗，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "星纵物联",
+   "name_cn": "星纵物联",
+   "region": "国内",
+   "category_l1": "智能硬件",
+   "category_l2": "毫米波传感",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "物联网传感企业（Milesight），推出LoRaWAN雷达跌倒检测传感器，用于养老机构与居家非接触式跌倒/离床监测。",
+   "desc_cn": "物联网传感企业（Milesight），推出LoRaWAN雷达跌倒检测传感器，用于养老机构与居家非接触式跌倒/离床监测。",
+   "highlights": "毫米波雷达跌倒监测传感器（养老场景）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2011",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=星纵物联",
+   "website_url": "https://www.milesight.cn",
+   "business_model": "B2B 物联网传感（养老监测）",
+   "business_model_cn": "B2B 物联网传感（养老监测）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "物联网传感企业（Milesight），推出LoRaWAN雷达跌倒检测传感器，用于养老机构与居家非接触式跌倒/离床监测。"
+    ]
+   },
+   "serial": "#1282",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【星纵物联】聚焦健康监测，毫米波雷达跌倒监测传感器（养老场景），B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Medical Guardian",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "医疗警报",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "美国家用医疗警报与跌倒监测服务企业，提供多种紧急呼叫与活动监测方案，服务于居家老人的安全看护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "美国家用医疗警报与跌倒监测服务企业，提供多种紧急呼叫与活动监测方案，服务于居家老人的安全看护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "美国家用医疗警报头部服务商",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2005",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Medical+Guardian",
+   "website_url": "https://www.medicalguardian.com",
+   "business_model": "B2C 医疗警报订阅",
+   "business_model_cn": "B2C 家用医疗警报",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "美国较大的家用医疗警报与跌倒监测服务商，提供多种紧急呼叫与活动监测方案。"
+    ]
+   },
+   "serial": "#1283",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Medical Guardian】聚焦健康监测，美国家用医疗警报头部服务商，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "MobileHelp",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "医疗警报",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "家用与移动医疗警报系统企业，提供带GPS的紧急呼叫设备，服务居家与户外老人的紧急呼叫需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "家用与移动医疗警报系统企业，提供带GPS的紧急呼叫设备，服务居家与户外老人的紧急呼叫需求。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "GPS移动医疗警报系统",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2006",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=MobileHelp",
+   "website_url": "https://www.mobilehelp.com",
+   "business_model": "B2C 医疗警报订阅",
+   "business_model_cn": "B2C 家用医疗警报",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "提供带GPS的家用与移动医疗警报系统，服务居家与户外老人的紧急呼叫需求。"
+    ]
+   },
+   "serial": "#1284",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MobileHelp】聚焦健康监测，GPS移动医疗警报系统，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "TytoCare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程检查",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "家用远程体检设备与平台企业，使老人可在家完成听诊、体温、耳镜等检查并连线医生，服务于远程医疗场景。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "家用远程体检设备与平台企业，使老人可在家完成听诊、体温、耳镜等检查并连线医生，服务于远程医疗场景。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "家用远程体检设备+平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2012",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=TytoCare",
+   "website_url": "https://www.tytocare.com",
+   "business_model": "B2B2C 远程体检硬件+平台",
+   "business_model_cn": "B2B/B2C 远程医疗/体检",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "提供家用远程体检设备与平台，老人可在家完成听诊、体温、耳镜等检查并连线医生。"
+    ]
+   },
+   "serial": "#1285",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【TytoCare】聚焦产业资本/远程医疗，家用远程体检设备+平台，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "九安医疗",
+   "name_cn": "九安医疗",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "家用医疗",
+   "tags": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "description": "国内家用医疗与健康设备企业（深交所上市），以iHealth品牌布局血压、血糖等老年健康监测与海外数字健康。",
+   "desc_cn": "国内家用医疗与健康设备企业（深交所上市），以iHealth品牌布局血压、血糖等老年健康监测与海外数字健康。",
+   "highlights": "iHealth品牌家用监测，上市（S1）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "上市公司(九安医疗)",
+    "display": "上市公司(九安医疗)"
+   },
+   "investors": "",
+   "founded": "1995",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=九安医疗",
+   "website_url": "https://www.andon.com.cn",
+   "business_model": "B2B2C 家用健康监测（上市）",
+   "business_model_cn": "B2B2C 家用健康监测（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "国内家用医疗与健康设备企业（深交所上市），以iHealth品牌布局血压、血糖等老年健康监测与海外数字健康。"
+    ]
+   },
+   "serial": "#1286",
+   "tag_l1": [
+    "食品营养",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【九安医疗】聚焦产业资本/医疗器械，iHealth品牌家用监测，上市（S1），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "可孚医疗",
+   "name_cn": "可孚医疗",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "家用医疗",
+   "tags": [
+    "护理床",
+    "轮椅",
+    "可穿戴监测"
+   ],
+   "description": "国内家用医疗器械企业（深交所上市），覆盖血压计、轮椅、护理床、康复辅具等适老家用产品。",
+   "desc_cn": "国内家用医疗器械企业（深交所上市），覆盖血压计、轮椅、护理床、康复辅具等适老家用产品。",
+   "highlights": "家用医疗器械上市，适老品类齐全",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "上市公司(可孚医疗)",
+    "display": "上市公司(可孚医疗)"
+   },
+   "investors": "",
+   "founded": "2009",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=可孚医疗",
+   "website_url": "https://www.cofoe.com",
+   "business_model": "B2B2C 家用医疗器械（上市）",
+   "business_model_cn": "B2B2C 家用医疗器械（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "国内家用医疗器械企业（深交所上市），覆盖血压计、轮椅、护理床、康复辅具等适老家用产品。"
+    ]
+   },
+   "serial": "#1287",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "护理床",
+    "轮椅",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【可孚医疗】聚焦健康监测/医疗器械/康复，家用医疗器械上市，适老品类齐全，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "钛米机器人",
+   "name_cn": "钛米机器人",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "医疗服务机器人",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "医疗服务机器人公司（TMiRob），产品涵盖消毒、配送、巡检等机器人，可向养老机构与医养场景延伸。",
+   "desc_cn": "医疗服务机器人公司（TMiRob），产品涵盖消毒、配送、巡检等机器人，可向养老机构与医养场景延伸。",
+   "highlights": "医疗服务机器人，医养场景延展",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=钛米机器人",
+   "website_url": "https://www.tmirobot.com",
+   "business_model": "B2B 医疗服务机器人",
+   "business_model_cn": "B2B 医疗服务机器人",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "医疗服务机器人公司（TMiRob），产品涵盖消毒、配送、巡检等机器人，可向养老机构与医养场景延伸。"
+    ]
+   },
+   "serial": "#1288",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【钛米机器人】聚焦产业资本/机器人，医疗服务机器人，医养场景延展，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "LOVOT",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "陪伴机器人",
+   "category_l2": "陪伴机器人",
+   "tags": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "description": "日本Groove X出品的情感陪伴机器人，以可爱外形与交互为独居老人与家庭提供情感陪伴。",
+   "desc_cn": "日本Groove X出品的情感陪伴机器人，以可爱外形与交互为独居老人与家庭提供情感陪伴。",
+   "highlights": "日本情感陪伴机器人（Groove X）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LOVOT",
+   "website_url": "https://www.lovot.com",
+   "business_model": "B2C 情感陪伴机器人",
+   "business_model_cn": "B2C 情感陪伴机器人",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "日本Groove X出品的情感陪伴机器人，以可爱外形与交互为独居老人与家庭提供情感陪伴。"
+    ]
+   },
+   "serial": "#1289",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【LOVOT】聚焦机器人/精神健康，日本情感陪伴机器人（Groove X），B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "PARO",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "陪伴机器人",
+   "category_l2": "治疗机器人",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "日本产海豹型治疗机器人（AIST体系），广泛用于痴呆照护机构缓解焦虑、提升情绪。",
+   "desc_cn": "日本产海豹型治疗机器人（AIST体系），广泛用于痴呆照护机构缓解焦虑、提升情绪。",
+   "highlights": "海豹治疗机器人，痴呆照护应用",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2001",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PARO",
+   "website_url": "https://www.parorobots.com",
+   "business_model": "B2B 治疗机器人（养老机构）",
+   "business_model_cn": "B2B 治疗机器人（养老机构）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "日本产海豹型治疗机器人（AIST体系），广泛用于痴呆照护机构缓解焦虑、提升情绪。"
+    ]
+   },
+   "serial": "#1290",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【PARO】聚焦机器人，海豹治疗机器人，痴呆照护应用，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Temi",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "陪伴机器人",
+   "category_l2": "服务机器人",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "通用室内服务机器人（以色列Roboteam），兼具移动视频陪伴与智能助手功能，可用于老人居家。",
+   "desc_cn": "通用室内服务机器人（以色列Roboteam），兼具移动视频陪伴与智能助手功能，可用于老人居家。",
+   "highlights": "室内服务/陪伴机器人（以色列）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "WebSearch(企业库扩充B3: 公司官网/Crunchbase/Tracxn/PRNewswire等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Temi",
+   "website_url": "https://www.robotemi.com",
+   "business_model": "B2B2C 室内服务机器人",
+   "business_model_cn": "B2B2C 室内服务机器人",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通用室内服务机器人（以色列Roboteam），兼具移动视频陪伴与智能助手功能，可用于老人居家。"
+    ]
+   },
+   "serial": "#1291",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Temi】聚焦机器人，室内服务/陪伴机器人（以色列），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

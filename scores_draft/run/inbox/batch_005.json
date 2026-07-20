@@ -1,0 +1,648 @@
+{
+ "batch": 5,
+ "tier": "A",
+ "enterprises": [
+  {
+   "name": "The Ensign Group",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "护理院运营商",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "美国西部领先的专业护理院与康复服务商，纳斯达克代码 ENSG，并分拆出 CareTrust REIT 与 Pennant Group；2026-07 经 REIT 收购得州 2 家养老院（250 床），延续并购扩张。",
+   "highlights": [
+    "美国养老与医疗运营网络(NASDAQ:ENSG)",
+    "自管式运营+频繁收购扩张",
+    "风险导向护理模式"
+   ],
+   "funding_latest": {
+    "round": "上市公司",
+    "amount": "不适用",
+    "currency": "USD",
+    "date": "1999",
+    "display": "上市公司(NASDAQ:ENSG)",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "上市公司"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": "1999",
+   "value_score": 46,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=The%20Ensign%20Group",
+   "website_url": "https://www.ensigngroup.net",
+   "business_model": "自营护理院+康复+临终关怀，靠医保/商业支付方结算",
+   "name_cn": "Ensign 集团",
+   "desc_cn": "美国养老与医疗服务业运营商（NASDAQ:ENSG），从单一养老院成长为覆盖全美的风险导向护理网络，自管式运营+频繁收购；1999年成立。",
+   "business_model_cn": "自营护理院、康复与临终关怀，靠医保与商业支付方结算",
+   "serial": "#1159",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息丰富（上市公司财报+收购报道），自管式运营+并购扩张的成长路径清晰非反共识。中国连锁养老/护理运营（泰康、九如城）可对标其“自营+收购”规模化与风险导向护理——看美国成熟运营商如何用并购把区域小机构整合成网络，对国内整合期有参考。",
+   "payor_model": "混合（政府Medicare/Medicaid+个人自付；B端机构运营）",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 4,
+   "copy_score": 6,
+   "research_value": 63.7,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "National Health Investors",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "医疗REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注养老社区与医疗地产的 REIT，纽交所代码 NHI，以稳健租约与运营商合作伙伴关系著称。",
+   "highlights": [
+    "医疗地产REIT(纽交所NHI)",
+    "Triple-net净租赁资本提供方",
+    "稳健收租模式"
+   ],
+   "funding_latest": {
+    "round": "上市公司",
+    "amount": "不适用",
+    "currency": "USD",
+    "date": "1991",
+    "display": "上市公司(纽交所NHI)",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "上市公司"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": "1991",
+   "value_score": 39,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=National%20Health%20Investors",
+   "website_url": "https://www.nhireit.com",
+   "business_model": "REIT: 持有养老/医疗地产并净租赁",
+   "name_cn": "国家医疗投资者",
+   "desc_cn": "专注医疗地产（含养老/护理）的REIT（纽交所NHI），以 Triple-net 净租赁向运营商提供资本；1991年成立。",
+   "business_model_cn": "REIT：持有养老与医疗地产并净租赁",
+   "serial": "#1160",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息中等（年报+投资者区），纯医疗地产REIT、模式稳健不反共识。与Welltower/Ventas/Ohmega/CareTrust同属“银发地产”资本阵营，单看故事性弱，但作为REIT对照组一员、理解不同杠杆与租户结构差异有用——建议与另四家合并成“美国养老REIT图谱”主题。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府Medicare/Medicaid+个人自付）",
+   "signal_strength": 6.55,
+   "info_score": 7,
+   "diff_score": 3,
+   "copy_score": 5,
+   "research_value": 56.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "Sabra Health Care REIT",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "护理院REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注 skilled nursing 与养老社区的医疗 REIT，纳斯达克代码 SBRA，2010 年从 Sun Healthcare 分拆。",
+   "highlights": "护理院 REIT 的另一资本样本，与 Omega 形成对照。",
+   "funding_latest": {
+    "date": "2010",
+    "amount": "上市公司(纳斯达克:SBRA)",
+    "round": "上市",
+    "display": "上市公司 纳斯达克:SBRA (2010)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "2010",
+   "value_score": 68,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sabra%20Health%20Care%20REIT",
+   "website_url": "https://www.sabra.com",
+   "business_model": "REIT: 持有护理院/养老社区并净租赁",
+   "name_cn": "Sabra 医疗REIT",
+   "desc_cn": "专注 skilled nursing 与养老社区的医疗 REIT，纳斯达克代码 SBRA，2010 年从 Sun Healthcare 分拆。",
+   "business_model_cn": "REIT：持有护理院与养老社区并净租赁",
+   "serial": "#1161",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Sabra Health Care REIT】聚焦产业资本/养老机构，护理院 REIT 的另一资本样本，与 Omega 形成对照。，研究价值分68。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 6.55
+  },
+  {
+   "name": "LTC Properties",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "养老地产REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注养老社区与护理院的 REIT，纽交所代码 LTC，成立于 1992 年，以组合多元化著称。",
+   "highlights": "老牌养老 REIT，资产组合与租户结构可参考。",
+   "funding_latest": {
+    "date": "1992",
+    "amount": "上市公司(纽交所:LTC)",
+    "round": "上市",
+    "display": "上市公司 纽交所:LTC (1992)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "1992",
+   "value_score": 67,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LTC%20Properties",
+   "website_url": "https://www.ltcreit.com",
+   "business_model": "REIT: 持有养老/护理地产并净租赁",
+   "name_cn": "LTC 地产",
+   "desc_cn": "专注养老社区与护理院的 REIT，纽交所代码 LTC，成立于 1992 年，以组合多元化著称。",
+   "business_model_cn": "REIT：持有养老与护理地产并净租赁",
+   "serial": "#1162",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【LTC Properties】聚焦产业资本/养老社区，老牌养老 REIT，资产组合与租户结构可参考。，研究价值分67。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Healthcare Realty Trust",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "医疗办公楼REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注医疗办公楼( Medical Office Building)的 REIT，纽交所代码 HR，2022 年与 Healthcare Trust of America 合并。",
+   "highlights": "医疗办公楼 REIT 龙头，'毗邻医院'资产逻辑对国内医养结合地产有参考。",
+   "funding_latest": {
+    "date": "1992",
+    "amount": "上市公司(纽交所:HR)",
+    "round": "上市",
+    "display": "上市公司 纽交所:HR (1992)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "1992",
+   "value_score": 66,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Healthcare%20Realty%20Trust",
+   "website_url": "https://www.healthcarerealty.com",
+   "business_model": "REIT: 持有并运营医疗办公楼，租给医生集团与医院",
+   "name_cn": "医疗地产信托",
+   "desc_cn": "专注医疗办公楼( Medical Office Building)的 REIT，纽交所代码 HR，2022 年与 Healthcare Trust of America 合并。",
+   "business_model_cn": "REIT：持有并运营医疗办公楼，租给医生集团与医院",
+   "serial": "#1163",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Healthcare Realty Trust】聚焦产业资本，医疗办公楼 REIT 龙头，'毗邻医院'资产逻辑对国内医养结合地产有参考。，研究价值分66。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "AdaptHealth",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "家用医疗设备(HME)",
+   "tags": [
+    "助行器",
+    "医疗器械"
+   ],
+   "description": "美国领先家用医疗设备(HME)与服务商，纳斯达克代码 AHCO，提供呼吸机、氧气、营养与行动辅助等上门服务。",
+   "highlights": "家用医疗设备'产品+服务上门'连锁化样本，国内家用康复器械租赁可参考。",
+   "funding_latest": {
+    "date": "2013",
+    "amount": "上市公司(纳斯达克:AHCO)",
+    "round": "上市",
+    "display": "上市公司 纳斯达克:AHCO (2013)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "2013",
+   "value_score": 63,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AdaptHealth",
+   "website_url": "https://www.adapthealth.com",
+   "business_model": "B2B2C 家用医疗设备销售+租赁+上门服务",
+   "name_cn": "AdaptHealth",
+   "desc_cn": "美国领先家用医疗设备(HME)与服务商，纳斯达克代码 AHCO，提供呼吸机、氧气、营养与行动辅助等上门服务。",
+   "business_model_cn": "B2B2C 家用医疗设备销售、租赁与上门服务",
+   "serial": "#1165",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助行器",
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【AdaptHealth】聚焦健康监测/医疗器械，家用医疗设备'产品+服务上门'连锁化样本，国内家用康复器械租赁可参考。，B2B+B2C模式，研究价值分63。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Medical Properties Trust",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "医院REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注医院地产的 REIT，纽交所代码 MPW，曾为全球最大医院房东之一；近年因租户 Steward 破产陷入动荡，是 REIT 风险案例。",
+   "highlights": "反共识样本：医疗 REIT 租户集中与杠杆风险，国内康养地产融资需引以为戒。",
+   "funding_latest": {
+    "date": "2003",
+    "amount": "上市公司(纽交所:MPW)",
+    "round": "上市",
+    "display": "上市公司 纽交所:MPW (2003)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "2003",
+   "value_score": 62,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Medical%20Properties%20Trust",
+   "website_url": "https://www.medicalpropertiestrust.com",
+   "business_model": "REIT: 持有医院地产并净租赁(租户高度集中风险)",
+   "name_cn": "医疗地产信托(MPT)",
+   "desc_cn": "专注医院地产的 REIT，纽交所代码 MPW，曾为全球最大医院房东之一；近年因租户 Steward 破产陷入动荡，是 REIT 风险案例。",
+   "business_model_cn": "REIT：持有医院地产并净租赁（租户高度集中风险）",
+   "serial": "#1166",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Medical Properties Trust】聚焦产业资本，反共识样本：医疗 REIT 租户集中与杠杆风险，国内康养地产融资需引以为戒。，研究价值分62。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Diversified Healthcare Trust",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "医疗/办公REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "拥有医疗办公楼与养老社区的 REIT，纳斯达克代码 DHC，资产覆盖美国多州。",
+   "highlights": "医疗+办公混合 REIT 样本，组合管理可参考。",
+   "funding_latest": {
+    "date": "1998",
+    "amount": "上市公司(纳斯达克:DHC)",
+    "round": "上市",
+    "display": "上市公司 纳斯达克:DHC (1998)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "1998",
+   "value_score": 61,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Diversified%20Healthcare%20Trust",
+   "website_url": "https://www.dhcreit.com",
+   "business_model": "REIT: 持有医疗办公楼/养老社区并租赁",
+   "name_cn": "多元医疗信托",
+   "desc_cn": "拥有医疗办公楼与养老社区的 REIT，纳斯达克代码 DHC，资产覆盖美国多州。",
+   "business_model_cn": "REIT：持有医疗办公楼与养老社区并租赁",
+   "serial": "#1167",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Diversified Healthcare Trust】聚焦产业资本，医疗+办公混合 REIT 样本，组合管理可参考。，研究价值分61。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Clariane",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老社区运营商",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "欧洲领先的依赖人群照护设施私营运营商（原 Korian，2023 年更名 Clariane），泛欧证交所上市，2024 年营收约 52.82 亿欧元，养老院业务占 63.8%。",
+   "highlights": [
+    "欧洲养老运营龙头(原Korian)",
+    "2024营收52.82亿欧元，服务88.6万人",
+    "2023更名Clariane，获使命驱动型地位"
+   ],
+   "funding_latest": {
+    "round": "上市公司/混合票据",
+    "amount": "3.33亿欧元",
+    "currency": "EUR",
+    "date": "2026-06",
+    "display": "拟发行3.33亿欧元永续混合票据 (2026-06)",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "持续公开市场+债务融资，房地产组合约26亿欧元"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": "2001",
+   "value_score": 60,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clariane",
+   "website_url": "https://www.clariane.com",
+   "business_model": "自营+受托养老/护理院，按床位与护理分级收费，泛欧多国布局",
+   "name_cn": "Clariane（原 Korian）",
+   "desc_cn": "欧洲依赖人群照护设施领先私营运营商（泛欧证交所CLAR，原Korian），覆盖长期照护、专科护理与社区照护；2023年6月更名Clariane并获“使命驱动型公司”地位，2024年营收约52.82亿欧元、服务88.6万人。",
+   "business_model_cn": "自营与受托养老/护理院，按床位与护理分级收费，泛欧多国布局",
+   "serial": "#1169",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息丰富（2024年报+投资者区完整），欧洲规模化养老运营龙头、财务结构重组后趋稳，非剧烈起落。中国连锁养老运营商（泰康之家、亲和源、九如城）可对标其规模化+多国本土化，但支付以个人/医保为主、政府补贴结构不同——看欧洲“政府报销+个人补足”如何支撑重资产运营，对国内定价有参考。",
+   "payor_model": "混合（欧洲养老院费用主要由政府社会医保/地方财政报销+居民个人自付补足；高端房间与增值服务以个人自付为主）",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 3,
+   "copy_score": 7,
+   "research_value": 63.7,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "Emeis (Orpea)",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老社区运营商",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "欧洲养老院巨头，原 Orpea，2023 年财务丑闻后更名 Emeis 并推进'重生'重组；2023 年营收同比增长 11%，泛欧证交所上市。",
+   "highlights": [
+    "原Orpea，欧洲养老运营巨头",
+    "曾陷财务造假与照护质量丑闻",
+    "重组转型、去杠杆中"
+   ],
+   "funding_latest": {
+    "round": "上市公司/债务重组",
+    "amount": "财务重组中",
+    "currency": "EUR",
+    "date": "2024",
+    "display": "上市公司，2024推进债务重组与资产出售",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "持续公开市场+债务融资"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": 1989,
+   "value_score": 45,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Emeis%20(Orpea)",
+   "website_url": "https://www.emeis.com",
+   "business_model": "自营养老院/退休社区，重资产运营，正处重组修复期",
+   "name_cn": "Emeis（原 Orpea）",
+   "desc_cn": "欧洲依赖人群照护运营商（原Orpea，泛欧证交所），曾因财务造假与照护质量丑闻陷入危机，后重组转型；2024年营收持平、推进资产出售与杠杆去化。",
+   "business_model_cn": "自营养老院与退休社区，重资产运营，正处重组修复期",
+   "serial": "#1170",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息中等（欧洲财经媒体+年报），是罕见的“暴雷—重组”反共识样本：从造假丑闻到债务重组，起落极大。中国连锁养老运营商可对照其治理教训——规模化的同时如何避免“重资产+预收费+治理失效”的爆雷路径，比成功学更有警示价值。",
+   "payor_model": "混合（欧洲养老院费用政府社会医保报销+居民个人自付补足）",
+   "signal_strength": 6.55,
+   "info_score": 7,
+   "diff_score": 5,
+   "copy_score": 6,
+   "research_value": 62.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "BioAge Labs",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "抗衰老药物",
+   "tags": [
+    "长寿抗衰"
+   ],
+   "description": "长寿与代谢衰老疗法公司，纳斯达克代码 BIOA，2024-09 IPO 募资 1.98 亿美元；核心管线 azelaprag 与 GLP-1 联用减重。",
+   "highlights": [
+    "长寿科技/抗衰老药物研发",
+    "2024-09 IPO募资1.98亿美元",
+    "上市后股价暴跌约98%"
+   ],
+   "funding_latest": {
+    "round": "IPO",
+    "amount": "1.98亿美元",
+    "currency": "USD",
+    "date": "2024-09",
+    "display": "纳斯达克IPO募资1.98亿美元 (2024-09)",
+    "investors": [
+     "NASDAQ公开发行"
+    ]
+   },
+   "funding_total": {
+    "amount": "约2.5亿美元",
+    "display": "累计约2.5亿美元(含IPO)"
+   },
+   "investors": [
+    "NASDAQ公开发行"
+   ],
+   "founded": "2017",
+   "value_score": 66,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BioAge%20Labs",
+   "website_url": "https://www.bioagelabs.com",
+   "business_model": "B2B 抗衰药物研发，授权/合作+资本市场退出",
+   "name_cn": "BioAge Labs｜长寿科技",
+   "desc_cn": "长寿科技(抗衰老药物)公司，专注延缓衰老相关疾病的口服小分子药物；2024-09纳斯达克IPO募资1.98亿美元，但上市后股价较发行价暴跌约98%，是生物科技“高预期—破灭”的典型。",
+   "business_model_cn": "B2B 抗衰药物研发，授权合作与资本市场退出",
+   "serial": "#1171",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "投资机构",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息丰富（IPO+后续暴跌被广泛报道），是“高预期—破灭”的反共识样本：抗衰老叙事吸金、但临床与商业化存疑、股价暴跌约98%。中国长寿科技/衰老干预赛道刚起步（如衰老时钟公司），可借鉴其“叙事融资”与“临床兑现”的落差教训——对国内创业者是避坑+叙事框架的双重教材。",
+   "payor_model": "B端机构付费（药企/研发合作）+ 远期上市后为医保/个人支付（尚未商业化）",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 4,
+   "research_value": 65.7,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "Unity Biotechnology",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "抗衰老药物",
+   "tags": [
+    "长寿抗衰"
+   ],
+   "description": "衰老细胞清除(senolytics)疗法公司，纳斯达克代码 UBX，聚焦眼科与肌肉骨骼衰老疾病。",
+   "highlights": "senolytics 细分赛道代表，国内抗衰生物医药可对标其靶点选择。",
+   "funding_latest": {
+    "date": "2011",
+    "amount": "上市公司(纳斯达克:UBX)",
+    "round": "上市",
+    "display": "上市公司 纳斯达克:UBX (2011)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "2011",
+   "value_score": 61,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Unity%20Biotechnology",
+   "website_url": "https://www.unitybiotechnology.com",
+   "business_model": "B2B 抗衰药物研发，资本市场+合作退出",
+   "name_cn": "Unity 生物科技",
+   "desc_cn": "衰老细胞清除(senolytics)疗法公司，纳斯达克代码 UBX，聚焦眼科与肌肉骨骼衰老疾病。",
+   "business_model_cn": "B2B 抗衰药物研发，资本市场与合作退出",
+   "serial": "#1173",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "投资机构",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Unity Biotechnology】聚焦健康管理，senolytics 细分赛道代表，国内抗衰生物医药可对标其靶点选择。，B2B模式，研究价值分61。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  }
+ ]
+}

@@ -1,0 +1,452 @@
+{
+  "batch": 52,
+  "enterprises": [
+    {
+      "serial": "#0366",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号强、北交所上市公司信息极透明；助听器国产替代差异化清晰，国内创业者可学其OTC产品+渠道出海的供应链打法。",
+        "rec_v2": "披露充分、已上市，亮点在把助听器做成消费级OTC硬件；制造模式成熟易复制，可学其避开高端听力门诊的平价切入。",
+        "rec_v3": "热点稳、信息量高，助听器国产替代有真实差异；虽龙头难超，但其渠道与注册经验值得国内听力硬件创业者借鉴。",
+        "info_score": 8,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 49.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "助听器研发制造商，OTC为主出口海外，已登陆北交所",
+      "founded": 2011,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "登陆北交所上市"
+        }
+      ],
+      "highlights": [
+        "国内助听器研发制造企业，OTC产品为主",
+        "已登陆北交所上市",
+        "产品出口海外"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "助听器服务于老年听力障碍人群，属康复辅具"
+    },
+    {
+      "serial": "#0367",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等，医养结合机构模式常规；其老年病医院+认知症照护差异化一般，重资产难复制，国内宜学其“医疗+养老”牌照协同。",
+        "rec_v2": "披露一般、背靠上市母体，亮点在医养结合闭环；机构模式受床位与医保约束难抄，可学其认知症专区这一高毛利单点。",
+        "rec_v3": "热点低、信息量中等，医养结合难言差异；重资产门槛高不可复制，但其老年病医院获客路径值得区域连锁参照。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "运营商",
+      "desc_cn": "锦欣生殖旗下康养平台，运营医养结合机构与老年病医院",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "锦欣生殖旗下的康养业务平台",
+        "医养结合机构+老年病医院",
+        "提供认知症照护服务"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医养结合机构与老年病医院，直接服务失能及老年人群"
+    },
+    {
+      "serial": "#0368",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号中等、信息中等，专注老龄化主题基金差异化清晰；其NEA系打法难复制，但portfolio（固生堂/海吉亚）值得国内早期基金对标。",
+        "rec_v2": "披露一般、核心不服务长者，亮点在把老龄化当主赛道；资本模式门槛高不可抄，可借其被投清单找国内银发服务对标。",
+        "rec_v3": "热点一般、信息量足，老龄化主题定位有差异；VC模式难复制，但其“大健康+老龄化”早期卡位逻辑可参照。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "不适用（投资机构）",
+      "business_tags_role": "投资机构",
+      "desc_cn": "主题驱动型创投基金，专注大健康与老龄化领域早期投资",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "NEA前中国团队创立，管理规模约60亿元",
+        "专注大健康与老龄化领域早期投资",
+        "案例含海吉亚医疗、固生堂中医、零氪科技"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "明确以老龄化领域为投资主题，具清晰银发信号"
+    },
+    {
+      "serial": "#0369",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等，家政+养老护理模式常规；其培训+派遣一体化可复制，国内创业者可学其把零散护工做成标准化供给。",
+        "rec_v2": "披露一般、有官网，亮点在母婴/养老/保洁的多业务协同；服务打法门槛低易抄，可学其职业技能培训带来的供给壁垒。",
+        "rec_v3": "热点低、信息量中等，家政护理难言差异；胜在模式轻、易复制，国内宜借鉴其“培训认证+劳务派遣”的护工中台。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "济南家政服务品牌，提供养老护理、母婴护理与保洁及人员培训",
+      "founded": 2001,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "济南知名家政服务品牌",
+        "业务含养老护理、母婴护理与保洁",
+        "开展职业技能培训与劳务派遣"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "提供养老护理上门与护工培训，直接服务老年人群"
+    },
+    {
+      "serial": "#0370",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等，无糖控糖食品模式常规；但其商超+电商双渠道可复制，国内创业者可学其把糖尿病食品做成大众消费品。",
+        "rec_v2": "披露一般、有官网，亮点在控糖保健食品差异化定位；食品制造门槛低易抄，可学其用“无糖”心智切银发慢病营养。",
+        "rec_v3": "热点低、信息量中等，控糖食品难言差异；胜在供应链成熟易复制，国内宜借鉴其商超+电商的银发食品铺货。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "无糖控糖健康食品商，面向糖尿病人群，商超电商渠道",
+      "founded": 1994,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "成立于1994年的无糖健康食品企业",
+        "主打控糖食品与调节血糖保健食品",
+        "进驻沃尔玛/永辉及天猫京东"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "控糖/慢病营养食品服务于老年糖尿病等慢病人群"
+    },
+    {
+      "serial": "#0371",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等，护士上门平台模式常规；其专业护理派单差异化一般但可复制，国内创业者可学其把院后护理做成标准化服务。",
+        "rec_v2": "披露一般、有官网，亮点在护士上门换药/管路护理；平台打法易抄，可学其用分级评估匹配护理等级的运营中台。",
+        "rec_v3": "热点低、信息量中等，居家护理难言差异；模式轻、易复制，国内宜借鉴其“评估→派单→回访”的照护闭环。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "平台",
+      "desc_cn": "居家护理与护士上门平台，服务术后、失能及长期照护人群",
+      "founded": 2005,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专业护士上门换药、管路护理、健康监测",
+        "服务术后/失能/长期照护人群",
+        "B2C+B2B居家护理平台"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护理与护士上门，直接服务失能及老年照护人群"
+    },
+    {
+      "serial": "#0372",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 39.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，汇养通SaaS+连锁机构差异化中高；其康养SaaS可复制，国内创业者可学其用软件给中小机构降本增效。",
+        "rec_v2": "披露一般、无官网，亮点在SaaS+自营机构的双轮；软件模式易抄，可学其“系统赋能+轻资产运营”的区域扩张。",
+        "rec_v3": "热点低、信息量中等，康养SaaS有真实差异；产品逻辑清晰可复制，国内宜借鉴其把养老机构管理做成标准化PaaS。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 39.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "全域智慧康养服务商，汇养通SaaS+青鸟颐居连锁机构",
+      "founded": 2010,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "核心产品「汇养通」SaaS管理平台",
+        "运营「青鸟颐居」连锁养老机构",
+        "业务覆盖全国20余省"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智慧康养SaaS与连锁机构运营，服务于养老行业与老年人群"
+    },
+    {
+      "serial": "#0373",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，健康染发切中老年痛点差异化中高；其家用染膏打法可复制，国内创业者可学其把银发个护做成消费品品牌。",
+        "rec_v2": "披露少、无官网，亮点在“健康染护头部”定位差异；消费品牌门槛低易抄，可学其用“中老年染发”切细分心智。",
+        "rec_v3": "热点低、信息量低，银发个护定位有差异；产品逻辑轻、易复制，国内宜借鉴其把老龄化痛点转成美妆单品。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "健康染发品牌，主攻中老年染发痛点，国内健康染护头部",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注家用型健康染发膏",
+        "攻克中老年染发痛点",
+        "国内健康染护头部品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "健康染发针对中老年银发个护需求，属银发消费品"
+    },
+    {
+      "serial": "#0374",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，汉方草本一梳黑差异化中高；其黑发市场卡位可复制，国内创业者可学其用草本心智做银发个护品牌。",
+        "rec_v2": "披露少、无官网，亮点在稳占黑发市场份额的差异；消费打法易抄，可学其“一梳黑”降低中老年使用门槛的产品设计。",
+        "rec_v3": "热点低、信息量低，银发染护定位有差异；品牌逻辑轻、易复制，国内宜借鉴其把传统草本转成现代银发美妆。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "健康染发品牌，汉方草本一梳黑，稳占国内黑发市场",
+      "founded": 2011,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "汉方草本配方主打一梳黑/清水黑发",
+        "稳占国内黑发市场重要份额",
+        "主攻中老年健康染护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "健康染发针对中老年银发个护需求，属银发消费品"
+    },
+    {
+      "serial": "#0375",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 39.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，社区+居家+适老化评估组合差异化中高；其政企指导的连锁打法可复制，国内创业者可学其社区触点密度。",
+        "rec_v2": "披露一般、无官网，亮点在超300社区中心+12万会员的规模差异；模式易抄，可学其用适老化评估改造撬动政府购买。",
+        "rec_v3": "热点低、信息量中等，社区居家一体化有差异；运营模型清晰可复制，国内宜借鉴其“中心+上门+培训”的区域密度。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 39.7
+      },
+      "payor_model": "政府购买服务+个人自费",
+      "business_tags_role": "运营商",
+      "desc_cn": "连锁化社区与居家养老服务机构，智能化平台+适老化评估",
+      "founded": 2023,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "民政部及北京市民政局指导的连锁养老",
+        "超300家社区服务中心、12万会员老人",
+        "提供适老化评估改造与养老培训"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "社区与居家养老服务运营，直接服务老年人群"
+    },
+    {
+      "serial": "#0376",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号中等、信息中等，布局老年消费品牌差异化清晰；其新消费打法难复制，但「时尚奶奶团」值得国内消费基金对标。",
+        "rec_v2": "披露一般、核心不服务长者，亮点在踩中银发消费内容；资本模式门槛高不可抄，可借其portfolio找国内老年消费标的。",
+        "rec_v3": "热点一般、信息量足，老年消费布局有差异；VC模式难复制，但其“内容+老年消费”早期卡位逻辑可参照。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "不适用（投资机构）",
+      "business_tags_role": "投资机构",
+      "desc_cn": "早期创投基金，专注内容消费与新消费，布局老年消费品牌",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "范卫锋2015年创立的早期创投基金",
+        "专注内容消费/新消费/数字经济",
+        "布局老年消费品牌「时尚奶奶团」"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "明确布局老年消费品牌，具清晰银发信号"
+    },
+    {
+      "serial": "#0377",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 45.6,
+      "recommend": {
+        "rec_v1": "信号强、A股上市公司信息极透明；家用医疗器械龙头差异化一般但规模壁垒高，国内创业者可学其血糖/呼吸品类矩阵打法。",
+        "rec_v2": "披露充分、已上市，亮点在院端+家庭双场景覆盖；制造体系难超，可学其用爆品制氧机切银发健康监测心智。",
+        "rec_v3": "热点稳、信息量高，家用器械难言差异；龙头地位不可复制，但其多品类+渠道下沉经验值得硬件创业者借鉴。",
+        "info_score": 8,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 45.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "家用医疗器械龙头，制氧机/血压计/血糖仪/呼吸机，已登陆A股",
+      "founded": 1998,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "登陆A股上市"
+        }
+      ],
+      "highlights": [
+        "国内家用医疗器械龙头",
+        "产品覆盖制氧机/血压计/血糖仪/呼吸机",
+        "已登陆A股，院端与家庭双场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用医疗器械服务于老年健康监测与慢病管理"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0373",
+      "name": "韩愢",
+      "intro": "健康染发品牌，主攻中老年染发痛点，国内健康染护头部",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "美妆护肤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "产品商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发个护",
+          "reason": "中老年染发属银发个护细分，建议补充标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0374",
+      "name": "韩金靓",
+      "intro": "健康染发品牌，汉方草本一梳黑，稳占国内黑发市场",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "美妆护肤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "产品商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发个护",
+          "reason": "中老年染发属银发个护细分，建议补充标签"
+        }
+      ]
+    }
+  ],
+  "nonsilver": []
+}

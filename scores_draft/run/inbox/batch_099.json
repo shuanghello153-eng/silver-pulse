@@ -1,0 +1,671 @@
+{
+ "batch": 99,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "Ubie",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "医疗导航AI",
+   "tags": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "description": "日本医疗科技初创，用AI引导用户到合适医疗服务（“用技术将人导向恰当医疗”），提供症状检查与分诊平台，并拓展养老与慢病场景。",
+   "desc_cn": "日本医疗科技初创，用AI引导用户到合适医疗服务（“用技术将人导向恰当医疗”），提供症状检查与分诊平台，并拓展养老与慢病场景。",
+   "highlights": "日本医疗AI导航平台，覆盖养老分诊场景",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ubie",
+   "website_url": "https://ubie.life",
+   "business_model": "B2B2C 医疗AI导航+分诊平台",
+   "business_model_cn": "B2B2C 医疗AI导航+分诊平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "日本医疗科技初创，用AI引导用户到合适医疗服务（“用技术将人导向恰当医疗”），提供症状检查与分诊平台，并拓展养老与慢病场景。"
+    ]
+   },
+   "serial": "#1193",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ubie】聚焦产业资本，日本医疗AI导航平台，覆盖养老分诊场景，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "极壳科技",
+   "name_cn": "极壳科技",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "外骨骼",
+   "tags": [
+    "外骨骼",
+    "助行器"
+   ],
+   "description": "消费级外骨骼与助力机器人公司（Hypershell），将工业/户外助力技术向康复与老年助行延伸。2025年完成7000万美元融资。",
+   "desc_cn": "消费级外骨骼与助力机器人公司（Hypershell），将工业/户外助力技术向康复与老年助行延伸。2025年完成7000万美元融资。",
+   "highlights": "7000万美元融资，消费级外骨骼（老年助行延展）",
+   "funding_latest": {
+    "amount": "7000万美元",
+    "round": "成长期",
+    "date": "2025",
+    "display": "成长期 7000万美元 (2025)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2021",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=极壳科技",
+   "website_url": "https://www.hypershell.tech",
+   "business_model": "B2C/B2B 外骨骼助力硬件",
+   "business_model_cn": "B2C/B2B 外骨骼助力硬件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "消费级外骨骼与助力机器人公司（Hypershell），将工业/户外助力技术向康复与老年助行延伸。2025年完成7000万美元融资。"
+    ]
+   },
+   "serial": "#1194",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼",
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【极壳科技】聚焦产业资本/智能硬件/辅具，7000万美元融资，消费级外骨骼（老年助行延展），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "蓓明医疗",
+   "name_cn": "蓓明医疗",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "脑机接口康复",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "脑控功能性电刺激（BCI-FES）康复设备公司，高密度矩阵式FES可实现单根手指精细化独立控制，让偏瘫患者用“意念”驱动手指活动。2025年亮相济南银发经济项目路演。",
+   "desc_cn": "脑控功能性电刺激（BCI-FES）康复设备公司，高密度矩阵式FES可实现单根手指精细化独立控制，让偏瘫患者用“意念”驱动手指活动。2025年亮相济南银发经济项目路演。",
+   "highlights": "脑控FES康复设备，单手指精细控制差异化技术",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=蓓明医疗",
+   "website_url": "https://www.beimingmedical.com",
+   "business_model": "B2B 脑机接口康复医疗器械",
+   "business_model_cn": "B2B 脑机接口康复医疗器械",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "脑控功能性电刺激（BCI-FES）康复设备公司，高密度矩阵式FES可实现单根手指精细化独立控制，让偏瘫患者用“意念”驱动手指活动。2025年亮相济南银发经济项目路演。"
+    ]
+   },
+   "serial": "#1195",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【蓓明医疗】聚焦AI科技/产业资本，脑控FES康复设备，单手指精细控制差异化技术，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "兴业控股",
+   "name_cn": "兴业控股",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "运营商",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "港股上市公司（0132.HK），以医养结合为核心扩张养老业务版图，2026年中标的广东郁南养老服务项目标志其走出佛山大本营。银发经济“十五五”规划纲要下加速布局。",
+   "desc_cn": "港股上市公司（0132.HK），以医养结合为核心扩张养老业务版图，2026年中标的广东郁南养老服务项目标志其走出佛山大本营。银发经济“十五五”规划纲要下加速布局。",
+   "highlights": "港股上市公司，医养版图逆势扩张（S1标杆）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "港股上市公司(0132.HK)",
+    "display": "港股上市公司(0132.HK)"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=兴业控股",
+   "website_url": "https://www.cnpv.com.hk",
+   "business_model": "B2B/B2C 医养结合机构运营（上市）",
+   "business_model_cn": "B2B/B2C 医养结合机构运营（上市）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "港股上市公司（0132.HK），以医养结合为核心扩张养老业务版图，2026年中标的广东郁南养老服务项目标志其走出佛山大本营。银发经济“十五五”规划纲要下加速布局。"
+    ]
+   },
+   "serial": "#1196",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【兴业控股】聚焦产业资本/养老社区，港股上市公司，医养版图逆势扩张（S1标杆），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "深睿医疗",
+   "name_cn": "深睿医疗",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "AI医疗",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "将AI引入医疗全流程（影像诊断、临床决策）的医疗人工智能企业，覆盖医疗机构与居民健康场景。2024-2025年获近5亿元投资。",
+   "desc_cn": "将AI引入医疗全流程（影像诊断、临床决策）的医疗人工智能企业，覆盖医疗机构与居民健康场景。2024-2025年获近5亿元投资。",
+   "highlights": "近5亿元融资，医疗AI全流程（老年慢病延展）",
+   "funding_latest": {
+    "amount": "近5亿元",
+    "round": "成长期",
+    "date": "2024",
+    "display": "成长期 近5亿元 (2024)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=深睿医疗",
+   "website_url": "https://www.deepwise.com",
+   "business_model": "B2B 医疗AI影像与决策平台",
+   "business_model_cn": "B2B 医疗AI影像与决策平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "将AI引入医疗全流程（影像诊断、临床决策）的医疗人工智能企业，覆盖医疗机构与居民健康场景。2024-2025年获近5亿元投资。"
+    ]
+   },
+   "serial": "#1198",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【深睿医疗】聚焦产业资本，近5亿元融资，医疗AI全流程（老年慢病延展），B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "杭州微脉",
+   "name_cn": "杭州微脉",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理SaaS",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "基于阿里云基础设施的SaaS医疗与健康平台，提供全流程就医管理与慢病/健康管理服务，依赖区域医疗网络（江浙沪）。",
+   "desc_cn": "基于阿里云基础设施的SaaS医疗与健康平台，提供全流程就医管理与慢病/健康管理服务，依赖区域医疗网络（江浙沪）。",
+   "highlights": "区域医疗SaaS+慢病管理，银发健康管理延展",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=杭州微脉",
+   "website_url": "https://www.weimai.cn",
+   "business_model": "B2B/B2B2C 医疗健康SaaS平台",
+   "business_model_cn": "B2B/B2B2C 医疗健康SaaS平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "基于阿里云基础设施的SaaS医疗与健康平台，提供全流程就医管理与慢病/健康管理服务，依赖区域医疗网络（江浙沪）。"
+    ]
+   },
+   "serial": "#1199",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【杭州微脉】聚焦产业资本/慢病管理，区域医疗SaaS+慢病管理，银发健康管理延展，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "傲意科技",
+   "name_cn": "傲意科技",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "脑机接口",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "脑机接口（BCI）与智能神经康复企业，涉足人体感知缺失康复、智能神经康复训练，与多家医疗机构合作。",
+   "desc_cn": "脑机接口（BCI）与智能神经康复企业，涉足人体感知缺失康复、智能神经康复训练，与多家医疗机构合作。",
+   "highlights": "脑机接口神经康复，康复场景差异化",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=傲意科技",
+   "website_url": "https://www.aoyi-tech.com",
+   "business_model": "B2B 脑机接口康复医疗器械",
+   "business_model_cn": "B2B 脑机接口康复医疗器械",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "脑机接口（BCI）与智能神经康复企业，涉足人体感知缺失康复、智能神经康复训练，与多家医疗机构合作。"
+    ]
+   },
+   "serial": "#1200",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【傲意科技】聚焦AI科技/产业资本/精神健康，脑机接口神经康复，康复场景差异化，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "星尘智能",
+   "name_cn": "星尘智能",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "人形机器人",
+   "tags": [
+    "人形机器人"
+   ],
+   "description": "开发Astribot S1等人形机器人，具备自然对话、灵活感知与操作能力，应用场景涵盖医护、教育、娱乐等。获资本多轮加注。",
+   "desc_cn": "开发Astribot S1等人形机器人，具备自然对话、灵活感知与操作能力，应用场景涵盖医护、教育、娱乐等。获资本多轮加注。",
+   "highlights": "Astribot S1人形机器人，医护/陪伴多场景",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2022",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=星尘智能",
+   "website_url": "https://www.stardust.ai",
+   "business_model": "B2B 人形机器人本体（医护/陪伴）",
+   "business_model_cn": "B2B 人形机器人本体（医护/陪伴）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "开发Astribot S1等人形机器人，具备自然对话、灵活感知与操作能力，应用场景涵盖医护、教育、娱乐等。获资本多轮加注。"
+    ]
+   },
+   "serial": "#1201",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "人形机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【星尘智能】聚焦AI科技/产业资本/机器人，Astribot S1人形机器人，医护/陪伴多场景，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "松延动力",
+   "name_cn": "松延动力",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "人形机器人",
+   "tags": [
+    "人形机器人"
+   ],
+   "description": "通用人形机器人与具身智能公司，曾与顶流网红合跳“斧头舞”出圈，获英诺天使等机构投资，探索家庭陪护等场景。",
+   "desc_cn": "通用人形机器人与具身智能公司，曾与顶流网红合跳“斧头舞”出圈，获英诺天使等机构投资，探索家庭陪护等场景。",
+   "highlights": "通用人形机器人，家庭陪护场景探索",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "英诺天使基金",
+   "founded": "2023",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=松延动力",
+   "website_url": "https://www.songyan-dynamics.com",
+   "business_model": "B2B 人形机器人本体（陪护延展）",
+   "business_model_cn": "B2B 人形机器人本体（陪护延展）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通用人形机器人与具身智能公司，曾与顶流网红合跳“斧头舞”出圈，获英诺天使等机构投资，探索家庭陪护等场景。"
+    ]
+   },
+   "serial": "#1202",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "人形机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【松延动力】聚焦AI科技/产业资本/机器人，通用人形机器人，家庭陪护场景探索，B2B模式。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "name": "白马星球",
+   "name_cn": "白马星球",
+   "region": "国内",
+   "category_l1": "养老照护平台",
+   "category_l2": "智慧平台",
+   "tags": [
+    "旅游"
+   ],
+   "description": "通过整合健康管理、生活照料、教育培训、休闲旅游等资源，构建全方位养老服务生态系统，解决养老服务商资源分散、缺乏规模效应问题。",
+   "desc_cn": "通过整合健康管理、生活照料、教育培训、休闲旅游等资源，构建全方位养老服务生态系统，解决养老服务商资源分散、缺乏规模效应问题。",
+   "highlights": "资源整合型养老生态平台，对标Inspiren/Hello Sage",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=白马星球",
+   "website_url": "",
+   "business_model": "B2B2C 养老资源聚合生态平台",
+   "business_model_cn": "B2B2C 养老资源聚合生态平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过整合健康管理、生活照料、教育培训、休闲旅游等资源，构建全方位养老服务生态系统，解决养老服务商资源分散、缺乏规模效应问题。"
+    ]
+   },
+   "serial": "#1203",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【白马星球】聚焦健康管理/教育/旅游，资源整合型养老生态平台，对标Inspiren/Hello Sage，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "锋物科技",
+   "name_cn": "锋物科技",
+   "region": "国内",
+   "category_l1": "适老科技",
+   "category_l2": "智慧运营平台",
+   "tags": [
+    "智能家居"
+   ],
+   "description": "锋物科技（天津，2019 年成立）是一家物业数字化与智慧社区平台商，提供 AI 安防、IoT 设备管理与物业运营系统，并布局'物业+养老'服务与巡护机器人（跌倒监测、陪伴、紧急响应），向地产/物业以 SaaS 与解决方案收费，已服务 60+ 物业百强。亮点是把智慧社区底座延伸到居家与社区养老场景。",
+   "desc_cn": "锋物科技（天津，2019 年成立）是一家物业数字化与智慧社区平台商，提供 AI 安防、IoT 设备管理与物业运营系统，并布局'物业+养老'服务与巡护机器人（跌倒监测、陪伴、紧急响应），向地产/物业以 SaaS 与解决方案收费，已服务 60+ 物业百强。亮点是把智慧社区底座延伸到居家与社区养老场景。",
+   "highlights": "AI智慧运营平台，物业+养老场景融合",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=锋物科技",
+   "website_url": "https://www.fengwu.com",
+   "business_model": "B2B 智慧养老AI运营SaaS",
+   "business_model_cn": "B2B 智慧养老平台/运营",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过AI智慧运营平台赋能智慧养老与物业资管领域，打通社区居家养老服务链路。"
+    ]
+   },
+   "serial": "#1204",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能家居"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【锋物科技】聚焦AI科技/数字化，AI智慧运营平台，物业+养老场景融合，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "乐湾养老",
+   "name_cn": "乐湾养老",
+   "region": "国内",
+   "category_l1": "智慧养老",
+   "category_l2": "IoT平台",
+   "tags": [
+    "适老化"
+   ],
+   "description": "智慧养老物联网平台企业，深度结合IoT技术为老年人提供定位预警、健康管理与环境监测等服务，赋能养老机构与社区居家养老场景，提升照护安全性与管理效率",
+   "desc_cn": "智慧养老物联网平台企业，深度结合IoT技术为老年人提供定位预警、健康管理与环境监测等服务，赋能养老机构与社区居家养老场景，提升照护安全性与管理效率",
+   "highlights": "IoT+养老平台，定位预警与健康管理",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=乐湾养老",
+   "website_url": "",
+   "business_model": "B2B 智慧养老IoT平台",
+   "business_model_cn": "B2B 智慧养老IoT平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过平台深度结合物联网技术，为老年人提供定位预警、健康管理、环境监测等服务。"
+    ]
+   },
+   "serial": "#1205",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐湾养老】聚焦健康管理/数字化，IoT+养老平台，定位预警与健康管理，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

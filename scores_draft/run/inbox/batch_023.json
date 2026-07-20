@@ -1,0 +1,607 @@
+{
+ "batch": 23,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0876",
+   "name": "Talkiatry",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "精神&神经",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "精神科护理初创公司",
+   "highlights": "精神科护理初创公司",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "1.3亿美元",
+    "display": "1.3亿美元 (2024年6月)"
+   },
+   "funding_total": "$400M (截至2026年2月,含债务融资)",
+   "investors": [
+    "Perceptive Advisors",
+    "Andreessen Horowitz",
+    "Left Lane Capital",
+    "Blisce",
+    "Sofina",
+    "Banc of California",
+    "Relevance Ventures",
+    "Park Ventures",
+    "Richard Park"
+   ],
+   "founded": "2020",
+   "value_score": 54,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Talkiatry",
+   "website_url": "https://www.talkiatry.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "精神科护理初创公司",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Talkiatry Secures $130M Series C",
+      "date": "2024-06-18",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/talkiatry-secures-130m-series-c-funding-to-mainstream-value-based-behavioral-health-care-302175461.html"
+     },
+     {
+      "title": "Talkiatry banks $210M Series D",
+      "date": "2026-02-12",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/talkiatry-closes-210m-series-d-expand-telepsychiatry-services"
+     }
+    ],
+    "snippets": [
+     "$130M Series C (2024, a16z, Perceptive) + $210M Series D (2026, Perceptive Advisors led).",
+     "Telepsychiatry / virtual mental health."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Talkiatry】聚焦产业资本/康复/智能硬件，精神科护理初创公司，B2B+B2C模式，研究价值分54。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0893",
+   "name": "Upsidehom",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "陪伴服务",
+    "康养地产"
+   ],
+   "description": "UpsideHōM sells a membership that connects aging adults with vetted home-care aides, home-modification contractors and companion services, bundling vetting, scheduling and concierge coordination for a monthly fee.",
+   "highlights": "配备家具公寓",
+   "funding_latest": {
+    "date": "2021年",
+    "amount": "237万美元",
+    "round": "种子轮",
+    "display": "种子轮 237万美元 (2021年)"
+   },
+   "funding_total": "$2.25M",
+   "investors": [
+    "645 Ventures",
+    "Freestyle Capital"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Upsidehom",
+   "website_url": "https://www.upsidehom.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "UpsideHōM 以会员制为居家养老长者对接经筛选的照护员、适老化改造承包商与陪伴服务，打包审核、排班与管家式协调并按月收费。",
+   "business_model_cn": "会员月费",
+   "tag_l1": [
+    "文娱社交",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "陪伴服务",
+    "康养地产"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Upsidehom】聚焦产业资本/养老社区/行业媒体，配备家具公寓，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0905",
+   "name": "Vivo",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "健身"
+   ],
+   "description": "在线锻炼，现场教练授课，帮助老人重建肌肉",
+   "highlights": "现场教练授课",
+   "funding_latest": {
+    "amount": "352万美元",
+    "round": "A轮",
+    "display": "A轮 352万美元"
+   },
+   "funding_total": "$3.52M",
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vivo",
+   "website_url": "https://www.vivohealth.com",
+   "business_model": "B2C 健康养生服务",
+   "desc_cn": "在线锻炼，现场教练授课，帮助老人重建肌肉",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Vivo】聚焦产业资本/健康管理/健身，现场教练授课，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0962",
+   "name": "Nestimate",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Nestimate builds analytics software that helps 401(k) fiduciaries, advisers and recordkeepers evaluate and embed guaranteed lifetime-income options inside defined-contribution plans, licensed as a B2B subscription.",
+   "highlights": "为财务顾问、资产经理和保险公司提供退休收入分析软件平台",
+   "funding_latest": {
+    "date": "2025.10",
+    "amount": "300万美元",
+    "round": "种子轮",
+    "display": "种子轮 300万美元 (2025.10)"
+   },
+   "funding_total": "$3.42M",
+   "investors": [
+    "S3 Ventures",
+    "PruVen Capital",
+    "TIAA Ventures",
+    "Invest Nebraska"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nestimate",
+   "website_url": "https://www.nestimate.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Nestimate 开发分析软件，协助 401(k) 受托人、顾问与账管机构评估并把保底终身收入产品嵌入缴费确定型退休计划，以 B2B 订阅授权。",
+   "business_model_cn": "B2B SaaS订阅",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Nestimate】聚焦产业资本/保险/数字化，为财务顾问、资产经理和保险公司提供退休收入分析软件平台，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "name": "Lizzy Care",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程照护协调与个性化健康教育。",
+   "highlights": "面向痴呆症家庭的居家照护协调平台。",
+   "funding_latest": {
+    "date": "2025-02",
+    "amount": "$2.6M",
+    "round": "Seed",
+    "display": "Seed $2.6M (2025-02)"
+   },
+   "funding_total": {
+    "amount": "$2.6M",
+    "display": "累计$2.6M"
+   },
+   "investors": "Boomerang Ventures领投",
+   "founded": "",
+   "value_score": 30,
+   "source": "WebSearch: theaiinsider.tech 2025-02-18",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lizzy%20Care",
+   "website_url": "",
+   "business_model": "B2B2C 居家痴呆照护协调平台",
+   "desc_cn": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程照护协调与个性化健康教育。",
+   "business_model_cn": "B2B2C 居家痴呆照护协调平台",
+   "serial": "#1132",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Lizzy Care】聚焦养老社区/认知症，面向痴呆症家庭的居家照护协调平台。，B2B+B2C模式，研究价值分30。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "name": "Biopeak",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "长寿诊所",
+   "tags": [
+    "诊所",
+    "长寿抗衰"
+   ],
+   "description": "长寿诊所运营商，2026年1月获270万美元融资，用于开设新诊所、强化诊断能力与 proprietary AI，主打整合式长寿医学服务。",
+   "highlights": "长寿诊所连锁，获$2.7M扩张融资。",
+   "funding_latest": {
+    "date": "2026-01",
+    "amount": "$2.7M",
+    "round": "早期融资",
+    "display": "早期融资 $2.7M (2026-01)"
+   },
+   "funding_total": {
+    "amount": "$2.7M",
+    "display": "累计$2.7M"
+   },
+   "investors": "未披露",
+   "founded": "",
+   "value_score": 26,
+   "source": "WebSearch: cxodigitalpulse.com 2026-01-30",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Biopeak",
+   "website_url": "",
+   "business_model": "B2C/B2B 长寿诊所+诊断",
+   "desc_cn": "长寿诊所运营商，2026年1月获270万美元融资，用于开设新诊所、强化诊断能力与 proprietary AI，主打整合式长寿医学服务。",
+   "business_model_cn": "B2C/B2B 长寿诊所+诊断",
+   "serial": "#1140",
+   "tag_l1": [
+    "养老服务",
+    "消费品"
+   ],
+   "tag_l2": [
+    "诊所",
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Biopeak】聚焦健康管理，长寿诊所连锁，获$2.7M扩张融资。，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "name": "IO Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "安宁疗护AI",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "面向临终关怀（hospice）与家庭健康的AI初创公司，用AI简化临床文档与运营。2025年10月完成200万美元种子轮（Nina Capital领投）。",
+   "desc_cn": "面向临终关怀（hospice）与家庭健康的AI初创公司，用AI简化临床文档与运营。2025年10月完成200万美元种子轮（Nina Capital领投）。",
+   "highlights": "200万美元种子轮，安宁疗护AI临床自动化",
+   "funding_latest": {
+    "amount": "200万美元",
+    "round": "种子轮",
+    "date": "2025-10",
+    "display": "种子轮 200万美元 (2025-10)"
+   },
+   "funding_total": {
+    "amount": "累计约200万美元",
+    "display": "累计约200万美元"
+   },
+   "investors": "Nina Capital",
+   "founded": "2023",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=IO+Health",
+   "website_url": "https://www.iohealth.ai",
+   "business_model": "B2B 安宁疗护AI文档/运营SaaS",
+   "business_model_cn": "B2B 安宁疗护AI文档/运营SaaS",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向临终关怀（hospice）与家庭健康的AI初创公司，用AI简化临床文档与运营。2025年10月完成200万美元种子轮（Nina Capital领投）。"
+    ]
+   },
+   "serial": "#1187",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【IO Health】聚焦临终关怀/产业资本，200万美元种子轮，安宁疗护AI临床自动化，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#1336",
+   "name": "Winterlight Labs",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "认知症",
+   "tags": [
+    "认知筛查"
+   ],
+   "description": "语音数字生物标志物检测认知障碍（已被 Cambridge Cognition 收购）。",
+   "highlights": "成立于2015年",
+   "funding_latest": {
+    "date": "2019",
+    "amount": "420万美元",
+    "round": "Series A(被收购)",
+    "display": "Series A $4.2M;后被Cambridge Cognition收购"
+   },
+   "funding_total": {
+    "amount": "约$600万",
+    "display": "累计约$600万"
+   },
+   "investors": "Hikma Ventures",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "信源治理入库(BioTechScope) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.winterlightlabs.com",
+   "business_model": "B2B SaaS",
+   "desc_cn": "语音数字生物标志物检测认知障碍（已被 Cambridge Cognition 收购）。",
+   "business_model_cn": "B2B 语音生物标记",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "被收购",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0002",
+   "name": "SageWell",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "金融理财",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Sagewell is a US fintech that pairs adults aged 50 and over with dedicated financial advisors who build personalized retirement plans covering Social Security claiming, pensions, savings, and insurance.",
+   "highlights": "为养老机构提供智能化管理系统和服务平台。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SageWell",
+   "website_url": "",
+   "business_model": "B2C 老年金融理财",
+   "desc_cn": "美国金融科技公司，为50岁以上人群配备专属理财顾问，围绕社安金申领、养老金、储蓄与保险制定个性化退休理财方案。",
+   "business_model_cn": "理财顾问服务费",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【SageWell】聚焦养老金融，为养老机构提供智能化管理系统和服务平台。，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0003",
+   "name": "乐湾",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "养老软件",
+    "适老化"
+   ],
+   "description": "杭州乐湾科技（2015年成立）是智慧康养解决方案提供商，自研「乐湾云」平台，为养老机构、康养集团及政府主管部门提供涵盖机构/社区/居家养老的SaaS与运营管理系统，已服务3000+养老单位。其自研养老物联网平台对接智能硬件超1000种，并入选《智慧健康养老产品及服务推广目录》。",
+   "highlights": "提供高品质养老社区和康养服务。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%90%E6%B9%BE",
+   "website_url": "https://www.lewantech.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "乐湾",
+   "desc_cn": "杭州乐湾科技（2015年成立）是智慧康养解决方案提供商，自研「乐湾云」平台，为养老机构、康养集团及政府主管部门提供涵盖机构/社区/居家养老的SaaS与运营管理系统，已服务3000+养老单位。其自研养老物联网平台对接智能硬件超1000种，并入选《智慧健康养老产品及服务推广目录》。",
+   "business_model_cn": "B2C 适老家居消费品",
+   "tag_l1": [
+    "行业服务",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老软件",
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【乐湾】聚焦适老化改造，提供高品质养老社区和康养服务。，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0004",
+   "name": "优享陪诊",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "陪诊"
+   ],
+   "description": "专业陪诊服务平台，为老年人及行动不便人群提供就医陪同、代办挂号、取药等一站式服务。",
+   "highlights": "为老年人及行动不便人群提供就医陪同、代办挂号、取药等一站式服务。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%98%E4%BA%AB%E9%99%AA%E8%AF%8A",
+   "website_url": "http://www.huachengenjoy.com",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "优享陪诊",
+   "desc_cn": "专业陪诊服务平台，为老年人及行动不便人群提供就医陪同、代办挂号、取药等一站式服务。",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "陪诊"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【优享陪诊】聚焦健康管理，为老年人及行动不便人群提供就医陪同、代办挂号、取药等一站式服务。，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0005",
+   "name": "全民K歌",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "文娱"
+   ],
+   "description": "腾讯旗下在线K歌应用，中老年用户活跃度极高，是银发群体最常用的娱乐社交应用之一。",
+   "highlights": "中老年用户活跃度极高",
+   "funding_latest": {
+    "amount": "腾讯旗下产品",
+    "round": "子公司",
+    "display": "子公司 腾讯旗下产品"
+   },
+   "funding_total": {
+    "amount": "腾讯集团内部",
+    "display": "累计腾讯集团内部"
+   },
+   "investors": "",
+   "founded": "2014",
+   "value_score": 36,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%85%A8%E6%B0%91K%E6%AD%8C",
+   "website_url": "https://kg.qq.com",
+   "business_model": "B2C 社交娱乐平台",
+   "name_cn": "全民K歌",
+   "desc_cn": "腾讯旗下在线K歌应用，中老年用户活跃度极高，是银发群体最常用的娱乐社交应用之一。",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【全民K歌】聚焦文娱社交，中老年用户活跃度极高，B2C模式，研究价值分36。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,779 @@
+[
+  {
+    "serial": "#0771",
+    "name": "Luminary",
+    "name_cn": "Luminary",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B SaaS订阅",
+    "description": "Luminary builds AI-powered estate and wealth-transfer planning software for financial, legal and tax advisors, turning trust and will documents into visual models that simulate gifting, charitable and generational transfer strategies.",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 咨询服务",
+    "funding_latest": {
+      "date": "2024年4月",
+      "amount": "3000万美元",
+      "display": "3000万美元 (2024年4月)"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2020",
+    "highlights": "专为信托和遗产规划顾问打造的数据和协作平台",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 7.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS订阅」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.luminary.com"
+  },
+  {
+    "serial": "#0782",
+    "name": "Metyos",
+    "name_cn": "Metyos",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "region": "海外",
+    "desc_cn": "慢性肾病监测设备，类似FreeStyle Libre",
+    "description": "慢性肾病监测设备，类似FreeStyle Libre",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": {
+      "date": "2024年3月",
+      "amount": "230万欧元",
+      "round": "种子前",
+      "display": "种子前 230万欧元 (2024年3月)"
+    },
+    "funding_total": "€2.3M",
+    "investors": "Cenitz (lead)",
+    "stage": "种子期",
+    "founded": "2021",
+    "highlights": "类似FreeStyle Libre",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 7.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B/B2C 硬件产品」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入慢病管理赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.metyos.com"
+  },
+  {
+    "serial": "#0797",
+    "name": "NeuroClues",
+    "name_cn": "NeuroClues",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知筛查"
+    ],
+    "region": "海外",
+    "desc_cn": "眼动追踪设备检测神经退行性疾病，帕金森筛查",
+    "description": "眼动追踪设备检测神经退行性疾病，帕金森筛查",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": {
+      "amount": "500万欧元",
+      "round": "Pre-A",
+      "display": "Pre-A 500万欧元"
+    },
+    "funding_total": "€10M",
+    "investors": "Teampact Ventures, White Fund, EIC Fund (lead)",
+    "stage": "成长期",
+    "founded": "2021",
+    "highlights": "帕金森筛查",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 7.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B/B2C 硬件产品」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入健康养生赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.neuroclues.com"
+  },
+  {
+    "serial": "#0828",
+    "name": "Redi Health",
+    "name_cn": "Redi Health",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "连接制药企业、医疗机构与患者的数字患者支持平台，专注高值慢病用药全旅程管理：用药提醒、症状追踪、品牌化健康教育、经济援助对接与PSP入组。以AI远程患者监测与移动端工具提升依从性、降低疗法中断。收入来自药企B端机构采购，核心客户为生活科学公司与支付方，非直接面向老年群体。",
+    "description": "Redi Health 是一个数字化的患者支持平台，连接药企与患者，提供用药依从、福利查询与疾病管理工具，通过 B2B2C（向制药与支付方收费）模式运营，已完成 B 轮融资。亮点是把药企患者援助项目做成可量化的依从性提升产品。",
+    "silver_reason": "药企患者支持与用药依从平台，B2B2C泛医疗，非老年专属。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "B端机构采购(药企/支付方)",
+    "business_model": "B2B 制药/生物科技",
+    "funding_latest": {
+      "date": "2024年2月",
+      "amount": "1400万美元",
+      "round": "B轮",
+      "display": "B轮 1400万美元 (2024年2月)"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "B轮",
+    "founded": 2019,
+    "highlights": [
+      "数字患者支持平台连接药企-机构-患者，提升用药依从",
+      "AI远程监测+移动端，替代70%非依从传统PSP",
+      "客户月度入组+30%，行业年损超6000亿美元背景",
+      "B轮1400万美元，Blue Heron Capital领投"
+    ],
+    "signal_strength": 2.55,
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 5.0,
+    "research_value": 45.6,
+    "recommend": {
+      "rec_v1": "信号低但资料较全；药企患者支持平台差异中等，国内可学其把依从性做成量化产品能力。",
+      "rec_v2": "信号偏低但信息中等，亮点是B2B2C双向收费；创业者可借鉴其连接药企-支付方-患者的中台。",
+      "rec_v3": "低信号、模式清晰，资料可查，独特在患者援助产品化；国内药企可复用其用药支持SaaS思路（值得国内创业者拆解借鉴）",
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "signal_strength": 2.55,
+      "research_value": 45.6
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.redihealth.com"
+  },
+  {
+    "serial": "#0874",
+    "name": "Swift Medical",
+    "name_cn": "Swift Medical",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "数字伤口护理管理，AI技术",
+    "description": "数字伤口护理管理，AI技术",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年1月",
+      "amount": "800万美元",
+      "display": "800万美元 (2024年1月)"
+    },
+    "funding_total": "$43M+",
+    "investors": "Virgo Investment Group (lead)",
+    "stage": "未搜到",
+    "founded": "2015",
+    "highlights": "AI技术",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入专业级护理赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.swiftmedical.com"
+  },
+  {
+    "serial": "#0982",
+    "name": "Ping",
+    "name_cn": "Ping",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "region": "海外",
+    "desc_cn": "对齐公司愿景与利益相关者，涉及战略、销售与产品开发。",
+    "description": "对齐公司愿景与利益相关者，涉及战略、销售与产品开发。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 行业服务/媒体",
+    "funding_latest": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 7.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「银发企业战略咨询：对齐公司愿景与利益相关者，覆盖战略、销售与产品开发」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入战略咨询赛道）。",
+    "source": "Mary Furlong企业库",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0990",
+    "name": "JOY FOR ALL",
+    "name_cn": "JOY FOR ALL",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "陪伴机器人",
+      "陪伴服务"
+    ],
+    "region": "海外",
+    "desc_cn": "交互式陪伴猫/狗，为长者带来舒适、陪伴与乐趣。",
+    "description": "交互式陪伴猫/狗，为长者带来舒适、陪伴与乐趣。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+部分政府补贴",
+    "business_model": "银发经济企业",
+    "funding_latest": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "未搜到"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「交互式陪伴宠物机器人：为长者提供舒适、陪伴与乐趣」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入陪伴机器人赛道）。",
+    "source": "Mary Furlong企业库",
+    "website_url": "https://joyforall.com/"
+  },
+  {
+    "serial": "#1000",
+    "name": "Labrador",
+    "name_cn": "Labrador",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "陪伴机器人"
+    ],
+    "region": "海外",
+    "desc_cn": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活",
+    "description": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Seed",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "highlights": "辅助移动机器人切入生活自理场景",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 养老陪伴/辅助机器人硬件」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入辅助机器人赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.labrador.co"
+  },
+  {
+    "serial": "#1027",
+    "name": "Intus Care",
+    "name_cn": "Intus Care",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理",
+      "护理协调"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B SaaS订阅",
+    "description": "Intus Care analyzes claims, clinical, and social-determinant data for PACE (Program of All-Inclusive Care for the Elderly) organizations, flagging members at high risk of hospitalization or chronic-disease deterioration to guide proactive care.",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "PACE",
+    "business_model": "",
+    "funding_latest": "Series A",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "A轮",
+    "founded": "未搜到",
+    "highlights": "数据驱动降低住院率",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.5,
+    "copy_score": 7.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS订阅」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入健康分析赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.intuscare.com"
+  },
+  {
+    "serial": "#1075",
+    "name": "腾讯 Robotics X",
+    "name_cn": "腾讯",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "机器人"
+    ],
+    "region": "国内",
+    "desc_cn": "居家服务机器人“小五”，面向人机协作的养老服务",
+    "description": "居家服务机器人“小五”，面向人机协作的养老服务",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "大厂实验室",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "大厂居家服务机器人探索",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B/B2C 居家服务机器人」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入居家服务机器人赛道）。",
+    "source": "36氪 养老机器人",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1076",
+    "name": "海尔兄弟机器人",
+    "name_cn": "海尔",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "机器人"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B 服务机器人",
+    "description": "海尔智家旗下与星动纪元合作服务机器人",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "大厂",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "家电巨头切入服务机器人",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 服务机器人」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入服务机器人赛道）。",
+    "source": "36氪 养老机器人",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1086",
+    "name": "朗毅机器人",
+    "name_cn": "朗毅机器人",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B机器人技术授权",
+    "description": "朗毅机器人 develops an embodied 'navigation brain'—perception, mapping, and path-planning software—that lets service robots move safely and autonomously in senior-care and other indoor environments.",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "江阴人才基金",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "具身导航技术基座",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B机器人技术授权」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入具身导航赛道）。",
+    "source": "ITH康养家 2025融资实录",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1106",
+    "name": "Xella Health",
+    "name_cn": "Xella Health",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "体检筛查"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 女性精准健康",
+    "description": "女性精准健康平台，聚焦生育、衰老与身体变化的纵向数据，提供先进诊断+个性化临床指导，覆盖激素健康、早癌筛查与预防护理。2026年初完成超370万美元 pre-seed 融资，计划2026年春发布",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "Women's precision-health platform delivering advanced diagnostics and longitudinal guidance across fertility, hormonal health and aging.",
+    "funding_latest": "超370万美元 pre-seed（2026年初）",
+    "funding_total": "未搜到",
+    "investors": "Precursor Ventures 领投",
+    "stage": "种子期",
+    "founded": "未搜到",
+    "highlights": "切入“女性特异性长寿/预防医疗”这一被低估的银发细分（女性占老年人口多数），国内同类女性健康+抗衰赛道稀缺，可比性强。",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 女性精准健康」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入女性精准健康赛道）。",
+    "source": "Agetech World 投资周报（2026-02）",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1107",
+    "name": "Gardia",
+    "name_cn": "Gardia",
+    "tag_l1": [
+      "康复辅具",
+      "消费品"
+    ],
+    "tag_l2": [
+      "跌倒监测",
+      "智能硬件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C 适老跌倒检测硬件",
+    "description": "德国健康科技公司（microsynetics GmbH），提供无需智能手机的 AI 跌倒检测腕带与移动应急系统，自动检测老年人跌倒并触发救援。2026年2月完成850万欧元A轮",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "Wearable AI fall-detection wristband plus mobile emergency system for seniors that works without a smartphone.",
+    "funding_latest": "850万欧元 A轮（2026年2月）",
+    "funding_total": "未搜到",
+    "investors": "Peak 领投",
+    "stage": "A轮",
+    "founded": "未搜到",
+    "highlights": "跌倒是老年人安全头号风险，其“无手机依赖+自动跌倒检测”模式对国内跌倒监测硬件（毫米波雷达/腕带）创业是直接对标，S4 国内可比性强。",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 适老跌倒检测硬件」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入跌倒检测/紧急呼叫赛道）。",
+    "source": "Tech.eu / TechFundingNews（2026-02）",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1111",
+    "name": "Aerska",
+    "name_cn": "Aerska",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "药品"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B 创新药研发",
+    "description": "生物科技公司，利用“脑 shuttle”技术将 RNA 药物系统性递送至大脑，开发针对阿尔茨海默病等 CNS 疾病的治疗手段。2026年2月完成3900万美元A轮，由 EQT Dementia Fund 与 Age1 领投",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "Neuroscience biotech using a 'brain shuttle' to deliver RNA medicines to the brain for Alzheimer's and CNS diseases.",
+    "funding_latest": "3900万美元 A轮（2026年2月）",
+    "funding_total": "未搜到",
+    "investors": "EQT Dementia Fund、Age1 领投",
+    "stage": "A轮",
+    "founded": "未搜到",
+    "highlights": "阿尔茨海默是银发最高发重疾之一；其“脑递送+RNA”技术路线代表海外神经退行药物前沿，对国内创新药/CNS 赛道有镜鉴意义（S1 硬科技+S2 热点）。",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 创新药研发」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入神经退行性疾病药物赛道）。",
+    "source": "BioSpace / NatLawReview（2026-02）",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#1188",
+    "name": "Optain Health",
+    "name_cn": "Optain Health",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "视觉辅助"
+    ],
+    "region": "海外",
+    "desc_cn": "AI视网膜影像慢病早筛服务商",
+    "description": "将AI、机器人视网膜成像与远程眼科结合，通过视网膜影像（oculomics）筛查眼疾与全身健康风险。2025年9月完成2600万美元A轮（Insight Partners等）。",
+    "silver_reason": "视网膜筛查为通用医疗影像，非老年专属，属泛医疗。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "B端机构采购",
+    "business_model": "B2B 视网膜AI筛查SaaS+硬件",
+    "funding_latest": {
+      "amount": "2600万美元",
+      "round": "A轮",
+      "date": "2025-09",
+      "display": "A轮 2600万美元 (2025-09)"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": "Insight Partners",
+    "stage": "A轮",
+    "founded": 2018,
+    "highlights": [
+      "AI+机器人视网膜成像（oculomics）",
+      "通过视网膜筛查眼疾与全身健康风险"
+    ],
+    "signal_strength": 2.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 4.0,
+    "research_value": 45.6,
+    "recommend": {
+      "rec_v1": "信号弱但A轮披露清楚；其视网膜影像早筛全身风险思路新颖，国内可学眼见全身的产品逻辑，但医疗器械准入门槛高。",
+      "rec_v2": "信息中等、差异在oculomics筛查而非单纯读片；国内宜借鉴其基层筛查场景，复制受设备注册与医生资源约束，难快速铺开。",
+      "rec_v3": "慢病早筛是银发入口；其亮点是AI+机器人视网膜成像，国内复制需走三类证与渠道，建议研究其To B眼科网络打法。",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 4,
+      "signal_strength": 2.55,
+      "research_value": 45.6
+    },
+    "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+    "website_url": "https://www.optainhealth.com"
+  },
+  {
+    "serial": "#1201",
+    "name": "星尘智能",
+    "name_cn": "星尘智能",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B 人形机器人本体（医护/陪伴）",
+    "description": "开发Astribot S1等人形机器人，具备自然对话、灵活感知与操作能力，应用场景涵盖医护、教育、娱乐等。获资本多轮加注。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 人形机器人本体（医护/陪伴）",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2022",
+    "highlights": "Astribot S1人形机器人，医护/陪伴多场景",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 人形机器人本体（医护/陪伴）」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入人形机器人赛道）。",
+    "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+    "website_url": "https://www.stardust.ai"
+  },
+  {
+    "serial": "#1202",
+    "name": "松延动力",
+    "name_cn": "松延动力",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "region": "国内",
+    "desc_cn": "B2B 人形机器人本体（陪护延展）",
+    "description": "通用人形机器人与具身智能公司，曾与顶流网红合跳“斧头舞”出圈，获英诺天使等机构投资，探索家庭陪护等场景。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 人形机器人本体（陪护延展）",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": "英诺天使基金",
+    "stage": "未搜到",
+    "founded": "2023",
+    "highlights": "通用人形机器人，家庭陪护场景探索",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B 人形机器人本体（陪护延展）」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入人形机器人赛道）。",
+    "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+    "website_url": "https://www.songyan-dynamics.com"
+  },
+  {
+    "serial": "#1221",
+    "name": "NuEyes",
+    "name_cn": "NuEyes",
+    "tag_l1": [
+      "康复辅具",
+      "消费品"
+    ],
+    "tag_l2": [
+      "视觉辅助",
+      "眼镜"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C 视觉辅具硬件",
+    "description": "智能视觉辅具企业，推出轻量AI智能眼镜，为低视力与阅读困难的老年人群提供图像放大、对比增强与文字识别功能，属于医疗器械类消费级产品",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "B2C 低视力AI眼镜硬件",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2013",
+    "highlights": "轻量AI智能眼镜，低视力阅读增强",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 视觉辅具硬件」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入视觉障碍赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.nueyes.com"
+  },
+  {
+    "serial": "#1247",
+    "name": "Idoven",
+    "name_cn": "Idoven",
+    "tag_l1": [
+      "消费品",
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "心血管",
+      "可穿戴监测",
+      "体检筛查"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B2C AI心电监测",
+    "description": "用AI解读心电图的可穿戴心电监测公司，提前发现房颤等老年高发心血管风险。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B2C AI心电监测",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2016",
+    "highlights": "AI心电监测，老年心血管风险早筛",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 5.5,
+    "research_value": 45.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B2C AI心电监测」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入AI心电赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.idoven.ai"
+  }
+]

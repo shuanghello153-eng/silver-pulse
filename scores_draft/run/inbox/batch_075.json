@@ -1,0 +1,496 @@
+{
+ "batch": 75,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0784",
+   "name": "Mighty Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "健身"
+   ],
+   "description": "面向50+人群，多合一运动、营养和健康计划",
+   "highlights": "多合一运动、营养和健康计划",
+   "funding_latest": {
+    "amount": "760万美元",
+    "display": "760万美元"
+   },
+   "funding_total": "$10.5M",
+   "investors": "RRE Ventures, Z Venture Capital, Y Combinator",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mighty%20Health",
+   "website_url": "https://www.mightyhealth.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "面向50+人群，多合一运动、营养和健康计划",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Mighty Health】聚焦产业资本/健康管理/健身，多合一运动、营养和健康计划，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0785",
+   "name": "Miihealth",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "对话式AI健康伴侣，结合传感器和智能手表",
+   "highlights": "结合传感器和智能手表",
+   "funding_latest": {
+    "amount": "700万美元",
+    "display": "700万美元"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Miihealth",
+   "website_url": "https://www.miihealth.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "对话式AI健康伴侣，结合传感器和智能手表",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Miihealth】聚焦产业资本/文娱社交，结合传感器和智能手表，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0786",
+   "name": "MindAhead",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "基于行为激活的治疗应用程序，轻度认知障碍和痴呆症",
+   "highlights": "轻度认知障碍和痴呆症",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "CDP Venture Capital, Rudolf von Plettenberg (+7)",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=MindAhead",
+   "website_url": "https://mindahead.info",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "基于行为激活的治疗应用程序，轻度认知障碍和痴呆症",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MindAhead】聚焦行业媒体/认知症，轻度认知障碍和痴呆症，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0787",
+   "name": "MindMics",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心血管"
+   ],
+   "description": "日常耳机改造成健康监测器，次声波技术心血管监测",
+   "highlights": "次声波技术心血管监测",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=MindMics",
+   "website_url": "https://www.mindmics.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "日常耳机改造成健康监测器，次声波技术心血管监测",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "心血管"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MindMics】聚焦健康管理/慢病管理/行业媒体，次声波技术心血管监测，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0790",
+   "name": "Moneta Health",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "诊所"
+   ],
+   "description": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
+   "highlights": "基于医疗保险报销",
+   "funding_latest": null,
+   "funding_total": "$4.5M",
+   "investors": "True Ventures, Health2047, BKR Capital",
+   "founded": "2023",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Moneta%20Health",
+   "website_url": "https://www.moneta.health",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Moneta Health】聚焦康复/智能硬件/认知症，基于医疗保险报销，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0792",
+   "name": "More Life Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "健身"
+   ],
+   "description": "老年人在线锻炼",
+   "highlights": "老年人在线锻炼",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=More%20Life%20Health",
+   "website_url": "https://morelifehealth.com",
+   "business_model": "B2C 健康养生服务",
+   "desc_cn": "老年人在线锻炼",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【More Life Health】聚焦健康管理/健身，老年人在线锻炼，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0793",
+   "name": "myo",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "myo（德国 Myosotis 公司）是一款连接养老院住客、家属与护理人员的 SaaS 沟通应用，用平板/电视推送活动、消息与日程，已在德语区 250 多家养老机构部署。商业模式为面向机构的年度订阅，亮点是把家属沟通与日常照护可视化。",
+   "highlights": "护理机构、家庭和服务商数字通信",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "800万欧元",
+    "display": "800万欧元 (2024年2月)"
+   },
+   "funding_total": null,
+   "investors": "TVM Capital Life Science, BonVenture, Agaplesion, Axel Springer Plug & Play, Think.Health, Mountain Partners, Round Hill Ventures",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=myo",
+   "website_url": "https://www.myo.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "myo（德国 Myosotis 公司）是一款连接养老院住客、家属与护理人员的 SaaS 沟通应用，用平板/电视推送活动、消息与日程，已在德语区 250 多家养老机构部署。商业模式为面向机构的年度订阅，亮点是把家属沟通与日常照护可视化。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【myo】聚焦产业资本/数字化/文娱社交，护理机构、家庭和服务商数字通信，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0794",
+   "name": "Naborforce",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "家政",
+    "陪伴服务"
+   ],
+   "description": "Naborforce runs a vetted local 'Neighbor' network that visits older adults for companionship, transportation, errands and light caregiving, sold as a benefit to health plans and employers who pay per visit.",
+   "highlights": "老年人按需陪伴与支持平台，Techstars孵化，Richmond VA",
+   "funding_latest": {
+    "date": "2022",
+    "amount": "未披露",
+    "round": "Series A",
+    "display": "Series A 未披露 (2022)"
+   },
+   "funding_total": {
+    "amount": "$13.7M",
+    "display": "累计$13.7M"
+   },
+   "investors": "Claritas Capital, Techstars, Translink Capital, The Artemis Fund",
+   "founded": "2018",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Naborforce",
+   "website_url": "https://naborforce.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Naborforce 组建经筛查的本地邻里照护员网络，为老人上门陪伴、代买代办与接送，按次向健康险公司与雇主结算。",
+   "business_model_cn": "按次服务费/B2B",
+   "tag_l1": [
+    "养老服务",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "家政",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Naborforce】聚焦产业资本/文娱社交/行业媒体，老年人按需陪伴与支持平台，Techstars孵化，Richmond VA，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0795",
+   "name": "Navel",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "下一代社交机器人，在德国多家养老院使用",
+   "highlights": "在德国多家养老院使用",
+   "funding_latest": {
+    "date": "2023年秋",
+    "display": "(2023年秋)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Navel",
+   "website_url": "https://www.navel.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "下一代社交机器人，在德国多家养老院使用",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Navel】聚焦产业资本/养老机构/文娱社交，在德国多家养老院使用，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0797",
+   "name": "NeuroClues",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "认知筛查"
+   ],
+   "description": "眼动追踪设备检测神经退行性疾病，帕金森筛查",
+   "highlights": "帕金森筛查",
+   "funding_latest": {
+    "amount": "500万欧元",
+    "round": "Pre-A",
+    "display": "Pre-A 500万欧元"
+   },
+   "funding_total": "€10M",
+   "investors": "Teampact Ventures, White Fund, EIC Fund (lead)",
+   "founded": "2021",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NeuroClues",
+   "website_url": "https://www.neuroclues.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "眼动追踪设备检测神经退行性疾病，帕金森筛查",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【NeuroClues】聚焦产业资本/健康管理/智能硬件，帕金森筛查，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0798",
+   "name": "NeuroNation",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "认知症产品",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "强化大脑，日常记忆训练",
+   "highlights": "日常记忆训练",
+   "funding_latest": null,
+   "funding_total": "€6M",
+   "investors": "Impact Partners",
+   "founded": "2011",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NeuroNation",
+   "website_url": "https://www.neuronation.com",
+   "business_model": "硬件产品",
+   "desc_cn": "强化大脑，日常记忆训练",
+   "business_model_cn": "硬件产品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【NeuroNation】聚焦认知症，日常记忆训练，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0799",
+   "name": "NewRetirement",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "数字优先退休理财规划服务",
+   "highlights": "数字优先退休理财规划服务",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "2000万美元",
+    "display": "2000万美元 (2024年3月)"
+   },
+   "funding_total": "$20M",
+   "investors": "Allegis Capital (lead)",
+   "founded": "2005",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NewRetirement",
+   "website_url": "https://www.newretirement.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "数字优先退休理财规划服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【NewRetirement】聚焦产业资本/养老金融/行业媒体，数字优先退休理财规划服务，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

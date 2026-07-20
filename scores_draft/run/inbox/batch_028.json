@@ -1,0 +1,493 @@
+{
+ "batch": 28,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0068",
+   "name": "中匠福",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "广东中匠福（2004年创立）是适老化全产业链企业，研发生产适老家具、卫浴、辅具与智能化产品，并提供适老化改造与养老机构整体空间方案。其拥有5.3万㎡生产基地，合作养老机构3000+，参与制定多项适老家具国家与行业标准。",
+   "highlights": "适老化改造服务品牌，一站式解决方案",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2004",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B8%AD%E5%8C%A0%E7%A6%8F",
+   "website_url": "https://www.hkzjf.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "中匠福",
+   "desc_cn": "广东中匠福（2004年创立）是适老化全产业链企业，研发生产适老家具、卫浴、辅具与智能化产品，并提供适老化改造与养老机构整体空间方案。其拥有5.3万㎡生产基地，合作养老机构3000+，参与制定多项适老家具国家与行业标准。",
+   "business_model_cn": "B2C 适老家居消费品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【中匠福】聚焦居家护理/适老化改造，适老化改造服务品牌，一站式解决方案，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0069",
+   "name": "中金佰仁堂",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "康养地产"
+   ],
+   "description": "作为康养地产运营商，开发与运营养老社区及康养项目，整合医养服务资源",
+   "highlights": "中金资本旗下养老产业投资平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B8%AD%E9%87%91%E4%BD%B0%E4%BB%81%E5%A0%82",
+   "website_url": "https://www.ibairentang.com",
+   "business_model": "B2C/B2B 养老社区运营",
+   "name_cn": "中金佰仁堂",
+   "desc_cn": "作为康养地产运营商，开发与运营养老社区及康养项目，整合医养服务资源",
+   "business_model_cn": "康养地产运营",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康养地产"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【中金佰仁堂】聚焦养老社区，中金资本旗下养老产业投资平台，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0071",
+   "name": "乐力",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "保健品"
+   ],
+   "description": "乐力是营养保健品品牌，专注钙补充剂和肠道健康产品，在银发保健品市场有广泛认知度。",
+   "highlights": "营养保健品品牌，钙补充剂+肠道健康",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%90%E5%8A%9B",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "乐力",
+   "desc_cn": "乐力是营养保健品品牌，专注钙补充剂和肠道健康产品，在银发保健品市场有广泛认知度。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐力】聚焦保健品/认知症，营养保健品品牌，钙补充剂+肠道健康，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0072",
+   "name": "乐唱族",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "教育",
+    "文娱"
+   ],
+   "description": "乐唱族（2017年成立）是中老年在线音乐与声乐教育平台，签约龚琳娜等名师，提供声乐、舞蹈、朗诵等直播课程，累计服务超600万学员。其以陪伴式教学+作业点评的线上模式，成为中老年文娱学习头部品牌之一。",
+   "highlights": "中老年在线K歌社交平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%90%E5%94%B1%E6%97%8F",
+   "website_url": "https://www.lechangzu.com",
+   "business_model": "B2C 社交娱乐平台",
+   "name_cn": "乐唱族",
+   "desc_cn": "乐唱族（2017年成立）是中老年在线音乐与声乐教育平台，签约龚琳娜等名师，提供声乐、舞蹈、朗诵等直播课程，累计服务超600万学员。其以陪伴式教学+作业点评的线上模式，成为中老年文娱学习头部品牌之一。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育",
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【乐唱族】聚焦文娱社交，中老年在线K歌社交平台，B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0073",
+   "name": "乐成养老",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "康养地产"
+   ],
+   "description": "乐成养老是北京乐成集团旗下养老产业品牌，运营恭和苑等高端养老社区，是国内最早的民营养老运营商之一。",
+   "highlights": "北京乐成集团旗下，恭和苑高端养老社区",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2003",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%90%E6%88%90%E5%85%BB%E8%80%81",
+   "website_url": "https://www.ycsenior.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "乐成养老",
+   "desc_cn": "乐成养老是北京乐成集团旗下养老产业品牌，运营恭和苑等高端养老社区，是国内最早的民营养老运营商之一。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康养地产"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐成养老】聚焦养老社区，北京乐成集团旗下，恭和苑高端养老社区，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0074",
+   "name": "乐陪护",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理",
+    "陪诊"
+   ],
+   "description": "乐陪护是重庆天杰后勤管理有限公司旗下品牌，提供医院住院陪护、上门护理、长护险服务与院内陪诊，配套「乐陪诊」「乐管家」子品牌。其服务团队近1400人，合作医院29家，以「一家医院一个服务团队」模式覆盖重庆主城及周边。",
+   "highlights": "医院陪护+居家养老护理平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2003",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%90%E9%99%AA%E6%8A%A4",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "乐陪护",
+   "desc_cn": "乐陪护是重庆天杰后勤管理有限公司旗下品牌，提供医院住院陪护、上门护理、长护险服务与院内陪诊，配套「乐陪诊」「乐管家」子品牌。其服务团队近1400人，合作医院29家，以「一家医院一个服务团队」模式覆盖重庆主城及周边。",
+   "business_model_cn": "B2C 居家/机构专业护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "陪诊"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐陪护】聚焦专业护理/居家护理，医院陪护+居家养老护理平台，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0075",
+   "name": "乐龄圈",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "兴趣社群",
+    "相亲"
+   ],
+   "description": "乐龄圈是湖北乐友科技推出的银发族兴趣社交App，提供书法/摄影作品展示、20+兴趣小组、同城活动与红娘相亲服务，并配适老化界面与健康专栏。它以安全社交与线下活动组织，服务全国280城的中老年用户。",
+   "highlights": "中老年社区社交平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%90%E9%BE%84%E5%9C%88",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "乐龄圈",
+   "desc_cn": "乐龄圈是湖北乐友科技推出的银发族兴趣社交App，提供书法/摄影作品展示、20+兴趣小组、同城活动与红娘相亲服务，并配适老化界面与健康专栏。它以安全社交与线下活动组织，服务全国280城的中老年用户。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "相亲"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐龄圈】聚焦文娱社交，中老年社区社交平台，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0076",
+   "name": "九如城",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "九如城是国内领先的康养服务品牌，运营连锁养老机构和社区养老服务中心，在长三角地区有深度布局。",
+   "highlights": "领先康养服务品牌，长三角深度布局",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2009",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B9%9D%E5%A6%82%E5%9F%8E",
+   "website_url": "http://www.joru.cn",
+   "business_model": "B2C/B2B 加盟连锁",
+   "name_cn": "九如城",
+   "desc_cn": "九如城是国内领先的康养服务品牌，运营连锁养老机构和社区养老服务中心，在长三角地区有深度布局。",
+   "business_model_cn": "B2C/B2B 加盟连锁",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【九如城】聚焦养老社区，领先康养服务品牌，长三角深度布局，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0077",
+   "name": "云芯信息",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "可穿戴监测",
+    "紧急呼叫"
+   ],
+   "description": "广州云芯信息（2010年成立）是康养科技与智能硬件企业，提供物联网SaaS平台及智能手表、定位胸牌、拐杖、NB-IoT紧急按钮、睡眠监测床垫等终端。其平台已关联智能硬件300+款、连接2500万+设备，主打穿戴定位与居家安防两类场景。",
+   "highlights": "适老化改造领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%91%E8%8A%AF%E4%BF%A1%E6%81%AF",
+   "website_url": "https://www.xcloudtech.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "云芯信息",
+   "desc_cn": "广州云芯信息（2010年成立）是康养科技与智能硬件企业，提供物联网SaaS平台及智能手表、定位胸牌、拐杖、NB-IoT紧急按钮、睡眠监测床垫等终端。其平台已关联智能硬件300+款、连接2500万+设备，主打穿戴定位与居家安防两类场景。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测",
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【云芯信息】聚焦居家护理/智能硬件/适老化改造，适老化改造领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0078",
+   "name": "云货优选",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "电商",
+    "零售"
+   ],
+   "description": "云货优选是社交电商平台，通过社交裂变模式销售品牌折扣商品，在中老年女性消费群体中有较高渗透率。",
+   "highlights": "社交电商平台，中老年女性消费高渗透",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%91%E8%B4%A7%E4%BC%98%E9%80%89",
+   "website_url": "https://www.weeget.cn",
+   "business_model": "B2C 电商平台",
+   "name_cn": "云货优选",
+   "desc_cn": "云货优选是社交电商平台，通过社交裂变模式销售品牌折扣商品，在中老年女性消费群体中有较高渗透率。",
+   "business_model_cn": "B2C 电商平台",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商",
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【云货优选】聚焦女性健康/数字化/文娱社交，社交电商平台，中老年女性消费高渗透，B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0079",
+   "name": "互邦",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "轮椅",
+    "助行器"
+   ],
+   "description": "互邦是康复辅具品牌，专注轮椅、助行器等康复辅助器具研发制造，服务老年和残障人群。",
+   "highlights": "康复辅具品牌，轮椅+助行器",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1990",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%92%E9%82%A6",
+   "website_url": "https://www.hubang.net.cn",
+   "business_model": "B2B 科技研发",
+   "name_cn": "互邦",
+   "desc_cn": "互邦是康复辅具品牌，专注轮椅、助行器等康复辅助器具研发制造，服务老年和残障人群。",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "轮椅",
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【互邦】聚焦辅具，康复辅具品牌，轮椅+助行器，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0080",
+   "name": "享佳健康",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "电商",
+    "保健品"
+   ],
+   "description": "享佳健康（2007年成立，南京）是国内老年大健康电商平台，以电话/直邮+会员电商模式销售保健品、健康产品，注册会员超2600万。近年其拓展银发AI陪伴机器人、康养游学与健康管理，并投资8亿元布局养老机器人制造基地。",
+   "highlights": "中老年健康管理服务平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%AB%E4%BD%B3%E5%81%A5%E5%BA%B7",
+   "website_url": "https://www.xjjk.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "享佳健康",
+   "desc_cn": "享佳健康（2007年成立，南京）是国内老年大健康电商平台，以电话/直邮+会员电商模式销售保健品、健康产品，注册会员超2600万。近年其拓展银发AI陪伴机器人、康养游学与健康管理，并投资8亿元布局养老机器人制造基地。",
+   "business_model_cn": "B2B 行业媒体/内容服务",
+   "tag_l1": [
+    "消费品",
+    "食品营养"
+   ],
+   "tag_l2": [
+    "电商",
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【享佳健康】聚焦保健品/健康管理/慢病管理，中老年健康管理服务平台，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

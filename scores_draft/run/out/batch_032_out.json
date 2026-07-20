@@ -1,0 +1,651 @@
+{
+  "batch": 32,
+  "enterprises": [
+    {
+      "serial": "#0121",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息较丰；其自研芯片+AI助听器把听力康复国产化有强差异化；有壁垒但可学其验配连锁模式。",
+        "rec_v2": "资料完整；亮点在“听力地球”400+门店上门验配；门槛中，创业者可抄其“产品+服务网络”闭环打法。",
+        "rec_v3": "声量低；差异化在芯片级自研而非组装；国内难抄技术，但可学其连锁验配与24h上门服务体验。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费+部分医保",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "AI助听器研发商，自研芯片与连锁验配",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自研云听SiP芯片与医疗级助听器",
+        "「听力地球」连锁联盟400+门店",
+        "24小时上门验配服务"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI助听器服务于老年人听力障碍，直接银发刚需"
+    },
+    {
+      "serial": "#0122",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其护理床与康复设备直供机构有实用差异化；制造模式国内易复制，可学其产品结构。",
+        "rec_v2": "资料一般；亮点在覆盖养老机构刚需设备线；同质化但路径清，创业者可抄其B端机构销售与定制能力。",
+        "rec_v3": "关注低；价值在养老机构设备供应链而非品牌；国内极易复制，可学其护理床的模块化与适老细节设计。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "护理床与康复训练设备制造商",
+      "founded": 2000,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "护理床、康复训练设备",
+        "养老机构常用设备",
+        "B2B+B2C"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "护理床等康复护理设备直供养老机构，服务银发"
+    },
+    {
+      "serial": "#0123",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其iCaaS软硬整合平台覆盖照护四场景有差异化；台资背景但模式可学其平台架构。",
+        "rec_v2": "资料有限；亮点在UWB定位+智能床垫等整合方案；门槛中，创业者可借鉴其“软硬一体”康养中台思路。",
+        "rec_v3": "声量低；差异化在四大场景一站式而非单品；国内可复制其集成逻辑，但难抄其面板供应链资源。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "智慧养老方案商，iCaaS软硬整合平台",
+      "founded": 2017,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "「爱可思康养综合平台」iCaaS",
+        "UWB定位、智能床垫、紧急呼救",
+        "台资，应用于多省市机构"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智慧养老方案含定位/床垫/呼救，直接服务机构养老"
+    },
+    {
+      "serial": "#0125",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 30.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息不足；其适老化家具聚焦机构与居家有场景差异化；制造模式极易复制，可学其产品设计。",
+        "rec_v2": "资料稀少；亮点在把适老安全做进家具细节；路径清，创业者可抄其“机构+居家”双渠道与防撞设计。",
+        "rec_v3": "关注低、披露少；价值在适老家居刚需而非技术；国内极易复制，可学其家具适老化的人因工程要点。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 30.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "适老化家具设计制造商，机构与居家",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "适老化家具设计制造",
+        "服务养老机构与居家",
+        "信息较少"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "适老化家具服务养老机构与居家适老，属银发产业链"
+    },
+    {
+      "serial": "#0126",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息较丰；其手/下肢康复机器人用于卒中老年康复有强差异化；门槛高但可学其软体外骨骼。",
+        "rec_v2": "资料完整；亮点在把康复机器人做到轻量化可穿戴；难复制但创业者可借鉴其“评估+训练”闭环产品。",
+        "rec_v3": "声量低；差异化在仿生软体而非传统器械；国内难抄技术，可学其医院+居家康复的租赁服务模型。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "康复机器人商，手部与下肢外骨骼",
+      "founded": 2017,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "手部康复机器人、下肢外骨骼",
+        "服务脑卒中与老年康复患者",
+        "B2B+B2C，技术门槛高"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复机器人服务脑卒中及老年康复患者，直接银发"
+    },
+    {
+      "serial": "#0127",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱但老字号信息极丰；其中药养生覆盖银发慢病调理有品牌差异化；模式可复制，可学其信任资产。",
+        "rec_v2": "资料充足；亮点在把中医药做成老年健康心智资产；同质化但路径清，创业者可抄其“老字号+养生”打法。",
+        "rec_v3": "声量一般但认知深；价值在350年品牌背书而非产品；国内易复制其养生线，难抄其文化信任壁垒。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "中华老字号中药与养生品牌",
+      "founded": 1669,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中华老字号，创立于1669年",
+        "中药调理、养生深厚布局",
+        "国民级品牌认知"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老字号中药养生覆盖老年慢病调理，直接服务银发健康"
+    },
+    {
+      "serial": "#0128",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息较丰；其S2B2C数字化适老新零售有模式差异化；可学其私域SaaS+供应链的孵化逻辑。",
+        "rec_v2": "资料完整；亮点在自研SCRM+CDP做银发私域；路径清，创业者可抄其“数据驱动选品”的适老电商模型。",
+        "rec_v3": "声量低；差异化在数字化而非单纯卖货；国内易复制其SaaS中台，但难抄其适老商品供应链积累。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 45.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "数字驱动适老品牌孵化与新零售平台",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "S2B2C数字化适老新零售",
+        "自研SaaS化SCRM+CDP系统",
+        "聚焦50-65岁活力老人"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "数字驱动适老化品牌孵化，聚焦活力老人消费品"
+    },
+    {
+      "serial": "#0130",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其康养产业咨询为养老项目赋能有B端差异化；模式可复制，可学其规划方法论。",
+        "rec_v2": "资料一般；亮点在把咨询能力嫁接到养老地产；路径清，创业者可抄其“咨询+运营”的一体化服务包。",
+        "rec_v3": "关注低；价值在产业认知而非直接服务老人；国内易复制其轻资产咨询，可学其康养项目落地框架。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构采购(咨询服务)",
+      "business_tags_role": "服务商",
+      "desc_cn": "康养产业咨询品牌，服务养老项目",
+      "founded": 2000,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "和君咨询旗下康养产业咨询",
+        "服务养老地产、康养小镇规划运营",
+        "B2B咨询"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康养产业咨询直接服务养老/康养项目，属银发产业链"
+    },
+    {
+      "serial": "#0131",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其“筛查-评估-训练”认知康复闭环有强差异化；可学其数字化早筛与干预路径。",
+        "rec_v2": "资料有限；亮点在把阿尔茨海默防治做成全流程系统；门槛中，创业者可借鉴其“软件+设备”交付模式。",
+        "rec_v3": "声量低；差异化在全病程管理而非单点工具；国内可复制其闭环逻辑，但难抄其临床数据与算法积累。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "认知康复数字医疗商，筛查到训练闭环",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "快速筛查-评估-康复训练闭环",
+        "互联网认知康复云系统",
+        "聚焦阿尔茨海默早筛与干预"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知康复数字医疗聚焦阿尔茨海默早筛干预，直接银发"
+    },
+    {
+      "serial": "#0132",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 4,
+      "research_value": 46.6,
+      "recommend": {
+        "rec_v1": "信号弱但国产DBS龙头信息丰；其脑起搏器治帕金森有硬核差异化；高壁垒难复制，可学其临床注册路径。",
+        "rec_v2": "资料充足；亮点在打破进口垄断做神经调控国产替代；门槛极高，创业者可借鉴其“医工结合”研发体系。",
+        "rec_v3": "声量低；价值在老年神经退行性疾病刚需；国内难抄其技术与牌照，可学其医院渠道与术者培训模式。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 46.6
+      },
+      "payor_model": "B端医疗机构采购+部分医保",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "国产脑起搏器(DBS)神经调控龙头",
+      "founded": 2008,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "脑起搏器(DBS)研发商",
+        "帕金森等神经退行性疾病国产领先",
+        "高监管壁垒"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "DBS治疗帕金森等老年神经退行性疾病，直接银发刚需"
+    },
+    {
+      "serial": "#0133",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 30.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息不足；其老年智能手表手环有常规差异化；硬件模式极易复制，可学其适老交互设计。",
+        "rec_v2": "资料稀少；亮点在把监测做成银发友好穿戴；同质化但路径清，创业者可抄其大字体与健康预警功能。",
+        "rec_v3": "关注低、披露少；价值在银发可穿戴刚需而非壁垒；国内极易复制，可学其用简化UI降低老人使用门槛。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 30.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "老年智能手表与健康手环品牌",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "老年智能手表、健康监测手环",
+        "B2C银发可穿戴",
+        "信息较少"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年智能手表手环服务银发健康监测，属银发硬件"
+    },
+    {
+      "serial": "#0134",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其引欧式“6+1”照护的认知症机构有差异化；模式可复制，可学其标准化照护体系。",
+        "rec_v2": "资料有限；亮点在医康养一体化与四位一体布局；路径清，创业者可抄其欧洲管理模式本土化打法。",
+        "rec_v3": "声量低；差异化在认知症精细护理而非普通机构；国内可复制其SOP，但难抄其护理人才与口碑积累。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+政府补贴",
+      "business_tags_role": "运营商",
+      "desc_cn": "连锁养老运营商，专注认知症精细照护",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "引进欧洲Armonea“6+1”照护体系",
+        "医康养一体化，认知症专长",
+        "成都多家分院，机构/社区/居家四位一体"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "连锁养老机构运营商，服务高龄失能及认知症长者"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0121",
+      "name": "博音",
+      "intro": "博音听力技术，AI智能助听器研发制造商，自研芯片，连锁验配网络覆盖全国。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "助听器"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能硬件",
+          "reason": "自研芯片的AI助听器属智能硬件，应补充标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0122",
+      "name": "厚福",
+      "intro": "康复护理设备品牌，专注护理床、康复训练设备等养老机构常用设备制造。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "护理床"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0123",
+      "name": "友达颐康",
+      "intro": "台湾友达光电持有的智慧养老方案商，核心为iCaaS软硬整合康养平台。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务",
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "养老软件",
+          "紧急呼叫"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0125",
+      "name": "台格",
+      "intro": "适老化家具品牌，专注养老机构和居家适老化家具设计制造。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0126",
+      "name": "司羿智能",
+      "intro": "康复机器人研发商，专注手部康复机器人、下肢外骨骼，服务脑卒中和老年康复。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0127",
+      "name": "同仁堂",
+      "intro": "中华老字号中药品牌，创立于1669年，在老年保健品、中药调理、养生领域布局深厚。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养生",
+          "reason": "中药调理养生布局明显，应补充养生标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0128",
+      "name": "和乐春晖",
+      "intro": "上海和乐春晖，数字驱动的适老化品牌孵化与新零售公司，S2B2C数字化平台。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "电商",
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0130",
+      "name": "和君康养",
+      "intro": "和君咨询旗下康养产业咨询品牌，为养老地产、康养小镇等提供规划咨询与运营管理。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老咨询"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0131",
+      "name": "和家健脑",
+      "intro": "和家健脑围绕脑科学研发认知康复产品，构建筛查-评估-训练完整闭环。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练",
+          "认知筛查"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "数字医疗",
+          "reason": "认知康复系统属数字医疗，应补充标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0132",
+      "name": "品驰",
+      "intro": "品驰医疗是脑起搏器(DBS)研发商，专注神经调控医疗器械，国产替代领先。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "神经调控",
+          "reason": "DBS属神经调控技术，应补充技术标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0133",
+      "name": "响午",
+      "intro": "老年智能可穿戴品牌，专注老年智能手表、健康监测手环等产品。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具",
+          "消费品"
+        ],
+        "tag_l2": [
+          "可穿戴监测",
+          "服装鞋帽"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0134",
+      "name": "哺恩",
+      "intro": "成都哺恩养老，连锁养老机构运营商，引进欧洲管理模式，专注认知症精细照护。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知症"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": []
+}

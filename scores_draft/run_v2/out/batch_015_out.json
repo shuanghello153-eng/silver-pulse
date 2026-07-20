@@ -1,0 +1,414 @@
+{
+ "batch": 15,
+ "enterprises": [
+  {
+   "serial": "#0669",
+   "name": "Clever Care Health Plan",
+   "signal_strength": 2.55,
+   "info_score": 5.0,
+   "diff_score": 6.0,
+   "copy_score": 4.0,
+   "research_value": 42.6,
+   "recommend": "信号强（2024年会员同比增112%、已破2.2万人，2026 AEP再增近五成），信息透明度高（官网逐笔披露针灸师与双语医师网络）。差异化在把Medicare Advantage做成东方养生+母语服务：覆盖针灸与800+草本OTC额度、7条方言客服线。国内惠民保可借鉴其'文化社群+弹性福利包'打法，但需解决医保目录与中医报销合规。",
+   "desc_cn": "面向南加州亚裔老人的Medicare Advantage健康计划，以文化适配为壁垒：覆盖针灸、拔罐、推拿等东方疗法，并提供800+种草本与OTC弹性额度。收入来自联邦Medicare按人头付费及会员保费。其银发价值在母语服务+东方养生提升65+移民老人的慢病管理依从性。",
+   "payor_model": "政府医保(Medicare Advantage)+个人自付",
+   "business_tags_role": "服务商",
+   "founded": "2020",
+   "stage": "C轮",
+   "highlights": [
+    "2024年会员同比增112%至超2.2万人，2026 AEP再增近五成",
+    "覆盖针灸/拔罐/推拿等东方疗法，提供800+种草本与OTC弹性额度",
+    "600+签约针灸师、2200+双语医师、7条方言客服线（韩/越/普通话/粤语）",
+    "资方含Google Ventures与Point32Health，累计融资约4100万美元"
+   ],
+   "events": [
+    {"date": "2023-03", "text": "完成4200万美元C轮融资"},
+    {"date": "2024-01", "text": "会员同比增112%突破2.2万人"},
+    {"date": "2026-02", "text": "2026 AEP新增近1.5万会员（同比近五成）"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "Medicare Advantage本质服务65+老人，且专做亚裔文化适配——老年医保基础设施。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0682",
+   "name": "Day Two",
+   "signal_strength": 2.55,
+   "info_score": 5.0,
+   "diff_score": 6.0,
+   "copy_score": 7.0,
+   "research_value": 48.7,
+   "recommend": "信号弱且下行（公司已于2024年8月停运、裁撤逾七成员工），信息披露有限。差异化在'肠道菌群测序+机器学习预测餐后血糖'的精准营养路径，曾实现A1C降1.4点。国内慢病管理可借鉴其'检测即服务+保险买单'的B2B订阅模式，但需警惕其因获客成本过高而崩塌的教训。",
+   "desc_cn": "基于肠道菌群测序（粪便样本）为糖尿病、前期糖尿病与肥胖人群提供个性化'食物处方'的精准营养公司，配套虚拟营养师随访。收入来自B2B——向雇主与健康险计划按订阅收费，在以色列则通过Clalit、Maccabi等医保组织分发。其临床价值在血糖控制，但客群覆盖全年龄段，并非专做老年。",
+   "payor_model": "商业保险支付+雇主福利",
+   "business_tags_role": "产品商",
+   "founded": "2015",
+   "stage": "C轮",
+   "highlights": [
+    "肠道菌群测序+AI预测餐后血糖，临床实现A1C降1.4点、控糖时长提升69%",
+    "从B2C转向B2B订阅，向雇主与健康险计划、以色列Clalit/Maccabi医保分销",
+    "2024年8月停运并裁撤逾七成员工（startupintros）",
+    "累计融资约8500万美元，资方含J&J、aMoon、Mayo Clinic"
+   ],
+   "events": [
+    {"date": "2021-05", "text": "完成3700万美元C轮融资"},
+    {"date": "2024-08", "text": "公司停运，裁撤逾七成员工"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "实质为代谢疾病精准营养，面向全年龄段，且公司已停运。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0685",
+   "name": "Dimer Health",
+   "signal_strength": 2.55,
+   "info_score": 5.0,
+   "diff_score": 5.0,
+   "copy_score": 5.0,
+   "research_value": 42.6,
+   "recommend": "信号中等（2024年完成A轮、已落地8个州并与28家机构合作），信息披露偏少。差异化在'医生主导虚拟护理+自研AiME风险预测'双引擎，宣称不必要再入院降67%。国内三甲与险企可借鉴其'出院后黄金14天'主动干预打法，但需打通院内HIS与居家随访的支付闭环。",
+   "desc_cn": "面向医院与支付方的AI过渡期护理服务商：在患者出院后48小时关键窗口提供7×24医生主导的虚拟随访，并以自研临床AI（AiME）实时识别再入院风险、在恶化前升级干预。收入来自B端机构采购与医保（Medicare/Medicaid/商保）报销。其价值在堵住老人占比最高的出院后失管缺口。",
+   "payor_model": "B端机构采购",
+   "business_tags_role": "服务商",
+   "founded": "2022",
+   "stage": "A轮",
+   "highlights": [
+    "自研临床AI（AiME）实时识别再入院风险，宣称不必要再入院最高降67%",
+    "7×24医生主导虚拟随访，覆盖出院后48小时关键窗口，已落地8个州",
+    "A轮由Team8与Bill Ackman的Table Management领投，累计融资近2000万美元",
+    "2025年9月DispatchHealth联合创始人Kevin Riddleberger加入顾问团"
+   ],
+   "events": [
+    {"date": "2024-09", "text": "完成1400万美元A轮融资（累计约1350万美元）"},
+    {"date": "2025-09", "text": "DispatchHealth联合创始人Kevin Riddleberger加入顾问团"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "再入院风险预测的B2B医疗工具，服务对象不限定老年（但老人占比高）。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0697",
+   "name": "Embodied",
+   "signal_strength": 2.55,
+   "info_score": 5.0,
+   "diff_score": 7.0,
+   "copy_score": 5.0,
+   "research_value": 46.6,
+   "recommend": "信号为负（2024年12月公司关停、依赖云端的Moxie机器人全部失效且不予退款），信息已无更新价值。其'社交情感AI+拟人硬件'打法本被视作陪伴机器人范本，但与银发无关。国内创业者可借鉴其失败教训：适老硬件必须考虑离线可用与数据继承，避免重蹈'断网即变砖'覆辙。",
+   "desc_cn": "曾推出面向5–10岁儿童的社会情感学习伴侣机器人Moxie，以云端对话AI+拟人化表情屏提供阅读、呼吸训练与情绪对话。收入来自799美元硬件销售及配套订阅。其产品定位为儿童陪伴而非老年护理，2024年12月因关键融资夭折而关停，云端服务终止致全部机器人失效。",
+   "payor_model": "个人自费（硬件销售+订阅）",
+   "business_tags_role": "产品商",
+   "founded": "2017",
+   "stage": "A轮",
+   "highlights": [
+    "Moxie定位5–10岁儿童社交情感学习，非老年陪伴",
+    "2024年12月因关键融资最后一刻撤资而关停，云端服务终止致设备变砖、不予退款",
+    "资方曾含Intel Capital、Toyota AI Ventures、Amazon Alexa Fund、Sony Innovation Fund",
+    "创始人Paolo Pirjanian，社区发起OpenMoxie开源抢救项目"
+   ],
+   "events": [
+    {"date": "2018-06", "text": "完成2200万美元A轮融资"},
+    {"date": "2024-12", "text": "公司关停，Moxie云端服务终止、设备失效"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "非银发",
+   "silver_reason": "Moxie是面向5–10岁儿童的社交情感陪伴机器人，非老年护理产品，且公司已关停。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0700",
+   "name": "Family First",
+   "signal_strength": 2.55,
+   "info_score": 6.0,
+   "diff_score": 5.0,
+   "copy_score": 7.0,
+   "research_value": 49.6,
+   "recommend": "信号中等（2023年完成A轮、累计约1100万美元），信息披露有限。差异化在把'持证护理员匹配+综合照护经理'做成一体化居家照护包，并打开雇主护理福利这一B2B2C场景。国内家政与长护险机构可借鉴其'兼容性匹配+护理经理'打法，但需解决护工资质认证与跨区域合规。",
+   "desc_cn": "面向长者家庭的居家照护机构，核心是用兼容性匹配系统把持证护理员（含Skilled Nursing、失智照护）与老人需求对接，并配综合照护经理统筹。收入来自家庭自费、长期护理险及与雇主/商业保险公司合作的护理福利报销。其银发价值在标准化的'护理员—老人'匹配与全流程管理。",
+   "payor_model": "商业保险+雇主福利",
+   "business_tags_role": "服务商",
+   "founded": "2018",
+   "stage": "A轮",
+   "highlights": [
+    "兼容性匹配系统对接持证护理员（Skilled Nursing、失智照护）与长者需求",
+    "配置综合照护经理统筹全流程，并切入雇主与保险公司护理福利",
+    "2023年完成A轮，累计融资约1100万美元"
+   ],
+   "events": [
+    {"date": "2023-07", "text": "完成1100万美元A轮融资"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "提供长者居家照护与照护管理，直接服务老年人。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0702",
+   "name": "Float",
+   "signal_strength": 2.55,
+   "info_score": 5.0,
+   "diff_score": 6.0,
+   "copy_score": 6.0,
+   "research_value": 46.6,
+   "recommend": "信号中等（2024年3月完成1000万美元A轮、累计1500万，已撮合4.5万+次居家访视），信息透明度中。差异化在'专科药房+AI排班护士'的全栈撮合，单次要价比住院低12倍。国内DTP药房与互联网医院可借鉴其把输液搬到居家的落地路径，但需啃下护士资质与医保居家输注报销。",
+   "desc_cn": "面向专科药房的全栈式居家输液平台：用AI排班把持证'超级护士'匹配到慢病（多发性硬化、自免、肿瘤生物制剂）患者的家中，承接原本需住院的输注治疗。收入来自药房按次支付的技术与护理服务费（加州约70–105美元/小时）。其银发关联在把老年慢病患者的高频输液从医院搬到居家。",
+   "payor_model": "B端机构采购（专科药房按次付费）",
+   "business_tags_role": "平台",
+   "founded": "2020",
+   "stage": "A轮",
+   "highlights": [
+    "AI排班把持证'超级护士'匹配到慢病患者家中，承接本需住院的输注",
+    "已撮合4.5万+次居家访视，合作100+专科药房（CVS、Walgreens、Optum等）",
+    "YC W22背景，单次要价比住院低约12倍",
+    "2024年3月完成1000万美元A轮（Canvas Ventures领投），累计1500万"
+   ],
+   "events": [
+    {"date": "2024-03", "text": "完成1000万美元A轮融资（Y Combinator 孵化）"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "护士与居家输液患者的按需匹配平台，面向广泛慢病患者而非专老。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0715",
+   "name": "Grayce",
+   "signal_strength": 2.55,
+   "info_score": 6.0,
+   "diff_score": 7.0,
+   "copy_score": 7.0,
+   "research_value": 53.7,
+   "recommend": "信号偏弱且下行（2025年11月起将全部客户转介至Cariloop，实质进入退出期），信息披露一般。差异化在'硕士级Care Partner+全周期家庭照护'的雇主福利打法，覆盖从育儿到失智。国内HR科技与保险可借鉴其'照护导航即员工福利'定位，但需先培育企业买单意愿与照护顾问供给。",
+   "desc_cn": "面向雇主的'家庭照护导航'福利平台：为职场员工（照护年迈父母或病患家人者）匹配硕士级Care Partner，提供从育儿、慢病到失智与临终的一对一规划。收入来自雇主按人头采购福利。其银发价值在帮职场子女系统化处理父母养老的复杂事务，降低员工因照护请假与流失。",
+   "payor_model": "雇主福利支付",
+   "business_tags_role": "平台",
+   "founded": 2020,
+   "stage": "A轮",
+   "highlights": [
+    "硕士级Care Partner提供从育儿、慢病到失智与临终的一对一家庭照护导航",
+    "以雇主福利形式按人头收费，定位'照护导航即员工福利'",
+    "2025年11月起将全部客户转介至Cariloop，进入业务退出/过渡期",
+    "2024年6月完成1040万美元A轮融资"
+   ],
+   "events": [
+    {"date": "2024-06", "text": "完成1040万美元A轮融资"},
+    {"date": "2025", "text": "客户逐步转介至 Cariloop"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "服务职场子女照护年迈父母，属银发家庭照护支持。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0716",
+   "name": "GroundGame Health/SameSky Health",
+   "signal_strength": 2.55,
+   "info_score": 7.0,
+   "diff_score": 7.0,
+   "copy_score": 4.0,
+   "research_value": 50.7,
+   "recommend": "信号中等（2024年与GroundGame合并获7wireVentures领投1700万美元，已服务15州230万+会员），信息透明度高（披露25+语言与多文化路径）。差异化在'文化适配外联'而非简单翻译，专攻健康公平与SDOH。国内惠民保与险企可借鉴其按族裔/语言分层运营打法，但需先积累细分人群的行为数据。",
+   "desc_cn": "面向Medicare Advantage、Medicaid及商保计划的文化适配会员互动平台：用CultureGuide把筛查、预防访视与SDOH导航，按种族、语言、文化定制推送。收入来自险企按会员规模采购。其银发关联在大量服务65+少数族裔与低收入老年会员，但客群不限于老人。",
+   "payor_model": "政府医保(Medicaid)+商业保险",
+   "business_tags_role": "服务商",
+   "founded": "2017",
+   "stage": "A轮",
+   "highlights": [
+    "CultureGuide按种族/语言/文化定制会员互动，覆盖筛查、预防访视与SDOH导航",
+    "已服务15州230万+会员、25+语言，HITRUST认证",
+    "2024年与GroundGame Health合并，获7wireVentures与Elevance领投1700万美元",
+    "客群含Medicare Advantage与Medicaid会员中的老年群体"
+   ],
+   "events": [
+    {"date": "2024", "text": "GroundGame Health 与 SameSky Health 合并，获7wireVentures领投1700万美元"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "SDOH/Medicare健康公平平台，服务全体弱势人群（含老人）非专属老年。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0727",
+   "name": "HealthSnap",
+   "signal_strength": 2.55,
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 6.0,
+   "research_value": 52.7,
+   "recommend": "信号强（2024年2月完成2500万美元B轮、累计4850万，客户已超150家医疗系统），信息透明度高（公开临床结局）。差异化在'设备免智能手机/WiFi+专属护士随访'的适老设计（自诩奶奶测试），并握3项RPM计费专利。国内慢病管理可借鉴其'按人头订阅+医保回流'闭环，但需打通院内EHR与居家数据。",
+   "desc_cn": "面向医疗机构的远程患者监测（RPM）与慢病管理（CCM）虚拟照护平台：把血压计等蜂窝设备直送患者家中，由专属护士每月随访、用AI预警升级照护。收入来自按患者每月订阅费（并为机构创造约300美元/人/月医保回流）。其银发价值在把高血压、心衰、糖尿病等老年高发慢病管理从诊所搬到居家。",
+   "payor_model": "B端机构采购+商业保险",
+   "business_tags_role": "平台",
+   "founded": "2015",
+   "stage": "B轮",
+   "highlights": [
+    "RPM+CCM平台，设备免智能手机/WiFi，专属护士每月随访、AI预警升级",
+    "客户超150家医疗系统（UnityPoint、Prisma、Tampa General、Montefiore）",
+    "为机构创造约300美元/患者/月的医保回流，握3项RPM计费专利",
+    "2024年2月完成2500万美元B轮（Sands Capital领投），累计4850万"
+   ],
+   "events": [
+    {"date": "2024-02", "text": "完成2500万美元B轮融资（累计4850万美元）"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "慢病管理与远程护理为核心银发场景，面向老年慢病高发人群。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0730",
+   "name": "hellocare.ai",
+   "signal_strength": 2.55,
+   "info_score": 6.0,
+   "diff_score": 7.0,
+   "copy_score": 6.0,
+   "research_value": 51.6,
+   "recommend": "信号强（2025年4月完成4700万美元增长轮、累计约5700万，已部署70+医疗系统），信息透明度高。差异化在'软硬一体+全自研技术栈'把病房变智能护理单元，AdventHealth已铺50+院区1.3万间病房。国内智慧病房可借鉴其'虚拟护理员+智能陪护'落地路径，但需跨过院内隐私与医护接受度门槛。",
+   "desc_cn": "面向医院系统的AI辅助虚拟护理平台：把病房电视装上摄像头与麦克风，提供虚拟护理、智能陪护（防跌倒值守）、ambient文书与远程查房，承接原本耗护士人力的高频任务。收入来自B端医疗机构采购与按床位/模块订阅。其银发价值在缓解老年住院与急性照护中的护士短缺、降低再入院。",
+   "payor_model": "B端机构采购",
+   "business_tags_role": "服务商",
+   "founded": "2017",
+   "stage": "成长期",
+   "highlights": [
+    "软硬一体全自研技术栈（硬件+软件+AI+EHR引擎），把病房变智能护理单元",
+    "已部署70+医疗系统，AdventHealth铺50+院区1.3万间病房",
+    "服务含AI虚拟护理、智能陪护值守、ambient文书、远程查房与院后居家",
+    "2025年4月完成4700万美元增长轮（HealthQuest Capital领投），资方含Mayo Clinic"
+   ],
+   "events": [
+    {"date": "2025-04", "text": "完成4700万美元增长轮融资（累计约5700万美元）"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "AI虚拟护理与智能陪护主要服务于老年住院/急性照护场景，缓解护士短缺。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0736",
+   "name": "Homeage",
+   "signal_strength": 2.55,
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 7.0,
+   "research_value": 54.7,
+   "recommend": "信号中等（2021年9月完成3000万美元C轮、累计4530万，区域外业务年增600%），信息透明度较高。差异化在'匹配引擎+人工定稿'把护工、护士、治疗师整合到同一居家照护网络（6000+专业人员）。国内上门照护平台可借鉴其'高接触+高-tech'双轨打法，但需适配本地护工资质与支付结构。",
+   "desc_cn": "东南亚科技驱动型居家照护平台：用匹配引擎把长者与认证护理员、护士、治疗师对接，并提供远程问诊与慢病服务，最终由人工团队定稿匹配。收入来自家庭自费与保险支付（按服务时长/项目）。其银发价值在把ADL协助、康复与临床护理整合到居家场景，覆盖新马澳三国。",
+   "payor_model": "个人自费+保险支付",
+   "business_tags_role": "平台",
+   "founded": 2016,
+   "stage": "C轮",
+   "highlights": [
+    "匹配引擎+人工定稿，整合护工、护士、治疗师到同一居家照护网络（6000+专业人员）",
+    "运营新加坡、马来西亚、澳大利亚，2021年区域外业务年增600%",
+    "资方含Sheares Healthcare（淡马锡旗下），累计融资超4500万美元",
+    "已交付超100万小时照护"
+   ],
+   "events": [
+    {"date": "2021-09", "text": "完成2980万美元C轮融资"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "科技驱动居家照护平台，提供长者ADL协助与康复，直接服务老人。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0756",
+   "name": "Kismet",
+   "signal_strength": 2.55,
+   "info_score": 6.0,
+   "diff_score": 7.0,
+   "copy_score": 7.0,
+   "research_value": 53.7,
+   "recommend": "信号强（成立一年即获3250万澳元种子轮、创澳洲纪录，用户破10万），信息透明度中。差异化在'NDIS资金+服务商市场+自动结算'的养老礼宾打法，48小时内生成认证供给短名单。国内长护险可借鉴其'资金—服务—支付'一体入口，但需先建立可信的服务商审核与反欺诈机制。",
+   "desc_cn": "澳洲AI养老与残障照护'礼宾'平台：把NDIS（国家残障保险）与养老计划的资金、3.5万+服务商按距离/评分/价格等30+维度排序，用户可一键预约并用自有额度自动结算。收入来自计划管理服务费与B端机构采购。其银发价值在把老年与残障人群的照护支付与预约流程一站式打通。",
+   "payor_model": "政府支付(NDIS/养老)+个人自付",
+   "business_tags_role": "平台",
+   "founded": 2023,
+   "stage": "种子期",
+   "highlights": [
+    "'NDIS资金+3.5万服务商市场+自动结算'的养老礼宾，48小时生成认证供给短名单",
+    "创澳洲最大种子轮纪录（3250万澳元），用户破10万、覆盖2万+ NDIS参与者",
+    "创始人Mark Woodland曾创办托育独角兽Xplor",
+    "正拓展国际市场"
+   ],
+   "events": [
+    {"date": "2024-10", "text": "完成1300万美元种子轮融资"},
+    {"date": "2025", "text": "澳大利亚主体获3250万澳元种子轮、用户超10万"}
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "澳洲养老支付导航平台，实质服务老年与残障照护体系。",
+   "数据来源": "联网精评"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#0669",
+   "name": "Clever Care Health Plan",
+   "intro": "面向南加州亚裔老年人的Medicare Advantage健康计划，以东方养生+母语服务形成文化适配壁垒。",
+   "old_tags": {"tag_l1": ["金融保险"], "tag_l2": ["保险"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "Medicare Advantage/健康险", "reason": "本质为Medicare Advantage健康计划，建议在二级标签补充险种定位"}
+   ]
+  },
+  {
+   "serial": "#0685",
+   "name": "Dimer Health",
+   "intro": "面向医院与支付方的AI出院后过渡期护理服务商，用医生主导虚拟随访+自研AI降低再入院。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["慢病管理"], "business_tags": {"customer": "B2B", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "change", "tag": "过渡期护理/出院后管理", "reason": "核心是出院后48小时再入院预防，并非广义慢病管理"},
+    {"action": "change", "tag_l1": "医疗IT/医院赋能", "reason": "B2B赋能医院与支付方，原'养老服务'标签偏窄"}
+   ]
+  },
+  {
+   "serial": "#0697",
+   "name": "Embodied",
+   "intro": "曾推出面向5–10岁儿童的社交情感学习伴侣机器人Moxie，2024年12月公司已关停。",
+   "old_tags": {"tag_l1": ["康复辅具"], "tag_l2": ["机器人"], "business_tags": {"customer": "B2B+B2C", "role": "产品商", "channel": []}},
+   "suggested": [
+    {"action": "del", "tag": "康复辅具", "reason": "产品为儿童陪伴机器人，非老年康复辅具，原标签误归类"},
+    {"action": "change", "tag": "消费级陪伴机器人", "reason": "Moxie定位儿童社交情感学习，应更正为消费级/儿童机器人"}
+   ]
+  },
+  {
+   "serial": "#0702",
+   "name": "Float",
+   "intro": "面向专科药房的全栈式居家输液平台，用AI排班把持证护士匹配到慢病患者家中。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["护士派遣"], "business_tags": {"customer": "B2B", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "change", "tag_l1": "居家医疗/护理服务", "reason": "客群为广泛慢病患者、由药房采购，原'养老服务'标签偏窄"},
+    {"action": "change", "tag": "居家输液/输液护理", "reason": "核心场景是居家专科药物输注，而非广义护士派遣"}
+   ]
+  },
+  {
+   "serial": "#0716",
+   "name": "GroundGame Health/SameSky Health",
+   "intro": "面向健康险计划的文化适配会员互动平台，用CultureGuide做健康公平与SDOH导航。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["SDOH", "照护支持"], "business_tags": {"customer": "B2B", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "change", "tag_l1": "医疗IT/健康公平", "reason": "B2B服务险企做会员互动与SDOH，原'养老服务'标签偏窄"},
+    {"action": "del", "tag": "照护支持", "reason": "平台做健康公平外联而非直接照护支持"}
+   ]
+  },
+  {
+   "serial": "#0756",
+   "name": "Kismet",
+   "intro": "澳洲AI养老与残障照护礼宾平台，整合NDIS资金、服务商市场与自动结算。",
+   "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["养老信息平台"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "支付导航/福利管理", "reason": "核心是把NDIS/养老资金与服务预约+支付打通，建议补充支付导航标签"}
+   ]
+  }
+ ],
+ "nonsilver": [
+  {"serial": "#0682", "name": "Day Two", "verdict": "泛医疗擦边", "reason": "实质为代谢疾病精准营养，面向全年龄段，且公司已于2024年8月停运。"},
+  {"serial": "#0685", "name": "Dimer Health", "verdict": "泛医疗擦边", "reason": "再入院风险预测的B2B医疗工具，服务对象不限定老年（但老人占比高）。"},
+  {"serial": "#0697", "name": "Embodied", "verdict": "非银发", "reason": "Moxie是面向5–10岁儿童的社交情感陪伴机器人，非老年护理产品，且公司已关停。"},
+  {"serial": "#0702", "name": "Float", "verdict": "泛医疗擦边", "reason": "护士与居家输液患者的按需匹配平台，面向广泛慢病患者而非专老。"},
+  {"serial": "#0716", "name": "GroundGame Health/SameSky Health", "verdict": "泛医疗擦边", "reason": "SDOH/Medicare健康公平平台，服务全体弱势人群（含老人）非专属老年。"}
+ ]
+}

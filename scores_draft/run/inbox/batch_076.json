@@ -1,0 +1,498 @@
+{
+ "batch": 76,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0800",
+   "name": "NexStride",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "助行器"
+   ],
+   "description": "小型设备连接助行器，灯光和声音信号帮助行走",
+   "highlights": "灯光和声音信号帮助行走",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "Capital Factory, Mentors Fund (+3)",
+   "founded": "2018",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NexStride",
+   "website_url": "https://deorodevices.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "小型设备连接助行器，灯光和声音信号帮助行走",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【NexStride】聚焦医疗器械/智能硬件/行业媒体，灯光和声音信号帮助行走，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0808",
+   "name": "Nudj Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "将生活方式健康融入患者护理的虚拟科技服务",
+   "highlights": "将生活方式健康融入患者护理的虚拟科技服务",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "300万美元",
+    "display": "300万美元 (2024年9月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nudj%20Health",
+   "website_url": "https://www.nudjhealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "将生活方式健康融入患者护理的虚拟科技服务",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Nudj Health】聚焦产业资本/健康管理/居家护理，将生活方式健康融入患者护理的虚拟科技服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0809",
+   "name": "Omena",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "更年期"
+   ],
+   "description": "Omena 是一家法国女性更年期健康 App（FemTech），提供症状追踪、个性化建议与远程健康指导，以订阅制面向用户收费，曾获约 98.8 万欧元种子轮融资。亮点是把更年期这一被忽视阶段做成数字化全程管理产品。",
+   "highlights": "女性健康和保健数字健康平台",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "80万美元",
+    "round": "种子轮",
+    "display": "种子轮 80万美元 (2024年1月)"
+   },
+   "funding_total": null,
+   "investors": "Alexandre Lebrun, Marie Outtier (+3)",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Omena",
+   "website_url": "https://www.omena.com",
+   "business_model": "B2C 健康养生服务",
+   "desc_cn": "Omena 是一家法国女性更年期健康 App（FemTech），提供症状追踪、个性化建议与远程健康指导，以订阅制面向用户收费，曾获约 98.8 万欧元种子轮融资。亮点是把更年期这一被忽视阶段做成数字化全程管理产品。",
+   "business_model_cn": "B2B/B2C 女性健康医疗/服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Omena】聚焦产业资本/健康管理/女性健康，女性健康和保健数字健康平台，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0811",
+   "name": "OneroRx",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "用药管理",
+    "药品配送"
+   ],
+   "description": "专业和远程药房服务，服务老年生活设施",
+   "highlights": "服务老年生活设施",
+   "funding_latest": {
+    "date": "2024年1月",
+    "display": "(2024年1月)"
+   },
+   "funding_total": null,
+   "investors": "Cyprium (PE, 2024)",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=OneroRx",
+   "website_url": "https://www.onerorx.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "专业和远程药房服务，服务老年生活设施",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "用药管理",
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【OneroRx】聚焦产业资本/保健品/行业媒体，服务老年生活设施，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0812",
+   "name": "OneStep",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "利用智能手机传感器分析人的步态",
+   "highlights": "利用智能手机传感器分析人的步态",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "3000万美元+",
+    "display": "3000万美元+ (2024年10月)"
+   },
+   "funding_total": "$48M",
+   "investors": "Vintage Investment Partners, Team8",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=OneStep",
+   "website_url": "https://www.onestep.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "利用智能手机传感器分析人的步态",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【OneStep】聚焦产业资本/健康监测/智能硬件，利用智能手机传感器分析人的步态，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0813",
+   "name": "OrCam MyEye 3 Pro",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "视觉障碍",
+   "tags": [
+    "眼镜"
+   ],
+   "description": "智能放大镜，读出文本、识别面部和产品",
+   "highlights": "读出文本、识别面部和产品",
+   "funding_latest": null,
+   "funding_total": "$86.4M",
+   "investors": "Intel Capital (+ others)",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=OrCam%20MyEye%203%20Pro",
+   "website_url": "https://www.orcam.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "智能放大镜，读出文本、识别面部和产品",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【OrCam MyEye 3 Pro】聚焦眼镜/辅具，读出文本、识别面部和产品，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0814",
+   "name": "Osher Lifelong Learning Institutes (OLLI)",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "教育"
+   ],
+   "description": "非营利性老年终身学习，50岁以上非学分课程",
+   "highlights": "50岁以上非学分课程",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2001",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Osher%20Lifelong%20Learning%20Institutes%20%28OLLI%29",
+   "website_url": "https://www.osherfoundation.org/olli.html",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "非营利性老年终身学习，50岁以上非学分课程",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Osher Lifelong Learning Institutes (OLLI)】聚焦教育/行业媒体，50岁以上非学分课程，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0815",
+   "name": "Oshi Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "Oshi Health operates a nationwide virtual gastroenterology clinic where GI specialists, dietitians and behavioral-health clinicians treat digestive conditions via telehealth, contracting with health plans and employers per member.",
+   "highlights": "虚拟方式提供消化系统健康全面护理",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "6000万美元",
+    "display": "6000万美元 (2024年10月)"
+   },
+   "funding_total": "$60M",
+   "investors": "ACG, AGA, Schreiber Capital",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Oshi%20Health",
+   "website_url": "https://www.oshihealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Oshi Health 运营覆盖全美的虚拟胃肠专科诊所，由胃肠科医生、营养师与心理师通过远程问诊诊治消化疾病，向健康险与雇主按会员收费。",
+   "business_model_cn": "B2B按会员收费",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Oshi Health】聚焦产业资本/健康管理/居家护理，虚拟方式提供消化系统健康全面护理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0816",
+   "name": "Pallie AI",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "文娱"
+   ],
+   "description": "支持健康和福祉的人工智能伴侣产品",
+   "highlights": "支持健康和福祉的人工智能伴侣产品",
+   "funding_latest": {
+    "amount": "200万美元",
+    "display": "200万美元"
+   },
+   "funding_total": "$2M",
+   "investors": "True Ventures (lead), Palta",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Pallie%20AI",
+   "website_url": "https://www.pallie.ai",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "支持健康和福祉的人工智能伴侣产品",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Pallie AI】聚焦产业资本/文娱社交，支持健康和福祉的人工智能伴侣产品，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0819",
+   "name": "Pearl Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "Pearl Health enables primary-care groups to take on Medicare risk by aggregating them into ACOs, supplying population-health analytics, prior-authorization automation and shared-savings administration for a cut of savings.",
+   "highlights": "为更年期女性提供全面健康管理服务",
+   "funding_latest": {
+    "date": "2023年6月",
+    "display": "(2023年6月)"
+   },
+   "funding_total": "$100M+",
+   "investors": "a16z (lead), Viking Global Investors",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Pearl%20Health",
+   "website_url": "https://www.pearlhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Pearl Health 帮助基层医疗机构组建责任医疗组织承接联邦医保按价值付费，供应人群健康分析与行政自动化工具，并分享结余收益。",
+   "business_model_cn": "结余分成/SaaS",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Pearl Health】聚焦产业资本/健康管理/女性健康，为更年期女性提供全面健康管理服务，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0820",
+   "name": "PeerLyfe",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "面向55岁以上老人和居住社区的社交网络",
+   "highlights": "面向55岁以上老人和居住社区的社交网络",
+   "funding_latest": {
+    "date": "2022年",
+    "amount": "100万美元",
+    "display": "100万美元 (2022年)"
+   },
+   "funding_total": "$531K",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PeerLyfe",
+   "website_url": "https://www.peerlyfe.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "面向55岁以上老人和居住社区的社交网络",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【PeerLyfe】聚焦产业资本/文娱社交，面向55岁以上老人和居住社区的社交网络，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0822",
+   "name": "Perry",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "Perry is a telehealth practice for menopause, pairing women with clinicians who prescribe hormone therapy and symptom-management plans and ship medications to the home by mail.",
+   "highlights": "专家资源+社区",
+   "funding_latest": {
+    "date": "2023年",
+    "display": "(2023年)"
+   },
+   "funding_total": null,
+   "investors": "Lerer Hippeau, Max Ventures",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Perry",
+   "website_url": "https://www.perry.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "Perry 是更年期远程诊疗诊所，由医生为女性开具激素疗法与症状管理方案，并通过邮寄配送药品。",
+   "business_model_cn": "诊疗+药品邮寄",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Perry】聚焦产业资本/女性健康/行业媒体，专家资源+社区，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

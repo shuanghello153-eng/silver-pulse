@@ -1,0 +1,504 @@
+{
+ "batch": 79,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0859",
+   "name": "Sollis Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "24/7按需医疗会员制，面对面+远程",
+   "highlights": "面对面+远程",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "3300万美元",
+    "display": "3300万美元 (2024年12月)"
+   },
+   "funding_total": "$33M",
+   "investors": "",
+   "founded": "2016",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sollis%20Health",
+   "website_url": "https://www.sollishealth.com",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "24/7按需医疗会员制，面对面+远程",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sollis Health】聚焦产业资本/文娱社交/远程医疗，面对面+远程，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0860",
+   "name": "SomaReality",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "认知筛查",
+    "认知训练"
+   ],
+   "description": "基于眼动追踪的数字生物标记，实时监测认知过程",
+   "highlights": "实时监测认知过程",
+   "funding_latest": null,
+   "funding_total": "€3M",
+   "investors": "Catalyst Romania (lead), MT-Lab, RDY Ventures",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SomaReality",
+   "website_url": "https://somareality.com",
+   "business_model": "B2C 健康养生服务",
+   "desc_cn": "基于眼动追踪的数字生物标记，实时监测认知过程",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知筛查",
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【SomaReality】聚焦健康管理/认知症，实时监测认知过程，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0863",
+   "name": "Sonova (索诺瓦)",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "助听器"
+   ],
+   "description": "全球市场占有率第一的听力保健公司",
+   "highlights": "全球市场占有率第一的听力保健公司",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sonova%20%28%E7%B4%A2%E8%AF%BA%E7%93%A6%29",
+   "website_url": "https://www.sonova.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "Sonova (索诺瓦)",
+   "desc_cn": "全球市场占有率第一的听力保健公司",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sonova (索诺瓦)】聚焦保健品/助听器/行业媒体，全球市场占有率第一的听力保健公司，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0865",
+   "name": "SpinSci",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "AI驱动改善患者互动和简化工作流程",
+   "highlights": "AI驱动改善患者互动和简化工作流程",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "5300万美元",
+    "display": "5300万美元 (2024年12月)"
+   },
+   "funding_total": "$53M",
+   "investors": "Aldrich Capital Partners",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SpinSci",
+   "website_url": "https://www.spinsci.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI驱动改善患者互动和简化工作流程",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【SpinSci】聚焦产业资本/健康管理/文娱社交，AI驱动改善患者互动和简化工作流程，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0868",
+   "name": "Steadiwear",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "帕金森手套，减少手部颤抖",
+   "highlights": "减少手部颤抖",
+   "funding_latest": {
+    "amount": "76万美元",
+    "display": "76万美元"
+   },
+   "funding_total": "$1.1M",
+   "investors": "",
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Steadiwear",
+   "website_url": "https://www.steadiwear.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "帕金森手套，减少手部颤抖",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Steadiwear】聚焦产业资本/消费品/行业媒体，减少手部颤抖，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0870",
+   "name": "Stitch",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "帮助50岁以上的人找到陪伴和建立社交联系",
+   "highlights": "帮助50岁以上的人找到陪伴和建立社交联系",
+   "funding_latest": null,
+   "funding_total": "£6.7M",
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Stitch",
+   "website_url": "https://www.stitch.net",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "帮助50岁以上的人找到陪伴和建立社交联系",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Stitch】聚焦文娱社交/行业媒体，帮助50岁以上的人找到陪伴和建立社交联系，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0871",
+   "name": "Stripes Beauty",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "更年期",
+    "美妆护肤"
+   ],
+   "description": "Naomi Watts创立，针对更年期需求，被收购",
+   "highlights": "针对更年期需求",
+   "funding_latest": {
+    "date": "2024年6月",
+    "round": "收购",
+    "display": "收购 (2024年6月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Stripes%20Beauty",
+   "website_url": "https://www.stripesbeauty.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "Naomi Watts创立，针对更年期需求，被收购",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期",
+    "美妆护肤"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Stripes Beauty】聚焦产业资本/保健品/女性健康，针对更年期需求，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0874",
+   "name": "Swift Medical",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "数字伤口护理管理，AI技术",
+   "highlights": "AI技术",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "800万美元",
+    "display": "800万美元 (2024年1月)"
+   },
+   "funding_total": "$43M+",
+   "investors": "Virgo Investment Group (lead)",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Swift%20Medical",
+   "website_url": "https://www.swiftmedical.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "数字伤口护理管理，AI技术",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Swift Medical】聚焦专业护理/产业资本/数字化，AI技术，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0877",
+   "name": "Teami",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "聘请大学生上门拜访原地养老的人",
+   "highlights": "聘请大学生上门拜访原地养老的人",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Teami",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "聘请大学生上门拜访原地养老的人",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Teami】聚焦健康管理/行业媒体，聘请大学生上门拜访原地养老的人，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0878",
+   "name": "Tennr",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "资讯门户"
+   ],
+   "description": "医疗保健领域传真通信现代化",
+   "highlights": "医疗保健领域传真通信现代化",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "1700万美元",
+    "display": "1700万美元 (2024年4月)"
+   },
+   "funding_total": "$159.25M",
+   "investors": [
+    "IVP",
+    "GV (Google Ventures)",
+    "ICONIQ",
+    "Andreessen Horowitz",
+    "Lightspeed",
+    "Foundation Capital"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tennr",
+   "website_url": "https://www.tennr.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "医疗保健领域传真通信现代化",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "资讯门户"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Tennr】聚焦产业资本/保健品/健康管理，医疗保健领域传真通信现代化，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0879",
+   "name": "Thinkie",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "认知症产品",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+   "highlights": "使用3个月大脑年龄减少3.7岁",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2023",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Thinkie",
+   "website_url": "https://thinkiesystem.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "经科学验证的大脑训练传感器，使用3个月大脑年龄减少3.7岁",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Thinkie】聚焦认知症，使用3个月大脑年龄减少3.7岁，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0880",
+   "name": "Thoughtful AI",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "Thoughtful AI 是一家为医疗收入周期管理（RCM）提供 AI Agent 自动化的公司，用智能体处理理赔、核销与申诉等流程，按 SaaS 向医院与 billing 机构收费。亮点是用可替代重复性人工作业的 AI 员工降低运营成本、加快回款。",
+   "highlights": "AI代理解决医疗保健提供商收入周期挑战",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "2000万美元",
+    "display": "2000万美元 (2024年7月)"
+   },
+   "funding_total": "$20M",
+   "investors": [
+    "New Mountain Capital",
+    "Drive Capital"
+   ],
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Thoughtful%20AI",
+   "website_url": "https://www.thoughtful.ai",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Thoughtful AI 是一家为医疗收入周期管理（RCM）提供 AI Agent 自动化的公司，用智能体处理理赔、核销与申诉等流程，按 SaaS 向医院与 billing 机构收费。亮点是用可替代重复性人工作业的 AI 员工降低运营成本、加快回款。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Thoughtful AI】聚焦产业资本/文娱社交，AI代理解决医疗保健提供商收入周期挑战，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

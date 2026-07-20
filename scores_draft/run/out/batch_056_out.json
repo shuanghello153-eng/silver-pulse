@@ -1,0 +1,657 @@
+{
+  "batch": 56,
+  "enterprises": [
+    {
+      "serial": "#0427",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱家庭加社区双渠道信息清；跌倒报警差异在场景，国内可抄其C端加批量采购组合。",
+        "rec_v2": "披露偏少热度低；其家用报警器打法清晰，创业者能学其社区适老改造打包销售路径方法。",
+        "rec_v3": "信号不强资料有限；它把跌倒预警做成刚需硬件差异稳，国内宜抄其'零售+政府采买'双引擎。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "家用跌倒报警器厂商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "家用跌倒报警器",
+        "C端+社区批量",
+        "适老安全硬件"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用跌倒报警直接守护老年居家安全"
+    },
+    {
+      "serial": "#0429",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号低但融资与收购信息丰；无感睡眠垫双场景差异在算法，国内可学其机构加居家渠道。",
+        "rec_v2": "公开充足热度中；其被罗莱战略收购差异稳，创业者能抄其'硬件+数据'进养老床位路径。",
+        "rec_v3": "信号不强披露透明；它把睡眠监测做成无感设备差异清晰，国内宜学其B端机构合作而非单打C端。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "无感睡眠监测垫硬件商",
+      "founded": 2011,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "获罗莱生活战略收购"
+        }
+      ],
+      "highlights": [
+        "无感睡眠监测垫",
+        "居家+机构双场景",
+        "罗莱战略收购"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "睡眠监测垫直接服务老年及机构睡眠健康管理"
+    },
+    {
+      "serial": "#0430",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 37.7,
+      "recommend": {
+        "rec_v1": "信号弱A轮有披露；睡眠呼吸暂停居家监测差异在适老，国内可抄其慢病居家筛查轻打法。",
+        "rec_v2": "披露偏少热度低；其鼾症监测切老年慢病差异稳，创业者能学其'设备+报告'轻医疗路径。",
+        "rec_v3": "信号不强资料有限；它把睡眠呼吸做成居家监测差异清晰，国内宜抄其医院合作转居家场景模式。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 37.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "睡眠呼吸暂停居家监测商",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "鼾症/睡眠呼吸暂停监测",
+        "适配老年慢病",
+        "居家监测场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "睡眠呼吸暂停监测直接适配老年慢病人群"
+    },
+    {
+      "serial": "#0431",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但40亿投入信息丰；保险对接CCRC差异在支付闭环，国内抄需保险牌照与重资本门槛。",
+        "rec_v2": "公开充足热度中；其'保险+养老社区'模式差异稳，创业者只能学其会员权益设计难复制体量。",
+        "rec_v3": "信号不强披露全；它用保险锁定高端养老差异强但重资产，国内宜学其'保单对接入住'运营思路。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费+商业保险支付",
+      "business_tags_role": "服务商",
+      "desc_cn": "上海保险系高端CCRC社区",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中国太平投资约40亿",
+        "上海浦东旗舰",
+        "自建二级康复医院"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "保险系CCRC社区直接提供全周期医养服务"
+    },
+    {
+      "serial": "#0432",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但合资背景信息实；美式CCRC加保险对接差异在门槛，国内抄需金融牌照与强资本。",
+        "rec_v2": "公开充足热度中；其'保费换入住权'差异稳，创业者能学其高客单权益包装而非重资产复制。",
+        "rec_v3": "信号不强资料够用；它把保险与养老绑定差异强但门槛高，国内宜借其思路做轻量会员制社区。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费+商业保险支付",
+      "business_tags_role": "平台",
+      "desc_cn": "保险对接美式CCRC养老社区",
+      "founded": 2012,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "复星保德信合资",
+        "美式CCRC模式",
+        "保费对接入住权益"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "保险对接CCRC直接服务高净值养老人群"
+    },
+    {
+      "serial": "#0434",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 44.7,
+      "recommend": {
+        "rec_v1": "信号低但30城与自研平台信息实；长护险加医院陪护差异在中台，国内可抄其护理员调度系统。",
+        "rec_v2": "公开中等热度中；其'护养+陪护'双线差异稳，创业者能学其数智化派单与护理员供应链打法。",
+        "rec_v3": "信号不强资料够用；它把医院陪护做成标准平台差异强，国内宜学其'系统+人力'轻资产扩张路径。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 44.7
+      },
+      "payor_model": "政府长护险+B端机构采购+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "智慧养老与医院陪护平台",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "30城服务网络",
+        "约2000一线护理员",
+        "自研数智化陪护平台"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "长护险护理与医院陪护直接服务失能及病患老人"
+    },
+    {
+      "serial": "#0435",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱信息少；失能老人上门助浴差异在隐私照护，国内可复制其标准化上门服务流程模型。",
+        "rec_v2": "披露稀少热度低；其身体清洁护理打法清晰，创业者能学其'评估+上门'轻资产助浴站模型。",
+        "rec_v3": "信号不强资料不足；它切入失能洗澡刚需差异明确，国内宜抄其社区合作转介获客低门槛路径。",
+        "info_score": 3,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+政府长护险",
+      "business_tags_role": "服务商",
+      "desc_cn": "失能老人上门助浴护理商",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "失能老人上门洗澡",
+        "身体清洁护理",
+        "居家助浴服务"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "上门助浴直接服务失能老人清洁护理刚需"
+    },
+    {
+      "serial": "#0437",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱但年代与产品信息清；医用轮椅差异在渠道，国内可学其医院养老院批量供货打法。",
+        "rec_v2": "披露偏少热度低；其手动电动轮椅打法清晰，制造商能抄其B端机构直销而非纯消费零售。",
+        "rec_v3": "信号不强资料有限；它深耕轮椅制造差异稳，国内宜学其'机构集采+售后'渠道而非低价内卷。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "医用轮椅研发制造厂商",
+      "founded": 1990,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "手动/电动轮椅",
+        "医院养老院批量供货",
+        "民营无融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医用轮椅直接服务老年及残障行动人群"
+    },
+    {
+      "serial": "#0438",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 30.7,
+      "recommend": {
+        "rec_v1": "信号弱信息少；轮椅助行器县域批发差异在下沉，国内创业者可抄其渠道下沉分销打法路径。",
+        "rec_v2": "披露稀少热度低；其县域批发打法清晰，创业者能学其低线市场代理网络布局轻扩张路径。",
+        "rec_v3": "信号不强资料不足；它做辅具下沉渠道差异明确，国内宜抄其'县代+终端'轻资产流通模型。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 30.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "轮椅助行器县域批发商",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "手动轮椅/助行器",
+        "县域渠道批发",
+        "下沉市场流通"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "轮椅助行器流通直接服务县域老年辅具需求"
+    },
+    {
+      "serial": "#0439",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但小巨人与千院信息丰；高端护理床差异在资质，国内可学其医养机构直销打法路径。",
+        "rec_v2": "公开充足热度中；其护理床龙头地位差异稳，制造商能抄其'医院+养老院'双轨渠道路径。",
+        "rec_v3": "信号不强披露全；它把护理床做成国产替代差异强，国内宜学其专精特新加出海双引擎策略。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "医用护理床行业龙头厂商",
+      "founded": 1999,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "国家专精特新小巨人",
+        "国内1800余家医院使用",
+        "产品远销70余国"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "护理床制造直接支撑医院养老院与家庭照护"
+    },
+    {
+      "serial": "#0440",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱但台资背景信息清；假肢定制加康复差异在服务，国内可学其'评估—定制—训练'链。",
+        "rec_v2": "披露偏少热度低；其上下肢假肢打法清晰，创业者能抄其医疗级定制加康复训练组合路径。",
+        "rec_v3": "信号不强资料有限；它把假肢做成全周期服务差异稳，国内宜学其残联/医院转介获客模式。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "假肢定制与康复训练机构",
+      "founded": 1993,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "下肢/上肢假肢定制",
+        "康复训练配套",
+        "台资大陆运营"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "假肢定制与康复直接服务老年及残障人群"
+    },
+    {
+      "serial": "#0442",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱但年限与产品信息实；步态上肢康复器械差异在品类，国内可学其B端医院渠道打法。",
+        "rec_v2": "公开中等热度低；其康复设备打法清晰，制造商能抄其'器械+训练方案'打包进机构路径。",
+        "rec_v3": "信号不强资料够用；它做康复运动器械差异稳，国内宜学其医院加残联双渠道而非消费化。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "康复训练器械制造商",
+      "founded": 2000,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "下肢步态康复",
+        "上肢康复训练",
+        "B2B医疗器械"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复训练器械直接服务老年及术后康复人群"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0427",
+      "name": "点可科技",
+      "intro": "研发销售家用跌倒报警器的银发安全硬件厂商。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0429",
+      "name": "享睡Sleepace",
+      "intro": "家用无感睡眠监测垫硬件商，已获罗莱生活战略收购。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0430",
+      "name": "大耳马医学",
+      "intro": "专注睡眠呼吸暂停居家监测、适配老年慢病人群的企业。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "睡眠监测",
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0431",
+      "name": "太平梧桐人家",
+      "intro": "中国太平保险集团斥资打造的高端CCRC持续照料养老社区。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "保险养老社区",
+          "reason": "保险系养老社区，应补'保险养老社区'标签以区分普通养老机构"
+        }
+      ]
+    },
+    {
+      "serial": "#0432",
+      "name": "复星保德信颐养",
+      "intro": "复星保德信旗下对接保险产品的美式CCRC高端养老社区。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "保险养老社区",
+          "reason": "保险对接养老社区模式，应补'保险养老社区'标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0434",
+      "name": "天一智慧",
+      "intro": "覆盖居家社区养老、长护险护理与医院陪护的智慧养老平台。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品",
+          "金融保险"
+        ],
+        "tag_l2": [
+          "智能硬件",
+          "保险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "del",
+          "tag": "金融保险",
+          "reason": "自身非保险机构，仅承接长护险服务，'金融保险'标签不准确"
+        },
+        {
+          "action": "add",
+          "tag": "长护险",
+          "reason": "主营长护险上门护理与医院陪护，应补'长护险'标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0435",
+      "name": "戴恩医疗",
+      "intro": "为失能老人提供上门洗澡与身体清洁护理的服务商。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0437",
+      "name": "互邦医疗",
+      "intro": "面向医院与养老院批量供应手动及电动轮椅的厂商。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0438",
+      "name": "振邦医疗",
+      "intro": "专注轮椅与助行器县域渠道批发的银发辅具流通商。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0439",
+      "name": "厚福医疗",
+      "intro": "中国医疗护理床行业龙头，专注医用与养老照护设备制造。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "护理床"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "护理设备制造",
+          "reason": "为护理床制造龙头，应补'护理设备制造'标签体现制造属性"
+        }
+      ]
+    },
+    {
+      "serial": "#0440",
+      "name": "德林假肢",
+      "intro": "提供上下肢假肢定制与康复训练的银发康复器械机构。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0442",
+      "name": "一康医疗",
+      "intro": "研发生产下肢步态与上肢康复训练器械的制造商。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": []
+}

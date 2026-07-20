@@ -1,0 +1,574 @@
+{
+  "batch": 5,
+  "enterprises": [
+    {
+      "serial": "#1159",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "高信号美国上市运营商，财报与收购披露极透明；自营运营加自持地产的双层结构不算颠覆却扎实，国内区域养老集团可抄其并购整合节奏。",
+        "rec_v2": "上市公司信号稳、公开信息厚，2026年德州连下数单显扩张力；模式差异化弱在常规、强在执行，国内整合期连锁养老最该对标其小机构拼网络路径。",
+        "rec_v3": "作为头部信号样本价值在执行而非新奇：用高频收购把区域小院拼成网络、信息充分可深挖；国内创业者能直接学其规模化打法与地产运营分离风控。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)+个人自付；B端机构运营结算",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国上市护理院与居家照护运营商，自营加并购扩张",
+      "founded": 1999,
+      "stage": "已上市",
+      "events": [
+        {"date": "1999", "text": "纳斯达克上市(ENSG)"},
+        {"date": "2026-04-30", "text": "一次性收购德州17家护理院及养老社区，由captive REIT Standard Bearer持产"},
+        {"date": "2026-07-02", "text": "收购德州El Paso两家护理院(250床)，全美组合达398处医疗运营"}
+      ],
+      "highlights": [
+        "2026年德州密集收购(2月/4月/7月三波)，组合扩至398处医疗运营",
+        "captive REIT Standard Bearer自持物业，运营与地产分离又自控",
+        "2026Q1创纪录入住率并上调全年指引"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "主营护理院与居家照护，直接服务失能及老年人群"
+    },
+    {
+      "serial": "#1160",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 3,
+      "copy_score": 5,
+      "research_value": 56.6,
+      "recommend": {
+        "rec_v1": "信号稳的上市REIT，年报与投资者材料信息齐；triple-net净租赁模式稳健不反共识，国内医养地产可借鉴其出钱不运营、靠租约收租的轻资产定位。",
+        "rec_v2": "高信号低差异的纯收租样本，公开数据够用；价值在对照——它与Welltower、Ventas等同属银发地产资本阵营，合看能搞清不同杠杆与租户结构差异。",
+        "rec_v3": "上市公司信号可靠、信息中等，模式四平八稳缺惊喜；可复制点在净租赁资本方角色，国内险资或康养地产想做包租公时，它是干净对照模板。",
+        "info_score": 7,
+        "diff_score": 3,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 56.6
+      },
+      "payor_model": "B端运营商净租赁付租(终端源于政府医保+个人自付)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国上市医疗及养老地产REIT，净租赁收租",
+      "founded": 1991,
+      "stage": "已上市",
+      "events": [
+        {"date": "1991", "text": "纽交所上市(NHI)"}
+      ],
+      "highlights": [
+        "专注triple-net净租赁，自身不出运营、只做资本方",
+        "组合以senior housing与医疗物业为主，租约久期长"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以养老社区与医疗地产为底层资产，服务银发客群"
+    },
+    {
+      "serial": "#1161",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "高信号上市REIT，2025年报披露363处物业极详尽；正把组合从护理院转向自理养老、单一租户占比压到8%以下，国内医养REIT可抄其分散化与风控。",
+        "rec_v2": "上市公司信号强、信息丰，三年股东回报跑赢医疗REIT指数；差异化在主动换Operator加重新配养老的修正打法，国内资本可学其组合再平衡。",
+        "rec_v3": "作为信号样本透明度高，分散化组合是亮点；它把高风险护理院占比压到五成以下、改押senior housing，这套降集中度操作对国内康养地产融资很有借鉴。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "B端运营商租赁付租(终端源于政府医保+个人自付)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国上市医疗REIT，护理院加养老社区组合",
+      "founded": 2010,
+      "stage": "已上市",
+      "events": [
+        {"date": "2010", "text": "从Sun Healthcare分拆并在纳斯达克上市(SBRA)"},
+        {"date": "2025", "text": "投入约4.5亿美元收购养老社区，为疫情前最大年，组合转向senior housing(目标占比40%)"},
+        {"date": "2025-04-01", "text": "将21处managed senior housing从Holiday by Atria转交Discovery、Inspirit、Sunshine运营"}
+      ],
+      "highlights": [
+        "2025年投入约4.5亿美元收购养老社区，为疫情前最大年",
+        "组合393项投资、单一租户敞口压至7.8%以下",
+        "三年股东回报跑赢医疗REIT指数(93% vs 82%)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "组合含大量护理院与养老社区，直接服务老年照护"
+    },
+    {
+      "serial": "#1162",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 3,
+      "copy_score": 5,
+      "research_value": 56.6,
+      "recommend": {
+        "rec_v1": "信号稳的老牌上市REIT，组合与租户结构公开可查；模式常规缺反共识，但作为长寿化资产组合管理样本，国内养老地产资本可对照其多元配置思路。",
+        "rec_v2": "高信号低惊喜的常规养老REIT，信息中等够用；差异弱在故事性、强在久期管理，对国内想做持有型康养地产又怕锁死的玩家是稳妥参考。",
+        "rec_v3": "上市公司信号可靠、公开材料齐，打法四平八稳；可复制点是REITs持有加净租赁的轻资产路径，国内险资布局养老地产时它能当基础对照。",
+        "info_score": 7,
+        "diff_score": 3,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 56.6
+      },
+      "payor_model": "B端运营商净租赁付租(终端源于政府医保+个人自付)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国上市养老及护理地产REIT，组合多元",
+      "founded": 1992,
+      "stage": "已上市",
+      "events": [
+        {"date": "1992", "text": "纽交所上市(LTC)"}
+      ],
+      "highlights": [
+        "1992年成立的老牌养老REIT，资产组合跨多州",
+        "以净租赁持有养老/护理地产、租户结构分散"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "持有养老/护理地产并服务老年住户"
+    },
+    {
+      "serial": "#1163",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 58.6,
+      "recommend": {
+        "rec_v1": "高信号上市REIT，2022年并入HTA后成医疗办公楼龙头；毗邻医院资产逻辑对国内医养结合地产有角度，但主业是医生楼而非养老，银发成色偏擦边。",
+        "rec_v2": "上市公司信号稳、信息披露充分，模式聚焦医疗办公楼租赁；差异化在贴着医院拿地的选址逻辑，可复制性一般，且客群是全龄患者而非老人，银发关联弱。",
+        "rec_v3": "作为信号样本透明度高，其MOB邻近医院打法有参考；但资产本质是医生集团办公楼、不服务特定老龄客群，放进银发库更像泛医疗擦边，建议谨慎归类。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 58.6
+      },
+      "payor_model": "B端租户(医生集团/医院)付租",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国上市医疗办公楼REIT，毗邻医院选址",
+      "founded": 1992,
+      "stage": "已上市",
+      "events": [
+        {"date": "1992", "text": "纽交所上市(HR)"},
+        {"date": "2022", "text": "与Healthcare Trust of America合并，成美国医疗办公楼(MOB)REIT龙头"}
+      ],
+      "highlights": [
+        "2022年与HTA合并，成美国医疗办公楼(MOB)REIT龙头",
+        "资产逻辑为毗邻医院选址，租给医生集团与医院"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "主业为医疗办公楼(MOB)租赁，客群是全龄患者而非特定老人"
+    },
+    {
+      "serial": "#1165",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 69.7,
+      "recommend": {
+        "rec_v1": "高信号上市HME龙头，2024营收32.6亿美元、付费结构全公开；设备加服务上门加AI调度加按人头包干组合拳差异明显，国内家用康复器械租赁几乎空白可抄。",
+        "rec_v2": "上市公司信号强、信息厚，睡眠呼吸主业稳增长；差异在把硬件租赁做成带服务的连续生意并接capitated合约，国内最该学它从卖设备到管慢病的跃迁。",
+        "rec_v3": "作为头部信号样本透明度高，亮点是自营上门网络与payer mix(商保占六成)；可复制性很强——国内居家养老亟需这类最后一公里到家服务，模式可本土化。",
+        "info_score": 8,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 6.55,
+        "research_value": 69.7
+      },
+      "payor_model": "商保(占62.7%)+政府医保(26.3%)+个人自费(11%)",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国上市家用医疗设备与服务上门龙头",
+      "founded": 2013,
+      "stage": "已上市",
+      "events": [
+        {"date": "2013", "text": "成立，后于纳斯达克上市(AHCO)"},
+        {"date": "2025-02-25", "text": "发布2024年报：营收32.6亿美元、净利润9040万美元，年内降债1.7亿美元"}
+      ],
+      "highlights": [
+        "2024营收32.6亿美元、净利润9040万，睡眠健康占约41%",
+        "付费结构商保62.7%/政府26.3%/个人11%",
+        "推AI自调度与按人头(capitated)合约，2024降债1.7亿"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用医疗设备与服务主要服务慢病及老年居家人群"
+    },
+    {
+      "serial": "#1166",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 8,
+      "research_value": 73.7,
+      "recommend": {
+        "rec_v1": "高信号上市REIT，最大租户破产与自救被全球报道；它是租户集中加高杠杆暴雷的反共识活教材，国内康养地产融资最该抄的是怎么不踩它踩过的坑。",
+        "rec_v2": "上市公司信号强、信息极丰，租金从暴雷谷底爬回的路径清晰；差异在它把REIT风险具象化，可复制的是教训而非模式——国内做持有型医养务必重视租户分散。",
+        "rec_v3": "作为信号样本透明度高，故事性强在从最大医院房东到债务重组；它对国内极具借鉴价值，警示重资产加预收费加单一租户的组合有多危险，避坑意义大于模仿。",
+        "info_score": 8,
+        "diff_score": 7,
+        "copy_score": 8,
+        "signal_strength": 6.55,
+        "research_value": 73.7
+      },
+      "payor_model": "B端运营商租赁付租(终端源于政府医保+个人自付)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国上市医院及医疗地产REIT，陷租户破产",
+      "founded": 2003,
+      "stage": "已上市",
+      "events": [
+        {"date": "2003", "text": "纽交所上市(MPW)"},
+        {"date": "2024-05-06", "text": "最大租户Steward Health Care申请破产保护，MPT提供7500万美元DIP融资"},
+        {"date": "2025-02", "text": "发行25亿美元7年期担保债，展期债务、补充流动性"}
+      ],
+      "highlights": [
+        "曾为全球最大医院房东之一，因Steward/Prospect破产重创",
+        "股价五年跌约77%，2025发25亿美元担保债展期自救",
+        "新租户(如HSA)租金从2025Q1的400万升至Q4超2300万"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "组合含护理院与养老社区等银发地产，且与养老REIT同侪并列"
+    },
+    {
+      "serial": "#1167",
+      "signal_strength": 6.55,
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 4,
+      "research_value": 51.6,
+      "recommend": {
+        "rec_v1": "信号稳的上市混合REIT，医疗办公楼加养老社区组合公开可查；模式常规缺惊喜，作为多业态配置对照样本够用，国内做综合康养地产可略参考其组合管理。",
+        "rec_v2": "高信号低差异的混合地产REIT，信息中等；亮点在跨资产组合平衡，但故事性弱、可抄性一般，更适合当美国医养地产图谱里的一块拼图而非单独深研。",
+        "rec_v3": "上市公司信号可靠、材料齐，打法是医疗与养老物业混装；可复制性有限——国内若想学它，重点看用办公现金流贴补养老的跨周期配置思路。"
+      },
+      "payor_model": "B端运营商租赁付租(终端源于政府医保+个人自付)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国上市医疗加养老混合REIT",
+      "founded": 1998,
+      "stage": "已上市",
+      "events": [
+        {"date": "1998", "text": "纳斯达克上市(DHC)"}
+      ],
+      "highlights": [
+        "同时持有医疗办公楼与养老社区的混合REIT",
+        "资产跨美国多州，组合管理偏多元平衡"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "持有养老社区等银发地产资产"
+    },
+    {
+      "serial": "#1169",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 3,
+      "copy_score": 7,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "高信号泛欧上市龙头，年报极详；规模化多国运营不反共识，但政府报销加个人补足的定价结构对国内重资产养老定价很有借鉴。",
+        "rec_v2": "上市公司信号强、信息厚，原Korian重生为使命驱动型企业；差异弱在模式、强在跨国资管，国内泰康、九如城可抄其规模化加本地化双轮而非单点复制。",
+        "rec_v3": "作为欧洲信号样本透明度高，亮点是横跨六国的照护网络；可复制性高在付费结构——它证明重资产养老能靠公费托底加自付升级跑通，国内定价可对标。",
+        "info_score": 8,
+        "diff_score": 3,
+        "copy_score": 7,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "政府社会医保/地方财政报销+居民个人自付补足",
+      "business_tags_role": "运营商",
+      "desc_cn": "欧洲上市养老照护运营商，原Korian",
+      "founded": 2001,
+      "stage": "已上市",
+      "events": [
+        {"date": "2001", "text": "Korian成立"},
+        {"date": "2023-06", "text": "更名Clariane并获使命驱动型公司地位"},
+        {"date": "2026-06", "text": "拟发行3.33亿欧元永续混合票据再融资"}
+      ],
+      "highlights": [
+        "2024营收52.8亿欧元，服务88.6万人、员工7万、6国1215处设施",
+        "2023更名并获使命驱动型地位，2025营收约53.1亿欧元",
+        "2026年6月拟发3.33亿欧元混合票据再融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "欧洲大型养老照护运营商，直接服务依赖照护人群"
+    },
+    {
+      "serial": "#1170",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 62.6,
+      "recommend": {
+        "rec_v1": "高信号欧洲上市巨头，造假丑闻到债务重组全过程被深挖；它是罕见的暴雷重生反共识样本，国内连锁养老最该抄的是避开重资产加预收费加治理失效爆雷路径。",
+        "rec_v2": "上市公司信号强、信息丰，从Orpea更名Emeis的去杠杆故事有张力；差异在它把行业教训具象化，可复制的是治理与合规红线，而非其重资产扩张本身。",
+        "rec_v3": "作为信号样本透明度高，价值在规模越大越要防治理塌方；它对国内创业者的借鉴是警示性的——比起成功学，这种崩塌案例更能帮人提前排雷。"
+      },
+      "payor_model": "政府社会医保报销+居民个人自付补足",
+      "business_tags_role": "运营商",
+      "desc_cn": "欧洲上市养老运营商，原Orpea重组中",
+      "founded": 1989,
+      "stage": "已上市",
+      "events": [
+        {"date": "1989", "text": "Orpea成立"},
+        {"date": "2023", "text": "财务造假与照护质量丑闻曝光，后更名Emeis推进重组"},
+        {"date": "2024", "text": "推进债务重组与资产出售、去杠杆"}
+      ],
+      "highlights": [
+        "原Orpea，曾陷财务造假与照护丑闻的欧洲养老巨头",
+        "重组去杠杆中，作为暴雷重生反共识样本",
+        "2023营收同比增11%后转入资产出售与债务修复"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "欧洲养老运营商，主营养老院与退休社区"
+    },
+    {
+      "serial": "#1171",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 65.7,
+      "recommend": {
+        "rec_v1": "高信号纳斯达克抗衰药企，主力管线因肝毒性止损致股价腰斩；叙事融资—临床破灭的反共识落差，是给国内长寿赛道最好的避坑教材。",
+        "rec_v2": "上市公司信号强、信息极丰，azelaprag折戟后转攻NLRP3抑制剂；差异在把抗衰老讲成资本故事又亲手证伪，可抄性低但叙事框架对国内极有启发。",
+        "rec_v3": "作为信号样本透明度高，故事性强在高预期—破灭；它难被国内直接复制(深生物药加强监管)，但教会人分辨抗衰叙事里临床兑现与PPT融资的距离。",
+        "info_score": 8,
+        "diff_score": 7,
+        "copy_score": 4,
+        "signal_strength": 6.55,
+        "research_value": 65.7
+      },
+      "payor_model": "B端机构(药企/研发合作)+远期上市后为医保/个人(尚未商业化)",
+      "business_tags_role": "产品商",
+      "desc_cn": "美国上市长寿科技药企，抗衰管线受挫",
+      "founded": 2017,
+      "stage": "已上市",
+      "events": [
+        {"date": "2024-09", "text": "纳斯达克IPO(发行价18美元)"},
+        {"date": "2024-12", "text": "azelaprag二期STRIDES试验因肝酶升高中止"},
+        {"date": "2025-01", "text": "全面终止azelaprag，股价较发行价跌约76%，转向NLRP3抑制剂BGE-102"}
+      ],
+      "highlights": [
+        "azelaprag因肝毒性止损，股价较发行价跌约76%",
+        "与诺华合作：2000万美元首付、里程碑最高5.3亿美元",
+        "转向脑渗透NLRP3抑制剂BGE-102，一期进行中"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "长寿科技/抗衰老药物主攻age-related disease，属银发健康延长寿命赛道"
+    },
+    {
+      "serial": "#1173",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 62.6,
+      "recommend": {
+        "rec_v1": "高信号纳斯达克抗衰先锋，单针改善糖网视力登NEJM Evidence；清除衰老细胞治眼病机制新颖，但公司裁员求生，国内难抄模式却可学其靶点思路。",
+        "rec_v2": "上市公司信号强、信息厚，BEHOLD试验单针疗效维持48周；差异在senolytics这一抗衰细分赛道，可复制性低(深药研发加资本重)，但靶点选择对国内有指引。",
+        "rec_v3": "作为信号样本透明度高，亮点是把衰老细胞清除做成眼科疗法；它对国内价值在科学侧——证明衰老机制可成药，模式难移植，但给长寿科技创业者指了条路。"
+      },
+      "payor_model": "B端机构(合作/授权)；未商业化，远期医保/个人",
+      "business_tags_role": "产品商",
+      "desc_cn": "美国上市抗衰生物药企，主攻衰老细胞清除",
+      "founded": 2011,
+      "stage": "已上市",
+      "events": [
+        {"date": "2011", "text": "成立"},
+        {"date": "2018-05", "text": "纳斯达克上市(UBX)"},
+        {"date": "2025-05", "text": "UBX1325二期ASPIRE 36周数据非劣于aflibercept；随后裁员并寻求出售/合作等战略替代"}
+      ],
+      "highlights": [
+        "UBX1325单针改善糖网视力并维持48周，登NEJM Evidence",
+        "senolytic(清除衰老细胞)治眼病机制新颖，但2025裁员求生",
+        "管线转寻求出售/合作等战略替代，官网已近乎停摆"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "senolytics抗衰生物药主攻年龄相关眼病，属长寿科技银发赛道"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#1159",
+      "name": "The Ensign Group",
+      "intro": "美国西部领先的专业护理院与居家照护运营商，自营+并购扩张，由captive REIT持产。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["安宁疗护"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "安宁疗护→护理院运营", "reason": "Ensign主营skilled nursing与senior living，安宁疗护占比极小，标签过窄"},
+        {"action": "add", "tag": "养老社区", "reason": "组合含大量退休/养老社区，应补充该维度"}
+      ]
+    },
+    {
+      "serial": "#1160",
+      "name": "National Health Investors",
+      "intro": "专注养老社区与医疗地产的REIT，以triple-net净租赁向运营商提供资本。",
+      "old_tags": {
+        "tag_l1": ["投资机构"],
+        "tag_l2": ["养老REIT"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "养老社区", "reason": "NHI底层资产以senior housing为主，可补'养老社区'标签"}
+      ]
+    },
+    {
+      "serial": "#1161",
+      "name": "Sabra Health Care REIT",
+      "intro": "专注skilled nursing与养老社区的医疗REIT，正把组合转向managed senior housing。",
+      "old_tags": {
+        "tag_l1": ["投资机构"],
+        "tag_l2": ["养老REIT"],
+        "business_tags": {"customer": "未标注", "role": "平台", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "养老社区", "reason": "正把组合转向managed senior housing(目标40%)，应补'养老社区'"}
+      ]
+    },
+    {
+      "serial": "#1162",
+      "name": "LTC Properties",
+      "intro": "1992年成立的老牌养老/护理地产REIT，以净租赁持有并分散租户。",
+      "old_tags": {
+        "tag_l1": ["投资机构"],
+        "tag_l2": ["养老REIT"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1163",
+      "name": "Healthcare Realty Trust",
+      "intro": "专注医疗办公楼(MOB)的REIT，2022年与HTA合并，资产毗邻医院、租给医生集团与医院。",
+      "old_tags": {
+        "tag_l1": ["投资机构"],
+        "tag_l2": ["养老REIT"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "养老REIT→医疗办公楼REIT", "reason": "HR主业是medical office building(MOB)租赁，几乎不持养老资产，'养老REIT'标签误判，与泛医疗擦边判定一致"}
+      ]
+    },
+    {
+      "serial": "#1165",
+      "name": "AdaptHealth",
+      "intro": "美国领先家用医疗设备(HME)与服务商，提供呼吸机、氧气、睡眠、糖尿病等设备及上门服务。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["助行器", "医疗器械"],
+        "business_tags": {"customer": "B2B+B2C", "role": "制造商(硬件/设备)", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "助行器→家用医疗设备(HME)", "reason": "AdaptHealth主营呼吸机/氧气/睡眠/糖尿病等家用医疗设备，助行器仅极小部分"},
+        {"action": "change", "tag": "康复辅具→家用医疗", "reason": "tag_l1'康复辅具'偏窄，其业务是整体家用医疗(HME)与服务"}
+      ]
+    },
+    {
+      "serial": "#1166",
+      "name": "Medical Properties Trust",
+      "intro": "专注医院地产的REIT，曾为全球最大医院房东之一，因租户Steward破产陷入动荡。",
+      "old_tags": {
+        "tag_l1": ["投资机构"],
+        "tag_l2": ["养老REIT"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "养老REIT→医院REIT", "reason": "MPT底层以acute hospital地产为主，'养老REIT'标签不准确"}
+      ]
+    },
+    {
+      "serial": "#1167",
+      "name": "Diversified Healthcare Trust",
+      "intro": "拥有医疗办公楼与养老社区的混合REIT，资产跨美国多州。",
+      "old_tags": {
+        "tag_l1": ["投资机构"],
+        "tag_l2": ["养老REIT"],
+        "business_tags": {"customer": "未标注", "role": "平台", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "医疗办公楼", "reason": "DHC同时持有医疗办公楼与养老社区，应补'医疗办公楼'维度"}
+      ]
+    },
+    {
+      "serial": "#1169",
+      "name": "Clariane",
+      "intro": "欧洲领先的依赖人群照护设施私营运营商(原Korian)，泛欧多国布局。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["养老机构"],
+        "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "养老社区", "reason": "Clariane含大量退休/养老社区，标签可补'养老社区'"}
+      ]
+    },
+    {
+      "serial": "#1170",
+      "name": "Emeis (Orpea)",
+      "intro": "欧洲养老院巨头(原Orpea)，曾陷财务造假与照护质量丑闻，正重组去杠杆。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["养老机构"],
+        "business_tags": {"customer": "未标注", "role": "制造商(消费品)", "channel": []}
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1171",
+      "name": "BioAge Labs",
+      "intro": "纳斯达克抗衰生物制药公司，原主攻azelaprag减重，折戟后转向NLRP3抑制剂。",
+      "old_tags": {
+        "tag_l1": ["消费品"],
+        "tag_l2": ["长寿抗衰"],
+        "business_tags": {"customer": "B2B", "role": "投资机构", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "消费品→生物医药", "reason": "BioAge是纳斯达克抗衰生物制药公司，tag_l1'消费品'明显误标"}
+      ]
+    },
+    {
+      "serial": "#1173",
+      "name": "Unity Biotechnology",
+      "intro": "抗衰生物制药公司，主攻senolytics(清除衰老细胞)治疗年龄相关眼病。",
+      "old_tags": {
+        "tag_l1": ["消费品"],
+        "tag_l2": ["长寿抗衰"],
+        "business_tags": {"customer": "B2B", "role": "投资机构", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "消费品→生物医药", "reason": "Unity是抗衰生物制药公司，tag_l1'消费品'明显误标"}
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#1163",
+      "name": "Healthcare Realty Trust",
+      "verdict": "泛医疗擦边",
+      "reason": "主业为医疗办公楼(MOB)租赁，租给医生集团与医院，客群是全龄患者而非特定老年人群，银发关联弱"
+    }
+  ]
+}

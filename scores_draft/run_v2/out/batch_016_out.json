@@ -1,0 +1,484 @@
+{
+  "batch": 16,
+  "enterprises": [
+    {
+      "serial": "#0766",
+      "name": "Livara Health",
+      "name_cn": "Livara Health",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 5.0,
+      "research_value": 42.6,
+      "recommend": "信号中等、信息较实（公开过2万MA患者三年理赔研究：手术降54%、影像降49%、照护成本降45%），差异化在“端到端多学科+分包干”的肌骨价值医疗打法——既做虚拟PT也做线下护理导航，壁垒是17年12万患者临床积累；国内骨科/康复机构可学其用理赔数据前置识别高风险患者、以节省分成替代按次收费，但需打通医保数据接口与线下服务网络。",
+      "desc_cn": "面向风险承担型医疗机构与支付方（含Medicare Advantage、传统Medicare及商业VBC）的肌骨疾病价值医疗管理商。以“分包干”承接合作方MSK总费用，提供护理计划、虚拟与线下物理治疗、护理导航及正念/睡眠/营养干预的端到端多学科方案，用理赔数据识别高风险患者、避免不必要手术。",
+      "payor_model": "政府医保(Medicare Advantage/传统Medicare)+商业保险+B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2020,
+      "stage": "B轮",
+      "highlights": [
+        "价值医疗肌骨(MSK)管理，以“分包干”承接合作方MSK总费用",
+        "端到端多学科：护理计划+虚拟/线下PT+护理导航+心理社会干预",
+        "17年累计服务12万+患者，2024年近400万可服务会员(含Medicare)",
+        "2万MA患者三年理赔研究：手术降54%、影像降49%、照护成本降45%"
+      ],
+      "events": [
+        { "date": "2024-05", "text": "完成1500万美元B轮融资，由A1 Health Ventures领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "价值医疗肌骨管理直接服务Medicare Advantage与传统Medicare(ACO REACH)老年会员，2024年近400万可服务会员含大量老年脊柱/关节患者。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0775",
+      "name": "Mealogic",
+      "name_cn": "Mealogic",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 49.6,
+      "recommend": "信号中等、信息较实（公开40+机构客户、5000+带营养标签餐品库与25+科学膳食方案），差异化在“白标履约中台”定位——不碰生产、用本地厨师网络做合规餐，合作方零基建即可上线；国内健康管理机构可学其把营养干预封装成可白标的交付模块、对接保险与临床项目，但需解决餐品标准化与本地厨师质控。",
+      "desc_cn": "面向医疗与健康品牌的白标餐饮即药物履约平台，合作方在自有品牌下向用户配送符合特定营养标准的预制餐（低钠、植物基、GLP-1配套）。平台负责电商、生产调度、配送与支付全链路，依托5000+带营养标签餐品库与本地厨师网络组合出餐；客户以B端机构采购为主，部分经Medicaid结算。",
+      "payor_model": "B端机构采购(医疗/健康品牌)+政府医保(Medicaid)",
+      "business_tags_role": "平台",
+      "founded": 2022,
+      "stage": "成长期",
+      "highlights": [
+        "白标(Food as Medicine)餐饮履约中台，合作方零基建上线品牌餐",
+        "5000+带营养标签餐品库、25+科学膳食方案、200+周新菜",
+        "40+机构客户，覆盖代谢/GLP-1/低FODMAP等场景",
+        "不自营生产，整合全美本地厨师网络做合规餐"
+      ],
+      "events": [
+        { "date": "2025-06", "text": "完成1600万美元后期VC融资，由S2G Investments领投，Unilever Ventures等跟投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "白标Food as Medicine餐饮履约平台，服务广泛慢病人群而非专老；未以老年为核心定位。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0777",
+      "name": "Medisafe",
+      "name_cn": "Medisafe",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 4.0,
+      "copy_score": 7.0,
+      "research_value": 47.6,
+      "recommend": "信号较强（公开1000万+下载、40亿+剂量管理与700万+注册用户，且有多项RCT验证依从性提升）、信息较实（披露6716人研究中提醒持久性高170%、抑郁患者用药延长4个月以上），差异化在JITI行为干预引擎与药企数据合作闭环，壁垒是10年用药行为数据库；国内创业者可抄其“提醒+家属协同+用药报告”轻量结构，结合慢病管理App做适老大字号与方言播报，难点在药企数据变现闭环。",
+      "desc_cn": "面向慢病患者与照护者的用药管理App，提供个性化服药提醒、相互作用预警、家属协同监护与用药报告。底层以AI（JITI引擎）分析用药行为，向药企与支付方输出真实世界依从性数据。收入来自C端订阅（2026年起美国外转付费）及B端药企/支付方授权与数据合作。覆盖全龄慢病，老年多病共服人群为高频使用者。",
+      "payor_model": "个人自费(C端订阅)+B端机构采购(药企/支付方)",
+      "business_tags_role": "产品商",
+      "founded": 2012,
+      "stage": "C轮",
+      "highlights": [
+        "用药管理App，1000万+下载、40亿+剂量管理、700万+注册用户",
+        "JITI即时干预引擎+药企数据合作闭环",
+        "多项RCT验证依从性提升(6716人研究提醒持久性高170%)",
+        "2026年起美国外市场转为订阅制(4.99美元/月)"
+      ],
+      "events": [
+        { "date": "2021-02", "text": "完成3000万美元C轮融资，由Sanofi Ventures领投" },
+        { "date": "2026-01", "text": "美国以外市场转为付费订阅(4.99美元/月)" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用用药管理App面向全年龄段慢病患者，老年仅为高频子集而非专属。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0788",
+      "name": "Modify Health",
+      "name_cn": "Modify Health",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 44.6,
+      "recommend": "信号较强（已披露与六大支付方网络内覆盖，服务T2D、肾病、IBS等慢病）、信息较实（公开慢病品类与支付方名单，但单位经济与会员数未详），差异化在“餐食+远程营养师+远程患者监测”三位一体，壁垒是Low-FODMAP等临床膳食配方与保险直付网络；国内慢病管理公司可学其把营养干预做成保险直付的标准化套餐，但需先打通医保对医学营养治疗的报销目录。",
+      "desc_cn": "提供医学定制餐与远程营养师辅导的“食物即药物”平台，面向糖尿病、肾病、高血压、肥胖、IBS等慢病人群。经医保、雇主与医疗系统合同及个人直购交付；2025年起与Medicare/Medicaid及Aetna等六大支付方网络内覆盖。收入来自B端合同与C端订阅，老年慢病营养为核心场景。",
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险+个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2018,
+      "stage": "C轮",
+      "highlights": [
+        "医学定制餐+远程营养师+远程患者监测三位一体",
+        "低FODMAP/地中海/无麸质等临床膳食配方",
+        "2025年起与Medicare/Medicaid及Aetna等六大支付方网络内覆盖",
+        "服务T2D/肾病/高血压/IBS等慢病，C轮累计2890万美元"
+      ],
+      "events": [
+        { "date": "2024-12", "text": "完成1350万美元C轮融资，由Dohmen Impact领投" },
+        { "date": "2025-09", "text": "扩大与Aetna/BCBS/Cigna/Medicare/Medicaid/UHC网络内合作" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医学定制餐+远程营养师服务糖尿病/肾病/IBS等慢病，现网络内覆盖Medicare/Medicaid，老年为重大使用人群。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0801",
+      "name": "Nice healthcare",
+      "name_cn": "Nice healthcare",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 44.6,
+      "recommend": "信号中等（已披露12个州、400+企业客户与7.5万+会员，近年营收增长300%+）、信息透明度中——公开了客单定价与节省数据，但单位经济未详。差异化在“雇主包月、零就诊摩擦”的初级保健定位，反常识地用固定费替代按次收费；壁垒是自有医护上门网络与SMB直销。国内企业健康福利商可学其“按月封顶、家属免费”的团费模型，但需解决雇主付费意愿与医保衔接。",
+      "desc_cn": "面向中小企业的按会员制初级保健服务商，将诊所搬进员工家中与手机里：提供虚拟/上门全科问诊、35项居家化验与X光、550+种处方药配送、物理治疗与心理服务。雇主按员工每月固定费用采购（无就诊费、无copay，家属免费），员工按需无限次使用。收入来自B端雇主团费，定位降低就医门槛与下游高额医疗支出。",
+      "payor_model": "B端机构采购(雇主按月会员费)",
+      "business_tags_role": "服务商",
+      "founded": 2017,
+      "stage": "A轮",
+      "highlights": [
+        "雇主包月初级保健：虚拟/上门问诊+居家化验/X光+550+处方药+PT/心理",
+        "员工零自付、家属免费，雇主按月固定费采购",
+        "覆盖12州、400+企业、7.5万+会员",
+        "A轮3000万美元，累计4200万美元"
+      ],
+      "events": [
+        { "date": "2022-03", "text": "完成3000万美元A轮融资，由DNA Capital领投，累计4200万美元" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "雇主按月付费的初级保健，主要服务在职员工及家属，非老年专属、不涉Medicare。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0802",
+      "name": "Nirvana",
+      "name_cn": "Nirvana",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 49.6,
+      "recommend": "信号中等（已披露整合日托、老年医学、护理派遣与PBM的多业务线并完成新一轮融资）、信息透明度偏低——各业务单元营收占比与会员规模未公开。差异化在“照护+支付”纵向一体：自建PBM把老年用药与日托/护理支付打通，反常识地以平台整合而非单点服务突破；壁垒是医保结算资质与护理供给网络。国内社区养老可学其“日托+上门护理+药品支付”一体化，但需先取得医保与长护险结算资质。",
+      "desc_cn": "面向老年群体的综合照护与支付平台，整合成人日托、老年医学门诊与居家护理派遣，并自建PBM处理处方与理赔。收入来自政府医保（Medicare/Medicaid）结算与老人个人自付，照护与用药支付一体化。核心银发价值在“日托+上门护理+用药支付”闭环，对应国内社区居家养老与长护险药品配送整合。",
+      "payor_model": "政府医保(Medicare/Medicaid)+个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2020,
+      "stage": "A轮",
+      "highlights": [
+        "成人日托+老年医学+护理派遣+PBM(药品福利)综合照护",
+        "照护与用药支付纵向一体化，结算Medicare",
+        "反常识以平台整合而非单点服务切入老年照护",
+        "A轮2420万美元，由Northzone等领投"
+      ],
+      "events": [
+        { "date": "2024-09", "text": "完成2420万美元A轮融资，由Northzone、Battery Ventures等领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人日托+老年医学+护理派遣直接服务老年群体，并结算Medicare/Medicaid，属银发照护基础设施。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0803",
+      "name": "Nobel Hygiene",
+      "name_cn": "Nobel Hygiene",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 3.0,
+      "copy_score": 7.0,
+      "research_value": 42.6,
+      "recommend": "信号中等（已披露成人纸尿裤约40%市占、千家经销商与20余国出口，并筹备IPO）、信息透明度中——公开了销售网络与产能，但单位经济与电商占比未详。差异化在“Friends”品牌卡位与破taboo的失禁教育，壁垒是双工厂产能与全印分销；亮点在把成人失禁从羞耻品做成大众品类。国内纸尿裤厂商可抄其“品牌+教育+下沉分销”打法，但需应对本土低价竞争与医保控费。",
+      "desc_cn": "印度一次性卫生用品制造商，以Friends品牌占成人失禁护理市场约40%份额，同时生产Teddyy婴儿纸尿裤与女性卫生用品。采用B2B机构采购与零售个人自费双渠道，拥有那西克与巴罗达两处工厂，产能超6000片/分钟并出口20余国。核心银发价值在成人失禁护理刚需品类，对应国内老龄化下的供给与下沉渗透。",
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2000,
+      "stage": "C轮",
+      "highlights": [
+        "Friends占印度成人纸尿裤约40%市场份额",
+        "双工厂(那西克/巴罗达)、产能6000+片/分钟、出口20余国",
+        "千家经销商网络，2025年获Neo约2000万美元战投筹备IPO",
+        "打破失禁羞耻的教育式品牌建设"
+      ],
+      "events": [
+        { "date": "2025-05", "text": "获Neo Asset Management约2000万美元战略投资，筹备IPO" },
+        { "date": "2022-09", "text": "完成1600万美元C轮融资，由Sixth Sense Ventures领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "Friends成人失禁护理用品为老年失禁刚需品类，印度市场约40%份额。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0804",
+      "name": "Nobi",
+      "name_cn": "Nobi",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 53.7,
+      "recommend": "信号较强（已披露完成新一轮融资、覆盖22国且临床数据显示响应提速94%、跌倒降51%~84%）、信息透明度高——公开了五家机构2817住民日的对照分析与各国落地。差异化在“把AI塞进灯具”的无感监测，反常识地避开可穿戴依从性难题；壁垒是6年25万场景训练数据与获奖工业设计。国内智能硬件厂可抄其“灯具+本地AI”方案进入养老安全场景，但需解决机构采购预算与隐私合规。",
+      "desc_cn": "比利时AgeTech公司，研发AI智能灯具用于老人跌倒检测与预防：灯具内置本地化处理的AI模型（经25万真实场景训练），实时识别跌倒并秒级报警，夜间自动柔光引导起夜。主要销往养老机构与护理院（覆盖22国），并推吸顶式版本进军家庭端。收入来自B端机构采购与C端零售，核心价值在适老化安全监测与护理减负。",
+      "payor_model": "B端机构采购(养老机构)+个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2018,
+      "stage": "B轮",
+      "highlights": [
+        "AI智能灯具跌倒检测/预防，本地化处理保护隐私",
+        "临床数据：响应提速94%、机构跌倒降51%~84%",
+        "6年25万真实场景训练，覆盖22国养老机构",
+        "B轮3670万美元(2025)，推出吸顶式版本进家庭"
+      ],
+      "events": [
+        { "date": "2025-01", "text": "完成3670万美元B轮融资，由Angelini Ventures与Nexus NeuroTech领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI智能灯具跌倒检测/预防，典型适老化安全监测产品，直接服务养老场景。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0806",
+      "name": "Nourish",
+      "name_cn": "Nourish",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 47.6,
+      "recommend": "信号较强（已披露覆盖全美50州、3000+签约RD与数十万患者，且94%零自付、GLP-1人群减重高33%）、信息透明度高——公开了A1C、LDL等临床结果与各支付方名单。差异化在“保险直付+最大RD网络”的平台定位，壁垒是支付方合同与RD供给；亮点在把营养变成一线治疗。国内慢病管理可学其“保险直付营养师”模式，但需先推动医保将医学营养治疗（MNT）纳入报销。",
+      "desc_cn": "保险直付的虚拟营养照护平台，连接注册营养师（RD）、患者与支付方，覆盖糖尿病、肾病、肥胖、IBS等营养相关慢病。患者经保险匹配专科RD做视频问诊、AI餐食追踪与可穿戴/化验联动；94%零自付，已接入Medicare等商保。收入来自支付方按服务结算，并叠加GLP-1减重协同管理。",
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险支付",
+      "business_tags_role": "平台",
+      "founded": 2021,
+      "stage": "C轮",
+      "highlights": [
+        "保险直付虚拟营养照护，3000+签约RD、覆盖50州、数十万患者",
+        "94%用户零自付，接入Medicare/Medicaid及Aetna等商保",
+        "GLP-1人群配RD减重高33%，A1C/LDL改善",
+        "2026年C轮1亿美元，累计2.15亿，转型AI代谢诊所"
+      ],
+      "events": [
+        { "date": "2025-04", "text": "完成7000万美元B轮融资，由J.P. Morgan Growth Equity领投，累计1.15亿美元" },
+        { "date": "2026-05", "text": "完成1亿美元C轮融资，由Menlo Ventures领投，累计2.15亿美元，转型AI代谢诊所" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "保险直付营养照护覆盖全年龄段慢病(含GLP-1减重)，产品非老年专属，虽接入Medicare/Medicaid。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0821",
+      "name": "PeopleOne Health",
+      "name_cn": "PeopleOne Health",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 49.6,
+      "recommend": "信号中等（已披露9家初级保健中心、覆盖宾州与佛州并服务数百雇主，NPS 90+）、信息透明度中——公开了医生日均16人、省费30%等运营数据，但单位经济未详。差异化在“雇主全额付费、零自付”的价值医疗定位，反常识地以预防替代治病；壁垒是顶尖医护供给与低患者负荷模式。国内企业医疗福利可学其“雇主包干+无自付”模型，但需解决雇主付费意愿与分级诊疗衔接。",
+      "desc_cn": "面向雇主的价值医疗初级保健服务商，由企业全额付费为员工采购会员，员工享无自付、无免赔的线下+虚拟全科、慢病管理与预防服务。医生日均仅看约16人以保证时长，已在宾州与佛州运营9家社区健康中心。收入来自B端雇主会员费，核心价值在把预防与慢病管理前置以降低整体医疗支出。",
+      "payor_model": "B端机构采购(雇主全额付费)",
+      "business_tags_role": "服务商",
+      "founded": 2021,
+      "stage": "B轮",
+      "highlights": [
+        "雇主全额付费价值医疗初级保健，员工无自付/免赔",
+        "医生日均仅16人、NPS 90+(行业均35)",
+        "9家社区健康中心(宾州/佛州)，预防+慢病管理",
+        "B轮3230万美元，由GV(Google Ventures)领投，雇主省费达30%"
+      ],
+      "events": [
+        { "date": "2024-10", "text": "完成3230万美元B轮融资，由GV(Google Ventures)领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "雇主全额付费的价值医疗初级保健，主要服务在职员工，非老年专属、不涉Medicare。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0823",
+      "name": "Pillo Health",
+      "name_cn": "Pillo Health",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 7.0,
+      "research_value": 49.6,
+      "recommend": "信号中等（已披露消费设备定价并与BLACK+DECKER联合推出Pria）、信息透明度偏低——未公开活跃设备数与机构客户规模。差异化在“台面硬件+语音交互”把用药管理变成自然语言对话，亮点在Pria叠加跌倒检测；壁垒是HIPAA合规平台与硬件供应链。国内智能药盒厂商可学其“语音+自动补订+家属监测”组合，但需解决中文语音识别与医保硬件报销。",
+      "desc_cn": "面向居家老人的语音交互用药管理平台：台面AI设备可存储、按预设分发并自动补订最多28剂药物，配合音视频健康内容与家属视频通话及依从性监测；消费级衍生型号另含跌倒检测。同时向医疗机构、药企等合作方输出定制化语音健康管理方案。收入来自硬件销售与B端机构授权，核心价值在帮助老人独立居家用药。",
+      "payor_model": "B端机构采购+个人自费(硬件)",
+      "business_tags_role": "服务商",
+      "founded": 2017,
+      "stage": "A轮",
+      "highlights": [
+        "台面AI用药设备：存储/分发/补订最多28剂+语音交互",
+        "消费级Pria by BLACK+DECKER含跌倒检测",
+        "HIPAA合规语音健康平台，向药企/机构输出方案",
+        "A轮1100万美元，Stanley/Samsung Ventures领投"
+      ],
+      "events": [
+        { "date": "2019-05", "text": "完成1100万美元A轮融资，由Stanley Ventures、Samsung Ventures领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "语音交互用药管理平台明确服务居家老人科学用药与独立生活，属适老用药管理。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0828",
+      "name": "Redi Health",
+      "name_cn": "Redi Health",
+      "region": "海外",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 5.0,
+      "research_value": 45.6,
+      "recommend": "信号中等（已披露完成新一轮融资、传统PSP非依从率70%与行业年损超6000亿美元的背景数据）、信息透明度中——公开了客户增效（月度入组+30%）但缺具体药企名单。差异化在把制药支持计划“数字化直连患者”，壁垒是合规架构与药企渠道；亮点在用AI把繁琐纸质流程变实时信息流。国内药企与患者援助组织可学其“药企-患者数字直连”中台，但需适配国内处方流转与数据安全监管。",
+      "desc_cn": "连接制药企业、医疗机构与患者的数字患者支持平台，专注高值慢病用药全旅程管理：用药提醒、症状追踪、品牌化健康教育、经济援助对接与PSP入组。以AI远程患者监测与移动端工具提升依从性、降低疗法中断。收入来自药企B端机构采购，核心客户为生活科学公司与支付方，非直接面向老年群体。",
+      "payor_model": "B端机构采购(药企/支付方)",
+      "business_tags_role": "平台",
+      "founded": 2019,
+      "stage": "B轮",
+      "highlights": [
+        "数字患者支持平台连接药企-机构-患者，提升用药依从",
+        "AI远程监测+移动端，替代70%非依从传统PSP",
+        "客户月度入组+30%，行业年损超6000亿美元背景",
+        "B轮1400万美元，Blue Heron Capital领投"
+      ],
+      "events": [
+        { "date": "2024-02", "text": "完成1400万美元B轮融资，由Blue Heron Capital领投" }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "药企患者支持与用药依从平台，B2B2C泛医疗，非老年专属。",
+      "数据来源": "联网精评"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0766",
+      "name": "Livara Health",
+      "intro": "价值医疗肌骨(MSK)管理商，以分包干承接风险承担型医疗机构与支付方的MSK总费用，服务Medicare Advantage与传统Medicare。",
+      "suggested": [
+        { "action": "change", "tag": "康复医疗", "reason": "tag_l2“康复医疗”过宽，其本质是肌骨(MSK)价值医疗，建议改为“肌骨康复”" },
+        { "action": "change", "tag": "养老服务", "reason": "tag_l1“养老服务”不准确，MSK管理主要服务脊柱/关节慢病而非养老场景，建议改为“慢病管理”或“康复医疗”" }
+      ]
+    },
+    {
+      "serial": "#0775",
+      "name": "Mealogic",
+      "intro": "白标餐饮即药物(Food as Medicine)履约平台，为医疗/健康品牌提供合规预制餐交付，非直接面向老人。",
+      "suggested": [
+        { "action": "change", "tag": "膳食配送", "reason": "tag_l2“膳食配送”弱化了其临床营养定位，建议改为“医学定制餐”或“医疗膳食”" },
+        { "action": "add", "tag": "医疗膳食", "reason": "Food as Medicine白标履约是其核心，原标签未体现" }
+      ]
+    },
+    {
+      "serial": "#0777",
+      "name": "Medisafe",
+      "intro": "通用用药管理App，含JITI行为干预与药企数据合作，面向全年龄段慢病。",
+      "suggested": [
+        { "action": "change", "tag": "康复辅具", "reason": "tag_l1“康复辅具”错误，Medisafe是数字健康App(用药管理)，非康复辅具，建议改“数字健康”或“用药管理”" },
+        { "action": "change", "tag": "用药提醒", "reason": "tag_l2“用药提醒”过窄，其含依从性数据与药企合作，建议改“用药管理”" }
+      ]
+    },
+    {
+      "serial": "#0788",
+      "name": "Modify Health",
+      "intro": "医学定制餐+远程营养师的食物即药物平台，服务糖尿病/肾病/IBS等慢病，已接入Medicare/Medicaid。",
+      "suggested": [
+        { "action": "change", "tag": "养老膳食", "reason": "tag_l2“养老膳食”误导，其面向慢病全龄而非专老，建议改为“医学定制餐”" },
+        { "action": "del", "tag": "养老膳食", "reason": "同上，“养老膳食”定位错误，应从标签中移除" }
+      ]
+    },
+    {
+      "serial": "#0801",
+      "name": "Nice healthcare",
+      "intro": "雇主付费的虚拟/上门初级保健与慢病管理，非Medicare、非老年专属。",
+      "suggested": [
+        { "action": "change", "tag": "养老服务", "reason": "tag_l1“养老服务”不准确，其是雇主初级保健(在职人群)，建议改“基层医疗”或“初级保健”" },
+        { "action": "change", "tag": "居家医疗", "reason": "tag_l2“居家医疗”偏窄，其含线下诊所+虚拟+PT+心理，建议改“初级保健”" }
+      ]
+    },
+    {
+      "serial": "#0802",
+      "name": "Nirvana",
+      "intro": "成人日托+老年医学+护理派遣+PBM的综合老年照护平台，结算Medicare。",
+      "suggested": [
+        { "action": "add", "tag": "成人日托", "reason": "成人日托(Adult Day Care)是其核心业务线之一，原标签缺失" },
+        { "action": "add", "tag": "PBM/药品福利", "reason": "其自建PBM医疗支付平台是差异化，原标签未体现" }
+      ]
+    },
+    {
+      "serial": "#0803",
+      "name": "Nobel Hygiene",
+      "intro": "印度成人失禁护理与女性卫生用品制造商，Friends占成人纸尿裤约40%份额。",
+      "suggested": [
+        { "action": "add", "tag": "失禁护理", "reason": "成人失禁护理是其核心银发品类，原仅“纸尿裤”过窄，建议加“失禁护理”" }
+      ]
+    },
+    {
+      "serial": "#0804",
+      "name": "Nobi",
+      "intro": "比利时AI智能灯具跌倒检测/预防AgeTech，覆盖22国养老机构与家庭。",
+      "suggested": [
+        { "action": "add", "tag": "适老化安全监测", "reason": "跌倒检测灯具属适老化安全监测，原“跌倒监测”可保留并补“适老化安全”" }
+      ]
+    },
+    {
+      "serial": "#0806",
+      "name": "Nourish",
+      "intro": "保险直付虚拟营养照护平台，连接RD/患者/支付方，覆盖全龄慢病。",
+      "suggested": [
+        { "action": "add", "tag": "医学营养治疗(MNT)", "reason": "其保险直付营养师本质即MNT，原标签未体现临床营养定位" },
+        { "action": "change", "tag": "个性化营养", "reason": "tag_l2“个性化营养”偏消费，建议改“营养干预”或“医学营养”" }
+      ]
+    },
+    {
+      "serial": "#0821",
+      "name": "PeopleOne Health",
+      "intro": "雇主全额付费的价值医疗初级保健，医生日均16人、NPS 90+，非Medicare。",
+      "suggested": [
+        { "action": "change", "tag": "养老服务", "reason": "tag_l1“养老服务”不准确，其是雇主初级保健，建议改“基层医疗”" },
+        { "action": "change", "tag": "诊所", "reason": "tag_l2“诊所”过窄，其含预防+慢病管理+虚拟，建议改“价值医疗”或“初级保健”" }
+      ]
+    },
+    {
+      "serial": "#0823",
+      "name": "Pillo Health",
+      "intro": "语音交互居家用药管理硬件+平台，服务老人独立居家用药。",
+      "suggested": [
+        { "action": "change", "tag": "药品配送", "reason": "tag_l2“药品配送”错误，Pillo是用药管理硬件(存储/分发/补订)，非配送，建议改“智能用药管理”或“用药管理”" }
+      ]
+    },
+    {
+      "serial": "#0828",
+      "name": "Redi Health",
+      "intro": "连接药企/机构/患者的数字患者支持平台，提升高值慢病用药依从。",
+      "suggested": [
+        { "action": "change", "tag": "养老软件", "reason": "tag_l2“养老软件”错误，其是泛医疗患者支持平台(药企PSP)，建议改“患者支持”或“用药依从”" },
+        { "action": "change", "tag": "行业服务", "reason": "tag_l1“行业服务”过泛，建议改“数字健康”或“患者支持”" }
+      ]
+    }
+  ],
+  "nonsilver": [
+    { "serial": "#0775", "name": "Mealogic", "verdict": "泛医疗擦边", "reason": "白标Food as Medicine餐饮履约平台，服务广泛慢病人群而非专老；未以老年为核心定位。" },
+    { "serial": "#0777", "name": "Medisafe", "verdict": "泛医疗擦边", "reason": "通用用药管理App面向全年龄段慢病患者，老年仅为高频子集而非专属。" },
+    { "serial": "#0801", "name": "Nice healthcare", "verdict": "泛医疗擦边", "reason": "雇主按月付费的初级保健，主要服务在职员工及家属，非老年专属、不涉Medicare。" },
+    { "serial": "#0806", "name": "Nourish", "verdict": "泛医疗擦边", "reason": "保险直付营养照护覆盖全年龄段慢病(含GLP-1减重)，产品非老年专属，虽接入Medicare/Medicaid。" },
+    { "serial": "#0821", "name": "PeopleOne Health", "verdict": "泛医疗擦边", "reason": "雇主全额付费的价值医疗初级保健，主要服务在职员工，非老年专属、不涉Medicare。" },
+    { "serial": "#0828", "name": "Redi Health", "verdict": "泛医疗擦边", "reason": "药企患者支持与用药依从平台，B2B2C泛医疗，非老年专属。" }
+  ]
+}

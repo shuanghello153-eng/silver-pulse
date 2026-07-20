@@ -1,0 +1,793 @@
+{
+ "batch": 11,
+ "enterprises": [
+  {
+   "serial": "#0474",
+   "name": "Rippl Care",
+   "signal_strength": 3.55,
+   "info_score": 6.0,
+   "diff_score": 6.0,
+   "copy_score": 5.0,
+   "research_value": 50.6,
+   "recommend": "信号强：入选CMS全国痴呆照护GUIDE替代支付模型、绑定Medicare支付，信息披露充分且已有Year1成效数据；差异化在把痴呆照护做成虚拟专科网络并叠加照护者支持，这种'绑定医保支付方+照护者赋能'路径国内创业者可学，但受制于商保薄弱与支付方缺位，短期内难以直接照搬落地。",
+   "desc_cn": "面向痴呆症患者及家庭照护者的虚拟专科照护网络，由护士与社工团队提供评估、照护计划与24小时导航。收入来自与Medicare Advantage、ACO等支付方的价值医疗合约，以及与阿尔茨海默协会共建的导航服务。核心银发价值在于把碎片化的痴呆照护整合为可远程交付的标准化服务。",
+   "payor_model": "政府医保(Medicare Advantage/CMS GUIDE)+价值医疗支付方(ACO)",
+   "business_tags_role": "服务商",
+   "founded": 2021,
+   "stage": "A轮",
+   "highlights": [
+    "入选CMS GUIDE全国痴呆照护替代支付模型（2024-07启动）",
+    "与阿尔茨海默协会共建痴呆照护导航服务",
+    "与Medicare Advantage/ACO建立价值医疗合作",
+    "2026-02被Harbor Health收购；GUIDE第一年成效强劲，并发布AI'痴呆照护操作系统'"
+   ],
+   "events": [
+    {
+     "date": "2024-07",
+     "text": "与阿尔茨海默协会入选CMS GUIDE全国痴呆照护替代支付模型"
+    },
+    {
+     "date": "2024-10",
+     "text": "完成2300万美元A轮，由Kin Ventures领投"
+    },
+    {
+     "date": "2026-02",
+     "text": "被Harbor Health收购；GUIDE项目第一年成效数据强劲"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专注痴呆症患者及照护者的虚拟专科照护，并绑定政府医保支付"
+  },
+  {
+   "serial": "#0480",
+   "name": "True Link Financial",
+   "signal_strength": 3.55,
+   "info_score": 7.0,
+   "diff_score": 7.0,
+   "copy_score": 5.0,
+   "research_value": 55.7,
+   "recommend": "信号中等：已服务25万+家庭、年拦截欺诈超1.75亿美元，数据透明度高；差异化在把老年防诈做成可定制消费规则的预付卡+'护栏'产品，而非单纯提醒。国内可借鉴其'为认知症家庭设消费限额与场景白名单'的思路，但依赖个人订阅付费，需适配国内账户与支付体系才能落地。",
+   "desc_cn": "面向老年及认知障碍人群的防金融欺诈资产守护平台，发行可自定义消费规则的预付Visa卡与资产管理工具，由家属或监护人为老人设消费护栏。收入来自账户订阅月费与资产管理费，资金享FDIC保障。银发切点在于用产品化手段为易受诈骗人群筑起消费防火墙。",
+   "payor_model": "个人自费(订阅月费+资产管理费)",
+   "business_tags_role": "服务商",
+   "founded": 2012,
+   "stage": "B轮",
+   "highlights": [
+    "预付Visa卡支持50+类消费场景定制防欺诈规则",
+    "年防欺诈金额超1.75亿美元，服务25万+家庭",
+    "覆盖老年、残障、康复人群，资金享FDIC保险保障"
+   ],
+   "events": [
+    {
+     "date": "2020-07",
+     "text": "完成3500万美元B轮，由Khosla Ventures与Centana领投"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "为老年及认知症人群提供防金融欺诈的资产守护服务"
+  },
+  {
+   "serial": "#0483",
+   "name": "Wellthy",
+   "signal_strength": 3.55,
+   "info_score": 6.0,
+   "diff_score": 5.0,
+   "copy_score": 5.0,
+   "research_value": 48.7,
+   "recommend": "信号中等：与Guardian、Prudential、Best Buy等雇主及险企达成福利合作，信息披露充分；差异化在把护理事务外包做成'雇主付费+专业协调师'的照护管家模式，亮点是对雇主有3.6倍ROI回报。国内创业者可学以企业福利为支付方撬动居家照护，但受企业福利体系薄弱限制，难以直接照搬落地。",
+   "desc_cn": "为员工家庭提供养老与慢病照护协调的会员制管家平台，由社工、护士、心理师团队代办就医预约、保险沟通与照护计划。收入主要来自企业雇主福利采购与健康险合作，并向雇主证明降低离职与缺勤的ROI。银发价值在把分散的家庭照护事务外包给专业协调师。",
+   "payor_model": "企业/保险采购(雇主福利+健康险)",
+   "business_tags_role": "服务商",
+   "founded": 2014,
+   "stage": "B轮",
+   "highlights": [
+    "护理协调师团队(社工/护士/心理)处理超13万护理项目",
+    "与Guardian、Prudential、Best Buy等雇主/险企合作福利",
+    "为雇主提供3.6倍ROI，降低员工离职与缺勤"
+   ],
+   "events": [
+    {
+     "date": "2023-05",
+     "text": "完成2500万美元B轮，由Hearst与Eldridge领投"
+    },
+    {
+     "date": "2024-06",
+     "text": "与Guardian合作，将照护支持纳入雇主残疾险福利"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "照护协调核心场景为老龄化家庭与员工养老照护"
+  },
+  {
+   "serial": "#0560",
+   "name": "Cala Health",
+   "signal_strength": 3.55,
+   "info_score": 8.0,
+   "diff_score": 8.0,
+   "copy_score": 4.0,
+   "research_value": 58.6,
+   "recommend": "信号强：FDA认证且获Medicare地方覆盖裁定(LCD L39591)可报销、VA免费提供，信息披露清晰；差异化在把震颤治疗做成处方级可穿戴神经调控+医保报销的刚需硬件，壁垒在FDA准入与长期临床证据。国内创业者可借鉴'慢病刚需+医保支付'的器械路径，但受审评与商保覆盖拖累，短期内难以落地。",
+   "desc_cn": "处方级腕式神经调控设备商，Cala kIQ通过TAPS技术感知患者独特震颤信号并施加个性化电刺激，缓解特发性震颤与帕金森手颤。收入来自设备销售与医保报销（Medicare LCD L39591已覆盖、VA免费提供）、商业保险及HSA/FSA。银发切点在于为高发于老年的慢性震颤提供非侵入、可居家的疗法。",
+   "payor_model": "政府医保(Medicare/VA)+商业保险(部分覆盖)",
+   "business_tags_role": "产品商",
+   "founded": 2014,
+   "stage": "成长期",
+   "highlights": [
+    "FDA认证腕式TAPS神经调控，缓解特发性震颤与帕金森手颤",
+    "2024年获Medicare地方覆盖裁定(LCD L39591)可报销",
+    "VA免费提供，商业保险覆盖在持续拓展中"
+   ],
+   "events": [
+    {
+     "date": "2024-12",
+     "text": "完成5000万美元增长轮融资"
+    },
+    {
+     "date": "2024",
+     "text": "获Medicare地方覆盖裁定(LCD L39591)震颤疗法可报销"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "特发性震颤与帕金森手颤高发于老年人群，且已Medicare报销"
+  },
+  {
+   "serial": "#0634",
+   "name": "Beta Bionics",
+   "signal_strength": 3.55,
+   "info_score": 9.0,
+   "diff_score": 8.0,
+   "copy_score": 4.0,
+   "research_value": 61.6,
+   "recommend": "信号强：已纳斯达克上市、为首款FDA批准的自动化胰岛素输送系统，信息透明度高；差异化在把糖尿病管理做成免操作闭环算法硬件，亮点是用极简体验降低使用门槛。国内可学'以体验极简撬动慢病硬件'的思路，但本例核心人群为1型糖尿病、对老年慢病借鉴有限，宜作器械研发参照。",
+   "desc_cn": "自动化胰岛素输送系统(iLet仿生胰腺)商，输入体重即可由算法自适应给药、免去碳水计算，主打1型糖尿病闭环管理。收入来自设备销售与药房福利计划(PBM)、政府器械(DME)报销。因主要服务1型糖尿病患者、仅覆盖部分老年慢病，与银发关联偏弱，属泛医疗擦边。",
+   "payor_model": "商业保险(药房福利计划)+政府医保(医疗器械DME)",
+   "business_tags_role": "产品商",
+   "founded": 2015,
+   "stage": "已上市",
+   "highlights": [
+    "iLet仿生胰腺为首款FDA批准的自动化胰岛素输送系统",
+    "2025-01纳斯达克上市(代码BBNX)，募资约2.2亿美元",
+    "仅需输入体重即可自适应给药，无需计算碳水"
+   ],
+   "events": [
+    {
+     "date": "2024-11",
+     "text": "完成6000万美元E轮融资"
+    },
+    {
+     "date": "2025-01",
+     "text": "纳斯达克上市(代码BBNX)，募资约2.2亿美元"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "自动化胰岛素泵主要服务1型糖尿病，含部分老年慢病但非专攻银发"
+  },
+  {
+   "serial": "#0642",
+   "name": "Bobbie",
+   "signal_strength": 3.55,
+   "info_score": 6.0,
+   "diff_score": 4.0,
+   "copy_score": 3.0,
+   "research_value": 42.7,
+   "recommend": "信号弱：与银发毫无关联，信息仅限母婴渠道与配方认证，缺乏养老维度；差异化在DTC订阅+欧盟标准配方，亮点是对国内母婴品牌有供应链参考。但其业务本质是婴儿营养快消，国内创业者可借鉴其DTC打法，对银发选题无研究价值，建议作为非银发案例移出银发主库。",
+   "desc_cn": "对标欧盟标准的有机婴儿配方奶粉品牌，采用DTC订阅直送并进入Whole Foods等零售渠道，主打无农药与清洁标签认证。收入来自个人消费的订阅月费与零售销售，受众为母婴家庭。与老龄化、养老照护无任何关联，属非银发快消品类。",
+   "payor_model": "个人自费(B2C订阅+零售)",
+   "business_tags_role": "制造商(消费品)",
+   "founded": 2018,
+   "stage": "C轮",
+   "highlights": [
+    "美国首个DTC订阅婴儿配方奶粉品牌，对标欧盟标准",
+    "2024年进入Whole Foods约500家门店",
+    "获Clean Label Purity与无农药双认证"
+   ],
+   "events": [
+    {
+     "date": "2023-07",
+     "text": "完成7000万美元C轮融资"
+    },
+    {
+     "date": "2024-09",
+     "text": "进入Whole Foods约500家门店"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "非银发",
+   "silver_reason": "婴儿配方奶粉，与老龄化/养老无任何关联"
+  },
+  {
+   "serial": "#0717",
+   "name": "Grow Therapy",
+   "signal_strength": 3.55,
+   "info_score": 8.0,
+   "diff_score": 7.0,
+   "copy_score": 5.0,
+   "research_value": 58.7,
+   "recommend": "信号强：接入125家支付方、2026年完成1.5亿美元D轮(估值约30亿美元)、覆盖2.2亿投保人群，信息披露充分；差异化在把心理诊疗做成保险直付+雇主EAP的全国网络，亮点是规模壁垒与已跨越10亿美元年营收。国内创业者可学'保险支付撬动可及性'的路径，但精神科支付缺位与病耻感使其难以照搬至银发场景。",
+   "desc_cn": "连接保险公司与治疗师的心理诊疗匹配平台，覆盖125+支付方、2.6万+治疗师、2.2亿投保人群，2025年促成700万次诊疗。收入来自支付方直付与雇主EAP合作，并打通EAP—保险—同治疗师延续的雇主心理福利。含老年抑郁人群但主体非银发专营，属泛医疗擦边。",
+   "payor_model": "商业保险+Medicaid+Medicare(支付方直付)+雇主EAP",
+   "business_tags_role": "平台",
+   "founded": 2020,
+   "stage": "成长期",
+   "highlights": [
+    "平台接入125家支付方、2.6万+治疗师，覆盖2.2亿投保人群",
+    "2026-03完成1.5亿美元D轮(估值约30亿美元)，总募资约3.28亿美元",
+    "打通EAP—保险—同治疗师延续的雇主心理福利"
+   ],
+   "events": [
+    {
+     "date": "2024-04",
+     "text": "完成8800万美元C轮融资"
+    },
+    {
+     "date": "2026-03",
+     "text": "完成1.5亿美元D轮，估值约30亿美元；同期收购AI公司Tenor Therapy"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "心理健康平台含老年抑郁人群，但主体非银发专营"
+  },
+  {
+   "serial": "#0722",
+   "name": "Harbor Health",
+   "signal_strength": 3.55,
+   "info_score": 6.0,
+   "diff_score": 4.0,
+   "copy_score": 4.0,
+   "research_value": 44.6,
+   "recommend": "信号中等：自建保险计划、运营ACO REACH承接Medicare并签BCBS等多方风险合约，信息披露充分；差异化在把基层医疗做成支付+服务一体化的pay-vider，亮点是医险融合。国内创业者可借鉴其'医险一体化'整合路径，但受分级诊疗割裂与支付方分散制约，且主体非老年专营，对银发选题参考有限。",
+   "desc_cn": "德州奥斯汀垂直整合'支付+服务'的基层医疗集团(pay-vider)，自营保险计划并运营ACO REACH承接Medicare，与BCBS等签风险合约。收入来自Medicare/MA、商业保险、企业自保及自办保险计划。通过基层医疗与医保服务老年群体，但非银发专营，属泛医疗擦边。",
+   "payor_model": "政府医保(Medicare/MA)+商业保险+企业自保+自办保险",
+   "business_tags_role": "运营商",
+   "founded": 2022,
+   "stage": "B轮",
+   "highlights": [
+    "德州奥斯汀垂直整合'支付+服务'的pay-vider模式",
+    "运营ACO REACH并承接Medicare，签BCBS等多方风险合约",
+    "2024获9550万美元B轮，并推出自办保险计划"
+   ],
+   "events": [
+    {
+     "date": "2024-01",
+     "text": "完成9550万美元B轮，由General Catalyst领投"
+    },
+    {
+     "date": "2026-02",
+     "text": "收购痴呆照护公司Rippl，扩展价值医疗专科网络"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "基层医疗集团通过Medicare/MA服务老年群体，但非银发专营"
+  },
+  {
+   "serial": "#0729",
+   "name": "Hello Heart",
+   "signal_strength": 3.55,
+   "info_score": 6.0,
+   "diff_score": 6.0,
+   "copy_score": 6.0,
+   "research_value": 52.6,
+   "recommend": "信号中等：已有同行评议的省费证据(人均年省1709美元)、覆盖MA人群，数据透明度高；差异化在把心血管管理做成设备+AI+按效果付费的福利，亮点是'费用与临床结果对赌'。国内创业者可学其效果对赌式数字疗法，但受体检支付弱与慢病管理付费缺位制约，落地需先解决支付方动力问题。",
+   "desc_cn": "面向高血压等心血管慢病人群的数字健康管理服务商，提供无线血压计+APP+AI，同行评议显示人均年省1709美元、65岁以上收缩压最高降18点。收入来自商业保险、Medicare Advantage与企业福利采购，并以100%费用与临床效果对赌。银发价值在聚焦老年高血压的可量化慢病管理。",
+   "payor_model": "商业保险+Medicare Advantage+企业福利",
+   "business_tags_role": "产品商",
+   "founded": 2013,
+   "stage": "成长期",
+   "highlights": [
+    "无线血压计+APP+AI，同行评议显示人均年省1709美元",
+    "65岁以上参与者收缩压最高降18点，住院日减47%",
+    "100%费用与临床效果对赌，绑定MA/企业福利"
+   ],
+   "events": [
+    {
+     "date": "2022-05",
+     "text": "完成7000万美元D轮融资"
+    },
+    {
+     "date": "2025-06",
+     "text": "推出雇主福利效果对赌保障，100%费用与效果挂钩"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "心血管慢病管理聚焦老年高血压人群，绑定MA与企业福利"
+  },
+  {
+   "serial": "#0732",
+   "name": "Helper bees",
+   "signal_strength": 3.55,
+   "info_score": 7.0,
+   "diff_score": 8.0,
+   "copy_score": 7.0,
+   "research_value": 61.7,
+   "recommend": "信号强：接入43家大型支付方、整合2.5万+非医疗居家服务商且推出helpful™消费卡，信息披露清晰；差异化在把居家非医疗做成保险连接器+数字化索赔的轻资产网络，亮点是降低15-20%赔付成本。国内创业者可直接借鉴其'平台撮合险企与供应商'路径，但依赖长护险与MA式支付方才成立。",
+   "desc_cn": "整合2.5万+非医疗居家服务商(照护、适老化改造、送餐、交通等)的养老平台，对接43家大型支付方，以数字化索赔与GPS打卡降低15-20%赔付成本。收入来自保险支付方服务费与自有的helpful™灵活消费卡。银发核心在于用'连接器'模式把险企、供应商与老人三方撮合到居家场景。",
+   "payor_model": "商业保险(长护险/MA)+政府医保(Medicaid)",
+   "business_tags_role": "平台",
+   "founded": 2018,
+   "stage": "C轮",
+   "highlights": [
+    "整合2.5万+非医疗居家服务商，接入43家大型支付方",
+    "覆盖长护险、Medicare Advantage、Medicaid三类支付，并推出helpful™灵活消费卡",
+    "数字化索赔+GPS护理打卡降低15-20%赔付成本",
+    "2024财年服务700万+ eligible会员、交付200万+小时支持，机构入住率降43%"
+   ],
+   "events": [
+    {
+     "date": "2025-01",
+     "text": "完成3500万美元C轮，由Centana Growth Partners领投"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "整合非医疗居家养老服务，对接险企服务老年群体"
+  },
+  {
+   "serial": "#0738",
+   "name": "Huel",
+   "signal_strength": 3.55,
+   "info_score": 6.0,
+   "diff_score": 4.0,
+   "copy_score": 3.0,
+   "research_value": 42.7,
+   "recommend": "信号弱：与银发无关联，信息仅限营养配方与渠道规模，缺乏养老维度；差异化在DTC订阅+完整营养配方的快消打法，亮点是对国内代餐品牌有供应链参考。但其本质是普适营养品，国内创业者可借鉴其DTC模式，对银发选题无研究价值，建议作为非银发案例移出银发主库。",
+   "desc_cn": "完整营养代餐品牌，提供代餐粉与即饮产品(含27种维生素矿物质、植物基)，采用DTC订阅+零售混合模式，2024财年营收约2.14亿英镑、进入2.5万+网点。收入来自个人消费的订阅与零售。属普适营养快消品，与银发养老无关联，为非银发案例。",
+   "payor_model": "个人自费(B2C订阅+零售)",
+   "business_tags_role": "制造商(消费品)",
+   "founded": 2015,
+   "stage": "成长期",
+   "highlights": [
+    "完整营养代餐粉/即饮，含27种维生素矿物质，植物基",
+    "2024财年营收约2.14亿英镑，全球售出5亿份",
+    "DTC订阅+零售混合，进入2.5万+网点"
+   ],
+   "events": [
+    {
+     "date": "2023-10",
+     "text": "完成8250万美元私募股权融资"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "非银发",
+   "silver_reason": "完整营养代餐快消品，与银发无关联"
+  },
+  {
+   "serial": "#0743",
+   "name": "Incredible Health",
+   "signal_strength": 3.55,
+   "info_score": 7.0,
+   "diff_score": 5.0,
+   "copy_score": 5.0,
+   "research_value": 51.6,
+   "recommend": "信号中等：独角兽估值、服务1500家医院与超100万护士，信息量一般；差异化在把护士招聘做成医院反向抢人的匹配市场，亮点是用生成式AI提升15%留存。其'反向抢人'机制国内可借鉴，但护士招聘与银发直接关联弱，宜作医疗人力基础设施参照而非银发主库标的。",
+   "desc_cn": "护士职业发展平台，采用医院向护士主动发offer的'反向招聘'匹配市场，20天内完成聘用，服务超100万护士、1500家医院。收入来自医院订阅与按招聘付费。属医疗人力基础设施，与银发养老无直接关联，为非银发案例，可作医疗人力供给侧参照。",
+   "payor_model": "B端机构采购(医院订阅/招聘费)",
+   "business_tags_role": "平台",
+   "founded": 2017,
+   "stage": "B轮",
+   "highlights": [
+    "护士反向市场，医院向护士主动发offer，20天速聘",
+    "服务100万护士、1500家医院，单院年省500万美元",
+    "引入生成式AI简历与匹配，留存优于基线15%"
+   ],
+   "events": [
+    {
+     "date": "2022",
+     "text": "完成8000万美元B轮，估值16.5亿美元"
+    },
+    {
+     "date": "2024",
+     "text": "平台服务超100万护士、1500家医院"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "非银发",
+   "silver_reason": "护士招聘平台属医疗人力基础设施，与银发无直接关联"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#0474",
+   "name": "Rippl Care",
+   "intro": "虚拟痴呆症照护公司，为患者与照护者提供记忆保健、行为健康及导航支持，入选CMS GUIDE替代支付模型。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "心理健康",
+     "认知症"
+    ],
+    "business_tags": {
+     "customer": "未标注",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.customer: 未标注→B2B(支付方)",
+     "reason": "实际付费方为Medicare Advantage/ACO等支付方，标未标注不实"
+    },
+    {
+     "action": "add",
+     "tag": "失智照护",
+     "reason": "核心场景为痴呆症照护，可补强tag_l2精准度"
+    }
+   ]
+  },
+  {
+   "serial": "#0480",
+   "name": "True Link Financial",
+   "intro": "为老年、残障及康复人群提供防金融欺诈的预付Visa卡与资产守护，覆盖25万+家庭。",
+   "old_tags": {
+    "tag_l1": [
+     "金融保险"
+    ],
+    "tag_l2": [
+     "金融理财"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "add",
+     "tag": "防欺诈",
+     "reason": "核心差异化为老年防金融欺诈，当前tag_l2仅金融理财未能体现"
+    },
+    {
+     "action": "change",
+     "tag": "business_tags.customer: B2C→B2C+B2B",
+     "reason": "亦服务受托人(fiduciaries)与机构客户"
+    }
+   ]
+  },
+  {
+   "serial": "#0483",
+   "name": "Wellthy",
+   "intro": "护理协调管家平台，以人类专家+技术为员工与家庭处理从养老到育儿的全生命周期照护事务。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "照护支持"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "tag_l2: 照护支持→养老照护/护理协调",
+     "reason": "更精准体现care concierge本质"
+    }
+   ]
+  },
+  {
+   "serial": "#0560",
+   "name": "Cala Health",
+   "intro": "FDA认证腕式神经调控设备公司，以TAPS疗法缓解特发性震颤与帕金森手颤，已获Medicare报销。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "可穿戴监测"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商→产品商",
+     "reason": "本质是FDA认证可穿戴医疗器械制造商"
+    },
+    {
+     "action": "change",
+     "tag": "tag_l1: 康复辅具→康复器械",
+     "reason": "神经调控处方设备归康复器械更准"
+    }
+   ]
+  },
+  {
+   "serial": "#0634",
+   "name": "Beta Bionics",
+   "intro": "自动化胰岛素输送系统(iLet仿生胰腺)制造商，首款FDA批准的闭环给药设备，2025年纳斯达克上市。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "医疗器械"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商→产品商",
+     "reason": "胰岛素泵医疗器械制造商"
+    },
+    {
+     "action": "add",
+     "tag": "慢病管理",
+     "reason": "聚焦糖尿病自动化管理"
+    }
+   ]
+  },
+  {
+   "serial": "#0642",
+   "name": "Bobbie",
+   "intro": "美国首个DTC订阅婴儿配方奶粉品牌，对标欧盟营养标准，与银发无关联，建议移出银发库。",
+   "old_tags": {
+    "tag_l1": [
+     "食品营养"
+    ],
+    "tag_l2": [
+     "营养食品"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.customer: B2B→B2C",
+     "reason": "实际为DTC订阅+零售消费品，非B2B"
+    },
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商(媒体/数据)→制造商(消费品)",
+     "reason": "角色为母婴食品制造商"
+    },
+    {
+     "action": "del",
+     "tag": "移出银发库",
+     "reason": "与银发无关联，建议作为非银发案例剔除"
+    }
+   ]
+  },
+  {
+   "serial": "#0717",
+   "name": "Grow Therapy",
+   "intro": "连接支付方、治疗师与雇主的心理健康平台，保险直付+虚拟诊疗，覆盖2.2亿人群，估值约30亿美元。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "心理健康"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "tag_l1: 养老服务→心理健康平台",
+     "reason": "category_l1误标为养老服务，实为心理健康平台"
+    },
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商→平台",
+     "reason": "连接支付方/治疗师/雇主的平台型"
+    }
+   ]
+  },
+  {
+   "serial": "#0722",
+   "name": "Harbor Health",
+   "intro": "德州奥斯汀垂直整合'支付+服务'的基层医疗集团(pay-vider)，承接Medicare并自办保险计划。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "诊所"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商(媒体/数据)→运营商",
+     "reason": "垂直整合支付+服务的医疗集团/运营商"
+    },
+    {
+     "action": "change",
+     "tag": "business_tags.customer: B2B→B2B+B2C",
+     "reason": "同时承接Medicare个人患者与支付方"
+    }
+   ]
+  },
+  {
+   "serial": "#0729",
+   "name": "Hello Heart",
+   "intro": "心血管数字健康公司，以无线血压计+APP+AI管理高血压，绑定MA与企业福利，效果对赌付费。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "可穿戴监测"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": [
+      "线上"
+     ]
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商(媒体/数据)→产品商",
+     "reason": "数字疗法硬件+APP产品商"
+    },
+    {
+     "action": "change",
+     "tag": "business_tags.customer: B2B→B2B+B2C",
+     "reason": "通过健康计划覆盖参保个人"
+    }
+   ]
+  },
+  {
+   "serial": "#0732",
+   "name": "Helper bees",
+   "intro": "居家养老'连接器'，整合2.5万+非医疗居家服务商，对接长护险/MA/Medicaid等43家支付方。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "护工平台"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商→平台",
+     "reason": "连接险企与居家服务商的平台型"
+    },
+    {
+     "action": "add",
+     "tag": "居家养老",
+     "reason": "核心为居家养老服务整合"
+    }
+   ]
+  },
+  {
+   "serial": "#0738",
+   "name": "Huel",
+   "intro": "英国完整营养代餐品牌，植物基粉剂/即饮，DTC订阅+零售混合，与银发无关联。",
+   "old_tags": {
+    "tag_l1": [
+     "食品营养"
+    ],
+    "tag_l2": [
+     "功能性食品"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "制造商(消费品)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "tag_l2: 功能性食品→代餐/完整营养",
+     "reason": "更准确反映品类"
+    }
+   ]
+  },
+  {
+   "serial": "#0743",
+   "name": "Incredible Health",
+   "intro": "护士职业发展/招聘平台，医院向护士反向发offer，20天速聘，服务1500家医院，建议移出银发库。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "护士派遣"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "tag_l1: 养老服务→医疗人力",
+     "reason": "category_l1误标，实为护士招聘平台"
+    },
+    {
+     "action": "change",
+     "tag": "business_tags.role: 服务商(媒体/数据)→平台",
+     "reason": "职业匹配平台"
+    }
+   ]
+  }
+ ],
+ "nonsilver": [
+  {
+   "serial": "#0634",
+   "name": "Beta Bionics",
+   "verdict": "泛医疗擦边",
+   "reason": "自动化胰岛素泵主要服务1型糖尿病，含部分老年慢病但非专攻银发，宜作医疗器械研发参照"
+  },
+  {
+   "serial": "#0642",
+   "name": "Bobbie",
+   "verdict": "非银发",
+   "reason": "婴儿配方奶粉，与老龄化/养老无任何关联，建议移出银发主库"
+  },
+  {
+   "serial": "#0717",
+   "name": "Grow Therapy",
+   "verdict": "泛医疗擦边",
+   "reason": "心理健康平台含老年抑郁人群，但主体非银发专营，对银发选题仅作泛医疗参照"
+  },
+  {
+   "serial": "#0722",
+   "name": "Harbor Health",
+   "verdict": "泛医疗擦边",
+   "reason": "基层医疗集团通过Medicare/MA服务老年群体，但非银发专营，仅作医险融合参照"
+  },
+  {
+   "serial": "#0738",
+   "name": "Huel",
+   "verdict": "非银发",
+   "reason": "完整营养代餐快消品，与银发无关联，建议移出银发主库"
+  },
+  {
+   "serial": "#0743",
+   "name": "Incredible Health",
+   "verdict": "非银发",
+   "reason": "护士招聘平台属医疗人力基础设施，与银发无直接关联，建议移出银发主库"
+  }
+ ]
+}

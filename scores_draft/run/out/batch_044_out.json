@@ -1,0 +1,731 @@
+{
+  "batch": 44,
+  "enterprises": [
+    {
+      "serial": "#0269",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "research_value": 27.7,
+      "recommend": {
+        "rec_v1": "信号弱但老药企可查；钙制剂仅个别银发品种，普药主业借鉴价值有限，银发库建议将其移出或单独标注。",
+        "rec_v2": "披露偏少热度低；葡萄糖酸钙非差异，创业者参考其制药意义不大，其模式对银发创业者无实质借鉴意义。",
+        "rec_v3": "信号不强资料够；实质泛医疗擦边，银发仅补钙单品，其复制价值偏低，后续可按非银发类别单独归类处理。",
+        "info_score": 4,
+        "diff_score": 3,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 27.7
+      },
+      "payor_model": "医保+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "钙制剂等西药制药企业",
+      "founded": 1956,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "始建于1956年",
+        "葡萄糖酸钙片用于老年补钙",
+        "产品远销欧美日本"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "普药制药企业，银发仅葡萄糖酸钙等个别品种"
+    },
+    {
+      "serial": "#0270",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号低但适老化改造可查；系统加商城加穿戴差异稳，政务改造模式可复制，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "资料中等热度低；甲子改造打法清晰，集成商能学其ToG适老整体方案，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强信息够；其智慧养老定位清，国内适老化服务商易落地照搬推进，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购（政府/机构）",
+      "business_tags_role": "服务商",
+      "desc_cn": "智慧养老与适老化改造科技服务商",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "智慧养老+适老化改造",
+        "业务含甲子商城与智能穿戴",
+        "服务政府适老化项目"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智慧养老与适老化改造服务银发群体"
+    },
+    {
+      "serial": "#0271",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 37.6,
+      "recommend": {
+        "rec_v1": "信号弱但A股4000品种可查；膳食补充剂同质化，保健品制造打法可参考，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "披露充分热度低；全家型营养无强差异，创业者能学其出口与产能体系，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强资料全；其银发营养定位清，国内保健代工赛道易复制切入做，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 37.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "全家型营养保健食品制造商（A股）",
+      "founded": 2005,
+      "stage": "已上市",
+      "events": [],
+      "highlights": [
+        "A股603102",
+        "4000余种膳食营养补充剂",
+        "出口70余国、中国驰名商标"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "营养保健食品服务老年营养补充"
+    },
+    {
+      "serial": "#0273",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 31.6,
+      "recommend": {
+        "rec_v1": "信号弱但中成药可查；血塞通等老年慢病药差异稳，制药路线可借鉴，银发库建议将其移出或单独标注。",
+        "rec_v2": "披露偏少热度低；老年心脑血管中成药打法清晰，药企能学其品类布局，其模式对银发创业者无实质借鉴意义。",
+        "rec_v3": "信号不强资料够；实质泛医疗擦边，银发仅部分品种，其复制价值中等，后续可按非银发类别单独归类处理。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 31.6
+      },
+      "payor_model": "医保+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "中成药制药企业，主产老年慢病用药",
+      "founded": 2010,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "河北迁安中成药企业",
+        "注册资本1.72亿元",
+        "主产血塞通/消栓通络等老年慢病药"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "中成药制药企业，仅部分品种服务老年慢病"
+    },
+    {
+      "serial": "#0274",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱但京东10万+可查；折叠老花镜差异稳，银发消费品打法可借鉴，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "资料中等热度低；中老年高清镜打法清晰，创业者能学其电商选品策略，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强信息够；其老视产品定位清，国内银发眼镜赛道易复制切入发力，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "中老年老花镜研发制造销售商",
+      "founded": 2004,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "2004年成立",
+        "专注老视镜研发生产",
+        "京东单品评论超10万+"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老花镜服务中老年视力退化人群"
+    },
+    {
+      "serial": "#0275",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号低但顺为源码投可查；智能代步车差异强，老年出行硬件可借鉴，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "披露较全热度弱；电动轮椅TOP1打法清晰，创业者能学其科技品牌打法，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强资料够；其老年出行定位清，国内智能辅具赛道易复制切入生长，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 45.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "老年智能代步车与轮椅科技品牌",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "获顺为、源码亿元级融资",
+        "智能代步车登天猫/京东TOP1",
+        "定位老年科技品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能代步车/轮椅服务老年出行"
+    },
+    {
+      "serial": "#0276",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 39.6,
+      "recommend": {
+        "rec_v1": "信号低但伽玛刀可查；肿瘤设备加康复医院差异稳，牌照制约其复制，银发库建议将其移出或单独标注。",
+        "rec_v2": "披露较全热度弱；永慈康复嵌老年照护独，创业者参考其医疗重资产路线，其模式对银发创业者无实质借鉴意义。",
+        "rec_v3": "信号不强资料够；实质泛医疗擦边，银发仅康复部分，其复制价值中等，后续可按非银发类别单独归类处理。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 39.6
+      },
+      "payor_model": "B端机构采购+政府医保",
+      "business_tags_role": "产品商",
+      "desc_cn": "肿瘤放疗设备与康复医疗服务商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "玛西普伽玛刀出口欧美",
+        "上海永慈康复医院承接老年照护",
+        "海尔体系肿瘤放疗设备"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "肿瘤放疗设备为主，康复与老年照护仅为部分业务"
+    },
+    {
+      "serial": "#0277",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号低但新三板600万会员可查；会员健康加适老改造差异稳，模式可复制，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "披露较全热度低；远程居家养老打法清晰，创业者能学其会员体系搭建，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强信息足；其中老年健康定位清，国内健康平台赛道易落地生长，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费（会员制）",
+      "business_tags_role": "服务商",
+      "desc_cn": "互联网+中老年健康管理与会员平台",
+      "founded": 2011,
+      "stage": "已上市",
+      "events": [],
+      "highlights": [
+        "新三板837667",
+        "服务会员超600万人次",
+        "互联网+中老年健康服务"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "互联网+中老年健康管理与适老化改造"
+    },
+    {
+      "serial": "#0278",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱但专精特新可查；生物活性肽原料B2B，间接服务银发借鉴有限，银发库建议将其移出或单独标注。",
+        "rec_v2": "资料中等热度低；肽原料无强差异，创业者参考其供应体系意义不大，其模式对银发创业者无实质借鉴意义。",
+        "rec_v3": "信号不强资料够；实质泛医疗擦边，银发仅间接，其复制价值偏低，后续可按非银发类别单独归类处理。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "生物活性肽原料研发生产商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "国家级专精特新企业",
+        "安徽淮北基地年产能6500吨",
+        "生物活性肽原料出口多国"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "生物活性肽原料B2B供应商，仅间接服务银发"
+    },
+    {
+      "serial": "#0279",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号低但62专利1.6万机构可查；用品全产业链差异强，集采模式可复制，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "披露较全热度弱；B端集采加政府改造双轨独，创业者能学其分销网络，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强信息足；其养老用品定位清，国内全产业链商易落地照搬推进，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 45.7
+      },
+      "payor_model": "B端机构采购+政府项目+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "养老用品全产业链集采与适老改造商",
+      "founded": 2022,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "拥有62项专利、3万㎡基地",
+        "服务1.6万+医康养机构",
+        "B端集采+政府改造+C端双轨"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老用品集采与适老化改造服务医康养机构"
+    },
+    {
+      "serial": "#0280",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号低但4亿粉丝可查；大健康IP加银发电商差异稳，内容带货可借鉴，银发库建议将其移出或单独标注。",
+        "rec_v2": "披露中等热度低；医疗IP孵化打法清晰，创业者能学其银发直播转化，其模式对银发创业者无实质借鉴意义。",
+        "rec_v3": "信号不强资料够；实质泛医疗擦边，银发为部分品类，其复制价值中等，后续可按非银发类别单独归类处理。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "大健康内容IP与银发电商运营商",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "抖音快手医疗健康IP粉丝超4亿",
+        "自营老花镜'不花时光'等银发品牌",
+        "获多轮融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "大健康内容生态运营商，银发仅为其部分品类"
+    },
+    {
+      "serial": "#0281",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 47.7,
+      "recommend": {
+        "rec_v1": "信号低但CGM国产第一可查；动态血糖加眼底AI差异强，创新器械可借鉴，其获客与定位思路对国内颇有参考价值。",
+        "rec_v2": "披露较全热度弱；80万糖友打法清晰，创业者能学其数字疗法产品矩阵，运营细节值得国内创业者拆解借鉴。",
+        "rec_v3": "信号不强信息足；其慢病监测定位清，国内医疗AI赛道易复制切入发力，该路径在国内的落地门槛与要点清晰。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 47.7
+      },
+      "payor_model": "个人自费+医保",
+      "business_tags_role": "产品商",
+      "desc_cn": "动态血糖仪与眼底AI诊断器械商",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "硅基动感CGM国产销量第一",
+        "服务超80万糖友、2600余家机构",
+        "眼底AI筛查+人工视网膜"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "动态血糖仪与眼底AI服务糖尿病老年群体"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0269",
+      "name": "瑞邦",
+      "intro": "瑞邦是钙制剂等西药制药企业（泛医疗）。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "医药",
+          "reason": "为制药企业，原tag_l1'消费品'不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0270",
+      "name": "甲子科技",
+      "intro": "甲子科技是智慧养老与适老化改造科技服务商。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "助行器",
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智慧养老SaaS",
+          "reason": "核心为养老运营系统"
+        }
+      ]
+    },
+    {
+      "serial": "#0271",
+      "name": "百合康",
+      "intro": "百合康是全家型营养保健食品制造商（A股）。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "维生素矿物质",
+          "膳食补充剂"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发营养",
+          "reason": "全家型但主服务中老年人群"
+        }
+      ]
+    },
+    {
+      "serial": "#0273",
+      "name": "百善药业",
+      "intro": "百善药业是中成药制药企业，主产老年慢病用药（泛医疗）。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "医药",
+          "reason": "中成药制药企业，原tag_l1'消费品'不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0274",
+      "name": "百年红",
+      "intro": "百年红是中老年老花镜研发制造销售商。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "眼镜"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "老花镜",
+          "reason": "专注老视镜研发生产"
+        }
+      ]
+    },
+    {
+      "serial": "#0275",
+      "name": "皮皮熊",
+      "intro": "皮皮熊是老年智能代步车与轮椅科技品牌。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅",
+          "助行器"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能代步车",
+          "reason": "核心为智能电动代步车"
+        }
+      ]
+    },
+    {
+      "serial": "#0276",
+      "name": "盈康生命",
+      "intro": "盈康生命布局肿瘤放疗设备与康复医疗服务（泛医疗）。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "肿瘤放疗设备",
+          "reason": "主业为伽玛刀等放疗设备"
+        }
+      ]
+    },
+    {
+      "serial": "#0277",
+      "name": "益生康健",
+      "intro": "益生康健是互联网+中老年健康管理与会员平台。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "远程护理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "健康管理",
+          "reason": "会员制健康管理为核心"
+        }
+      ]
+    },
+    {
+      "serial": "#0278",
+      "name": "盛美诺",
+      "intro": "盛美诺是生物活性肽原料研发生产商（泛医疗）。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "膳食补充剂"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "生物活性肽",
+          "reason": "专注活性肽原料研发生产"
+        }
+      ]
+    },
+    {
+      "serial": "#0279",
+      "name": "盛通养老",
+      "intro": "盛通养老是养老用品全产业链集采与适老改造商。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "适老化",
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老用品集采",
+          "reason": "B端机构集采为核心业务"
+        }
+      ]
+    },
+    {
+      "serial": "#0280",
+      "name": "知识矩阵",
+      "intro": "知识矩阵是大健康内容IP与银发电商运营商（泛医疗）。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发电商",
+          "reason": "自营老花镜等银发品牌"
+        }
+      ]
+    },
+    {
+      "serial": "#0281",
+      "name": "硅基仿生",
+      "intro": "硅基仿生研发动态血糖仪与眼底AI诊断器械。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养",
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "糖尿病",
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "动态血糖仪",
+          "reason": "核心为硅基动感CGM"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0269",
+      "name": "瑞邦",
+      "verdict": "泛医疗擦边",
+      "reason": "普药制药企业，银发仅葡萄糖酸钙等个别品种"
+    },
+    {
+      "serial": "#0273",
+      "name": "百善药业",
+      "verdict": "泛医疗擦边",
+      "reason": "中成药制药企业，仅部分品种服务老年慢病"
+    },
+    {
+      "serial": "#0276",
+      "name": "盈康生命",
+      "verdict": "泛医疗擦边",
+      "reason": "肿瘤放疗设备为主，康复与老年照护仅为部分业务"
+    },
+    {
+      "serial": "#0278",
+      "name": "盛美诺",
+      "verdict": "泛医疗擦边",
+      "reason": "生物活性肽原料B2B供应商，仅间接服务银发"
+    },
+    {
+      "serial": "#0280",
+      "name": "知识矩阵",
+      "verdict": "泛医疗擦边",
+      "reason": "大健康内容生态运营商，银发仅为其部分品类"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+ "batch": 20,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0873",
+   "name": "Sugar.fit",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "糖尿病"
+   ],
+   "description": "Sugar.fit（印度 Ragus Healthcare）是一款糖尿病逆转与肥胖管理 App，结合 CGM 连续血糖监测、医生/教练指导和 GLP-1 用药管理，以订阅制面向个人与雇主提供。亮点是把糖尿病管理做成可量化的'逆转'式数字疗程。",
+   "highlights": "解决2型糖尿病和糖尿病前期",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "500万美元",
+    "round": "A轮",
+    "display": "A轮 500万美元 (2024年3月)"
+   },
+   "funding_total": "$73.69M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sugar.fit",
+   "website_url": "https://www.sugarfit.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "Sugar.fit（印度 Ragus Healthcare）是一款糖尿病逆转与肥胖管理 App，结合 CGM 连续血糖监测、医生/教练指导和 GLP-1 用药管理，以订阅制面向个人与雇主提供。亮点是把糖尿病管理做成可量化的'逆转'式数字疗程。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "糖尿病"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Sugar.fit】聚焦产业资本/健康监测/慢病管理，解决2型糖尿病和糖尿病前期，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0875",
+   "name": "Switchboard Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护理协调"
+   ],
+   "description": "识别和协调高价值的专业护理服务",
+   "highlights": "识别和协调高价值的专业护理服务",
+   "funding_latest": {
+    "amount": "650万美元",
+    "round": "种子轮",
+    "display": "种子轮 650万美元"
+   },
+   "funding_total": "$14.2M",
+   "investors": [
+    "First Trust Capital Partners",
+    "Route 66 Ventures",
+    "InnovateHealth Ventures",
+    "Capital Eleven",
+    "Ikigai Growth Partners"
+   ],
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Switchboard%20Health",
+   "website_url": "https://www.switchboardhealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "识别和协调高价值的专业护理服务",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护理协调"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Switchboard Health】聚焦产业资本/居家护理/行业媒体，识别和协调高价值的专业护理服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0911",
+   "name": "Waterlily",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "护理协调"
+   ],
+   "description": "AI预测长期护理需求，个性化定制护理计划",
+   "highlights": "个性化定制护理计划",
+   "funding_latest": {
+    "date": "2025年1月",
+    "amount": "700万美元",
+    "round": "种子轮",
+    "display": "种子轮 700万美元 (2025年1月)"
+   },
+   "funding_total": "$7M",
+   "investors": [
+    "Brewer Lane Ventures"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Waterlily",
+   "website_url": "https://www.waterlilycare.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI预测长期护理需求，个性化定制护理计划",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护理协调"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Waterlily】聚焦产业资本/居家护理/文娱社交，个性化定制护理计划，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0925",
+   "name": "ŌURA",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "Oura智能戒指，收集20+种生物特征数据",
+   "highlights": "收集20+种生物特征数据",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "2亿美元",
+    "display": "2亿美元 (2024年12月)"
+   },
+   "funding_total": {
+    "amount": "$1.32B",
+    "display": "$1.32B (截至2025年)"
+   },
+   "investors": "Fidelity Management & Research Company, ICONIQ Capital, Temasek, Forerunner Ventures, The Chernin Group, Elysian Park, Dexcom, Square",
+   "founded": "2013",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%C5%8CURA",
+   "website_url": "https://ouraring.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Oura智能戒指，收集20+种生物特征数据",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 25,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Smart ring maker Oura raises $900M from Fidelity",
+      "date": "2025-10-14",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/10/14/smart-ring-maker-oura-raises-900m-from-fidelity/"
+     },
+     {
+      "title": "Oura reaches $11B valuation",
+      "date": "2025-10-14",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2025/10/14/oura-ringmaker-valuation-fundraise.html"
+     }
+    ],
+    "snippets": [
+     "Oura 智能戒指提供睡眠/心率/血氧等健康追踪,间接服务老年健康预防",
+     "2025年10月融资9亿美元,估值110亿美元,2024年收入超5亿美元"
+    ]
+   },
+   "name_cn": "欧若拉",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【ŌURA】聚焦产业资本/健康监测/智能硬件，收集20+种生物特征数据，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0968",
+   "name": "LambdaVision",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "视觉辅助"
+   ],
+   "description": "人工视网膜，用于治疗年龄相关性黄斑变性(AMD)等老年致盲性疾病。利用国际空间站微重力环境进行制造",
+   "highlights": "用于治疗年龄相关性黄斑变性(AMD)等老年致盲性疾病。利用国际空间站微重力环...",
+   "funding_latest": {
+    "date": "2025.11",
+    "amount": "700万美元",
+    "round": "种子轮",
+    "display": "种子轮 700万美元 (2025.11)"
+   },
+   "funding_total": "$7M",
+   "investors": [
+    "Seven Seven Six",
+    "Aurelia Foundry Fund",
+    "Seraphim Space"
+   ],
+   "founded": "2016",
+   "value_score": 33,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LambdaVision",
+   "website_url": "https://www.lambdavision.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "人工视网膜，用于治疗年龄相关性黄斑变性(AMD)等老年致盲性疾病。利用国际空间站微重力环境进行制造",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "视觉辅助"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【LambdaVision】聚焦产业资本/医疗器械/行业媒体，用于治疗年龄相关性黄斑变性(AMD)等老年致盲性疾病。利用国际空间站微重力环...，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0972",
+   "name": "NewDays",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+   "highlights": "提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合...",
+   "funding_latest": {
+    "date": "2025.09",
+    "amount": "700万美元",
+    "round": "种子轮",
+    "display": "种子轮 700万美元 (2025.09)"
+   },
+   "funding_total": "$11.5M",
+   "investors": [
+    "General Catalyst",
+    "Madrona"
+   ],
+   "founded": "2022",
+   "value_score": 33,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NewDays",
+   "website_url": "https://www.newdays.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "核心是AI伴侣Sunny，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合。虚拟治疗预约(接受保险支付)+AI伴侣家庭作业(每...",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【NewDays】聚焦产业资本/文娱社交/认知症，提供非药物干预的认知康复和认知刺激疗法。将AI驱动的伴侣与人类临床监督相结合...，B2B+B2C模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "name": "Age Care Labs",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家照护平台",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "印度居家养老平台，运营Emoha与Epoch Elder Care两大品牌，提供居家与机构照护服务。2026年7月完成900万美元B1轮增长融资（Shrem Group领投）。",
+   "desc_cn": "印度居家养老平台，运营Emoha与Epoch Elder Care两大品牌，提供居家与机构照护服务。2026年7月完成900万美元B1轮增长融资（Shrem Group领投）。",
+   "highlights": "900万美元B1轮，印度居家养老龙头（Emoha/Epoch）",
+   "funding_latest": {
+    "amount": "900万美元",
+    "round": "B1轮",
+    "date": "2026-07",
+    "display": "B1轮 900万美元 (2026-07)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "Shrem Group, Rainmatter",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Age+Care+Labs",
+   "website_url": "https://www.emoha.com",
+   "business_model": "B2C/B2B 居家与机构养老综合服务",
+   "business_model_cn": "B2C/B2B 居家与机构养老综合服务",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "印度居家养老平台，运营Emoha与Epoch Elder Care两大品牌，提供居家与机构照护服务。2026年7月完成900万美元B1轮增长融资（Shrem Group领投）。"
+    ]
+   },
+   "serial": "#1190",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Age Care Labs】聚焦产业资本/居家护理，900万美元B1轮，印度居家养老龙头（Emoha/Epoch），B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#1308",
+   "name": "BetterAge",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康管理与预防",
+   "category_l2": "个性化健康项目",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "面向老年人的个性化网页端健康与福祉改善项目，用数据生成定制化健康路径。成立于2020年，纽约；获NIH/美国国家衰老研究所(NIA)550万美元资助。",
+   "highlights": "以'数据驱动的个性化健康路径'切入健康老龄化预防，资金来自NIH/NIA具公信力；对国内'主动健康/老年健康管理'产品有参考价值（S4）。",
+   "funding_latest": {
+    "amount": "550万美元",
+    "round": "政府资助(Grant)",
+    "date": "",
+    "display": "政府资助(Grant) 550万美元"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "NIH, National Institute on Aging",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BetterAge",
+   "website_url": "https://betterage.net",
+   "business_model": "B2C/B2B personalized web-based health & wellbeing program for older adults using data to build customized health paths.",
+   "desc_cn": "面向老年人的个性化网页端健康与福祉改善项目，用数据生成定制化健康路径。成立于2020年，纽约；获NIH/美国国家衰老研究所(NIA)550万美元资助。",
+   "business_model_cn": "B2C/B2B 个性化老年健康项目",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向老年人的个性化网页端健康与福祉改善项目，用数据生成定制化健康路径。成立于2020年，纽约；获NIH/美国国家衰老研究所(NIA)550万美元资助。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【BetterAge】聚焦健康管理，以'数据驱动的个性化健康路径'切入健康老龄化预防，资金来自NIH/NIA具公信力；对国内'主动健康/老年健康管理'产品有参考价值（S4）。，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#1314",
+   "name": "Watcherr",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件/监测",
+   "category_l2": "跌倒/行为监测",
+   "tags": [
+    "跌倒监测",
+    "远程医疗",
+    "智能硬件"
+   ],
+   "description": "养老远程监测公司，通过传感/AI监测老人活动与安全。成立于2016年；累计融资约890万美元。",
+   "highlights": "远程行为/安全监测是智慧养老高频刚需；对国内'无感监测'硬件有借鉴（S4）。",
+   "funding_latest": {
+    "amount": "约890万美元",
+    "round": "未披露",
+    "date": "",
+    "display": "未披露 约890万美元"
+   },
+   "funding_total": {
+    "amount": "累计约890万美元",
+    "display": "累计约890万美元"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Watcherr",
+   "website_url": "https://watcherr.com",
+   "business_model": "Remote monitoring company using sensors/AI to track elder activity and safety.",
+   "desc_cn": "养老远程监测公司，通过传感/AI监测老人活动与安全。成立于2016年；累计融资约890万美元。",
+   "business_model_cn": "老人远程安全监测",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "养老远程监测公司，通过传感/AI监测老人活动与安全。成立于2016年；累计融资约890万美元。"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具",
+    "养老服务",
+    "消费品"
+   ],
+   "tag_l2": [
+    "跌倒监测",
+    "远程医疗",
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Watcherr】聚焦产业资本/健康监测，远程行为/安全监测是智慧养老高频刚需；对国内'无感监测'硬件有借鉴（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#1315",
+   "name": "Cuidum",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家照护平台",
+   "tags": [
+    "护工平台",
+    "居家护理"
+   ],
+   "description": "西班牙居家照护平台，连接家庭与照护资源。成立于2015年；累计融资约190万欧元（二次市场）。",
+   "highlights": "西班牙居家照护平台样本，对照国内'居家养老运营'赛道（S4）。",
+   "funding_latest": {
+    "amount": "约190万欧元",
+    "round": "二次市场",
+    "date": "",
+    "display": "二次市场 约190万欧元"
+   },
+   "funding_total": {
+    "amount": "累计约190万欧元",
+    "display": "累计约190万欧元"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cuidum",
+   "website_url": "https://www.cuidum.com",
+   "business_model": "Home care platform connecting families with care resources (Spain).",
+   "desc_cn": "西班牙居家照护平台，连接家庭与照护资源。成立于2015年；累计融资约190万欧元（二次市场）。",
+   "business_model_cn": "居家照护平台(西班牙)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "西班牙居家照护平台，连接家庭与照护资源。成立于2015年；累计融资约190万欧元（二次市场）。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cuidum】聚焦产业资本/居家护理，西班牙居家照护平台样本，对照国内'居家养老运营'赛道（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#1338",
+   "name": "MapHabit",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "认知症",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "视觉映射辅助，支持 AD/痴呆日常认知训练。",
+   "highlights": "成立于2016年",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露大额",
+    "round": "成长",
+    "display": "营收约$5.1M(未披露大额融资)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "信源治理入库(AgeTech) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.maphabit.com",
+   "business_model": "B2B SaaS",
+   "desc_cn": "视觉映射辅助，支持 AD/痴呆日常认知训练。",
+   "business_model_cn": "B2B 认知辅助",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0015",
+   "name": "安杰莱",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "外骨骼"
+   ],
+   "description": "医疗机器人企业，专注于康复外骨骼机器人研发，为卒中、脊髓损伤等患者提供下肢康复训练方案。",
+   "highlights": "专注于康复外骨骼机器人研发",
+   "funding_latest": {
+    "date": "2024",
+    "amount": "数千万融资",
+    "round": "多轮",
+    "display": "多轮 数千万融资 (2024)"
+   },
+   "funding_total": {
+    "amount": "数千万",
+    "display": "累计数千万"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 41,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%AE%89%E6%9D%B0%E8%8E%B1",
+   "website_url": "https://rehab.angelexo.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "name_cn": "安杰莱",
+   "desc_cn": "医疗机器人企业，专注于康复外骨骼机器人研发，为卒中、脊髓损伤等患者提供下肢康复训练方案。",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "安杰莱科技完成数千万Pre-A融资",
+      "date": "2025",
+      "source": "安杰莱官网",
+      "url": "https://rehab.angelexo.com/newsinfo/2655251.html"
+     },
+     {
+      "title": "安杰莱科技获高交会科技创新奖",
+      "date": "2025-11-19",
+      "source": "搜狐",
+      "url": "https://www.sohu.com/a/956256890_121627717"
+     }
+    ],
+    "snippets": [
+     "安杰莱(杭州)专注神经康复智能外骨骼机器人,融合AI与脑机接口",
+     "LiteStepper单下肢康复机器人入选河南省首台(套)重大技术装备目录"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【安杰莱】聚焦产业资本/康复/智能硬件，专注于康复外骨骼机器人研发，B2B+B2C模式，研究价值分41。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  }
+ ]
+}

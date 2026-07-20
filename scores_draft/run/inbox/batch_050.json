@@ -1,0 +1,474 @@
+{
+ "batch": 50,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0342",
+   "name": "达晨财智",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "达晨财智是国内领先的本土创投机构，管理资产规模超350亿元，在医疗健康和养老产业有多个投资布局。",
+   "highlights": "领先本土创投，管理350亿+资产",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2000",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BE%BE%E6%99%A8%E8%B4%A2%E6%99%BA",
+   "website_url": "https://www.fortunevc.com",
+   "business_model": "银发经济企业",
+   "name_cn": "达晨财智",
+   "desc_cn": "达晨财智是国内领先的本土创投机构，管理资产规模超350亿元，在医疗健康和养老产业有多个投资布局。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【达晨财智】聚焦产业资本，领先本土创投，管理350亿+资产，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0343",
+   "name": "达风投资",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "达风私募基金管理有限公司（中颐达康旗下）专注医疗养老与生物医药投资，在管基金余额超200亿元，曾获人民日报“最佳养老投资机构”，投资案例包括锦欣福星康养、绿康医养等。",
+   "highlights": "产业资本领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BE%BE%E9%A3%8E%E6%8A%95%E8%B5%84",
+   "website_url": "https://www.dkcapital.cn",
+   "business_model": "银发经济企业",
+   "name_cn": "达风投资",
+   "desc_cn": "达风私募基金管理有限公司（中颐达康旗下）专注医疗养老与生物医药投资，在管基金余额超200亿元，曾获人民日报“最佳养老投资机构”，投资案例包括锦欣福星康养、绿康医养等。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【达风投资】聚焦产业资本，产业资本领域企业，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0344",
+   "name": "迈德斯特",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "护理床"
+   ],
+   "description": "浙江迈德斯特医疗器械专注适老化康复医疗器械，主打智能护理床、防褥疮气床垫、移位机与老年代步车，护理床产能居国内前列，产品销往50多国，服务超百万用户。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BF%88%E5%BE%B7%E6%96%AF%E7%89%B9",
+   "website_url": "https://www.mateside.cn",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "迈德斯特",
+   "desc_cn": "浙江迈德斯特医疗器械专注适老化康复医疗器械，主打智能护理床、防褥疮气床垫、移位机与老年代步车，护理床产能居国内前列，产品销往50多国，服务超百万用户。",
+   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "护理床"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【迈德斯特】聚焦智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0345",
+   "name": "远方好物",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "电商"
+   ],
+   "description": "广州蜂群互联网科技旗下私域电商“远方好物”（2022年上线），定位“让孩子放心吃的健康安全食品平台”，以S2B2C模式做有机/无添加食品，会员超200万，强调透明工厂与第三方SGS检测。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BF%9C%E6%96%B9%E5%A5%BD%E7%89%A9",
+   "website_url": "https://www.ifengqun.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "远方好物",
+   "desc_cn": "广州蜂群互联网科技旗下私域电商“远方好物”（2022年上线），定位“让孩子放心吃的健康安全食品平台”，以S2B2C模式做有机/无添加食品，会员超200万，强调透明工厂与第三方SGS检测。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【远方好物】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0346",
+   "name": "远洋椿萱茂",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "CCRC"
+   ],
+   "description": "远洋集团旗下高端养老品牌椿萱茂（2012年创立），引入美国CCRC/CLRC持续照料模式，在全国8城运营近30个连锁机构、超1.1万张床位，涵盖长者社区、老年公寓与护理院。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BF%9C%E6%B4%8B%E6%A4%BF%E8%90%B1%E8%8C%82",
+   "website_url": "https://www.chunxuanmao.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "远洋椿萱茂",
+   "desc_cn": "远洋集团旗下高端养老品牌椿萱茂（2012年创立），引入美国CCRC/CLRC持续照料模式，在全国8城运营近30个连锁机构、超1.1万张床位，涵盖长者社区、老年公寓与护理院。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "CCRC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【远洋椿萱茂】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0347",
+   "name": "迪马常青社",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "迪马股份旗下康养品牌迪马常青社，布局川渝、环沪、华中三大区域，运营新鸿乐养社区、学苑医养中心等医养结合项目，床位超2000张，提供机构养老与社区居家服务。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BF%AA%E9%A9%AC%E5%B8%B8%E9%9D%92%E7%A4%BE",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "迪马常青社",
+   "desc_cn": "迪马股份旗下康养品牌迪马常青社，布局川渝、环沪、华中三大区域，运营新鸿乐养社区、学苑医养中心等医养结合项目，床位超2000张，提供机构养老与社区居家服务。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【迪马常青社】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0348",
+   "name": "退休俱乐部",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "兴趣社群"
+   ],
+   "description": "上海东犁文化运营的中老年社交娱乐服务平台“退休俱乐部”，以电视栏目《我们退休啦》、微信公众号与线下旅行社为载体，提供旅游、聚会、电商与兴趣活动，累计服务超300万用户，获亿元级B轮融资。",
+   "highlights": "老年文娱领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2023",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%80%80%E4%BC%91%E4%BF%B1%E4%B9%90%E9%83%A8",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "退休俱乐部",
+   "desc_cn": "上海东犁文化运营的中老年社交娱乐服务平台“退休俱乐部”，以电视栏目《我们退休啦》、微信公众号与线下旅行社为载体，提供旅游、聚会、电商与兴趣活动，累计服务超300万用户，获亿元级B轮融资。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【退休俱乐部】聚焦文娱社交，老年文娱领域企业，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0349",
+   "name": "通策医疗",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "诊所"
+   ],
+   "description": "通策医疗（600763）是国内口腔医疗服务龙头，以“区域总院+分院”模式运营杭州口腔医院、宁波口腔医院等近90家机构，业务涵盖种植、正畸、儿科与修复，老年种植修复为细分增长点。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1995",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%80%9A%E7%AD%96%E5%8C%BB%E7%96%97",
+   "website_url": "",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "通策医疗",
+   "desc_cn": "通策医疗（600763）是国内口腔医疗服务龙头，以“区域总院+分院”模式运营杭州口腔医院、宁波口腔医院等近90家机构，业务涵盖种植、正畸、儿科与修复，老年种植修复为细分增长点。",
+   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【通策医疗】聚焦智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0350",
+   "name": "遇禾规划",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "北京遇禾规划设计咨询专注适老化设计与养老产业规划，提供建筑设计、室内与园林景观及适老化产品配套，服务恒大、万科、保利等地产与央企的康养项目。",
+   "highlights": "适老化改造领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%81%87%E7%A6%BE%E8%A7%84%E5%88%92",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "遇禾规划",
+   "desc_cn": "北京遇禾规划设计咨询专注适老化设计与养老产业规划，提供建筑设计、室内与园林景观及适老化产品配套，服务恒大、万科、保利等地产与央企的康养项目。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【遇禾规划】聚焦居家护理/智能硬件/适老化改造，适老化改造领域企业，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0351",
+   "name": "遇见美好",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "旅游"
+   ],
+   "description": "遇见美好文旅科技集团（2001年创立）专注中老年文旅与社交，以“旅行+主题游”、会员俱乐部与专列游（如“遇见美好号”）为核心，提出“做自己、交朋友、看世界、享快乐”的50+新文化，服务超50万客户。",
+   "highlights": "老年文娱领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2001",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%81%87%E8%A7%81%E7%BE%8E%E5%A5%BD",
+   "website_url": "https://www.yujianmeihao.net",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "遇见美好",
+   "desc_cn": "遇见美好文旅科技集团（2001年创立）专注中老年文旅与社交，以“旅行+主题游”、会员俱乐部与专列游（如“遇见美好号”）为核心，提出“做自己、交朋友、看世界、享快乐”的50+新文化，服务超50万客户。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【遇见美好】聚焦文娱社交，老年文娱领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0352",
+   "name": "郑远元",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "中医养生"
+   ],
+   "description": "陕西郑远元专业修脚保健服务集团（远元集团）以“郑氏传统修脚术”（陕西非遗）为核心的足部健康连锁品牌，全国门店超9000家并拓展海外，主打修脚养生并向大健康延伸。",
+   "highlights": "健康服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%83%91%E8%BF%9C%E5%85%83",
+   "website_url": "https://www.zhengyuanyuan.com.cn",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "郑远元",
+   "desc_cn": "陕西郑远元专业修脚保健服务集团（远元集团）以“郑氏传统修脚术”（陕西非遗）为核心的足部健康连锁品牌，全国门店超9000家并拓展海外，主打修脚养生并向大健康延伸。",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "中医养生"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【郑远元】聚焦健康管理，健康服务领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0353",
+   "name": "金牌护士",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护士上门"
+   ],
+   "description": "北京美鑫科技旗下互联网护理品牌“金牌护士”，以“护士上门”为特色提供居家护理、康复、陪诊与安宁疗护，平台与全国14省市医院合作，覆盖近1300个区县。",
+   "highlights": "养老服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%87%91%E7%89%8C%E6%8A%A4%E5%A3%AB",
+   "website_url": "https://www.goldnurse.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "金牌护士",
+   "desc_cn": "北京美鑫科技旗下互联网护理品牌“金牌护士”，以“护士上门”为特色提供居家护理、康复、陪诊与安宁疗护，平台与全国14省市医院合作，覆盖近1300个区县。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士上门"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【金牌护士】聚焦专业护理/居家护理，养老服务领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

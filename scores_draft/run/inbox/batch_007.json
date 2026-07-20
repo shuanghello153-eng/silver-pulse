@@ -1,0 +1,855 @@
+{
+ "batch": 7,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0919",
+   "name": "YgEia3",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "与公司合作开发全面健康测试",
+   "highlights": "与公司合作开发全面健康测试",
+   "funding_latest": {
+    "date": "2023年5月",
+    "amount": "4.83亿英镑",
+    "round": "私募股权",
+    "display": "私募股权 4.83亿英镑 (2023年5月)"
+   },
+   "funding_total": "$553M",
+   "investors": [
+    "SHUAA Capital",
+    "Kinnick Holding"
+   ],
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=YgEia3",
+   "website_url": "https://www.ygeia3.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "与公司合作开发全面健康测试",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【YgEia3】聚焦产业资本/保健品/健康管理，与公司合作开发全面健康测试，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "name": "太医管家",
+   "name_cn": "太医管家",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "家庭医生平台",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "以家庭医生为入口的一站式管理式医疗服务平台，汇集优质医疗资源满足用户健康管理需求。获9.2亿元战略轮融资（上海国际资管等参与）。",
+   "desc_cn": "以家庭医生为入口的一站式管理式医疗服务平台，汇集优质医疗资源满足用户健康管理需求。获9.2亿元战略轮融资（上海国际资管等参与）。",
+   "highlights": "9.2亿元战略轮，家庭医生入口的管理式医疗",
+   "funding_latest": {
+    "amount": "9.2亿元",
+    "round": "战略轮",
+    "date": "2024",
+    "display": "战略轮 9.2亿元 (2024)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "上海国际资管",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=太医管家",
+   "website_url": "https://www.taiyiguanjia.com",
+   "business_model": "B2B2C 家庭医生+管理式医疗平台",
+   "business_model_cn": "B2B2C 家庭医生+管理式医疗平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "以家庭医生为入口的一站式管理式医疗服务平台，汇集优质医疗资源满足用户健康管理需求。获9.2亿元战略轮融资（上海国际资管等参与）。"
+    ]
+   },
+   "serial": "#1197",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【太医管家】聚焦产业资本/远程医疗，9.2亿元战略轮，家庭医生入口的管理式医疗，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#1310",
+   "name": "AIM",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能诊断",
+   "category_l2": "AI医学影像",
+   "tags": [
+    "心血管",
+    "AI医疗"
+   ],
+   "description": "台湾AI医疗影像公司，分析既有胸部X光与CT，早期筛查老年人骨质疏松、心血管等慢性病。成立于2020年，台北；获1.25亿新台币种子融资。",
+   "highlights": "用'已有的X光/CT'做老年慢病早筛，部署成本低、易规模化；对国内基层'老年疾病早筛'有强借鉴（S4国内可比+S2有融资）。",
+   "funding_latest": {
+    "amount": "1.25亿新台币",
+    "round": "种子轮",
+    "date": "",
+    "display": "种子轮 1.25亿新台币"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "WI Harper Group, Cathay Venture, BE Healthcare Ventures 等",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AIM+Medical+Taiwan",
+   "website_url": "https://www.aimfolds.com",
+   "business_model": "AI software analyzing existing chest X-rays/CT to enable early diagnosis of osteoporosis and cardiovascular disease in elderly.",
+   "desc_cn": "台湾AI医疗影像公司，分析既有胸部X光与CT，早期筛查老年人骨质疏松、心血管等慢性病。成立于2020年，台北；获1.25亿新台币种子融资。",
+   "business_model_cn": "AI医学影像早筛(老年骨质疏松/心血管)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "台湾AI医疗影像公司，分析既有胸部X光与CT，早期筛查老年人骨质疏松、心血管等慢性病。成立于2020年，台北；获1.25亿新台币种子融资。"
+    ]
+   },
+   "tag_l1": [
+    "消费品",
+    "行业服务"
+   ],
+   "tag_l2": [
+    "心血管",
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【AIM】聚焦产业资本，用'已有的X光/CT'做老年慢病早筛，部署成本低、易规模化；对国内基层'老年疾病早筛'有强借鉴（S4国内可比+S2有融资）。。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#1317",
+   "name": "PointClickCare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "长期照护SaaS",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "面向长期照护与急性期后护理机构的云端软件平台，打通临床、财务与运营数据。成立于1995年，加拿大；累计融资约2.97亿加元；2026-05 扩展 AI 产品 Chart Advisor 至 senior living 场景。",
+   "highlights": "北美长期照护领域头部EHR/SaaS，是'养老信息化'的成熟范本，对国内养老机构数字化有直接对标价值（S1规模大+S4）。",
+   "funding_latest": {
+    "amount": "2.97亿加元",
+    "round": "二次市场",
+    "date": "",
+    "display": "二次市场 2.97亿加元"
+   },
+   "funding_total": {
+    "amount": "累计约2.97亿加元",
+    "display": "累计约2.97亿加元"
+   },
+   "investors": "Hellman & Friedman, JMI Equity, Dragoneer",
+   "founded": "1995",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PointClickCare",
+   "website_url": "http://www.pointclickcare.com",
+   "business_model": "Cloud EHR/SaaS platform for long-term and post-acute care providers, integrating clinical, financial, operational data.",
+   "desc_cn": "面向长期照护与急性期后护理机构的云端软件平台，打通临床、财务与运营数据。成立于1995年，加拿大；累计融资约2.97亿加元。",
+   "business_model_cn": "长期照护云端EHR/SaaS",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向长期照护与急性期后护理机构的云端软件平台，打通临床、财务与运营数据。成立于1995年，加拿大；累计融资约2.97亿加元。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【PointClickCare】聚焦产业资本/照护系统，北美长期照护领域头部EHR/SaaS，是'养老信息化'的成熟范本，对国内养老机构数字化有直接对标价值（S1规模大+S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#0791",
+   "name": "Monogram Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "专业护理",
+    "居家护理"
+   ],
+   "description": "多种慢性疾病居家护理，2023年收入近22亿美元",
+   "highlights": "2023年收入近22亿美元",
+   "funding_latest": {
+    "date": "2023年",
+    "amount": "3.75亿美元",
+    "round": "C轮",
+    "display": "C轮 3.75亿美元 (2023年)"
+   },
+   "funding_total": {
+    "amount": "$542M",
+    "display": "$542M (截至2025年)"
+   },
+   "investors": "TPG, CVS Health Ventures, Cigna Ventures, Humana, Memorial Hermann Health System, SCAN Health Plan, Heritage Group, Pura Vida Investments, Norwest Venture Partners, Frist Cressey Ventures",
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Monogram%20Health",
+   "website_url": "https://www.monogramhealth.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "多种慢性疾病居家护理，2023年收入近22亿美元",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "news_coverage": {
+    "news_count": 15,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Monogram Health Closes $375M Growth Capital Raise",
+      "date": "2023-01-10",
+      "source": "TPG / Marketscreener",
+      "url": "https://www.marketscreener.com/quote/stock/TPG-INC-131624703/news/TPG-Monogram-Health-Closes-375M-Growth-Capital-Raise-to-Support-Continued-Expansion-of-Innovative-42694593/"
+     },
+     {
+      "title": "Monogram Health与Memorial Hermann启动合资企业",
+      "date": "2025-03-04",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/intelDetail/682467"
+     }
+    ],
+    "snippets": [
+     "Monogram Health 为慢病/多发病患者提供居家循证护理与福利管理,主要服务 Medicare Advantage 人群",
+     "2023年完成3.75亿美元成长轮融资,投资人覆盖全美超30% MA 会员"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "专业护理",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Monogram Health】聚焦产业资本/居家护理/慢病管理，2023年收入近22亿美元，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 5.05
+  },
+  {
+   "serial": "#0853",
+   "name": "Sidecar Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "Sidecar Health sells affordable, transparent health insurance that gives members a Visa benefit card to pay clinicians directly at negotiated rates, letting them shop for care without network restrictions.",
+   "highlights": [
+    "透明定价+无网络限制健康险",
+    "Visa福利卡直付、会员按节省分润",
+    "2021成独角兽，覆盖44+州"
+   ],
+   "funding_latest": {
+    "round": "D轮",
+    "amount": "1.65亿美元",
+    "currency": "USD",
+    "date": "2024-06",
+    "display": "D轮 1.65亿美元 (2024-06)",
+    "investors": [
+     "Koch Disruptive Technologies",
+     "GreatPoint Ventures",
+     "BOND Capital",
+     "Menlo Ventures",
+     "Drive Capital"
+    ]
+   },
+   "funding_total": {
+    "amount": "约3亿美元",
+    "display": "累计约3亿美元(独角兽)"
+   },
+   "investors": [
+    "Koch Disruptive Technologies",
+    "GreatPoint Ventures",
+    "BOND Capital",
+    "Menlo Ventures",
+    "Drive Capital"
+   ],
+   "founded": "2018",
+   "value_score": 57,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sidecar%20Health",
+   "website_url": "https://www.sidecarhealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "直接面向雇主的透明定价健康险运营商（ACA合规重大医疗险），会员持Sidecar Health Visa福利卡按协商价直接向诊所付费，无网络限制、无事先授权；2021年成独角兽，2024-06完成1.65亿美元D轮，覆盖44+州。",
+   "business_model_cn": "保费收入",
+   "news_coverage": {
+    "news_count": 18,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Sidecar Health Raises $165M Series D",
+      "date": "2024-06-27",
+      "source": "InsurtechX",
+      "url": "https://www.insurtechx.io/p/sidecar-health-secures-165-million-in-series-d-funding"
+     },
+     {
+      "title": "凯辉基金加码,美国保险科技公司Sidecar Health获1.65亿美元D轮",
+      "date": "2024-09-09",
+      "source": "凯辉资本",
+      "url": "https://www.cathaycapital.com/cn/%e5%87%af%e8%be%89%e5%9f%ba%e9%87%91%e5%8a%a0%e7%a0%81%ef%bc%8c%e7%be%8e%e5%9b%bd%e4%bf%9d%e9%99%a9%e7%a7%91%e6%8a%80%e5%85%ac%e5%8f%b8-sidecar-health-%e8%8e%b7%e5%be%971-65-%e4%ba%bf%e7%be%8e/"
+     }
+    ],
+    "snippets": [
+     "Sidecar Health 为雇主与员工提供透明化健康保险计划",
+     "2024年6月完成1.65亿美元D轮,由 Koch Disruptive Technologies 领投"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "信息量中高（保险科技媒体+融资库），差异化极强：“去网络、透明定价、会员按节省分润”颠覆传统HMO/PPO，但规模化挑战大。中国商业健康险以社保补充+百万医疗险为主，缺乏“无网络透明直付+会员分润”模式、雇主直付福利不成熟，支付方结构差异极大，直接平移难度高——其“透明定价+分润”机制本身值得借鉴。",
+   "payor_model": "商业保险/雇主福利(B端)：雇主赞助保险，会员用Visa福利卡直付并按节省分润",
+   "signal_strength": 5.05,
+   "info_score": 7,
+   "diff_score": 8,
+   "copy_score": 3,
+   "research_value": 58.1,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0872",
+   "name": "Strive Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "价值型肾脏护理领域全国领导者",
+   "highlights": [
+    "价值导向肾脏护理全国龙头",
+    "D轮5.5亿美元(2025-09)，估值18亿",
+    "管理近50亿美元年医疗支出、14.5万+患者",
+    "临床实证：总医疗成本降 20%、住院降 41%"
+   ],
+   "funding_latest": {
+    "round": "D轮",
+    "amount": "5.5亿美元(3亿股权+2.5亿债务)",
+    "currency": "USD",
+    "date": "2025-09",
+    "display": "D轮 5.5亿美元 (2025-09)",
+    "investors": [
+     "NEA",
+     "CVS Health Ventures",
+     "CapitalG",
+     "Echo Health Ventures",
+     "Redpoint"
+    ]
+   },
+   "funding_total": {
+    "amount": "约7亿美元",
+    "display": "累计约7亿美元"
+   },
+   "investors": [
+    "NEA",
+    "CVS Health Ventures",
+    "CapitalG",
+    "Echo Health Ventures",
+    "Redpoint"
+   ],
+   "founded": "2018",
+   "value_score": 54,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Strive%20Health",
+   "website_url": "https://www.strivehealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "美国价值导向(value-based)肾脏护理全国领导者，用AI+现场护理团队为CKD→ESKD全旅程患者提供早期干预，按价值医疗合同向健康计划与医疗系统收费；2025-09完成5.5亿美元D轮（3亿股权+2.5亿债务），估值18亿美元，管理近50亿美元年医疗支出、服务14.5万+患者。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 16,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Strive Health Raises $550M Series D",
+      "date": "2025-09-09",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20250909153045/en/Strive-Health-Raises-%24550-Million-in-Series-D-Funding"
+     },
+     {
+      "title": "Strive Health lands $550M to build AI tools",
+      "date": "2025-09-09",
+      "source": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/strive-health-lands-550m-investment-build-out-ai-tools-grow-multi-specialty-services"
+     }
+    ],
+    "snippets": [
+     "Strive Health 是美国领先的价值导向肾脏护理公司",
+     "2025年9月完成5.5亿美元D轮(3亿股权+2.5亿债务),估值18亿美元"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "信息丰富（财务与临床成效披露充分：降本20%、住院降41%），但VBC肾脏护理模式稳健、规模化扩张无剧烈起落，反共识性低。中国肾病慢病管理（智云健康、京东健康）有同类，但按价值付费(VBC)的支付环境差异大、风险承担机制缺失，难直接平移——重点看其“风险分层+现场护理”如何绑定支付方分成。",
+   "payor_model": "混合（商业保险+政府Medicare/MA，通过风险/价值医疗合同向健康计划与医疗系统收费）",
+   "signal_strength": 5.05,
+   "info_score": 8,
+   "diff_score": 4,
+   "copy_score": 4,
+   "research_value": 55.1,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0915",
+   "name": "Wheel",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "Wheel 是一家虚拟医疗基础设施公司，既运营可弹性调用的临床医生网络，也为企业提供白标远程问诊平台，按平台与接诊量向企业收费。亮点是把'虚拟医疗能力'做成可嵌入各类产品的底层服务。",
+   "highlights": "帮助临床工作人员的虚拟护理平台",
+   "funding_latest": {
+    "date": "2022年2月",
+    "amount": "1.5亿美元",
+    "round": "C轮",
+    "display": "C轮 1.5亿美元 (2022年2月)"
+   },
+   "funding_total": {
+    "amount": "$216M",
+    "display": "$216M (截至2025年)"
+   },
+   "investors": "Lightspeed Venture Partners, Tiger Global, CRV, Coatue, Salesforce Ventures, Tusk Venture Partners, Silverton Partners",
+   "founded": "2018",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wheel",
+   "website_url": "https://www.wheel.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Wheel 是一家虚拟医疗基础设施公司，既运营可弹性调用的临床医生网络，也为企业提供白标远程问诊平台，按平台与接诊量向企业收费。亮点是把'虚拟医疗能力'做成可嵌入各类产品的底层服务。",
+   "business_model_cn": "B2C/B2B 专业护理服务",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Wheel Raises $150M Series C",
+      "date": "2021",
+      "source": "MedHealth Outlook",
+      "url": "https://medhealthoutlook.com/wheel-raises-150-million-in-series-c-plans-on-moving-from-telehealth-to-virtual-first-care/"
+     },
+     {
+      "title": "Wheel 2026 Company Profile",
+      "date": "2026",
+      "source": "Tracxn",
+      "url": "https://tracxn.com/d/companies/wheel/__lHaxYDWFtVR4Yej6PzOjTMiNdzUJCwUZU4GCeCFY-Cs"
+     }
+    ],
+    "snippets": [
+     "Wheel 为虚拟护理提供运营基础设施与临床人力网络",
+     "累计融资超2.16亿美元(含1.5亿美元C轮)"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Wheel】聚焦专业护理/产业资本/数字化，帮助临床工作人员的虚拟护理平台，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 5.05
+  },
+  {
+   "serial": "#0964",
+   "name": "Synchron",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "非手术脑机接口(BCI)，帮助瘫痪患者恢复沟通和行动能力。微创植入，未来将扩展至与衰老相关的认知和功能衰退",
+   "highlights": [
+    "血管内微创脑机接口Stentrode(免开颅)",
+    "2025首例意念控制iPad(ALS患者)",
+    "D轮2亿美元(2025-11)"
+   ],
+   "funding_latest": {
+    "round": "D轮",
+    "amount": "2亿美元",
+    "currency": "USD",
+    "date": "2025-11",
+    "display": "D轮 2亿美元 (2025-11)",
+    "investors": [
+     "Double Point Ventures",
+     "ARCH Ventures",
+     "Khosla Ventures",
+     "Bezos Expeditions",
+     "QIA"
+    ]
+   },
+   "funding_total": {
+    "amount": "约3.45亿美元",
+    "display": "累计约3.45亿美元"
+   },
+   "investors": [
+    "Double Point Ventures",
+    "ARCH Ventures",
+    "Khosla Ventures",
+    "Bezos Expedations",
+    "QIA"
+   ],
+   "founded": "2012",
+   "value_score": 69,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Synchron",
+   "website_url": "https://www.synchron.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "开发非手术（血管内）脑机接口Stentrode，经颈静脉微创植入运动皮层，帮助瘫痪患者用思维控制数字设备（iPad/Vision Pro/Alexa）；2025-08全球首例通过Apple BCI协议用意念控制iPad（ALS患者），2025-11完成2亿美元D轮。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 18,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Synchron Raises $200M Series D (BCI)",
+      "date": "2025-11-06",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20251106150841/en/Synchron-Raises-%24200-Million-Series-D-to-Advance-Brain-Computer-Interface-Technology"
+     },
+     {
+      "title": "Synchron完成2亿美元D轮融资(脑机接口)",
+      "date": "2025-11-10",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/intelDetail/831135"
+     }
+    ],
+    "snippets": [
+     "Synchron(纽约)是非手术式脑机接口(Stentrode)公司,可用于渐冻症等神经退行患者",
+     "2025年11月完成2亿美元D轮,投资方含 QIA、Bezos Expeditions 等"
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "信息量极高（Bloomberg/Forbes/Wired/TIME密集报道+临床植入数据），差异化极强：免开颅血管内脑机接口是前沿稀缺路线。中国强脑科技(BrainCo)、博睿康等同赛道，但微创血管内路线稀缺、监管与支付路径未定，难直接平移——值得作为“脑机接口临床转化+支付方演进”的硬核案例。",
+   "payor_model": "B端机构付费（面向医院/医疗系统的植入式设备；远期或由商业/政府医疗保险覆盖，尚未商业上市）",
+   "signal_strength": 5.05,
+   "info_score": 9,
+   "diff_score": 9,
+   "copy_score": 4,
+   "research_value": 68.1,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0969",
+   "name": "Hippocratic AI",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "医疗AI代理，执行低风险、面向患者的行政和运营任务。估值35亿；已与50+大型医疗系统/支付方合作；累计完成1.15亿+临床患者互动。累计融资4.04亿美...",
+   "highlights": [
+    "安全优先的医疗生成式AI代理(不诊断)",
+    "C轮1.26亿美元(2025-11)，估值35亿",
+    "合作50+医疗系统/支付方，1.15亿+次互动"
+   ],
+   "funding_latest": {
+    "round": "C轮",
+    "amount": "1.26亿美元",
+    "currency": "USD",
+    "date": "2025-11",
+    "display": "C轮 1.26亿美元 (2025-11)",
+    "investors": [
+     "Avenir Growth",
+     "CapitalG",
+     "General Catalyst",
+     "a16z",
+     "Kleiner Perkins",
+     "Premji Invest"
+    ]
+   },
+   "funding_total": {
+    "amount": "约4.04亿美元",
+    "display": "累计约4.04亿美元(估值35亿)"
+   },
+   "investors": [
+    "Avenir Growth",
+    "CapitalG",
+    "General Catalyst",
+    "a16z",
+    "Kleiner Perkins",
+    "Premji Invest"
+   ],
+   "founded": "2023",
+   "value_score": 67,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hippocratic%20AI",
+   "website_url": "https://hippocraticai.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "专注“安全第一”的医疗生成式AI代理公司，提供不诊断、不开方的低风险面向患者AI客服（随访、预约、用药/筛查提醒）；2025-11完成1.26亿美元C轮、估值35亿美元，与50+大型医疗系统/支付方/药企合作，累计超1.15亿次临床患者互动。",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Hippocratic AI Announces Series C Funding $126 Million",
+      "date": "2025-11-03",
+      "source": "Hippocratic AI / BusinessWire",
+      "url": "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/"
+     }
+    ],
+    "snippets": [
+     "$126M Series C at $3.5B valuation (2025); total $404M.",
+     "Safety-focused generative AI healthcare agents; backers a16z, CapitalG, Avenir."
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "信息非常丰富（官网新闻中心+Reuters+Yahoo），模式清晰不反常识但增长极快（15个月商业化、千余用例）。中国有医疗大模型客服/随访玩家，但“安全优先+无诊断”定位与美国payor/provider支付方差异大——其“低风险AI代理替代人力客服”的合规边界设计与商业化速度值得重点拆解。",
+   "payor_model": "B端机构付费（向医疗系统、健康计划/支付方、药企收SaaS/使用费）",
+   "signal_strength": 5.05,
+   "info_score": 9,
+   "diff_score": 6,
+   "copy_score": 6,
+   "research_value": 66.2,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0978",
+   "name": "SetPoint Medical",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "神经免疫调节疗法开发商，研发SetPoint System(植入式设备)，通过迷走神经刺激治疗类风湿性关节炎(RA)。2025年7月获得FDA批准",
+   "highlights": "研发SetPoint System(植入式设备)",
+   "funding_latest": {
+    "date": "2025.08",
+    "amount": "1.4亿美元",
+    "round": "D轮+C轮二期",
+    "display": "D轮+C轮二期 1.4亿美元 (2025.08)"
+   },
+   "funding_total": {
+    "amount": "$388M",
+    "display": "累计$388M (截至2025年8月)"
+   },
+   "investors": "Elevage Medical Technologies, Ally Bridge Group, NEA, Medtronic, Morgenthaler, Northwell Health, SPRIG Equity",
+   "founded": "2007",
+   "value_score": 61,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SetPoint%20Medical",
+   "website_url": "https://www.setpointmedical.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "神经免疫调节疗法开发商，研发SetPoint System(植入式设备)，通过迷走神经刺激治疗类风湿性关节炎(RA)。2025年7月获得FDA批准",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "FDA批准首个用于类风湿关节炎的迷走神经刺激装置",
+      "date": "2025-07-31",
+      "source": "medxy.ai",
+      "url": "https://news.medxy.ai/zh/fda%E6%89%B9%E5%87%86%E9%A6%96%E4%B8%AA%E7%94%A8%E4%BA%8E%E7%B1%BB%E9%A3%8E%E6%B9%BF%E5%85%B3%E8%8A%82%E7%82%8E%E7%9A%84%E8%BF%B7%E8%B5%B0%E7%A5%9E%E7%BB%8F%E5%88%BA%E6%BF%80%E8%A3%85%E7%BD%AE/"
+     },
+     {
+      "title": "SetPoint Medical完成1.4亿美元私募融资",
+      "date": "2025-08-11",
+      "source": "reportify.cn",
+      "url": "https://reportify.cn/social-media/707877451212599"
+     },
+     {
+      "title": "雅培、波科战略入局这一赛道",
+      "date": "2025-08-13",
+      "source": "baidu baijiahao",
+      "url": "https://baijiahao.baidu.com/s?id=1840320623281003624"
+     }
+    ],
+    "snippets": [
+     "FDA approval of SetPoint System for RA (July 2025).",
+     "$140M financing (C+ $25M + D $115M) ~2 weeks post-FDA; investors include Abbott & Boston Scientific (via Ally Bridge/Elevage)."
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【SetPoint Medical】聚焦产业资本/康复/智能硬件，研发SetPoint System(植入式设备)，B2B+B2C模式，研究价值分61。",
+   "payor_model": "未披露",
+   "signal_strength": 5.05
+  },
+  {
+   "serial": "#0456",
+   "name": "Chapter",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "金融理财",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "数字健康初创公司，帮助老年人了解医疗保险方案。成立于2020年。",
+   "highlights": "帮助老年人了解医疗保险方案。成立于2020年。",
+   "funding_latest": {
+    "date": "2025-04",
+    "amount": "75000000",
+    "round": "Series D",
+    "display": "Series D $7500万 (2025-04)"
+   },
+   "funding_total": {
+    "amount": "184000000",
+    "display": "累计$1.8亿"
+   },
+   "investors": "Stripes, XYZ Venture Capital, Susa Ventures, Addition, Narya Capital, Maverick Ventures",
+   "founded": "2013",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Chapter",
+   "website_url": "https://www.getchapter.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "数字健康初创公司，帮助老年人了解医疗保险方案。成立于2020年。",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Chapter Raises $75 Million Led by Stripes to Build the Future of Medicare and Retirement Guidance",
+      "date": "2025-04-16",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20250416329759/en/Chapter-Raises-%2475-Million-Led-by-Stripes-to-Build-the-Future-of-Medicare-and-Retirement-Guidance."
+     }
+    ],
+    "snippets": [
+     "Chapter为美国领先Medicare导航/退休指导平台，2025年4月完成7500万美元D轮融资，由Stripes领投。",
+     "定位“Medicare导航平台”，帮助老年人选择并管理医保优势计划。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Chapter】聚焦产业资本/养老金融，帮助老年人了解医疗保险方案。成立于2020年。，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  }
+ ]
+}

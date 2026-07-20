@@ -1,0 +1,790 @@
+[
+  {
+    "serial": "#0780",
+    "name": "Mend",
+    "name_cn": "Mend",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "Mend（mend.com）是一家面向医疗机构的行为健康 AI 平台，用自动化沟通、日程提醒与远程问诊降低患者爽约率、提升就诊转化，按 SaaS 向诊所和医院收费。注：同时存在澳洲的 Mend 癌症/慢病康复 App，公开信息存在重名歧义。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": {
+      "date": "2023年7月",
+      "amount": "1500万美元",
+      "display": "1500万美元 (2023年7月)"
+    },
+    "funding_total": "$15M",
+    "investors": "S2G Ventures",
+    "stage": "未搜到",
+    "founded": "2014",
+    "highlights": "营养补充剂+数字平台",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.mend.com"
+  },
+  {
+    "serial": "#0785",
+    "name": "Miihealth",
+    "name_cn": "Miihealth",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "region": "海外",
+    "desc_cn": "对话式AI健康伴侣，结合传感器和智能手表",
+    "description": "对话式AI健康伴侣，结合传感器和智能手表",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+部分政府补贴",
+    "business_model": "B2C 智能可穿戴设备",
+    "funding_latest": {
+      "amount": "700万美元",
+      "display": "700万美元"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2022",
+    "highlights": "结合传感器和智能手表",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 智能可穿戴设备」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.miihealth.com"
+  },
+  {
+    "serial": "#0793",
+    "name": "myo",
+    "name_cn": "myo",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "myo（德国 Myosotis 公司）是一款连接养老院住客、家属与护理人员的 SaaS 沟通应用，用平板/电视推送活动、消息与日程，已在德语区 250 多家养老机构部署。商业模式为面向机构的年度订阅，亮点是把家属沟通与日常照护可视化。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": {
+      "date": "2024年2月",
+      "amount": "800万欧元",
+      "display": "800万欧元 (2024年2月)"
+    },
+    "funding_total": "未搜到",
+    "investors": "TVM Capital Life Science, BonVenture, Agaplesion, Axel Springer Plug & Play, Think.Health, Mountain Partners, Round Hill Ventures",
+    "stage": "未搜到",
+    "founded": "2021",
+    "highlights": "护理机构、家庭和服务商数字通信",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.myo.com"
+  },
+  {
+    "serial": "#0802",
+    "name": "Nirvana",
+    "name_cn": "Nirvana",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "专业护理"
+    ],
+    "region": "海外",
+    "desc_cn": "面向老年群体的综合照护与支付平台，整合成人日托、老年医学门诊与居家护理派遣，并自建PBM处理处方与理赔。收入来自政府医保（Medicare/Medicaid）结算与老人个人自付，照护与用药支付一体化。核心银发价值在“日托+上门护理+用药支付”闭环，对应国内社区居家养老与长护险药品配送整合。",
+    "description": "Nirvana 旗下与老年相关的业务主要指向 Nirvana Adult Day Care（佛罗里达的成人日托照护）及 Nirvana Healthcare 的老年医学科，提供日托、慢病管理与老年综合照护，按服务/医保收费。注：Nirvana 同时还有 PBM 医疗支付平台与护理派遣业务。",
+    "silver_reason": "成人日托+老年医学+护理派遣直接服务老年群体，并结算Medicare/Medicaid，属银发照护基础设施。",
+    "silver_verdict": "核心银发",
+    "payor_model": "政府医保(Medicare/Medicaid)+个人自费",
+    "business_model": "B2C/B2B 老年健康保险",
+    "funding_latest": {
+      "date": "2024年9月",
+      "amount": "2420万美元",
+      "round": "A轮",
+      "display": "A轮 2420万美元 (2024年9月)"
+    },
+    "funding_total": "$20M+",
+    "investors": "Northzone, Battery Ventures, ENIAC Ventures, Inspired Capital, Adams Street Partners",
+    "stage": "A轮",
+    "founded": 2020,
+    "highlights": [
+      "成人日托+老年医学+护理派遣+PBM(药品福利)综合照护",
+      "照护与用药支付纵向一体化，结算Medicare",
+      "反常识以平台整合而非单点服务切入老年照护",
+      "A轮2420万美元，由Northzone等领投"
+    ],
+    "signal_strength": 2.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "research_value": 49.6,
+    "recommend": {
+      "rec_v1": "信号低但资料较全；成人日托+老年医学+护理派遣组合差异强，国内可学其日托综合体重。",
+      "rec_v2": "信号偏低但信息中等，亮点是PBM+照护一体；创业者难抄支付，但可借鉴成人日托的多业务协同。",
+      "rec_v3": "低信号、模式清晰，资料可查，独特在日托+老年专科；国内社区养老可复用其老年医学嵌入日托（适合作为国内参考样本）",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "signal_strength": 2.55,
+      "research_value": 49.6
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.nirvana.com"
+  },
+  {
+    "serial": "#0816",
+    "name": "Pallie AI",
+    "name_cn": "Pallie AI",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "文娱"
+    ],
+    "region": "海外",
+    "desc_cn": "支持健康和福祉的人工智能伴侣产品",
+    "description": "支持健康和福祉的人工智能伴侣产品",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "amount": "200万美元",
+      "display": "200万美元"
+    },
+    "funding_total": "$2M",
+    "investors": "True Ventures (lead), Palta",
+    "stage": "未搜到",
+    "founded": "2022",
+    "highlights": "支持健康和福祉的人工智能伴侣产品",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.pallie.ai"
+  },
+  {
+    "serial": "#0821",
+    "name": "PeopleOne Health",
+    "name_cn": "PeopleOne Health",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "诊所"
+    ],
+    "region": "海外",
+    "desc_cn": "面向雇主的价值医疗初级保健服务商，由企业全额付费为员工采购会员，员工享无自付、无免赔的线下+虚拟全科、慢病管理与预防服务。医生日均仅看约16人以保证时长，已在宾州与佛州运营9家社区健康中心。收入来自B端雇主会员费，核心价值在把预防与慢病管理前置以降低整体医疗支出。",
+    "description": "PeopleOne Health 是一家位于佛罗里达奥兰多的价值型基础医疗集团，以每月约 160 美元的会员费提供接近私人医生的便捷初级诊疗与慢病管理，并在社区设健康中心。亮点是用低价会员制+按价值付费模式提升就医可及性。",
+    "silver_reason": "雇主全额付费的价值医疗初级保健，主要服务在职员工，非老年专属、不涉Medicare。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "B端机构采购(雇主全额付费)",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": {
+      "date": "2024年10月",
+      "amount": "3230万美元",
+      "round": "B轮",
+      "display": "B轮 3230万美元 (2024年10月)"
+    },
+    "funding_total": "$32.3M",
+    "investors": "GV (lead)",
+    "stage": "B轮",
+    "founded": 2021,
+    "highlights": [
+      "雇主全额付费价值医疗初级保健，员工无自付/免赔",
+      "医生日均仅16人、NPS 90+(行业均35)",
+      "9家社区健康中心(宾州/佛州)，预防+慢病管理",
+      "B轮3230万美元，由GV(Google Ventures)领投，雇主省费达30%"
+    ],
+    "signal_strength": 2.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "research_value": 49.6,
+    "recommend": {
+      "rec_v1": "信号低但资料清晰；160美元月费价值医疗差异强，国内可学其低价会员制基础医疗模式。",
+      "rec_v2": "信号偏低但信息中等，亮点是GV领投与社区中心；创业者可借鉴其普惠会员+按价值付费模型（可纳入国内对标案例）",
+      "rec_v3": "低信号、模式清晰，资料可查，独特在平价订阅；国内基层医疗可复用其会员制可及性设计思路（适合作为国内参考样本）",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "signal_strength": 2.55,
+      "research_value": 49.6
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.peopleonehealth.com"
+  },
+  {
+    "serial": "#0823",
+    "name": "Pillo Health",
+    "name_cn": "Pillo Health",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "药品配送"
+    ],
+    "region": "海外",
+    "desc_cn": "面向居家老人的语音交互用药管理平台：台面AI设备可存储、按预设分发并自动补订最多28剂药物，配合音视频健康内容与家属视频通话及依从性监测；消费级衍生型号另含跌倒检测。同时向医疗机构、药企等合作方输出定制化语音健康管理方案。收入来自硬件销售与B端机构授权，核心价值在帮助老人独立居家用药。",
+    "description": "帮助老人科学用药、买正版药",
+    "silver_reason": "语音交互用药管理平台明确服务居家老人科学用药与独立生活，属适老用药管理。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费(硬件)",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2019年",
+      "amount": "1100万美元",
+      "round": "A轮",
+      "display": "A轮 1100万美元 (2019年)"
+    },
+    "funding_total": "$37.5M",
+    "investors": "BioAdvance, Hackensack Meridian, Samsung Ventures",
+    "stage": "A轮",
+    "founded": 2017,
+    "highlights": [
+      "台面AI用药设备：存储/分发/补订最多28剂+语音交互",
+      "消费级Pria by BLACK+DECKER含跌倒检测",
+      "HIPAA合规语音健康平台，向药企/机构输出方案",
+      "A轮1100万美元，Stanley/Samsung Ventures领投"
+    ],
+    "signal_strength": 2.55,
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "research_value": 49.6,
+    "recommend": {
+      "rec_v1": "信号低、披露有限；助老科学用药服务差异中等，国内可学其把用药依从做成硬件入口端。",
+      "rec_v2": "信号偏低但资料中等，亮点是帮老人购买正品药；创业者可借鉴其适老用药管家的产品定位（国内可重点研究其落地打法）",
+      "rec_v3": "低信号、模式偏B2B，资料可查，独特在适老用药场景；国内可复用其老年人正品药配送+提醒服务。",
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 7,
+      "signal_strength": 2.55,
+      "research_value": 49.6
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.pillohealth.com"
+  },
+  {
+    "serial": "#0824",
+    "name": "Punto Health",
+    "name_cn": "Punto Health",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知症"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "Punto Health 是一家伦敦的 AI 失智照护平台，旗下 PuntoTest/PuntoCare/PuntoClinic 提供认知筛查、照护计划与家属支持，曾获 230 万欧元种子轮融资，向 NHS 及养老机构以 SaaS 销售。亮点是把痴呆筛查与持续照护闭环数字化。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "amount": "64.5万欧元",
+      "display": "64.5万欧元"
+    },
+    "funding_total": "未搜到",
+    "investors": "Shilling VC, Plus Partners (+9)",
+    "stage": "未搜到",
+    "founded": "2021",
+    "highlights": "AI驱动综合平台改善痴呆症患者及其家人护理",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.puntohealth.com"
+  },
+  {
+    "serial": "#0827",
+    "name": "RapidClaims",
+    "name_cn": "RapidClaims",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "RapidClaims 是一家医疗收入周期自动化公司，用自主 AI 完成医学编码、账单与理赔（产品含 RapidCode/RapidVBC/RapidRecovery），向医院与 RCM 机构按 SaaS/用量收费，总部在纽约。亮点是把人工编码环节做到近乎全自动，提升回款效率。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年2月",
+      "amount": "310万美元",
+      "display": "310万美元 (2024年2月)"
+    },
+    "funding_total": "$11M",
+    "investors": "Accel (lead)",
+    "stage": "未搜到",
+    "founded": "2022",
+    "highlights": "AI帮助医疗服务提供商实现医疗编码自动化",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.rapidclaims.ai"
+  },
+  {
+    "serial": "#0833",
+    "name": "Rune Labs",
+    "name_cn": "Rune Labs",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B/B2C 康复设备/跌倒预防",
+    "description": "Rune Labs 是一家精密神经科软件公司，其 StrivePD 通过 Apple Watch 等可穿戴设备追踪帕金森症状与运动数据，已获 FDA 许可，向临床与药物试验机构提供数据与决策支持。亮点是把日常可穿戴数据转化为可用于诊疗和研究的神经标志物。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B SaaS/软件平台",
+    "funding_latest": {
+      "date": "2024年1月",
+      "amount": "1200万美元",
+      "display": "1200万美元 (2024年1月)"
+    },
+    "funding_total": "$42M+",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2018",
+    "highlights": "为神经退行性疾病提供精准神经学SaaS解决方案",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B/B2C 康复设备/跌倒预防」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入精神&神经赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.runelabs.io"
+  },
+  {
+    "serial": "#0854",
+    "name": "SiftWell Analytics",
+    "name_cn": "SiftWell Analytics",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "SiftWell Analytics 是一家为医疗支付方（payer）提供全会员 AI 洞察的公司，做风险分层、照护缺口识别与干预推荐，团队多有医疗责任组织背景，融资约 930 万美元。亮点是把分散的会员数据转化为可执行的精准照护信号。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "政府医保/商业保险支付",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年2月",
+      "amount": "580万美元",
+      "display": "580万美元 (2024年2月)"
+    },
+    "funding_total": "$5.8M",
+    "investors": "AlleyCorp, Arkin Digital Health, Tau Ventures, The Charlotte Fund",
+    "stage": "未搜到",
+    "founded": "2020",
+    "highlights": "识别高风险个人提高质量分数",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.siftwell.com"
+  },
+  {
+    "serial": "#0859",
+    "name": "Sollis Health",
+    "name_cn": "Sollis Health",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "24/7按需医疗会员制，面对面+远程",
+    "description": "24/7按需医疗会员制，面对面+远程",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+部分政府补贴",
+    "business_model": "B2C 社交娱乐平台",
+    "funding_latest": {
+      "date": "2024年12月",
+      "amount": "3300万美元",
+      "display": "3300万美元 (2024年12月)"
+    },
+    "funding_total": "$33M",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2016",
+    "highlights": "面对面+远程",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C 社交娱乐平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.sollishealth.com"
+  },
+  {
+    "serial": "#0865",
+    "name": "SpinSci",
+    "name_cn": "SpinSci",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "AI驱动改善患者互动和简化工作流程",
+    "description": "AI驱动改善患者互动和简化工作流程",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年12月",
+      "amount": "5300万美元",
+      "display": "5300万美元 (2024年12月)"
+    },
+    "funding_total": "$53M",
+    "investors": "Aldrich Capital Partners",
+    "stage": "未搜到",
+    "founded": "2017",
+    "highlights": "AI驱动改善患者互动和简化工作流程",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.spinsci.com"
+  },
+  {
+    "serial": "#0880",
+    "name": "Thoughtful AI",
+    "name_cn": "Thoughtful AI",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "Thoughtful AI 是一家为医疗收入周期管理（RCM）提供 AI Agent 自动化的公司，用智能体处理理赔、核销与申诉等流程，按 SaaS 向医院与 billing 机构收费。亮点是用可替代重复性人工作业的 AI 员工降低运营成本、加快回款。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年7月",
+      "amount": "2000万美元",
+      "display": "2000万美元 (2024年7月)"
+    },
+    "funding_total": "$20M",
+    "investors": [
+      "New Mountain Capital",
+      "Drive Capital"
+    ],
+    "stage": "未搜到",
+    "founded": "2022",
+    "highlights": "AI代理解决医疗保健提供商收入周期挑战",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.thoughtful.ai"
+  },
+  {
+    "serial": "#0888",
+    "name": "Tuned",
+    "name_cn": "Tuned",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "助听器"
+    ],
+    "region": "海外",
+    "desc_cn": "结合AI和智能助听器改善听力质量",
+    "description": "结合AI和智能助听器改善听力质量",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年7月",
+      "amount": "750万美元",
+      "display": "750万美元 (2024年7月)"
+    },
+    "funding_total": "$10.2M",
+    "investors": [
+      "Idealab",
+      "Unum Group",
+      "Distributed Ventures"
+    ],
+    "stage": "未搜到",
+    "founded": "2020",
+    "highlights": "结合AI和智能助听器改善听力质量",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.tuned.com"
+  },
+  {
+    "serial": "#0896",
+    "name": "vermut",
+    "name_cn": "vermut",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "社区"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "vermut 是一个面向 55 岁以上人群的抗孤独社交平台，通过本地活动与兴趣小组帮助中老年人建立线下联结，在西班牙与美国运营、用户约 10 万。亮点是用'本地活动+社区'而非纯线上聊天来真正减少孤独。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C 社交娱乐平台",
+    "funding_latest": {
+      "amount": "170万欧元",
+      "display": "170万欧元"
+    },
+    "funding_total": "€1.7M",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2021",
+    "highlights": "发布活动、聚会",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.vermut.ai"
+  },
+  {
+    "serial": "#0897",
+    "name": "Vi Health",
+    "name_cn": "Vi Health",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "更年期"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "Vi Health 是一家荷兰更年期健康平台，面向职场女性提供症状管理与健康指导，作为企业员工健康福利（B2B2C）向雇主销售，总部鹿特丹、融资约 130 万欧元。亮点是把更年期支持嵌入企业福利，填补职场健康空白。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C 社交娱乐平台",
+    "funding_latest": {
+      "date": "2024年1月",
+      "amount": "150万欧元",
+      "display": "150万欧元 (2024年1月)"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "NN Ventures"
+    ],
+    "stage": "未搜到",
+    "founded": "2020",
+    "highlights": "为更年期女性提供量身定制的支持APP",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.vi-health.com"
+  },
+  {
+    "serial": "#0898",
+    "name": "Videra Health",
+    "name_cn": "Videra Health",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "心理健康"
+    ],
+    "region": "海外",
+    "desc_cn": "AI检测面部表情和肢体语言变化筛查心理健康",
+    "description": "AI检测面部表情和肢体语言变化筛查心理健康",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年5月",
+      "amount": "560万美元",
+      "display": "560万美元 (2024年5月)"
+    },
+    "funding_total": "$8.6M",
+    "investors": [
+      "Peterson Ventures",
+      "Mercato Partners"
+    ],
+    "stage": "未搜到",
+    "founded": "2019",
+    "highlights": "AI检测面部表情和肢体语言变化筛查心理健康",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.viderahealth.com"
+  },
+  {
+    "serial": "#0908",
+    "name": "Voxela",
+    "name_cn": "Voxela",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "region": "海外",
+    "desc_cn": "AI图像分析检测跌倒和走动，护理机构和医院",
+    "description": "AI图像分析检测跌倒和走动，护理机构和医院",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年10月",
+      "round": "Pre-A",
+      "display": "Pre-A (2024年10月)"
+    },
+    "funding_total": "$4.68M",
+    "investors": [
+      "Third Act Ventures",
+      "BlackCrow Capital",
+      "Risktaker"
+    ],
+    "stage": "成长期",
+    "founded": "2021",
+    "highlights": "护理机构和医院",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.voxela.com"
+  },
+  {
+    "serial": "#0961",
+    "name": "Arya Health",
+    "name_cn": "Arya Health",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年文娱社交平台",
+    "description": "Arya Health 是一家为急性期后照护（居家护理/临终关怀）机构提供 AI 行政代理的公司，自动化排班、合规文档与招聘流程，按 SaaS 向机构收费。亮点是用 AI 替护理机构承担高重复的运营行政工作，缓解人手压力。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2025.11",
+      "amount": "1820万美元",
+      "display": "1820万美元 (2025.11)"
+    },
+    "funding_total": {
+      "amount": "$25M",
+      "display": "累计$25M (截至2025年11月)"
+    },
+    "investors": "ACME Capital, Ridge Ventures, Twelve Below",
+    "stage": "未搜到",
+    "founded": "2023",
+    "highlights": "为康复护理机构提供AI代理",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 7.5,
+    "copy_score": 7.5,
+    "research_value": 49.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年文娱社交平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.aryahealth.ai"
+  }
+]

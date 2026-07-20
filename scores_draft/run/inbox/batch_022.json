@@ -1,0 +1,571 @@
+{
+ "batch": 22,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0689",
+   "name": "Dorvie",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "家政"
+   ],
+   "description": "礼宾人员安排各种服务，每月合并账单",
+   "highlights": "每月合并账单",
+   "funding_latest": {
+    "amount": "260万美元",
+    "round": "种子轮",
+    "display": "种子轮 260万美元"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Dorvie",
+   "website_url": "https://www.dorvie.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "礼宾人员安排各种服务，每月合并账单",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "家政"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Dorvie】聚焦产业资本/文娱社交/行业媒体，每月合并账单，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0693",
+   "name": "Elektra Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "更年期"
+   ],
+   "description": "Elektra Health 是专注更年期的虚拟照护平台，为处于中年/更年期的女性提供经委员会认证医生的远程问诊（可开激素与非激素处方）、一对一 menopause 教练、循证教育与私密社群。已接入 Aetna、UnitedHealthcare、Anthem 等主流保险，强调用早干预降低健康计划与雇主成本。由 Cityblock 早期成员 Jannine Versi 联合创立。",
+   "highlights": "远程医疗+更年期专家",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "375万美元",
+    "round": "种子轮",
+    "display": "种子轮 375万美元 (2024年2月)"
+   },
+   "funding_total": {
+    "amount": "$20.1M",
+    "display": "$20.1M"
+   },
+   "investors": "Flare Capital Partners, Seven Seven Six, UPMC Enterprises",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Elektra%20Health",
+   "website_url": "https://www.elektrahealth.com",
+   "business_model": "B2B/B2C 远程医疗",
+   "desc_cn": "Elektra Health 是专注更年期的虚拟照护平台，为处于中年/更年期的女性提供经委员会认证医生的远程问诊（可开激素与非激素处方）、一对一 menopause 教练、循证教育与私密社群。已接入 Aetna、UnitedHealthcare、Anthem 等主流保险，强调用早干预降低健康计划与雇主成本。由 Cityblock 早期成员 Jannine Versi 联合创立。",
+   "business_model_cn": "B2B/B2C 慢病管理服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Elektra Health】聚焦产业资本/女性健康/慢病管理，远程医疗+更年期专家，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0694",
+   "name": "Elidah",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "尿失禁"
+   ],
+   "description": "Elitone治疗压力性尿失禁的非侵入性方法",
+   "highlights": "Elitone治疗压力性尿失禁的非侵入性方法",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "350万美元",
+    "round": "A轮",
+    "display": "A轮 350万美元 (2024年2月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Elidah",
+   "website_url": "https://www.elidah.com",
+   "business_model": "硬件产品",
+   "desc_cn": "Elitone治疗压力性尿失禁的非侵入性方法",
+   "business_model_cn": "硬件产品",
+   "news_coverage": {
+    "news_count": 8,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Elidah Secures Series A (women's health)",
+      "date": "2024-02-14",
+      "source": "Femtech Insider",
+      "url": "https://femtechinsider.com/elidah-series-a/"
+     },
+     {
+      "title": "Elidah Series A 融资(非侵入式盆底治疗)",
+      "date": "2024-01-29",
+      "source": "observernewsonline",
+      "url": "https://business.observernewsonline.com/observernewsonline/article/abnewswire-2024-1-29-elidah-soars-in-womens-health-advancements-series-a-funding-fuels-groundbreaking-non-invasive-therapy-supported-by-top-investors"
+     }
+    ],
+    "snippets": [
+     "Elidah 开发FDA认证的 wearable 非侵入式盆底肌治疗设备(ELITONE),面向女性尿失禁",
+     "2024年1-2月完成A轮融资;与银发关联在于中老年女性盆底健康"
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Elidah】聚焦专业护理/产业资本/康复，Elitone治疗压力性尿失禁的非侵入性方法，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0703",
+   "name": "flyte",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "尿失禁"
+   ],
+   "description": "美国 Pelvital 旗下 FDA 认证的居家盆底康复器械，针对女性压力性尿失禁（SUI），通过经阴道机械振动疗法强化盆底肌，5分钟/天、6周见效，处方与自费双渠道。面向消费者的医疗器械。",
+   "highlights": "尿失禁治疗科技服务商",
+   "funding_latest": {
+    "date": "2016年",
+    "amount": "268万美元",
+    "round": "种子轮",
+    "display": "种子轮 268万美元 (2016年)"
+   },
+   "funding_total": "$20.6M",
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=flyte",
+   "website_url": "https://www.flytehealth.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "美国 Pelvital 旗下 FDA 认证的居家盆底康复器械，针对女性压力性尿失禁（SUI），通过经阴道机械振动疗法强化盆底肌，5分钟/天、6周见效，处方与自费双渠道。面向消费者的医疗器械。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【flyte】聚焦专业护理/产业资本/数字化，尿失禁治疗科技服务商，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0740",
+   "name": "Ilant Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "基于价值的肥胖管理和心脏代谢健康",
+   "highlights": "基于价值的肥胖管理和心脏代谢健康",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "250万美元",
+    "round": "种子轮",
+    "display": "种子轮 250万美元 (2024年5月)"
+   },
+   "funding_total": "$22M+",
+   "investors": "Cornucopian Capital (lead), naturalX, Peakbridge, Semcap AI, Evidenced",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ilant%20Health",
+   "website_url": "https://www.ilanthealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "基于价值的肥胖管理和心脏代谢健康",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Ilant Health】聚焦产业资本/健康管理/行业媒体，基于价值的肥胖管理和心脏代谢健康，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0757",
+   "name": "Koda Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "安宁疗护",
+    "养老软件"
+   ],
+   "description": "Koda Health 是预先医疗指示(ACP)基础设施公司（源自 2020 年德州医学中心 Biodesign Fellowship），其 EMR 集成的 SaaS 平台帮助患者通过视频引导完成预设医疗指示、DNR、医疗授权委托书等法定文件并线上公证、共享；用 AI 预测性触达提升完成率，与 Houston Methodist、Cigna 等合作，使临终住院率降低 79%。原标签'养老软件'合理。",
+   "highlights": "数字化提前护理计划解决方案",
+   "funding_latest": {
+    "amount": "300万美元",
+    "round": "Seed+",
+    "display": "Seed+ 300万美元"
+   },
+   "funding_total": "$7M",
+   "investors": "Evidenced (lead), Mudita Venture",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Koda%20Health",
+   "website_url": "https://www.kodahealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Koda Health 是预先医疗指示(ACP)基础设施公司（源自 2020 年德州医学中心 Biodesign Fellowship），其 EMR 集成的 SaaS 平台帮助患者通过视频引导完成预设医疗指示、DNR、医疗授权委托书等法定文件并线上公证、共享；用 AI 预测性触达提升完成率，与 Houston Methodist、Cigna 等合作，使临终住院率降低 79%。原标签'养老软件'合理。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "养老服务",
+    "行业服务"
+   ],
+   "tag_l2": [
+    "安宁疗护",
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Koda Health】聚焦专业护理/产业资本，数字化提前护理计划解决方案，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0762",
+   "name": "LifeBio",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "LifeBio 是一家生命故事回忆疗法平台，通过引导式提问帮助老年人记录人生故事，向养老机构、医疗保健组织和家庭用户以订阅方式提供。其核心亮点是将回忆疗法用于认知激活与个性化照护，已被较多养老社区采用。",
+   "highlights": "收集和分享老年人生活故事",
+   "funding_latest": {
+    "date": "2025年10月",
+    "amount": "290万美元",
+    "round": "NIA资助",
+    "display": "NIA资助 290万美元 (2025年10月)"
+   },
+   "funding_total": "$2.9M",
+   "investors": "SBIR grant (non-dilutive)",
+   "founded": "2006",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LifeBio",
+   "website_url": "https://www.lifebio.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "LifeBio 是一家生命故事回忆疗法平台，通过引导式提问帮助老年人记录人生故事，向养老机构、医疗保健组织和家庭用户以订阅方式提供。其核心亮点是将回忆疗法用于认知激活与个性化照护，已被较多养老社区采用。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【LifeBio】聚焦AI科技/产业资本/数字化，收集和分享老年人生活故事，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0779",
+   "name": "Meela",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "Meela 是一家面向老年人的 AI 陪伴公司，既能按设定时间主动给独居老人打电话聊天（语音伴侣），也为养老社区提供 AI 运营策略工具 Meela ONE。商业模式为 B2B 软件订阅与面向家庭的陪伴服务，亮点是用 AI 语音缓解孤独并预警异常。",
+   "highlights": "通过电话提供AI陪伴",
+   "funding_latest": {
+    "date": "2025年9月",
+    "amount": "350万美元",
+    "round": "种子轮",
+    "display": "种子轮 350万美元 (2025年9月)"
+   },
+   "funding_total": "$8.4M",
+   "investors": "Bain Capital Ventures (+ others)",
+   "founded": "2020",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Meela",
+   "website_url": "https://www.meela.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Meela 是一家面向老年人的 AI 陪伴公司，既能按设定时间主动给独居老人打电话聊天（语音伴侣），也为养老社区提供 AI 运营策略工具 Meela ONE。商业模式为 B2B 软件订阅与面向家庭的陪伴服务，亮点是用 AI 语音缓解孤独并预警异常。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Meela】聚焦产业资本/文娱社交，通过电话提供AI陪伴，B2B模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0781",
+   "name": "Menolabs",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "更年期"
+   ],
+   "description": "更年期保健产品，被Dr. Reddy's收购",
+   "highlights": "被Dr. Reddy's收购",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "300万美元",
+    "round": "收购",
+    "display": "收购 300万美元 (2024年1月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Menolabs",
+   "website_url": "https://www.menolabs.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "更年期保健产品，被Dr. Reddy's收购",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Menolabs】聚焦产业资本/保健品/女性健康，被Dr. Reddy's收购，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0805",
+   "name": "Nomad Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护士派遣"
+   ],
+   "description": "Nomad Health is a digital marketplace where clinicians—nurses, therapists, physicians—apply directly to travel and per-diem healthcare jobs posted by hospitals, bypassing staffing agencies and charging facilities a placement fee.",
+   "highlights": "为临时医疗保健人员提供在线求职门户网站",
+   "funding_latest": {
+    "amount": "1.05亿美元",
+    "display": "1.05亿美元"
+   },
+   "funding_total": {
+    "amount": "$177M",
+    "display": "$177M (截至2025年)"
+   },
+   "investors": "AlleyCorp, HealthQuest Capital, Adams Street Partners, Trinity Capital, California Health Care Foundation",
+   "founded": "2015",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nomad%20Health",
+   "website_url": "https://www.nomadhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Nomad Health 是医疗人才在线交易市场，护士、治疗师与医生直接应聘医院发布的出差与临时岗位，向医疗机构收取招聘服务费。",
+   "business_model_cn": "招聘服务费/佣金",
+   "news_coverage": {
+    "news_count": 12,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Nomad Health raises $34M in equity",
+      "date": "2025-12-17",
+      "source": "Crain's New York",
+      "url": "https://www.crainsnewyork.com/health-pulse/nomad-health-raises-34m-equity"
+     },
+     {
+      "title": "兼职医生求职平台Nomad Health获得2200万美元融资",
+      "date": "2024-06-17",
+      "source": "动脉橙",
+      "url": "https://www.vbdata.cn/newsDetail/c00f4b9c2cb211ef838900163e034e34"
+     }
+    ],
+    "snippets": [
+     "Nomad Health 是连接临床医生与医疗岗位的在线招聘平台",
+     "2024年6月融资2200万美元,2025年12月再融资约3400万美元,累计融资约1.77亿美元"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士派遣"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Nomad Health】聚焦产业资本/保健品/健康管理，为临时医疗保健人员提供在线求职门户网站，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0818",
+   "name": "Pear Suite",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "使社区卫生工作者识别和解决SDOH问题",
+   "highlights": "使社区卫生工作者识别和解决SDOH问题",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "100万美元",
+    "round": "种子轮",
+    "display": "种子轮 100万美元 (2024年5月)"
+   },
+   "funding_total": "$7.6M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Pear%20Suite",
+   "website_url": "https://www.pearsuite.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "使社区卫生工作者识别和解决SDOH问题",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Pear Suite】聚焦产业资本/数字化/行业媒体，使社区卫生工作者识别和解决SDOH问题，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  },
+  {
+   "serial": "#0834",
+   "name": "RxDiet",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "个性化营养"
+   ],
+   "description": "AI制定医学定制饮食计划，新鲜食材+行为支持",
+   "highlights": "新鲜食材+行为支持",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "300万美元",
+    "round": "种子轮",
+    "display": "种子轮 300万美元 (2024年7月)"
+   },
+   "funding_total": "$3.8M",
+   "investors": "Giant Ventures (lead), Better Ventures, Form Life",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=RxDiet",
+   "website_url": "https://www.rxdiet.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI制定医学定制饮食计划，新鲜食材+行为支持",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【RxDiet】聚焦AI科技/产业资本/文娱社交，新鲜食材+行为支持，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.05
+  }
+ ]
+}

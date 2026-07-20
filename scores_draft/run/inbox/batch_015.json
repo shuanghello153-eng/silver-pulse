@@ -1,0 +1,535 @@
+{
+ "batch": 15,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0669",
+   "name": "Clever Care Health Plan",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "文化包容性Medicare Advantage计划，东方福利",
+   "highlights": "东方福利",
+   "funding_latest": {
+    "date": "2023年3月",
+    "amount": "4200万美元",
+    "round": "C轮",
+    "display": "C轮 4200万美元 (2023年3月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clever%20Care%20Health%20Plan",
+   "website_url": "https://www.clevercarehealthplan.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "文化包容性Medicare Advantage计划，东方福利",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Clever Care Health Plan】聚焦产业资本/行业媒体，东方福利，B2B+B2C模式，研究价值分26。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0682",
+   "name": "Day Two",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "个性化营养"
+   ],
+   "description": "基于微生物组的代谢疾病精准营养",
+   "highlights": "基于微生物组的代谢疾病精准营养",
+   "funding_latest": {
+    "date": "2021年5月",
+    "amount": "3700万美元",
+    "round": "C轮",
+    "display": "C轮 3700万美元 (2021年5月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Day%20Two",
+   "website_url": "https://www.daytwo.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "基于微生物组的代谢疾病精准营养",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Day Two】聚焦产业资本/营养食品/行业媒体，基于微生物组的代谢疾病精准营养，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0685",
+   "name": "Dimer Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "机器学习预测哪些患者有再入院风险",
+   "highlights": "机器学习预测哪些患者有再入院风险",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "1400万美元",
+    "round": "A轮",
+    "display": "A轮 1400万美元 (2024年9月)"
+   },
+   "funding_total": {
+    "amount": "$13.5M (Series A)",
+    "display": "$13.5M Series A"
+   },
+   "investors": "Team8, Table (Bill Ackman) 等",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Dimer%20Health",
+   "website_url": "https://www.dimerhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "机器学习预测哪些患者有再入院风险",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Dimer Health】聚焦产业资本/机器人/行业媒体，机器学习预测哪些患者有再入院风险，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0697",
+   "name": "Embodied",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "机器人"
+   ],
+   "description": "智能伴侣机器人研发商，情感功能，家庭健康护理",
+   "highlights": "情感功能",
+   "funding_latest": {
+    "date": "2018年6月",
+    "amount": "2200万美元",
+    "round": "A轮",
+    "display": "A轮 2200万美元 (2018年6月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Embodied",
+   "website_url": "https://embodied.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "智能伴侣机器人研发商，情感功能，家庭健康护理",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Embodied】聚焦产业资本/健康管理/居家护理，情感功能，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0700",
+   "name": "Family First",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护工平台",
+    "照护支持"
+   ],
+   "description": "Family First（同名机构较多，此处指面向长者的居家照护与照护管理机构，如 Family First at Home / Home Companions）提供专业居家照护、持证护理员匹配，以及由认证照护经理、咨询师与保险倡导师组成的综合照护管理服务，帮助家庭评估需求、安排就医与应对老化挑战。多为家庭式或地区性机构，服务长者原居安老。",
+   "highlights": "与雇主和保险公司合作提供护理支持",
+   "funding_latest": {
+    "date": "2023年7月",
+    "amount": "1100万美元",
+    "round": "A轮",
+    "display": "A轮 1100万美元 (2023年7月)"
+   },
+   "funding_total": "$11M",
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Family%20First",
+   "website_url": "https://www.familyfirsthc.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Family First（同名机构较多，此处指面向长者的居家照护与照护管理机构，如 Family First at Home / Home Companions）提供专业居家照护、持证护理员匹配，以及由认证照护经理、咨询师与保险倡导师组成的综合照护管理服务，帮助家庭评估需求、安排就医与应对老化挑战。多为家庭式或地区性机构，服务长者原居安老。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台",
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Family First】聚焦专业护理/产业资本，与雇主和保险公司合作提供护理支持，B2B+B2C模式，研究价值分26。",
+   "payor_model": "商业保险",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0702",
+   "name": "Float",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护士派遣"
+   ],
+   "description": "将有额外时间的护士与需要在家输液的个人连接",
+   "highlights": "将有额外时间的护士与需要在家输液的个人连接",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "1000万美元",
+    "round": "A轮",
+    "display": "A轮 1000万美元 (2024年3月)"
+   },
+   "funding_total": "$15M",
+   "investors": "Y Combinator (+ others)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Float",
+   "website_url": "https://www.float.app",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "将有额外时间的护士与需要在家输液的个人连接",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士派遣"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Float】聚焦产业资本/行业媒体，将有额外时间的护士与需要在家输液的个人连接，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0715",
+   "name": "Grayce",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "照护支持"
+   ],
+   "description": "Grayce 是雇主提供的家庭照护导航福利平台，为在职照护者（照顾年迈父母或家人）匹配硕士层级的社会工作者作为专属 Care Partner，协助预约就医、交通、家政、保险与公共项目申请及丧亲安排，并配套同龄社群与教育资源，以降低职业倦怠与缺勤。成立于 2020 年，已完成 1,040 万美元 A 轮；2025 年起客户转介至 Cariloop。",
+   "highlights": "数字工具+社会工作者专业知识",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "1040万美元",
+    "round": "A轮",
+    "display": "A轮 1040万美元 (2024年6月)"
+   },
+   "funding_total": "$10.4M",
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Grayce",
+   "website_url": "https://www.withgrayce.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Grayce 是雇主提供的家庭照护导航福利平台，为在职照护者（照顾年迈父母或家人）匹配硕士层级的社会工作者作为专属 Care Partner，协助预约就医、交通、家政、保险与公共项目申请及丧亲安排，并配套同龄社群与教育资源，以降低职业倦怠与缺勤。成立于 2020 年，已完成 1,040 万美元 A 轮；2025 年起客户转介至 Cariloop。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Grayce】聚焦专业护理/产业资本/居家护理，数字工具+社会工作者专业知识，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0716",
+   "name": "GroundGame Health/SameSky Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "SDOH",
+    "照护支持"
+   ],
+   "description": "GroundGame Health 与 SameSky Health 于 2024 年合并（由 7wireVentures 领投 1,700 万美元），专注解决健康相关的社会需求(SDOH)。其经 HITRUST 认证的平台通过文化适配的外联与成员互动，帮助 Medicaid 参保人与医疗计划'闭环'其食物、住房、交通等社会需求，提升弱势群体的就医依从性与健康公平。原标签'慢病管理'不准确，其核心价值在 SDOH 而非慢病诊疗。",
+   "highlights": "合并",
+   "funding_latest": {
+    "amount": "1700万美元",
+    "round": "A轮",
+    "display": "A轮 1700万美元"
+   },
+   "funding_total": "$17M",
+   "investors": "7wireVentures (lead), Elevance",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GroundGame%20Health/SameSky%20Health",
+   "website_url": "https://www.sameskyhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "GroundGame Health 与 SameSky Health 于 2024 年合并（由 7wireVentures 领投 1,700 万美元），专注解决健康相关的社会需求(SDOH)。其经 HITRUST 认证的平台通过文化适配的外联与成员互动，帮助 Medicaid 参保人与医疗计划'闭环'其食物、住房、交通等社会需求，提升弱势群体的就医依从性与健康公平。原标签'慢病管理'不准确，其核心价值在 SDOH 而非慢病诊疗。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH",
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【GroundGame Health/SameSky Health】聚焦产业资本/健康管理/行业媒体，合并，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0727",
+   "name": "HealthSnap",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "慢病管理",
+    "远程护理"
+   ],
+   "description": "HealthSnap 是集成式虚拟照护管理(VCM)平台，提供远程患者监测(RPM)、慢病管理(CCM)与预防性照护(PCM)，已接入 150+ 医疗系统与 10 万+ 患者，在高血压、糖尿病、肥胖等慢病上改善临床结局；面向医院与健康计划销售，并可与 EHR 集成。原标签'养老软件'基本合理但更精确为慢病管理/远程护理。",
+   "highlights": "慢性病管理的虚拟护理管理平台",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "2500万美元",
+    "round": "B轮",
+    "display": "B轮 2500万美元 (2024年2月)"
+   },
+   "funding_total": "$48.5M",
+   "investors": "Opko Health, Florida Funders, Sands Capital",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=HealthSnap",
+   "website_url": "https://healthsnap.io",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "HealthSnap 是集成式虚拟照护管理(VCM)平台，提供远程患者监测(RPM)、慢病管理(CCM)与预防性照护(PCM)，已接入 150+ 医疗系统与 10 万+ 患者，在高血压、糖尿病、肥胖等慢病上改善临床结局；面向医院与健康计划销售，并可与 EHR 集成。原标签'养老软件'基本合理但更精确为慢病管理/远程护理。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理",
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【HealthSnap】聚焦专业护理/产业资本/慢病管理，慢性病管理的虚拟护理管理平台，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0730",
+   "name": "hellocare.ai",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "AI辅助虚拟护理服务，主要服务医院",
+   "highlights": "主要服务医院",
+   "funding_latest": {
+    "date": "2025年4月",
+    "amount": "4700万美元",
+    "round": "增长轮",
+    "display": "增长轮 4700万美元 (2025年4月)"
+   },
+   "funding_total": {
+    "amount": "$47M",
+    "display": "累计$47M (截至2025年4月)"
+   },
+   "investors": "HealthQuest Capital, Bon Secours Mercy Health, UCHealth, OSF Ventures, LRVHealth, Mayo Clinic",
+   "founded": "2017",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=hellocare.ai",
+   "website_url": "https://www.hellocare.ai",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI辅助虚拟护理服务，主要服务医院",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【hellocare.ai】聚焦AI科技/专业护理/产业资本，主要服务医院，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0736",
+   "name": "Homeage",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工平台",
+    "居家医疗"
+   ],
+   "description": "Homeage 是新加坡起家的科技驱动型居家照护平台（2016 年创立，Gillian Tee 联合创办，2021 年完成 2,980 万美元 C 轮），通过自研匹配引擎将长者与经过筛选、培训的护理专业人员对接，提供个人照护(ADL 协助)、居家护理(护士上门操作)、康复治疗(物理/作业/言语治疗)及远程问诊、送药等，业务覆盖新加坡、马来西亚与澳大利亚。",
+   "highlights": "健康管理服务平台",
+   "funding_latest": {
+    "date": "2021年9月",
+    "amount": "3000万美元",
+    "round": "C轮",
+    "display": "C轮 3000万美元 (2021年9月)"
+   },
+   "funding_total": "$45.3M",
+   "investors": "investors undisclosed",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Homeage",
+   "website_url": "https://www.homeage.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Homeage 是新加坡起家的科技驱动型居家照护平台（2016 年创立，Gillian Tee 联合创办，2021 年完成 2,980 万美元 C 轮），通过自研匹配引擎将长者与经过筛选、培训的护理专业人员对接，提供个人照护(ADL 协助)、居家护理(护士上门操作)、康复治疗(物理/作业/言语治疗)及远程问诊、送药等，业务覆盖新加坡、马来西亚与澳大利亚。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台",
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Homeage】聚焦产业资本/健康管理/数字化，健康管理服务平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0756",
+   "name": "Kismet",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "存在两家同名实体：① Kismet Healthcare（澳大利亚，2023 年成立）是 AI 驱动的平台，帮助家庭在 NDIS 与养老体系中导航、搜寻/预约/支付照护与医疗服务提供商，被称为'个性化礼宾'，2025 年获 3,250 万澳元种子轮、用户超 10 万；② Kismet Health（美国）是面向儿童的远程医疗平台。本库按银发语境取前者。",
+   "highlights": "35,000+服务提供商",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "1300万美元",
+    "round": "种子轮",
+    "display": "种子轮 1300万美元 (2024年10月)"
+   },
+   "funding_total": "$8.2M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kismet",
+   "website_url": "https://www.kismet.ai",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "存在两家同名实体：① Kismet Healthcare（澳大利亚，2023 年成立）是 AI 驱动的平台，帮助家庭在 NDIS 与养老体系中导航、搜寻/预约/支付照护与医疗服务提供商，被称为'个性化礼宾'，2025 年获 3,250 万澳元种子轮、用户超 10 万；② Kismet Health（美国）是面向儿童的远程医疗平台。本库按银发语境取前者。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Kismet】聚焦产业资本/居家护理/护理平台，35,000+服务提供商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  }
+ ]
+}

@@ -1,0 +1,478 @@
+[
+ {
+  "serial": "#0696",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "B轮",
+  "founded": 2016,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "混合（政府老龄署或医疗组织B2G采购加个人订阅；MCO或Medicare支付）",
+  "desc_cn": "主动式AI陪伴机器人，缓解独居老人孤独与用药",
+  "recommend": "信号充足、信息透明，其主动式AI陪伴机器人差异化突出（日均互动超30次、已规模化部署）；可复制性受国内商保与支付体系薄弱拖累——最该学的是适老化主动交互与孤独干预的软硬一体路径，先从机构与社区场景切入。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "主动式AI陪伴，日均互动超30次",
+   "已在美国数千家庭规模化部署",
+   "B2B机构或医保加B2C订阅双轮",
+   "针对独居老人孤独与用药提醒"
+  ],
+  "events": [
+   {
+    "date": "2024-08",
+    "text": "完成2500万美元新一轮融资，推进ElliQ规模化部署"
+   },
+   {
+    "date": "2026-03",
+    "text": "十年复盘：累计部署数千家庭、日均互动超30次"
+   }
+  ],
+  "signal_strength": 3.05,
+  "info_score": 8.0,
+  "diff_score": 8.0,
+  "copy_score": 6.0,
+  "research_value": 61.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专为老年人设计的主动式AI陪伴，直击孤独与健康管理",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0895",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2011,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构付费（向OEM、养老机构与智能家居厂商售雷达芯片或模组）",
+  "desc_cn": "4D成像雷达，无摄像头跌倒监测赋能养老",
+  "recommend": "信号充足、信息透明，4D成像雷达以无摄像头隐私保护做跌倒监测差异化清晰；壁垒在全自研射频芯片，国内有毫米波雷达同类但集成度偏低——最该学用雷达替代摄像头的非接触监测思路，可直接平移至养老机构与智能家居厂商。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "4D成像雷达无摄像头、隐私保护",
+   "Vayyar Care养老跌倒与活动监测",
+   "2020年在华设全资子公司与研发中心",
+   "全自研RFIC加多天线阵列壁垒"
+  ],
+  "events": [
+   {
+    "date": "2022-06",
+    "text": "完成1.08亿美元E轮，估值超10亿美元"
+   },
+   {
+    "date": "2024-10",
+    "text": "完成2500万美元E轮扩展轮"
+   },
+   {
+    "date": "2020",
+    "text": "在中国设立全资子公司与研发中心"
+   }
+  ],
+  "signal_strength": 3.05,
+  "info_score": 8.0,
+  "diff_score": 5.0,
+  "copy_score": 7.0,
+  "research_value": 57.1,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "底层是通用4D成像雷达半导体，养老跌倒监测仅为其多行业应用之一",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#0977",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2014,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "混合（客户为健康计划，终极支付方为政府Medicare或Medicaid）",
+  "desc_cn": "行为经济学加财务激励提升老年慢病依从",
+  "recommend": "信号充足、信息透明，行为经济学加每日小额激励提升慢病依从的打法差异化明确，临床与财务成效指标清晰；可复制性受国内按效果付费与政府支付结构差异拖累——最该学用微小激励撬动依从率的行为设计，适配医保控费与慢病管理语境。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "行为经济学加每日小额财务激励提依从",
+   "服务Medicare Advantage或Medicaid或D-SNP",
+   "累计5000万加次打卡、住院降51%",
+   "2025年完成3600万美元C轮"
+  ],
+  "events": [
+   {
+    "date": "2025-03",
+    "text": "完成3600万美元超额认购C轮"
+   }
+  ],
+  "signal_strength": 3.05,
+  "info_score": 8.0,
+  "diff_score": 6.0,
+  "copy_score": 5.0,
+  "research_value": 55.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "以行为经济学加财务激励服务Medicare或Medicaid高风险老年慢病人群",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#1331",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "A轮",
+  "founded": 2021,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "研发期未商业化（未来上市后政府医保加商业保险支付）",
+  "desc_cn": "神经退行性疾病Biotech，首创神经血管单抗",
+  "recommend": "信号中等、信息偏早期，其靶向tPA-NMDAr轴的首创神经血管抗体差异化突出，一药多适应症管线设计清晰；可复制性受临床与支付体系高门槛约束——国内宜学其血管-神经机制视角与生物标志物驱动的临床策略，而非直接复制形态。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "首创靶向tPA-NMDAr轴的全人源单抗LYS241",
+   "覆盖帕金森或多系统萎缩或缺血卒中（一药多适应症）",
+   "获Michael J. Fox基金会超500万美元资助",
+   "累计融资超2500万欧元、推进至临床1a或1b"
+  ],
+  "events": [
+   {
+    "date": "2026-06",
+    "text": "宣布累计融资超2500万欧元，推进LYS241临床1a或1b"
+   }
+  ],
+  "signal_strength": 2.8,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 3.0,
+  "research_value": 46.4,
+  "silver_verdict": "核心银发",
+  "silver_reason": "主攻神经退行性与抗衰老脑科学，人群高度老龄化相关",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#1334",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "未搜到",
+  "founded": "未搜到",
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "混合（C端家庭免费，B端机构订阅listing与运营工具）",
+  "desc_cn": "家庭-小型养老院透明匹配平台，零佣金",
+  "recommend": "信号中等、信息偏新，其不卖家庭信息、零佣金、listing验真的养老小机构匹配模式差异化清晰；轻模式易复制——国内养老院信息分散、中介乱象普遍，最该学透明匹配加小机构曝光路径，优先切社区嵌入式小微机构。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "全美上线的家庭-小型养老院匹配平台",
+   "零佣金、不售家庭信息、listing验真",
+   "面向机构提供BedHub Operations运营工具",
+   "创始人具15年住宅辅助生活运营经验"
+  ],
+  "events": [
+   {
+    "date": "2026-07",
+    "text": "全美上线家庭-小型养老院透明匹配平台"
+   }
+  ],
+  "signal_strength": 2.8,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 50.4,
+  "silver_verdict": "核心银发",
+  "silver_reason": "帮家庭搜寻优质小型养老照护机构的匹配平台，直接服务银发",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0387",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "B轮",
+  "founded": 2014,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端保险机构付费（健康险公司采购CareVoiceOS）",
+  "desc_cn": "保险科技OS，把健康功能API化嵌入保单",
+  "recommend": "信号中等、信息量一般，其将健康与保健功能API化、嵌入寿险与健康险公司的操作系统差异化明确；轻模式易复制——作为本土团队，最该学以API把健康服务植入保单的路径，向养老险与长护险场景平移。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "上海或香港保险科技，CareVoiceOS健康操作系统",
+   "以API将分诊或保单或理赔嵌入保司",
+   "服务全球30余家保险公司",
+   "2024年完成千万美元级B轮"
+  ],
+  "events": [
+   {
+    "date": "2024-03",
+    "text": "完成1000万美元B轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 5.0,
+  "copy_score": 6.0,
+  "research_value": 47.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "保险科技赋能健康险，间接服务银发客群",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0479",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "A轮",
+  "founded": 2017,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构加个人自费（机器宠物硬件销售）",
+  "desc_cn": "仿生机器小狗，陪伴认知症与认知障碍老人",
+  "recommend": "信号充足、信息透明，仿真机器小狗以情感交互陪伴认知症老人的差异化突出，2.3万预购验证需求；可复制性受硬件成本与供应链约束——国内宜学仿生宠物加情感计算路径，先由认知症照护机构与养老社区批量采购切入。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "仿生机器小狗Jennie陪伴认知症老人",
+   "2026年A3轮700万美元、2.3万预购",
+   "Jim Henson团队参与拟真动画",
+   "计划2026年秋首批发货"
+  ],
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "完成610万美元A轮"
+   },
+   {
+    "date": "2026-06",
+    "text": "完成700万美元A3轮，2.3万预购，计划秋季首发"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 54.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "仿生机器小狗专门陪伴痴呆症或认知障碍老人",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#0500",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "B轮",
+  "founded": 2015,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "C端个人自费（家庭照护者购买用品）",
+  "desc_cn": "家庭照护用品电商加照护知识平台",
+  "recommend": "信号中等、信息量一般，其面向家庭照护者的一站式用品电商加照护知识平台差异化有限但模式轻；易复制——国内照护者散、专业供给缺，最该学用品加教育一站式路径，借社区与私域流量低成本落地。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "家庭照护者一站式用品电商加知识平台",
+   "2023年B轮2470万美元、累计5470万",
+   "soonicorn级别、增长快",
+   "聚焦居家养老照护场景"
+  ],
+  "events": [
+   {
+    "date": "2023-06",
+    "text": "完成2470万美元B轮"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 4.0,
+  "copy_score": 7.0,
+  "research_value": 47.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "家庭照护者电商加教育平台，服务居家养老场景",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0501",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 2015,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端医疗机构或支付方加个人（居家监测方案）",
+  "desc_cn": "居家生命体征监测平台，被零售巨头整合",
+  "recommend": "信号充足、信息透明，其居家生命体征监测平台被零售巨头整合的差异化路径清晰；可复制性受数据合规与渠道门槛约束——国内宜学监测硬件加平台被零售与家电渠道整合的打法，切适老化居家慢病与出院后管理。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "居家生命体征监测远程平台",
+   "2021年被Best Buy以约4亿美元收购",
+   "2021年B轮4300万美元",
+   "服务老年慢病与居家照护"
+  ],
+  "events": [
+   {
+    "date": "2021-04",
+    "text": "完成4300万美元B轮"
+   },
+   {
+    "date": "2021",
+    "text": "被Best Buy以约4亿美元收购"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 52.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家生命体征监测直接服务老年慢病与居家照护",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0511",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "种子期",
+  "founded": 2020,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "个人自费（遗嘱或信托服务）加B端顾问合作",
+  "desc_cn": "数字遗产与遗嘱信托平台，整合遗嘱加信托",
+  "recommend": "信号偏弱、信息量一般，其整合遗嘱、信托与数字账号管理的一站式遗产规划平台差异化有限但切老龄化财富传承；轻模式易复制——国内数字遗产与家族信托刚起步，最该学遗嘱加信托加账号一体化路径。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "数字遗产与遗嘱信托一体化平台",
+   "整合遗嘱加信托加账号管理",
+   "2021年种子轮500万美元",
+   "面向老龄化财富传承"
+  ],
+  "events": [
+   {
+    "date": "2021",
+    "text": "完成500万美元种子轮"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 42.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "遗产规划或数字资产继承属银发金融范畴",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0598",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "B轮",
+  "founded": 2020,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端中小企业付费（401k管理SaaS）加员工缴费",
+  "desc_cn": "中小企业自动化401(k)退休金管理平台",
+  "recommend": "信号中等、信息量一般，其全资自有、嵌入HR与薪资平台的退休金SaaS差异化在端到端自研；受国内外养老金融牌照与税制差异约束——国内宜学嵌入式退休金基础设施路径，切企业年金与个人养老金数字化。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "全资自有401(k)退休金管理平台",
+   "2025年B轮3300万美元、服务5000加企业",
+   "管理资产超10亿美元",
+   "嵌入式接入HCM或金融机构分销"
+  ],
+  "events": [
+   {
+    "date": "2025-12",
+    "text": "完成3300万美元B轮，Centana领投"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 5.0,
+  "copy_score": 3.0,
+  "research_value": 41.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "美国401k退休金自动化管理，属养老金融",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0604",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "A轮",
+  "founded": 2017,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构采购加个人自费（智能药盒硬件）",
+  "desc_cn": "智能药盒，管理多药老人的分仓与提醒",
+  "recommend": "信号偏弱、信息量一般，其多药管理的智能药盒硬件差异化有限但模式轻；易复制——国内智能药盒同质化严重，最该学多药分仓加依从提醒的硬件路径，结合慢病管理与机构及医保渠道落地。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "智能药盒Karie管理多种药物",
+   "A轮融资、累计390万美元",
+   "面向多药老人用药依从",
+   "加拿大老年用药管理硬件商"
+  ],
+  "events": [
+   {
+    "date": "2020",
+    "text": "完成A轮融资（约500万元）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 4.0,
+  "copy_score": 7.0,
+  "research_value": 44.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "智能药盒管理多药老人用药，属用药照护",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ }
+]

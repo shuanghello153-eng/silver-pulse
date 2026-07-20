@@ -1,0 +1,646 @@
+{
+  "batch": 34,
+  "enterprises": [
+    {
+      "serial": "#0147",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：多肽产业园、服务1.7亿用户；原料加特医食品是差异化；肽类功能营养国内老龄需求大，产品商模式可抄但门槛在中游研发。",
+        "rec_v2": "披露一般，亮点是多肽原料自主；差异在产业链上游；创业者可学其从原料卡位再延终端，但研发壁垒较高。",
+        "rec_v3": "低信号但有产业厚度；差异在把多肽做成营养学品类；国内特医食品蓝海，其原料加品牌双线可借鉴。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+B端原料采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "多肽营养原料与功能性食品研发生产商",
+      "founded": 1996,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中国多肽产业园",
+        "产品服务全球1.7亿消费者",
+        "多肽原料+特医食品"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "多肽营养与特医食品企业，服务老年健康营养需求"
+    },
+    {
+      "serial": "#0148",
+      "signal_strength": 0.55,
+      "info_score": 2,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 25.6,
+      "recommend": {
+        "rec_v1": "信号极低、信息极少；主打头皮头发与肌肤适老护理是差异化空白；产品商轻模式易复制，国内银发个护几乎无专品可抄。",
+        "rec_v2": "披露薄弱，亮点是适老定位本身；差异在中老年细分；创业者可学其用人群切分做功能个护，低成本试错。",
+        "rec_v3": "冷门却卡准趋势；差异在把抗老从概念变日常护理；国内中年护理品牌稀缺，其定位逻辑可直接借。",
+        "info_score": 2,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 25.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "适老个护品牌，主打头皮头发与肌肤护理",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "适老头皮头发与肌肤护理产品",
+        "个护品牌定位"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "适老个护品牌，主打头皮头发与肌肤护理类适老产品"
+    },
+    {
+      "serial": "#0149",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号低但信息厚：覆盖400加城市、头部平台；把养老护理嵌进家庭服务是差异化；其阿姨培训与派单体系国内可抄，但规模壁垒高。",
+        "rec_v2": "披露透明，亮点是家政流量反哺养老护理；差异在复用存量运力；创业者可学其用保洁高频带低频护理的获客节奏。",
+        "rec_v3": "冷门信号难掩体量；差异在服务品类延展而非新建；国内居家养老护理缺标准，其培训加派单中台值得借鉴。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "家庭服务平台，提供保洁与养老护理上门",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "覆盖全国400+城市",
+        "国内最大家庭服务平台之一",
+        "提供养老护理上门"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家庭服务平台提供保洁、月嫂与养老护理等上门服务，覆盖全国"
+    },
+    {
+      "serial": "#0150",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 24.6,
+      "recommend": {
+        "rec_v1": "信号低、信息少，实质为险资产业投资平台；布局康养地产而非直接服务老人，差异在资本；模式难复制，可跟踪其被投方向找机会。",
+        "rec_v2": "披露薄弱，亮点是背靠太保资源；作为投资端难借鉴运营；创业者宜看它押注的康养赛道反向选品。",
+        "rec_v3": "低信号且非运营实体；差异在保险资金加康养；个人难复制禀赋，但可学其赛道判断框架。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 24.6
+      },
+      "payor_model": "母公司及LP出资",
+      "business_tags_role": "投资机构",
+      "desc_cn": "中国太保旗下投资平台，布局康养与银发赛道",
+      "founded": 2006,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中国太保旗下投资平台",
+        "布局康养地产与银发赛道"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "实质为太保系产业投资平台，布局康养地产投资但不直接服务老年人，属泛银发资本方"
+    },
+    {
+      "serial": "#0151",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号低但信息厚：年金规模近7000亿、服务200万职工；专业养老险加长护险是强差异；牌照壁垒高，创业者可学其第三支柱产品设计。",
+        "rec_v2": "披露透明，亮点是年金受托加长护双线；差异在支付端专业度；复制受牌照约束，但其养老金融思路值得借。",
+        "rec_v3": "冷门信号难掩实力；差异在把养老支付做成主业的险企；国内第三支柱刚起，其产品矩阵逻辑可借鉴。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 44.6
+      },
+      "payor_model": "商业保险支付+政府长护险+企业年金",
+      "business_tags_role": "服务商",
+      "desc_cn": "太平旗下养老险公司，年金与长护险管理",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "养老金管理资产规模近7000亿元",
+        "服务企业约1.4万户、职工近200万",
+        "年金+第三支柱+长护险"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "太平旗下专业养老险公司，主营年金、第三支柱养老与长期护理保险"
+    },
+    {
+      "serial": "#0152",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 31.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：年产能5000吨、OEM加终端双线；肽原粉供应是差异化；上游卡位国内可抄，但研发与产能门槛不低。",
+        "rec_v2": "披露一般，亮点是给行业供肽原粉；差异在B端原料加C端品牌；创业者可学其用代工养自有品牌的节奏。",
+        "rec_v3": "低信号但有产业链位置；差异在把肽做成基础原料；国内功能营养升温，其OEM加终端双轮可借鉴。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 31.6
+      },
+      "payor_model": "B端原料采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "小分子肽研发生产商，提供OEM与终端健康品牌",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "年产能超5000吨小分子肽",
+        "提供肽原粉OEM/ODM",
+        "自有太爱肽、美日肽能品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "小分子肽研发生产商，为健康与保健行业提供肽原粉及终端品牌"
+    },
+    {
+      "serial": "#0153",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 39.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等；黄原胶增稠剂解决老人吞咽障碍是强差异化细分；特医食品刚需，产品商模式国内易复制且政策利好。",
+        "rec_v2": "披露尚可，亮点是卡位吞咽康复这一被忽略场景；差异在极细分功能食品；创业者可学其从临床痛点做特医单品。",
+        "rec_v3": "冷门却极精准；与泛保健品不同，它解决真实进食风险；国内吞咽障碍人群庞大，其特医定位清晰可抄。",
+        "info_score": 4,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 39.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "吞咽障碍食品增稠剂与特医食品品牌",
+      "founded": 2012,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "黄原胶食品增稠剂解决吞咽障碍",
+        "属吞咽康复特殊营养/特医食品"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "吞咽障碍食品增稠剂与特医食品，服务老年及患者进食安全"
+    },
+    {
+      "serial": "#0154",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号低、信息尚可：月GMV过亿、复购40%；主攻三四线40加女性是差异化；社群加顾问模式可抄，但客群偏中年非银发养老。",
+        "rec_v2": "披露中等，亮点是500公众号引流加服装顾问；差异在下沉中年女性；创业者可学其社群运营，但非老年专属场景。",
+        "rec_v3": "低信号但有营收验证；差异在替中年女性做决策服务；模式可借鉴，但属综合服饰电商而非银发服务。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "微信女装电商，主攻三四线40+中年女性",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "月GMV超1亿元、复购率逾40%",
+        "近500个公众号引流+社群运营",
+        "主攻三四线40+中年女性"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "三四线40+中年女性女装电商平台，属综合服饰电商，非专为老年/银发设计"
+    },
+    {
+      "serial": "#0155",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：全国30余省市加盟网；健康馆加适老产品加日照料组合是差异化；连锁轻模式国内可抄，加盟管控是关键。",
+        "rec_v2": "披露一般，亮点是羊奶无糖等适老选品；差异在门店体验；创业者可学其用加盟快速铺银发社区触点。",
+        "rec_v3": "冷门但有渠道密度；差异在把产品与日间照料合一；国内社区养老零售可借鉴其加盟加服务模型。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+加盟费(B端)",
+      "business_tags_role": "服务商",
+      "desc_cn": "社区老年健康生活馆连锁，含产品与日间照料",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全国30余省市健康生活馆加盟",
+        "羊奶粉/无糖食品/适老家居+日间照料"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "社区老年健康生活馆连锁，销售适老产品并配套日间照料与旅居养老"
+    },
+    {
+      "serial": "#0156",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：高端保洁头部、涉足养老护理；把护理嵌进家政是轻差异化；模式可抄，但养老仅延伸非主业，银发属性偏弱。",
+        "rec_v2": "披露尚可，亮点是标准化上门服务体系；差异在家政复用；创业者可学其用保洁流量带低频护理，但养老非核心。",
+        "rec_v3": "冷门信号、以保洁立身；差异在服务延展；国内居家照护缺标准，其培训体系可借，但本业属泛家政擦边。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "高端家庭保洁品牌，涉足居家养老护理",
+      "founded": 2010,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "高端家庭保洁品牌",
+        "标准化上门服务并涉足居家养老护理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "以家庭保洁为核心业态，仅涉足居家养老护理，银发非主业，属泛家政服务"
+    },
+    {
+      "serial": "#0158",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：全国约1500家门店；老友乐园文娱加适老产品是差异化；连锁轻模式国内可抄，社群运营是复制要点。",
+        "rec_v2": "披露一般，亮点是文娱活动黏住老人；差异在情感运营；创业者可学其用活动带零售的社区打法。",
+        "rec_v3": "冷门但有规模；差异在产品加文娱加日照料合一；国内银发社区店可借鉴其玩加买闭环模型。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+加盟费(B端)",
+      "business_tags_role": "服务商",
+      "desc_cn": "社区老年健康生活馆连锁，产品+文娱+日照料",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全国门店约1500家",
+        "羊乳/特殊膳食/适老用品+文娱日照料"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "社区老年健康生活馆连锁，含适老用品、文娱活动与日间照料"
+    },
+    {
+      "serial": "#0159",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：800余家连锁、2000余单品；中老年一站式专卖是差异化；连锁零售模式国内可抄，选品宽度是优势。",
+        "rec_v2": "披露一般，亮点是理疗加旅游延展服务；差异在品类聚合；创业者可学其用专卖店做银发流量入口。",
+        "rec_v3": "冷门但有渠道价值；差异在中老年用品聚合而非单品；国内县域银发零售空白大，其模型可复制。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+加盟费(B端)",
+      "business_tags_role": "服务商",
+      "desc_cn": "中老年用品一站式连锁专卖，含理疗与旅游",
+      "founded": 2012,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全国连锁门店800余家",
+        "中老年一站式2000余单品+理疗旅游"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年用品一站式连锁专卖，含家用医疗器械、按摩保健与老年旅游"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0147",
+      "name": "天天好",
+      "intro": "天天好是中国多肽营养学开创者，集多肽原料生产、研发与全球销售于一体。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "营养食品",
+          "保健品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0148",
+      "name": "天空树",
+      "intro": "天空树是个人护理品牌，主打头皮头发或肌肤护理类适老产品。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "个人护理",
+          "美妆护肤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "中老年护肤",
+          "reason": "主打适老头皮头发与肌肤护理，可补中老年护肤标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0149",
+      "name": "天鹅到家",
+      "intro": "天鹅到家是国内最大家庭服务平台，提供保洁、月嫂、养老护理等上门服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "家政"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0150",
+      "name": "太保资本",
+      "intro": "太保资本是中国太保旗下投资平台，围绕康养地产与银发赛道进行投资布局。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "产业基金"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老服务",
+          "reason": "布局康养地产与银发赛道投资，可补养老服务标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0151",
+      "name": "太平养老",
+      "intro": "太平养老是太平保险旗下专业养老险公司，主营企业年金、第三支柱养老保险及长护险。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "保险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0152",
+      "name": "太爱肽",
+      "intro": "太爱肽专注小分子肽研发生产，提供肽原粉OEM/ODM及自有终端健康品牌。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "保健品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0153",
+      "name": "奥特顺咽",
+      "intro": "奥特顺咽是吞咽康复特殊营养食品品牌，为吞咽困难老人增加液体黏稠度。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "功能性食品"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0154",
+      "name": "女王新款",
+      "intro": "女王新款是微信小程序女装电商平台，专攻三四线城市40岁以上中年女性。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0155",
+      "name": "好孝心",
+      "intro": "好孝心是社区居家养老与老年健康服务连锁品牌，以健康生活馆加盟门店销售适老产品。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0156",
+      "name": "好慷在家",
+      "intro": "好慷在家是高端家庭保洁服务品牌，提供标准化上门保洁并涉足居家养老护理。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "家政"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0158",
+      "name": "孝当先",
+      "intro": "孝当先是立足社区的老年健康生活馆连锁品牌，主营羊乳、特殊膳食、适老用品等。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0159",
+      "name": "孝心坊",
+      "intro": "孝心坊首创国内中老年用品一站式连锁专卖模式，门店销售多类老年单品并配套服务。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0150",
+      "name": "太保资本",
+      "verdict": "泛医疗擦边",
+      "reason": "实质为太保系产业投资平台，布局康养地产投资但不直接服务老年人，属泛银发资本方"
+    },
+    {
+      "serial": "#0154",
+      "name": "女王新款",
+      "verdict": "非银发",
+      "reason": "三四线40+中年女性女装电商平台，属综合服饰电商，非专为老年/银发设计"
+    },
+    {
+      "serial": "#0156",
+      "name": "好慷在家",
+      "verdict": "泛医疗擦边",
+      "reason": "以家庭保洁为核心业态，仅涉足居家养老护理，银发非主业，属泛家政服务"
+    }
+  ]
+}

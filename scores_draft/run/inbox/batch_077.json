@@ -1,0 +1,515 @@
+{
+ "batch": 77,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0824",
+   "name": "Punto Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "认知症"
+   ],
+   "description": "Punto Health 是一家伦敦的 AI 失智照护平台，旗下 PuntoTest/PuntoCare/PuntoClinic 提供认知筛查、照护计划与家属支持，曾获 230 万欧元种子轮融资，向 NHS 及养老机构以 SaaS 销售。亮点是把痴呆筛查与持续照护闭环数字化。",
+   "highlights": "AI驱动综合平台改善痴呆症患者及其家人护理",
+   "funding_latest": {
+    "amount": "64.5万欧元",
+    "display": "64.5万欧元"
+   },
+   "funding_total": null,
+   "investors": "Shilling VC, Plus Partners (+9)",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Punto%20Health",
+   "website_url": "https://www.puntohealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Punto Health 是一家伦敦的 AI 失智照护平台，旗下 PuntoTest/PuntoCare/PuntoClinic 提供认知筛查、照护计划与家属支持，曾获 230 万欧元种子轮融资，向 NHS 及养老机构以 SaaS 销售。亮点是把痴呆筛查与持续照护闭环数字化。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Punto Health】聚焦产业资本/文娱社交/认知症，AI驱动综合平台改善痴呆症患者及其家人护理，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0825",
+   "name": "PurFoods",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "膳食配送"
+   ],
+   "description": "PurFoods, operating Mom's Meals, cooks and ships home-delivered medically tailored meals to Medicaid, Medicare and dual-eligible members, with condition-specific menus for diabetes, cardiac and post-surgery diets.",
+   "highlights": "医疗补助福利",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "Berkshire Partners (PE owner)",
+   "founded": "1999",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PurFoods",
+   "website_url": "https://www.purfoods.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "PurFoods 以 Mom's Meals 品牌为医疗补助、联邦医保及双重资格人群烹制并按周配送疾病定制餐食，覆盖糖尿病、心病与术后饮食。",
+   "business_model_cn": "B2B餐食结算",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【PurFoods】聚焦健康管理/营养食品/行业媒体，医疗补助福利，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0826",
+   "name": "Pyx Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "Pyx Health 是一家解决老年人孤独与社会隔离的公司，为 Medicare/Medicaid 会员提供 App、人工呼叫中心关怀以及生鲜配送，按人头向健康计划（payer）收费。亮点是用'真人+科技'组合显著降低孤独相关的医疗支出。",
+   "highlights": "2024年Inc.5000第517名",
+   "funding_latest": null,
+   "funding_total": "$49M+",
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Pyx%20Health",
+   "website_url": "https://www.pyxhealth.com",
+   "business_model": "B2C/B2B 养老运营服务",
+   "desc_cn": "Pyx Health 是一家解决老年人孤独与社会隔离的公司，为 Medicare/Medicaid 会员提供 App、人工呼叫中心关怀以及生鲜配送，按人头向健康计划（payer）收费。亮点是用'真人+科技'组合显著降低孤独相关的医疗支出。",
+   "business_model_cn": "B2C/B2B 专业护理服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Pyx Health】聚焦专业护理/文娱社交，2024年Inc.5000第517名，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0827",
+   "name": "RapidClaims",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "RapidClaims 是一家医疗收入周期自动化公司，用自主 AI 完成医学编码、账单与理赔（产品含 RapidCode/RapidVBC/RapidRecovery），向医院与 RCM 机构按 SaaS/用量收费，总部在纽约。亮点是把人工编码环节做到近乎全自动，提升回款效率。",
+   "highlights": "AI帮助医疗服务提供商实现医疗编码自动化",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "310万美元",
+    "display": "310万美元 (2024年2月)"
+   },
+   "funding_total": "$11M",
+   "investors": "Accel (lead)",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=RapidClaims",
+   "website_url": "https://www.rapidclaims.ai",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "RapidClaims 是一家医疗收入周期自动化公司，用自主 AI 完成医学编码、账单与理赔（产品含 RapidCode/RapidVBC/RapidRecovery），向医院与 RCM 机构按 SaaS/用量收费，总部在纽约。亮点是把人工编码环节做到近乎全自动，提升回款效率。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【RapidClaims】聚焦产业资本/健康管理/文娱社交，AI帮助医疗服务提供商实现医疗编码自动化，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0829",
+   "name": "reev.care",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "助行器"
+   ],
+   "description": "帮助中风、多发性硬化症后神经步态障碍患者",
+   "highlights": "帮助中风、多发性硬化症后神经步态障碍患者",
+   "funding_latest": null,
+   "funding_total": "$9.2M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=reev.care",
+   "website_url": "https://reev.care",
+   "business_model": "硬件产品",
+   "desc_cn": "帮助中风、多发性硬化症后神经步态障碍患者",
+   "business_model_cn": "硬件产品",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【reev.care】聚焦康复/智能硬件/辅具，帮助中风、多发性硬化症后神经步态障碍患者，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0830",
+   "name": "Remodel Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "雇主和经纪人应对ICHRA过渡",
+   "highlights": "雇主和经纪人应对ICHRA过渡",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "1亿美元+",
+    "display": "1亿美元+ (2024年12月)"
+   },
+   "funding_total": "$100M+",
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Remodel%20Health",
+   "website_url": "https://www.remodelhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "雇主和经纪人应对ICHRA过渡",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Remodel Health】聚焦产业资本/保险/行业媒体，雇主和经纪人应对ICHRA过渡，B2B模式，研究价值分26。",
+   "payor_model": "商业保险",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0833",
+   "name": "Rune Labs",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "精神&神经",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "Rune Labs 是一家精密神经科软件公司，其 StrivePD 通过 Apple Watch 等可穿戴设备追踪帕金森症状与运动数据，已获 FDA 许可，向临床与药物试验机构提供数据与决策支持。亮点是把日常可穿戴数据转化为可用于诊疗和研究的神经标志物。",
+   "highlights": "为神经退行性疾病提供精准神经学SaaS解决方案",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "1200万美元",
+    "display": "1200万美元 (2024年1月)"
+   },
+   "funding_total": "$42M+",
+   "investors": "",
+   "founded": "2018",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Rune%20Labs",
+   "website_url": "https://www.runelabs.io",
+   "business_model": "B2B SaaS/软件平台",
+   "desc_cn": "Rune Labs 是一家精密神经科软件公司，其 StrivePD 通过 Apple Watch 等可穿戴设备追踪帕金森症状与运动数据，已获 FDA 许可，向临床与药物试验机构提供数据与决策支持。亮点是把日常可穿戴数据转化为可用于诊疗和研究的神经标志物。",
+   "business_model_cn": "B2B/B2C 康复设备/跌倒预防",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Rune Labs】聚焦产业资本/康复/数字化，为神经退行性疾病提供精准神经学SaaS解决方案，B2B模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0836",
+   "name": "Saga",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "年利润超3.7亿，服务12万50+人群",
+   "highlights": "服务12万50+人群",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1951",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Saga",
+   "website_url": "https://www.saga.co.uk",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "年利润超3.7亿，服务12万50+人群",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Saga】聚焦产业资本/旅游/行业媒体，服务12万50+人群，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0837",
+   "name": "Sage Inc.",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "帮助护理人员记录居民健康状况，管理任务",
+   "highlights": "管理任务",
+   "funding_latest": {
+    "date": "2022年",
+    "amount": "900万美元",
+    "display": "900万美元 (2022年)"
+   },
+   "funding_total": "$100M+",
+   "investors": "IVP, Goldman Sachs (lead, Series C)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sage%20Inc.",
+   "website_url": "https://www.sage.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "帮助护理人员记录居民健康状况，管理任务",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sage Inc.】聚焦专业护理/产业资本/护理平台，管理任务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0838",
+   "name": "Sava",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "糖尿病"
+   ],
+   "description": "下一代连续血糖监测仪，侵入性更小更便宜",
+   "highlights": "侵入性更小更便宜",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "800万美元",
+    "display": "800万美元 (2024年6月)"
+   },
+   "funding_total": "$13M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 51,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sava",
+   "website_url": "https://www.sava.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "下一代连续血糖监测仪，侵入性更小更便宜",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "news_coverage": {
+    "news_count": 9,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "UK's Sava lands €16.6M",
+      "date": "2025-07-31",
+      "source": "Silicon Canals",
+      "url": "https://siliconcanals.com/uks-sava-lands-16-6m/"
+     },
+     {
+      "title": "开发基于微针电极的连续血糖监测仪，Sava完成1900万美元A轮",
+      "date": "2025-08-10",
+      "source": "sohu",
+      "url": "https://www.sohu.com/a/922528739_121124378"
+     },
+     {
+      "title": "Savaria Acquires Vipal - Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXOTYtVkloWEVBMmhVcll0U21RZjlnRWdlbHBZeU1IbmxGaUxEdlZCZU5sYUNPSldVRE1OcnJ3VHE3YzJhcEh2dE9XNnlERUtDcnYwOV9IVXU5QdIBWkFVX3lxTFBXOTYtVkloWEVBMmhVcll0U21RZjlnRWdlbHBZeU1IbmxGaUxEdlZCZU5sYUNPSldVRE1OcnJ3VHE3YzJhcEh2dE9XNnlERUtDcnYwOV9IVXU5QQ?oc=5",
+      "date": "2026-07-06",
+      "source": "Pulse 2.0",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": [
+     "$19M/~€16.6M Series A (Balderton, Pentland) for wearable glucose microsensor.",
+     "Total funding ~$32M."
+    ]
+   },
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "糖尿病"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sava】聚焦产业资本/健康监测/慢病管理，侵入性更小更便宜，B2B+B2C模式，研究价值分51。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0839",
+   "name": "Savaria Corporation",
+   "region": "海外",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "无障碍设备设计制造，2023年收入约8.37亿美元",
+   "highlights": "2023年收入约8.37亿美元",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1979",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Savaria%20Corporation",
+   "website_url": "https://www.savaria.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "无障碍设备设计制造，2023年收入约8.37亿美元",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "name_cn": "萨瓦瑞亚",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Savaria Corporation】聚焦产业资本/智能硬件/适老化改造，2023年收入约8.37亿美元，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0842",
+   "name": "Senior Planet",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "教育"
+   ],
+   "description": "60岁以上课程，社会参与、财务安全、健康保健等",
+   "highlights": "社会参与、财务安全、健康保健等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2004",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Senior%20Planet",
+   "website_url": "https://seniorplanet.org",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "60岁以上课程，社会参与、财务安全、健康保健等",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Senior Planet】聚焦保健品/健康管理/教育，社会参与、财务安全、健康保健等，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

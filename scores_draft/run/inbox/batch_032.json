@@ -1,0 +1,485 @@
+{
+ "batch": 32,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0121",
+   "name": "博音",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "助听器"
+   ],
+   "description": "博音听力技术（上海）（2019年成立）是AI智能助听器研发制造企业，自研云听SiP芯片与医疗级助听器（唐潮/秦风/汉韵/通透精灵等），旗下拥有博音助听器、贝聆美等品牌。其以「听力地球」连锁联盟布局全国400+门店，提供24小时上门验配服务。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%9A%E9%9F%B3",
+   "website_url": "https://www.boinhearing.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "博音",
+   "desc_cn": "博音听力技术（上海）（2019年成立）是AI智能助听器研发制造企业，自研云听SiP芯片与医疗级助听器（唐潮/秦风/汉韵/通透精灵等），旗下拥有博音助听器、贝聆美等品牌。其以「听力地球」连锁联盟布局全国400+门店，提供24小时上门验配服务。",
+   "business_model_cn": "B2C 老年辅助器具/康复器械",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【博音】聚焦助听器/智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0122",
+   "name": "厚福",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "护理床"
+   ],
+   "description": "厚福是康复护理设备品牌，专注护理床、康复训练设备等养老机构常用设备制造。",
+   "highlights": "康复护理设备品牌，护理床+康复设备",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2000",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8E%9A%E7%A6%8F",
+   "website_url": "http://www.hope-full.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "name_cn": "厚福",
+   "desc_cn": "厚福是康复护理设备品牌，专注护理床、康复训练设备等养老机构常用设备制造。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "护理床"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【厚福】聚焦智能硬件/辅具，康复护理设备品牌，护理床+康复设备，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0123",
+   "name": "友达颐康",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "养老软件",
+    "紧急呼叫"
+   ],
+   "description": "友达颐康是台湾友达光电100%持有的智慧养老方案商，核心产品「爱可思康养综合平台」（iCaaS）提供智慧照护、健康促进、安全守护、智慧生活四大软硬整合方案。其方案含UWB定位、智能床垫、紧急呼救等，应用于全国多省市养老机构。",
+   "highlights": "智慧养老信息化平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8F%8B%E8%BE%BE%E9%A2%90%E5%BA%B7",
+   "website_url": "https://www.auocare.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "友达颐康",
+   "desc_cn": "友达颐康是台湾友达光电100%持有的智慧养老方案商，核心产品「爱可思康养综合平台」（iCaaS）提供智慧照护、健康促进、安全守护、智慧生活四大软硬整合方案。其方案含UWB定位、智能床垫、紧急呼救等，应用于全国多省市养老机构。",
+   "business_model_cn": "B2C 适老家居消费品",
+   "tag_l1": [
+    "行业服务",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "养老软件",
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【友达颐康】聚焦居家护理/适老化改造，智慧养老信息化平台，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0125",
+   "name": "台格",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "台格是适老化家具品牌，专注养老机构和居家适老化家具设计制造。",
+   "highlights": "适老化家具品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8F%B0%E6%A0%BC",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "台格",
+   "desc_cn": "台格是适老化家具品牌，专注养老机构和居家适老化家具设计制造。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【台格】聚焦居家护理/行业媒体/适老化改造，适老化家具品牌，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0126",
+   "name": "司羿智能",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "外骨骼"
+   ],
+   "description": "司羿智能是康复机器人研发商，专注手部康复机器人、下肢外骨骼等产品，服务脑卒中和老年康复患者。",
+   "highlights": "康复机器人研发商，手部+下肢外骨骼",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8F%B8%E7%BE%BF%E6%99%BA%E8%83%BD",
+   "website_url": "https://www.siyizn.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "name_cn": "司羿智能",
+   "desc_cn": "司羿智能是康复机器人研发商，专注手部康复机器人、下肢外骨骼等产品，服务脑卒中和老年康复患者。",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【司羿智能】聚焦康复/智能硬件/机器人，康复机器人研发商，手部+下肢外骨骼，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0127",
+   "name": "同仁堂",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "药品"
+   ],
+   "description": "同仁堂是中华老字号中药品牌，创立于1669年，在老年保健品、中药调理、养生领域有深厚布局。",
+   "highlights": "中华老字号中药品牌，创立于1669年",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%90%8C%E4%BB%81%E5%A0%82",
+   "website_url": "https://www.tongrentang.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "同仁堂",
+   "desc_cn": "同仁堂是中华老字号中药品牌，创立于1669年，在老年保健品、中药调理、养生领域有深厚布局。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【同仁堂】聚焦保健品，中华老字号中药品牌，创立于1669年，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0128",
+   "name": "和乐春晖",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "电商",
+    "适老化"
+   ],
+   "description": "上海和乐春晖（2021年成立）是数字驱动的适老化品牌孵化与新零售公司，聚焦50–65岁活力老年人群，以大健康产品为核心构建S2B2C数字化平台。其自研SaaS化SCRM+CDP系统，通过私域电商与适老化商品供应链变现。",
+   "highlights": "适老化改造领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%92%8C%E4%B9%90%E6%98%A5%E6%99%96",
+   "website_url": "https://www.hlchgroup.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "和乐春晖",
+   "desc_cn": "上海和乐春晖（2021年成立）是数字驱动的适老化品牌孵化与新零售公司，聚焦50–65岁活力老年人群，以大健康产品为核心构建S2B2C数字化平台。其自研SaaS化SCRM+CDP系统，通过私域电商与适老化商品供应链变现。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "消费品",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "电商",
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【和乐春晖】聚焦居家护理/智能硬件/适老化改造，适老化改造领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0130",
+   "name": "和君康养",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老咨询"
+   ],
+   "description": "和君康养是和君咨询旗下康养产业咨询品牌，为养老地产、康养小镇等项目提供规划咨询和运营管理服务。",
+   "highlights": "和君咨询旗下康养产业咨询品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2000",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%92%8C%E5%90%9B%E5%BA%B7%E5%85%BB",
+   "website_url": "https://m.hejun.com",
+   "business_model": "B2B 咨询服务",
+   "name_cn": "和君康养",
+   "desc_cn": "和君康养是和君咨询旗下康养产业咨询品牌，为养老地产、康养小镇等项目提供规划咨询和运营管理服务。",
+   "business_model_cn": "B2B 咨询服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老咨询"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【和君康养】聚焦养老社区/行业媒体，和君咨询旗下康养产业咨询品牌，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0131",
+   "name": "和家健脑",
+   "region": "国内",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "厦门市和家健脑智能科技围绕脑科学研发认知康复产品，构建快速筛查—评估—康复训练的完整闭环，其智能认知筛查与训练系统对轻度认知障碍早筛并进行数字化干预。",
+   "highlights": "认知训练平台，老年脑健康",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%92%8C%E5%AE%B6%E5%81%A5%E8%84%91",
+   "website_url": "https://www.hj-health.cn",
+   "business_model": "银发经济企业",
+   "name_cn": "和家健脑",
+   "desc_cn": "和家健脑是数字医疗企业，以人工智能与大数据赋能阿尔茨海默病防治，推出互联网认知康复云系统与智能评估训练仪，覆盖筛查、评估、干预与管理的全病程。",
+   "business_model_cn": "软件系统+设备销售",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【和家健脑】聚焦养老社区/认知症，认知训练平台，老年脑健康，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0132",
+   "name": "品驰",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "品驰医疗是脑起搏器（DBS）研发商，专注神经调控医疗器械，在帕金森等老年神经退行性疾病治疗领域处于国产领先地位。",
+   "highlights": "国产脑起搏器（DBS）龙头",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2008",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%93%81%E9%A9%B0",
+   "website_url": "http://www.pinsmedical.cn",
+   "business_model": "B2B 医疗器械",
+   "name_cn": "品驰",
+   "desc_cn": "品驰医疗是脑起搏器（DBS）研发商，专注神经调控医疗器械，在帕金森等老年神经退行性疾病治疗领域处于国产领先地位。",
+   "business_model_cn": "B2B 医疗器械",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【品驰】聚焦康复/智能硬件，国产脑起搏器（DBS）龙头，B2B模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0133",
+   "name": "响午",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "可穿戴监测",
+    "服装鞋帽"
+   ],
+   "description": "响午是老年智能可穿戴品牌，专注老年智能手表、健康监测手环等产品。",
+   "highlights": "老年智能可穿戴品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%93%8D%E5%8D%88",
+   "website_url": "",
+   "business_model": "B2C 智能可穿戴设备",
+   "name_cn": "响午",
+   "desc_cn": "响午是老年智能可穿戴品牌，专注老年智能手表、健康监测手环等产品。",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "可穿戴监测",
+    "服装鞋帽"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【响午】聚焦健康管理/智能硬件/行业媒体，老年智能可穿戴品牌，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0134",
+   "name": "哺恩",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "认知症"
+   ],
+   "description": "成都哺恩养老（成都哺恩春秋养老服务有限责任公司）成立于2016年，是一家以\"精细护理、快乐健康\"为理念的连锁养老服务机构，引进欧洲Armonea管理模式建立\"6+1\"标准化照护体系，为高龄、失能、半失能及认知症长者提供医康养一体化护理，在成都设多家分院并构建机构/社区/居家四位一体养老格局。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%93%BA%E6%81%A9",
+   "website_url": "http://www.buentang.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "哺恩",
+   "desc_cn": "哺恩是养老机构运营商，运营养老社区或康养项目。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【哺恩】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

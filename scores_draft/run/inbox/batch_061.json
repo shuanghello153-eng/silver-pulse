@@ -1,0 +1,570 @@
+{
+ "batch": 61,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0531",
+   "name": "耐克",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "老年健身",
+   "tags": [
+    "服装鞋帽"
+   ],
+   "description": "运动鞋服、运动装备研发销售",
+   "highlights": "运动鞋服、运动装备研发销售",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%80%90%E5%85%8B",
+   "website_url": "",
+   "business_model": "B2C 老年健身/健康",
+   "name_cn": "耐克",
+   "desc_cn": "运动鞋服、运动装备研发销售",
+   "business_model_cn": "B2C 老年健身/健康",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "服装鞋帽"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【耐克】聚焦健身/文娱社交，运动鞋服、运动装备研发销售，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0532",
+   "name": "NimbleRx",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "药品配送"
+   ],
+   "description": "处方药品上门配送",
+   "highlights": "处方药品上门配送",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "9位投资人",
+   "founded": "2015",
+   "value_score": 31,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NimbleRx",
+   "website_url": "https://www.nimblerx.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "处方药品上门配送",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【NimbleRx】聚焦保健品/行业媒体，处方药品上门配送，B2B模式，研究价值分31。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0533",
+   "name": "OXO",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "人体工学厨房工具",
+   "highlights": "人体工学厨房工具",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1990",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=OXO",
+   "website_url": "https://www.oxo.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "人体工学厨房工具",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【OXO】聚焦行业媒体，人体工学厨房工具，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0534",
+   "name": "PillPack",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "药品配送"
+   ],
+   "description": "按剂量分装的药品配送服务",
+   "highlights": "按剂量分装的药品配送服务",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "被 Amazon 以约$10亿收购 (2018)",
+    "display": "被 Amazon 以约$10亿收购 (2018)"
+   },
+   "investors": "",
+   "founded": "2013",
+   "value_score": 43,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PillPack",
+   "website_url": "https://www.pillpack.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "按剂量分装的药品配送服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Amazon Pharmacy Expands PillPack Into Medicare Part D",
+      "date": "2025-07-22",
+      "source": "Pharmacy Times",
+      "url": "https://www.pharmacytimes.com/view/amazon-pharmacy-expands-medicare-part-d-services-inside-its-pillpack-caregiver-tools-and-ai-powered-pharmacy-vision"
+     },
+     {
+      "title": "亚马逊药房更新：护理人员可管理亲人用药，Medicare D受益人可用PillPack",
+      "date": "2025-06-04",
+      "source": "52外贸",
+      "url": "https://www.52foreigntrade.com/20250643254.html"
+     }
+    ],
+    "snippets": [
+     "PillPack为按剂量预分包送药的在线药房，2018年被亚马逊约10亿美元收购，无独立新融资。",
+     "2025年扩展至Medicare Part D，并上线护理人员代管亲人用药功能，利好老年慢病人群。"
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【PillPack】聚焦产业资本/保健品/行业媒体，按剂量分装的药品配送服务，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0535",
+   "name": "Pivotal Ventures",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "Pivotal Ventures是Melinda French Gates创立的投资和慈善机构，关注女性经济赋权和老年人财务安全，在银发经济领域有战略投资布局。",
+   "highlights": "Melinda French Gates创立，关注老年人财务安全",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 33,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Pivotal%20Ventures",
+   "website_url": "https://pivotalventures.org/",
+   "business_model": "银发经济企业",
+   "desc_cn": "Pivotal Ventures是Melinda French Gates创立的投资和慈善机构，关注女性经济赋权和老年人财务安全，在银发经济领域有战略投资布局。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Pivotal Ventures】聚焦产业资本，Melinda French Gates创立，关注老年人财务安全，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0536",
+   "name": "Primetime Partners",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "Primetime Partners是专注银发经济（50+人群）的风险投资基金，由Alan Patricof创立，投资了多个老年科技和老年消费项目。",
+   "highlights": "专注银发经济VC，Alan Patricof创立",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "投资方向：居家养老、退休财务、照护管理、长寿健康、老年消费体验。",
+   "founded": "2020",
+   "value_score": 38,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Primetime%20Partners",
+   "website_url": "https://www.primetimepartners.vc/",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "Primetime Partners是专注银发经济（50+人群）的风险投资基金，由Alan Patricof创立，投资了多个老年科技和老年消费项目。",
+   "business_model_cn": "B2B 科技研发",
+   "news_coverage": {
+    "news_count": 8,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "2025 Guide to AgeTech Funds",
+      "date": "2026",
+      "source": "The Gerontechnologist",
+      "url": "https://thegerontechnologist.com/who-is-investing-in-the-age-tech-revolution/"
+     },
+     {
+      "title": "银发浪潮来袭:养老科技千亿市场如何破局(专访)",
+      "date": "2026-01-21",
+      "source": "AgeClub",
+      "url": "https://ageclub.net/article-detail/8091"
+     }
+    ],
+    "snippets": [
+     "Primetime Partners 是专注老龄化/长寿经济的早期VC,2023年关闭3000万美元基金",
+     "由 Alan Patricof 联合创立,投资 Sagewell、NourishedRx、Aidaly 等老年服务公司"
+    ]
+   },
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Primetime Partners】聚焦产业资本，专注银发经济VC，Alan Patricof创立，B2B模式，研究价值分38。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0537",
+   "name": "保德信金融",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Prudential Financial（保德信金融）是全球最大的金融服务公司之一，在退休金管理、年金和老年财富规划领域是行业领导者。",
+   "highlights": "全球最大金融服务公司之一，退休金管理领导者",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1875",
+   "value_score": 33,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BF%9D%E5%BE%B7%E4%BF%A1%E9%87%91%E8%9E%8D",
+   "website_url": "https://www.prudential.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "保德信金融",
+   "desc_cn": "Prudential Financial（保德信金融）是全球最大的金融服务公司之一，在退休金管理、年金和老年财富规划领域是行业领导者。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【保德信金融】聚焦养老金融/行业媒体，全球最大金融服务公司之一，退休金管理领导者，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0538",
+   "name": "ReBoot Accel",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "就业"
+   ],
+   "description": "职业中断人群技能更新与求职支持",
+   "highlights": "职业中断人群技能更新与求职支持",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ReBoot%20Accel",
+   "website_url": "https://www.rebootaccel.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "职业中断人群技能更新与求职支持",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "就业"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【ReBoot Accel】聚焦行业媒体，职业中断人群技能更新与求职支持，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0539",
+   "name": "Rendever",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "老年 VR 社交与云游览服务",
+   "highlights": "老年 VR 社交与云游览服务",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "NIH 拨款约$4.5M (2025)",
+    "display": "NIH 拨款约$4.5M (2025)"
+   },
+   "investors": "National Institutes of Health, MassVentures 等 (5位投资人)",
+   "founded": "2015",
+   "value_score": 43,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Rendever",
+   "website_url": "https://www.rendever.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "老年 VR 社交与云游览服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Rendever Receives Nearly $4.5 Million in NIH Funding",
+      "date": "2025-11-03",
+      "source": "GlobeNewswire",
+      "url": "https://www.ageinplacetech.com/pressrelease/rendever-receives-nearly-45-million-nih-funding-overcome-social-isolation-older-adults"
+     },
+     {
+      "title": "服务600+养老社区，Rendever如何通过“VR+养老”缓解老年孤独",
+      "date": "2025-07-03",
+      "source": "搜狐",
+      "url": "https://www.sohu.com/a/910206767_120019119"
+     },
+     {
+      "title": "Rendever推出社交健康平台，用数据驱动干预老年人社交隔离",
+      "url": "https://www.mcknightsseniorliving.com/news/new-social-health-platform-aims-to-offset-isolation-in-senior-living-residents/",
+      "date": "2026-06-30",
+      "source": "McKnight's Senior Living",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": [
+     "Rendever为面向老年人的VR沉浸式技术公司，2025年11月获NIH约450万美元资助用于缓解老年社会隔离。",
+     "已服务600+养老社区，客户留存率达96%，主打VR健身/旅行/互动。"
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Rendever】聚焦产业资本/文娱社交/行业媒体，老年 VR 社交与云游览服务，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0540",
+   "name": "Road Scholar",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "老年教育",
+   "tags": [
+    "教育"
+   ],
+   "description": "Road Scholar（前身为1975年成立的Elderhostel）是一家美国非营利教育旅行机构，总部位于波士顿，面向50岁以上人群提供覆盖100余国、4000余项\"学习型旅行\"项目（专家带队实地考察、文化历史探索等），累计服务超600万参与者，是全球最大的老年教育旅行组织。",
+   "highlights": "面向中老年的教育性旅行",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1975",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Road%20Scholar",
+   "website_url": "https://www.roadscholar.org",
+   "business_model": "B2C 教育/培训",
+   "desc_cn": "面向中老年的教育性旅行",
+   "business_model_cn": "B2C 教育/培训",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Road Scholar】聚焦教育/文娱社交/旅游，面向中老年的教育性旅行，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0541",
+   "name": "三星",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "Samsung（三星）在银发经济领域通过智能健康设备、Digital Health平台和适老化电子产品布局老年健康市场，同时在韩国本土市场运营养老服务平台。",
+   "highlights": "智能健康设备+适老化电子产品，韩国养老服务平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1938",
+   "value_score": 44,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B8%89%E6%98%9F",
+   "website_url": "https://www.samsung.com/",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "三星",
+   "desc_cn": "Samsung（三星）在银发经济领域通过智能健康设备、Digital Health平台和适老化电子产品布局老年健康市场，同时在韩国本土市场运营养老服务平台。",
+   "business_model_cn": "B2C 老年健康食品",
+   "news_coverage": {
+    "news_count": 6,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "三星推出智能家庭护理服务 SmartThings Family Care",
+      "date": "2024-08-15",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20240815A03NJ400"
+     },
+     {
+      "title": "三星正式入局银发经济 机器人护工",
+      "date": "2025-10-24",
+      "source": "AgeClub",
+      "url": "https://www.ageclub.net/article-detail/7193"
+     }
+    ],
+    "snippets": [
+     "SmartThings Family Care remote elder-care platform (US/Korea 2024).",
+     "三星物产 + Robocare robot caregivers trial (2025); 三星医疗深耕康复."
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【三星】聚焦健康管理/医疗器械/数字化，智能健康设备+适老化电子产品，韩国养老服务平台，B2C模式，研究价值分44。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0542",
+   "name": "Seniorly",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "养老机构在线搜索与咨询",
+   "highlights": "养老机构在线搜索与咨询",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$9.3M",
+    "display": "累计$9.3M (被 CareScout 收购 2025)"
+   },
+   "investors": "Formation Capital (领投)",
+   "founded": "2014",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Seniorly",
+   "website_url": "https://www.seniorly.com",
+   "business_model": "B2B 咨询服务",
+   "desc_cn": "养老机构在线搜索与咨询",
+   "business_model_cn": "B2B 咨询服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Seniorly】聚焦产业资本/养老社区，养老机构在线搜索与咨询，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

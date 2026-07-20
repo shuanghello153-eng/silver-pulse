@@ -1,0 +1,677 @@
+{
+ "batch": 104,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "Cartken",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老机器人",
+   "category_l2": "配送机器人",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。",
+   "desc_cn": "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。",
+   "highlights": "自主配送机器人，养老场景配送",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cartken",
+   "website_url": "https://www.cartken.com",
+   "business_model": "B2B 自主配送机器人",
+   "business_model_cn": "B2B 自主配送机器人",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "自主配送机器人公司，可将餐食、药品等送达养老机构与社区老人，缓解人力短缺。"
+    ]
+   },
+   "serial": "#1255",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cartken】聚焦产业资本/机器人，自主配送机器人，养老场景配送，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "WalkJoy",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "步态训练",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "步态训练康复企业，通过可穿戴设备提供实时步态反馈与训练，改善老年人平衡、降低跌倒风险，属于康复辅具类消费产品。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "步态训练康复企业，通过可穿戴设备提供实时步态反馈与训练，改善老年人平衡、降低跌倒风险，属于康复辅具类消费产品。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "可穿戴步态反馈防跌倒",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2014",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=WalkJoy",
+   "website_url": "https://www.walkjoy.com",
+   "business_model": "B2C/B2B 步态训练可穿戴",
+   "business_model_cn": "B2C 步态训练康复硬件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过可穿戴设备提供实时步态反馈与训练，改善老人平衡、降低跌倒风险。"
+    ]
+   },
+   "serial": "#1256",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【WalkJoy】聚焦健康监测，可穿戴步态反馈防跌倒，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Kraydel",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程监测",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "英国养老远程监测公司，用非侵入式传感器监测老人在家安全与日常活动异常。",
+   "desc_cn": "英国养老远程监测公司，用非侵入式传感器监测老人在家安全与日常活动异常。",
+   "highlights": "英国非侵入式居家安全监测",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2019",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kraydel",
+   "website_url": "https://www.kraydel.com",
+   "business_model": "B2B 居家远程监测",
+   "business_model_cn": "B2B 居家远程监测",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国养老远程监测公司，用非侵入式传感器监测老人在家安全与日常活动异常。"
+    ]
+   },
+   "serial": "#1257",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Kraydel】聚焦健康监测，英国非侵入式居家安全监测，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Tunstall",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程照护",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "英国老牌远程照护（telecare）与紧急呼叫服务商，为大量老年与脆弱人群提供24/7监测。",
+   "desc_cn": "英国老牌远程照护（telecare）与紧急呼叫服务商，为大量老年与脆弱人群提供24/7监测。",
+   "highlights": "英国远程照护与紧急呼叫龙头",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "1957",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tunstall",
+   "website_url": "https://www.tunstall.co.uk",
+   "business_model": "B2B 远程照护+紧急呼叫",
+   "business_model_cn": "B2B 远程照护+紧急呼叫",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国老牌远程照护（telecare）与紧急呼叫服务商，为大量老年与脆弱人群提供24/7监测。"
+    ]
+   },
+   "serial": "#1258",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Tunstall】聚焦远程医疗，英国远程照护与紧急呼叫龙头，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Lifted",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程监测",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "英国AI养老监测公司，用非穿戴传感器识别跌倒、离床等异常并告警家属/护理方。",
+   "desc_cn": "英国AI养老监测公司，用非穿戴传感器识别跌倒、离床等异常并告警家属/护理方。",
+   "highlights": "英国AI非穿戴养老监测",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2019",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lifted",
+   "website_url": "https://www.lifted.ai",
+   "business_model": "B2B 养老AI监测",
+   "business_model_cn": "B2B 养老AI监测",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国AI养老监测公司，用非穿戴传感器识别跌倒、离床等异常并告警家属/护理方。"
+    ]
+   },
+   "serial": "#1259",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lifted】聚焦AI科技/健康监测，英国AI非穿戴养老监测，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Capsule",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "药品配送",
+   "tags": [
+    "智能药盒",
+    "药品配送"
+   ],
+   "description": "技术驱动连锁药房企业，提供当日送药与用药管理服务，便利居家老人慢病用药，服务于患者与医疗体系。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "技术驱动连锁药房企业，提供当日送药与用药管理服务，便利居家老人慢病用药，服务于患者与医疗体系。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "技术药房当日送药，便利老人",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Capsule",
+   "website_url": "https://www.capsule.com",
+   "business_model": "B2B2C 药品配送+管理",
+   "business_model_cn": "B2C 药品配送",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "以技术驱动的连锁药房，提供当日送药与用药管理，便利居家老人慢病用药。"
+    ]
+   },
+   "serial": "#1260",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Capsule】聚焦产业资本，技术药房当日送药，便利老人，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "EllieGrid",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "智能药盒",
+   "tags": [
+    "智能药盒",
+    "用药提醒"
+   ],
+   "description": "智能药盒公司，通过APP提醒与色彩编码帮助老人按时按量服药。",
+   "desc_cn": "智能药盒公司，通过APP提醒与色彩编码帮助老人按时按量服药。",
+   "highlights": "智能药盒提醒按时服药",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=EllieGrid",
+   "website_url": "https://www.elliegrid.com",
+   "business_model": "B2C 智能药盒",
+   "business_model_cn": "B2C 智能药盒",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "智能药盒公司，通过APP提醒与色彩编码帮助老人按时按量服药。"
+    ]
+   },
+   "serial": "#1261",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "用药提醒"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【EllieGrid】聚焦医疗器械，智能药盒提醒按时服药，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "PharmAdva",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "用药管理",
+   "tags": [
+    "药品配送"
+   ],
+   "description": "为长期用药老人提供按次预分包（pill packaging）与配送的服务，降低错服漏服。",
+   "desc_cn": "为长期用药老人提供按次预分包（pill packaging）与配送的服务，降低错服漏服。",
+   "highlights": "用药预分包+配送服务",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PharmAdva",
+   "website_url": "https://www.pharmadva.com",
+   "business_model": "B2B2C 用药预分包服务",
+   "business_model_cn": "B2B2C 用药预分包服务",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "为长期用药老人提供按次预分包（pill packaging）与配送的服务，降低错服漏服。"
+    ]
+   },
+   "serial": "#1262",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【PharmAdva】聚焦保健品，用药预分包+配送服务，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Mom's Meals",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "病炊配送",
+   "tags": [
+    "膳食配送"
+   ],
+   "description": "面向慢病与居家老人的医疗定制餐食配送公司，可对接医保/医疗计划。",
+   "desc_cn": "面向慢病与居家老人的医疗定制餐食配送公司，可对接医保/医疗计划。",
+   "highlights": "医疗定制餐食配送，对接医保",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "1994",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mom's+Meals",
+   "website_url": "https://www.momsmeals.com",
+   "business_model": "B2B2C 医疗餐食配送",
+   "business_model_cn": "B2B2C 医疗餐食配送",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向慢病与居家老人的医疗定制餐食配送公司，可对接医保/医疗计划。"
+    ]
+   },
+   "serial": "#1263",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Mom's Meals】聚焦慢病管理/营养食品，医疗定制餐食配送，对接医保，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Silver Cuisine",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "老年膳食",
+   "tags": [
+    "养老膳食",
+    "膳食配送"
+   ],
+   "description": "bistroMD旗下针对50+人群的定制膳食订阅服务，按营养需求配送。",
+   "desc_cn": "bistroMD旗下针对50+人群的定制膳食订阅服务，按营养需求配送。",
+   "highlights": "50+定制膳食订阅",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2012",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Silver+Cuisine",
+   "website_url": "https://www.silvercuisine.com",
+   "business_model": "B2C 老年膳食订阅",
+   "business_model_cn": "B2C 老年膳食订阅",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "bistroMD旗下针对50+人群的定制膳食订阅服务，按营养需求配送。"
+    ]
+   },
+   "serial": "#1264",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "养老膳食",
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Silver Cuisine】聚焦营养食品，50+定制膳食订阅，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Magic Kitchen",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "老年膳食",
+   "tags": [
+    "养老膳食",
+    "膳食配送"
+   ],
+   "description": "老年膳食配送企业，提供适合老人的低脂、软食及疾病特定冷冻餐，服务于居家老人与照护家庭。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "老年膳食配送企业，提供适合老人的低脂、软食及疾病特定冷冻餐，服务于居家老人与照护家庭。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "老年特定冷冻餐配送",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2005",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Magic+Kitchen",
+   "website_url": "https://www.magickitchen.com",
+   "business_model": "B2C 老年膳食配送",
+   "business_model_cn": "B2C 银发膳食配送",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "提供适合老人（低脂/软食/疾病特定）的冷冻餐配送公司。"
+    ]
+   },
+   "serial": "#1265",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "养老膳食",
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Magic Kitchen】聚焦营养食品，老年特定冷冻餐配送，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Kate Farms",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "医学营养",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "植物基医学营养企业，为吞咽/营养障碍人群提供管饲与口服医用营养品，服务于临床营养与患者家庭。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "植物基医学营养企业，为吞咽/营养障碍人群提供管饲与口服医用营养品，服务于临床营养与患者家庭。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "植物基医用营养品",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2010",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kate+Farms",
+   "website_url": "https://www.katefarms.com",
+   "business_model": "B2B2C 医学营养品",
+   "business_model_cn": "B2C/B2B 医学营养",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "植物基医学营养（医用营养品）公司，为吞咽/营养障碍人群提供管饲与口服营养。"
+    ]
+   },
+   "serial": "#1266",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Kate Farms】聚焦产业资本/营养食品，植物基医用营养品，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

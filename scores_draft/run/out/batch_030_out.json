@@ -1,0 +1,647 @@
+{
+  "batch": 30,
+  "enterprises": [
+    {
+      "serial": "#0096",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 39.7,
+      "recommend": {
+        "rec_v1": "信号偏弱、资料单薄；其把老年居家风险做成轻量硬件的思路有差异化；国内可复制“监测即服务”的适老切入，落地成本低。",
+        "rec_v2": "行业声量低、信息有限；亮点在硬件兼具安全与数据价值而非堆功能；模式清晰但同质化隐忧，可学其场景优先级排序。",
+        "rec_v3": "公开讨论少；价值不在技术壁垒而在适老场景定义；中小团队能照搬“单点风险切入+硬件交付”的轻资产打法。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 39.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "智能适老化硬件商，主攻居家安全监测",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "产品覆盖防跌倒与睡眠两类适老安全监测",
+        "B2B+B2C双线，硬件+适老方案",
+        "拥有官网jzacme.com"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "主营防跌倒/睡眠监测等智慧养老设备，直接服务老年人安全照护"
+    },
+    {
+      "serial": "#0097",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号平平但渠道数据亮眼；公开信息中等；其聚焦“遮白发”功能型假发的细分差异化明显；电商打法国内极易复制。",
+        "rec_v2": "资料较完整、品牌历史清晰；亮点在把假发做成中老年功能性刚需；模式轻，可抄其“功能定位+电商渗透”路径。",
+        "rec_v3": "关注度一般；其差异化在避开医疗做消费级银发个护；国内创业者可复用其品类选择与300+门店的渠道经验。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "中老年功能性假发品牌，电商渠道为主",
+      "founded": 2007,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "聚焦“遮白发、增发量”功能性假发",
+        "连续多年蝉联电商假发类目销量前列",
+        "与全国300+实体店合作"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "主营中老年假发，直接服务银发群体个护需求"
+    },
+    {
+      "serial": "#0098",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其将TMS神经调控用于老年抑郁认知障碍有差异化；但属医疗设备受牌照约束，国内难直接复制。",
+        "rec_v2": "公开资料有限；亮点在脑科学设备切入银发精神健康这一冷门场景；门槛高，创业者可学其临床适应症选择思路。",
+        "rec_v3": "声量低；价值在把高端神经调控下沉到老年病种；国内难抄支付与注册路径，但可借鉴其“设备+科室”打法。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "神经调控(TMS)医疗设备商，布局老年精神健康",
+      "founded": 2007,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "经颅磁刺激(TMS)神经调控设备",
+        "应用于老年抑郁、认知障碍治疗",
+        "面向精神/神经科室的医疗设备商"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "TMS设备应用于老年抑郁与认知障碍，有直接银发适应症"
+    },
+    {
+      "serial": "#0099",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其颈腰椎理疗设备覆盖社区居家康复场景有实用差异化；硬件模式国内易复制，可学其渠道下沉。",
+        "rec_v2": "资料平淡；亮点在把医院级理疗搬到居家；模式常规但路径清晰，中小厂可抄其产品线与B端机构合作方式。",
+        "rec_v3": "关注低；差异化在“居家康复”而非单一设备；国内创业者能复用其社区康复触点设计，落地门槛不高。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "康复理疗设备商，覆盖社区与居家康复",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "颈腰椎牵引设备、理疗仪等产品",
+        "服务社区康复与居家康复场景",
+        "B2B+B2C双线"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复理疗设备服务于老年社区与居家康复需求"
+    },
+    {
+      "serial": "#0101",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但品牌国民度极高、信息丰；其脑白金定义老年礼品保健有强差异化；模式可复制，可学其“情感营销+渠道”打法。",
+        "rec_v2": "公开资料充足；亮点在把保健品做成代际情感载体；同质化严重但路径清晰，创业者可抄其银发用户心智占领方式。",
+        "rec_v3": "声量不算热但认知深；价值在“老年健康礼品”定位而非产品本身；国内极易复制其节日营销与下沉渠道模型。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "老年保健品商，脑白金母公司",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "脑白金为中国最知名老年保健品之一",
+        "国民级品牌认知度高",
+        "B2C老年健康食品"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "脑白金是知名老年保健品，直接服务银发健康消费"
+    },
+    {
+      "serial": "#0102",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其智能假肢外骨骼帮老人恢复行动，技术差异化强；门槛高但国内可学其人机工程与定价分层。",
+        "rec_v2": "资料有限；亮点在把机器人用于失能老人行动重建这一硬核场景；难复制但可借鉴其“硬件+康复服务”闭环。",
+        "rec_v3": "关注低；差异化在仿生控制而非通用辅具；国内创业者可复用其B端康复机构合作与租赁模式降门槛。",
+        "info_score": 5,
+        "diff_score": 8,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "外骨骼与智能假肢研发商，服务失能老人",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "外骨骼机器人(BionicM)研发商",
+        "智能假肢帮助老人与残障恢复行动",
+        "B2B+B2C，技术门槛高"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "外骨骼/智能假肢直接帮助老年人与失能者恢复行动能力"
+    },
+    {
+      "serial": "#0103",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 5,
+      "research_value": 26.6,
+      "recommend": {
+        "rec_v1": "信号极弱、信息不足；其中老年维矿补充剂属常规品类、差异化低；模式清晰国内易复制，可学其人群细分定位。",
+        "rec_v2": "资料稀少；亮点仅在锁定银发营养这一大品类；同质化严重，创业者可抄但其需靠配方与渠道建立区隔。",
+        "rec_v3": "声量低、披露少；价值有限但“银发维矿”切入轻；国内极易复制，建议学其如何用内容做中老年信任转化。",
+        "info_score": 3,
+        "diff_score": 3,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 26.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "中老年维生素矿物质营养品品牌",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中老年维生素和矿物质补充剂",
+        "B2C银发营养品",
+        "信息较少"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注中老年维生素矿物质补充剂，信息不足但属银发营养"
+    },
+    {
+      "serial": "#0104",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其老年睡眠呼吸监测把慢病风险前置有差异化；硬件+算法模式国内可复制，可学其医养结合点。",
+        "rec_v2": "资料一般；亮点在把睡眠呼吸暂停这一隐匿风险做成居家监测；路径清晰，中小厂可抄其传感器与预警逻辑。",
+        "rec_v3": "关注低；差异化在“呼吸健康”垂直而非通用监测；国内创业者能复用其居家筛查+机构转诊的轻模式。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "老年睡眠呼吸监测设备商",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "睡眠监测与呼吸健康设备",
+        "专注老年人睡眠呼吸监测",
+        "B2B+B2C硬件"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注老年人睡眠呼吸监测，直接服务银发健康"
+    },
+    {
+      "serial": "#0105",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但央企背景信息丰；其“集团军”式养老运营规模差异化明显；重资产难复制，可学其“金融+养老”资源打法。",
+        "rec_v2": "公开资料充足；亮点在把保险资金与养老服务打通；模式受资本与牌照约束，创业者可借鉴其标准化运营体系。",
+        "rec_v3": "声量一般但体量大；价值在央企信用背书下的医养网络；国内难抄其重资产路径，但可学其服务SOP与风控。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费+政府补贴",
+      "business_tags_role": "运营商",
+      "desc_cn": "央企背景养老产业运营平台",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "光大集团旗下养老产业平台",
+        "央企背景养老运营商",
+        "运营多家机构与社区中心"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "央企背景养老运营商，直接提供养老服务"
+    },
+    {
+      "serial": "#0106",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其中老年配方羊奶粉在银发营养有品类差异化；消费模式国内极易复制，可学其社群渠道。",
+        "rec_v2": "资料一般；亮点在把羊奶做成银发功能性食品；同质化但路径清，创业者可抄其“配方+中老年信任”打法。",
+        "rec_v3": "关注低；差异化在羊奶细分而非通用保健品；国内极易复制，可学其线下会销与私域复购模型。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "中老年配方羊奶粉品牌",
+      "founded": 2013,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中老年配方羊奶粉",
+        "银发营养食品市场有知名度",
+        "B2C"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注中老年配方羊奶粉，属银发营养食品"
+    },
+    {
+      "serial": "#0107",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其特医肠内营养聚焦老年营养补充有专业差异化；有注册壁垒但模式清，可学其临床渠道。",
+        "rec_v2": "资料有限；亮点在把“医养结合”落到特医食品这一刚需；门槛中，创业者可借鉴其医院+居家双场景覆盖。",
+        "rec_v3": "声量低；价值在银发特医这一监管护城河赛道；国内难快速抄注册，但可学其病种营养方案设计思路。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "特医食品商，专注老年肠内营养",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "特殊医学用途配方食品(特医)",
+        "肠内营养液与老年营养补充",
+        "B2C，有注册壁垒"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "特医食品服务于老年营养补充，属银发健康"
+    },
+    {
+      "serial": "#0108",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息较丰（含出口与产能）；其带灯收音机拐杖等趣味辅具组合有差异化；制造模式国内易复制，可学其品类。",
+        "rec_v2": "资料完整；亮点在把适老辅具做出生活化与出口能力；路径清晰，中小厂可抄其“功能+情感”产品设计与海外渠道。",
+        "rec_v3": "关注低；差异化在辅具的生活化创新而非堆功能；国内极易复制，可学其Ⅱ类资质+6万㎡产能的供应体系。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "老年康复辅具制造商，含助行与卫浴适老",
+      "founded": 2011,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "「好步」品牌助行器、带灯收音机拐杖",
+        "卫浴扶手、坐便椅、起身助力器",
+        "Ⅱ类资质，6万㎡基地，出口海外"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "主营助行器、卫浴扶手等老年康复辅具，直接服务银发"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0096",
+      "name": "作为科技",
+      "intro": "智能适老化硬件研发商，主营防跌倒与睡眠监测等智慧养老设备。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "防跌倒",
+          "reason": "产品含防跌倒监测功能，应补充品类标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0097",
+      "name": "佰丝堂",
+      "intro": "国内聚焦中老年假发的标杆品牌，主打功能性假发，电商为主。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "个人护理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "假发",
+          "reason": "主营中老年假发，应补充核心品类标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0098",
+      "name": "依瑞德",
+      "intro": "医疗设备品牌，专注经颅磁刺激(TMS)等神经调控设备研发。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "神经调控",
+          "reason": "TMS属神经调控技术，应补充技术维度标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0099",
+      "name": "倍益康",
+      "intro": "康复理疗设备品牌，研发生产颈腰椎牵引设备、理疗仪等产品。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0101",
+      "name": "健特药业",
+      "intro": "保健品品牌，旗下脑白金是中国最知名的老年保健品之一。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0102",
+      "name": "健行仿生",
+      "intro": "外骨骼机器人研发商(BionicM)，专注智能假肢和外骨骼产品。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能假肢",
+          "reason": "产品含智能假肢，应补充核心品类标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0103",
+      "name": "元气家族",
+      "intro": "健康营养品品牌，专注中老年维生素和矿物质补充剂。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "维生素矿物质"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0104",
+      "name": "兆观",
+      "intro": "睡眠监测和呼吸健康设备品牌，专注老年人睡眠呼吸监测。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "睡眠监测",
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0105",
+      "name": "光大养老",
+      "intro": "光大集团旗下养老产业平台，运营多家养老机构和社区养老服务中心。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0106",
+      "name": "养乃世家",
+      "intro": "羊奶品牌，专注中老年配方羊奶粉，在银发营养食品市场有较高知名度。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "功能性食品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0107",
+      "name": "冬泽",
+      "intro": "特殊医学用途配方食品品牌，专注肠内营养液和老年营养补充剂。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "营养食品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0108",
+      "name": "凌晴翔",
+      "intro": "广东凌晴翔健康科技，旗下「好步」品牌主营老年康复辅具，拥有Ⅱ类资质与出口能力。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "助行器",
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": []
+}

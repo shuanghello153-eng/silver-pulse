@@ -1,0 +1,669 @@
+{
+  "batch": 25,
+  "enterprises": [
+    {
+      "serial": "#0025",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但背景硬（清华孵化、天使轮）；毫米波雷达跌倒/睡眠监测差异化强，技术壁垒高难复制，可学其产学研转化。",
+        "rec_v2": "冷门却有源头创新；非接触式体征监测隐私友好，亮点在清华系技术，值得研究其天使轮到量产的路径。",
+        "rec_v3": "披露中等但差异明；用雷达替代可穿戴做主动守护，可抄性低，可借鉴其「技术孵化+基金跟投」起步模式。",
+        "info_score": 5,
+        "diff_score": 8,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "毫米波雷达非接触式健康监测商",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022",
+          "text": "获清华技术孵化天使轮（SEE Fund等）"
+        }
+      ],
+      "highlights": [
+        "清华大学技术孵化",
+        "获SEE Fund无限启航等投资",
+        "非接触式跌倒与生命体征监测"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "毫米波雷达实现跌倒检测与智慧养老监测。"
+    },
+    {
+      "serial": "#0026",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱但信息实（2004、力合科创投、准确率99%）；毫米波雷达AIoT看护差异化中高，技术壁垒高难复制，可学其硬件+App。",
+        "rec_v2": "冷门却有积累；跌倒检测超99%准确率构成门槛，亮点在完整看护体系，值得研究其toB机构信息化方案。",
+        "rec_v3": "披露中等但技术稳；把雷达做成主动报警闭环，可抄性低，可借鉴其「设备+平台+紧急报警」一体化输出。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "毫米波雷达AIoT养老看护设备商",
+      "founded": 2004,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "跌倒检测准确率超99%",
+        "获力合科创等投资",
+        "运营点可物联App构成AIoT看护体系"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "毫米波雷达监护设备，AIoT养老看护。"
+    },
+    {
+      "serial": "#0027",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但产品全（TCSA多形态）；数字认知筛查+训练体系差异化强，软件可复制，国内创业者可抄其社区早筛工具箱。",
+        "rec_v2": "冷门却有体系；线上训练、社区筛查、一体机、团体康复四维覆盖，亮点在非药物干预，值得学其B端部署。",
+        "rec_v3": "披露中等但方向明；用数字工具做阿尔茨海默早筛，可借鉴性强，可研究其筛查—训练—评估的闭环设计。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "认知障碍数字筛查与训练系统商",
+      "founded": "",
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自研TCSA认知筛查与训练系统",
+        "含线上Bot、社区工具箱、一体机、团体训练",
+        "服务阿尔茨海默早筛与干预"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知障碍数字筛查与训练，服务失智老人。"
+    },
+    {
+      "serial": "#0028",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但落地实（上海多社区）；Wi-Fi毫米波无感感知差异化极强，技术壁垒高难复制，可学其政府社区切入。",
+        "rec_v2": "冷门却有场景；设备一分钟报警并派工单，亮点在无线非视觉隐私友好，值得研究其toG/to机构整体方案。",
+        "rec_v3": "披露中等但差异明；用无线感知替代摄像头做滞留呼吸监测，可抄性低，可借鉴其「报警—工单」运营闭环。",
+        "info_score": 5,
+        "diff_score": 8,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "无线智能感知无感看护方案商",
+      "founded": "",
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "Wi-Fi与毫米波无线智能感知",
+        "无摄像头无穿戴识别跌倒与呼吸",
+        "已落地上海多个社区与机构"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "无线感知实现无摄像头跌倒与体征监测。"
+    },
+    {
+      "serial": "#0031",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 51.6,
+      "recommend": {
+        "rec_v1": "信号弱但信息丰（亿元A+轮、数家机构、盈利）；中老年兴趣社区差异化中等，模式清晰可复制，国内创业者可抄其直播+私域。",
+        "rec_v2": "冷门却有规模；2024千万用户且盈利，亮点在银发文娱科技变现，可借鉴性强，值得学其适老直播课转化。",
+        "rec_v3": "披露充分但信号低；把兴趣学习做成社区再延伸消费，可学，可研究其如何平衡内容与电商的银发信任。",
+        "info_score": 8,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 51.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年在线兴趣学习社区（直播课）",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-01",
+          "text": "完成亿元级A+轮（BAI领投，经纬/CCV/蓝驰跟投）"
+        }
+      ],
+      "highlights": [
+        "BAI资本领投亿元A+轮",
+        "2024年达千万用户且盈利",
+        "银发文娱科技头部社区"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年在线兴趣学习平台，直接服务银发。"
+    },
+    {
+      "serial": "#0033",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少（长岭资本投）；线下文娱教育+旅游常规，但刚需真实，国内创业者可借鉴其55-70岁人群定位。",
+        "rec_v2": "冷门且披露有限；课程+旅游社交组合，差异化低，亮点在聚焦活力银发，值得学其线下门店获客。",
+        "rec_v3": "信息不足但路径清；把文娱教育做成在地化服务，可复制，可研究其如何借旅游提升客单与黏性。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "中老年文娱教育+旅游社交平台",
+      "founded": "",
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "聚焦55-70岁人群精神文化需求",
+        "提供线下课程与旅游社交",
+        "获长岭资本投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年文娱教育平台，含线下课程与旅游。"
+    },
+    {
+      "serial": "#0035",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 45.6,
+      "recommend": {
+        "rec_v1": "信号弱但背景实（中科院技术、供海尔美的）；毫米波AI感知差异化极强，技术壁垒高难复制，可学其大厂供货路径。",
+        "rec_v2": "冷门却有硬核；无穿戴保护隐私做姿态轨迹与睡眠报告，亮点在ToB技术授权，值得研究其雷达模组化输出。",
+        "rec_v3": "披露中等但差异明；把感知算法做成智能灯与雷达，可抄性低，可借鉴其「上游供货+下游方案」双轮打法。",
+        "info_score": 6,
+        "diff_score": 8,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 45.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "毫米波AI感知养老监测设备商",
+      "founded": "",
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "基于中科院无线感知核心技术",
+        "为海尔、美的供应智能雷达",
+        "无穿戴识别跌倒与生成睡眠报告"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "毫米波AI感知实现无感跌倒与睡眠监测。"
+    },
+    {
+      "serial": "#0039",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但规模实（超千万用户）；兴趣群+同城聚会+相亲差异化中等，模式清晰可复制，国内创业者可抄其匹配算法。",
+        "rec_v2": "冷门却有用户；适老化界面+精准兴趣匹配连接线上线下，亮点在婚恋高频，值得学其社群到活动的转化。",
+        "rec_v3": "披露中等但路径清；把兴趣社交延伸到相亲与线下聚会，可借鉴，可研究其如何提升银发用户社交留存。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年兴趣社交平台（社群+相亲）",
+      "founded": "",
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "号称汇聚超千万中老年用户",
+        "集成兴趣群、同城聚会、直播与婚恋",
+        "适老化界面+精准兴趣匹配"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年兴趣社交平台，含相亲与线下活动。"
+    },
+    {
+      "serial": "#0040",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 45.6,
+      "recommend": {
+        "rec_v1": "信号弱但资质硬（国家创新医疗器械认证）；眼镜式眼动3-5分钟认知筛查差异化极强，技术壁垒高难复制，可学其筛查闭环。",
+        "rec_v2": "冷门却有认证；眼动仪+40款训练游戏形成筛查—干预—再评估，亮点在国产首创，值得研究其社区机构落地。",
+        "rec_v3": "披露中等但差异明；用眼镜做早筛替代繁琐量表，可抄性低，可借鉴其「设备+软件」软硬件一体打法。",
+        "info_score": 6,
+        "diff_score": 8,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 45.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "眼镜式眼动认知筛查与训练商",
+      "founded": "",
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "国内首家眼动技术获国家创新医疗器械认证",
+        "眼镜式眼动仪3-5分钟完成筛查",
+        "配套40余款认知训练游戏"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "眼动认知筛查与训练，服务认知症早筛。"
+    },
+    {
+      "serial": "#0041",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱但底座实（30+产品、对接1000+硬件、3000+机构）；养老全业态数字化差异化中等，SaaS可复制，国内创业者可抄其物联网平台。",
+        "rec_v2": "冷门却有规模；覆盖CCRC到民政监管多业态，亮点在硬件互联互通，值得学其从一个系统切多场景的扩展。",
+        "rec_v3": "披露中等但路径清；把养老运营做成数字化中台，可借鉴，可研究其如何用开放对接降低机构切换成本。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "养老全业态数字化与物联网SaaS商",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自研30+养老软件产品",
+        "养老物联网对接智能硬件超1000种",
+        "服务养老机构3000+"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老数字化与智能化解决方案提供商。"
+    },
+    {
+      "serial": "#0042",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但信息实（上海长护险定点、B轮数千万）；长护险定点+居家护理闭环差异化中等，受牌照约束难复制，可学其支付接入。",
+        "rec_v2": "冷门却有壁垒；振德医疗产业基金独家投资，亮点在医养结合资源，值得研究其长护险定点申请与运营。",
+        "rec_v3": "披露中等但模式重；上海居家康养领导品牌，可抄性受地域限制，可借鉴其「护理+康复+陪护」综合供给。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "政府长护险+个人自付",
+      "business_tags_role": "平台",
+      "desc_cn": "上海长护险定点居家护理服务商",
+      "founded": 2013,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-12",
+          "text": "完成B轮数千万元（振德医疗产业基金独家领投）"
+        }
+      ],
+      "highlights": [
+        "上海长护险定点服务机构",
+        "B轮数千万元（振德医疗产业基金领投）",
+        "上海居家康养领导品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护理康复陪护，长护险定点机构。"
+    },
+    {
+      "serial": "#0043",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但规模实（25万床位、28省市）；养老运营管理信息系统常规，但SaaS可复制，国内创业者可抄其模块化产品设计。",
+        "rec_v2": "冷门却有存量；软件覆盖评估入住护理餐饮财务，亮点在跨省市落地，值得学其标准化实施交付。",
+        "rec_v3": "披露中等但路径清；把机构运营做成信息化底座，可借鉴，可研究其如何用低成本部署撬动中小机构。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "养老运营管理信息系统软件商",
+      "founded": 2009,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "2009年成立",
+        "助力全国28省市超25万张床位信息化",
+        "核心产品颐康养老运营管理信息系统"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老运营管理信息系统软件，服务养老机构。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0025",
+      "name": "清雷",
+      "intro": "清雷是毫米波雷达健康监测企业，非接触式实现跌倒与睡眠监测，清华孵化。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "睡眠监测",
+          "reason": "描述明确含睡眠监测，现有标签仅跌倒监测，建议补充。"
+        }
+      ]
+    },
+    {
+      "serial": "#0026",
+      "name": "点可",
+      "intro": "点可物联研发毫米波雷达监护设备，跌倒检测超99%，配套App做AIoT看护。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "紧急呼叫"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0027",
+      "name": "特霍芬",
+      "intro": "特霍芬研发认知障碍数字筛查与训练系统TCSA，服务阿尔茨海默早筛干预。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知筛查",
+          "认知训练"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0028",
+      "name": "百芝龙",
+      "intro": "百芝龙以无线智能感知实现无感跌倒与体征监测，已落地上海社区机构。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0031",
+      "name": "红松学堂",
+      "intro": "红松学堂是中老年在线兴趣学习平台，直播课程，A+轮亿元融资且已盈利。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育",
+          "兴趣社群"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0033",
+      "name": "美好盛年",
+      "intro": "美好盛年是中老年文娱教育平台，提供线下课程与旅游社交，聚焦55-70岁人群。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "旅游",
+          "文娱"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": [
+            "线下"
+          ]
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0035",
+      "name": "苗米",
+      "intro": "苗米科技基于中科院技术研发布毫米波AI感知器，为海尔美的供雷达。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测",
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0039",
+      "name": "闲趣岛",
+      "intro": "闲趣岛是中老年兴趣社交平台，集成兴趣群、聚会、直播与婚恋交友。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "兴趣社群",
+          "相亲"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": [
+            "线上"
+          ]
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "旅游",
+          "reason": "描述明确含旅游/同城聚会，现有标签缺旅游，建议补充。"
+        }
+      ]
+    },
+    {
+      "serial": "#0040",
+      "name": "集思鸣智",
+      "intro": "集思鸣智研发眼镜式眼动仪做认知筛查，配套训练软件，获国家创新医疗器械认证。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "眼镜",
+          "认知训练",
+          "认知筛查"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "del",
+          "tag": "消费品",
+          "reason": "眼镜式眼动仪属医疗器械而非消费品，tag_l1含「消费品」不准确，建议删除。"
+        }
+      ]
+    },
+    {
+      "serial": "#0041",
+      "name": "颐养通",
+      "intro": "颐养通是杭州爱讯旗下养老数字化品牌，自研30+软件，对接千种硬件，服3000+机构。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老软件",
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0042",
+      "name": "颐家",
+      "intro": "颐家是上海居家康养领导品牌，长护险定点，提供居家护理康复陪护，B轮数千万元。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "金融保险"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "长护险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0043",
+      "name": "颐讯",
+      "intro": "颐讯是养老运营管理信息系统软件商，其软件助力28省市超25万张床位信息化。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": []
+}

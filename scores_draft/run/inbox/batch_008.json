@@ -1,0 +1,757 @@
+{
+ "batch": 8,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0459",
+   "name": "Accompany Health",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "Accompany Health 是一家美国以价值医疗为基础的综合初级保健机构，为复杂医疗需求的Medicaid人群提供上门与社区照护，并干预社会决定因素（SDOH）以改善健康。",
+   "highlights": "为有复杂需求的低收入患者提供全天候虚拟和面对面初级、行为和社会护理服务。",
+   "funding_latest": {
+    "date": "2024-01",
+    "amount": "56000000",
+    "round": "Series A",
+    "display": "Series A $5600万 (2024-01)"
+   },
+   "funding_total": "$56M (截至2024年)",
+   "investors": [
+    "Venrock",
+    "ARCH Venture Partners",
+    "IVP",
+    "Granite Capital Management",
+    "Evidenced"
+   ],
+   "founded": "2022",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Accompany%20Health",
+   "website_url": "https://www.accompanyhealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Accompany Health 是一家美国以价值医疗为基础的综合初级保健机构，为复杂医疗需求的Medicaid人群提供上门与社区照护，并干预社会决定因素（SDOH）以改善健康。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Accompany Health】聚焦产业资本/保健品，为有复杂需求的低收入患者提供全天候虚拟和面对面初级、行为和社会护理服务。，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0467",
+   "name": "Empathy",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "临终关怀",
+   "tags": [
+    "遗产规划"
+   ],
+   "description": "Empathy 是一款美国的丧亲与遗产事务管理应用，帮助用户处理逝者身后的遗产清算、账单、保险理赔等事务，提供分步指导与专家支持。",
+   "highlights": "包括悲伤辅导、遗产规划、行政事务处理等。",
+   "funding_latest": {
+    "date": "2025-05",
+    "amount": "72000000",
+    "round": "Series C",
+    "display": "Series C $7200万 (2025-05)"
+   },
+   "funding_total": {
+    "amount": "162000000",
+    "display": "累计$1.6亿"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Empathy",
+   "website_url": "https://www.helloempathy.com",
+   "business_model": "B2C/B2B 临终关怀服务",
+   "desc_cn": "Empathy 是一款美国的丧亲与遗产事务管理应用，帮助用户处理逝者身后的遗产清算、账单、保险理赔等事务，提供分步指导与专家支持。",
+   "business_model_cn": "B2C/B2B 临终关怀与安宁疗护",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Bereavement Care Company Empathy Raises $72M in Series C",
+      "date": "2025-05-30",
+      "source": "Hospice News",
+      "url": "https://hospicenews.com/2025/05/30/bereavement-care-company-empathy-raises-72m-in-series-c-round/"
+     },
+     {
+      "title": "Empathy Lands $72M to Enhance Grief and Legacy Solutions",
+      "date": "2025-05-29",
+      "source": "Empathy Blog",
+      "url": "https://www.empathy.com/blog/empathy-series-c-announcement"
+     }
+    ],
+    "snippets": [
+     "Empathy为 grieving/bereavement（丧亲与身后事）支持平台，2025年5月完成7200万美元C轮，累计融资1.62亿美元。",
+     "与寿险公司合作，定位“生命遗产规划”，属养老/临终关怀相邻赛道。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "遗产规划"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Empathy】聚焦临终关怀/产业资本，包括悲伤辅导、遗产规划、行政事务处理等。，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0469",
+   "name": "Habitat Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "构建技术平台使医疗保健提供者解决健康社会决定因素。参与PACE计划，帮助老年人管理健康并在家庭和社区保持独立。",
+   "highlights": "帮助老年人管理健康并在家庭和社区保持独立。",
+   "funding_latest": {
+    "date": "2024-09",
+    "amount": "50000000",
+    "round": "Unknown",
+    "display": "Unknown $5000万 (2024-09)"
+   },
+   "funding_total": "$50M (截至2024年)",
+   "investors": [
+    "Town Hall Ventures",
+    "New Enterprise Associates",
+    "Kaiser Permanente"
+   ],
+   "founded": "2023",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Habitat%20Health",
+   "website_url": "https://www.habitathealth.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "构建技术平台使医疗保健提供者解决健康社会决定因素。参与PACE计划，帮助老年人管理健康并在家庭和社区保持独立。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Habitat Health】聚焦专业护理/产业资本/养老社区，帮助老年人管理健康并在家庭和社区保持独立。，B2B+B2C模式，研究价值分35。",
+   "payor_model": "PACE",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0477",
+   "name": "Sprinter Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "提供上门移动医疗服务（抽血、生命体征、医疗测试），主要支付方Medicare/Medicaid。",
+   "highlights": "主要支付方Medicare/Medicaid。",
+   "funding_latest": {
+    "date": "2025-05",
+    "amount": "55000000",
+    "round": "Series B",
+    "display": "Series B $5500万 (2025-05)"
+   },
+   "funding_total": {
+    "amount": "125000000",
+    "display": "累计$1.2亿"
+   },
+   "investors": "Andreessen Horowitz, General Catalyst, Accel, Google Ventures 等",
+   "founded": "2021",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sprinter%20Health",
+   "website_url": "https://www.sprinterhealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "提供上门移动医疗服务（抽血、生命体征、医疗测试），主要支付方Medicare/Medicaid。",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Sprinter Health raises $55M to expand its at-home healthcare",
+      "date": "2025-05-15",
+      "source": "VentureBeat/parsers",
+      "url": "https://parsers.vc/startup/sprinterhealth.com/"
+     },
+     {
+      "title": "Sprinter Health获得5500万美元B轮融资",
+      "date": "2025-05-16",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250516A03I9R00"
+     }
+    ],
+    "snippets": [
+     "Sprinter Health派护士/采血师上门做化验、生命体征检测，服务老年及行动不便人群。",
+     "2025年5月完成5500万美元B轮（General Catalyst、a16z、GV等），成立至今累计超1.25亿美元。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Sprinter Health】聚焦产业资本/健康管理/行业媒体，主要支付方Medicare/Medicaid。，B2B+B2C模式，研究价值分43。",
+   "payor_model": "Medicaid",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0481",
+   "name": "Vesta Healthcare",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。",
+   "highlights": "让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。",
+   "funding_latest": {
+    "date": "2024-09",
+    "amount": "65000000",
+    "round": "Unknown",
+    "display": "Unknown $6500万 (2024-09)"
+   },
+   "funding_total": {
+    "amount": "累计5180万美元（SEC数据）",
+    "display": "累计累计5180万美元（SEC数据）"
+   },
+   "investors": "",
+   "founded": "2018",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vesta%20Healthcare",
+   "website_url": "https://www.vestahealthcare.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Vesta Healthcare】聚焦专业护理/产业资本/居家护理，让居家护理人员与付款人和临床医生共享信息改善治疗效果。为超过5万老年人服务。，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0482",
+   "name": "Vytalize Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Vytalize Health 是一家美国面向老年人的价值医疗初级保健管理机构，通过ACO模式与数据分析平台为老年患者提供慢病管理与协调照护。",
+   "highlights": "为Medicare Advantage人群提供服务。",
+   "funding_latest": {
+    "date": "2025-07",
+    "amount": "55000000",
+    "round": "Unknown",
+    "display": "Unknown $5500万 (2025-07)"
+   },
+   "funding_total": {
+    "amount": "总融资上亿",
+    "display": "累计总融资上亿"
+   },
+   "investors": "Enhanced Healthcare Partners, Monroe Capital, Dreamit",
+   "founded": "2014",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vytalize%20Health",
+   "website_url": "https://www.vytalizehealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Vytalize Health 是一家美国面向老年人的价值医疗初级保健管理机构，通过ACO模式与数据分析平台为老年患者提供慢病管理与协调照护。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Vytalize Health】聚焦专业护理/产业资本/居家护理，为Medicare Advantage人群提供服务。，B2B+B2C模式，研究价值分35。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0484",
+   "name": "A Place for Mom",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "养老院中介",
+   "tags": [
+    "养老咨询"
+   ],
+   "description": "A Place for Mom（APFM）成立于2000年，是美国最大的老年生活（senior living）转介服务平台，免费为家庭对接全美1.6万+养老社区与居家护理机构（独立生活、辅助生活、记忆照护、居家护理等），由养老机构支付佣金；2017年起由 General Atlantic 与 Silver Lake 控股。",
+   "highlights": "美国最大养老院推荐平台，被Catterton Partners收购后独立运营",
+   "funding_latest": {
+    "date": "2022-01",
+    "amount": "$175M",
+    "round": "Series B",
+    "display": "Series B $175M (2022-01)"
+   },
+   "funding_total": {
+    "amount": "$184M",
+    "display": "累计$184M"
+   },
+   "investors": "Insight Partners, General Atlantic, Battery Ventures",
+   "founded": "2000",
+   "value_score": 43,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=A%20Place%20for%20Mom",
+   "website_url": "https://www.aplaceformom.com/",
+   "business_model": "B2B 咨询服务",
+   "desc_cn": "养老机构匹配咨询",
+   "business_model_cn": "B2B 咨询服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "A Place For Mom Embraces AI, Expands Home Care Offerings",
+      "date": "2025-11-12",
+      "source": "Home Health Care News",
+      "url": "https://homehealthcarenews.com/2025/11/a-place-for-mom-embraces-ai-expands-home-care-offerings-amid-shifting-trends/"
+     },
+     {
+      "title": "美国老年版“美团点评” A Place for Mom，融资1.75亿美元",
+      "date": "2024-12-24",
+      "source": "36氪",
+      "url": "https://www.36kr.com/p/3092274405261057"
+     }
+    ],
+    "snippets": [
+     "APFM为美国最大老年生活转介/咨询平台，2025年11月转向AI并扩展居家照护，纪念成立25周年。",
+     "曾于早期完成1.75亿美元融资（历史轮次），近年以运营与AI转型新闻为主。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老咨询"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【A Place for Mom】聚焦产业资本/养老社区，美国最大养老院推荐平台，被Catterton Partners收购后独立运营，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0628",
+   "name": "Author Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "Author Health 是一家专注老年人复杂精神健康需求的美国医疗公司，为老年群体提供抑郁、焦虑及认知相关行为的专业诊疗与照护协调。",
+   "highlights": "为Medicare Advantage患者提供物质使用障碍和严重精神疾病护理",
+   "funding_latest": {
+    "date": "2023年6月",
+    "amount": "1.15亿美元",
+    "round": "A轮",
+    "display": "A轮 1.15亿美元 (2023年6月)"
+   },
+   "funding_total": "$115M (截至2023年6月)",
+   "investors": [
+    "General Atlantic",
+    "Flare Capital Partners"
+   ],
+   "founded": "2023",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Author%20Health",
+   "website_url": "https://authorhealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Author Health 是一家专注老年人复杂精神健康需求的美国医疗公司，为老年群体提供抑郁、焦虑及认知相关行为的专业诊疗与照护协调。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Author Health Officially Launches in CMS’s New Innovative Dementia Care (GUIDE) Model",
+      "date": "2025-07-15",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/author-health-officially-launches-in-cmss-new-innovative-dementia-care-model-302504590.html"
+     },
+     {
+      "title": "成立即获1.15亿美元融资，Author Health如何解决老年精神健康",
+      "date": "2023-12-05",
+      "source": "新浪财经",
+      "url": "https://t.cj.sina.com.cn/articles/view/6859155568/198d66870001010jlv"
+     }
+    ],
+    "snippets": [
+     "Author Health专注老年严重精神疾病（含痴呆）照护，服务Medicare/MA/双 eligibility人群。",
+     "2023年成立即获1.15亿美元A轮（General Atlantic领投）；2025年7月接入CMS GUIDE痴呆照护模型，但2024-25无新融资。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Author Health】聚焦产业资本/居家护理/精神健康，为Medicare Advantage患者提供物质使用障碍和严重精神疾病护理，B2B+B2C模式，研究价值分43。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0652",
+   "name": "CareBridge",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "高风险患者居家和虚拟医疗，2023年Inc.5000榜首，收入8.73亿",
+   "highlights": "2023年Inc.5000榜首",
+   "funding_latest": {
+    "date": "2022年6月",
+    "amount": "1.4亿美元",
+    "round": "C轮",
+    "display": "C轮 1.4亿美元 (2022年6月)"
+   },
+   "funding_total": "$140M+ (截至2022年)",
+   "investors": [
+    "Oak HC/FT",
+    "Optum Ventures",
+    "Anthem (Elevance Health)",
+    "HLM Venture Partners",
+    "CVS Health Ventures"
+   ],
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CareBridge",
+   "website_url": "https://www.carebridgehealth.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "高风险患者居家和虚拟医疗，2023年Inc.5000榜首，收入8.73亿",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "news_coverage": {
+    "news_count": 1,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "(未找到公司专属近期融资报道，检索以Medicaid长期照护政策为主)",
+      "date": "",
+      "source": "检索结果",
+      "url": ""
+     }
+    ],
+    "snippets": [
+     "CareBridge定位为Medicaid/Medicare长期服务与支持（LTSS）的居家照护管理公司，面向失能老人群体。",
+     "本次检索未核实到2024-2025年公司专属融资/重大新闻事件（结果多为Medicaid政策类文章），信息丰度低。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【CareBridge】聚焦产业资本/居家护理/文娱社交，2023年Inc.5000榜首，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0667",
+   "name": "Cityblock Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "慢病管理",
+    "诊所"
+   ],
+   "description": "Cityblock Health 是一家技术赋能、按价值付费的医疗提供商，专注服务 Medicaid 及医保双重资格(dual-eligible)等复杂需求人群，提供初级医疗、行为健康与社工服务（解决食物、住房等社会需求）。由 Medicaid 医生 Toyin Ajayi 创立，覆盖多个州，86% 会员为 Medicaid 或双重资格人群，83% 有 2 种以上慢病。",
+   "highlights": "估值57亿美元",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "1亿美元",
+    "round": "后期VC",
+    "display": "后期VC 1亿美元 (2024年1月)"
+   },
+   "funding_total": "$900M (截至2024年)",
+   "investors": [
+    "SoftBank Group",
+    "Tiger Global Management",
+    "General Catalyst",
+    "Maverick Ventures",
+    "Thrive Capital",
+    "Redpoint Ventures",
+    "Wellington",
+    "Kinnevik",
+    "Echo Health Ventures",
+    "8VC",
+    "EmblemHealth",
+    "Goldman Sachs",
+    "Alphabet (Sidewalk Labs)",
+    "StartUp Health",
+    "Town Hall Ventures",
+    "Oxeon Partners"
+   ],
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cityblock%20Health",
+   "website_url": "https://www.cityblock.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "Cityblock Health 是一家技术赋能、按价值付费的医疗提供商，专注服务 Medicaid 及医保双重资格(dual-eligible)等复杂需求人群，提供初级医疗、行为健康与社工服务（解决食物、住房等社会需求）。由 Medicaid 医生 Toyin Ajayi 创立，覆盖多个州，86% 会员为 Medicaid 或双重资格人群，83% 有 2 种以上慢病。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "news_coverage": {
+    "news_count": 2,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Cityblock 2024 Equity in Action Report",
+      "date": "2024",
+      "source": "Cityblock",
+      "url": "https://www.cityblock.com/equity-2024"
+     },
+     {
+      "title": "Cityblock完成1.6亿美元融资，估值超10亿美元（历史轮次）",
+      "date": "2021",
+      "source": "Cityblock",
+      "url": "https://www.cityblock.com/media"
+     }
+    ],
+    "snippets": [
+     "Cityblock为服务低收入、Medicaid/双重资格人群（含大量老年慢病）的价值医疗提供商。",
+     "曾于2021年完成1.6亿美元融资（估值超10亿）；本次检索未核实2024-2025新融资轮次，近期以运营/社会责任报道为主。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理",
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cityblock Health】聚焦产业资本/文娱社交，估值57亿美元，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0675",
+   "name": "Concerto Care",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家医疗",
+    "慢病管理"
+   ],
+   "description": "ConcertoCare（由 ConcertoHealth 与 Perfect Health 合并）是技术赋能、按风险付费的居家综合照护提供商，面向有复杂医疗与社会需求的老年 Medicare/Medicaid 会员，由医生带领下涵盖医疗、行为健康与社工的跨学科团队上门服务，并依托自有 Patient3D® 人口健康平台。宣称可降低住院率 47%，累计融资约 1.5 亿美元。",
+   "highlights": "家庭护理服务提供商",
+   "funding_latest": {
+    "date": "2022年2月",
+    "amount": "1.05亿美元",
+    "round": "B轮",
+    "display": "B轮 1.05亿美元 (2022年2月)"
+   },
+   "funding_total": "$236M (截至2026年)",
+   "investors": [
+    "Deerfield Management",
+    "Wells Fargo Strategic Capital",
+    "Obvious Ventures",
+    "Arboretum Ventures",
+    "Vast Ventures",
+    "Pennington Partners"
+   ],
+   "founded": "2004",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Concerto%20Care",
+   "website_url": "https://www.concertocare.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "ConcertoCare（由 ConcertoHealth 与 Perfect Health 合并）是技术赋能、按风险付费的居家综合照护提供商，面向有复杂医疗与社会需求的老年 Medicare/Medicaid 会员，由医生带领下涵盖医疗、行为健康与社工的跨学科团队上门服务，并依托自有 Patient3D® 人口健康平台。宣称可降低住院率 47%，累计融资约 1.5 亿美元。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "news_coverage": {
+    "news_count": 2,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "ConcertoCare Raises $105M to Expand Value-Based At-Home Care for Seniors",
+      "date": "2021",
+      "source": "ConcertoCare",
+      "url": "https://concertocare.com/articles?id=concertocare-raises-105-million-to-expand-value-based-at-home-care-model-to-more-seniors-with-unmet"
+     },
+     {
+      "title": "ConcertoCare Coverage - MedCity News",
+      "date": "",
+      "source": "MedCity News",
+      "url": "https://medcitynews.com/tag/concertocare/"
+     }
+    ],
+    "snippets": [
+     "ConcertoCare为面向老年复杂照护需求（Medicare/Medicaid/MA）的价值医疗居家照护公司，曾完成1.05亿美元B轮（Wells Fargo领投）。",
+     "本次检索未明确核实2024-2025新融资事件，近期行业报道以价值医疗政策为主。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Concerto Care】聚焦专业护理/产业资本，家庭护理服务提供商，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0725",
+   "name": "Headway",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "Headway 成立于2019年，是美国心理健康科技公司，搭建全美最大的\"接受保险\"治疗师与精神科医生网络，为患者按保险、专科、地区匹配并直接预约，同时为治疗师承担资质认证、保险理赔与结算等行政工作；截至2025年网络覆盖6.5万+持证服务提供者、促成超3000万次咨询。",
+   "highlights": "估值23亿",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "1亿美元",
+    "round": "D轮",
+    "display": "D轮 1亿美元 (2024年7月)"
+   },
+   "funding_total": {
+    "amount": "$321M",
+    "display": "$321M (截至2025年)"
+   },
+   "investors": "Spark Capital, Accel, Andreessen Horowitz, GV (Google Ventures), Forerunner Ventures, Thrive Capital, Global Founders Capital, Health Care Service Corporation",
+   "founded": "2019",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Headway",
+   "website_url": "https://headway.co",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "帮助患者与受保险保障的治疗师连接，估值23亿",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Headway Raises $100M Series D, Expands to Medicare Advantage & Medicaid",
+      "date": "2024-07-23",
+      "source": "VCA Online",
+      "url": "https://www.vcaonline.com/news/2024072304/headway-raises-100-million-in-series-d-funding-plans-expansion-to-serve-people-with-medicare-advantage-and-medicaid-insurance-coverage/"
+     },
+     {
+      "title": "健康保险咨询平台提供商Headway获得1亿美元D轮融资",
+      "date": "2024-07-23",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/intelDetail/208287"
+     }
+    ],
+    "snippets": [
+     "Headway为接受保险的全美治疗师网络，2024年7月完成1亿美元D轮（Spark Capital领投），估值23亿美元，并扩展至Medicare Advantage/Medicaid。",
+     "2026年3月收购Tezi团队推进AI，利好老年心理照护可及性。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Headway】聚焦产业资本/保险/精神健康，估值23亿，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  }
+ ]
+}

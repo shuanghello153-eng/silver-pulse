@@ -1,0 +1,563 @@
+[
+ {
+  "serial": "#1150",
+  "name": "SilverAssist",
+  "name_cn": "SilverAssist",
+  "region": "海外",
+  "stage": "被收购",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2026-01",
+   "amount": "并购Caring.com",
+   "round": "并购",
+   "display": "并购Caring.com (2026-01)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "Growth Catalyst Partners",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B 养老推荐聚合+并购",
+  "recommend": "信号偏弱、信息量一般，其「B2B 养老推荐聚合+并购」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入居家照护匹配赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老信息平台"
+  ],
+  "highlights": "养老推荐聚合平台，并购Caring.com。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 4.5,
+  "copy_score": 5.5,
+  "research_value": 39.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://silverassist.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1151",
+  "name": "国民养老保险",
+  "name_cn": "国民养老保险",
+  "region": "国内",
+  "stage": "成长期",
+  "founded": "2022",
+  "funding_latest": {
+   "date": "2022",
+   "amount": "股东出资设立",
+   "round": "设立",
+   "display": "股东出资设立 (2022)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "17家产业/金融股东(含国新资本等)",
+  "payor_model": "政府医保/商业保险支付",
+  "desc_cn": "B2B/B2C 养老保险+养老理财(持牌)",
+  "recommend": "信号偏弱、信息量一般，其「B2B/B2C 养老保险+养老理财(持牌)」打法差异化突出；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入保险科技赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "highlights": "17家股东出资设立的专业养老保险公司，第三支柱代表。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 3.5,
+  "research_value": 41.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1172",
+  "name": "Calico",
+  "name_cn": "Calico｜Alphabet 长寿实验室",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2013",
+  "funding_latest": {
+   "date": "2013",
+   "amount": "Alphabet 内部孵化(未上市)",
+   "round": "设立",
+   "display": "Alphabet 内部孵化 (2013)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露(Alphabet 资助)"
+  },
+  "investors": "Alphabet",
+  "payor_model": "个人自费/家庭自费",
+  "desc_cn": "企业研究院模式：基础研究加生物数据平台，非直接产品变现",
+  "recommend": "信号偏弱、信息透明度高，其「企业研究院模式：基础研究加生物数据平台，非直接产品变现」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入衰老研究赛道）。",
+  "business_tags": {
+   "customer": "未标注",
+   "role": "制造商(药)",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "行业研究"
+  ],
+  "highlights": "科技巨头押注'衰老是一门可工程化的科学'，对国内平台型公司布局抗衰研究有战略启发。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 57.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.calicolabs.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1176",
+  "name": "Stannah",
+  "name_cn": "Stannah｜楼梯升降",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "1862",
+  "funding_latest": {
+   "date": "1862",
+   "amount": "家族企业(未上市)",
+   "round": "设立",
+   "display": "家族企业 (1862)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "家族持有",
+  "payor_model": "个人自费/家庭自费",
+  "desc_cn": "B2C 楼梯升降与无障碍设备，硬件销售加安装维护",
+  "recommend": "信号偏弱、信息透明度高，其「B2C 楼梯升降与无障碍设备，硬件销售加安装维护」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入适老硬件赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "制造商(硬件/设备)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "适老化"
+  ],
+  "highlights": "适老硬件'单品打透'样本，国内居家适老化改造可对标其产品化与安装服务。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 49.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.stannah.co.uk",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1180",
+  "name": "Callie Care",
+  "name_cn": "Callie Care｜语音AI照护",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2026",
+  "funding_latest": {
+   "date": "2026",
+   "amount": "50万美元 种子轮 (2026-07)",
+   "round": "Pre-Seed",
+   "display": "50万美元 Pre-Seed (2026-07)"
+  },
+  "funding_total": {
+   "amount": "50万美元",
+   "display": "累计50万美元(种子)"
+  },
+  "investors": "天使投资人 + InterSystems Ventures",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2C/B2B 语音 AI 主动关怀，按席位与服务订阅",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 语音 AI 主动关怀，按席位与服务订阅」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入语音AI赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "陪伴服务"
+  ],
+  "highlights": "极早期但契合'AI 主动关怀'热点，国内独居老人日呼叫/陪伴机器人可对标其轻量切入。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1181",
+  "name": "Front Porch",
+  "name_cn": "Front Porch｜CCRC",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "1999",
+  "funding_latest": {
+   "date": "1999",
+   "amount": "非营利机构(未上市)",
+   "round": "设立",
+   "display": "非营利 (1999)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "非营利",
+  "payor_model": "个人自费+部分政府补贴",
+  "desc_cn": "非营利 CCRC 运营，入住费加月费加捐赠",
+  "recommend": "信号偏弱、信息透明度高，其「非营利 CCRC 运营，入住费加月费加捐赠」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入持续照料社区(CCRC)赛道）。",
+  "business_tags": {
+   "customer": "未标注",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "CCRC"
+  ],
+  "highlights": "非营利 CCRC+老龄化创新实验室模式，国内公建民营养老社区可参考其社区营造。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 4.5,
+  "copy_score": 5.5,
+  "research_value": 47.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.frontporch.net",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1182",
+  "name": "Visiting Angels",
+  "name_cn": "Visiting Angels｜上门照护加盟",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "1992",
+  "funding_latest": {
+   "date": "1992",
+   "amount": "加盟网络(未上市)",
+   "round": "设立",
+   "display": "加盟网络 (1992)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "加盟体系",
+  "payor_model": "个人自费+部分政府补贴",
+  "desc_cn": "B2C 非医疗居家照护加盟，按服务时长收费加加盟费",
+  "recommend": "信号偏弱、信息透明度高，其「B2C 非医疗居家照护加盟，按服务时长收费加加盟费」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入居家照护加盟赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务",
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "居家护理",
+   "陪伴服务"
+  ],
+  "highlights": "居家照护'加盟连锁'扩张样本，国内上门养老护理加盟化可参考其网点管理与培训。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 4.5,
+  "copy_score": 5.5,
+  "research_value": 47.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.visitingangels.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1183",
+  "name": "Catalia Health",
+  "name_cn": "Catalia 健康",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2014",
+  "funding_latest": {
+   "date": "2014",
+   "amount": "风投支持(未上市)",
+   "round": "设立",
+   "display": "风投支持 (2014)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "VC",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B2C AI 慢病管理，按企业与合作支付方订阅",
+  "recommend": "信号偏弱、信息透明度高，其「B2B2C AI 慢病管理，按企业与合作支付方订阅」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入AI慢病管理赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交",
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "陪伴服务",
+   "用药提醒"
+  ],
+  "highlights": "'具身AI+慢病管理'差异化样本，国内慢病老人居家管理可对标其陪伴式交互。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 57.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.cataliahealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1184",
+  "name": "Uniper",
+  "name_cn": "Uniper｜抗孤独虚拟互动",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2015",
+  "funding_latest": {
+   "date": "2015",
+   "amount": "风投支持(未上市)",
+   "round": "设立",
+   "display": "风投支持 (2015)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "VC",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B2C 虚拟活动与社交平台，按机构订阅与用户付费",
+  "recommend": "信号偏弱、信息透明度高，其「B2B2C 虚拟活动与社交平台，按机构订阅与用户付费」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交隔离干预赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "兴趣社群",
+   "陪伴服务"
+  ],
+  "highlights": "'对抗孤独'垂直赛道样本，国内老年文娱/社交可对标其活动运营与机构(B 端)合作。",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 57.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.unipercare.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1185",
+  "name": "Rylo",
+  "name_cn": "Rylo",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2019",
+  "funding_latest": {
+   "amount": "8500万美元",
+   "round": "成长期",
+   "date": "2026-06",
+   "display": "成长期 8500万美元 (2026-06)"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2C/B2B 听障AI通信订阅平台",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 听障AI通信订阅平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入听觉辅具赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "助听器"
+  ],
+  "highlights": "8500万美元融资，AI通信解决听障人群社交隔离",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.rylo.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1191",
+  "name": "Uresta",
+  "name_cn": "Uresta",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2018",
+  "funding_latest": {
+   "amount": "300万美元",
+   "round": "成长期",
+   "date": "2025-03",
+   "display": "成长期 300万美元 (2025-03)"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": "BDC Capital",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2C/B2B 女性失禁物理装置",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 女性失禁物理装置」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入失禁护理赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "尿失禁"
+  ],
+  "highlights": "300万美元融资，女性压力性尿失禁非手术方案",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 41.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.uresta.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1192",
+  "name": "CareFlick",
+  "name_cn": "CareFlick",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "未搜到",
+  "funding_latest": {
+   "amount": "未披露",
+   "round": "",
+   "date": "",
+   "display": "未披露"
+  },
+  "funding_total": {
+   "amount": "累计未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B 照护管理SaaS",
+  "recommend": "信号偏弱、信息量一般，其「B2B 照护管理SaaS」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入照护管理平台赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老软件"
+  ],
+  "highlights": "德国/印度照护管理平台，个性化照护协调",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 7.5,
+  "research_value": 49.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.careflick.com",
+  "business_tags_role": null
+ }
+]

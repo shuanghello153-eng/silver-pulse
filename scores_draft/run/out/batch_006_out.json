@@ -1,0 +1,549 @@
+{
+ "batch": 6,
+ "enterprises": [
+  {
+   "serial": "#1174",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 6,
+   "research_value": 69.7,
+   "recommend": {
+     "rec_v1": "信号强、信息披露充分的教育+养老跨界集团；其'老幼共托'反常识打法值得研究，国内社区综合体可借鉴其代际融合与会员体系。",
+     "rec_v2": "公开财报显示养护业务利润占比近半，信息透明度高；把教育IP与介护网络打包的模式独特，国内可学其跨代运营而非照搬硬件。",
+     "rec_v3": "高关注度的上市标杆，研究素材极丰富；'教育+养老'组合少见且可拆解，创业者宜借鉴其服务标准化，而非复制日本介护保险前提。",
+     "info_score": 8,
+     "diff_score": 7,
+     "copy_score": 6,
+     "signal_strength": 6.55,
+     "research_value": 69.7
+   },
+   "payor_model": "政府介护保险+个人自付(B2C会员/B2B机构)",
+   "business_tags_role": "服务商",
+   "desc_cn": "日本教育+养老跨界集团，东证上市，运营350+养老设施",
+   "founded": 1955,
+   "stage": "已上市",
+   "events": [
+     {"date": "1955", "text": "福武书店创立于冈山(倍乐生前身)"},
+     {"date": "1995", "text": "起步养老护理业务，试水护理人员培训"},
+     {"date": "2000", "text": "东京证交所一部上市(代码9783)"},
+     {"date": "2022", "text": "转至东证Prime市场"}
+   ],
+   "highlights": [
+     "运营日本超350家养老机构，护理及保育业务贡献近47%营业利润",
+     "教育IP(巧虎)与高龄照护跨代融合，国内'老幼共托'参考样板",
+     "2000年《介护保险法》施行后全面进军养老，形成机构+居家+送餐体系"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "教育+养老跨代融合，养老为集团与早教并列的核心业务之一"
+  },
+  {
+   "serial": "#1175",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 6,
+   "copy_score": 5,
+   "research_value": 65.7,
+   "recommend": {
+     "rec_v1": "信号稳健的日本照护龙头，年报与网点数据公开透明；其照护管理员(Care Manager)统筹机制差异化明显，国内可对标但须嫁接本地支付方。",
+     "rec_v2": "信息量充足的上市公司，连锁化居家照护经验可被拆解；'小而精'单元式运营是其特色，创业者宜学其人才培养体系而非重资产布点。",
+     "rec_v3": "高研究价值的行业标杆，公开资料覆盖全产业链；介护保险驱动的服务网络难平移，真正可抄的是其培训认证与上门服务标准。",
+     "info_score": 8,
+     "diff_score": 6,
+     "copy_score": 5,
+     "signal_strength": 6.55,
+     "research_value": 65.7
+   },
+   "payor_model": "政府介护保险+税金支付为主，个人自费补充",
+   "business_tags_role": "服务商",
+   "desc_cn": "日本居家照护龙头，东证上市，照护管理员制度标杆",
+   "founded": 1973,
+   "stage": "已上市",
+   "events": [
+     {"date": "1973", "text": "日医学馆公司成立(前身1968年医疗受托业务)"},
+     {"date": "2000", "text": "日本《介护保险法》施行后全国铺开770处照护网点"},
+     {"date": "2002", "text": "东京证交所一部上市(代码9792)"}
+   ],
+   "highlights": [
+     "日本养老销售额连续多年排名第一，介护网点超1400处",
+     "首创'照护管理员(Care Manager)'统筹机制，介护保险支付占收入约九成",
+     "'小而精'单元式照护，单机构不超80床以保障服务质量"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "日本居家照护龙头，业务以高龄者介护为核心"
+  },
+  {
+   "serial": "#1177",
+   "signal_strength": 6.55,
+   "info_score": 7,
+   "diff_score": 6,
+   "copy_score": 6,
+   "research_value": 64.7,
+   "recommend": {
+     "rec_v1": "信号明确的北欧上市企业，产品与财报公开；把老人手机和远程看护捆绑的定义独特，国内'一键呼叫'硬件可借鉴其适老交互设计。",
+     "rec_v2": "信息披露充分的适老科技样本，telecare模式清晰；硬件+服务费的双轮结构有差异化，创业者可学其安全告警产品化而非低价竞争。",
+     "rec_v3": "高关注度的银发硬件标杆，研究资料易获取；'简易+守护'组合在多地验证，国内宜参考其渠道分层，而非复制北欧福利采购环境。",
+     "info_score": 7,
+     "diff_score": 6,
+     "copy_score": 6,
+     "signal_strength": 6.55,
+     "research_value": 64.7
+   },
+   "payor_model": "个人自费(硬件+telecare服务费)，部分地方政府采购",
+   "business_tags_role": "制造商(硬件/设备)",
+   "desc_cn": "瑞典上市适老科技企业，老人手机与远程看护设备龙头",
+   "founded": 1974,
+   "stage": "已上市",
+   "events": [
+     {"date": "1974", "text": "Doro成立于瑞典"},
+     {"date": "2024", "text": "年净销售8.82亿瑞典克朗，欧洲老人手机份额领先"}
+   ],
+   "highlights": [
+     "瑞典/挪威/英国紧急呼叫安全告警市场领导者，全球老人手机龙头",
+     "硬件+telecare服务费双模式，2024净销售8.82亿瑞典克朗",
+     "产品定义聚焦大图标、助听曲线等适老交互"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "老人手机与远程看护设备专门服务老年群体"
+  },
+  {
+   "serial": "#1178",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 5,
+   "copy_score": 6,
+   "research_value": 65.7,
+   "recommend": {
+     "rec_v1": "信号稳定的卫生用品巨头，全球财报透明；TENA失禁护理的品牌矩阵打法成熟，国内成人纸尿裤可借鉴其高端化与渠道分层。",
+     "rec_v2": "信息量高的快消上市公司，产品体系完整；失禁护理主打消费品牌而非医疗属性，差异化温和，创业者可学其用户教育与品类扩张。",
+     "rec_v3": "高研究价值的失禁护理龙头，公开数据极丰富；品牌化路径清晰但门槛在规模，国内宜借鉴其定位升级而非跟随低价白牌。",
+     "info_score": 8,
+     "diff_score": 5,
+     "copy_score": 6,
+     "signal_strength": 6.55,
+     "research_value": 65.7
+   },
+   "payor_model": "个人自费(快消)+B端机构采购(医院/养老)",
+   "business_tags_role": "产品商",
+   "desc_cn": "瑞典卫生上市公司，失禁护理品牌TENA全球领导",
+   "founded": 2017,
+   "stage": "已上市",
+   "events": [
+     {"date": "2017-06-15", "text": "自SCA分拆，于纳斯达克斯德哥尔摩上市"}
+   ],
+   "highlights": [
+     "TENA为全球失禁护理第一品牌，2017自SCA分拆上市",
+     "失禁+伤口护理品牌矩阵，覆盖约150国",
+     "成人纸尿裤品牌化与渠道分层标杆"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "失禁护理主力用户为老年人，属核心银发用品"
+  },
+  {
+   "serial": "#0010",
+   "signal_strength": 6.05,
+   "info_score": 7,
+   "diff_score": 7,
+   "copy_score": 7,
+   "research_value": 67.2,
+   "recommend": {
+     "rec_v1": "信号突出的认知数字疗法头部，媒体报道充分；AI早筛+训练闭环反常识地打通预防，国内脑健康赛道可整包借鉴其医院/保险合作路径。",
+     "rec_v2": "信息量充足的A+轮企业，临床与商业数据公开；把筛查压缩到7分钟的产品定义独特，创业者应学其'筛查即入口'的获客逻辑。",
+     "rec_v3": "高研究价值的银发科技标的，已获二类器械证；认知干预的居家化打法稀缺且可抄，国内宜借政策东风复制其社区+支付方联动。",
+     "info_score": 7,
+     "diff_score": 7,
+     "copy_score": 7,
+     "signal_strength": 6.05,
+     "research_value": 67.2
+   },
+   "payor_model": "B端机构(医院/体检/保险)采购+个人自费订阅",
+   "business_tags_role": "产品商(数字疗法)",
+   "desc_cn": "认知症数字疗法企业，AI早筛与训练干预，持二类械证",
+   "founded": 2016,
+   "stage": "融资中",
+   "events": [
+     {"date": "2022", "text": "认知功能评估与训练软件获数字疗法二类医疗器械注册证"},
+     {"date": "2024-2025", "text": "完成亿元级A+轮融资，千骥资本领投"}
+   ],
+   "highlights": [
+     "认知障碍风险评估准确率超90%，传统检测由数周压缩至7分钟",
+     "2022年获数字疗法二类医疗器械注册证，构建'筛查-诊断-干预-随访'闭环",
+     "2025入选上海银发经济百大品牌，渠道覆盖支付宝/体检/银行"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "认知症(阿尔茨海默)数字疗法，直接服务老年人群"
+  },
+  {
+   "serial": "#0478",
+   "signal_strength": 6.05,
+   "info_score": 9,
+   "diff_score": 8,
+   "copy_score": 5,
+   "research_value": 71.2,
+   "recommend": {
+     "rec_v1": "信号极强的AI Care独角兽，融资与临床数据全公开；'AI+临床'替代劳动密集型模式颠覆性强，国内可学其企业采购打法而非照搬美国福利体系。",
+     "rec_v2": "信息量极高的数字疗法标杆，估值与收购动态透明；肌骨/疼痛的居家量化康复差异化明显，创业者宜借鉴其可穿戴数据闭环与结果付费。",
+     "rec_v3": "高关注度的全球样本，研究素材极丰富；把MSK扩到心理/盆底的平台化思路独特，国内可抄其AI Care架构但需重建支付与合规路径。",
+     "info_score": 9,
+     "diff_score": 8,
+     "copy_score": 5,
+     "signal_strength": 6.05,
+     "research_value": 71.2
+   },
+   "payor_model": "企业/健康计划雇主采购(B2B)+保险报销(德)",
+   "business_tags_role": "技术服务商",
+   "desc_cn": "AI肌骨/疼痛数字疗法独角兽，估值40亿美元",
+   "founded": 2015,
+   "stage": "融资中",
+   "events": [
+     {"date": "2025-06", "text": "完成4000万美元融资，估值40亿美元(General Catalyst领投)"},
+     {"date": "2026-01", "text": "以2.85亿美元收购德国Kaia Health，切入德国医保报销"},
+     {"date": "2026", "text": "创始人表示IPO或推迟至2028年之后"}
+   ],
+   "highlights": [
+     "AI Care模式融合AI与临床专家，自称节省客户近10亿美元医疗费用",
+     "估值40亿美元，2026以2.85亿收购Kaia Health切入德国医保报销",
+     "从肌骨扩展至盆底、心理，'按需付费(改善才付费)'结果导向"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "肌骨/疼痛数字疗法面向广泛成人，老年受益但非银发专属"
+  },
+  {
+   "serial": "#0389",
+   "signal_strength": 5.55,
+   "info_score": 5,
+   "diff_score": 6,
+   "copy_score": 5,
+   "research_value": 53.7,
+   "recommend": {
+     "rec_v1": "信号中等的帕金森诊疗企业，公开信息尚可；全时空诊疗体系+智能餐勺的组合有差异，国内可借鉴其可穿戴量化评估而非单点硬件。",
+     "rec_v2": "信息量一般的B+轮公司，体系介绍较完整；把诊断/康复/慢病管理串成闭环的做法独特，创业者宜学其临床数据平台搭建逻辑。",
+     "rec_v3": "值得研究的神经退行赛道样本，资料中等；帕金森个性化管理稀缺且可拆解，国内应借其'设备+数据+服务'思路但过注册与渠道关。",
+     "info_score": 5,
+     "diff_score": 6,
+     "copy_score": 5,
+     "signal_strength": 5.55,
+     "research_value": 53.7
+   },
+   "payor_model": "B端机构(医院/康复)+个人自费(设备/服务)",
+   "business_tags_role": "产品商(医疗设备)",
+   "desc_cn": "帕金森全时空诊疗企业，智能餐勺与可穿戴量化评估",
+   "founded": 2013,
+   "stage": "融资中",
+   "events": [
+     {"date": "2013", "text": "深圳市臻络科技(臻络科学)成立"},
+     {"date": "2021-09", "text": "完成亿元级B+轮融资，启明创投与斯道资本领投"}
+   ],
+   "highlights": [
+     "构建帕金森全时空诊疗体系：可穿戴量化评估+机器视觉量表评分",
+     "智能防抖餐勺切入，覆盖诊断/评价/治疗/康复/慢病管理",
+     "'睿云'数据平台覆盖全国217家三甲医院"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "帕金森病等神经退行性疾病以老年人为主，直接服务银发"
+  },
+  {
+   "serial": "#0466",
+   "signal_strength": 5.55,
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 4,
+   "research_value": 62.6,
+   "recommend": {
+     "rec_v1": "信号明确的英国家庭医疗龙头，NHS合作数据公开；AI提前7天预测住院、降率70%的打法差异化强，国内可学模型但难平移政府合同。",
+     "rec_v2": "信息量高的HealthTech标杆，财报与案例透明；把护理员上门变成数据入口的模式独特，创业者宜借鉴其预测式干预而非复制福利结构。",
+     "rec_v3": "高研究价值的居家照护样本，公开资料充分；'医院到家'的AI调度体系稀缺，国内可抄其预防性看护思路，但支付需换骨。",
+     "info_score": 8,
+     "diff_score": 7,
+     "copy_score": 4,
+     "signal_strength": 5.55,
+     "research_value": 62.6
+   },
+   "payor_model": "政府NHS/地方政府合同(B2G)为主+个人自付",
+   "business_tags_role": "服务商",
+   "desc_cn": "英国家庭医疗龙头，AI预测住院降率70%，NHS合作",
+   "founded": 2016,
+   "stage": "融资中",
+   "events": [
+     {"date": "2016", "text": "Cera成立于英国"},
+     {"date": "2025-01", "text": "完成超1.5亿美元融资，估值破10亿美元(独角兽)"},
+     {"date": "2025", "text": "年化收入约5亿美元，AI降低住院率最高70%"}
+   ],
+   "highlights": [
+     "AI提前7天预测住院/跌倒风险，住院率降低最高70%，日省NHS约100万英镑",
+     "月均250万次上门护理，覆盖3000万人口、150+地方政府",
+     "2025年化收入约5亿美元，估值破10亿美元"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "居家医疗与预防性照护主要服务老年及脆弱人群"
+  },
+  {
+   "serial": "#0468",
+   "signal_strength": 5.55,
+   "info_score": 7,
+   "diff_score": 8,
+   "copy_score": 3,
+   "research_value": 59.6,
+   "recommend": {
+     "rec_v1": "信号清晰的眼科手术机器人新贵，临床与融资数据公开；ORYOM平台全球首创、差异化极强，国内可关注技术方向但重监管难复制。",
+     "rec_v2": "信息量较高的硬科技标的，B轮细节透明；把白内障手术做成机器人平台的思路独特，创业者宜学其精密控制架构而非短期落地。",
+     "rec_v3": "值得跟踪的手术机器人样本，研究资料充分；'眼科版达芬奇'稀缺且前瞻，国内可借鉴其监管里程碑节奏，但资本与临床门槛极高。",
+     "info_score": 7,
+     "diff_score": 8,
+     "copy_score": 3,
+     "signal_strength": 5.55,
+     "research_value": 59.6
+   },
+   "payor_model": "B端医疗机构/医院采购+患者自费(手术费)",
+   "business_tags_role": "制造商(医疗设备)",
+   "desc_cn": "眼科手术机器人平台(ORYOM)，全球首创，B轮1.25亿",
+   "founded": 2020,
+   "stage": "融资中",
+   "events": [
+     {"date": "2025-06", "text": "完成1.25亿美元B轮融资(Eclipse领投)，累计1.95亿美元"},
+     {"date": "2025", "text": "获ISO 13485认证，筹备首例人体临床试验"}
+   ],
+   "highlights": [
+     "ORYOM为全球首个眼科手术机器人平台，先做白内障",
+     "B轮1.25亿美元(Eclipse领投)，累计1.95亿美元，筹备首例人体临床",
+     "应对眼科医生2035年预计降12%、需求增24%的供需缺口"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "眼科手术机器人平台，白内障患者以老人为主但属泛医疗器械"
+  },
+  {
+   "serial": "#0683",
+   "signal_strength": 5.55,
+   "info_score": 9,
+   "diff_score": 8,
+   "copy_score": 4,
+   "research_value": 67.6,
+   "recommend": {
+     "rec_v1": "信号强、披露极透明的Medicare Advantage险企，会员与估值数据公开；保险+自研平台+自有医疗垂直整合独特，国内可学理念难复制体系。",
+     "rec_v2": "信息量极高的银发保险标杆，Star评级与财报透明；'健康向导'人性化服务差异化明显，创业者宜借鉴其技管融合而非美国医保前提。",
+     "rec_v3": "高研究价值的老年健康险样本，公开素材丰富；把保险、科技、服务捆成一体打法稀缺，国内可抄其会员运营，但需重构支付方。",
+     "info_score": 9,
+     "diff_score": 8,
+     "copy_score": 4,
+     "signal_strength": 5.55,
+     "research_value": 67.6
+   },
+   "payor_model": "政府CMS医保给付(按人头付费)+个人保费",
+   "business_tags_role": "服务商",
+   "desc_cn": "美国Medicare Advantage险企，保险+科技+医疗垂直整合",
+   "founded": 2017,
+   "stage": "融资中",
+   "events": [
+     {"date": "2017", "text": "由Todd Park与Ed Park兄弟创立"},
+     {"date": "2021-10", "text": "完成11.5亿美元D轮，估值约127亿美元"},
+     {"date": "2026-01", "text": "完成3.66亿美元F/F-Prime轮，会员达46.6万、覆盖29州"}
+   ],
+   "highlights": [
+     "垂直整合Medicare Advantage险企，自研Orinoco平台+自有医疗+健康向导",
+     "2026年1月会员46.6万、覆盖29州，估值约161亿美元",
+     "CMS星评级领先，95%成员处于4星及以上计划"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "Medicare Advantage专为老年人群设计的健康险"
+  },
+  {
+   "serial": "#0866",
+   "signal_strength": 5.55,
+   "info_score": 9,
+   "diff_score": 4,
+   "copy_score": 5,
+   "research_value": 61.6,
+   "recommend": {
+     "rec_v1": "信号稳健的心理福利平台，新闻稿与第三方报道充分；用2.2倍ROI量化效果并绑定雇主采购的打法有差异，国内可学其价值证明而非产品。",
+     "rec_v2": "信息量高的EAP革新样本，估值与客群透明；AI精准匹配+临床团队的混合模式温和差异化，创业者宜借鉴其雇主侧切入路径。",
+     "rec_v3": "值得研究的员工心理健康标的，公开数据极丰富；把心理福利做成可量化采购的服务稀缺，国内可抄其ROI叙事但支付以C端为主。",
+     "info_score": 9,
+     "diff_score": 4,
+     "copy_score": 5,
+     "signal_strength": 5.55,
+     "research_value": 61.6
+   },
+   "payor_model": "B端机构付费(雇主与健康计划订阅，员工免费)",
+   "business_tags_role": "平台",
+   "desc_cn": "企业员工心理健康福利平台，AI精准匹配，ROI 2.2x",
+   "founded": 2016,
+   "stage": "融资中",
+   "events": [
+     {"date": "2024-07", "text": "完成1亿美元E轮，估值33亿美元"}
+   ],
+   "highlights": [
+     "AI精准心理健康匹配，覆盖超1000万生命、400+直签雇主",
+     "独立研究认证每投入1美元为健康计划省2.2美元(2.2x ROI)",
+     "2024年E轮1亿美元、估值33亿美元"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "企业员工心理健康福利，面向广泛职场人群非银发专属"
+  },
+  {
+   "serial": "#0886",
+   "signal_strength": 5.55,
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 4,
+   "research_value": 62.6,
+   "recommend": {
+     "rec_v1": "信号明确的企业医疗导航平台，多起并购与团队光环公开；'收入与雇主省下的医疗费挂钩'的绑定模式差异化强，国内可抄激励设计难平移支付。",
+     "rec_v2": "信息量高的AI就医导航标杆，估值与收购透明；连续并购补足初级护理的扩张思路独特，创业者宜借鉴其省钱才赚钱的结算逻辑。",
+     "rec_v3": "高研究价值的福利平台样本，资料充分；把医疗导航、药房、手术打包成平台稀缺，国内可学其整合架构但需换自保雇主前提。",
+     "info_score": 8,
+     "diff_score": 7,
+     "copy_score": 4,
+     "signal_strength": 5.55,
+     "research_value": 62.6
+   },
+   "payor_model": "B端机构付费(自保雇主/健康计划，与省费挂钩)",
+   "business_tags_role": "服务商",
+   "desc_cn": "雇主医疗福利与AI就医导航平台，收购Accolade",
+   "founded": 2020,
+   "stage": "融资中",
+   "events": [
+     {"date": "2024-05", "text": "完成1.26亿美元D轮，估值22亿美元"},
+     {"date": "2025-01", "text": "以6.21亿美元收购Accolade，补足健康倡导与初级护理"}
+   ],
+   "highlights": [
+     "'收入与雇主节省医疗费挂钩'的激励绑定模式",
+     "由Livongo创始人Glen Tullman创立，2025以6.21亿收购Accolade",
+     "WayFinding生成式AI导诊，整合癌症/手术/药房/虚拟问诊"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "自保雇主医疗导航平台，服务在职雇员而非银发专属"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#1174",
+   "name": "Benesse",
+   "intro": "日本教育+养老跨界集团，东证上市，运营350+养老设施，护理业务利润占比近半。",
+   "old_tags": {"tag_l1": ["文娱社交"], "tag_l2": ["教育"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "add", "tag": "养老照护", "reason": "集团运营350+养老设施，养老为与早教并列的核心业务，标签缺失该维度"},
+     {"action": "change", "tag": "养老服务", "reason": "原tag_l1'文娱社交'不准，主业为教育+高龄者照护"}
+   ]
+  },
+  {
+   "serial": "#1175",
+   "name": "Nichii Gakkan",
+   "intro": "日本居家照护龙头，东证上市，首创照护管理员(Care Manager)统筹机制，介护网点超1400处。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家医疗", "居家护理"], "business_tags": {"customer": "B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "add", "tag": "人才培训", "reason": "日医核心业务含介护人才培训与认证，标签未覆盖"}
+   ]
+  },
+  {
+   "serial": "#1177",
+   "name": "Doro",
+   "intro": "瑞典上市适老科技企业，老人手机与远程看护(telecare)设备龙头，北欧安全告警市场领先。",
+   "old_tags": {"tag_l1": ["康复辅具"], "tag_l2": ["紧急呼叫"], "business_tags": {"customer": "B2C", "role": "制造商(硬件/设备)", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "适老科技", "reason": "原tag_l1'康复辅具'不符，主营老人手机与远程看护属适老科技"}
+   ]
+  },
+  {
+   "serial": "#1178",
+   "name": "Essity",
+   "intro": "瑞典卫生与健康上市公司，失禁护理品牌TENA全球第一，2017自SCA分拆上市。",
+   "old_tags": {"tag_l1": ["消费品"], "tag_l2": ["尿失禁", "纸尿裤"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "养老用品", "reason": "失禁护理主力用户为老人，原tag_l1'消费品'颗粒度偏粗"}
+   ]
+  },
+  {
+   "serial": "#0010",
+   "name": "博斯腾",
+   "intro": "认知症(阿尔茨海默)数字疗法企业，AI早筛与训练干预，已获二类医疗器械注册证。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["认知训练", "认知筛查"], "business_tags": {"customer": "B2B", "role": "制造商(药)", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "产品商(数字疗法)", "reason": "原business_tags.role'制造商(药)'不准，实为数字疗法软件企业"},
+     {"action": "add", "tag": "数字疗法", "reason": "认知数字疗法为核心模式，tag_l2未覆盖"}
+   ]
+  },
+  {
+   "serial": "#0478",
+   "name": "Sword Health",
+   "intro": "AI驱动肌骨/疼痛数字疗法独角兽(估值40亿美元)，从肌骨扩展至盆底与心理，2026收购Kaia Health。",
+   "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["AI医疗"], "business_tags": {"customer": "B2B", "role": "技术服务商", "channel": []}},
+   "suggested": [
+     {"action": "add", "tag": "数字疗法", "reason": "MSK数字疗法为核心，tag_l2仅AI医疗未覆盖数字疗法"}
+   ]
+  },
+  {
+   "serial": "#0389",
+   "name": "Gyenno",
+   "intro": "深圳市臻络科技，帕金森全时空诊疗企业，智能防抖餐勺+可穿戴量化评估+临床数据平台。",
+   "old_tags": {"tag_l1": ["文娱社交"], "tag_l2": ["健身"], "business_tags": {"customer": "B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "医疗服务", "reason": "原tag_l1'文娱社交'完全不符，主营帕金森诊疗设备与慢病管理"},
+     {"action": "change", "tag": "神经退行/帕金森", "reason": "原tag_l2'健身'不符，核心为帕金森全时空诊疗体系"}
+   ]
+  },
+  {
+   "serial": "#0466",
+   "name": "Cera Care",
+   "intro": "英国家庭医疗龙头，AI预测住院降率70%，月均250万次上门护理，NHS与地方政府合作。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家护理"], "business_tags": {"customer": "未标注", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "B2G/B2B", "reason": "原business_tags.customer'未标注'不准，90%收入来自NHS与地方政府合同"}
+   ]
+  },
+  {
+   "serial": "#0468",
+   "name": "ForSight Robotics",
+   "intro": "以色列眼科手术机器人平台(ORYOM)开发商，全球首创，B轮1.25亿美元，筹备首例人体临床。",
+   "old_tags": {"tag_l1": ["康复辅具"], "tag_l2": ["机器人"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "制造商(医疗设备)", "reason": "原business_tags.role'服务商'不符，实为眼科手术机器人平台制造商"}
+   ]
+  },
+  {
+   "serial": "#0683",
+   "name": "Devoted Health",
+   "intro": "美国Medicare Advantage险企，保险+自研Orinoco平台+自有医疗垂直整合，会员46.6万。",
+   "old_tags": {"tag_l1": ["金融保险"], "tag_l2": ["保险"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "add", "tag": "医疗健康", "reason": "垂直整合医疗交付(自有医疗+健康向导)，tag_l2仅保险未覆盖医疗维度"}
+   ]
+  },
+  {
+   "serial": "#0866",
+   "name": "Spring Health",
+   "intro": "企业员工心理健康福利平台，AI精准匹配，覆盖超1000万生命、400+雇主，ROI 2.2x。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["心理健康"], "business_tags": {"customer": "B2B", "role": "服务商(媒体/数据)", "channel": []}},
+   "suggested": [
+     {"action": "change", "tag": "健康服务", "reason": "原tag_l1'养老服务'不符，实为职场员工心理健康福利平台"},
+     {"action": "change", "tag": "平台", "reason": "原business_tags.role'服务商(媒体/数据)'不符，实为心理健康福利平台"}
+   ]
+  },
+  {
+   "serial": "#0886",
+   "name": "Transcarent",
+   "intro": "雇主医疗福利与AI就医导航平台，由Livongo创始人创立，2025以6.21亿收购Accolade。",
+   "old_tags": {"tag_l1": ["金融保险"], "tag_l2": ["保险"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+     {"action": "add", "tag": "就医导航", "reason": "核心为AI就医导航与福利整合，tag_l2仅保险未覆盖"}
+   ]
+  }
+ ],
+ "nonsilver": [
+  {"serial": "#0478", "name": "Sword Health", "verdict": "泛医疗擦边", "reason": "肌骨/疼痛数字疗法面向广泛成人，老年受益但非银发专属"},
+  {"serial": "#0468", "name": "ForSight Robotics", "verdict": "泛医疗擦边", "reason": "眼科手术机器人平台，白内障患者以老人为主但属泛医疗器械"},
+  {"serial": "#0866", "name": "Spring Health", "verdict": "泛医疗擦边", "reason": "企业员工心理健康福利，面向广泛职场人群非银发专属"},
+  {"serial": "#0886", "name": "Transcarent", "verdict": "泛医疗擦边", "reason": "自保雇主医疗导航平台，服务在职雇员而非银发专属"}
+ ]
+}

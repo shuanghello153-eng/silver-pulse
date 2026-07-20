@@ -1,0 +1,508 @@
+{
+ "batch": 74,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0764",
+   "name": "Lilli",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "AI远程监控设备，支持家庭护理，9:1投资回报率",
+   "highlights": "支持家庭护理",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "820万英镑",
+    "display": "820万英镑 (2024年2月)"
+   },
+   "funding_total": "$8.2M",
+   "investors": "",
+   "founded": "2020",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lilli",
+   "website_url": "https://www.lilli.me",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI远程监控设备，支持家庭护理，9:1投资回报率",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lilli】聚焦产业资本/文娱社交/智能硬件，支持家庭护理，B2B模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0765",
+   "name": "Linus Health",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "病情早筛",
+   "tags": [
+    "认知筛查"
+   ],
+   "description": "Linus Health 是一家 AI 数字认知评估公司，通过平板上的认知任务及早发现阿尔茨海默病等认知障碍，产品已获 FDA 注册，向医疗机构与健康计划以 SaaS 方式销售。亮点是把认知筛查嵌入常规体检流程，支持大规模早期干预。",
+   "highlights": "早期发现阿尔茨海默症",
+   "funding_latest": {
+    "date": "2024年3月",
+    "round": "收购",
+    "display": "收购 (2024年3月)"
+   },
+   "funding_total": "$55M",
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Linus%20Health",
+   "website_url": "https://www.linushealth.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "Linus Health 是一家 AI 数字认知评估公司，通过平板上的认知任务及早发现阿尔茨海默病等认知障碍，产品已获 FDA 注册，向医疗机构与健康计划以 SaaS 方式销售。亮点是把认知筛查嵌入常规体检流程，支持大规模早期干预。",
+   "business_model_cn": "B2B/B2C 认知症早筛与数字健康",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Linus Health】聚焦产业资本/认知症，早期发现阿尔茨海默症，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0767",
+   "name": "Log my Care",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Log my Care is a UK care management software that lets care homes and home-care providers write digital care plans, log daily activities, manage incidents and medications, and stay CQC-compliant via a carer app and web dashboard.",
+   "highlights": "数字化养老院管理平台",
+   "funding_latest": {
+    "amount": "300万英镑",
+    "display": "300万英镑"
+   },
+   "funding_total": "$3.8M",
+   "investors": "Mercia Ventures",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Log%20my%20Care",
+   "website_url": "https://www.logmycare.co.uk",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "英国养老照护管理软件商，为养老院与居家照护机构打造电子化护理计划、日常记录、事故管理与用药（eMAR）工具，并满足CQC监管与NHS数据标准。",
+   "business_model_cn": "SaaS订阅(£5/人起)",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Log my Care】聚焦产业资本/养老机构/护理平台，数字化养老院管理平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0769",
+   "name": "Lotus Ring",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能家居"
+   ],
+   "description": "戴在手指上的遥控器，红外线控制灯光、风扇等",
+   "highlights": "红外线控制灯光、风扇等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lotus%20Ring",
+   "website_url": "https://getlotus.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "戴在手指上的遥控器，红外线控制灯光、风扇等",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能家居"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lotus Ring】聚焦行业媒体/辅具，红外线控制灯光、风扇等，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0770",
+   "name": "LUCID (Resonance Rx)",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "老年音乐",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "AI音乐疗法、音频认知行为疗法和认知游戏",
+   "highlights": "AI音乐疗法、音频认知行为疗法和认知游戏",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LUCID%20%28Resonance%20Rx%29",
+   "website_url": "https://www.lucidtherapeutics.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI音乐疗法、音频认知行为疗法和认知游戏",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【LUCID (Resonance Rx)】聚焦文娱社交/认知症，AI音乐疗法、音频认知行为疗法和认知游戏，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0771",
+   "name": "Luminary",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Luminary builds AI-powered estate and wealth-transfer planning software for financial, legal and tax advisors, turning trust and will documents into visual models that simulate gifting, charitable and generational transfer strategies.",
+   "highlights": "专为信托和遗产规划顾问打造的数据和协作平台",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "3000万美元",
+    "display": "3000万美元 (2024年4月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Luminary",
+   "website_url": "https://www.luminary.com",
+   "business_model": "B2B 咨询服务",
+   "desc_cn": "Luminary为财富、法律与税务顾问开发遗产与财富传承规划软件，借助AI抽取信托与遗嘱数据并模拟赠与、慈善及代际传承方案，面向老龄化客户的资产传递需求。",
+   "business_model_cn": "B2B SaaS订阅",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Luminary】聚焦产业资本/数字化/行业媒体，专为信托和遗产规划顾问打造的数据和协作平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0773",
+   "name": "Marta",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工平台",
+    "居家护理"
+   ],
+   "description": "直接连接护理人员，寻找居家护理人员",
+   "highlights": "寻找居家护理人员",
+   "funding_latest": {
+    "date": "2022年8月",
+    "amount": "658万美元",
+    "display": "658万美元 (2022年8月)"
+   },
+   "funding_total": "$6.57M",
+   "investors": "Almaz Capital, Capnamic Ventures, RTL",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Marta",
+   "website_url": "https://www.marta.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "直接连接护理人员，寻找居家护理人员",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Marta】聚焦产业资本/居家护理/护理平台，寻找居家护理人员，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0774",
+   "name": "Maven Clinic",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "Maven Clinic 成立于2014年，总部位于美国纽约，是全球领先的女性与家庭虚拟医疗诊所，覆盖生育、孕产、育儿及更年期与中年健康（menopause & midlife）等人生阶段，以员工福利形式服务逾2300家企业与健康计划，连接妇产科、营养、心理、泌乳等30余个专科，2021年成为女性与家庭健康领域首家独角兽企业",
+   "highlights": "包括更年期服务",
+   "funding_latest": null,
+   "funding_total": "$417M",
+   "investors": "Icon Ventures, General Catalyst (+42 others)",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Maven%20Clinic",
+   "website_url": "https://www.mavenclinic.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Maven Clinic 成立于2014年，总部位于美国纽约，是全球领先的女性与家庭虚拟医疗诊所，覆盖生育、孕产、育儿及更年期与中年健康（menopause & midlife）等人生阶段，以员工福利形式服务逾2300家企业与健康计划，连接妇产科、营养、心理、泌乳等30余个专科，2021年成为女性与家庭健康领域首家独角兽企业",
+   "business_model_cn": "B2B/B2C 女性健康医疗/服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Maven Clinic】聚焦健康管理/女性健康/数字化，包括更年期服务，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0776",
+   "name": "MedArrive",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能药盒",
+    "SDOH"
+   ],
+   "description": "MedArrive sends employed EMS clinicians—paramedics and EMTs—into patients' homes to deliver in-home care, chronic disease monitoring and social-determinant interventions under contract with health plans.",
+   "highlights": "连接患者与按需医疗运输",
+   "funding_latest": {
+    "date": "2022年2月",
+    "amount": "3284万美元",
+    "display": "3284万美元 (2022年2月)"
+   },
+   "funding_total": "$8M",
+   "investors": "Cobalt Ventures (BCBS Kansas City)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=MedArrive",
+   "website_url": "https://www.medarrive.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "MedArrive 派遣受雇的急救医务人员（急救员与护理员）上门为慢病老人做体检、用药管理与生活支持，按健康险合同结算。",
+   "business_model_cn": "B2B健康险服务",
+   "tag_l1": [
+    "康复辅具",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MedArrive】聚焦产业资本/保健品/健康管理，连接患者与按需医疗运输，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0778",
+   "name": "MedMinder",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能药盒",
+    "用药管理",
+    "药品配送"
+   ],
+   "description": "联网药房护理，触摸屏自动药丸分配器",
+   "highlights": "触摸屏自动药丸分配器",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "250万美元",
+    "display": "250万美元 (2024年4月)"
+   },
+   "funding_total": "$62.7M",
+   "investors": "Accelmed, Trinnovate Ventures",
+   "founded": "2007",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=MedMinder",
+   "website_url": "https://www.medminder.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "联网药房护理，触摸屏自动药丸分配器",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "用药管理",
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MedMinder】聚焦产业资本/保健品/医疗器械，触摸屏自动药丸分配器，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0780",
+   "name": "Mend",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Mend（mend.com）是一家面向医疗机构的行为健康 AI 平台，用自动化沟通、日程提醒与远程问诊降低患者爽约率、提升就诊转化，按 SaaS 向诊所和医院收费。注：同时存在澳洲的 Mend 癌症/慢病康复 App，公开信息存在重名歧义。",
+   "highlights": "营养补充剂+数字平台",
+   "funding_latest": {
+    "date": "2023年7月",
+    "amount": "1500万美元",
+    "display": "1500万美元 (2023年7月)"
+   },
+   "funding_total": "$15M",
+   "investors": "S2G Ventures",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mend",
+   "website_url": "https://www.mend.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "Mend（mend.com）是一家面向医疗机构的行为健康 AI 平台，用自动化沟通、日程提醒与远程问诊降低患者爽约率、提升就诊转化，按 SaaS 向诊所和医院收费。注：同时存在澳洲的 Mend 癌症/慢病康复 App，公开信息存在重名歧义。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Mend】聚焦产业资本/文娱社交/营养食品，营养补充剂+数字平台，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0782",
+   "name": "Metyos",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "慢性肾病监测设备，类似FreeStyle Libre",
+   "highlights": "类似FreeStyle Libre",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "230万欧元",
+    "round": "种子前",
+    "display": "种子前 230万欧元 (2024年3月)"
+   },
+   "funding_total": "€2.3M",
+   "investors": "Cenitz (lead)",
+   "founded": "2021",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Metyos",
+   "website_url": "https://www.metyos.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "慢性肾病监测设备，类似FreeStyle Libre",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Metyos】聚焦产业资本/慢病管理/智能硬件，类似FreeStyle Libre，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

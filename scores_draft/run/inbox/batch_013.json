@@ -1,0 +1,731 @@
+{
+ "batch": 13,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0696",
+   "name": "ElliQ",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "description": "ElliQ是以色列Intuition Robotics开发的AI老年社交陪伴机器人，能主动发起对话、提醒服药、推荐活动，已在美国数千家庭部署。由Dor Skuler创立。",
+   "highlights": "AI老年社交陪伴机器人，美国数千家庭部署",
+   "funding_latest": {
+    "date": "2023",
+    "amount": "$25M",
+    "round": "Series B",
+    "display": "Series B $25M (2023)"
+   },
+   "funding_total": {
+    "amount": "$83M",
+    "display": "累计$83M"
+   },
+   "investors": "OurCrowd, Bloomberg Beta, iRobot, Toyota AI Ventures",
+   "founded": "2016",
+   "value_score": 42,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ElliQ",
+   "website_url": "https://elliq.com/",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "ElliQ是以色列Intuition Robotics开发的AI老年社交陪伴机器人，能主动发起对话、提醒服药、推荐活动，已在美国数千家庭部署。由Dor Skuler创立。",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "news_coverage": {
+    "news_count": 18,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Intuition Robotics Raises $25M (ElliQ)",
+      "date": "2024-08-29",
+      "source": "Intuition Robotics",
+      "url": "https://www.intuitionrobotics.com/post/intuition-robotics-raises-25m"
+     },
+     {
+      "title": "ElliQ养老机器人十年复盘",
+      "date": "2026-03-03",
+      "source": "钛媒体",
+      "url": "https://www.tmtpost.com/7896854.html"
+     }
+    ],
+    "snippets": [
+     "ElliQ 是以色列 Intuition Robotics 推出的老年陪伴AI机器人,主打对抗孤独与健康提醒",
+     "累计融资超8700万美元,日均互动超30次"
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【ElliQ】聚焦产业资本/文娱社交，AI老年社交陪伴机器人，美国数千家庭部署，B2B+B2C模式，研究价值分42。",
+   "payor_model": "未披露",
+   "signal_strength": 3.05
+  },
+  {
+   "serial": "#0895",
+   "name": "Vayyar",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能家居"
+   ],
+   "description": "4D成像雷达，非侵入式全面环境监测，隐私保护",
+   "highlights": [
+    "4D成像雷达(无摄像头、隐私保护)",
+    "Vayyar Care养老跌倒监测方案",
+    "2020在华设全资子公司+研发中心"
+   ],
+   "funding_latest": {
+    "round": "E轮扩展轮",
+    "amount": "2500万美元",
+    "currency": "USD",
+    "date": "2024-10",
+    "display": "E轮扩展轮 2500万美元 (2024-10)",
+    "investors": [
+     "ITI Venture Capital Partners"
+    ]
+   },
+   "funding_total": {
+    "amount": "约3.23亿美元",
+    "display": "累计约3.23亿美元"
+   },
+   "investors": [
+    "ITI Venture Capital Partners"
+   ],
+   "founded": "2011",
+   "value_score": 56,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vayyar",
+   "website_url": "https://www.vayyar.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "4D成像雷达(radar-on-chip)公司，以无摄像头、隐私保护的非接触式环境感知服务养老跌倒监测、智能家居、汽车与医疗等多场景；2024-10完成2500万美元扩展轮，累计约3.23亿美元，2020年在中国成立全资子公司并建研发中心。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 14,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Vayyar raises $108M Series E (valuation >$1B)",
+      "date": "2022-06-07",
+      "source": "letschuhai",
+      "url": "https://letschuhai.com/vayyar-e-financing-cicc-machine-technology-4d"
+     },
+     {
+      "title": "Vayyar万蕴养老解决方案-跌倒监测",
+      "date": "2024-03-01",
+      "source": "Vayyar中国",
+      "url": "https://vayyar.com.cn/facility/"
+     }
+    ],
+    "snippets": [
+     "Vayyar(以色列)以4D成像雷达提供无接触式跌倒检测与活动监测,面向养老场景",
+     "累计融资超3亿美元,2022年E轮1.08亿美元,估值超10亿美元"
+    ]
+   },
+   "name_cn": "万蕴",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能家居"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "信息较丰富（官网+CB Insights+中文创业媒体），商业模式合理（卖传感器给厂商）不反常识。中国有同类毫米波雷达（清雷、移远），但Vayyar全自研RFIC+多天线阵列壁垒高；支付方为B端，其“雷达替代摄像头做跌倒监测”可直接平移至国内养老机构与智能家居厂商——是技术引进+本土集成的好样本。",
+   "payor_model": "B端机构付费（向OEM、养老机构与智能家居厂商出售雷达芯片/模组与方案，不直接对个人）",
+   "signal_strength": 3.05,
+   "info_score": 8,
+   "diff_score": 5,
+   "copy_score": 7,
+   "research_value": 57.1,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0977",
+   "name": "Wellth",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "用药提醒"
+   ],
+   "description": "数字健康公司，利用行为经济学和财务激励提高慢性病人群的依从性。明确服务于Medicare Advantage(MA)、Medicaid、D-SNP等老年高...",
+   "highlights": [
+    "行为经济学+每日财务激励提升依从",
+    "C轮3600万美元(2025-03)",
+    "累计5000万+次打卡，住院降51%"
+   ],
+   "funding_latest": {
+    "round": "C轮",
+    "amount": "3600万美元",
+    "currency": "USD",
+    "date": "2025-03",
+    "display": "C轮 3600万美元 (2025-03)",
+    "investors": [
+     "Mercato Partners",
+     "FCA Venture Partners",
+     "Comcast Ventures",
+     "SignalFire",
+     "New York Life"
+    ]
+   },
+   "funding_total": {
+    "amount": "约7310万美元",
+    "display": "累计约7310万美元"
+   },
+   "investors": [
+    "Mercato Partners",
+    "FCA Venture Partners",
+    "Comcast Ventures",
+    "SignalFire",
+    "New York Life"
+   ],
+   "founded": "2014",
+   "value_score": 54,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wellth",
+   "website_url": "https://www.wellthapp.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "用行为经济学+财务激励做“每日护理激励”的数字健康公司，提升高风险人群（Medicare Advantage/Medicaid/D-SNP）用药依从与预防就诊；2025-03完成3600万美元超额认购C轮，累计5000万+次每日打卡、平均90%护理计划依从、住院降51%。",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 15,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Wellth Raises $36M Series C",
+      "date": "2025-08-21",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/wellth-raises-36m-in-oversubscribed-series-c-as-health-plans-embrace-daily-care-motivation-302535116.html"
+     },
+     {
+      "title": "Wellth获得3600万美元C轮(慢病管理)",
+      "date": "2025-08-26",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250826A06OS400"
+     }
+    ],
+    "snippets": [
+     "Wellth 用行为经济学+每日财务激励提升慢病依从性,服务健康计划",
+     "2025年8月完成3600万美元超额认购C轮,由 Mercato Partners 领投"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药提醒"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "信息丰富（临床与财务成效指标清晰），差异化在“行为经济学+每日小额激励”提升慢病依从、降低住院，模式有一定独特性。中国慢病管理（平安好医生、微医）有同类，但按效果付费+政府支付方结构差异大——其“用微小金钱激励撬动依从率”的行为设计值得借鉴，尤其适配国内医保控费语境。",
+   "payor_model": "混合（客户为健康计划，终极支付方为政府Medicare/Medicaid；B端机构付费+政府支付主导）",
+   "signal_strength": 3.05,
+   "info_score": 8,
+   "diff_score": 6,
+   "copy_score": 5,
+   "research_value": 55.2,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#1331",
+   "name": "Lys Therapeutics",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "神经/抗衰老",
+   "tags": [
+    "保健品"
+   ],
+   "description": "抗衰老脑疗法（神经科学），推进神经退行性疾病管线。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "2026-07-11",
+    "amount": "2900万美元",
+    "round": "近期",
+    "display": "$29M (2026-07)"
+   },
+   "funding_total": {
+    "amount": "约$3000万",
+    "display": "累计约$3000万"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(agetech.com) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "Biotech",
+   "desc_cn": "抗衰老脑疗法（神经科学），推进神经退行性疾病管线。",
+   "business_model_cn": "生物科技",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 2.8
+  },
+  {
+   "serial": "#1334",
+   "name": "BedHub",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老运营",
+   "tags": [
+    "智能家居"
+   ],
+   "description": "养老照护机构搜索匹配平台，帮助家庭寻找优质机构。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "2026-07-09",
+    "amount": "全国上线(未披露)",
+    "round": "初创",
+    "display": "全国上线"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(agetech.com) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C平台",
+   "desc_cn": "养老照护机构搜索匹配平台，帮助家庭寻找优质机构。",
+   "business_model_cn": "B2C 机构搜索",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能家居"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "初创",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 2.8
+  },
+  {
+   "serial": "#0387",
+   "name": "CareVoice",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "CareVoice 是一家总部位于上海/香港的保险科技公司（2014年成立），为健康与寿险公司提供 CareVoiceOS——一套基于API的数字化健康操作系统，覆盖症状分诊、医生查询、保单管理与理赔自动化，服务全球30余家保险公司，2024年完成千万美元级B轮融资。",
+   "highlights": "帮助保险公司将健康和保健功能整合到平台",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "1000万美元",
+    "round": "B轮",
+    "display": "B轮 1000万美元 (2024年3月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 21,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CareVoice",
+   "website_url": "https://www.thecarevoice.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "帮助保险公司将健康和保健功能整合到平台",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【CareVoice】聚焦产业资本/保健品/保险，帮助保险公司将健康和保健功能整合到平台，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0479",
+   "name": "Tombot",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "机器人"
+   ],
+   "description": "加利福尼亚机器人公司，生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。",
+   "highlights": "生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。",
+   "funding_latest": {
+    "date": "2025-06",
+    "amount": "6100000",
+    "round": "Unknown",
+    "display": "Unknown $610万 (2025-06)"
+   },
+   "funding_total": "$16.5M (截至2025年)",
+   "investors": [
+    "Caduceus Capital Partners",
+    "Wavemaker 360"
+   ],
+   "founded": "2017",
+   "value_score": 50,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tombot",
+   "website_url": "https://tombot.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "加利福尼亚机器人公司，生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "news_coverage": {
+    "news_count": 9,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Robotic Pet Company Tombot Secures $6.1M Series A",
+      "date": "2025-06-12",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20250612089581/en/Robotic-Pet-Company-Tombot-Secures-%246.1M-Series-A-Funding-to-Support-Groundbreaking-Health-and-Senior-Care-Product-Line"
+     },
+     {
+      "title": "美国机器人伴侣公司融资700万美元(A3轮)",
+      "date": "2026-07",
+      "source": "AgeClub",
+      "url": "https://www.ageclub.net/article-detail/9747"
+     },
+     {
+      "title": "Upside获2000万美元住房稳定性平台融资（含Tombot等投融资汇总）",
+      "url": "https://www.mobihealthnews.com/news/upside-garners-20m-healthcare-focused-housing-stability-platform-and-more-funding-news",
+      "date": "2026-06-30",
+      "source": "MobiHealthNews",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": [
+     "$6.1M Series A (Caduceus Capital) for robotic puppy Jennie (2025).",
+     "Later $7M A3 round; 23k+ preorders, seniors/cognitive health."
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Tombot】聚焦产业资本/养老社区/文娱社交，生产机器小狗作为痴呆症和轻度认知障碍患者的伴侣动物。，B2B+B2C模式，研究价值分50。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0500",
+   "name": "Carewell",
+   "region": "海外",
+   "category_l1": "购物渠道",
+   "category_l2": "线上渠道",
+   "tags": [
+    "养老信息平台",
+    "电商"
+   ],
+   "description": "家庭照护用品配送、照护知识教育",
+   "highlights": "家庭护理者电商一站式平台，soonicorn级别",
+   "funding_latest": {
+    "date": "2023-06",
+    "amount": "$24.7M",
+    "round": "Series B",
+    "display": "Series B $24.7M (2023-06)"
+   },
+   "funding_total": {
+    "amount": "$54.7M",
+    "display": "累计$54.7M"
+   },
+   "investors": "MBF Healthcare Partners, Headline, NextView Ventures, Primetime Partners",
+   "founded": "2015",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Carewell",
+   "website_url": "https://www.carewell.com/",
+   "business_model": "B2C 教育/培训",
+   "desc_cn": "家庭照护用品配送、照护知识教育",
+   "business_model_cn": "B2C 教育/培训",
+   "tag_l1": [
+    "行业服务",
+    "消费品"
+   ],
+   "tag_l2": [
+    "养老信息平台",
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Carewell】聚焦产业资本/渠道，家庭护理者电商一站式平台，soonicorn级别，B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0501",
+   "name": "Current Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "居家生命体征监测系统",
+   "highlights": "远程患者监测平台，2021年被Best Buy以$400M收购",
+   "funding_latest": {
+    "date": "2021-04",
+    "amount": "$43M",
+    "round": "Series B",
+    "display": "Series B $43M (2021-04)"
+   },
+   "funding_total": {
+    "amount": "$79.1M",
+    "display": "累计$79.1M"
+   },
+   "investors": "Dexcom, Par Equity, OSF Healthcare, Elements Health Ventures",
+   "founded": "2015",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Current%20Health",
+   "website_url": "https://currenthealth.com/",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "居家生命体征监测系统",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Current Health】聚焦产业资本/居家护理/行业媒体，远程患者监测平台，2021年被Best Buy以$400M收购，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0511",
+   "name": "GoodTrust",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "遗产规划"
+   ],
+   "description": "遗产规划、数字资产继承",
+   "highlights": "数字遗产信托平台，整合遗嘱+信托+账号管理",
+   "funding_latest": {
+    "date": "2021",
+    "amount": "$500万",
+    "round": "Seed",
+    "display": "Seed $500万 (2021)"
+   },
+   "funding_total": {
+    "amount": "$500万",
+    "display": "累计$500万"
+   },
+   "investors": "Ethan Allen, Michael Loeb, Kevin Ryan",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GoodTrust",
+   "website_url": "https://mygoodtrust.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "遗产规划、数字资产继承",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "遗产规划"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【GoodTrust】聚焦产业资本/行业媒体，数字遗产信托平台，整合遗嘱+信托+账号管理，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0598",
+   "name": "401GO",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "401GO 是一家美国退休金（401k）计划管理金融科技公司，为中小企业提供自动化、低成本的员工退休账户设立与缴费管理服务。",
+   "highlights": "自动化退休解决方案",
+   "funding_latest": {
+    "amount": "1200万美元",
+    "round": "A轮",
+    "display": "A轮 1200万美元"
+   },
+   "funding_total": {
+    "amount": "$45M+ (累计: A轮$12M+B轮$33M)",
+    "display": "$45M+ (累计)"
+   },
+   "investors": "Centana Growth Partners (领投)",
+   "founded": "2020",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=401GO",
+   "website_url": "https://www.401go.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "401GO 是一家美国退休金（401k）计划管理金融科技公司，为中小企业提供自动化、低成本的员工退休账户设立与缴费管理服务。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "401GO Raises $33M Series B Led by Centana Growth Partners",
+      "date": "2025-12-09",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20251209173420/en/401GO-Raises-%2433M-Series-B-Led-by-Centana-Growth-Partners-to-Drive-Next-Generation-Retirement-Solutions"
+     },
+     {
+      "title": "金融科技平台401GO获得3300万美元B轮融资",
+      "date": "2025-12",
+      "source": "HRTechChina",
+      "url": "https://www.hrtechchina.com/tag/助力个人自信规划财务未来/"
+     }
+    ],
+    "snippets": [
+     "401GO为全资运营401(k)退休金平台，2025年12月完成3300万美元B轮（Centana领投），服务超5000家企业。",
+     "定位“新一代退休解决方案”，属养老金融赛道。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【401GO】聚焦产业资本/行业媒体，自动化退休解决方案，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0604",
+   "name": "AceAge",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能药盒",
+    "用药提醒",
+    "用药管理"
+   ],
+   "description": "智慧用药产品，管理3种以上药物",
+   "highlights": "管理3种以上药物",
+   "funding_latest": {
+    "date": "2020年",
+    "amount": "500万元",
+    "round": "A轮",
+    "display": "A轮 500万元 (2020年)"
+   },
+   "funding_total": {
+    "amount": "$3.9M",
+    "display": "$3.9M"
+   },
+   "investors": "Accelerator Centre, Longliv Ventures",
+   "founded": "2017",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AceAge",
+   "website_url": "https://www.aceage.com",
+   "business_model": "B2B 制药/生物科技",
+   "desc_cn": "智慧用药产品，管理3种以上药物",
+   "business_model_cn": "B2B 制药/生物科技",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "用药提醒",
+    "用药管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【AceAge】聚焦产业资本/保健品/行业媒体，管理3种以上药物，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+  "enterprises": [
+    {
+      "serial": "#0565",
+      "founded_verified": "2012（Mike Pykosz、Griffin Myers、Geoff Price 创立于芝加哥）",
+      "hq": "美国伊利诺伊州芝加哥（Chicago, Illinois, USA）",
+      "one_liner": "面向 Medicare 老年人群的按价值付费（value-based）初级保健诊所网络，提供预防性、全面护理与社交活动，平均患者年龄68岁。",
+      "key_products": ["初级保健诊所网络（Oak Street Health Centers，覆盖25州200+中心）", "Canopy 技术平台（患者分层与护理调度）", "RubiconMD 虚拟专科整合（2021年$130M收购）", "社区与社交活动项目（bingo、健康教育等）"],
+      "funding_latest_corrected": {"round": "被CVS Health收购（全现金，$39/股）", "amount": "$10.6B", "currency": "USD", "date": "2023-05", "investors": ["CVS Health"]},
+      "funding_total_corrected": {"amount": "约$433M（含2020年8月IPO募资$328M及早期4轮融资$105.3M）", "currency": "USD"},
+      "events": ["2020-08 纽交所IPO募资$328M（代码OSH）", "2021-10 以$130M收购RubiconMD", "2023-05 被CVS Health以$10.6B全现金收购（原库误记为Optum）", "2025-10 CVS宣布关闭16家Oak Street中心（约占7%，因医疗费用上升）"],
+      "payor_model": "混合：以 Medicare Advantage 等保险计划按人头/价值医疗支付给Oak Street（B端机构付费为主），患者个人零/低自付，叠加政府Medicare",
+      "business_tags_suggest": {"role": "服务商（初级保健/价值医疗运营商）"},
+      "latest_news": [
+        {"title": "Central Pa. CVS transforms into healthcare hub for Medicare patients", "date": "2025-06", "source": "web", "url": "https://www.pennlive.com/health/2025/06/central-pa-cvs-transforms-into-healthcare-hub-for-medicare-patients.html"},
+        {"title": "CVS携手Oak Street Health在南卡开设首家“诊药一体化”门诊", "date": "2025-05-14", "source": "web", "url": "https://www.52hrtt.com/jp/n/w/info/D1747120530003"},
+        {"title": "CVS To Close 16 Oak Street Health Centers Amid Industry Cost Issues", "date": "2025-10-24", "source": "web", "url": "https://link.workweek.com/click/42194036.29015/aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9icnVjZWphcHNlbi8yMDI1LzEwLzI0L2N2cy10by1jbG9zZS0xNi1vYWstc3RyZWV0LWhlYWx0aC1jZW50ZXJzLWFtaWQtaW5kdXN0cnktY29zdC1pc3N1ZXMvP2hhc2hlZF91c2VyPWFkYTkyMjNmMjlhZmVkNTRkMjdmNWEyZDhjOGQ5MWEy/629f651d65b0173052efaba4Ba5060716"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "业务专为 Medicare 老年人群设计，平均患者年龄68岁，是典型银发初级保健模式。",
+      "info_aid": "面向Medicare老年人的按价值付费初级保健网络，平均患者68岁，强调预防护理与社交活动，AARP唯一背书初级保健机构。",
+      "diff_aid": "被CVS以$10.6B收购后依托CVS药房+Aetna保险形成“诊—药—保”闭环，区别于普通连锁诊所。",
+      "copy_aid": "AARP唯一背书、CVS门店内嵌诊所+免费接送+社区活动，老人被倾听被看见的叙事性强，易出稿。",
+      "sources": ["https://www.oakstreethealth.com", "https://www.sec.gov/Archives/edgar/data/1564406/000119312523028544/d463586ddefa14a.htm", "https://healthexec.com/topics/healthcare-management/mergers-and-acquisitions/cvs-health-announces-106b-acquisition-oak", "https://www.chicagotribune.com/2024/07/31/cvs-primary-health-care-opening-new-clinics-chicago-algreens/"]
+    },
+    {
+      "serial": "#0855",
+      "founded_verified": "2017（2017年12月由 CenseoHealth 与 Advance Health 合并成立）",
+      "hq": "美国得克萨斯州达拉斯（Dallas, Texas, USA）",
+      "one_liner": "技术赋能的居家健康评估与价值医疗（按价值付费）平台，为 Medicare Advantage / Medicaid 等健康险计划提供上门健康风险评估、ACO 赋能与医疗网络服务。",
+      "key_products": ["上门健康风险评估（in-home health risk assessments）", "价值医疗 / ACO 赋能平台", "全国医生与临床人员网络（10,000+，覆盖50州）", "Caravan Health（ACO 业务，2022年$250M收购）"],
+      "funding_latest_corrected": {"round": "被CVS Health收购（全现金，$30.50/股）", "amount": "$8B", "currency": "USD", "date": "2023-03", "investors": ["CVS Health"]},
+      "funding_total_corrected": {"amount": "$564M（2021年2月IPO募资，NYSE:SGFY）", "currency": "USD"},
+      "events": ["2021-02 纽交所IPO募资$564M（代码SGFY）", "2022 以$250M收购 Caravan Health", "2023-03 被CVS Health以$8B收购（原库金额$7.8B偏低，应为约$8B）", "2023 Q4 完成64.9万次上门评估（同比+20%）"],
+      "payor_model": "混合：由 Medicare Advantage、Medicaid 及商业健康险计划按价值付费向Signify支付（B端机构付费为主），payer-agnostic",
+      "business_tags_suggest": {"role": "服务商（价值医疗平台/赋能商）"},
+      "latest_news": [
+        {"title": "CVS Health To Close On Its $8B Purchase Of Signify Health", "date": "2023-03", "source": "web", "url": "https://homehealthcarenews.com/2023/03/cvs-health-to-close-on-its-8b-purchase-of-signify-health-this-week/"},
+        {"title": "CVS Health Puts Signify's In-Home Capabilities On Display", "date": "2024-02", "source": "web", "url": "https://homehealthcarenews.com/2024/02/cvs-health-puts-signifys-in-home-capabilities-on-display"},
+        {"title": "Signify Health CEO says CVS deal will 'turbocharge' home health provider's road map", "date": "2022-09", "source": "web", "url": "https://fiercehealthcare.com/providers/signify-health-ceo-says-cvs-deal-will-turbocharge-home-health-providers-roadmap"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "核心业务为 Medicare 老年人群提供上门健康风险评估与价值医疗赋能，会员平均年龄71岁。",
+      "info_aid": "技术赋能的居家健康风险评估平台，覆盖全美50州、10,000+临床人员，主要服务Medicare Advantage老年群体。",
+      "diff_aid": "被CVS以$8B收购后并入“药店+保险(Aetna)+上门评估”体系，区别于线下诊所，是“把诊室搬进老人家中”。",
+      "copy_aid": "“上门评估+价值医疗”故事性强，CVS整合Aetna+药房+Signify形成到家医疗闭环，易讲规模与协同。",
+      "sources": ["https://homehealthcarenews.com/2023/03/cvs-health-to-close-on-its-8b-purchase-of-signify-health-this-week/", "https://homehealthcarenews.com/2024/02/cvs-health-puts-signifys-in-home-capabilities-on-display", "https://fiercehealthcare.com/providers/signify-health-ceo-says-cvs-deal-will-turbocharge-home-health-providers-roadmap", "https://www.bizjournals.com/dallas/news/2022/09/06/cvs-to-buy-signify-health-in-an-8b-deal.html"]
+    },
+    {
+      "serial": "#0602",
+      "founded_verified": "2013（从 Abbott Laboratories 分拆独立上市）",
+      "hq": "美国伊利诺伊州北芝加哥（North Chicago, Illinois, USA）",
+      "one_liner": "全球生物制药巨头（NYSE:ABBV），业务覆盖免疫、肿瘤、神经科学与医美，在阿尔茨海默病等领域重金布局研发与并购。",
+      "key_products": ["Humira（阿达木单抗，自免基石品种）", "Skyrizi / Rinvoq（自免新一代）", "神经科学管线（ALIA-1758 抗淀粉样蛋白抗体，治阿尔茨海默）", "医美与眼科（Allergan 产品线）"],
+      "funding_latest_corrected": {"round": "收购 Aliada Therapeutics（非融资轮，系M&A）", "amount": "$1.4B（现金）", "currency": "USD", "date": "2024-12", "investors": []},
+      "funding_total_corrected": {"amount": "不适用（NYSE:ABBV 上市公司，无外部融资轮）", "currency": "USD"},
+      "events": ["2013 从Abbott分拆于纽交所上市", "2024-06 收购 Celsius Therapeutics（炎症管线）", "2024-08 收购 Cerevel Therapeutics（神经科学）", "2024-12-11 完成收购 Aliada Therapeutics（$1.4B，获血脑屏障MODEL平台与阿尔茨海默抗体ALIA-1758）"],
+      "payor_model": "混合：药品销售给药房/医院/B端机构，最终付款方为政府医保（Medicare/Medicaid）、商业保险与个人自付",
+      "business_tags_suggest": {"role": "药企（制造商(药)）"},
+      "latest_news": [
+        {"title": "AbbVie Completes $1.4 Billion Acquisition of Aliada Therapeutics", "date": "2024-12-11", "source": "web", "url": "https://www.biopharminternational.com/view/abbvie-completes-1-4-billion-acquisition-aliada-therapeutics-boosting-neuroscience-pipeline"},
+        {"title": "AbbVie Agrees to Terms to Acquire Aliada Therapeutics", "date": "2024-10-28", "source": "web", "url": "https://www.pharmexec.com/view/abbvie-agrees-terms-acquire-aliada-therapeutics"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "全产业链综合药企，产品覆盖免疫/肿瘤/神经等全龄人群；虽有阿尔茨海默管线（主要患者为老人）但企业定位非专为银发。",
+      "info_aid": "全球TOP药企，神经科学为关键增长极，以$1.4B收购Aliada获跨血脑屏障MODEL递送平台与阿尔茨海默抗体ALIA-1758。",
+      "diff_aid": "以$1.4B收购Aliada获MODEL跨血脑屏障平台，区别于传统小分子，瞄准疾病修饰型阿尔茨海默疗法，补全老龄化神经管线。",
+      "copy_aid": "“百亿美元赌注攻克阿尔茨海默”叙事强，但需明示企业全龄定位，银发仅为其神经科学管线之一，避免夸大专属性。",
+      "sources": ["https://www.abbvie.com", "https://www.biopharminternational.com/view/abbvie-completes-1-4-billion-acquisition-aliada-therapeutics-boosting-neuroscience-pipeline", "https://www.fiercebiotech.com/biotech/abbvie-inks-14b-aliada-buyout-landing-ex-jj-alzheimers-drug-leap-blood-brain-barrier", "https://pharmaphorum.com/news/abbvie-gets-bigger-alzheimers-rd-aliada-takeover"]
+    },
+    {
+      "serial": "#0398",
+      "founded_verified": "1989（1989年于香港观塘开设首间“松龄护理安老院”）",
+      "hq": "中国香港（Hong Kong）",
+      "one_liner": "香港老牌护老院舍运营商（原港交所01989.HK，香港首家主板上市护老集团），运营12间院舍及日间中心、逾1,600个床位，提供院舍照护、认知障碍专业护理及居家/社区护理，2024年被华懋集团私有化退市。",
+      "key_products": ["护老院舍（RCHE，12间）", "认知障碍专业照护（Pine Care Point）", "居家及社区护理", "政府买位/院舍券院舍与高端“尚耆·贤居”系列"],
+      "funding_latest_corrected": {"round": "华懋集团收购控股权（后续私有化）", "amount": "约4.2亿港元（收购56.15%股权）", "currency": "HKD", "date": "2022-08", "investors": ["华懋集团（Chinachem / Diamond Ridge Holdings）"]},
+      "funding_total_corrected": {"amount": "不适用（2017年港交所IPO，2024年私有化退市）", "currency": "HKD"},
+      "events": ["2017-02 港交所主板上市（01989.HK，香港首家上市护老集团）", "2020-02 邓成波家族以7.73亿港元收购52%股权", "2022-08 华懋集团以约4.2亿港元收购56.15%股权", "2024-02-29 华懋旗下Diamond Ridge完成私有化、撤销上市地位"],
+      "payor_model": "混合：政府“改善买位计划/长者院舍照顾服务券”资助 + 个人自付（部分为政府购买宿位）",
+      "business_tags_suggest": {"role": "服务商/运营商（养老院舍运营商）"},
+      "latest_news": [
+        {"title": "華懋成功私有化松齡護老", "date": "2024-01", "source": "web", "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_54465a70d7601452&faker=1"},
+        {"title": "香港传真 | 松龄护老频繁易主到退市 香港与内地养老有什么不同?", "date": "2024-03-03", "source": "web", "url": "https://www.guandian.cn/m/show/388785"},
+        {"title": "Pine Care Group 官网", "date": "2025", "source": "web", "url": "https://www.pinecaregroup.com/en/"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "业务100%聚焦香港长者院舍照护与认知障碍专业护理，典型核心银发养老服务商。",
+      "info_aid": "香港最具声誉护老院舍之一、首家主板上市护老集团，运营12间院舍逾1,600床位，参与政府买位/院舍券计划。",
+      "diff_aid": "香港“政府买位+院舍券”资助模式叠加高端“尚耆·贤居”双线，区别于内地重资产；但频易主、退市反映持续亏损压力。",
+      "copy_aid": "“香港养老三巨头”稀缺生意叙事强，但连续亏损、私有化退市是风险点须如实呈现，建议做对比稿而非吹捧稿。",
+      "sources": ["https://www.pinecaregroup.com/en/", "https://www.guandian.cn/m/show/388785", "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0228/2024022800005.pdf", "https://so.html5.qq.com/page/real/search_news?docid=70000021_54465a70d7601452&faker=1"]
+    },
+    {
+      "serial": "#0593",
+      "founded_verified": "1981（前身 Healthways 成立；2017年更名为 Tivity Health；SilverSneakers 项目始于1992）",
+      "hq": "美国田纳西州富兰克林（Franklin, Tennessee, USA；另设 Chandler, Arizona 园区）",
+      "one_liner": "以 SilverSneakers 为核心的老年健身与健康改善方案商（原Healthways），为符合 Medicare 资格人群提供社区/线上健身、社交与身心康健项目，2022年被 Stone Point Capital 私有化。",
+      "key_products": ["SilverSneakers（老年健身会员项目，覆盖1,800万+ Medicare 人群）", "Prime Fitness", "WholeHealth Living（身心整合健康）", "Burnalong（线上健康与社交平台）"],
+      "funding_latest_corrected": {"round": "被 Stone Point Capital 私有化收购", "amount": "$2.0B（$32.50/股）", "currency": "USD", "date": "2022-04", "investors": ["Stone Point Capital"]},
+      "funding_total_corrected": {"amount": "不适用（2022年已被 Stone Point Capital 以 $2.0B 私有化）", "currency": "USD"},
+      "events": ["2006 Healthways 收购 SilverSneakers", "2017 更名为 Tivity Health", "2019 以$1.3B收购 Nutrisystem，2020年以$575M出售", "2022-04 被 Stone Point Capital 以$2.0B私有化（Q3完成）", "2025-07 Natasha Deckmann 出任CEO"],
+      "payor_model": "B端机构付费（健康险计划/雇主为 SilverSneakers 会员买单，老人零自付）",
+      "business_tags_suggest": {"role": "服务商（老年健身/健康方案商）"},
+      "latest_news": [
+        {"title": "Tivity Health Appoints Natasha Deckmann as CEO", "date": "2025-07-15", "source": "web", "url": "https://latinamericahealthtimes.com/article/830776667-tivity-health-appoints-natasha-deckmann-as-ceo"},
+        {"title": "Seniors express frustration at Blue Cross Blue Shield decision to cut SilverSneakers program", "date": "2025-11", "source": "web", "url": "https://www.cbsnews.com/amp/minnesota/news/seniors-express-frustration-blue-cross-blue-shield-decision-to-cut-health-program"},
+        {"title": "SilverSneakers Celebrates 2025 Members of the Year", "date": "2025-09-30", "source": "web", "url": "https://syriaculturetoday.com/article/853979413-silversneakers-celebrates-members-anne-h-thibodeaux-and-cecilia-gomez-as-2025-members-of-the-year"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "旗舰产品 SilverSneakers 专为中老年（Medicare 资格，多为65+）提供健身/社交，核心客群即银发。",
+      "info_aid": "旗下 SilverSneakers 是全美领先老年健身项目，覆盖超1,800万符合 Medicare 人群，由保险/雇主付费、老人免费使用。",
+      "diff_aid": "“保险/雇主买单、老人免费健身”的B2B2C连接器模式，靠降低赔付与提升黏性盈利，区别于普通健身房。",
+      "copy_aid": "“1900万老人免费健身、撬动百亿”的银发连接器故事极具传播力，但近期面临保险方砍预算（如BCBS明州取消部分场馆）的波动风险须提示。",
+      "sources": ["https://www.stonepoint.com/news/tivity-health-announces-definitive-agreement-to-be-acquired-by-stone-point-capital-for-32-50-per-share-in-cash/", "https://www.bizjournals.com/nashville/news/2022/04/05/franklin-based-tivity-health-sold-for-2-billion.html", "https://www.cbsnews.com/amp/minnesota/news/seniors-express-frustration-blue-cross-blue-shield-decision-to-cut-health-program", "https://tivityhealth.mediaroom.com/2023-05-15-SilverSneakers-Opens-Nominations-for-2023-Member-of-the-Year"]
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+ "batch": 27,
+ "enterprises": [
+  {
+   "serial": "#0056",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 4,
+   "copy_score": 7,
+   "research_value": 35.7,
+   "recommend": {
+    "rec_v1": "信号弱但居家护理是刚需；资料中等，模式即派单上门，差异化不突出，国内创业者可直接复制其社区获客打法。",
+    "rec_v2": "冷门赛道信息量一般；亮点在把护工标准化调度，没太多壁垒，中小团队可照搬'培训+就近派单'轻模式。",
+    "rec_v3": "低关注不等于没价值：其B2B+B2C护理撮合差异有限，但验证了居家照护需求，国内创业者可学其服务分级体系。",
+    "info_score": 4,
+    "diff_score": 4,
+    "copy_score": 7,
+    "signal_strength": 0.55,
+    "research_value": 35.7
+   },
+   "payor_model": "个人自费+B端机构采购",
+   "business_tags_role": "平台",
+   "desc_cn": "居家养老护理上门服务平台",
+   "founded": 2015,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "居家养老护理上门服务平台",
+    "提供生活照料/医疗护理/康复训练",
+    "B2B+B2C覆盖机构与家庭"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "提供居家养老护理上门服务，直接服务老年人照护刚需。"
+  },
+  {
+   "serial": "#0057",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 5,
+   "copy_score": 6,
+   "research_value": 35.7,
+   "recommend": {
+    "rec_v1": "信号弱、资料偏少；中医康养定位有辨识度，但模式常见，国内创业者可借'药食同源'做轻量化老年养生品牌。",
+    "rec_v2": "冷门企业信息稀薄；差异化在融合中医药与健康管理，壁垒低，可抄其'调理+保健'产品组合切入银发保健。",
+    "rec_v3": "低关注却有样本意义：其TCM+养老组合差异中等，国内空白明显，创业者能学它用传统医学包装适老消费。",
+    "info_score": 4,
+    "diff_score": 5,
+    "copy_score": 6,
+    "signal_strength": 0.55,
+    "research_value": 35.7
+   },
+   "payor_model": "个人自费",
+   "business_tags_role": "产品商",
+   "desc_cn": "中医康养老年健康管理品牌",
+   "founded": 2016,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "中医康养品牌",
+    "融合中医药与老年健康管理",
+    "主打养生保健调理服务"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "中医康养品牌服务老年人群健康管理。"
+  },
+  {
+   "serial": "#0058",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 4,
+   "copy_score": 7,
+   "research_value": 35.7,
+   "recommend": {
+    "rec_v1": "信号弱但社区养老是痛点；信息量中等，日间照料+餐桌模式常规，国内可复制其'深耕街道'的在地化运营。",
+    "rec_v2": "冷门赛道资料一般；差异在绑定社区场景而非机构，壁垒低，创业者可抄其老年餐桌撬动居家服务的方法。",
+    "rec_v3": "低关注价值在落地：其社区驿站模式差异不大，但验证了'餐桌+护理'入口，国内小团队可学其轻资产打法。",
+    "info_score": 4,
+    "diff_score": 4,
+    "copy_score": 7,
+    "signal_strength": 0.55,
+    "research_value": 35.7
+   },
+   "payor_model": "个人自费+政府/机构采购",
+   "business_tags_role": "平台",
+   "desc_cn": "社区居家养老服务运营商",
+   "founded": 2014,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "社区居家养老服务运营商",
+    "日间照料+上门护理+老年餐桌",
+    "深耕社区场景"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "社区居家养老服务平台，覆盖日间照料与上门护理。"
+  },
+  {
+   "serial": "#0059",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 5,
+   "copy_score": 6,
+   "research_value": 35.7,
+   "recommend": {
+    "rec_v1": "信号弱、资料中等；智能康复设备定位清晰，差异化靠硬件研发，国内创业者可学其面向机构与社区的双线铺货。",
+    "rec_v2": "冷门企业信息一般；亮点是把康复训练做成设备化产品，壁垒中等，可抄其'设备+机构'的B2B切入路径。",
+    "rec_v3": "低关注但有借鉴：其康复器械差异在智能化，国内制造基础好，创业者能学它用性价比切入康养设备空白。",
+    "info_score": 4,
+    "diff_score": 5,
+    "copy_score": 6,
+    "signal_strength": 0.55,
+    "research_value": 35.7
+   },
+   "payor_model": "B端机构采购+个人自费",
+   "business_tags_role": "产品商",
+   "desc_cn": "智能康复训练设备制造商",
+   "founded": 2013,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "智能康复训练设备品牌",
+    "服务养老机构与社区康复中心",
+    "聚焦运动康复智能化"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "智能康复设备服务养老机构与老年康复。"
+  },
+  {
+   "serial": "#0060",
+   "signal_strength": 0.55,
+   "info_score": 5,
+   "diff_score": 6,
+   "copy_score": 4,
+   "research_value": 36.6,
+   "recommend": {
+    "rec_v1": "信号弱但业务庞杂；资料较详，生命养护+医疗旅游组合独特，重资产受牌照约束，国内难整盘复制只能学其业态拼法。",
+    "rec_v2": "冷门集团信息量中上；差异化在'养护+旅游'闭环，受医疗资质强约束，创业者可拆学其高端健康管理服务设计。",
+    "rec_v3": "低关注却体系完整：其大健康拼图差异明显，但牌照与资金门槛高，国内宜借鉴其'医养游'客群经营思路而非照搬。",
+    "info_score": 5,
+    "diff_score": 6,
+    "copy_score": 4,
+    "signal_strength": 0.55,
+    "research_value": 36.6
+   },
+   "payor_model": "个人自费",
+   "business_tags_role": "服务商",
+   "desc_cn": "生命养护与医疗旅游大健康集团",
+   "founded": 2005,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "大健康产业集团",
+    "布局生命养护+健康管理+医疗旅游",
+    "深耕银发健康管理"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "大健康集团布局生命养护与银发健康管理。"
+  },
+  {
+   "serial": "#0061",
+   "signal_strength": 0.55,
+   "info_score": 6,
+   "diff_score": 7,
+   "copy_score": 8,
+   "research_value": 49.6,
+   "recommend": {
+    "rec_v1": "信号弱但资料扎实；'生鲜+智能烹饪+政府管理'助餐模式差异强，已落地120+食堂，国内创业者可抄其政企合作打法。",
+    "rec_v2": "冷门企业信息丰；亮点是用AI烹饪机降人力成本，模式独到且政策友好，中小团队可学其'爱心食堂'轻运营。",
+    "rec_v3": "低关注价值高：其数智助餐差异化明显、可复制性强，创业者能学它把厨房改造与社区养老补贴绑定的路径。",
+    "info_score": 6,
+    "diff_score": 7,
+    "copy_score": 8,
+    "signal_strength": 0.55,
+    "research_value": 49.6
+   },
+   "payor_model": "政府补贴+个人自费",
+   "business_tags_role": "制造商(硬件/设备)",
+   "desc_cn": "老年助餐AIoT烹饪方案商",
+   "founded": 2017,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "AIoT烹饪科技+无人厨房",
+    "运营万德厨爱心食堂数智助餐",
+    "已落地120+食堂服务2万+老人",
+    "生鲜+智能烹饪+政府在线化管理模式"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "数智化老年助餐服务，落地爱心食堂服务2万+老人。"
+  },
+  {
+   "serial": "#0062",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 4,
+   "copy_score": 7,
+   "research_value": 35.7,
+   "recommend": {
+    "rec_v1": "信号弱、资料中等；浙江居家护理品牌，模式即护工上门，差异化有限，国内可复制其区域深耕与医院陪护协同。",
+    "rec_v2": "冷门赛道信息一般；差异在本地化护理网络，壁垒低，创业者可抄其'医院陪护+居家'接续服务的获客逻辑。",
+    "rec_v3": "低关注但有样本：其护理撮合差异不大，但验证了区域龙头打法，国内小团队可学其培训+就近派单体系。",
+    "info_score": 4,
+    "diff_score": 4,
+    "copy_score": 7,
+    "signal_strength": 0.55,
+    "research_value": 35.7
+   },
+   "payor_model": "个人自费+B端机构采购",
+   "business_tags_role": "服务商",
+   "desc_cn": "浙江居家护理上门服务商",
+   "founded": 2003,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "浙江居家护理服务品牌",
+    "护工上门+医院陪护+居家照料",
+    "区域深耕"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "浙江居家护理品牌，服务失能半失能老人。"
+  },
+  {
+   "serial": "#0063",
+   "signal_strength": 0.55,
+   "info_score": 5,
+   "diff_score": 2,
+   "copy_score": 3,
+   "research_value": 26.6,
+   "recommend": {
+    "rec_v1": "信号弱、资料中等；综合折扣零售客群泛化，仅涉足银发消费非专做老年，差异化低，对银发创业者借鉴有限。",
+    "rec_v2": "冷门企业信息量一般；本质是性价比百货，无老年业务主线，复制容易但非银发范式，不宜当作养老样本研究。",
+    "rec_v3": "低关注且实质非银发：其折扣模式可抄但与养老无关，仅中老年顺带客群，创业者应避开、不当作银发案例。",
+    "info_score": 5,
+    "diff_score": 2,
+    "copy_score": 3,
+    "signal_strength": 0.55,
+    "research_value": 26.6
+   },
+   "payor_model": "个人自费",
+   "business_tags_role": "服务商",
+   "desc_cn": "北京名牌折扣连锁零售商",
+   "founded": 2000,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "北京名牌折扣连锁零售商",
+    "8家实体店+上品折扣网",
+    "2-5折销售知名百货品牌"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "非银发",
+   "silver_reason": "综合折扣连锁零售，客群为广泛性价比消费者，仅涉足银发消费、非专做老年业务，实质非银发。"
+  },
+  {
+   "serial": "#0064",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 6,
+   "copy_score": 7,
+   "research_value": 39.7,
+   "recommend": {
+    "rec_v1": "信号弱但痛点真实；资料中等，专做行动不便老人上门理发，差异化清晰，国内创业者可抄其极轻量上门服务模型。",
+    "rec_v2": "冷门企业信息一般；亮点是把理发做成适老刚需小切口，壁垒低，可学其'低客单+高频'切入银发生活服务。",
+    "rec_v3": "低关注却有启发：其上门理发差异在场景聚焦，模式极轻可复制，创业者能学它用微服务建立老年信任入口。",
+    "info_score": 4,
+    "diff_score": 6,
+    "copy_score": 7,
+    "signal_strength": 0.55,
+    "research_value": 39.7
+   },
+   "payor_model": "个人自费",
+   "business_tags_role": "服务商",
+   "desc_cn": "老年人上门理发服务品牌",
+   "founded": 2016,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "老年人上门理发服务品牌",
+    "专注行动不便老人",
+    "解决老年生活服务痛点"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专注行动不便老人上门理发的生活服务。"
+  },
+  {
+   "serial": "#0065",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 5,
+   "copy_score": 6,
+   "research_value": 35.7,
+   "recommend": {
+    "rec_v1": "信号弱、资料中等；多功能电动护理床定位清楚，差异化靠产品力，国内制造可复制其机构+居家双场景铺货。",
+    "rec_v2": "冷门企业信息一般；亮点是把护理床智能化，壁垒中等，创业者可抄其'硬件+养老机构'的B2B切入方式。",
+    "rec_v3": "低关注但有价值：其护理床差异在电动多功能，国内供应链成熟，创业者能学它用性价比打适老家具空白。",
+    "info_score": 4,
+    "diff_score": 5,
+    "copy_score": 6,
+    "signal_strength": 0.55,
+    "research_value": 35.7
+   },
+   "payor_model": "B端机构采购+个人自费",
+   "business_tags_role": "产品商",
+   "desc_cn": "智能电动护理床制造商",
+   "founded": 2008,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "智能电动护理床品牌",
+    "多功能电动护理床研发制造",
+    "覆盖机构与居家场景"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "智能电动护理床服务老年与失能人群。"
+  },
+  {
+   "serial": "#0066",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 5,
+   "copy_score": 4,
+   "research_value": 31.6,
+   "recommend": {
+    "rec_v1": "信号弱但业务完整；资料中等，康复医院+护理院组合差异中，重资产受医疗牌照约束，国内宜学其'医养康'联动设计。",
+    "rec_v2": "冷门集团信息量一般；差异化在术后康复+慢病+失能照护闭环，门槛高，创业者可拆学其科室协同而非整盘复制。",
+    "rec_v3": "低关注却体系稳：其康复医疗差异明显但难复制，国内可借鉴其把慢病管理嵌进护理院的运营思路。",
+    "info_score": 4,
+    "diff_score": 5,
+    "copy_score": 4,
+    "signal_strength": 0.55,
+    "research_value": 31.6
+   },
+   "payor_model": "医保+个人自费",
+   "business_tags_role": "服务商",
+   "desc_cn": "康复医疗与护理院运营集团",
+   "founded": 2015,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "康复医疗集团",
+    "运营康复医院与护理院",
+    "术后康复+慢病管理+失能照护"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "康复医疗集团提供老年慢病与失能照护。"
+  },
+  {
+   "serial": "#0067",
+   "signal_strength": 0.55,
+   "info_score": 4,
+   "diff_score": 5,
+   "copy_score": 5,
+   "research_value": 33.7,
+   "recommend": {
+    "rec_v1": "信号弱但渠道特殊；资料中等，电视购物主攻中老年，差异在'媒体+银发'触达，国内可学其适老选品与话术设计。",
+    "rec_v2": "冷门平台信息一般；亮点是占住银发电视购物主渠道，壁垒在中老年信任，创业者可抄其大件商品分期打法。",
+    "rec_v3": "低关注价值在渠道：其银发电视购差异在场景独占，复制需媒体牌照，国内宜借鉴其'节目即卖场'的转化逻辑。",
+    "info_score": 4,
+    "diff_score": 5,
+    "copy_score": 5,
+    "signal_strength": 0.55,
+    "research_value": 33.7
+   },
+   "payor_model": "个人自费",
+   "business_tags_role": "服务商",
+   "desc_cn": "银发电视购物渠道平台",
+   "founded": null,
+   "stage": "未披露",
+   "events": [],
+   "highlights": [
+    "上海文广旗下电视购物平台",
+    "银发电视购物主要渠道之一",
+    "中老年消费占重要地位"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "银发电视购物主要渠道，主营中老年消费。"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#0056",
+   "name": "一号护工",
+   "intro": "居家养老护理上门服务平台，提供生活照料、医疗护理与康复训练。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "居家康复",
+     "护士上门"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0057",
+   "name": "一味盛长",
+   "intro": "中医康养品牌，融合传统中医药与健康管理服务老年人群。",
+   "old_tags": {
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "药品"
+    ],
+    "business_tags": {
+     "customer": "未标注",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "del",
+     "tag": "药品",
+     "reason": "实为中医康养养生品牌，非药品"
+    },
+    {
+     "action": "add",
+     "tag": "中医养生",
+     "reason": "主营中医调理与养生保健服务"
+    }
+   ]
+  },
+  {
+   "serial": "#0058",
+   "name": "一家依",
+   "intro": "社区居家养老服务运营商，提供日间照料、上门护理与老年餐桌。",
+   "old_tags": {
+    "tag_l1": [
+     "食品营养",
+     "养老服务"
+    ],
+    "tag_l2": [
+     "养老膳食",
+     "居家护理"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0059",
+   "name": "一康",
+   "intro": "智能康复训练设备品牌，服务养老机构与社区康复中心。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "康复器械"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0060",
+   "name": "一龄集团",
+   "intro": "大健康产业集团，布局生命养护、健康管理、医疗旅游等银发业务。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务",
+     "文娱社交"
+    ],
+    "tag_l2": [
+     "CCRC",
+     "旅游"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0061",
+   "name": "万德厨",
+   "intro": "AIoT烹饪科技公司，以智能烹饪机与爱心食堂做数智化老年助餐。",
+   "old_tags": {
+    "tag_l1": [
+     "消费品",
+     "食品营养"
+    ],
+    "tag_l2": [
+     "智能硬件",
+     "养老膳食"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "制造商(硬件/设备)",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0062",
+   "name": "三替护理",
+   "intro": "浙江居家护理服务品牌，提供护工上门、医院陪护与居家照料。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "居家护理"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0063",
+   "name": "上品折扣",
+   "intro": "北京名牌折扣连锁零售商，以2-5折销售知名品牌商品，客群泛化。",
+   "old_tags": {
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "零售"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0064",
+   "name": "上海剪爱",
+   "intro": "专注为行动不便老人提供上门理发的生活服务品牌。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "居家护理"
+    ],
+    "business_tags": {
+     "customer": "未标注",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "del",
+     "tag": "居家护理",
+     "reason": "实为老年人上门理发，非护理服务"
+    },
+    {
+     "action": "add",
+     "tag": "适老生活服务",
+     "reason": "主营行动不便老人上门理发"
+    }
+   ]
+  },
+  {
+   "serial": "#0065",
+   "name": "世道",
+   "intro": "智能电动护理床品牌，研发制造多功能护理床覆盖机构与居家。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "护理床"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0066",
+   "name": "东方华康",
+   "intro": "康复医疗集团，运营康复医院与护理院，提供老年康复与失能照护。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "康复医疗"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0067",
+   "name": "东方购物",
+   "intro": "上海文广旗下电视购物平台，是银发电视购物的主要渠道之一。",
+   "old_tags": {
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "电商",
+     "零售"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": []
+  }
+ ],
+ "nonsilver": [
+  {
+   "serial": "#0063",
+   "name": "上品折扣",
+   "verdict": "非银发",
+   "reason": "综合折扣连锁零售，客群为广泛性价比消费者，仅涉足银发消费、非专做老年业务，实质非银发。"
+  }
+ ]
+}

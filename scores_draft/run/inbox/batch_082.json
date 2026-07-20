@@ -1,0 +1,497 @@
+{
+ "batch": 82,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0920",
+   "name": "Yurtle",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "长护险"
+   ],
+   "description": "Yurtle is a UK employee-benefit that blends caregiver insurance cash payouts, a vetted care-provider marketplace and an AI care-ally app to reduce workplace absence, sold to employers as a per-employee subscription.",
+   "highlights": "护理管理和护理保险",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "137万英镑",
+    "display": "137万英镑 (2024年3月)"
+   },
+   "funding_total": "£1.37M",
+   "investors": [
+    "Insurtech Gateway"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Yurtle",
+   "website_url": "https://www.yurtle.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Yurtle 是英国雇主员工福利，结合照护者保险现金给付、经筛选的照护机构名单与 AI 助手应用以减少误工，按每位员工订阅向雇主收费。",
+   "business_model_cn": "B2B按人订阅",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "长护险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Yurtle】聚焦产业资本/保险/居家护理，护理管理和护理保险，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0921",
+   "name": "Zen Sleep",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "睡眠监测",
+   "tags": [
+    "心理健康",
+    "睡眠监测"
+   ],
+   "description": "失眠认知行为疗法(CBT-I)应用程序",
+   "highlights": "失眠认知行为疗法(CBT-I)应用程序",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Zen%20Sleep",
+   "website_url": "https://www.zensleep.ai",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "失眠认知行为疗法(CBT-I)应用程序",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "养老服务",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "心理健康",
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Zen Sleep】聚焦健康监测/认知症，失眠认知行为疗法(CBT-I)应用程序，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0922",
+   "name": "Zing Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "解决健康社会决定因素，减少服务不足人群医疗差距",
+   "highlights": "减少服务不足人群医疗差距",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "1.4亿美元",
+    "display": "1.4亿美元 (2024年9月)"
+   },
+   "funding_total": "$140M",
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Zing%20Health",
+   "website_url": "https://www.zinghealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "解决健康社会决定因素，减少服务不足人群医疗差距",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Zing Health】聚焦产业资本/保险/健康管理，减少服务不足人群医疗差距，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0923",
+   "name": "Zinnia",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "文娱"
+   ],
+   "description": "Zinnia TV streams research-backed, ad-free videos designed for people with dementia and cognitive loss, calming agitation and sparking conversation; sold as a subscription to families and long-term-care facilities.",
+   "highlights": "为痴呆症患者提供支持",
+   "funding_latest": {
+    "amount": "12万美元",
+    "display": "12万美元"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Zinnia",
+   "website_url": "https://www.zinnia.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Zinnia TV 为认知障碍与痴呆老人推送无广告、节奏舒缓的定制视频，缓解焦躁并引发交流，向家庭与长期照护机构收取订阅费。",
+   "business_model_cn": "订阅费",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Zinnia】聚焦产业资本/行业媒体/认知症，为痴呆症患者提供支持，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0924",
+   "name": "Ōmcare",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "Ōmcare makes a home health hub that locks and dispenses medications on schedule, runs two-way video visits with clinicians and confirms adherence, sold to health plans, home-health agencies and family caregivers.",
+   "highlights": "正确时间正确药物",
+   "funding_latest": {
+    "date": "2022年4月",
+    "amount": "约2000万美元",
+    "display": "约2000万美元 (2022年4月)"
+   },
+   "funding_total": "$20M",
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%C5%8Cmcare",
+   "website_url": "https://www.omcare.com",
+   "business_model": "B2B 制药/生物科技",
+   "desc_cn": "Ōmcare 生产居家健康终端，按时锁定并发放药物、支持与医护双向视频并确认服药依从性，销往健康险公司、居家护理机构与家属。",
+   "business_model_cn": "硬件+服务销售",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ōmcare】聚焦产业资本/保健品/健康管理，正确时间正确药物，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0926",
+   "name": "大和房屋工业 (Daiwa House)",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "住宅改造相关",
+   "highlights": "住宅改造相关",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1955",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A7%E5%92%8C%E6%88%BF%E5%B1%8B%E5%B7%A5%E4%B8%9A%20%28Daiwa%20House%29",
+   "website_url": "https://www.daiwahouse.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "大和房屋工业 (Daiwa House)",
+   "desc_cn": "住宅改造相关",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【大和房屋工业 (Daiwa House)】聚焦行业媒体/适老化改造，住宅改造相关，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0927",
+   "name": "积水房屋 (Sekisui House)",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "住宅改造相关，适老化改造似乎只占一小部分",
+   "highlights": "适老化改造似乎只占一小部分",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1960",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%A7%AF%E6%B0%B4%E6%88%BF%E5%B1%8B%20%28Sekisui%20House%29",
+   "website_url": "https://www.sekisuihouse.co.jp",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "积水房屋 (Sekisui House)",
+   "desc_cn": "住宅改造相关，适老化改造似乎只占一小部分",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【积水房屋 (Sekisui House)】聚焦行业媒体/适老化改造，适老化改造似乎只占一小部分，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0928",
+   "name": "茑屋书店",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "文娱"
+   ],
+   "description": "日本知名连锁书店品牌（隶属 Culture Convenience Club），以「书店+咖啡+生活方式」复合空间著称。代官山茑屋书店主打面向中老年客群的高品质文化生活场景，是银发文娱消费的标杆业态。",
+   "highlights": "资料不是很多",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1983",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%8C%91%E5%B1%8B%E4%B9%A6%E5%BA%97",
+   "website_url": "https://www.tsutaya.co.jp",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "茑屋书店",
+   "desc_cn": "日本知名连锁书店品牌（隶属 Culture Convenience Club），以「书店+咖啡+生活方式」复合空间著称。代官山茑屋书店主打面向中老年客群的高品质文化生活场景，是银发文娱消费的标杆业态。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【茑屋书店】聚焦养老社区/行业媒体，资料不是很多，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0929",
+   "name": "茜会",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "相亲"
+   ],
+   "description": "每年500多场线下活动，无需结婚",
+   "highlights": "无需结婚",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1988",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%8C%9C%E4%BC%9A",
+   "website_url": "https://www.akanekai.co.jp",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "茜会",
+   "desc_cn": "每年500多场线下活动，无需结婚",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "相亲"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【茜会】聚焦文娱社交/渠道/行业媒体，无需结婚，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0930",
+   "name": "Ashiana Housing",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "康养地产"
+   ],
+   "description": "印度排名第一的老年公寓，2025财年预售额目标200亿卢比",
+   "highlights": "2025财年预售额目标200亿卢比",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1979",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ashiana%20Housing",
+   "website_url": "https://www.ashianahousing.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "印度排名第一的老年公寓，2025财年预售额目标200亿卢比",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康养地产"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ashiana Housing】聚焦产业资本/养老社区/行业媒体，2025财年预售额目标200亿卢比，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0931",
+   "name": "Club Tourism",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "日本老年旅游",
+   "highlights": "日本老年旅游",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1980",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Club%20Tourism",
+   "website_url": "https://www.club-t.com",
+   "business_model": "B2C 老年出行服务",
+   "desc_cn": "日本老年旅游",
+   "business_model_cn": "B2C 老年出行服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Club Tourism】聚焦旅游/行业媒体，日本老年旅游，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0932",
+   "name": "HealthKart",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "电商"
+   ],
+   "description": "HealthKart 成立于2011年，总部位于印度古尔冈，是印度领先的全渠道消费者营养平台，自营MuscleBlaze、HK Vitals等数字品牌并聚合200余个授权品牌，销售蛋白粉、维生素与保健补充剂等，线上商城叠加逾百家线下零售门店，服务运动营养与中老年日常健康需求",
+   "highlights": "蛋白质补充剂",
+   "funding_latest": {
+    "date": "2024年11月",
+    "amount": "1.53亿美元",
+    "display": "1.53亿美元 (2024年11月)"
+   },
+   "funding_total": "$153M",
+   "investors": [
+    "ChrysCapital",
+    "Motilal Oswal Alternates",
+    "Neo Group",
+    "A91 Partners"
+   ],
+   "founded": "2011",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=HealthKart",
+   "website_url": "https://www.healthkart.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "HealthKart 成立于2011年，总部位于印度古尔冈，是印度领先的全渠道消费者营养平台，自营MuscleBlaze、HK Vitals等数字品牌并聚合200余个授权品牌，销售蛋白粉、维生素与保健补充剂等，线上商城叠加逾百家线下零售门店，服务运动营养与中老年日常健康需求",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【HealthKart】聚焦产业资本/保健品/营养食品，蛋白质补充剂，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

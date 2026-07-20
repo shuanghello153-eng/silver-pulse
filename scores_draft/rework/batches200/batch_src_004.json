@@ -1,0 +1,2416 @@
+[
+ {
+  "serial": "#0401",
+  "name": "百合佳缘",
+  "region": "国内",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "相亲"
+  ],
+  "description": "百合佳缘网络集团股份有限公司由百合网与世纪佳缘于2017年合并而成（2018年复星国际控股），是中国领先的互联网婚恋交友与婚嫁服务平台，累计注册用户超4亿、线下服务门店超150家，旗下含百合婚恋、恋爱记及情感咨询业务，并面向中老年群体提供相亲交友服务。",
+  "highlights": [
+   "累计注册用户超4亿、线下门店超150家",
+   "复星集团战略投资，布局中老年相亲",
+   "旗下含百合婚恋、恋爱记及情感咨询",
+   "中老年相亲为银发社交垂直场景"
+  ],
+  "funding_latest": {
+   "date": "2015-12",
+   "amount": "已上市",
+   "round": "新三板挂牌",
+   "display": "新三板挂牌 已上市 (2015-12)"
+  },
+  "funding_total": {
+   "amount": "多轮融资",
+   "display": "累计多轮融资"
+  },
+  "investors": "复星集团 (战略投资), 东方富海, 深创投",
+  "founded": 2005,
+  "value_score": 30,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%99%BE%E5%90%88%E4%BD%B3%E7%BC%98",
+  "website_url": "https://www.baihe.com/",
+  "business_model": "B2B 行业媒体/数据服务",
+  "name_cn": "百合佳缘",
+  "desc_cn": "运营百合婚恋、世纪佳缘等平台，近年开辟中老年相亲与银发社交垂直场景，含线上匹配、情感咨询与线下红娘门店。收入来自会员订阅、红娘服务与增值权益；复星战略入主后强化中老年布局。银发切点是以'重交友轻相亲'高频社交引流、低频红娘服务变现。",
+  "business_model_cn": "B2B 行业媒体/数据服务",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "相亲"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "平台",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "信号靠复星控股与4亿用户底座，信息透明；差异化弱（仍是婚恋平台逻辑），但'中老年相亲'是少有人认真做的银发社交垂直场景，国内可抄其线下门店+红娘重度服务模式。",
+   "rec_v2": "公开资料丰富（合并/挂牌/复星入主脉络清晰）；模式常规但提示一个空白：年轻人婚恋已红海，银发相亲却供给稀缺，创业者可借鉴其信任机制做纯老年交友。",
+   "rec_v3": "信号中等、信息量足；价值不在平台本身而在它验证的'银发群体也有强社交付费意愿'——这反向说明老年文娱社交赛道被低估，可复制其会员+线下活动变现。"
+  },
+  "payor_model": "个人自费",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 4.0,
+  "copy_score": 6.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2015-12",
+    "text": "百合网新三板挂牌"
+   },
+   {
+    "date": "2017",
+    "text": "百合网与世纪佳缘合并为百合佳缘"
+   },
+   {
+    "date": "2018",
+    "text": "复星国际控股，战略投资入主"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "百合佳缘依托4亿用户与150余家线下门店开辟中老年相亲与银发社交垂直场景，属核心银发社交文娱服务。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0039",
+    "name": "闲趣岛",
+    "overlap_l2": [
+     "相亲"
+    ]
+   },
+   {
+    "serial": "#0075",
+    "name": "乐龄圈",
+    "overlap_l2": [
+     "相亲"
+    ]
+   },
+   {
+    "serial": "#0088",
+    "name": "伊对",
+    "overlap_l2": [
+     "相亲"
+    ]
+   },
+   {
+    "serial": "#0093",
+    "name": "余生幸福",
+    "overlap_l2": [
+     "相亲"
+    ]
+   },
+   {
+    "serial": "#0165",
+    "name": "完美亲家",
+    "overlap_l2": [
+     "相亲"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0467",
+  "name": "Empathy",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "临终关怀",
+  "tags": [
+   "遗产规划"
+  ],
+  "description": "Empathy 是一款美国的丧亲与遗产事务管理应用，帮助用户处理逝者身后的遗产清算、账单、保险理赔等事务，提供分步指导与专家支持。",
+  "highlights": [
+   "B2B2C模式，99%收入来自寿险公司与雇主福利嵌入",
+   "合作7家美国前十寿险公司与超千家雇主，覆盖超4500万人",
+   "2024年推LifeVault遗产规划，2025年5月完成7200万美元C轮"
+  ],
+  "funding_latest": {
+   "date": "2025-05",
+   "amount": "72000000",
+   "round": "Series C",
+   "display": "Series C $7200万 (2025-05)"
+  },
+  "funding_total": {
+   "amount": "162000000",
+   "display": "累计$1.6亿"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 2020,
+  "value_score": 43,
+  "source": "选题库",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Empathy",
+  "website_url": "https://www.helloempathy.com",
+  "business_model": "B2C/B2B 临终关怀服务",
+  "desc_cn": "面向逝者家属提供丧亲后的遗产清算、保险理赔、账单管理与情绪支持的一站式事务代办，以B2B2C嵌入寿险保单与雇主员工福利，家庭端免费、由险企与雇主买单。收入来自寿险公司与雇主的福利采购分成。其银发价值在承接生命末端的'身后事'刚需，对应国内寿险理赔协助与安宁疗护后事务服务的空白。",
+  "business_model_cn": "B2C/B2B 临终关怀与安宁疗护",
+  "news_coverage": {
+   "news_count": 4,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "Bereavement Care Company Empathy Raises $72M in Series C",
+     "date": "2025-05-30",
+     "source": "Hospice News",
+     "url": "https://hospicenews.com/2025/05/30/bereavement-care-company-empathy-raises-72m-in-series-c-round/"
+    },
+    {
+     "title": "Empathy Lands $72M to Enhance Grief and Legacy Solutions",
+     "date": "2025-05-29",
+     "source": "Empathy Blog",
+     "url": "https://www.empathy.com/blog/empathy-series-c-announcement"
+    }
+   ],
+   "snippets": [
+    "Empathy为 grieving/bereavement（丧亲与身后事）支持平台，2025年5月完成7200万美元C轮，累计融资1.62亿美元。",
+    "与寿险公司合作，定位“生命遗产规划”，属养老/临终关怀相邻赛道。"
+   ]
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "遗产规划"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "C轮",
+  "recommend": {
+   "rec_v1": "信号稳健且C轮后增长可信；媒体报道与融资记录齐备；把丧亲事务做成标准化SaaS流程属稀缺品类；国内遗产与临终事务需求上升但文化路径不同。",
+   "rec_v2": "虽跨年龄但银发家庭是高发用户；信息透明度高、合作方清晰；将悲伤辅导与保险理赔打包的体验设计独到；可借鉴其B端险企合作而非直接照搬产品。",
+   "rec_v3": "信号中等偏上、商业模式已验证；公开资料足以支撑研究；用分步引导降低身后事处理门槛的思路新颖；国内可参考其服务设计，落地需适配本土信任链。",
+   "info_score": 7.0,
+   "diff_score": 8.0,
+   "copy_score": 5.0,
+   "signal_strength": 4.55,
+   "research_value": 60.7
+  },
+  "payor_model": "商业保险支付(寿险/雇员福利)+B端机构采购",
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 8.0,
+  "copy_score": 5.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2025-05",
+    "text": "完成7200万美元C轮，累计1.62亿美元"
+   },
+   {
+    "date": "2024-03",
+    "text": "完成4700万美元B轮，Index Ventures领投、多家寿险战投"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "丧亲与遗产事务管理高度关联老龄化照护链条，随死亡增长需求刚性",
+  "name_cn": "Empathy",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1394",
+    "name": "弘康人寿",
+    "overlap_l2": [
+     "遗产规划"
+    ]
+   },
+   {
+    "serial": "#0002",
+    "name": "SageWell",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0029",
+    "name": "福寿康",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0042",
+    "name": "颐家",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0140",
+    "name": "复星保德信",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0595",
+  "name": "IAC",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "养老信息平台"
+  ],
+  "description": "互联网集团，2019年以5亿美元收购Care.com",
+  "highlights": [
+   "互联网与媒体控股集团（NASDAQ:IAC），2019年以5亿美元收购Care.com",
+   "Care.com为全球最大家庭照护线上撮合平台，老年照护为增长最快板块",
+   "模式为B端平台抽佣+个人订阅，并设雇主Care@Work福利",
+   "2026年Care.com被以3.2亿美元转售给买方财团"
+  ],
+  "funding_latest": {
+   "date": "2019",
+   "amount": "5亿美元",
+   "round": "收购",
+   "display": "收购 5亿美元 (2019)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1995,
+  "value_score": 26,
+  "source": "Stage(not Age)书籍",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=IAC",
+  "website_url": "https://www.iac.com",
+  "business_model": "B2C/B2B 养老护理服务",
+  "desc_cn": "运营全球最大家庭照护线上撮合平台，连接家庭与育儿、养老及家政照护人员，老年居家照护是增长最快板块。面向个人收会员订阅费，面向企业推雇员照护福利并按量抽佣，平台对撮合交易收服务费。核心银发价值是把分散的家政护工供给标准化、可信化，对应国内'互联网+居家养老'的护工匹配与信任体系建设。",
+  "business_model_cn": "B2C/B2B 养老护理服务",
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老信息平台"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": [
+    "线上"
+   ]
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "信号中上、信息量高（上市传媒集团），但仅借收购Care.com擦边养老，差异化弱、几乎不可复制——对银发创业者参考价值有限。",
+   "rec_v2": "互联网控股集团的银发触点：IAC 公开资料厚、信号稳，靠并购Care.com涉足照护匹配，业务横跨育儿与养老，定位模糊、难抄。",
+   "rec_v3": "高信息量的上市巨头案例，银发相关度仅靠Care.com一笔并购撑起，差异化与可复制性都弱；创业者宜看其'平台型并购'逻辑而非业务本身。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 7.55,
+  "info_score": 8.0,
+  "diff_score": 4.0,
+  "copy_score": 3.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2019-12-20",
+    "text": "宣布5亿美元收购Care.com"
+   },
+   {
+    "date": "2020-Q1",
+    "text": "完成收购Care.com"
+   },
+   {
+    "date": "2026",
+    "text": "Care.com以3.2亿美元转售买方财团"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "银发切点仅来自Care.com的老年照护撮合，母公司为互联网控股集团，主业非银发",
+  "name_cn": "IAC",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0109",
+    "name": "初新养老",
+    "overlap_l2": [
+     "养老信息平台"
+    ]
+   },
+   {
+    "serial": "#0160",
+    "name": "安养养老",
+    "overlap_l2": [
+     "养老信息平台"
+    ]
+   },
+   {
+    "serial": "#0221",
+    "name": "春树养老",
+    "overlap_l2": [
+     "养老信息平台"
+    ]
+   },
+   {
+    "serial": "#0393",
+    "name": "去哪养老网",
+    "overlap_l2": [
+     "养老信息平台"
+    ]
+   },
+   {
+    "serial": "#0396",
+    "name": "孝爱宝",
+    "overlap_l2": [
+     "养老信息平台"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0950",
+  "name": "Aveanna Healthcare",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "临终关怀",
+  "tags": [
+   "安宁疗护"
+  ],
+  "description": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+  "highlights": [
+   "38州居家健康/安宁/私人护理/医疗解决方案多线运营",
+   "2025营收24.33亿美元(+20.2%)，调整后EBITDA 3.21亿(+74.8%)",
+   "优选支付方策略覆盖约57%管理式医疗量，并收购Thrive儿科居家护理",
+   "对2026年医保居家护理拟削减6.4%保持纪律性并购"
+  ],
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "founded": 2017,
+  "value_score": 48,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Aveanna%20Healthcare",
+  "website_url": "https://www.aveannahomecare.com",
+  "business_model": "上市企业",
+  "desc_cn": "面向失能、慢病与临终老人的整合照护平台，在38州提供居家护理、安宁疗护与私人陪护三类到家服务。收入来自Medicare/Medicaid报销及个人自费，并以'优选支付方'策略将约57%业务绑定管理式医疗。银发价值是把居家医疗、临终关怀与私人护理多线整合，对应国内居家护理与长护险上门服务的供给缺口。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 4,
+   "news_quality": "low",
+   "latest_news": [
+    {
+     "title": "Aveanna Healthcare 10-K Annual Report",
+     "date": "2025-03",
+     "source": "SEC",
+     "url": "https://www.sec.gov/Archives/edgar/data/1832332/000095017025038504/avah-20241228.htm"
+    }
+   ],
+   "snippets": [
+    "Home health/hospice/private-duty provider; earnings only.",
+    "No major 2024-25 funding/M&A event surfaced."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "安宁疗护"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "上市居家与临终照护整合商，在38州运营、2025年营收24.33亿美元(+20.2%)，财报透明、信号稳且信息量足。",
+   "rec_v2": "差异化在居家护理、安宁疗护与私人陪护多线整合，并以'优选支付方'策略将约57%业务绑定管理式医疗。",
+   "rec_v3": "可复制的是并购整合与跨场景协同网络；但重资产加Medicaid依赖，拆解其运营逻辑而非复制支付端结构更具参考价值。",
+   "info_score": 7,
+   "diff_score": 5,
+   "copy_score": 5,
+   "signal_strength": 6.55,
+   "research_value": 60.6
+  },
+  "payor_model": "个人自费+医保",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2025全年",
+    "text": "完成三年战略转型，营收24.33亿美元(+20.2%)，调整后EBITDA 3.21亿(+74.8%)"
+   },
+   {
+    "date": "2025",
+    "text": "收购Thrive Skilled Pediatric Care，并宣布1.755亿美元收购Family First Homecare(预计2026 Q2完成)"
+   },
+   {
+    "date": "2025-11",
+    "text": "对2026年医保居家护理拟削减6.4%表达关切，对安宁并购保持纪律性(回避两位数倍数)"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "提供居家健康、安宁疗护与私人护理，直接服务失能与临终老人群体，属核心银发。",
+  "name_cn": "Aveanna Healthcare",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0205",
+    "name": "慈康生命",
+    "overlap_l2": [
+     "安宁疗护"
+    ]
+   },
+   {
+    "serial": "#0249",
+    "name": "泰康安宁疗护",
+    "overlap_l2": [
+     "安宁疗护"
+    ]
+   },
+   {
+    "serial": "#0358",
+    "name": "铂桐医疗",
+    "overlap_l2": [
+     "安宁疗护"
+    ]
+   },
+   {
+    "serial": "#1510",
+    "name": "精忠护理院",
+    "overlap_l2": [
+     "安宁疗护"
+    ]
+   },
+   {
+    "serial": "#0003",
+    "name": "乐湾",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0953",
+  "name": "The Pennant Group",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "临终关怀",
+  "tags": [
+   "安宁疗护",
+   "居家护理"
+  ],
+  "description": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+  "highlights": [
+   "去中心化控股：141家居家健康/安宁机构+61个养老社区独立运营",
+   "2025年1.465亿美元收购UnitedHealth/Amedisys剥离的54处资产(最大交易)",
+   "Medicare居家护理FFS收入占比<20%，多元抗支付波动",
+   "放权地方院长+集群式整合的轻总部收购操作系统"
+  ],
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "founded": 2019,
+  "value_score": 48,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=The%20Pennant%20Group",
+  "website_url": "https://pennantgroup.com",
+  "business_model": "上市企业",
+  "desc_cn": "去中心化到家照护控股平台，以少数股权控股141家居家健康/安宁机构与61养老社区，各单元独立运营、总部做中台赋能。收入来自Medicare/Medicaid报销与个人自费。银发价值在'小股权独立运营+强中台'的收购操作系统，用放权地方院长换取扩张同时保质量，对应国内居家护理连锁化率低、管控弱的短板。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 5,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "Pennant Group Annual Report 2025",
+     "date": "2025-03-01",
+     "source": "stocklight",
+     "url": "https://stocklight.com/stocks/us/nasdaq-pntg/pennant-group/annual-reports/nasdaq-pntg-2025-10K-25678754.pdf"
+    }
+   ],
+   "snippets": [
+    "Home health/hospice/senior-living (NASDAQ: PNTG).",
+    "Benefits from Amedisys divestiture (agencies to BrightSpring & Pennant)."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "安宁疗护",
+   "居家护理"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "去中心化到家照护控股平台，少数股权控股141家居家健康/安宁机构与61养老社区，2019年自Ensign分拆上市，信号与信息透明。",
+   "rec_v2": "差异化在'小股权独立运营+强中台'的收购操作系统，放权地方院长保质量；2025年1.465亿美元收购Amedisys剥离资产。",
+   "rec_v3": "可复制的是分拆多品牌与资产获取逻辑；业务同质化偏高、强绑美国医保，借鉴其服务线组合思路而非整体平移。",
+   "info_score": 7,
+   "diff_score": 5,
+   "copy_score": 5,
+   "signal_strength": 6.55,
+   "research_value": 60.6
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2025-10-01",
+    "text": "以1.465亿美元收购UnitedHealth/Amedisys剥离的54处居家健康/安宁资产(田纳西/乔治亚/阿拉巴马)"
+   },
+   {
+    "date": "2025",
+    "text": "Q3营收2.29亿美元(+26.8%)，Medicare居家护理FFS收入占比<20%"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家健康、安宁疗护与养老社区覆盖老龄全场景，以去中心化运营提升照护质量，属核心银发。",
+  "name_cn": "The Pennant Group",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0017",
+    "name": "小橙",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0022",
+    "name": "易得康",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0029",
+    "name": "福寿康",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0042",
+    "name": "颐家",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0058",
+    "name": "一家依",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Janus Living",
+  "region": "海外",
+  "category_l1": "养老地产",
+  "category_l2": "运营商",
+  "tags": [
+   "养老REIT"
+  ],
+  "description": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+  "highlights": [
+   "由Healthpeak分拆的纯Play养老社区REIT，34社区/10422单元/10州",
+   "2026-03纽交所上市(JAN)，发行4830万股@$20募资约8.78亿美元",
+   "RIDEA结构：收入主要来自住户费而非政府报销",
+   "Healthpeak任外部管理人并持有约81.6%股权"
+  ],
+  "funding_latest": {
+   "date": "2026-03",
+   "amount": "估值约$5B",
+   "round": "IPO(申报)",
+   "display": "IPO申报 估值约$50亿 (2026-03)"
+  },
+  "funding_total": {
+   "amount": "拟募资约$7.4亿",
+   "display": "IPO拟募资约$7.4亿"
+  },
+  "investors": "Healthpeak为外部管理人并注入资产",
+  "founded": "未搜到",
+  "value_score": 50,
+  "source": "WebSearch: Reuters 2026-03-16 / renaissancecapital.com",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Janus%20Living",
+  "website_url": "https://janusliving.com",
+  "business_model": "RIDEA结构 上市养老地产REIT",
+  "desc_cn": "从综合医疗REIT分拆出的纯养老社区运营平台，以RIDEA结构自持并运营34个养老社区、约1.04万单元分布于10州，收入来自住户租金与服务费而非政府报销。银发价值在把养老地产从混合资产中独立定价，为国内尚无公募养老REIT的市场提供'资产分拆+外部管理人+单元化持有'的轻资产样本。",
+  "business_model_cn": "RIDEA结构 上市养老地产REIT",
+  "serial": "#1135",
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "投资机构",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "2026年3月纽交所上市的纯养老社区REIT(JAN)，募资约8.78亿美元，承接Healthpeak 34个社区、1.04万单元，信号新且信息透明。",
+   "rec_v2": "差异化在RIDEA结构自持运营、收入来自住户租金而非政府报销；把养老地产从混合资产中独立定价，资本结构清晰。",
+   "rec_v3": "可复制性低：国内无养老REIT通道难直接对标；但其'资产分拆+单元化持有+外部管理人'轻重分离架构可作参考。",
+   "info_score": 7,
+   "diff_score": 6,
+   "copy_score": 4,
+   "signal_strength": 6.55,
+   "research_value": 60.6
+  },
+  "payor_model": "个人自费",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 4.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2026-01-07",
+    "text": "Healthpeak宣布分拆组建纯Play养老REIT Janus Living"
+   },
+   {
+    "date": "2026-03-20",
+    "text": "纽交所上市(JAN)，发行4830万股@$20，募资约8.78亿美元"
+   },
+   {
+    "date": "2026 Q1",
+    "text": "完成7.14亿美元养老社区收购并注入Janus"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "纯Play养老社区REIT，自持运营34个养老社区、约1.04万单元，资产直接服务活跃与照护型长者居住，属核心银发。",
+  "name_cn": "Janus Living",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0048",
+    "name": "BAI资本",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0113",
+    "name": "千骥资本",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0120",
+    "name": "博远资本",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0138",
+    "name": "国寿大健康",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0150",
+    "name": "太保资本",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "name": "Cadence",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "慢病管理",
+  "tags": [
+   "AI医疗"
+  ],
+  "description": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+  "highlights": [
+   "AI主动护理引擎对接Medicare，日均生命体征监测与用药调整",
+   "服务超10万活跃患者、合作20+领先医疗系统",
+   "2026年C轮1亿美元，估值约12.3亿美元，年省Medicare约2.7亿美元/周"
+  ],
+  "funding_latest": {
+   "date": "2026-06",
+   "amount": "$100M",
+   "round": "Series C",
+   "display": "Series C $100M (2026-06)"
+  },
+  "funding_total": {
+   "amount": "$100M+",
+   "display": "累计$100M+"
+  },
+  "investors": "Spark Capital领投",
+  "founded": 2020,
+  "value_score": 40,
+  "source": "WebSearch: cadence.care 2026-06-23 / pulse2 2026-06-23",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cadence",
+  "website_url": "https://cadence.care",
+  "business_model": "B2B 临床AI慢病管理(按效付费)",
+  "desc_cn": "面向老年慢病人群的AI主动护理平台，通过家用设备每日监测生命体征并由临床AI团队远程调整用药与随访，嵌入医疗系统的RPM与APCM按效付费流程。收入来自医保按人月结算与医疗系统合作，已服务7万余名老人、合作20余家医疗系统。银发价值在把慢病管理做成连续远程护理，直接缓解老年慢病失管与再入院。",
+  "business_model_cn": "B2B 临床AI慢病管理(按效付费)",
+  "serial": "#1145",
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "stage": "C轮",
+  "recommend": {
+   "rec_v1": "2026年6月完成1亿美元C轮、估值约12.3亿，服务超10万活跃患者、合作20+医疗系统，采用信号明确。",
+   "rec_v2": "用家用设备每日监测生命体征并由临床AI团队远程调药随访，嵌入Medicare的RPM与APCM按效付费流程。",
+   "rec_v3": "国内老年慢病失管与再入院痛点在，可学其AI+按效范式，但依赖美国支付体系、可复制性中低。"
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 8.0,
+  "copy_score": 5.0,
+  "research_value": 60.6,
+  "events": [
+   {
+    "date": "2025-07",
+    "text": "推出AI主动护理引擎，向Medicare患者开放APCM"
+   },
+   {
+    "date": "2026-06",
+    "text": "完成1亿美元C轮，Spark Capital领投，新签Duke Health等"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "专为老年慢病人群设计AI主动护理，把慢病管理做成连续远程护理，直接服务银发健康，属核心银发。",
+  "name_cn": "Cadence",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1085",
+    "name": "问岐健康",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1117",
+    "name": "智医向量",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1198",
+    "name": "深睿医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1200",
+    "name": "傲意科技",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1207",
+    "name": "阶梯医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Strolll",
+  "name_cn": "Strolll",
+  "region": "海外",
+  "category_l1": "康复设备",
+  "category_l2": "AR神经康复",
+  "tags": [
+   "视觉辅助",
+   "眼镜"
+  ],
+  "description": "用增强现实（AR）眼镜为神经疾病（帕金森、卒中）患者提供居家神经康复训练，2025年3月完成1220万欧元融资。",
+  "desc_cn": "用AR眼镜把物理治疗游戏化的居家神经康复数字疗法，面向帕金森、卒中后人群，临床依从率达104%。获NIHR 240万英镑资助开展RCT并合作克利夫兰医学中心；单治疗师可多提供7倍治疗、省67%工时。收入来自NHS/机构采购及硬件+订阅个人付费。核心银发价值在把神经康复从机构搬到居家。",
+  "highlights": [
+   "AR眼镜Reality DTx把物理治疗游戏化，居家神经康复，临床依从率104%",
+   "获NIHR 240万英镑资助开展帕金森病RCT，并与Cleveland Clinic美国合作",
+   "单治疗师可多提供7倍治疗、省67%工时，面向NHS与居家场景"
+  ],
+  "funding_latest": {
+   "amount": "1220万欧元",
+   "round": "早期",
+   "date": "2025-03",
+   "display": "早期 1220万欧元 (2025-03)"
+  },
+  "funding_total": {
+   "amount": "累计约1220万欧元",
+   "display": "累计约1220万欧元"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 2019,
+  "value_score": 0,
+  "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Strolll",
+  "website_url": "https://www.strolll.com",
+  "business_model": "B2B2C AR神经康复硬件+软件",
+  "business_model_cn": "B2B2C AR神经康复硬件+软件",
+  "news_coverage": {
+   "latest_news": [],
+   "news_count": 0,
+   "news_quality": "low",
+   "snippets": [
+    "用增强现实（AR）眼镜为神经疾病（帕金森、卒中）患者提供居家神经康复训练，2025年3月完成1220万欧元融资。"
+   ]
+  },
+  "serial": "#1280",
+  "tag_l1": [
+   "康复辅具",
+   "消费品"
+  ],
+  "tag_l2": [
+   "视觉辅助",
+   "眼镜"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "产品商",
+   "channel": []
+  },
+  "stage": "A轮",
+  "recommend": {
+   "rec_v1": "Strolll获NIHR 240万英镑资助并合作克利夫兰医学中心，AR神经康复临床依从率达104%，信息有料。",
+   "rec_v2": "Strolll用AR眼镜把物理治疗游戏化、把神经康复从机构搬到客厅，差异在居家可量化训练的软硬一体。",
+   "rec_v3": "Strolll单治疗师可多提供7倍治疗、省67%工时，其'居家AR康复'架构清晰但需过器械准入，国内交互设计与居家场景可直接参考。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 5.55,
+  "info_score": 5.0,
+  "diff_score": 8.0,
+  "copy_score": 6.0,
+  "research_value": 59.7,
+  "events": [
+   {
+    "date": "2025-03",
+    "text": "完成1035万英镑A轮（IW Capital领投），加速神经康复数字疗法销售"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "AR居家神经康复直击帕金森卒中老年人群、临床依从性超100%，Strolll属核心银发。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0040",
+    "name": "集思鸣智",
+    "overlap_l2": [
+     "眼镜"
+    ]
+   },
+   {
+    "serial": "#0133",
+    "name": "响午",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0163",
+    "name": "安泰康成",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0194",
+    "name": "心永科技",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0220",
+    "name": "星巡智能",
+    "overlap_l2": [
+     "视觉辅助"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0468",
+  "name": "ForSight Robotics",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "机器人"
+  ],
+  "description": "机器人白内障手术创新。半数美国人在80岁患白内障，三分之一在60岁以下就患病。",
+  "highlights": [
+   "白内障等眼科手术机器人，解决外科医生短缺",
+   "获ISO 13485认证，启动首例人体临床试验",
+   "累计融资1.95亿美元，Eclipse领投"
+  ],
+  "funding_latest": {
+   "date": "2025-06",
+   "amount": "125000000",
+   "round": "Series B",
+   "display": "Series B $1.2亿 (2025-06)"
+  },
+  "funding_total": {
+   "amount": "195000000",
+   "display": "累计$1.9亿"
+  },
+  "investors": "Eclipse (领投)",
+  "founded": 2020,
+  "value_score": 43,
+  "source": "选题库",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ForSight%20Robotics",
+  "website_url": "https://forsightrobotics.com",
+  "business_model": "B2B/B2C 服务机器人",
+  "desc_cn": "以色列眼科手术机器人企业，主营白内障等手术机器人，解决外科医生短缺、对准老龄化视力刚需，已获ISO 13485认证并启动首例人体临床试验。收入将来自B端医院采购与患者自费手术费。核心银发价值在高龄白内障高发——用专科手术机器人提升可及性，对应国内眼科手术机器人仍处早期、达芬奇腔镜已验证路径的窗口。",
+  "business_model_cn": "B2B/B2C 服务机器人",
+  "news_coverage": {
+   "news_count": 4,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "ForSight Robotics Secures $125M in Series B Funding",
+     "date": "2025-06-24",
+     "source": "BusinessWire",
+     "url": "https://www.businesswire.com/news/home/20250624465565/en/ForSight-Robotics-Secures-%24125M-in-Series-B-Funding-Addressing-Global-Surgeon-Shortage-and-Exploding-Demand-for-Ophthalmic-Surgery"
+    },
+    {
+     "title": "ForSight眼科手术机器人获近9亿元人民币融资",
+     "date": "2025-06-30",
+     "source": "搜狐",
+     "url": "https://www.sohu.com/a/909255165_122281924"
+    }
+   ],
+   "snippets": [
+    "以色列眼科手术机器人公司，2025年6月完成1.25亿美元B轮（Eclipse领投），累计融资1.95亿美元。",
+    "核心产品为白内障等眼科手术机器人，面向老龄化相关视力治疗需求。"
+   ]
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "机器人"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "产品商",
+   "channel": []
+  },
+  "stage": "B轮",
+  "recommend": {
+   "rec_v1": "信号清晰的眼科手术机器人新贵，临床与融资数据公开；ORYOM平台全球首创、差异化极强，国内可关注技术方向但重监管难复制。",
+   "rec_v2": "信息量较高的硬科技标的，B轮细节透明；把白内障手术做成机器人平台的思路独特，创业者宜学其精密控制架构而非短期落地。",
+   "rec_v3": "值得跟踪的手术机器人样本，研究资料充分；'眼科版达芬奇'稀缺且前瞻，国内可借鉴其监管里程碑节奏，但资本与临床门槛极高。",
+   "info_score": 7,
+   "diff_score": 8,
+   "copy_score": 3,
+   "signal_strength": 5.55,
+   "research_value": 59.6
+  },
+  "payor_model": "B端医疗机构/医院采购+患者自费(手术费)",
+  "signal_strength": 5.55,
+  "info_score": 7.0,
+  "diff_score": 8.0,
+  "copy_score": 3.0,
+  "research_value": 59.6,
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "完成1.25亿美元B轮(累计1.95亿)"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "白内障手术需求集中于高龄人群，机器人提升可及性",
+  "name_cn": "ForSight Robotics",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0191",
+    "name": "得印科技",
+    "overlap_l2": [
+     "机器人"
+    ]
+   },
+   {
+    "serial": "#0354",
+    "name": "金矢机器人",
+    "overlap_l2": [
+     "机器人"
+    ]
+   },
+   {
+    "serial": "#0392",
+    "name": "傅里叶智能",
+    "overlap_l2": [
+     "机器人"
+    ]
+   },
+   {
+    "serial": "#1064",
+    "name": "迈步机器人",
+    "overlap_l2": [
+     "机器人"
+    ]
+   },
+   {
+    "serial": "#1065",
+    "name": "卓道医疗",
+    "overlap_l2": [
+     "机器人"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0475",
+  "name": "Seen Health",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+   "慢病管理",
+   "保险"
+  ],
+  "description": "PACE计划，为享受Medicare/Medicaid的慢性病老年人提供全面医疗和社会支持。参考上市公司Innovage。",
+  "highlights": [
+   "基于50年历史的PACE全人整合照护模式",
+   "专注亚裔(API)等少数族裔老年慢病文化适配照护",
+   "自建PACE-centric EHR+AI运营中台降本",
+   "对标上市公司Innovage，首中心落加州圣盖博谷"
+  ],
+  "funding_latest": {
+   "date": "2024-11",
+   "amount": "22000000",
+   "round": "Unknown",
+   "display": "Unknown $2200万 (2024-11)"
+  },
+  "funding_total": "$22M (截至2024年)",
+  "investors": [
+   "8VC",
+   "Basis Set",
+   "Primetime Partners",
+   "Virtue",
+   "Astrana Health"
+  ],
+  "founded": 2021,
+  "value_score": 55,
+  "source": "选题库",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Seen%20Health",
+  "website_url": "https://www.seenhealth.org",
+  "business_model": "B2C/B2B 老年健康保险（上市企业）",
+  "desc_cn": "在美国运营PACE全人整合照护中心，服务同时符合医疗补助与医保双重资格的老年慢病患者，专注亚裔等少数族裔文化适配照护。自建PACE-centric EHR与AI运营中台降本增效，收入来自政府医保按人头支付。银发切点是整合照护加系统化运营，可直接对应国内长护险服务供给。",
+  "business_model_cn": "B2C/B2B 老年健康保险（上市企业）",
+  "news_coverage": {
+   "news_count": 2,
+   "news_quality": "low",
+   "latest_news": [],
+   "snippets": [
+    "No company-specific Seen Health (aged-care provider) funding/partnership news surfaced in US/aging search; results returned generic Medicare Advantage industry pages.",
+    "Unverified — weak signal for a standalone senior-care venture in this context."
+   ]
+  },
+  "tag_l1": [
+   "养老服务",
+   "金融保险"
+  ],
+  "tag_l2": [
+   "慢病管理",
+   "保险"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": {
+   "rec_v1": "信号中等但模式稀缺（PACE整合照护）；信息靠创始团队Uber背景与8VC领投可查，差异化极强——专为双重资格老人做文化适配照护，国内难复制（绑美国医保）。",
+   "rec_v2": "2024亮相即获8VC等2200万美元，有据可核；价值在其技术中台+PACE运营系统降本，但支付全绑Medicare/Medicaid，对国内仅模式启发、不可照搬。",
+   "rec_v3": "信号靠融资与PR支撑、信息偏少；最强亮点是把50年历史的PACE用culturally-focused重新包装并数字化，反共识性强，可学'少数族裔老年群体精准照护'这一细分切口。"
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 6.55,
+  "info_score": 6.0,
+  "diff_score": 8.0,
+  "copy_score": 3.0,
+  "research_value": 59.6,
+  "events": [
+   {
+    "date": "2021",
+    "text": "双胞胎兄弟Xing/Yang Su创立Seen Health"
+   },
+   {
+    "date": "2024-11",
+    "text": "公开亮相并完成2200万美元A轮（8VC领投）"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "专注老年慢病整合照护，典型银发健康服务，服务双重资格老人群体。",
+  "name_cn": "Seen Health",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1476",
+    "name": "泰康人寿",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#1499",
+    "name": "远盟康健科技有限公司",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#0029",
+    "name": "福寿康",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0042",
+    "name": "颐家",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0140",
+    "name": "复星保德信",
+    "overlap_l2": [
+     "保险"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0744",
+  "name": "Infinitus Systems",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+   "AI医疗"
+  ],
+  "description": "AI自动拨打医疗保健相关电话",
+  "highlights": [
+   "语音AI代理自动完成医保核验、事前授权、处方续方等高频行政呼叫",
+   "已自动化超1亿分钟对话、服务12.5万+医生，覆盖44%财富50强医疗企业",
+   "面向药企、健康险、医疗系统与专科药房的通用代理平台，含无代码Studio与对话分析Lens"
+  ],
+  "funding_latest": {
+   "date": "2024年10月",
+   "amount": "5150万美元",
+   "round": "C轮",
+   "display": "C轮 5150万美元 (2024年10月)"
+  },
+  "funding_total": "$103M",
+  "investors": "a16z, Kleiner Perkins, Coatue, GV (Google Ventures), Memorial Hermann",
+  "founded": 2019,
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Infinitus%20Systems",
+  "website_url": "https://www.infinitus-systems.com",
+  "business_model": "B2B AI/数据驱动",
+  "desc_cn": "面向医疗机构、药企与健康险的医疗语音AI代理平台，用AI智能体自动拨打并接听医保核验、事前授权、处方续方等行政电话，自动穿越IVR排队。收入来自B端按用量或订阅计费，价值直连银发医保/商保运营效率——国内长护险理赔自动化外呼可降低机构与老人沟通成本。",
+  "business_model_cn": "B2B AI/数据驱动",
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "C轮",
+  "recommend": {
+   "rec_v1": "年信号稳、信息披露足，AI代拨核保在海外已成规模，但根植美国预授权体系难直接平移；对国内做医疗外呼SaaS、用AI替人工跑流程的团队，是最该拆解的样板。",
+   "rec_v2": "它不蹭养老热点却踩中医疗降本刚需，顶级机构押注、模式清晰，信号与信息都扎实；国内做医疗外呼SaaS的团队最该拆解其产品化路径。",
+   "rec_v3": "信息量够、差异化在'电话即服务'的冷门切口，信号平稳。可复制性低因绑定美国医保，但其在B端把合规外呼产品化的路径值得借鉴。",
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 5.0,
+   "signal_strength": 3.55,
+   "research_value": 53.7
+  },
+  "payor_model": "B端机构采购（健康险公司/药企/医疗系统按用量付费）",
+  "signal_strength": 5.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 5.0,
+  "research_value": 59.6,
+  "events": [
+   {
+    "date": "2024-10",
+    "text": "完成5150万美元C轮，累计融资约1.03亿美元"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "医疗行政自动化基础设施，主要服务药企与健康险，仅间接惠及老年医保人群",
+  "name_cn": "Infinitus Systems",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1085",
+    "name": "问岐健康",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1117",
+    "name": "智医向量",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1198",
+    "name": "深睿医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1200",
+    "name": "傲意科技",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1207",
+    "name": "阶梯医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0889",
+  "name": "Two Chairs",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "心理健康"
+  ],
+  "description": "专有算法帮助将合适治疗师与患者匹配",
+  "highlights": [
+   "专有300变量算法+临床匹配访谈，97%患者与治疗师联盟度高",
+   "测量式照护（每次就诊前收集量表），90%患者坚持到第四次session（行业均值36%）",
+   "在网Aetna/Kaiser，覆盖加州/华盛顿/佛州并虚拟扩展至19州"
+  ],
+  "funding_latest": {
+   "amount": "7200万美元",
+   "round": "C轮",
+   "display": "C轮 7200万美元"
+  },
+  "funding_total": "$100M",
+  "investors": [
+   "Amplo",
+   "Maveron",
+   "Fifth Down Capital",
+   "What If Ventures"
+  ],
+  "founded": 2017,
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Two%20Chairs",
+  "website_url": "https://www.twochairs.com",
+  "business_model": "B2B 行业媒体/数据服务",
+  "desc_cn": "混合式行为健康服务商，用300变量算法加临床访谈为患者匹配治疗师，以每次就诊前量表测量式照护提升疗效与留存。在网Aetna、Kaiser等商保，个人自费约226美元/次，收入来自保险与自费。老龄化下老年抑郁、认知伴发情绪问题增多，其精准匹配+疗效量化对应国内老年心理服务稀缺且病耻感重的现实。",
+  "business_model_cn": "B2B 行业媒体/数据服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "心理健康"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "C轮",
+  "recommend": {
+   "rec_v1": "信号与信息中等，治疗师匹配算法有亮点但非银发专属；国内老年抑郁/认知症照护缺专业心理资源，其'算法撮合+标准化服务'可间接借鉴。",
+   "rec_v2": "信号中等、差异化在把心理咨询做成可匹配的标准品，可复制性中。对银发库价值有限，但做老年精神健康可学其用数据提效匹配。",
+   "rec_v3": "信号平稳、信息量够、模式清晰，却偏通用心理健康。想切入老年心理服务的创业者，可参考其算法派单与线上线下结合。",
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 5.0,
+   "signal_strength": 3.55,
+   "research_value": 53.7
+  },
+  "payor_model": "商业保险支付（Aetna/Kaiser在网）+部分Medicare/Medicaid+个人自费(约226美元/次)",
+  "signal_strength": 5.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 5.0,
+  "research_value": 59.6,
+  "events": [
+   {
+    "date": "2024-04",
+    "text": "完成7200万美元C轮（股权+债权，Amplo领投），累计约1.03亿美元"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "泛心理健康服务，非老年专属，但覆盖复杂高年资患者与Medicare部分人群",
+  "name_cn": "Two Chairs",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1442",
+    "name": "北京脑智科技有限公司",
+    "overlap_l2": [
+     "心理健康"
+    ]
+   },
+   {
+    "serial": "#1478",
+    "name": "北京品心心理",
+    "overlap_l2": [
+     "心理健康"
+    ]
+   },
+   {
+    "serial": "#0003",
+    "name": "乐湾",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0004",
+    "name": "优享陪诊",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0009",
+    "name": "南京新百",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "name": "Option Care Health",
+  "region": "海外",
+  "category_l1": "健康服务",
+  "category_l2": "居家输液/药房",
+  "tags": [
+   "药品配送"
+  ],
+  "description": "美国最大独立居家输液与专科药房服务商，纳斯达克代码 OPCH，为慢病与复杂用药患者提供上门输液治疗。",
+  "highlights": [
+   "全美最大独立居家输液与专科药房，纳斯达克OPCH",
+   "服务免疫/肿瘤/罕见病等复杂慢病患者的居家/门诊输液",
+   "通过并购成长为赛道龙头",
+   "支付以医保/商业保险报销为主、个人自付为辅"
+  ],
+  "funding_latest": {
+   "round": "上市公司",
+   "amount": "不适用",
+   "currency": "USD",
+   "date": "1984",
+   "display": "上市公司(NASDAQ:OPCH)",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "funding_total": {
+   "amount": "不适用",
+   "display": "上市公司"
+  },
+  "investors": [
+   "公共市场"
+  ],
+  "founded": 1984,
+  "value_score": 42,
+  "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Option%20Care%20Health",
+  "website_url": "https://www.optioncarehealth.com",
+  "business_model": "B2B2C 居家输液/专科药房，按疗程与药品毛利获利",
+  "name_cn": "Option Care 健康",
+  "desc_cn": "全美最大的独立居家输液与专科药房服务商，为免疫、肿瘤、罕见病等复杂慢病患者提供到家/门诊的输液与特药配送，由药师驱动、配套冷链与居家场景服务。收入以医保与商业保险报销为主、个人自付为辅。银发价值在'药师+冷链+居家'的复杂慢病上门体系，对应国内老龄化下居家医疗与特药配送缺口。",
+  "business_model_cn": "B2B2C 居家输液与专科药房，按疗程与药品毛利获利",
+  "serial": "#1158",
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "药品配送"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "全美最大独立居家输液与专科药房(OPCH)，为免疫、肿瘤、罕见病复杂慢病患者提供到家输液，信披扎实、信号稳且信息足。",
+   "rec_v2": "差异化在'药师驱动+冷链+居家场景'的复杂慢病上门体系，靠并购成长为赛道龙头；支付以医保/商保报销为主。",
+   "rec_v3": "可复制的是'药师+冷链'履约体系；国内老龄化下居家医疗与特药配送缺口大，其到家服务模式可本土化落地。",
+   "info_score": 8,
+   "diff_score": 3,
+   "copy_score": 5,
+   "signal_strength": 6.55,
+   "research_value": 59.6
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 6.55,
+  "info_score": 8.0,
+  "diff_score": 3.0,
+  "copy_score": 5.0,
+  "research_value": 59.6,
+  "update_time": "2026-07-18",
+  "events": [
+   {
+    "date": "1984至今",
+    "text": "通过持续并购成长为全美最大独立居家输液与专科药房服务商"
+   }
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家输液与专科药房服务复杂慢病长者，是居家医疗银发场景，属核心银发。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0011",
+    "name": "可靠股份",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0012",
+    "name": "善诊",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0040",
+    "name": "集思鸣智",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0050",
+    "name": "EE广州老博会",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0054",
+    "name": "VTN",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#1352",
+  "name": "Abridge",
+  "region": "海外",
+  "category_l1": "智能科技",
+  "category_l2": "AI",
+  "tags": [
+   "AI医疗"
+  ],
+  "description": "临床文档 AI 平台，用生成式 AI 自动生成病历草稿，显著提升医生/护理记录效率，广泛应用于养老与护理场景。",
+  "highlights": [
+   "环境式AI实时生成病历，部署250+医疗系统、年处理超8000万次问诊",
+   "从转录扩展到计费/临床决策/支付方裁决，对标'医疗操作系统'",
+   "与NVIDIA共建临床对话基础模型，获礼来战略投资"
+  ],
+  "funding_latest": {
+   "date": "2026",
+   "amount": "3亿美元",
+   "round": "Series E",
+   "display": "Series E $300M (连续 mega round)"
+  },
+  "funding_total": {
+   "amount": "累计约$5亿+",
+   "display": "累计约$5亿+"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 2018,
+  "value_score": 0,
+  "source": "信源治理入库(MedCity News Health Tech) 2026-07-16",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://www.abridge.com",
+  "business_model": "B2B SaaS",
+  "desc_cn": "环境式临床AI文档厂商，在医患对话时实时生成病历，并延伸到计费编码、临床决策支持与支付方裁决，定位'医疗操作系统'。以B2B SaaS订阅卖给医疗系统，已落地300余家机构、年处理超1亿次问诊。银发关联在老年科室问诊量大、文档负担重，但其面向全体患者而非专属银发，属泛医疗效率工具。",
+  "business_model_cn": "B2B 临床AI",
+  "news_coverage": {
+   "news_count": 0,
+   "news_quality": "unscored",
+   "latest_news": null
+  },
+  "name_cn": "Abridge",
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": {
+   "rec_v1": "生成式AI病历平台信息极丰、信号强，提升医护文书效率；差异化在嵌入临床工作流，国内医疗AI可学，受EHR与监管约束。",
+   "rec_v2": "临床文书自动化明星，应用广含护理场景；用AI替医护写字的思路反共识，对国内智慧养老文书有启发，复制中度。",
+   "rec_v3": "高信息高信号样本，把生成式AI落地到病历草稿；可复制性中——技术可追，但中美EHR生态与合规差异是主要门槛。",
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 5,
+   "signal_strength": 4.55,
+   "research_value": 61.6
+  },
+  "payor_model": "B端机构采购（医疗系统SaaS订阅）",
+  "signal_strength": 4.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 4.0,
+  "research_value": 59.6,
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "完成3亿美元E轮，a16z领投，估值53亿美元"
+   },
+   {
+    "date": "2026-04",
+    "text": "再获3.16亿美元E轮扩展，累计融资超8.6亿美元"
+   },
+   {
+    "date": "2026-06",
+    "text": "与NVIDIA合作开发临床对话基础模型，礼来战略投资"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "临床文档AI面向全体患者，老年科室有应用但非专属银发定位",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1085",
+    "name": "问岐健康",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1117",
+    "name": "智医向量",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1198",
+    "name": "深睿医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1200",
+    "name": "傲意科技",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1207",
+    "name": "阶梯医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0915",
+  "name": "Wheel",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+   "远程医疗"
+  ],
+  "description": "Wheel 是一家虚拟医疗基础设施公司，既运营可弹性调用的临床医生网络，也为企业提供白标远程问诊平台，按平台与接诊量向企业收费。亮点是把'虚拟医疗能力'做成可嵌入各类产品的底层服务。",
+  "highlights": [
+   "虚拟医疗基础设施：白标/API接入+全美50州医生网络+临床运营",
+   "2024年发布Horizon平台，2025年整合Amazon Pharmacy用药履约",
+   "覆盖70+病种，日均4000+次问诊，获2025 Fierce 15虚拟医疗奖"
+  ],
+  "funding_latest": {
+   "date": "2022年2月",
+   "amount": "1.5亿美元",
+   "round": "C轮",
+   "display": "C轮 1.5亿美元 (2022年2月)"
+  },
+  "funding_total": {
+   "amount": "$216M",
+   "display": "$216M (截至2025年)"
+  },
+  "investors": "Lightspeed Venture Partners, Tiger Global, CRV, Coatue, Salesforce Ventures, Tusk Venture Partners, Silverton Partners",
+  "founded": 2018,
+  "value_score": 43,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wheel",
+  "website_url": "https://www.wheel.com",
+  "business_model": "B2C/B2B 养老护理服务",
+  "desc_cn": "美国虚拟医疗基础设施商，提供白标与API接入的远程问诊能力，含全美50州医生网络、临床运营与用药履约（已整合Amazon Pharmacy）。健康计划、药企、零售商等B端按平台与接诊量采购，快速搭起自有品牌远程医疗。覆盖70多病种、日均4000余次问诊，对应国内险企药店做DTC问诊避免重资产自建。",
+  "business_model_cn": "B2C/B2B 专业护理服务",
+  "news_coverage": {
+   "news_count": 10,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "Wheel Raises $150M Series C",
+     "date": "2021",
+     "source": "MedHealth Outlook",
+     "url": "https://medhealthoutlook.com/wheel-raises-150-million-in-series-c-plans-on-moving-from-telehealth-to-virtual-first-care/"
+    },
+    {
+     "title": "Wheel 2026 Company Profile",
+     "date": "2026",
+     "source": "Tracxn",
+     "url": "https://tracxn.com/d/companies/wheel/__lHaxYDWFtVR4Yej6PzOjTMiNdzUJCwUZU4GCeCFY-Cs"
+    }
+   ],
+   "snippets": [
+    "Wheel 为虚拟护理提供运营基础设施与临床人力网络",
+    "累计融资超2.16亿美元(含1.5亿美元C轮)"
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "远程医疗"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "C轮",
+  "recommend": {
+   "rec_v1": "信号稳、信息中等：把远程问诊能力拆成可嵌入的底层基建，思路差异化强；国内平台多各自为战，可学其'能力即服务'定位。",
+   "rec_v2": "差异化在'虚拟医疗即插件'，信息够写；可复制性中上，国内互联网医院各自建闭环，它证明基础设施化更轻，创业者可借鉴。",
+   "rec_v3": "可复制性不错：弹性医生网络+白标平台的双引擎，信号稳健；国内缺乏中立的问诊能力供应商，其定位对银发远程照护有启发。",
+   "info_score": 6,
+   "diff_score": 7,
+   "copy_score": 6,
+   "signal_strength": 5.05,
+   "research_value": 59.1
+  },
+  "payor_model": "B端机构付费（健康计划/药企/零售商按平台与接诊量计费）",
+  "signal_strength": 5.05,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 59.1,
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "发布Horizon平台并与Amazon Pharmacy整合用药履约"
+   },
+   {
+    "date": "2025",
+    "text": "获Fierce Healthcare 'Fierce 15'虚拟医疗奖"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "虚拟医疗基础设施面向各类企业提供远程问诊能力，非老年专属；远程医疗与银发照护相邻但非核心银发",
+  "name_cn": "Wheel",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0398",
+    "name": "松龄护老",
+    "overlap_l2": [
+     "远程医疗"
+    ]
+   },
+   {
+    "serial": "#1324",
+    "name": "小诺家护",
+    "overlap_l2": [
+     "远程医疗"
+    ]
+   },
+   {
+    "serial": "#1395",
+    "name": "广州康特莱科技有限公司",
+    "overlap_l2": [
+     "远程医疗"
+    ]
+   },
+   {
+    "serial": "#1500",
+    "name": "海南中卡伽澜生物科技有限公司",
+    "overlap_l2": [
+     "远程医疗"
+    ]
+   },
+   {
+    "serial": "#0003",
+    "name": "乐湾",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0558",
+  "name": "Riverspring Living",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+   "养老机构",
+   "康复医疗"
+  ],
+  "description": "大型养老康复机构，专注于将AgeTech（AI/VR/机器人）从理论转化为实际ROI。接受TheGerontechnologist采访，深度分享技术落地经验。",
+  "highlights": [
+   "非营利连续照护（独立/协助/记忆/专业护理）全周期",
+   "VR疗法、机器人等适老科技以ROI为导向落地",
+   "设Medicaid补助协助生活计划，覆盖中低收入长者"
+  ],
+  "funding_latest": {
+   "amount": "非上市",
+   "display": "非上市"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1989,
+  "value_score": 33,
+  "source": "选题库",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Riverspring%20Living",
+  "website_url": "https://www.riverspringliving.org",
+  "business_model": "B2B/B2C 服务机器人",
+  "desc_cn": "非营利连续照护机构，覆盖独立/协助/记忆/专业护理全周期，并设Medicaid补助覆盖中低收入长者。收入来自政府医保(Medicare/Medicaid)、个人月费及慈善捐赠。银发亮点是以ROI为导向，把VR疗法、护理机器人等适老科技转化为护理成效，对应国内科技如何证明增效省钱的难题。",
+  "business_model_cn": "B2B/B2C 服务机器人",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老机构",
+   "康复医疗"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "未搜到",
+  "recommend": {
+   "rec_v1": "信号稳但公开财务少、信息偏薄；亮点在把AI/VR/机器人做成可量化的照护ROI，反常识；国内机构最该学其技术选型与成效评估框架。",
+   "rec_v2": "作为非营利机构信息披露有限，却因AgeTech落地经验被行业深挖；差异化是\"技术必须算清回报\"；可抄的是小步试点+数据复盘，而非堆设备。",
+   "rec_v3": "中等信号与信息量下，它证明了适老科技不是摆设而是ROI工具；复制难点在美方支付体系，但\"先验证后铺开\"的思路值得国内借鉴。",
+   "info_score": 5,
+   "diff_score": 6,
+   "copy_score": 6,
+   "signal_strength": 6.55,
+   "research_value": 58.7
+  },
+  "payor_model": "政府医保(Medicare/Medicaid 专业护理)+个人自付（月费/入住费）",
+  "signal_strength": 6.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 58.7,
+  "events": [
+   {
+    "date": "2026",
+    "text": "CEO分享 Hauser Care Connect 全国科技照护模型"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "非营利连续照护+适老科技落地的老年护理机构",
+  "name_cn": "Riverspring Living",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0407",
+    "name": "锦欣康养",
+    "overlap_l2": [
+     "养老机构",
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0009",
+    "name": "南京新百",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   },
+   {
+    "serial": "#0045",
+    "name": "鹤灵医疗",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0066",
+    "name": "东方华康",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0076",
+    "name": "九如城",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0675",
+  "name": "Concerto Care",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+   "居家医疗",
+   "慢病管理"
+  ],
+  "description": "ConcertoCare（由 ConcertoHealth 与 Perfect Health 合并）是技术赋能、按风险付费的居家综合照护提供商，面向有复杂医疗与社会需求的老年 Medicare/Medicaid 会员，由医生带领下涵盖医疗、行为健康与社工的跨学科团队上门服务，并依托自有 Patient3D® 人口健康平台。宣称可降低住院率 47%，累计融资约 1.5 亿美元。",
+  "highlights": [
+   "按风险付费的居家综合照护，医生带队跨学科上门",
+   "自有Patient3D人口健康平台，称降住院率47%",
+   "由ConcertoHealth与Perfect Health合并，B轮1.05亿美元"
+  ],
+  "funding_latest": {
+   "date": "2022年2月",
+   "amount": "1.05亿美元",
+   "round": "B轮",
+   "display": "B轮 1.05亿美元 (2022年2月)"
+  },
+  "funding_total": "$236M (截至2026年)",
+  "investors": [
+   "Deerfield Management",
+   "Wells Fargo Strategic Capital",
+   "Obvious Ventures",
+   "Arboretum Ventures",
+   "Vast Ventures",
+   "Pennington Partners"
+  ],
+  "founded": 2004,
+  "value_score": 43,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Concerto%20Care",
+  "website_url": "https://www.concertocare.com",
+  "business_model": "B2C/B2B 养老护理服务",
+  "desc_cn": "面向老年Medicare/Medicaid会员的按风险付费居家综合照护商：由医生带队跨学科团队(护理康复社工)上门，并用自有平台(Patient3D)做风险分层监测。收入来自医保按人头风险支付。银发价值在'风险共担+上门多学科'居家照护，对应国内失能老人居家医疗缺风险测算与跨团队协同的机制缺口。",
+  "business_model_cn": "B2C/B2B 居家及机构护理服务",
+  "news_coverage": {
+   "news_count": 2,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "ConcertoCare Raises $105M to Expand Value-Based At-Home Care for Seniors",
+     "date": "2021",
+     "source": "ConcertoCare",
+     "url": "https://concertocare.com/articles?id=concertocare-raises-105-million-to-expand-value-based-at-home-care-model-to-more-seniors-with-unmet"
+    },
+    {
+     "title": "ConcertoCare Coverage - MedCity News",
+     "date": "",
+     "source": "MedCity News",
+     "url": "https://medcitynews.com/tag/concertocare/"
+    }
+   ],
+   "snippets": [
+    "ConcertoCare为面向老年复杂照护需求（Medicare/Medicaid/MA）的价值医疗居家照护公司，曾完成1.05亿美元B轮（Wells Fargo领投）。",
+    "本次检索未明确核实2024-2025新融资事件，近期行业报道以价值医疗政策为主。"
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "居家医疗",
+   "慢病管理"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "B轮",
+  "recommend": {
+   "rec_v1": "信号稳、累计2.36亿融资可查；住院率降47%数据公开；医生带队上门做风险付费综合照护差异在Patient3D平台；国内可借鉴其居家整合，受合规约束。",
+   "rec_v2": "银发居家医疗信号明确；融资与成效指标透明；把医疗行为健康社工组队上门是新意；国内可学其跨学科协同，难复制其按风险付费契约。",
+   "rec_v3": "信号中等、模式成熟；公开资料充分；以自有人口健康平台支撑居家照护的差异明显；对国内家庭病床有启发，依赖本地医生资源供给。",
+   "info_score": 7.0,
+   "diff_score": 7.0,
+   "copy_score": 5.0,
+   "signal_strength": 4.55,
+   "research_value": 58.7
+  },
+  "payor_model": "政府医保(Medicare/Medicaid)",
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 58.7,
+  "events": [
+   {
+    "date": "2022-02",
+    "text": "完成1.05亿美元B轮，Deerfield等参投"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "面向老年 Medicare/Medicaid 会员的居家综合照护，典型银发",
+  "name_cn": "Concerto Care",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0163",
+    "name": "安泰康成",
+    "overlap_l2": [
+     "慢病管理"
+    ]
+   },
+   {
+    "serial": "#0238",
+    "name": "森梅医疗",
+    "overlap_l2": [
+     "慢病管理"
+    ]
+   },
+   {
+    "serial": "#1403",
+    "name": "广州百寻数字科技有限公司",
+    "overlap_l2": [
+     "慢病管理"
+    ]
+   },
+   {
+    "serial": "#1431",
+    "name": "昆明降龙身心同治中医医学研究有限公司",
+    "overlap_l2": [
+     "慢病管理"
+    ]
+   },
+   {
+    "serial": "#1443",
+    "name": "国瑞医养服务（福州）有限公司",
+    "overlap_l2": [
+     "居家医疗"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0717",
+  "name": "Grow Therapy",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "心理健康"
+  ],
+  "description": "Grow Therapy 是心理健康平台，连接来访者、持证心理治疗师与健康险公司，提供覆盖保险（多数主流商业保险与 Medicaid）的线上心理治疗预约与匹配。平台上已有 1.9 万至 2.6 万+ 名治疗师，并以 B2B2C 模式服务雇主与健康计划，降低看诊门槛与等待时间。",
+  "highlights": [
+   "平台接入125家支付方、2.6万+治疗师，覆盖2.2亿投保人群",
+   "2026-03完成1.5亿美元D轮(估值约30亿美元)，总募资约3.28亿美元",
+   "打通EAP—保险—同治疗师延续的雇主心理福利"
+  ],
+  "funding_latest": {
+   "date": "2024年4月",
+   "amount": "8800万美元",
+   "round": "C轮",
+   "display": "C轮 8800万美元 (2024年4月)"
+  },
+  "funding_total": {
+   "amount": "$328M",
+   "display": "$328M (截至2026年3月)"
+  },
+  "investors": "Sequoia Capital, Goldman Sachs Alternatives, TCV, Transformation Capital, SignalFire, Plus Capital, BCI, Menlo Ventures",
+  "founded": 2020,
+  "value_score": 43,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Grow%20Therapy",
+  "website_url": "https://www.growtherapy.com",
+  "business_model": "B2C/B2B 老年健康保险",
+  "desc_cn": "连接保险公司与治疗师的心理诊疗匹配平台，覆盖125+支付方、2.6万+治疗师、2.2亿投保人群，2025年促成700万次诊疗。收入来自支付方直付与雇主EAP合作，并打通EAP—保险—同治疗师延续的雇主心理福利。含老年抑郁人群但主体非银发专营，属泛医疗擦边。",
+  "business_model_cn": "B2B/B2C 银发行业服务",
+  "news_coverage": {
+   "news_count": 4,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "Grow Therapy Raises $150M Series D, Valued at $3B",
+     "date": "2026-03-03",
+     "source": "Reuters/SRN",
+     "url": "https://srnnews.com/mental-health-startup-grow-therapy-valued-at-3-billion-in-latest-fundraise/"
+    },
+    {
+     "title": "高盛、红杉押注！AI驱动心理健康平台Grow Therapy新获1.5亿美元",
+     "date": "2026-03-22",
+     "source": "腾讯新闻",
+     "url": "https://news.qq.com/rain/a/20260322A0255Y00"
+    }
+   ],
+   "snippets": [
+    "Grow Therapy为连接保险公司/雇主/医疗系统的心理健康平台，2026年3月完成1.5亿美元D轮（TCV、高盛领投），估值30亿美元。",
+    "2024年曾完成8800万美元C轮，覆盖2.2亿用户与2.6万诊疗师，服务含老年抑郁人群。"
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "心理健康"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": {
+   "rec_v1": "心理健康的保险支付被巨头押注，其治疗师网络与估值跃升屡见报端。差异化是直连商保与Medicaid，把看诊自付降到极低；国内心理服务支付弱，可学其保险直连降本模型。",
+   "rec_v2": "资本看涨行为健康，其平台匹配逻辑与雇主合作细节公开可查。它用B2B2C撬动保险与雇主买单，而非个人掏腰包；国内可借鉴其把精神科资源通过平台均摊的做法。",
+   "rec_v3": "老年抑郁就诊难是共性痛点，该公司覆盖保险的用户规模有追踪价值。它把预约、匹配、报销一键化，缩短等待；国内可抄其平台加支付方两端撬动的轻模式。",
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 5,
+   "signal_strength": 3.55,
+   "research_value": 58.7
+  },
+  "payor_model": "商业保险+Medicaid+Medicare(支付方直付)+雇主EAP",
+  "signal_strength": 3.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 58.7,
+  "events": [
+   {
+    "date": "2024-04",
+    "text": "完成8800万美元C轮融资"
+   },
+   {
+    "date": "2026-03",
+    "text": "完成1.5亿美元D轮，估值约30亿美元；同期收购AI公司Tenor Therapy"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "心理健康平台含老年抑郁人群，但主体非银发专营",
+  "name_cn": "Grow Therapy",
+  "domestic_competitors": [
+   {
+    "serial": "#1442",
+    "name": "北京脑智科技有限公司",
+    "overlap_l2": [
+     "心理健康"
+    ]
+   },
+   {
+    "serial": "#1478",
+    "name": "北京品心心理",
+    "overlap_l2": [
+     "心理健康"
+    ]
+   },
+   {
+    "serial": "#0003",
+    "name": "乐湾",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0004",
+    "name": "优享陪诊",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0009",
+    "name": "南京新百",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0966",
+  "name": "Duos",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+   "保险"
+  ],
+  "description": "AI驱动的数字健康平台，负责保险计划的会员激活和福利执行。商业模式高度聚焦于Medicare Advantage等支付方，帮助老年用户理解和使用复杂的健康福利",
+  "highlights": [
+   "聚焦Medicare Advantage会员的福利激活与健康导航，AI驱动",
+   "B轮1.3亿美元，累计融资约1.67亿美元",
+   "连接支付方与老年用户，提升保险福利利用率"
+  ],
+  "funding_latest": {
+   "date": "2025.10",
+   "amount": "1.3亿美元",
+   "round": "B轮",
+   "display": "B轮 1.3亿美元 (2025.10)"
+  },
+  "funding_total": {
+   "amount": "$167M",
+   "display": "累计$167M (截至2025年10月)"
+  },
+  "investors": "FTV Capital, Forerunner Ventures, SJF Ventures, Castellan",
+  "founded": 2020,
+  "value_score": 50,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Duos",
+  "website_url": "https://getduos.com",
+  "business_model": "B2C/B2B 老年健康保险",
+  "desc_cn": "面向Medicare Advantage会员的AI健康福利导航平台：用对话式AI帮老年用户读懂复杂保单、激活年度体检等福利、自动填写政府补助申请并发起预约。收入来自健康计划（支付方）采购，按会员激活与福利利用率付费。银发价值'站支付方侧做老年福利激活与履约'，把复杂医保信息差变成可执行的代办闭环。",
+  "business_model_cn": "B2C/B2B 老年健康保险",
+  "news_coverage": {
+   "news_count": 8,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "DUOS raises $130M for senior-focused platform",
+     "date": "2025-10-09",
+     "source": "MobiHealthNews",
+     "url": "https://www.mobihealthnews.com/news/duos-raises-130m-senior-focused-platform"
+    }
+   ],
+   "snippets": [
+    "$130M strategic growth equity (FTV Capital led, Forerunner).",
+    "AI senior health-navigation platform."
+   ]
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "保险"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "B轮",
+  "recommend": {
+   "rec_v1": "老年健康福利激活平台信息厚实，聚焦把复杂保险福利讲明白并驱动使用；差异化在'福利执行'而非卖保险，国内可学导航思路但支付方难复制。",
+   "rec_v2": "面向长者的健康导航AI，信号与差异化兼具；降低福利浪费的思路对国内商保/惠民保有启发，然深度嵌入美国医保限制其平移。",
+   "rec_v3": "高信息量样本，帮老人真正用上已购健康权益；可复制性低因绑定特定医保计划，但'福利可视化'方法论值得借鉴。",
+   "info_score": 7,
+   "diff_score": 7,
+   "copy_score": 4,
+   "signal_strength": 4.55,
+   "research_value": 56.6
+  },
+  "payor_model": "商业保险支付（Medicare Advantage）",
+  "signal_strength": 4.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 58.7,
+  "events": [
+   {
+    "date": "2025-10",
+    "text": "完成1.3亿美元B轮融资，FTV Capital领投"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "专门服务老年群体、帮其用好健康保险福利，深度绑定银发支付方",
+  "name_cn": "Duos",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0140",
+    "name": "复星保德信",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#0151",
+    "name": "太平养老",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#0434",
+    "name": "天一智慧",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#1208",
+    "name": "宸汐健康",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#1378",
+    "name": "太平洋人寿",
+    "overlap_l2": [
+     "保险"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#1330",
+  "name": "AltoIRA",
+  "region": "海外",
+  "category_l1": "金融服务",
+  "category_l2": "养老金融",
+  "tags": [
+   "金融理财"
+  ],
+  "description": "自建 IRA 个人退休账户平台，支持含另类资产的退休储蓄。",
+  "highlights": [
+   "自助IRA托管平台，允许在退休账户内投创投/房产/加密/艺术品等另类资产",
+   "与Coinbase及75+另类投资伙伴集成，Pro版年费250美元、无资产费率",
+   "提供传统/Roth/SEP IRA，资金可rollover自401(k)，降低另类投资税负担"
+  ],
+  "funding_latest": {
+   "date": "2026",
+   "amount": "7310万美元",
+   "round": "Series B",
+   "display": "Series B $73.1M"
+  },
+  "funding_total": {
+   "amount": "约$1亿",
+   "display": "累计约$1亿"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 2018,
+  "value_score": 0,
+  "source": "信源治理入库(Tracxn) 2026-07-15",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://www.altoira.com",
+  "business_model": "B2C",
+  "desc_cn": "IRA托管平台，允许在退休账户内投资创投、房产、加密、艺术品等资产，已集成Coinbase及75+投资伙伴，支持传统/Roth/SEP IRA与401(k) rollover。Pro版年费250美元、无资产费率。核心价值在把退休储蓄与多元资产打通——对应国内个人养老金账户开放更丰富资产类别的样本。",
+  "business_model_cn": "B2C 退休账户平台",
+  "news_coverage": {
+   "news_count": 0,
+   "news_quality": "unscored",
+   "latest_news": null
+  },
+  "name_cn": "AltoIRA",
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "B轮",
+  "recommend": {
+   "rec_v1": "信号稳、信息新，自建IRA支持另类资产的退休账户已跑通；国内个人养老金产品单一，其'账户+多元配置'思路对养老金融设计有启发。",
+   "rec_v2": "信号稳、差异化在让普通人用退休账户投房产/私募，可复制性中。国内税延养老刚起步，可学其账户体验与资产拓展逻辑。",
+   "rec_v3": "信号稳、它2026年B轮7310万，方向清晰。信息量中等，可复制性中，对想做国内养老资金账户/配置平台的团队，是最该看的'退休账户产品化'样本。",
+   "info_score": 6.0,
+   "diff_score": 6.0,
+   "copy_score": 6.0,
+   "signal_strength": 3.55,
+   "research_value": 52.7
+  },
+  "payor_model": "个人自费（账户月费/年费由个人承担，资金来自rollover或定供）",
+  "signal_strength": 5.55,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 58.7,
+  "events": [
+   {
+    "date": "2026",
+    "text": "完成7310万美元B轮（据Tracxn），累计融资约1亿美元"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "自建IRA退休账户、支持另类资产，属个人养老储蓄基础设施",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0002",
+    "name": "SageWell",
+    "overlap_l2": [
+     "金融理财"
+    ]
+   },
+   {
+    "serial": "#0450",
+    "name": "银行＆保险公司",
+    "overlap_l2": [
+     "金融理财"
+    ]
+   },
+   {
+    "serial": "#1151",
+    "name": "国民养老保险",
+    "overlap_l2": [
+     "金融理财"
+    ]
+   },
+   {
+    "serial": "#1197",
+    "name": "太医管家",
+    "overlap_l2": [
+     "金融理财"
+    ]
+   },
+   {
+    "serial": "#1512",
+    "name": "北京信托",
+    "overlap_l2": [
+     "金融理财"
+    ]
+   }
+  ]
+ }
+]

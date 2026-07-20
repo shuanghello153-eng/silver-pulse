@@ -1,0 +1,518 @@
+[
+ {
+  "serial": "#0565",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 2012,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare)按人头预付",
+  "desc_cn": "Medicare按人头预付的老年社区诊所网络",
+  "recommend": "信号最强、信息量足，差异化在于以Medicare按人头预付承接全美老年初级保健，靠主动预防压低住院率盈利；可复制性受国内商保薄弱制约——最该学的是'医保结余分润+社区诊所'的基层路径，对国内紧密型医共体有直接借鉴。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "CVS/Optum于2023年以106亿美元收购，现运营230+中心覆盖27州",
+   "唯一获AARP背书的初级保健机构，按人头承担Medicare全额风险",
+   "将住院率较Medicare基准降低约51%，靠预防实现医保结余分润",
+   "2025年CVS对其商誉减记57亿美元并关闭16家诊所，盈利模式存疑"
+  ],
+  "events": [
+   {
+    "date": "2023-05",
+    "text": "CVS Health以106亿美元完成收购"
+   },
+   {
+    "date": "2025",
+    "text": "CVS对Oak Street商誉减记57亿美元并关闭16家诊所"
+   }
+  ],
+  "signal_strength": 10.0,
+  "info_score": 9.0,
+  "diff_score": 8.5,
+  "copy_score": 7.0,
+  "research_value": 88.0,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专注Medicare老年初级保健，平均患者68岁，老年健康核心场景",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0855",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 2017,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare Advantage)按人头付费",
+  "desc_cn": "由健康计划买单的居家健康评估与早筛",
+  "recommend": "信号强、信息量足，差异化在把上门健康评估做成由健康计划全额买单的预防入口，并新增认知筛查；可复制性受国内居家评估付费方缺位制约——最该学的是'支付方采购+上门早筛'模式，国内可对接长护险与商保做居家失能/认知评估。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2023年3月被CVS以约80亿美元收购，并入Healthspire到家体系",
+   "年上门健康评估超300万人次，由健康计划全额买单、会员免费",
+   "2024年新增居家轻度认知障碍数字筛查与糖尿病Focused Visits",
+   "会员满意度97%，97%的MA计划含健身/健康福利"
+  ],
+  "events": [
+   {
+    "date": "2023-03",
+    "text": "CVS以约80亿美元完成收购"
+   },
+   {
+    "date": "2024-10",
+    "text": "上线居家轻度认知障碍数字筛查"
+   }
+  ],
+  "signal_strength": 10.0,
+  "info_score": 8.5,
+  "diff_score": 8.0,
+  "copy_score": 5.0,
+  "research_value": 81.5,
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家健康评估与认知早筛，直接服务老年健康预防",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0602",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "已上市",
+  "founded": 2013,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "商业保险+个人自付(处方药)",
+  "desc_cn": "押注阿尔茨海默病跨血脑屏障候选药",
+  "recommend": "信号强、信息量足，差异化在押注跨血脑屏障的阿尔茨海默病候选药与递送平台；可复制性低（重研发投入、周期长）——国内创业者难复制原研，但可学其'瞄准被低估衰老疾病+平台型递送技术'的布局思路，关注神经退行性疾病早筛与用药。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2024年10月宣布、12月完成以14亿美元收购Aliada",
+   "ALIA-1758为靶向焦谷氨酸淀粉样蛋白β的抗AD抗体，处1期临床",
+   "采用跨血脑屏障MODEL递送平台，主攻CNS药物递送",
+   "AbbVie为大型药企，神经科学为其关键增长板块"
+  ],
+  "events": [
+   {
+    "date": "2024-10-28",
+    "text": "宣布14亿美元收购Aliada"
+   },
+   {
+    "date": "2024-12-11",
+    "text": "完成收购Aliada，ALIA-1758纳入管线"
+   }
+  ],
+  "signal_strength": 9.55,
+  "info_score": 9.0,
+  "diff_score": 5.0,
+  "copy_score": 3.0,
+  "research_value": 71.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "收购的Aliada核心资产为阿尔茨海默病候选药，瞄准衰老人群神经退行性疾病",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#0398",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 1989,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "个人自费+香港政府买位/资助",
+  "desc_cn": "香港高端护老院舍与认知障碍主题照护",
+  "recommend": "信号较强、信息量中，差异化在香港高端护老院舍与认知障碍主题照护，并延伸至内地医养；可复制性中等——国内可学其'院舍标准化运营+高端认知症专区'打法，但香港政府买位模式难照搬，宜结合普惠定位。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "1989年创于香港观塘，首家在港主板上市的护老集团",
+   "2024年2月被华懋集团私有化退市，旗下12间院舍、1632床位",
+   "拓展浙江乌镇医养项目，设认知障碍主题照护专区",
+   "定位高端护老，香港政府买位/资助+个人自费"
+  ],
+  "events": [
+   {
+    "date": "2022-08",
+    "text": "华懋集团收购56.15%股权"
+   },
+   {
+    "date": "2024-02-29",
+    "text": "获法院批准私有化并从港交所退市"
+   }
+  ],
+  "signal_strength": 8.55,
+  "info_score": 7.5,
+  "diff_score": 6.5,
+  "copy_score": 6.0,
+  "research_value": 73.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "香港护老院舍与认知障碍照护，银发养护核心",
+  "website_url": null,
+  "business_tags_role": "运营商"
+ },
+ {
+  "serial": "#0593",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 1981,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare Advantage)补贴+健康计划采购",
+  "desc_cn": "老年健身福利，靠MA补贴向健康计划收费",
+  "recommend": "信号中等、信息量中，差异化在把老年健身做成Medicare Advantage补贴的免费福利，按人头向健康计划收费；可复制性受国内银发健身付费意愿弱制约——最该学的是'保险买单+网点+社交'降低医疗支出的闭环，国内可对接惠民保。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "Stone Point Capital于2022年以20亿美元收购，由上市公司转为私有",
+   "核心资产SilverSneakers为全美领先老年健身福利，覆盖1.6万网点",
+   "按会员每月向健康计划收费，参保会员医疗支出低约16%",
+   "2023年收购数字健康平台Burnalong，拓展虚拟健身"
+  ],
+  "events": [
+   {
+    "date": "2022-06",
+    "text": "Stone Point Capital以20亿美元收购并私有化"
+   },
+   {
+    "date": "2023-07",
+    "text": "任命Hill Ferguson为CEO"
+   }
+  ],
+  "signal_strength": 7.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 67.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "SilverSneakers为老年健身福利，降低长者医疗支出",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0594",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 1992,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare Advantage)补贴",
+  "desc_cn": "面向长者的免费健身福利与社交网络",
+  "recommend": "信号中等、信息量中，差异化正是老年健身福利品牌，靠MA补贴覆盖上万网点；可复制性受国内缺乏类似补贴制约——可学其'健身即预防、保险降支出'的定位，国内可探索社区健身与商保/长护险结合的轻模式。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "1992年由Mary Swanson创立，现属Tivity/Stone Point体系",
+   "面向长者免费健身福利，通过MA与健康补充险覆盖",
+   "网络含1.6万健身房与老年中心，会员满意度高",
+   "被视为降低医疗支出的'生活方式福利'标杆"
+  ],
+  "events": [
+   {
+    "date": "1992",
+    "text": "由Mary Swanson创立"
+   },
+   {
+    "date": "2022",
+    "text": "随Tivity被Stone Point收购转为私有资产"
+   }
+  ],
+  "signal_strength": 7.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 67.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "面向长者的免费健身与社交福利",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0595",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "已上市",
+  "founded": 1995,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端平台抽佣+个人订阅",
+  "desc_cn": "互联网控股集团，老年照护撮合为银发切点",
+  "recommend": "信号中等、信息量足，差异化偏弱（互联网控股集团），银发切点仅在其家庭照护撮合平台；可复制性低——国内可参考'照护者平台+雇主福利'撮合模式，但需注意护工供给与信任体系的本土搭建。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "互联网与媒体控股集团（NASDAQ:IAC），2019年以5亿美元收购Care.com",
+   "Care.com为全球最大家庭照护线上撮合平台，老年照护为增长最快板块",
+   "模式为B端平台抽佣+个人订阅，并设雇主Care@Work福利",
+   "2026年Care.com被以3.2亿美元转售给买方财团"
+  ],
+  "events": [
+   {
+    "date": "2019-12-20",
+    "text": "宣布5亿美元收购Care.com"
+   },
+   {
+    "date": "2020-Q1",
+    "text": "完成收购Care.com"
+   },
+   {
+    "date": "2026",
+    "text": "Care.com以3.2亿美元转售买方财团"
+   }
+  ],
+  "signal_strength": 7.55,
+  "info_score": 8.0,
+  "diff_score": 4.0,
+  "copy_score": 3.0,
+  "research_value": 60.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "银发切点仅来自Care.com的老年照护撮合，母公司为互联网控股集团，主业非银发",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0850",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 2010,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "支付方/雇主采购+个人订阅",
+  "desc_cn": "数字健康平台打通居家照护网络",
+  "recommend": "信号中等、信息量中，差异化在把数字健康平台与居家照护网络打通，面向支付方/雇主/个人；可复制性中等——国内可学其'健康数据中枢+居家护理'组合，对接医保与商保做慢病与到家照护管理。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2024年10月被医疗投资机构Altaris以5.18亿美元私有化收购",
+   "旗下CareLinx为居家照护平台，注册照护人员超45万",
+   "MA业务快速增长，2022年新增180万会员",
+   "对接雇主、支付方与个人，含数字疗法与福利导航"
+  ],
+  "events": [
+   {
+    "date": "2021",
+    "text": "通过SPAC上市"
+   },
+   {
+    "date": "2024-06-21",
+    "text": "Altaris宣布5.18亿美元收购"
+   },
+   {
+    "date": "2024-10-22",
+    "text": "完成私有化收购，退市"
+   }
+  ],
+  "signal_strength": 7.55,
+  "info_score": 7.5,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 71.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "数字健康+CareLinx居家照护，覆盖老年慢病与到家护理",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0012",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2015,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "个人自费+B端企业采购",
+  "desc_cn": "国内最大体检网络，延伸至老年医疗险",
+  "recommend": "信号中等、信息量足，差异化在国内最大体检网络+Alpha风控引擎推出80岁老年医疗险，并以AI总检提效；可复制性强——国内创业者最该学其'体检数据→保险风控→定制体检'闭环，及用DeepSeek做总检一体机的降本路径。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2015年创立于上海，国内最大体检服务平台，覆盖300+城3000+机构",
+   "自研Alpha风控引擎，推出国内首款80岁可购老年医疗险",
+   "AI总检一体机2025年7月商用，报告生成缩至约2分钟",
+   "累计融资近10亿元，2025未来医疗100强第6，已有IPO计划"
+  ],
+  "events": [
+   {
+    "date": "2025-02",
+    "text": "善太医AI接入DeepSeek"
+   },
+   {
+    "date": "2025-07",
+    "text": "AI智能总检一体机商用"
+   },
+   {
+    "date": "2025-05-12",
+    "text": "登未来医疗100强第6"
+   }
+  ],
+  "signal_strength": 7.05,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 8.0,
+  "research_value": 75.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "老年体检网络+80岁老年医疗险，深耕银发健康预防与支付",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#0461",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 1982,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+  "desc_cn": "居家医疗与临终关怀双线照护网络",
+  "recommend": "信号中等、信息量足，差异化在居家医疗与临终关怀双线照护网络；可复制性受国内居家照护支付与护工供给制约——可学其'居家+安宁'一体化与按服务收费，国内宜从长护险定点机构切入。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2025年8月被UnitedHealth/Optum以33亿美元收购并退市",
+   "全美最大居家医疗与临终关怀商之一，年服务46.5万患者、覆盖38州",
+   "因反垄断被要求剥离164个网点（涉及年收入5.28亿美元）",
+   "居家照护成本较住院低50%–70%，契合价值医疗"
+  ],
+  "events": [
+   {
+    "date": "2023-06",
+    "text": "同意被UnitedHealth以33亿美元收购"
+   },
+   {
+    "date": "2025-08-14",
+    "text": "完成收购并退市，剥离164网点"
+   }
+  ],
+  "signal_strength": 7.05,
+  "info_score": 8.0,
+  "diff_score": 6.5,
+  "copy_score": 4.0,
+  "research_value": 66.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家医疗与临终关怀，老年到家照护核心场景",
+  "website_url": null,
+  "business_tags_role": "运营商"
+ },
+ {
+  "serial": "#0949",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "被收购",
+  "founded": 1994,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+  "desc_cn": "家庭医疗与临终关怀的到家照护网络",
+  "recommend": "信号中等、信息量足，差异化在覆盖多州的家庭医疗与临终关怀网络，与医院系统共建到家能力；可复制性受支付与并购门槛制约——可学其'居家+社区+院后'整合与院企共建模式，国内可对接县域医共体。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2023年2月被UnitedHealth/Optum以54亿美元收购并退市",
+   "覆盖37州与华盛顿特区，年患者接触超1200万次",
+   "居家医疗+临终关怀+社区照护，与医院系统共建网点",
+   "成为Optum到家医疗能力的核心基座"
+  ],
+  "events": [
+   {
+    "date": "2022-03",
+    "text": "UnitedHealth宣布54亿美元收购"
+   },
+   {
+    "date": "2023-02-22",
+    "text": "完成收购并退市"
+   }
+  ],
+  "signal_strength": 7.05,
+  "info_score": 8.0,
+  "diff_score": 6.5,
+  "copy_score": 4.0,
+  "research_value": 66.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "家庭医疗与临终关怀，老年居家照护网络",
+  "website_url": null,
+  "business_tags_role": "运营商"
+ },
+ {
+  "serial": "#0954",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "已上市",
+  "founded": 2014,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare/Medicaid)+商业保险+服务收费",
+  "desc_cn": "居家健康与临终关怀双线上市运营商",
+  "recommend": "信号中等、信息量中，差异化在居家健康与临终关怀双线上市规模，靠Medicare/Medicaid与服务收费；可复制性受国内支付结构制约——可学其'居家医疗+安宁疗护'轻重结合与精细化运营，国内可从安宁疗护试点切入。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "2022年从Encompass分拆在纽交所上市（EHAB）",
+   "覆盖34州，约255个居家护理点与112个临终关怀点",
+   "2025年Q1净收入1780万美元，临终关怀板块连续增长",
+   "居家医疗靠Medicare/Medicaid与服务收费，非MA占比提升"
+  ],
+  "events": [
+   {
+    "date": "2022",
+    "text": "从Encompass分拆在纽交所上市"
+   },
+   {
+    "date": "2025-03-04",
+    "text": "发布2024Q4财报，临终关怀连续增长"
+   }
+  ],
+  "signal_strength": 7.05,
+  "info_score": 7.5,
+  "diff_score": 6.5,
+  "copy_score": 4.0,
+  "research_value": 64.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "居家健康与临终关怀双线，老年到家与安宁疗护",
+  "website_url": null,
+  "business_tags_role": "运营商"
+ }
+]

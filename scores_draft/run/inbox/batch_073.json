@@ -1,0 +1,526 @@
+{
+ "batch": 73,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0747",
+   "name": "Jellydrops",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "营养食品",
+    "认知症"
+   ],
+   "description": "无糖零食，95%水+电解质，促进补水",
+   "highlights": "95%水+电解质",
+   "funding_latest": null,
+   "funding_total": "$3.05M",
+   "investors": "Stanford Angels of the UK",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Jellydrops",
+   "website_url": "https://www.jellydrops.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "无糖零食，95%水+电解质，促进补水",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "食品营养",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "营养食品",
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Jellydrops】聚焦行业媒体/认知症，95%水+电解质，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0748",
+   "name": "JOGO Health",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "精神&神经",
+   "tags": [
+    "尿失禁",
+    "医疗器械"
+   ],
+   "description": "利用大脑神经可塑性治疗慢性疼痛和失禁，FDA批准",
+   "highlights": "FDA批准",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "550万美元",
+    "display": "550万美元 (2024年7月)"
+   },
+   "funding_total": "$5.5M",
+   "investors": "Hourglass Ventures (lead), Mayo Clinic Ventures",
+   "founded": "2018",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=JOGO%20Health",
+   "website_url": "https://www.jogohealth.com",
+   "business_model": "硬件产品",
+   "desc_cn": "利用大脑神经可塑性治疗慢性疼痛和失禁，FDA批准",
+   "business_model_cn": "硬件产品",
+   "tag_l1": [
+    "消费品",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "尿失禁",
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【JOGO Health】聚焦产业资本/康复/慢病管理，FDA批准，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0750",
+   "name": "K4Connect",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "K4Connect 是使命驱动型的 AgeTech 公司，为全美养老社区（独立生活、辅助生活、记忆照护）提供企业级 SaaS：K4Community 互动平台（居民沟通、参与、健康、安全与智能家居）与 FusionOS 数据互操作平台，连接可穿戴设备、EHR 与 50+ 应用以打通社区运营数据，提升居民独立性与运营效率。",
+   "highlights": "老年社区智能家居IoT平台，Series B $21M，覆盖500+社区",
+   "funding_latest": {
+    "date": "2020-07",
+    "amount": "未披露",
+    "round": "Series B收尾",
+    "display": "Series B收尾 未披露 (2020-07)"
+   },
+   "funding_total": {
+    "amount": "$21M+",
+    "display": "累计$21M+"
+   },
+   "investors": "Forte Ventures, Accel, Sierra Ventures, Grotech Ventures, RLJ Equity Partners",
+   "founded": "2013",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=K4Connect",
+   "website_url": "https://www.k4connect.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "K4Connect 是使命驱动型的 AgeTech 公司，为全美养老社区（独立生活、辅助生活、记忆照护）提供企业级 SaaS：K4Community 互动平台（居民沟通、参与、健康、安全与智能家居）与 FusionOS 数据互操作平台，连接可穿戴设备、EHR 与 50+ 应用以打通社区运营数据，提升居民独立性与运营效率。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【K4Connect】聚焦产业资本/行业媒体/适老化改造，老年社区智能家居IoT平台，Series B $21M，覆盖500+社区，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0751",
+   "name": "Kalogon",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "轮椅"
+   ],
+   "description": "智能坐垫预防轮椅使用者压疮",
+   "highlights": "智能坐垫预防轮椅使用者压疮",
+   "funding_latest": {
+    "amount": "120万美元",
+    "display": "120万美元"
+   },
+   "funding_total": "$5.75M",
+   "investors": "Enable Ventures (lead), Florida...",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kalogon",
+   "website_url": "https://www.kalogon.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "智能坐垫预防轮椅使用者压疮",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "轮椅"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Kalogon】聚焦产业资本/智能硬件/消费品，智能坐垫预防轮椅使用者压疮，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0752",
+   "name": "Keep Company",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "照护支持"
+   ],
+   "description": "帮助雇主量化和留住身为护理人员的员工",
+   "highlights": "帮助雇主量化和留住身为护理人员的员工",
+   "funding_latest": {
+    "amount": "140万美元",
+    "display": "140万美元"
+   },
+   "funding_total": "$500K",
+   "investors": "5 investors (Seed)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Keep%20Company",
+   "website_url": "https://www.keepcompany.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "帮助雇主量化和留住身为护理人员的员工",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Keep Company】聚焦专业护理/产业资本，帮助雇主量化和留住身为护理人员的员工，B2B+B2C模式，研究价值分26。",
+   "payor_model": "商业保险",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0753",
+   "name": "Kemtai",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "视觉障碍",
+   "tags": [
+    "居家康复",
+    "AI医疗"
+   ],
+   "description": "Kemtai 是数字物理治疗平台，用自研计算机视觉（无需传感器/可穿戴，任意带摄像头设备即可运行，FDA 注册、CE 认证）实时分析人体 111 个关键点动作并提供纠正指导，覆盖 2,000+ 项练习，用于居家/临床康复训练与动作评估；以 B2B 模式服务医疗系统、数字健康与药械企业。原标签'眼镜/健身'明显错误。",
+   "highlights": "FDA批准的计算机视觉AI锻炼和评估平台",
+   "funding_latest": {
+    "amount": "580万美元",
+    "display": "580万美元"
+   },
+   "funding_total": "$4M",
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kemtai",
+   "website_url": "https://www.kemtai.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Kemtai 是数字物理治疗平台，用自研计算机视觉（无需传感器/可穿戴，任意带摄像头设备即可运行，FDA 注册、CE 认证）实时分析人体 111 个关键点动作并提供纠正指导，覆盖 2,000+ 项练习，用于居家/临床康复训练与动作评估；以 B2B 模式服务医疗系统、数字健康与药械企业。原标签'眼镜/健身'明显错误。",
+   "business_model_cn": "B2B/B2C 视觉障碍辅助硬件",
+   "tag_l1": [
+    "养老服务",
+    "行业服务"
+   ],
+   "tag_l2": [
+    "居家康复",
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Kemtai】聚焦AI科技/产业资本/眼镜，FDA批准的计算机视觉AI锻炼和评估平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0755",
+   "name": "Kinto",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "照护支持",
+    "认知症"
+   ],
+   "description": "Kinto 是面向痴呆症家庭照护者的科技赋能型照护辅导服务（2017 年创立，2024 年被 Rippl Care 收购），通过 App 提供一对一持证 Care Coach 辅导、个性化课程与同伴互助小组，并以 Medicare/Medicaid、医院与 ACO 为支付与分发渠道免费提供给照护者；核心改善照护者福祉而非直接治疗患者。原标签'远程护理'不准确。",
+   "highlights": "照顾痴呆症亲人",
+   "funding_latest": {
+    "date": "被收购",
+    "round": "收购",
+    "display": "收购 (被收购)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kinto",
+   "website_url": "https://www.kinto.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Kinto 是面向痴呆症家庭照护者的科技赋能型照护辅导服务（2017 年创立，2024 年被 Rippl Care 收购），通过 App 提供一对一持证 Care Coach 辅导、个性化课程与同伴互助小组，并以 Medicare/Medicaid、医院与 ACO 为支付与分发渠道免费提供给照护者；核心改善照护者福祉而非直接治疗患者。原标签'远程护理'不准确。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "照护支持",
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Kinto】聚焦文娱社交/认知症，照顾痴呆症亲人，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0758",
+   "name": "Labrador Systems",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "日常辅助机器人，送餐、洗衣服等",
+   "highlights": "送餐、洗衣服等",
+   "funding_latest": null,
+   "funding_total": "$5.45M",
+   "investors": "iRobot, HAX, Alexa Fund",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Labrador%20Systems",
+   "website_url": "https://labradorsystems.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "日常辅助机器人，送餐、洗衣服等",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Labrador Systems】聚焦机器人/行业媒体/辅具，送餐、洗衣服等，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0759",
+   "name": "Lace AI Pro",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "听觉障碍",
+   "tags": [
+    "助听器"
+   ],
+   "description": "超越助听器，教患者用大脑来聆听",
+   "highlights": "教患者用大脑来聆听",
+   "funding_latest": null,
+   "funding_total": "$14M",
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lace%20AI%20Pro",
+   "website_url": "https://www.neurotone.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "超越助听器，教患者用大脑来聆听",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lace AI Pro】聚焦助听器，教患者用大脑来聆听，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0760",
+   "name": "Ladder",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "老年健身",
+   "tags": [
+    "健身"
+   ],
+   "description": "虚拟力量训练，每月29.99美元订阅",
+   "highlights": "每月29.99美元订阅",
+   "funding_latest": {
+    "date": "2024年11月",
+    "amount": "1.05亿美元",
+    "display": "1.05亿美元 (2024年11月)"
+   },
+   "funding_total": {
+    "amount": "$194M",
+    "display": "$194M (截至2025年)"
+   },
+   "investors": "Canaan, RRE Ventures, Thomvest Ventures, Geodesic Capital, R136 Ventures",
+   "founded": "2020",
+   "value_score": 54,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ladder",
+   "website_url": "https://www.ladder.com",
+   "business_model": "B2C 休闲文娱",
+   "desc_cn": "虚拟力量训练，每月29.99美元订阅",
+   "business_model_cn": "B2C 休闲文娱",
+   "news_coverage": {
+    "news_count": 6,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Ladder Secures Over $100 Million in New Funding",
+      "date": "2024-11-20",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20241120017577/en/Ladder-Secures-Over-%24100-Million-in-New-Funding-to-Scale-1-Strength-Training-App"
+     }
+    ],
+    "snippets": [
+     "$15M Series B (Point72 Ventures, ADvantage VC) + $90M GTM investment from General Catalyst (2024).",
+     "#1 iOS strength-training app (adjacent to 老年健身)."
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ladder】聚焦产业资本/健身/文娱社交，每月29.99美元订阅，B2C模式，研究价值分54。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0761",
+   "name": "LifeAfterMe",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "遗产规划"
+   ],
+   "description": "确保亲人不必担心收集重要数字数据",
+   "highlights": "确保亲人不必担心收集重要数字数据",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LifeAfterMe",
+   "website_url": "https://lifeafterme.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "确保亲人不必担心收集重要数字数据",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "遗产规划"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【LifeAfterMe】聚焦临终关怀/行业媒体，确保亲人不必担心收集重要数字数据，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0763",
+   "name": "LifeLoop",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "护理协调"
+   ],
+   "description": "面向养老社区的综合管理和活动组织工具，4700+社区",
+   "highlights": "4700+社区",
+   "funding_latest": {
+    "date": "2024年8月",
+    "round": "收购",
+    "display": "收购 (2024年8月)"
+   },
+   "funding_total": null,
+   "investors": "Revolution (Rise of the Rest Seed Fund)",
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LifeLoop",
+   "website_url": "https://www.lifeloop.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "面向养老社区的综合管理和活动组织工具，4700+社区",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护理协调"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【LifeLoop】聚焦产业资本/文娱社交，4700+社区，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

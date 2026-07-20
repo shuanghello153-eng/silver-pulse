@@ -1,0 +1,490 @@
+{
+ "batch": 88,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1018",
+   "name": "MyndVR",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "VR疗法",
+   "tags": [
+    "文娱"
+   ],
+   "description": "MyndVR delivers curated virtual-reality content and headsets to senior-living communities and skilled-nursing facilities, using immersive media to ease chronic pain, anxiety, and loneliness among older adults.",
+   "highlights": "VR用于老年心理舒缓",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://myndvr.com",
+   "business_model": "",
+   "desc_cn": "MyndVR 为养老院与护理机构打造虚拟现实影音库与头显设备，借沉浸式体验减轻老人的慢性疼痛、焦虑与孤独感。",
+   "business_model_cn": "B2B设备与内容订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MyndVR】聚焦精神健康，VR用于老年心理舒缓。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1019",
+   "name": "CARU",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "紧急呼叫",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "瑞士紧急呼叫系统，支持按钮/语音与自动跌倒检测",
+   "highlights": "紧急呼叫硬件",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "瑞士紧急呼叫系统，支持按钮/语音与自动跌倒检测",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【CARU】聚焦健康监测，紧急呼叫硬件。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1020",
+   "name": "PalCare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "安全呼叫",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "PalCare builds wireless emergency-call, nurse-call, door-access, and wander-management hardware with cloud software that lets senior-living communities monitor resident safety and staff response in real time.",
+   "highlights": "机构安全呼叫系统",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "PalCare 研发无线紧急呼叫、护士呼叫、门禁与走失预警硬件及云端软件，帮助养老机构实时掌握住户安全与员工响应。",
+   "business_model_cn": "B2B硬件+软件订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【PalCare】聚焦照护系统，机构安全呼叫系统。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1021",
+   "name": "AutumnCare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "临床管理云",
+   "tags": [
+    "用药管理"
+   ],
+   "description": "澳洲临床管理云软件，含电子药管与现场点采集数据",
+   "highlights": "临床管理云",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.autumn.care",
+   "business_model": "",
+   "desc_cn": "澳洲临床管理云软件，含电子药管与现场点采集数据",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药管理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AutumnCare】聚焦保健品，临床管理云。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1022",
+   "name": "Mon Ami",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "机构管理软件",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "为老残服务机构重造数据库，自动报告与活动协调",
+   "highlights": "机构管理数据库",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.monami.care",
+   "business_model": "",
+   "desc_cn": "为老残服务机构重造数据库，自动报告与活动协调",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Mon Ami】聚焦照护系统，机构管理数据库。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1023",
+   "name": "Care Daily",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "AI家庭传感器",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "AI管家学行为基线，预测隐秘健康问题与节能安防",
+   "highlights": "无摄像头AI行为预测",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://caredaily.com",
+   "business_model": "",
+   "desc_cn": "AI管家学行为基线，预测隐秘健康问题与节能安防",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Care Daily】聚焦AI科技，无摄像头AI行为预测。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1024",
+   "name": "Caring.com",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "信息目录",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "全美养老社区与居家照护免费目录与家庭顾问指导",
+   "highlights": "养老信息聚合流量入口",
+   "funding_latest": "Private Equity",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.caring.com",
+   "business_model": "",
+   "desc_cn": "全美养老社区与居家照护免费目录与家庭顾问指导",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Caring.com】聚焦养老社区，养老信息聚合流量入口。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1025",
+   "name": "Eldermark",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老软件分析",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "30年养老软件，分析洞察提收入简行政",
+   "highlights": "老牌养老软件",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.eldermark.com",
+   "business_model": "",
+   "desc_cn": "30年养老软件，分析洞察提收入简行政",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Eldermark】聚焦照护系统，老牌养老软件。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1026",
+   "name": "ZIBRIO",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "平衡测量",
+   "tags": [
+    "康复器械",
+    "跌倒监测"
+   ],
+   "description": "平衡测量设备，用稳定性秤预测跌倒风险",
+   "highlights": "低成本防跌倒筛查硬件",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://zibrio.com",
+   "business_model": "",
+   "desc_cn": "平衡测量设备，用稳定性秤预测跌倒风险",
+   "business_model_cn": "B2B/B2C 康复设备/跌倒预防",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械",
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【ZIBRIO】聚焦健康监测，低成本防跌倒筛查硬件。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1027",
+   "name": "Intus Care",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康分析",
+   "tags": [
+    "慢病管理",
+    "护理协调"
+   ],
+   "description": "Intus Care analyzes claims, clinical, and social-determinant data for PACE (Program of All-Inclusive Care for the Elderly) organizations, flagging members at high risk of hospitalization or chronic-disease deterioration to guide proactive care.",
+   "highlights": "数据驱动降低住院率",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.intuscare.com",
+   "business_model": "",
+   "desc_cn": "Intus Care 汇总 PACE 长者全面照护项目的理赔、临床与社会数据，识别高住院与慢病恶化风险成员，协助机构主动干预。",
+   "business_model_cn": "B2B SaaS订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理",
+    "护理协调"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Intus Care】聚焦AI科技，数据驱动降低住院率。",
+   "payor_model": "PACE",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1028",
+   "name": "Effectivate",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "脑训练",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "Effectivate offers a machine-learning cognitive-training program that adapts daily brain exercises to each older adult's performance, targeting memory, processing speed, and executive function to slow age-related decline.",
+   "highlights": "个性化脑训练",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://effectivate.com",
+   "business_model": "",
+   "desc_cn": "Effectivate 以机器学习驱动认知训练，按每位老人的表现自适应调整每日脑力练习，针对记忆、处理速度与共执行功能延缓衰退。",
+   "business_model_cn": "B2C/B2B订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Effectivate】聚焦AI科技/认知症，个性化脑训练。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1029",
+   "name": "Gubbe",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "照护连接App",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "芬兰连接老人与看护者App，含传感器跌倒监测",
+   "highlights": "北欧照护连接",
+   "funding_latest": "Seed",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://gubbe.com",
+   "business_model": "",
+   "desc_cn": "芬兰连接老人与看护者App，含传感器跌倒监测",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Gubbe】聚焦照护系统，北欧照护连接。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

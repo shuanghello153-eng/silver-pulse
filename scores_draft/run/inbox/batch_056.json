@@ -1,0 +1,497 @@
+{
+ "batch": 56,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0427",
+   "name": "点可科技",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "家用跌倒报警器，C端家庭零售+社区批量采购",
+   "highlights": "C端家庭零售+社区批量采购",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%82%B9%E5%8F%AF%E7%A7%91%E6%8A%80",
+   "website_url": "https://www.dianke-aiot.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "点可科技",
+   "desc_cn": "家用跌倒报警器，C端家庭零售+社区批量采购",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【点可科技】聚焦个护/健康监测，C端家庭零售+社区批量采购，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0429",
+   "name": "享睡Sleepace",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "睡眠监测"
+   ],
+   "description": "家用无感睡眠监测垫，居家、养老机构双场景硬件",
+   "highlights": "居家、养老机构双场景硬件",
+   "funding_latest": {
+    "amount": "多轮融资京东、戈壁创投，后罗莱战略收购",
+    "display": "多轮融资京东、戈壁创投，后罗莱战略收购"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 32,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%AB%E7%9D%A1Sleepace",
+   "website_url": "http://www.sleepace.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "享睡Sleepace",
+   "desc_cn": "家用无感睡眠监测垫，居家、养老机构双场景硬件",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【享睡Sleepace】聚焦个护/产业资本/健康监测，居家、养老机构双场景硬件，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0430",
+   "name": "大耳马医学",
+   "region": "国内",
+   "category_l1": "日常用品",
+   "category_l2": "假发",
+   "tags": [
+    "睡眠监测",
+    "康复器械"
+   ],
+   "description": "鼾症、睡眠呼吸暂停居家监测，适配老年慢病人群",
+   "highlights": "适配老年慢病人群",
+   "funding_latest": {
+    "round": "A轮",
+    "display": "A轮"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A7%E8%80%B3%E9%A9%AC%E5%8C%BB%E5%AD%A6",
+   "website_url": "https://www.daermed.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "大耳马医学",
+   "desc_cn": "鼾症、睡眠呼吸暂停居家监测，适配老年慢病人群",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "睡眠监测",
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【大耳马医学】聚焦个护/产业资本/健康监测，适配老年慢病人群，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0431",
+   "name": "太平梧桐人家",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "CCRC"
+   ],
+   "description": "中国太平·梧桐人家（上海）是中国太平保险集团斥资约40亿元打造的旗舰型CCRC持续照料养老社区，位于上海浦东张江国际医学园区，占地284亩、可容纳约3500名长者，集活力公寓、颐养护理公寓、自建二级康复医院于一体，提供从自理到全护理的全周期医养服务，是保险系养老社区标杆。",
+   "highlights": "上海旗舰",
+   "funding_latest": {
+    "amount": "中国太平全资",
+    "display": "中国太平全资"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%AA%E5%B9%B3%E6%A2%A7%E6%A1%90%E4%BA%BA%E5%AE%B6",
+   "website_url": "https://www.cntaiping.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "name_cn": "太平梧桐人家",
+   "desc_cn": "保险对接高端持续照料社区，上海旗舰",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "CCRC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【太平梧桐人家】聚焦文娱社交，上海旗舰，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0432",
+   "name": "复星保德信颐养",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "CCRC"
+   ],
+   "description": "复星保德信·星堡养老社区是复星康养旗下高端养老品牌（2012年创立），采用美式CCRC持续照料模式，在上海、北京等7大城市布局养老社区，依托复星大健康资源提供医疗闭环、智慧生活与代际融合服务，并通过复星保德信指定保险产品对接入住权益（总保费达150万可享保证入住）。",
+   "highlights": "高净值客群",
+   "funding_latest": {
+    "amount": "复星&保德信合资旗下",
+    "display": "复星&保德信合资旗下"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%8D%E6%98%9F%E4%BF%9D%E5%BE%B7%E4%BF%A1%E9%A2%90%E5%85%BB",
+   "website_url": "https://www.fosunpramerica.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "复星保德信颐养",
+   "desc_cn": "复星蜂巢配套养老社区，高净值客群",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "CCRC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【复星保德信颐养】聚焦养老社区/行业媒体，高净值客群，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0434",
+   "name": "天一智慧",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "智能硬件",
+    "保险"
+   ],
+   "description": "南京天一智慧养老服务有限公司（2019年成立，官网tianyi99.com）是一家以信息化为特征的智慧养老服务企业，业务覆盖居家社区养老、长护险上门护理、医院陪护（\"天一护养\"品牌）及护理员供应链，拥有自主研发的数智化医院陪护管理平台，服务网络遍及江苏、浙江等约30个城市、一线护理员约2000人。",
+   "highlights": "社区智慧平台、居家监护硬件配套",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 27,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E4%B8%80%E6%99%BA%E6%85%A7",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "天一智慧",
+   "desc_cn": "社区智慧平台、居家监护硬件配套",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "消费品",
+    "金融保险"
+   ],
+   "tag_l2": [
+    "智能硬件",
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天一智慧】聚焦居家护理/数字化/智能硬件，社区智慧平台、居家监护硬件配套，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0435",
+   "name": "戴恩医疗",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "助浴助洁",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "失能老人上门洗澡、身体清洁护理",
+   "highlights": "失能老人上门洗澡、身体清洁护理",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%88%B4%E6%81%A9%E5%8C%BB%E7%96%97",
+   "website_url": "https://daneenon.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "name_cn": "戴恩医疗",
+   "desc_cn": "失能老人上门洗澡、身体清洁护理",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【戴恩医疗】聚焦家政助老，失能老人上门洗澡、身体清洁护理，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0437",
+   "name": "互邦医疗",
+   "region": "国内",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "轮椅"
+   ],
+   "description": "医院、养老院批量手动/电动轮椅",
+   "highlights": "医院、养老院批量手动/电动轮椅",
+   "funding_latest": {
+    "amount": "民营无融资",
+    "display": "民营无融资"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1990",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%92%E9%82%A6%E5%8C%BB%E7%96%97",
+   "website_url": "http://www.hubang.net.cn",
+   "business_model": "银发经济企业",
+   "name_cn": "互邦医疗",
+   "desc_cn": "医院、养老院批量手动/电动轮椅",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "轮椅"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【互邦医疗】聚焦产业资本/渠道，医院、养老院批量手动/电动轮椅，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0438",
+   "name": "振邦医疗",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "轮椅"
+   ],
+   "description": "手动轮椅、助行器县域渠道批发",
+   "highlights": "手动轮椅、助行器县域渠道批发",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 16,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%8C%AF%E9%82%A6%E5%8C%BB%E7%96%97",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "振邦医疗",
+   "desc_cn": "手动轮椅、助行器县域渠道批发",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "轮椅"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【振邦医疗】聚焦辅具，手动轮椅、助行器县域渠道批发，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0439",
+   "name": "厚福医疗",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护理床"
+   ],
+   "description": "厚福医疗装备有限公司（始创于1999年，总部湖北咸宁）是中国医疗病床/护理床行业龙头企业、国家专精特新\"小巨人\"企业，专注于医用护理床、电动ICU病床及养老照护设备的研发制造，产品应用于医院、养老院与家庭护理，国内1800余家医院使用、远销70余国。",
+   "highlights": "三甲、大型护理院高端护理床",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8E%9A%E7%A6%8F%E5%8C%BB%E7%96%97",
+   "website_url": "http://hope-full.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "name_cn": "厚福医疗",
+   "desc_cn": "三甲、大型护理院高端护理床",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "护理床"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【厚福医疗】聚焦专业护理，三甲、大型护理院高端护理床，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0440",
+   "name": "德林假肢",
+   "region": "国内",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "下肢、上肢假肢定制+康复训练",
+   "highlights": "下肢、上肢假肢定制+康复训练",
+   "funding_latest": {
+    "amount": "台资大陆运营",
+    "display": "台资大陆运营"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1993",
+   "value_score": 21,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%BE%B7%E6%9E%97%E5%81%87%E8%82%A2",
+   "website_url": "https://www.delinjiaozhi.com",
+   "business_model": "银发经济企业",
+   "name_cn": "德林假肢",
+   "desc_cn": "下肢、上肢假肢定制+康复训练",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【德林假肢】聚焦渠道，下肢、上肢假肢定制+康复训练，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0442",
+   "name": "一康医疗",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "下肢步态、上肢康复训练器械",
+   "highlights": "下肢步态、上肢康复训练器械",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2000",
+   "value_score": 32,
+   "source": "中国银发经济行业mapping",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%B8%80%E5%BA%B7%E5%8C%BB%E7%96%97",
+   "website_url": "http://www.yikangshiye.com",
+   "business_model": "B2B 医疗器械",
+   "name_cn": "一康医疗",
+   "desc_cn": "下肢步态、上肢康复训练器械",
+   "business_model_cn": "B2B 医疗器械",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【一康医疗】聚焦康复/智能硬件，下肢步态、上肢康复训练器械，B2B模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

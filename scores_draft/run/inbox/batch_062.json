@@ -1,0 +1,500 @@
+{
+ "batch": 62,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0543",
+   "name": "Silver Bills",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "SilverBills 是一家为老年人提供账单管理与代缴费服务的公司，由其团队代为审核、支付各类账单并防欺诈，减轻长者与家属的财务事务负担。",
+   "highlights": "为老年人提供代付账单的金融辅助服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Silver%20Bills",
+   "website_url": "https://www.silverbills.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "SilverBills 是一家为老年人提供账单管理与代缴费服务的公司，由其团队代为审核、支付各类账单并防欺诈，减轻长者与家属的财务事务负担。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Silver Bills】聚焦养老金融/行业媒体，为老年人提供代付账单的金融辅助服务，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0544",
+   "name": "Silvur",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Silvur（前称Kindur，2016年成立）是一家退休财务规划金融科技公司，为信用合作社与金融机构提供白标\"Retirement Simplified\"平台，核心是基于数千变量的\"退休评分\"工具，帮助50岁以上用户测算退休金可持续性与社保、医保优化，并集成Medicare投保指导；累计融资约2000万美元。",
+   "highlights": "退休财务规划工具",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$3.7M",
+    "display": "$3.7M"
+   },
+   "investors": "Anthemis Group, Point72 Ventures 等 (3位投资人)",
+   "founded": "2018",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Silvur",
+   "website_url": "https://www.silvur.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "退休财务规划工具",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Silvur】聚焦产业资本/行业媒体，退休财务规划工具，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0545",
+   "name": "斯坦福长寿研究中心",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老咨询"
+   ],
+   "description": "Stanford Center on Longevity（斯坦福长寿研究中心）是全球顶级老龄化研究机构，研究长寿社会的金融、健康和生活方式变革，发布影响力很大的年度报告。",
+   "highlights": "全球顶级老龄化研究机构，长寿社会研究",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 33,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%96%AF%E5%9D%A6%E7%A6%8F%E9%95%BF%E5%AF%BF%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83",
+   "website_url": "https://longevity.stanford.edu/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "斯坦福长寿研究中心",
+   "desc_cn": "Stanford Center on Longevity（斯坦福长寿研究中心）是全球顶级老龄化研究机构，研究长寿社会的金融、健康和生活方式变革，发布影响力很大的年度报告。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老咨询"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【斯坦福长寿研究中心】聚焦健康管理/养老金融/行业媒体，全球顶级老龄化研究机构，长寿社会研究，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0546",
+   "name": "Techstars Future of Longevity Accelerator",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "VC"
+   ],
+   "description": "Techstars Future of Longevity是Techstars旗下专注银发经济的加速器项目，每年孵化10+老年科技创业公司，由MetLife基金会赞助。",
+   "highlights": "Techstars银发经济加速器，每年孵化10+公司",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 33,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Techstars%20Future%20of%20Longevity%20Accelerator",
+   "website_url": "https://www.techstars.com/program/accelerator-future-of-longevity",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "Techstars Future of Longevity是Techstars旗下专注银发经济的加速器项目，每年孵化10+老年科技创业公司，由MetLife基金会赞助。",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Techstars Future of Longevity Accelerator】聚焦数字化/行业媒体，Techstars银发经济加速器，每年孵化10+公司，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0547",
+   "name": "Teladoc",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "description": "全科远程问诊服务",
+   "highlights": "全科远程问诊服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2002",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Teladoc",
+   "website_url": "https://www.teladochealth.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "全科远程问诊服务",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Teladoc】聚焦慢病管理/远程医疗，全科远程问诊服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0548",
+   "name": "Tembo Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "description": "老年专科远程医疗服务",
+   "highlights": "老年专科远程医疗服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "VITALIZE Venture Capital, Bloomberg Beta 等 (18位投资人)",
+   "founded": "2019",
+   "value_score": 31,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tembo%20Health",
+   "website_url": "https://www.tembo.health",
+   "business_model": "B2B/B2C 远程医疗",
+   "desc_cn": "老年专科远程医疗服务",
+   "business_model_cn": "B2B/B2C 远程医疗",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Tembo Health】聚焦慢病管理/认知症/远程医疗，老年专科远程医疗服务，B2B+B2C模式，研究价值分31。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0550",
+   "name": "Uber Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "Uber Health 是 Uber 旗下的医疗出行与健康物流部门，为医疗机构、保险公司及患者提供非紧急医疗接送、药品与医疗物资配送服务，帮助老年及行动不便人群更便捷地就医取药。",
+   "highlights": "非紧急医疗接送服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Uber%20Health",
+   "website_url": "https://www.uberhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "非紧急医疗接送服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Uber Health】聚焦健康管理/行业媒体，非紧急医疗接送服务，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0551",
+   "name": "UpsideHōM",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "康养地产"
+   ],
+   "description": "带服务的老年公寓",
+   "highlights": "带服务的老年公寓",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$20M (Series A, 2026)",
+    "display": "$20M Series A (2026)"
+   },
+   "investors": "Aquiline (领投), Flare Capital Partners, 645 Ventures, Freestyle Capital, Triple Impact Capital, Techstars",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=UpsideH%C5%8DM",
+   "website_url": "https://www.upsidehom.com",
+   "business_model": "B2C/B2B 养老社区运营",
+   "desc_cn": "带服务的老年公寓",
+   "business_model_cn": "B2C/B2B 养老社区运营",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康养地产"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【UpsideHōM】聚焦产业资本/养老社区，带服务的老年公寓，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0552",
+   "name": "村庄网络",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "邻里社交",
+    "陪伴服务"
+   ],
+   "description": "邻里互助养老社区运营",
+   "highlights": "邻里互助养老社区运营",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%9D%91%E5%BA%84%E7%BD%91%E7%BB%9C",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "村庄网络",
+   "desc_cn": "邻里互助养老社区运营",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "邻里社交",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【村庄网络】聚焦文娱社交，邻里互助养老社区运营，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0553",
+   "name": "Vynca",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "预立医疗指示数字化",
+   "highlights": "预立医疗指示数字化",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$10.3M (Series B)",
+    "display": "$10.3M Series B"
+   },
+   "investors": "First Trust Capital Partners, OCA Ventures, Spectrum 等",
+   "founded": "2013",
+   "value_score": 43,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vynca",
+   "website_url": "https://www.vyncacare.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "预立医疗指示数字化",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 2,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Vynca – Palliative Care Insights & Resources",
+      "date": "2024-05-04",
+      "source": "Vynca",
+      "url": "https://www.vyncacare.com/resources"
+     }
+    ],
+    "snippets": [
+     "Vynca提供居家缓和医疗、强化护理管理与预先护理计划（advance care planning）软件，面向重症/临终老人。",
+     "检索到的最新融资为2022年C轮（历史），未找到2024-2025新融资事件，信息丰度偏低。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Vynca】聚焦产业资本/健康管理/行业媒体，预立医疗指示数字化，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0554",
+   "name": "Warby Parker",
+   "region": "海外",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "眼镜"
+   ],
+   "description": "平价眼镜线上线下零售",
+   "highlights": "平价眼镜线上线下零售",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Warby%20Parker",
+   "website_url": "https://www.warbyparker.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "平价眼镜线上线下零售",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": [
+     "线上",
+     "线下"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Warby Parker】聚焦消费品/渠道，平价眼镜线上线下零售，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0555",
+   "name": "Wider Circle",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "邻里社交",
+    "陪伴服务"
+   ],
+   "description": "邻里互助小组、老年社交与健康管理",
+   "highlights": "邻里互助小组、老年社交与健康管理",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 32,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wider%20Circle",
+   "website_url": "https://www.widercircle.com",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "邻里互助小组、老年社交与健康管理",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "邻里社交",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Wider Circle】聚焦文娱社交，邻里互助小组、老年社交与健康管理，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

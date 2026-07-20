@@ -1,0 +1,687 @@
+{
+ "batch": 9,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0741",
+   "name": "Imperative Care",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "Imperative Care 是商业化阶段的医疗器械公司（2015 年创立于加州，Fred Khosravi 创办），专注血栓栓塞性疾病，核心产品为用于缺血性卒中取栓的 Zoom Stroke System，以及用于静脉血栓(Symphony)与急性肢体缺血(Prodigy)的血栓切除系统，并研发 Telos 血管介入机器人。其业务为向医院销售神经血管/血管介入器械，与日常养老照护间接相关（卒中在老年人群高发）。",
+   "highlights": "为中风和血管疾病患者提供护理",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "1.5亿美元",
+    "round": "E轮",
+    "display": "E轮 1.5亿美元 (2024年7月)"
+   },
+   "funding_total": {
+    "amount": "$596M",
+    "display": "$596M (截至2025年)"
+   },
+   "investors": "Ally Bridge Group, Bain Capital Life Sciences, Perceptive Advisors, Elevage Medical Technologies, Catalio Capital Management",
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Imperative%20Care",
+   "website_url": "https://www.imperativecare.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Imperative Care 是商业化阶段的医疗器械公司（2015 年创立于加州，Fred Khosravi 创办），专注血栓栓塞性疾病，核心产品为用于缺血性卒中取栓的 Zoom Stroke System，以及用于静脉血栓(Symphony)与急性肢体缺血(Prodigy)的血栓切除系统，并研发 Telos 血管介入机器人。其业务为向医院销售神经血管/血管介入器械，与日常养老照护间接相关（卒中在老年人群高发）。",
+   "business_model_cn": "财务投资/产业资本",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Imperative Care Announces $100 Million Financing",
+      "date": "2026-03-17",
+      "source": "Imperative Care",
+      "url": "https://imperativecare.com/news/imperative-care-announces-100-million-financing/"
+     },
+     {
+      "title": "7亿融资！卒中介入公司押注新赛道",
+      "date": "2026-03-22",
+      "source": "Reportify",
+      "url": "https://reportify.cn/social-media/786699982615558"
+     }
+    ],
+    "snippets": [
+     "Imperative Care为神经/血管介入公司，产品含Zoom卒中取栓系统、Symphony/Prodigy血栓清除系统，2026年3月完成1亿美元可转债融资。",
+     "面向卒中（老年高发）等血管疾病，2026年1月推出Zoom 4S导管用于急性缺血性卒中。"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Imperative Care】聚焦产业资本/居家护理/慢病管理，为中风和血管疾病患者提供护理，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0772",
+   "name": "Mable",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "Mable is an Australian online marketplace where older and disabled Australians hire independent support workers for in-home care, transport and social support, paying workers directly and paying Mable a transaction fee.",
+   "highlights": "残障人士或老年人找到护理工作者",
+   "funding_latest": {
+    "date": "2021年9月",
+    "amount": "1亿美元",
+    "round": "私募股权",
+    "display": "私募股权 1亿美元 (2021年9月)"
+   },
+   "funding_total": "$100M+",
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mable",
+   "website_url": "https://www.mable.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Mable 运营澳大利亚居家照护在线交易市场，老年人与残障人士直接雇佣独立护工上门照料、陪伴与接送，公司按交易额收取服务费。",
+   "business_model_cn": "交易佣金",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Mable】聚焦产业资本/居家护理/护理平台，残障人士或老年人找到护理工作者，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0789",
+   "name": "Modivcare",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "适老化"
+   ],
+   "description": "非紧急医疗运输、个人护理服务和远程患者监控",
+   "highlights": "非紧急医疗运输、个人护理服务和远程患者监控",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "5.25亿美元",
+    "round": "定期贷款",
+    "display": "定期贷款 5.25亿美元 (2024年7月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Modivcare",
+   "website_url": "https://www.modivcare.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "非紧急医疗运输、个人护理服务和远程患者监控",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Modivcare】聚焦专业护理/产业资本/健康管理，非紧急医疗运输、个人护理服务和远程患者监控，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0869",
+   "name": "Stepful",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工培训"
+   ],
+   "description": "Stepful trains people for healthcare careers—medical assistants, patient care techs—through short online programs with clinical rotations, placing graduates into care facilities and charging tuition or income-share agreements.",
+   "highlights": "AI驱动的医疗人员培训平台",
+   "funding_latest": {
+    "date": "2026年6月",
+    "amount": "$5700万",
+    "round": "C轮",
+    "display": "C轮 $5700万 (2026年6月)"
+   },
+   "funding_total": "$55M",
+   "investors": "Oak HC/FT (lead)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Stepful",
+   "website_url": "https://www.stepful.com",
+   "business_model": "B2C 教育/培训",
+   "desc_cn": "Stepful 通过短期在线课程加临床实习培训医疗助理与患者护理员，向学员收学费或按收入分成，并输送至养老机构与医院就业。",
+   "business_model_cn": "学费/收入分成",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工培训"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Stepful】聚焦AI科技/产业资本/健康管理，AI驱动的医疗人员培训平台，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0966",
+   "name": "Duos",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "保险"
+   ],
+   "description": "AI驱动的数字健康平台，负责保险计划的会员激活和福利执行。商业模式高度聚焦于Medicare Advantage等支付方，帮助老年用户理解和使用复杂的健康福利",
+   "highlights": "负责保险计划的会员激活和福利执行。商业模式高度聚焦于Medicare Adv...",
+   "funding_latest": {
+    "date": "2025.10",
+    "amount": "1.3亿美元",
+    "round": "B轮",
+    "display": "B轮 1.3亿美元 (2025.10)"
+   },
+   "funding_total": {
+    "amount": "$167M",
+    "display": "累计$167M (截至2025年10月)"
+   },
+   "investors": "FTV Capital, Forerunner Ventures, SJF Ventures, Castellan",
+   "founded": "2020",
+   "value_score": 50,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Duos",
+   "website_url": "https://getduos.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "AI驱动的数字健康平台，负责保险计划的会员激活和福利执行。商业模式高度聚焦于Medicare Advantage等支付方，帮助老年用户理解和使用复杂的健康福利",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 8,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "DUOS raises $130M for senior-focused platform",
+      "date": "2025-10-09",
+      "source": "MobiHealthNews",
+      "url": "https://www.mobihealthnews.com/news/duos-raises-130m-senior-focused-platform"
+     }
+    ],
+    "snippets": [
+     "$130M strategic growth equity (FTV Capital led, Forerunner).",
+     "AI senior health-navigation platform."
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Duos】聚焦产业资本/保险科技/文娱社交，负责保险计划的会员激活和福利执行。商业模式高度聚焦于Medicare Adv...，B2B+B2C模式，研究价值分50。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0974",
+   "name": "Eight Sleep",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期",
+    "睡眠监测"
+   ],
+   "description": "智能床系统(消费品)。开发AI睡眠代理；计划进军医疗领域(更年期睡眠、睡眠呼吸暂停)，寻求FDA批准",
+   "highlights": [
+    "Pod智能床垫罩(温控+生物监测)",
+    "硬件+强制会员订阅模式",
+    "2026-04进入中国，取消订阅改DTC"
+   ],
+   "funding_latest": {
+    "round": "战略轮",
+    "amount": "5000万美元",
+    "currency": "USD",
+    "date": "2026-03",
+    "display": "战略轮 5000万美元 (2026-03, Tether领投)",
+    "investors": [
+     "Tether Investments",
+     "Khosla Ventures",
+     "Founders Fund",
+     "HSG",
+     "Y Combinator"
+    ]
+   },
+   "funding_total": {
+    "amount": "约3.1亿美元",
+    "display": "累计约3.1亿美元(估值15亿美元)"
+   },
+   "investors": [
+    "Tether Investments",
+    "Khosla Ventures",
+    "Founders Fund",
+    "HSG",
+    "Y Combinator"
+   ],
+   "founded": "2014",
+   "value_score": 56,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Eight%20Sleep",
+   "website_url": "https://www.eightsleep.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "消费级AI智能睡眠硬件公司，核心产品Pod智能床垫罩（水循环温控+生物传感监测心率/呼吸/HRV），用Autopilot/Sleep Agent实时调节睡眠环境；硬件+会员订阅模式，2025-08完成1亿美元D轮，2026-03获Tether 5000万美元、估值15亿美元，2026-04进入中国。",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 20,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Eight Sleep raises $100M to expand AI-powered sleep tech",
+      "date": "2025-08-19",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/08/19/eight-sleep-grabs-100m-to-bring-ai-into-your-bed/"
+     },
+     {
+      "title": "Eight Sleep正式入华,估值15亿美元",
+      "date": "2026-04-20",
+      "source": "投中网",
+      "url": "https://www.chinaventure.com.cn/news/64-20260420-391029.html"
+     }
+    ],
+    "snippets": [
+     "Eight Sleep 以AI智能床垫(Pod)监测体温/心率/呼吸,服务睡眠健康",
+     "2025年8月完成1亿美元D轮(红杉中国领投),2026年3月再获5000万美元,累计融资超3.1亿美元,估值15亿美元"
+    ]
+   },
+   "name_cn": "八睡眠",
+   "tag_l1": [
+    "消费品",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "更年期",
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "消费硬件明星信息丰富（科技媒体+融资库），但“床垫需订阅”有争议、估值稳步上行，反共识性一般。中国睡眠/智能床赛道拥挤（麒盛、梦百合、ChiliSleep），高价+订阅DTC+AI是差异点；入华已取消订阅改电商，本土化挑战大——可观察其“硬件+数据订阅”能否在中国跑通。",
+   "payor_model": "个人自付(C端)：硬件销售+Autopilot会员订阅；2026入华取消订阅费改DTC电商",
+   "signal_strength": 4.55,
+   "info_score": 8,
+   "diff_score": 4,
+   "copy_score": 5,
+   "research_value": 55.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "Cadence",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+   "highlights": "AI慢病管理，获$100M Series C，被大型医疗系统采用。",
+   "funding_latest": {
+    "date": "2026-06",
+    "amount": "$100M",
+    "round": "Series C",
+    "display": "Series C $100M (2026-06)"
+   },
+   "funding_total": {
+    "amount": "$100M+",
+    "display": "累计$100M+"
+   },
+   "investors": "Spark Capital领投",
+   "founded": "",
+   "value_score": 40,
+   "source": "WebSearch: cadence.care 2026-06-23 / pulse2 2026-06-23",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cadence",
+   "website_url": "https://cadence.care",
+   "business_model": "B2B 临床AI慢病管理(按效付费)",
+   "desc_cn": "临床AI公司，用AI护理模型管理老年慢病，2026年6月获1亿美元Series C，被全美领先医疗系统采用，对标按效付费(value-based)慢病管理。",
+   "business_model_cn": "B2B 临床AI慢病管理(按效付费)",
+   "serial": "#1145",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cadence】聚焦AI科技/产业资本/慢病管理，AI慢病管理，获$100M Series C，被大型医疗系统采用。，B2B模式，研究价值分40。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "name": "Cera",
+   "region": "海外",
+   "category_l1": "养老照护平台",
+   "category_l2": "居家医疗AI平台",
+   "tags": [
+    "远程医疗",
+    "保险"
+   ],
+   "description": "英国最大数字化居家医疗提供商，伦敦创立(2016)，以 AI 平台调度护工、远程监测与远程医疗，累计融资约 4.21 亿美元（含 2025-01 与 2026-05 两轮各 1.5 亿美元 Series C）。",
+   "highlights": "AI 驱动居家照护调度+远程医疗的标杆，住院率降 70% 的打法对国内'居家养老+AI'极具借鉴；36氪已专题报道。",
+   "funding_latest": {
+    "date": "2025",
+    "amount": "1.5亿美元 Series C (2026-05); 累计约4.21亿美元",
+    "round": "Series C",
+    "display": "1.5亿美元 Series C (2026-05)，累计约4.21亿美元"
+   },
+   "funding_total": {
+    "amount": "约4.21亿美元",
+    "display": "累计约4.21亿美元(13轮)"
+   },
+   "investors": "BDT & MSD Partners, Schroders Capital 等",
+   "founded": "2016",
+   "value_score": 83,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cera",
+   "website_url": "https://www.ceracare.co.uk",
+   "business_model": "B2B2C 数字化居家医疗：AI 调度护工+远程监测+远程医疗，按服务与保险结算",
+   "name_cn": "Cera｜英国居家医疗AI",
+   "desc_cn": "英国最大数字化居家医疗提供商，伦敦创立(2016)，以 AI 平台调度护工、远程监测与远程医疗，累计融资约 4.21 亿美元（含 2025-01 与 2026-05 两轮各 1.5 亿美元 Series C）。",
+   "business_model_cn": "B2B2C 数字化居家医疗：AI 调度护工、远程监测与远程医疗，按服务与保险结算",
+   "serial": "#1168",
+   "tag_l1": [
+    "养老服务",
+    "金融保险"
+   ],
+   "tag_l2": [
+    "远程医疗",
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cera】聚焦AI医疗/产业资本，AI 驱动居家照护调度+远程医疗的标杆，住院率降 70% 的打法对国内'居家养老+AI'极具借鉴；36氪已专题报道。，B2B+B2C模式，研究价值分83。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "name": "Retro Biosciences",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "细胞重编程",
+   "tags": [
+    "长寿抗衰"
+   ],
+   "description": "长寿生物科技公司，聚焦细胞重编程（ reprogramming）延长健康寿命，2023年完成1.8亿美元融资。",
+   "desc_cn": "长寿生物科技公司，聚焦细胞重编程（ reprogramming）延长健康寿命，2023年完成1.8亿美元融资。",
+   "highlights": "1.8亿美元融资，细胞重编程延长健康寿命",
+   "funding_latest": {
+    "amount": "1.8亿美元",
+    "round": "早期",
+    "date": "2023",
+    "display": "早期 1.8亿美元 (2023)"
+   },
+   "funding_total": {
+    "amount": "累计约1.8亿美元",
+    "display": "累计约1.8亿美元"
+   },
+   "investors": "",
+   "founded": "2021",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Retro+Biosciences",
+   "website_url": "https://www.retrobiosciences.com",
+   "business_model": "B2B 长寿生物技术研发",
+   "business_model_cn": "B2B 长寿生物技术研发",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "长寿生物科技公司，聚焦细胞重编程（ reprogramming）延长健康寿命，2023年完成1.8亿美元融资。"
+    ]
+   },
+   "serial": "#1245",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Retro Biosciences】聚焦产业资本/健康管理，1.8亿美元融资，细胞重编程延长健康寿命，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#1311",
+   "name": "Qida",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "综合养老/医疗",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "西班牙养老与医疗健康服务提供商。成立于2017年；累计融资约6000万欧元，B轮。",
+   "highlights": "欧洲'养老+医疗'整合服务范本，对国内'医养结合'运营有对照价值（S4）。",
+   "funding_latest": {
+    "amount": "6000万欧元",
+    "round": "B轮",
+    "date": "",
+    "display": "B轮 6000万欧元"
+   },
+   "funding_total": {
+    "amount": "累计约6000万欧元",
+    "display": "累计约6000万欧元"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Qida",
+   "website_url": "https://www.qida.es",
+   "business_model": "Integrated elder care and healthcare services provider (Spain).",
+   "desc_cn": "西班牙养老与医疗健康服务提供商。成立于2017年；累计融资约6000万欧元，B轮。",
+   "business_model_cn": "综合养老+医疗服务(西班牙)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "西班牙养老与医疗健康服务提供商。成立于2017年；累计融资约6000万欧元，B轮。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Qida】聚焦产业资本，欧洲'养老+医疗'整合服务范本，对国内'医养结合'运营有对照价值（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#1352",
+   "name": "Abridge",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "AI",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "临床文档 AI 平台，用生成式 AI 自动生成病历草稿，显著提升医生/护理记录效率，广泛应用于养老与护理场景。",
+   "highlights": "成立于2018年",
+   "funding_latest": {
+    "date": "2026",
+    "amount": "3亿美元",
+    "round": "Series E",
+    "display": "Series E $300M (连续 mega round)"
+   },
+   "funding_total": {
+    "amount": "累计约$5亿+",
+    "display": "累计约$5亿+"
+   },
+   "investors": "未披露",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "信源治理入库(MedCity News Health Tech) 2026-07-16",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.abridge.com",
+   "business_model": "B2B SaaS",
+   "desc_cn": "临床文档 AI 平台，用生成式 AI 自动生成病历草稿，显著提升医生/护理记录效率，广泛应用于养老与护理场景。",
+   "business_model_cn": "B2B 临床AI",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 4.55
+  },
+  {
+   "serial": "#0034",
+   "name": "美篇",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "文娱"
+   ],
+   "description": "中老年图文创作社区，微信生态内热门应用，提供图文排版、影集制作等功能，是银发群体重要的内容创作和分享平台。",
+   "highlights": "微信生态内热门应用",
+   "funding_latest": {
+    "date": "2017-12",
+    "amount": "43000000",
+    "round": "A+",
+    "display": "A+ $4300万 (2017-12)"
+   },
+   "funding_total": {
+    "amount": "累计约1.8亿元（5轮）",
+    "display": "累计累计约1.8亿元（5轮）"
+   },
+   "investors": "经纬中国领投，真格基金跟投",
+   "founded": "2015",
+   "value_score": 38,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%BE%8E%E7%AF%87",
+   "website_url": "https://www.meipian.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "美篇",
+   "desc_cn": "中老年图文创作社区，微信生态内热门应用，提供图文排版、影集制作等功能，是银发群体重要的内容创作和分享平台。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "news_coverage": {
+    "news_count": 12,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "老年人的'老红书':美篇成银发文娱社区",
+      "date": "2025-03-10",
+      "source": "新民晚报",
+      "url": "https://paper.xinmin.cn/html/xmwb/2025-03-10/8/206152.html"
+     },
+     {
+      "title": "深度复盘老年线上文娱创业:美篇从工具到电商",
+      "date": "2021-04-18",
+      "source": "澎湃",
+      "url": "https://www.thepaper.cn/newsDetail_forward_12255572"
+     }
+    ],
+    "snippets": [
+     "美篇(南京蓝鲸人)是中老年图文创作与兴趣社交社区,被称为'老红书'",
+     "用户超1亿中老年,2018年打赏月流水即达千万级;近期融资新闻较少"
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【美篇】聚焦产业资本/文娱社交，微信生态内热门应用，B2B+B2C模式，研究价值分38。",
+   "payor_model": "未披露",
+   "signal_strength": 4.05
+  }
+ ]
+}

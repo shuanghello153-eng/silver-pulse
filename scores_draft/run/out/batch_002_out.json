@@ -1,0 +1,938 @@
+{
+  "batch": 2,
+  "enterprises": [
+    {
+      "serial": "#0394",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 64.7,
+      "recommend": {
+        "rec_v1": "信号中等但信息扎实（创业板'老年护理第一股'上市）；差异化在失禁护理这一被忽视的银发刚需品类，国内品牌替代空间大，创业者可抄'自主品牌+成人失禁垂直品类'打法。",
+        "rec_v2": "公开资料充分（招股书+年报可查），作为成人失禁龙头有据可依；模式不新奇但'失禁护理'赛道认知低、竞品少，中小创业者适合从细分品类切入，避开同质化红海。",
+        "rec_v3": "信号靠上市地位支撑，信息透明度高；其价值不在技术颠覆而在'银发失禁'消费教育——国内失禁用品渗透率远低于日本，可复制其品牌+电商+养老公益的渗透路径。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 6.55,
+        "research_value": 64.7
+      },
+      "payor_model": "个人自费为主+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "成人失禁护理用品龙头，2021年创业板上市",
+      "founded": 2001,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2021-06-17",
+          "text": "深交所创业板上市，股票代码301009，被誉为'老年护理第一股'"
+        }
+      ],
+      "highlights": [
+        "国内成人失禁用品综合排名第一（2017-2022连续）",
+        "创业板上市301009，'老年护理第一股'",
+        "自主品牌'可靠'+ODM双轮驱动，电商类目十年第一",
+        "专精特新'小巨人'，专利207项居行业第一"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人失禁护理是老年刚需消费品，直接服务失能/半失能老人群体。"
+    },
+    {
+      "serial": "#0397",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 8,
+      "research_value": 70.6,
+      "recommend": {
+        "rec_v1": "信号来自俞敏洪亲自操盘+10亿注资，媒体热度够；差异化在'教育基因+退休俱乐部+代际陪玩'轻资产社群模式，国内银发文娱仍空白，可抄其'低价课引流—文旅康养转化'闭环。",
+        "rec_v2": "信息中等（6条报道但战略未单列盈利），值得跟：它把闲置校区改成退休俱乐部、用19.9元体验课筛选高净值老人，这种'教育存量资产复用'思路对教培转型者极有借鉴。",
+        "rec_v3": "信号强但模式尚在验证（文旅增收不增利）；真正可学的是'50-75岁银发青年'分层运营与跨代陪伴设计，国内少有玩家把老年社交做成高频本地入口，差异化明显。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 8,
+        "signal_strength": 6.55,
+        "research_value": 70.6
+      },
+      "payor_model": "个人自费(C端文旅/课程消费)",
+      "business_tags_role": "服务商",
+      "desc_cn": "新东方旗下银发文旅品牌，中老年文旅与退休社交",
+      "founded": 2023,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-07",
+          "text": "新东方教育科技集团注资10亿元成立全资文旅子公司"
+        },
+        {
+          "date": "2024",
+          "text": "成立南京新东方老年大学，布局海南/云南30+康养基地"
+        },
+        {
+          "date": "2026-01",
+          "text": "北京新东方退休俱乐部上线，面向50-75岁退休人群"
+        }
+      ],
+      "highlights": [
+        "俞敏洪亲自操盘，注册资本10亿元",
+        "退休俱乐部'0元线上课+19.9元线下课'低价引流",
+        "复用闲置校区做本地银发社交，跨代陪玩设计",
+        "海南/云南30+康养基地+高端康养旅居"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "聚焦中老年文旅、康养旅居与退休群体兴趣社交，银发属性明确。"
+    },
+    {
+      "serial": "#0401",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 60.6,
+      "recommend": {
+        "rec_v1": "信号靠复星控股与4亿用户底座，信息透明；差异化弱（仍是婚恋平台逻辑），但'中老年相亲'是少有人认真做的银发社交垂直场景，国内可抄其线下门店+红娘重度服务模式。",
+        "rec_v2": "公开资料丰富（合并/挂牌/复星入主脉络清晰）；模式常规但提示一个空白：年轻人婚恋已红海，银发相亲却供给稀缺，创业者可借鉴其信任机制做纯老年交友。",
+        "rec_v3": "信号中等、信息量足；价值不在平台本身而在它验证的'银发群体也有强社交付费意愿'——这反向说明老年文娱社交赛道被低估，可复制其会员+线下活动变现。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 60.6
+      },
+      "payor_model": "个人自费(会员/红娘服务)",
+      "business_tags_role": "平台",
+      "desc_cn": "中国领先婚恋交友平台，复星控股，布局中老年相亲",
+      "founded": 2005,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2015-12",
+          "text": "百合网新三板挂牌"
+        },
+        {
+          "date": "2017",
+          "text": "百合网与世纪佳缘合并为百合佳缘"
+        },
+        {
+          "date": "2018",
+          "text": "复星国际控股，战略投资入主"
+        }
+      ],
+      "highlights": [
+        "累计注册用户超4亿、线下门店超150家",
+        "复星集团战略投资，布局中老年相亲",
+        "旗下含百合婚恋、恋爱记及情感咨询",
+        "中老年相亲为银发社交垂直场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专门布局中老年相亲交友，属银发社交/文娱服务范畴。"
+    },
+    {
+      "serial": "#0436",
+      "signal_strength": 6.55,
+      "info_score": 9,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 64.6,
+      "recommend": {
+        "rec_v1": "信号来自A股医疗器械龙头地位，信息极厚（年报/财报全覆盖）；差异化弱（轮椅制氧机属常规辅具），但'家用+机构双场景'打法清晰，国内创业者可抄其全品类+渠道下沉路径。",
+        "rec_v2": "资料充分可深挖；模式不反共识但稳——它证明康复辅具能做成消费级大生意而非纯ToB，对想切入居家养老设备的创业者，其产品矩阵与品牌打法值得逐条拆解。",
+        "rec_v3": "信号与信息量都高，差异化平平；核心价值在示范'老龄化刚需如何用规模化制造+零售渠道承接'，中小玩家可聚焦其尚未做深的智能辅具细分。",
+        "info_score": 9,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 64.6
+      },
+      "payor_model": "B端机构采购+个人自费+医保",
+      "business_tags_role": "制造商",
+      "desc_cn": "家用医疗与康复器械龙头，轮椅制氧机全品类",
+      "founded": 1998,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2008",
+          "text": "深交所上市，股票代码002223"
+        }
+      ],
+      "highlights": [
+        "A股医疗器械龙头，家用+机构双场景",
+        "轮椅/制氧机/血压计/血糖仪全品类",
+        "老龄化居家护理刚需直接受益",
+        "电商+线下渠道下沉覆盖广"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "轮椅/护理器械是老年康复与居家照护的刚需硬件。"
+    },
+    {
+      "serial": "#0447",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 61.6,
+      "recommend": {
+        "rec_v1": "信号来自港股骨科植入物龙头，信息较厚；差异化弱（关节假体属传统高值耗材），但其'老龄化驱动骨科置换'逻辑清晰，国内创业者可关注其集采下的成本与渠道策略。",
+        "rec_v2": "公开资料中等（港股年报可查）；模式常规却点明趋势——髋膝关节置换随老龄激增，银发康复器械需求刚性，可抄其'植入+康复设备'组合而非单品作战。",
+        "rec_v3": "信号中等、信息透明；价值不在颠覆而在赛道确定性：它用上市地位卡位老年骨科，提示国内玩家'银发高值耗材'是长坡厚雪，但受集采与牌照强约束、复制门槛高。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 61.6
+      },
+      "payor_model": "B端医院采购+医保支付",
+      "business_tags_role": "制造商",
+      "desc_cn": "港股骨科植入物龙头，服务老年骨科与康复",
+      "founded": 2003,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2017",
+          "text": "港交所上市，股票代码1789.HK"
+        }
+      ],
+      "highlights": [
+        "港股骨科植入物（关节置换）龙头",
+        "产品服务于老年骨科与术后康复",
+        "肿瘤康复设备配套医院",
+        "集采背景下渠道与成本策略具研究价值"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "关节置换等骨科植入需求随老龄化显著增长，直接服务老年患者。"
+    },
+    {
+      "serial": "#0475",
+      "signal_strength": 6.55,
+      "info_score": 6,
+      "diff_score": 8,
+      "copy_score": 3,
+      "research_value": 59.6,
+      "recommend": {
+        "rec_v1": "信号中等但模式稀缺（PACE整合照护）；信息靠创始团队Uber背景与8VC领投可查，差异化极强——专为双重资格老人做文化适配照护，国内难复制（绑美国医保）。",
+        "rec_v2": "2024亮相即获8VC等2200万美元，有据可核；价值在其技术中台+PACE运营系统降本，但支付全绑Medicare/Medicaid，对国内仅模式启发、不可照搬。",
+        "rec_v3": "信号靠融资与PR支撑、信息偏少；最强亮点是把50年历史的PACE用culturally-focused重新包装并数字化，反共识性强，可学'少数族裔老年群体精准照护'这一细分切口。",
+        "info_score": 6,
+        "diff_score": 8,
+        "copy_score": 3,
+        "signal_strength": 6.55,
+        "research_value": 59.6
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)支付+PACE",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国PACE整合照护运营商，服务老年慢病双重资格群体",
+      "founded": 2021,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021",
+          "text": "双胞胎兄弟Xing/Yang Su创立Seen Health"
+        },
+        {
+          "date": "2024-11",
+          "text": "公开亮相并完成2200万美元A轮（8VC领投）"
+        }
+      ],
+      "highlights": [
+        "基于50年历史的PACE全人整合照护模式",
+        "专注亚裔(API)等少数族裔老年慢病文化适配照护",
+        "自建PACE-centric EHR+AI运营中台降本",
+        "对标上市公司Innovage，首中心落加州圣盖博谷"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注老年慢病整合照护，典型银发健康服务，服务双重资格老人群体。"
+    },
+    {
+      "serial": "#0493",
+      "signal_strength": 10.0,
+      "info_score": 8,
+      "diff_score": 8,
+      "copy_score": 7,
+      "research_value": 84.0,
+      "recommend": {
+        "rec_v1": "信号满分（上市公司财报详尽），信息极厚；差异化在'零售巨头跨界老年科技又战略收缩、减值超6亿'的反共识案例，国内京东/苏宁可抄其'收购试错+剥离止损'而非盲目跟进。",
+        "rec_v2": "资料充分且自带警示价值；模式不新奇（Lively/PERS+紧急响应）但失败路径珍贵——它证明零售+临床医疗存在错配，创业者应学其止损纪律而非只学成功。",
+        "rec_v3": "信号与信息都顶级；可复制性中等（零售基因难迁移），真正该借鉴的是'用消费级渠道卖老年安全硬件'的触达逻辑，以及及时砍掉不赚钱健康业务的决策框架。",
+        "info_score": 8,
+        "diff_score": 8,
+        "copy_score": 7,
+        "signal_strength": 10.0,
+        "research_value": 84.0
+      },
+      "payor_model": "混合（Lively/PERS+以个人自付为主；亦B端与医疗系统/支付方合作居家照护项目）",
+      "business_tags_role": "服务商",
+      "desc_cn": "百思买(BBY)：零售巨头跨界老年科技，核心Lively/PERS",
+      "founded": 1966,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2018",
+          "text": "8亿美元收购老年科技品牌GreatCall"
+        },
+        {
+          "date": "2021-10",
+          "text": "约4亿美元收购远程医疗Current Health"
+        },
+        {
+          "date": "2025-06",
+          "text": "将Current Health回售原团队，健康业务累计减值超6亿美元"
+        }
+      ],
+      "highlights": [
+        "Best Buy Health进军老年科技，核心品牌Lively(PERS+紧急响应)",
+        "2018收购GreatCall、2021收购Current Health",
+        "2025回售Current Health，累计商誉减值超6亿",
+        "零售+临床模式错配的典型反例"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "Best Buy Health以Lively/PERS+紧急响应切入老年安全照护，银发属性明确。"
+    },
+    {
+      "serial": "#1152",
+      "signal_strength": 10.0,
+      "info_score": 10,
+      "diff_score": 3,
+      "copy_score": 7,
+      "research_value": 80.0,
+      "recommend": {
+        "rec_v1": "信号满分（REIT财报+投资者关系全覆盖），信息极厚；差异化弱（收租模式成熟不反共识），但作为美国银发地产定价锚，国内险资/养老基金可抄其资产组合与出租率管理逻辑。",
+        "rec_v2": "资料顶级丰富；模式常规却关键——它用'Right Market/Asset/Operator'框架管千亿资产，对想做养老地产的中国玩家，其资本化闭环与SHOP运营指标必读。",
+        "rec_v3": "信号与信息量最高，差异化低；价值在标杆参照：中国无纯养老REIT，但其'持有+运营+退出'全周期打法，值得平安、泰康等险资逐条对标学习。",
+        "info_score": 10,
+        "diff_score": 3,
+        "copy_score": 7,
+        "signal_strength": 10.0,
+        "research_value": 80.0
+      },
+      "payor_model": "B端机构付费为主（向养老运营商收租/分成；终端需求来自入住长者，WELL直接收费对象为运营商）",
+      "business_tags_role": "投资机构",
+      "desc_cn": "全球最大医疗地产REIT(WELL)，持有运营养老社区",
+      "founded": 1970,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "宣布230亿美元交易组合（约140亿为收购养老社区）"
+        },
+        {
+          "date": "2026 Q1",
+          "text": "完成41笔交易共32亿美元，SHOP入住率87.3%"
+        }
+      ],
+      "highlights": [
+        "全球最大医疗地产REIT(纽交所WELL)",
+        "2025激进加仓养老社区，股价年内涨约49%",
+        "SHOP入住率87.3%(2026 Q1)",
+        "市值约1490亿美元，银发地产定价锚"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "持有并运营养老社区/医疗地产，是美国银发地产资本闭环的核心标的。"
+    },
+    {
+      "serial": "#0470",
+      "signal_strength": 7.05,
+      "info_score": 9,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 66.1,
+      "recommend": {
+        "rec_v1": "信号中高（纽交所IPO+财报密集报道），信息厚；差异化一般（数字MSK顺常识、IPO为down-round），但雇主采购+零自付降手术率支付闭环是国内术康最该抄的切入点。",
+        "rec_v2": "资料充分可深挖；模式不反共识却点出关键——它靠自保雇主买单跑通，而国内同类仍依赖医院/医保，创业者应学其'企业健康福利'这一被低估的付费方。",
+        "rec_v3": "信号靠上市地位、信息透明；可复制性中等（雇主付费意愿中美差异大），亮点是AI动作追踪+FDA可穿戴Enso把康复居家化，国内可借鉴其居家慢病疼痛管理产品化。",
+        "info_score": 9,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 7.05,
+        "research_value": 66.1
+      },
+      "payor_model": "B端机构付费（雇主与健康计划采购MSK福利，会员零自付）+ 正拓展Medicare Advantage",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国数字MSK疼痛护理龙头，纽交所上市HNGE",
+      "founded": 2014,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-03",
+          "text": "向SEC递交IPO文件"
+        },
+        {
+          "date": "2025-05",
+          "text": "纽交所上市(HNGE)，IPO募资4.373亿美元"
+        }
+      ],
+      "highlights": [
+        "数字MSK(肌肉骨骼)疼痛护理龙头",
+        "AI动作追踪+FDA认证可穿戴Enso镇痛",
+        "服务自保雇主与健康计划，目标降手术率",
+        "2024财年营收约3.9亿美元，接近盈利"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "MSK疼痛与术后康复在老年群体高发，并主动覆盖Medicare Advantage老年付费方。"
+    },
+    {
+      "serial": "#0392",
+      "signal_strength": 6.55,
+      "info_score": 9,
+      "diff_score": 8,
+      "copy_score": 8,
+      "research_value": 78.6,
+      "recommend": {
+        "rec_v1": "信号中高（E轮近8亿+估值80亿，媒体密集），信息极厚；差异化强在'康复机器人跨界通用人形'，反共识风险与机遇并存，国内创业者可抄其技术平移与资本叙事。",
+        "rec_v2": "资料充分且风口明确；模式不新奇但示范'康复+具身智能'双轮——它把康养场景作为人形机器人落地切口，对想做银发机器人的团队，其产品化路径值得逐条拆解。",
+        "rec_v3": "信号靠大额融资、信息透明；可复制性高（康复机器人技术同源，大艾/程天可平移），真正该学的是它如何用资本押注'具身智能+康养'叙事抬高估值。",
+        "info_score": 9,
+        "diff_score": 8,
+        "copy_score": 8,
+        "signal_strength": 6.55,
+        "research_value": 78.6
+      },
+      "payor_model": "混合（康复机器人以B端医疗机构/康复中心采购为主，C端辅助器具含个人自付；人形机器人面向企业场景）",
+      "business_tags_role": "产品商",
+      "desc_cn": "上海康复机器人公司，跨界通用人形机器人",
+      "founded": 2015,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "完成近8亿元E轮融资（史上最大单笔，国鑫投资领投）"
+        }
+      ],
+      "highlights": [
+        "康复机器人+通用人形机器人双板块",
+        "E轮近8亿元、估值冲80亿元",
+        "产品进入60+国、3000+机构",
+        "具身智能赋能康养场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复机器人直接服务于老年偏瘫/术后康复，是银发智能硬件核心赛道。"
+    },
+    {
+      "serial": "#0495",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 58.6,
+      "recommend": {
+        "rec_v1": "信号中等（纽交所上市+年报可查），信息较厚；差异化弱（常规养老社区运营），但其'独立/辅助生活+记忆照护+CCRC'全谱系与近年战略收缩，对国内重资产运营商有对照价值。",
+        "rec_v2": "资料中等（8条新闻+年报）；模式常规却真实——作为全美最大运营商仍在收缩（1143→517社区），提示国内玩家重资产养老的盈利陷阱，可抄其轻量化转型思路。",
+        "rec_v3": "信号与信息量中规中矩；价值在反面教材：规模不等于盈利，它用收缩证明养老社区运营极重，国内创业者宜学其'先做轻、再加权'而非盲目铺社区。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 58.6
+      },
+      "payor_model": "个人自费(社区月费)+长期护理保险/医保部分覆盖",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国最大养老社区运营商(BKD)，全谱系照护",
+      "founded": 1978,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "1978",
+          "text": "Brookdale Senior Living成立"
+        },
+        {
+          "date": "2019",
+          "text": "纽交所上市(NYSE:BKD)"
+        },
+        {
+          "date": "2024-2026",
+          "text": "推进战略收缩计划，社区数量大幅精简"
+        }
+      ],
+      "highlights": [
+        "全美最大养老社区运营商(BKD)",
+        "提供独立/辅助生活、记忆照护与CCRC",
+        "运营600+社区、覆盖40余州",
+        "近年战略收缩，提示重资产养老盈利难题"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "全美最大养老社区运营商，独立/辅助生活与记忆照护直接服务老年人。"
+    },
+    {
+      "serial": "#0497",
+      "signal_strength": 6.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号中等（IAC收购、信息有限），差异化弱（通用照护平台）；但Senior Care Advisor+Care@Work切中银发照护规划，国内可抄其B端员工福利打法。",
+        "rec_v2": "资料稀疏需谨慎；模式常规却点出空白——它把儿童/老年照护放进同一平台，而国内老年照护匹配仍分散，创业者可借鉴其标准化服务人员供给体系。",
+        "rec_v3": "信号靠被收购地位、信息透明不足；可复制性中等，亮点是用平台连接家庭与照护者并延伸企业福利，国内58同城/天鹅到家可参考其'银发照护'垂直化运营。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 52.6
+      },
+      "payor_model": "个人自费(家庭订阅/匹配)+B端企业福利采购(Care@Work)",
+      "business_tags_role": "平台",
+      "desc_cn": "全球家庭照护匹配平台，含老年照护与企业福利",
+      "founded": 2006,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2019",
+          "text": "纽交所上市(IP约4630万美元)"
+        },
+        {
+          "date": "2020",
+          "text": "被IAC收购并私有化(约5亿美元)"
+        }
+      ],
+      "highlights": [
+        "全球领先家庭照护在线匹配平台",
+        "连接育儿/养老/成人照护人员与家庭",
+        "Care@Work为企业提供员工照护福利",
+        "推出Senior Care Advisor老年照护规划"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "含老年照护匹配与Senior Care Advisor规划服务，切入银发家庭照护刚需。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0394",
+      "name": "可靠护理",
+      "intro": "杭州可靠护理用品股份有限公司（301009.SZ），成人失禁护理用品龙头，2021年创业板上市，自主品牌'可靠'连续多年居国内成人失禁品类第一。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "尿失禁",
+          "纸尿裤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "康复辅具",
+          "reason": "成人失禁护理属老年护理刚需，建议补'康复辅具'一级标签以反映银发属性"
+        },
+        {
+          "action": "change",
+          "tag": "business_tags.role",
+          "reason": "实为失禁护理用品制造商，非媒体/数据服务商，role应改'产品商'"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l2 尿失禁/纸尿裤",
+          "reason": "标签过窄，建议补'成人失禁'统称以覆盖护理垫等全品类"
+        }
+      ]
+    },
+    {
+      "serial": "#0397",
+      "name": "新东方文旅",
+      "intro": "新东方教育科技集团全资子公司（2023年成立，注册资本10亿），面向中老年提供文化旅行、康养旅居与退休俱乐部兴趣社交，俞敏洪亲自操盘。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "文娱社交",
+          "reason": "退休俱乐部核心是中老年兴趣社交与陪伴，应补'文娱社交'标签"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l2 CCRC",
+          "reason": "新东方文旅以文旅/旅居/本地社交为主，并非CCRC养老社区，CCRC标签不准确"
+        },
+        {
+          "action": "add",
+          "tag": "康养旅居",
+          "reason": "已在海南/云南布局30+康养基地，建议补'康养旅居'二级标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0401",
+      "name": "百合佳缘",
+      "intro": "百合网与世纪佳缘2017年合并、2018年复星控股的互联网婚恋交友平台，累计注册4亿+、线下门店150+，并布局中老年相亲。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "相亲"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "business_tags.role",
+          "reason": "实为婚恋交友平台/匹配平台，应改'平台'而非'服务商(媒体/数据)'"
+        },
+        {
+          "action": "change",
+          "tag": "customer",
+          "reason": "主营C端会员与红娘服务，customer应为B2C，原B2B有误"
+        },
+        {
+          "action": "add",
+          "tag": "银发社交",
+          "reason": "已专门布局中老年相亲，建议补'银发社交'标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0436",
+      "name": "鱼跃医疗",
+      "intro": "A股医疗器械龙头（002223.SZ），家用与康复器械全品类，涵盖轮椅、制氧机、血压计、血糖仪等，深度受益老龄化居家护理需求。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "家用医疗",
+          "reason": "鱼跃核心在家庭医疗监测设备，建议补'家用医疗'标签"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l2 轮椅",
+          "reason": "轮椅只是其一，建议补'制氧机''血压计'等或统称'康复护理器械'"
+        },
+        {
+          "action": "change",
+          "tag": "customer",
+          "reason": "兼具B端机构与C端零售，建议改为B2B+B2C"
+        }
+      ]
+    },
+    {
+      "serial": "#0447",
+      "name": "爱康医疗",
+      "intro": "港股骨科植入物龙头（1789.HK），主营关节置换假体等骨科植入物及肿瘤康复设备，服务于老年骨科与术后康复，2003年成立。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "tag_l1 康复辅具",
+          "reason": "骨科植入物属高值医用耗材而非辅具，建议改'医疗器械'一级标签"
+        },
+        {
+          "action": "add",
+          "tag": "骨科植入",
+          "reason": "核心业务是关节置换植入物，应补'骨科植入'二级标签"
+        },
+        {
+          "action": "change",
+          "tag": "customer",
+          "reason": "以医院采购为主，建议保留B2B或注明兼部分零售"
+        }
+      ]
+    },
+    {
+      "serial": "#0475",
+      "name": "Seen Health",
+      "intro": "美国PACE（全人整合照护）运营商，2021年成立、2024年公开亮相获8VC领投2200万美元，专注亚裔等少数族裔老年慢病群体的文化适配居家照护。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "金融保险"
+        ],
+        "tag_l2": [
+          "慢病管理",
+          "保险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "business_tags.role 上市公司",
+          "reason": "Seen Health是2024年才A轮初创、并非上市公司，role应改'运营商'"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l2 保险",
+          "reason": "PACE由Medicare/Medicaid支付，并非保险公司，'保险'标签易误导，建议改为'整合照护'"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l1 金融保险",
+          "reason": "非保险/金融机构，建议仅保留'养老服务'"
+        }
+      ]
+    },
+    {
+      "serial": "#0493",
+      "name": "百思买",
+      "intro": "全球消费电子零售巨头（NYSE:BBY），通过Best Buy Health进军老年科技，核心品牌Lively（PERS+紧急响应），曾收购GreatCall/Current Health后战略回缩。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商",
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "Best Buy Health属老年科技/智能硬件，建议补'智能科技'标签"
+        },
+        {
+          "action": "add",
+          "tag": "紧急响应",
+          "reason": "Lively PERS+紧急响应是其核心银发产品，建议补'紧急响应'二级标签"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l1 消费品",
+          "reason": "银发切入点实为健康/照护服务，建议补'养老服务'或'健康服务'"
+        }
+      ]
+    },
+    {
+      "serial": "#1152",
+      "name": "Welltower",
+      "intro": "全球最大医疗地产REIT（NYSE:WELL），持有并运营养老社区(SHOP)、医疗办公楼与长期护理地产，是美国银发地产定价锚，2025年激进加仓。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "养老REIT"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "business_tags.role 制造商(消费品)",
+          "reason": "角色明显错误，应为'投资机构/REITs运营商'，建议改'投资机构'"
+        },
+        {
+          "action": "change",
+          "tag": "customer 未标注",
+          "reason": "直接收费对象为养老运营商(B端)，建议标注B2B"
+        },
+        {
+          "action": "add",
+          "tag": "养老地产",
+          "reason": "核心为养老/医疗地产持有运营，建议补'养老地产'一级标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0470",
+      "name": "Hinge Health",
+      "intro": "美国数字肌肉骨骼(MSK)疼痛护理龙头，纽交所上市(HNGE，2025-05 IPO)，通过AI动作追踪+FDA可穿戴Enso为雇主与健康计划提供居家慢病康复。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "远程医疗",
+          "慢病管理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "AI动作追踪+可穿戴设备是核心，建议补'智能科技'标签"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l1 养老服务",
+          "reason": "MSK护理面向全龄、仅部分老年，建议改'健康服务'更准确"
+        },
+        {
+          "action": "add",
+          "tag": "康复器械",
+          "reason": "可穿戴Enso属康复/疼痛管理硬件，建议补'康复器械'二级标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0392",
+      "name": "傅里叶智能",
+      "intro": "上海康复机器人及通用人形机器人公司，2025-01完成近8亿元E轮（估值约80亿），产品进入60+国、3000+机构，具身智能赋能康养。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械",
+          "机器人"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "business_tags.role 服务商",
+          "reason": "实为康复/人形机器人产品制造商，建议改'产品商/制造商'"
+        },
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "具身智能+机器人是核心差异，建议补'智能科技'一级标签"
+        },
+        {
+          "action": "add",
+          "tag": "人形机器人",
+          "reason": "已跨界通用人形机器人，建议补'人形机器人'二级标签以反映双板块"
+        }
+      ]
+    },
+    {
+      "serial": "#0495",
+      "name": "Brookdale Senior Living",
+      "intro": "美国最大养老社区运营商（NYSE:BKD），1978年成立，提供独立生活、辅助生活、记忆照护与CCRC，运营600+社区，近年战略收缩。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康养地产"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "CCRC",
+          "reason": "核心产品含CCRC持续照料退休社区，建议补'CCRC'二级标签"
+        },
+        {
+          "action": "add",
+          "tag": "记忆照护",
+          "reason": "专设阿尔茨海默记忆照护业务，建议补'记忆照护'标签"
+        },
+        {
+          "action": "change",
+          "tag": "category_l1 老年文娱",
+          "reason": "category_l1误标'老年文娱'，实际是养老服务运营商，建议纠正为'养老服务'"
+        }
+      ]
+    },
+    {
+      "serial": "#0497",
+      "name": "Care.com",
+      "intro": "全球领先家庭照护在线匹配平台（2006年成立，2020年被IAC收购），连接家庭与育儿/养老/成人照护人员，并通过Care@Work提供企业员工照护福利。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "家政"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "平台",
+          "reason": "本质是照护服务匹配平台，建议补'平台'角色/标签"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l2 家政",
+          "reason": "'家政'过窄且偏保洁，建议改'照护服务'或'家庭照护'"
+        },
+        {
+          "action": "add",
+          "tag": "企业福利",
+          "reason": "Care@Work面向企业员工照护福利，建议补'企业福利'二级标签"
+        }
+      ]
+    }
+  ],
+  "nonsilver": []
+}

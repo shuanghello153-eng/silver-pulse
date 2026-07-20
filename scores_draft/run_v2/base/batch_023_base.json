@@ -1,0 +1,664 @@
+[
+ {
+  "serial": "#0876",
+  "name": "Talkiatry",
+  "name_cn": "Talkiatry",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2024年6月",
+   "amount": "1.3亿美元",
+   "display": "1.3亿美元 (2024年6月)"
+  },
+  "funding_total": "$400M (截至2026年2月,含债务融资)",
+  "investors": [
+   "Perceptive Advisors",
+   "Andreessen Horowitz",
+   "Left Lane Capital",
+   "Blisce",
+   "Sofina",
+   "Banc of California",
+   "Relevance Ventures",
+   "Park Ventures",
+   "Richard Park"
+  ],
+  "payor_model": "商业保险支付+个人自费",
+  "desc_cn": "虚拟精神科护理平台",
+  "recommend": "信号偏弱、信息透明度高，其「B2C/B2B 养老护理服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入精神&神经赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "心理健康"
+  ],
+  "highlights": [
+   "虚拟精神科护理",
+   "价值导向行为健康",
+   "C轮1.3亿+D轮2.1亿美元",
+   "a16z等投资"
+  ],
+  "events": [
+   {
+    "date": "2024-06",
+    "text": "完成1.3亿美元C轮（a16z等）"
+   },
+   {
+    "date": "2026-02",
+    "text": "完成2.1亿美元D轮"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 8.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 47.1,
+  "silver_verdict": "非银发",
+  "silver_reason": "通用虚拟精神科，无老年专属服务信号",
+  "website_url": "https://www.talkiatry.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0893",
+  "name": "Upsidehom",
+  "name_cn": "Upsidehom",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": 2021,
+  "funding_latest": {
+   "date": "2021年",
+   "amount": "237万美元",
+   "round": "种子轮",
+   "display": "种子轮 237万美元 (2021年)"
+  },
+  "funding_total": "$2.25M",
+  "investors": [
+   "645 Ventures",
+   "Freestyle Capital"
+  ],
+  "payor_model": "个人自费（会员月费）",
+  "desc_cn": "居家养老会员制协调与陪伴平台",
+  "recommend": "信号偏弱、信息量一般，其「会员月费」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交",
+   "养老服务"
+  ],
+  "tag_l2": [
+   "陪伴服务",
+   "康养地产"
+  ],
+  "highlights": [
+   "会员制打包居家养老协调",
+   "对接照护员+适老化改造+陪伴",
+   "按月管家式协调",
+   "累计$2.25M"
+  ],
+  "events": [
+   {
+    "date": "2021",
+    "text": "完成237万美元种子轮（645 Ventures等）"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 49.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "为居家养老长者提供整合式照护与陪伴",
+  "website_url": "https://www.upsidehom.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0905",
+  "name": "Vivo",
+  "name_cn": "Vivo",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2017,
+  "funding_latest": {
+   "amount": "352万美元",
+   "round": "A轮",
+   "display": "A轮 352万美元"
+  },
+  "funding_total": "$3.52M",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费（课程订阅）",
+  "desc_cn": "面向老人的在线力量训练平台",
+  "recommend": "信号偏弱、信息量一般，其「B2C 健康养生服务」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入健康养生赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "健身"
+  ],
+  "highlights": [
+   "在线锻炼+现场教练",
+   "帮助老人重建肌肉",
+   "A轮352万美元",
+   "面向活力老人"
+  ],
+  "events": [
+   {
+    "date": "未披露",
+    "text": "完成352万美元A轮"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 44.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "在线力量训练服务老年肌肉健康",
+  "website_url": "https://www.vivohealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0962",
+  "name": "Nestimate",
+  "name_cn": "Nestimate",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2025.10",
+   "amount": "300万美元",
+   "round": "种子轮",
+   "display": "种子轮 300万美元 (2025.10)"
+  },
+  "funding_total": "$3.42M",
+  "investors": [
+   "S3 Ventures",
+   "PruVen Capital",
+   "TIAA Ventures",
+   "Invest Nebraska"
+  ],
+  "payor_model": "B端机构采购（SaaS订阅）",
+  "desc_cn": "退休收入（401k）分析软件平台",
+  "recommend": "信号偏弱、信息量一般，其「B2B SaaS订阅」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "highlights": [
+   "401k终身收入分析",
+   "嵌入确定缴费型退休计划",
+   "TIAA Ventures等投资",
+   "2025年种子轮300万"
+  ],
+  "events": [
+   {
+    "date": "2025-10",
+    "text": "完成300万美元种子轮（S3 Ventures等）"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 47.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "退休收入规划软件服务50+人群财务安全",
+  "website_url": "https://www.nestimate.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1132",
+  "name": "Lizzy Care",
+  "name_cn": "Lizzy Care",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2025-02",
+   "amount": "$2.6M",
+   "round": "Seed",
+   "display": "Seed $2.6M (2025-02)"
+  },
+  "funding_total": {
+   "amount": "$2.6M",
+   "display": "累计$2.6M"
+  },
+  "investors": "Boomerang Ventures领投",
+  "payor_model": "B端机构采购+家庭自费",
+  "desc_cn": "家庭痴呆症居家照护协调平台",
+  "recommend": "信号偏弱、信息量一般，其「B2B2C 居家痴呆照护协调平台」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入照护机构赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "居家护理"
+  ],
+  "highlights": [
+   "家庭痴呆症照护协调",
+   "连接照护团队/家属/资源",
+   "远程协调+个性化健康教育",
+   "Seed轮$2.6M"
+  ],
+  "events": [
+   {
+    "date": "2025-02",
+    "text": "完成260万美元种子轮（Boomerang Ventures领投）"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 5.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 46.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "痴呆症家庭居家照护协调直接服务认知症老人",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1140",
+  "name": "Biopeak",
+  "name_cn": "Biopeak",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "date": "2026-01",
+   "amount": "$2.7M",
+   "round": "早期融资",
+   "display": "早期融资 $2.7M (2026-01)"
+  },
+  "funding_total": {
+   "amount": "$2.7M",
+   "display": "累计$2.7M"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费（诊所服务）",
+  "desc_cn": "长寿诊所连锁（诊断+抗衰）",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 长寿诊所+诊断」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入长寿诊所赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "运营商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务",
+   "消费品"
+  ],
+  "tag_l2": [
+   "诊所",
+   "长寿抗衰"
+  ],
+  "highlights": [
+   "长寿医学整合式诊所",
+   "2026年$2.7M扩张融资",
+   "强化诊断与proprietary AI",
+   "面向健康寿命延长"
+  ],
+  "events": [
+   {
+    "date": "2026-01",
+    "text": "完成270万美元早期融资（强化诊断与AI）"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 4.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 35.1,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "长寿/抗衰诊所服务健康中年人，非失能老人照护",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1187",
+  "name": "IO Health",
+  "name_cn": "IO Health",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": 2023,
+  "funding_latest": {
+   "amount": "200万美元",
+   "round": "种子轮",
+   "date": "2025-10",
+   "display": "种子轮 200万美元 (2025-10)"
+  },
+  "funding_total": {
+   "amount": "累计约200万美元",
+   "display": "累计约200万美元"
+  },
+  "investors": "Nina Capital",
+  "payor_model": "B端机构采购（SaaS订阅）",
+  "desc_cn": "安宁疗护AI临床文档与运营SaaS",
+  "recommend": "信号偏弱、信息量一般，其「B2B 安宁疗护AI文档/运营SaaS」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入安宁疗护AI赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "highlights": [
+   "hospice与家庭健康AI文档",
+   "简化临床记录与运营",
+   "Seed轮200万美元",
+   "2025年Nina Capital领投"
+  ],
+  "events": [
+   {
+    "date": "2025-10",
+    "text": "完成200万美元种子轮（Nina Capital领投）"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 4.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 41.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "安宁疗护AI运营直接服务临终与居家老人",
+  "website_url": "https://www.iohealth.ai",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#1336",
+  "name": "Winterlight Labs",
+  "name_cn": "Winterlight Labs",
+  "region": "海外",
+  "stage": "被收购",
+  "founded": 2015,
+  "funding_latest": {
+   "date": "2019",
+   "amount": "420万美元",
+   "round": "Series A(被收购)",
+   "display": "Series A $4.2M;后被Cambridge Cognition收购"
+  },
+  "funding_total": {
+   "amount": "约$600万",
+   "display": "累计约$600万"
+  },
+  "investors": "Hikma Ventures",
+  "payor_model": "B端机构采购（药企/临床机构）",
+  "desc_cn": "语音生物标志物认知障碍筛查",
+  "recommend": "信号偏弱、公开信息较少，其「B2B 语音生物标记」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入认知症赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "认知筛查"
+  ],
+  "highlights": [
+   "语音数字生物标志物",
+   "认知障碍早期筛查",
+   "被Cambridge Cognition收购",
+   "成立于2015年"
+  ],
+  "events": [
+   {
+    "date": "未披露",
+    "text": "被Cambridge Cognition收购"
+   },
+   {
+    "date": "2019",
+    "text": "完成420万美元A轮"
+   }
+  ],
+  "signal_strength": 1.05,
+  "info_score": 3.0,
+  "diff_score": 8.0,
+  "copy_score": 6.0,
+  "research_value": 40.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "语音生物标志物服务认知症早期筛查",
+  "website_url": "https://www.winterlightlabs.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0002",
+  "name": "SageWell",
+  "name_cn": "SageWell",
+  "region": "国内",
+  "stage": "成长期",
+  "founded": "未搜到",
+  "funding_latest": {
+   "amount": "未公开披露",
+   "round": "未披露",
+   "display": "未披露 未公开披露"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费（理财顾问费）",
+  "desc_cn": "面向50+人群的退休理财顾问",
+  "recommend": "信号偏弱、公开信息较少，其「理财顾问服务费」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入金融理财赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "highlights": [
+   "50+专属退休理财顾问",
+   "覆盖社安金/养老金/保险",
+   "美国fintech模式",
+   "信息较少（融资未披露）"
+  ],
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 3.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 36.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "为50岁以上人群提供退休理财规划",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0003",
+  "name": "乐湾",
+  "name_cn": "乐湾",
+  "region": "国内",
+  "stage": "成长期",
+  "founded": 2015,
+  "funding_latest": {
+   "amount": "未公开披露",
+   "round": "未披露",
+   "display": "未披露 未公开披露"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购+政府付费",
+  "desc_cn": "智慧康养SaaS与物联网平台",
+  "recommend": "信号偏弱、信息透明度高，其「B2C 适老家居消费品」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入适老家居产品赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务",
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老软件",
+   "适老化"
+  ],
+  "highlights": [
+   "自研「乐湾云」养老SaaS",
+   "服务3000+养老单位",
+   "物联网对接硬件超1000种",
+   "入选智慧健康养老推广目录"
+  ],
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 8.0,
+  "research_value": 50.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "为机构/社区/居家养老提供智慧康养系统",
+  "website_url": "https://www.lewantech.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0004",
+  "name": "优享陪诊",
+  "name_cn": "优享陪诊",
+  "region": "国内",
+  "stage": "成长期",
+  "founded": 2020,
+  "funding_latest": {
+   "amount": "未公开披露",
+   "round": "未披露",
+   "display": "未披露 未公开披露"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费（服务佣金）",
+  "desc_cn": "老年人就医陪诊与代办平台",
+  "recommend": "信号偏弱、公开信息较少，其「B2C 健康养生服务」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入健康养生赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "陪诊"
+  ],
+  "highlights": [
+   "就医陪同/代办挂号/取药",
+   "面向老人及行动不便人群",
+   "一站式陪诊服务",
+   "信息较少（融资未披露）"
+  ],
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 3.0,
+  "diff_score": 4.0,
+  "copy_score": 7.0,
+  "research_value": 32.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "为老年人提供就医陪同与代办服务",
+  "website_url": "http://www.huachengenjoy.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0005",
+  "name": "全民K歌",
+  "name_cn": "全民K歌",
+  "region": "国内",
+  "stage": "成长期",
+  "founded": 2014,
+  "funding_latest": {
+   "amount": "腾讯旗下产品",
+   "round": "子公司",
+   "display": "子公司 腾讯旗下产品"
+  },
+  "funding_total": {
+   "amount": "腾讯集团内部",
+   "display": "累计腾讯集团内部"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费（会员/虚拟礼物）",
+  "desc_cn": "腾讯旗下在线K歌社交平台",
+  "recommend": "信号偏弱、信息量一般，「B2C 社交娱乐平台」模式较常规；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入社交平台赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "文娱"
+  ],
+  "highlights": [
+   "中老年用户活跃度极高",
+   "腾讯生态流量入口",
+   "银发最常用的娱乐社交之一",
+   "养老仅为用户画像非主业"
+  ],
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 2.0,
+  "copy_score": 1.0,
+  "research_value": 25.6,
+  "silver_verdict": "非银发",
+  "silver_reason": "通用K歌社交平台，银发仅高活跃用户而非专属业务",
+  "website_url": "https://kg.qq.com",
+  "business_tags_role": null
+ }
+]

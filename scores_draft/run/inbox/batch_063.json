@@ -1,0 +1,512 @@
+{
+ "batch": 63,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0556",
+   "name": "iRelaunch",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "就业"
+   ],
+   "description": "职业中断人群重返职场支持",
+   "highlights": "职业中断人群重返职场支持",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 26,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=iRelaunch",
+   "website_url": "https://www.irelaunch.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "职业中断人群重返职场支持",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "就业"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【iRelaunch】聚焦行业媒体，职业中断人群重返职场支持，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0562",
+   "name": "Geri Care",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "印度首家专注于老年人的综合医疗服务提供商，2018年创立，提供360度连续护理模式，包括预防、诊断、治疗、康复和长期护理。",
+   "highlights": "2018年创立",
+   "funding_latest": {
+    "date": "2025-01",
+    "amount": "1300万美元",
+    "display": "1300万美元 (2025-01)"
+   },
+   "funding_total": "$13M (截至2025年)",
+   "investors": [
+    "InvAscent (India Life Sciences Fund IV)"
+   ],
+   "founded": "2019",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Geri%20Care",
+   "website_url": "https://www.gericare.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "印度首家专注于老年人的综合医疗服务提供商，2018年创立，提供360度连续护理模式，包括预防、诊断、治疗、康复和长期护理。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Geri Care】聚焦专业护理/产业资本/健康管理，2018年创立，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0563",
+   "name": "Hello Sage",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "总部位于纽约的老年生活运营管理平台提供商，为老年社区提供基于云的运营系统，帮助社区优化人员配置、提供更好的住户护理并提供数据洞察。",
+   "highlights": "为老年社区提供基于云的运营系统",
+   "funding_latest": {
+    "date": "2024-12",
+    "amount": "3500万美元",
+    "display": "3500万美元 (2024-12)"
+   },
+   "funding_total": "$59M (截至2024年)",
+   "investors": [
+    "IVP",
+    "Animo Ventures",
+    "Distributed Ventures",
+    "Goldcrest Capital",
+    "Friends and Family Capital",
+    "Plus Capital"
+   ],
+   "founded": "2022",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hello%20Sage",
+   "website_url": "https://www.hellosage.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "总部位于纽约的老年生活运营管理平台提供商，为老年社区提供基于云的运营系统，帮助社区优化人员配置、提供更好的住户护理并提供数据洞察。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hello Sage】聚焦专业护理/产业资本/养老社区，为老年社区提供基于云的运营系统，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0566",
+   "name": "Lifeway Mobility",
+   "region": "海外",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "居家无障碍解决方案公司，销售、安装和维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯和浴室安全产品。提供免费居家评估和咨询服务，通过医疗保健渠道获客，2024年服务了2万家庭。",
+   "highlights": "销售、安装和维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯和浴...",
+   "funding_latest": {
+    "amount": "约3000万美元年销售",
+    "display": "约3000万美元年销售"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2005",
+   "value_score": 44,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lifeway%20Mobility",
+   "website_url": "https://www.lifewaymobility.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "居家无障碍解决方案公司，销售、安装和维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯和浴室安全产品。提供免费居家评估和咨询服务，通过医疗保健渠道获客，2024年服务了2万家庭。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Lifeway Mobility Review (2026): With Costs",
+      "date": "2026-04-06",
+      "source": "Retirement Living",
+      "url": "https://www.retirementliving.com/reviews/lifeway-mobility"
+     }
+    ],
+    "snippets": [
+     "Stair lifts, ramps, home elevators for aging in place.",
+     "Private co; product reviews, no major funding/M&A event surfaced."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lifeway Mobility】聚焦产业资本/居家护理/智能硬件，销售、安装和维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯和浴...，B2B+B2C模式，研究价值分44。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0567",
+   "name": "Humana",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "美国头部Medicare Advantage运营商",
+   "highlights": "美国头部Medicare Advantage运营商",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1961",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Humana",
+   "website_url": "https://www.humana.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "美国头部Medicare Advantage运营商",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 1,
+    "news_quality": "matched",
+    "latest_news": [
+     {
+      "title": "Humana出售Gentiva股份，900万美元退出临终关怀业务",
+      "url": "https://homehealthcarenews.com/2026/06/humana-to-divest-stake-in-gentiva-in-900m-deal/",
+      "date": "2026-06-10",
+      "source": "Home Health Care News",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": []
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Humana】聚焦产业资本/行业媒体，美国头部Medicare Advantage运营商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0568",
+   "name": "Aetna",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "美国头部Medicare Advantage运营商",
+   "highlights": "美国头部Medicare Advantage运营商",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Aetna",
+   "website_url": "https://www.aetna.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "美国头部Medicare Advantage运营商",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Aetna】聚焦产业资本/行业媒体，美国头部Medicare Advantage运营商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0569",
+   "name": "UnitedHealth",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "美国头部Medicare Advantage运营商",
+   "highlights": "美国头部Medicare Advantage运营商",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1977",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=UnitedHealth",
+   "website_url": "https://www.unitedhealthgroup.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "美国头部Medicare Advantage运营商",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【UnitedHealth】聚焦产业资本/行业媒体，美国头部Medicare Advantage运营商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0570",
+   "name": "Cigna",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "美国头部Medicare Advantage运营商",
+   "highlights": "美国头部Medicare Advantage运营商",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cigna",
+   "website_url": "https://www.cigna.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "美国头部Medicare Advantage运营商",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cigna】聚焦产业资本/行业媒体，美国头部Medicare Advantage运营商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "Medicare Advantage",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0571",
+   "name": "a16z",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "头部风投机构，投资Honor、Bold、Devoted Health等",
+   "highlights": "投资Honor、Bold、Devoted Health等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2009",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=a16z",
+   "website_url": "https://a16z.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "头部风投机构，投资Honor、Bold、Devoted Health等",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【a16z】聚焦产业资本，投资Honor、Bold、Devoted Health等，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0572",
+   "name": "Battery Ventures",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "风投机构，投资A Place for Mom、ClearCare",
+   "highlights": "投资A Place for Mom、ClearCare",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1983",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Battery%20Ventures",
+   "website_url": "https://www.battery.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "风投机构，投资A Place for Mom、ClearCare",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Battery Ventures】聚焦产业资本，投资A Place for Mom、ClearCare，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0573",
+   "name": "Blue Venture Fund",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "Blue Venture Fund（Blue Ventures）是一家专注于数字健康与医疗创新的美国风险投资机构，投资早期健康科技初创企业，覆盖远程医疗、慢病管理与老年健康等方向。",
+   "highlights": "投资Wider Circle",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2008",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Blue%20Venture%20Fund",
+   "website_url": "https://www.blueventurefund.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "风投机构，投资Wider Circle",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Blue Venture Fund】聚焦产业资本，投资Wider Circle，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0574",
+   "name": "Canaan",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "Canaan Partners（Canaan）是一家成立于1987年的美国早期风险投资机构，专注科技与医疗健康（生命科学）领域的初创投资，在数字健康、生物技术及养老服务相关科技企业有较多布局。",
+   "highlights": "投资Papa",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1987",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Canaan",
+   "website_url": "https://www.canaan.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "风投机构，投资Papa",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Canaan】聚焦产业资本，投资Papa，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

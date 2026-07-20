@@ -1,0 +1,755 @@
+{
+  "batch": 20,
+  "enterprises": [
+    {
+      "serial": "#0873",
+      "signal_strength": 1.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 40.6,
+      "recommend": {
+        "rec_v1": "信号弱但累计融资超7000万清晰；其糖尿病逆转订阅结合CGM与GLP-1，国内同类多，可学疗程设计但印度成本结构难搬。",
+        "rec_v2": "信息较足、差异在逆转叙事而非控糖；国内宜借鉴其教练+药物管理闭环，复制受CGM价格与医生供给制约。",
+        "rec_v3": "糖尿病管理红海；其亮点是量化逆转式数字疗程，国内复制模式易、突围难，建议研究其雇主+个人双端获客。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 1.55,
+        "research_value": 40.6
+      },
+      "payor_model": "个人自费+商业保险",
+      "business_tags_role": "服务商",
+      "desc_cn": "印糖尿病逆转订阅App",
+      "founded": 2021,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021",
+          "text": "公司成立"
+        },
+        {
+          "date": "2024-03",
+          "text": "完成500万美元A轮"
+        }
+      ],
+      "highlights": [
+        "糖尿病逆转与肥胖管理App",
+        "结合CGM、医生教练与GLP-1用药管理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "糖尿病管理App服务全龄，非老年专属，属泛医疗。"
+    },
+    {
+      "serial": "#0875",
+      "signal_strength": 1.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 39.6,
+      "recommend": {
+        "rec_v1": "信号弱但种子轮清晰；其识别并协调高价值专业护理服务，国内陪诊与护理导航刚起步，可学其需求分诊与供给匹配。",
+        "rec_v2": "信息中等、差异在护理服务导航而非直供；国内可借鉴其协调层定位，复制门槛中、需本地供给网络。",
+        "rec_v3": "护理协调降低无效支出；其亮点是高价值服务识别，国内复制可行、需建供给库，建议研究其分诊算法与结算机制。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 1.55,
+        "research_value": 39.6
+      },
+      "payor_model": "商业保险支付",
+      "business_tags_role": "服务商",
+      "desc_cn": "专业护理服务协调平台",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2019",
+          "text": "公司成立，累计融资约1420万美元"
+        }
+      ],
+      "highlights": [
+        "识别并协调高价值专业护理服务",
+        "面向护理需求的分诊与供给匹配"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "护理协调为通用医疗服务导航，非老年专属，属泛医疗。"
+    },
+    {
+      "serial": "#0911",
+      "signal_strength": 1.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 47.7,
+      "recommend": {
+        "rec_v1": "信号弱但种子轮清晰；其AI预测长期护理需求并定制计划，国内长护险评估刚需、可直接借鉴其风险建模与个性化输出。",
+        "rec_v2": "信息中等、差异在把LTC需求前置预测；国内可学其评估问卷与计划生成，政策利好、复制门槛低，值得研究。",
+        "rec_v3": "长期护理是银发最大不确定；其亮点是AI测算护理缺口，国内复制几乎无壁垒，建议研究它如何对接保险与家庭预算。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 1.55,
+        "research_value": 47.7
+      },
+      "payor_model": "商业保险支付",
+      "business_tags_role": "服务商",
+      "desc_cn": "AI长期护理需求预测平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2020",
+          "text": "公司成立"
+        },
+        {
+          "date": "2025-01",
+          "text": "完成700万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "AI预测长期护理需求",
+        "个性化定制护理计划"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "长期护理需求预测直接服务老年，属核心银发。"
+    },
+    {
+      "serial": "#0925",
+      "signal_strength": 1.55,
+      "info_score": 9,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号弱但估值110亿披露极丰；其智能戒指做健康追踪间接受益老年预防，国内可学其形态与数据叙事，硬件壁垒高。",
+        "rec_v2": "信息充分、差异在戒指形态与睡眠等算法；国内宜借鉴其消费化健康量化，复制需传感器与供应链积累，非一日功。",
+        "rec_v3": "可穿戴是健康老龄化底座；其亮点是高粘性体征数据，国内复制受硬件与生态约束，建议研究其订阅与B端健康合作。",
+        "info_score": 9,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 1.55,
+        "research_value": 53.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "智能戒指健康追踪硬件商",
+      "founded": 2013,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2013",
+          "text": "公司成立"
+        },
+        {
+          "date": "2025-10",
+          "text": "完成9亿美元融资，估值110亿美元"
+        }
+      ],
+      "highlights": [
+        "智能戒指收集20+种生物特征数据",
+        "2025年融资9亿美元，估值110亿美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "智能戒指为通用健康追踪，仅间接受益老年，属泛医疗。"
+    },
+    {
+      "serial": "#0968",
+      "signal_strength": 1.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 2,
+      "research_value": 37.6,
+      "recommend": {
+        "rec_v1": "信号弱但种子轮清晰；其太空微重力制造人工视网膜治AMD，技术极致稀缺，国内难复制，仅作生物制造前沿参考。",
+        "rec_v2": "信息中等、差异极强：国际空间站造视网膜植体；国内复制几乎不可能，值得关注组织工程方向而非创业路径。",
+        "rec_v3": "AMD致盲关乎老年；其亮点是太空制造突破，国内深科技门槛极高、短期不可抄，建议把它当再生医学风向标。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 2,
+        "signal_strength": 1.55,
+        "research_value": 37.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "太空制造人工视网膜植体",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2016",
+          "text": "公司成立"
+        },
+        {
+          "date": "2025-11",
+          "text": "完成700万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "人工视网膜治疗年龄相关性黄斑变性（AMD）",
+        "利用国际空间站微重力环境制造"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "人工视网膜治AMD为眼科器械，非老年服务，属泛医疗。"
+    },
+    {
+      "serial": "#0972",
+      "signal_strength": 1.55,
+      "info_score": 6,
+      "diff_score": 8,
+      "copy_score": 6,
+      "research_value": 50.6,
+      "recommend": {
+        "rec_v1": "信号弱但General Catalyst领投清晰；其AI伴侣Sunny做认知刺激+人类督导，国内认知症照护稀缺，可学其人机协同疗法框架。",
+        "rec_v2": "信息中等、差异在AI伴侣绑定临床监督；国内宜借鉴其非药物干预设计，复制受医疗资质与支付约束。",
+        "rec_v3": "认知症非药物干预缺供给；其亮点是保险支付的虚拟治疗，国内复制需过审与医保，建议研究其家庭作业+随访闭环。",
+        "info_score": 6,
+        "diff_score": 8,
+        "copy_score": 6,
+        "signal_strength": 1.55,
+        "research_value": 50.6
+      },
+      "payor_model": "商业保险支付+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "AI伴侣认知康复疗法平台",
+      "founded": 2022,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022",
+          "text": "公司成立"
+        },
+        {
+          "date": "2025-09",
+          "text": "完成700万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "AI伴侣Sunny提供非药物认知康复",
+        "AI伴侣+人类临床监督结合，接受保险支付"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知康复/认知刺激疗法服务认知症老人，属核心银发。"
+    },
+    {
+      "serial": "#1190",
+      "signal_strength": 1.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号弱但B1轮900万清晰；其印度居家+机构双轨养老，与国内下沉市场结构相近，可作为新兴市场规模化对照样本。",
+        "rec_v2": "信息中等、差异在Emoha/Epoch双品牌覆盖居家与机构；国内可学其人力培训体系，复制性强、值得研究。",
+        "rec_v3": "发展中国家养老靠人力；其亮点是双模式整合，国内复制门槛低、可借鉴其护工标准化，建议研究其获客与留存。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 1.55,
+        "research_value": 45.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "印度居家与机构养老平台",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2017",
+          "text": "公司成立"
+        },
+        {
+          "date": "2026-07",
+          "text": "完成900万美元B1轮增长融资"
+        }
+      ],
+      "highlights": [
+        "印度居家养老平台，运营Emoha与Epoch",
+        "提供居家与机构照护服务"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "印度居家与机构养老服务，属核心银发。"
+    },
+    {
+      "serial": "#1308",
+      "signal_strength": 1.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号弱但获NIH/NIA资助公信强；其数据驱动个性化老年健康路径，国内主动健康产品稀缺，可直接借鉴其评估-路径生成。",
+        "rec_v2": "信息中等、差异在把健康老龄化做成网页项目；国内可学其个性化引擎，复制成本低、政策鼓励，值得研究。",
+        "rec_v3": "主动健康是银发新入口；其亮点是权威资助背书，国内复制几无壁垒，建议研究其如何将路径转成可持续服务。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 1.55,
+        "research_value": 45.7
+      },
+      "payor_model": "个人自费+政府资助",
+      "business_tags_role": "服务商",
+      "desc_cn": "老年人个性化健康路径项目",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2020",
+          "text": "公司成立，获NIH/NIA 550万美元资助"
+        }
+      ],
+      "highlights": [
+        "面向老年人的个性化健康与福祉项目",
+        "数据生成定制化健康路径，获NIH/NIA资助"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向老年人的个性化健康改善项目，属核心银发。"
+    },
+    {
+      "serial": "#1314",
+      "signal_strength": 1.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号弱但累计890万清晰；其传感+AI监测老人活动与安全，国内无感监测硬件正热，模式可直接对标、复制门槛低。",
+        "rec_v2": "信息中等、差异在行为级安全监测而非摄像头；国内可学其传感器融合，复制性强、建议研究其告警与响应闭环。",
+        "rec_v3": "老人独居安全刚需；其亮点是远程行为监测，国内复制几乎无壁垒、供应链成熟，建议研究其误报治理与家属端设计。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 1.55,
+        "research_value": 45.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "老人活动安全远程监测",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2016",
+          "text": "公司成立，累计融资约890万美元"
+        }
+      ],
+      "highlights": [
+        "传感/AI监测老人活动与安全",
+        "远程行为与安全监测"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老远程监测老人活动与安全，属核心银发。"
+    },
+    {
+      "serial": "#1315",
+      "signal_strength": 1.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、披露有限；其西班牙居家照护平台连接家庭与资源，国内居家养老运营同质化高，可借鉴其本地供给组织方式。",
+        "rec_v2": "信息偏少、模式常规：居家照护中介；国内可学其供需匹配，复制成本低、建议研究其护工审核与定价。",
+        "rec_v3": "居家照护是银发基本盘；其亮点是平台化连接资源，国内复制门槛低、竞争激烈，建议研究其信任与质量机制。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 1.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "西居家照护资源对接平台",
+      "founded": 2015,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2015",
+          "text": "公司成立，累计融资约190万欧元"
+        }
+      ],
+      "highlights": [
+        "西班牙居家照护平台",
+        "连接家庭与照护资源"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "西班牙居家照护平台服务老年，属核心银发。"
+    },
+    {
+      "serial": "#1338",
+      "signal_strength": 1.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱但成立较早；其视觉映射辅助痴呆日常认知训练，国内认知症家庭照护缺工具，可学其图形化任务引导设计。",
+        "rec_v2": "信息中等、差异在把认知训练变视觉地图；国内可借鉴其caregiver赋能思路，复制需内容本地化。",
+        "rec_v3": "痴呆居家照护靠提示系统；其亮点是视觉映射降低照护负担，国内复制可行、需汉化，建议研究其B端机构嵌入。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 1.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "痴呆日常认知训练辅助",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2016",
+          "text": "公司成立"
+        }
+      ],
+      "highlights": [
+        "视觉映射辅助支持AD/痴呆日常认知训练",
+        "面向认知症患者的认知辅助工具"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知训练服务痴呆/认知症老人，属核心银发。"
+    },
+    {
+      "serial": "#0015",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 4,
+      "research_value": 41.2,
+      "recommend": {
+        "rec_v1": "信号极低但融资与奖项披露实；其康复外骨骼用于卒中脊髓损伤，技术硬但非老年专属，国内宜学其康复机器人而非定位银发。",
+        "rec_v2": "信息较足、差异在AI+脑机接口外骨骼；国内复制受医疗器械注册与医院渠道制约，建议研究其单下肢机型下沉策略。",
+        "rec_v3": "康复机器人门槛高；其亮点是入选首台套目录，国内可借鉴其临床路径，但属通用康复、银发属性弱。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 4,
+        "signal_strength": 1.05,
+        "research_value": 41.2
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "康复外骨骼机器人厂商",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2017",
+          "text": "公司成立"
+        },
+        {
+          "date": "2024",
+          "text": "完成数千万级融资，入选首台套目录"
+        }
+      ],
+      "highlights": [
+        "康复外骨骼机器人（融合AI与脑机接口）",
+        "LiteStepper单下肢康复机器人入选首台套目录"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "康复外骨骼用于卒中/脊髓损伤，非老年专属，属泛医疗。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0873",
+      "name": "Sugar.fit",
+      "intro": "印度糖尿病逆转与肥胖管理App，结合CGM与GLP-1管理。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "糖尿病"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "健康服务",
+          "reason": "糖尿病逆转App属健康服务而非食品营养"
+        }
+      ]
+    },
+    {
+      "serial": "#0875",
+      "name": "Switchboard Health",
+      "intro": "识别并协调高价值的专业护理服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护理协调"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0911",
+      "name": "Waterlily",
+      "intro": "AI预测长期护理需求，个性化定制护理计划。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护理协调"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0925",
+      "name": "ŌURA",
+      "intro": "Oura智能戒指，收集20+种生物特征数据做健康追踪。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "健康服务",
+          "reason": "智能戒指健康追踪属健康服务而非康复辅具"
+        }
+      ]
+    },
+    {
+      "serial": "#0968",
+      "name": "LambdaVision",
+      "intro": "人工视网膜，治疗年龄相关性黄斑变性等老年致盲性疾病。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "视觉辅助"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "医疗健康",
+          "reason": "人工视网膜属眼科医疗器械而非康复辅具"
+        },
+        {
+          "action": "change",
+          "tag": "视觉健康/眼科",
+          "reason": "原视觉辅助标签错误，应为视觉健康/眼科"
+        }
+      ]
+    },
+    {
+      "serial": "#0972",
+      "name": "NewDays",
+      "intro": "AI伴侣Sunny提供非药物干预的认知康复与认知刺激疗法。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1190",
+      "name": "Age Care Labs",
+      "intro": "印度居家养老平台，运营Emoha与Epoch Elder Care两大品牌。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1308",
+      "name": "BetterAge",
+      "intro": "面向老年人的个性化网页端健康与福祉改善项目。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "慢病管理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1314",
+      "name": "Watcherr",
+      "intro": "养老远程监测公司，通过传感/AI监测老人活动与安全。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具",
+          "养老服务",
+          "消费品"
+        ],
+        "tag_l2": [
+          "跌倒监测",
+          "远程医疗",
+          "智能硬件"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1315",
+      "name": "Cuidum",
+      "intro": "西班牙居家照护平台，连接家庭与照护资源。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工平台",
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1338",
+      "name": "MapHabit",
+      "intro": "视觉映射辅助，支持阿尔茨海默/痴呆日常认知训练。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0015",
+      "name": "安杰莱",
+      "intro": "医疗机器人企业，专注康复外骨骼机器人研发。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0873",
+      "name": "Sugar.fit",
+      "verdict": "泛医疗擦边",
+      "reason": "糖尿病管理App服务全龄，非老年专属，属泛医疗。"
+    },
+    {
+      "serial": "#0875",
+      "name": "Switchboard Health",
+      "verdict": "泛医疗擦边",
+      "reason": "护理协调为通用医疗服务导航，非老年专属，属泛医疗。"
+    },
+    {
+      "serial": "#0925",
+      "name": "ŌURA",
+      "verdict": "泛医疗擦边",
+      "reason": "智能戒指为通用健康追踪，仅间接受益老年，属泛医疗。"
+    },
+    {
+      "serial": "#0968",
+      "name": "LambdaVision",
+      "verdict": "泛医疗擦边",
+      "reason": "人工视网膜治AMD为眼科器械，非老年服务，属泛医疗。"
+    },
+    {
+      "serial": "#0015",
+      "name": "安杰莱",
+      "verdict": "泛医疗擦边",
+      "reason": "康复外骨骼用于卒中/脊髓损伤，非老年专属，属泛医疗。"
+    }
+  ]
+}

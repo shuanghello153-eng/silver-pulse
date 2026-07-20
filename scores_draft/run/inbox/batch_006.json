@@ -1,0 +1,785 @@
+{
+ "batch": 6,
+ "tier": "A",
+ "enterprises": [
+  {
+   "name": "Benesse",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "教育+养老",
+   "tags": [
+    "教育"
+   ],
+   "description": "日本教育与原日生(老年照护)集团，东京证交所上市，业务横跨儿童教育与高龄者照护(护理规划中心、养老住宅)。",
+   "highlights": "日本'教育+养老'跨代融合模式，国内'老幼共托/社区综合体'可参考。",
+   "funding_latest": {
+    "date": "1955",
+    "amount": "上市公司(东证:9783)",
+    "round": "上市",
+    "display": "上市公司 东证:9783 (1955)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "1955",
+   "value_score": 67,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Benesse",
+   "website_url": "https://www.benesse.co.jp",
+   "business_model": "B2C/B2B 教育+高龄照护，会员与服务机构收费",
+   "name_cn": "Benesse｜倍乐生",
+   "desc_cn": "日本教育与原日生(老年照护)集团，东京证交所上市，业务横跨儿童教育与高龄者照护(护理规划中心、养老住宅)。",
+   "business_model_cn": "B2C/B2B 教育与高龄照护，会员与服务机构收费",
+   "serial": "#1174",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Benesse】聚焦产业资本/教育，日本'教育+养老'跨代融合模式，国内'老幼共托/社区综合体'可参考。，B2B+B2C模式，研究价值分67。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Nichii Gakkan",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "居家照护",
+   "tags": [
+    "居家医疗",
+    "居家护理"
+   ],
+   "description": "日本大型居家护理与医疗服务集团，东京证交所上市，提供访视护理、照护管理与健康服务。",
+   "highlights": "日本居家照护连锁化标杆，国内上门护理可对标其照护管理人员( Care Manager)制度。",
+   "funding_latest": {
+    "date": "1973",
+    "amount": "上市公司(东证:9792)",
+    "round": "上市",
+    "display": "上市公司 东证:9792 (1973)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "1973",
+   "value_score": 60,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nichii%20Gakkan",
+   "website_url": "https://www.nichii.co.jp",
+   "business_model": "B2C 访视护理+照护管理，医保+自费结算",
+   "name_cn": "日医学馆",
+   "desc_cn": "日本大型居家护理与医疗服务集团，东京证交所上市，提供访视护理、照护管理与健康服务。",
+   "business_model_cn": "B2C 访视护理与照护管理，医保加自费结算",
+   "serial": "#1175",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Nichii Gakkan】聚焦产业资本/居家护理，日本居家照护连锁化标杆，国内上门护理可对标其照护管理人员( Care Manager)制度。，B2C模式，研究价值分60。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Doro",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "适老硬件",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "瑞典斯德哥尔摩证交所上市公司，专注老年人简易手机、紧急呼叫与远程看护(telecare)设备。",
+   "highlights": "老年友好硬件+紧急呼叫样本，国内'老人机+一键呼叫'可参考其产品定义。",
+   "funding_latest": {
+    "date": "1974",
+    "amount": "上市公司(斯德哥尔摩:DORO)",
+    "round": "上市",
+    "display": "上市公司 斯德哥尔摩:DORO (1974)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "1974",
+   "value_score": 56,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Doro",
+   "website_url": "https://www.doro.com",
+   "business_model": "B2C 老人手机+telecare 设备，硬件+服务费",
+   "name_cn": "Doro｜老人手机",
+   "desc_cn": "瑞典斯德哥尔摩证交所上市公司，专注老年人简易手机、紧急呼叫与远程看护(telecare)设备。",
+   "business_model_cn": "B2C 老人手机与远程看护设备，硬件加服务费",
+   "serial": "#1177",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Doro】聚焦适老化改造，老年友好硬件+紧急呼叫样本，国内'老人机+一键呼叫'可参考其产品定义。，B2C模式，研究价值分56。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Essity",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "失禁护理",
+   "tags": [
+    "尿失禁",
+    "纸尿裤"
+   ],
+   "description": "瑞典卫生与健康上市公司(斯德哥尔摩证交所)，旗下 TENA(添宁)为全球失禁护理领导品牌，2017 年从 SCA 分拆。",
+   "highlights": "失禁护理消费巨头，国内成人纸尿裤品牌化可对标其产品矩阵与渠道。",
+   "funding_latest": {
+    "date": "2017",
+    "amount": "上市公司(斯德哥尔摩:ESSITY)",
+    "round": "分拆上市",
+    "display": "上市公司 斯德哥尔摩:ESSITY (2017)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "公共市场",
+   "founded": "2017",
+   "value_score": 60,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Essity",
+   "website_url": "https://www.essity.com",
+   "business_model": "B2C/B2B 失禁护理/伤口护理，品牌快消品模式",
+   "name_cn": "Essity｜添宁母公司",
+   "desc_cn": "瑞典卫生与健康上市公司(斯德哥尔摩证交所)，旗下 TENA(添宁)为全球失禁护理领导品牌，2017 年从 SCA 分拆。",
+   "business_model_cn": "B2C/B2B 失禁护理与伤口护理，品牌快消品模式",
+   "serial": "#1178",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁",
+    "纸尿裤"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Essity】聚焦专业护理，失禁护理消费巨头，国内成人纸尿裤品牌化可对标其产品矩阵与渠道。，B2B+B2C模式，研究价值分60。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0010",
+   "name": "博斯腾",
+   "region": "国内",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "上海博斯腾网络科技，认知症（阿尔茨海默病）数字疗法企业。通过AI驱动的认知评估和训练游戏，为轻度认知障碍和认知症患者提供非药物干预治疗方案。已完成亿元级A+轮融资。",
+   "highlights": "认知症（阿尔茨海默病）数字疗法企业。通过AI驱动的认知评估和训练游戏",
+   "funding_latest": {
+    "date": "2024",
+    "amount": "100000000",
+    "round": "A+",
+    "display": "A+ $1亿 (2024)"
+   },
+   "funding_total": {
+    "amount": "亿元级",
+    "display": "累计亿元级"
+   },
+   "investors": "千骥资本领投，长岭资本/金沙江创投/博远资本跟投",
+   "founded": "2016",
+   "value_score": 37,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%9A%E6%96%AF%E8%85%BE",
+   "website_url": "http://www.bestcovered.com/",
+   "business_model": "B2B 制药/生物科技",
+   "name_cn": "博斯腾",
+   "desc_cn": "上海博斯腾网络科技，认知症（阿尔茨海默病）数字疗法企业。通过AI驱动的认知评估和训练游戏，为轻度认知障碍和认知症患者提供非药物干预治疗方案。已完成亿元级A+轮融资。",
+   "business_model_cn": "B2B 制药/生物科技",
+   "news_coverage": {
+    "news_count": 15,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "博斯腾完成亿元A+轮融资(认知障碍数字疗法)",
+      "date": "2025-09",
+      "source": "36氪",
+      "url": "https://pitchhub.36kr.com/project/1817517333890944"
+     },
+     {
+      "title": "博斯腾:引领认知障碍数字疗法新时代",
+      "date": "2025-09-20",
+      "source": "百度",
+      "url": "https://m.baidu.com/bh/m/detail/ar_9097435950656976272"
+     }
+    ],
+    "snippets": [
+     "博斯腾(上海)聚焦阿尔茨海默症数字化筛查与干预,构建'科普-筛查-诊断-干预-随访'闭环",
+     "2025年完成亿元级A+轮,由千骥资本领投,老股东长岭/金沙江/博远跟投"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【博斯腾】聚焦产业资本/养老社区/认知症，认知症（阿尔茨海默病）数字疗法企业。通过AI驱动的认知评估和训练游戏，B2B模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 6.05
+  },
+  {
+   "serial": "#0478",
+   "name": "Sword Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女性骨盆健康。运用AI。",
+   "highlights": "全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女...",
+   "funding_latest": {
+    "date": "2024-06",
+    "amount": "130000000",
+    "round": "Series E",
+    "display": "Series E $1.3亿 (2024-06)"
+   },
+   "funding_total": {
+    "amount": "340000000",
+    "display": "累计$3.4亿"
+   },
+   "investors": "General Catalyst (领投)",
+   "founded": "2015",
+   "value_score": 50,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sword%20Health",
+   "website_url": "https://swordhealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女性骨盆健康。运用AI。",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 12,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Sword Health nabs $40M at $4B valuation",
+      "date": "2025-06-17",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2025/06/17/sword-health-nabs-40m-at-4b-valuation-pushes-ipo-plans-to-at-least-2028/"
+     },
+     {
+      "title": "Sword Health以2.85亿美元收购德国Kaia Health",
+      "date": "2026-03-02",
+      "source": "ifeng",
+      "url": "https://h5.ifeng.com/c/vivo/v002BCy--ITWvCHHiDUAiOE80Zs2N5bEpVUk-_mjXB6r0xRTQ__"
+     }
+    ],
+    "snippets": [
+     "$40M raise at $4B valuation (2025); IPO pushed to 2028.",
+     "Acquired German Kaia Health for $285M (2026)."
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Sword Health】聚焦产业资本/健康管理/慢病管理，全球约17亿人患MSK疾病。Sword Health从背部/关节疼痛扩展到女...，B2B模式，研究价值分50。",
+   "payor_model": "未披露",
+   "signal_strength": 6.05
+  },
+  {
+   "serial": "#0389",
+   "name": "Gyenno",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "健身"
+   ],
+   "description": "帕金森及运动障碍患者智能餐勺与慢病管理",
+   "highlights": "帕金森及运动障碍患者智能餐勺与慢病管理",
+   "funding_latest": {
+    "date": "2021年",
+    "amount": "1亿元",
+    "round": "B轮",
+    "display": "B轮 1亿元 (2021年)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 21,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Gyenno",
+   "website_url": "https://www.fftai.cn",
+   "business_model": "B2C 老年健身/健康",
+   "desc_cn": "帕金森及运动障碍患者智能餐勺与慢病管理",
+   "business_model_cn": "B2C 老年健身/健康",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Gyenno】聚焦产业资本/慢病管理/智能硬件，帕金森及运动障碍患者智能餐勺与慢病管理，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#0466",
+   "name": "Cera Care",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "欧洲最大数字优先家庭医疗保健服务提供商。90%收入来自NHS和地方政府合同。过去三年增长100倍。",
+   "highlights": "欧洲最大数字优先家庭医疗保健服务提供商。90%收入来自NHS和地方政府合同。...",
+   "funding_latest": {
+    "date": "2022-08",
+    "amount": "320000000",
+    "round": "Unknown",
+    "display": "Unknown $3.2亿 (2022-08)"
+   },
+   "funding_total": {
+    "amount": "401000000",
+    "display": "累计$4.0亿"
+   },
+   "investors": "Credo 等 (累计融资约 $571M)",
+   "founded": "2015",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cera%20Care",
+   "website_url": "https://www.cerahq.com",
+   "business_model": "B2G 政企合作",
+   "desc_cn": "欧洲最大数字优先家庭医疗保健服务提供商。90%收入来自NHS和地方政府合同。过去三年增长100倍。",
+   "business_model_cn": "B2G 政企合作",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Cera secures over $150 million in funding",
+      "date": "2025-01-13",
+      "source": "Cera HQ",
+      "url": "https://www.cerahq.com/newsroom/cera-secures-over-%24150-million-in-funding"
+     },
+     {
+      "title": "AI+居家养老，融资4.2亿美元，住院率降70%",
+      "date": "2025-02-28",
+      "source": "36氪",
+      "url": "https://www.36kr.com/p/3185846215117189"
+     }
+    ],
+    "snippets": [
+     "英国最大Home Healthcare HealthTech之一，截至2025年1月累计完成13轮融资、总额约4.21亿美元。",
+     "最新1.5亿美元融资重点投入AI技术，声称可将住院率降低70%。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cera Care】聚焦专业护理/产业资本，欧洲最大数字优先家庭医疗保健服务提供商。90%收入来自NHS和地方政府合同。...，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#0468",
+   "name": "ForSight Robotics",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "机器人"
+   ],
+   "description": "机器人白内障手术创新。半数美国人在80岁患白内障，三分之一在60岁以下就患病。",
+   "highlights": "三分之一在60岁以下就患病。",
+   "funding_latest": {
+    "date": "2025-06",
+    "amount": "125000000",
+    "round": "Series B",
+    "display": "Series B $1.2亿 (2025-06)"
+   },
+   "funding_total": {
+    "amount": "195000000",
+    "display": "累计$1.9亿"
+   },
+   "investors": "Eclipse (领投)",
+   "founded": "2020",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ForSight%20Robotics",
+   "website_url": "https://forsightrobotics.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "机器人白内障手术创新。半数美国人在80岁患白内障，三分之一在60岁以下就患病。",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "ForSight Robotics Secures $125M in Series B Funding",
+      "date": "2025-06-24",
+      "source": "BusinessWire",
+      "url": "https://www.businesswire.com/news/home/20250624465565/en/ForSight-Robotics-Secures-%24125M-in-Series-B-Funding-Addressing-Global-Surgeon-Shortage-and-Exploding-Demand-for-Ophthalmic-Surgery"
+     },
+     {
+      "title": "ForSight眼科手术机器人获近9亿元人民币融资",
+      "date": "2025-06-30",
+      "source": "搜狐",
+      "url": "https://www.sohu.com/a/909255165_122281924"
+     }
+    ],
+    "snippets": [
+     "以色列眼科手术机器人公司，2025年6月完成1.25亿美元B轮（Eclipse领投），累计融资1.95亿美元。",
+     "核心产品为白内障等眼科手术机器人，面向老龄化相关视力治疗需求。"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【ForSight Robotics】聚焦产业资本/机器人/行业媒体，三分之一在60岁以下就患病。，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#0683",
+   "name": "Devoted Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "Devoted Health 成立于2017年，由Todd Park与Ed Park兄弟创办，是一家面向老年人群的Medicare Advantage健康险公司（覆盖美国29州），将保险计划与自研Orinoco技术平台、Devoted Medical虚拟/居家医疗及\"健康向导\"个性化服务结合，累计融资超22亿美元。",
+   "highlights": "服务14万+会员",
+   "funding_latest": {
+    "date": "2026年1月",
+    "amount": "$3.66亿",
+    "round": "F轮",
+    "display": "F轮 $3.66亿 (2026年1月)"
+   },
+   "funding_total": "$2.62B (截至2026年1月)",
+   "investors": [
+    "Venrock",
+    "Oak HC/FT",
+    "F-Prime Capital",
+    "Maverick Ventures",
+    "Obvious Ventures",
+    "Andreessen Horowitz",
+    "Premji Invest",
+    "Uprising Capital",
+    "SoftBank Vision Fund",
+    "Emerson Collective",
+    "General Catalyst",
+    "GIC",
+    "Iconiq Capital",
+    "Base10 Partners",
+    "Frist Cressey Ventures",
+    "Cox Enterprises",
+    "Google Ventures",
+    "Morgan Health",
+    "Centricus",
+    "Franklin Venture Partners",
+    "VanEck"
+   ],
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Devoted%20Health",
+   "website_url": "https://www.devoted.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "现代医疗保险优势计划提供商，服务14万+会员",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Devoted Health Raises Additional Funding (Series E)",
+      "date": "2024-08-02",
+      "source": "Devoted Health",
+      "url": "https://devoted.com/resources/devoted-health-series-e/"
+     },
+     {
+      "title": "融资23亿美元！保险科技+老年护理如何创新？",
+      "date": "2024-12-23",
+      "source": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/14112127970"
+     }
+    ],
+    "snippets": [
+     "Devoted Health为面向Medicare受益人的一体化医疗+保险科技公司，2024年8月完成2.87亿美元E轮（含1.12亿美元追加）。",
+     "累计融资超22亿美元，覆盖13州并计划扩张，入选“2025最佳联邦医保优先计划”。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Devoted Health】聚焦产业资本/保险/健康管理，服务14万+会员，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 5.55
+  },
+  {
+   "serial": "#0866",
+   "name": "Spring Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "心理健康初创公司，估值33亿美元",
+   "highlights": [
+    "精准心理健康匹配平台，覆盖超1000万生命",
+    "E轮1亿美元、估值33亿美元(2024-07)",
+    "客户含微软/Target/JPMorgan等400+雇主",
+    "独立研究认证：每投入$1为健康计划省$2.20（2.2x ROI）"
+   ],
+   "funding_latest": {
+    "round": "E轮",
+    "amount": "1亿美元",
+    "currency": "USD",
+    "date": "2024-07",
+    "display": "E轮 1亿美元 (2024-07)",
+    "investors": [
+     "Generation Investment Management",
+     "Kinnevik",
+     "Northzone",
+     "RRE Ventures"
+    ]
+   },
+   "funding_total": {
+    "amount": "约4.7亿美元",
+    "display": "累计约4.7亿美元"
+   },
+   "investors": [
+    "Generation Investment Management",
+    "Kinnevik",
+    "Northzone",
+    "RRE Ventures"
+   ],
+   "founded": "2016",
+   "value_score": 57,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Spring%20Health",
+   "website_url": "https://www.springhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "AI驱动的“精准心理健康”福利平台，为雇主与健康计划提供员工心理筛查、智能分诊与最佳治疗匹配（咨询/药物/教练），以临床效果与ROI为核心卖点；2024年完成1亿美元E轮、估值33亿美元，覆盖超1000万生命、400+直签雇主（微软/Target/JPMorgan等）。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 22,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Spring Health Announces $100M Series E",
+      "date": "2024-07-31",
+      "source": "Spring Health",
+      "url": "https://www.springhealth.com/news/series-e-funding-accelerate-growth-expand-global-access"
+     },
+     {
+      "title": "Spring Health估值达33亿美元",
+      "date": "2024-08-01",
+      "source": "Ardorcomm",
+      "url": "https://ardorcomm-media.com/spring-healths-valuation-jumps-to-3-3-billion-after-100-million-series-e/"
+     }
+    ],
+    "snippets": [
+     "Spring Health 面向企业客户提供AI驱动的心理健康福利",
+     "2024年7月完成1亿美元E轮,估值33亿美元,累计融资约4.7亿美元"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "心理健康福利信息丰富（公司新闻稿+Fortune+Fierce透明），但模式顺常识、估值稳健上行，反共识性低。中国已有简单心理、壹心理、好心情等，但支付以C端自费/医院为主、企业EAP采购规模小——真正可借鉴的是它用ROI(2.2x回报)量化心理福利、绑定雇主采购的打法，而非产品本身。",
+   "payor_model": "B端机构付费（雇主与健康计划订阅采购，员工免费使用）",
+   "signal_strength": 5.55,
+   "info_score": 9,
+   "diff_score": 3,
+   "copy_score": 5,
+   "research_value": 59.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0886",
+   "name": "Transcarent",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险"
+   ],
+   "description": "Transcarent 成立于2018年，总部位于美国旧金山，由Glen Tullman创立，是一家面向自保雇主与雇员的AI驱动医疗福利与就医导航平台，整合医疗、药房、手术、虚拟问诊、心理健康与慢病管理，致力于以AI降低医疗成本并改善员工就医体验",
+   "highlights": [
+    "Livongo创始人Glen Tullman创立",
+    "WayFinding生成式AI导诊",
+    "2025以6.21亿美元收购Accolade",
+    "完成 Accolade 并购后估值约 22 亿美元"
+   ],
+   "funding_latest": {
+    "round": "D轮",
+    "amount": "1.26亿美元",
+    "currency": "USD",
+    "date": "2024-05",
+    "display": "D轮 1.26亿美元 (2024-05)",
+    "investors": [
+     "General Catalyst",
+     "7wire Ventures",
+     "Kinnevik",
+     "Kleiner Perkins",
+     "Merck GHIF"
+    ]
+   },
+   "funding_total": {
+    "amount": "约4.2亿美元",
+    "display": "累计约4.2亿美元(估值22亿美元)"
+   },
+   "investors": [
+    "General Catalyst",
+    "7wire Ventures",
+    "Kinnevik",
+    "Kleiner Perkins",
+    "Merck GHIF"
+   ],
+   "founded": "2020",
+   "value_score": 60,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Transcarent",
+   "website_url": "https://www.transcarent.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "面向自保雇主与健康计划的AI驱动医疗福利与就医导航平台（WayFinding生成式AI导诊），整合癌症/手术/减重/药房福利与虚拟问诊；由Livongo创始人Glen Tullman创立，2025年以6.21亿美元收购Accolade补足健康倡导与初级护理。",
+   "business_model_cn": "B2B 行业媒体/数据与资源对接平台",
+   "news_coverage": {
+    "news_count": 20,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Transcarent Raises $126M Series D",
+      "date": "2024-05-02",
+      "source": "Transcarent",
+      "url": "https://transcarent.com/press-releases/transcarent-raises-usd126-million-series-d"
+     },
+     {
+      "title": "Transcarent以6.21亿美元收购Accolade",
+      "date": "2025-01-08",
+      "source": "xitu-tech",
+      "url": "https://www.xitu-tech.com/news/transcarent-acquires-accolade-621-million-ai-driven-healthcare/"
+     }
+    ],
+    "snippets": [
+     "Transcarent 是由 Livongo 创始人 Glen Tullman 打造的 healthcare 平台",
+     "2024年5月完成1.26亿美元D轮(估值22亿美元),2025年1月宣布6.21亿美元收购 Accolade"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "信息量中高（多起M&A+创始团队光环），差异化强在“收入与雇主省下的医疗费挂钩”这一绑定模式，连续并购扩张估值22亿美元。中国类似有健康险TPA、就医导航（思派、镁信），但美国自保雇主体系独特、支付以雇主直付为主，国内以社保+商保，平移需重构支付方——重点拆解其“省钱才赚钱”的激励设计。",
+   "payor_model": "B端机构付费（自保雇主与健康计划付费；收入与为雇主节省的医疗成本绑定）",
+   "signal_strength": 5.55,
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 4,
+   "research_value": 62.6,
+   "update_time": "2026-07-16"
+  }
+ ]
+}

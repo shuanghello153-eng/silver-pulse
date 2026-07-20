@@ -1,0 +1,558 @@
+{
+ "batch": 85,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0981",
+   "name": "Amba",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "护理自动化",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "Amba 是一款面向养老社区的被动式传感监测 SaaS，通过床垫/环境传感器追踪睡眠、活动与生命体征并预警跌倒，配 HeyAmba AI 生成照护洞察，按机构订阅收费。亮点是用无穿戴、不打扰的方式实现持续健康监护。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Amba",
+   "website_url": "",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Amba 是一款面向养老社区的被动式传感监测 SaaS，通过床垫/环境传感器追踪睡眠、活动与生命体征并预警跌倒，配 HeyAmba AI 生成照护洞察，按机构订阅收费。亮点是用无穿戴、不打扰的方式实现持续健康监护。",
+   "business_model_cn": "B2B 护理自动化SaaS/养老运营效率平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Amba】聚焦照护系统，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0982",
+   "name": "Ping",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "战略咨询",
+   "tags": [
+    "养老咨询"
+   ],
+   "description": "对齐公司愿景与利益相关者，涉及战略、销售与产品开发。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 46,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ping",
+   "website_url": "",
+   "business_model": "B2B 行业服务/媒体",
+   "desc_cn": "对齐公司愿景与利益相关者，涉及战略、销售与产品开发。",
+   "news_coverage": {
+    "news_count": 1,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Janus Living: After Recent IPO, Senior-Care REIT Goes On Property Shopping Spree",
+      "url": "https://seekingalpha.com/article/4771852-janus-living-ipo-senior-care-reit-property-shopping-spree",
+      "date": "2026-06-30",
+      "source": "Seeking Alpha",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": [
+     "Ambiguous entity; web results point to Ping An's health & senior-care ecosystem rather than a distinct 'Ping' aging startup.",
+     "Unverified — could not confirm a standalone senior-care venture named Ping in this slice."
+    ]
+   },
+   "business_model_cn": "银发企业战略咨询：对齐公司愿景与利益相关者，覆盖战略、销售与产品开发",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老咨询"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ping】聚焦咨询研究，B2B模式，研究价值分46。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0983",
+   "name": "Clairvoyant Networks",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程监测",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "远程监测解决方案（Theora360云平台），利用AI最大化长者与慢性病患者的生活质量。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clairvoyant+Networks",
+   "website_url": "",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "远程监测解决方案（Theora360云平台），利用AI最大化长者与慢性病患者的生活质量。",
+   "business_model_cn": "AI远程监测云平台（Theora360）：利用AI提升长者与慢病患者生活质量",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Clairvoyant Networks】聚焦健康监测，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0984",
+   "name": "Artifcts",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "遗产记录",
+   "tags": [
+    "文娱"
+   ],
+   "description": "Artifcts 是一款帮助用户为物件拍摄并留存背后故事与传承信息的 App，常用于长辈整理遗物、缩小住房和家族记忆保存，以个人订阅收费。亮点是把'断舍离'与代际传承变成可分享的数字档案（并非专属老年产品，但深受银发用户使用）。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Artifcts",
+   "website_url": "https://artifcts.com/",
+   "business_model": "B2C 休闲文娱",
+   "desc_cn": "Artifcts 是一款帮助用户为物件拍摄并留存背后故事与传承信息的 App，常用于长辈整理遗物、缩小住房和家族记忆保存，以个人订阅收费。亮点是把'断舍离'与代际传承变成可分享的数字档案（并非专属老年产品，但深受银发用户使用）。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Artifcts】聚焦数字化，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0985",
+   "name": "ONSCREEN",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "视频通信",
+   "tags": [
+    "智能硬件",
+    "陪伴服务"
+   ],
+   "description": "ONSCREEN 是一家面向老年人的视频陪伴公司，提供接电视/平板的简易视频通话设备与 AI 伴侣'Joy'（含 JoyTV/JoyTablet 等），靠硬件销售与订阅营利。亮点是把视频通话做成老人无需操作即可用的'客厅伴侣'，降低数字鸿沟。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ONSCREEN",
+   "website_url": "https://onscreeninc.com/",
+   "business_model": "银发经济企业",
+   "desc_cn": "ONSCREEN 是一家面向老年人的视频陪伴公司，提供接电视/平板的简易视频通话设备与 AI 伴侣'Joy'（含 JoyTV/JoyTablet 等），靠硬件销售与订阅营利。亮点是把视频通话做成老人无需操作即可用的'客厅伴侣'，降低数字鸿沟。",
+   "business_model_cn": "B2C 订阅制适老视频通信硬件/平台",
+   "tag_l1": [
+    "消费品",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "智能硬件",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【ONSCREEN】聚焦数字化，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0986",
+   "name": "Embodied Labs",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "VR培训",
+   "tags": [
+    "护工培训"
+   ],
+   "description": "Embodied Labs 是一家用 VR/沉浸式体验培训养老与照护人员的公司，让学员'代入'阿尔茨海默、视力听力衰退、社会隔离等长者视角以培养共情与照护技能，向养老机构、院校与政府组织按席位/订阅收费，已服务 85+ 机构。亮点是用第一人称 VR 显著提升培训留存与同理心。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Embodied+Labs",
+   "website_url": "https://www.embodiedlabs.com/",
+   "business_model": "B2C 教育/培训",
+   "desc_cn": "Embodied Labs 是一家用 VR/沉浸式体验培训养老与照护人员的公司，让学员'代入'阿尔茨海默、视力听力衰退、社会隔离等长者视角以培养共情与照护技能，向养老机构、院校与政府组织按席位/订阅收费，已服务 85+ 机构。亮点是用第一人称 VR 显著提升培训留存与同理心。",
+   "business_model_cn": "B2B VR护理培训服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工培训"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Embodied Labs】聚焦居家护理，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0987",
+   "name": "Discover Live",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "虚拟旅行",
+   "tags": [
+    "旅游"
+   ],
+   "description": "Discover Live 是一个面向老年人与不便出行人群的'直播云游'平台，由真人导览带观众实时虚拟游览全球景点，常与养老机构、老年事务机构合作（如纽约州老年事务办公室），按活动/机构收费。亮点是用实时直播把旅游体验带给行动受限的长者，兼具社交与认知刺激。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Discover+Live",
+   "website_url": "https://www.discover.live/",
+   "business_model": "B2C 休闲文娱",
+   "desc_cn": "Discover Live 是一个面向老年人与不便出行人群的'直播云游'平台，由真人导览带观众实时虚拟游览全球景点，常与养老机构、老年事务机构合作（如纽约州老年事务办公室），按活动/机构收费。亮点是用实时直播把旅游体验带给行动受限的长者，兼具社交与认知刺激。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Discover Live】聚焦旅游，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0988",
+   "name": "MyHelloLine",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "孤独干预",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "孤独干预服务，增加社会连接，在隔离期成为生命线。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=MyHelloLine",
+   "website_url": "",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "孤独干预服务，增加社会连接，在隔离期成为生命线。",
+   "business_model_cn": "孤独干预社交连接服务：增强长者社会联结，隔离期可作生命线",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【MyHelloLine】聚焦精神健康，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0989",
+   "name": "SuperAging News",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "营销媒体",
+   "tags": [
+    "资讯门户"
+   ],
+   "description": "营销服务组织，结合数字出版与电商，触达长寿市场受众。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SuperAging+News",
+   "website_url": "",
+   "business_model": "B2C 电商平台",
+   "desc_cn": "营销服务组织，结合数字出版与电商，触达长寿市场受众。",
+   "business_model_cn": "数字出版+电商银发营销媒体：触达长寿市场受众的营销服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "资讯门户"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【SuperAging News】聚焦行业媒体，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0990",
+   "name": "JOY FOR ALL",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "陪伴机器人",
+   "tags": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "description": "交互式陪伴猫/狗，为长者带来舒适、陪伴与乐趣。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=JOY+FOR+ALL",
+   "website_url": "https://joyforall.com/",
+   "business_model": "银发经济企业",
+   "desc_cn": "交互式陪伴猫/狗，为长者带来舒适、陪伴与乐趣。",
+   "business_model_cn": "交互式陪伴宠物机器人：为长者提供舒适、陪伴与乐趣",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【JOY FOR ALL】聚焦机器人，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0991",
+   "name": "Phoenix Hipwear",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "防跌倒",
+   "tags": [
+    "服装鞋帽"
+   ],
+   "description": "柔软轻量髋关节保护服饰，防跌倒损伤。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Phoenix+Hipwear",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "desc_cn": "柔软轻量髋关节保护服饰，防跌倒损伤。",
+   "business_model_cn": "轻量髋关节防护服饰：柔软防跌倒、降低髋部损伤风险",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "服装鞋帽"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Phoenix Hipwear】聚焦健康监测，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0992",
+   "name": "Brava",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "智能烹饪",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "用光技术烹饪，精准快速搞定三餐。",
+   "highlights": "",
+   "funding_latest": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Mary Furlong企业库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Brava",
+   "website_url": "https://www.brava.com/",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "用光技术烹饪，精准快速搞定三餐。",
+   "business_model_cn": "光热智能烹饪设备：以光技术快速精准完成一日三餐",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Brava】聚焦营养食品，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

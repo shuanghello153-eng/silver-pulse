@@ -1,0 +1,615 @@
+{
+  "batch": 53,
+  "enterprises": [
+    {
+      "serial": "#0378",
+      "name": "鲲鱼健康",
+      "name_cn": "鲲鱼健康",
+      "region": "国内",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 36.7,
+      "recommend": "信号中等(智慧工厂总投资超10亿、手握12张特医注册证、覆盖近300家三甲临床营养科);信息透明度偏低(无公开财报),差异化在'全剂型+院内外双渠道'——粉剂水剂全剂型供给叠加基层医疗终端下沉,壁垒在批件与产能;国内特医企业可学其'注册证+产能'双轮驱动,但临床渠道谈判周期长难速成。",
+      "desc_cn": "面向临床患者与家庭的特医食品(FSMP)研发制造商,覆盖肿瘤、肾病、糖尿病及围术期全营养配方;通过近300家三甲医院临床营养科与基层医疗终端销售并借母婴渠道下沉,收入来自特医产品出货。",
+      "payor_model": "医院采购+个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2017,
+      "stage": "未搜到",
+      "highlights": [
+        "泰州中国医药城全剂型特医智慧工厂,总投资超10亿元",
+        "手握12张特殊医学用途配方食品注册证",
+        "覆盖肿瘤、高血糖、肾脏病、围术期及家庭肠内营养(HEN)",
+        "院内近300家三甲医院临床营养科+基层医疗终端,院外下沉母婴门店"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "特医食品服务肿瘤、肾病、糖尿病及围术期老年与疾病营养人群",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": [
+        "未融资"
+      ],
+      "tag_l1": ["食品营养"],
+      "tag_l2": ["营养食品"],
+      "website_url": "http://www.mykwins.com"
+    },
+    {
+      "serial": "#0379",
+      "name": "鲸灵集团",
+      "name_cn": "鲸灵集团",
+      "region": "国内",
+      "signal_strength": 0.55,
+      "info_score": 7.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 38.6,
+      "recommend": "信号强(年交易额破百亿、累计融资近20亿、腾讯/云九/IDG入局);信息透明度高,差异化在'AI导购Agent+500万数字团长'的私域电商基础设施而非银发——客群80%为25-45岁宝妈;国内创业者可学其'硅基员工+用户记忆预测'的复购模型,但会员制电商与银发选题关联弱,照搬意义有限。",
+      "desc_cn": "AI私域电商平台,以S2B2C模式连接品牌商与500万数字团长,用导购Agent与服务Agent帮团长运营AI数字小店、做社群团购与直播特卖;收入来自商品交易抽佣与SaaS服务,客群以25-45岁宝妈为主。",
+      "payor_model": "个人自费+B端品牌商佣金",
+      "business_tags_role": "平台",
+      "founded": 2017,
+      "stage": "成长期",
+      "highlights": [
+        "百亿规模私域电商独角兽,链接500万数字团长、2万+品牌商",
+        "创始人邬强强(鬼谷)为原阿里聚划算负责人",
+        "获腾讯、云九资本、启明创投、IDG、元璟、险峰多轮融资累计近20亿",
+        "2025年推AI电商(导购Agent+服务Agent),客群80%为25-45岁宝妈"
+      ],
+      "events": [
+        {
+          "date": "2019-08",
+          "text": "获云九资本领投C轮1亿美元融资"
+        },
+        {
+          "date": "2024",
+          "text": "掘金大健康市场,上线澳乐维他单场破千万"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "AI私域电商平台,客群以25-45岁宝妈为主,无银发业务实质",
+      "数据来源": "联网精评",
+      "funding_latest": {
+        "round": "C轮",
+        "amount": "1亿美元",
+        "date": "2019年",
+        "display": "C轮 1亿美元 (2019)"
+      },
+      "funding_total": "累计近20亿元",
+      "investors": [
+        "腾讯",
+        "云九资本",
+        "启明创投",
+        "IDG资本",
+        "元璟资本",
+        "险峰长青"
+      ],
+      "tag_l1": ["消费品"],
+      "tag_l2": ["电商", "零售"],
+      "website_url": "https://www.jingling.group"
+    },
+    {
+      "serial": "#0380",
+      "name": "鹏翼时代",
+      "name_cn": "鹏翼时代",
+      "region": "国内",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 36.6,
+      "recommend": "信号偏弱(百洋医药旗下、无独立融资披露);信息透明度一般,差异化在'培训学校+派遣外包'闭环——自建菩提培训学校做180至420学时分级认证再输出护理人力,壁垒在人社资质与央企国企合作网;国内康养机构可学其'前移培训关口+定级发证'的人力供给模式,但重运营难快速复制。",
+      "desc_cn": "百洋医药旗下医疗健康人才服务商,自建职业技能培训学校做养老/医疗护理员分级认证(初级180至高级420学时),并输出护理人力与劳务派遣给养老机构及医院;收入来自培训费与人力外包服务费。",
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2012,
+      "stage": "未搜到",
+      "highlights": [
+        "百洋医药集团旗下医疗健康人才综合服务商",
+        "北京菩提健康职业技能培训学校(2019年获北京市人社局资质)",
+        "养老护理员分级认证:岗前7天,初级180/中级330/高级420学时",
+        "与多家国企、央企及高端康养集团建立人才战略合作"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老护理员培训与人力派遣,支撑银发照护人力供给",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": [
+        "未融资"
+      ],
+      "tag_l1": ["养老服务"],
+      "tag_l2": ["护工培训"],
+      "website_url": "http://www.kangyanghr.com"
+    },
+    {
+      "serial": "#0381",
+      "name": "麦孚",
+      "name_cn": "麦孚",
+      "region": "国内",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 36.7,
+      "recommend": "信号偏弱(国际化特医企业、无公开融资);信息量一般,差异化在'短肽预消化+50岁以上专属全营养配方'的产品矩阵——术和/麦速等获批特医证覆盖肿瘤肾病围术期,壁垒在注册证与临床渠道;国内特医企业可学其'国际技术引进+本土临床注册'路径,但特医批证周期长、渠道门槛高。",
+      "desc_cn": "特医食品国际化企业,引进美国Medtrition、欧洲Medifood产品线并自主研发,覆盖肿瘤、肾病、糖尿病及围术期短肽预消化配方,多款获批特医注册证;通过医院与药房渠道销售,收入来自特医产品。",
+      "payor_model": "医院采购+个人自费",
+      "business_tags_role": "产品商",
+      "founded": "未搜到",
+      "stage": "未搜到",
+      "highlights": [
+        "国际化特医食品研发生产推广运营商",
+        "引进美国Medtrition、欧洲Medifood,并自主研发综合系列",
+        "术和/麦速/麦孚乐宝等多款获批特殊医学用途配方食品注册证",
+        "麦孚康全为首款获批50岁以上全营养配方粉"
+      ],
+      "events": [
+        {
+          "date": "2023-06",
+          "text": "两款特医食品(麦孚乐宝、麦孚顺宝)正式获批"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "特医营养配方服务老年及疾病营养支持人群",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": [
+        "未融资"
+      ],
+      "tag_l1": ["食品营养"],
+      "tag_l2": ["营养食品"],
+      "website_url": "http://www.mfcare.cn"
+    },
+    {
+      "serial": "#0382",
+      "name": "麦考林",
+      "name_cn": "麦考林",
+      "region": "国内",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 4.0,
+      "copy_score": 4.0,
+      "research_value": 31.7,
+      "recommend": "信号中等(1996年成立、三胞集团旗下、拥有百万中老年女性客群);信息透明度一般,差异化在'邮购会员+健康美丽零售'沉淀的银发女性私域——400人销售团队、100余名中医营养师正寻求康养医疗资源互换;国内银发渠道商可学其'百万熟龄女性客群'运营,但主营业态非专攻养老,转化需重做选品。",
+      "desc_cn": "以会员营销为主的健康美丽多品牌零售商,早年做邮购目录起家,现拥有百万中老年女性客群与400人销售团队、100余名中医营养师;通过直营与电话营销售卖健康美丽产品,并寻求康养医疗资源互换。",
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "founded": 1996,
+      "stage": "未搜到",
+      "highlights": [
+        "1996年成立,中国第一批获政府批准的邮购业务三资企业",
+        "现属三胞集团,主打健康美丽产品与会员营销",
+        "拥有百万中老年女性客群、400人销售团队、100+中医营养师",
+        "2024年主动寻求康养/医疗/养老/文旅等银发资源合作互换"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "拥有百万中老年女性客群并寻求银发资源合作,但主营健康美丽零售非养老专攻",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": [
+        "未融资"
+      ],
+      "tag_l1": ["消费品"],
+      "tag_l2": ["电商", "零售"],
+      "website_url": "http://www.mecoxlane.com"
+    },
+    {
+      "serial": "#0383",
+      "name": "鼎植口腔",
+      "name_cn": "鼎植口腔",
+      "region": "国内",
+      "signal_strength": 0.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 5.0,
+      "research_value": 39.6,
+      "recommend": "信号强(数亿元A轮斯道资本独家、2023业绩约4亿、全国直营17家);信息透明度高,差异化在'VIIV穿颧穿翼'数十项种植专利的技术壁垒与'疑难种植引流+全科化'打法,老年缺牙种植是核心需求之一;国内口腔连锁可学其'专利技术+学科共建'扩张,但重资产门店与医生依赖难轻复制。",
+      "desc_cn": "口腔种植专科连锁,以VIIV穿颧穿翼等数十项疑难种植专利为核心,提供种植、正畸、儿牙与综合齿科服务;采用自建连锁+学科共建双轮扩张,收入来自诊疗服务费,老年缺牙种植为重要需求。",
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "运营商",
+      "founded": 2019,
+      "stage": "A轮",
+      "highlights": [
+        "2019年创立,集口腔医疗、连锁管理、供应链为一体,总部上海",
+        "VIIV穿颧穿翼等数十项疑难种植国家专利,与上海九院合作研发",
+        "2023年底全国直营17家、学科共建十余家,当年业绩约4亿元",
+        "2023/2024年获斯道资本独家数亿元A轮融资"
+      ],
+      "events": [
+        {
+          "date": "2023",
+          "text": "完成数亿元A轮融资,斯道资本独家投资"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "口腔种植专科连锁,老年缺牙为重要客群但非专攻老年群体",
+      "数据来源": "联网精评",
+      "funding_latest": {
+        "round": "A轮",
+        "amount": "数亿元",
+        "date": "2023年",
+        "display": "A轮 数亿元 (2023)"
+      },
+      "funding_total": "数亿元",
+      "investors": [
+        "斯道资本"
+      ],
+      "tag_l1": ["医疗服务"],
+      "tag_l2": ["口腔种植", "诊所"],
+      "website_url": "https://www.dingzhidental.com"
+    },
+    {
+      "serial": "#0384",
+      "name": "AgenT",
+      "name_cn": "AgenT",
+      "region": "海外",
+      "signal_strength": 0.55,
+      "info_score": 4.0,
+      "diff_score": 7.0,
+      "copy_score": 4.0,
+      "research_value": 33.6,
+      "recommend": "信号中等(巴黎初创、APOLLO II临床进行中、量化85个血浆生物标志物);信息披露有限(无公开融资),差异化在'常规抽血多组学+机器学习'预测AD进展早于症状20年、面向药企患者分层;国内早筛企业可学其'动物模型预筛+纵向队列验证'研发路径,但血检AD诊断的法规与支付落地仍是壁垒。",
+      "desc_cn": "法国神经退行性疾病早筛生物科技公司,用常规抽血获取血浆多组学与机器学习算法,在症状出现前至多20年预测阿尔茨海默病进展,目前主要服务药企做患者分层与临床试验入组;收入来自检测与研发合作。",
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "founded": "未搜到",
+      "stage": "未搜到",
+      "highlights": [
+        "基于常规抽血的血检,量化85个血浆生物标志物预测AD进展",
+        "APOLLO I/II 多队列纵向临床验证,目标FDA与报销准入",
+        "与CSIRO、华盛顿大学、斯坦福、Banner阿尔茨海默研究院等合作",
+        "差异化在'动物模型预筛+外周多组学'早期生物学检测路径"
+      ],
+      "events": [
+        {
+          "date": "2023",
+          "text": "在AAIC发布B-HEALED外周多组学血浆特征研究"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "阿尔茨海默病血检早筛,服务认知症防控",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": [
+        "未融资"
+      ],
+      "tag_l1": ["医疗健康"],
+      "tag_l2": ["早筛诊断"],
+      "website_url": "https://agent-biotech.com"
+    },
+    {
+      "serial": "#0385",
+      "name": "Alz You Need",
+      "name_cn": "Alz You Need",
+      "region": "海外",
+      "signal_strength": 0.55,
+      "info_score": 4.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 37.6,
+      "recommend": "信号偏弱(2016年成立、团队2-10人、仅加速器入股);信息透明度一般,差异化在'辅助技术测评+问卷匹配'轻平台——追踪150余家公司、按认知参与/安全等7类给照护者个性化推荐;国内认知症平台可照搬其'免费测评+产品库'模式,但需补本土辅具供给与社区信任,复制门槛低。",
+      "desc_cn": "美国认知症照护者数字平台,追踪150余家辅助技术公司并按认知参与、安全、健康追踪等7类建标准库,用问卷为照护者匹配个性化产品;免费面向家属、靠机构合作变现,降低照护者找工具的门槛。",
+      "payor_model": "B端机构合作+个人免费",
+      "business_tags_role": "平台",
+      "founded": 2016,
+      "stage": "未搜到",
+      "highlights": [
+        "由照护者Leda Rosenthal因母亲患AD后于2016年创立",
+        "追踪150+辅助技术公司,建立40余项产品筛选标准",
+        "按认知参与、安全、健康追踪、未来规划等7类组织产品",
+        "免费问卷匹配+机构合作变现的轻资产模式"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知症照护者辅助技术匹配平台,服务失智老人照护者",
+      "数据来源": "联网精评",
+      "funding_latest": "未融资",
+      "funding_total": "未融资",
+      "investors": [
+        "未融资"
+      ],
+      "tag_l1": ["养老服务"],
+      "tag_l2": ["认知症", "辅助技术"],
+      "website_url": "https://alzyouneed.com"
+    },
+    {
+      "serial": "#0386",
+      "name": "Autotune Me",
+      "name_cn": "Autotune Me",
+      "region": "海外",
+      "signal_strength": 0.55,
+      "info_score": 3.0,
+      "diff_score": 7.0,
+      "copy_score": 5.0,
+      "research_value": 32.6,
+      "recommend": "信号偏弱(布鲁克林早期公司、仅1名员工、靠NIH小企业补助研发);信息披露少,差异化在'音乐治疗师设计+可穿戴心率触发自动播歌'的非药物干预——TuneMind正做临床试验缓解ADRD躁动;国内认知症照护可学其'生理信号自适应音乐剂量'思路,但临床验证与医保支付未成熟,落地需长周期。",
+      "desc_cn": "美国早期数字疗法公司,由音乐治疗师设计TuneMind应用,根据可穿戴设备的心率与久坐信号自动播放个性化歌曲,缓解阿尔茨海默病等痴呆患者的躁动抑郁;靠政府小企业补助研发,正开展临床试验。",
+      "payor_model": "个人自费+政府研发补助",
+      "business_tags_role": "产品商",
+      "founded": "未搜到",
+      "stage": "未搜到",
+      "highlights": [
+        "音乐治疗师设计的TuneMind应用,针对ADRD神经精神症状",
+        "依据可穿戴心率/久坐信号自动滴定播放个性化歌曲",
+        "获NIH SBIR政府补助研发(约29.5万美元)",
+        "临床试验NCT06140342进行中,验证居家音乐干预可行性"
+      ],
+      "events": [
+        {
+          "date": "2024",
+          "text": "获NIH SBIR第一期补助约29.5万美元"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "音乐干预缓解认知症神经精神症状,非药物照护",
+      "数据来源": "联网精评",
+      "funding_latest": {
+        "amount": "政府补助29.5万美元(SBIR)",
+        "date": "2024年",
+        "display": "NIH SBIR补助29.5万美元 (2024)"
+      },
+      "funding_total": "约29.5万美元",
+      "investors": [
+        "未搜到"
+      ],
+      "tag_l1": ["数字疗法"],
+      "tag_l2": ["认知训练", "非药物干预"],
+      "website_url": "https://autotuneme.org"
+    },
+    {
+      "serial": "#0388",
+      "name": "Coffee Cherry",
+      "name_cn": "Coffee Cherry",
+      "region": "海外",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 3.0,
+      "copy_score": 3.0,
+      "research_value": 25.7,
+      "recommend": "信号强(2023年获Ara Partners 1亿美元后期融资、B Corp认证);信息透明度高,差异化在'咖啡樱桃废料变面粉'的循环经济制造——供给烘焙与食品B端而非消费零售;与银发选题无实质关联,国内循环经济创业者可学其'废弃物高值化+大客户绑定'路径,但业态与本赛道脱节。",
+      "desc_cn": "美国食品科技公司,将咖啡加工剩余的咖啡樱桃制成面粉用于烘焙、烹饪与饮品,以B2B方式供给食品制造商,主打可持续循环经济与B Corp认证;收入来自咖啡樱桃面粉销售,与银发无直接关联。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "founded": 2014,
+      "stage": "成长期",
+      "highlights": [
+        "2014年创立于美国贝尔维尤,将咖啡樱桃废料制成面粉",
+        "2023年3月获Ara Partners 1亿美元后期融资",
+        "B Corp认证,主打循环经济与可持续食品供应链",
+        "以B2B方式供给烘焙与食品制造商,非消费零售"
+      ],
+      "events": [
+        {
+          "date": "2023-03",
+          "text": "完成1亿美元后期融资,Ara Partners投资"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "咖啡樱桃制粉循环经济企业,与银发无实质关联",
+      "数据来源": "联网精评",
+      "funding_latest": {
+        "round": "后期VC",
+        "amount": "1亿美元",
+        "date": "2023年3月",
+        "display": "后期VC 1亿美元 (2023-03)"
+      },
+      "funding_total": "1亿美元",
+      "investors": [
+        "Ara Partners"
+      ],
+      "tag_l1": ["消费品"],
+      "tag_l2": ["可持续食品"],
+      "website_url": "https://coffeecherryco.com"
+    },
+    {
+      "serial": "#0390",
+      "name": "lyflynks",
+      "name_cn": "lyflynks",
+      "region": "海外",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 3.0,
+      "research_value": 35.7,
+      "recommend": "信号中等(2017年创立、种子轮50万美元、与Aging Life Care协会合作);信息透明度一般,差异化在'24/7呼叫中心+APP+IoT监测+服务商网络'的照护协调枢纽,月费39.99美元替家属统筹交通陪伴用药;国内居家养老可学其'单一入口代付分账'模式,但美国助理业态与国内护工体系差异大、Medicare对接难照搬。",
+      "desc_cn": "美国家庭照护协调平台,整合24/7呼叫中心、APP、智能监测与服务商网络,帮家属统筹就医陪同、交通、用药提醒与陪伴服务并代付分账,月费39.99美元;合作Aging Life Care协会,面向居家养老与雇主福利。",
+      "payor_model": "个人自费+雇主福利+政府医保(Medicare Advantage)",
+      "business_tags_role": "服务商",
+      "founded": 2017,
+      "stage": "种子期",
+      "highlights": [
+        "2017年创立于巴尔的摩,定位Age in Place家庭照护协调",
+        "整合24/7呼叫中心、APP、IoT监测与甄选服务商网络",
+        "会员月费39.99美元,前60天免费,替家属代付分账",
+        "与Aging Life Care Association合作,面向雇主福利与Medicare Advantage"
+      ],
+      "events": [
+        {
+          "date": "2024-05",
+          "text": "完成50万美元种子轮融资"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家养老照护协调平台,服务Age in Place老年人群",
+      "数据来源": "联网精评",
+      "funding_latest": {
+        "date": "2024年5月",
+        "amount": "50万美元",
+        "round": "种子轮",
+        "display": "种子轮 50万美元 (2024-05)"
+      },
+      "funding_total": "未搜到",
+      "investors": [
+        "未搜到"
+      ],
+      "tag_l1": ["养老服务"],
+      "tag_l2": ["居家护理", "照护协调"],
+      "website_url": "https://www.lyflynks.com"
+    },
+    {
+      "serial": "#0391",
+      "name": "yooLab",
+      "name_cn": "yooLab",
+      "region": "海外",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 35.6,
+      "recommend": "信号中等(2023年种子轮260万美元、Crane领投、Dr.Reddy's跟投);信息透明度一般,差异化在'医生管理长寿项目150+Longevity Score'的南亚预防健康打法,补剂按生物标志物而非潮流配比;国内抗衰品牌可学其'表观遗传年龄追踪+循证补剂'思路,但客群为泛健康人群非专攻老年。",
+      "desc_cn": "新加坡与印度两地的预防健康与长寿公司,推出医生管理的'150'长寿项目与Longevity Score(基因组+生物+纵向数据),并销售按生物标志物配比的Ageless Blend等补剂;收入来自订阅与补剂,客群为泛健康人群。",
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2019,
+      "stage": "种子期",
+      "highlights": [
+        "总部新加坡+印度海得拉巴,聚焦南亚预防健康与长寿",
+        "医生管理的'150'长寿项目与Longevity Score(基因组+生物+纵向数据)",
+        "补剂按生物标志物配比:Ageless Blend、Omega-3、镁/茶氨酸夜间",
+        "2023年种子轮260万美元,Crane Venture Partners领投"
+      ],
+      "events": [
+        {
+          "date": "2023-03",
+          "text": "完成260万美元种子轮融资,Crane Venture Partners领投"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "长寿抗衰预防健康,客群为泛健康人群非专攻老年",
+      "数据来源": "联网精评",
+      "funding_latest": {
+        "round": "种子轮",
+        "amount": "260万美元",
+        "date": "2023年3月",
+        "display": "种子轮 260万美元 (2023-03)"
+      },
+      "funding_total": "260万美元",
+      "investors": [
+        "Crane Venture Partners",
+        "Dr.Reddy's",
+        "Matrix Pharma"
+      ],
+      "tag_l1": ["消费品", "医疗健康"],
+      "tag_l2": ["长寿抗衰", "个性化营养"],
+      "website_url": "https://youlabs.co"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0378",
+      "name": "鲲鱼健康",
+      "intro": "特医食品(FSMP)研发制造商,覆盖肿瘤/肾病/糖尿病/围术期全营养配方。",
+      "old_tags": {
+        "tag_l1": ["食品营养"],
+        "tag_l2": ["营养食品"],
+        "business_tags": "制造商(消费品)"
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "特医食品",
+          "reason": "核心产品为特殊医学用途配方食品,应补'特医食品'二级标签以区别于普通营养食品"
+        }
+      ]
+    },
+    {
+      "serial": "#0383",
+      "name": "鼎植口腔",
+      "intro": "口腔种植专科连锁,以VIIV穿颧穿翼疑难种植专利为核心。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["诊所"],
+        "business_tags": "制造商(硬件/设备)"
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "tag_l1 由'养老服务'改为'医疗服务'",
+          "reason": "实体为口腔专科连锁诊所,非养老服务业态,归入医疗服务更准确"
+        },
+        {
+          "action": "change",
+          "tag": "tag_l2 由'诊所'改为'口腔种植'",
+          "reason": "垂直种植专科定位,用'口腔种植'凸显差异化"
+        }
+      ]
+    },
+    {
+      "serial": "#0386",
+      "name": "Autotune Me",
+      "intro": "音乐治疗师设计的数字疗法APP,缓解认知症神经精神症状。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["认知训练"],
+        "business_tags": "服务商"
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "tag_l1 由'养老服务'改为'数字疗法'",
+          "reason": "本质是处方级数字疗法/非药物干预软件,非养老运营服务"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0379",
+      "name": "鲸灵集团",
+      "verdict": "非银发",
+      "reason": "AI私域电商平台,客群80%为25-45岁宝妈,主营商品抽佣与SaaS,无银发业务实质"
+    },
+    {
+      "serial": "#0382",
+      "name": "麦考林",
+      "verdict": "泛医疗擦边",
+      "reason": "拥有百万中老年女性客群并主动寻求银发资源合作,但主营健康美丽零售,银发关联为客群而非专属业务"
+    },
+    {
+      "serial": "#0383",
+      "name": "鼎植口腔",
+      "verdict": "泛医疗擦边",
+      "reason": "口腔种植专科连锁,老年缺牙为重要客群但机构并非专攻老年群体,属泛医疗"
+    },
+    {
+      "serial": "#0388",
+      "name": "Coffee Cherry",
+      "verdict": "非银发",
+      "reason": "咖啡樱桃制粉循环经济B2B企业,与银发经济无实质关联"
+    },
+    {
+      "serial": "#0391",
+      "name": "yooLab",
+      "verdict": "泛医疗擦边",
+      "reason": "长寿抗衰预防健康公司,客群为泛健康人群而非专攻老年,属泛医疗/抗衰"
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+[
+ {
+  "serial": "#0669",
+  "name": "Clever Care Health Plan",
+  "name_cn": "Clever Care Health Plan",
+  "region": "海外",
+  "stage": "C轮",
+  "founded": "2020",
+  "funding_latest": {
+   "date": "2023年3月",
+   "amount": "4200万美元",
+   "round": "C轮",
+   "display": "C轮 4200万美元 (2023年3月)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "政府医保(Medicare Advantage)+个人自付",
+  "desc_cn": "B2C/B2B 老年健康保险",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年健康保险」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "保险"
+  ],
+  "highlights": [
+   "面向亚裔美国人的文化适配型Medicare Advantage计划",
+   "东方家庭观念嵌入健保产品设计"
+  ],
+  "events": [
+   {
+    "date": "2023-03",
+    "text": "完成4200万美元C轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 4.0,
+  "research_value": 42.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "Medicare Advantage本质服务65岁以上老年人，且专做亚裔文化适配。",
+  "website_url": "https://www.clevercarehealthplan.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0682",
+  "name": "Day Two",
+  "name_cn": "Day Two",
+  "region": "海外",
+  "stage": "C轮",
+  "founded": "2015",
+  "funding_latest": {
+   "date": "2021年5月",
+   "amount": "3700万美元",
+   "round": "C轮",
+   "display": "C轮 3700万美元 (2021年5月)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "个人自费",
+  "desc_cn": "基于肠道微生物组的代谢疾病精准营养方案",
+  "recommend": "信号偏弱、信息量一般，其「B2C 老年健康食品」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "个性化营养"
+  ],
+  "highlights": [
+   "以肠道菌群检测驱动个性化营养订阅",
+   "聚焦糖尿病等代谢疾病管理"
+  ],
+  "events": [
+   {
+    "date": "2021-05",
+    "text": "完成3700万美元C轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 48.7,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "实质为代谢疾病精准营养，面向全年龄段，非专门服务老年人。",
+  "website_url": "https://www.daytwo.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0685",
+  "name": "Dimer Health",
+  "name_cn": "Dimer Health",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "2022",
+  "funding_latest": {
+   "date": "2024年9月",
+   "amount": "1400万美元",
+   "round": "A轮",
+   "display": "A轮 1400万美元 (2024年9月)"
+  },
+  "funding_total": {
+   "amount": "$13.5M (Series A)",
+   "display": "$13.5M Series A"
+  },
+  "investors": "Team8, Table (Bill Ackman) 等",
+  "payor_model": "B端机构采购",
+  "desc_cn": "用机器学习预测患者再入院风险的B2B数据工具",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "慢病管理"
+  ],
+  "highlights": [
+   "机器学习预测患者再入院风险",
+   "获Team8等投资，B2B卖给医院与支付方"
+  ],
+  "events": [
+   {
+    "date": "2024-09",
+    "text": "完成1400万美元A轮融资（累计约1350万美元）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 42.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "再入院风险预测的B2B医疗数据工具，服务对象不限定老年。",
+  "website_url": "https://www.dimerhealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0697",
+  "name": "Embodied",
+  "name_cn": "Embodied",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "2017",
+  "funding_latest": {
+   "date": "2018年6月",
+   "amount": "2200万美元",
+   "round": "A轮",
+   "display": "A轮 2200万美元 (2018年6月)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购+个人自费",
+  "desc_cn": "面向家庭的情感陪伴与健康护理智能机器人",
+  "recommend": "信号偏弱、信息量一般，其「B2B/B2C 服务机器人」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "机器人"
+  ],
+  "highlights": [
+   "情感陪伴+家庭健康护理双定位机器人",
+   "Companion式社交机器人切入家庭场景"
+  ],
+  "events": [
+   {
+    "date": "2018-06",
+    "text": "完成2200万美元A轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 46.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "情感陪伴机器人定位家庭健康护理，属银发智能硬件场景。",
+  "website_url": "https://embodied.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0700",
+  "name": "Family First",
+  "name_cn": "Family First",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "2018",
+  "funding_latest": {
+   "date": "2023年7月",
+   "amount": "1100万美元",
+   "round": "A轮",
+   "display": "A轮 1100万美元 (2023年7月)"
+  },
+  "funding_total": "$11M",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "商业保险+雇主福利",
+  "desc_cn": "提供居家照护与持证护理员匹配的长者照护机构",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 居家及机构护理服务」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入专业级护理赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "护工平台",
+   "照护支持"
+  ],
+  "highlights": [
+   "持证护理员匹配+综合照护经理",
+   "与雇主和保险公司合作提供护理福利"
+  ],
+  "events": [
+   {
+    "date": "2023-07",
+    "text": "完成1100万美元A轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 5.0,
+  "copy_score": 7.0,
+  "research_value": 49.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "提供长者居家照护与照护管理，直接服务老年人。",
+  "website_url": "https://www.familyfirsthc.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0702",
+  "name": "Float",
+  "name_cn": "Float",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "2020",
+  "funding_latest": {
+   "date": "2024年3月",
+   "amount": "1000万美元",
+   "round": "A轮",
+   "display": "A轮 1000万美元 (2024年3月)"
+  },
+  "funding_total": "$15M",
+  "investors": "Y Combinator (+ others)",
+  "payor_model": "个人自费",
+  "desc_cn": "连接空闲护士与居家输液患者的按需护理平台",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "护士派遣"
+  ],
+  "highlights": [
+   "盘活护士闲时对接居家输液需求",
+   "Y Combinator孵化"
+  ],
+  "events": [
+   {
+    "date": "2024-03",
+    "text": "完成1000万美元A轮融资（Y Combinator 孵化）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 46.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "护士与居家输液患者的按需匹配平台，面向广泛患者而非专老。",
+  "website_url": "https://www.float.app",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0715",
+  "name": "Grayce",
+  "name_cn": "Grayce",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2024年6月",
+   "amount": "1040万美元",
+   "round": "A轮",
+   "display": "A轮 1040万美元 (2024年6月)"
+  },
+  "funding_total": "$10.4M",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "雇主福利支付",
+  "desc_cn": "面向职场照护者的雇主福利式家庭照护导航平台",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 居家及机构护理服务」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入专业级护理赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "照护支持"
+  ],
+  "highlights": [
+   "雇主福利式家庭照护导航，匹配硕士社工作Care Partner",
+   "2025年起客户转介至Cariloop"
+  ],
+  "events": [
+   {
+    "date": "2024-06",
+    "text": "完成1040万美元A轮融资"
+   },
+   {
+    "date": "2025",
+    "text": "客户逐步转介至 Cariloop"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 53.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "服务职场子女照护年迈父母，属银发家庭照护支持。",
+  "website_url": "https://www.withgrayce.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0716",
+  "name": "GroundGame Health/SameSky Health",
+  "name_cn": "GroundGame Health/SameSky Health",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": "2017",
+  "funding_latest": {
+   "amount": "1700万美元",
+   "round": "A轮",
+   "display": "A轮 1700万美元"
+  },
+  "funding_total": "$17M",
+  "investors": "7wireVentures (lead), Elevance",
+  "payor_model": "政府医保(Medicaid)+商业保险",
+  "desc_cn": "用文化适配外联闭环健康社会需求(SDOH)的平台",
+  "recommend": "信号偏弱、信息透明度高，其「B2B/B2C 银发行业服务」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "SDOH",
+   "照护支持"
+  ],
+  "highlights": [
+   "2024年合并获7wireVentures领投1700万美元",
+   "HITRUST认证，文化适配外联闭环SDOH"
+  ],
+  "events": [
+   {
+    "date": "2024",
+    "text": "GroundGame Health 与 SameSky Health 合并，获7wireVentures领投1700万美元"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 4.0,
+  "research_value": 50.7,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "SDOH/Medicaid健康公平平台，服务全体弱势人群非专属老年。",
+  "website_url": "https://www.sameskyhealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0727",
+  "name": "HealthSnap",
+  "name_cn": "HealthSnap",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": "2015",
+  "funding_latest": {
+   "date": "2024年2月",
+   "amount": "2500万美元",
+   "round": "B轮",
+   "display": "B轮 2500万美元 (2024年2月)"
+  },
+  "funding_total": "$48.5M",
+  "investors": "Opko Health, Florida Funders, Sands Capital",
+  "payor_model": "B端机构采购+商业保险",
+  "desc_cn": "集成远程监测与慢病管理的虚拟照护管理平台",
+  "recommend": "信号偏弱、信息透明度高，其「B2C/B2B 居家及机构护理服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入专业级护理赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "慢病管理",
+   "远程护理"
+  ],
+  "highlights": [
+   "集成RPM/CCM/PCM的虚拟照护管理",
+   "已接入150+医疗系统、10万+患者"
+  ],
+  "events": [
+   {
+    "date": "2024-02",
+    "text": "完成2500万美元B轮融资（累计4850万美元）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 52.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "慢病管理与远程护理为核心银发场景，临床结局改善面向老年慢病。",
+  "website_url": "https://healthsnap.io",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0730",
+  "name": "hellocare.ai",
+  "name_cn": "hellocare.ai",
+  "region": "海外",
+  "stage": "成长期",
+  "founded": "2017",
+  "funding_latest": {
+   "date": "2025年4月",
+   "amount": "4700万美元",
+   "round": "增长轮",
+   "display": "增长轮 4700万美元 (2025年4月)"
+  },
+  "funding_total": {
+   "amount": "$47M",
+   "display": "累计$47M (截至2025年4月)"
+  },
+  "investors": "HealthQuest Capital, Bon Secours Mercy Health, UCHealth, OSF Ventures, LRVHealth, Mayo Clinic",
+  "payor_model": "B端机构采购",
+  "desc_cn": "面向医院的AI辅助虚拟护理服务",
+  "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入专业级护理赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "远程护理"
+  ],
+  "highlights": [
+   "AI虚拟护理服务医院病房",
+   "获Mayo Clinic等战略投资，累计4700万美元"
+  ],
+  "events": [
+   {
+    "date": "2025-04",
+    "text": "完成4700万美元增长轮融资（累计4700万美元）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 51.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "AI虚拟护理服务于老年住院/照护场景，属远程护理。",
+  "website_url": "https://www.hellocare.ai",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0736",
+  "name": "Homeage",
+  "name_cn": "Homeage",
+  "region": "海外",
+  "stage": "C轮",
+  "founded": 2016,
+  "funding_latest": {
+   "date": "2021年9月",
+   "amount": "3000万美元",
+   "round": "C轮",
+   "display": "C轮 3000万美元 (2021年9月)"
+  },
+  "funding_total": "$45.3M",
+  "investors": "investors undisclosed",
+  "payor_model": "个人自费+保险支付",
+  "desc_cn": "东南亚科技驱动型居家照护与康复匹配平台",
+  "recommend": "信号偏弱、信息透明度高，其「B2B/B2C 银发行业服务」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "护工平台",
+   "居家医疗"
+  ],
+  "highlights": [
+   "自研匹配引擎连接长者与护理专业人员",
+   "覆盖新加坡、马来西亚、澳大利亚"
+  ],
+  "events": [
+   {
+    "date": "2021-09",
+    "text": "完成2980万美元C轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 54.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "科技驱动居家照护平台，提供长者ADL协助与康复，直接服务老人。",
+  "website_url": "https://www.homeage.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0756",
+  "name": "Kismet",
+  "name_cn": "Kismet",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": 2023,
+  "funding_latest": {
+   "date": "2024年10月",
+   "amount": "1300万美元",
+   "round": "种子轮",
+   "display": "种子轮 1300万美元 (2024年10月)"
+  },
+  "funding_total": "$8.2M",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "政府支付(NDIS/养老)+个人自付",
+  "desc_cn": "澳洲AI养老礼宾平台，导航NDIS与照护支付",
+  "recommend": "信号偏弱、信息量一般，其「B2B/B2C 银发行业服务」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老信息平台"
+  ],
+  "highlights": [
+   "澳洲AI养老礼宾，导航NDIS与养老支付",
+   "接入3.5万+服务提供商"
+  ],
+  "events": [
+   {
+    "date": "2024-10",
+    "text": "完成1300万美元种子轮融资"
+   },
+   {
+    "date": "2025",
+    "text": "澳大利亚主体获3250万澳元种子轮、用户超10万"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 53.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "澳洲养老支付导航平台，实质服务老年照护体系。",
+  "website_url": "https://www.kismet.ai",
+  "business_tags_role": null
+ }
+]

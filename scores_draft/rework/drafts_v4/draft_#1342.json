@@ -1,30 +1,79 @@
 {
   "serial": "#1342",
-  "recommend": "法国家庭护理与陪伴服务商，公开融资与运营数据较少，信号主要来自欧洲银发照护政策红利（信号）。可查资料显示其聚焦居家护理与情感陪伴，但用户规模与营收尚未披露（信息量）。和国内小橙、易得康、福寿康等相比，其法式居家护理模式定位清晰（差异化）。国内已有类似（小橙、易得康、福寿康），其护理加陪伴社区化打法可借鉴（可复制）。",
-  "desc_cn": "这家法国企业专注老年人家庭护理与陪伴服务，业务落在居家场景的护理员上门与情感陪伴，公开资料有限，融资规模与运营数据尚未对外披露，主要依托欧洲银发照护体系与政策环境开展业务，可作为法式居家照护的观察样本。",
-  "silver_reason": "面向居家老人提供护理与陪伴服务，对接社区居家养老这一银发核心场景，是法式居家照护模式的海外观察样本，国内已有成熟对标。",
-  "payor_model": "个人自费+政府补贴",
+  "name": "Agely Care",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "居家护理",
+  "tags": [
+    "居家护理"
+  ],
+  "description": "老年人护理与陪伴服务（法国）。",
+  "highlights": [
+    "创始团队出自Zelros（保险AI）",
+    "用对话替代紧急呼叫按钮",
+    "瞄准保险机构与居家照护方"
+  ],
   "funding_latest": {
-    "display": "未搜到"
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
   },
   "funding_total": {
-    "display": "未搜到"
+    "amount": "未披露",
+    "display": "未披露"
   },
-  "stage": "未搜到",
-  "founded_year": null,
-  "highlights": [
-    "法国家庭护理与陪伴",
-    "居家护理场景",
-    "资料有限"
+  "investors": [
+    "未搜到"
   ],
-  "events": [],
-  "business_model": "居家护理与陪伴服务（个人自费+政府补贴）",
+  "founded": "未搜到",
+  "value_score": 0,
+  "source": "信源治理入库(Silvereco) 2026-07-15",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "未搜到",
+  "business_model": "B2B2C SaaS",
+  "desc_cn": "这家2025年创立于巴黎的公司由保险AI企业Zelros的创始人创办，开发一个语音优先的老年陪伴与预防平台：老人无需按键或装App，用自然语言和Agely对话，由AI完成提醒、社交连结、健康预警与照护协调，面向险企与居家照护服务商输出，重塑传统远程紧急呼叫。",
+  "business_model_cn": "B2C 护理陪伴",
+  "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+  },
+  "name_cn": "Agely Care",
+  "tag_l1": [
+    "养老服务"
+  ],
+  "tag_l2": [
+    "居家护理"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+  },
+  "stage": "种子期",
+  "recommend": "语音优先的老年AI陪伴平台，2025年成立于巴黎、尚无公开融资，信号偏弱（信号）。其以自然语言对话完成提醒、社交与健康预警，产品仍处于共建验证期、运营数据少（信息量）。相比国内小度灵机、天猫精灵，其去屏幕去按键的纯粹语音照护路线更聚焦（差异化）。国内已有类似（小度灵机、天猫精灵），其面向保险机构输出语音陪伴的打法可借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 5.5,
+  "research_value": 45.6,
+  "events": [
+    "2025年成立于巴黎",
+    "创始团队来自保险AI公司Zelros（已被Earnix收购）",
+    "定位B2B2C，面向保险机构与居家照护服务商",
+    "开发ICOPE Voice预防评估工具"
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "在护理人力日益紧缺的背景下，用无感交互持续关注独居长者的情绪与意外隐患，让家属和护理员把精力放在最需要的地方，是化解银发服务缺口的一条轻量路径。",
+  "update_time": "2026-07-19",
+  "founded_year": 2025,
   "coverage_regions": [
     "法国"
   ],
   "domestic_competitors": [
-    "小橙",
-    "易得康",
-    "福寿康"
+    "小度灵机",
+    "天猫精灵"
   ]
 }

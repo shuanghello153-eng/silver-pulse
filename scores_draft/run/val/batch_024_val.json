@@ -1,0 +1,66 @@
+{
+  "batch": 24,
+  "checks": [
+    {
+      "serial": "#0006",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0007",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0008",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0013",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0014",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0016",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0018",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0019",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0021",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0022",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0023",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0024",
+      "pass": true,
+      "issues": []
+    }
+  ],
+  "overall_pass": true
+}

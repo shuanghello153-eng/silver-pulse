@@ -1,0 +1,664 @@
+{
+  "batch": 24,
+  "enterprises": [
+    {
+      "serial": "#0006",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号弱但信息披露充分（过亿A轮、500万用户）；「纯玩无购物」切中银发信任痛点，差异化清晰，国内创业者可抄其退休社群获客打法。",
+        "rec_v2": "虽信号低，公开资料完整（创始人背景、融资额明确）；O2O旅游+商城闭环有特色，中小创业者能学其线下聚会到复购的转化模型。",
+        "rec_v3": "冷门但披露度高；以「无购物」破老年旅游低价团乱象，模式轻、国内空白市场大，值得研究其活力老人的高频运营。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 48.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "退休人群纯玩无购物旅游与社交O2O平台",
+      "founded": 2021,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-07",
+          "text": "完成过亿元A轮融资（概念资本领投）"
+        }
+      ],
+      "highlights": [
+        "创始人康嘉为饿了么联合创始人",
+        "累计服务超500万退休及活力银发用户",
+        "2025年完成过亿元A轮融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注退休及活力银发人群旅游、聚会、演出与电商。"
+    },
+    {
+      "serial": "#0007",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（前身千聊、多轮融资未披露金额）；中老年在线兴趣教育模式常规，但课程标准化打法清晰，国内创业者可直接借鉴其选品。",
+        "rec_v2": "虽冷门，已有数百万中老年用户基础；太极书法等适老课程同质化高，亮点在高频内容留存，创业者可学其社群裂变而非硬广。",
+        "rec_v3": "披露有限但路径明确；把兴趣教育做成低门槛入口，可复制性强，值得研究其如何用低价课撬动银发付费意愿。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年在线兴趣教育平台（太极/书法等）",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "前身为知识付费平台「千聊」",
+        "累计服务数百万中老年用户",
+        "课程含太极、瑜伽、书法、国画、声乐"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年在线兴趣教育，直接服务银发人群。"
+    },
+    {
+      "serial": "#0008",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少（融资未披露）；社区居家养老SaaS属常规信息化，但机构数字化刚需明确，国内创业者可借鉴其模块切法。",
+        "rec_v2": "冷门且披露有限；为机构与社区中心供信息化平台，差异化低，亮点在B端黏性，创业者能学其从评估到护理的闭环设计。",
+        "rec_v3": "信息不足但赛道稳；养老SaaS同质化强，可复制性高，值得研究其如何用轻系统撬动中小机构数字化改造。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "社区与机构养老信息化SaaS平台",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "面向养老机构与社区养老服务中心",
+        "提供养老信息化管理平台",
+        "业务覆盖评估、护理、运营模块"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为养老机构与社区提供居家养老信息化管理。"
+    },
+    {
+      "serial": "#0013",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 8,
+      "copy_score": 4,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱但技术硬（获中美监管认证）；无源仿生外骨骼差异化极强，技术壁垒高难复制，国内创业者可学其医院—家庭—儿童多场景分层。",
+        "rec_v2": "冷门却有专利护城河；Exotendon肌腱技术全球少见，信息中等，亮点在免动力被动康复，值得研究其轻量化降本路径。",
+        "rec_v3": "披露有限但差异突出；用无源外骨骼帮卒中脑瘫患者步行，可抄性低，但能借鉴其「医疗+消费」双线注册策略。",
+        "info_score": 5,
+        "diff_score": 8,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "无源仿生外骨骼下肢康复设备商",
+      "founded": 2022,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自研奕行®仿生机械外骨骼",
+        "获中国与美国监管认证",
+        "分医院版、家庭版、儿童版"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "外骨骼康复设备服务卒中、脑瘫等需步行康复人群。"
+    },
+    {
+      "serial": "#0014",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息少（融资未披露）；居家护理上门属常规服务，但刚需真实，国内创业者可借鉴其护理员标准化派单体系。",
+        "rec_v2": "冷门且披露有限；覆盖居家养老、术后、慢病多场景，差异化低，亮点在专业护理员供给，值得学其B端机构合作。",
+        "rec_v3": "信息不足但需求刚性；居家护理同质化强、可复制高，可研究其如何把分散护工做成可控服务网。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "个人自费+B端采购",
+      "business_tags_role": "平台",
+      "desc_cn": "居家专业护理员上门服务平台",
+      "founded": "",
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "提供专业护理员上门服务",
+        "覆盖居家养老、术后护理、慢病管理",
+        "获广东宏升投资集团投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护理服务覆盖养老、术后与慢病管理场景。"
+    },
+    {
+      "serial": "#0016",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号弱但信息丰（数亿用户、D轮、微信头部）；银发短视频影集差异化中等，生态位难复制，创业者可学其极简创作降低老年门槛。",
+        "rec_v2": "冷门却有规模壁垒；依托微信生态做内容表达，亮点在适老交互，可借鉴其「工具+社区」留存模型，但难抄流量入口。",
+        "rec_v3": "披露充分但信号低；把照片做成短视频切中怀旧社交，模式清晰可学，值得研究其银发UGC的内容分发机制。",
+        "info_score": 8,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 49.6
+      },
+      "payor_model": "个人自费（流量变现）",
+      "business_tags_role": "平台",
+      "desc_cn": "银发群体短视频与影集创作头部小程序",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2020",
+          "text": "完成D轮融资（一线投资机构）"
+        }
+      ],
+      "highlights": [
+        "微信生态内头部小程序",
+        "服务数亿用户",
+        "银发最常用的内容创作工具之一"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年短视频与影集制作，直接服务银发群体。"
+    },
+    {
+      "serial": "#0018",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（约3000万用户）；音乐相册短视频差异化一般，但极简操作切适老，国内创业者可借鉴其怀旧社区氛围营造。",
+        "rec_v2": "冷门却有用户基础；模板一键生成MV降低创作门槛，亮点在同龄社交，可复制性强，值得学其兴趣群组促活打法。",
+        "rec_v3": "披露有限但路径清；把照片变MV满足表达欲，模式常规可抄，可研究其直播+社群如何延长银发用户生命周期。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年音乐相册与短视频创作社区App",
+      "founded": 2017,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "累计约3000万同龄用户",
+        "海量模板一键生成MV",
+        "极简操作+怀旧社区氛围"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年音乐相册与短视频创作社交App。"
+    },
+    {
+      "serial": "#0019",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但网络实（500+校区、49门课）；教育+活动+私域直播+商城闭环差异化中等，国内创业者可抄其线下校区获客模型。",
+        "rec_v2": "冷门却有规模；以教育为纽带延伸旅游电商，亮点在银发消费闭环，可复制性强，值得学其私域直播转化。",
+        "rec_v3": "披露有限但模式清；把文娱教育做成连锁再延伸到消费，可借鉴，可研究其适老化课程如何提升续费。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年文娱教育连锁（课程+私域+旅游）",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全国直营与合作校区超500家",
+        "开设49门适老化课程",
+        "私域直播+商城延伸旅游电商闭环"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年文娱教育连锁，含课程、旅游与电商。"
+    },
+    {
+      "serial": "#0021",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息少；居家养老护理上门常规，但刚需明确，国内创业者可借鉴其生活照料+医疗护理组合打包。",
+        "rec_v2": "冷门且披露有限；覆盖生活、医疗、康复陪伴，差异化低，亮点在综合照护，值得学其B端机构协同获客。",
+        "rec_v3": "信息不足但需求刚；护理上门同质化强可复制，可研究其如何把零散护工培训成标准供给。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "个人自费+B端采购",
+      "business_tags_role": "平台",
+      "desc_cn": "居家养老专业护理上门服务商",
+      "founded": "",
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "提供专业护理员上门服务",
+        "覆盖生活照料、医疗护理、康复陪伴",
+        "面向居家长者全场景照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家养老护理服务，覆盖生活与医疗护理。"
+    },
+    {
+      "serial": "#0022",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但信息实（56城、长护险定点）；引入美国CNA照护标准差异化中等，受牌照约束难复制，可学其长护险获客。",
+        "rec_v2": "冷门却有壁垒；护理站多为上海长护险定点、个人仅付10%，亮点在支付闭环，值得研究其政企合作接入路径。",
+        "rec_v3": "披露中等但模式重；美式照护标准本土化有特色，可抄性受地域限制，可借鉴其「评估—派单—陪护」中台。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "政府长护险+个人自付",
+      "business_tags_role": "平台",
+      "desc_cn": "引入CNA标准的全国连锁医疗照护机构",
+      "founded": 2009,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "引入美国CNA照护标准",
+        "业务覆盖全国56城",
+        "多为上海长护险定点机构，个人仅承担10%"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家长者护士/照护师上门，长护险定点护理。"
+    },
+    {
+      "serial": "#0023",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号弱但信息实（20余省、17万家庭、7000陪诊师）；陪诊师培训+城市合伙人差异化中等，国内创业者可抄其标准化扩张。",
+        "rec_v2": "冷门却有规模；自主培训认证陪诊师构成供给壁垒，亮点在可复制加盟，值得学其「培训—派单」运营中台。",
+        "rec_v3": "披露中等但路径清；把陪诊做成可认证职业，模式清晰可借鉴，可研究其如何借政策规范化做大供给网。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 45.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "陪诊为核心延伸至陪护与住家照护",
+      "founded": 2023,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自主培训认证7000余名陪诊师",
+        "业务覆盖全国20余省份",
+        "累计协助17万个家庭完成就医"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以陪诊为核心的就医协助体系，服务老年就医。"
+    },
+    {
+      "serial": "#0024",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 8,
+      "copy_score": 5,
+      "research_value": 45.6,
+      "recommend": {
+        "rec_v1": "信号弱但信息实（与泰康平安合作、销日欧美）；无感非视觉监测差异化极强，技术壁垒高难复制，可学其机构切入。",
+        "rec_v2": "冷门却有硬科技；60GHz毫米波雷达实现呼吸心率跌倒识别，亮点在隐私友好，值得研究其B端硬件+订阅变现。",
+        "rec_v3": "披露中等但差异突出；无摄像头无穿戴主动守护，可抄性低，可借鉴其「出海认证+国内机构」双市场打法。",
+        "info_score": 6,
+        "diff_score": 8,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 45.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "毫米波雷达无感养老监测设备商",
+      "founded": 2022,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "60GHz毫米波雷达无感监测",
+        "合作泰康、平安并销往日本、欧美",
+        "支持双向语音告警"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "毫米波雷达监测老人跌倒、呼吸心率等。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0006",
+      "name": "共比邻",
+      "intro": "共比邻是面向退休及活力银发人群的旅游、聚会、演出与电商O2O平台，主打纯玩无购物。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "旅游"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": [
+            "线上"
+          ]
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "电商",
+          "reason": "业务含电商服务，现有标签仅旅游，建议补充电商维度。"
+        }
+      ]
+    },
+    {
+      "serial": "#0007",
+      "name": "兴趣岛",
+      "intro": "兴趣岛前身为千聊，是面向中老年的在线兴趣教育平台，提供太极、书法等课程。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育",
+          "兴趣社群"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0008",
+      "name": "医家通",
+      "intro": "医家通是社区居家养老SaaS系统提供商，为养老机构和社区中心提供信息化平台。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0013",
+      "name": "奕然康复",
+      "intro": "奕然康复研发无源仿生机械外骨骼下肢康复训练系统，获中美认证，覆盖医院与居家。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "康复机器人",
+          "reason": "外骨骼本质属康复机器人，现有仅「外骨骼」，可补颗粒度。"
+        }
+      ]
+    },
+    {
+      "serial": "#0014",
+      "name": "安护通",
+      "intro": "安护通是居家护理服务平台，提供专业护理员上门，覆盖居家养老与术后护理。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家康复",
+          "护士上门"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0016",
+      "name": "小年糕",
+      "intro": "小年糕是中老年短视频和影集制作应用，微信生态头部小程序，服务数亿用户。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "短视频"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": [
+            "线上",
+            "短视频"
+          ]
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0018",
+      "name": "彩视",
+      "intro": "彩视是面向中老年的音乐相册与短视频创作App，提供模板MV、群组与直播。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "短视频",
+          "兴趣社群"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": [
+            "短视频"
+          ]
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0019",
+      "name": "心智青",
+      "intro": "心智青是中老年文娱教育连锁品牌，开适老课程并以私域延伸旅游电商。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育",
+          "文娱"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": [
+            "线下"
+          ]
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0021",
+      "name": "抚理健康",
+      "intro": "抚理健康是居家养老护理服务商，提供护理员上门，覆盖生活照料与医疗护理。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家康复",
+          "护士上门"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0022",
+      "name": "易得康",
+      "intro": "易得康是全国连锁医疗照护机构，引入美国CNA标准，长护险定点，覆盖56城。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护士上门",
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0023",
+      "name": "橙医健康",
+      "intro": "橙医健康以专业陪诊为核心，配套院内陪护与住家照护，网络遍及全国多数省份。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "陪诊"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0024",
+      "name": "清澜技术",
+      "intro": "清澜技术基于毫米波雷达研发无感生命体征监测仪，合作泰康平安并出海。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测",
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能监测",
+          "reason": "现有仅跌倒/睡眠监测，建议补「智能监测」上位标签。"
+        }
+      ]
+    }
+  ],
+  "nonsilver": []
+}

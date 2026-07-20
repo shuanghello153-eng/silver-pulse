@@ -1,0 +1,490 @@
+{
+ "batch": 64,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0575",
+   "name": "Comcast Ventures",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "Comcast Ventures 是美国传媒与通信巨头康卡斯特（Comcast）的企业风险投资部门，投资早期至成长期的科技、媒体、消费与连接健康（connected health）领域初创公司。",
+   "highlights": "投资Papa",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1999",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Comcast%20Ventures",
+   "website_url": "https://comcastventures.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "风投机构，投资Papa",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Comcast Ventures】聚焦产业资本，投资Papa，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0576",
+   "name": "Magnify Ventures",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "风投机构，投资Papa",
+   "highlights": "投资Papa",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Magnify%20Ventures",
+   "website_url": "https://www.magnify.vc",
+   "business_model": "银发经济企业",
+   "desc_cn": "风投机构，投资Papa",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Magnify Ventures】聚焦产业资本，投资Papa，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0577",
+   "name": "软银愿景基金",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "软银愿景基金（SoftBank Vision Fund）是软银集团于2017年设立的千亿美元级全球科技投资基金，由孙正义主导，广泛投资AI、芯片、出行与前沿科技，并布局了护理机器人、数字健康与养老科技等银发相关企业。",
+   "highlights": "投资Papa",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BD%AF%E9%93%B6%E6%84%BF%E6%99%AF%E5%9F%BA%E9%87%91",
+   "website_url": "https://visionfund.com",
+   "business_model": "银发经济企业",
+   "name_cn": "软银愿景基金",
+   "desc_cn": "软银旗下风投基金，投资Papa",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【软银愿景基金】聚焦产业资本，投资Papa，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0578",
+   "name": "Tiger Global",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "Tiger Global Management 是一家总部位于纽约的全球投资管理机构（2001年成立），业务涵盖公开市场股票与私募股权/风险投资，长期投资互联网、软件、金融科技及医疗健康领域，亦参与多家健康科技企业的成长融资。",
+   "highlights": "投资Papa",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2001",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tiger%20Global",
+   "website_url": "https://www.tigerglobal.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "风投机构，投资Papa",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Tiger Global】聚焦产业资本，投资Papa，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0579",
+   "name": "Emerson Collective",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "影响力投资机构，投资Tembo Health、GoodTrust、FreeWill等",
+   "highlights": "投资Tembo Health、GoodTrust、FreeWill等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2004",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Emerson%20Collective",
+   "website_url": "https://www.emersoncollective.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "影响力投资机构，投资Tembo Health、GoodTrust、FreeWill等",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Emerson Collective】聚焦产业资本，投资Tembo Health、GoodTrust、FreeWill等，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0580",
+   "name": "Generator Ventures",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "风投机构，投资ActiveProtective、CareLinx、Vesta Healthcare、Wellthy等",
+   "highlights": "投资ActiveProtective、CareLinx、Vesta Heal...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 33,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Generator%20Ventures",
+   "website_url": "https://generatorvc.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "风投机构，投资ActiveProtective、CareLinx、Vesta Healthcare、Wellthy等",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Generator Ventures】聚焦产业资本，投资ActiveProtective、CareLinx、Vesta Heal...，B2B+B2C模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0581",
+   "name": "Kaiser Permanente Ventures",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "凯撒医疗旗下风投，投资Vesta Healthcare、SilverLink",
+   "highlights": "投资Vesta Healthcare、SilverLink",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1997",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kaiser%20Permanente%20Ventures",
+   "website_url": "https://www.kpventures.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "凯撒医疗旗下风投，投资Vesta Healthcare、SilverLink",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Kaiser Permanente Ventures】聚焦产业资本，投资Vesta Healthcare、SilverLink，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0582",
+   "name": "Oak HC/FT",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "风投机构，投资Vesta Healthcare、Devoted Health等",
+   "highlights": "投资Vesta Healthcare、Devoted Health等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Oak%20HC/FT",
+   "website_url": "https://www.oakhcft.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "风投机构，投资Vesta Healthcare、Devoted Health等",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Oak HC/FT】聚焦产业资本，投资Vesta Healthcare、Devoted Health等，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0583",
+   "name": "Rethink Impact",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "影响力投资机构，投资Wellthy、CareAcademy",
+   "highlights": "投资Wellthy、CareAcademy",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Rethink%20Impact",
+   "website_url": "https://rethinkimpact.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "影响力投资机构，投资Wellthy、CareAcademy",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Rethink Impact】聚焦产业资本，投资Wellthy、CareAcademy，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0584",
+   "name": "Ziegler长寿基金",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "Ziegler（B.C. Ziegler and Company）是一家成立于1932年的美国精品投资银行与财富管理机构，长期深耕医疗与养老（senior living）行业，为养老社区、养老运营商及长寿科技企业提供融资、并购顾问与资本市场服务，其Ziegler Senior Living为行业权威研究品牌。",
+   "highlights": "投资二十余家长寿赛道企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ziegler%E9%95%BF%E5%AF%BF%E5%9F%BA%E9%87%91",
+   "website_url": "https://www.ziegler.com",
+   "business_model": "银发经济企业",
+   "name_cn": "Ziegler长寿基金",
+   "desc_cn": "长寿专项基金，投资二十余家长寿赛道企业",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ziegler长寿基金】聚焦产业资本，投资二十余家长寿赛道企业，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0585",
+   "name": "Wayfair",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "电商"
+   ],
+   "description": "Wayfair 是美国大型线上家居家具电商，销售家具、家纺与居家用品，通过其电商平台与自有物流触达包括银发族在内的广泛家庭消费群体。",
+   "highlights": "作为长寿市场渠道碎片化的对比参照",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2002",
+   "value_score": 32,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wayfair",
+   "website_url": "https://www.wayfair.com",
+   "business_model": "B2C 电商平台",
+   "desc_cn": "Wayfair 是美国大型线上家居家具电商，销售家具、家纺与居家用品，通过其电商平台与自有物流触达包括银发族在内的广泛家庭消费群体。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Wayfair】聚焦数字化/渠道/行业媒体，作为长寿市场渠道碎片化的对比参照，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0586",
+   "name": "Netflix",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "文娱"
+   ],
+   "description": "Netflix（网飞）是全球领先的订阅制流媒体娱乐服务平台（1997年成立，总部美国），提供电影、剧集、纪录片等在线点播内容，拥有规模庞大的中老年用户群体，并持续丰富适老化界面与家庭向内容。",
+   "highlights": "作为长寿市场服务模式的类比参照",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1997",
+   "value_score": 37,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Netflix",
+   "website_url": "https://www.netflix.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "订阅制内容平台，作为长寿市场服务模式的类比参照",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "银发内容多点开花,从边缘题材走向主流",
+      "date": "2025-06-16",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250616A09FFA00"
+     },
+     {
+      "title": "银发综艺/剧集数量激增",
+      "date": "2025-06-23",
+      "source": "今日头条",
+      "url": "https://www.toutiao.com/article/7519062915383640611/"
+     }
+    ],
+    "snippets": [
+     "Netflix 自身无专门银发/养老新闻,老年观众相关内容随'银发内容'行业趋势被提及",
+     "银发向内容(如老年题材剧集)增长,但平台层面可验证的养老专项新闻极少"
+    ]
+   },
+   "name_cn": "网飞",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Netflix】聚焦数字化/行业媒体，作为长寿市场服务模式的类比参照，B2B模式，研究价值分37。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  }
+ ]
+}

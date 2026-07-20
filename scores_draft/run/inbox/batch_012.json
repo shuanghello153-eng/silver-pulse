@@ -1,0 +1,631 @@
+{
+ "batch": 12,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0744",
+   "name": "Infinitus Systems",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "AI自动拨打医疗保健相关电话",
+   "highlights": "AI自动拨打医疗保健相关电话",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "5150万美元",
+    "round": "C轮",
+    "display": "C轮 5150万美元 (2024年10月)"
+   },
+   "funding_total": "$103M",
+   "investors": "a16z, Kleiner Perkins, Coatue, GV (Google Ventures), Memorial Hermann",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Infinitus%20Systems",
+   "website_url": "https://www.infinitus-systems.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI自动拨打医疗保健相关电话",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Infinitus Systems】聚焦AI医疗/产业资本/文娱社交，AI自动拨打医疗保健相关电话，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0768",
+   "name": "Lottie",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "Lottie is a UK care-finding service that lets families compare care homes, home care and retirement living options with real-time bed availability and pricing, backed by free expert advice and a vetted provider directory.",
+   "highlights": "寻找养老院平台",
+   "funding_latest": {
+    "date": "2023年10月",
+    "amount": "1635万欧元",
+    "round": "A轮",
+    "display": "A轮 1635万欧元 (2023年10月)"
+   },
+   "funding_total": "$31M",
+   "investors": "Accel, General Catalyst",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lottie",
+   "website_url": "https://www.lottie.org.uk",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "英国养老照护信息服务机构，帮助家庭比对养老院、居家照护与退休社区，展示实时空床与价格，并配以免费顾问与经审核的供应商名录。",
+   "business_model_cn": "B2C引流+CRM订阅",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Lottie】聚焦产业资本/养老机构/护理平台，寻找养老院平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0783",
+   "name": "Midi Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "诊所"
+   ],
+   "description": "最快发展的虚拟护理诊所，专门服务绝经期女性",
+   "highlights": "专门服务绝经期女性",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "6000万美元",
+    "round": "B轮",
+    "display": "B轮 6000万美元 (2024年4月)"
+   },
+   "funding_total": {
+    "amount": "$252M",
+    "display": "累计$252M (截至2026年2月)"
+   },
+   "investors": "Goodwater Capital, Advance Venture Partners, Emerson Collective, Foresite Capital, Serena Ventures",
+   "founded": "2021",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Midi%20Health",
+   "website_url": "https://www.joinmidi.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "最快发展的虚拟护理诊所，专门服务绝经期女性",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Midi Health Secures $100M Series D, Becomes Unicorn",
+      "date": "2026-02-03",
+      "source": "VBData",
+      "url": "https://www.vbdata.cn/intelDetail/892355"
+     },
+     {
+      "title": "Midi Health Raises $50M Series C for Menopause Care",
+      "date": "2025-10-03",
+      "source": "Femtech Insider",
+      "url": "https://femtechinsider.com/midi-health-raises-50-million-series-c-for-menopause-care-platform/"
+     }
+    ],
+    "snippets": [
+     "Midi Health为女性中年/更年期远程医疗平台（45-55岁人群），2026年2月完成1亿美元D轮，估值超10亿美元成独角兽。",
+     "2025年10月完成5000万美元C轮（累计约1.5亿美元），服务全美50州、保险覆盖，属长寿/中年健康赛道。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Midi Health】聚焦专业护理/产业资本/女性健康，专门服务绝经期女性，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0817",
+   "name": "PanTheryx",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保健品"
+   ],
+   "description": "利用牛初乳的细胞和生物分子",
+   "highlights": "利用牛初乳的细胞和生物分子",
+   "funding_latest": {
+    "date": "2023年10月",
+    "amount": "5229万美元",
+    "round": "私募股权",
+    "display": "私募股权 5229万美元 (2023年10月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=PanTheryx",
+   "website_url": "https://www.pantheryx.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "利用牛初乳的细胞和生物分子",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【PanTheryx】聚焦产业资本/营养食品/行业媒体，利用牛初乳的细胞和生物分子，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0885",
+   "name": "Tomorrow Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护工平台",
+    "居家护理"
+   ],
+   "description": "简化家庭护理流程，匹配高质量供应商",
+   "highlights": "匹配高质量供应商",
+   "funding_latest": {
+    "date": "2022年6月",
+    "amount": "6000万美元",
+    "round": "B轮",
+    "display": "B轮 6000万美元 (2022年6月)"
+   },
+   "funding_total": {
+    "amount": "$92.5M",
+    "display": "$92.5M (截至2025年)"
+   },
+   "investors": "Andreessen Horowitz, Bond, Obvious Ventures, BoxGroup, Montauk Ventures",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tomorrow%20Health",
+   "website_url": "https://www.tomorrowhealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "简化家庭护理流程，匹配高质量供应商",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Tomorrow Health】聚焦专业护理/产业资本，匹配高质量供应商，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0889",
+   "name": "Two Chairs",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "专有算法帮助将合适治疗师与患者匹配",
+   "highlights": "专有算法帮助将合适治疗师与患者匹配",
+   "funding_latest": {
+    "amount": "7200万美元",
+    "round": "C轮",
+    "display": "C轮 7200万美元"
+   },
+   "funding_total": "$100M",
+   "investors": [
+    "Amplo",
+    "Maveron",
+    "Fifth Down Capital",
+    "What If Ventures"
+   ],
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Two%20Chairs",
+   "website_url": "https://www.twochairs.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "专有算法帮助将合适治疗师与患者匹配",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Two Chairs】聚焦产业资本/精神健康/行业媒体，专有算法帮助将合适治疗师与患者匹配，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0907",
+   "name": "Vori Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "虚拟/面对面肌肉骨骼护理",
+   "highlights": "虚拟/面对面肌肉骨骼护理",
+   "funding_latest": {
+    "date": "2025年3月",
+    "amount": "5300万美元",
+    "round": "B轮",
+    "display": "B轮 5300万美元 (2025年3月)"
+   },
+   "funding_total": "$53M",
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vori%20Health",
+   "website_url": "https://www.vorihealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "虚拟/面对面肌肉骨骼护理",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Vori Health】聚焦产业资本/健康管理/居家护理，虚拟/面对面肌肉骨骼护理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "name": "Strolll",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "AR神经康复",
+   "tags": [
+    "视觉辅助",
+    "眼镜"
+   ],
+   "description": "用增强现实（AR）眼镜为神经疾病（帕金森、卒中）患者提供居家神经康复训练，2025年3月完成1220万欧元融资。",
+   "desc_cn": "用增强现实（AR）眼镜为神经疾病（帕金森、卒中）患者提供居家神经康复训练，2025年3月完成1220万欧元融资。",
+   "highlights": "1220万欧元融资，AR眼镜居家神经康复",
+   "funding_latest": {
+    "amount": "1220万欧元",
+    "round": "早期",
+    "date": "2025-03",
+    "display": "早期 1220万欧元 (2025-03)"
+   },
+   "funding_total": {
+    "amount": "累计约1220万欧元",
+    "display": "累计约1220万欧元"
+   },
+   "investors": "",
+   "founded": "2019",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Strolll",
+   "website_url": "https://www.strolll.com",
+   "business_model": "B2B2C AR神经康复硬件+软件",
+   "business_model_cn": "B2B2C AR神经康复硬件+软件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "用增强现实（AR）眼镜为神经疾病（帕金森、卒中）患者提供居家神经康复训练，2025年3月完成1220万欧元融资。"
+    ]
+   },
+   "serial": "#1280",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "视觉辅助",
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Strolll】聚焦产业资本/康复/精神健康，1220万欧元融资，AR眼镜居家神经康复，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#1320",
+   "name": "Warren",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "退休储蓄平台",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "比利时职场养老金平台兼财务教练服务，弥补补充养老金体系短板。2026年6月完成1000万欧元融资。",
+   "highlights": "欧洲退休储蓄科技新锐，与Vestwell形成'欧美对照'；对国内养老金融普惠化有借鉴（S2近期融资+S4）。",
+   "funding_latest": {
+    "amount": "1000万欧元",
+    "round": "未披露",
+    "date": "2026-06",
+    "display": "未披露 1000万欧元 (2026-06)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Tech.eu (2026-06-18) Warren raises €10M",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Warren+pension",
+   "website_url": "",
+   "business_model": "Workplace pension platform with financial coaching (Belgium).",
+   "desc_cn": "比利时职场养老金平台兼财务教练服务，弥补补充养老金体系短板。2026年6月完成1000万欧元融资。",
+   "business_model_cn": "职场养老金+财务教练(比利时)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "比利时职场养老金平台兼财务教练服务，弥补补充养老金体系短板。2026年6月完成1000万欧元融资。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Warren】聚焦产业资本/养老金融，欧洲退休储蓄科技新锐，与Vestwell形成'欧美对照'；对国内养老金融普惠化有借鉴（S2近期融资+S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#1330",
+   "name": "AltoIRA",
+   "region": "海外",
+   "category_l1": "金融服务",
+   "category_l2": "养老金融",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "自建 IRA 个人退休账户平台，支持含另类资产的退休储蓄。",
+   "highlights": "成立于2018年",
+   "funding_latest": {
+    "date": "2026",
+    "amount": "7310万美元",
+    "round": "Series B",
+    "display": "Series B $73.1M"
+   },
+   "funding_total": {
+    "amount": "约$1亿",
+    "display": "累计约$1亿"
+   },
+   "investors": "未披露",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "信源治理入库(Tracxn) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.altoira.com",
+   "business_model": "B2C",
+   "desc_cn": "自建 IRA 个人退休账户平台，支持含另类资产的退休储蓄。",
+   "business_model_cn": "B2C 退休账户平台",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#1351",
+   "name": "MatrixCare",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "SaaS",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "面向老年护理/养老社区的 EHR 与运营软件平台；2026-07 Resmed 以 4.9 亿美元出售给 PE，是养老软件赛道头部标的。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "2026-07",
+    "amount": "4.9亿美元",
+    "round": "被收购",
+    "display": "2026-07 被PE以$490M收购(原Resmed)"
+   },
+   "funding_total": {
+    "amount": "被收购",
+    "display": "被收购"
+   },
+   "investors": "PE(买方未披露)",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(MassDevice M&A) 2026-07-16",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.matrixcare.com",
+   "business_model": "B2B SaaS",
+   "desc_cn": "面向老年护理/养老社区的 EHR 与运营软件平台；2026-07 Resmed 以 4.9 亿美元出售给 PE，是养老软件赛道头部标的。",
+   "business_model_cn": "B2B 养老软件",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "被收购",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0561",
+   "name": "Synapticure",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "致力于改善阿尔茨海默病及相关痴呆症、帕金森病患者的治疗机会和护理效果，同时为护理人员提供支持。连接患者与神经科专家，提供远程问诊和护理协调。",
+   "highlights": "同时为护理人员提供支持。连接患者与神经科专家",
+   "funding_latest": {
+    "date": "2024-11",
+    "amount": "2500万美元",
+    "round": "A轮",
+    "display": "A轮 2500万美元 (2024-11)"
+   },
+   "funding_total": "$46.1M (截至2024年)",
+   "investors": [
+    "B Capital",
+    "CommonSpirit Health",
+    "CVS Health Ventures",
+    "RA Capital Management",
+    "Nexus NeuroTech Ventures",
+    "Google Ventures",
+    "Lifeforce Capital"
+   ],
+   "founded": "2019",
+   "value_score": 42,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Synapticure",
+   "website_url": "https://www.synapticure.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "致力于改善阿尔茨海默病及相关痴呆症、帕金森病患者的治疗机会和护理效果，同时为护理人员提供支持。连接患者与神经科专家，提供远程问诊和护理协调。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 13,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Synapticure Secures $25M Series A",
+      "date": "2024-11-19",
+      "source": "MedCityNews",
+      "url": "https://medcitynews.com/2024/11/synapticure-funding-neurodegenerative/"
+     },
+     {
+      "title": "Synapticure获2500万美元A轮(虚拟神经科)",
+      "date": "2025-05-27",
+      "source": "搜狐",
+      "url": "https://www.sohu.com/a/899001024_121207185"
+     }
+    ],
+    "snippets": [
+     "Synapticure 为ALS等神经退行性疾病患者提供虚拟专科护理",
+     "2024年11月完成2500万美元A轮,由 B Capital 领投"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Synapticure】聚焦专业护理/产业资本/认知症，同时为护理人员提供支持。连接患者与神经科专家，B2B+B2C模式，研究价值分42。",
+   "payor_model": "未披露",
+   "signal_strength": 3.05
+  }
+ ]
+}

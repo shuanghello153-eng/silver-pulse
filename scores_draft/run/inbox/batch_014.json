@@ -1,0 +1,670 @@
+{
+ "batch": 14,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0608",
+   "name": "Adonis",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "AI收入周期技术，10000+医疗服务供应商",
+   "highlights": "10000+医疗服务供应商",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "3100万美元",
+    "round": "B轮",
+    "display": "B轮 3100万美元 (2024年6月)"
+   },
+   "funding_total": {
+    "amount": "$95M (累计, Series C $40M 2026)",
+    "display": "$95M (累计)"
+   },
+   "investors": "Quadrille Capital (领投)",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Adonis",
+   "website_url": "https://www.adonis.io",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI收入周期技术，10000+医疗服务供应商",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Adonis】聚焦产业资本/文娱社交，10000+医疗服务供应商，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0611",
+   "name": "Age Bold",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "健身"
+   ],
+   "description": "在线锻炼、预防跌倒",
+   "highlights": "在线锻炼、预防跌倒",
+   "funding_latest": {
+    "date": "2023年9月",
+    "amount": "1700万美元",
+    "round": "A轮",
+    "display": "A轮 1700万美元 (2023年9月)"
+   },
+   "funding_total": {
+    "amount": "$27M",
+    "display": "$27M (Seed $7M + Series A $17M)"
+   },
+   "investors": "Rethink Impact, Samsung NEXT, Andreessen Horowitz 等",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Age%20Bold",
+   "website_url": "https://www.agebold.com",
+   "business_model": "B2C 健康养生服务",
+   "desc_cn": "在线锻炼、预防跌倒",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Age Bold】聚焦产业资本/健康监测/健康管理，在线锻炼、预防跌倒，B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0624",
+   "name": "Arbital Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "行业研究"
+   ],
+   "description": "第三方结果导向合同裁决机构，基于价值的医疗",
+   "highlights": "基于价值的医疗",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "1000万美元",
+    "round": "A轮",
+    "display": "A轮 1000万美元 (2024年1月)"
+   },
+   "funding_total": {
+    "amount": "$31M (Series B)",
+    "display": "$31M Series B"
+   },
+   "investors": "Valtruis (领投), Transformation Capital, Shaper Capital, Healthy Ventures",
+   "founded": "2023",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Arbital%20Health",
+   "website_url": "https://arbitalhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "第三方结果导向合同裁决机构，基于价值的医疗",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Arbital Health Secures $31M Series B to Scale Value-Based Care",
+      "date": "2025-07-29",
+      "source": "Arbital Health",
+      "url": "https://arbitalhealth.com/blog/31m-seriesb-to-scale-infrastructure-for-value-based-care-risk-contracting"
+     },
+     {
+      "title": "Arbital Health获得1000万美元A轮融资",
+      "date": "2024-01-05",
+      "source": "DoNews",
+      "url": "https://www.donews.com/news/detail/8/3918689.html"
+     }
+    ],
+    "snippets": [
+     "Arbital Health为价值医疗（风险合约）提供精算与AI基础设施，2025年7月完成3100万美元B轮。",
+     "2024年1月完成1000万美元A轮，累计多轮融资，服务医保支付方与供应商。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "行业研究"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Arbital Health】聚焦产业资本/健康管理/行业媒体，基于价值的医疗，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0632",
+   "name": "b.well Connected Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老软件",
+    "远程医疗"
+   ],
+   "description": "b.well Connected Health 是一个美国消费者健康超级应用，整合电子病历、保险、预约与远程问诊，帮助家庭（含老年用户）统一管理健康数据与医疗服务。",
+   "highlights": "帮助付款人和提供商整合工具和供应商",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "4000万美元",
+    "round": "C轮",
+    "display": "C轮 4000万美元 (2024年2月)"
+   },
+   "funding_total": "$116M (截至2025年)",
+   "investors": [
+    "Leavitt Equity Partners",
+    "ThedaCare",
+    "Startupbootcamp",
+    "Trinity Capital",
+    "RTI International",
+    "Samsung (Hon Pak, Board)"
+   ],
+   "founded": "2015",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=b.well%20Connected%20Health",
+   "website_url": "https://www.icanbwell.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "b.well Connected Health 是一个美国消费者健康超级应用，整合电子病历、保险、预约与远程问诊，帮助家庭（含老年用户）统一管理健康数据与医疗服务。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Google teams up with b.well Connected Health",
+      "date": "2025-10-21",
+      "source": "MobiHealthNews",
+      "url": "https://www.finance.mobihealthnews.com/news/google-teams-bwell-connected-health"
+     },
+     {
+      "title": "b.well 融资4000万美元C轮扩展健康平台",
+      "date": "2024-02-28",
+      "source": "VBData",
+      "url": "https://www.vbdata.cn/newsDetail/2f3f80aad4b011ee8eec00163e034e34"
+     }
+    ],
+    "snippets": [
+     "b.well为互操作性数字健康平台，2024年2月完成4000万美元C轮（Leavitt领投）；2025年获RTI追加投资。",
+     "2025年10月与Google合作数据互通；2026年1月成为ChatGPT Health底层数据连接层，利好老年慢病管理。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老软件",
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【b.well Connected Health】聚焦产业资本/行业媒体，帮助付款人和提供商整合工具和供应商，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0633",
+   "name": "because",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "尿失禁"
+   ],
+   "description": "膀胱渗漏商品品牌",
+   "highlights": "膀胱渗漏商品品牌",
+   "funding_latest": {
+    "date": "2017年",
+    "amount": "3000万美元",
+    "round": "B轮",
+    "display": "B轮 3000万美元 (2017年)"
+   },
+   "funding_total": {
+    "amount": "约$65M",
+    "display": "约$65M"
+   },
+   "investors": "Index Ventures, Khosla Ventures, Comcast Ventures 等 (9位投资人)",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=because",
+   "website_url": "https://www.because.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "膀胱渗漏商品品牌",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【because】聚焦产业资本/行业媒体，膀胱渗漏商品品牌，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0638",
+   "name": "Bioniq",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "个性化营养"
+   ],
+   "description": "AI驱动的个性化补充剂，最多53种成分混合",
+   "highlights": "最多53种成分混合",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "1500万美元",
+    "round": "B轮",
+    "display": "B轮 1500万美元 (2024年7月)"
+   },
+   "funding_total": {
+    "amount": "$15M+ (Series B)",
+    "display": "$15M+ Series B"
+   },
+   "investors": "HV Capital, Unbound 等",
+   "founded": "2019",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Bioniq",
+   "website_url": "https://www.bioniq.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI驱动的个性化补充剂，最多53种成分混合",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Bioniq raises $15M Series B funding round",
+      "date": "2026-06-25",
+      "source": "My Startup World",
+      "url": "https://mystartupworld.com/bioniq-raises-15m-series-b-funding-round/"
+     },
+     {
+      "title": "康宝莱计划收购Bioniq，拓展个性化营养补充剂能力",
+      "date": "2026-03-26",
+      "source": "搜狐",
+      "url": "https://www.sohu.com/a/1002812608_122397609"
+     }
+    ],
+    "snippets": [
+     "Bioniq为基于血液生物标志物的个性化营养补充剂公司，2026年6月完成1500万美元B轮；康宝莱2026年3月拟以最高1.5亿美元收购其部分资产。",
+     "属健康/营养赛道，与老年营养保健相关但非专属养老。"
+    ]
+   },
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Bioniq】聚焦产业资本/文娱社交，最多53种成分混合，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0639",
+   "name": "Birdie",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Birdie 是英国居家照护管理SaaS平台，为护理机构提供排班、监测与合规工具，并通过传感器与家属端App实现远程关怀。",
+   "highlights": "提高护理业务效率",
+   "funding_latest": {
+    "date": "2022年7月",
+    "amount": "3000万美元",
+    "round": "B轮",
+    "display": "B轮 3000万美元 (2022年7月)"
+   },
+   "funding_total": {
+    "amount": "$62.4M",
+    "display": "累计$62.4M (截至2022年7月)"
+   },
+   "investors": "Sofina, OMERS Ventures, Index Ventures, Illuminate Ventures",
+   "founded": "2017",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Birdie",
+   "website_url": "https://www.birdie.care",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Birdie 是英国居家照护管理SaaS平台，为护理机构提供排班、监测与合规工具，并通过传感器与家属端App实现远程关怀。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Birdie】聚焦产业资本/保健品，提高护理业务效率，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0644",
+   "name": "BrainCheck",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "数字认知大脑健康评估工具，游戏化认知评估",
+   "highlights": "数字认知评估与护理规划平台，FDA注册II类医疗器械，总部Houston",
+   "funding_latest": {
+    "date": "2024-02",
+    "amount": "$13M",
+    "round": "Series A延展",
+    "display": "Series A延展 $13M (2024-02)"
+   },
+   "funding_total": {
+    "amount": "$49.8M",
+    "display": "累计$49.8M"
+   },
+   "investors": "S3 Ventures, Tensility Venture Partners, True Wealth Ventures, ARK Ground Ventures",
+   "founded": "2015",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BrainCheck",
+   "website_url": "https://braincheck.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "数字认知大脑健康评估工具，游戏化认知评估",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【BrainCheck】聚焦产业资本/健康管理/行业媒体，数字认知评估与护理规划平台，FDA注册II类医疗器械，总部Houston，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0646",
+   "name": "Brightside Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康",
+    "远程医疗"
+   ],
+   "description": "Brightside Health 是美国在线精神心理健康平台，通过视频问诊与消息提供焦虑、抑郁的药物与心理治疗，并接受Medicare/Medicaid等保险。",
+   "highlights": "为焦虑和抑郁提供在线治疗",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "3300万美元",
+    "round": "C轮",
+    "display": "C轮 3300万美元 (2024年3月)"
+   },
+   "funding_total": "$114M (截至2024年3月)",
+   "investors": [
+    "ACME Capital",
+    "Kleiner Perkins",
+    "Maveron",
+    "LUX Capital",
+    "7wire Ventures",
+    "OMERS Ventures",
+    "Town Hall Ventures",
+    "McCarthy Capital",
+    "Triventures",
+    "Bullpen Capital",
+    "RRE Ventures",
+    "Craft Ventures",
+    "Social Capital",
+    "Michael Pellini",
+    "Kennedy Lewis Investment Management"
+   ],
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Brightside%20Health",
+   "website_url": "https://www.brightside.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Brightside Health 是美国在线精神心理健康平台，通过视频问诊与消息提供焦虑、抑郁的药物与心理治疗，并接受Medicare/Medicaid等保险。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Brightside Health secures $33 million in Series C funding",
+      "date": "2024-03-28",
+      "source": "MobiHealthNews",
+      "url": "http://www.hrbwww.mobihealthnews.com/news/brightside-health-secures-33-million-series-c-funding"
+     },
+     {
+      "title": "心理咨询服务提供商Brightside Health完成3300万美元C轮融资",
+      "date": "2024-03-27",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/intelDetail/138735"
+     }
+    ],
+    "snippets": [
+     "Brightside Health为远程精神健康平台（精准精神科+危机照护），2024年3月完成3300万美元C轮（S32领投）。",
+     "合作后可为额外5000万Medicare/Medicaid受益者服务，覆盖老年抑郁/焦虑人群。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康",
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Brightside Health】聚焦产业资本/行业媒体，为焦虑和抑郁提供在线治疗，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0650",
+   "name": "CardioSignal",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "数字心脏生物标志物检测心脏病",
+   "highlights": "数字心脏生物标志物检测心脏病",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "1000万美元",
+    "round": "A轮",
+    "display": "A轮 1000万美元 (2024年1月)"
+   },
+   "funding_total": {
+    "amount": "$23M",
+    "display": "$23M"
+   },
+   "investors": "DigiTx Partners (领投) 等 (6位投资人)",
+   "founded": "2017",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CardioSignal",
+   "website_url": "https://www.cardiosignal.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "数字心脏生物标志物检测心脏病",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【CardioSignal】聚焦产业资本/行业媒体，数字心脏生物标志物检测心脏病，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0656",
+   "name": "Carefull",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "AI帮助银行和理财顾问保护老年客户免受金融诈骗",
+   "highlights": "AI帮助银行和理财顾问保护老年客户免受金融诈骗",
+   "funding_latest": {
+    "date": "2023年10月",
+    "amount": "1650万美元",
+    "round": "A轮",
+    "display": "A轮 1650万美元 (2023年10月)"
+   },
+   "funding_total": {
+    "amount": "$19.7M (累计)",
+    "display": "$19.7M (累计)"
+   },
+   "investors": "",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Carefull",
+   "website_url": "https://getcarefull.com",
+   "business_model": "B2B 咨询服务",
+   "desc_cn": "AI帮助银行和理财顾问保护老年客户免受金融诈骗",
+   "business_model_cn": "B2B 咨询服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Carefull】聚焦产业资本/养老金融/文娱社交，AI帮助银行和理财顾问保护老年客户免受金融诈骗，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#0666",
+   "name": "Citizen Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "Citizen Health 是一家美国 AI 消费者健康平台，聚焦罕见及复杂疾病患者，整合临床、基因、影像与患者可报告结果等纵向健康数据，借助 AI'健康倡导者'帮助患者解读病历、跟踪症状、对接下一步诊疗，并连接病友社区（已建 60+ 社区、覆盖 123 种疾病）。2025 年完成 3,000 万美元 A 轮（8VC 领投），累计融资约 4,400 万美元，数据已被 FDA 接受用于监管申报。",
+   "highlights": "构建全面知识库",
+   "funding_latest": {
+    "date": "2024年11月",
+    "amount": "1450万美元",
+    "round": "种子轮",
+    "display": "种子轮 1450万美元 (2024年11月)"
+   },
+   "funding_total": {
+    "amount": "$30M (Series A)",
+    "display": "$30M Series A"
+   },
+   "investors": "8VC (领投)",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Citizen%20Health",
+   "website_url": "https://www.citizenhealth.io",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Citizen Health 是一家美国 AI 消费者健康平台，聚焦罕见及复杂疾病患者，整合临床、基因、影像与患者可报告结果等纵向健康数据，借助 AI'健康倡导者'帮助患者解读病历、跟踪症状、对接下一步诊疗，并连接病友社区（已建 60+ 社区、覆盖 123 种疾病）。2025 年完成 3,000 万美元 A 轮（8VC 领投），累计融资约 4,400 万美元，数据已被 FDA 接受用于监管申报。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Citizen Health】聚焦产业资本/文娱社交，构建全面知识库，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  }
+ ]
+}

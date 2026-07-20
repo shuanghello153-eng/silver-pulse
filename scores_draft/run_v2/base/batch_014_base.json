@@ -1,0 +1,690 @@
+[
+ {
+  "serial": "#0608",
+  "name": "Adonis",
+  "name_cn": "Adonis",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2024年6月",
+   "amount": "3100万美元",
+   "round": "B轮",
+   "display": "B轮 3100万美元 (2024年6月)"
+  },
+  "funding_total": {
+   "amount": "$95M (累计, Series C $40M 2026)",
+   "display": "$95M (累计)"
+  },
+  "investors": "Quadrille Capital (领投)",
+  "payor_model": "B端机构采购",
+  "desc_cn": "医疗收入周期管理AI SaaS，服务万家机构",
+  "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入社交平台赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老信息平台"
+  ],
+  "highlights": [
+   "AI驱动医疗收入周期管理，覆盖账单与赔付结算",
+   "服务10000+医疗服务供应商",
+   "累计融资约9500万美元，已至C轮"
+  ],
+  "events": [
+   {
+    "date": "2024-06",
+    "text": "完成3100万美元B轮融资"
+   },
+   {
+    "date": "2026",
+    "text": "完成4000万美元C轮融资（累计约9500万美元）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 5.0,
+  "copy_score": 4.0,
+  "research_value": 43.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "医疗后台RCM基础设施，客户为医疗机构而非老年人本身",
+  "website_url": "https://www.adonis.io",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0611",
+  "name": "Age Bold",
+  "name_cn": "Age Bold",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2023年9月",
+   "amount": "1700万美元",
+   "round": "A轮",
+   "display": "A轮 1700万美元 (2023年9月)"
+  },
+  "funding_total": {
+   "amount": "$27M",
+   "display": "$27M (Seed $7M + Series A $17M)"
+  },
+  "investors": "Rethink Impact, Samsung NEXT, Andreessen Horowitz 等",
+  "payor_model": "个人自费",
+  "desc_cn": "面向老年人的在线锻炼与防跌倒训练平台",
+  "recommend": "信号偏弱、信息量一般，其「B2C 健康养生服务」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入健康养生赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "健身"
+  ],
+  "highlights": [
+   "在线锻炼课程专为老年人设计，聚焦防跌倒",
+   "累计融资约2700万美元（含1700万A轮）",
+   "投资方含a16z、三星NEXT等头部机构"
+  ],
+  "events": [
+   {
+    "date": "2023-09",
+    "text": "完成1700万美元A轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 48.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专注老年在线锻炼与防跌倒，直接服务银发人群",
+  "website_url": "https://www.agebold.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0624",
+  "name": "Arbital Health",
+  "name_cn": "Arbital Health",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2023,
+  "funding_latest": {
+   "date": "2024年1月",
+   "amount": "1000万美元",
+   "round": "A轮",
+   "display": "A轮 1000万美元 (2024年1月)"
+  },
+  "funding_total": {
+   "amount": "$31M (Series B)",
+   "display": "$31M Series B"
+  },
+  "investors": "Valtruis (领投), Transformation Capital, Shaper Capital, Healthy Ventures",
+  "payor_model": "B端机构采购",
+  "desc_cn": "价值医疗风险合约的精算与AI裁决基础设施",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」打法差异化突出；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "数据分析服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "行业研究"
+  ],
+  "highlights": [
+   "为价值医疗风险合约提供AI精算与裁决",
+   "2025年完成3100万美元B轮，领投Valtruis",
+   "服务医保支付方与供应商，降低赔付争议"
+  ],
+  "events": [
+   {
+    "date": "2024-01",
+    "text": "完成1000万美元A轮融资"
+   },
+   {
+    "date": "2025-07",
+    "text": "完成3100万美元B轮融资（领投Valtruis）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 3.0,
+  "research_value": 45.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "价值医疗合约裁决基础设施，服务于医保支付体系而非老年人",
+  "website_url": "https://arbitalhealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0632",
+  "name": "b.well Connected Health",
+  "name_cn": "b.well Connected Health",
+  "region": "海外",
+  "stage": "C轮",
+  "founded": 2015,
+  "funding_latest": {
+   "date": "2024年2月",
+   "amount": "4000万美元",
+   "round": "C轮",
+   "display": "C轮 4000万美元 (2024年2月)"
+  },
+  "funding_total": "$116M (截至2025年)",
+  "investors": [
+   "Leavitt Equity Partners",
+   "ThedaCare",
+   "Startupbootcamp",
+   "Trinity Capital",
+   "RTI International",
+   "Samsung (Hon Pak, Board)"
+  ],
+  "payor_model": "B端机构采购",
+  "desc_cn": "整合病历/保险/问诊的家庭健康超级应用",
+  "recommend": "信号偏弱、信息透明度高，其「B2B/B2C 银发行业服务」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "平台",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务",
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老软件",
+   "远程医疗"
+  ],
+  "highlights": [
+   "互操作性健康平台，整合EHR/保险/远程问诊",
+   "2025年10月与Google合作数据互通",
+   "2026年1月接入ChatGPT Health数据层，利好老年慢病管理",
+   "累计融资约1.16亿美元"
+  ],
+  "events": [
+   {
+    "date": "2024-02",
+    "text": "完成4000万美元C轮融资（Leavitt领投）"
+   },
+   {
+    "date": "2025-10",
+    "text": "与Google达成数据互通合作"
+   },
+   {
+    "date": "2026-01",
+    "text": "成为ChatGPT Health底层数据连接层"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 57.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "家庭健康超级应用明确服务含老年人在内的家庭慢病管理",
+  "website_url": "https://www.icanbwell.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0633",
+  "name": "because",
+  "name_cn": "because",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": 2020,
+  "funding_latest": {
+   "date": "2017年",
+   "amount": "3000万美元",
+   "round": "B轮",
+   "display": "B轮 3000万美元 (2017年)"
+  },
+  "funding_total": {
+   "amount": "约$65M",
+   "display": "约$65M"
+  },
+  "investors": "Index Ventures, Khosla Ventures, Comcast Ventures 等 (9位投资人)",
+  "payor_model": "个人自费",
+  "desc_cn": "面向成人的尿失禁护理消费品品牌",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "尿失禁"
+  ],
+  "highlights": [
+   "专注膀胱渗漏/成人失禁的DTC消费品品牌",
+   "累计融资约6500万美元，9位投资方",
+   "投资方含Index Ventures、Khosla Ventures"
+  ],
+  "events": [
+   {
+    "date": "2017",
+    "text": "完成3000万美元B轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 5.0,
+  "copy_score": 6.0,
+  "research_value": 44.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "成人失禁护理用品核心消费群为老年人，属银发刚需个护",
+  "website_url": "https://www.because.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0638",
+  "name": "Bioniq",
+  "name_cn": "Bioniq",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": 2019,
+  "funding_latest": {
+   "date": "2024年7月",
+   "amount": "1500万美元",
+   "round": "B轮",
+   "display": "B轮 1500万美元 (2024年7月)"
+  },
+  "funding_total": {
+   "amount": "$15M+ (Series B)",
+   "display": "$15M+ Series B"
+  },
+  "investors": "HV Capital, Unbound 等",
+  "payor_model": "个人自费",
+  "desc_cn": "基于血液指标的AI个性化营养补充剂",
+  "recommend": "信号偏弱、信息量一般，其「B2B AI/数据驱动」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入社交平台赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "个性化营养"
+  ],
+  "highlights": [
+   "基于血液生物标志物的个性化补充剂配方",
+   "2026年康宝莱拟最高1.5亿美元收购部分资产",
+   "单配方最多混合53种成分"
+  ],
+  "events": [
+   {
+    "date": "2024-07",
+    "text": "完成1500万美元B轮融资"
+   },
+   {
+    "date": "2026-03",
+    "text": "康宝莱拟以最高1.5亿美元收购部分资产"
+   },
+   {
+    "date": "2026-06",
+    "text": "再获1500万美元B轮融资报道"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 51.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "个性化营养与老年保健相关但非专属养老，属泛医疗健康",
+  "website_url": "https://www.bioniq.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0639",
+  "name": "Birdie",
+  "name_cn": "Birdie",
+  "region": "海外",
+  "stage": "B轮",
+  "founded": 2017,
+  "funding_latest": {
+   "date": "2022年7月",
+   "amount": "3000万美元",
+   "round": "B轮",
+   "display": "B轮 3000万美元 (2022年7月)"
+  },
+  "funding_total": {
+   "amount": "$62.4M",
+   "display": "累计$62.4M (截至2022年7月)"
+  },
+  "investors": "Sofina, OMERS Ventures, Index Ventures, Illuminate Ventures",
+  "payor_model": "B端机构采购",
+  "desc_cn": "英国家庭照护管理SaaS，含传感器与家属端",
+  "recommend": "信号偏弱、信息量一般，其「B2C 老年健康食品/保健品」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入保健品&OTC赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老软件"
+  ],
+  "highlights": [
+   "为护理机构提供排班/监测/合规模具",
+   "传感器+家属App实现远程关怀",
+   "累计融资约6240万美元"
+  ],
+  "events": [
+   {
+    "date": "2022-07",
+    "text": "完成3000万美元B轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 53.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "英国家居照护管理SaaS，直接服务居家养老场景",
+  "website_url": "https://www.birdie.care",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0644",
+  "name": "BrainCheck",
+  "name_cn": "BrainCheck",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2015,
+  "funding_latest": {
+   "date": "2024-02",
+   "amount": "$13M",
+   "round": "Series A延展",
+   "display": "Series A延展 $13M (2024-02)"
+  },
+  "funding_total": {
+   "amount": "$49.8M",
+   "display": "累计$49.8M"
+  },
+  "investors": "S3 Ventures, Tensility Venture Partners, True Wealth Ventures, ARK Ground Ventures",
+  "payor_model": "B端机构采购",
+  "desc_cn": "游戏化数字认知评估与护理规划工具",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "认知训练",
+   "认知筛查"
+  ],
+  "highlights": [
+   "FDA注册II类医疗器械数字认知评估",
+   "游戏化认知筛查与护理规划",
+   "累计融资约4980万美元"
+  ],
+  "events": [
+   {
+    "date": "2024-02",
+    "text": "完成1300万美元A轮延展融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 51.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "数字认知筛查直接服务老年痴呆早筛与照护规划",
+  "website_url": "https://braincheck.com/",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0646",
+  "name": "Brightside Health",
+  "name_cn": "Brightside Health",
+  "region": "海外",
+  "stage": "C轮",
+  "founded": 2017,
+  "funding_latest": {
+   "date": "2024年3月",
+   "amount": "3300万美元",
+   "round": "C轮",
+   "display": "C轮 3300万美元 (2024年3月)"
+  },
+  "funding_total": "$114M (截至2024年3月)",
+  "investors": [
+   "ACME Capital",
+   "Kleiner Perkins",
+   "Maveron",
+   "LUX Capital",
+   "7wire Ventures",
+   "OMERS Ventures",
+   "Town Hall Ventures",
+   "McCarthy Capital",
+   "Triventures",
+   "Bullpen Capital",
+   "RRE Ventures",
+   "Craft Ventures",
+   "Social Capital",
+   "Michael Pellini",
+   "Kennedy Lewis Investment Management"
+  ],
+  "payor_model": "医保支付+个人自费",
+  "desc_cn": "线上精神心理健康平台，承接医保覆盖老年人群",
+  "recommend": "信号偏弱、信息透明度高，其「B2B/B2C 银发行业服务」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "心理健康",
+   "远程医疗"
+  ],
+  "highlights": [
+   "精准精神科+危机照护的远程心理平台",
+   "承接Medicare/Medicaid，覆盖老年抑郁焦虑人群",
+   "累计融资约1.14亿美元"
+  ],
+  "events": [
+   {
+    "date": "2024-03",
+    "text": "完成3300万美元C轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 57.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "线上心理平台承接Medicare，明确覆盖老年抑郁焦虑人群",
+  "website_url": "https://www.brightside.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0650",
+  "name": "CardioSignal",
+  "name_cn": "CardioSignal",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2017,
+  "funding_latest": {
+   "date": "2024年1月",
+   "amount": "1000万美元",
+   "round": "A轮",
+   "display": "A轮 1000万美元 (2024年1月)"
+  },
+  "funding_total": {
+   "amount": "$23M",
+   "display": "$23M"
+  },
+  "investors": "DigiTx Partners (领投) 等 (6位投资人)",
+  "payor_model": "B端机构采购",
+  "desc_cn": "手机端数字心脏生物标志物检测技术",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "体检筛查"
+  ],
+  "highlights": [
+   "以手机传感器做数字心脏生物标志物检测",
+   "累计融资约2300万美元"
+  ],
+  "events": [
+   {
+    "date": "2024-01",
+    "text": "完成1000万美元A轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 6.0,
+  "copy_score": 4.0,
+  "research_value": 42.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "心脏筛查技术属泛医疗，非老龄人群专属",
+  "website_url": "https://www.cardiosignal.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0656",
+  "name": "Carefull",
+  "name_cn": "Carefull",
+  "region": "海外",
+  "stage": "A轮",
+  "founded": 2019,
+  "funding_latest": {
+   "date": "2023年10月",
+   "amount": "1650万美元",
+   "round": "A轮",
+   "display": "A轮 1650万美元 (2023年10月)"
+  },
+  "funding_total": {
+   "amount": "$19.7M (累计)",
+   "display": "$19.7M (累计)"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购",
+  "desc_cn": "用AI帮银行守护老年客户防金融诈骗",
+  "recommend": "信号偏弱、信息量一般，其「B2B 咨询服务」打法差异化突出；且轻模式易复制，国内创业者可直接借鉴落地（切入社交平台赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "highlights": [
+   "为银行/理财顾问提供老年防诈监测",
+   "AI识别异常交易与身份盗用",
+   "累计融资约1970万美元"
+  ],
+  "events": [
+   {
+    "date": "2023-10",
+    "text": "完成1650万美元A轮融资"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 5.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 50.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "直接以AI守护老年客户财产，属银发金融安全场景",
+  "website_url": "https://getcarefull.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0666",
+  "name": "Citizen Health",
+  "name_cn": "Citizen Health",
+  "region": "海外",
+  "stage": "种子期",
+  "founded": 2021,
+  "funding_latest": {
+   "date": "2024年11月",
+   "amount": "1450万美元",
+   "round": "种子轮",
+   "display": "种子轮 1450万美元 (2024年11月)"
+  },
+  "funding_total": {
+   "amount": "$30M (Series A)",
+   "display": "$30M Series A"
+  },
+  "investors": "8VC (领投)",
+  "payor_model": "B端机构采购+个人免费",
+  "desc_cn": "整合多源健康数据的AI患者倡导平台",
+  "recommend": "信号偏弱、信息量一般，其「B2C/B2B 银发社交与文娱平台」打法差异化突出；复制需结合本地资源，部分环节可借鉴（切入社交平台赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "highlights": [
+   "整合临床/基因/影像的纵向健康数据",
+   "AI'健康倡导者'帮助患者解读病历对接诊疗",
+   "已建60+病友社区，覆盖123种疾病",
+   "数据获FDA接受用于监管申报"
+  ],
+  "events": [
+   {
+    "date": "2024-11",
+    "text": "完成1450万美元种子轮融资"
+   },
+   {
+    "date": "2025",
+    "text": "完成3000万美元A轮融资（8VC领投）"
+   }
+  ],
+  "signal_strength": 2.55,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 49.6,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "聚焦罕见/复杂疾病患者的健康平台，非银发专属",
+  "website_url": "https://www.citizenhealth.io",
+  "business_tags_role": null
+ }
+]

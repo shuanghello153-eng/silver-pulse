@@ -1,0 +1,615 @@
+{
+ "batch": 110,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1345",
+   "name": "Swissvoice",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "适老硬件",
+   "tags": [
+    "助听器"
+   ],
+   "description": "老年人易用通信终端/电话设备（瑞士）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Silvereco) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.swissvoice.net",
+   "business_model": "B2B设备",
+   "desc_cn": "老年人易用通信终端/电话设备（瑞士）。",
+   "business_model_cn": "B2B 适老通信",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成熟",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1346",
+   "name": "Livana Connect",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "远程监护",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "老年人连接与远程关怀技术方案（法国）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Silvereco) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2B SaaS",
+   "desc_cn": "老年人连接与远程关怀技术方案（法国）。",
+   "business_model_cn": "B2B 远程关怀",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1347",
+   "name": "Caspar.AI",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "智能家居",
+   "tags": [
+    "智能家居"
+   ],
+   "description": "养老社区智能家居照护平台。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "种子",
+    "round": "种子",
+    "display": "种子轮"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(thirdact.vc) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.caspar.ai",
+   "business_model": "B2B SaaS",
+   "desc_cn": "养老社区智能家居照护平台。",
+   "business_model_cn": "B2B 智能家居",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能家居"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "种子",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1348",
+   "name": "Third Eye Health",
+   "region": "海外",
+   "category_l1": "医疗服务",
+   "category_l2": "远程医疗",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "为养老社区提供一键式远程急诊。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "种子",
+    "round": "种子",
+    "display": "种子轮"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(thirdact.vc) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.thirdeyehealth.com",
+   "business_model": "B2B平台",
+   "desc_cn": "为养老社区提供一键式远程急诊。",
+   "business_model_cn": "B2B 远程急诊",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "种子",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1349",
+   "name": "Ome",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "适老硬件",
+   "tags": [
+    "智能家居"
+   ],
+   "description": "防厨房火灾、助力居家养老的厨房安全产品。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "种子",
+    "round": "种子",
+    "display": "种子轮"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(thirdact.vc) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C硬件",
+   "desc_cn": "防厨房火灾、助力居家养老的厨房安全产品。",
+   "business_model_cn": "B2C 厨房安全",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能家居"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "种子",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1350",
+   "name": "Saber Healthcare",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老运营",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "美国 SNF 养老护理运营商，2026-07 从 Ciena 收购横跨 3 州 27 家养老院，为其史上最大交易之一，持续并购扩张。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "私有未披露",
+    "round": "私有",
+    "display": "私有未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "—",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Skilled Nursing News Finance) 2026-07-16",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.saberhealth.com",
+   "business_model": "私有运营商",
+   "desc_cn": "美国 SNF 养老护理运营商，2026-07 从 Ciena 收购横跨 3 州 27 家养老院，为其史上最大交易之一，持续并购扩张。",
+   "business_model_cn": "私有养老护理运营商",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成熟期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1353",
+   "name": "红松 Hongsong",
+   "region": "国内",
+   "category_l1": "文娱社交",
+   "category_l2": "兴趣社群",
+   "tags": [
+    "兴趣社群"
+   ],
+   "description": "国内退休人群文娱直播课社区头部，提供兴趣课程+社交直播，模式反常识标杆；已完成A+轮。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "数千万人民币",
+    "round": "A+轮",
+    "display": "A+轮 数千万人民币 (贝塔斯曼亚洲/创世伙伴/蓝驰)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "贝塔斯曼亚洲/创世伙伴/蓝驰",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(W2文娱) 2026-07-16",
+   "crunchbase_url": "",
+   "website_url": "https://hongsong.tuixiu.com",
+   "business_model": "B2C社区",
+   "desc_cn": "国内退休人群文娱直播课社区头部，提供兴趣课程+社交直播，模式反常识标杆；已完成A+轮。",
+   "business_model_cn": "B2C银发文娱社区",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群"
+   ],
+   "business_tags": [],
+   "stage": "成长期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1354",
+   "name": "携程老友会",
+   "region": "国内",
+   "category_l1": "文娱社交",
+   "category_l2": "旅游",
+   "tags": [
+    "旅游"
+   ],
+   "description": "国内银发旅游头部品牌（携程旗下），“老有意思旅行团”六大主题游；450万+会员、7000+线路，携程增长最快业务模块之一。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露(携程旗下)",
+    "round": "未披露",
+    "display": "未披露(携程旗下)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "携程",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(W2文娱) 2026-07-16",
+   "crunchbase_url": "",
+   "website_url": "https://www.ctrip.com",
+   "business_model": "B2C平台",
+   "desc_cn": "国内银发旅游头部品牌（携程旗下），“老有意思旅行团”六大主题游；450万+会员、7000+线路，携程增长最快业务模块之一。",
+   "business_model_cn": "B2C银发旅游",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": [],
+   "stage": "成长期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1355",
+   "name": "Silversurfers",
+   "region": "海外",
+   "category_l1": "文娱社交",
+   "category_l2": "社区",
+   "tags": [
+    "社区"
+   ],
+   "description": "英国最大50+在线社区，30万+注册、社媒100万+关注，UGC活力老人内容（论坛/展示/交友）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(W2文娱) 2026-07-16",
+   "crunchbase_url": "",
+   "website_url": "https://www.silversurfers.com",
+   "business_model": "UGC社区",
+   "desc_cn": "英国最大50+在线社区，30万+注册、社媒100万+关注，UGC活力老人内容（论坛/展示/交友）。",
+   "business_model_cn": "UGC活力老人社区",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "社区"
+   ],
+   "business_tags": [],
+   "stage": "成熟",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1357",
+   "name": "浙江三网科技股份有限公司",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "适老化",
+   "tags": [
+    "养老信息平台",
+    "适老化"
+   ],
+   "description": "深耕杭州332个未来社区数字化运营管理，聚焦社区综合便民服务驿站新赛道\n【提供资源】场地、软硬件AI系统、适老化产品、活动运营\n【需求资源】公益活动、银发经济产品、异业联盟合作",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "飞书·养老行业供需对接表(2025)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "深耕杭州332个未来社区数字化运营管理，聚焦社区综合便民服务驿站新赛道\n【提供资源】场地、软硬件AI系统、适老化产品、活动运营\n【需求资源】公益活动、银发经济产品、异业联盟合作",
+   "business_model_cn": "",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老信息平台",
+    "适老化"
+   ],
+   "business_tags": [],
+   "stage": "未披露",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1358",
+   "name": "云中漫步（上海）机器人科技有限公司",
+   "region": "国内",
+   "category_l1": "康复辅具",
+   "category_l2": "机器人",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "社区养老 滴滴模式\n【提供资源】有平台\n【需求资源】需要社区机构  养老机构  政府采购",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "飞书·养老行业供需对接表(2025)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "社区养老 滴滴模式\n【提供资源】有平台\n【需求资源】需要社区机构  养老机构  政府采购",
+   "business_model_cn": "",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": [],
+   "stage": "未披露",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1359",
+   "name": "深圳艺心灵文化传媒有限公司",
+   "region": "国内",
+   "category_l1": "文娱社交",
+   "category_l2": "文娱",
+   "tags": [
+    "行业媒体"
+   ],
+   "description": "自媒体\n【提供资源】流量\n【需求资源】想转行银发赛道",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "飞书·养老行业供需对接表(2025)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "自媒体\n【提供资源】流量\n【需求资源】想转行银发赛道",
+   "business_model_cn": "",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "行业媒体"
+   ],
+   "business_tags": [],
+   "stage": "未披露",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 0.55
+  }
+ ]
+}

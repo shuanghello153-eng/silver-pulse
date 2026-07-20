@@ -1,0 +1,490 @@
+{
+ "batch": 90,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1043",
+   "name": "Percipio Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程监测",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "Percipio Health turns ordinary smartphones into remote patient-monitoring tools, using the camera and AI to measure vital signs and adherence, then feeding insights to home-health and payer care teams.",
+   "highlights": "手机即监测终端，低门槛",
+   "funding_latest": "Series A $16M (2025)",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Percipio Health $16M 2025",
+   "crunchbase_url": "",
+   "website_url": "https://percipiohealth.com",
+   "business_model": "",
+   "desc_cn": "Percipio Health 将智能手机变为远程监测工具，借摄像头与 AI 测体征、查依从，并将洞察回传居家照护与支付方团队。",
+   "business_model_cn": "B2B监测订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Percipio Health】聚焦AI科技/健康管理/数字化，手机即监测终端，低门槛。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1044",
+   "name": "The Helper Bees",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "居家护理对接",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "The Helper Bees operates a home-care marketplace and care-concierge service integrated with Medicare Advantage and insurance plans, matching members to vetted caregivers and managing benefits-funded in-home support.",
+   "highlights": "保险+居家护理连接，国内长护险可借鉴",
+   "funding_latest": "Series C $35M",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "The Helper Bees $35M Series C",
+   "crunchbase_url": "",
+   "website_url": "https://www.thehelperbees.com",
+   "business_model": "",
+   "desc_cn": "The Helper Bees 运营与医疗保险优势计划对接的居家照护市场与顾问服务，为会员匹配经审核的护理人员并管理福利内上门支持。",
+   "business_model_cn": "B2B佣金+服务费",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【The Helper Bees】聚焦养老金融/居家护理，保险+居家护理连接，国内长护险可借鉴。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1045",
+   "name": "Haelo",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "穿戴戒指",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "持续监测戒指，实时检测跌倒与健康异常",
+   "highlights": "戒指形态可穿戴，适老佩戴友好",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Haelo AgeTech Collaborative 2026",
+   "crunchbase_url": "",
+   "website_url": "https://www.haelo.com",
+   "business_model": "",
+   "desc_cn": "持续监测戒指，实时检测跌倒与健康异常",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Haelo】聚焦健康监测，戒指形态可穿戴，适老佩戴友好。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1046",
+   "name": "Uniper Care",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "虚拟老年中心",
+   "tags": [
+    "兴趣社群",
+    "陪伴服务"
+   ],
+   "description": "Uniper Care delivers a TV- and tablet-based social channel that connects older adults to live group classes, community events, and one-to-one video visits, combating isolation for seniors and their families.",
+   "highlights": "虚拟老年中心，对抗孤立",
+   "funding_latest": "",
+   "funding_total": "累计约$18.6M",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Uniper Care $18.6M total",
+   "crunchbase_url": "",
+   "website_url": "https://www.unipercare.com",
+   "business_model": "",
+   "desc_cn": "Uniper Care 以电视与平板为终端搭建社交渠道，让老人参与直播课程、社区活动与一对一视频探访，缓解孤独。",
+   "business_model_cn": "B2B/B2C订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Uniper Care】聚焦数字化，虚拟老年中心，对抗孤立。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1047",
+   "name": "Axena Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "女性盆底",
+   "tags": [
+    "尿失禁"
+   ],
+   "description": "医生处方、非侵入式女性盆底健康系统，带入家庭",
+   "highlights": "老年女性健康细分，国内空白",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://axenahealth.com",
+   "business_model": "",
+   "desc_cn": "医生处方、非侵入式女性盆底健康系统，带入家庭",
+   "business_model_cn": "B2B/B2C 女性健康医疗/服务",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Axena Health】聚焦女性健康，老年女性健康细分，国内空白。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1048",
+   "name": "Neursantys",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "平衡恢复",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "Neursantys develops a non-invasive bioelectronic wearable that measures and trains the vestibular system to improve balance and reduce fall risk in older adults with dizziness or mobility impairment.",
+   "highlights": "生物电子防跌新路径",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://neursantys.com",
+   "business_model": "",
+   "desc_cn": "Neursantys 研发非侵入式生物电子可穿戴设备，测量并训练前庭系统，改善平衡、降低头晕与行动不便老人的跌倒风险。",
+   "business_model_cn": "B2B/B2C设备销售",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Neursantys】聚焦健康监测/精神健康，生物电子防跌新路径。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1049",
+   "name": "Cadense",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "自适应鞋",
+   "tags": [
+    "服装鞋帽"
+   ],
+   "description": "结合机器人与生物力学的自适应鞋，帮助行走困难者",
+   "highlights": "消费级助行鞋，康复+时尚",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://cadense.com",
+   "business_model": "",
+   "desc_cn": "结合机器人与生物力学的自适应鞋，帮助行走困难者",
+   "business_model_cn": "B2C 银发鞋服/康复鞋",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "服装鞋帽"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cadense】聚焦智能硬件，消费级助行鞋，康复+时尚。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1050",
+   "name": "Cherish",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "雷达监测",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "雷达传感器隐私优先环境监测，实时检测风险无需穿戴/摄像头",
+   "highlights": "雷达无感监测，隐私友好",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://www.cherishhealth.com",
+   "business_model": "",
+   "desc_cn": "雷达传感器隐私优先环境监测，实时检测风险无需穿戴/摄像头",
+   "business_model_cn": "B2C/B2B 适老智能硬件",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cherish】聚焦健康监测，雷达无感监测，隐私友好。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1051",
+   "name": "Diligent Robotics",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "医院机器人",
+   "tags": [
+    "机器人"
+   ],
+   "description": "AI机器人助手Moxi在医院执行日常非护理任务，减轻医护负担",
+   "highlights": "医疗场景机器人，可延伸至养老",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://www.diligentrobots.com",
+   "business_model": "",
+   "desc_cn": "AI机器人助手Moxi在医院执行日常非护理任务，减轻医护负担",
+   "business_model_cn": "B2B 医疗机器人解决方案",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Diligent Robotics】聚焦机器人，医疗场景机器人，可延伸至养老。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1052",
+   "name": "Elemind",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "神经助眠",
+   "tags": [
+    "睡眠监测",
+    "可穿戴监测"
+   ],
+   "description": "可穿戴神经技术，EEG驱动无药物声脉冲引导快速入睡",
+   "highlights": "无药物助眠，老年失眠刚需",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://elemindtech.com",
+   "business_model": "",
+   "desc_cn": "可穿戴神经技术，EEG驱动无药物声脉冲引导快速入睡",
+   "business_model_cn": "B2C/B2B 适老智能硬件",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "睡眠监测",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Elemind】聚焦精神健康，无药物助眠，老年失眠刚需。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1053",
+   "name": "Mindr",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "脑健康",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "Mindr is an AI brain-health coach that sends daily personalized activities—cognitive, physical, and social—to middle-aged adults and especially family caregivers, aiming to lower later dementia risk.",
+   "highlights": "痴呆风险前置干预",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://www.mindr.us",
+   "business_model": "",
+   "desc_cn": "Mindr 是 AI 脑健康教练，向中年人尤其是家庭照护者推送每日个性化认知、运动与社交活动，以降低日后痴呆风险。",
+   "business_model_cn": "B2C/B2B订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Mindr】聚焦认知症，痴呆风险前置干预。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1054",
+   "name": "Healthnix",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "营养",
+   "tags": [
+    "个性化营养"
+   ],
+   "description": "Healthnix builds clinical software that lets physicians prescribe biomarker-driven personalized nutrition plans at scale, integrating lab data to guide dietary interventions for chronic conditions.",
+   "highlights": "精准营养数字化",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://healthnix.io",
+   "business_model": "",
+   "desc_cn": "Healthnix 开发临床软件，使医生依据生物标志物大规模开具个性化营养处方，整合检验数据指导慢病膳食干预。",
+   "business_model_cn": "B2B软件订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Healthnix】聚焦营养食品，精准营养数字化。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

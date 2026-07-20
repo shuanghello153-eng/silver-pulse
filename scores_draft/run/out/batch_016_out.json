@@ -1,0 +1,774 @@
+{
+  "batch": 16,
+  "enterprises": [
+    {
+      "serial": "#0766",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 42.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；以减少不必要手术为差异，国内可学其肌骨保守治疗的循证管理路径。",
+        "rec_v2": "信号偏低但资料中等，亮点是非手术替代治疗方案；创业者可借鉴其用数据证明保守治疗价值的打法。",
+        "rec_v3": "低信号、模式偏B2B，资料可查，差异在控费逻辑；国内康复机构可复用其术前术后分流模型（可纳入国内对标案例）",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 2.55,
+        "research_value": 42.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "以减少不必要手术为目标的肌骨疾病管理服务",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成1500万美元B轮融资"
+        }
+      ],
+      "highlights": [
+        "以减少不必要手术为目标的肌骨管理",
+        "B2B卖给支付方与医疗机构"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "肌骨疾病非手术治疗管理，面向全年龄段患者。"
+    },
+    {
+      "serial": "#0775",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号低但资料较全；医学定制餐向健康险结算差异强，国内可学其“餐食即医疗服务”付费。",
+        "rec_v2": "信号偏低但信息中等，亮点是向Medicaid报销；创业者难抄支付，但可借鉴慢病餐食产品化逻辑。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在餐食医保化；国内特医食品可复用其与支付方结算路径经验（适合作为国内参考样本）",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 49.6
+      },
+      "payor_model": "商业保险+政府医保(Medicaid)",
+      "business_tags_role": "产品商",
+      "desc_cn": "向健康险结算的医学定制餐食配送服务",
+      "founded": "2022",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-06",
+          "text": "完成1600万美元后期VC融资"
+        }
+      ],
+      "highlights": [
+        "医学定制餐向商业健康险与Medicaid结算",
+        "聚焦糖尿病/肾病/心脏病人群"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "医学定制餐向健康险结算，明确标注“非专门面向老人”。"
+    },
+    {
+      "serial": "#0777",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 47.6,
+      "recommend": {
+        "rec_v1": "信号低但融资透明，差异化明显；用药管理APP偏同质，国内可学其把依从性做成药企合作数据产品。",
+        "rec_v2": "信号偏低但资料中等，亮点是可视化用药提醒；创业者易复制其交互，但可借鉴其B2B药企变现路径。",
+        "rec_v3": "低信号、差异一般，资料可查，独特在用户规模；国内可参考其用药管理叠加患者教育的内容打法（国内可重点研究其落地打法）",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 47.6
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "可视化用药时间表与提醒的药物管理APP",
+      "founded": "2012",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021",
+          "text": "完成3000万美元C轮融资（Sanofi Ventures领投）"
+        }
+      ],
+      "highlights": [
+        "可视化用药时间表与提醒APP",
+        "Sanofi Ventures领投C轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用药物管理APP，面向所有慢病患者而非专属老年。"
+    },
+    {
+      "serial": "#0788",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；营养师处方+定制餐差异中等，国内可学其肠道健康与膳食绑定服务。",
+        "rec_v2": "信号偏低但资料中等，亮点是医学定制餐+肠道检测；创业者可借鉴其“评估-餐食-随访”闭环产品。",
+        "rec_v3": "低信号、模式清晰，资料可查，独在特定医学膳食；国内慢病营养可复用其订阅制健康管理闭环（值得国内创业者拆解借鉴）",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 44.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "营养师处方+医学定制餐食与肠道健康测试",
+      "founded": "2018",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-12",
+          "text": "完成1350万美元C轮融资（累计2890万美元）"
+        }
+      ],
+      "highlights": [
+        "营养师处方+医学定制餐+肠道检测",
+        "C轮累计2890万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医学定制膳食与肠道健康测试，原标签定位养老膳食，服务慢病/老年营养。"
+    },
+    {
+      "serial": "#0801",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号低但资料可查；虚拟+上门初级保健差异中等，国内可学其整合式社区慢病管理模型。",
+        "rec_v2": "信号偏低但信息中等，亮点是上门+远程结合；创业者可借鉴其把基础医疗送进家的轻资产运营模式。",
+        "rec_v3": "低信号、模式偏服务，资料可查，独特在混合交付；国内基层医疗可复用其上门护理调度经验（可纳入国内对标案例）",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 44.6
+      },
+      "payor_model": "商业保险+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "提供虚拟/上门初级保健与慢病管理的服务",
+      "founded": "2017",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-03",
+          "text": "完成3000万美元A轮融资（累计4200万美元）"
+        }
+      ],
+      "highlights": [
+        "虚拟/上门初级保健+物理/慢病管理",
+        "累计融资4200万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "虚拟/上门初级保健与慢病管理，大量服务老年基础医疗。"
+    },
+    {
+      "serial": "#0802",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号低但资料较全；成人日托+老年医学+护理派遣组合差异强，国内可学其日托综合体重。",
+        "rec_v2": "信号偏低但信息中等，亮点是PBM+照护一体；创业者难抄支付，但可借鉴成人日托的多业务协同。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在日托+老年专科；国内社区养老可复用其老年医学嵌入日托（适合作为国内参考样本）",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 49.6
+      },
+      "payor_model": "政府医保(Medicare)+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "成人日托+老年医学科及护理派遣的综合照护",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-09",
+          "text": "完成2420万美元A轮融资"
+        }
+      ],
+      "highlights": [
+        "成人日托+老年医学科+护理派遣组合",
+        "兼有PBM医疗支付平台"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "含成人日托与老年医学科，直接服务老年群体。"
+    },
+    {
+      "serial": "#0803",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 7,
+      "research_value": 42.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限，差异化明显；成人失禁用品偏标准品，国内可学其印度制造与渠道下沉打法（国内可重点研究其落地打法）",
+        "rec_v2": "信号偏低但资料中等，亮点是成人尿布刚需属性；创业者易复制产品，但可借鉴其性价比定位与分销。",
+        "rec_v3": "低信号、差异低，资料可查，独特在本土制造；国内银发用品可复用其大众化定价与分销策略（值得国内创业者拆解借鉴）",
+        "info_score": 5,
+        "diff_score": 3,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 42.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "印度成人失禁护理与女性卫生用品制造商",
+      "founded": "2000",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-09",
+          "text": "完成1600万美元C轮融资"
+        }
+      ],
+      "highlights": [
+        "印度成人失禁护理与女性卫生用品",
+        "C轮累计2000万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人失禁护理用品属老年用品刚需品类。"
+    },
+    {
+      "serial": "#0804",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号低但融资透明；智能灯具跌倒检测差异突出，国内可学其把安全监测藏进日常家具中。",
+        "rec_v2": "信号偏低但信息中等，亮点是产品已销往21国；创业者可借鉴其硬件即服务的机构销售路径（可纳入国内对标案例）",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在灯具形态；国内适老化改造可复用其无感跌倒监测产品思路（适合作为国内参考样本）",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 53.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "可检测跌倒的智能灯具，销往21国",
+      "founded": "2018",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "完成3670万美元B轮融资（累计5120万美元）"
+        }
+      ],
+      "highlights": [
+        "智能灯具检测跌倒，销往21国",
+        "累计融资5120万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能灯具跌倒检测，典型适老化安全监测产品。"
+    },
+    {
+      "serial": "#0806",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 47.6,
+      "recommend": {
+        "rec_v1": "信号低但资料较全；保险覆盖营养师匹配差异中等，国内可学其营养干预入保的运营方法。",
+        "rec_v2": "信号偏低但信息中等，亮点是累计超亿美元融资；创业者可借鉴其把营养师做成保险福利的撮合（国内可重点研究其落地打法）",
+        "rec_v3": "低信号、模式偏平台，资料可查，独特在营养+保险；国内可复用其注册营养师按需服务模式经验（值得国内创业者拆解借鉴）",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 47.6
+      },
+      "payor_model": "商业保险支付",
+      "business_tags_role": "平台",
+      "desc_cn": "连接保险覆盖注册营养师的营养干预平台",
+      "founded": "2021",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-03",
+          "text": "完成3500万美元A轮融资（累计1.15亿美元）"
+        }
+      ],
+      "highlights": [
+        "连接保险覆盖的注册营养师",
+        "累计融资1.15亿美元，Index/JPM领投"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "保险覆盖营养师匹配平台，服务广泛人群而非专老。"
+    },
+    {
+      "serial": "#0821",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号低但资料清晰；160美元月费价值医疗差异强，国内可学其低价会员制基础医疗模式。",
+        "rec_v2": "信号偏低但信息中等，亮点是GV领投与社区中心；创业者可借鉴其普惠会员+按价值付费模型（可纳入国内对标案例）",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在平价订阅；国内基层医疗可复用其会员制可及性设计思路（适合作为国内参考样本）",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 49.6
+      },
+      "payor_model": "个人自费(会员费)+商业保险",
+      "business_tags_role": "服务商",
+      "desc_cn": "月费160美元的普惠型价值医疗基础医疗集团",
+      "founded": "2021",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-10",
+          "text": "完成3230万美元B轮融资（GV领投）"
+        }
+      ],
+      "highlights": [
+        "月费约160美元普惠型价值医疗",
+        "GV领投B轮，设社区健康中心"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "价值医疗基础医疗集团以慢病管理为主，覆盖大量老年会员。"
+    },
+    {
+      "serial": "#0823",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；助老科学用药服务差异中等，国内可学其把用药依从做成硬件入口端。",
+        "rec_v2": "信号偏低但资料中等，亮点是帮老人购买正品药；创业者可借鉴其适老用药管家的产品定位（国内可重点研究其落地打法）",
+        "rec_v3": "低信号、模式偏B2B，资料可查，独特在适老用药场景；国内可复用其老年人正品药配送+提醒服务。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 49.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "协助老人科学用药并购买正品药的服务",
+      "founded": "2017",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2019",
+          "text": "完成1100万美元A轮融资（累计3750万美元）"
+        }
+      ],
+      "highlights": [
+        "协助老人科学用药、购买正品药",
+        "累计融资3750万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "明确服务老年人科学用药与购药，属适老用药管理。"
+    },
+    {
+      "serial": "#0828",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 45.6,
+      "recommend": {
+        "rec_v1": "信号低但资料较全；药企患者支持平台差异中等，国内可学其把依从性做成量化产品能力。",
+        "rec_v2": "信号偏低但信息中等，亮点是B2B2C双向收费；创业者可借鉴其连接药企-支付方-患者的中台。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在患者援助产品化；国内药企可复用其用药支持SaaS思路（值得国内创业者拆解借鉴）",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 2.55,
+        "research_value": 45.6
+      },
+      "payor_model": "B端机构采购(药企/支付方)",
+      "business_tags_role": "平台",
+      "desc_cn": "连接药企与患者用药依从的数字患者支持平台",
+      "founded": "2019",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-02",
+          "text": "完成1400万美元B轮融资"
+        }
+      ],
+      "highlights": [
+        "数字患者支持连接药企与患者",
+        "B2B2C向制药与支付方收费"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "药企患者支持与用药依从平台，B2B2C泛医疗。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0766",
+      "name": "Livara Health",
+      "intro": "以减少不必要手术为目标的肌骨疾病管理服务公司，B2B卖给支付方与医疗机构。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "非手术治疗",
+          "reason": "以减少不必要手术为目标，差异在保守治疗"
+        }
+      ]
+    },
+    {
+      "serial": "#0775",
+      "name": "Mealogic",
+      "intro": "为糖尿病/肾病/心脏病患者配制并按周配送医学定制餐食，向健康险与Medicaid结算。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "膳食配送"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "医学定制餐",
+          "reason": "向健康险结算的医学定制餐是其核心，可补精确标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0777",
+      "name": "Medisafe",
+      "intro": "提供可视化用药时间表与提醒的通用药物管理APP，曾获Sanofi Ventures投资。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "用药提醒"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(药)",
+          "channel": [
+            "线上"
+          ]
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "数字健康/APP",
+          "reason": "实为通用用药管理APP，原tag_l1“康复辅具”不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0788",
+      "name": "Modify Health",
+      "intro": "提供营养师处方、医学定制膳食与肠道健康测试的订阅制健康管理公司。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "养老膳食",
+          "膳食配送"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "医学定制膳食",
+          "reason": "实为医学定制餐+肠道检测，原“养老膳食”偏窄且易误导"
+        }
+      ]
+    },
+    {
+      "serial": "#0801",
+      "name": "Nice healthcare",
+      "intro": "提供虚拟/上门初级保健、物理治疗与慢性护理管理的整合式医疗服务公司。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "初级保健",
+          "reason": "提供虚拟/上门初级保健，可补服务维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0802",
+      "name": "Nirvana",
+      "intro": "旗下含成人日托照护、老年医学科及PBM护理派遣等业务的综合老年照护公司。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "专业护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "成人日托",
+          "reason": "含成人日托照护，原标签未体现"
+        }
+      ]
+    },
+    {
+      "serial": "#0803",
+      "name": "Nobel Hygiene",
+      "intro": "印度个人卫生用品制造商，主力产品为成人失禁护理与女性卫生用品。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "纸尿裤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "老年用品",
+          "reason": "成人失禁护理用品属老年用品，原tag_l1“消费品”偏宽"
+        }
+      ]
+    },
+    {
+      "serial": "#0804",
+      "name": "Nobi",
+      "intro": "研发可检测跌倒的智能灯具公司，产品销往21个国家，采用机构订阅制。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能硬件",
+          "reason": "智能灯具形态，可补硬件维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0806",
+      "name": "Nourish",
+      "intro": "连接保险覆盖的注册营养师、为用户提供营养干预的平台公司。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "个性化营养"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "保险覆盖营养",
+          "reason": "连接保险覆盖的注册营养师，差异在保险结算"
+        }
+      ]
+    },
+    {
+      "serial": "#0821",
+      "name": "PeopleOne Health",
+      "intro": "佛罗里达的普惠型价值医疗基础医疗集团，以月费会员制提供便捷初级诊疗。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "诊所"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "会员制基础医疗",
+          "reason": "月费会员制价值医疗，原“诊所”偏窄"
+        }
+      ]
+    },
+    {
+      "serial": "#0823",
+      "name": "Pillo Health",
+      "intro": "协助老年人科学用药、购买正品药的药物管理与配送服务公司。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品配送"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "用药管理",
+          "reason": "核心为助老科学用药与购药，原“药品配送”不准"
+        }
+      ]
+    },
+    {
+      "serial": "#0828",
+      "name": "Redi Health",
+      "intro": "连接药企与患者、提供用药依从与疾病管理工具的数字患者支持平台。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(药)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "患者支持/用药依从",
+          "reason": "实为药企患者支持平台，原“养老软件”严重不准确"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0766",
+      "name": "Livara Health",
+      "verdict": "泛医疗擦边",
+      "reason": "肌骨疾病非手术治疗管理，面向全年龄段患者。"
+    },
+    {
+      "serial": "#0775",
+      "name": "Mealogic",
+      "verdict": "泛医疗擦边",
+      "reason": "医学定制餐向健康险结算，明确标注“非专门面向老人”。"
+    },
+    {
+      "serial": "#0777",
+      "name": "Medisafe",
+      "verdict": "泛医疗擦边",
+      "reason": "通用药物管理APP，面向所有慢病患者而非专属老年。"
+    },
+    {
+      "serial": "#0806",
+      "name": "Nourish",
+      "verdict": "泛医疗擦边",
+      "reason": "保险覆盖营养师匹配平台，服务广泛人群而非专老。"
+    },
+    {
+      "serial": "#0828",
+      "name": "Redi Health",
+      "verdict": "泛医疗擦边",
+      "reason": "药企患者支持与用药依从平台，B2B2C泛医疗。"
+    }
+  ]
+}

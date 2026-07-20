@@ -1,0 +1,491 @@
+{
+ "batch": 87,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1005",
+   "name": "Cuideo",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "居家照护平台",
+   "tags": [
+    "护工平台",
+    "居家护理"
+   ],
+   "description": "Cuideo is a Spanish service that assigns trained local carers to older adults for ongoing home care—personal care, meals, companionship—billing families a recurring monthly fee and vetting staff centrally.",
+   "highlights": "欧洲居家照护平台规模化案例",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.cuideo.es",
+   "business_model": "",
+   "desc_cn": "Cuideo 是西班牙居家照护服务，为老人指派本地受训护理员做长期个人照料、用餐与陪伴，向家庭收月度定期费并集中审核人员。",
+   "business_model_cn": "月度定期费",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cuideo】聚焦居家护理，欧洲居家照护平台规模化案例。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1006",
+   "name": "Cooey Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程患者照护",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "个性化远程患者照护，整合生理与行为健康并延伸计费管理",
+   "highlights": "慢病远程管理结合支付",
+   "funding_latest": "Angel",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://cooeyhealth.com",
+   "business_model": "",
+   "desc_cn": "个性化远程患者照护，整合生理与行为健康并延伸计费管理",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cooey Health】聚焦慢病管理/远程医疗，慢病远程管理结合支付。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1007",
+   "name": "Senniors",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "上门照护",
+   "tags": [
+    "居家康复"
+   ],
+   "description": "西班牙超100城上门照护，含理疗心理等综合居家疗法",
+   "highlights": "上门综合疗法，适老服务一体化",
+   "funding_latest": "Seed",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "西班牙超100城上门照护，含理疗心理等综合居家疗法",
+   "business_model_cn": "B2C/B2B 居家照护服务平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家康复"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Senniors】聚焦精神健康，上门综合疗法，适老服务一体化。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1008",
+   "name": "GrandPad",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "老人平板",
+   "tags": [
+    "陪伴服务",
+    "智能硬件"
+   ],
+   "description": "专为老人设计的平板，含4G、私人家庭网络与24/7客服",
+   "highlights": "极简硬件切入老人社交，国内适老终端可借鉴",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.grandpad.net",
+   "business_model": "",
+   "desc_cn": "专为老人设计的平板，含4G、私人家庭网络与24/7客服",
+   "business_model_cn": "B2C 适老智能硬件（老人平板）",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交",
+    "消费品"
+   ],
+   "tag_l2": [
+    "陪伴服务",
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【GrandPad】聚焦精神健康，极简硬件切入老人社交，国内适老终端可借鉴。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1009",
+   "name": "LIBIFY",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "紧急呼叫",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "德国紧急呼叫系统（家用/移动），含跌倒传感器与GPS定位",
+   "highlights": "紧急呼叫硬件出海",
+   "funding_latest": "Series B",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "德国紧急呼叫系统（家用/移动），含跌倒传感器与GPS定位",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【LIBIFY】聚焦健康监测，紧急呼叫硬件出海。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1010",
+   "name": "Nourish Care",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "照护管理软件",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "英国照护管理软件，灵活记录协调与报告社交照护",
+   "highlights": "照护管理SaaS被PE收购，赛道整合信号",
+   "funding_latest": "Private Equity",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.nourishcare.com",
+   "business_model": "",
+   "desc_cn": "英国照护管理软件，灵活记录协调与报告社交照护",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Nourish Care】聚焦照护系统，照护管理SaaS被PE收购，赛道整合信号。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1011",
+   "name": "Herewith",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "上门照护平台",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "Herewith is a San Francisco service that screens care professionals through background checks and virtual interviews, then matches them with families needing in-home care for seniors, charging placement and management fees.",
+   "highlights": " caregiver 匹配平台",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "Herewith 是旧金山上门照护服务，通过背景调查与视频面试筛选护理员，再匹配给需居家照护老人的家庭，收取匹配与管理费。",
+   "business_model_cn": "匹配+管理费",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Herewith】聚焦居家护理， caregiver 匹配平台。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1012",
+   "name": "RetroBrain R&D",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "认知训练",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "开发手势控制游戏机memoreCare，科学改善老人身心健康",
+   "highlights": "游戏化认知训练设备",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "开发手势控制游戏机memoreCare，科学改善老人身心健康",
+   "business_model_cn": "B2C/B2B 认知训练/数字疗法",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【RetroBrain R&D】聚焦认知症，游戏化认知训练设备。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1013",
+   "name": "Empassion Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "照护协调",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "Empassion Health coordinates advanced-illness and palliative care for frail, seriously ill older adults, aligning medical, social and family support through a care-coordination team paid by health plans and provider groups.",
+   "highlights": "重病居家照护协调",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "Empassion Health 为体弱重病老人协调晚期与舒缓疗护，由协调团队整合医疗、社会与家庭支持，向健康险公司与医疗集团结算费用。",
+   "business_model_cn": "B2B健康险结算",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Empassion Health】聚焦照护系统，重病居家照护协调。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1014",
+   "name": "eCaring",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "照护软件",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "eCaring sells home-care agency software with electronic visit verification, caregiver scheduling, point-of-care charts and same-day caregiver pay, helping agencies comply with Medicaid EVV rules and manage shifts.",
+   "highlights": "照护SaaS+护工激励闭环",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.ecaring.com",
+   "business_model": "",
+   "desc_cn": "eCaring 销售居家照护机构管理软件，含电子查勤、护理员排班、到点记录与当日结算薪酬，协助机构满足医疗补助查勤规定并管理班次。",
+   "business_model_cn": "B2B SaaS订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【eCaring】聚焦医疗器械/数字化，照护SaaS+护工激励闭环。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1016",
+   "name": "Aline (Sherpa)",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老OS",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "养老生活操作系统，整合销售、运营、租赁与居民照护工作流",
+   "highlights": "养老机构一体化OS",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.aline.care",
+   "business_model": "",
+   "desc_cn": "养老生活操作系统，整合销售、运营、租赁与居民照护工作流",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Aline (Sherpa)】聚焦照护系统，养老机构一体化OS。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1017",
+   "name": "Smartcare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "照护软件EMR",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "养老照护软件与EMR，自动化排班匹配护工提升留存",
+   "highlights": "照护EMR提升留存",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://smartcare.com",
+   "business_model": "",
+   "desc_cn": "养老照护软件与EMR，自动化排班匹配护工提升留存",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Smartcare】聚焦照护系统，照护EMR提升留存。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

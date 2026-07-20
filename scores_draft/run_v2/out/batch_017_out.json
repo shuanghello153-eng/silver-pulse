@@ -1,0 +1,694 @@
+{
+  "batch": 17,
+  "enterprises": [
+    {
+      "serial": "#0832",
+      "name": "RETISPEC",
+      "name_cn": "RETISPEC",
+      "region": "海外",
+      "website_url": "https://www.retispec.com",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 7.0,
+      "copy_score": 6.0,
+      "research_value": 48.7,
+      "recommend": "信号明确（产品已进20家眼科诊所做实操验证）、信息透明度中等（核心算法准确率仅散见于研究、未公开大样本注册结果），差异化在把高光谱相机附件拧到现有眼底照相机上即可预测脑淀粉样蛋白，无需PET或腰穿——这种“借存量设备”的轻模式国内眼科连锁可直接借鉴，但需要啃下FDA 510(k)/De novo审批与医生教育两块硬骨头。",
+      "desc_cn": "面向眼科与神经科诊所的AI视网膜早筛系统：把高光谱相机附件接到现有眼底照相机上，通过算法预测脑淀粉样蛋白沉积，为阿尔茨海默病提供非侵入、低成本的诊前筛查。收入来自设备+分析软件销售给医疗机构。核心银发价值在把认知症筛查从PET/腰穿下沉到常规眼科检查。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "founded": 2018,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2024年7月",
+        "amount": "1380万美元",
+        "round": "A轮",
+        "display": "A轮 1380万美元 (2024年7月)"
+      },
+      "funding_total": "$17M",
+      "investors": "iGan Partners (lead), Eli Lilly, Topcon Healthcare, Gentex, Alzheimer's Drug Discovery Foundation",
+      "highlights": [
+        "高光谱视网膜成像+AI预测脑淀粉样蛋白，无需PET/腰穿",
+        "附件式设计可复用诊所现有眼底照相机，部署成本低",
+        "新战略投资方含礼来(Eli Lilly)与拓普康(Topcon Healthcare)",
+        "研究称早期检测准确率达80–90%，尚处研究使用阶段、推进FDA审批"
+      ],
+      "events": [
+        {
+          "date": "2024-07",
+          "text": "完成1380万美元A轮融资（iGan Partners领投，礼来与拓普康战略加入）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "视网膜早筛阿尔茨海默病，直接面向老年认知症高危人群。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0835",
+      "name": "SafelyYou",
+      "name_cn": "SafelyYou",
+      "region": "海外",
+      "website_url": "https://www.safelyyou.com",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 53.7,
+      "recommend": "信号强（已覆盖450个养老社区、累计捕捉25万起跌倒、算法准确率99.25%）、信息量大（公开了降低跌倒40%、急诊80%的对照研究），差异化在隐私优先的摄像头只存跌倒片段而非连续录像，且靠数十年跌倒视频筑起别人抢不走的数据壁垒；国内养老机构可照搬其“摄像头+跌倒片段+护理复盘会”组合，但要先解决老人与家属的摄像头同意与误报安抚。",
+      "desc_cn": "面向记忆照护、辅助生活等养老机构的AI跌倒管理方案：在老人居室部署壁挂摄像头，用计算机视觉只在跌倒瞬间抓拍片段并实时告警护理员，配套跌倒复盘会与数据分析。按房间或机构订阅收费。核心银发价值在解决失智老人不愿/不能按呼叫器的夜间跌倒无人知晓痛点。",
+      "payor_model": "B端机构采购(机构订阅)",
+      "business_tags_role": "服务商",
+      "founded": 2015,
+      "stage": "C轮",
+      "funding_latest": {
+        "date": "2025年1月",
+        "amount": "4300万美元",
+        "round": "C轮",
+        "display": "C轮 4300万美元 (2025年1月)"
+      },
+      "funding_total": "$100M+",
+      "investors": "Qualcomm Ventures, Founders Fund, Cross Creek Advisors, Foundation Capital, Samsung Next, Omega Healthcare Investors, Touring Capital",
+      "highlights": [
+        "隐私优先：仅保存跌倒瞬间视频片段，不连续录像",
+        "覆盖450个机构社区、约1.8万老人，累计检测超25万起跌倒",
+        "算法准确率99.25%，每传感器每2年约1次误报",
+        "对照研究显示跌倒减少40%、跌倒相关急诊减少80%"
+      ],
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "完成4300万美元C轮融资（Qualcomm Ventures等领投，累计超1亿美元）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI视频预防老年人跌倒，典型银发照护技术。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0849",
+      "name": "Sensi.AI",
+      "name_cn": "Sensi.AI",
+      "region": "海外",
+      "website_url": "https://www.sensi.ai",
+      "signal_strength": 2.55,
+      "info_score": 7.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 56.7,
+      "recommend": "信号强（已服务北美80%以上大型家庭护理机构、年收入同比增400%）、信息透明度高（公开了护工倦怠预警、互动频率等运营数据），差异化在100%被动式音频监听——不要求老人佩戴或点击，正好补上独居老人夜间无人看护的空档；国内居家护理机构可借鉴其“B2B卖给机构而非直接to C”的打法，但需应对中文语音环境与隐私合规两块落地门槛。",
+      "desc_cn": "面向家庭护理机构的被动式音频监护平台：在老人家中放置即插即用设备，用AI分析哭声、起夜、对话等音频信号，预警身体/情绪/认知退化并生成护理日志。以Sensi Pod硬件+按监测人数计价的SaaS卖给机构而非家庭。核心银发价值在补上独居老人夜间与无人看护时段的风险空档。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2019,
+      "stage": "C轮",
+      "funding_latest": {
+        "date": "2025年10月",
+        "amount": "4500万美元",
+        "round": "C轮",
+        "display": "C轮 4500万美元 (2025年10月)"
+      },
+      "funding_total": "$98M",
+      "investors": "Qumra Capital, Insight Partners, Flint Capital, Zeev Ventures, Entrée Capital, Jibe Ventures",
+      "highlights": [
+        "100%被动音频监控，无需老人佩戴设备或点击",
+        "服务北美80%+大型家庭护理网络，年收入同比增400%",
+        "由直接to C转向to B机构，客群为家庭护理机构",
+        "可预警跌倒、如厕异常、情绪波动与认知衰退迹象"
+      ],
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "完成4500万美元C轮融资（Qumra Capital领投，累计9800万美元）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "音频AI监测老人健康，服务对象为老年家庭护理。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0862",
+      "name": "Somnee",
+      "name_cn": "Somnee",
+      "region": "海外",
+      "website_url": "https://www.somneesleep.com",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 44.6,
+      "recommend": "信号中等（消费硬件已上线、靠HSA/FSA与硬件+会员订阅走量）、信息量偏少（tACS改善睡眠的临床证据多为自有白皮书、缺乏独立大样本）、差异化在把实验室级EEG+经颅电刺激做成睡前15分钟的非佩戴式头带，定位通用睡眠而非老人；国内创业者可抄其“硬件+会员订阅”的消费品打法，但面向银发需补上失眠与慢病共病的适老场景，而非照搬年轻longevity人群。",
+      "desc_cn": "面向成人的消费级睡眠头带：内置EEG+传感器与经颅电刺激(tACS)，睡前15分钟个性化神经刺激助眠并追踪睡眠，配合会员订阅提供电极更换与AI调参。硬件数百美元加订阅、可用HSA/FSA。定位通用睡眠改善而非专老，银发关联仅在老年失眠人群的潜在适老延伸。",
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2020,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2025年",
+        "amount": "2300万美元",
+        "round": "种子轮",
+        "display": "种子轮 2300万美元 (2025年)"
+      },
+      "funding_total": "$23M",
+      "investors": "Mucker Capital, Poppi founders, Jim McKelvey, Dr. Michael Breus (Chief Sleep Officer)",
+      "highlights": [
+        "tACS经颅电刺激+EEG+传感，睡前15分钟非佩戴式干预",
+        "对标Eight Sleep但全功能免强制订阅、价格更低",
+        "由StimScience开发，团队含《Why We Sleep》作者Matthew Walker",
+        "上线数月即做到八位数年化营收，HSA/FSA可抵税"
+      ],
+      "events": [
+        {
+          "date": "2025",
+          "text": "完成约2300万美元种子轮融资（Mucker Capital等），主打去订阅化睡眠硬件"
+        }
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "AI睡眠神经技术，通用消费硬件、明确非专门面向老人。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0864",
+      "name": "Spark Advisors",
+      "name_cn": "Spark Advisors",
+      "region": "海外",
+      "website_url": "https://www.sparkadvisors.com",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 40.6,
+      "recommend": "信号强（平台已接入1万+保险经纪人、2025年促成25万单投保、合作机构续约率84%）、信息透明度高（公开了佣金对账、产能看板等后台逻辑），差异化在“只做工具不收购机构”的服务优先定位，把CRM/报价/入职/佣金对账塞进一个系统；国内惠民保/商业健康险经代公司可借鉴其经纪人赋能思路，但要先适配中国监管对保险代理人的资质与电销合规要求。",
+      "desc_cn": "面向独立联邦医保(Medicare)经纪人与代理机构的一站式SaaS：整合CRM、报价、投保、合约、佣金对账等全流程，并用AI做客户流失防御与自动续保触达。收入来自机构订阅与按保单量计费。核心银发价值在它服务的是美国65+老人的医保方案选购这一银发基础设施环节。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2020,
+      "stage": "B轮",
+      "funding_latest": {
+        "date": "未披露",
+        "amount": "2500万美元",
+        "round": "B轮",
+        "display": "B轮 2500万美元"
+      },
+      "funding_total": "$53.6M",
+      "investors": "American Family Ventures, Primary Venture Partners, Torch Capital, Vine Ventures, 8VC, Munich Re / HSB Ventures",
+      "highlights": [
+        "服务独立Medicare经纪人与代理机构，不做收购、坚持服务优先",
+        "一体化整合CRM、报价、投保、合约、佣金对账",
+        "2025年促成约25万单投保，合作机构续约率84%",
+        "AI做客户流失防御与全年自动续保触达"
+      ],
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成2500万美元B轮融资（累计约5360万美元，American Family Ventures领投）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "服务医疗保险经纪人，Medicare本质为老年健保。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0890",
+      "name": "TympaHealth",
+      "name_cn": "TympaHealth",
+      "region": "海外",
+      "website_url": "https://www.tympahealth.com",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 44.6,
+      "recommend": "信号中等（CE/FDA双认证、已服务25万患者、进Boots等药房与NHS）、信息量中等（听力损失被列为痴呆最大可调风险因子的循证公开，但美国落地仍早期），差异化在把数字耳镜+耵聍微吸+听力检查集成到单一便携设备、把ENT能力下沉到社区药房；国内连锁药房与基层卫生站可照搬其“药房即听力筛查点”模式，但要解决设备采购与听力学人员培训的成本门槛。",
+      "desc_cn": "面向基层与社区医疗的耳与听力健康一体化系统：单一便携设备集成高清数字耳镜、耵聍微吸与4频听力检查，结果上云并可直接转介ENT专家。收入来自设备+软件订阅卖给NHS、药房与诊所。核心银发价值在听力衰退是痴呆最大可调风险因子，把筛查下沉到药房与养老院。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "founded": 2019,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2023年4月",
+        "amount": "2300万美元",
+        "round": "A轮",
+        "display": "A轮 2300万美元 (2023年4月)"
+      },
+      "funding_total": "$31M",
+      "investors": "Octopus Ventures, Dara Capital, Rezayat Investments, Highland Capital Partners, Sonder Capital",
+      "highlights": [
+        "单设备集成数字耳镜+微吸+4频听力检查，结果上云",
+        "CE认证、FDA注册，合作含NHS、Boots、Walgreens Boots Alliance、Bupa",
+        "已服务超25万患者，月处理4万+诊疗",
+        "听力损失被列为痴呆最大可调风险因子，强银发关联"
+      ],
+      "events": [
+        {
+          "date": "2023-04",
+          "text": "完成2300万美元A轮融资（Octopus Ventures领投，累计3100万美元）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "耳与听力健康评估，老年听力衰退为核心人群。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0894",
+      "name": "Upward Health",
+      "name_cn": "Upward Health",
+      "region": "海外",
+      "website_url": "https://www.upwardhealth.com",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 46.6,
+      "recommend": "信号中等（位列2025 Inc.5000第四快、服务2万+医疗补助与5千+联邦医保人群）、信息透明度高（公开了净推荐值91、慢病管理基准等运营指标），差异化在以自雇医生团队进老人家里做全人照护并承担医疗风险，而非卖软件；国内长护险经办机构可借鉴其“按价值付费+上门整合照护”思路，但需先打通医保额度与居家护理人力供给两块硬骨头。",
+      "desc_cn": "面向高风险的居家医疗责任组织：自建医生+行为健康+社工的多学科团队上门提供全人照护，并与医疗计划签订按价值付费、承担医疗风险的风险合约。收入来自医保/医疗补助按人头与节省分成。核心银发价值在服务重度慢病、失能老人的居家整合照护这一长护缺口。",
+      "payor_model": "商业保险+政府医保(Medicare/Medicaid)",
+      "business_tags_role": "服务商",
+      "founded": 2017,
+      "stage": "C轮",
+      "funding_latest": {
+        "date": "2025年1月",
+        "amount": "1250万美元",
+        "round": "C轮",
+        "display": "C轮 1250万美元 (2025年1月)"
+      },
+      "funding_total": "未搜到",
+      "investors": "Trinity Capital, Heritage Group, Blue Venture Fund, Noro-Moseley Partners, Windham Venture Partners",
+      "highlights": [
+        "自雇多学科团队上门，覆盖医疗+行为健康+社会决定因素",
+        "与医保/医疗补助签订按价值付费、承担医疗风险的风险合约",
+        "位列2025 Inc.5000成长最快私企第4名，净推荐值91",
+        "服务含医疗补助2万+、联邦医保5千+人群，覆盖农村与城市医疗荒漠"
+      ],
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "完成1250万美元C轮融资（Trinity Capital）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家医疗服务由Medicare/Medicaid支付，核心服务老年复杂病患者。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0910",
+      "name": "VyncaCare",
+      "name_cn": "VyncaCare",
+      "region": "海外",
+      "website_url": "https://www.vyncacare.com",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 47.6,
+      "recommend": "信号中等（已交付超100万份预先照护计划、覆盖全美50州、患者多为医疗补助人群）、信息透明度高（公开了53天临终照护时长、症状负担6周下降等结果），差异化在把预先照护计划软件+居家舒缓疗护+增强照护管理打包成按价值付费的组合；国内安宁疗护试点机构可借鉴其“软件记录意愿+多学科上门”模式，但要先突破临终关怀支付额度低、公众认知弱的现实约束。",
+      "desc_cn": "面向重病与临终人群的科技赋能舒缓疗护机构：将预先照护计划软件、居家/虚拟安宁疗护、增强照护管理打包，由雇佣的临床团队提供身心社灵全人支持。与医疗计划按价值付费合作。核心银发价值在服务预期寿命≤12个月、尚未进hospice的老年重病群体，补足临终关怀前空白。",
+      "payor_model": "商业保险+政府医保",
+      "business_tags_role": "服务商",
+      "founded": 2013,
+      "stage": "成长期",
+      "funding_latest": {
+        "date": "2022年1月",
+        "amount": "3000万美元",
+        "round": "成长期",
+        "display": "成长期 3000万美元 (2022年1月)"
+      },
+      "funding_total": "$40.3M+",
+      "investors": "Questa Capital, Generator Ventures, First Trust Capital Partners, 4100 Group, OCA Ventures",
+      "highlights": [
+        "由预先照护计划软件起家，2021年收购Resolution Care切入疗护服务",
+        "已交付超100万份预先照护计划，覆盖全美50州",
+        "居家舒缓疗护+增强照护管理(ECM)打包，按价值付费",
+        "患者多为医疗补助(Medicaid)人群，覆盖加州等5州"
+      ],
+      "events": [
+        {
+          "date": "2022-01",
+          "text": "完成3000万美元成长轮融资（Questa Capital领投）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "安宁疗护与高级照护计划，服务临终老年群体。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0960",
+      "name": "Orion",
+      "name_cn": "Orion",
+      "region": "海外",
+      "website_url": "https://www.orionsleep.com",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 4.0,
+      "copy_score": 7.0,
+      "research_value": 47.6,
+      "recommend": "信号中等（消费硬件上线4个月即做到八位数年化营收、靠“不强制订阅”对标Eight Sleep）、信息量偏少（温控改善睡眠多为自有测评、缺乏独立临床证据），差异化在把水循环冷暖+嵌入式生物传感做成可罩任意床垫的薄盖、且全功能免订阅；国内睡眠硬件厂商可抄其“去订阅化+性价比”打法，但面向银发需补上起夜监测与跌倒预警的适老功能，而非只做年轻健身人群。",
+      "desc_cn": "面向成人的智能温控床垫罩：水循环系统实现50–115°F双区冷暖，嵌入式传感追踪心率呼吸与睡眠阶段，AI按体温画像个性化调温，全功能免强制订阅。售价数百美元、可用HSA/FSA。定位通用睡眠与健身人群，银发关联仅在老年睡眠中断的潜在适老延伸，非专老。",
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2025,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2025年",
+        "amount": "2300万美元",
+        "round": "种子轮",
+        "display": "种子轮 2300万美元 (2025年)"
+      },
+      "funding_total": "$23M",
+      "investors": "Mucker Capital, Poppi founders, Jim McKelvey",
+      "highlights": [
+        "水循环双区冷暖+嵌入式生物传感，可罩任意床垫",
+        "全功能免强制订阅，主打去订阅化对标Eight Sleep",
+        "上线4个月做到八位数年化营收，HSA/FSA可抵税",
+        "创始人为连续创业者Harry Gestetner（前Fanfix）"
+      ],
+      "events": [
+        {
+          "date": "2025",
+          "text": "完成约2300万美元种子轮融资（Mucker Capital等）"
+        }
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "AI温控床垫罩对标Eight Sleep，通用睡眠硬件非专老。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0965",
+      "name": "ExaCare AI",
+      "name_cn": "ExaCare AI",
+      "region": "海外",
+      "website_url": "https://www.exacare.com",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 51.6,
+      "recommend": "信号强（已部署1500+机构、处理290万份转诊、将转诊响应从30分钟压到5分钟）、信息透明度高（公开了PDPM报销估算、保险核查等具体模块），差异化在专为养老/康复护理机构训练AI、把非结构化转诊包2分钟内解析出临床红线与报销风险；国内养老院与康复医院可借鉴其“AI代理做入院分诊”思路，但要先打通HIS/医保结算系统的数据接口门槛。",
+      "desc_cn": "面向康复护理与养老机构的AI运营操作系统：自动解析非结构化转诊包，2分钟内标记临床红线、保险核查与PDPM报销风险，并配套5个AI代理做入院分诊、文档与巡查准备。按机构SaaS订阅收费。核心银发价值在客户即养老/康复护理机构，直接提升其入院效率与报销准确性。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2022,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2025年10月",
+        "amount": "3000万美元",
+        "round": "A轮",
+        "display": "A轮 3000万美元 (2025年10月)"
+      },
+      "funding_total": "$36.5M",
+      "investors": "Insight Partners, Foundation Capital, Bienville Capital",
+      "highlights": [
+        "专为养老/康复护理机构训练AI，解析非结构化转诊包",
+        "5个AI代理：入院、报销、临床、巡查准备、文档",
+        "已部署1500+机构，处理290万份转诊、2100万份文档",
+        "将转诊响应从30分钟降至5分钟，授权时长23→11分钟"
+      ],
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "完成3000万美元A轮融资（Insight Partners领投，累计3650万美元）"
+        }
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向康复护理机构的运营自动化，客户为银发照护机构。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0975",
+      "name": "Leal Therapeutics",
+      "name_cn": "Leal Therapeutics",
+      "region": "海外",
+      "website_url": "https://www.lealtx.com",
+      "signal_strength": 2.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 3.0,
+      "research_value": 38.6,
+      "recommend": "信号中等（管线含精神分裂症与ALS的早研资产）、信息透明度中等（公开了谷氨酰胺酶抑制与SPT抑制的作用机制，但均处临床前/早临床），差异化在“纠正脑代谢失衡”而非传统靶点的首创路径，覆盖神经退行与精神疾病；国内神经药企可学其“代谢-神经”交叉立项思路，但受支付体系与新药审批周期约束，照搬难、宜做技术跟踪而非形态复制。",
+      "desc_cn": "聚焦中枢神经系统疾病的新锐药企：以“纠正脑代谢失衡”为理论，推进口服谷氨酰胺酶抑制剂(LTX-001，精分/ALS)、SPT反义寡核苷酸(LTX-002，ALS)及小分子(LTX-007，阿尔茨海默)等首创管线。收入来自管线授权与里程碑。属泛医疗/制药，银发关联仅在阿尔茨海默管线的老龄患者人群。",
+      "payor_model": "B端机构采购(药企研发/授权)",
+      "business_tags_role": "产品商",
+      "founded": 2021,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2025年8月",
+        "amount": "3000万美元",
+        "round": "A轮",
+        "display": "A轮 3000万美元 (2025年8月)"
+      },
+      "funding_total": "$30M",
+      "investors": "SV Health Investors (Dementia Discovery Fund), OrbiMed, Newpath Partners, Chugai Venture Fund, Euclidean Capital, Alexandria Venture Investments, PhiFund",
+      "highlights": [
+        "理论独创：以“纠正脑代谢失衡”治理CNS疾病",
+        "LTX-001口服谷氨酰胺酶抑制剂，覆盖精分/双相/ALS",
+        "LTX-002为SPT反义寡核苷酸，针对ALS",
+        "LTX-007小分子SPT抑制剂，瞄准阿尔茨海默病等"
+      ],
+      "events": [
+        {
+          "date": "2025-08",
+          "text": "完成3000万美元A轮融资（Dementia Discovery Fund领投）"
+        }
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "神经退行性疾病新药研发，属泛医疗/制药非银发服务。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0976",
+      "name": "Jocasta Neuroscience",
+      "name_cn": "Jocasta Neuroscience",
+      "region": "海外",
+      "website_url": "https://www.jocastaneuro.com",
+      "signal_strength": 2.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 3.0,
+      "research_value": 41.6,
+      "recommend": "信号中等（临床前资产、IND计划2026年四季度提交）、信息透明度中等（公开了α-Klotho在灵长类提升认知的Nature Aging研究，但人体数据仍空白），差异化在押注“长寿蛋白”这一少有人做的靶点治理神经退行认知衰退；国内抗衰/神经药企可学其“蛋白替代而非小分子”的差异化立项，但受支付体系与新药审批周期约束，照搬难、宜做技术跟踪而非形态复制。",
+      "desc_cn": "临床前长寿蛋白药企：核心资产JN-0413为皮下注射的专有α-Klotho蛋白配方，瞄准神经退行相关认知衰退，计划2026年Q4提交IND。收入来自研发合作与里程碑授权。属泛再生医学/抗衰，银发关联仅在认知衰退的老龄人群，非银发服务。",
+      "payor_model": "B端机构采购(药企研发/授权)",
+      "business_tags_role": "产品商",
+      "founded": 2021,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2025年8月",
+        "amount": "3500万美元",
+        "round": "A轮",
+        "display": "A轮 3500万美元 (2025年8月)"
+      },
+      "funding_total": "$35M",
+      "investors": "True Ventures, Moore Strategic Ventures, SC8 Investments, Glentura, Yagan Family Foundation",
+      "highlights": [
+        "核心资产JN-0413：皮下注射专有α-Klotho长寿蛋白配方",
+        "技术源自UCSF(Dena Dubal)，由Unity Biotechnology转授权",
+        "非人灵长类研究显示低剂量Klotho改善认知",
+        "计划18个月内启动临床、2026年Q4提交IND"
+      ],
+      "events": [
+        {
+          "date": "2025-08",
+          "text": "完成3500万美元A轮融资（True Ventures领投）"
+        }
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "长寿蛋白α-Klotho研发，属泛再生医学/抗衰非银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0832",
+      "name": "RETISPEC",
+      "intro": "用高光谱视网膜影像+AI预测脑淀粉样蛋白，做阿尔茨海默病早筛。核心手段是眼科影像而非问卷或血检。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["认知筛查"],
+        "business_tags": {"customer": "未标注", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "眼科AI诊断", "reason": "核心交付物是AI视网膜诊断软件，建议在l2补充"},
+        {"action": "change", "tag": "tag_l1=医疗服务", "reason": "属医疗诊断技术而非广义养老服务，建议l1改医疗服务"}
+      ]
+    },
+    {
+      "serial": "#0835",
+      "name": "SafelyYou",
+      "intro": "为记忆照护/辅助生活机构提供AI视频跌倒检测与护理复盘。客户是养老机构而非个人。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["跌倒监测"],
+        "business_tags": {"customer": "B2B+B2C", "role": "技术服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=养老服务", "reason": "服务记忆照护/辅助生活机构，属养老照护技术，l1更宜为养老服务"}
+      ]
+    },
+    {
+      "serial": "#0849",
+      "name": "Sensi.AI",
+      "intro": "面向家庭护理机构的被动式音频监护平台，用AI从声音预警健康风险。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["远程护理"],
+        "business_tags": {"customer": "B2B", "role": "技术服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "音频监护", "reason": "其差异化即100%被动音频监控，建议在l2补充音频监护"}
+      ]
+    },
+    {
+      "serial": "#0862",
+      "name": "Somnee",
+      "intro": "消费级睡眠头带，用tACS神经刺激助眠，定位通用人群。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["睡眠监测"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=消费品", "reason": "通用消费睡眠硬件、非专老，l1应改为消费品"},
+        {"action": "change", "tag": "customer=个人", "reason": "实际为DTC直接卖给消费者，customer宜为个人"}
+      ]
+    },
+    {
+      "serial": "#0864",
+      "name": "Spark Advisors",
+      "intro": "服务Medicare独立经纪人与代理机构的SaaS，覆盖投保全流程。",
+      "old_tags": {
+        "tag_l1": ["金融保险"],
+        "tag_l2": ["保险科技"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "保险经代SaaS", "reason": "其本质是保险经代机构的后台SaaS，建议在l2补充"}
+      ]
+    },
+    {
+      "serial": "#0890",
+      "name": "TympaHealth",
+      "intro": "便携设备集成数字耳镜+听力检查，把ENT能力下沉到社区。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["医疗器械"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l2=听力健康", "reason": "核心是耳与听力评估，l2改为听力健康更贴切"}
+      ]
+    },
+    {
+      "serial": "#0894",
+      "name": "Upward Health",
+      "intro": "自建多学科团队上门做全人照护，与医保按价值付费签约。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["居家医疗"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "按价值付费", "reason": "其模式核心是风险承担型按价值付费，建议在l2补充"}
+      ]
+    },
+    {
+      "serial": "#0910",
+      "name": "VyncaCare",
+      "intro": "科技赋能的舒缓疗护机构，打包预先照护计划+居家安宁疗护。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["安宁疗护"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0960",
+      "name": "Orion",
+      "intro": "智能温控床垫罩，水循环冷暖+生物传感，通用睡眠人群。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["睡眠监测"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=消费品", "reason": "通用消费睡眠硬件、非专老，l1应改为消费品"},
+        {"action": "change", "tag": "customer=个人", "reason": "DTC卖给消费者，customer宜为个人"}
+      ]
+    },
+    {
+      "serial": "#0965",
+      "name": "ExaCare AI",
+      "intro": "面向养老/康复护理机构的AI运营操作系统，自动化入院分诊与报销。",
+      "old_tags": {
+        "tag_l1": ["行业服务"],
+        "tag_l2": ["养老软件"],
+        "business_tags": {"customer": "B2B", "role": "技术服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=养老服务", "reason": "客户即养老/康复护理机构，l1改为养老服务更贴切"}
+      ]
+    },
+    {
+      "serial": "#0975",
+      "name": "Leal Therapeutics",
+      "intro": "CNS疾病首创药企，以纠正脑代谢失衡为理论推进多条管线。",
+      "old_tags": {
+        "tag_l1": ["消费品"],
+        "tag_l2": ["药品"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=生物医药", "reason": "神经退行药物研发企业，l1误标消费品，应改为生物医药"}
+      ]
+    },
+    {
+      "serial": "#0976",
+      "name": "Jocasta Neuroscience",
+      "intro": "临床前长寿蛋白药企，开发α-Klotho配方治理认知衰退。",
+      "old_tags": {
+        "tag_l1": ["消费品"],
+        "tag_l2": ["长寿抗衰"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=生物医药", "reason": "α-Klotho蛋白药研发企业，l1误标消费品，应改为生物医药"}
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0862",
+      "name": "Somnee",
+      "verdict": "泛医疗擦边",
+      "reason": "通用消费级睡眠神经刺激硬件，定位成人睡眠改善而非专门面向老人，银发仅潜在延伸。"
+    },
+    {
+      "serial": "#0960",
+      "name": "Orion",
+      "verdict": "泛医疗擦边",
+      "reason": "通用智能温控床垫罩，面向年轻健身/睡眠人群，非专老，银发仅潜在适老延伸。"
+    },
+    {
+      "serial": "#0975",
+      "name": "Leal Therapeutics",
+      "verdict": "泛医疗擦边",
+      "reason": "CNS神经退行/精神疾病首创药研发，属泛医疗/制药，不直接提供银发服务。"
+    },
+    {
+      "serial": "#0976",
+      "name": "Jocasta Neuroscience",
+      "verdict": "泛医疗擦边",
+      "reason": "α-Klotho长寿蛋白药研发，属泛再生医学/抗衰，非银发服务。"
+    }
+  ]
+}

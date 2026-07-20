@@ -1,0 +1,670 @@
+{
+  "batch": 36,
+  "enterprises": [
+    {
+      "serial": "#0172",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 39.7,
+      "recommend": {
+        "rec_v1": "信号虽弱但官网资料齐备；其专攻失能老人上门助浴的细分打法差异化明显，国内适老服务空白创业者可直接借鉴。",
+        "rec_v2": "声量低却模式清晰、信息可查；把助浴做成标准化上门服务是反常识切口，社区小微团队能低成本复制其流程。",
+        "rec_v3": "早期弱信号但业务辨识度高；亮点在“洗澡难”这一被忽视痛点，国内长护险扩面后可学其驻点加上门组合。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 39.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "失能老人上门助浴服务提供商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注失能/半失能老人上门助浴",
+        "解决老人洗澡难这一高频刚需痛点"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向失能/半失能老人提供上门助浴，直击老年照护刚需"
+    },
+    {
+      "serial": "#0173",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号偏弱但覆盖15城700万人次资料扎实；平台智能派单加自建照护师队伍差异化足，可学其规模化调度中台。",
+        "rec_v2": "声量低而信息量适中；其微信下单到平台派单闭环把散工护理标准化，国内创业者能抄其培训加派单骨架。",
+        "rec_v3": "早期弱信号但模式透明；差异在自营数千持证照护师的重人力网络，难点在复制其用工与质控体系。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "互联网+医养上门护理派单平台",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自建数千名持证照护师队伍",
+        "微信下单+平台智能派单",
+        "覆盖长三角成渝约15城，累计服务超700万人次"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "互联网+医养上门护理，主要服务老人及病患居家照护"
+    },
+    {
+      "serial": "#0174",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号弱但承接国家863课题信息可信；智能轮椅属常规硬件差异化有限，国内创业者可学其ODM出海路径。",
+        "rec_v2": "声量低却技术底子厚；产品以电动轮椅代步车为主同质化偏高，值得看的是其海外认证与渠道打法。",
+        "rec_v3": "早期弱信号但资料完整；亮点在产学研结合的智能辅具，国内中小厂可抄其课题加量产双轮模式。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "智能轮椅与老年代步车辅具品牌",
+      "founded": 2000,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "曾承担国家863智能轮椅课题",
+        "电动轮椅/智能助行轮椅/老年代步车",
+        "产品畅销海内外"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能轮椅/老年代步车等康复辅具，服务老年出行"
+    },
+    {
+      "serial": "#0175",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号偏弱但系国家智慧健康养老试点；其运动处方干预慢病差异化强，社区长者健身房模式政策利好可复制。",
+        "rec_v2": "声量低而信息量适中；把体质检测加科学健身嵌进社区是反常识切口，街道点位创业者能直接照搬。",
+        "rec_v3": "早期弱信号但业务辨识清；亮点是体医融合的长者运动之家，国内可学其半公益获客与政府合作。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费+政府补贴",
+      "business_tags_role": "服务商",
+      "desc_cn": "社区长者运动健康与慢病干预",
+      "founded": 2008,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "乐活空间/长者运动健康之家连锁",
+        "体质检测+科学健身+慢病运动干预",
+        "国家智慧健康养老应用试点示范"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "社区长者运动健康之家，服务老年慢病运动干预"
+    },
+    {
+      "serial": "#0176",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱但千万用户规模信息清晰；中老年广场舞社区差异化在中老年社交黏性，可学其UGC加线下活动转化。",
+        "rec_v2": "声量低却流量基本盘厚；舞群社群是天然私域，创业者能抄其从内容聚集到社交留存的银发流量打法。",
+        "rec_v3": "早期弱信号但模式透明；亮点在千万级中老年垂直社区，国内可借鉴其从兴趣社群到电商的变现路径。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年广场舞社区互动平台",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中老年广场舞社区平台",
+        "用户超千万",
+        "教学视频+社交互动"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年广场舞社区平台，用户以中老年为主"
+    },
+    {
+      "serial": "#0177",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 39.6,
+      "recommend": {
+        "rec_v1": "信号弱但获天图高瓴多轮融资信息扎实；多品类家庭健康硬件差异化一般，可学其单品爆款加品牌矩阵打法。",
+        "rec_v2": "声量低而信息量中上；艾灸盒助听器睡眠仪跨品类布局常规，值得看的是其融资节奏与新消费健康定位。",
+        "rec_v3": "早期弱信号但资料完整；亮点是资本加持的智能健康品牌，国内创业者能抄其硬件加内容加渠道组合拳。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 39.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "家庭智能健康硬件（助听器/艾灸）",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "获天图、高瓴等多轮融资",
+        "产品涵盖智能艾灸盒/助听器/睡眠仪",
+        "聚焦家庭健康场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "助听器/睡眠仪等家庭健康硬件，助听器直接服务老年听力衰退"
+    },
+    {
+      "serial": "#0178",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 37.6,
+      "recommend": {
+        "rec_v1": "信号弱但2023营收5.4亿、高新企业信息可信；轮椅制氧机出口属常规制造，可学其欧美认证与外贸打法。",
+        "rec_v2": "声量低却经营数据透明；康复器械代工同质化高，差异在规模与认证，国内厂可抄其海外注册路径。",
+        "rec_v3": "早期弱信号但资料扎实；亮点是年收过5亿的出口型制造商，中小创业者能借鉴其认证加渠道出海模型。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 37.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "轮椅制氧机等康复器械出口商",
+      "founded": 2002,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "轮椅/制氧机/可移动病床",
+        "远销欧美",
+        "2023年营收5.4亿元，国家级高新技术企业"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "轮椅/制氧机等康复器械，主要服务老年及行动不便人群"
+    },
+    {
+      "serial": "#0179",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 29.6,
+      "recommend": {
+        "rec_v1": "信号弱且公开信息偏少；老年与神经康复设备属常规赛道差异化有限，国内创业者可参考其专科定位。",
+        "rec_v2": "声量低而资料单薄；康复器械制造同质化明显，值得看的是其神经康复细分切口，复制需研发积累。",
+        "rec_v3": "早期弱信号且信息不足；亮点在聚焦老年康复设备，国内可学其垂直病种切入，但硬件门槛不低。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 29.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "老年与神经康复设备制造商",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注老年康复和神经康复设备",
+        "研发制造一体化"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注老年康复与神经康复设备研发制造"
+    },
+    {
+      "serial": "#0180",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 3,
+      "research_value": 37.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但平安背书信息充分；CCRC全周期医康养闭环差异化强，重资产强品牌令创业者难直接复制。",
+        "rec_v2": "声量低却背景雄厚；高端持续照料社区模式清晰但牌照资本门槛高，可学其保险加康养联动逻辑。",
+        "rec_v3": "早期弱信号但资料完整；亮点在险企做养老社区的范本，国内创业者难抄其体量，能借鉴支付端设计。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 37.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "运营商",
+      "desc_cn": "高端CCRC持续照料康养品牌",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "平安集团旗下高端康养品牌",
+        "以CCRC持续照料退休社区为核心",
+        "落地广州、上海等地"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "平安旗下高端CCRC持续照料退休社区，服务活力及失能长者"
+    },
+    {
+      "serial": "#0181",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 8,
+      "copy_score": 8,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号弱但大湾区200余家机构信息扎实；吞咽障碍易食软餐差异化极强，国内老年营养空白可直接落地。",
+        "rec_v2": "声量低而信息量适中；保留食物原貌的软餐是反常识切口，政策利好养老膳食，创业者能抄其产品标准。",
+        "rec_v3": "早期弱信号但业务辨识高；金奖印证其适老食品创新，国内可学其医养机构加功能性食品供应模式。",
+        "info_score": 5,
+        "diff_score": 8,
+        "copy_score": 8,
+        "signal_strength": 0.55,
+        "research_value": 48.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "吞咽障碍适老功能性食品品牌",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注吞咽障碍功能性食品",
+        "易食软餐保留食物原貌",
+        "服务大湾区200余家医院及养老机构",
+        "获上海老年福祉产品创新创业大赛金奖"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "吞咽障碍适老功能性食品，服务老年及照护机构进食困难人群"
+    },
+    {
+      "serial": "#0182",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱但护理床市占率领先信息可信；硬件加租赁加适老化加云平台一站式差异化足，可学其产品矩阵。",
+        "rec_v2": "声量低却资料完整；把辅具租赁与适老改造打包是组合创新，国内创业者能抄其销售加服务双轮。",
+        "rec_v3": "早期弱信号但模式透明；亮点在自建数字化康养云平台，国内可借鉴其护理床流量反哺服务端打法。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费+政府补贴+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "智能护理床与适老化改造服务商",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "智能护理床+康复辅具租赁+适老化改造一站式",
+        "护理床类目市占率领先",
+        "自建数字化康养云平台"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能护理床与适老化改造，服务居家养老照护"
+    },
+    {
+      "serial": "#0183",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号弱但数百家直营门店信息清晰；家用医疗器械连锁属常规零售差异化有限，可学其线下网络。",
+        "rec_v2": "声量低而信息量适中；制氧机轮椅护理床零售同质化高，值得看其全国门店与电商并行，复制需供应链。",
+        "rec_v3": "早期弱信号但资料扎实；亮点是老牌家用医疗器械连锁，国内创业者能抄其体验店加配送下沉模型。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "家用医疗器械全国连锁零售商",
+      "founded": 2004,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "国内家用医疗器械连锁服务商",
+        "经营制氧机/轮椅/护理床/血糖仪等",
+        "全国数百家直营门店"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用医疗器械连锁，主营轮椅/护理床等老年辅具"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0172",
+      "name": "小V助浴",
+      "intro": "小V助浴是老年人上门助浴服务品牌，解决失能半失能老人洗澡难题。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0173",
+      "name": "小柏家护",
+      "intro": "小柏家护是互联网+医养照护上门服务平台，自建持证照护师队伍，微信下单智能派单。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0174",
+      "name": "小飞哥",
+      "intro": "小飞哥是浙江千喜集团旗下康复辅具品牌，主打电动轮椅、智能助行轮椅及老年代步车。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为康复辅具产品制造商，原role误标为制造商(硬件/设备)，建议规范为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0175",
+      "name": "尚体乐活",
+      "intro": "尚体（尚体运动健康）以乐活空间/长者运动健康之家连锁为社区老人提供体质检测与慢病运动干预。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0176",
+      "name": "就爱广场舞",
+      "intro": "就爱广场舞是中老年广场舞社区平台，提供教学视频与社交互动，用户超千万。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0177",
+      "name": "左点",
+      "intro": "左点是ZDEER旗下智能健康品牌，聚焦家庭健康场景，产品含智能艾灸盒、助听器、睡眠仪，获天图高瓴融资。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "助听器",
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为智能健康硬件品牌，原role误标为服务商(媒体/数据)，建议改为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0178",
+      "name": "巨贸康万家",
+      "intro": "江苏巨贸康万家医疗设备是康复器械制造商，主营轮椅、制氧机、可移动病床，远销欧美，2023营收5.4亿。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为康复器械制造商，原role误标为制造商(硬件/设备)，建议规范为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0179",
+      "name": "希润医疗",
+      "intro": "希润医疗是康复医疗器械品牌，专注老年康复和神经康复设备研发制造。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为康复设备制造商，原role误标为制造商(硬件/设备)，建议规范为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0180",
+      "name": "平安臻颐年",
+      "intro": "平安臻颐年是平安集团旗下高端康养品牌，以CCRC为核心提供全周期医康养服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "运营商",
+          "reason": "实际为CCRC康养社区运营商，原role误标为平台，建议改为运营商"
+        }
+      ]
+    },
+    {
+      "serial": "#0181",
+      "name": "康乐龄",
+      "intro": "康乐龄（香港Asaptic旗下SeniorDeli）专注吞咽障碍功能性食品，研发易食软餐、增稠剂与软化粉。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "功能性食品"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为功能性食品品牌，原role误标为制造商(硬件/设备)，建议改为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0182",
+      "name": "康力元",
+      "intro": "康力元是小橙集团旗下智慧养老品牌，提供智能护理床、康复辅具租赁、适老化改造与居家照护方案。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护理床",
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为智能护理床等产品商兼服务商，原role误标为制造商(硬件/设备)，建议改为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0183",
+      "name": "康复之家",
+      "intro": "北京康复之家健康管理集团是国内家用医疗器械连锁服务商，全国数百家直营门店。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "护理床"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(零售)",
+          "reason": "实际为家用医疗器械零售连锁，原role误标为服务商(媒体/数据)，建议改为服务商(零售)"
+        }
+      ]
+    }
+  ],
+  "nonsilver": []
+}

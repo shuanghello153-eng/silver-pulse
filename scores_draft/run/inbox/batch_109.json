@@ -1,0 +1,647 @@
+{
+ "batch": 109,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1325",
+   "name": "小橙集团",
+   "name_cn": "小橙集团",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "数字化医护养老",
+   "tags": [
+    "居家护理",
+    "专业护理"
+   ],
+   "description": "数字化医护养老企业，提供智能护理与居家养老服务；2023年完成近亿元融资(产业方领投、香椽资本等跟投)，同年12月再获数千万元战略融资加速数字化布局。",
+   "highlights": "国产'数字化医护养老'规模化标的，融资节奏密集；对国内居家养老运营数字化有对照价值（S2热点+S1规模+S4）。",
+   "funding_latest": {
+    "amount": "数千万元",
+    "round": "战略融资",
+    "date": "2023-12",
+    "display": "战略融资 数千万元 (2023-12)"
+   },
+   "funding_total": {
+    "amount": "累计近亿元+",
+    "display": "累计近亿元+"
+   },
+   "investors": "产业方领投, 香椽资本等",
+   "founded": "",
+   "value_score": 0,
+   "source": "ITH康养家/搜狐《2023智慧康养融资》(2023-12)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "数字化医护养老，智能护理+居家养老服务。",
+   "desc_cn": "数字化医护养老企业，提供智能护理与居家养老服务；2023年完成近亿元融资(产业方领投、香椽资本等跟投)，同年12月再获数千万元战略融资加速数字化布局。",
+   "business_model_cn": "数字化医护养老运营",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "数字化医护养老企业，提供智能护理与居家养老服务；2023年完成近亿元融资(产业方领投、香椽资本等跟投)，同年12月再获数千万元战略融资加速数字化布局。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "专业护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【小橙集团】聚焦产业资本/数字化，国产'数字化医护养老'规模化标的，融资节奏密集；对国内居家养老运营数字化有对照价值（S2热点+S1规模+S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1326",
+   "name": "脂代科技",
+   "name_cn": "脂代科技",
+   "region": "国内",
+   "category_l1": "银发消费/健康",
+   "category_l2": "老年营养/功能食品",
+   "tags": [
+    "功能性食品"
+   ],
+   "description": "甘油二酯油创新企业，产品主打健康油脂，销量达百万瓶、中老年顾客占比约80%；近期获超亿元融资。",
+   "highlights": "'中老年占80%'的功能食品标的，验证银发健康食品真实需求；对国内'银发营养/适老食品'创业有直接借鉴（S2融资+S3差异化+S4）。",
+   "funding_latest": {
+    "amount": "超亿元",
+    "round": "未披露",
+    "date": "",
+    "display": "未披露 超亿元"
+   },
+   "funding_total": {
+    "amount": "累计超亿元",
+    "display": "累计超亿元"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "百家号/AgeClub《甘油二酯油企业获超亿元融资》(2025-07)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "银发向功能食品(甘油二酯油)，健康油脂品牌。",
+   "desc_cn": "甘油二酯油创新企业，产品主打健康油脂，销量达百万瓶、中老年顾客占比约80%；近期获超亿元融资。",
+   "business_model_cn": "银发功能食品(甘油二酯油)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "甘油二酯油创新企业，产品主打健康油脂，销量达百万瓶、中老年顾客占比约80%；近期获超亿元融资。"
+    ]
+   },
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "功能性食品"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【脂代科技】聚焦产业资本/营养食品，'中老年占80%'的功能食品标的，验证银发健康食品真实需求；对国内'银发营养/适老食品'创业有直接借鉴（S2融资+S3差异化+S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1327",
+   "name": "沐之爱",
+   "name_cn": "沐之爱",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "智慧养老平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "自主研发GBCS一体化智慧养老服务平台，以'四端协同'架构覆盖政府/机构/社区/家庭场景，提供一站式养老运营系统。",
+   "highlights": "国产智慧养老平台典型，'四端协同'架构对理解国内toG/toB养老信息化落地有样本价值（S4）。",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "博客园《2026养老服务平台选型指南》(2026-07)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "GBCS一体化智慧养老SaaS平台(政府/机构/社区/家庭四端)。",
+   "desc_cn": "自主研发GBCS一体化智慧养老服务平台，以'四端协同'架构覆盖政府/机构/社区/家庭场景，提供一站式养老运营系统。",
+   "business_model_cn": "一体化智慧养老SaaS平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "自主研发GBCS一体化智慧养老服务平台，以'四端协同'架构覆盖政府/机构/社区/家庭场景，提供一站式养老运营系统。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【沐之爱】聚焦数字化，国产智慧养老平台典型，'四端协同'架构对理解国内toG/toB养老信息化落地有样本价值（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1328",
+   "name": "华康岛",
+   "name_cn": "华康岛",
+   "region": "国内",
+   "category_l1": "适老化",
+   "category_l2": "适老化改造",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "安徽华康岛科技有限公司旗下品牌，专注适老化改造，以'八心八养'体系提供居家适老化空间与智能硬件方案。",
+   "highlights": "适老化物理改造+智能硬件结合的家装路线，是'居家适老化'民生刚需样本，对国内适老化改造规模化有借鉴（S4）。",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "搜狐《2026适老化改造加盟机遇》(2026)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "适老化改造品牌，居家空间+智能硬件方案(加盟模式)。",
+   "desc_cn": "安徽华康岛科技有限公司旗下品牌，专注适老化改造，以'八心八养'体系提供居家适老化空间与智能硬件方案。",
+   "business_model_cn": "适老化改造(加盟)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "安徽华康岛科技有限公司旗下品牌，专注适老化改造，以'八心八养'体系提供居家适老化空间与智能硬件方案。"
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【华康岛】聚焦适老化改造，适老化物理改造+智能硬件结合的家装路线，是'居家适老化'民生刚需样本，对国内适老化改造规模化有借鉴（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1329",
+   "name": "伊维养老",
+   "name_cn": "伊维养老",
+   "region": "国内",
+   "category_l1": "适老化",
+   "category_l2": "适老化智能硬件",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "辽宁厚嘉科技有限公司旗下品牌，深耕适老化智能硬件与物理空间改造垂直赛道，强调'适老细节'的产品逻辑。",
+   "highlights": "与华康岛形成'适老化硬件'对照；强调产品细节的本土硬件公司，对国内适老化智能硬件选品有参考价值（S4）。",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "QQ新闻《2026养老院适老化改造市场洞察》(2026)",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "适老化智能硬件+空间改造(垂直深耕)。",
+   "desc_cn": "辽宁厚嘉科技有限公司旗下品牌，深耕适老化智能硬件与物理空间改造垂直赛道，强调'适老细节'的产品逻辑。",
+   "business_model_cn": "适老化智能硬件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "辽宁厚嘉科技有限公司旗下品牌，深耕适老化智能硬件与物理空间改造垂直赛道，强调'适老细节'的产品逻辑。"
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【伊维养老】聚焦健康监测/智能硬件，与华康岛形成'适老化硬件'对照；强调产品细节的本土硬件公司，对国内适老化智能硬件选品有参考价值（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1337",
+   "name": "MyndYou",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "认知症",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "AI 语音+活动分析远程监测认知变化。",
+   "highlights": "成立于2016年",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "BIRD基金90万美元",
+    "round": "早期",
+    "display": "BIRD基金$0.9M"
+   },
+   "funding_total": {
+    "amount": "约$200万",
+    "display": "累计约$200万"
+   },
+   "investors": "BIRD基金",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "信源治理入库(以色列经部) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.myndyou.com",
+   "business_model": "B2B SaaS",
+   "desc_cn": "AI 语音+活动分析远程监测认知变化。",
+   "business_model_cn": "B2B 远程监测",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1339",
+   "name": "SingFit",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "认知症",
+   "tags": [
+    "文娱"
+   ],
+   "description": "治疗性音乐/歌唱数字疗法，非药物改善痴呆认知。",
+   "highlights": "成立于2014年",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "早期/孵化",
+    "round": "早期",
+    "display": "孵化器阶段"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "2014",
+   "value_score": 0,
+   "source": "信源治理入库(CB/AgeTech) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.singfit.com",
+   "business_model": "B2B2C",
+   "desc_cn": "治疗性音乐/歌唱数字疗法，非药物改善痴呆认知。",
+   "business_model_cn": "B2B2C 音乐疗法",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1340",
+   "name": "Optina Diagnostics",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "认知症",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "视网膜高光谱成像检测脑淀粉样蛋白，AD 早筛。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "超3000万美元",
+    "round": "成长",
+    "display": ">$30M"
+   },
+   "funding_total": {
+    "amount": "超$3000万",
+    "display": "累计>$30M"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(ADDF) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.optinadiagnostics.com",
+   "business_model": "B2B设备",
+   "desc_cn": "视网膜高光谱成像检测脑淀粉样蛋白，AD 早筛。",
+   "business_model_cn": "B2B 影像诊断",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1341",
+   "name": "MonSenior",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家护理",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "老年人生活辅助与良好老龄化服务平台（法国）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Silvereco) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C平台",
+   "desc_cn": "老年人生活辅助与良好老龄化服务平台（法国）。",
+   "business_model_cn": "B2C 生活辅助",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1342",
+   "name": "Agely Care",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "老年人护理与陪伴服务（法国）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Silvereco) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C服务",
+   "desc_cn": "老年人护理与陪伴服务（法国）。",
+   "business_model_cn": "B2C 护理陪伴",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1343",
+   "name": "Assystel",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "远程监护",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "远程协助与家庭安全警报（法国）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Silvereco) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C设备",
+   "desc_cn": "远程协助与家庭安全警报（法国）。",
+   "business_model_cn": "B2C 安全警报",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1344",
+   "name": "Xray Moov",
+   "region": "海外",
+   "category_l1": "医疗服务",
+   "category_l2": "上门医疗",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "上门医疗影像/放射检查移动服务（法国）。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "未披露",
+    "amount": "未披露",
+    "round": "未披露",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(Silvereco) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C服务",
+   "desc_cn": "上门医疗影像/放射检查移动服务（法国）。",
+   "business_model_cn": "B2C 上门影像",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

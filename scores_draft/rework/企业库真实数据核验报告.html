@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang=zh><head><meta charset=utf-8>
+<title>企业库真实数据核验报告</title>
+<style>body{font-family:-apple-system,'Microsoft YaHei',sans-serif;margin:24px;color:#222;line-height:1.6}
+h1{font-size:20px} h2{font-size:16px;margin-top:28px;border-left:4px solid #2b6cb0;padding-left:8px}
+table{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}
+th,td{border:1px solid #ddd;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f4f6f8}
+.kpi{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
+.card{flex:1;min-width:150px;border:1px solid #ddd;border-radius:8px;padding:12px;background:#fafbfc}
+.card b{font-size:22px;display:block;color:#2b6cb0}
+.note{background:#fff8e1;border:1px solid #ffe082;padding:10px 12px;border-radius:6px;margin:10px 0}
+.warn{background:#fde8e8;border:1px solid #f56565;padding:10px 12px;border-radius:6px;margin:10px 0}
+code{background:#eee;padding:1px 4px;border-radius:3px}</style></head><body>
+<h1>企业库真实数据核验报告（2026-07-19 实测，可复现）</h1>
+<p>数据来源：<code>data/enterprise/all_enterprises.json</code>（1502家）+ <code>drafts_v4/</code>（1039家草稿）。
+门禁：<code>check_single.py</code> V4。本页只列真实数据，不含主观评价。</p>
+
+<div class=kpi>
+<div class=card><b>1039</b>草稿匹配主库</div>
+<div class=card><b>1001/1039</b>推荐理由写作质量通过（96%）</div>
+<div class=card><b>839/1039</b>整条记录全字段通过（80%）</div>
+<div class=card><b>41</b>企业库总字段数</div>
+</div>
+
+<div class=warn><b>问题1 · 合并工具会漏掉 241 家：</b>
+<code>merge_v4.py</code> 只读取 <code>draft_#*.json</code> 命名的文件，但磁盘上有 241 个草稿名为 <code>draft_0013.json</code>（无 #），它们会被工具直接跳过、永不入库。例：draft_0013.json, draft_0023.json, draft_0024.json, draft_0026.json, draft_0035.json, draft_0040.json…</div>
+
+<div class=warn><b>问题2 · 范围鸿沟（需你拍板）：</b>
+上一个 AI 的流程与 <code>merge_v4.py</code> 只在主库写回 <b>4 个字段</b>（recommend/desc_cn/silver_reason/payor_model）。
+其余 35 个字段（投融资/阶段/事件/亮点/地区等）流程<b>完全不碰</b>。你的目标是"所有字段填到100分"。两者范围不一致。</div>
+
+<h2>一、企业库 41 个字段 · 填充率与分类</h2>
+<p>说明：填充率=有值的家数占比。几乎所有字段都已"有值"(100%)；门禁不达标是因为<b>值太短/用词不规范</b>，不是空白。</p>
+<table><tr><th>字段名</th><th>分类</th><th>已填</th><th>填充率</th></tr><tr><td>_legacy_rec</td><td>④疑似废弃</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>business_model</td><td>⑤源数据字段</td><td>1210/1502</td><td>80%</td></tr>
+<tr><td>business_model_cn</td><td>⑤源数据字段</td><td>1329/1502</td><td>88%</td></tr>
+<tr><td>business_tags</td><td>③标签(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>category_l1</td><td>③标签(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>category_l2</td><td>③标签(不碰)</td><td>1500/1502</td><td>99%</td></tr>
+<tr><td>copy_score</td><td>②评分(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>crunchbase_url</td><td>⑤源数据字段</td><td>1181/1502</td><td>78%</td></tr>
+<tr><td>desc_cn</td><td>①返工4字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>description</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>diff_score</td><td>②评分(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>events</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>flag</td><td>⑤源数据字段</td><td>1318/1502</td><td>87%</td></tr>
+<tr><td>founded</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>funding_latest</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>funding_total</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>highlights</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>info_score</td><td>②评分(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>ingest_time</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>investors</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>name</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>name_cn</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>needs_review</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>news_coverage</td><td>⑤源数据字段</td><td>1366/1502</td><td>90%</td></tr>
+<tr><td>payor_model</td><td>①返工4字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>recommend</td><td>①返工4字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>region</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>research_value</td><td>②评分(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>serial</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>signal_strength</td><td>②评分(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>silver_reason</td><td>①返工4字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>silver_verdict</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>source</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>stage</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>tag_l1</td><td>③标签(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>tag_l2</td><td>③标签(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>tags</td><td>③标签(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>update_time</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>value_score</td><td>②评分(不碰)</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>website_url</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+<tr><td>数据来源</td><td>⑤源数据字段</td><td>1502/1502</td><td>100%</td></tr>
+</table>
+
+<h2>二、1039 家草稿 · 推荐理由写作质量门禁（只看文本，不含另三列）</h2>
+<p>通过 1001 / 未过 38。未过几乎全是"推荐理由与自家简介有一句≥10字雷同"（门禁阈值偏紧，你此前让我先不动）。</p>
+<table><tr><th>企业</th><th>字数</th><th>推荐理由原文</th><th>门禁判死原因</th></tr><tr><td>1255 Cartken</td><td>142</td><td>做自主配送机器人商，把餐食与药品送达养老机构、社区与居家老人、缓解一线人力短缺，养老机器人信号明确、场景刚需但偏硬件；配送调度与楼宇适配数据构成信息量。差异化在把院内物流做成可自主移动的机器人，比人工配送更稳；国内养老机构可复制其配送机器人打法，但导航安全、乘梯适配与老人观感是门槛。</td><td>R-field-dedup:与desc_cn雷同(10字≥10阈值)</td></tr>
+<tr><td>1259 Lifted</td><td>140</td><td>做英国AI非穿戴养老监测商，用环境传感器捕捉跌倒离床等突发状况并自动告警家属与护理方，养老跌倒监测信号偏强、无穿戴是亮点但偏机构；异常识别与告警数据构成信息量。差异化在把监测藏进环境而非可穿戴，比手环更无感；国内养老机构可复制其非穿戴监测打法，但误报治理、隐私与跨场景适配是门槛。</td><td>R-field-dedup:与desc_cn雷同(12字≥10阈值)</td></tr>
+<tr><td>1277 Mayden</td><td>157</td><td>做英国心理与护理电子健康档案SaaS商，以iaptus等系统覆盖老年心理照护与机构记录，养老软件信号偏弱、偏机构与医疗但适老价值在照护协同；电子病历与场景数据构成信息量。差异化在把老年心理照护做成结构化可追踪的系统，比纸质记录更连贯；国内养老机构可复制其护理档案系统打法，但本土心理照护供给、数据标准与隐私是前提。</td><td>R4:未落到本企业具体事实(无数字/无tag锚点); R-field-dedup:与desc_cn雷同(11字≥10阈值); R-field-dedup:与silver_reason雷同(11字≥10阈值)</td></tr>
+<tr><td>1288 钛米机器人</td><td>148</td><td>做医疗服务机器人商（TMiRob），产品覆盖消毒、配送与巡检等机型、并延展到养老与医养一线，养老机器人信号明确、多机型矩阵但适老打磨待验；机器人本体与场景数据构成信息量。差异化在把医疗机器人能力平移到养老场景，比单功能设备更宽；国内养老机构可复制其医疗机器人打法，但成本、合规与老人接受度是门槛。</td><td>R-field-dedup:与description(英文)雷同(11字≥10阈值)</td></tr>
+<tr><td>1289 LOVOT</td><td>148</td><td>做日本情感陪伴机器人商（Groove X），以可爱外形与互动为独居老人与家庭提供情感抚慰，养老陪伴机器人信号明确、产品调性清晰但客群窄；萌系交互与家庭渗透数据构成信息量。差异化在把陪伴做成可互动的萌系机器人，比单向音箱更暖；国内养老机构可复制其情感陪伴硬件思路，但文化差异、价格与老人接受度是门槛。</td><td>R-field-dedup:与desc_cn雷同(12字≥10阈值); R-field-dedup:与description(英文)雷同(12字≥10阈值)</td></tr>
+</table>
+
+<h2>三、推荐理由写作「通过」真实样例（你能直接读，判断质量）</h2>
+<table><tr><th>企业</th><th>字数</th><th colspan=2>推荐理由原文</th></tr><tr><td>0001 AgeClub</td><td>154</td><td colspan=2>银发产业B2B服务平台，以媒体、大会、咨询、数据库与创投五大矩阵变现，700余家企业客户、触达30万以上从业者，未融资。差异在把分散的银发信息聚成可决策智库、做产业连接器，国内银发热但信息碎、可对标；可借鉴其媒体加数据打法，但依赖人脉与会议、线上化弱，且非营利强、复制靠资源，适合做银发产业信息基础设施案例。</td></tr>
+<tr><td>0003 乐湾</td><td>173</td><td colspan=2>智慧康养全场景SaaS商，自研云平台连通机构、社区与居家，服务3000多家养老单位、遍布15省近百万长者，规模数据清晰，2024年A轮、推AI数字员工。它把三类场景运营连成一片、做连片经营，差异在全域打通而非单点，国内养老数字化分散、可对标；可借鉴其全域SaaS思路，但区域性强、实施重，且国企与政府客户难被创业公司抢，适合做养老数字化平台案例。</td></tr>
+<tr><td>0006 共比邻</td><td>80</td><td colspan=2>2025年过亿A轮、500万用户的旅游平台信号清晰；差异在纯玩无购物+高频生鲜带低频旅游，打法重信任。国内银发游可借鉴其会员闭环，复制难在社区线下小店与供应链。</td></tr>
+</table>
+
+<h2>四、整条记录全字段门禁未过原因分布</h2>
+<table><tr><th>规则</th><th>命中次数</th></tr><tr><td>R7</td><td>187</td></tr><tr><td>R6</td><td>178</td></tr><tr><td>R8</td><td>148</td></tr><tr><td>R-field-dedup</td><td>65</td></tr><tr><td>R4</td><td>4</td></tr><tr><td>R-filler</td><td>4</td></tr><tr><td>R-integrity</td><td>3</td></tr><tr><td>R-name</td><td>2</td></tr></table>
+<p>注：R7(silver_reason&lt;30字) 187 次、R6(desc_cn&lt;80字) 178 次、R8(payor非规范) 148 次——
+这三项说明草稿里很多只写了推荐理由、没带另三列，合入后另三列仍是主库旧值。</p>
+
+<h2>五、草稿携带字段情况</h2>
+<p>带 recommend+desc+silver+payor 全4项：<b>612</b> 家 ｜ 带部分：<b>90</b> 家 ｜ 只带 recommend：<b>337</b> 家</p>
+
+<h2>六、疑似废弃字段（请你确认）</h2>
+<table><tr><th>字段</th><th>证据</th></tr>
+<tr><td>_legacy_rec</td><td>旧版推荐理由字典（rec_v1/rec_v2/rec_v3），已被 recommend 取代，0家为空壳但168家残留旧值</td></tr>
+<tr><td>数据来源 (带空格)</td><td>字段名含尾随空格的错别字段，0家有任何值，纯垃圾</td></tr>
+<tr><td>数据来源 / source</td><td>两个来源字段并存（中文"数据来源"492家有值、英文"source"1502家有值），疑似重复，需确认保留哪个</td></tr>
+<tr><td>needs_review</td><td>疑似流程标记位，仅24家有值，可能已废弃</td></tr>
+</table>
+
+<div class=note>复现命令（在 <code>scores_draft/rework/</code> 下）：<br>
+<code>PYTHONIOENCODING=utf-8 python _gate_drafts_real.py</code> （本报告数据即由此脚本算出）</div>
+</body></html>

@@ -1,0 +1,507 @@
+{
+ "batch": 72,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0723",
+   "name": "HarmonyCares",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "HarmonyCares（前身为 U.S. Medical Management）是美国最大的上门初级医疗(house call)机构之一，由医生带队为行动不便的慢性病长者提供居家看诊、护理协调与按价值付费的综合照护；服务覆盖 15–17 个州、7 万+ 患者，2024 年完成约 2 亿美元融资。原标签误归为'保健品/营养食品'，实为居家医疗服务。",
+   "highlights": "15个州7万+患者",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "2亿美元",
+    "display": "2亿美元 (2024年7月)"
+   },
+   "funding_total": "$200M",
+   "investors": "Valtruis (and others)",
+   "founded": "1993",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=HarmonyCares",
+   "website_url": "https://harmonycares.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "HarmonyCares（前身为 U.S. Medical Management）是美国最大的上门初级医疗(house call)机构之一，由医生带队为行动不便的慢性病长者提供居家看诊、护理协调与按价值付费的综合照护；服务覆盖 15–17 个州、7 万+ 患者，2024 年完成约 2 亿美元融资。原标签误归为'保健品/营养食品'，实为居家医疗服务。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【HarmonyCares】聚焦产业资本/保健品/居家护理，15个州7万+患者，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0724",
+   "name": "Hazel",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "尿失禁"
+   ],
+   "description": "为40-70岁女性开发现代失禁尿布",
+   "highlights": "为40-70岁女性开发现代失禁尿布",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "40万美元",
+    "display": "40万美元 (2024年4月)"
+   },
+   "funding_total": "$87.5M",
+   "investors": "Bain Capital Ventures, California Health Care Foundation, Memorial Hermann",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hazel",
+   "website_url": "https://www.hazel.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "为40-70岁女性开发现代失禁尿布",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hazel】聚焦专业护理/产业资本/女性健康，为40-70岁女性开发现代失禁尿布，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0726",
+   "name": "HealthArc",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "慢病管理",
+    "可穿戴监测"
+   ],
+   "description": "HealthArc 是统一的虚拟照护平台，提供远程患者监测(RPM)与慢病管理(CCM)等模块，可整合 40+ 款健康监测设备，面向医疗机构、支付方与雇主；宣称服务 6.5 万患者，以 B2B SaaS 模式帮助医生开展按服务付费的远程照护。原标签'养老信息平台'不准确，实为慢病/远程监测软件平台。",
+   "highlights": "远程患者监控、护理和协调平台",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "500万美元",
+    "display": "500万美元 (2024年4月)"
+   },
+   "funding_total": "$5.0M",
+   "investors": "5 investors (undisclosed)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=HealthArc",
+   "website_url": "https://www.healtharc.ai",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "HealthArc 是统一的虚拟照护平台，提供远程患者监测(RPM)与慢病管理(CCM)等模块，可整合 40+ 款健康监测设备，面向医疗机构、支付方与雇主；宣称服务 6.5 万患者，以 B2B SaaS 模式帮助医生开展按服务付费的远程照护。原标签'养老信息平台'不准确，实为慢病/远程监测软件平台。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "养老服务",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "慢病管理",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【HealthArc】聚焦专业护理/产业资本/远程医疗，远程患者监控、护理和协调平台，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0731",
+   "name": "Help-full",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "家政"
+   ],
+   "description": "将老年人与有共同兴趣的人配对，做饭、洗衣等",
+   "highlights": "做饭、洗衣等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Help-full",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "将老年人与有共同兴趣的人配对，做饭、洗衣等",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "家政"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Help-full】聚焦文娱社交/行业媒体，做饭、洗衣等，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0733",
+   "name": "Heyday Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "远程医疗",
+    "保险"
+   ],
+   "description": "虚拟价值型医疗服务，Medicare和双重合格患者",
+   "highlights": "Medicare和双重合格患者",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "1250万美元",
+    "display": "1250万美元 (2024年6月)"
+   },
+   "funding_total": "$12.5M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Heyday%20Health",
+   "website_url": "https://www.heydayhealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "虚拟价值型医疗服务，Medicare和双重合格患者",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务",
+    "金融保险"
+   ],
+   "tag_l2": [
+    "远程医疗",
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Heyday Health】聚焦产业资本/健康管理/居家护理，Medicare和双重合格患者，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0734",
+   "name": "Hibiscus Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "面部血流分析技术30秒检测早期糖尿病风险",
+   "highlights": "面部血流分析技术30秒检测早期糖尿病风险",
+   "funding_latest": null,
+   "funding_total": "$500K",
+   "investors": "",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hibiscus%20Health",
+   "website_url": "https://hibiscushealth.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "面部血流分析技术30秒检测早期糖尿病风险",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hibiscus Health】聚焦健康监测/慢病管理，面部血流分析技术30秒检测早期糖尿病风险，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0735",
+   "name": "HiDO",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "智能药盒",
+    "用药提醒",
+    "用药管理"
+   ],
+   "description": "患者友好型设备+移动APP，用药自动化",
+   "highlights": "用药自动化",
+   "funding_latest": {
+    "amount": "100万美元+",
+    "display": "100万美元+"
+   },
+   "funding_total": null,
+   "investors": "Right Side Capital Management, Startup Haven Ventures",
+   "founded": "2020",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=HiDO",
+   "website_url": "https://www.hidohealth.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "患者友好型设备+移动APP，用药自动化",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "智能药盒",
+    "用药提醒",
+    "用药管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【HiDO】聚焦产业资本/健康管理/康复，用药自动化，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0737",
+   "name": "HomeCare.com",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "家庭护理转介服务",
+   "highlights": "家庭护理转介服务",
+   "funding_latest": {
+    "date": "2023年1月",
+    "amount": "8660万美元+",
+    "display": "8660万美元+ (2023年1月)"
+   },
+   "funding_total": "$106M",
+   "investors": "3TS Capital Partners, Blue Heron Capital, Motley Fool Ventures",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=HomeCare.com",
+   "website_url": "https://www.homecare.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "家庭护理转介服务",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【HomeCare.com】聚焦产业资本/居家护理/护理平台，家庭护理转介服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0739",
+   "name": "Hyfe AI",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "AI咳嗽检测和分类，7亿+样本，55岁以上占74%",
+   "highlights": "7亿+样本",
+   "funding_latest": {
+    "amount": "几百万",
+    "display": "几百万"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hyfe%20AI",
+   "website_url": "https://www.hyfeapp.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI咳嗽检测和分类，7亿+样本，55岁以上占74%",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hyfe AI】聚焦产业资本/健康监测/文娱社交，7亿+样本，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0742",
+   "name": "In-House Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "In-House Health 是面向现代护理团队的 AI 技术平台（2023 年成立于丹佛，2024 年完成 400 万美元种子轮，投资方含 NEA、Longevity Venture Partners），用机器学习自动化护士排班与人力调度工作流，根据历史数据从分诊到出院生成班次建议，改善床边体验、患者安全与财务结果。它服务医院护理运营，与养老照护间接相关。",
+   "highlights": "AI驱动的护理团队调度和管理平台",
+   "funding_latest": {
+    "amount": "400万美元",
+    "display": "400万美元"
+   },
+   "funding_total": "$5.4M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=In-House%20Health",
+   "website_url": "https://www.inhousehealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "In-House Health 是面向现代护理团队的 AI 技术平台（2023 年成立于丹佛，2024 年完成 400 万美元种子轮，投资方含 NEA、Longevity Venture Partners），用机器学习自动化护士排班与人力调度工作流，根据历史数据从分诊到出院生成班次建议，改善床边体验、患者安全与财务结果。它服务医院护理运营，与养老照护间接相关。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【In-House Health】聚焦产业资本/文娱社交，AI驱动的护理团队调度和管理平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0745",
+   "name": "InHome Therapy",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "居家康复"
+   ],
+   "description": "InHome Therapy 是居家康养领域的外包康复治疗服务商（2021 年成立），为家庭健康机构(home health agency)提供物理、作业与言语治疗师的派驻与全流程管理（薪酬、培训、合规），让机构在 48 小时内获得上门治疗人力；自称累计 250 万+ 患者访问、合作 350+ 家机构。其模式为 B2B 康复治疗人力供应。",
+   "highlights": "家庭护理和康复提供商",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "510万美元",
+    "display": "510万美元 (2024年6月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=InHome%20Therapy",
+   "website_url": "https://www.inhometherapy.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "InHome Therapy 是居家康养领域的外包康复治疗服务商（2021 年成立），为家庭健康机构(home health agency)提供物理、作业与言语治疗师的派驻与全流程管理（薪酬、培训、合规），让机构在 48 小时内获得上门治疗人力；自称累计 250 万+ 患者访问、合作 350+ 家机构。其模式为 B2B 康复治疗人力供应。",
+   "business_model_cn": "B2B/B2C 康复设备与运动康复",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家康复"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【InHome Therapy】聚焦产业资本/居家护理/康复，家庭护理和康复提供商，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0746",
+   "name": "Isaac Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+   "highlights": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+   "funding_latest": null,
+   "funding_total": "$10.5M",
+   "investors": "Flare Capital Partners (lead), Industry Ventures, Black Opal Ventures",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Isaac%20Health",
+   "website_url": "https://isaac.health",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "虚拟大脑健康和痴呆症护理数字健康初创公司",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Isaac Health】聚焦健康管理/居家护理/行业媒体，虚拟大脑健康和痴呆症护理数字健康初创公司，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

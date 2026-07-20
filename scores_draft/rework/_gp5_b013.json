@@ -1,0 +1,272 @@
+{
+ "#0776": {
+  "serial": "#0776",
+  "name": "MedArrive",
+  "name_cn": "MedArrive",
+  "business": null,
+  "desc_cn": "B2B健康险服务",
+  "tag_l1": [
+   "康复辅具",
+   "养老服务"
+  ],
+  "tag_l2": [
+   "智能药盒",
+   "SDOH"
+  ],
+  "tag_l3": null,
+  "funding_latest": {
+   "date": "2022年2月",
+   "amount": "3284万美元",
+   "display": "3284万美元 (2022年2月)"
+  },
+  "funding_total": "$8M",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "连接患者与按需医疗运输"
+ },
+ "#0778": {
+  "serial": "#0778",
+  "name": "MedMinder",
+  "name_cn": "MedMinder",
+  "business": null,
+  "desc_cn": "联网药房护理，触摸屏自动药丸分配器",
+  "tag_l1": [
+   "康复辅具",
+   "消费品"
+  ],
+  "tag_l2": [
+   "智能药盒",
+   "用药管理",
+   "药品配送"
+  ],
+  "tag_l3": null,
+  "funding_latest": {
+   "date": "2024年4月",
+   "amount": "250万美元",
+   "display": "250万美元 (2024年4月)"
+  },
+  "funding_total": "$62.7M",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "触摸屏自动药丸分配器"
+ },
+ "#0784": {
+  "serial": "#0784",
+  "name": "Mighty Health",
+  "name_cn": "Mighty Health",
+  "business": null,
+  "desc_cn": "面向50+人群，多合一运动、营养和健康计划",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "健身"
+  ],
+  "tag_l3": null,
+  "funding_latest": {
+   "amount": "760万美元",
+   "display": "760万美元"
+  },
+  "funding_total": "$10.5M",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "个人自费+部分政府补贴",
+  "highlights": "多合一运动、营养和健康计划"
+ },
+ "#0786": {
+  "serial": "#0786",
+  "name": "MindAhead",
+  "name_cn": "MindAhead",
+  "business": null,
+  "desc_cn": "基于行为激活的治疗应用程序，轻度认知障碍和痴呆症",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "心理健康"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "轻度认知障碍和痴呆症"
+ },
+ "#0787": {
+  "serial": "#0787",
+  "name": "MindMics",
+  "name_cn": "MindMics",
+  "business": null,
+  "desc_cn": "日常耳机改造成健康监测器，次声波技术心血管监测",
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "心血管"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "次声波技术心血管监测"
+ },
+ "#0790": {
+  "serial": "#0790",
+  "name": "Moneta Health",
+  "name_cn": "Moneta Health",
+  "business": null,
+  "desc_cn": "AI辅助认知康复虚拟诊所，基于医疗保险报销，平均认知改善18%",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "诊所"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "$4.5M",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "政府医保/商业保险支付",
+  "highlights": "基于医疗保险报销"
+ },
+ "#0792": {
+  "serial": "#0792",
+  "name": "More Life Health",
+  "name_cn": "More Life Health",
+  "business": null,
+  "desc_cn": "老年人在线锻炼",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "健身"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "个人自费+部分政府补贴",
+  "highlights": "老年人在线锻炼"
+ },
+ "#0794": {
+  "serial": "#0794",
+  "name": "Naborforce",
+  "name_cn": "Naborforce",
+  "business": null,
+  "desc_cn": "按次服务费/B2B",
+  "tag_l1": [
+   "养老服务",
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "家政",
+   "陪伴服务"
+  ],
+  "tag_l3": null,
+  "funding_latest": {
+   "date": "2022",
+   "amount": "未披露",
+   "round": "Series A",
+   "display": "Series A 未披露 (2022)"
+  },
+  "funding_total": {
+   "amount": "$13.7M",
+   "display": "累计$13.7M"
+  },
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "老年人按需陪伴与支持平台，Techstars孵化，Richmond VA"
+ },
+ "#0795": {
+  "serial": "#0795",
+  "name": "Navel",
+  "name_cn": "Navel",
+  "business": null,
+  "desc_cn": "下一代社交机器人，在德国多家养老院使用",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "陪伴机器人"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "在德国多家养老院使用"
+ },
+ "#0798": {
+  "serial": "#0798",
+  "name": "NeuroNation",
+  "name_cn": "NeuroNation",
+  "business": null,
+  "desc_cn": "强化大脑，日常记忆训练",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "认知训练"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "€6M",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "个人自费/家庭自费",
+  "highlights": "日常记忆训练"
+ },
+ "#0799": {
+  "serial": "#0799",
+  "name": "NewRetirement",
+  "name_cn": "NewRetirement",
+  "business": null,
+  "desc_cn": "数字优先退休理财规划服务",
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "tag_l3": null,
+  "funding_latest": {
+   "date": "2024年3月",
+   "amount": "2000万美元",
+   "display": "2000万美元 (2024年3月)"
+  },
+  "funding_total": "$20M",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "数字优先退休理财规划服务"
+ },
+ "#0800": {
+  "serial": "#0800",
+  "name": "NexStride",
+  "name_cn": "NexStride",
+  "business": null,
+  "desc_cn": "小型设备连接助行器，灯光和声音信号帮助行走",
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "助行器"
+  ],
+  "tag_l3": null,
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "domestic": null,
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "payor_model": "B端机构采购/政府买单",
+  "highlights": "灯光和声音信号帮助行走"
+ }
+}

@@ -1,0 +1,748 @@
+{
+ "batch": 10,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0037",
+   "name": "远也",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "外骨骼",
+    "助行器",
+    "可穿戴监测"
+   ],
+   "description": "柔性外骨骼和智能穿戴企业，研发轻便型助行外骨骼，为老年人和行动不便人群提供日常助行支持。",
+   "highlights": "研发轻便型助行外骨骼",
+   "funding_latest": {
+    "date": "2021-04",
+    "amount": "10000000",
+    "round": "A",
+    "display": "A $1000万 (2021-04)"
+   },
+   "funding_total": {
+    "amount": "超千万美元",
+    "display": "累计超千万美元"
+   },
+   "investors": "碧桂园创投、乔贝资本领投，高瓴资本、BV百度风投、线性资本跟投",
+   "founded": "2018",
+   "value_score": 41,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%BF%9C%E4%B9%9F",
+   "website_url": "https://www.rokae.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "name_cn": "远也",
+   "desc_cn": "柔性外骨骼和智能穿戴企业，研发轻便型助行外骨骼，为老年人和行动不便人群提供日常助行支持。",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "news_coverage": {
+    "news_count": 14,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "远也科技获央视新质生产力年度殊荣",
+      "date": "2025-01-22",
+      "source": "新浪财经",
+      "url": "https://finance.sina.cn/2025-01-22/detail-inefvzcy5534079.d.html"
+     },
+     {
+      "title": "远也科技'肌肉外甲'引领康复新潮流",
+      "date": "2025-01-21",
+      "source": "腾讯云",
+      "url": "https://cloud.tencent.com/developer/news/2108177"
+     }
+    ],
+    "snippets": [
+     "远也科技(Yrobot)研发柔性可穿戴'肌肉外甲',用于偏瘫等康复",
+     "2024年产品获国内医疗器械注册认证,2025年入选《麻省理工科技评论》50家聪明公司"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼",
+    "助行器",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【远也】聚焦产业资本/康复/智能硬件，研发轻便型助行外骨骼，B2C模式，研究价值分41。",
+   "payor_model": "未披露",
+   "signal_strength": 4.05
+  },
+  {
+   "serial": "#0471",
+   "name": "Homethrive",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "照护支持"
+   ],
+   "description": "对护理员的情感、专业、工作、福利等方面提供支持。客户来自健康计划、企业、个人。成立于2018年。",
+   "highlights": "对护理员的情感、专业、工作、福利等方面提供支持。客户来自健康计划、企业、个人...",
+   "funding_latest": {
+    "date": "2022-05",
+    "amount": "20000000",
+    "round": "Series B",
+    "display": "Series B $2000万 (2022-05)"
+   },
+   "funding_total": {
+    "amount": "38000000",
+    "display": "累计$3800万"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 42,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Homethrive",
+   "website_url": "https://homethrive.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "对护理员的情感、专业、工作、福利等方面提供支持。客户来自健康计划、企业、个人。成立于2018年。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 14,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Homethrive Raises $20M in Funding",
+      "date": "2024-11-14",
+      "source": "Finsmes",
+      "url": "https://www.finsmes.com/2024/11/homethrive-raises-20m-in-funding.html"
+     },
+     {
+      "title": "直击家庭照护痛点:融资1.5亿,数百家企业买单",
+      "date": "2025-04-30",
+      "source": "36氪",
+      "url": "https://www.36kr.com/p/3272344439154179"
+     }
+    ],
+    "snippets": [
+     "Homethrive 提供技术驱动的 family caregiving(家庭照护)解决方案,服务雇主与健康计划",
+     "2024年11月融资2000万美元,自2022年以来规模增长4倍"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Homethrive】聚焦专业护理/产业资本/护理平台，对护理员的情感、专业、工作、福利等方面提供支持。客户来自健康计划、企业、个人...，B2B+B2C模式，研究价值分42。",
+   "payor_model": "未披露",
+   "signal_strength": 4.05
+  },
+  {
+   "serial": "#0564",
+   "name": "Papa",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "技术平台，连接大学生/护理专业学生与老年人，提供交通、家务、陪伴等服务。也被称为优步护工模式，同时与辅助生活社区合作提供远程医疗服务。",
+   "highlights": "老年人陪伴服务独角兽，估值$1.4B，SoftBank Vision Fund 2领投",
+   "funding_latest": {
+    "date": "2024-07",
+    "amount": "$60M",
+    "round": "Series D延展",
+    "display": "Series D延展 $60M (2024-07)"
+   },
+   "funding_total": {
+    "amount": "$257M",
+    "display": "累计$257M"
+   },
+   "investors": "SoftBank Vision Fund 2, Tiger Global, Canaan, Initialized Capital, Y Combinator, Comcast Ventures, TCG, Seven Seven Six",
+   "founded": "2016",
+   "value_score": 50,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Papa",
+   "website_url": "https://www.papa.com/",
+   "business_model": "B2B/B2C 远程医疗",
+   "desc_cn": "技术平台，连接大学生/护理专业学生与老年人，提供交通、家务、陪伴等服务。也被称为优步护工模式，同时与辅助生活社区合作提供远程医疗服务。",
+   "business_model_cn": "B2B/B2C 远程医疗",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Papa Raises $60 Million",
+      "date": "2024-07-09",
+      "source": "Startup Savant",
+      "url": "https://startupsavant.com/news/seniors-papa"
+     },
+     {
+      "title": "Papa Scales Human Touch in Dementia Care With Federal Program Backing",
+      "date": "2026-06-25",
+      "source": "briefglance",
+      "url": "https://briefglance.com/articles/papa-scales-human-touch-in-dementia-care-with-federal-program-backing"
+     }
+    ],
+    "snippets": [
+     "$60M raise (2024) to scale; '共享儿女' companion model for seniors.",
+     "Federal dementia-care program backing (2026)."
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Papa】聚焦专业护理/产业资本/文娱社交，老年人陪伴服务独角兽，估值$1.4B，SoftBank Vision Fund 2领投，B2B+B2C模式，研究价值分50。",
+   "payor_model": "未披露",
+   "signal_strength": 4.05
+  },
+  {
+   "serial": "#0861",
+   "name": "Somatus",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "慢性肾脏和心脏疾病患者个性化上门临床护理，估值超25亿",
+   "highlights": [
+    "价值导向肾+心血管综合护理龙头",
+    "G轮约7500万美元(2025-06)，估值约49.8亿",
+    "服务突破50万生命，降低肾病死亡率13%"
+   ],
+   "funding_latest": {
+    "round": "G轮",
+    "amount": "约7500万美元",
+    "currency": "USD",
+    "date": "2025-06",
+    "display": "G轮 约7500万美元 (2025-06)",
+    "investors": [
+     "未披露(Forge标注Undisclosed)"
+    ]
+   },
+   "funding_total": {
+    "amount": "约14亿美元(含可转债)",
+    "display": "累计约14亿美元(含可转债结构)"
+   },
+   "investors": [
+    "未披露"
+   ],
+   "founded": "2016",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Somatus",
+   "website_url": "https://www.somatus.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "价值导向肾脏与心血管综合护理龙头，与健康计划、医疗系统、医生集团合作，以本地多学科团队+预测分析(RenalIQ)延缓疾病进展、降低总医疗成本；2025-06完成约7500万美元G轮、估值约49.8亿美元，服务突破50万生命。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 15,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Somatus raised $75.0M in Series G",
+      "date": "2025-06-27",
+      "source": "PM Insights",
+      "url": "https://www.pminsights.com/companies/somatus"
+     },
+     {
+      "title": "Somatus Raises $325M Series E (value-based kidney care)",
+      "date": "2022-02-23",
+      "source": "LeLézard",
+      "url": "https://www.lelezard.com/en/news-20254251.html"
+     }
+    ],
+    "snippets": [
+     "Somatus 是美国领先的价值导向肾脏/心脏护理公司",
+     "2022年完成3.25亿美元E轮(估值超25亿美元),2025年6月再获7500万美元G轮"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "信息中等（Forge有详细融资与估值，临床成效有第三方研究），VBC模式稳健、扩张平稳，反共识性低。与Strive同赛道，中国肾病管理玩家众多但按价值付费环境差异大——两家并列看，可对比“纯肾护理”与“肾+多专科”两种VBC扩张路径的异同。",
+   "payor_model": "混合（健康计划+政府Medicare价值医疗合同，B端机构付费为主）",
+   "signal_strength": 4.05,
+   "info_score": 7,
+   "diff_score": 4,
+   "copy_score": 4,
+   "research_value": 49.1,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0959",
+   "name": "Voize",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "AI语音护理记录助手，利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老机构落地",
+   "highlights": "利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老...",
+   "funding_latest": {
+    "date": "2025.11",
+    "amount": "5000万美元",
+    "round": "A/B轮",
+    "display": "A/B轮 5000万美元 (2025.11)"
+   },
+   "funding_total": {
+    "amount": "$59M",
+    "display": "累计$59M (截至2025年11月)"
+   },
+   "investors": "Balderton Capital, HV Capital, Y Combinator, MK Venture Capital",
+   "founded": "2020",
+   "value_score": 42,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Voize",
+   "website_url": "https://www.voize.de",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI语音护理记录助手，利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老机构落地",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 15,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Voize Secures $9M Seed (voice AI documentation)",
+      "date": "2025-03-31",
+      "source": "Fundreef",
+      "url": "https://www.fundreef.com/voize-secures-9m-seed-round-to-revolutionize-ai-powered-voice-documentation-in-healthcare/"
+     },
+     {
+      "title": "Voize获4300万欧元A轮(语音AI护理文档)",
+      "date": "2025-11-18",
+      "source": "精灵数据",
+      "url": "https://www.jinglingshuju.com/article/23583387799"
+     }
+    ],
+    "snippets": [
+     "Voize(柏林)用AI语音将护理人员的口述自动生成患者报告/体征/药历",
+     "2025年3月900万美元种子轮,11月再获4300万欧元A轮,由 Balderton Capital 领投"
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Voize】聚焦产业资本/数字化/文娱社交，利用AI将护理员口述语音自动转化为合规的结构化文档。已在德国1000+家养老...，B2B模式，研究价值分42。",
+   "payor_model": "未披露",
+   "signal_strength": 4.05
+  },
+  {
+   "serial": "#0032",
+   "name": "织生科技",
+   "region": "国内",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "上海织生科技首创AI摄像头眼动追踪技术，结合眼动数字生物标记物可在6分钟内评估认知功能、判断阿尔茨海默病风险（鉴别准确度约93%），并延伸至干预治疗与保险支付综合服务。",
+   "highlights": "专注于认知功能评估和训练",
+   "funding_latest": {
+    "date": "2022-02",
+    "amount": "10000000",
+    "round": "天使轮",
+    "display": "天使轮 $1000万 (2022-02)"
+   },
+   "funding_total": {
+    "amount": "约1000万元",
+    "display": "累计约1000万元"
+   },
+   "investors": "诺庾资本",
+   "founded": "2020",
+   "value_score": 25,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%BB%87%E7%94%9F%E7%A7%91%E6%8A%80",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "织生科技",
+   "desc_cn": "织生科技以AI眼动追踪技术打造脑健康筛查工具，面向老年人群做认知障碍早筛与干预，产品已用于医疗机构、企业与政府单位的脑健康管理。",
+   "business_model_cn": "筛查软件+服务收费",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【织生科技】聚焦产业资本/养老社区/认知症，专注于认知功能评估和训练，研究价值分25。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0457",
+   "name": "Honor",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "养老网络技术平台，为护理员提供个性化福利，连接C端和护理员。被称为\"滴滴护工\"。",
+   "highlights": "全球最大养老网络和技术平台，估值$1.25B独角兽，2024年收购Home Instead",
+   "funding_latest": {
+    "date": "2024-03",
+    "amount": "$70M",
+    "round": "Series E",
+    "display": "Series E $70M (2024-03)"
+   },
+   "funding_total": {
+    "amount": "$325M+",
+    "display": "累计$325M+"
+   },
+   "investors": "Baillie Gifford, 8VC, Prosus, Andreessen Horowitz (a16z), Thrive Capital, T. Rowe Price",
+   "founded": "2014",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Honor",
+   "website_url": "https://www.honorcare.com/",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "养老网络技术平台，为护理员提供个性化福利，连接C端和护理员。被称为\"滴滴护工\"。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Honor and Home Instead Secure $140M to Revolutionize Aging Care",
+      "date": "2025-03-25",
+      "source": "SignalBase",
+      "url": "https://www.trysignalbase.com/news/funding/honor-and-home-instead-secure-140m-to-revolutionize-aging-care-for-a-new-era"
+     },
+     {
+      "title": "估值超30亿美元！美国Honor用“滴滴模式”破解养老难题",
+      "date": "2025-11-05",
+      "source": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/1969547778280649289"
+     }
+    ],
+    "snippets": [
+     "Honor为美国家庭护理/老年护理技术与服务平台，2025年3月获1.4亿美元融资。",
+     "2021年以约21亿美元收购全美最大居家护理公司Home Instead，网络覆盖14国；累计融资约3.25亿美元，估值12.5亿美元。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Honor】聚焦专业护理/产业资本/居家护理，全球最大养老网络和技术平台，估值$1.25B独角兽，2024年收购Home Instead，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0458",
+   "name": "Inspiren",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "AI驱动的老年生活技术，用于监测和改善老年人生活质量。",
+   "highlights": "用于监测和改善老年人生活质量。",
+   "funding_latest": {
+    "date": "2025-03",
+    "amount": "35000000",
+    "round": "Series A",
+    "display": "Series A $3500万 (2025-03)"
+   },
+   "funding_total": "$155M (截至2025年)",
+   "investors": [
+    "Insight Partners",
+    "Avenir Growth Capital",
+    "Primary Venture Partners",
+    "Scale Venture Partners",
+    "Story Ventures",
+    "Third Prime"
+   ],
+   "founded": "2016",
+   "value_score": 43,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Inspiren",
+   "website_url": "https://www.inspiren.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI驱动的老年生活技术，用于监测和改善老年人生活质量。",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Inspiren Raises $100M Series B to Lead Senior Living’s AI-Driven Future",
+      "date": "2025-09-25",
+      "source": "Senior Housing News",
+      "url": "https://seniorhousingnews.com/2025/09/25/inspiren-raises-100m-in-series-b-funding-to-grow-ai-platform/"
+     },
+     {
+      "title": "养老科技黑马突围：融资2.6亿，18个月拿下150+老年社区",
+      "date": "2025-04-15",
+      "source": "AgeClub",
+      "url": "https://ageclub.net/article-detail/5545"
+     }
+    ],
+    "snippets": [
+     "Inspiren为AI养老监护公司，2025年9月完成1亿美元B轮（Insight Partners领投），累计融资1.55亿美元。",
+     "其AUGi设备实时感知老年社区环境，定位“老年护理智能基础设施”。"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Inspiren】聚焦产业资本/居家护理/文娱社交，用于监测和改善老年人生活质量。，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0463",
+   "name": "Blooming Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "社区"
+   ],
+   "description": "21个州700+社区项目，连接医疗保健提供者和社会服务组织，为老年人提供交通、送餐、社交等支持。",
+   "highlights": "连接医疗保健提供者和社会服务组织",
+   "funding_latest": {
+    "date": "2025-04",
+    "amount": "26000000",
+    "round": "Series A",
+    "display": "Series A $2600万 (2025-04)"
+   },
+   "funding_total": {
+    "amount": "32500000",
+    "display": "累计$3250万"
+   },
+   "investors": "Insight Partners (领投)",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Blooming%20Health",
+   "website_url": "https://www.bloominghealth.ai",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "21个州700+社区项目，连接医疗保健提供者和社会服务组织，为老年人提供交通、送餐、社交等支持。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "社区"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Blooming Health】聚焦专业护理/产业资本/文娱社交，连接医疗保健提供者和社会服务组织，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0464",
+   "name": "CarePredict",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "AI驱动数字健康平台，自主识别日常活动和行为变化，检测健康问题早期迹象。住院率降低39%，跌倒率降低69%。",
+   "highlights": "自主识别日常活动和行为变化",
+   "funding_latest": {
+    "date": "2023-07",
+    "amount": "29000000",
+    "round": "Series A",
+    "display": "Series A $2900万 (2023-07)"
+   },
+   "funding_total": {
+    "amount": "48600000",
+    "display": "累计$4860万"
+   },
+   "investors": "Medtech Convergence Fund, Secocha Ventures 等 (8位投资人)",
+   "founded": "2013",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CarePredict",
+   "website_url": "https://www.carepredict.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI驱动数字健康平台，自主识别日常活动和行为变化，检测健康问题早期迹象。住院率降低39%，跌倒率降低69%。",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【CarePredict】聚焦AI科技/产业资本/健康监测，自主识别日常活动和行为变化，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0465",
+   "name": "Cariloop",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "照护支持"
+   ],
+   "description": "让公司支持在职护理人员，提高员工福利和留任率。为宝洁、毕马威等提供服务，收入3年增长近300%。NPS超80。",
+   "highlights": "提高员工福利和留任率。为宝洁、毕马威等提供服务",
+   "funding_latest": {
+    "date": "2024-04",
+    "amount": "20000000",
+    "round": "Series C",
+    "display": "Series C $2000万 (2024-04)"
+   },
+   "funding_total": "$42M (截至2024年)",
+   "investors": [
+    "Noro-Moseley Partners",
+    "ABS Capital Partners",
+    "Green Park & Golf Ventures"
+   ],
+   "founded": "2012",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cariloop",
+   "website_url": "https://cariloop.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "让公司支持在职护理人员，提高员工福利和留任率。为宝洁、毕马威等提供服务，收入3年增长近300%。NPS超80。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cariloop】聚焦专业护理/产业资本，提高员工福利和留任率。为宝洁、毕马威等提供服务，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0472",
+   "name": "IXI",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "眼镜"
+   ],
+   "description": "世界上第一款自动对焦眼镜，根据佩戴者老花眼自动调节度数。亚马逊等投资。",
+   "highlights": "根据佩戴者老花眼自动调节度数。亚马逊等投资。",
+   "funding_latest": {
+    "date": "2025-04",
+    "amount": "36500000",
+    "round": "Unknown",
+    "display": "Unknown $3650万 (2025-04)"
+   },
+   "funding_total": "$36.5M (截至2025年)",
+   "investors": [
+    "Plural",
+    "Tesi",
+    "byFounders",
+    "Heartcore",
+    "Eurazeo",
+    "FOV Ventures",
+    "Tiny Supercomputer",
+    "Amazon Alexa Fund",
+    "Maki.vc",
+    "First Fellow"
+   ],
+   "founded": "2019",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=IXI",
+   "website_url": "https://www.ixi.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "世界上第一款自动对焦眼镜，根据佩戴者老花眼自动调节度数。亚马逊等投资。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【IXI】聚焦产业资本/眼镜/行业媒体，根据佩戴者老花眼自动调节度数。亚马逊等投资。，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  }
+ ]
+}

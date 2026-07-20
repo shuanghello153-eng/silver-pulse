@@ -1,0 +1,121 @@
+[
+  {
+    "wave": 1,
+    "worker_a": [
+      "batch_src_012.json",
+      "batch_src_013.json",
+      "batch_src_014.json",
+      "batch_src_015.json"
+    ],
+    "worker_b": [
+      "batch_src_016.json",
+      "batch_src_017.json",
+      "batch_src_018.json",
+      "batch_src_019.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  },
+  {
+    "wave": 2,
+    "worker_a": [
+      "batch_src_028.json",
+      "batch_src_029.json",
+      "batch_src_030.json",
+      "batch_src_031.json"
+    ],
+    "worker_b": [
+      "batch_src_032.json",
+      "batch_src_033.json",
+      "batch_src_034.json",
+      "batch_src_035.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  },
+  {
+    "wave": 3,
+    "worker_a": [
+      "batch_src_036.json",
+      "batch_src_037.json",
+      "batch_src_038.json",
+      "batch_src_039.json"
+    ],
+    "worker_b": [
+      "batch_src_040.json",
+      "batch_src_041.json",
+      "batch_src_042.json",
+      "batch_src_043.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  },
+  {
+    "wave": 4,
+    "worker_a": [
+      "batch_src_044.json",
+      "batch_src_045.json",
+      "batch_src_046.json",
+      "batch_src_047.json"
+    ],
+    "worker_b": [
+      "batch_src_048.json",
+      "batch_src_049.json",
+      "batch_src_050.json",
+      "batch_src_051.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  },
+  {
+    "wave": 5,
+    "worker_a": [
+      "batch_src_052.json",
+      "batch_src_053.json",
+      "batch_src_054.json",
+      "batch_src_055.json"
+    ],
+    "worker_b": [
+      "batch_src_056.json",
+      "batch_src_057.json",
+      "batch_src_058.json",
+      "batch_src_059.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  },
+  {
+    "wave": 6,
+    "worker_a": [
+      "batch_src_060.json",
+      "batch_src_061.json",
+      "batch_src_062.json",
+      "batch_src_063.json"
+    ],
+    "worker_b": [
+      "batch_src_064.json",
+      "batch_src_065.json",
+      "batch_src_066.json",
+      "batch_src_067.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  },
+  {
+    "wave": 7,
+    "worker_a": [
+      "batch_src_068.json",
+      "batch_src_069.json",
+      "batch_src_070.json",
+      "batch_src_071.json"
+    ],
+    "worker_b": [
+      "batch_src_072.json",
+      "batch_src_073.json",
+      "batch_src_074.json",
+      "batch_src_075.json"
+    ],
+    "count_a": 80,
+    "count_b": 80
+  }
+]

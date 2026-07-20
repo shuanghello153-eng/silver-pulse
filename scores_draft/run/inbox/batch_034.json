@@ -1,0 +1,478 @@
+{
+ "batch": 34,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0147",
+   "name": "天天好",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品",
+    "保健品"
+   ],
+   "description": "武汉天天好生物制品（1996年成立）是中国多肽营养学开创者，集多肽原料生产、研发与全球销售于一体，产品含大豆肽、胶原肽、白蛋白多肽等功能性营养品与特医食品。其拥有中国多肽产业园，产品服务全球1.7亿消费者。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1996",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E5%A4%A9%E5%A5%BD",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "天天好",
+   "desc_cn": "武汉天天好生物制品（1996年成立）是中国多肽营养学开创者，集多肽原料生产、研发与全球销售于一体，产品含大豆肽、胶原肽、白蛋白多肽等功能性营养品与特医食品。其拥有中国多肽产业园，产品服务全球1.7亿消费者。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品",
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天天好】聚焦保健品，健康食品领域企业，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0148",
+   "name": "天空树",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "个人护理",
+    "美妆护肤"
+   ],
+   "description": "个人护理品牌，主打头皮头发或肌肤护理类适老产品。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E7%A9%BA%E6%A0%91",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "天空树",
+   "desc_cn": "个人护理品牌，主打头皮头发或肌肤护理类适老产品。",
+   "business_model_cn": "B2C 个护",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理",
+    "美妆护肤"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天空树】聚焦个护，行业服务领域企业，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0149",
+   "name": "天鹅到家",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "家政"
+   ],
+   "description": "天鹅到家（原58到家）是国内最大的家庭服务平台，提供保洁、月嫂、养老护理等上门服务，覆盖全国400+城市。",
+   "highlights": "国内最大家庭服务平台，覆盖400+城市",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E9%B9%85%E5%88%B0%E5%AE%B6",
+   "website_url": "https://www.daojia.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "name_cn": "天鹅到家",
+   "desc_cn": "天鹅到家（原58到家）是国内最大的家庭服务平台，提供保洁、月嫂、养老护理等上门服务，覆盖全国400+城市。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "家政"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天鹅到家】聚焦专业护理，国内最大家庭服务平台，覆盖400+城市，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0150",
+   "name": "太保资本",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "作为产业资本方，围绕康养地产与银发赛道进行投资布局，赋能养老产业生态",
+   "highlights": "中国太保旗下投资平台，布局养老地产",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2006",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%AA%E4%BF%9D%E8%B5%84%E6%9C%AC",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "太保资本",
+   "desc_cn": "作为产业资本方，围绕康养地产与银发赛道进行投资布局，赋能养老产业生态",
+   "business_model_cn": "产业资本/康养投资",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【太保资本】聚焦产业资本，中国太保旗下投资平台，布局养老地产，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0151",
+   "name": "太平养老",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "保险"
+   ],
+   "description": "太平养老保险股份有限公司是中国太平保险集团旗下专业养老险公司，主营企业/职业年金受托管理与投资、第三支柱养老保险及长期护理保险，养老金管理资产规模近7000亿元，服务企业约1.4万户、职工近200万人。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%AA%E5%B9%B3%E5%85%BB%E8%80%81",
+   "website_url": "https://tppension.cntaiping.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "太平养老",
+   "desc_cn": "太平养老保险股份有限公司是中国太平保险集团旗下专业养老险公司，主营企业/职业年金受托管理与投资、第三支柱养老保险及长期护理保险，养老金管理资产规模近7000亿元，服务企业约1.4万户、职工近200万人。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【太平养老】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0152",
+   "name": "太爱肽",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "保健品"
+   ],
+   "description": "太爱肽集团（山东太爱肽生物科技）专注小分子肽研发生产，为食品、美容、保健品行业提供肽原粉及OEM/ODM整体解决方案，年产能超5000吨，并自有“太爱肽”“美日肽能”等终端健康品牌。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%AA%E7%88%B1%E8%82%BD",
+   "website_url": "http://www.taiaitai.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "太爱肽",
+   "desc_cn": "太爱肽集团（山东太爱肽生物科技）专注小分子肽研发生产，为食品、美容、保健品行业提供肽原粉及OEM/ODM整体解决方案，年产能超5000吨，并自有“太爱肽”“美日肽能”等终端健康品牌。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【太爱肽】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0153",
+   "name": "奥特顺咽",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "功能性食品"
+   ],
+   "description": "奥特顺咽是广州奥迪特生物科技出品的黄原胶类食品增稠剂，用于为吞咽困难的老人及患者增加水、汤、奶等液体黏稠度，属吞咽康复特殊营养食品；公司还生产乳清蛋白粉等特医食品。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A5%A5%E7%89%B9%E9%A1%BA%E5%92%BD",
+   "website_url": "",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "奥特顺咽",
+   "desc_cn": "奥特顺咽是广州奥迪特生物科技出品的黄原胶类食品增稠剂，用于为吞咽困难的老人及患者增加水、汤、奶等液体黏稠度，属吞咽康复特殊营养食品；公司还生产乳清蛋白粉等特医食品。",
+   "business_model_cn": "B2C 老年辅助器具/康复器械",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "功能性食品"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【奥特顺咽】聚焦智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0154",
+   "name": "女王新款",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "电商"
+   ],
+   "description": "女王新款是2017年上线的微信小程序女装电商平台（运营主体杭州女王新款网络科技），专攻三四线城市40岁以上中年女性，以近500个公众号引流、重社群运营和服装顾问服务实现月GMV超1亿元、复购率逾40%。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A5%B3%E7%8E%8B%E6%96%B0%E6%AC%BE",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "女王新款",
+   "desc_cn": "女王新款是2017年上线的微信小程序女装电商平台（运营主体杭州女王新款网络科技），专攻三四线城市40岁以上中年女性，以近500个公众号引流、重社群运营和服装顾问服务实现月GMV超1亿元、复购率逾40%。",
+   "business_model_cn": "B2B 行业媒体/内容服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【女王新款】聚焦鞋服，行业服务领域企业，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0155",
+   "name": "好孝心",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "零售"
+   ],
+   "description": "好孝心是专注社区居家养老与老年健康服务的连锁品牌（广东好孝心养老产业），以“健康生活馆”加盟门店销售羊奶粉、无糖食品、适老家居等产品，并配套日间照料与旅居养老，门店网络覆盖全国30余省市。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A5%BD%E5%AD%9D%E5%BF%83",
+   "website_url": "http://www.hxx1688.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "好孝心",
+   "desc_cn": "好孝心是专注社区居家养老与老年健康服务的连锁品牌（广东好孝心养老产业），以“健康生活馆”加盟门店销售羊奶粉、无糖食品、适老家居等产品，并配套日间照料与旅居养老，门店网络覆盖全国30余省市。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【好孝心】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0156",
+   "name": "好慷在家",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "家政"
+   ],
+   "description": "好慷在家是高端家庭保洁服务品牌，提供标准化上门保洁服务，同时涉足居家养老护理领域。",
+   "highlights": "高端家庭保洁品牌，涉足养老护理",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A5%BD%E6%85%B7%E5%9C%A8%E5%AE%B6",
+   "website_url": "https://www.homeking365.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "好慷在家",
+   "desc_cn": "好慷在家是高端家庭保洁服务品牌，提供标准化上门保洁服务，同时涉足居家养老护理领域。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "家政"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【好慷在家】聚焦专业护理/居家护理，高端家庭保洁品牌，涉足养老护理，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0158",
+   "name": "孝当先",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "零售"
+   ],
+   "description": "孝当先是立足社区的老年健康生活馆连锁品牌（深圳孝当先老龄产业，“老友乐园”），主营羊乳制品、特殊膳食、无糖食品、适老用品等数百种产品，辅以文娱活动与日间照料，全国门店约1500家。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%AD%9D%E5%BD%93%E5%85%88",
+   "website_url": "http://www.xdxhome.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "孝当先",
+   "desc_cn": "孝当先是立足社区的老年健康生活馆连锁品牌（深圳孝当先老龄产业，“老友乐园”），主营羊乳制品、特殊膳食、无糖食品、适老用品等数百种产品，辅以文娱活动与日间照料，全国门店约1500家。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【孝当先】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0159",
+   "name": "孝心坊",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "零售"
+   ],
+   "description": "孝心坊首创国内中老年用品一站式连锁专卖模式（成都孝心坊贸易），门店销售家用医疗器械、按摩保健、老年服饰、日常用品等2000余种单品，并配套健康理疗、老年旅游等服务，全国连锁门店800余家。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%AD%9D%E5%BF%83%E5%9D%8A",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "孝心坊",
+   "desc_cn": "孝心坊首创国内中老年用品一站式连锁专卖模式（成都孝心坊贸易），门店销售家用医疗器械、按摩保健、老年服饰、日常用品等2000余种单品，并配套健康理疗、老年旅游等服务，全国连锁门店800余家。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【孝心坊】聚焦保健品，健康食品领域企业，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

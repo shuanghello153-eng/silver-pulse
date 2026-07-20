@@ -1,0 +1,508 @@
+[
+ {
+  "serial": "#0920",
+  "name": "Yurtle",
+  "name_cn": "Yurtle",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2020",
+  "funding_latest": {
+   "date": "2024年3月",
+   "amount": "137万英镑",
+   "display": "137万英镑 (2024年3月)"
+  },
+  "funding_total": "£1.37M",
+  "investors": [
+   "Insurtech Gateway"
+  ],
+  "payor_model": "政府医保/商业保险支付",
+  "desc_cn": "B2B按人订阅",
+  "recommend": "信号偏弱、信息量一般，其「B2B按人订阅」打法差异化突出；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "长护险"
+  ],
+  "highlights": "护理管理和护理保险",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 7.5,
+  "copy_score": 3.5,
+  "research_value": 41.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.yurtle.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0921",
+  "name": "Zen Sleep",
+  "name_cn": "Zen Sleep",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2021",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "失眠认知行为疗法(CBT-I)应用程序",
+  "recommend": "信号偏弱、信息量一般，其「B2B/B2C 健康服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入睡眠监测赛道）。",
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务",
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "心理健康",
+   "睡眠监测"
+  ],
+  "highlights": "失眠认知行为疗法(CBT-I)应用程序",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.zensleep.ai",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0922",
+  "name": "Zing Health",
+  "name_cn": "Zing Health",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2019",
+  "funding_latest": {
+   "date": "2024年9月",
+   "amount": "1.4亿美元",
+   "display": "1.4亿美元 (2024年9月)"
+  },
+  "funding_total": "$140M",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "解决健康社会决定因素，减少服务不足人群医疗差距",
+  "recommend": "信号偏弱、信息透明度高，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "SDOH"
+  ],
+  "highlights": "减少服务不足人群医疗差距",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 49.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.zinghealth.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0923",
+  "name": "Zinnia",
+  "name_cn": "Zinnia",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2020",
+  "funding_latest": {
+   "amount": "12万美元",
+   "display": "12万美元"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "订阅费",
+  "recommend": "信号偏弱、信息量一般，其「订阅费」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "文娱"
+  ],
+  "highlights": "为痴呆症患者提供支持",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 41.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.zinnia.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0924",
+  "name": "Ōmcare",
+  "name_cn": "Ōmcare",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2017",
+  "funding_latest": {
+   "date": "2022年4月",
+   "amount": "约2000万美元",
+   "display": "约2000万美元 (2022年4月)"
+  },
+  "funding_total": "$20M",
+  "investors": [
+   "未搜到"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "硬件+服务销售",
+  "recommend": "信号偏弱、信息量一般，其「硬件+服务销售」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "制造商(药)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "居家护理"
+  ],
+  "highlights": "正确时间正确药物",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 41.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.omcare.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0926",
+  "name": "大和房屋工业 (Daiwa House)",
+  "name_cn": "大和房屋工业 (Daiwa House)",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1955",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "住宅改造相关",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "适老化"
+  ],
+  "highlights": "住宅改造相关",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.daiwahouse.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0927",
+  "name": "积水房屋 (Sekisui House)",
+  "name_cn": "积水房屋 (Sekisui House)",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1960",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "住宅改造相关，适老化改造似乎只占一小部分",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "适老化"
+  ],
+  "highlights": "适老化改造似乎只占一小部分",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.sekisuihouse.co.jp",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0928",
+  "name": "茑屋书店",
+  "name_cn": "茑屋书店",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1983",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B 行业媒体/数据服务",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "文娱"
+  ],
+  "highlights": "资料不是很多",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.tsutaya.co.jp",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0929",
+  "name": "茜会",
+  "name_cn": "茜会",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1988",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "每年500多场线下活动，无需结婚",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": [
+    "线下"
+   ]
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "相亲"
+  ],
+  "highlights": "无需结婚",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.akanekai.co.jp",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0930",
+  "name": "Ashiana Housing",
+  "name_cn": "Ashiana Housing",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1979",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B 行业媒体/数据服务",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "康养地产"
+  ],
+  "highlights": "2025财年预售额目标200亿卢比",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.ashianahousing.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0931",
+  "name": "Club Tourism",
+  "name_cn": "Club Tourism",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1980",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "个人自费+部分政府补贴",
+  "desc_cn": "日本老年旅游",
+  "recommend": "信号偏弱、信息量一般，其「B2C 老年出行服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "旅游"
+  ],
+  "highlights": "日本老年旅游",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.club-t.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0932",
+  "name": "HealthKart",
+  "name_cn": "HealthKart",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2011",
+  "funding_latest": {
+   "date": "2024年11月",
+   "amount": "1.53亿美元",
+   "display": "1.53亿美元 (2024年11月)"
+  },
+  "funding_total": "$153M",
+  "investors": [
+   "ChrysCapital",
+   "Motilal Oswal Alternates",
+   "Neo Group",
+   "A91 Partners"
+  ],
+  "payor_model": "个人自费/家庭自费",
+  "desc_cn": "B2C 老年健康食品/保健品",
+  "recommend": "信号偏弱、信息透明度高，其「B2C 老年健康食品/保健品」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入保健品&OTC赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "制造商(消费品)",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "电商"
+  ],
+  "highlights": "蛋白质补充剂",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 8.5,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 49.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.healthkart.com",
+  "business_tags_role": null
+ }
+]

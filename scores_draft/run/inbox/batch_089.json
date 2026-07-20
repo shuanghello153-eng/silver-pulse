@@ -1,0 +1,496 @@
+{
+ "batch": 89,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1030",
+   "name": "CareConnectMD",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "价值型医疗",
+   "tags": [
+    "护理协调"
+   ],
+   "description": "25年经验将价值型照护带入急性后设置的复杂病患",
+   "highlights": "价值型医疗到家",
+   "funding_latest": "Private Equity",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://careconnectmd.com",
+   "business_model": "",
+   "desc_cn": "25年经验将价值型照护带入急性后设置的复杂病患",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护理协调"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【CareConnectMD】聚焦居家护理，价值型医疗到家。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1031",
+   "name": "HaloCare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "虚拟监护",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "爱尔兰辅助生活技术，用智能设备虚拟监护老人居家",
+   "highlights": "虚拟监护居家",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://halocare.ie",
+   "business_model": "",
+   "desc_cn": "爱尔兰辅助生活技术，用智能设备虚拟监护老人居家",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【HaloCare】聚焦远程医疗，虚拟监护居家。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1032",
+   "name": "Endear Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康平台API",
+   "tags": [
+    "保险"
+   ],
+   "description": "Endear Health operates an API and data layer that connects Medicare Advantage plans with home- and community-based care providers, streamlining member onboarding, benefits navigation, and care coordination.",
+   "highlights": "支付方-供方API中台",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://endearhealth.com",
+   "business_model": "",
+   "desc_cn": "Endear Health 运营连接医疗保险优势计划与社区照护机构的 API 与数据层，简化会员入网、福利导航与照护协同。",
+   "business_model_cn": "B2B SaaS/接口费",
+   "news_coverage": "",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Endear Health】聚焦健康管理，支付方-供方API中台。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1034",
+   "name": "Sensara",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "自学习传感",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "自学习传感技术，仅发相关警报让老人自由活动防跌",
+   "highlights": "自学习传感降误报",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.sensara.com",
+   "business_model": "",
+   "desc_cn": "自学习传感技术，仅发相关警报让老人自由活动防跌",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sensara】聚焦健康监测，自学习传感降误报。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1035",
+   "name": "Good Life Sorted",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "智能家庭App",
+   "tags": [
+    "智能家居",
+    "用药提醒"
+   ],
+   "description": "老人App与智能家技术提醒用药、连社交减孤立",
+   "highlights": "用药+社交综合",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://goodlifesorted.com",
+   "business_model": "",
+   "desc_cn": "老人App与智能家技术提醒用药、连社交减孤立",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "智能家居",
+    "用药提醒"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Good Life Sorted】聚焦保健品/文娱社交/智能硬件，用药+社交综合。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1036",
+   "name": "Cubigo",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老生活云",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "养老生活云集成非临床运营（餐饮、维修等）提效率",
+   "highlights": "养老社区运营中台",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.cubigo.com",
+   "business_model": "",
+   "desc_cn": "养老生活云集成非临床运营（餐饮、维修等）提效率",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cubigo】聚焦数字化，养老社区运营中台。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1037",
+   "name": "Sage",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "AI监测平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Sage deploys AI-powered sensors and analytics in senior-living and skilled-nursing facilities to detect mobility decline, fall risk, and health changes, giving care teams early warnings to prevent hospitalization.",
+   "highlights": "Goldman Sachs领投$65M，AI预测式照护代表",
+   "funding_latest": "Series C $65M (2026)",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Sage $65M Series C 2026 (Goldman Sachs)",
+   "crunchbase_url": "",
+   "website_url": "https://www.sagecare.ai",
+   "business_model": "",
+   "desc_cn": "Sage 在养老机构与护理院部署 AI 传感与分析，识别活动力下降、跌倒风险与健康变化，提前预警护理团队以防住院。",
+   "business_model_cn": "B2B SaaS订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sage】聚焦AI科技/健康监测，Goldman Sachs领投$65M，AI预测式照护代表。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1038",
+   "name": "NewLimit",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "长寿科技",
+   "tags": [
+    "长寿抗衰"
+   ],
+   "description": "细胞重编程抗衰老公司，推进人类临床实验",
+   "highlights": "估值$3.1B长寿科技独角兽，资本热度极高",
+   "funding_latest": "Series C $435M (2026)",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "NewLimit $435M Series C 2026",
+   "crunchbase_url": "",
+   "website_url": "https://www.newlimit.com",
+   "business_model": "",
+   "desc_cn": "细胞重编程抗衰老公司，推进人类临床实验",
+   "business_model_cn": "B2C/B2B 长寿科技/健康服务",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【NewLimit】聚焦健康管理，估值$3.1B长寿科技独角兽，资本热度极高。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1039",
+   "name": "Fountain Life",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "长寿诊所",
+   "tags": [
+    "诊所",
+    "长寿抗衰"
+   ],
+   "description": "Fountain Life runs membership-based longevity clinics offering whole-body MRI, advanced blood biomarkers, genomics, and AI-driven annual assessments to detect disease early and extend healthspan.",
+   "highlights": "长寿诊所商业模式，国内可对标",
+   "funding_latest": "$18M",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Fountain Life $18M",
+   "crunchbase_url": "",
+   "website_url": "https://www.fountainlife.com",
+   "business_model": "",
+   "desc_cn": "Fountain Life 运营会员制长寿诊所，以全身 MRI、进阶血液标志物、基因测序与 AI 年度评估实现疾病早筛、延长健康寿命。",
+   "business_model_cn": "B2C会员费",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务",
+    "消费品"
+   ],
+   "tag_l2": [
+    "诊所",
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Fountain Life】聚焦健康管理，长寿诊所商业模式，国内可对标。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1040",
+   "name": "OneSkin",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "皮肤长寿",
+   "tags": [
+    "美妆护肤",
+    "长寿抗衰"
+   ],
+   "description": "开发延缓衰老的皮肤长寿产品（_topical senescence）",
+   "highlights": "消费级长寿护肤，银发个护交叉",
+   "funding_latest": "$20M",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "OneSkin $20M",
+   "crunchbase_url": "",
+   "website_url": "https://www.oneskin.co",
+   "business_model": "",
+   "desc_cn": "开发延缓衰老的皮肤长寿产品（_topical senescence）",
+   "business_model_cn": "B2C/B2B 长寿科技/健康服务",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "美妆护肤",
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【OneSkin】聚焦健康管理，消费级长寿护肤，银发个护交叉。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1041",
+   "name": "Intuition Robotics",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "陪伴机器人",
+   "tags": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "description": "AI社交陪伴机器人ElliQ，缓解老人孤独、健康教练",
+   "highlights": "陪伴机器人标杆ElliQ，日本市场落地",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative / ElliQ Japan合作",
+   "crunchbase_url": "",
+   "website_url": "https://www.intuitionrobotics.com",
+   "business_model": "",
+   "desc_cn": "AI社交陪伴机器人ElliQ，缓解老人孤独、健康教练",
+   "business_model_cn": "B2C/B2B 养老陪伴/辅助机器人硬件",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Intuition Robotics】聚焦机器人，陪伴机器人标杆ElliQ，日本市场落地。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1042",
+   "name": "Wanda Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "远程监测",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "Wanda Health (Bristol) supplies remote patient-monitoring devices and a clinician dashboard that track vital signs of chronic-disease patients at home, automatically escalating readings to care teams.",
+   "highlights": "远程患者监测出海",
+   "funding_latest": "£1.09M (2025)",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Wanda Health £1.09M 2025",
+   "crunchbase_url": "",
+   "website_url": "https://wandahealth.com",
+   "business_model": "",
+   "desc_cn": "Wanda Health 位于布里斯托，为居家慢病患者配备远程监测设备与医生看板，自动追踪生命体征并上报异常读数。",
+   "business_model_cn": "B2B/B2C监测订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Wanda Health】聚焦数字化，远程患者监测出海。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

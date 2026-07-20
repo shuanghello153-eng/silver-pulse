@@ -1,0 +1,627 @@
+{
+ "batch": 25,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0025",
+   "name": "清雷",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "毫米波雷达健康监测企业，通过非接触式传感器实现跌倒检测、睡眠监测、生命体征监测等智慧养老功能。",
+   "highlights": "通过非接触式传感器实现跌倒检测、睡眠监测、生命体征监测等智慧养老功能。",
+   "funding_latest": {
+    "date": "2022",
+    "amount": "清华大学技术孵化",
+    "round": "天使轮",
+    "display": "天使轮 清华大学技术孵化 (2022)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": [
+    "SEE Fund无限启航基金",
+    "深圳华皓启航"
+   ],
+   "founded": "2019",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%B8%85%E9%9B%B7",
+   "website_url": "https://qingleitech.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "name_cn": "清雷",
+   "desc_cn": "毫米波雷达健康监测企业，通过非接触式传感器实现跌倒检测、睡眠监测、生命体征监测等智慧养老功能。",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【清雷】聚焦产业资本/健康监测/健康管理，通过非接触式传感器实现跌倒检测、睡眠监测、生命体征监测等智慧养老功能。，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0026",
+   "name": "点可",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "点可（杭州）物联技术有限公司研发毫米波雷达监护设备，实现跌倒检测准确率超99%，并运营点可物联App支持健康监护、设备状态管理与紧急报警，构成完整的AIoT养老看护体系。",
+   "highlights": "为养老机构提供运营管理和信息化解决方案。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": [
+    "力合科创",
+    "江苏中科智能科学技术应用研究院"
+   ],
+   "founded": "2004",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%82%B9%E5%8F%AF",
+   "website_url": "https://www.ocj.com.cn",
+   "business_model": "B2B SaaS/软件平台",
+   "name_cn": "点可",
+   "desc_cn": "点可物联聚焦毫米波雷达与人体行为识别技术，推出无感跌倒与体征监测硬件及配套App，为家庭与养老机构输出AIoT看护能力。",
+   "business_model_cn": "硬件销售+App订阅",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【点可】聚焦健康监测/健康管理，为养老机构提供运营管理和信息化解决方案。，B2B模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0027",
+   "name": "特霍芬",
+   "region": "国内",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "认知筛查",
+    "认知训练"
+   ],
+   "description": "特霍芬研发认知障碍数字筛查与训练系统TCSA，包含线上认知训练TCSA-Bot、社区筛查工具箱TCSA-Mob、站立式自主评估一体机TCSA-Com及团体康复训练系统TCSA-Med，服务于阿尔茨海默病早筛与干预。",
+   "highlights": "聚焦老年人居住环境智能化改造。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%89%B9%E9%9C%8D%E8%8A%AC",
+   "website_url": "",
+   "business_model": "B2B 科技研发",
+   "name_cn": "特霍芬",
+   "desc_cn": "特霍芬以数字筛查与训练工具切入脑健康赛道，面向社区与养老机构推出认知评估、团体康复训练与自主评估一体机，辅助阿尔茨海默病等神经退行性疾病的早期预警与非药物干预。",
+   "business_model_cn": "软件系统+设备销售",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知筛查",
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【特霍芬】聚焦养老社区/认知症，聚焦老年人居住环境智能化改造。，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0028",
+   "name": "百芝龙",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "百芝龙智慧科技运用Wi-Fi与毫米波无线智能感知技术，通过非视觉、无感的人体行为识别实现老人跌倒、滞留与呼吸脉搏监测，为政府、养老机构与家庭输出智能看护整体方案。",
+   "highlights": "提供基于AIoT的居家养老安全监测解决方案。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%99%BE%E8%8A%9D%E9%BE%99",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "百芝龙",
+   "desc_cn": "百芝龙以无线智能感知技术实现无摄像头、无穿戴的跌倒与体征监测，设备可在一分钟内报警并派发工单，已落地上海多个社区与养老机构。",
+   "business_model_cn": "硬件销售+方案授权",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【百芝龙】聚焦健康监测/健康管理/居家护理，提供基于AIoT的居家养老安全监测解决方案。，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0031",
+   "name": "红松学堂",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "教育",
+    "兴趣社群"
+   ],
+   "description": "中老年在线兴趣学习平台，提供太极、声乐、书法、舞蹈等直播课程，累计服务数百万中老年用户。",
+   "highlights": "中老年在线兴趣社区平台，BAI资本领投亿元A+轮",
+   "funding_latest": {
+    "date": "2022-01",
+    "amount": "亿元级",
+    "round": "A+轮",
+    "display": "A+轮 亿元级 (2022-01)"
+   },
+   "funding_total": {
+    "amount": "约2亿元",
+    "display": "累计约2亿元"
+   },
+   "investors": "BAI资本 (领投), 经纬创投, 创世伙伴资本CCV, 蓝驰创投",
+   "founded": "2019",
+   "value_score": 44,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%BA%A2%E6%9D%BE%E5%AD%A6%E5%A0%82",
+   "website_url": "https://www.hongsong.com/",
+   "business_model": "B2C 社交娱乐平台",
+   "name_cn": "红松学堂",
+   "desc_cn": "中老年在线兴趣学习平台，提供太极、声乐、书法、舞蹈等直播课程，累计服务数百万中老年用户。",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "news_coverage": {
+    "news_count": 6,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "红松APP成为退休人群的精神新港湾",
+      "date": "2025-08-07",
+      "source": "toutiao",
+      "url": "https://www.toutiao.com/article/7535749986647032320/"
+     },
+     {
+      "title": "红松完成亿元A+轮融资",
+      "date": "2022-01-05",
+      "source": "36氪",
+      "url": "https://www.36kr.com/p/1556871027756931"
+     }
+    ],
+    "snippets": [
+     "中老年兴趣社区; 亿元A+轮 (BAI领投, 经纬/CCV/蓝驰跟投) 2022.",
+     "2024千万用户且盈利; 银发文娱科技."
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【红松学堂】聚焦产业资本/文娱社交，中老年在线兴趣社区平台，BAI资本领投亿元A+轮，B2C模式，研究价值分44。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0033",
+   "name": "美好盛年",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "旅游",
+    "文娱"
+   ],
+   "description": "中老年文娱教育平台，提供线下课程、旅游社交等服务，聚焦55-70岁人群精神文化需求。",
+   "highlights": "提供线下课程、旅游社交等服务",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": [
+    "长岭资本 (Long Hill Capital)"
+   ],
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E7%BE%8E%E5%A5%BD%E7%9B%9B%E5%B9%B4",
+   "website_url": "",
+   "business_model": "B2C 教育/培训",
+   "name_cn": "美好盛年",
+   "desc_cn": "中老年文娱教育平台，提供线下课程、旅游社交等服务，聚焦55-70岁人群精神文化需求。",
+   "business_model_cn": "B2C 教育/培训",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游",
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【美好盛年】聚焦文娱社交，提供线下课程、旅游社交等服务，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0035",
+   "name": "苗米",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "跌倒监测",
+    "睡眠监测"
+   ],
+   "description": "南京苗米科技基于中科院无线感知核心技术，研发毫米波AI融合感知器与AI智能照护灯，实现跌倒、离床、呼吸心率及睡眠的无感监测，并为海尔、美的等龙头企业供应下一代智能雷达。",
+   "highlights": "提供养老信息化和智能化解决方案。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": [
+    "洪泰智造工场",
+    "中科创星",
+    "博明资产",
+    "兴泓资管",
+    "君德TIS",
+    "上善金石"
+   ],
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E8%8B%97%E7%B1%B3",
+   "website_url": "",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "苗米",
+   "desc_cn": "苗米科技以毫米波雷达与AI算法推出无穿戴、保护隐私的养老监测产品，可识别姿态轨迹、跌倒与生命体征并自动生成睡眠报告，覆盖居家与机构场景。",
+   "business_model_cn": "硬件销售+技术授权",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测",
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【苗米】聚焦健康监测/健康管理，提供养老信息化和智能化解决方案。，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0039",
+   "name": "闲趣岛",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "兴趣社群",
+    "相亲"
+   ],
+   "description": "闲趣岛是北京博学明辨科技打造的中老年兴趣社交平台，集成兴趣群（旅游/摄影/唱歌等）、同城聚会、直播与婚恋交友，号称汇聚超千万中老年用户。它以适老化界面和精准兴趣匹配算法，连接线上内容社区与线下活动。",
+   "highlights": "提供兴趣社区、线上课程、旅游社交等服务。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%97%B2%E8%B6%A3%E5%B2%9B",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "闲趣岛",
+   "desc_cn": "闲趣岛是北京博学明辨科技打造的中老年兴趣社交平台，集成兴趣群（旅游/摄影/唱歌等）、同城聚会、直播与婚恋交友，号称汇聚超千万中老年用户。它以适老化界面和精准兴趣匹配算法，连接线上内容社区与线下活动。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "相亲"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【闲趣岛】聚焦文娱社交，提供兴趣社区、线上课程、旅游社交等服务。，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0040",
+   "name": "集思鸣智",
+   "region": "国内",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "眼镜",
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "成都集思鸣智科技研发智能眼镜式眼动仪，三至五分钟即可完成高精度认知筛查，并配套含40余款训练游戏的认知评估与训练软件，用于阿尔茨海默病等神经退行性疾病的早期预警。",
+   "highlights": "提供认知功能评估和训练解决方案。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": [
+    "中科天使基金"
+   ],
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%9B%86%E6%80%9D%E9%B8%A3%E6%99%BA",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "集思鸣智",
+   "desc_cn": "集思鸣智是国内首家凭眼动技术获国家创新医疗器械认证的企业，其眼镜式眼动仪与认知训练软件形成筛查—干预—再评估闭环，已落地社区与养老机构。",
+   "business_model_cn": "设备销售+软件服务",
+   "tag_l1": [
+    "消费品",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "眼镜",
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【集思鸣智】聚焦养老社区/认知症，提供认知功能评估和训练解决方案。，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0041",
+   "name": "颐养通",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "养老软件",
+    "适老化"
+   ],
+   "description": "颐养通是杭州爱讯科技（2014年成立）旗下品牌，定位养老数字化与智能化解决方案提供商，自研30+养老软件产品覆盖CCRC/机构/社区/居家/民政监管等业态。其自研养老物联网平台对接智能硬件超1000种，服务养老机构3000+。",
+   "highlights": "为养老机构和社区提供运营管理SaaS系统。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%A2%90%E5%85%BB%E9%80%9A",
+   "website_url": "",
+   "business_model": "B2B SaaS/软件平台",
+   "name_cn": "颐养通",
+   "desc_cn": "颐养通是杭州爱讯科技（2014年成立）旗下品牌，定位养老数字化与智能化解决方案提供商，自研30+养老软件产品覆盖CCRC/机构/社区/居家/民政监管等业态。其自研养老物联网平台对接智能硬件超1000种，服务养老机构3000+。",
+   "business_model_cn": "B2C 适老家居消费品",
+   "tag_l1": [
+    "行业服务",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老软件",
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【颐养通】聚焦适老化改造，为养老机构和社区提供运营管理SaaS系统。，B2B模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0042",
+   "name": "颐家",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理",
+    "长护险"
+   ],
+   "description": "居家养老护理服务商，成立于上海，提供居家护理、康复、陪护等服务，是上海长护险定点服务机构。",
+   "highlights": "上海居家康养领导品牌，B轮数千万元，振德医疗产业基金独家投资",
+   "funding_latest": {
+    "date": "2023-12",
+    "amount": "数千万元",
+    "round": "B轮",
+    "display": "B轮 数千万元 (2023-12)"
+   },
+   "funding_total": {
+    "amount": "数千万元",
+    "display": "累计数千万元"
+   },
+   "investors": "振德医疗产业基金 (独家领投)",
+   "founded": "2013",
+   "value_score": 30,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%A2%90%E5%AE%B6",
+   "website_url": "https://www.yijia.com/",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "颐家",
+   "desc_cn": "居家养老护理服务商，成立于上海，提供居家护理、康复、陪护等服务，是上海长护险定点服务机构。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务",
+    "金融保险"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "长护险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【颐家】聚焦专业护理/产业资本/居家护理，上海居家康养领导品牌，B轮数千万元，振德医疗产业基金独家投资，B2B+B2C模式，研究价值分30。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0043",
+   "name": "颐讯",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "惠州颐讯信息技术（2009年成立）是养老运营管理信息系统软件商，核心产品「颐康养老运营管理信息系统」覆盖评估、入住、护理、医疗、餐饮、财务等模块。其软件已助力全国28个省市超25万张养老床位实现信息化管理。",
+   "highlights": "为养老机构提供管理系统和运营支持工具。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%A2%90%E8%AE%AF",
+   "website_url": "",
+   "business_model": "B2C/B2B 养老运营服务",
+   "name_cn": "颐讯",
+   "desc_cn": "惠州颐讯信息技术（2009年成立）是养老运营管理信息系统软件商，核心产品「颐康养老运营管理信息系统」覆盖评估、入住、护理、医疗、餐饮、财务等模块。其软件已助力全国28个省市超25万张养老床位实现信息化管理。",
+   "business_model_cn": "B2C 适老家居消费品",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【颐讯】聚焦适老化改造，为养老机构提供管理系统和运营支持工具。，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

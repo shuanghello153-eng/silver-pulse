@@ -1,0 +1,561 @@
+{
+ "batch": 96,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1115",
+   "name": "自变量机器人",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "通用具身智能大模型",
+   "tags": [
+    "人形机器人"
+   ],
+   "description": "深圳具身智能企业，聚焦“通用具身智能大模型”研发，采用保洁—家庭—养老三级渗透策略切入养老场景。2026年两个多月内连续完成 B/B+/B++/C 四轮融资，累计超40亿元，投后估值突破200亿元",
+   "highlights": "大湾区估值破200亿的具身智能新贵，其“先低风险家庭场景、再渗透养老”的务实路径对国内养老机器人商业化节奏有直接参考价值（S2 热点+S4 可比）。",
+   "funding_latest": "B/B+/B++/C 四轮累计超40亿元（2026年）",
+   "funding_total": "超40亿元",
+   "investors": "小米战投、中国移动、国家人工智能产业投资基金、红杉中国、IDG 等",
+   "founded": "",
+   "value_score": 0,
+   "source": "腾讯新闻 / 36氪（2026-06/07）",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "Shenzhen embodied-AI startup developing a general embodied-intelligence foundation model, penetrating elderly care via home scenarios.",
+   "desc_cn": "深圳具身智能企业，聚焦“通用具身智能大模型”研发，采用保洁—家庭—养老三级渗透策略切入养老场景。2026年两个多月内连续完成 B/B+/B++/C 四轮融资，累计超40亿元，投后估值突破200亿元",
+   "business_model_cn": "B2B 具身智能大模型",
+   "news_coverage": "",
+   "name_cn": "自变量",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "人形机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【自变量机器人】聚焦AI科技，大湾区估值破200亿的具身智能新贵，其“先低风险家庭场景、再渗透养老”的务实路径对国内养老机器人商业化节奏有直接参考价值（S2 热点+S4 可比）。。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1116",
+   "name": "新双派",
+   "region": "国内",
+   "category_l1": "智能硬件/辅具",
+   "category_l2": "智能轮椅/助行",
+   "tags": [
+    "轮椅",
+    "助行器"
+   ],
+   "description": "专注智能助行轮椅的银发硬件公司，主打碳纤维一体压铸智能助行轮椅，支持免弯腰自动折叠，兼顾轻量化与智能化，曾获美国 MUSE 设计金奖，走高端差异化路线。本轮融资将重点用于 AI 与大模型融合升级为“智能出行助手”（具体金额未公开）",
+   "highlights": "智能轮椅/助行是老年行动障碍的刚需品类，其“高端差异化+设计驱动”路线对国内康复辅具出海与品牌化有参考；属 S3 差异化商业模式。",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeClub《AI康养机器人融资潮》（2026-05）",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "Premium smart wheelchair / mobility-assistant brand using carbon-fiber construction and AI for older adults with mobility needs.",
+   "desc_cn": "专注智能助行轮椅的银发硬件公司，主打碳纤维一体压铸智能助行轮椅，支持免弯腰自动折叠，兼顾轻量化与智能化，曾获美国 MUSE 设计金奖，走高端差异化路线。本轮融资将重点用于 AI 与大模型融合升级为“智能出行助手”（具体金额未公开）",
+   "business_model_cn": "B2C 银发辅具硬件",
+   "news_coverage": "",
+   "name_cn": "新双派",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "轮椅",
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【新双派】聚焦智能硬件/辅具，智能轮椅/助行是老年行动障碍的刚需品类，其“高端差异化+设计驱动”路线对国内康复辅具出海与品牌化有参考；属 S3 差异化商业模式。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1117",
+   "name": "智医向量机器人",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "医疗AI解决方案",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "专注为医疗机构提供人工智能解决方案的企业，产品包括 AI 辅助诊断、对话机器人及数字孪生医生等，旨在通过 AI 提升医疗健康领域的效率与可及性",
+   "highlights": "以“医疗 AI+对话机器人+数字孪生”赋能机构，契合养老机构/社区医疗的智能化需求；其技术栈对国内“AI+养老医疗”创业有直接可比性（S4）。",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeClub《AI康养机器人融资潮》（2026-05）",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "Provides medical-AI solutions (AI-assisted diagnosis, conversational bots, digital-twin doctors) to healthcare institutions.",
+   "desc_cn": "专注为医疗机构提供人工智能解决方案的企业，产品包括 AI 辅助诊断、对话机器人及数字孪生医生等，旨在通过 AI 提升医疗健康领域的效率与可及性",
+   "business_model_cn": "B2B 医疗AI解决方案",
+   "news_coverage": "",
+   "name_cn": "智医向量",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【智医向量机器人】聚焦AI医疗，以“医疗 AI+对话机器人+数字孪生”赋能机构，契合养老机构/社区医疗的智能化需求；其技术栈对国内“AI+养老医疗”创业有直接可比性（S4）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1118",
+   "name": "浙江人形机器人创新中心",
+   "region": "国内",
+   "category_l1": "养老机器人",
+   "category_l2": "人形机器人康养应用",
+   "tags": [
+    "人形机器人"
+   ],
+   "description": "主攻拟人化交互的人形机器人创新中心，适配老年人使用习惯，探索人形机器人在康养领域的实际应用，是浙江省布局康养机器人方向的重要载体",
+   "highlights": "代表“区域政府/国资牵头的人形机器人康养应用”路线，对理解国内“产学研+康养场景”协同模式有样本价值；属政策驱动型银发科技供给（S4 国内可比）。",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeClub《AI康养机器人融资潮》（2026-05）",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "Regional innovation center developing humanoid robots with elder-adapted interaction for wellness/elder-care applications.",
+   "desc_cn": "主攻拟人化交互的人形机器人创新中心，适配老年人使用习惯，探索人形机器人在康养领域的实际应用，是浙江省布局康养机器人方向的重要载体",
+   "business_model_cn": "B2B 人形机器人康养解决方案",
+   "news_coverage": "",
+   "name_cn": "浙江人形机器人创新中心",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "人形机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【浙江人形机器人创新中心】聚焦机器人，代表“区域政府/国资牵头的人形机器人康养应用”路线，对理解国内“产学研+康养场景”协同模式有样本价值；属政策驱动型银发科技供给（S4 国内可比）。。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1119",
+   "name": "AvevoRx",
+   "region": "海外",
+   "category_l1": "其他",
+   "category_l2": "居家/上门护理（家庭医疗履约）",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "AvevoRx is a specialty home-infusion pharmacy that delivers intravenous medications, supplies, and clinical monitoring so patients receive chemotherapy, hydration, and other infusion therapies at home.",
+   "highlights": "总部 Greensboro, North Carolina",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "AvevoRx 是专科居家输液药房，配送静脉药物、耗材与临床监测，使患者在家中接受化疗、补液等输液治疗。",
+   "business_model_cn": "B2C/B2B药房履约",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AvevoRx】聚焦居家护理，总部 Greensboro, North Carolina。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1120",
+   "name": "Complete Care Management Services",
+   "region": "海外",
+   "category_l1": "其他",
+   "category_l2": "居家/上门护理",
+   "tags": [
+    "护理协调",
+    "居家护理"
+   ],
+   "description": "基于价值的居家协调照护管理、过渡期照护、再住院率降低项目",
+   "highlights": "总部 Miramar, Florida",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "基于价值的居家协调照护管理、过渡期照护、再住院率降低项目",
+   "business_model_cn": "B2C/B2B 居家护理服务",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护理协调",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Complete Care Management Services】聚焦居家护理，总部 Miramar, Florida。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1121",
+   "name": "Anytime Home Care",
+   "region": "海外",
+   "category_l1": "其他",
+   "category_l2": "居家/上门护理",
+   "tags": [
+    "居家护理",
+    "陪伴服务"
+   ],
+   "description": "Anytime Home Care provides non-medical in-home care—companionship, personal hygiene, meal preparation, and housekeeping—through local franchise offices serving older and disabled adults.",
+   "highlights": "总部 Northbrook, Illinois",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "Anytime Home Care 经本地加盟网点为老人与失能成人安排非医疗居家照护，含陪伴、个人清洁、备餐与家务协助。",
+   "business_model_cn": "B2C加盟服务费",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Anytime Home Care】聚焦居家护理，总部 Northbrook, Illinois。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1122",
+   "name": "Pansy Homecare",
+   "region": "海外",
+   "category_l1": "其他",
+   "category_l2": "居家/上门护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "以私人付费为主的居家照护机构，专注家庭场景下的失智症（dementia）照护",
+   "highlights": "总部 West Hartford, Connecticut",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "以私人付费为主的居家照护机构，专注家庭场景下的失智症（dementia）照护",
+   "business_model_cn": "B2B/B2C 居家照护与医疗履约",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Pansy Homecare】聚焦居家护理，总部 West Hartford, Connecticut。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1123",
+   "name": "BrightStar Care",
+   "region": "海外",
+   "category_l1": "其他",
+   "category_l2": "居家/上门护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "BrightStar Care franchises home-care agencies that supply both non-medical caregiving and skilled nursing, staffing a network of more than 15,000 caregivers for in-home and facility-based clients.",
+   "highlights": "总部 Gurnee, Illinois",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "https://www.brightstarcare.com",
+   "business_model": "",
+   "desc_cn": "BrightStar Care 以加盟模式运营居家照护机构，同时安排非医疗陪护与专业护理，照护者网络超过 1.5 万人，服务居家与机构客户。",
+   "business_model_cn": "B2B/B2C加盟+服务费",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【BrightStar Care】聚焦居家护理，总部 Gurnee, Illinois。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1124",
+   "name": "HomeWell Franchising",
+   "region": "海外",
+   "category_l1": "其他",
+   "category_l2": "居家/上门护理",
+   "tags": [
+    "居家护理",
+    "陪伴服务"
+   ],
+   "description": "HomeWell Franchising licenses a home-care franchise model that delivers personal care, companionship, and household assistance to seniors and adults who are homebound or need support.",
+   "highlights": "总部 Burkburnett, Texas",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "HomeWell 以特许经营授权居家照护模式，为居家不便或需协助的老人与成人安排个人护理、陪伴与家务服务。",
+   "business_model_cn": "B2C加盟授权费",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【HomeWell Franchising】聚焦居家护理，总部 Burkburnett, Texas。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1125",
+   "name": "Sodalis Senior Living",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "养老社区",
+   "tags": [
+    "认知症"
+   ],
+   "description": "个性化辅助生活与记忆照护运营商，旗下23个社区覆盖德州、佛州、乔治亚，含早期痴呆Bridges项目",
+   "highlights": "总部 San Marcos, Texas",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "https://sodalissenior.com",
+   "business_model": "",
+   "desc_cn": "个性化辅助生活与记忆照护运营商，旗下23个社区覆盖德州、佛州、乔治亚，含早期痴呆Bridges项目",
+   "business_model_cn": "养老机构运营（养老社区/CCRC）",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Sodalis Senior Living】聚焦养老社区，总部 San Marcos, Texas。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1126",
+   "name": "Nano Hearing Aids",
+   "region": "海外",
+   "category_l1": "辅具器械",
+   "category_l2": "辅具器械",
+   "tags": [
+    "助听器"
+   ],
+   "description": "面向轻中度听力损失的OTC（非处方）助听器品牌，DTC直达消费者销售",
+   "highlights": "总部 La Jolla, California；员工 11-50",
+   "funding_latest": {
+    "date": "",
+    "amount": "",
+    "round": "",
+    "display": ""
+   },
+   "funding_total": {
+    "amount": "",
+    "display": ""
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "INC5000手动补库",
+   "crunchbase_url": "",
+   "website_url": "https://nanohearingaids.com",
+   "business_model": "",
+   "desc_cn": "面向轻中度听力损失的OTC（非处方）助听器品牌，DTC直达消费者销售",
+   "business_model_cn": "B2C OTC辅具器械",
+   "news_coverage": "",
+   "name_cn": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Nano Hearing Aids】聚焦辅具，总部 La Jolla, California；员工 11-50。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

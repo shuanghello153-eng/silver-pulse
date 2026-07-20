@@ -1,0 +1,571 @@
+{
+ "batch": 3,
+ "tier": "A",
+ "enterprises": [
+  {
+   "serial": "#0557",
+   "name": "The Villages",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "CCRC"
+   ],
+   "description": "美国最大的老年退休社区运营商，社区数量超过175个，分布在美国的28个州。退休社区模式让老年人在统一规划的社区内享受独立生活、社交活动和医疗服务。",
+   "highlights": "社区数量超过175个",
+   "funding_latest": {
+    "amount": "NYSE上市",
+    "round": "NYSE: VILL",
+    "display": "NYSE: VILL NYSE上市"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1970",
+   "value_score": 26,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=The%20Villages",
+   "website_url": "https://www.thevillages.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "美国最大的老年退休社区运营商，社区数量超过175个，分布在美国的28个州。退休社区模式让老年人在统一规划的社区内享受独立生活、社交活动和医疗服务。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "CCRC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【The Villages】聚焦养老社区/文娱社交，社区数量超过175个，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0558",
+   "name": "Riverspring Living",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老机构",
+    "康复医疗"
+   ],
+   "description": "大型养老康复机构，专注于将AgeTech（AI/VR/机器人）从理论转化为实际ROI。接受TheGerontechnologist采访，深度分享技术落地经验。",
+   "highlights": "专注于将AgeTech（AI/VR/机器人）从理论转化为实际ROI。接受Th...",
+   "funding_latest": {
+    "amount": "非上市",
+    "display": "非上市"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1989",
+   "value_score": 33,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Riverspring%20Living",
+   "website_url": "https://www.riverspringliving.org",
+   "business_model": "B2B/B2C 服务机器人",
+   "desc_cn": "大型养老康复机构，专注于将AgeTech（AI/VR/机器人）从理论转化为实际ROI。接受TheGerontechnologist采访，深度分享技术落地经验。",
+   "business_model_cn": "B2B/B2C 服务机器人",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构",
+    "康复医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Riverspring Living】聚焦专业护理，专注于将AgeTech（AI/VR/机器人）从理论转化为实际ROI。接受Th...，B2B+B2C模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0647",
+   "name": "BrightSpring Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "BrightSpring Health Services 是美国面向复杂慢病与残疾人群的家外医疗与药房服务平台，提供居家护理、康复与用药配送，已登陆纳斯达克（BTSG）。",
+   "highlights": "收购多家组织",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "IPO",
+    "display": "IPO (2024年3月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1996",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BrightSpring%20Health",
+   "website_url": "https://www.brightspringhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "BrightSpring Health Services 是美国面向复杂慢病与残疾人群的家外医疗与药房服务平台，提供居家护理、康复与用药配送，已登陆纳斯达克（BTSG）。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【BrightSpring Health】聚焦产业资本/保健品/行业媒体，收购多家组织，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0654",
+   "name": "Caredoc",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "韩国排名第一的老年护理品牌",
+   "highlights": "韩国排名第一的老年护理品牌",
+   "funding_latest": {
+    "amount": "170亿韩币",
+    "round": "B轮",
+    "display": "B轮 170亿韩币"
+   },
+   "funding_total": null,
+   "investors": "24+ 投资人 (Series A 6位)",
+   "founded": "2016",
+   "value_score": 31,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Caredoc",
+   "website_url": "https://www.caredoc.co.kr",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "韩国排名第一的老年护理品牌",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Caredoc】聚焦产业资本/居家护理/行业媒体，韩国排名第一的老年护理品牌，B2B+B2C模式，研究价值分31。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0678",
+   "name": "CVS Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "收购Oak Street Health、Amedisys等，布局老年护理",
+   "highlights": "布局老年护理",
+   "funding_latest": {
+    "round": "上市公司",
+    "display": "上市公司"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1963",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CVS%20Health",
+   "website_url": "https://www.cvshealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "收购Oak Street Health、Amedisys等，布局老年护理",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【CVS Health】聚焦居家护理/行业媒体，布局老年护理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0712",
+   "name": "GoodRx",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "药品"
+   ],
+   "description": "比较不同药店处方药价格，已上市",
+   "highlights": "已上市",
+   "funding_latest": {
+    "amount": "已上市",
+    "display": "已上市"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GoodRx",
+   "website_url": "https://www.goodrx.com",
+   "business_model": "上市企业",
+   "desc_cn": "比较不同药店处方药价格，已上市",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "GoodRx Holdings 10-K Annual Report 2024",
+      "date": "2024",
+      "source": "SEC/fintel",
+      "url": "https://fintel.io/doc/sec-goodrx-holdings-inc-1809519-10k-2024-february-29-19782-9494"
+     }
+    ],
+    "snippets": [
+     "Public prescription-savings co (NASDAQ: GDRX); serves seniors via discounts.",
+     "No silver-economy-specific funding event; earnings only."
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【GoodRx】聚焦保健品/健康管理/行业媒体，已上市，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0810",
+   "name": "One Medical",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "诊所"
+   ],
+   "description": "会员制初级保健机构，2023年被亚马逊收购",
+   "highlights": "2023年被亚马逊收购",
+   "funding_latest": {
+    "date": "2020年",
+    "amount": "2.45亿美元",
+    "round": "IPO",
+    "display": "IPO 2.45亿美元 (2020年)"
+   },
+   "funding_total": "$3.9B",
+   "investors": "Amazon (acquirer); pre-acquisition VCs",
+   "founded": "2007",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=One%20Medical",
+   "website_url": "https://www.onemedical.com",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "会员制初级保健机构，2023年被亚马逊收购",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【One Medical】聚焦产业资本/健康管理/文娱社交，2023年被亚马逊收购，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0840",
+   "name": "SCI (Service Corporation International)",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "殡葬"
+   ],
+   "description": "美国最大的上市殡葬服务公司，2000+殡葬设施，每年服务30万家庭",
+   "highlights": "2000+殡葬设施",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1962",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SCI%20%28Service%20Corporation%20International%29",
+   "website_url": "https://www.sci-corp.com",
+   "business_model": "上市企业",
+   "desc_cn": "美国最大的上市殡葬服务公司，2000+殡葬设施，每年服务30万家庭",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Service Corporation International Announces Q4 2024 Results",
+      "date": "2025-02-12",
+      "source": "StockTitan",
+      "url": "https://www.stocktitan.net/news/SCI/service-corporation-international-announces-fourth-quarter-2024-c9b8atdkciwa.html"
+     }
+    ],
+    "snippets": [
+     "Largest North American deathcare provider (NYSE: SCI).",
+     "Q4 2024 revenue +4%; earnings, no major funding/M&A in 2024-25."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "殡葬"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【SCI (Service Corporation International)】聚焦临终关怀/行业媒体，2000+殡葬设施，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0935",
+   "name": "Nikko Travel",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "日本高端老年旅游上市公司",
+   "highlights": "日本高端老年旅游上市公司",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1976",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Nikko%20Travel",
+   "website_url": "https://www.nikko-travel.co.jp",
+   "business_model": "上市企业",
+   "desc_cn": "日本高端老年旅游上市公司",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "low",
+    "latest_news": [],
+    "snippets": [
+     "Search returned general senior-tourism trend pieces, not company-specific Nikko Travel funding.",
+     "Related: Club Tourism is Japan's largest senior-travel provider (700万会员). unverified for Nikko Travel."
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Nikko Travel】聚焦旅游/行业媒体，日本高端老年旅游上市公司，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0938",
+   "name": "镰仓新书",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "殡葬"
+   ],
+   "description": "日本京东上市的殡葬服务公司，购墓、殡仪、佛坛等",
+   "highlights": "购墓、殡仪、佛坛等",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1979",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%95%B0%E4%BB%93%E6%96%B0%E4%B9%A6",
+   "website_url": "https://www.kamakura-net.co.jp",
+   "business_model": "上市企业",
+   "name_cn": "镰仓新书",
+   "desc_cn": "日本京东上市的殡葬服务公司，购墓、殡仪、佛坛等",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "镰仓新书 财务报告 第41期 (2024/02/01-2025/01/31)",
+      "date": "2025-02-01",
+      "source": "富途",
+      "url": "https://www.futunn.com/stock/6184-JP/announcement"
+     }
+    ],
+    "snippets": [
+     "Tokyo-listed (6184) end-of-life/funeral info platform; FY2024 sales ~58亿日元.",
+     "Strategic partnership with Japan Post for funeral services."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "殡葬"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【镰仓新书】聚焦临终关怀/行业媒体，购墓、殡仪、佛坛等，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0945",
+   "name": "Best Buy Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "提供PERS(Lively)、RPM(Current Health)及技术服务整合(Geek Squad)，主要服务老年人居家健康和技术需求。Curren...",
+   "highlights": "主要服务老年人居家健康和技术需求。Curren...",
+   "funding_latest": {
+    "round": "上市公司",
+    "display": "上市公司"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 33,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Best%20Buy%20Health",
+   "website_url": "https://www.bestbuyhealth.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "提供PERS(Lively)、RPM(Current Health)及技术服务整合(Geek Squad)，主要服务老年人居家健康和技术需求。Curren...",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "name_cn": "百思买健康",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Best Buy Health】聚焦居家护理/慢病管理，主要服务老年人居家健康和技术需求。Curren...，B2B+B2C模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0946",
+   "name": "Encompass Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "康复医疗"
+   ],
+   "description": "上市公司(EHC)，数十亿营收。远程康复、数据分析优化流程，成熟连锁医疗服务体系。海量老年康复/居家患者",
+   "highlights": "数十亿营收。远程康复、数据分析优化流程",
+   "funding_latest": {
+    "round": "上市公司",
+    "display": "上市公司"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1984",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Encompass%20Health",
+   "website_url": "https://www.encompasshealth.com",
+   "business_model": "上市企业",
+   "desc_cn": "上市公司(EHC)，数十亿营收。远程康复、数据分析优化流程，成熟连锁医疗服务体系。海量老年康复/居家患者",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Encompass Health 2024 Annual Report",
+      "date": "2025-04-01",
+      "source": "SEC/q4cdn",
+      "url": "https://s203.q4cdn.com/714480614/files/doc_financials/2024/ar/EHC-2024-Annual-Report-and-Proxy.pdf"
+     }
+    ],
+    "snippets": [
+     "Largest US inpatient rehab provider (NYSE: EHC); 2024 cared ~250,000 patients, +8.3% discharges.",
+     "$690M adjusted free cash flow; expanding IRF capacity."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康复医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Encompass Health】聚焦专业护理/产业资本/居家护理，数十亿营收。远程康复、数据分析优化流程，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  }
+ ]
+}

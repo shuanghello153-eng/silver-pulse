@@ -1,0 +1,666 @@
+{
+ "batch": 105,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "Solace",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "福利导航",
+   "tags": [
+    "保险"
+   ],
+   "description": "医疗福利导航平台企业，帮用户梳理保险、匹配医疗资源，含复杂慢病与临终关怀协调，服务于患者与家庭。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "医疗福利导航平台企业，帮用户梳理保险、匹配医疗资源，含复杂慢病与临终关怀协调，服务于患者与家庭。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "医疗福利导航，含临终协调",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Solace",
+   "website_url": "https://www.solace.health",
+   "business_model": "B2B2C 医疗福利导航",
+   "business_model_cn": "B2B 医疗福利导航",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "医疗福利导航平台，帮用户梳理保险、找到合适医疗资源，含复杂慢病与临终关怀协调。"
+    ]
+   },
+   "serial": "#1267",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Solace】聚焦产业资本/养老金融，医疗福利导航，含临终协调，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Butlr",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "非接触传感",
+   "tags": [
+    "睡眠监测"
+   ],
+   "description": "用热传感（thermal）实现非接触式存在/跌倒/睡眠监测的AI平台，保护隐私，适用于养老场景。",
+   "desc_cn": "用热传感（thermal）实现非接触式存在/跌倒/睡眠监测的AI平台，保护隐私，适用于养老场景。",
+   "highlights": "热传感非接触式养老监测（隐私优先）",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2019",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Butlr",
+   "website_url": "https://www.butlr.io",
+   "business_model": "B2B 非接触式传感AI平台",
+   "business_model_cn": "B2B 非接触式传感AI平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "用热传感（thermal）实现非接触式存在/跌倒/睡眠监测的AI平台，保护隐私，适用于养老场景。"
+    ]
+   },
+   "serial": "#1268",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Butlr】聚焦产业资本，热传感非接触式养老监测（隐私优先），B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Lotus",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "女性健康",
+   "tags": [
+    "更年期"
+   ],
+   "description": "面向女性全生命周期（含围绝经期）的数字健康公司，获1843 Capital等投资。",
+   "desc_cn": "面向女性全生命周期（含围绝经期）的数字健康公司，获1843 Capital等投资。",
+   "highlights": "女性全生命周期数字健康",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lotus",
+   "website_url": "https://www.lotushealth.com",
+   "business_model": "B2B2C 女性数字健康",
+   "business_model_cn": "B2B2C 女性数字健康",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向女性全生命周期（含围绝经期）的数字健康公司，获1843 Capital等投资。"
+    ]
+   },
+   "serial": "#1269",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lotus】聚焦女性健康，女性全生命周期数字健康，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Guaranteed",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "退休理财",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "面向老年人的退休理财与年金咨询平台，帮助规划退休收入，获Cake Ventures投资。",
+   "desc_cn": "面向老年人的退休理财与年金咨询平台，帮助规划退休收入，获Cake Ventures投资。",
+   "highlights": "老年退休理财规划平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Guaranteed",
+   "website_url": "https://www.guaranteed.ai",
+   "business_model": "B2B2C 退休理财规划",
+   "business_model_cn": "B2B2C 退休理财规划",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向老年人的退休理财与年金咨询平台，帮助规划退休收入，获Cake Ventures投资。"
+    ]
+   },
+   "serial": "#1270",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Guaranteed】聚焦产业资本/养老金融，老年退休理财规划平台，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Bright",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "退休理财",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "退休收入与理财规划平台，帮助临近退休人群优化储蓄与支出，获Cake Ventures投资。",
+   "desc_cn": "退休收入与理财规划平台，帮助临近退休人群优化储蓄与支出，获Cake Ventures投资。",
+   "highlights": "退休收入规划平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2021",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Bright",
+   "website_url": "https://www.bright.app",
+   "business_model": "B2B2C 退休理财规划",
+   "business_model_cn": "B2B2C 退休理财规划",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "退休收入与理财规划平台，帮助临近退休人群优化储蓄与支出，获Cake Ventures投资。"
+    ]
+   },
+   "serial": "#1271",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Bright】聚焦产业资本/养老金融，退休收入规划平台，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Bluecrest",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康筛查",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "英国平价健康筛查与体检企业，为成人（含老人）提供常规指标检测与风险预警，服务于大众健康筛查市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "英国平价健康筛查与体检企业，为成人（含老人）提供常规指标检测与风险预警，服务于大众健康筛查市场。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "英国平价健康筛查",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Bluecrest",
+   "website_url": "https://www.bluecresthealth.co.uk",
+   "business_model": "B2C 健康筛查体检",
+   "business_model_cn": "B2C/B2B 健康筛查",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国平价健康筛查与体检公司，为成人（含老人）提供常规指标检测与风险预警。"
+    ]
+   },
+   "serial": "#1272",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Bluecrest】聚焦健康管理，英国平价健康筛查，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Hometouch",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家照护",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "英国居家照护平台企业，直接雇佣并培训护理员，提供透明定价的居家养老护理服务。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "英国居家照护平台企业，直接雇佣并培训护理员，提供透明定价的居家养老护理服务。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "英国直雇式居家照护平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hometouch",
+   "website_url": "https://www.hometouch.co.uk",
+   "business_model": "B2B2C 居家照护平台",
+   "business_model_cn": "B2C/B2B 居家照护服务",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国居家照护平台，直接雇佣并培训护理员，提供透明定价的居家养老护理。"
+    ]
+   },
+   "serial": "#1273",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hometouch】聚焦居家护理，英国直雇式居家照护平台，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "SuperCarers",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "居家照护匹配",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "英国居家照护匹配平台企业，连接家庭与审核通过的护理员，并提供管理工具，服务于居家养老需求方。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "英国居家照护匹配平台企业，连接家庭与审核通过的护理员，并提供管理工具，服务于居家养老需求方。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "英国居家照护匹配平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2014",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SuperCarers",
+   "website_url": "https://www.supercarers.com",
+   "business_model": "B2B2C 居家照护匹配",
+   "business_model_cn": "B2B 居家照护匹配平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国居家照护匹配平台，连接家庭与经过审核的护理员，并提供管理工具。"
+    ]
+   },
+   "serial": "#1274",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【SuperCarers】聚焦居家护理，英国居家照护匹配平台，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Portever",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "养老社区",
+   "tags": [
+    "CCRC"
+   ],
+   "description": "海外养老社区与退休生活运营商，提供持续照料退休社区（CCRC）模式，涵盖独立生活到护理的全周期照护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "desc_cn": "海外养老社区与退休生活运营商，提供持续照料退休社区（CCRC）模式，涵盖独立生活到护理的全周期照护。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+   "highlights": "海外CCRC养老社区运营商",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Portever",
+   "website_url": "https://www.portever.com",
+   "business_model": "B2B/B2C 养老社区运营",
+   "business_model_cn": "养老机构运营（养老社区/CCRC）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "海外养老社区与退休生活运营商，提供持续照料退休社区（CCRC）模式。"
+    ]
+   },
+   "serial": "#1275",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "CCRC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Portever】聚焦养老社区，海外CCRC养老社区运营商，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Person Centred Software",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护平台",
+   "category_l2": "照护记录",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "英国养老照护记录（mCare）SaaS，用移动端简化护理记录与合规，覆盖大量养老机构。",
+   "desc_cn": "英国养老照护记录（mCare）SaaS，用移动端简化护理记录与合规，覆盖大量养老机构。",
+   "highlights": "英国移动护理记录SaaS",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2013",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Person+Centred+Software",
+   "website_url": "https://www.personcentredsoftware.com",
+   "business_model": "B2B 护理记录SaaS",
+   "business_model_cn": "B2B 护理记录SaaS",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国养老照护记录（mCare）SaaS，用移动端简化护理记录与合规，覆盖大量养老机构。"
+    ]
+   },
+   "serial": "#1276",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Person Centred Software】聚焦居家护理，英国移动护理记录SaaS，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Mayden",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康记录",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。",
+   "desc_cn": "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。",
+   "highlights": "英国护理电子健康记录SaaS",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2006",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Mayden",
+   "website_url": "https://www.mayden.co.uk",
+   "business_model": "B2B 护理EHR SaaS",
+   "business_model_cn": "B2B 护理EHR SaaS",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国心理健康与护理SaaS公司，提供电子健康记录系统（如iaptus），覆盖老年心理照护。"
+    ]
+   },
+   "serial": "#1277",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Mayden】聚焦健康管理/居家护理/精神健康，英国护理电子健康记录SaaS，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Oomph! Wellness",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "活力康养",
+   "tags": [
+    "文娱"
+   ],
+   "description": "英国为养老机构提供活力康养（wellbeing）活动与训练的公司，提升入住老人身心活跃度。",
+   "desc_cn": "英国为养老机构提供活力康养（wellbeing）活动与训练的公司，提升入住老人身心活跃度。",
+   "highlights": "英国养老机构活力康养活动",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2011",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Oomph!+Wellness",
+   "website_url": "https://www.oomph-wellness.org",
+   "business_model": "B2B 养老机构康养活动",
+   "business_model_cn": "B2B 养老机构康养活动",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "英国为养老机构提供活力康养（wellbeing）活动与训练的公司，提升入住老人身心活跃度。"
+    ]
+   },
+   "serial": "#1278",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Oomph! Wellness】聚焦健康管理，英国养老机构活力康养活动，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

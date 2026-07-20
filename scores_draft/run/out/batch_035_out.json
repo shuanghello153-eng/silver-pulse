@@ -1,0 +1,653 @@
+{
+  "batch": 35,
+  "enterprises": [
+    {
+      "serial": "#0160",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：运营多个养老网与顾问匹配；信息平台加一对一顾问是差异化；其机构推广加长者匹配模式国内可抄，轻资产易起量。",
+        "rec_v2": "披露一般，亮点是多品牌矩阵；差异在信息聚合；创业者可学其用内容加顾问做养老决策入口。",
+        "rec_v3": "冷门却有信息价值；差异在连接机构与家庭；国内养老信息不对称，其平台加顾问逻辑可借鉴。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "养老信息平台，提供机构推广与长者顾问匹配",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "运营幸福老年网/太平洋养老网/搜养老网",
+        "长者一对一顾问与机构匹配"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "运营养老信息平台，为机构推广并为长者提供顾问与机构匹配"
+    },
+    {
+      "serial": "#0161",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：已服务6.5万家庭、覆盖数十城；全国养老查询加入住协助是差异化；其顾问式匹配国内可抄，轻平台易复制。",
+        "rec_v2": "披露尚可，亮点是超6.5万家庭方案；差异在一对一顾问；创业者可学其用数据加人工做养老决策，避重资产。",
+        "rec_v3": "冷门但踩中信息不对称；差异在把机构选择服务化；国内养老顾问刚起步，其咨询加履约模型值得借。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+B端机构合作",
+      "business_tags_role": "平台",
+      "desc_cn": "全国性养老信息服务平台，机构查询与入住协助",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "已为超6.5万个家庭提供养老方案",
+        "全国养老机构查询+入住协助"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "全国性养老信息服务平台，提供机构查询、顾问咨询与入住协助"
+    },
+    {
+      "serial": "#0162",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号低但信息厚：TOP50、105件软著、三胞旗下；智慧养老指挥运营是强差异；其指挥中心加服务网国内可抄，政府合作是复制关键。",
+        "rec_v2": "披露透明，亮点是软著与标杆地位；差异在信息化运营中台；创业者可学其系统加人工调度，但需政府资源。",
+        "rec_v3": "冷门信号难掩标杆；差异在把居家养老做成可复制运营体系；国内智慧养老政策利好，其指挥中心模型值得借鉴。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 48.7
+      },
+      "payor_model": "政府购买服务+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "智慧居家养老运营标杆，三胞集团旗下",
+      "founded": 1998,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2013",
+          "text": "被三胞集团（南京新百旗下）收购，纳入智慧养老体系"
+        }
+      ],
+      "highlights": [
+        "2013年加入三胞集团",
+        "软著105件、2026银发消费TOP50",
+        "智慧养老指挥中心"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智慧居家养老运营标杆，提供自主运营指挥中心与专业化服务团队"
+    },
+    {
+      "serial": "#0163",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号低、信息少；专注心肺与老年慢病康复设备是差异化；设备商模式国内可抄，但研发注册门槛不低，需临床资源。",
+        "rec_v2": "披露薄弱，亮点是心肺康复细分；差异在慢病场景；创业者可学其从细分康复切入，避开通用器械红海。",
+        "rec_v3": "冷门但切慢病康复；差异在老年心肺专项；国内康复设备国产化空间大，其专病定位可借鉴。",
+        "info_score": 3,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "心肺与老年慢病康复医疗设备研发商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "心肺康复+老年慢病康复设备",
+        "康复医疗设备品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复医疗设备品牌，专注心肺康复和老年慢病康复设备研发"
+    },
+    {
+      "serial": "#0164",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：防跌倒改造加松下合资加旅居；改造加全龄社区是强差异；其居家适老化模型国内可抄，政策补贴利好复制。",
+        "rec_v2": "披露一般，亮点是与松下共建标准社区；差异在国际化适老；创业者可学其用改造切入再延展康养服务。",
+        "rec_v3": "冷门却是适老改造先行者；差异在防跌倒环境而非单品；国内居家适老化刚起量，其评估加改造模型可借鉴。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费+B端机构采购+政府适老化补贴",
+      "business_tags_role": "服务商",
+      "desc_cn": "居家适老化改造先行者，辅具配置与康养旅居",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "与松下合资全龄智慧健康社区",
+        "中国适老化改造先行者",
+        "防跌倒环境改造+辅具"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家适老化改造先行者，提供防跌倒环境改造、辅具配置与康养旅居"
+    },
+    {
+      "serial": "#0165",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 47.7,
+      "recommend": {
+        "rec_v1": "信号低但信息厚：用户破4000万；家长把关、孩子脱单是强差异化；银发文娱社交蓝海，平台模式国内极易复制起量。",
+        "rec_v2": "披露透明，亮点是代际婚恋新场景；差异在父母端切入；创业者可学其用情感刚需做银发流量入口。",
+        "rec_v3": "冷门信号难掩规模；差异在把相亲做成银发社交；国内老年情感市场空白，其管家加红娘模型值得借。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 47.7
+      },
+      "payor_model": "个人服务费+会员费",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年婚恋平台，家长把关子女脱单",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "用户数突破4000万(2025.6)",
+        "家长把关+红娘牵线+线下相亲会"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年婚恋相亲平台，主打家长把关、子女脱单的银发文娱社交"
+    },
+    {
+      "serial": "#0166",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：会员1500万、全媒体通路；本质是综合家庭购物频道，银发非专属；模式可抄但属泛零售而非银发服务。",
+        "rec_v2": "披露一般，亮点是电视加APP全媒体；差异在渠道形态；创业者可学其居家购物，但客群不限于老年。",
+        "rec_v3": "低信号且综合零售；差异在广电购物场景；国内银发电视购物可借鉴其履约，但本业非银发专属。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "全国性数字家庭购物频道与全媒体零售",
+      "founded": 2008,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "会员超1500万",
+        "广电总局批准全国性数字家庭购物频道",
+        "惠家有APP全媒体"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "全国性数字家庭购物频道与全媒体零售，综合家居美妆食品，非专服务老年群体"
+    },
+    {
+      "serial": "#0167",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：制氧雾化加三甲儿童医院指定；家用呼吸设备是差异化；产品商模式国内可抄，但医疗注册有门槛。",
+        "rec_v2": "披露一般，亮点是三甲指定背书；差异在院外呼吸管理；创业者可学其用医院信任背书做家用器械。",
+        "rec_v3": "冷门但切呼吸慢病；差异在诊疗一体化设备；国内家用制氧雾化需求稳，其医械定位可借鉴。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "家用呼吸诊疗设备商，制氧雾化与监测系统",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "智能雾化系统为全国三甲儿童医院指定",
+        "家用制氧机/雾化器/健康监测"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用呼吸诊疗设备商，制氧机、雾化器与监测服务老年呼吸慢病"
+    },
+    {
+      "serial": "#0168",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 30.6,
+      "recommend": {
+        "rec_v1": "信号低、信息少；康复训练与物理治疗设备是差异化；设备商模式国内可抄，但研发与渠道门槛需积累。",
+        "rec_v2": "披露薄弱，亮点是康复物理双线；差异在训练设备；创业者可学其从机构端切入康复器械，避开消费红海。",
+        "rec_v3": "冷门但有康复价值；差异在主动训练设备；国内康复医疗扩容，其B2B设备定位可借鉴。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 30.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "康复与物理治疗设备研发生产商",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "康复训练与物理治疗设备",
+        "康复医疗器械品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复医疗器械品牌，研发生产康复训练与物理治疗设备"
+    },
+    {
+      "serial": "#0169",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 44.7,
+      "recommend": {
+        "rec_v1": "信号低但信息有：获奇绩创坛A轮、40-70岁长辈；父母替子女相亲是强差异化；银发社交蓝海，社区模式国内易复制。",
+        "rec_v2": "披露尚可，亮点是奇绩创坛背书；差异在代际相亲社区；创业者可学其用内容加社群黏住银发用户。",
+        "rec_v3": "冷门却踩准银发社交；差异在把相亲做成长辈乐活社区；国内老年情感市场空白，其社区模型值得借。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 44.7
+      },
+      "payor_model": "个人服务费+会员费",
+      "business_tags_role": "平台",
+      "desc_cn": "40-70岁长辈帮子女相亲的社区平台",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "",
+          "text": "获奇绩创坛A轮投资"
+        }
+      ],
+      "highlights": [
+        "获奇绩创坛A轮投资",
+        "面向40-70岁长辈帮子女相亲"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向40-70岁长辈的帮子女相亲社区平台，属银发文娱社交"
+    },
+    {
+      "serial": "#0170",
+      "signal_strength": 0.55,
+      "info_score": 9,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号低但信息极厚：上市公司、2024营收6.92亿；去壁孢子粉是差异化技术壁垒；其中药保健品可抄定位，但老字号研发壁垒高。",
+        "rec_v2": "披露透明（财报可查），亮点是育种到深加工全链；差异在技术壁垒；创业者可学其把道地药材做成标准化保健品。",
+        "rec_v3": "冷门信号难掩上市实力；差异在去壁工艺稀缺性；国内中药养生热，其全链加品牌逻辑可借鉴。",
+        "info_score": 9,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 48.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "上市公司，灵芝铁皮石斛中药保健品",
+      "founded": 1997,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2017",
+          "text": "上交所主板上市（股票代码603896）"
+        }
+      ],
+      "highlights": [
+        "上交所上市公司603896",
+        "2024营收6.92亿元",
+        "去壁灵芝孢子粉/铁皮枫斗"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中华老字号现代中药企业，灵芝孢子粉等保健品服务老年养生"
+    },
+    {
+      "serial": "#0171",
+      "signal_strength": 0.55,
+      "info_score": 2,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 25.6,
+      "recommend": {
+        "rec_v1": "信号低、信息极少；布局老年慢病与康复医疗是差异化；专科服务国内可抄，但医疗牌照与专家资源门槛高。",
+        "rec_v2": "披露薄弱，亮点是慢病加康复双场景；差异在专科定位；创业者可学其从老年慢病切入基层医疗。",
+        "rec_v3": "冷门但切老年医疗；差异在慢病管理闭环；国内康复医疗缺口大，其专科服务模型值得基层创业者借鉴。",
+        "info_score": 2,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 25.6
+      },
+      "payor_model": "个人自费+医保",
+      "business_tags_role": "服务商",
+      "desc_cn": "专科医疗品牌，老年慢病与康复布局",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "老年慢病管理与康复医疗布局",
+        "专科医疗服务品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专科医疗服务品牌，在老年慢病管理和康复医疗领域有布局"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0160",
+      "name": "安养养老",
+      "intro": "安养养老运营幸福老年网等养老信息平台，为机构推广并为长者提供顾问匹配。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老信息平台"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0161",
+      "name": "安养帮",
+      "intro": "安养帮是全国性养老信息服务平台，为老年家庭提供机构查询与一对一养老顾问。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0162",
+      "name": "安康通",
+      "intro": "安康通是国内综合养老运营标杆企业，2013年加入三胞集团，提供智慧居家养老服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0163",
+      "name": "安泰康成",
+      "intro": "安泰康成是康复医疗设备品牌，专注心肺康复和老年慢病康复设备研发。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具",
+          "消费品",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康复器械",
+          "智能硬件",
+          "慢病管理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0164",
+      "name": "安馨康养",
+      "intro": "安馨康养以居家适老化改造为核心，与松下合资打造全龄智慧健康社区。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0165",
+      "name": "完美亲家",
+      "intro": "完美亲家是婚恋服务平台，主打家长先把关、孩子再脱单的中老年婚恋社交。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "相亲"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发社交",
+          "reason": "中老年婚恋相亲平台，属银发文娱社交，可补标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0166",
+      "name": "家有购物",
+      "intro": "家有购物集团运营全国性数字家庭购物频道，并通过惠家有APP销售多类商品。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0167",
+      "name": "家瑞康",
+      "intro": "家瑞康医疗专注呼吸诊疗一体化，研发家用制氧机、雾化器及智能雾化管理系统。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "医疗器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0168",
+      "name": "富伯医疗",
+      "intro": "富伯医疗是康复医疗器械品牌，研发生产康复训练设备和物理治疗设备。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0169",
+      "name": "寻缘树",
+      "intro": "寻缘树是面向40-70岁长辈的帮孩子相亲社区平台，延伸家庭、养生、旅游内容。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "相亲"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": [
+            "线上",
+            "线下"
+          ]
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发社交",
+          "reason": "40-70岁长辈相亲社区，属银发文娱社交，可补标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0170",
+      "name": "寿仙谷",
+      "intro": "寿仙谷是中华老字号现代中药企业，主营灵芝、铁皮石斛育种栽培与深加工。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "保健品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0171",
+      "name": "尊术医疗",
+      "intro": "尊术医疗是专科医疗服务品牌，在老年慢病管理和康复医疗领域有布局。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0166",
+      "name": "家有购物",
+      "verdict": "非银发",
+      "reason": "全国性数字家庭购物频道与全媒体零售，综合家居美妆食品，非专服务老年群体"
+    }
+  ]
+}

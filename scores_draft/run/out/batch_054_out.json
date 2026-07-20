@@ -1,0 +1,672 @@
+{
+  "batch": 54,
+  "enterprises": [
+    {
+      "serial": "#0393",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号偏弱但官网信息完整；早期养老信息聚合平台差异在点评评价体系，国内可做区域垂直版照搬获客逻辑。",
+        "rec_v2": "披露中等热度低；'机构库+用户点评'打法清晰，地方创业者能直接复制其信息撮合加佣金变现路径。",
+        "rec_v3": "信号不强资料够用；它以养老机构数据库建立壁垒，中小团队可学其轻资产信息中介模式落地本地市场。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "养老机构搜索预约与点评信息平台",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2015-12",
+          "text": "获薛鹤峰数千万元A轮融资"
+        }
+      ],
+      "highlights": [
+        "养老信息平台早期探索者",
+        "机构库+用户点评评价体系",
+        "后升级为优悠乐品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老信息聚合平台直接服务养老机构与家属查询决策"
+    },
+    {
+      "serial": "#0395",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号低但两轮融资信息披露实；连锁医养一体化差异在中资产标准化，国内抄需重资产与牌照门槛高。",
+        "rec_v2": "公开资料中等；其'医养康护'闭环打法稳，区域创业者只能学其服务体系难复制规模扩张路径。",
+        "rec_v3": "信号不强融资透明；规模化连锁差异强但重资产强监管，国内宜学其单店运营标准而非盲目铺开。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "服务商",
+      "desc_cn": "青岛连锁医养结合照护机构运营商",
+      "founded": 2009,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-03",
+          "text": "获中国通用技术集团数亿元A轮融资"
+        },
+        {
+          "date": "2025",
+          "text": "完成中信医疗基金B轮融资"
+        }
+      ],
+      "highlights": [
+        "全国11家连锁医养机构",
+        "床位超4700张",
+        "央企+险资两轮加持"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医养康护一体化机构直接服务失能失智老人"
+    },
+    {
+      "serial": "#0396",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱官网介绍清晰；'六助'一键式调度差异在中台派单，国内社区养老可照搬其服务集成逻辑。",
+        "rec_v2": "披露偏少热度低；智慧养老一键呼叫打法成熟，县域创业者能直接复用其工单分派系统搭建本地网。",
+        "rec_v3": "信号不强资料有限；其将六助服务线上化差异清晰，国内运营商可学其轻平台加上门履约组合模式。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "智慧养老一键式居家服务平台",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "六助(助餐浴洁急医乐)体系",
+        "一键式居家养老服务",
+        "湖北孝爱智慧养老运营"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智慧养老一键式服务直接面向居家社区老人"
+    },
+    {
+      "serial": "#0399",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但'头部'定位信息足；中老年兴趣教育差异在社群运营，国内可做垂直课程平台直接复制。",
+        "rec_v2": "公开中等品牌声量低；其银发教育内容体系成熟，创业者能学其分层课程加社群裂变获客路径。",
+        "rec_v3": "信号不强资料够用；它把老年教育做成消费品牌差异稳，国内宜抄其'内容+社群'轻资产变现打法。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "中老年兴趣教育头部平台",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "国内头部老年教育品牌",
+        "兴趣+技能课程体系",
+        "社群化运营"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年兴趣教育直接服务老年人群"
+    },
+    {
+      "serial": "#0400",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 28.7,
+      "recommend": {
+        "rec_v1": "信号弱信息极少；用药管理研发差异在技术壁垒，国内创业者宜学其适老提醒交互而非硬抄硬件。",
+        "rec_v2": "披露稀少热度低；其聚焦服药依从性差异清晰，但研发门槛高，中小团队可复制其App提醒轻模式。",
+        "rec_v3": "信号不强资料不足；它攻老人漏服痛点差异明确，国内可学其分级提醒逻辑做低成本SaaS化方案。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 28.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "智能服药管理与提醒解决方案",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "聚焦老年服药依从性",
+        "研发门槛较高",
+        "智能提醒交互"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能服药管理直接服务老年慢病用药人群"
+    },
+    {
+      "serial": "#0402",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱但作为上市公司信息极丰；AI助听器差异在语音技术，国内创业者难抄其底层算法宜学渠道打法。",
+        "rec_v2": "公开资料充足热度中；其将AI语音用于助听差异稳，中小品牌可学其'验配+服务'线下网络而非技术。",
+        "rec_v3": "信号不强信息披露全；智能助听壁垒在声学算法，国内宜借其教育市场经验做细分人群性价比产品。",
+        "info_score": 8,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "智能助听器与听力解决方案商",
+      "founded": 1999,
+      "stage": "已上市",
+      "events": [],
+      "highlights": [
+        "国产智能助听器代表",
+        "AI语音技术赋能",
+        "上市企业(深交所)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能助听器直接服务老年听力障碍人群"
+    },
+    {
+      "serial": "#0404",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱信息少；个性化营养餐差异在配方数据，国内健康餐创业者可复制其按慢病定制供给链。",
+        "rec_v2": "披露稀少热度低；其银发营养定制打法清晰，社区食堂可学其'评估+配餐'轻模式落地本地市场。",
+        "rec_v3": "信号不强资料不足；它将膳食量化差异明确，国内宜抄其营养标签体系做适老套餐而非重资产中央厨房。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "个性化营养餐食定制服务商",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "个性化营养定制",
+        "面向中老年人群",
+        "膳食量化管理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "个性化营养餐直接服务中老年膳食健康管理"
+    },
+    {
+      "serial": "#0405",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 30.7,
+      "recommend": {
+        "rec_v1": "信号弱信息极少；成人失禁用品差异在吸收材料，国内个护创业者可复制其细分人群定位打法。",
+        "rec_v2": "披露稀少热度低；其专攻尿失禁护理差异稳，新品牌能学其电商加私域复购的银发个护路径。",
+        "rec_v3": "信号不强资料不足；它切入老年失禁刚需差异清晰，国内宜抄其高性价比国货路线避开国际大牌。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 30.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "成人失禁护理用品品牌",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "成人失禁护理",
+        "纸尿裤品类",
+        "银发个护刚需"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人失禁护理用品直接服务老年失禁人群"
+    },
+    {
+      "serial": "#0407",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱融资800万美元有披露；医养康复一体差异在服务链，国内可学其机构加社区衔接运营中台。",
+        "rec_v2": "公开偏少热度低；其把康复嵌进养老差异清晰，区域创业者能抄其'评估—照护'标准化服务流程。",
+        "rec_v3": "信号不强资料有限；它主打养老康复结合差异稳，国内宜学其轻资产托管而非自建重资产机构。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "成都连锁养老康复服务机构",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "养老康复一体",
+        "2014年成立",
+        "获800万美元融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老康复机构直接服务需照护老人"
+    },
+    {
+      "serial": "#0409",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 44.7,
+      "recommend": {
+        "rec_v1": "信号低但A轮与多城布局信息实；长护险居家护理差异在定点资质，国内可照搬其社区驿站获客路径。",
+        "rec_v2": "披露中等热度中；其'长护险+居家全链路'打法清晰，试点城市创业者能直接复制其派单运营中台。",
+        "rec_v3": "信号不强新闻可查；它把长护险变成基本盘差异强，国内宜学其'评估—派单—回访'标准化护理链条。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 44.7
+      },
+      "payor_model": "政府长护险+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "长护险居家护理连锁服务商",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-03",
+          "text": "完成数千万元A轮融资，长岭资本领投"
+        }
+      ],
+      "highlights": [
+        "全国30+城长护定点",
+        "社区驿站运营",
+        "长岭资本领投A轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "长护险居家护理直接服务失能老人基本盘"
+    },
+    {
+      "serial": "#0410",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱但B轮与麦肯锡报道信息足；居家整合照护差异在跨专业调度，国内可学其社区触点设计。",
+        "rec_v2": "公开中等受关注；其'整合照护'模式差异稳，中小创业者能抄其居家护士加康复师协作轻资产路径。",
+        "rec_v3": "信号不强资料够用；它把康复护理送进家庭差异清晰，国内宜学其分级评估派单中台而非重资产扩张。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "平台",
+      "desc_cn": "居家康复护理服务先行者",
+      "founded": 2004,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2016",
+          "text": "获中国联通战略投资等B轮融资"
+        }
+      ],
+      "highlights": [
+        "北京居家康复先行者",
+        "整合照护模式",
+        "麦肯锡专访案例"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家康复护理直接服务老年及术后康复人群"
+    },
+    {
+      "serial": "#0412",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 37.7,
+      "recommend": {
+        "rec_v1": "信号弱信息中等；失能失智一站式居家照护差异在认知症专项，国内可抄其分时照护产品矩阵。",
+        "rec_v2": "披露偏少热度低；其聚焦认知症照护差异清晰，创业者能学其'整月/全天/分时'灵活服务包设计。",
+        "rec_v3": "信号不强资料有限；它把失智照护做成标准模块差异稳，国内宜抄其培训加派单轻平台落地社区。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 37.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "失能失智居家照护服务商",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "认知症专项照护",
+        "整月/全天/分时服务",
+        "一站式居家照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "失能失智居家照护直接服务高龄认知症人群"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0393",
+      "name": "去哪养老网",
+      "intro": "互联网养老信息聚合平台，提供机构咨询、预约与点评。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老信息平台"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老机构",
+          "reason": "平台主营养老机构库与预订，补'养老机构'维度更准"
+        }
+      ]
+    },
+    {
+      "serial": "#0395",
+      "name": "圣德医养",
+      "intro": "全国连锁医疗康养企业，为失能失智老人提供医养康护一体化服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "医养结合",
+          "reason": "业务为医疗+养老一体化，原标签未体现'医养结合'核心模式"
+        }
+      ]
+    },
+    {
+      "serial": "#0396",
+      "name": "孝爱宝",
+      "intro": "湖北孝爱智慧养老推出的居家社区机构一体化智慧养老服务平台。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老信息平台"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0399",
+      "name": "梨花教育",
+      "intro": "国内头部的中老年兴趣与技能教育平台。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0400",
+      "name": "爱晖",
+      "intro": "专注老年人服药管理的智能硬件与软件解决方案商。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "用药提醒"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "智能硬件",
+          "reason": "服药管理属智能健康管理硬件，原标'康复辅具'不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0402",
+      "name": "科大讯飞",
+      "intro": "科大讯飞旗下智能助听器与听力健康解决方案业务。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "助听器"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0404",
+      "name": "维小饭",
+      "intro": "面向中老年人群的个性化营养餐食定制服务商。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "个性化营养"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0405",
+      "name": "蓓姿",
+      "intro": "专注中老年尿失禁与失禁护理的个护用品品牌。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "尿失禁",
+          "纸尿裤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0407",
+      "name": "锦欣康养",
+      "intro": "成都地区的连锁养老与康复医疗结合服务机构。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构",
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0409",
+      "name": "璞缘照护",
+      "intro": "承接长护险的居家护理连锁服务商，全国多城布局。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "长护险",
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "长护险",
+          "reason": "核心业务为长护险定点居家护理，应补'长护险'标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0410",
+      "name": "青松康护",
+      "intro": "北京居家康复护理服务先行者，提供整合照护。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家康复"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0412",
+      "name": "二毛照护",
+      "intro": "面向失能失智人群的一站式居家照护服务商。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知症"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": []
+}

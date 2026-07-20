@@ -1,0 +1,718 @@
+{
+  "32": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ]
+  },
+  "34": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费（电商/内容付费）+B端广告)"
+    ]
+  },
+  "37": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费+B端机构采购)"
+    ]
+  },
+  "129": {
+    "missing_dims": [
+      "复制"
+    ],
+    "prev_issues": [
+      "R2:rec_v2字数39越界(需40-90)",
+      "R2:rec_v3字数38越界(需40-90)",
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端医院/机构采购 + 政府医疗采购)"
+    ]
+  },
+  "387": {
+    "missing_dims": [
+      "信号",
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端保险机构付费（健康险公司采购CareVoiceOS）)"
+    ]
+  },
+  "457": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(25)"
+    ]
+  },
+  "458": {
+    "missing_dims": [
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(24)"
+    ]
+  },
+  "459": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicaid/D-SNP管理式医疗)+按人头风)"
+    ]
+  },
+  "463": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(27)"
+    ]
+  },
+  "465": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(B端企业采购+个人自费)"
+    ]
+  },
+  "466": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(政府NHS/地方政府合同(B2G)为主+个人自付)"
+    ]
+  },
+  "467": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(商业保险支付(寿险/雇员福利)+B端机构采购)"
+    ]
+  },
+  "468": {
+    "missing_dims": [
+      "复制"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(B端医疗机构/医院采购+患者自费(手术费))"
+    ]
+  },
+  "469": {
+    "missing_dims": [
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid PACE按人头)"
+    ]
+  },
+  "470": {
+    "missing_dims": [],
+    "prev_issues": [
+      "R6:desc_cn通用套话开头",
+      "R8:payor_model非规范词表(B端机构付费（雇主与健康计划采购，会员零自付）+拓展Medi)"
+    ]
+  },
+  "471": {
+    "missing_dims": [],
+    "prev_issues": [
+      "R7:silver_reason过短(28)"
+    ]
+  },
+  "472": {
+    "missing_dims": [
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(20)"
+    ]
+  },
+  "474": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(政府医保(Medicare Advantage/CMS GU)"
+    ]
+  },
+  "477": {
+    "missing_dims": [
+      "信号",
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid))"
+    ]
+  },
+  "479": {
+    "missing_dims": [
+      "信号",
+      "信息"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构加个人自费（机器宠物硬件销售）)"
+    ]
+  },
+  "480": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(个人自费(订阅月费+资产管理费))"
+    ]
+  },
+  "481": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业健康计划)"
+    ]
+  },
+  "483": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(企业/保险采购(雇主福利+健康险))"
+    ]
+  },
+  "484": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构采购(养老社区佣金))"
+    ]
+  },
+  "500": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(C端个人自费（家庭照护者购买用品）)"
+    ]
+  },
+  "501": {
+    "missing_dims": [],
+    "prev_issues": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(B端医疗机构或支付方加个人（居家监测方案）)"
+    ]
+  },
+  "511": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(个人自费（遗嘱或信托服务）加B端顾问合作)"
+    ]
+  },
+  "558": {
+    "missing_dims": [],
+    "prev_issues": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid 专业护理)+个)"
+    ]
+  },
+  "560": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/VA)+商业保险(部分覆盖))"
+    ]
+  },
+  "561": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid)+商业保险（在)"
+    ]
+  },
+  "598": {
+    "missing_dims": [
+      "信号",
+      "信息"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端中小企业付费（401k管理SaaS）加员工缴费)"
+    ]
+  },
+  "604": {
+    "missing_dims": [
+      "信号",
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(18)",
+      "R8:payor_model非规范词表(B端机构采购加个人自费（智能药盒硬件）)"
+    ]
+  },
+  "608": {
+    "missing_dims": [
+      "信号",
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(26)"
+    ]
+  },
+  "611": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/长护险)+个人自费)"
+    ]
+  },
+  "628": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicare Advanta)"
+    ]
+  },
+  "632": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": []
+  },
+  "633": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(25)"
+    ]
+  },
+  "634": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(商业保险(药房福利计划)+政府医保(医疗器械DME))"
+    ]
+  },
+  "638": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(25)"
+    ]
+  },
+  "639": {
+    "missing_dims": [
+      "信号",
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(23)"
+    ]
+  },
+  "642": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(19)",
+      "R8:payor_model非规范词表(个人自费(B2C订阅+零售))"
+    ]
+  },
+  "644": {
+    "missing_dims": [
+      "信息",
+      "差异"
+    ],
+    "prev_issues": []
+  },
+  "646": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(医保支付+个人自费)"
+    ]
+  },
+  "650": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(B端机构采购+个人自费)"
+    ]
+  },
+  "652": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(21)",
+      "R8:payor_model非规范词表(政府医保(Medicaid/Medicare 长期照护LTS)"
+    ]
+  },
+  "667": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(政府医保(Medicaid/双重资格))"
+    ]
+  },
+  "675": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/Medicaid))"
+    ]
+  },
+  "696": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(25)",
+      "R8:payor_model非规范词表(混合（政府老龄署或医疗组织B2G采购加个人订阅；MCO或Me)"
+    ]
+  },
+  "717": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(22)",
+      "R8:payor_model非规范词表(商业保险+Medicaid+Medicare(支付方直付)+)"
+    ]
+  },
+  "722": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/MA)+商业保险+企业自保+自办)"
+    ]
+  },
+  "725": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(商业保险支付+政府医保(MA/Medicaid))"
+    ]
+  },
+  "729": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R5:三版未共同覆盖四维度(信号/信息量/差异化/可复制)",
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(商业保险+Medicare Advantage+企业福利)"
+    ]
+  },
+  "738": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(16)",
+      "R8:payor_model非规范词表(个人自费(B2C订阅+零售))"
+    ]
+  },
+  "741": {
+    "missing_dims": [
+      "信号",
+      "信息"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构采购（医院/诊所）)"
+    ]
+  },
+  "743": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(B端机构采购(医院订阅/招聘费))"
+    ]
+  },
+  "744": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构采购（健康险公司/药企/医疗系统按用量付费）)"
+    ]
+  },
+  "772": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(个人自费（用户直付护工）+平台佣金)"
+    ]
+  },
+  "789": {
+    "missing_dims": [
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicaid)+商业保险支付)"
+    ]
+  },
+  "791": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare/MA)+商业保险+个人自付（按价)"
+    ]
+  },
+  "817": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(26)",
+      "R8:payor_model非规范词表(个人自费（C端保健品消费，经Tmall等电商渠道）)"
+    ]
+  },
+  "853": {
+    "missing_dims": [
+      "信号",
+      "复制"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(商业保险/雇主福利（雇主赞助险；会员Visa福利卡直付并按节)"
+    ]
+  },
+  "861": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(混合支付(健康计划+政府Medicare价值医疗合同，B端机)"
+    ]
+  },
+  "866": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构付费(雇主与健康计划订阅，员工免费))"
+    ]
+  },
+  "872": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(混合（商业保险+政府Medicare/MA，价值医疗风险合同)"
+    ]
+  },
+  "885": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(Medicare Advantage/Medica)"
+    ]
+  },
+  "889": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(商业保险支付（Aetna/Kaiser在网）+部分Medic)"
+    ]
+  },
+  "907": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(商业保险支付(含Medicare)+雇主福利+个人自费)"
+    ]
+  },
+  "915": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构付费（健康计划/药企/零售商按平台与接诊量计费）)"
+    ]
+  },
+  "919": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构采购（企业/运动队/高校的员工健康检测与数据订阅）)"
+    ]
+  },
+  "959": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(26)"
+    ]
+  },
+  "964": {
+    "missing_dims": [
+      "复制"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(B端机构采购（医院植入设备）；远期或由医保/商保覆盖，尚未商)"
+    ]
+  },
+  "966": {
+    "missing_dims": [
+      "信号",
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(29)",
+      "R8:payor_model非规范词表(商业保险支付（Medicare Advantage）)"
+    ]
+  },
+  "969": {
+    "missing_dims": [
+      "信息"
+    ],
+    "prev_issues": [
+      "R1:recommend非dict(缺三版)",
+      "R7:silver_reason过短(20)",
+      "R8:payor_model非规范词表(B端机构付费（向医疗系统、健康计划/支付方、药企收SaaS与)"
+    ]
+  },
+  "974": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(个人自付(C端)：硬件销售+Autopilot会员订阅；20)"
+    ]
+  },
+  "977": {
+    "missing_dims": [
+      "信号",
+      "信息",
+      "差异"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(混合（客户为健康计划，终极支付方为政府Medicare或Me)"
+    ]
+  },
+  "978": {
+    "missing_dims": [
+      "信息"
+    ],
+    "prev_issues": [
+      "R8:payor_model非规范词表(政府医保(CMS过渡支付TPT)+商业保险（植入式器械，医院)"
+    ]
+  },
+  "1175": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(24)",
+      "R8:payor_model非规范词表(政府介护保险+税金支付为主，个人自费补充)"
+    ]
+  },
+  "1311": {
+    "missing_dims": [
+      "信息"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(23)",
+      "R8:payor_model非规范词表(政府医保+个人自付)"
+    ]
+  },
+  "1330": {
+    "missing_dims": [
+      "信息"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(个人自费（账户月费/年费由个人承担，资金来自rollover)"
+    ]
+  },
+  "1334": {
+    "missing_dims": [
+      "差异"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(27)",
+      "R8:payor_model非规范词表(混合（C端家庭免费，B端机构订阅listing与运营工具）)"
+    ]
+  },
+  "1352": {
+    "missing_dims": [
+      "信号"
+    ],
+    "prev_issues": [
+      "R7:silver_reason过短(28)",
+      "R8:payor_model非规范词表(B端机构采购（医疗系统SaaS订阅）)"
+    ]
+  }
+}

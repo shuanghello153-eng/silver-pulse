@@ -1,0 +1,711 @@
+{
+  "batch": 23,
+  "enterprises": [
+    {
+      "serial": "#0876",
+      "signal_strength": 1.05,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 47.2,
+      "recommend": {
+        "rec_v1": "信号低但披露极厚（资本多次加注）；虚拟精神科差异化温和，国内精神科创业者可学其价值导向但非银发场景。",
+        "rec_v2": "信息充分；亮点是规模化远程精神科，与老年服务无强关联，对国内银发创业者启发有限。",
+        "rec_v3": "资本多次加注；其平台无银发壁垒，研究价值在行为健康科技，不宜列为养老重点跟踪方向。",
+        "info_score": 8,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 47.2
+      },
+      "payor_model": "商业保险支付+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "虚拟精神科护理平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-06",
+          "text": "完成1.3亿美元C轮（a16z等）"
+        },
+        {
+          "date": "2026-02",
+          "text": "完成2.1亿美元D轮"
+        }
+      ],
+      "highlights": [
+        "虚拟精神科护理",
+        "价值导向行为健康",
+        "C轮1.3亿+D轮2.1亿美元",
+        "a16z等投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用虚拟精神科，无老年专属服务信号"
+    },
+    {
+      "serial": "#0893",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 49.2,
+      "recommend": {
+        "rec_v1": "信号低但模式清晰（早期资本支持）；会员制打包协调差异化强，国内「养老管家」可学其审核+排班+管家闭环。",
+        "rec_v2": "披露中等；亮点是把适老化改造与陪伴合一，国内复制易，可借鉴其供应商分层与质量管控。",
+        "rec_v3": "小注验证需求；其整合式会员模式差异化温和，国内宜学「评估—匹配—协调」轻运营而非重资产。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 49.2
+      },
+      "payor_model": "个人自费（会员月费）",
+      "business_tags_role": "服务商",
+      "desc_cn": "居家养老会员制协调与陪伴平台",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2021",
+          "text": "完成237万美元种子轮（645 Ventures等）"
+        }
+      ],
+      "highlights": [
+        "会员制打包居家养老协调",
+        "对接照护员+适老化改造+陪伴",
+        "按月管家式协调",
+        "累计$2.25M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为居家养老长者提供整合式照护与陪伴"
+    },
+    {
+      "serial": "#0905",
+      "signal_strength": 1.05,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 44.2,
+      "recommend": {
+        "rec_v1": "信号低但模式清晰（资本下注）；老年在线力量训练差异化实用，国内老年健身可学其「直播教练+进阶计划」。",
+        "rec_v2": "披露中等；亮点是把抗阻训练做成适老产品，国内复制易，可借鉴其防跌倒叙事与社群运营。",
+        "rec_v3": "小注验证需求；其适老健身差异化温和，国内宜学「评估—训练—激励」闭环而非堆课程。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 44.2
+      },
+      "payor_model": "个人自费（课程订阅）",
+      "business_tags_role": "服务商",
+      "desc_cn": "面向老人的在线力量训练平台",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成352万美元A轮"
+        }
+      ],
+      "highlights": [
+        "在线锻炼+现场教练",
+        "帮助老人重建肌肉",
+        "A轮352万美元",
+        "面向活力老人"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "在线力量训练服务老年肌肉健康"
+    },
+    {
+      "serial": "#0962",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 47.2,
+      "recommend": {
+        "rec_v1": "信号低但信息明确（知名机构背书）；退休收入分析差异化清晰，国内个人养老金创业者可学其「保底收入」嵌入工具。",
+        "rec_v2": "披露中等；亮点是把终身收入做成B2B授权，国内政策刚起步，可借鉴其受托人视角的合规分析。",
+        "rec_v3": "资本小注印证需求；其分析平台差异化温和，国内宜学「测算—嵌入—披露」而非照搬美国401k。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 47.2
+      },
+      "payor_model": "B端机构采购（SaaS订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "退休收入（401k）分析软件平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "完成300万美元种子轮（S3 Ventures等）"
+        }
+      ],
+      "highlights": [
+        "401k终身收入分析",
+        "嵌入确定缴费型退休计划",
+        "TIAA Ventures等投资",
+        "2025年种子轮300万"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "退休收入规划软件服务50+人群财务安全"
+    },
+    {
+      "serial": "#1132",
+      "signal_strength": 1.05,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 46.2,
+      "recommend": {
+        "rec_v1": "信号低但信息明确（早期资本支持）；痴呆家庭协调差异化强，国内认知症居家照护可学其「团队—家属—资源」连接。",
+        "rec_v2": "披露中等；亮点是把照护协调做成平台，国内刚起步，可借鉴其远程健康教育与家属赋能。",
+        "rec_v3": "小注验证需求；其协调中台差异化明显，国内宜学「评估—匹配—追踪」而非重资产机构。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 46.2
+      },
+      "payor_model": "B端机构采购+家庭自费",
+      "business_tags_role": "平台",
+      "desc_cn": "家庭痴呆症居家照护协调平台",
+      "founded": null,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-02",
+          "text": "完成260万美元种子轮（Boomerang Ventures领投）"
+        }
+      ],
+      "highlights": [
+        "家庭痴呆症照护协调",
+        "连接照护团队/家属/资源",
+        "远程协调+个性化健康教育",
+        "Seed轮$2.6M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "痴呆症家庭居家照护协调直接服务认知症老人"
+    },
+    {
+      "serial": "#1140",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 35.2,
+      "recommend": {
+        "rec_v1": "信号低信息薄（早期资本支持）；长寿诊所差异化温和，国内抗衰创业者可学其「诊断+整合医学」但非银发主线。",
+        "rec_v2": "披露中等；亮点是proprietary AI诊断，受监管约束，对国内银发健康管理的启发有限。",
+        "rec_v3": "小注验证需求；其诊所模式差异化弱，研究价值在抗衰赛道旁证，不宜作为养老重点跟进。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 35.2
+      },
+      "payor_model": "个人自费（诊所服务）",
+      "business_tags_role": "运营商",
+      "desc_cn": "长寿诊所连锁（诊断+抗衰）",
+      "founded": null,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2026-01",
+          "text": "完成270万美元早期融资（强化诊断与AI）"
+        }
+      ],
+      "highlights": [
+        "长寿医学整合式诊所",
+        "2026年$2.7M扩张融资",
+        "强化诊断与proprietary AI",
+        "面向健康寿命延长"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "长寿/抗衰诊所服务健康中年人，非失能老人照护"
+    },
+    {
+      "serial": "#1187",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 41.2,
+      "recommend": {
+        "rec_v1": "信号低但信息明确（机构领投）；hospice AI文档差异化强，国内安宁疗护信息化可学其「语音转写—质控」自动化。",
+        "rec_v2": "披露中等；亮点是把临床文书减负做成SaaS，国内刚起步，可借鉴其运营中台而非堆功能。",
+        "rec_v3": "小注验证需求；其AI运营差异化明显，国内宜学「文档—合规—支付」闭环而非照搬美国支付端。",
+        "info_score": 4,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 1.05,
+        "research_value": 41.2
+      },
+      "payor_model": "B端机构采购（SaaS订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "安宁疗护AI临床文档与运营SaaS",
+      "founded": 2023,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "完成200万美元种子轮（Nina Capital领投）"
+        }
+      ],
+      "highlights": [
+        "hospice与家庭健康AI文档",
+        "简化临床记录与运营",
+        "Seed轮200万美元",
+        "2025年Nina Capital领投"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "安宁疗护AI运营直接服务临终与居家老人"
+    },
+    {
+      "serial": "#1336",
+      "signal_strength": 1.05,
+      "info_score": 3,
+      "diff_score": 8,
+      "copy_score": 6,
+      "research_value": 40.2,
+      "recommend": {
+        "rec_v1": "信号低但技术稀缺（被收编）；语音生物标志物差异化强，国内认知筛查创业者可学其非侵入早筛路径。",
+        "rec_v2": "披露偏薄（新闻少）；亮点是用说话评估认知，国内受数据约束，可借鉴其临床验证打法。",
+        "rec_v3": "被巨头收编印证价值；其早筛技术差异化明显，国内宜学「语音—标记—预警」而非重设备。",
+        "info_score": 3,
+        "diff_score": 8,
+        "copy_score": 6,
+        "signal_strength": 1.05,
+        "research_value": 40.2
+      },
+      "payor_model": "B端机构采购（药企/临床机构）",
+      "business_tags_role": "平台",
+      "desc_cn": "语音生物标志物认知障碍筛查",
+      "founded": 2015,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "被Cambridge Cognition收购"
+        },
+        {
+          "date": "2019",
+          "text": "完成420万美元A轮"
+        }
+      ],
+      "highlights": [
+        "语音数字生物标志物",
+        "认知障碍早期筛查",
+        "被Cambridge Cognition收购",
+        "成立于2015年"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "语音生物标志物服务认知症早期筛查"
+    },
+    {
+      "serial": "#0002",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 36.7,
+      "recommend": {
+        "rec_v1": "信号极低但场景清晰；50+专属理财差异化强，国内个人养老金创业者可学其「社安金+保险」综合规划。",
+        "rec_v2": "披露稀少；亮点是把退休理财做成顾问制，国内政策刚起步，可借鉴其个性化方案模板设计。",
+        "rec_v3": "模式轻量易学；其银发财务陪伴差异化温和，国内宜学「测算—配置—陪伴」而非照搬美国退休体系。",
+        "info_score": 3,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 36.7
+      },
+      "payor_model": "个人自费（理财顾问费）",
+      "business_tags_role": "服务商",
+      "desc_cn": "面向50+人群的退休理财顾问",
+      "founded": null,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "50+专属退休理财顾问",
+        "覆盖社安金/养老金/保险",
+        "美国fintech模式",
+        "信息较少（融资未披露）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为50岁以上人群提供退休理财规划"
+    },
+    {
+      "serial": "#0003",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 8,
+      "research_value": 50.7,
+      "recommend": {
+        "rec_v1": "信号极低但落地扎实（规模服务）；养老SaaS+物联网差异化中等，国内创业者可学其「软件+硬件」平台打法。",
+        "rec_v2": "披露充分；亮点是入选推广目录，国内复制性强，可借鉴其政企合作与硬件生态接入打法。",
+        "rec_v3": "规模印证价值；其一体化中台差异化温和，国内宜学「评估—运营—监管」数据闭环而非堆功能。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 8,
+        "signal_strength": 0.55,
+        "research_value": 50.7
+      },
+      "payor_model": "B端机构采购+政府付费",
+      "business_tags_role": "平台",
+      "desc_cn": "智慧康养SaaS与物联网平台",
+      "founded": 2015,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "自研「乐湾云」养老SaaS",
+        "服务3000+养老单位",
+        "物联网对接硬件超1000种",
+        "入选智慧健康养老推广目录"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为机构/社区/居家养老提供智慧康养系统"
+    },
+    {
+      "serial": "#0004",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 32.7,
+      "recommend": {
+        "rec_v1": "信号极低但需求真实；陪诊平台差异化弱，国内创业者可学其「标准化服务+信任背书」获客路径。",
+        "rec_v2": "披露稀少；亮点是把陪诊做成一站式，国内复制极易，可借鉴其服务分层与质控体系搭建。",
+        "rec_v3": "模式轻量；其陪伴式就医差异化温和，国内宜学「派单—陪诊—回访」运营而非烧钱扩张。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 32.7
+      },
+      "payor_model": "个人自费（服务佣金）",
+      "business_tags_role": "服务商",
+      "desc_cn": "老年人就医陪诊与代办平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "就医陪同/代办挂号/取药",
+        "面向老人及行动不便人群",
+        "一站式陪诊服务",
+        "信息较少（融资未披露）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为老年人提供就医陪同与代办服务"
+    },
+    {
+      "serial": "#0005",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 2,
+      "copy_score": 1,
+      "research_value": 25.7,
+      "recommend": {
+        "rec_v1": "信号极低且非银发主业；通用K歌平台无差异，国内创业者勿照搬，可学其「适老界面+社群」留存打法。",
+        "rec_v2": "披露为集团层面；银发仅高活跃用户，难复制其生态，但对适老产品设计有微弱启发价值。",
+        "rec_v3": "综合平台银发非核心；差异化弱、复制无意义，研究价值在警示：银发需垂直而非流量附带。",
+        "info_score": 6,
+        "diff_score": 2,
+        "copy_score": 1,
+        "signal_strength": 0.55,
+        "research_value": 25.7
+      },
+      "payor_model": "个人自费（会员/虚拟礼物）",
+      "business_tags_role": "平台",
+      "desc_cn": "腾讯旗下在线K歌社交平台",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中老年用户活跃度极高",
+        "腾讯生态流量入口",
+        "银发最常用的娱乐社交之一",
+        "养老仅为用户画像非主业"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用K歌社交平台，银发仅高活跃用户而非专属业务"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0876",
+      "name": "Talkiatry",
+      "intro": "精神科护理初创公司，提供虚拟精神科诊疗与价值导向行为健康服务，资本多次加注。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "心理健康"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0893",
+      "name": "UpsideHōM",
+      "intro": "会员制平台，为居家养老长者对接经筛选的照护员、适老化改造承包商与陪伴服务，按月管家式协调。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "陪伴服务",
+          "康养地产"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0905",
+      "name": "Vivo",
+      "intro": "提供在线锻炼与现场教练授课，帮助老人重建肌肉、改善力量与防跌倒的适老健身平台。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "运动健康",
+          "reason": "老年在线力量训练属运动健康赛道"
+        }
+      ]
+    },
+    {
+      "serial": "#0962",
+      "name": "Nestimate",
+      "intro": "开发分析软件，协助401(k)受托人、顾问与账管机构评估并把保底终身收入产品嵌入退休计划。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1132",
+      "name": "Lizzy Care",
+      "intro": "美国家庭痴呆症居家照护协调平台，连接专业照护团队、家属与资源，提供远程协调与个性化健康教育。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1140",
+      "name": "Biopeak",
+      "intro": "长寿诊所运营商，主打整合式长寿医学服务，2026年获扩张融资用于新诊所与AI诊断能力。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "消费品"
+        ],
+        "tag_l2": [
+          "诊所",
+          "长寿抗衰"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1187",
+      "name": "IO Health",
+      "intro": "面向临终关怀（hospice）与家庭健康的AI初创公司，用AI简化临床文档与运营，降低照护负担。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "AI医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1336",
+      "name": "Winterlight Labs",
+      "intro": "通过语音数字生物标志物检测认知障碍的科技公司，已被Cambridge Cognition收购。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知筛查"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0002",
+      "name": "SageWell",
+      "intro": "美国金融科技公司，为50岁以上人群配备专属理财顾问，围绕社安金、养老金、储蓄与保险制定退休方案。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0003",
+      "name": "乐湾",
+      "intro": "杭州乐湾科技，自研「乐湾云」平台为养老机构、康养集团及政府提供涵盖机构/社区/居家的SaaS与运营管理系统。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务",
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老软件",
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0004",
+      "name": "优享陪诊",
+      "intro": "专业陪诊服务平台，为老年人及行动不便人群提供就医陪同、代办挂号、取药等一站式服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "陪诊"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0005",
+      "name": "全民K歌",
+      "intro": "腾讯旗下在线K歌应用，中老年用户活跃度极高，是银发群体常用娱乐社交应用之一，但非银发专属业务。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "文娱"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0876",
+      "name": "Talkiatry",
+      "verdict": "非银发",
+      "reason": "通用虚拟精神科，无老年专属服务信号"
+    },
+    {
+      "serial": "#1140",
+      "name": "Biopeak",
+      "verdict": "泛医疗擦边",
+      "reason": "长寿/抗衰诊所服务健康中年人，非失能老人照护"
+    },
+    {
+      "serial": "#0005",
+      "name": "全民K歌",
+      "verdict": "非银发",
+      "reason": "通用K歌社交平台，银发仅高活跃用户而非专属业务"
+    }
+  ]
+}

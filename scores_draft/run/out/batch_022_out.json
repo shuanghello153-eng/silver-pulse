@@ -1,0 +1,765 @@
+{
+  "batch": 22,
+  "enterprises": [
+    {
+      "serial": "#0689",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 41.2,
+      "recommend": {
+        "rec_v1": "信号低但模式清晰（早期资本支持）；礼宾整合+合并账单差异化实用，国内「养老管家」可学其供应商调度与统一结算。",
+        "rec_v2": "披露较少；亮点是把零散居家服务产品化，国内复制易但需信任背书，可借鉴其服务清单标准化。",
+        "rec_v3": "小注验证需求；其按月管家模式差异化温和，国内创业者宜学「评估—派单—对账」轻运营闭环。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 41.2
+      },
+      "payor_model": "个人自费（会员月费）",
+      "business_tags_role": "服务商",
+      "desc_cn": "居家养老礼宾协调与合并账单",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成260万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "礼宾式整合居家养老服务",
+        "按月合并账单",
+        "Seed轮260万美元",
+        "面向居家长者"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为居家老人提供礼宾式服务整合与账单管理"
+    },
+    {
+      "serial": "#0693",
+      "signal_strength": 1.05,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 46.2,
+      "recommend": {
+        "rec_v1": "信号低但信息厚（接主流保险）；更年期专科虚拟照护差异化清晰，国内妇科/健康管理可学其「保险+教练」打包。",
+        "rec_v2": "披露充分；亮点是把更年期做成专科，国内受医保差异约束，但对中年女性健康赛道有参照价值。",
+        "rec_v3": "资本加持印证需求；其早干预降成本逻辑差异化强，国内难抄支付端，宜学其循证教育+社群运营。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 46.2
+      },
+      "payor_model": "商业保险支付+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "更年期虚拟照护与健康管理平台",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-02",
+          "text": "完成375万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "更年期专科远程问诊+教练",
+        "接入Aetna/UHC/Anthem等主流保险",
+        "由Cityblock早期成员创办",
+        "累计融资$20.1M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "服务中年女性更年期，非老年专属照护"
+    },
+    {
+      "serial": "#0694",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 43.2,
+      "recommend": {
+        "rec_v1": "信号低但信息明确（资本下注）；非侵入盆底设备差异化强，国内康复器械创业者可学其消费级wearable定位。",
+        "rec_v2": "披露中等；亮点是FDA认证家用器械，国内受注册证约束，但对女性健康硬件赛道有借鉴。",
+        "rec_v3": "资本下注印证需求；其处方+自费双渠道差异化，国内难抄支付端，宜学其「居家训练」产品化。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 43.2
+      },
+      "payor_model": "个人自费+处方渠道（医保/商保）",
+      "business_tags_role": "产品商",
+      "desc_cn": "非侵入式盆底康复穿戴设备商",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-02",
+          "text": "完成350万美元A轮融资"
+        }
+      ],
+      "highlights": [
+        "FDA认证非侵入式盆底治疗ELITONE",
+        "面向女性压力性尿失禁",
+        "2024年A轮350万美元",
+        "中老年女性盆底健康相关"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "女性盆底治疗设备，老年为子人群非主业"
+    },
+    {
+      "serial": "#0703",
+      "signal_strength": 1.05,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 38.2,
+      "recommend": {
+        "rec_v1": "信号低但信息清楚（资本积累）；居家盆底器械差异化温和，国内创业者可学其「短时高频」训练产品设计。",
+        "rec_v2": "披露中等；亮点是处方+自费双渠道，国内受注册证约束，但对女性康复硬件赛道有参照价值。",
+        "rec_v3": "资本积累印证赛道；其轻量家用设备差异化一般，国内宜学其合规路径与用户教育而非照搬。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 38.2
+      },
+      "payor_model": "处方渠道+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "居家盆底康复医疗器械（SUI）",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2016",
+          "text": "完成268万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "FDA认证经阴道振动盆底疗法",
+        "5分钟/天、6周见效",
+        "处方与自费双渠道",
+        "累计融资$20.6M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "女性盆底康复器械，老年为子人群非主业"
+    },
+    {
+      "serial": "#0740",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 3,
+      "research_value": 27.2,
+      "recommend": {
+        "rec_v1": "信号低信息薄（仅早期资本支持）；肥胖管理无银发差异，国内创业者勿照搬其医保耦合模式，参考价值低。",
+        "rec_v2": "披露稀少；亮点是value-based打法，但受美国支付体系约束难复制，对国内银发创业者启发弱。",
+        "rec_v3": "小注验证概念；其平台无差异化壁垒、研究价值低，仅作慢病管理思路的旁证参考素材即可。",
+        "info_score": 4,
+        "diff_score": 3,
+        "copy_score": 3,
+        "signal_strength": 1.05,
+        "research_value": 27.2
+      },
+      "payor_model": "B端机构采购（医保/雇主支付）",
+      "business_tags_role": "服务商",
+      "desc_cn": "基于价值的肥胖与心脏代谢健康管理",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-05",
+          "text": "完成250万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "value-based肥胖管理",
+        "心脏代谢健康",
+        "Seed轮250万美元",
+        "累计$22M+"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用肥胖/代谢健康管理，无老年专属信号"
+    },
+    {
+      "serial": "#0757",
+      "signal_strength": 1.05,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 7,
+      "research_value": 54.2,
+      "recommend": {
+        "rec_v1": "信号低但信息厚（降临终住院79%）；ACP数字化差异化强，国内预立医疗指示创业者可学其EMR集成与公证闭环。",
+        "rec_v2": "披露充分；亮点是用AI提升预嘱完成率，国内政策刚松绑，可借鉴其「视频引导+线上共享」路径。",
+        "rec_v3": "资本小注印证价值；其临终规划中台差异化明显，国内难抄支付端，宜学其医患协同与合规托管。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 54.2
+      },
+      "payor_model": "B端机构采购（医院/保险）+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "预先医疗指示(ACP)数字基础设施",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成300万美元Seed+轮（Evidenced领投）"
+        }
+      ],
+      "highlights": [
+        "EMR集成ACP SaaS平台",
+        "AI预测性触达提升完成率",
+        "合作Houston Methodist、Cigna",
+        "降低临终住院率79%"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "预先医疗指示与安宁疗护规划服务老年终末照护"
+    },
+    {
+      "serial": "#0762",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 49.2,
+      "recommend": {
+        "rec_v1": "信号低但信息扎实（非营资助）；回忆疗法平台差异化清晰，国内养老社区可学其「故事采集+认知激活」产品化。",
+        "rec_v2": "披露中等；亮点是把人生故事做成订阅，国内复制易，可借鉴其引导问卷与家属共享机制。",
+        "rec_v3": "非营资助印证价值；其认知激活差异化强，国内宜学「回忆疗法+个性化照护」轻运营，而非技术堆砌。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 49.2
+      },
+      "payor_model": "B端机构采购+个人自费（订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "生命故事回忆疗法与认知激活平台",
+      "founded": 2006,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "获NIA 290万美元资助（SBIR）"
+        }
+      ],
+      "highlights": [
+        "引导式提问记录人生故事",
+        "回忆疗法用于认知激活",
+        "已被较多养老社区采用",
+        "2025年NIA资助290万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "回忆疗法服务老年认知激活与个性化照护"
+    },
+    {
+      "serial": "#0779",
+      "signal_strength": 1.05,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 8,
+      "research_value": 56.2,
+      "recommend": {
+        "rec_v1": "信号低但信息新（知名机构背书）；AI主动致电差异化强，国内陪伴机器人可学其「定时呼叫+异常预警」运营中台。",
+        "rec_v2": "披露充分；亮点是把孤独缓解做成B2B工具，国内复制易，可借鉴其社区级运营策略产品化。",
+        "rec_v3": "资本下注印证需求；其语音陪伴差异化明显，国内宜学「分级评估—派单—预警」而非堆功能。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 8,
+        "signal_strength": 1.05,
+        "research_value": 56.2
+      },
+      "payor_model": "B端机构采购+个人自费（订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "面向独居老人的AI语音陪伴平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-09",
+          "text": "完成350万美元种子轮（Bain Capital Ventures等）"
+        }
+      ],
+      "highlights": [
+        "AI语音主动致电独居老人",
+        "Meela ONE养老社区运营工具",
+        "异常预警缓解孤独",
+        "累计融资$8.4M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI语音陪伴直接服务独居老人心理健康"
+    },
+    {
+      "serial": "#0781",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "research_value": 29.2,
+      "recommend": {
+        "rec_v1": "信号低信息薄（被药企收编）；更年期保健品无差异壁垒，国内创业者可学其DTC打法但难抄产品力。",
+        "rec_v2": "披露稀少；亮点是被药企收编，国内受品类竞争约束，对女性健康消费仅有微弱参照价值。",
+        "rec_v3": "并购印证赛道；其消费品定位差异化弱、研究价值低，宜仅作为「银发邻近」品类的旁证参考。",
+        "info_score": 4,
+        "diff_score": 3,
+        "copy_score": 4,
+        "signal_strength": 1.05,
+        "research_value": 29.2
+      },
+      "payor_model": "个人自费（保健品零售）",
+      "business_tags_role": "产品商",
+      "desc_cn": "更年期保健消费品品牌",
+      "founded": 2018,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2024-01",
+          "text": "被Dr. Reddy's收购"
+        }
+      ],
+      "highlights": [
+        "更年期保健产品线",
+        "2024年被Dr. Reddy's收购",
+        "DTC保健品模式",
+        "面向中年女性"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "更年期保健品，服务中年女性非老年专属"
+    },
+    {
+      "serial": "#0805",
+      "signal_strength": 1.05,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 44.2,
+      "recommend": {
+        "rec_v1": "信号低但披露厚（资本多次下注）；医生直聘差异化温和，国内医护招聘创业者可学其「去中介」但非银发场景。",
+        "rec_v2": "信息充分；亮点是平台去中介化，与老年服务无直接关联，对国内银发创业者启发较为有限。",
+        "rec_v3": "资本多次下注；其市场模式无银发壁垒，研究价值在HR科技而非养老赛道，不宜重点跟踪。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 44.2
+      },
+      "payor_model": "B端机构付费（招聘服务费）",
+      "business_tags_role": "平台",
+      "desc_cn": "医疗人才在线交易市场（直聘）",
+      "founded": 2015,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-12",
+          "text": "再融资约3400万美元（累计$177M）"
+        },
+        {
+          "date": "2024-06",
+          "text": "获2200万美元融资"
+        }
+      ],
+      "highlights": [
+        "临床医生直连医院岗位",
+        "去中介化招聘平台",
+        "累计融资约$177M",
+        "2025年再融3400万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "医疗人力招聘平台，不服务老年人群"
+    },
+    {
+      "serial": "#0818",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 3,
+      "research_value": 27.2,
+      "recommend": {
+        "rec_v1": "信号低信息薄（仅早期资本支持）；SDOH协调无银发差异，国内创业者勿照搬其医保耦合，参考价值低。",
+        "rec_v2": "披露稀少；亮点是社区工作者赋能，但与老年服务无强关联，难复制为国内银发落地场景。",
+        "rec_v3": "小注验证概念；其平台无差异化壁垒、研究价值低，仅作社区健康网络建设方向的思路旁证。",
+        "info_score": 4,
+        "diff_score": 3,
+        "copy_score": 3,
+        "signal_strength": 1.05,
+        "research_value": 27.2
+      },
+      "payor_model": "B端机构采购（政府/医保支付）",
+      "business_tags_role": "平台",
+      "desc_cn": "协助社区卫生工作者解决健康社会决定因素",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-05",
+          "text": "完成100万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "SDOH社区协调平台",
+        "赋能社区卫生工作者",
+        "Seed轮100万美元",
+        "累计$7.6M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "社区健康社会决定因素协调，无老年专属信号"
+    },
+    {
+      "serial": "#0834",
+      "signal_strength": 1.05,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 31.2,
+      "recommend": {
+        "rec_v1": "信号低信息薄（仅早期资本支持）；AI定制饮食无银发差异，国内慢病饮食创业者可参考但非银发专属。",
+        "rec_v2": "披露稀少；亮点是食材+行为支持闭环，与老年服务关联弱，国内复制受供应链约束明显。",
+        "rec_v3": "小注验证概念；其营养平台无差异化壁垒、研究价值低，宜作银发营养方向的旁证而非重点。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 1.05,
+        "research_value": 31.2
+      },
+      "payor_model": "个人自费（订阅+食材包）",
+      "business_tags_role": "平台",
+      "desc_cn": "AI医学定制饮食与食材配送",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-07",
+          "text": "完成300万美元种子轮（Giant Ventures领投）"
+        }
+      ],
+      "highlights": [
+        "AI医学定制饮食计划",
+        "新鲜食材+行为支持",
+        "Seed轮300万美元",
+        "累计$3.8M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用医学营养定制，无老年专属信号"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0689",
+      "name": "Dorvie",
+      "intro": "礼宾式居家养老协调服务，安排各类上门服务并合并按月账单，面向居家长者。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "家政"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0693",
+      "name": "Elektra Health",
+      "intro": "专注更年期的虚拟照护平台，提供认证医生远程问诊、一对一教练与社群，已接入主流商业保险。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "更年期"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "女性健康",
+          "reason": "更年期虚拟照护属女性健康赛道"
+        }
+      ]
+    },
+    {
+      "serial": "#0694",
+      "name": "Elidah",
+      "intro": "开发FDA认证的非侵入式盆底肌治疗穿戴设备ELITONE，面向女性压力性尿失禁，与中老年女性健康相关。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "尿失禁"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0703",
+      "name": "flyte",
+      "intro": "美国Pelvital旗下FDA认证居家盆底康复器械，经阴道机械振动强化盆底肌，处方与自费双渠道。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "尿失禁"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0740",
+      "name": "Ilant Health",
+      "intro": "基于价值的肥胖管理与心脏代谢健康平台，服务通用人群，未体现老年专属定位。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "慢病管理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0757",
+      "name": "Koda Health",
+      "intro": "预先医疗指示（ACP）基础设施公司，EMR集成SaaS帮助完成预嘱/医疗授权并线上公证，降低临终住院率79%。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "行业服务"
+        ],
+        "tag_l2": [
+          "安宁疗护",
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0762",
+      "name": "LifeBio",
+      "intro": "生命故事回忆疗法平台，通过引导式提问帮助老人记录人生故事，用于认知激活与个性化照护。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0779",
+      "name": "Meela",
+      "intro": "面向老年人的AI陪伴公司，主动致电独居老人聊天缓解孤独并预警异常，并为养老社区提供运营工具。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "陪伴服务"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "AI科技",
+          "reason": "AI语音陪伴为核心技术属性"
+        }
+      ]
+    },
+    {
+      "serial": "#0781",
+      "name": "Menolabs",
+      "intro": "更年期保健消费品品牌，以DTC模式销售保健品，2024年被Dr. Reddy's收购。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "更年期"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "女性健康",
+          "reason": "更年期保健属女性健康消费"
+        }
+      ]
+    },
+    {
+      "serial": "#0805",
+      "name": "Nomad Health",
+      "intro": "医疗人才在线交易市场，护士、治疗师与医生直接应聘医院岗位，向机构收招聘服务费。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护士派遣"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0818",
+      "name": "Pear Suite",
+      "intro": "使社区卫生工作者识别并解决健康社会决定因素（SDOH）的协调平台，服务通用人群。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "SDOH"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0834",
+      "name": "RxDiet",
+      "intro": "AI制定医学定制饮食计划并配送新鲜食材与行为支持，面向通用慢病人群。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "个性化营养"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0693",
+      "name": "Elektra Health",
+      "verdict": "泛医疗擦边",
+      "reason": "服务中年女性更年期，非老年专属照护"
+    },
+    {
+      "serial": "#0694",
+      "name": "Elidah",
+      "verdict": "泛医疗擦边",
+      "reason": "女性盆底治疗设备，老年为子人群非主业"
+    },
+    {
+      "serial": "#0703",
+      "name": "flyte",
+      "verdict": "泛医疗擦边",
+      "reason": "女性盆底康复器械，老年为子人群非主业"
+    },
+    {
+      "serial": "#0740",
+      "name": "Ilant Health",
+      "verdict": "非银发",
+      "reason": "通用肥胖/代谢健康管理，无老年专属信号"
+    },
+    {
+      "serial": "#0781",
+      "name": "Menolabs",
+      "verdict": "泛医疗擦边",
+      "reason": "更年期保健品，服务中年女性非老年专属"
+    },
+    {
+      "serial": "#0805",
+      "name": "Nomad Health",
+      "verdict": "非银发",
+      "reason": "医疗人力招聘平台，不服务老年人群"
+    },
+    {
+      "serial": "#0818",
+      "name": "Pear Suite",
+      "verdict": "非银发",
+      "reason": "社区健康社会决定因素协调，无老年专属信号"
+    },
+    {
+      "serial": "#0834",
+      "name": "RxDiet",
+      "verdict": "非银发",
+      "reason": "通用医学营养定制，无老年专属信号"
+    }
+  ]
+}

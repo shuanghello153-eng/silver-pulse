@@ -1,0 +1,943 @@
+[
+  {
+    "serial": "#0455",
+    "name": "天佑安康",
+    "name_cn": "天佑安康",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "CCRC"
+    ],
+    "region": "国内",
+    "desc_cn": "养老机构运营咨询与托管，专注中小养老机构盈利提升",
+    "description": "天佑安康养老集团始创于2006年，总部位于北京（民政部社会福利中心），是以养老产业运营为核心的集团，业务涵盖养老机构连锁运营（天佑安康品牌）、养老产业咨询策划（欧英明德）、康养商学院培训、\"走遍天下\"旅居养老及中国养老研究院智库，定位为养老产业综合运营商。",
+    "silver_reason": "养老产业综合运营，连锁养老机构服务老人",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端/G端服务采购",
+    "business_model": "B2B 咨询服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2006,
+    "highlights": [
+      "养老机构连锁运营+咨询策划+商学院培训",
+      "'走遍天下'旅居养老与智库"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 4.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等，综合运营（机构+咨询+商学院）打法较全、差异化一般；国内中小机构可学其盈利提升法。",
+      "rec_v2": "披露尚可、信号低，亮点在多业态联动（托管+培训+智库）；创业者可借鉴其'运营+培训'双轮变现。",
+      "rec_v3": "信息量一般、信号弱，其差异化在养老产业综合运营商定位；国内可复制其商学院培训获客模式。",
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0490",
+    "name": "Apax Partners",
+    "name_cn": "Apax Partners",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "产业基金"
+    ],
+    "region": "海外",
+    "desc_cn": "全球PE巨头，布局医疗与养老投资",
+    "description": "Apax Partners是全球知名私募股权投资公司，管理资产超过500亿美元，在医疗健康和养老服务领域有多个投资布局。",
+    "silver_reason": "通用PE仅财务布局医疗养老，非银发经营主体",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "基金LP出资",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1972,
+    "highlights": [
+      "全球知名私募，管理规模庞大",
+      "在医疗健康和养老服务领域有布局"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 3.0,
+    "copy_score": 2.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息实，但仅泛布局医疗养老、差异化低；作为通用PE模式难复制，非核心银发。",
+      "rec_v2": "披露透明、信号一般，亮点在多个银发项目投资；但其为综合PE，养老仅财务投资，参考价值有限。",
+      "rec_v3": "信息量高、信号低，差异化弱（泛医疗VC逻辑）；国内宜看其portfolio而非模式，实质非银发核心。",
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.apax.com/"
+  },
+  {
+    "serial": "#0514",
+    "name": "Hebrew Senior Life",
+    "name_cn": "Hebrew Senior Life",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "康养地产",
+      "康复医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "养老社区与老年医疗服务",
+    "description": "养老社区与老年医疗服务",
+    "silver_reason": "养老社区与老年医疗服务直接服务老人",
+    "silver_verdict": "核心银发",
+    "payor_model": "医保+个人自付",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "养老社区与老年医疗服务",
+      "医养连续体运营"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 4.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息有限，养老社区+老年医疗整合打法常规、差异化一般；其医养连续体国内可参考。",
+      "rec_v2": "披露少、信号低，亮点在社区服务+研究结合；创业者可学其'照护+科研'机构化运营。",
+      "rec_v3": "信息薄、信号一般，差异化在医养一体；国内可抄其连续照护分级，但重资产难轻复制。",
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.hebrewseniorlife.org"
+  },
+  {
+    "serial": "#0518",
+    "name": "摩根大通",
+    "name_cn": "摩根大通",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "region": "海外",
+    "desc_cn": "全球金融巨头，银发经济投资布局",
+    "description": "JPMorgan Chase（摩根大通）是全球最大的金融服务公司之一，通过其Age-Linked投资策略和JPMorgan Asset Management布局银发经济赛道。",
+    "silver_reason": "通用金融巨头仅策略布局银发，非核心主体",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人/机构服务费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1799,
+    "highlights": [
+      "全球最大金融服务公司之一",
+      "以专项策略布局银发经济赛道"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 3.0,
+    "copy_score": 2.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息实，但仅以专项策略泛布局银发、差异化低；通用金融巨头模式难复制，非核心。",
+      "rec_v2": "披露透明、信号低，亮点在银发经济投资配置；但其为综合金融，养老仅赛道下注，参考价值有限。",
+      "rec_v3": "信息量高、信号弱，差异化弱（泛投资布局）；国内宜看其投向而非模式，实质非银发核心宜擦边。",
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.jpmorganchase.com/"
+  },
+  {
+    "serial": "#0781",
+    "name": "Menolabs",
+    "name_cn": "Menolabs",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "更年期"
+    ],
+    "region": "海外",
+    "desc_cn": "更年期女性健康消费品品牌组合：以MenoFit/MenoGlow益生菌、膳食纤维与营养补充剂为主，配套MenoLife追踪社区APP提供教育与陪伴，通过自有官网、亚马逊与沃尔玛DTC零售；2024年被Dr. Reddy's收购。面向围绝经期女性，属中年女性健康消费。",
+    "description": "更年期保健产品，被Dr. Reddy's收购",
+    "silver_reason": "更年期保健品，服务中年女性非老年专属",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人自费（保健品零售）",
+    "business_model": "银发经济企业",
+    "funding_latest": {
+      "date": "2024年1月",
+      "amount": "300万美元",
+      "round": "收购",
+      "display": "收购 300万美元 (2024年1月)"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "被收购",
+    "founded": 2018,
+    "highlights": [
+      "更年期益生菌MenoFit/MenoGlow、膳食纤维等7个品牌组合",
+      "配套MenoLife追踪社区APP提供教育与陪伴",
+      "官网、亚马逊、沃尔玛DTC零售",
+      "2024年被Dr. Reddy's收购（自Amyris破产程序）"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 29.1,
+    "recommend": {
+      "rec_v1": "信号低信息薄（被药企收编）；更年期保健品无差异壁垒，国内创业者可学其DTC打法但难抄产品力。",
+      "rec_v2": "披露稀少；亮点是被药企收编，国内受品类竞争约束，对女性健康消费仅有微弱参照价值。",
+      "rec_v3": "并购印证赛道；其消费品定位差异化弱、研究价值低，宜仅作为「银发邻近」品类的旁证参考。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 1.05,
+      "research_value": 29.2
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.menolabs.com"
+  },
+  {
+    "serial": "#0051",
+    "name": "ITH康养家",
+    "name_cn": "ITH康养家",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "资讯门户"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦智慧康养的垂直产业媒体与创新服务平台，面向康养企业与科技创业公司提供产业媒体、专题论坛、行业调研与产业智库服务。收入来自B端企业会员、广告与活动赞助。核心价值在连接养老机构信息化负责人与智慧养老技术方案商，是观察国内养老科技落地与采购偏好的高价值信息入口。",
+    "description": "ITH康养家是智慧康养产业媒体平台，聚焦养老科技、智慧康养解决方案，提供行业资讯、企业访谈和产业研究。",
+    "silver_reason": "智慧康养垂直媒体，服务银发科技产业。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购（会员/广告）",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2019,
+    "highlights": [
+      "2019年成立于上海，聚焦智慧康养的垂直产业媒体与创新服务平台，读者超5万",
+      "打造康养CIO大会、ITH智慧健康养老科技产业高峰论坛等具行业影响力的活动IP",
+      "2020联合上海华东医院、国药康养等成立康养产业数智化联盟，2023创立北京领航者俱乐部"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 3.0,
+    "copy_score": 3.0,
+    "research_value": 28.7,
+    "recommend": {
+      "rec_v1": "信号弱但定位清（智慧康养垂直媒体）；行业媒体差异化低、IP难复制，国内创业者可借鉴其选题与产业研究框架。",
+      "rec_v2": "冷门却有权威；聚焦养老科技与解决方案，亮点在资讯+访谈+研究，可抄性低，值得学其内容建立行业信任。",
+      "rec_v3": "披露中等但非直营；媒体本身不可复制，可借鉴其垂直深耕，可研究其如何把流量转化为产业服务。",
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 28.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.ith康养家.com/"
+  },
+  {
+    "serial": "#0234",
+    "name": "柏老汇",
+    "name_cn": "柏老汇",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "家政",
+      "居家护理"
+    ],
+    "region": "国内",
+    "desc_cn": "江苏昆山本地养老服务企业，业务涵盖机构与社区养老、家政清洁、助餐及健康咨询，并下设多个社区分公司辐射周边街道。收入来自个人自费与政府购买服务。银发价值在它服务周边长者的日常养老与家政刚需，是县域社区养老的微型企业样本。",
+    "description": "昆山市柏老汇养老服务有限公司成立于2016年，位于江苏昆山，是一家本地养老服务企业，经营范围包括养老服务、清洁服务、家政服务、健康信息咨询及餐饮服务，下设合兴社区、西河、绣衣等多个社区分公司，为周边长者提供社区养老与家政清洁等日常服务。",
+    "silver_reason": "本地社区养老与家政清洁，服务周边长者日常养老刚需。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+政府购买服务",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2016,
+    "highlights": [
+      "2016年成立于江苏昆山，本地养老服务企业",
+      "业务含养老服务、清洁、家政、健康咨询与餐饮",
+      "下设合兴社区、西河、绣衣等多个社区分公司"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 6.0,
+    "research_value": 28.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息少；昆山本地社区养老+家政常规差异化低，易复制，可学其合兴等社区分公司下沉打法。",
+      "rec_v2": "信号低、披露有限；多社区网点覆盖周边长者是亮点，差异化模式平却易借鉴，国内宜学其养老+家政组合。",
+      "rec_v3": "信号偏弱、资料薄；其本地化社区养老服务定位清晰有差异，可抄性高，可学它用低门槛家政切入刚需。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 28.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0337",
+    "name": "赋爱科技",
+    "name_cn": "赋爱科技",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "适老化"
+    ],
+    "region": "国内",
+    "desc_cn": "智能适老化产品方案商",
+    "description": "赋爱科技是养老科技品牌，专注智能适老化产品和养老信息化方案。",
+    "silver_reason": "智能适老化产品与养老信息化方案，直接服务养老机构。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费",
+    "business_model": "B2B 科技研发",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2022,
+    "highlights": [
+      "智能适老化产品",
+      "养老信息化方案",
+      "养老科技品牌"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 5.0,
+    "research_value": 28.7,
+    "recommend": {
+      "rec_v1": "信号弱但做智能适老化产品+信息化方案，软硬一体服务银发机构的思路差异化清晰。",
+      "rec_v2": "公开资料较薄，但其把适老化硬件与养老信息化打包输出的模式，区域方案商可直接借鉴落地。",
+      "rec_v3": "模式不炫但刚需，其用科技手段降低机构适老改造成本的路径，值得社区养老运营者研究。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 28.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0400",
+    "name": "爱晖",
+    "name_cn": "爱晖",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "用药提醒"
+    ],
+    "region": "国内",
+    "desc_cn": "智能服药管理与提醒解决方案",
+    "description": "国内服药管理，研发难度很大",
+    "silver_reason": "智能服药管理直接服务老年慢病用药人群",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费",
+    "business_model": "B2B 科技研发",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "聚焦老年服药依从性",
+      "研发门槛较高",
+      "智能提醒交互"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 5.0,
+    "copy_score": 4.0,
+    "research_value": 28.7,
+    "recommend": {
+      "rec_v1": "信号弱信息极少；用药管理研发差异在技术壁垒，国内创业者宜学其适老提醒交互而非硬抄硬件。",
+      "rec_v2": "披露稀少热度低；其聚焦服药依从性差异清晰，但研发门槛高，中小团队可复制其App提醒轻模式。",
+      "rec_v3": "信号不强资料不足；它攻老人漏服痛点差异明确，国内可学其分级提醒逻辑做低成本SaaS化方案。",
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 28.7
+    },
+    "source": "选题库V4",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0449",
+    "name": "小咖云",
+    "name_cn": "小咖云",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "行业媒体",
+      "资讯门户"
+    ],
+    "region": "国内",
+    "desc_cn": "养老产业资讯与资源对接平台，侧重中小养老机构服务",
+    "description": "小咖云（运营主体上海尚栖企业服务有限公司）是聚焦康养产业的创新创业综合服务平台，由康复辅具切入\"医康护养工\"全生态，承接进博会溢出效应，通过产业园、常年展馆及\"会赛展馆园研融讯商普文创\"十二大手段，为康养企业提供营商、产融与订单转化等服务，并运营上海康复辅助器具产业园。",
+    "silver_reason": "康养产业综合服务平台，聚焦银发企业服务",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构服务采购",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "由康复辅具切入'医康护养工'全生态",
+      "运营上海康复辅助器具产业园"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 5.0,
+    "research_value": 28.7,
+    "recommend": {
+      "rec_v1": "信号弱、无官网信息少，但其'产业园+十二手段'服务康养企业的打法较系统、差异化清晰；国内园区运营可借鉴。",
+      "rec_v2": "披露有限、信号低，亮点在从辅具切入全生态、连接订单转化；创业者可学其'会赛展馆园研'整合服务模型。",
+      "rec_v3": "信息薄、信号一般，其差异化在康养企业一站式营商服务；国内可复制其产业园招商+资源对接轻模式。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 28.7
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0505",
+    "name": "Meta",
+    "name_cn": "元公司（Meta）",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知训练"
+    ],
+    "region": "海外",
+    "desc_cn": "VR社交与认知训练，适老防诈",
+    "description": "Meta（前Facebook）在银发经济领域通过Oculus VR设备为老年人提供社交和认知训练体验，同时研究VR在老年认知衰退干预中的应用。",
+    "silver_reason": "通用社交平台VR适老仅为特性，非银发核心",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "免费+广告变现",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2004,
+    "highlights": [
+      "Oculus VR用于老年社交和认知训练",
+      "推出保护老年用户防诈功能"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 4.0,
+    "copy_score": 2.0,
+    "research_value": 28.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中，VR适老社交与认知训练仅为平台feature、差异化一般；巨头资源不可复制，非银发核心。",
+      "rec_v2": "披露尚可、信号低，亮点在VR用于老年认知干预；但Meta本质通用平台，参考价值有限宜判擦边。",
+      "rec_v3": "信息量中、信号弱，差异化在VR适老尝试；国内可学交互思路，但主体非银发企业，实质擦边。",
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 28.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.meta.com/"
+  },
+  {
+    "serial": "#1089",
+    "name": "中天益寿林",
+    "name_cn": "中天益寿林",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "养老机构运营收费",
+    "description": "中天益寿林 operates senior-care and integrated medical-nursing facilities that combine on-site care staffing with a smart management system covering health records, alerts, and daily operations.",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": "医养结合+智慧管理",
+    "signal_strength": 0.55,
+    "info_score": 3.5,
+    "diff_score": 4.5,
+    "copy_score": 3.5,
+    "research_value": 28.2,
+    "recommend": "信号偏弱、公开信息较少，其「养老机构运营收费」有一定差异点；但受支付体系/牌照/文化约束，照搬难，国内宜学其思路而非形态（切入医养结合赛道）。",
+    "source": "ITH康养家 2025融资实录",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0138",
+    "name": "国寿大健康",
+    "name_cn": "国寿大健康",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "产业基金"
+    ],
+    "region": "国内",
+    "desc_cn": "中国人寿旗下健康与养老产业投资平台，管理总规模数百亿的大健康基金与大养老基金，投资药明康德、迈瑞、联影等医疗龙头企业并布局国寿嘉园养老社区，收入来自投资管理与管理费。",
+    "description": "国寿大健康是中国人寿旗下大健康产业投资基金，聚焦医疗健康和养老服务领域的股权投资。",
+    "silver_reason": "实质为中国人寿旗下产业投资基金，布局医养股权但不直接服务老年人，属泛银发资本方",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "母公司及LP出资",
+    "business_model": "银发经济企业",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2016,
+    "highlights": [
+      "管理国寿大健康基金（规模达数百亿）与国寿大养老基金（约200亿）",
+      "投资药明康德、迈瑞医疗、联影医疗等，培育多家上市企业",
+      "布局国寿嘉园等养老社区，床位近万张",
+      "发起设立首只银发经济主题基金"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 3.0,
+    "research_value": 27.7,
+    "recommend": {
+      "rec_v1": "信号低、信息有限，实质为险资系产业投资基金；不直接服务老人而布局医养股权，差异在资本视角；模式难复制，创业者宜学其养老赛道选品逻辑。",
+      "rec_v2": "披露少，亮点是背靠国寿资源投养老医疗；作为VC难借鉴运营；可关注它押注的细分方向，反向寻找国内空白品类。",
+      "rec_v3": "低信号且非运营实体；差异在资金加产业双轮；个人创业者难复制其禀赋，但可跟踪其被投企业找产品灵感。",
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 27.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.chinalifepe.com"
+  },
+  {
+    "serial": "#0224",
+    "name": "普健济康",
+    "name_cn": "普健济康",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "VC"
+    ],
+    "region": "国内",
+    "desc_cn": "张江高科‘895创业营’与HiMed医创空间联合打造的医疗健康专业孵化器，提供联合办公、创业辅导与临床资源对接，孵化方向含智慧医疗与智慧养老（居家养老、康复护理、健康促进）。收入来自入驻企业服务费、基金投资收益。银发关联仅在‘智慧养老’为其孵化赛道之一，主体是产业资本与孵化平台。",
+    "description": "上海普健济康众创空间管理有限公司运营“895医疗健康孵化器暨普健济康医创基地”，由张江高科“895创业营”与HiMed医创空间联手打造，是垂直医疗健康孵化器，孵化方向涵盖智慧医疗（微创器械、可穿戴设备、医用机器人）与智慧养老（居家养老、康复护理），并提供天使投资与创业陪练。",
+    "silver_reason": "主体是垂直医疗健康孵化器，智慧养老仅为孵化方向之一，偏泛医疗/产业资本。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "B端(被投企业/基金)服务费+投资收益",
+    "business_model": "银发经济企业",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2013,
+    "highlights": [
+      "运营‘895医疗健康孵化器暨普健济康医创基地’，2017年启用",
+      "由张江高科‘895创业营’与HiMed医创空间联手打造",
+      "孵化方向含智慧医疗与智慧养老（居家养老、康复护理、健康促进）"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 27.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息中；医疗健康孵化器涉智慧养老偏泛医疗差异化弱，复制需资源，可学其张江+HiMed联合孵化。",
+      "rec_v2": "信号低、披露一般；895创业营垂直孵化是亮点，差异化模式常规却可借鉴，国内宜学其天使+陪练投早。",
+      "rec_v3": "信号偏弱、资料有限；其孵化智慧养老仅方向之一是差异化短板，非银发核心但可学其产业方联动高校模型。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 27.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0269",
+    "name": "瑞邦",
+    "name_cn": "瑞邦",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "药品"
+    ],
+    "region": "国内",
+    "desc_cn": "钙制剂等西药制药企业",
+    "description": "浙江瑞邦药业股份有限公司始建于1956年，生产葡萄糖酸钙片、甘露聚糖肽、环孢素与多种维生素及抗生素制剂，其中葡萄糖酸钙片用于老年人钙缺乏的防治。",
+    "silver_reason": "普药制药企业，银发仅葡萄糖酸钙等个别品种",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "医保+个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1956,
+    "highlights": [
+      "始建于1956年",
+      "葡萄糖酸钙片用于老年补钙",
+      "产品远销欧美日本"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 27.7,
+    "recommend": {
+      "rec_v1": "信号弱但老药企可查；钙制剂仅个别银发品种，普药主业借鉴价值有限，银发库建议将其移出或单独标注。",
+      "rec_v2": "披露偏少热度低；葡萄糖酸钙非差异，创业者参考其制药意义不大，其模式对银发创业者无实质借鉴意义。",
+      "rec_v3": "信号不强资料够；实质泛医疗擦边，银发仅补钙单品，其复制价值偏低，后续可按非银发类别单独归类处理。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 27.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0382",
+    "name": "麦考林",
+    "name_cn": "麦考林",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "电商"
+    ],
+    "region": "国内",
+    "desc_cn": "老牌邮购与电商零售企业，主打服饰邮购目录",
+    "description": "老牌邮购与电商零售企业，曾以服饰邮购目录切入家庭消费市场。",
+    "silver_reason": "老牌服饰邮购/电商零售，无银发业务实质",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1996,
+    "highlights": [
+      "老牌邮购与电商零售企业",
+      "曾以服饰邮购目录切入家庭消费市场"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 27.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息偏少，老牌服饰邮购电商模式常规；其家庭消费定位与银发无关，国内创业者仅可参考其目录零售历史经验。",
+      "rec_v2": "披露一般、有官网，亮点在早期邮购基因；电商打法成熟但无银发属性，无可借鉴的银发切入点。",
+      "rec_v3": "热点低、信息量低，综合电商无银发差异；模式可抄却非银发场景，不宜作为银发案例研究。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 27.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.mecoxlane.com"
+  },
+  {
+    "serial": "#0048",
+    "name": "BAI资本",
+    "name_cn": "BAI资本",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "产业基金"
+    ],
+    "region": "国内",
+    "desc_cn": "独立风险投资基金，前身为贝塔斯曼亚洲投资基金，覆盖消费、内容媒介、金融科技与前沿科技等赛道。通过外部LP募资，以股权形式投资早期至成长期企业，并在银发领域财务性布局小年糕、红松等老年内容与社区项目。自身不提供涉老服务，而是以资本连接老年消费与科技创业者。",
+    "description": "贝塔斯曼亚洲投资基金（Bertelsmann Asia Investments），关注消费、教育、医疗健康领域的早期和成长期投资，在银发经济领域有多个布局。",
+    "silver_reason": "通用型VC，仅作为财务投资人布局银发，自身不服务老年人。",
+    "silver_verdict": "非银发",
+    "payor_model": "LP出资+被投企业",
+    "business_model": "B2C 教育/培训",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2008,
+    "highlights": [
+      "前身为贝塔斯曼亚洲投资基金，2008年由龙宇创立，已投资超200家企业、40余家独角兽",
+      "银发布局偏财务投资：曾投小年糕、锣钹科技、红松等老年内容及社区项目",
+      "2022年完成首期7亿美元独立募资，2026年获香港证监会9号资管牌照"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 2.0,
+    "copy_score": 2.0,
+    "research_value": 27.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等；贝塔斯曼亚洲VC属性通用，差异化低且资本背景难复制，国内创业者可借鉴其银发赛道选品逻辑。",
+      "rec_v2": "冷门却非直营；作为财务投资人在银发多布局，亮点在产业判断力，可抄性极低，值得学其被投组合打法。",
+      "rec_v3": "披露中等但非服务老年；本质是通用VC，可借鉴有限，可研究其如何识别银发消费与文娱的早期机会。",
+      "info_score": 6,
+      "diff_score": 2,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 27.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.bai-capital.com/"
+  },
+  {
+    "serial": "#0740",
+    "name": "Ilant Health",
+    "name_cn": "Ilant Health",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "region": "海外",
+    "desc_cn": "面向雇主与医保支付方的按效果付费肥胖及心脏代谢管理平台：用理赔数据锁定高价值人群，由肥胖专科医师、营养师、心理师与'同行导航员'提供药物/手术/行为治疗组合，按降低的总医疗成本分成。本质是B2B健康风险管理，服务超重与慢病员工及参保人群。",
+    "description": "基于价值的肥胖管理和心脏代谢健康",
+    "silver_reason": "通用肥胖/心脏代谢健康管理，服务雇主员工与参保人群，无老年专属信号",
+    "silver_verdict": "非银发",
+    "payor_model": "B端机构采购（雇主/医保支付，按效果付费）",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2024年5月",
+      "amount": "250万美元",
+      "round": "种子轮",
+      "display": "种子轮 250万美元 (2024年5月)"
+    },
+    "funding_total": "$22M+",
+    "investors": "Cornucopian Capital (lead), naturalX, Peakbridge, Semcap AI, Evidenced",
+    "stage": "A轮",
+    "founded": 2022,
+    "highlights": [
+      "用理赔数据锁定高价值人群并匹配最优肥胖治疗方案",
+      "'同行导航员'（有治疗经历者）陪诊降低病耻感",
+      "官网称成员平均减重15%、不到2年回报超2倍",
+      "2022年创立，已服务雇主与健康计划人群"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 3.0,
+    "research_value": 27.2,
+    "recommend": {
+      "rec_v1": "信号低信息薄（仅早期资本支持）；肥胖管理无银发差异，国内创业者勿照搬其医保耦合模式，参考价值低。",
+      "rec_v2": "披露稀少；亮点是value-based打法，但受美国支付体系约束难复制，对国内银发创业者启发弱。",
+      "rec_v3": "小注验证概念；其平台无差异化壁垒、研究价值低，仅作慢病管理思路的旁证参考素材即可。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 3,
+      "signal_strength": 1.05,
+      "research_value": 27.2
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.ilanthealth.com"
+  },
+  {
+    "serial": "#0818",
+    "name": "Pear Suite",
+    "name_cn": "Pear Suite",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "SDOH"
+    ],
+    "region": "海外",
+    "desc_cn": "赋能社区卫生工作者（CHW）的照护导航与计费平台：提供筛查、转介、护理计划、全渠道沟通与一键生成医保理赔的工作流，并把分散的社区组织、健康计划与商保方连成provider网络；靠SaaS订阅与按服务计费。聚焦健康社会决定因素，无老年专属定位。",
+    "description": "使社区卫生工作者识别和解决SDOH问题",
+    "silver_reason": "社区健康社会决定因素（SDOH）协调，无老年专属信号",
+    "silver_verdict": "非银发",
+    "payor_model": "B端机构采购（健康计划/政府支付）",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": {
+      "date": "2024年5月",
+      "amount": "100万美元",
+      "round": "种子轮",
+      "display": "种子轮 100万美元 (2024年5月)"
+    },
+    "funding_total": "$7.6M",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": 2021,
+    "highlights": [
+      "为社区卫生工作者（CHW）提供筛查、转介、护理计划一体化平台",
+      "内置billing与理赔清分，借Medicaid对CHW报销新政扩张",
+      "已合作175+社区组织，覆盖10万+人群",
+      "运营全美最大CHW provider网络（Pear Cares）"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 3.0,
+    "research_value": 27.2,
+    "recommend": {
+      "rec_v1": "信号低信息薄（仅早期资本支持）；SDOH协调无银发差异，国内创业者勿照搬其医保耦合，参考价值低。",
+      "rec_v2": "披露稀少；亮点是社区工作者赋能，但与老年服务无强关联，难复制为国内银发落地场景。",
+      "rec_v3": "小注验证概念；其平台无差异化壁垒、研究价值低，仅作社区健康网络建设方向的思路旁证。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 3,
+      "signal_strength": 1.05,
+      "research_value": 27.2
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.pearsuite.com"
+  },
+  {
+    "serial": "#0489",
+    "name": "亚马逊",
+    "name_cn": "亚马逊",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "零售"
+    ],
+    "region": "海外",
+    "desc_cn": "综合电商与云巨头，银发布局集中在健康：Amazon Pharmacy整合PillPack为Medicare Part D老人提供分装药品与照护者代管，Alexa Emergency Assist提供跌倒/紧急呼叫远程照护。养老并非主业，多为生态补位而非独立银发业务。",
+    "description": "Amazon（亚马逊）是全球最大的电商和云计算公司，在银发经济领域通过Alexa智能语音助手、AWS云服务和Amazon Care等业务布局老年健康与智慧养老。",
+    "silver_reason": "综合电商巨头，养老仅Alexa/药房等边缘布局，无实质银发主业（Medicare药房仅为生态一环）",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费（电商/会员/医保自付）",
+    "business_model": "B2C 电商平台",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "已上市",
+    "founded": 1994,
+    "highlights": [
+      "Amazon Pharmacy(PillPack)为Medicare Part D老人提供分装药品与照护者代管",
+      "Alexa Emergency Assist提供24/7紧急呼叫（Alexa Together 2025-05停服）",
+      "One Medical接入医保的初级诊疗",
+      "银发布局多为品牌/生态补位，无独立养老主业"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 6.0,
+    "diff_score": 2.0,
+    "copy_score": 1.0,
+    "research_value": 27.1,
+    "recommend": {
+      "rec_v1": "信号低、银发信息稀薄（仅边缘布局）；其生态打法无差异壁垒，国内创业者勿照搬巨头路径，可学其语音入口思路。",
+      "rec_v2": "披露多为集团层面；智慧养老布局零散无闭环，难复制其体量，但「硬件+订阅」入口设计对适老产品有启发。",
+      "rec_v3": "综合巨头银发非主业；差异化弱、复制无意义，研究价值在警示：银发需垂直深耕而非平台附带。",
+      "info_score": 6,
+      "diff_score": 2,
+      "copy_score": 1,
+      "signal_strength": 1.05,
+      "research_value": 27.2
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.amazon.com/"
+  }
+]

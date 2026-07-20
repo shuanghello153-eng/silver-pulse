@@ -1,0 +1,796 @@
+{
+  "batch": 4,
+  "enterprises": [
+    {
+      "serial": "#0950",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 60.6,
+      "recommend": {
+        "rec_v1": "信号稳居上市梯队且财报透明，研究成本低；'居家+安宁'整合照护在美国已成规模，但重资产+Medicaid依赖让它难直接平移，可学其并购整合法。",
+        "rec_v2": "信号中上、作为全美居家与临终照护整合商，信息披露充分；亮点在跨场景协同网络，但美国医保结构特殊，国内宜拆学运营而非复制支付端。",
+        "rec_v3": "上市地位带来持续披露，信息可深挖；其把居家护理与安宁疗护打包的一站式概念清晰，但绑定美国医保，国内宜先啃支付端再谈复制。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 60.6
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+      "founded": 2017,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2021",
+          "text": "纳斯达克上市，募资约4.59亿美元"
+        }
+      ],
+      "highlights": [
+        "全美最大上市居家健康与临终关怀整合商之一",
+        "业务横跨居家护理/临终/儿科/个人护理",
+        "Medicaid与Medicare双支付、重资产并购整合"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家健康与临终关怀均直接服务失能/高龄人群，属核心银发照护。"
+    },
+    {
+      "serial": "#0951",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 6,
+      "copy_score": 4,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "信号强、PACE龙头披露充分；按人头打包照护失能老人的全包模式极具研究价值，但强绑Medicare+Medicaid，国内暂无对应支付土壤。",
+        "rec_v2": "信号稳、作为双重eligibles管理机构信息透明；差异在'医疗+生活'全包替代机构养老，但美国按人头付费难照搬，可借鉴其照护整合思路。",
+        "rec_v3": "上市地位与年报可深挖，研究门槛低；PACE把保险支付与居家照护闭环是真正差异点，但国内缺乏双重参保人群基础，照搬无意义，重学其风控。",
+        "info_score": 8,
+        "diff_score": 6,
+        "copy_score": 4,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "政府医保(Medicare+Medicaid按人头打包支付)",
+      "business_tags_role": "服务商",
+      "desc_cn": "提供老年人全包护理计划(PACE)，为居家老人提供处方药、医疗保健、家庭护理、体检、医院就诊、上门协助、交通、营养等服务。2021年上市融资3.5亿美元",
+      "founded": 2007,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2021",
+          "text": "纳斯达克上市，募资约3.5亿美元"
+        }
+      ],
+      "highlights": [
+        "PACE全包照护模式龙头，服务双重参保失能老人",
+        "人均Medicare RAF 2.42，重度人群集中",
+        "按人头打包付费、强调居家替代机构照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "PACE专为双重参保失能老人提供全包式老年照护，核心银发。"
+    },
+    {
+      "serial": "#0952",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "信号稳、上市公司披露扎实；以社区为基础的个人护理网络靠并购做密度，思路清晰，但支付以Medicaid为主，国内复制要先解决长护资金来源。",
+        "rec_v2": "信号中上、全美22州居家照护龙头，财报与交易透明；亮点在'轻临床+重度并购'扩张，但高度依赖政府支付，国内宜学其选址与整合并购节奏。",
+        "rec_v3": "上市带来持续信披，研究成本低；其把居家护理做成规模化的'在地养老'入口很有启发，但美国管理式医疗环境难复制，可拆学其德州打法。",
+        "info_score": 8,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "政府医保(Medicaid/州政府)+商业保险(管理式医疗)+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国家庭护理服务提供商，以家庭及社区为基础，面向老人、长期病患、残疾人士等提供个人护理、日常生活活动支援、成人日间看护等服务。2009年上市融资5400万美元",
+      "founded": 1979,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2009",
+          "text": "纳斯达克上市，募资约5400万美元"
+        },
+        {
+          "date": "2024-12",
+          "text": "以约3.5亿美元收购Gentiva个人护理资产，成德州最大居家照护商"
+        }
+      ],
+      "highlights": [
+        "2024年3.5亿美元收购Gentiva个人护理资产，成德州最大居家照护商",
+        "2024营收约12亿美元，覆盖22州214个网点",
+        "支付以Medicaid+管理式医疗为主(合计约97%)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以社区居家护理与临终照护为主业，服务老弱群体，核心银发。"
+    },
+    {
+      "serial": "#0953",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 60.6,
+      "recommend": {
+        "rec_v1": "信号稳、分拆上市信息披露充分；多品牌横跨居家健康到记忆照护，轻资产灵活，但业务同质化偏高，国内可学其分拆与多品牌运营。",
+        "rec_v2": "信号中上、作为2019年自Ensign分拆的居家+临终+养老社区商，资料可查；差异在多场景协同，但美国支付体系专属，国内宜借鉴其资产获取而非整体平移。",
+        "rec_v3": "上市地位与年报降低研究门槛；其把临终、居家、辅助生活打包的'全周期'打法概念清楚，但强绑医保，国内先学服务线组合逻辑。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 60.6
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+      "founded": 2019,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2019",
+          "text": "自The Ensign Group分拆并于纳斯达克上市"
+        }
+      ],
+      "highlights": [
+        "2019年自Ensign Group分拆，轻资产多品牌运营",
+        "业务横跨居家健康/临终/辅助生活/记忆照护",
+        "受益于Amedisys资产剥离获得新机构"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "业务横跨居家健康、临终与养老社区，直接服务长者，核心银发。"
+    },
+    {
+      "serial": "#1135",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 4,
+      "research_value": 60.6,
+      "recommend": {
+        "rec_v1": "信号强、2026年3月纽交所IPO募资约8.4亿美元，资料新且透明；纯Play养老REIT+RIDEA结构差异明显，但国内无养老REIT通道，难直接对标。",
+        "rec_v2": "信号高、承接Healthpeak 34个养老社区的独立上市REIT披露充分；差异在纯养老地产聚焦，但国内REITs与税制不同，可学其资产剥离与资本结构。",
+        "rec_v3": "上市地位带来持续财报，研究成本低；把养老社区做成可交易证券化资产的思路很新，但高度依赖美国资本与税法，国内宜学'轻重分离'而非发REIT。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 4,
+        "signal_strength": 6.55,
+        "research_value": 60.6
+      },
+      "payor_model": "个人自费(住户社区租金)为主",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国纯Play养老社区REIT，2026年3月纽交所IPO(代码JAN)募资约8.4亿美元，承接Healthpeak 34个社区、约1万套养老住房组合，RIDEA结构。",
+      "founded": 2026,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2026-01",
+          "text": "Healthpeak宣布分拆成立Janus Living并向SEC提交S-11"
+        },
+        {
+          "date": "2026-03",
+          "text": "纽交所IPO(代码JAN)募资约8.4亿美元，承接34个社区"
+        }
+      ],
+      "highlights": [
+        "2026年3月纽交所IPO(代码JAN)，募资约8.4亿美元",
+        "承接Healthpeak 34个养老社区、10,422套单元",
+        "纯Play养老REIT，RIDEA结构、Healthpeak任外部管理人"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "纯Play养老社区REIT，资产全部为老年housing，核心银发。"
+    },
+    {
+      "serial": "#1136",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 61.6,
+      "recommend": {
+        "rec_v1": "信号稳、S&P500医疗REIT披露极全；把养老组合分拆为Janus Living是资本运作样板，但多元医疗资产属性强，国内学其'分拆释放价值'思路。",
+        "rec_v2": "信号中上、作为医疗+养老双轨REIT，年报与投资者材料透明；差异在主动把养老独立证券化而非混在医疗里，但国内无对应REIT，可借鉴其组合管理纪律。",
+        "rec_v3": "上市地位与IR充分降低研究门槛；其借分拆让市场单独给养老资产定价的玩法有启发，但依赖美国资本市场，国内宜学资产梳理而非发REIT。",
+        "info_score": 8,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 6.55,
+        "research_value": 61.6
+      },
+      "payor_model": "B端机构付费(triple-net净租赁，运营商付租金；终端政府医保+个人自付)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+      "founded": "",
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2026-01",
+          "text": "宣布分拆养老组合成立Janus Living(纯Play养老REIT)"
+        },
+        {
+          "date": "2026-03",
+          "text": "Janus Living完成纽交所IPO"
+        }
+      ],
+      "highlights": [
+        "医疗+养老双轨REIT，S&P500成分",
+        "2026年分拆养老组合成立Janus Living(RIDEA)",
+        "持有门诊医疗/实验室/养老多元资产分散风险"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "持有并运营养老社区等银发地产，核心银发。"
+    },
+    {
+      "serial": "#1144",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 58.6,
+      "recommend": {
+        "rec_v1": "信号稳、纽交所上市(SNDA)信披规范；纯Play养老社区业主-运营商覆盖IL/AL/记忆照护，模式清晰，但重资产且国内无同类上市标杆，宜学其改造运营。",
+        "rec_v2": "信号中上、作为上市养老社区运营商，年报与业绩透明；差异在多业态(独立/辅助/记忆)一体经营，但美国自付为主，国内可借鉴其社区产品分层而非整体复制。",
+        "rec_v3": "上市地位带来持续披露，研究成本低；把养老社区做成可复制的'产品化'运营值得看，但强依赖美国地产与资本，国内先学其单店模型。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 6.55,
+        "research_value": 58.6
+      },
+      "payor_model": "个人自费(住户服务费)为主",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国大型纯Play养老社区业主-运营商，运营独立生活、辅助生活与记忆照护社区，纽交所上市(代码SNDA)，2025全年业绩稳健。",
+      "founded": "",
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025",
+          "text": "纽交所上市(代码SNDA)，全年业绩稳健并持续扩张社区"
+        }
+      ],
+      "highlights": [
+        "纯Play养老社区业主-运营商，覆盖IL/AL/记忆照护",
+        "纽交所上市(SNDA)，2025全年业绩稳健",
+        "聚焦存量社区改造与收购扩张"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "纯Play养老社区业主-运营商，核心银发。"
+    },
+    {
+      "serial": "#1147",
+      "signal_strength": 6.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 3,
+      "research_value": 57.7,
+      "recommend": {
+        "rec_v1": "信号中上、2026年2月更名后披露渐增；用封装细胞做'生物人工胰腺'与长寿蛋白，技术差异极强，但临床前阶段+美国监管，国内短期难抄。",
+        "rec_v2": "信号稳、作为长寿细胞治疗新星，管线与合资信息可查；真正差异在Cell-in-a-Box®免疫屏蔽+双管线，但生物科技壁垒高、离商业化远，可跟踪不可盲目复制。",
+        "rec_v3": "OTCQB上市带来基本信披，研究起点低；其把抗衰做成'可植入细胞工厂'的方向很新，但强依赖美国生物技术与资本，国内宜学选题而非模式。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 3,
+        "signal_strength": 6.55,
+        "research_value": 57.7
+      },
+      "payor_model": "商业保险+个人自费(研发阶段，尚未商业化)",
+      "business_tags_role": "产品商",
+      "desc_cn": "长寿生物科技公司(原Avant Technologies，2026年2月更名为Avaí Bio，OTCQB:AVAI)，推进两项针对糖尿病与年龄相关疾病的细胞治疗项目。",
+      "founded": "",
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "与Austrianova成立Klothonova合资公司(α-Klotho长寿蛋白)"
+        },
+        {
+          "date": "2026-02",
+          "text": "由Avant Technologies更名Avaí Bio并上线新网站"
+        }
+      ],
+      "highlights": [
+        "由Avant Technologies于2026年2月更名，聚焦长寿细胞治疗",
+        "双管线：Insulinova(糖尿病)与Klothonova(α-Klotho长寿蛋白)",
+        "与Austrianova合作，采用Cell-in-a-Box®封装免疫屏蔽技术"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "聚焦年龄相关疾病与长寿/抗衰细胞治疗，核心银发。"
+    },
+    {
+      "serial": "#1153",
+      "signal_strength": 6.55,
+      "info_score": 9,
+      "diff_score": 3,
+      "copy_score": 7,
+      "research_value": 66.6,
+      "recommend": {
+        "rec_v1": "信号稳、S&P500医疗REIT信披极全；模式稳健受老龄化顺风，但纯持有出租反共识性低，国内险资/养老地产基金可对标其资产组合与出租率逻辑。",
+        "rec_v2": "信号高、作为第二大养老/医疗REIT，财报与物业数据透明；差异在多元分散而非纯养老，但国内无上市养老REIT，可学其资本纪律与周期应对。",
+        "rec_v3": "上市地位与千余处物业数据降低研究门槛；其把银发地产做成可交易资产的思路清晰，但依赖美国REITs税制，国内宜与Welltower并读学资产逻辑。",
+        "info_score": 9,
+        "diff_score": 3,
+        "copy_score": 7,
+        "signal_strength": 6.55,
+        "research_value": 66.6
+      },
+      "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府医保Medicare/Medicaid+个人自付）",
+      "business_tags_role": "投资机构",
+      "desc_cn": "美国第二大养老/医疗地产REIT（纽交所VTR），持有并运营养老社区、门诊医疗与研究院、长期急症护理地产；1998年上市，2025年通过远期股权协议结算约1640万股、募资约11亿美元用于养老社区投资。",
+      "founded": 1983,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "1998",
+          "text": "纽交所上市(代码VTR)"
+        },
+        {
+          "date": "2025",
+          "text": "远期股权增发约11亿美元用于加仓养老社区"
+        }
+      ],
+      "highlights": [
+        "美国第二大养老/医疗REIT(纽交所VTR)",
+        "2025增发约11亿美元加仓养老社区",
+        "SHOP同店现金NOI同比+13%(2025 Q2)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "持有养老社区与医疗地产，核心银发。"
+    },
+    {
+      "serial": "#1155",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 61.6,
+      "recommend": {
+        "rec_v1": "信号稳、护理院REIT龙头信披扎实；triple-net净租赁模式清晰，但租户偿付集中度风险高，国内护理院重资产可参考其租户风控而非整体平移。",
+        "rec_v2": "信号中上、作为SNF地产最大持有人，年报与组合数据透明；差异在专注护理院而非多元，但Genesis破产警示集中度，国内宜学其租户筛选与结构化租赁。",
+        "rec_v3": "上市地位带来持续披露，研究成本低；把护理院做成净租赁资产的打法可借鉴，但强绑美国医保报销与运营商，国内先学风险隔离结构。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 61.6
+      },
+      "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端护理报销来自政府Medicare/Medicaid为主+个人自付）",
+      "business_tags_role": "投资机构",
+      "desc_cn": "专注专业护理院(SNF)与辅助生活(ALF)的医疗REIT（纽交所OHI），以Triple-net净租赁为美国护理院地产最大持有人之一；2025年末投资资产115亿美元、1111处物业、9.3万+张床位，2025年新设20亿美元ATM计划。",
+      "founded": 1992,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "1992",
+          "text": "成立并登陆纽交所(代码OHI)"
+        },
+        {
+          "date": "2025-Q4",
+          "text": "发行Omega OP Units约2.22亿美元"
+        }
+      ],
+      "highlights": [
+        "专业护理院REIT龙头(纽交所OHI)",
+        "2025投资资产115亿美元、1111处物业",
+        "2025 Genesis破产凸显租户集中度风险"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注护理院与长期护理地产，核心银发。"
+    },
+    {
+      "serial": "#1156",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "信号稳、自管理养老REIT信披充分；低杠杆+高出租率+连续提息的资本纪律是亮点，但A股无纯养老REIT，国内可学其'轻杠杆+多元租户'。",
+        "rec_v2": "信号中上、作为从Ensign分拆的成长型REIT，年报与收购透明；差异在自管理+出海英国，但国内REITs与出海逻辑难复制，可借鉴其租户多元化路径。",
+        "rec_v3": "上市地位与投资者材料降低研究门槛；其把'运营+地产'分拆REITs的思路清晰，但受美国市场与税制约束，国内宜学资本架构而非发REIT。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府Medicare/Medicaid+个人自付）",
+      "business_tags_role": "投资机构",
+      "desc_cn": "专注养老社区与医疗地产的自管理REIT（NASDAQ:CTRE），以低杠杆+Triple-net净租赁+高出租率著称；2014年自The Ensign Group分拆上市，2025年以约8.17亿美元收购英国Care REIT（135处物业）开启出海，连续10年提高股息。",
+      "founded": 2014,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2014",
+          "text": "自The Ensign Group分拆并于纳斯达克上市(代码CTRE)"
+        },
+        {
+          "date": "2025-Q3",
+          "text": "公开募资7.36亿美元并收购英国Care REIT(约8.17亿美元)"
+        }
+      ],
+      "highlights": [
+        "自管理养老REIT(NASDAQ:CTRE)",
+        "2025收购英国Care REIT出海",
+        "连续10年提高股息"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注养老社区与医疗地产净租赁，核心银发。"
+    },
+    {
+      "serial": "#1158",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 3,
+      "copy_score": 5,
+      "research_value": 59.6,
+      "recommend": {
+        "rec_v1": "信号稳、最大独立居家输液商信披扎实；药师驱动+冷链+居家场景的运营体系成熟，但美国支付以医保/商保为主，国内可对标上门医疗标准化。",
+        "rec_v2": "信号中上、作为居家输液赛道龙头，财报与行业报道透明；模式顺常识、反共识低，但中国居家护理支付弱、标准化不足，可学其'复杂慢病居家化'运营。",
+        "rec_v3": "上市地位与公开数据降低研究门槛；其把专科药房搬到居家的打法很实，但强绑美国保险报销，国内宜学'药师+冷链'履约体系而非支付结构。",
+        "info_score": 8,
+        "diff_score": 3,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 59.6
+      },
+      "payor_model": "混合（医保/商业保险报销为主，个人自付为辅；B端机构合作）",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国最大独立居家输液(infusion)与专业药物管理服务商（NASDAQ:OPCH），为复杂慢病（免疫、肿瘤、罕见病）患者提供居家/门诊输液；1984年成立，通过并购成长为赛道龙头。",
+      "founded": 1984,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "1984",
+          "text": "公司成立"
+        },
+        {
+          "date": "2020",
+          "text": "与BioScrip合并登陆纳斯达克(代码OPCH)"
+        }
+      ],
+      "highlights": [
+        "美国最大独立居家输液服务商",
+        "服务免疫/肿瘤/罕见病等复杂慢病",
+        "并购成长路径"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为复杂慢病长者提供居家输液与专科药房，核心银发。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0950",
+      "name": "Aveanna Healthcare",
+      "intro": "美国家庭健康、临终关怀与儿科/个人护理整合服务商。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "安宁疗护"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "居家护理",
+          "reason": "业务含居家健康与个人护理，现行标签只有安宁疗护，建议补充居家护理"
+        }
+      ]
+    },
+    {
+      "serial": "#0951",
+      "name": "InnovAge",
+      "intro": "美国PACE全包式老年护理计划运营商，服务双重参保失能老人。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "专业护理",
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "整合照护",
+          "reason": "PACE按人头打包医疗+生活，建议补'整合照护'标签以体现全包模式"
+        }
+      ]
+    },
+    {
+      "serial": "#0952",
+      "name": "Addus HomeCare",
+      "intro": "美国家庭及社区护理服务商，覆盖个人护理/居家健康/临终。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "临终关怀",
+          "reason": "业务含hospice临终照护，现行标签缺失，建议补充"
+        }
+      ]
+    },
+    {
+      "serial": "#0953",
+      "name": "The Pennant Group",
+      "intro": "美国家庭健康/临终/养老社区多品牌服务商。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "安宁疗护",
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "记忆照护",
+          "reason": "业务含辅助生活与记忆照护，建议补充记忆照护标签"
+        }
+      ]
+    },
+    {
+      "serial": "#1135",
+      "name": "Janus Living",
+      "intro": "美国纯Play养老社区REIT，2026年纽交所IPO(代码JAN)。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "养老REIT"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老地产",
+          "reason": "tag_l1'投资机构'与category_l1'养老地产'不一致，建议改为养老地产；business_tags.role'服务商'亦应改为投资机构"
+        }
+      ]
+    },
+    {
+      "serial": "#1136",
+      "name": "Healthpeak Properties",
+      "intro": "美国医疗与养老地产REIT(S&P500)。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "养老REIT"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老地产",
+          "reason": "同为养老/医疗REIT，tag_l1'投资机构'与category_l1'养老地产'不一致，建议改为养老地产；role应改投资机构"
+        }
+      ]
+    },
+    {
+      "serial": "#1144",
+      "name": "Sonida Senior Living",
+      "intro": "美国纯Play养老社区业主-运营商(IL/AL/记忆照护)。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "记忆照护",
+          "reason": "覆盖记忆照护业态，建议补充记忆照护标签"
+        },
+        {
+          "action": "change",
+          "tag": "运营商",
+          "reason": "business_tags.role当前为'平台'，实际是养老社区业主-运营商，建议改运营商"
+        }
+      ]
+    },
+    {
+      "serial": "#1147",
+      "name": "Avaí Bio",
+      "intro": "长寿/抗衰细胞治疗生物科技公司(OTCQB:AVAI)。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "长寿抗衰"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "制造商(药)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "医疗健康",
+          "reason": "实为长寿生物科技非消费品，tag_l1'消费品'误标，建议改医疗健康"
+        },
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "business_tags.role'制造商(药)'建议统一为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#1153",
+      "name": "Ventas",
+      "intro": "美国第二大养老/医疗地产REIT(NYSE:VTR)。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "养老REIT"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老地产",
+          "reason": "tag_l1'投资机构'与category_l1'养老地产'不一致，建议改为养老地产；role应改投资机构"
+        }
+      ]
+    },
+    {
+      "serial": "#1155",
+      "name": "Omega Healthcare Investors",
+      "intro": "美国专业护理院(SNF)REIT龙头(NYSE:OHI)。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "养老REIT"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老地产",
+          "reason": "tag_l1'投资机构'与category_l1'养老地产'不一致，建议改为养老地产；role应改投资机构"
+        }
+      ]
+    },
+    {
+      "serial": "#1156",
+      "name": "CareTrust REIT",
+      "intro": "美国自管理养老社区REIT(NASDAQ:CTRE)。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "养老REIT"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老地产",
+          "reason": "tag_l1'投资机构'与category_l1'养老地产'不一致，建议改为养老地产；role应改投资机构"
+        }
+      ]
+    },
+    {
+      "serial": "#1158",
+      "name": "Option Care Health",
+      "intro": "美国最大独立居家输液与专科药房服务商(NASDAQ:OPCH)。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品配送"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "健康服务",
+          "reason": "居家输液/专科药房属健康服务，tag_l1'消费品'误标，建议改健康服务"
+        }
+      ]
+    }
+  ],
+  "nonsilver": []
+}

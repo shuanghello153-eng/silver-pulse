@@ -1,0 +1,711 @@
+{
+  "batch": 59,
+  "enterprises": [
+    {
+      "serial": "#0506",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，退休规划标杆差异化一般；受牌照约束，国内可学投教而非主体模式。",
+        "rec_v2": "披露透明、信号一般，亮点在养老金融全谱系；创业者可借鉴其目标日期基金适老设计，牌照不可抄。",
+        "rec_v3": "信息量高、信号弱，差异化在退休账户规模；国内可学其投资者教育与默认投顾，主体受监管限制。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人管理费",
+      "business_tags_role": "服务商",
+      "desc_cn": "全球资管巨头，退休规划行业标杆",
+      "founded": 1946,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全球最大资产管理公司之一",
+        "退休规划和养老金融领域标杆"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "退休规划与养老金融标杆，直接服务银发客群"
+    },
+    {
+      "serial": "#0507",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，免费遗嘱+慈善联动差异化强；国内遗嘱规划空白，模式可抄。",
+        "rec_v2": "披露透明、信号一般，亮点在'免费工具+公益捐赠'闭环；创业者可学其获客与机构合作打法。",
+        "rec_v3": "信息量高、信号弱，差异化在遗产规划普惠化；国内可借鉴其B2B慈善机构分成轻模式。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "免费+慈善机构合作",
+      "business_tags_role": "平台",
+      "desc_cn": "在线遗嘱订立、遗产规划工具",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "免费在线遗嘱平台",
+        "撬动巨额慈善遗赠"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "在线遗嘱与遗产规划服务老年财富传承"
+    },
+    {
+      "serial": "#0508",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 26.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息存疑（难独立验证），老年社交活动平台定位清晰、差异化一般；国内社区活动运营可参考。",
+        "rec_v2": "披露极少、信号低，信息不足难深评；亮点在机构合作直播活动，创业者可学其社区运营轻模式。",
+        "rec_v3": "信息薄且未验证、信号一般，差异化在虚拟活动；国内可抄其帮助机构管活动的思路，但需核实主体。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 26.6
+      },
+      "payor_model": "B端机构采购+个人免费",
+      "business_tags_role": "平台",
+      "desc_cn": "机构合作的虚拟直播学习活动",
+      "founded": 2018,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "老年社交活动平台",
+        "帮助社区组织管理活动"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年社交活动平台，但信息不足待核实主体"
+    },
+    {
+      "serial": "#0509",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 47.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，无App电话叫车极致适老差异化强；国内老人出行痛点可抄。",
+        "rec_v2": "披露透明、信号一般，亮点在电话入口替代智能手机；创业者可学其'聚合出行+人工护航'代叫模型。",
+        "rec_v3": "信息量高、信号弱，差异化在零数字门槛；国内可借鉴其政府资助交通与人工陪聊兜底打法。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 47.7
+      },
+      "payor_model": "个人自费+政府资助",
+      "business_tags_role": "平台",
+      "desc_cn": "无 App 电话叫车服务",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-06",
+          "text": "与蒙大拿州合作提供政府资助的老人交通与送货"
+        },
+        {
+          "date": "2025-09",
+          "text": "纽约州扩大交通伙伴计划"
+        }
+      ],
+      "highlights": [
+        "无App电话叫车，解决老人出行",
+        "知名孵化器孵化、已实现盈利"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "无App电话叫车服务解决老人出行痛点"
+    },
+    {
+      "serial": "#0510",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息有限，连接老人与子女财务账户的安全管理定位新颖、差异化清晰；国内银发财管可借鉴。",
+        "rec_v2": "披露少、信号低，亮点在代际财务守护；创业者可学其'子女协同+异常告警'产品闭环。",
+        "rec_v3": "信息薄、信号一般，差异化在老人-家属财务连接；国内可抄其家庭订阅与授权管理轻模式。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "个人/家庭订阅",
+      "business_tags_role": "平台",
+      "desc_cn": "老年人资金安全管理服务",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "老年人资金安全管理",
+        "连接老人与子女的财务账户"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年人资金安全管理服务银发客群"
+    },
+    {
+      "serial": "#0512",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，一键呼叫手机+可穿戴差异化强；国内老人安全终端有市场。",
+        "rec_v2": "披露透明、信号一般，亮点在简易手机+医疗警报；创业者可学其适老硬件+服务订阅。",
+        "rec_v3": "信息量高、信号弱，差异化在极简紧急响应；国内可借鉴其B2C硬件+月费服务双收入模型。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 44.6
+      },
+      "payor_model": "个人自费+月度订阅",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "老人手机、一键呼叫可穿戴设备",
+      "founded": 2006,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2018",
+          "text": "被零售巨头以约8亿美元收购，后更名Lively"
+        }
+      ],
+      "highlights": [
+        "老年智能健康手机及一键呼叫可穿戴",
+        "被零售巨头收购，产品评测活跃"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老人手机与一键呼叫可穿戴直接服务老人"
+    },
+    {
+      "serial": "#0513",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 2,
+      "research_value": 26.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中，但仅泛布局老年科技、差异化低；作为通用VC模式难复制，非银发核心宜判擦边。",
+        "rec_v2": "披露尚可、信号低，亮点在多个AgeTech投资；但其为综合VC，养老仅财务配置，参考价值有限。",
+        "rec_v3": "信息量中、信号弱，差异化弱（泛VC逻辑）；国内宜看其portfolio赛道，实质非银发核心。",
+        "info_score": 5,
+        "diff_score": 3,
+        "copy_score": 2,
+        "signal_strength": 0.55,
+        "research_value": 26.6
+      },
+      "payor_model": "基金LP出资",
+      "business_tags_role": "投资机构",
+      "desc_cn": "早期成长期VC，布局老年科技",
+      "founded": 2006,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "早期+成长期VC",
+        "在老年科技领域有投资布局"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用VC仅布局老年科技，非银发经营主体"
+    },
+    {
+      "serial": "#0514",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 29.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息有限，养老社区+老年医疗整合打法常规、差异化一般；其医养连续体国内可参考。",
+        "rec_v2": "披露少、信号低，亮点在社区服务+研究结合；创业者可学其'照护+科研'机构化运营。",
+        "rec_v3": "信息薄、信号一般，差异化在医养一体；国内可抄其连续照护分级，但重资产难轻复制。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 29.6
+      },
+      "payor_model": "医保+个人自付",
+      "business_tags_role": "运营商",
+      "desc_cn": "养老社区与老年医疗服务",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "养老社区与老年医疗服务",
+        "医养连续体运营"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老社区与老年医疗服务直接服务老人"
+    },
+    {
+      "serial": "#0515",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，居家护工网络规模化差异化强；国内可学特许运营。",
+        "rec_v2": "披露透明、信号一般，亮点在标准化居家护理交付；创业者可借鉴其加盟培训与品牌信任打法。",
+        "rec_v3": "信息量高、信号弱，差异化在全球居家护理网络；国内可抄其特许+质控，但人力模型需本土化。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 44.6
+      },
+      "payor_model": "个人自付+长护险/政府",
+      "business_tags_role": "运营商",
+      "desc_cn": "居家护工服务网络",
+      "founded": 1994,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2021",
+          "text": "被行业机构收购整合"
+        },
+        {
+          "date": "2025-03",
+          "text": "与收购方共同获得1.4亿美元融资"
+        }
+      ],
+      "highlights": [
+        "全球居家护工服务网络",
+        "规模化居家护理交付"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护工服务网络服务老年照护刚需"
+    },
+    {
+      "serial": "#0516",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 3,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，整合支付差异化强；但美国医保体系内难复制。",
+        "rec_v2": "披露透明、信号一般，亮点在健康险+服务捆绑；创业者可学其慢病管理，支付侧受本土政策约束。",
+        "rec_v3": "信息量高、信号弱，差异化在整合医疗支付；国内可借鉴其风控与健康管理，主体模式不可抄。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "Medicare/商业保险支付",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国四大健康险企，主导MA市场",
+      "founded": null,
+      "stage": "已上市",
+      "events": [],
+      "highlights": [
+        "美国四大健康保险巨头",
+        "主导老年健康险（Medicare Advantage）市场"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "四大健康险企主导老年医保市场"
+    },
+    {
+      "serial": "#0517",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息有限，临终意愿+姑息治疗对接定位清晰、差异化明显；国内安宁疗护规划可借鉴。",
+        "rec_v2": "披露少、信号低，亮点在预先关怀计划数字化；创业者可学其'意愿采集+机构对接'闭环。",
+        "rec_v3": "信息薄、信号一般，差异化在安宁疗护前置；国内可抄其B端医疗机构嵌入与保险合作轻模式。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "B端医疗机构采购+保险",
+      "business_tags_role": "平台",
+      "desc_cn": "临终意愿规划与姑息治疗对接",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "临终意愿规划与姑息治疗对接",
+        "获多家VC投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "临终意愿与姑息治疗对接服务老年终末照护"
+    },
+    {
+      "serial": "#0518",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 2,
+      "research_value": 29.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息实，但仅以专项策略泛布局银发、差异化低；通用金融巨头模式难复制，非核心。",
+        "rec_v2": "披露透明、信号低，亮点在银发经济投资配置；但其为综合金融，养老仅赛道下注，参考价值有限。",
+        "rec_v3": "信息量高、信号弱，差异化弱（泛投资布局）；国内宜看其投向而非模式，实质非银发核心宜擦边。",
+        "info_score": 6,
+        "diff_score": 3,
+        "copy_score": 2,
+        "signal_strength": 0.55,
+        "research_value": 29.6
+      },
+      "payor_model": "个人/机构服务费",
+      "business_tags_role": "服务商",
+      "desc_cn": "全球金融巨头，银发经济投资布局",
+      "founded": 1799,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全球最大金融服务公司之一",
+        "以专项策略布局银发经济赛道"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用金融巨头仅策略布局银发，非核心主体"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0506",
+      "name": "富达投资",
+      "intro": "富达投资为全球资管巨头，在退休规划与养老金融领域是行业标杆。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→服务商",
+          "reason": "实为金融服务商，媒体/数据后缀不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0507",
+      "name": "FreeWill",
+      "intro": "免费在线遗嘱与遗产规划工具，已帮助筹集巨额慈善遗赠。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "遗产规划"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→平台",
+          "reason": "实质为在线工具平台，建议改角色标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0508",
+      "name": "Gather",
+      "intro": "面向老年群体的社交活动平台，与机构合作开展虚拟直播学习活动（信息待核实）。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "兴趣社群",
+          "短视频"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0509",
+      "name": "GoGoGrandparent",
+      "intro": "无App电话叫车服务，让老人通过电话使用出行与外卖，已实现盈利并与政府合作。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "出行",
+          "reason": "核心解决老人出行叫车，建议补出行标签"
+        },
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→平台",
+          "reason": "实质为出行聚合平台，媒体/数据后缀不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0510",
+      "name": "Golden",
+      "intro": "面向老年人的资金安全管理平台，连接老人与子女的财务账户以防欺诈。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→平台",
+          "reason": "实质为资金安全管理平台，建议改角色标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0512",
+      "name": "GreatCall",
+      "intro": "老年智能健康手机与一键呼叫可穿戴设备商，2018年被零售巨头收购（现Lively）。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "紧急呼叫",
+          "reason": "一键呼叫与医疗警报为核心功能，建议补标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0513",
+      "name": "Greycroft Partners",
+      "intro": "专注早期和成长期的VC，在消费科技与医疗健康（含老年科技）有投资布局。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "VC"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "技术服务商→投资机构",
+          "reason": "实质为VC投资机构，角色标签误标"
+        }
+      ]
+    },
+    {
+      "serial": "#0514",
+      "name": "Hebrew Senior Life",
+      "intro": "提供养老社区与老年医疗服务的机构，强调医养连续体。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康养地产",
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "平台→运营商",
+          "reason": "实质为养老社区运营商，角色标签宜改运营商"
+        }
+      ]
+    },
+    {
+      "serial": "#0515",
+      "name": "Home Instead",
+      "intro": "全球居家养老护理连锁网络，已被行业机构收购整合。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "平台→运营商",
+          "reason": "实质为居家护理网络运营商，建议改角色标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0516",
+      "name": "Humana / Aetna / UnitedHealth / Cigna",
+      "intro": "美国四大健康保险巨头，在Medicare Advantage老年健康险市场占据主导地位。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "保险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0517",
+      "name": "Iris Healthcare",
+      "intro": "提供临终意愿规划与姑息治疗对接服务，将预先关怀数字化并连接医疗机构。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "安宁疗护"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→平台",
+          "reason": "实质为意愿规划对接平台，媒体/数据后缀不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0518",
+      "name": "摩根大通",
+      "intro": "摩根大通为全球金融服务巨头，通过专项策略布局银发经济投资赛道。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→服务商",
+          "reason": "实为金融服务商，媒体/数据后缀不准确"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0513",
+      "name": "Greycroft Partners",
+      "verdict": "泛医疗擦边",
+      "reason": "通用VC仅布局老年科技，非银发经营主体"
+    },
+    {
+      "serial": "#0518",
+      "name": "摩根大通",
+      "verdict": "泛医疗擦边",
+      "reason": "通用金融巨头仅策略布局银发，非核心主体"
+    }
+  ]
+}

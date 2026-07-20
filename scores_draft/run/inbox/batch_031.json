@@ -1,0 +1,478 @@
+{
+ "batch": 31,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0109",
+   "name": "初新养老",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "初新养老是初新信息技术（上海）旗下的一站式养老信息咨询平台，链接C端老人与B端养老机构，提供免费养老顾问、机构匹配与会员权益。其合作养老机构5000+、注册用户20万，曾于2021年完成Pre-A轮融资。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%88%9D%E6%96%B0%E5%85%BB%E8%80%81",
+   "website_url": "https://www.chuxin365.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "初新养老",
+   "desc_cn": "初新养老是初新信息技术（上海）旗下的一站式养老信息咨询平台，链接C端老人与B端养老机构，提供免费养老顾问、机构匹配与会员权益。其合作养老机构5000+、注册用户20万，曾于2021年完成Pre-A轮融资。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【初新养老】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0110",
+   "name": "动龄健康",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "健身"
+   ],
+   "description": "动龄健康（2021年成立，深圳）专注50+人群科学运动与健康，提供以运动为核心的健康促进、慢病干预与康复辅助服务。其拥有原创适老化健身课程与运动医学专家，以社区健身房+线上训练营模式实现变现。",
+   "highlights": "老年运动健康平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8A%A8%E9%BE%84%E5%81%A5%E5%BA%B7",
+   "website_url": "",
+   "business_model": "B2C 老年健身/健康",
+   "name_cn": "动龄健康",
+   "desc_cn": "动龄健康（2021年成立，深圳）专注50+人群科学运动与健康，提供以运动为核心的健康促进、慢病干预与康复辅助服务。其拥有原创适老化健身课程与运动医学专家，以社区健身房+线上训练营模式实现变现。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【动龄健康】聚焦文娱社交，老年运动健康平台，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0111",
+   "name": "匹奇",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "匹奇是健康器械品牌，专注家用理疗设备、按摩器等银发健康产品。",
+   "highlights": "健康器械品牌，家用理疗设备",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2002",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8C%B9%E5%A5%87",
+   "website_url": "http://www.pritech.cn",
+   "business_model": "B2B 医疗器械",
+   "name_cn": "匹奇",
+   "desc_cn": "匹奇是健康器械品牌，专注家用理疗设备、按摩器等银发健康产品。",
+   "business_model_cn": "B2B 医疗器械",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【匹奇】聚焦健康管理/医疗器械/智能硬件，健康器械品牌，家用理疗设备，B2B模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0112",
+   "name": "医护到家",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护士上门"
+   ],
+   "description": "医护到家是上门医疗护理服务平台，提供护士上门、护理员上门等服务，专注老年居家医疗需求。",
+   "highlights": "上门医疗护理平台，老年居家医疗",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8C%BB%E6%8A%A4%E5%88%B0%E5%AE%B6",
+   "website_url": "https://www.yihu365.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "医护到家",
+   "desc_cn": "医护到家是上门医疗护理服务平台，提供护士上门、护理员上门等服务，专注老年居家医疗需求。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士上门"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【医护到家】聚焦专业护理/居家护理，上门医疗护理平台，老年居家医疗，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0113",
+   "name": "千骥资本",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "千骥资本是专注医疗健康领域的风险投资基金，在老年医疗、康复护理等银发经济赛道有多个投资布局。",
+   "highlights": "专注医疗健康VC，银发经济投资布局",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%83%E9%AA%A5%E8%B5%84%E6%9C%AC",
+   "website_url": "http://www.cenova.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "name_cn": "千骥资本",
+   "desc_cn": "千骥资本是专注医疗健康领域的风险投资基金，在老年医疗、康复护理等银发经济赛道有多个投资布局。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【千骥资本】聚焦产业资本，专注医疗健康VC，银发经济投资布局，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0114",
+   "name": "半月浮生",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "教育"
+   ],
+   "description": "半月浮生是中老年文化内容品牌，专注银发群体的兴趣课程和文化产品。",
+   "highlights": "中老年文化内容品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%8A%E6%9C%88%E6%B5%AE%E7%94%9F",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "半月浮生",
+   "desc_cn": "半月浮生是中老年文化内容品牌，专注银发群体的兴趣课程和文化产品。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【半月浮生】聚焦行业媒体，中老年文化内容品牌，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0115",
+   "name": "华友健身",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "健身",
+    "兴趣社群"
+   ],
+   "description": "华友健身是健身品牌，推出适合老年人的低强度健身课程和运动方案。",
+   "highlights": "健身品牌，老年低强度课程",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%8E%E5%8F%8B%E5%81%A5%E8%BA%AB",
+   "website_url": "",
+   "business_model": "B2C 老年健身/健康",
+   "name_cn": "华友健身",
+   "desc_cn": "华友健身是健身品牌，推出适合老年人的低强度健身课程和运动方案。",
+   "business_model_cn": "B2C 老年健身/健康",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【华友健身】聚焦文娱社交，健身品牌，老年低强度课程，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0116",
+   "name": "华润维麟",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老机构"
+   ],
+   "description": "华润维麟是华润集团与比利时Verlinvest基金合资的养老产业投资与运营平台（2016年合作），在粤港澳、京津冀、长三角、成渝布局5家区域养老平台，进入11城运营养老机构35+家。其通过投资控股（如重庆合展、成都哺恩）整合区域养老资源。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%8E%E6%B6%A6%E7%BB%B4%E9%BA%9F",
+   "website_url": "https://www.cre.com.hk",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "华润维麟",
+   "desc_cn": "华润维麟是华润集团与比利时Verlinvest基金合资的养老产业投资与运营平台（2016年合作），在粤港澳、京津冀、长三角、成渝布局5家区域养老平台，进入11城运营养老机构35+家。其通过投资控股（如重庆合展、成都哺恩）整合区域养老资源。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老机构"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【华润维麟】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0117",
+   "name": "卓牧",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "卓牧是羊奶品牌，专注中老年配方羊奶产品，在银发乳制品市场有布局。",
+   "highlights": "羊奶品牌，中老年配方",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%93%E7%89%A7",
+   "website_url": "https://jomilk.com",
+   "business_model": "银发经济企业",
+   "name_cn": "卓牧",
+   "desc_cn": "卓牧是羊奶品牌，专注中老年配方羊奶产品，在银发乳制品市场有布局。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【卓牧】聚焦保健品，羊奶品牌，中老年配方，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0118",
+   "name": "南京携才",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理",
+    "家政"
+   ],
+   "description": "南京携才居家养老服务中心（2016年成立）是民办非企业居家养老服务机构，提供助餐/助洁/助浴/助急/助乐「五助」、配餐（8家中心厨房）、家政、康复理疗与老年代购。其全市设112个服务点、签约床位500家，覆盖5区20街道80社区。",
+   "highlights": "居家养老服务平台，深耕江苏",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%97%E4%BA%AC%E6%90%BA%E6%89%8D",
+   "website_url": "https://www.ylcylm.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "南京携才",
+   "desc_cn": "南京携才居家养老服务中心（2016年成立）是民办非企业居家养老服务机构，提供助餐/助洁/助浴/助急/助乐「五助」、配餐（8家中心厨房）、家政、康复理疗与老年代购。其全市设112个服务点、签约床位500家，覆盖5区20街道80社区。",
+   "business_model_cn": "B2C 居家/机构专业护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "家政"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【南京携才】聚焦专业护理/居家护理，居家养老服务平台，深耕江苏，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0119",
+   "name": "博博科技",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "博博科技是智能健康设备研发商，专注老年人跌倒检测和健康监测可穿戴设备。",
+   "highlights": "智能健康设备，跌倒检测",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%9A%E5%8D%9A%E7%A7%91%E6%8A%80",
+   "website_url": "http://www.ish-lab.org",
+   "business_model": "B2C 智能可穿戴设备",
+   "name_cn": "博博科技",
+   "desc_cn": "博博科技是智能健康设备研发商，专注老年人跌倒检测和健康监测可穿戴设备。",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【博博科技】聚焦健康监测/健康管理/智能硬件，智能健康设备，跌倒检测，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0120",
+   "name": "博远资本",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "博远资本是专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有投资布局。",
+   "highlights": "医疗健康产业投资基金",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%9A%E8%BF%9C%E8%B5%84%E6%9C%AC",
+   "website_url": "http://www.biotrackcapital.cn",
+   "business_model": "B2B 医疗器械",
+   "name_cn": "博远资本",
+   "desc_cn": "博远资本是专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有投资布局。",
+   "business_model_cn": "B2B 医疗器械",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【博远资本】聚焦产业资本，医疗健康产业投资基金，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

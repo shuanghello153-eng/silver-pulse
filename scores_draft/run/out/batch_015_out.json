@@ -1,0 +1,782 @@
+{
+  "batch": 15,
+  "enterprises": [
+    {
+      "serial": "#0669",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 4,
+      "research_value": 42.6,
+      "recommend": {
+        "rec_v1": "信号偏低但资料透明；其把医保产品做文化定制的思路差异化明显，国内长护险可学其社群化获客。",
+        "rec_v2": "信号偏低但披露信息中等，亮点是少数族裔健保细分；国内难抄支付体系，但可借鉴其老年族群垂直运营。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在东方家庭观念嵌入保障；创业者可学其“少数族裔养老”切入法。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 4,
+        "signal_strength": 2.55,
+        "research_value": 42.6
+      },
+      "payor_model": "政府医保(Medicare Advantage)+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "面向亚裔美国老人的文化适配型Medicare Advantage健康计划",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-03",
+          "text": "完成4200万美元C轮融资"
+        }
+      ],
+      "highlights": [
+        "面向亚裔美国人的文化适配型Medicare Advantage计划",
+        "东方家庭观念嵌入健保产品设计"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "Medicare Advantage本质服务65岁以上老年人，且专做亚裔文化适配。"
+    },
+    {
+      "serial": "#0682",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号低但融资透明；以肠道菌群做代谢精准营养差异化强，国内可复制其“检测+订阅餐”闭环。",
+        "rec_v2": "信号偏低但资料中等，亮点是把微生物组转成可订阅营养方案；创业者能直接照搬其个性化膳食产品逻辑。",
+        "rec_v3": "低信号、信息可查，模式独特在医学定制餐；国内慢病营养赛道可低成本复用其产品化订阅路径。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 48.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "基于肠道微生物组的代谢疾病精准营养方案",
+      "founded": "2015",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021-05",
+          "text": "完成3700万美元C轮融资"
+        }
+      ],
+      "highlights": [
+        "以肠道菌群检测驱动个性化营养订阅",
+        "聚焦糖尿病等代谢疾病管理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "实质为代谢疾病精准营养，面向全年龄段，非专门服务老年人。"
+    },
+    {
+      "serial": "#0685",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 42.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；用ML预测再入院风险的思路差异化，国内医院可学其风险分层数据集构建。",
+        "rec_v2": "信号偏低但信息中等，差异化明显，核心是再入院预测模型；创业者难抄其美国医保数据，但可借鉴预警式照护中台。",
+        "rec_v3": "低信号、模式偏B2B，资料可查，差异化在事前风险识别；国内医院可将其用于出院后随访与再入院降本。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 2.55,
+        "research_value": 42.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "用机器学习预测患者再入院风险的B2B数据工具",
+      "founded": "2022",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-09",
+          "text": "完成1400万美元A轮融资（累计约1350万美元）"
+        }
+      ],
+      "highlights": [
+        "机器学习预测患者再入院风险",
+        "获Team8等投资，B2B卖给医院与支付方"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "再入院风险预测的B2B医疗数据工具，服务对象不限定老年。"
+    },
+    {
+      "serial": "#0697",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 46.6,
+      "recommend": {
+        "rec_v1": "信号低但产品清晰，资料可查；情感陪伴机器人差异突出，国内可学其把陪伴做成家庭健康入口的交互。",
+        "rec_v2": "信号偏低但资料中等，亮点是情感+护理双定位；创业者可借鉴其用硬件载体化孤独干预的产品思路。",
+        "rec_v3": "低信号、信息可查，独特在Companion式机器人；国内银发硬件可复用其“情感+监测”组合。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 2.55,
+        "research_value": 46.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "面向家庭的情感陪伴与健康护理智能机器人",
+      "founded": "2017",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2018-06",
+          "text": "完成2200万美元A轮融资"
+        }
+      ],
+      "highlights": [
+        "情感陪伴+家庭健康护理双定位机器人",
+        "Companion式社交机器人切入家庭场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "情感陪伴机器人定位家庭健康护理，属银发智能硬件场景。"
+    },
+    {
+      "serial": "#0700",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 49.6,
+      "recommend": {
+        "rec_v1": "信号低但模式透明；居家照护+持证护理员匹配差异化，国内可抄其“评估-匹配-管理”服务链。",
+        "rec_v2": "信号偏低但资料中等，亮点是综合照护经理制；创业者能学其把保险/雇主资源导入居家护理的获客法。",
+        "rec_v3": "低信号、信息可查，差异化明显，模式清晰易复制；国内原居安老场景可照搬其护理员调度与质量管控经验。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 49.6
+      },
+      "payor_model": "商业保险+雇主福利",
+      "business_tags_role": "服务商",
+      "desc_cn": "提供居家照护与持证护理员匹配的长者照护机构",
+      "founded": "2018",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-07",
+          "text": "完成1100万美元A轮融资"
+        }
+      ],
+      "highlights": [
+        "持证护理员匹配+综合照护经理",
+        "与雇主和保险公司合作提供护理福利"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "提供长者居家照护与照护管理，直接服务老年人。"
+    },
+    {
+      "serial": "#0702",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 46.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；护士闲置时间匹配居家输液差异化，国内可学其弹性护理人力调度平台。",
+        "rec_v2": "信号偏低但资料中等，差异化明显，核心是按需护士闲置市场；创业者能借鉴其盘活存量医护的轻资产撮合模式打法。",
+        "rec_v3": "低信号、模式偏B2B，资料可查，差异化在护士闲时复用；国内上门护理可复用其供需匹配中台（国内可重点研究其落地打法）",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 46.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "连接空闲护士与居家输液患者的按需护理平台",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-03",
+          "text": "完成1000万美元A轮融资（Y Combinator 孵化）"
+        }
+      ],
+      "highlights": [
+        "盘活护士闲时对接居家输液需求",
+        "Y Combinator孵化"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "护士与居家输液患者的按需匹配平台，面向广泛患者而非专老。"
+    },
+    {
+      "serial": "#0715",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号低但资料丰富；雇主福利式照护导航差异强，国内可学其为职场子女提供父母照护支持。",
+        "rec_v2": "信号偏低但信息较透明，亮点是硕士社工作Care Partner；创业者可抄其“雇主买单+专业导航”福利模型。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在照护者侧切入；国内老龄化用工可借鉴其员工照护福利产品化思路。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 53.7
+      },
+      "payor_model": "雇主福利支付",
+      "business_tags_role": "平台",
+      "desc_cn": "面向职场照护者的雇主福利式家庭照护导航平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-06",
+          "text": "完成1040万美元A轮融资"
+        },
+        {
+          "date": "2025",
+          "text": "客户逐步转介至 Cariloop"
+        }
+      ],
+      "highlights": [
+        "雇主福利式家庭照护导航，匹配硕士社工作Care Partner",
+        "2025年起客户转介至Cariloop"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "服务职场子女照护年迈父母，属银发家庭照护支持。"
+    },
+    {
+      "serial": "#0716",
+      "signal_strength": 2.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 50.7,
+      "recommend": {
+        "rec_v1": "信号低、资料较全；用文化适配外联闭环SDOH差异明显，国内可学其弱势群体健康公平打法。",
+        "rec_v2": "信号偏低但信息中等，亮点是HITRUST认证+Medicaid对接；创业者难抄支付，但可借鉴社区外联运营。",
+        "rec_v3": "低信号、模式偏平台，资料可查，差异化在社会需求闭环；国内基本公卫可参考其文化适配的社区触达。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 4,
+        "signal_strength": 2.55,
+        "research_value": 50.7
+      },
+      "payor_model": "政府医保(Medicaid)+商业保险",
+      "business_tags_role": "服务商",
+      "desc_cn": "用文化适配外联闭环健康社会需求(SDOH)的平台",
+      "founded": "2017",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024",
+          "text": "GroundGame Health 与 SameSky Health 合并，获7wireVentures领投1700万美元"
+        }
+      ],
+      "highlights": [
+        "2024年合并获7wireVentures领投1700万美元",
+        "HITRUST认证，文化适配外联闭环SDOH"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "SDOH/Medicaid健康公平平台，服务全体弱势人群非专属老年。"
+    },
+    {
+      "serial": "#0727",
+      "signal_strength": 2.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 52.7,
+      "recommend": {
+        "rec_v1": "信号低但披露充分；集成RPM+CCM的虚拟照护平台差异强，国内可学其慢病管理SaaS化。",
+        "rec_v2": "信号偏低但资料丰富，亮点是接入150+医疗系统；创业者可借鉴其EHR集成与按结果付费的打法。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在一体化虚拟照护；国内慢病管理可复用其平台化集成路径与打法。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 52.7
+      },
+      "payor_model": "B端机构采购+商业保险",
+      "business_tags_role": "平台",
+      "desc_cn": "集成远程监测与慢病管理的虚拟照护管理平台",
+      "founded": "2015",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-02",
+          "text": "完成2500万美元B轮融资（累计4850万美元）"
+        }
+      ],
+      "highlights": [
+        "集成RPM/CCM/PCM的虚拟照护管理",
+        "已接入150+医疗系统、10万+患者"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "慢病管理与远程护理为核心银发场景，临床结局改善面向老年慢病。"
+    },
+    {
+      "serial": "#0730",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 51.6,
+      "recommend": {
+        "rec_v1": "信号低但融资透明；AI虚拟护理服务医院差异突出，国内可学其把护理前置到病房的AI中台。",
+        "rec_v2": "信号偏低但资料中等，亮点是Mayo等战略投资背书；创业者可借鉴其面向机构的AI护理降本方案。",
+        "rec_v3": "低信号、信息可查，独特在虚拟护理员；国内医院可复用其AI巡检与远程监护组合能力。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 51.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "面向医院的AI辅助虚拟护理服务",
+      "founded": "2017",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-04",
+          "text": "完成4700万美元增长轮融资（累计4700万美元）"
+        }
+      ],
+      "highlights": [
+        "AI虚拟护理服务医院病房",
+        "获Mayo Clinic等战略投资，累计4700万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI虚拟护理服务于老年住院/照护场景，属远程护理。"
+    },
+    {
+      "serial": "#0736",
+      "signal_strength": 2.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 54.7,
+      "recommend": {
+        "rec_v1": "信号低但资料完整；东南亚居家照护匹配引擎差异强，国内可学其跨境护理人力调度平台。",
+        "rec_v2": "信号偏低但信息中等，亮点是三国落地与自营培训；创业者可借鉴其护理员标准化与属地化运营（值得国内创业者拆解借鉴）",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在科技驱动居家照护；国内可照搬其ADL评估+护士上门服务链。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 54.7
+      },
+      "payor_model": "个人自费+保险支付",
+      "business_tags_role": "平台",
+      "desc_cn": "东南亚科技驱动型居家照护与康复匹配平台",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021-09",
+          "text": "完成2980万美元C轮融资"
+        }
+      ],
+      "highlights": [
+        "自研匹配引擎连接长者与护理专业人员",
+        "覆盖新加坡、马来西亚、澳大利亚"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "科技驱动居家照护平台，提供长者ADL协助与康复，直接服务老人。"
+    },
+    {
+      "serial": "#0756",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号低但叙事清晰；澳洲AI养老礼宾导航NDIS差异强，国内可学其政务养老支付对接入口。",
+        "rec_v2": "信号偏低但资料中等，亮点是3.5万服务商网络；创业者可借鉴其把政府长护支付做成搜索预订平台。",
+        "rec_v3": "低信号、模式偏平台，资料可查，独特在养老支付导航；国内长护险可复用其“找-约-付”一站式。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 53.7
+      },
+      "payor_model": "政府支付(NDIS/养老)+个人自付",
+      "business_tags_role": "平台",
+      "desc_cn": "澳洲AI养老礼宾平台，导航NDIS与照护支付",
+      "founded": 2023,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-10",
+          "text": "完成1300万美元种子轮融资"
+        },
+        {
+          "date": "2025",
+          "text": "澳大利亚主体获3250万澳元种子轮、用户超10万"
+        }
+      ],
+      "highlights": [
+        "澳洲AI养老礼宾，导航NDIS与养老支付",
+        "接入3.5万+服务提供商"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "澳洲养老支付导航平台，实质服务老年照护体系。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0669",
+      "name": "Clever Care Health Plan",
+      "intro": "面向亚裔美国老年人的文化适配型Medicare Advantage健康计划，将东方家庭观念融入健保产品设计。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "保险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "少数族裔/文化适配",
+          "reason": "业务聚焦亚裔文化适配型健保，可补细分人群标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0682",
+      "name": "Day Two",
+      "intro": "基于肠道微生物组检测为代谢疾病患者提供精准营养订阅方案的公司。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "个性化营养"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "微生物组营养",
+          "reason": "以肠道菌群检测驱动个性化营养是其核心差异"
+        }
+      ]
+    },
+    {
+      "serial": "#0685",
+      "name": "Dimer Health",
+      "intro": "用机器学习预测患者再入院风险的B2B医疗数据服务公司，卖给医院与支付方。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "慢病管理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "再入院风险预测",
+          "reason": "实质为ML预测再入院的B2B数据工具，原“慢病管理”不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0697",
+      "name": "Embodied",
+      "intro": "研发具备情感陪伴与家庭健康护理功能的智能 Companion 机器人公司。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "机器人"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "情感陪伴",
+          "reason": "情感功能是其核心定位，原标签未体现"
+        }
+      ]
+    },
+    {
+      "serial": "#0700",
+      "name": "Family First",
+      "intro": "提供专业居家照护、持证护理员匹配与综合照护管理的长者照护服务机构。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工平台",
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "原居安老",
+          "reason": "聚焦长者居家照护与照护管理，可补场景标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0702",
+      "name": "Float",
+      "intro": "连接拥有闲时的护士与需要居家输液患者的按需护理撮合平台。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护士派遣"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "按需护理",
+          "reason": "护士闲时匹配居家输液，属按需护理平台"
+        }
+      ]
+    },
+    {
+      "serial": "#0715",
+      "name": "Grayce",
+      "intro": "雇主提供的家庭照护导航福利平台，为职场照护者匹配硕士社工作专属Care Partner。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "职场照护者/雇主福利",
+          "reason": "雇主提供的家庭照护导航福利，核心在职场照护者侧"
+        }
+      ]
+    },
+    {
+      "serial": "#0716",
+      "name": "GroundGame Health/SameSky Health",
+      "intro": "2024年合并的SDOH平台，用文化适配外联闭环弱势人群的食物/住房/交通等社会需求。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "SDOH",
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "健康公平",
+          "reason": "SDOH闭环聚焦弱势群体健康公平，可补维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0727",
+      "name": "HealthSnap",
+      "intro": "集成远程监测、慢病管理与预防照护的虚拟照护管理(VCM)平台，接入众多医疗系统。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "慢病管理",
+          "远程护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "虚拟照护管理",
+          "reason": "集成RPM/CCM/PCM，可补更精确的服务标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0730",
+      "name": "hellocare.ai",
+      "intro": "面向医院提供AI辅助虚拟护理服务的公司，获Mayo Clinic等战略投资。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "远程护理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "AI虚拟护理",
+          "reason": "以AI虚拟护理服务医院，差异在AI"
+        }
+      ]
+    },
+    {
+      "serial": "#0736",
+      "name": "Homeage",
+      "intro": "新加坡起家的科技驱动型居家照护平台，自研匹配引擎连接长者与护理专业人员。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工平台",
+          "居家医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "康复护理",
+          "reason": "提供康复(物理/作业/言语治疗)，可补服务维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0756",
+      "name": "Kismet",
+      "intro": "澳大利亚AI养老礼宾平台，帮助家庭在NDIS与养老体系中导航、搜寻并支付照护服务。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老信息平台"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老服务",
+          "reason": "实质为澳洲养老支付导航平台，原tag_l1“行业服务”偏低"
+        },
+        {
+          "action": "add",
+          "tag": "养老支付导航",
+          "reason": "核心在NDIS与养老体系导航支付"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0682",
+      "name": "Day Two",
+      "verdict": "泛医疗擦边",
+      "reason": "实质为代谢疾病精准营养，面向全年龄段，非专门服务老年人。"
+    },
+    {
+      "serial": "#0685",
+      "name": "Dimer Health",
+      "verdict": "泛医疗擦边",
+      "reason": "再入院风险预测的B2B医疗数据工具，服务对象不限定老年。"
+    },
+    {
+      "serial": "#0702",
+      "name": "Float",
+      "verdict": "泛医疗擦边",
+      "reason": "护士与居家输液患者的按需匹配平台，面向广泛患者而非专老。"
+    },
+    {
+      "serial": "#0716",
+      "name": "GroundGame Health/SameSky Health",
+      "verdict": "泛医疗擦边",
+      "reason": "SDOH/Medicaid健康公平平台，服务全体弱势人群非专属老年。"
+    }
+  ]
+}

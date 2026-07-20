@@ -1,0 +1,449 @@
+{
+  "batch": 63,
+  "enterprises": [
+    {
+      "serial": "#0556",
+      "name": "iRelaunch",
+      "name_cn": "iRelaunch",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 5.5,
+      "copy_score": 5.5,
+      "research_value": 38.7,
+      "recommend": "信号中等（社区12万+、雇主伙伴300+但长期无融资披露）；信息披露偏少，其'职业中断再就业'定位独特——把照护者离岗这一隐性劳动力缺口做成标准化回归路径。国内可学的是把'银发照护离职'场景产品化，用雇主订阅加returnship项目对接重建大龄与照护中断者就业通道，难点在雇主端持续付费意愿。",
+      "desc_cn": "为职业中断者（因育儿、长期照护家人、健康等原因离岗）提供重返职场的资源、雇主对接与回归实习(returnship)项目匹配的平台。收入来自向雇主（多为财富500强）收取伙伴服务费与活动培训费，社区规模超12.5万人。与银发经济的关联在于大量职业中断由长期照护引发，平台是照护劳动力再供给的隐形基础设施。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "founded": 2007,
+      "stage": "未搜到",
+      "highlights": [
+        "面向职业中断者（育儿/长期照护/健康原因离岗）的回归实习(returnship)与雇主对接平台",
+        "社区规模超12.5万人、雇主伙伴300余家（多为财富500强）",
+        "把'照护者离岗'这一隐性劳动力缺口做成标准化再就业路径"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "职业再就业平台，银发关联仅间接（部分离岗因长期照护家人），长者非直接客户",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0562",
+      "name": "Geri Care",
+      "name_cn": "Geri Care",
+      "signal_strength": 0.55,
+      "info_score": 6.0,
+      "diff_score": 4.5,
+      "copy_score": 5.5,
+      "research_value": 39.6,
+      "recommend": "信号较强（南印度已服务数万长者、近期完成首轮机构融资）；信息透明度中等，其'医生创办的整合连续照护'模式差异在把居家、社区、专科老年医院与安宁疗护打通而非单点服务。国内可学其'老年医学专科连锁+辅助生活'一体化打法，难点在印度自费为主、国内需绑定医保与长护险支付才跑得通。",
+      "desc_cn": "印度首家由老年医学科医生创办的整合式老年照护连锁，提供居家护理、辅助生活社区、专科老年医院（含老年肿瘤/泌尿/心脏亚专科）及安宁疗护的360度连续照护。收入来自患者自费与机构护理服务收费，服务覆盖南印度数万长者。直接对应中国'医养结合+专科老年医院'的供给缺口。",
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2018,
+      "stage": "A轮",
+      "highlights": [
+        "印度首家由老年医学科医生创办的整合式老年照护连锁",
+        "连续照护覆盖居家护理、辅助生活、专科老年医院（肿瘤/泌尿/心脏）与安宁疗护",
+        "近期完成首轮机构融资，正扩张至班加罗尔、海得拉巴等南印度城市"
+      ],
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "获InvAscent旗下India Life Sciences Fund IV 11亿卢比（约1300万美元）A轮投资，为首轮机构融资"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "印度整合式老年照护连锁，直接服务长者，核心银发",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0563",
+      "name": "Hello Sage",
+      "name_cn": "Hello Sage",
+      "signal_strength": 0.55,
+      "info_score": 6.0,
+      "diff_score": 4.5,
+      "copy_score": 5.5,
+      "research_value": 39.6,
+      "recommend": "信号中等（官网披露服务多家头部社区、宣称caregiver满意度80%但融资细节有限）；信息较透明，其差异化在'AI硬件+护理App+EHR打通'的护理运营闭环，而非单纯呼叫系统。国内可学其把护士呼叫、跌倒与走失监测做成统一平台并自动回写病历的做法，难点在养老机构EHR标准不一、部署与培训成本高。",
+      "desc_cn": "面向老年生活社区（独立生活/辅助生活/记忆照护/ skilled nursing）的运营管理与安全平台，由AI硬件（护士呼叫、跌倒与走失监测）加护理App加洞察看板组成，并与主流EHR打通实现任务与告警自动回写。收入来自社区按床位/模块订阅收费，宣称caregiver满意度80%、系统可用率99.9%。对应中国养老机构'运营数字化+跌倒预警'刚需。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2022,
+      "stage": "成长期",
+      "highlights": [
+        "面向老年生活社区（IL/AL/MC/SNF全场景）的AI护理运营与安全平台",
+        "硬件含护士呼叫、跌倒与走失监测，软件与主流EHR打通自动回写任务与告警",
+        "宣称caregiver满意度80%、系统可用率99.9%、单resident月NOI提升275美元以上"
+      ],
+      "events": [
+        {
+          "date": "2024-12",
+          "text": "完成3500万美元融资，累计融资约5900万美元，投资方含IVP、Animo Ventures等"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年社区AI护理运营平台，直接服务养老运营，核心银发",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0566",
+      "name": "Lifeway Mobility",
+      "name_cn": "Lifeway Mobility",
+      "signal_strength": 0.55,
+      "info_score": 6.0,
+      "diff_score": 5.5,
+      "copy_score": 7.5,
+      "research_value": 45.6,
+      "recommend": "信号偏弱（区域型经销商、无公开融资、财务靠年销售估算）；信息透明度低，其亮点在'免费评估+本地认证安装+租赁'的重服务打法，壁垒是覆盖多州的本地技师网络而非产品。国内创业者可照搬其'上门评估—方案—安装维保'服务链切入居家适老化，但需解决国内缺乏成熟楼梯升降机供应链与支付方的问题。",
+      "desc_cn": "美国多州连锁的居家无障碍改造服务商，主营楼梯升降机、轮椅坡道与平台电梯、家用电梯、转运辅助与卫浴安全改造，并提供免费上门评估与安装后维保。作为Bruno等品牌的钻石经销商，收入来自设备销售安装与租赁，医保通常不覆盖、部分州Medicaid可报。对应中国老旧小区适老化改造与居家无障碍设备市场。",
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2005,
+      "stage": "未搜到",
+      "highlights": [
+        "美国多州连锁的居家无障碍改造服务商，主营楼梯升降机、坡道、家用电梯与卫浴安全",
+        "Bruno品牌钻石经销商（北美销量前3%），提供免费上门评估与安装后维保",
+        "医保通常不覆盖、部分州Medicaid可报，支持设备租赁降低门槛"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家无障碍改造，直接服务长者居家安全，核心银发",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0567",
+      "name": "Humana",
+      "name_cn": "Humana",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 7.5,
+      "copy_score": 3.5,
+      "research_value": 38.7,
+      "recommend": "信号强（全美MA第二大承保方、约870万Medicare会员）；信息高度透明，差异化在'保险+CenterWell自营初级医疗'的纵向整合，把医保支付与线下诊所闭环。国内可学的是'支付方绑定自营基层医疗'控费思路，但美国MA按人头预付的支付体系与牌照壁垒让照搬几乎不可能，宜借鉴其慢病与双资格人群的精细分层运营。",
+      "desc_cn": "美国以老年健康保险为核心业务的上市医疗集团，主营Medicare Advantage（含D-SNP双资格、C-SNP慢病专项计划）并配套CenterWell初级医疗诊所与药房。收入来自保费与医疗服务的利差与管理费，约870万Medicare会员中逾580万在MA计划、94%会员评级4星以上。是面向长者的医保支付与初级医疗整合的典型样本。",
+      "payor_model": "政府医保(Medicare/长护险)+个人自付",
+      "business_tags_role": "服务商",
+      "founded": 1961,
+      "stage": "已上市",
+      "highlights": [
+        "全美Medicare Advantage第二大承保方，约870万Medicare会员中逾580万在MA计划",
+        "94%的MA会员评级4星以上，连续多年行业领先",
+        "配套CenterWell自营初级医疗诊所与药房，践行'保险+自营医疗'纵向整合"
+      ],
+      "events": [
+        {
+          "date": "2024",
+          "text": "CMS 2024星级评定中94% MA会员处于4星及以上，4个合同获5星"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "Medicare Advantage第二大承保方，面向长者医保支付，核心银发",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0568",
+      "name": "Aetna",
+      "name_cn": "Aetna",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 7.5,
+      "copy_score": 3.5,
+      "research_value": 38.7,
+      "recommend": "信号强（MA市场第三大承保方、依托CVS超万家药店触达）；信息透明，差异在'保险+药房+零售诊所'的线下健康入口打法，把处方取药与慢病管理嵌入社区场景。国内可学其把医保支付点下沉到药店与便民诊所的思路，但美国MA预付制与药店网络的规模壁垒使直接复制困难，宜参考其'支付+药品+轻医疗'一站式触点设计。",
+      "desc_cn": "被CVS Health收购的美国老牌健康保险公司，通过CVS提供Medicare Advantage、Medicare补充险与Part D处方药计划，并依托CVS药店与MinuteClinic网点触达长者。收入来自保费与管理费，是MA市场第三大承保方（约12%份额）。其特色是把保险与药店/零售医疗网络捆绑，构成'保险+药房+诊所'的银发健康入口。",
+      "payor_model": "政府医保(Medicare/长护险)+个人自付",
+      "business_tags_role": "服务商",
+      "founded": "未搜到",
+      "stage": "已上市",
+      "highlights": [
+        "MA市场第三大承保方（约12%份额），通过CVS提供MA、补充险与Part D",
+        "依托CVS超万家药店与MinuteClinic零售诊所触达长者",
+        "'保险+药房+零售医疗'一站式银发健康入口"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "通过CVS运营MA，面向长者医保，核心银发",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0569",
+      "name": "UnitedHealth",
+      "name_cn": "UnitedHealth",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 7.5,
+      "copy_score": 3.5,
+      "research_value": 38.7,
+      "recommend": "信号极强（MA全美近三成份额、Optum纵向打通药品与居家医疗）；信息高度透明，其壁垒在'保险+医疗服务+PBM'的全链条整合，靠规模把保费、诊疗与药品利差内部化。国内可学其用自有医疗网络支撑支付方的控费模型，但美国垂直整合依赖MA预付与雄厚资本，照搬不现实，宜借鉴其居家医疗与慢病管理下沉到家的运营手法。",
+      "desc_cn": "美国最大健康保险与医疗服务集团，通过UnitedHealthcare运营Medicare Advantage（全美约29%份额、近千万会员），并以Optum整合药品福利、居家医疗与医师集团。收入来自保费、医疗服务与PBM管理费，是'保险+医疗服务+药品'全链条纵向整合的标杆。其MA计划覆盖94%的Medicare eligible人群，是银发支付与供应端一体化的极端样本。",
+      "payor_model": "政府医保(Medicare/长护险)+个人自付",
+      "business_tags_role": "服务商",
+      "founded": 1977,
+      "stage": "已上市",
+      "highlights": [
+        "全美最大MA承保方，约29%市场份额、近千万会员",
+        "以Optum整合药品福利(PBM)、居家医疗与医师集团，全链条纵向整合",
+        "2026年MA计划覆盖94%的Medicare eligible人群，U.S. News评为2025最佳MA公司"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "全美最大MA承保方+Optum，核心银发",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0570",
+      "name": "Cigna",
+      "name_cn": "Cigna",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 7.5,
+      "copy_score": 3.5,
+      "research_value": 38.7,
+      "recommend": "信号转弱（已剥离全部MA与Part D业务、不再直接承保长者）；信息披露充分，其反常识点在于主动退出看似火热的老年医保、转向Evernorth的PBM与服务赛道。对国内创业者的借鉴有限——它说明老年医保是重资本、重监管的牌照生意，与其硬闯支付端，不如学它现在做药品福利管理与健康服务的'卖水人'角色更稳。",
+      "desc_cn": "原为美国大型健康保险集团、曾运营Medicare Advantage与Part D；2025年3月已将MA、补充险、Part D及CareAllies业务出售给HCSC，退出直接老年医保。现通过Evernorth健康服务部门为Medicare计划提供药品福利管理等B端服务，自身不再承保长者医保。银发关联已转为间接的支付基础设施服务。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": "未搜到",
+      "stage": "已上市",
+      "highlights": [
+        "曾运营Medicare Advantage、Part D与补充险，2025年3月整体出售给HCSC退出直接老年医保",
+        "现通过Evernorth向Medicare计划提供药品福利管理等B端服务",
+        "退出说明老年医保是重资本、重牌照生意，转向'卖水人'服务角色"
+      ],
+      "events": [
+        {
+          "date": "2025-03",
+          "text": "将MA、Part D、补充险及CareAllies业务以约37-48亿美元出售给HCSC，彻底退出直接老年医保承保"
+        }
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "2025年已出售全部MA/Part D业务退出直接老年医保，现仅通过Evernorth提供B端健康服务，银发关联转为间接",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0571",
+      "name": "a16z",
+      "name_cn": "a16z",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 5.5,
+      "copy_score": 7.5,
+      "research_value": 42.7,
+      "recommend": "信号偏强（在银发赛道下注密集、portfolio含Devoted/Bold/Honor）；信息披露透明，其独特处是把'老龄化=医疗+消费+护理'当系统性主题而非零散项目。国内可学的是投资机构如何搭银发主题基金、用被投组合互相导流，但作为VC本身不能照搬，宜参考其选品逻辑——重仓'支付+居家护理+防跌倒'等硬需求。",
+      "desc_cn": "硅谷头部风险投资机构，在银发与医疗健康领域布局活跃，曾领投Devoted Health（科技驱动MA初创）B轮、并投资Honor（居家护理）、Bold（老年人力量训练）等。自身不面向长者提供产品，收入来自基金管理费与退出收益。作为'银发赛道资本发动机'，其portfolio可当作国内创业的方向标的。",
+      "payor_model": "未搜到",
+      "business_tags_role": "投资机构",
+      "founded": 2009,
+      "stage": "未搜到",
+      "highlights": [
+        "在银发与医疗健康领域密集下注，曾领投Devoted Health（科技驱动MA）B轮、投资Honor与Bold",
+        "把'老龄化=医疗+消费+护理'作为系统性投资主题",
+        "portfolio可当作国内银发创业的方向标的"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "风险投资机构，靠portfolio布局银发赛道而非自身服务长者，属资本中介而非银发运营方",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0572",
+      "name": "Battery Ventures",
+      "name_cn": "Battery Ventures",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 4.5,
+      "copy_score": 7.5,
+      "research_value": 40.6,
+      "recommend": "信号中等（银发portfolio偏早、代表案A Place for Mom与ClearCare已偏成熟）；信息透明度一般，其打法差异在押注'养老信息撮合'与'护理机构SaaS'两类轻资产。国内可学的是'养老社区导购+护理管理软件'双线布局，但A Place for Mom靠广告与引荐费变现的模式在国内流量成本下难复刻，宜借鉴其连接家庭与机构的撮合逻辑。",
+      "desc_cn": "老牌美国风险投资机构，在银发赛道投过A Place for Mom（养老社区导购）、ClearCare（家庭护理SaaS）等。自身不运营长者服务，收入来自管理费与退出收益。其银发portfolio偏'信息撮合+护理运营软件'，可作为观察美国养老中介与护理数字化演进的参照样本。",
+      "payor_model": "未搜到",
+      "business_tags_role": "投资机构",
+      "founded": 1983,
+      "stage": "未搜到",
+      "highlights": [
+        "老牌美国VC，银发portfolio含A Place for Mom（养老社区导购）与ClearCare（家庭护理SaaS）",
+        "打法偏'信息撮合+护理运营软件'两类轻资产",
+        "可作为观察美国养老中介与护理数字化演进的参照"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "风投机构，银发portfolio（A Place for Mom/ClearCare）为被投企业，自身非银发服务提供商",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0573",
+      "name": "Blue Venture Fund",
+      "name_cn": "Blue Venture Fund",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 5.5,
+      "copy_score": 7.5,
+      "research_value": 42.7,
+      "recommend": "信号偏弱（基金规模与银发案披露有限、代表案Wider Circle偏社区实验）；信息透明度低，其亮点在把'降低孤独感→减少再住院'的循证逻辑投成早期项目，定位偏社会影响力。国内可学的是用'同伴社交+健康结果'指标说服支付方与政府的叙事，但直接照搬其基金模式困难，宜借鉴其把社交干预量化为医疗节省的评估方法。",
+      "desc_cn": "专注健康与老龄化的早期风险基金，公开portfolio含Wider Circle（以同伴社交降低长者孤独与再住院率的社区项目）。自身不服务长者，收入来自基金管理费与退出。其定位偏'社会影响力+老龄化'，适合作为国内'公益+商业'混合养老项目的资本参照。",
+      "payor_model": "未搜到",
+      "business_tags_role": "投资机构",
+      "founded": 2008,
+      "stage": "未搜到",
+      "highlights": [
+        "专注健康与老龄化的早期风险基金，portfolio含Wider Circle（同伴社交降低孤独与再住院）",
+        "定位偏'社会影响力+老龄化'的混合资本",
+        "适合作为国内'公益+商业'混合养老项目的资本参照"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "早期风投基金，投资老龄化主题项目但自身不面向长者提供产品/服务",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0574",
+      "name": "Canaan",
+      "name_cn": "Canaan",
+      "signal_strength": 0.55,
+      "info_score": 5.0,
+      "diff_score": 5.5,
+      "copy_score": 7.5,
+      "research_value": 42.7,
+      "recommend": "信号中等（银发案以Papa为代表、模式已被市场检验但未上市）；信息披露一般，其差异在较早押注'把陪伴做成按需劳务'而非传统家政。国内可学的是Papa式'家属替代+陪伴+事务代办'的轻人力模型，难点在国内的劳务合规、信任与支付——若绑定子女付费或保险报销才更易跑通。",
+      "desc_cn": "美国老牌风投机构，在银发消费与护理领域投过Papa（面向长者的'随叫随到的家属式陪伴'平台）等。自身不提供长者服务，收入来自管理费与退出。其portfolio偏向'用共享经济重构老年陪伴与护理劳动力'，可当作国内'陪伴经济+养老'方向的资本参照。",
+      "payor_model": "未搜到",
+      "business_tags_role": "投资机构",
+      "founded": 1987,
+      "stage": "未搜到",
+      "highlights": [
+        "美国老牌VC，银发消费与护理领域投过Papa（长者'家属式陪伴'按需平台）",
+        "较早押注'把陪伴做成按需劳务'而非传统家政",
+        "portfolio偏向用共享经济重构老年陪伴与护理劳动力"
+      ],
+      "events": [
+        "未搜到"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "风投机构，投过Papa等银发案但自身为资本方，非银发经济运营企业",
+      "数据来源": "联网精评"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0556",
+      "name": "iRelaunch",
+      "intro": "面向职业中断者的returnship再就业平台，连接离岗人才与雇主。",
+      "old_tags": {
+        "tag_l1": "文娱社交",
+        "tag_l2": "就业",
+        "business_tags": "服务商(媒体/数据)"
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "人力资源",
+          "reason": "careers/returnship平台被误标为文娱社交，应归人力资源/就业服务"
+        },
+        {
+          "action": "del",
+          "tag": "文娱社交",
+          "reason": "与职业再就业业务无关"
+        }
+      ]
+    },
+    {
+      "serial": "#0569",
+      "name": "UnitedHealth",
+      "intro": "全美最大Medicare Advantage承保方，Optum纵向整合医疗与药品。",
+      "old_tags": {
+        "tag_l1": "养老服务",
+        "tag_l2": "居家医疗",
+        "business_tags": "服务商"
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "金融保险",
+          "reason": "本质是MA保险与支付方，非养老护理运营商，tag_l1应改为金融保险"
+        }
+      ]
+    },
+    {
+      "serial": "#0570",
+      "name": "Cigna",
+      "intro": "原MA运营商，2025年出售老年医保业务、转向Evernorth健康服务。",
+      "old_tags": {
+        "tag_l1": "金融保险",
+        "tag_l2": "保险",
+        "business_tags": "服务商"
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "健康服务",
+          "reason": "已退出MA承保，现以PBM与健康服务为主，tag_l2应由'保险'调整为'健康服务'"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0556",
+      "name": "iRelaunch",
+      "verdict": "泛医疗擦边",
+      "reason": "服务职业中断者再就业，银发关联仅间接（部分离岗因长期照护家人），长者非直接客户"
+    },
+    {
+      "serial": "#0570",
+      "name": "Cigna",
+      "verdict": "泛医疗擦边",
+      "reason": "2025年已出售全部MA/Part D业务退出直接老年医保，现仅通过Evernorth提供B端健康服务，银发关联转为间接"
+    },
+    {
+      "serial": "#0571",
+      "name": "a16z",
+      "verdict": "泛医疗擦边",
+      "reason": "风险投资机构，靠portfolio布局银发赛道而非自身服务长者，属资本中介而非银发运营方"
+    },
+    {
+      "serial": "#0572",
+      "name": "Battery Ventures",
+      "verdict": "泛医疗擦边",
+      "reason": "风投机构，银发portfolio（A Place for Mom/ClearCare）为被投企业，自身非银发服务提供商"
+    },
+    {
+      "serial": "#0573",
+      "name": "Blue Venture Fund",
+      "verdict": "泛医疗擦边",
+      "reason": "早期风投基金，投资老龄化主题项目但自身不面向长者提供产品/服务"
+    },
+    {
+      "serial": "#0574",
+      "name": "Canaan",
+      "verdict": "泛医疗擦边",
+      "reason": "风投机构，投过Papa等银发案但自身为资本方，非银发经济运营企业"
+    }
+  ]
+}

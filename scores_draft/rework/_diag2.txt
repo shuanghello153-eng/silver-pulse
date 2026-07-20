@@ -1,0 +1,7 @@
+import ok
+progress 200 pass 199 fail 1 elapsed=3.1
+progress 400 pass 390 fail 10 elapsed=5.8
+progress 600 pass 550 fail 50 elapsed=8.2
+progress 800 pass 669 fail 131 elapsed=10.2
+progress 1000 pass 784 fail 216 elapsed=12.5
+SINGLE DONE total 1039 pass 822 fail 217 elapsed=13.0

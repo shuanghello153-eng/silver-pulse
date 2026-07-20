@@ -1,0 +1,616 @@
+{
+ "batch": 11,
+ "tier": "B",
+ "enterprises": [
+  {
+   "serial": "#0474",
+   "name": "Rippl Care",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "心理健康",
+    "认知症"
+   ],
+   "description": "Rippl Care 是一家美国专注痴呆症（认知症）照护的公司，为认知症患者及其家属提供记忆保健、行为健康与照护者支持服务。",
+   "highlights": "痴呆症心理健康服务提供商。",
+   "funding_latest": {
+    "date": "2024-10",
+    "amount": "23000000",
+    "round": "Unknown",
+    "display": "Unknown $2300万 (2024-10)"
+   },
+   "funding_total": "$75.4M (截至2024年)",
+   "investors": [
+    "Kin Ventures",
+    "ARCH Venture Partners"
+   ],
+   "founded": "2021",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Rippl%20Care",
+   "website_url": "https://www.ripplcare.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "Rippl Care 是一家美国专注痴呆症（认知症）照护的公司，为认知症患者及其家属提供记忆保健、行为健康与照护者支持服务。",
+   "business_model_cn": "B2B/B2C 失智照护机构运营",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康",
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Rippl Care】聚焦产业资本/养老社区/认知症，痴呆症心理健康服务提供商。，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0480",
+   "name": "True Link Financial",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "金融理财",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "为老年人和残疾人管理资金、防止金融欺诈。管理资产超10亿美元，服务家庭超25万。",
+   "highlights": "服务家庭超25万。",
+   "funding_latest": {
+    "date": "2020-07",
+    "amount": "35000000",
+    "round": "Unknown",
+    "display": "Unknown $3500万 (2020-07)"
+   },
+   "funding_total": {
+    "amount": "68300000",
+    "display": "累计$6830万"
+   },
+   "investors": "Khosla Ventures, Initialized, QED, Y Combinator, Allianz Life Ventures 等",
+   "founded": "2012",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=True%20Link%20Financial",
+   "website_url": "https://www.truelinkfinancial.com",
+   "business_model": "B2C 老年金融理财",
+   "desc_cn": "为老年人和残疾人管理资金、防止金融欺诈。管理资产超10亿美元，服务家庭超25万。",
+   "business_model_cn": "B2C 老年金融理财",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【True Link Financial】聚焦产业资本/养老金融，服务家庭超25万。，B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0483",
+   "name": "Wellthy",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "照护支持"
+   ],
+   "description": "技术驱动，数百名全职护理专家，为员工提供从出生到丧亲的护理需求支持。成立于2014年。",
+   "highlights": "数百名全职护理专家",
+   "funding_latest": {
+    "date": "2023-05",
+    "amount": "25000000",
+    "round": "Unknown",
+    "display": "Unknown $2500万 (2023-05)"
+   },
+   "funding_total": {
+    "amount": "60000000",
+    "display": "累计$6000万"
+   },
+   "investors": "Eldridge Industries, Rethink Impact",
+   "founded": "2014",
+   "value_score": 35,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wellthy",
+   "website_url": "https://wellthy.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "技术驱动，数百名全职护理专家，为员工提供从出生到丧亲的护理需求支持。成立于2014年。",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Wellthy】聚焦专业护理/产业资本/护理平台，数百名全职护理专家，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0560",
+   "name": "Cala Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "开发FDA批准的非侵入式可穿戴设备，用于缓解特发性震颤（常见于老年人群）。与Medicare保险绑定，为患者提供非药物解决方案。",
+   "highlights": "用于缓解特发性震颤（常见于老年人群）。与Medicare保险绑定",
+   "funding_latest": {
+    "date": "2024-12",
+    "amount": "5000万美元",
+    "round": "增长轮",
+    "display": "增长轮 5000万美元 (2024-12)"
+   },
+   "funding_total": "$257M (截至2024年)",
+   "investors": [
+    "Lux Capital",
+    "Baird Capital",
+    "Novartis",
+    "Vertex Growth Fund",
+    "Nexus NeuroTech Ventures",
+    "Action Potential",
+    "Johnson & Johnson",
+    "Lightstone",
+    "GV (Google Ventures)"
+   ],
+   "founded": "2014",
+   "value_score": 61,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cala%20Health",
+   "website_url": "https://calahealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "开发FDA批准的非侵入式可穿戴设备，用于缓解特发性震颤（常见于老年人群）。与Medicare保险绑定，为患者提供非药物解决方案。",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "low",
+    "latest_news": [],
+    "snippets": [
+     "Web search in aging/senior-care context returned generic California Dept of Aging / industry pages; no company-specific funding or partnership news surfaced.",
+     "Cala Health is a known wearable tremor-therapy company but no substantive aging-sector news verified in this search (unverified)."
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Cala Health】聚焦产业资本/健康管理/智能硬件，用于缓解特发性震颤（常见于老年人群）。与Medicare保险绑定，B2B+B2C模式，研究价值分61。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0634",
+   "name": "Beta Bionics",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "自主胰岛素输送系统",
+   "highlights": "自主胰岛素输送系统",
+   "funding_latest": {
+    "date": "2024年11月",
+    "amount": "6000万美元",
+    "round": "E轮",
+    "display": "E轮 6000万美元 (2024年11月)"
+   },
+   "funding_total": {
+    "amount": "$349M",
+    "display": "累计$349M (截至2024年11月)"
+   },
+   "investors": "Eventide Asset Management, RTW Investments, Sands Capital, Soleus Capital, Omega Funds, Perceptive Advisors, Marshall Wace",
+   "founded": "2015",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Beta%20Bionics",
+   "website_url": "https://www.betabionics.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "自主胰岛素输送系统",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "BBNX Goes Public: Beta Bionics Lands Over $229 Million in IPO",
+      "date": "2025-01-31",
+      "source": "Panabee",
+      "url": "https://www.panabee.com/news/bbnx-goes-public-beta-bionics-lands-over-229-million-to-advance-ilet-bionic-pancreas"
+     },
+     {
+      "title": "爆发式激增564%！全球首款自动胰岛素泵用AI改写糖尿病商业版图",
+      "date": "2025-05-08",
+      "source": "百家号",
+      "url": "https://baijiahao.baidu.com/s?id=1831523767470062276"
+     }
+    ],
+    "snippets": [
+     "Beta Bionics的iLet仿生胰腺为首个获FDA批准的自动化胰岛素输送设备，2025年1月IPO募资超2.29亿美元。",
+     "面向1型糖尿病（含老年糖尿病患者），无需手动计算碳水，利好老年慢病自主管理。"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Beta Bionics】聚焦产业资本/健康监测，自主胰岛素输送系统，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0642",
+   "name": "Bobbie",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "Bobbie 是美国有机婴儿配方奶粉品牌，采用订阅制直送，主打欧盟标准配方；与银发经济关联较弱，按营养品类归类。",
+   "highlights": "通过订阅服务提供有机婴儿配方奶粉",
+   "funding_latest": {
+    "date": "2023年7月",
+    "amount": "7000万美元",
+    "round": "C轮",
+    "display": "C轮 7000万美元 (2023年7月)"
+   },
+   "funding_total": null,
+   "investors": "PowerPlant Partners, GroundForce Capital, Park West 等 (11位投资人)",
+   "founded": "2018",
+   "value_score": 42,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Bobbie",
+   "website_url": "https://www.hibobbie.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Bobbie 是美国有机婴儿配方奶粉品牌，采用订阅制直送，主打欧盟标准配方；与银发经济关联较弱，按营养品类归类。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "low",
+    "latest_news": [],
+    "snippets": [
+     "检索显示 Bobbie 为婴儿配方奶 DTC 订阅品牌,与银发/养老赛道无关,疑似数据集分类错误",
+     "未发现与老龄化/养老相关的可靠新闻,标记为 unverified"
+    ]
+   },
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Bobbie】聚焦产业资本/行业媒体，通过订阅服务提供有机婴儿配方奶粉，B2B模式，研究价值分42。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0717",
+   "name": "Grow Therapy",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "Grow Therapy 是心理健康平台，连接来访者、持证心理治疗师与健康险公司，提供覆盖保险（多数主流商业保险与 Medicaid）的线上心理治疗预约与匹配。平台上已有 1.9 万至 2.6 万+ 名治疗师，并以 B2B2C 模式服务雇主与健康计划，降低看诊门槛与等待时间。",
+   "highlights": "在线平台将人们与使用保险计划的治疗师匹配",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "8800万美元",
+    "round": "C轮",
+    "display": "C轮 8800万美元 (2024年4月)"
+   },
+   "funding_total": {
+    "amount": "$328M",
+    "display": "$328M (截至2026年3月)"
+   },
+   "investors": "Sequoia Capital, Goldman Sachs Alternatives, TCV, Transformation Capital, SignalFire, Plus Capital, BCI, Menlo Ventures",
+   "founded": "2020",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Grow%20Therapy",
+   "website_url": "https://www.growtherapy.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "Grow Therapy 是心理健康平台，连接来访者、持证心理治疗师与健康险公司，提供覆盖保险（多数主流商业保险与 Medicaid）的线上心理治疗预约与匹配。平台上已有 1.9 万至 2.6 万+ 名治疗师，并以 B2B2C 模式服务雇主与健康计划，降低看诊门槛与等待时间。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Grow Therapy Raises $150M Series D, Valued at $3B",
+      "date": "2026-03-03",
+      "source": "Reuters/SRN",
+      "url": "https://srnnews.com/mental-health-startup-grow-therapy-valued-at-3-billion-in-latest-fundraise/"
+     },
+     {
+      "title": "高盛、红杉押注！AI驱动心理健康平台Grow Therapy新获1.5亿美元",
+      "date": "2026-03-22",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260322A0255Y00"
+     }
+    ],
+    "snippets": [
+     "Grow Therapy为连接保险公司/雇主/医疗系统的心理健康平台，2026年3月完成1.5亿美元D轮（TCV、高盛领投），估值30亿美元。",
+     "2024年曾完成8800万美元C轮，覆盖2.2亿用户与2.6万诊疗师，服务含老年抑郁人群。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Grow Therapy】聚焦产业资本/保险/数字化，在线平台将人们与使用保险计划的治疗师匹配，B2B+B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0722",
+   "name": "Harbor Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "初级和专科诊所集团",
+   "highlights": "初级和专科诊所集团",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "9550万美元",
+    "round": "B轮",
+    "display": "B轮 9550万美元 (2024年1月)"
+   },
+   "funding_total": "$226M",
+   "investors": "General Catalyst, Alta (and others)",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Harbor%20Health",
+   "website_url": "https://www.harborhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "初级和专科诊所集团",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Harbor Health】聚焦产业资本/健康管理/行业媒体，初级和专科诊所集团，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0729",
+   "name": "Hello Heart",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "心脏健康管理，无线血压袖带+APP跟踪",
+   "highlights": "无线血压袖带+APP跟踪",
+   "funding_latest": {
+    "date": "2022年5月",
+    "amount": "7000万美元",
+    "round": "D轮",
+    "display": "D轮 7000万美元 (2022年5月)"
+   },
+   "funding_total": "$70M",
+   "investors": "IVP, Transform Capital (+16 others)",
+   "founded": "2013",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hello%20Heart",
+   "website_url": "https://www.helloheart.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "心脏健康管理，无线血压袖带+APP跟踪",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【Hello Heart】聚焦产业资本/健康管理/慢病管理，无线血压袖带+APP跟踪，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0732",
+   "name": "Helper bees",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "技术平台，连接保险公司与非医疗居家服务提供商，服务覆盖43家大型支付方和2万+服务商，涵盖居家护理、适老化改造、送餐、保洁、交通等",
+   "highlights": "连接保险公司与非医疗居家服务提供商",
+   "funding_latest": {
+    "date": "2025年1月",
+    "amount": "$3500万",
+    "round": "C轮",
+    "display": "C轮 $3500万 (2025年1月)"
+   },
+   "funding_total": "$35M",
+   "investors": "investors undisclosed (Series C 2025)",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Helper%20bees",
+   "website_url": "https://www.helperbees.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "技术平台，连接保险公司与非医疗居家服务提供商，服务覆盖43家大型支付方和2万+服务商，涵盖居家护理、适老化改造、送餐、保洁、交通等",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Helper bees】聚焦产业资本/保险/健康管理，连接保险公司与非医疗居家服务提供商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0738",
+   "name": "Huel",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "功能性食品"
+   ],
+   "description": "营养全面的食品",
+   "highlights": "营养全面的食品",
+   "funding_latest": {
+    "date": "2023年10月",
+    "amount": "8250万美元",
+    "round": "私募股权",
+    "display": "私募股权 8250万美元 (2023年10月)"
+   },
+   "funding_total": "$82.5M",
+   "investors": "investors undisclosed (PE)",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Huel",
+   "website_url": "https://huel.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "营养全面的食品",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "功能性食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Huel】聚焦产业资本/营养食品/行业媒体，营养全面的食品，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  },
+  {
+   "serial": "#0743",
+   "name": "Incredible Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护士派遣"
+   ],
+   "description": "护士配置市场，估值16.5亿美元",
+   "highlights": "估值16.5亿美元",
+   "funding_latest": {
+    "date": "2022年",
+    "amount": "8000万美元",
+    "round": "B轮",
+    "display": "B轮 8000万美元 (2022年)"
+   },
+   "funding_total": {
+    "amount": "$97.3M",
+    "display": "$97.3M (截至2025年)"
+   },
+   "investors": "Andreessen Horowitz, NFX, Kaiser Permanente, Base10 Partners, Rethink Impact, 444 Capital",
+   "founded": "2017",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Incredible%20Health",
+   "website_url": "https://www.incrediblehealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "护士配置市场，估值16.5亿美元",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士派遣"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Incredible Health】聚焦产业资本/行业媒体，估值16.5亿美元，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 3.55
+  }
+ ]
+}

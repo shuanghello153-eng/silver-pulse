@@ -1,0 +1,704 @@
+[
+ {
+  "serial": "#0602",
+  "name": "Abbvie",
+  "verdict": "泛医疗擦边",
+  "reason": "大型综合药企，仅通过收购Aliada布局阿尔茨海默病单条管线，核心业务不聚焦银发。"
+ },
+ {
+  "serial": "#0595",
+  "name": "IAC",
+  "verdict": "泛医疗擦边",
+  "reason": "互联网集团仅通过收购Care.com涉足照护匹配，且Care.com业务横跨育儿与养老，非聚焦银发。"
+ },
+ {
+  "serial": "#0712",
+  "name": "GoodRx",
+  "verdict": "泛医疗擦边",
+  "reason": "处方药比价省钱平台，服务老年但非银发专营，银发属性弱"
+ },
+ {
+  "serial": "#0810",
+  "name": "One Medical",
+  "verdict": "泛医疗擦边",
+  "reason": "会员制综合初级保健，并非老年专营，仅老年用户占比高"
+ },
+ {
+  "serial": "#0070",
+  "name": "中顺洁柔",
+  "verdict": "泛医疗擦边",
+  "reason": "主业为生活用纸，银发仅作品牌跨界营销，缺乏专属老年产品与业务体系。"
+ },
+ {
+  "serial": "#0086",
+  "name": "仙乐健康",
+  "verdict": "泛医疗擦边",
+  "reason": "实为营养保健品CDMO代工，银发营养关联弱且以境外B端业务为主。"
+ },
+ {
+  "serial": "#1163",
+  "name": "Healthcare Realty Trust",
+  "verdict": "泛医疗擦边",
+  "reason": "底层资产为医疗办公楼(MOB)，租户是医生集团 / 医院，非直接养老；仅通过医养结合间接关联银发。"
+ },
+ {
+  "serial": "#1166",
+  "name": "Medical Properties Trust",
+  "verdict": "泛医疗擦边",
+  "reason": "底层为医院地产而非养老资产，属泛医疗；其暴雷案例对银发地产有警示价值但非核心银发。"
+ },
+ {
+  "serial": "#0919",
+  "name": "YgEia3",
+  "verdict": "泛医疗擦边",
+  "reason": "主营企业员工科学健康检测，非专门面向老年人群"
+ },
+ {
+  "serial": "#0853",
+  "name": "Sidecar Health",
+  "verdict": "泛医疗擦边",
+  "reason": "透明定价健康险面向雇主与在职员工，非老年专属；属健康险赛道，与银发支付方相邻但非核心银发"
+ },
+ {
+  "serial": "#0915",
+  "name": "Wheel",
+  "verdict": "泛医疗擦边",
+  "reason": "虚拟医疗基础设施面向各类企业提供远程问诊能力，非老年专属；远程医疗与银发照护相邻但非核心银发"
+ },
+ {
+  "serial": "#0964",
+  "name": "Synchron",
+  "verdict": "泛医疗擦边",
+  "reason": "当前产品为瘫痪/ALS患者的微创脑机接口，非老年专属；公司明确将扩展至衰老相关认知与功能衰退，属泛医疗神经科技"
+ },
+ {
+  "serial": "#0969",
+  "name": "Hippocratic AI",
+  "verdict": "泛医疗擦边",
+  "reason": "通用医疗AI客服代理，非专门面向老年人群"
+ },
+ {
+  "serial": "#0978",
+  "name": "SetPoint Medical",
+  "verdict": "泛医疗擦边",
+  "reason": "迷走神经刺激植入设备治疗类风湿关节炎，属自身免疫/炎症器械，非老年专属；与银发相邻但非核心银发"
+ },
+ {
+  "serial": "#0741",
+  "name": "Imperative Care",
+  "verdict": "泛医疗擦边",
+  "reason": "卒中在老年高发，但业务为向医院销售神经血管器械，与日常养老照护仅间接相关"
+ },
+ {
+  "serial": "#0974",
+  "name": "Eight Sleep",
+  "verdict": "泛医疗擦边",
+  "reason": "睡眠健康硬件面向广泛人群，老年失眠/呼吸暂停场景相关但非专属银发定位"
+ },
+ {
+  "serial": "#1245",
+  "name": "Retro Biosciences",
+  "verdict": "泛医疗擦边",
+  "reason": "延寿技术研发与银发老龄相关，但非直接面向老年人的产品或服务"
+ },
+ {
+  "serial": "#1352",
+  "name": "Abridge",
+  "verdict": "泛医疗擦边",
+  "reason": "临床文档AI面向全体患者，老年科室有应用但非专属银发定位"
+ },
+ {
+  "serial": "#0478",
+  "name": "Sword Health",
+  "verdict": "泛医疗擦边",
+  "reason": "肌骨/疼痛数字疗法面向广泛成人，老年受益但非银发专属"
+ },
+ {
+  "serial": "#0468",
+  "name": "ForSight Robotics",
+  "verdict": "泛医疗擦边",
+  "reason": "眼科手术机器人平台，白内障患者以老人为主但属泛医疗器械"
+ },
+ {
+  "serial": "#0866",
+  "name": "Spring Health",
+  "verdict": "泛医疗擦边",
+  "reason": "企业员工心理健康福利，面向广泛职场人群非银发专属"
+ },
+ {
+  "serial": "#0886",
+  "name": "Transcarent",
+  "verdict": "泛医疗擦边",
+  "reason": "自保雇主医疗导航平台，服务在职雇员而非银发专属"
+ },
+ {
+  "serial": "#0725",
+  "name": "Headway",
+  "verdict": "泛医疗擦边",
+  "reason": "为全年龄段保险友好心理治疗师网络，仅近期扩展至MA/Medicaid，非老年专属"
+ },
+ {
+  "serial": "#0459",
+  "name": "Accompany Health",
+  "verdict": "泛医疗擦边",
+  "reason": "业务面向广义复杂需求Medicaid人群，并非专门服务老年人，属医疗公平/价值医疗赛道"
+ },
+ {
+  "serial": "#0467",
+  "name": "Empathy",
+  "verdict": "泛医疗擦边",
+  "reason": "核心场景为丧亲与遗产事务，跨年龄通用，仅银发家庭为高发用户，非专属老年服务"
+ },
+ {
+  "serial": "#0667",
+  "name": "Cityblock Health",
+  "verdict": "泛医疗擦边",
+  "reason": "主要服务Medicaid及双重资格等复杂弱势人群，老年占比高但非专属，属广义价值医疗"
+ },
+ {
+  "serial": "#0642",
+  "name": "Bobbie",
+  "verdict": "非银发",
+  "reason": "婴儿配方奶粉DTC品牌，目标人群为产妇与婴儿，与老龄化/养老赛道无交集，属数据集分类错误。"
+ },
+ {
+  "serial": "#0738",
+  "name": "Huel",
+  "verdict": "泛医疗擦边",
+  "reason": "全营养代餐功能性食品，面向泛健康年轻人群，非老年专属，与银发仅营养概念弱相关。"
+ },
+ {
+  "serial": "#0744",
+  "name": "Infinitus Systems",
+  "verdict": "泛医疗擦边",
+  "reason": "AI医疗行政自动化，服务通用医疗场景，未针对老年人群，银发关联弱"
+ },
+ {
+  "serial": "#0817",
+  "name": "PanTheryx",
+  "verdict": "泛医疗擦边",
+  "reason": "牛初乳营养保健品，面向通用健康消费，非老年专属"
+ },
+ {
+  "serial": "#0889",
+  "name": "Two Chairs",
+  "verdict": "泛医疗擦边",
+  "reason": "通用心理健康匹配平台，未聚焦老年心理/认知症，银发关联弱"
+ },
+ {
+  "serial": "#1331",
+  "name": "Lys Therapeutics",
+  "verdict": "泛医疗擦边",
+  "reason": "神经退行性疾病（帕金森/卒中）单抗药研发属老龄化相关医疗前沿，但本质是处方药研发而非直接银发服务/产品。"
+ },
+ {
+  "serial": "#0608",
+  "name": "Adonis",
+  "verdict": "泛医疗擦边",
+  "reason": "医疗后台RCM基础设施，客户为医疗机构而非老年人本身"
+ },
+ {
+  "serial": "#0624",
+  "name": "Arbital Health",
+  "verdict": "泛医疗擦边",
+  "reason": "价值医疗合约裁决基础设施，服务医保支付体系而非老年人"
+ },
+ {
+  "serial": "#0638",
+  "name": "Bioniq",
+  "verdict": "泛医疗擦边",
+  "reason": "个性化营养与老年保健相关但非专属养老，属泛医疗健康"
+ },
+ {
+  "serial": "#0650",
+  "name": "CardioSignal",
+  "verdict": "泛医疗擦边",
+  "reason": "心脏筛查技术属泛医疗，非老龄人群专属"
+ },
+ {
+  "serial": "#0666",
+  "name": "Citizen Health",
+  "verdict": "泛医疗擦边",
+  "reason": "聚焦罕见/复杂疾病患者的健康平台，非银发专属"
+ },
+ {
+  "serial": "#0895",
+  "name": "Vayyar",
+  "verdict": "泛医疗擦边",
+  "reason": "底层是通用4D成像雷达半导体公司，养老跌倒监测仅为其汽车/医疗/零售多行业应用之一，非老年专属业务。"
+ },
+ {
+  "serial": "#0682",
+  "name": "Day Two",
+  "verdict": "泛医疗擦边",
+  "reason": "实质为代谢疾病精准营养，面向全年龄段，非专门服务老年人。"
+ },
+ {
+  "serial": "#0685",
+  "name": "Dimer Health",
+  "verdict": "泛医疗擦边",
+  "reason": "再入院风险预测的B2B医疗数据工具，服务对象不限定老年。"
+ },
+ {
+  "serial": "#0702",
+  "name": "Float",
+  "verdict": "泛医疗擦边",
+  "reason": "护士与居家输液患者的按需匹配平台，面向广泛患者而非专老。"
+ },
+ {
+  "serial": "#0716",
+  "name": "GroundGame Health/SameSky Health",
+  "verdict": "泛医疗擦边",
+  "reason": "SDOH/Medicaid健康公平平台，服务全体弱势人群非专属老年。"
+ },
+ {
+  "serial": "#0766",
+  "name": "Livara Health",
+  "verdict": "泛医疗擦边",
+  "reason": "肌骨疾病非手术治疗管理，面向全年龄段患者。"
+ },
+ {
+  "serial": "#0775",
+  "name": "Mealogic",
+  "verdict": "泛医疗擦边",
+  "reason": "医学定制餐向健康险结算，明确标注“非专门面向老人”。"
+ },
+ {
+  "serial": "#0777",
+  "name": "Medisafe",
+  "verdict": "泛医疗擦边",
+  "reason": "通用药物管理APP，面向所有慢病患者而非专属老年。"
+ },
+ {
+  "serial": "#0806",
+  "name": "Nourish",
+  "verdict": "泛医疗擦边",
+  "reason": "保险覆盖营养师匹配平台，服务广泛人群而非专老。"
+ },
+ {
+  "serial": "#0828",
+  "name": "Redi Health",
+  "verdict": "泛医疗擦边",
+  "reason": "药企患者支持与用药依从平台，B2B2C泛医疗。"
+ },
+ {
+  "serial": "#0862",
+  "name": "Somnee",
+  "verdict": "泛医疗擦边",
+  "reason": "AI睡眠神经技术，明确标注“非专门面向老人”的通用消费硬件。"
+ },
+ {
+  "serial": "#0960",
+  "name": "Orion",
+  "verdict": "泛医疗擦边",
+  "reason": "AI温控床垫罩对标Eight Sleep，通用睡眠硬件非专老。"
+ },
+ {
+  "serial": "#0975",
+  "name": "Leal Therapeutics",
+  "verdict": "泛医疗擦边",
+  "reason": "神经退行性疾病新药研发，属泛医疗/制药非银发服务。"
+ },
+ {
+  "serial": "#0976",
+  "name": "Jocasta Neuroscience",
+  "verdict": "泛医疗擦边",
+  "reason": "长寿蛋白α-Klotho研发，属泛再生医学/抗衰非银发。"
+ },
+ {
+  "serial": "#1186",
+  "name": "Neurable",
+  "verdict": "泛医疗擦边",
+  "reason": "消费级认知健康硬件，非老年专属照护，属泛医疗。"
+ },
+ {
+  "serial": "#1188",
+  "name": "Optain Health",
+  "verdict": "泛医疗擦边",
+  "reason": "视网膜筛查为通用医疗影像，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#1189",
+  "name": "Lumata Health",
+  "verdict": "泛医疗擦边",
+  "reason": "眼科治疗依从性平台，通用医疗，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#1332",
+  "name": "Rejuvenate Bio",
+  "verdict": "泛医疗擦边",
+  "reason": "抗衰老基因疗法属泛再生医学，非银发服务，属泛医疗。"
+ },
+ {
+  "serial": "#0600",
+  "name": "9amHealth",
+  "verdict": "泛医疗擦边",
+  "reason": "虚拟慢病诊所服务全龄，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0677",
+  "name": "Credo Health",
+  "verdict": "泛医疗擦边",
+  "reason": "AI病历分析为通用医疗，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0728",
+  "name": "Hedia",
+  "verdict": "泛医疗擦边",
+  "reason": "糖尿病数字疗法服务全龄，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0754",
+  "name": "Kins",
+  "verdict": "泛医疗擦边",
+  "reason": "物理治疗服务全龄，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0807",
+  "name": "NourishedRx",
+  "verdict": "泛医疗擦边",
+  "reason": "FAM服务全龄慢病，依赖美国医保，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0841",
+  "name": "Season Health",
+  "verdict": "泛医疗擦边",
+  "reason": "FAM处方餐服务全龄慢病，依赖美国医保，属泛医疗。"
+ },
+ {
+  "serial": "#0867",
+  "name": "Starling Medical",
+  "verdict": "泛医疗擦边",
+  "reason": "家用尿液慢病监测为通用健康，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0873",
+  "name": "Sugar.fit",
+  "verdict": "泛医疗擦边",
+  "reason": "糖尿病管理App服务全龄，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0875",
+  "name": "Switchboard Health",
+  "verdict": "泛医疗擦边",
+  "reason": "护理协调为通用医疗服务导航，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0925",
+  "name": "ŌURA",
+  "verdict": "泛医疗擦边",
+  "reason": "智能戒指为通用健康追踪，仅间接受益老年，属泛医疗。"
+ },
+ {
+  "serial": "#0968",
+  "name": "LambdaVision",
+  "verdict": "泛医疗擦边",
+  "reason": "人工视网膜治AMD为眼科器械，非老年服务，属泛医疗。"
+ },
+ {
+  "serial": "#0015",
+  "name": "安杰莱",
+  "verdict": "泛医疗擦边",
+  "reason": "康复外骨骼用于卒中/脊髓损伤，非老年专属，属泛医疗。"
+ },
+ {
+  "serial": "#0489",
+  "name": "亚马逊",
+  "verdict": "非银发",
+  "reason": "综合电商巨头，养老仅Alexa等边缘品牌布局，无实质银发主业"
+ },
+ {
+  "serial": "#0496",
+  "name": "Cake",
+  "verdict": "泛医疗擦边",
+  "reason": "临终/遗产规划偏法律金融，老年关联但非直接照护服务"
+ },
+ {
+  "serial": "#0676",
+  "name": "Conduce Health",
+  "verdict": "非银发",
+  "reason": "通用护理协调平台，无明确老年专属服务信号"
+ },
+ {
+  "serial": "#0688",
+  "name": "DoorSpace",
+  "verdict": "非银发",
+  "reason": "医疗HR软件，不服务老年人群"
+ },
+ {
+  "serial": "#0693",
+  "name": "Elektra Health",
+  "verdict": "泛医疗擦边",
+  "reason": "服务中年女性更年期，非老年专属照护"
+ },
+ {
+  "serial": "#0694",
+  "name": "Elidah",
+  "verdict": "泛医疗擦边",
+  "reason": "女性盆底治疗设备，老年为子人群非主业"
+ },
+ {
+  "serial": "#0703",
+  "name": "flyte",
+  "verdict": "泛医疗擦边",
+  "reason": "女性盆底康复器械，老年为子人群非主业"
+ },
+ {
+  "serial": "#0740",
+  "name": "Ilant Health",
+  "verdict": "非银发",
+  "reason": "通用肥胖/代谢健康管理，无老年专属信号"
+ },
+ {
+  "serial": "#0781",
+  "name": "Menolabs",
+  "verdict": "泛医疗擦边",
+  "reason": "更年期保健品，服务中年女性非老年专属"
+ },
+ {
+  "serial": "#0805",
+  "name": "Nomad Health",
+  "verdict": "非银发",
+  "reason": "医疗人力招聘平台，不服务老年人群"
+ },
+ {
+  "serial": "#0818",
+  "name": "Pear Suite",
+  "verdict": "非银发",
+  "reason": "社区健康社会决定因素协调，无老年专属信号"
+ },
+ {
+  "serial": "#0834",
+  "name": "RxDiet",
+  "verdict": "非银发",
+  "reason": "通用医学营养定制，无老年专属信号"
+ },
+ {
+  "serial": "#0876",
+  "name": "Talkiatry",
+  "verdict": "非银发",
+  "reason": "通用虚拟精神科，无老年专属服务信号"
+ },
+ {
+  "serial": "#1140",
+  "name": "Biopeak",
+  "verdict": "泛医疗擦边",
+  "reason": "长寿/抗衰诊所服务健康中年人，非失能老人照护"
+ },
+ {
+  "serial": "#0005",
+  "name": "全民K歌",
+  "verdict": "非银发",
+  "reason": "通用K歌社交平台，银发仅高活跃用户而非专属业务"
+ },
+ {
+  "serial": "#0048",
+  "name": "BAI资本",
+  "verdict": "非银发",
+  "reason": "通用型VC，仅作为财务投资人布局银发，自身不服务老年人。"
+ },
+ {
+  "serial": "#0049",
+  "name": "CMEF",
+  "verdict": "泛医疗擦边",
+  "reason": "以医疗器械为主，养老康复仅为其展区之一，非核心银发。"
+ },
+ {
+  "serial": "#0054",
+  "name": "VTN",
+  "verdict": "泛医疗擦边",
+  "reason": "通用健康电商，仅银发健康消费有布局，非专营老年。"
+ },
+ {
+  "serial": "#0055",
+  "name": "WonderLab",
+  "verdict": "泛医疗擦边",
+  "reason": "通用营养品牌，仅银发营养市场有布局，非专营老年。"
+ },
+ {
+  "serial": "#0063",
+  "name": "上品折扣",
+  "verdict": "非银发",
+  "reason": "综合折扣连锁零售，客群为广泛性价比消费者，仅涉足银发消费、非专做老年业务，实质非银发。"
+ },
+ {
+  "serial": "#0113",
+  "name": "千骥资本",
+  "verdict": "泛医疗擦边",
+  "reason": "本质是医疗健康VC，仅财务投资布局银发，不直接服务老年人"
+ },
+ {
+  "serial": "#0120",
+  "name": "博远资本",
+  "verdict": "泛医疗擦边",
+  "reason": "本质是医疗健康产业VC，仅投资布局老年健康，不直接服务老年人"
+ },
+ {
+  "serial": "#0138",
+  "name": "国寿大健康",
+  "verdict": "泛医疗擦边",
+  "reason": "实质为中国人寿旗下产业投资基金，布局医养股权但不直接服务老年人，属泛银发资本方"
+ },
+ {
+  "serial": "#0139",
+  "name": "国科优选",
+  "verdict": "非银发",
+  "reason": "综合社区生鲜与健康食品零售供应链，客群为家庭而非专服务老年，仅泛含健康食品品类"
+ },
+ {
+  "serial": "#0150",
+  "name": "太保资本",
+  "verdict": "泛医疗擦边",
+  "reason": "实质为太保系产业投资平台，布局康养地产投资但不直接服务老年人，属泛银发资本方"
+ },
+ {
+  "serial": "#0154",
+  "name": "女王新款",
+  "verdict": "非银发",
+  "reason": "三四线40+中年女性女装电商平台，属综合服饰电商，非专为老年/银发设计"
+ },
+ {
+  "serial": "#0156",
+  "name": "好慷在家",
+  "verdict": "泛医疗擦边",
+  "reason": "以家庭保洁为核心业态，仅涉足居家养老护理，银发非主业，属泛家政服务"
+ },
+ {
+  "serial": "#0166",
+  "name": "家有购物",
+  "verdict": "非银发",
+  "reason": "全国性数字家庭购物频道与全媒体零售，综合家居美妆食品，非专服务老年群体"
+ },
+ {
+  "serial": "#0187",
+  "name": "康比特",
+  "verdict": "非银发",
+  "reason": "运动营养食品，面向运动人群与大众健康，无专门服务老年人的业务"
+ },
+ {
+  "serial": "#0196",
+  "name": "快乐购",
+  "verdict": "非银发",
+  "reason": "综合电视购物与媒体零售平台，面向家庭全龄消费者，无银发专项业务"
+ },
+ {
+  "serial": "#0197",
+  "name": "快团团",
+  "verdict": "非银发",
+  "reason": "通用私域团购电商平台，面向全龄消费者，无银发专项业务"
+ },
+ {
+  "serial": "#0204",
+  "name": "惠买集团",
+  "verdict": "非银发",
+  "reason": "综合电视购物与全媒体电商零售，面向全龄，无专门服务老年人业务"
+ },
+ {
+  "serial": "#0206",
+  "name": "慢糖家",
+  "verdict": "泛医疗擦边",
+  "reason": "低GI控糖食品服务糖尿病人群（含大量老年慢病者）但也覆盖孕期控糖，非专属银发产品"
+ },
+ {
+  "serial": "#0253",
+  "name": "海森林",
+  "verdict": "非银发",
+  "reason": "假发发制品制造，非老年专属，与银发照护无实质关联"
+ },
+ {
+  "serial": "#0265",
+  "name": "环球捕手",
+  "verdict": "非银发",
+  "reason": "会员制进口美食社交电商，明确非专门面向银发人群"
+ },
+ {
+  "serial": "#0267",
+  "name": "瑞尔齿科",
+  "verdict": "泛医疗擦边",
+  "reason": "中高端口腔医疗连锁，非老年专属，属泛医疗"
+ },
+ {
+  "serial": "#0268",
+  "name": "瑞贝卡",
+  "verdict": "非银发",
+  "reason": "全球假发发制品制造，非老年专属"
+ },
+ {
+  "serial": "#0269",
+  "name": "瑞邦",
+  "verdict": "泛医疗擦边",
+  "reason": "普药制药企业，银发仅葡萄糖酸钙等个别品种"
+ },
+ {
+  "serial": "#0273",
+  "name": "百善药业",
+  "verdict": "泛医疗擦边",
+  "reason": "中成药制药企业，仅部分品种服务老年慢病"
+ },
+ {
+  "serial": "#0276",
+  "name": "盈康生命",
+  "verdict": "泛医疗擦边",
+  "reason": "肿瘤放疗设备为主，康复与老年照护仅为部分业务"
+ },
+ {
+  "serial": "#0278",
+  "name": "盛美诺",
+  "verdict": "泛医疗擦边",
+  "reason": "生物活性肽原料B2B供应商，仅间接服务银发"
+ },
+ {
+  "serial": "#0280",
+  "name": "知识矩阵",
+  "verdict": "泛医疗擦边",
+  "reason": "大健康内容生态运营商，银发仅为其部分品类"
+ },
+ {
+  "serial": "#0216",
+  "name": "方家铺子",
+  "verdict": "泛医疗擦边",
+  "reason": "中式滋补食品面向家庭消费，非专门老年群体，属大健康消费品，老年属性弱。"
+ },
+ {
+  "serial": "#0224",
+  "name": "普健济康",
+  "verdict": "泛医疗擦边",
+  "reason": "主体是垂直医疗健康孵化器，智慧养老仅为孵化方向之一，偏泛医疗/产业资本。"
+ },
+ {
+  "serial": "#0232",
+  "name": "月神",
+  "verdict": "泛医疗擦边",
+  "reason": "女性益生菌与私护品牌，客群为全龄女性，更年期养护仅为延伸，非银发核心。"
+ },
+ {
+  "serial": "#0236",
+  "name": "栈道资本",
+  "verdict": "泛医疗擦边",
+  "reason": "主体是消费背景产业资本，银发经济仅为投资赛道之一，非银发运营方。"
+ },
+ {
+  "serial": "#0238",
+  "name": "森梅医疗",
+  "verdict": "泛医疗擦边",
+  "reason": "院内外慢病临床管理系统客群为全龄慢病患者，老年非唯一目标，偏泛医疗健康服务。"
+ },
+ {
+  "serial": "#0240",
+  "name": "楼上",
+  "verdict": "泛医疗擦边",
+  "reason": "传统滋补养生食品面向家庭消费，非专门老年群体，属大健康消费品。"
+ },
+ {
+  "serial": "#0241",
+  "name": "正奇智能",
+  "verdict": "非银发",
+  "reason": "企业主体无法确认，原养老标签疑为污染，无可靠银发业务信号。"
+ },
+ {
+  "serial": "#0242",
+  "name": "每日的菌",
+  "verdict": "非银发",
+  "reason": "客群为25-35岁年轻女性，非银发人群，原'老年健康食品'归类偏差。"
+ }
+]

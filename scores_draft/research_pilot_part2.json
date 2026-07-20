@@ -1,0 +1,210 @@
+{
+  "enterprises": [
+    {
+      "serial": "#0895",
+      "founded_verified": "2011年（由 Raviv Melamed、Miri Ratner、Naftali Chayat 于以色列创立；CEO Raviv Melamed 曾任 Intel 架构组副总裁）",
+      "hq": "以色列 Yehud-Monosson（总部 Derech Hahoresh 4, Yehud；美国办事处位于伊利诺伊州芝加哥）",
+      "one_liner": "全球 4D 成像雷达（radar-on-chip）技术龙头，单芯片集成 3–81GHz、最多72收发器；以无摄像头、保护隐私的非接触式环境感知切入养老跌倒监测、智能家居、汽车与医疗多行业。",
+      "key_products": [
+        "Vayyar Care（无接触跌倒检测，壁挂式4D雷达，集成护士呼叫系统与 Amazon Alexa Together 紧急呼叫）",
+        "Vayyar Home（家用跌倒检测，约$250/台，平均户装3台：浴室/卧室/客厅）",
+        "Walabot HOME / Walabot DIY（消费级墙体扫描与居家安全）",
+        "车载舱内4D成像雷达（儿童遗留检测 CPD、安全带提醒、ADAS、摩托车 ARAS）",
+        "与海尔 HCH Ventures 合资（面向中国养老科技/智能家居市场）"
+      ],
+      "funding_latest_corrected": {"round": "E轮扩展（Series E extension）", "amount": "$25M", "currency": "USD", "date": "2024-10", "investors": ["ITI Venture Capital Partners"]},
+      "funding_total_corrected": {"amount": "约$323M（6轮：2012 $12M A、2015 $24M B、2017 $45M C、2019 $109M D、2022 $108M E、2024-10 $25M E扩展）", "currency": "USD"},
+      "events": [
+        "2011 成立于以色列",
+        "2019-11 完成$109M D轮（Koch Disruptive Technologies 领投）",
+        "2022-06 完成$108M E轮，估值超$1B（跻身独角兽）",
+        "2021-10 与海尔 HCH Ventures 成立中国合资公司，切入银发科技市场",
+        "2024-10 完成$25M E轮扩展（ITI Venture Capital Partners）",
+        "2024 据 Calcalist 报道启动裁员以聚焦智能家居与汽车两大核心、降低现金消耗"
+      ],
+      "payor_model": "以B2B为主：雷达芯片/方案销售给护理院、智能家居与汽车 Tier-1 厂商、养老运营商及渠道伙伴（如亚马逊、海尔）；B2C端 Vayyar Home 以硬件+$20/月紧急呼叫订阅向消费者收费",
+      "business_tags_suggest": {"role": "方案商/设备商（传感芯片与无接触监测方案商）"},
+      "latest_news": [
+        {"title": "Vayyar Care 通过 DCB0129 临床安全标准认证", "date": "2024", "source": "web", "url": "http://blog.vayyar.com/"},
+        {"title": "英国 Essex County Council 大规模部署 Vayyar 4D 跌倒检测，消除医院入院与'long lies'", "date": "2024", "source": "web", "url": "http://blog.vayyar.com/"},
+        {"title": "Care UK Denham Manor 借助 Vayyar Care 将跌倒率减半", "date": "2024", "source": "web", "url": "http://blog.vayyar.com/"},
+        {"title": "Vayyar 裁员、聚焦核心市场以降现金消耗（累计融资超$300M）", "date": "2024", "source": "web", "url": "https://www.calcalistech.com/articles/0,7340,L-40142440,00.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "其 Vayyar Care / Vayyar Home 无接触跌倒检测直接服务居家与机构老人的安全与尊严，是核心银发场景；但公司是多行业4D雷达平台，银发为其中一大业务板块而非全部。",
+      "info_aid": "全球4D成像雷达龙头，单芯片无摄像头感知，Vayyar Care可在保护隐私前提下实现7×24跌倒检测与行为分析，已接入亚马逊Alexa、海尔等养老场景。",
+      "diff_aid": "区别于摄像头/可穿戴方案，Vayyar以射频波实现'隐形守护'——不侵犯隐私、无需佩戴、黑暗与浴室均可监测，解决老人最抗拒的跌倒监测痛点。",
+      "copy_aid": "'无摄像头守护独居父母尊严'叙事极强（浴室跌倒占80%、九成老人不愿去养老院），与中国4万亿银发科技市场、海尔合资故事结合易出稿，但须提示公司为多行业平台且2024年裁员转向。",
+      "sources": [
+        "https://vayyar.com/",
+        "https://blog.vayyar.com/series-e-funding",
+        "https://startupim.com/company/vayyar-imaging",
+        "https://www.calcalistech.com/articles/0,7340,L-40142440,00.html",
+        "https://www.aboutamazon.com/news/devices/alexa-together-launches-to-help-customers-remotely-care-for-loved-ones"
+      ]
+    },
+    {
+      "serial": "#0969",
+      "founded_verified": "2023年（由 Munjal Shah 等创立于美国加州帕洛阿尔托）",
+      "hq": "美国加利福尼亚州帕洛阿尔托（Palo Alto, California, USA）",
+      "one_liner": "专注安全的医疗生成式AI代理（AI Agent）公司，代理不诊断、不开方，聚焦低风险、面向患者的非诊断交互（随访、预约、用药提醒、慢病管理），以'$9/agent-hour'按用量向健康系统收费。",
+      "key_products": [
+        "1000+医疗AI代理（覆盖25+专科，300+预置代理）",
+        "用药依从性/随访/预约提醒语音与短信代理",
+        "No-code Agent Trainer（自定义代理工具）",
+        "AI Agent App Store（第三方代理市场，平台抽成）",
+        "Polaris 5.0（2026-04发布、循证型医疗AI）"
+      ],
+      "funding_latest_corrected": {"round": "C轮（Series C，由 Avenir Growth 领投）", "amount": "$126M", "currency": "USD", "date": "2025-11", "investors": ["Avenir Growth", "CapitalG", "General Catalyst", "a16z", "Kleiner Perkins", "Premji Invest", "Universal Health Services", "WellSpan Health", "Cincinnati Children's"]},
+      "funding_total_corrected": {"amount": "约$404M（含早期融资、2025-01 $141M B轮估值$1.64B、2025-11 $126M C轮；C轮后总融资达$404M）", "currency": "USD"},
+      "events": [
+        "2023 成立",
+        "2025-01 完成$141M B轮（Kleiner Perkins领投，估值$1.64B，Nvidia NVentures参投）",
+        "2025-09 入选 CMS Health Tech Ecosystem 数字转型计划",
+        "2025-11-03 完成$126M C轮，估值$3.5B，总融资达$404M，合作50+大型医疗系统",
+        "2026-01 收购 Grove AI（拓展生命科学/生物制药场景）",
+        "2026-04 发布 Polaris 5.0 循证医疗AI，并推出2项新工具"
+      ],
+      "payor_model": "B2B按用量：向医院/健康系统/险企按'$9/agent-hour'仅对有效交互时长收费；另设 AI Agent App Store 平台抽成",
+      "business_tags_suggest": {"role": "服务商（医疗AI代理/SaaS）"},
+      "latest_news": [
+        {"title": "Hippocratic AI 完成$126M C轮，估值$35亿，总融资达$404M", "date": "2025-11-03", "source": "web", "url": "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/"},
+        {"title": "Hippocratic AI 入选 CMS Health Tech Ecosystem 数字转型计划", "date": "2025-09", "source": "web", "url": "https://hippocraticai.com/press"},
+        {"title": "Hippocratic AI 收购 Grove AI 布局生物制药与医疗器械", "date": "2026-01-12", "source": "web", "url": "https://hippocraticai.com/press"},
+        {"title": "Hippocratic AI 发布 Polaris 5.0 循证医疗AI 及新工具", "date": "2026-04-30", "source": "web", "url": "https://hippocraticai.com/press"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用医疗生成式AI代理，服务全龄患者与健康系统，非专为养老设计；但其用药提醒、慢病随访、出院后管理等代理场景高度覆盖老年慢病与独居老人群体，可从银发视角切入。",
+      "info_aid": "安全优先的医疗生成式AI代理龙头，不诊断不开方，以语音/短信完成用药提醒、随访、预约等非诊断任务，已落地50+医疗系统与5家TOP10险企。",
+      "diff_aid": "区别于诊断型医疗AI，Hippocratic以'不诊断、只服务'的低风险定位+6000护士/300医生安全认证体系，切入险企与健康系统最棘手的劳动力与患者触达缺口。",
+      "copy_aid": "从银发切入：其用药提醒/慢病随访代理正解决老年人多重用药与出院后失联痛点，但须明示企业全龄医疗AI定位、非养老专属，避免夸大专属性；'AI护士打电话提醒爸妈吃药'故事性强。",
+      "sources": [
+        "https://hippocraticai.com/",
+        "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/",
+        "https://sacra.com/c/hippocratic-ai/",
+        "https://www.preqin.com/data/profile/asset/hippocratic-ai--inc-/545258"
+      ]
+    },
+    {
+      "serial": "#0618",
+      "founded_verified": "1982年（美国，长期照护/后急性期 EHR 与营收周期管理软件商；曾为员工所有制，2013年并入 Healthland，后随 CPSI/TruBridge 体系）",
+      "hq": "美国密西西比州 Ridgeland（Ridgeland, Mississippi, USA；原总部 Jackson, MS）",
+      "one_liner": "面向长期照护与后急性期（post-acute）机构的电子健康档案（EHR）与营收周期管理（RCM）软件商，覆盖临床、财务、居民账务与养老机构运营，2024-01被 PointClickCare 收购并停止独立产品开发。",
+      "key_products": [
+        "长期照护/后急性期 EHR（电子健康档案）",
+        "营收周期管理（RCM）",
+        "居民账务与财务模块",
+        "养老机构（senior living）运营工具",
+        "互联互通与疗效报告（outcomes reporting）"
+      ],
+      "funding_latest_corrected": {"round": "被 PointClickCare 收购（非融资轮，系 M&A；财务条款未披露）", "amount": "未披露", "currency": "USD", "date": "2024-01", "investors": ["PointClickCare"]},
+      "funding_total_corrected": {"amount": "不适用（1982年成立、私募持股，2024年被 PointClickCare 收购）", "currency": "USD"},
+      "events": [
+        "1982 成立",
+        "2013-05 作为 add-on 被 Healthland 收购",
+        "后续随 Healthland 并入 CPSI/TruBridge 体系",
+        "2024-01-17 被 PointClickCare 收购，CPSI 决定剥离并停止 AHT 产品开发，客户迁移至 PCC 平台",
+        "AHT 曾服务全美约3,300家 skilled nursing/assisted living/CCRC 客户（2023年数据）"
+      ],
+      "payor_model": "B2B软件订阅与服务：向长期照护机构、护理院、CCRC 销售 EHR+RCM 软件授权与实施服务，最终由机构向 Medicare/Medicaid 及私人付费方结算",
+      "business_tags_suggest": {"role": "软件商（长期照护 EHR/RCM SaaS）"},
+      "latest_news": [
+        {"title": "PointClickCare 收购 CPSI 子公司 American HealthTech", "date": "2024-01-17", "source": "web", "url": "https://pointclickcare.com/press-releases/pointclickcare-acquires-cpsi-subsidiary-american-healthtech/"},
+        {"title": "CPSI 剥离 AHT 并停止产品开发，客户迁移至 PointClickCare 平台", "date": "2024-01", "source": "web", "url": "https://www.mcknightsseniorliving.com/news/pointclickcare-acquires-fellow-ehr-player-american-healthtech/"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "业务100%聚焦长期照护与后急性期机构（skilled nursing、assisted living、CCRC）的临床与财务信息化，直接服务于老年照护机构与入住老人，典型核心银发B端软件。",
+      "info_aid": "成立于1982年的长期照护EHR与营收周期管理老牌厂商，曾服务全美约3,300家护理院/养老社区，2024年被行业龙头PointClickCare收购。",
+      "diff_aid": "区别于综合HIS，AHT深耕长期照护/后急性期这一垂直场景40余年，专做护理院与养老社区的EHR+RCM，被并购后客户可接入PCC最大护理协作网络与数据集。",
+      "copy_aid": "40年长期照护信息化'老兵'被龙头兼并，反映银发照护软件行业整合趋势；叙事宜做产业整合/数字化老龄化稿，避免把被收购写成失败（实为客户获得更大平台）。",
+      "sources": [
+        "https://pointclickcare.com/press-releases/pointclickcare-acquires-cpsi-subsidiary-american-healthtech/",
+        "https://www.mcknightsseniorliving.com/news/pointclickcare-acquires-fellow-ehr-player-american-healthtech/",
+        "https://pitchbook.com/profiles/company/57197-08",
+        "https://mergr.com/american-healthtech-overview"
+      ]
+    },
+    {
+      "serial": "#0944",
+      "founded_verified": "1974年（由老年学家 Andrew Dibner 博士创立 Lifeline Systems；1972年构思个人紧急响应系统概念，1983年上市）",
+      "hq": "原美国；2021年后归属 Connect America，总部位于宾夕法尼亚州 Bala Cynwyd（Bala Cynwyd, Pennsylvania, USA；加拿大 Lifeline 总部多伦多）",
+      "one_liner": "个人紧急响应系统（PERS）先驱，提供可穿戴紧急呼叫按钮+24/7响应中心（自动跌倒检测），服务独居与居家老人安全；2006年被飞利浦收购，2021年随飞利浦 Aging & Caregiving 业务转手 Connect America（飞利浦保留股权）。",
+      "key_products": [
+        "Lifeline 个人紧急响应系统（PERS，可穿戴呼叫按钮）",
+        "自动跌倒检测（2010年推出，无 verbal response 自动呼救）",
+        "On the Go 移动医疗警报（居家与户外均可）",
+        "24/7 三冗余响应中心（北美）",
+        "护理者/机构合作方案"
+      ],
+      "funding_latest_corrected": {"round": "被 Connect America 收购（非融资轮，系 M&A；飞利浦保留少数股权，财务条款未披露）", "amount": "未披露", "currency": "USD", "date": "2021-05", "investors": ["Connect America", "Royal Philips（保留股权）"]},
+      "funding_total_corrected": {"amount": "不适用（1974年成立，2006年被 Philips 收购，2021年转手 Connect America）", "currency": "USD"},
+      "events": [
+        "1974 Lifeline Systems 成立",
+        "1983 上市",
+        "2006 被 Royal Philips 收购并更名 Lifeline",
+        "2010 推出自动跌倒检测",
+        "2021-05 Connect America 收购 Philips Aging & Caregiving 业务（含 Lifeline），飞利浦保留股权",
+        "累计服务超750万订户、年呼叫超300万次"
+      ],
+      "payor_model": "B2C订阅为主：老人/家庭按月付费（约$1/天起，含设备保修）；B2B2C通过医疗机构、250,000+专业推荐与2,500+商业伙伴渠道；亦可纳入部分医疗系统整合",
+      "business_tags_suggest": {"role": "设备商/服务商（PERS 紧急呼叫）"},
+      "latest_news": [
+        {"title": "Connect America 收购 Philips Aging & Caregiving 业务（含 Lifeline PERS）", "date": "2021-05-05", "source": "web", "url": "https://www.ageinplacetech.com/pressrelease/connect-america-acquires-philips-aging-and-caregiving-business"},
+        {"title": "Connect America CEO 谈 Lifeline 收购：'PERS 领域的王者'", "date": "2021-05", "source": "web", "url": "https://www.homecaremag.com/news/connect-america-ceo-janet-dillione-lifeline-acquisition"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "PERS 个人紧急响应系统是居家养老安全的标配，Lifeline 作为该品类开创者，核心客群即独居与居家老人，典型核心银发。",
+      "info_aid": "PERS（个人紧急响应系统）开创者，可穿戴呼叫按钮+自动跌倒检测+24/7响应中心，累计服务超750万订户，现属Connect America体系。",
+      "diff_aid": "作为品类鼻祖（'人们说Lifeline而非PERS'），其自动跌倒检测与三冗余响应中心树立行业标准，区别于普通手环/手机求救，是无网络依赖的居家安全最后一道防线。",
+      "copy_aid": "'一键呼叫、守护独居父母'叙事经典且易共鸣；须提示2021年已从飞利浦转手Connect America、品牌仍独立运营，避免写成飞利浦现业务，且PERS赛道竞争加剧（如Medical Alert）。",
+      "sources": [
+        "https://www.lifeline.com/business/about",
+        "https://www.ageinplacetech.com/pressrelease/connect-america-acquires-philips-aging-and-caregiving-business",
+        "https://www.homecaremag.com/news/connect-america-ceo-janet-dillione-lifeline-acquisition",
+        "http://www.lifeline.ca/content/english/about-our-company/privacy"
+      ]
+    },
+    {
+      "serial": "#1152",
+      "founded_verified": "1970年（由 Bruce Thompson 与 Frederic D. Wolfe 创立，初名 Health Care Fund，首家医疗专注型 REIT；1985年更名 Health Care REIT，2015年9月更名 Welltower，2018年代码由 HCN 改为 WELL）",
+      "hq": "美国俄亥俄州托莱多（Toledo, Ohio, USA）",
+      "one_liner": "全球最大医疗地产 REIT（纽交所 WELL，标普500），持有并运营养老社区（SHOP，自营业）、辅助生活/记忆照护、后急性期与门诊医疗办公楼，定位'白银经济中心'，2025年宣布230亿美元交易组合全面聚焦养老租赁住房。",
+      "key_products": [
+        "养老社区 SHOP（自运营，Seniors Housing Operating）",
+        "辅助生活/独立生活/CCRC",
+        "后急性期与专业护理资产",
+        "门诊医疗（OM）办公楼（正剥离）",
+        "Welltower 业务系统（运营+数据科学平台）、Seniors Housing Fund I 私募基金"
+      ],
+      "funding_latest_corrected": {"round": "宣布230亿美元（$23B）交易组合（非融资轮，系资本运作：约$140亿收购+约$90亿资产处置/贷款回收）", "amount": "$23B", "currency": "USD", "date": "2025-10", "investors": []},
+      "funding_total_corrected": {"amount": "不适用（NYSE:WELL 上市公司，通过股本/债务市场融资）", "currency": "USD"},
+      "events": [
+        "1970 成立（Health Care Fund）",
+        "1985 更名 Health Care REIT",
+        "2015-09 更名 Welltower",
+        "2018-02 代码 HCN 改为 WELL",
+        "2025-10-27 宣布$23B交易组合（约$14B收购英/美/加700+养老社区46,000+单元；约$9B资产处置）",
+        "2025 推出'Welltower 3.0'与 RIDEA 6.0，成立 Seniors Housing Fund I（募资约$25亿）",
+        "2026-02-10 发布2025 Q4业绩：标准化FFO $5.29/股（同比+22.5%），SHOP同店NOI+20.4%（连续13个季度超20%）"
+      ],
+      "payor_model": "混合（REITs/运营）：养老社区以私人付费（private-pay）为主，部分依赖政府医保（Medicare/Medicaid）支付后急性期护理；收入来自租金（triple-net 租赁）与 SHOP 运营净收益（RIDEA）",
+      "business_tags_suggest": {"role": "投资机构/运营商（养老地产 REIT）"},
+      "latest_news": [
+        {"title": "Welltower 宣布230亿美元交易组合，加码老年人住房、推出'Welltower 3.0'", "date": "2025-10-27", "source": "web", "url": "https://welltower.com/investors/press-release-details?id=793"},
+        {"title": "Welltower 2025 Q4业绩：标准化FFO同比+22.5%，SHOP同店NOI+20.4%", "date": "2026-02-10", "source": "web", "url": "http://welltower.com/investors/press-release-details?id=797"},
+        {"title": "Welltower 成立首只私募基金 Seniors Housing Fund I（募资约$25亿）", "date": "2025-Q4", "source": "web", "url": "http://welltower.com/investors/press-release-details?id=797"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "全球最大医疗地产REIT，组合以养老社区（SHOP/辅助生活/记忆照护）为核心，官网明确定位'白银经济中心'，是银发地产标杆企业与关键基础设施提供者。",
+      "info_aid": "纽交所WELL、全球最大医疗地产REIT，持有2,000+养老与健康社区，2025年宣布230亿美元交易组合全面聚焦老龄化租赁住房，SHOP同店NOI连续13个季度增长超20%。",
+      "diff_aid": "以'REIT外壳里的运营公司'定位+Welltower业务系统数据科学平台，区别于传统地产商；通过RIDEA 6.0与运营伙伴深度绑定，直接改善居民体验与站点员工效率，2025年养老NOI占比升至约85%。",
+      "copy_aid": "银发地产'压舱石'叙事强：230亿美元All-in养老、连续双位数NOI增长、英国Barchester/HC-One大手笔收购；可作'资本如何用脚投票银发经济'标杆稿，提示利率与 occupancy 周期风险。",
+      "sources": [
+        "https://welltower.com/investors/press-release-details?id=793",
+        "http://welltower.com/investors/press-release-details?id=797",
+        "https://en.wikipedia-on-ipfs.org/wiki/Welltower",
+        "https://abxusa.com/well/"
+      ]
+    }
+  ]
+}

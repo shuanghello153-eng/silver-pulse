@@ -1,0 +1,760 @@
+{
+  "batch": 21,
+  "enterprises": [
+    {
+      "serial": "#0029",
+      "signal_strength": 1.05,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 8,
+      "research_value": 57.2,
+      "recommend": {
+        "rec_v1": "信号弱但信息透明（资本方入股、报道多）；其长护险+居家护理闭环差异化明显，国内长护险试点可照搬获客与派单路径。",
+        "rec_v2": "披露充分（自研系统、公益数据）；亮点是把康复嵌进社区驿站，中小创业者可学其轻量化触点与政企合作打法。",
+        "rec_v3": "赛道价值被资本验证；「申护析」中台差异化强，国内难复制其规模，但能学「评估—派单—质控」运营闭环。",
+        "info_score": 8,
+        "diff_score": 7,
+        "copy_score": 8,
+        "signal_strength": 1.05,
+        "research_value": 57.2
+      },
+      "payor_model": "政府长护险+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "居家养老护理连锁，长护险标杆",
+      "founded": 2011,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024",
+          "text": "完成C轮融资（未披露金额）"
+        },
+        {
+          "date": "2026-04-21",
+          "text": "动脉网报道寻求新一轮融资"
+        }
+      ],
+      "highlights": [
+        "上海居家康复护理连锁龙头",
+        "长护险标杆，自研「申护析」智慧系统",
+        "累计服务150万人次、公益项目100余项",
+        "获复星医药、长岭资本等投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护理+长护险直接服务失能半失能老人"
+    },
+    {
+      "serial": "#0036",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 45.2,
+      "recommend": {
+        "rec_v1": "信号低但披露尚可（资本曾下注）；柔性外骨骼差异化强，国内康复机器人创业者可学其「硬件+训练方案」打包打法。",
+        "rec_v2": "信息中等；技术门槛高难直接复制，但「居家康复机器人」场景选定值得国内创业者参考其垂直切入思路。",
+        "rec_v3": "资本密集印证赛道；其主动式驱动差异化明显，国内受注册证约束难快抄，宜学其临床绑定渠道。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 45.2
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "下肢康复外骨骼机器人研发商",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2021-02",
+          "text": "获数千万元A+轮融资（联想创投等）"
+        }
+      ],
+      "highlights": [
+        "基于柔性驱动器的主动式下肢外骨骼",
+        "面向卒中与老年康复训练",
+        "2025年估值分析约10-15亿元",
+        "联想创投等投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复外骨骼服务老年及卒中康复人群"
+    },
+    {
+      "serial": "#0157",
+      "signal_strength": 1.05,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 7,
+      "research_value": 54.2,
+      "recommend": {
+        "rec_v1": "信号低但信息新（近期资本加注）；康养机器人矩阵差异化强，国内具身智能创业者可学其「康复+照护」双线产品定义。",
+        "rec_v2": "披露充分（高质报道多）；亮点是把外骨骼与照护机械臂打通，中小团队可借鉴其关节模块化降本路径。",
+        "rec_v3": "资本密集下注印证赛道；具身智能康养差异化明显，国内政策利好但硬件难抄，宜学其场景优先级打法。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 54.2
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "康养机器人矩阵（康复+失能照护）",
+      "founded": 2022,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2026-07-03",
+          "text": "完成亿元Pre-A轮融资（清松资本等）"
+        },
+        {
+          "date": "2025-10-09",
+          "text": "完成千万级天使++轮（36氪报道）"
+        }
+      ],
+      "highlights": [
+        "UniGym全关节居家康复训练系统",
+        "Q1智能照护机器人可起身翻身喂饭",
+        "成立2年融5轮、康养具身智能",
+        "2026年亿元Pre-A轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复与失能老人照护机器人直接服务银发"
+    },
+    {
+      "serial": "#0476",
+      "signal_strength": 1.05,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 42.2,
+      "recommend": {
+        "rec_v1": "信号低但模式清晰（早期资本支持）；跨代合住差异化强，国内「老少共居」可学其信任匹配与押金托管机制。",
+        "rec_v2": "信息披露中等；亮点是把孤独缓解做成住房产品，国内受居住文化约束难抄，社区互助养老可借鉴其配对逻辑。",
+        "rec_v3": "资本小注印证需求；合住+陪伴双价值差异化，国内复制受地产与代际观念限制，宜学其风控与会员分层。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 42.2
+      },
+      "payor_model": "个人自费（会员订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "婴儿潮一代合租匹配与陪伴平台",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2020",
+          "text": "完成400万美元种子轮（Moderne Ventures等9位投资人）"
+        }
+      ],
+      "highlights": [
+        "面向空巢老人的跨代合住匹配",
+        "兼顾陪伴与租金收益",
+        "Seed轮400万美元",
+        "缓解老年孤独的住房创新"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为空巢老人提供合住与陪伴的银发住房服务"
+    },
+    {
+      "serial": "#0489",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 2,
+      "copy_score": 1,
+      "research_value": 27.2,
+      "recommend": {
+        "rec_v1": "信号低、银发信息稀薄（仅边缘布局）；其生态打法无差异壁垒，国内创业者勿照搬巨头路径，可学其语音入口思路。",
+        "rec_v2": "披露多为集团层面；智慧养老布局零散无闭环，难复制其体量，但「硬件+订阅」入口设计对适老产品有启发。",
+        "rec_v3": "综合巨头银发非主业；差异化弱、复制无意义，研究价值在警示：银发需垂直深耕而非平台附带。",
+        "info_score": 6,
+        "diff_score": 2,
+        "copy_score": 1,
+        "signal_strength": 1.05,
+        "research_value": 27.2
+      },
+      "payor_model": "个人自费（电商/会员）",
+      "business_tags_role": "平台",
+      "desc_cn": "综合电商巨头，边缘布局智慧养老",
+      "founded": 1994,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2021-12",
+          "text": "推出Alexa Together远程照护订阅"
+        }
+      ],
+      "highlights": [
+        "Alexa语音助手切入居家场景",
+        "Amazon Care远程医疗（已收缩）",
+        "PillPack智能分药",
+        "智慧养老多为品牌PR式布局"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "综合电商巨头，养老仅Alexa等边缘品牌布局，无实质银发主业"
+    },
+    {
+      "serial": "#0496",
+      "signal_strength": 1.05,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 38.2,
+      "recommend": {
+        "rec_v1": "信号低但信息明确（已被收编）；临终文档平台差异化清晰，国内遗产/预嘱规划创业者可学其模板化与合规托管。",
+        "rec_v2": "披露中等（被收编、早期资本背景）；亮点是把临终事务产品化，受法律文化差异约束，但「预立医疗指示」方向有政策空间。",
+        "rec_v3": "被巨头收购印证赛道价值；其轻资产SaaS差异化明显，国内复制需配套公证与保险，宜学其用户教育路径。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 1.05,
+        "research_value": 38.2
+      },
+      "payor_model": "个人自费（订阅）+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "临终规划与遗产文档数字平台",
+      "founded": 2015,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2024",
+          "text": "被Foundation Partners Group收购"
+        },
+        {
+          "date": "2021-07",
+          "text": "完成370万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "全场景临终规划数字平台",
+        "2024年被Foundation Partners Group收购",
+        "累计融资$5.05M",
+        "覆盖遗嘱/医疗授权等文档"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "临终/遗产规划偏法律金融，老年关联但非直接照护服务"
+    },
+    {
+      "serial": "#0559",
+      "signal_strength": 1.05,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 55.2,
+      "recommend": {
+        "rec_v1": "信号低但披露充分（资本持续加持）；一体化养老社区SaaS差异化强，国内院端HIS创业者可学其「护理+账务」中台集成。",
+        "rec_v2": "信息厚（高质报道多）；亮点是把EHR与AI照护结合，国内受数据孤岛限制，模块化解耦思路可借鉴。",
+        "rec_v3": "资本加注印证需求；其社区级数字化差异化明显，国内宜学「评估—记录—支付」闭环而非全盘照搬。",
+        "info_score": 8,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 1.05,
+        "research_value": 55.2
+      },
+      "payor_model": "B端机构采购（SaaS订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "老年生活社区一体化数字化平台",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-08",
+          "text": "完成2900万美元B轮（Base10 Partners领投）"
+        }
+      ],
+      "highlights": [
+        "EHR+eMAR+护理追踪一体化",
+        "2025年B轮2900万美元",
+        "累计融资约$44M",
+        "AI赋能照护平台"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为老年生活/辅助生活社区提供运营数字化"
+    },
+    {
+      "serial": "#0618",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 8,
+      "research_value": 43.2,
+      "recommend": {
+        "rec_v1": "信号低但信息扎实（并购+档案）；传统EHR模式无差异，国内同类厂商可平移，创业者宜学其「收购整合」扩张路径。",
+        "rec_v2": "披露中等；亮点是美国养老IT被整合的背景注脚，国内复制性强但故事性弱，可借其看赛道集中度趋势。",
+        "rec_v3": "被巨头收编印证价值；重资产IT难复制其历史地位，但「EHR+RCM」一体化对国内院端SaaS有参照意义。",
+        "info_score": 6,
+        "diff_score": 3,
+        "copy_score": 8,
+        "signal_strength": 1.05,
+        "research_value": 43.2
+      },
+      "payor_model": "B端机构付费（养老院/SNF出售EHR SaaS）",
+      "business_tags_role": "平台",
+      "desc_cn": "长期照护EHR与营收周期管理厂商",
+      "founded": 1982,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2024-01",
+          "text": "被PointClickCare收购"
+        },
+        {
+          "date": "2025-06",
+          "text": "随CPSI子公司交易进一步整合"
+        }
+      ],
+      "highlights": [
+        "长期照护EHR+RCM老牌厂商",
+        "2024年被PointClickCare收购",
+        "传统EHR行业整合案例",
+        "成立于1982年"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为养老院/护理院提供长期照护IT系统"
+    },
+    {
+      "serial": "#0631",
+      "signal_strength": 1.05,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 45.2,
+      "recommend": {
+        "rec_v1": "信号低但披露清晰（知名机构背书）；AI排班差异化实用，国内居家护理创业者可学其「路线优化+实时可见」降本模型。",
+        "rec_v2": "信息中等；亮点是把劳动力管理做成SaaS，国内受护工体系差异影响，排班中台思路可直接借鉴。",
+        "rec_v3": "资本小注印证痛点；其与EMR集成差异化强，国内难抄其支付环境，宜学「调度—质控」运营数据闭环。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 1.05,
+        "research_value": 45.2
+      },
+      "payor_model": "B端机构采购（SaaS订阅）",
+      "business_tags_role": "平台",
+      "desc_cn": "家庭医疗与临终关怀AI排班SaaS",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-02",
+          "text": "完成420万美元种子轮（F-Prime、YC等）"
+        }
+      ],
+      "highlights": [
+        "家庭医疗/临终关怀AI排班",
+        "智能路线规划降低缺诊率",
+        "已集成主流EMR",
+        "累计融资$14.3M"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "服务家庭医疗与临终关怀机构的运营效率"
+    },
+    {
+      "serial": "#0640",
+      "signal_strength": 1.05,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 40.2,
+      "recommend": {
+        "rec_v1": "信号低但模式轻巧（早期资本支持）；定期巡查差异化实用，国内社区助老员可学其「巡查清单+异常上报」标准化。",
+        "rec_v2": "披露中等；亮点是把home watch做成订阅，国内受人力成本约束，但「安全巡查+事务代办」组合可借鉴。",
+        "rec_v3": "小资本验证需求；其礼宾式看护差异化温和，国内复制易但难规模化，宜学其信任建立与排班系统。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 1.05,
+        "research_value": 40.2
+      },
+      "payor_model": "个人自费（巡查订阅）",
+      "business_tags_role": "服务商",
+      "desc_cn": "老年人居家定期巡查与看护服务",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-01",
+          "text": "完成320万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "上门安全检查+代收邮件等礼宾式巡查",
+        "面向独居长者居家安全",
+        "Seed轮320万美元",
+        "轻资产居家看护模式"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为独居老人提供居家安全巡查与看护"
+    },
+    {
+      "serial": "#0676",
+      "signal_strength": 1.05,
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 3,
+      "research_value": 24.2,
+      "recommend": {
+        "rec_v1": "信号低且信息薄（仅早期资本支持）；护理协调无银发专属差异，国内创业者勿照搬其医保耦合模式，参考价值有限。",
+        "rec_v2": "披露稀少；亮点是value-based协调，但受美国支付体系约束难复制，对国内银发创业者启发弱。",
+        "rec_v3": "小注验证概念；其平台无差异化壁垒，研究价值低，仅作「医保—服务」衔接的思路注脚。",
+        "info_score": 3,
+        "diff_score": 3,
+        "copy_score": 3,
+        "signal_strength": 1.05,
+        "research_value": 24.2
+      },
+      "payor_model": "B端机构采购（医保/付款人）",
+      "business_tags_role": "服务商",
+      "desc_cn": "连接付款人与多专科医生的护理协调平台",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2024-03",
+          "text": "完成300万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "付款人—多专科医生协调网络",
+        "Seed轮300万美元",
+        "value-based care基础设施",
+        "信息较少"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用护理协调平台，无明确老年专属服务信号"
+    },
+    {
+      "serial": "#0688",
+      "signal_strength": 1.05,
+      "info_score": 3,
+      "diff_score": 2,
+      "copy_score": 2,
+      "research_value": 20.2,
+      "recommend": {
+        "rec_v1": "信号低信息薄（仅早期资本支持）；员工关系管理无银发差异，国内创业者无需参考，研究价值低。",
+        "rec_v2": "披露稀少；亮点是医疗HR垂直化，但与老年服务无直接关联，难复制为银发场景，对创业者启发弱。",
+        "rec_v3": "小资本试水；其系统无差异化且偏离银发主线，仅作医疗人力数字化旁证，不建议作为重点研究对象。",
+        "info_score": 3,
+        "diff_score": 2,
+        "copy_score": 2,
+        "signal_strength": 1.05,
+        "research_value": 20.2
+      },
+      "payor_model": "B端机构采购（HR SaaS）",
+      "business_tags_role": "平台",
+      "desc_cn": "医疗保健行业员工关系管理系统",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成200万美元种子轮"
+        }
+      ],
+      "highlights": [
+        "医疗行业首个员工关系管理系统",
+        "Seed轮200万美元",
+        "面向医疗机构HR",
+        "与银发无直接关联"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "医疗HR软件，不服务老年人群"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0029",
+      "name": "福寿康",
+      "intro": "国内头部居家养老护理连锁品牌，以长护险为核心提供居家护理、康复训练，自研「申护析」智慧系统。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "金融保险"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "长护险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智慧养老",
+          "reason": "自研「申护析」智慧系统，智慧养老属性突出"
+        }
+      ]
+    },
+    {
+      "serial": "#0036",
+      "name": "迈步",
+      "intro": "深圳康复机器人企业，研发基于柔性驱动器的主动式下肢外骨骼，面向卒中与老年康复训练。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "康复机器人",
+          "reason": "主营下肢康复外骨骼机器人研发制造"
+        }
+      ]
+    },
+    {
+      "serial": "#0157",
+      "name": "如身机器人",
+      "intro": "康养机器人研发商，产品矩阵覆盖手肘腿全关节康复训练系统与面向失能老人的智能照护机器人。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "文娱社交→康复辅具",
+          "reason": "实为康养/康复机器人，非文娱社交"
+        },
+        {
+          "action": "change",
+          "tag": "健身→康复机器人",
+          "reason": "主营康复与照护机器人而非健身"
+        }
+      ]
+    },
+    {
+      "serial": "#0476",
+      "name": "Silvernest",
+      "intro": "面向婴儿潮一代的房屋合租匹配平台，帮助空巢老人与室友配对共享住房，兼顾陪伴与租金收益。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "邻里社交"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0489",
+      "name": "亚马逊",
+      "intro": "全球最大电商与云计算公司，通过Alexa、AWS、Amazon Care等边缘布局智慧养老，但均非主业。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "平台",
+          "channel": [
+            "线上"
+          ]
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0496",
+      "name": "Cake",
+      "intro": "全场景临终规划与文档管理平台，覆盖遗嘱、医疗授权等，2024年被Foundation Partners Group收购。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "遗产规划"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0559",
+      "name": "August Health",
+      "intro": "为老年生活社区（assisted living/nursing home）提供一体化数字化方案，含EHR、药物管理、护理追踪与账单。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(药)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0618",
+      "name": "American HealthTech",
+      "intro": "长期照护与后急性期领域的EHR及营收周期管理软件商，2024年被PointClickCare收购并入其产品组合。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0631",
+      "name": "Axle Health",
+      "intro": "美国家庭医疗与临终关怀机构的AI排班与劳动力管理SaaS，智能路线规划提升临床团队利用率。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0640",
+      "name": "BirdWatch",
+      "intro": "提供老年人居家看护与定期巡查（home watch）服务，由巡查员上门检查长者安全、代收邮件、处理日常事务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "家政"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0676",
+      "name": "Conduce Health",
+      "intro": "将付款人与多专业医生连接的护理协调平台，属value-based care基础设施，未体现老年专属定位。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护理协调"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0688",
+      "name": "DoorSpace",
+      "intro": "面向医疗保健机构的员工关系管理系统，属医疗HR数字化，与银发人群服务无直接关联。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0489",
+      "name": "亚马逊",
+      "verdict": "非银发",
+      "reason": "综合电商巨头，养老仅Alexa等边缘品牌布局，无实质银发主业"
+    },
+    {
+      "serial": "#0496",
+      "name": "Cake",
+      "verdict": "泛医疗擦边",
+      "reason": "临终/遗产规划偏法律金融，老年关联但非直接照护服务"
+    },
+    {
+      "serial": "#0676",
+      "name": "Conduce Health",
+      "verdict": "非银发",
+      "reason": "通用护理协调平台，无明确老年专属服务信号"
+    },
+    {
+      "serial": "#0688",
+      "name": "DoorSpace",
+      "verdict": "非银发",
+      "reason": "医疗HR软件，不服务老年人群"
+    }
+  ]
+}

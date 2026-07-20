@@ -1,0 +1,535 @@
+{
+ "batch": 80,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0881",
+   "name": "Thrive AI Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "OpenAI创业基金支持，AI健康教练促进健康生活方式",
+   "highlights": "AI健康教练促进健康生活方式",
+   "funding_latest": {
+    "date": "2024年7月",
+    "display": "(2024年7月)"
+   },
+   "funding_total": null,
+   "investors": [
+    "OpenAI Startup Fund"
+   ],
+   "founded": "2024",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Thrive%20AI%20Health",
+   "website_url": "https://www.thrive.ai",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "OpenAI创业基金支持，AI健康教练促进健康生活方式",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Thrive AI Health】聚焦产业资本/慢病管理/文娱社交，AI健康教练促进健康生活方式，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0882",
+   "name": "Tia",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "Tia operates women-focused clinics and a virtual app covering gynecology, primary care and mental health, charging members visit fees and insurance, with a membership model for ongoing care.",
+   "highlights": "线上线下结合",
+   "funding_latest": null,
+   "funding_total": "$132M",
+   "investors": [
+    "Lone Pine Capital",
+    "Torch Capital",
+    "Define Ventures",
+    "Homebrew",
+    "Threshold Ventures",
+    "Acme Ventures",
+    "The Helm",
+    "Pivotal Ventures"
+   ],
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tia",
+   "website_url": "https://asktia.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Tia 运营面向女性的诊所与远程应用，覆盖妇科、初级保健与心理健康，按问诊收费并支持会员制持续照护。",
+   "business_model_cn": "问诊费/会员制",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": [
+     "线上",
+     "线下"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Tia】聚焦健康管理/女性健康/数字化，线上线下结合，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0883",
+   "name": "Together by Renee",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "用药提醒",
+    "用药管理"
+   ],
+   "description": "拍摄处方照片管理药物，AI读取保险覆盖",
+   "highlights": "AI读取保险覆盖",
+   "funding_latest": null,
+   "funding_total": "$4M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Together%20by%20Renee",
+   "website_url": "https://togetherapp.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "拍摄处方照片管理药物，AI读取保险覆盖",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药提醒",
+    "用药管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Together by Renee】聚焦健康管理/文娱社交，AI读取保险覆盖，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0884",
+   "name": "Toi Labs",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "TrueLoo智能马桶座，光学传感器分析马桶活动",
+   "highlights": "光学传感器分析马桶活动",
+   "funding_latest": null,
+   "funding_total": "$11M",
+   "investors": "",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Toi%20Labs",
+   "website_url": "https://www.toilabs.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "TrueLoo智能马桶座，光学传感器分析马桶活动",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Toi Labs】聚焦智能硬件/消费品/行业媒体，光学传感器分析马桶活动，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0887",
+   "name": "Tuesday Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "临终关怀",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "Tuesday Health 是一家按价值付费的安宁/缓和疗护服务集团，为重病老人提供线下+远程的缓和医疗与临终关怀，已与 Humana、Buckeye 等支付方合作。亮点是把缓和疗护做成可规模化的按人头付费服务体系。",
+   "highlights": "为重病患者提供全人护理",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "6000万美元",
+    "display": "6000万美元 (2024年5月)"
+   },
+   "funding_total": "$60M",
+   "investors": [
+    "CareSource",
+    "BVF",
+    "Mass General Brigham Ventures",
+    "Valtruis"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tuesday%20Health",
+   "website_url": "https://www.tuesdayhealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Tuesday Health 是一家按价值付费的安宁/缓和疗护服务集团，为重病老人提供线下+远程的缓和医疗与临终关怀，已与 Humana、Buckeye 等支付方合作。亮点是把缓和疗护做成可规模化的按人头付费服务体系。",
+   "business_model_cn": "B2C/B2B 临终关怀/舒缓疗护服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Tuesday Health】聚焦临终关怀/产业资本/居家护理，为重病患者提供全人护理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0888",
+   "name": "Tuned",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "助听器"
+   ],
+   "description": "结合AI和智能助听器改善听力质量",
+   "highlights": "结合AI和智能助听器改善听力质量",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "750万美元",
+    "display": "750万美元 (2024年7月)"
+   },
+   "funding_total": "$10.2M",
+   "investors": [
+    "Idealab",
+    "Unum Group",
+    "Distributed Ventures"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tuned",
+   "website_url": "https://www.tuned.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "结合AI和智能助听器改善听力质量",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Tuned】聚焦产业资本/助听器/文娱社交，结合AI和智能助听器改善听力质量，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0891",
+   "name": "Unfabled",
+   "region": "海外",
+   "category_l1": "购物渠道",
+   "category_l2": "线上渠道",
+   "tags": [
+    "电商"
+   ],
+   "description": "在线市场，女性健康和保健产品",
+   "highlights": "女性健康和保健产品",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "200万美元",
+    "display": "200万美元 (2024年2月)"
+   },
+   "funding_total": "$3.9M",
+   "investors": [
+    "Morgan Stanley Inclusive Ventures Group",
+    "Founders Factory",
+    "Araya Ventures",
+    "Syndicate Room"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Unfabled",
+   "website_url": "https://www.unfabled.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "在线市场，女性健康和保健产品",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Unfabled】聚焦产业资本/消费品/渠道，女性健康和保健产品，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0896",
+   "name": "vermut",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "社区"
+   ],
+   "description": "vermut 是一个面向 55 岁以上人群的抗孤独社交平台，通过本地活动与兴趣小组帮助中老年人建立线下联结，在西班牙与美国运营、用户约 10 万。亮点是用'本地活动+社区'而非纯线上聊天来真正减少孤独。",
+   "highlights": "发布活动、聚会",
+   "funding_latest": {
+    "amount": "170万欧元",
+    "display": "170万欧元"
+   },
+   "funding_total": "€1.7M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=vermut",
+   "website_url": "https://www.vermut.ai",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "vermut 是一个面向 55 岁以上人群的抗孤独社交平台，通过本地活动与兴趣小组帮助中老年人建立线下联结，在西班牙与美国运营、用户约 10 万。亮点是用'本地活动+社区'而非纯线上聊天来真正减少孤独。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "社区"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【vermut】聚焦产业资本/文娱社交，发布活动、聚会，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0897",
+   "name": "Vi Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "更年期"
+   ],
+   "description": "Vi Health 是一家荷兰更年期健康平台，面向职场女性提供症状管理与健康指导，作为企业员工健康福利（B2B2C）向雇主销售，总部鹿特丹、融资约 130 万欧元。亮点是把更年期支持嵌入企业福利，填补职场健康空白。",
+   "highlights": "为更年期女性提供量身定制的支持APP",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "150万欧元",
+    "display": "150万欧元 (2024年1月)"
+   },
+   "funding_total": null,
+   "investors": [
+    "NN Ventures"
+   ],
+   "founded": "2020",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vi%20Health",
+   "website_url": "https://www.vi-health.com",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "Vi Health 是一家荷兰更年期健康平台，面向职场女性提供症状管理与健康指导，作为企业员工健康福利（B2B2C）向雇主销售，总部鹿特丹、融资约 130 万欧元。亮点是把更年期支持嵌入企业福利，填补职场健康空白。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Vi Health】聚焦产业资本/女性健康/文娱社交，为更年期女性提供量身定制的支持APP，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0898",
+   "name": "Videra Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "心理健康"
+   ],
+   "description": "AI检测面部表情和肢体语言变化筛查心理健康",
+   "highlights": "AI检测面部表情和肢体语言变化筛查心理健康",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "560万美元",
+    "display": "560万美元 (2024年5月)"
+   },
+   "funding_total": "$8.6M",
+   "investors": [
+    "Peterson Ventures",
+    "Mercato Partners"
+   ],
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Videra%20Health",
+   "website_url": "https://www.viderahealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI检测面部表情和肢体语言变化筛查心理健康",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "心理健康"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Videra Health】聚焦产业资本/健康管理/文娱社交，AI检测面部表情和肢体语言变化筛查心理健康，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0899",
+   "name": "Virtuleap",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "认知症产品",
+   "tags": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+   "highlights": "产品Enhance VR和Cogniclear VR",
+   "funding_latest": null,
+   "funding_total": "$2.6M",
+   "investors": [
+    "GED Ventures Portugal"
+   ],
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Virtuleap",
+   "website_url": "https://virtuleap.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "VR和AI提升认知治疗和诊断，产品Enhance VR和Cogniclear VR",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Virtuleap】聚焦认知症，产品Enhance VR和Cogniclear VR，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0900",
+   "name": "Visibly",
+   "region": "海外",
+   "category_l1": "养老用品",
+   "category_l2": "视觉障碍",
+   "tags": [
+    "眼镜"
+   ],
+   "description": "全球首个FDA批准的在线视力测试",
+   "highlights": "全球首个FDA批准的在线视力测试",
+   "funding_latest": {
+    "date": "2024年1月",
+    "round": "收购",
+    "display": "收购 (2024年1月)"
+   },
+   "funding_total": "$56.2M",
+   "investors": "",
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Visibly",
+   "website_url": "https://www.visibly.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "全球首个FDA批准的在线视力测试",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Visibly】聚焦产业资本/消费品/眼镜，全球首个FDA批准的在线视力测试，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,844 @@
+{
+  "batch": 1,
+  "enterprises": [
+    {
+      "serial": "#0009",
+      "signal_strength": 6.55,
+      "info_score": 8.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 69.7,
+      "recommend": {
+        "rec_v1": "信号强资料足，全场景养老运营体系独特，其居家社区机构协同打法值得创业者借鉴。",
+        "rec_v2": "高信号且信息透明，并购整合多品牌模式难速复制，但运营标准化经验具高参考价值。",
+        "rec_v3": "政策利好下数据详实，差异化在轻重结合养老网络，中小创业者可学其服务分层设计。",
+        "info_score": 8.0,
+        "diff_score": 6.0,
+        "copy_score": 7.0,
+        "signal_strength": 6.55,
+        "research_value": 69.7
+      },
+      "payor_model": "政府长护险+个人自付+B端机构采购",
+      "business_tags_role": "运营商",
+      "desc_cn": "A股上市企业，居家社区机构全场景养老运营商",
+      "founded": 1952,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-09-01",
+          "text": "2025H1养老业务增速超27%"
+        },
+        {
+          "date": "2025-11-30",
+          "text": "双线布局养老产业掘金银发经济"
+        }
+      ],
+      "highlights": [
+        "旗下安康通/Natali/禾康养老多品牌矩阵",
+        "2025H1养老业务增速超27%",
+        "居家/社区/机构全场景覆盖"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家社区机构全场景养老运营，银发核心业务"
+    },
+    {
+      "serial": "#0011",
+      "signal_strength": 6.55,
+      "info_score": 7.0,
+      "diff_score": 5.0,
+      "copy_score": 8.0,
+      "research_value": 66.6,
+      "recommend": {
+        "rec_v1": "信号稳资料实，成人失禁国产龙头地位独特，其渠道+品类打法对银发刚需创业者极实用。",
+        "rec_v2": "高信号且上市透明，失禁护理刚需差异化明显，国内空白市场可快速借鉴其品牌打法。",
+        "rec_v3": "政策鼓励下信息充分，差异化在耗材复购模式，创业者能抄其线下渠道与用户教育经验。",
+        "info_score": 7.0,
+        "diff_score": 5.0,
+        "copy_score": 8.0,
+        "signal_strength": 6.55,
+        "research_value": 66.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "成人失禁护理龙头，覆盖全品类银发刚需耗材",
+      "founded": 2001,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2021",
+          "text": "A股上市（301298）"
+        },
+        {
+          "date": "2026-04-21",
+          "text": "CIDPEX2026以银发生态链主亮相"
+        },
+        {
+          "date": "2026-04-27",
+          "text": "2025营收11.5亿、扣非净利增17%"
+        }
+      ],
+      "highlights": [
+        "成人失禁护理国产头部品牌",
+        "2025营收11.5亿、扣非净利增17%",
+        "拟收购上海汉合纸业延伸产能"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人失禁护理为银发刚需耗材"
+    },
+    {
+      "serial": "#0020",
+      "signal_strength": 6.55,
+      "info_score": 7.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 66.7,
+      "recommend": {
+        "rec_v1": "信号稳资料实，地产转康养的切换模式独特，其医养结合落地经验对转型者很有启发。",
+        "rec_v2": "高信号且年报透明，持续照料差异化清晰，引入机器人降本的思路值得中小机构借鉴。",
+        "rec_v3": "政策利好数据详实，差异化在康养社区高入住率，其服务分级模型创业者可直接参考。",
+        "info_score": 7.0,
+        "diff_score": 6.0,
+        "copy_score": 7.0,
+        "signal_strength": 6.55,
+        "research_value": 66.7
+      },
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "运营商",
+      "desc_cn": "由陶瓷转型康养的A股上市医养结合运营商",
+      "founded": 1993,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2026-03-31",
+          "text": "2025年报披露持续照料切换模式"
+        },
+        {
+          "date": "2026-07-01",
+          "text": "获机构调研，康养业务高入住率"
+        }
+      ],
+      "highlights": [
+        "原斯米克陶瓷转型医养结合",
+        "引入养老机器人降本",
+        "康养社区高入住率、持续照料切换模式"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医养结合康养社区，直接服务老年群体"
+    },
+    {
+      "serial": "#0030",
+      "signal_strength": 6.55,
+      "info_score": 8.0,
+      "diff_score": 9.0,
+      "copy_score": 5.0,
+      "research_value": 71.7,
+      "recommend": {
+        "rec_v1": "信号热资料丰，具身智能外骨骼技术独特，其消费级+康复双轨对硬科技创业者启发大。",
+        "rec_v2": "高信号且融资密集，助行机器人差异化强，虽技术门槛高但其场景定义值得国内抄。",
+        "rec_v3": "资本看好信息透明，差异化在一年两轮融资扩张，创业者可学其B端机构切入路径。",
+        "info_score": 8.0,
+        "diff_score": 9.0,
+        "copy_score": 5.0,
+        "signal_strength": 6.55,
+        "research_value": 71.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "具身智能外骨骼机器人企业，主攻助行与康复",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-03",
+          "text": "完成近亿元B轮融资"
+        },
+        {
+          "date": "2026-03",
+          "text": "完成亿元级B+轮，农银资本领投"
+        }
+      ],
+      "highlights": [
+        "具身智能外骨骼，消费级+康复双线",
+        "一年内完成B轮+B+轮共数亿元",
+        "面向老人助行/社区康养场景"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "助行外骨骼直接服务行动不便老人"
+    },
+    {
+      "serial": "#0038",
+      "signal_strength": 6.55,
+      "info_score": 8.0,
+      "diff_score": 7.0,
+      "copy_score": 8.0,
+      "research_value": 73.7,
+      "recommend": {
+        "rec_v1": "信号升资料丰，中老年兴趣教育转型独特，其在线流量转银发文娱的模式极具借鉴性。",
+        "rec_v2": "高信号且上市透明，银发兴趣教育差异化清晰，其内容+社群打法对创业者很实用。",
+        "rec_v3": "政策利好数据详实，差异化在中老年用户池，其低门槛兴趣课模型创业者可快速复制。",
+        "info_score": 8.0,
+        "diff_score": 7.0,
+        "copy_score": 8.0,
+        "signal_strength": 6.55,
+        "research_value": 73.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "中老年兴趣教育平台，战略转向银发文娱",
+      "founded": 2012,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2023-01",
+          "text": "纳斯达克上市（QSG）"
+        },
+        {
+          "date": "2025-02",
+          "text": "战略转向银发经济"
+        },
+        {
+          "date": "2025-03",
+          "text": "财报净利1.3亿增17.8%"
+        }
+      ],
+      "highlights": [
+        "纳斯达克上市（QSG），注册用户1.396亿",
+        "千尺学堂聚焦中老年兴趣学习",
+        "战略转向银发文娱/旅游康养"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年兴趣教育+银发文娱战略转型"
+    },
+    {
+      "serial": "#0070",
+      "signal_strength": 6.55,
+      "info_score": 5.0,
+      "diff_score": 3.0,
+      "copy_score": 6.0,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号平资料少，纸业跨界银发偏营销，其健走团触达打法对日用品老龄化改造有参考。",
+        "rec_v2": "信息有限但信号在，适老用品布局差异化弱，创业者可学其存量渠道做老年人群渗透。",
+        "rec_v3": "政策利好下资料薄，跨界银发尚浅，其品牌年轻化转老年向的沟通方式值得借鉴。",
+        "info_score": 5.0,
+        "diff_score": 3.0,
+        "copy_score": 6.0,
+        "signal_strength": 6.55,
+        "research_value": 52.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "生活用纸龙头，跨界适老日用品与银发营销",
+      "founded": 1999,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2024-01",
+          "text": "董事长对话跨界银发新赛道"
+        },
+        {
+          "date": "2025-01",
+          "text": "获2024银发消费创新大奖"
+        }
+      ],
+      "highlights": [
+        "生活用纸龙头，百亿级营收",
+        "跨界适老用品+健走团触达银发群体",
+        "银发布局偏品牌营销，尚未成型"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "主业生活用纸，银发仅跨界营销尚未成型"
+    },
+    {
+      "serial": "#0082",
+      "signal_strength": 6.55,
+      "info_score": 6.0,
+      "diff_score": 8.0,
+      "copy_score": 6.0,
+      "research_value": 65.7,
+      "recommend": {
+        "rec_v1": "信号稳资料实，会员制CCRC秘书式服务独特，其运营标准体系对重资产养老很有学头。",
+        "rec_v2": "高信号且案例透明，持续照料模式差异化强，虽重资产但其服务分层值得深度研究。",
+        "rec_v3": "政策利好信息充分，差异化在可继承会员卡，创业者可抄其社群运营与医养对接经验。",
+        "info_score": 6.0,
+        "diff_score": 8.0,
+        "copy_score": 6.0,
+        "signal_strength": 6.55,
+        "research_value": 65.7
+      },
+      "payor_model": "个人会费自费+长护险",
+      "business_tags_role": "运营商",
+      "desc_cn": "高端会员制CCRC养老社区运营商（宜华系）",
+      "founded": 2005,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2010-12",
+          "text": "获挚信资本A轮1亿元"
+        },
+        {
+          "date": "2016",
+          "text": "被宜华健康全资收购（约4.08亿）"
+        },
+        {
+          "date": "2026-01",
+          "text": "枣庄康养中心三期投入试运营"
+        }
+      ],
+      "highlights": [
+        "国内首家会员制CCRC养老社区",
+        "秘书式三师服务+可继承会员卡",
+        "2016被宜华健康全资收购；曾涉会员费纠纷"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "高端会员制养老社区运营商，核心银发"
+    },
+    {
+      "serial": "#0086",
+      "signal_strength": 6.55,
+      "info_score": 5.0,
+      "diff_score": 4.0,
+      "copy_score": 6.0,
+      "research_value": 54.6,
+      "recommend": {
+        "rec_v1": "信号平资料少，营养CDMO与银发关联弱，其代工体系对想切入老年营养的品牌有参考。",
+        "rec_v2": "信息有限但信号在，银发营养布局差异化浅，创业者可学其研发代工双轮切入市场。",
+        "rec_v3": "政策利好下资料薄，主业偏B端代工，其供应链能力对银发保健品创业者具借鉴性。",
+        "info_score": 5.0,
+        "diff_score": 4.0,
+        "copy_score": 6.0,
+        "signal_strength": 6.55,
+        "research_value": 54.6
+      },
+      "payor_model": "B端品牌客户采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "营养保健食品CDMO龙头，布局银发营养",
+      "founded": 1993,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2024-H1",
+          "text": "营收19.9亿元同比+28.85%，境外为主"
+        }
+      ],
+      "highlights": [
+        "营养保健食品CDMO龙头",
+        "银发营养布局较弱，以B端代工为主",
+        "2024H1营收19.9亿(+28.85%)，境外为主"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "营养CDMO，银发营养关联弱且偏B端代工"
+    },
+    {
+      "serial": "#0091",
+      "signal_strength": 6.55,
+      "info_score": 8.0,
+      "diff_score": 8.0,
+      "copy_score": 5.0,
+      "research_value": 69.7,
+      "recommend": {
+        "rec_v1": "信号热资料丰，人形机器人康养应用独特，其与医院合资落地的路径对硬科技者启发大。",
+        "rec_v2": "高信号且上市透明，陪护机器人差异化强，虽门槛高但其场景定义值得国内创业者抄。",
+        "rec_v3": "资本关注信息详实，差异化在康养云平台，中小创业者可学其机构端优先切入策略。",
+        "info_score": 8.0,
+        "diff_score": 8.0,
+        "copy_score": 5.0,
+        "signal_strength": 6.55,
+        "research_value": 69.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "人形机器人龙头，拓展康养陪护机器人场景",
+      "founded": 2012,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2026-07-01",
+          "text": "联合麦迪科技发布优麦康养机器人"
+        }
+      ],
+      "highlights": [
+        "人形机器人龙头（09880.HK）",
+        "推出智慧康养机器人及云平台",
+        "2026与麦迪合资发布优麦康养版"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康养陪护机器人切入养老场景"
+    },
+    {
+      "serial": "#0100",
+      "signal_strength": 6.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 7.0,
+      "research_value": 61.6,
+      "recommend": {
+        "rec_v1": "信号稳资料实，按摩硬件适老化切入独特，其消费级健康打法对银发硬件创业者很实用。",
+        "rec_v2": "高信号且上市透明，居家适老产品差异化清晰，其线上线下渠道经验值得创业者借鉴。",
+        "rec_v3": "政策利好数据详实，差异化在银发健康场景，其产品年轻化转老年向思路可快速复制。",
+        "info_score": 6.0,
+        "diff_score": 5.0,
+        "copy_score": 7.0,
+        "signal_strength": 6.55,
+        "research_value": 61.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "智能按摩健康硬件商，切入银发适老场景",
+      "founded": 2000,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-09",
+          "text": "新增养老概念"
+        },
+        {
+          "date": "2026-01",
+          "text": "布局银发经济适老化产品"
+        }
+      ],
+      "highlights": [
+        "智能按摩硬件龙头，2024营收10.85亿",
+        "新增养老概念，切入适老化产品",
+        "13款产品入深圳适老化改造清单"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "适老健康硬件服务银发人群"
+    },
+    {
+      "serial": "#0129",
+      "signal_strength": 6.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号降资料杂，康复设备退市存风险，其医院整体方案曾具规模，创业者宜审慎研究教训。",
+        "rec_v2": "信息多为诉讼处罚，康复工程差异化常规，其扩张失败案例对重资产创业者警示价值高。",
+        "rec_v3": "政策面仍利好，主业含康复器械，其虚假陈述退市教训比模式更值得国内从业者深读。",
+        "info_score": 5.0,
+        "diff_score": 5.0,
+        "copy_score": 4.0,
+        "signal_strength": 6.55,
+        "research_value": 52.6
+      },
+      "payor_model": "B端医疗机构采购+政府工程",
+      "business_tags_role": "产品商",
+      "desc_cn": "康复医疗设备商，已退市，涉虚假陈述处罚",
+      "founded": 1996,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2011-10",
+          "text": "A股上市（300273）"
+        },
+        {
+          "date": "2023-03",
+          "text": "因虚假陈述被罚300万"
+        },
+        {
+          "date": "2023",
+          "text": "终止上市（和佳退）"
+        }
+      ],
+      "highlights": [
+        "原康复医疗设备商，已终止上市（和佳退）",
+        "2023因虚假陈述被罚300万",
+        "康复医院+医用工程为主，银发专项弱"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "康复医疗设备关联老年康复，但已退市风险高"
+    },
+    {
+      "serial": "#0227",
+      "signal_strength": 6.55,
+      "info_score": 7.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 68.7,
+      "recommend": {
+        "rec_v1": "信号稳资料实，数字化慢病管理SaaS独特，其医院+患者闭环对银发健康创业者很实用。",
+        "rec_v2": "高信号且上市透明，糖尿病管理差异化清晰，其SaaS+硬件打法值得国内创业者借鉴。",
+        "rec_v3": "政策利好数据详实，差异化在慢病依从性运营，创业者可学其B端医院切入再转C路径。",
+        "info_score": 7.0,
+        "diff_score": 7.0,
+        "copy_score": 7.0,
+        "signal_strength": 6.55,
+        "research_value": 68.7
+      },
+      "payor_model": "B端医院采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "数字化慢病管理SaaS平台，主攻糖尿病",
+      "founded": 2014,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2024-05",
+          "text": "与迈极康医疗战略合作"
+        }
+      ],
+      "highlights": [
+        "国内最大数字化慢病管理商（HK9955）",
+        "智云医汇医院SaaS+患者管理",
+        "聚焦糖尿病等老年高发慢病"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "慢病管理SaaS服务于老年慢病人群"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0009",
+      "name": "南京新百",
+      "intro": "A股上市企业，通过安康通/Natali/禾康等品牌运营居家、社区、机构全场景养老。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "居家养老",
+          "reason": "旗下安康通主攻居家养老，现标签仅养老机构，缺居家维度"
+        },
+        {
+          "action": "add",
+          "tag": "智慧养老",
+          "reason": "安康通为智慧养老呼叫/监测，建议补智能科技维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0011",
+      "name": "可靠股份",
+      "intro": "成人失禁护理用品国产龙头，A股上市（301298），覆盖全品类银发刚需耗材。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "纸尿裤"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "成人失禁",
+          "reason": "成人失禁护理龙头，标签仅纸尿裤颗粒度偏粗"
+        }
+      ]
+    },
+    {
+      "serial": "#0020",
+      "name": "悦心健康",
+      "intro": "原斯米克陶瓷转型医养结合，A股上市（002162），布局康养社区、康复医疗与老年教育。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康养地产"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "康复医疗",
+          "reason": "布局康复医疗与认知症照护，现标签缺医疗维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0030",
+      "name": "程天",
+      "intro": "具身智能外骨骼机器人企业（RoboCT），主攻老人助行与社区康养康复场景。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼",
+          "助行器"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "具身智能机器人，建议补AI/智能科技维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0038",
+      "name": "量子之歌",
+      "intro": "纳斯达克上市（QSG）在线教育集团，千尺学堂聚焦中老年兴趣学习，战略转向银发文娱。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育",
+          "兴趣社群"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发教育",
+          "reason": "千尺学堂聚焦中老年，建议明确银发教育标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0070",
+      "name": "中顺洁柔",
+      "intro": "生活用纸龙头，百亿级营收，跨界适老日用品并以健走团触达银发群体，布局尚浅。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "个人护理"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "适老用品",
+          "reason": "已推适老用品，建议补该维度以反映跨界"
+        }
+      ]
+    },
+    {
+      "serial": "#0082",
+      "name": "亲和源",
+      "intro": "高端会员制CCRC养老社区运营商，2016年被宜华健康全资收购，旗舰店位于上海康桥。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康养地产"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "CCRC持续照料",
+          "reason": "会员制CCRC是其核心模式，现标签未体现"
+        },
+        {
+          "action": "change",
+          "tag": "被收购（非上市）",
+          "reason": "亲和源从未独立上市，2016被宜华健康全资收购，stage应改被收购"
+        }
+      ]
+    },
+    {
+      "serial": "#0086",
+      "name": "仙乐健康",
+      "intro": "营养保健食品CDMO龙头，以B端代工为主，银发营养布局较弱且偏境外业务。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "膳食补充剂"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "营养代工",
+          "reason": "实为CDMO代工，标签未体现代工属性"
+        }
+      ]
+    },
+    {
+      "serial": "#0091",
+      "name": "优必选",
+      "intro": "人形机器人龙头（09880.HK），推出智慧康养机器人及云平台，与麦迪合资发布康养版。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "人形机器人"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "康养机器人",
+          "reason": "已发布康养版机器人，建议补康养场景标签"
+        },
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "人形机器人属AI智能科技，建议补维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0100",
+      "name": "倍轻松",
+      "intro": "智能按摩健康硬件龙头，2024营收10.85亿，新增养老概念切入适老化产品。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "个人护理"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "适老健康",
+          "reason": "切入适老化健康产品，建议补适老维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0129",
+      "name": "和佳医疗",
+      "intro": "原康复医疗设备与医用工程商，A股上市（300273）后于2023年因虚假陈述退市（和佳退）。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "医用工程",
+          "reason": "含医院整体方案与医用工程，现标签未覆盖"
+        },
+        {
+          "action": "change",
+          "tag": "已退市（风险标注）",
+          "reason": "已于2023终止上市并涉处罚，stage与风险需在库中标明"
+        }
+      ]
+    },
+    {
+      "serial": "#0227",
+      "name": "智云健康",
+      "intro": "国内最大数字化慢病管理SaaS平台（HK9955），智云医汇覆盖医院与患者端，主攻糖尿病。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "糖尿病"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "上市公司",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "健康服务",
+          "reason": "当前tag_l1标为食品营养错误，实为慢病管理SaaS平台"
+        },
+        {
+          "action": "add",
+          "tag": "慢病管理",
+          "reason": "核心为慢病管理SaaS，建议补该标签"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0070",
+      "name": "中顺洁柔",
+      "verdict": "泛医疗擦边",
+      "reason": "主业为生活用纸，银发仅作品牌跨界营销，缺乏专属老年产品与业务体系。"
+    },
+    {
+      "serial": "#0086",
+      "name": "仙乐健康",
+      "verdict": "泛医疗擦边",
+      "reason": "实为营养保健品CDMO代工，银发营养关联弱且以境外B端业务为主。"
+    }
+  ]
+}

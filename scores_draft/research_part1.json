@@ -1,0 +1,251 @@
+{
+  "pack": 1,
+  "enterprises": [
+    {
+      "serial": "#0594",
+      "founded_verified": "1992（由 Mary Swanson 创立于美国亚利桑那州，首期在15个地点开课；现品牌隶属于 Tivity Health）",
+      "hq": "美国田纳西州富兰克林（Tivity Health 总部；品牌1992年创立于亚利桑那州）",
+      "one_liner": "面向65岁以上老人的免费社区健身与社交会员项目，由 Medicare Advantage/Medigap 保险计划买单，覆盖全美上万个健身与老年中心网点。",
+      "key_products": [
+        "SilverSneakers 老年健身会员计划（Medicare Advantage/Medigap 买单，覆盖约2.3万家网点）",
+        "SilverSneakers LIVE 线上直播/点播课",
+        "Prime Fitness（18-65 健身）",
+        "Burnalong（2023年收购的数字健康平台）",
+        "WholeHealth Living / Flip50（非药物健康方案 / 50+ 健康）"
+      ],
+      "funding_latest_corrected": {
+        "round": "被 Healthways 收购（Healthways 于2017年更名 Tivity Health）",
+        "amount": "$4.5亿",
+        "currency": "USD",
+        "date": "2006",
+        "investors": ["Healthways（现 Tivity Health）"]
+      },
+      "funding_total_corrected": {
+        "amount": "无独立融资；2006年起为 Tivity Health 资产，母公司 Tivity Health 于2022年被 Stone Point Capital 以 $20亿 私有化",
+        "currency": "USD"
+      },
+      "events": [
+        "1992 SilverSneakers 由 Mary Swanson 创立于亚利桑那州",
+        "2006 被 Healthways 以 4.5 亿美元收购",
+        "2017 Healthways 更名为 Tivity Health",
+        "2022 Tivity Health 被 Stone Point Capital 以 20 亿美元私有化",
+        "2023 收购数字健康平台 Burnalong"
+      ],
+      "payor_model": "B端机构付费（Medicare Advantage 及 Medicare 补充险计划按人头月费支付给 Tivity Health，会员免费使用）；老人若持有相应保险则0自费。",
+      "business_tags_suggest": {"role": "服务商（老年健身健康项目/平台）"},
+      "latest_news": [
+        {"title": "1900万老人“免费”健身,0成本撬动144亿,保险巨头“抢着买单”", "date": "2025", "source": "web", "url": "https://m.jiemian.com/article/12867854.html"},
+        {"title": "Are taxpayers wasting $86 billion on SilverSneakers and Medicare Advantage goodies they don't use?", "date": "2025-11", "source": "web", "url": "https://www.morningstar.com/news/marketwatch/20251105235/are-taxpayers-wasting-86-billion-on-silversneakers-and-medicare-advantage-goodies-they-dont-use"},
+        {"title": "SilverSneakers Marks Unparalleled 30 Year Legacy of Reinventing Active Aging", "date": "2022-05-11", "source": "web", "url": "https://www.wfmz.com/news/pr_newswire/pr_newswire_health/silversneakers-marks-unparalleled-30-year-legacy-of-reinventing-active-aging/article_51958cbd-302e-5b2c-8336-c56ffe5df57b.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为 Medicare 65+ 老年群体设计的健身与健康社交项目，会员均为老年人，业务完全围绕银发人群，且由医保/Medi补充险支付方直接买单。",
+      "info_aid": "成立年(1992)、被 Healthways 收购(2006)、母公司2022年被 Stone Point 以20亿美元私有化等多源公开资料（界面、澎湃、PRNewswire、Morningstar）可交叉验证，信息量大且可信；全球服务约1900万老人、2.3万家网点，大企业/热点素材充足，易写深度。",
+      "diff_aid": "全美最大老年健身项目，绑定 Medicare Advantage 保险支付方，形成'保险买单—老人免费健身—降低医疗支出16%'的闭环，轻资产'中间商'模式反常识；母公司 Tivity 曾因收购 Nutrisystem 战略失焦又闪电剥离，起落明显。",
+      "copy_aid": "国内有乐刻/超级猩猩等健身，但'保险买单的老年健身'几乎空白；支付方差异（美国 Medicare Advantage 成熟商保 vs 中国商业健康险刚起步）使模式可借鉴但依赖支付方成熟，属蓝海/空白。",
+      "sources": [
+        "https://m.jiemian.com/article/12867854.html",
+        "https://www.morningstar.com/news/marketwatch/20251105235/are-taxpayers-wasting-86-billion-on-silversneakers-and-medicare-advantage-goodies-they-dont-use",
+        "https://www.wfmz.com/news/pr_newswire/pr_newswire_health/silversneakers-marks-unparalleled-30-year-legacy-of-reinventing-active-aging/article_51958cbd-302e-5b2c-8336-c56ffe5df57b.html",
+        "https://www.prnewswire.com/news-releases/tivity-health-announces-ceo-transition-301770380.html"
+      ]
+    },
+    {
+      "serial": "#0595",
+      "founded_verified": "1995（IAC 由 Barry Diller 创立于纽约，前身为 Silver King Communications；其银发相关资产 Care.com 由 Sheila Lirio Marcelo 于2007年创立）",
+      "hq": "美国纽约州纽约市（IAC 总部，Chelsea；Care.com 总部马萨诸塞州沃尔瑟姆）",
+      "one_liner": "IAC 是 Barry Diller 创立的互联网/媒体控股集团（NASDAQ:IAC），2019年以5亿美元收购家庭照护平台 Care.com 借其老年照护板块切入银发经济，2026年以3.2亿美元出售 Care.com。",
+      "key_products": [
+        "Care.com 家庭照护匹配平台（含 senior care 老年照护，为增长最快板块）",
+        "Care@Work 企业家庭照护福利（含老年照护规划）",
+        "Angi/HomeAdvisor 家庭服务（非银发）"
+      ],
+      "funding_latest_corrected": {
+        "round": "收购 Care.com（银发相关核心资产）",
+        "amount": "$5亿",
+        "currency": "USD",
+        "date": "2019-12",
+        "investors": ["IAC"]
+      },
+      "funding_total_corrected": {
+        "amount": "N/A（IAC 为纳斯达克上市公司 Nasdaq:IAC；银发相关动作为 2019 年 5 亿美元收购、2026 年 3.2 亿美元出售 Care.com）",
+        "currency": "USD"
+      },
+      "events": [
+        "1995 IAC（原 Silver King）由 Barry Diller 创立于纽约",
+        "2007 Care.com 由 Sheila Lirio Marcelo 创立（家庭照护匹配平台）",
+        "2019-12 IAC 宣布以 5 亿美元收购 Care.com",
+        "2020-02 收购完成，Care.com 成为 IAC 全资子公司",
+        "2026-03-02 IAC 宣布以约 3.2 亿美元将 Care.com 出售给 Pacific Avenue Capital Partners",
+        "2026-03-16 交易完成，Care.com 从 IAC 剥离"
+      ],
+      "payor_model": "混合（Care.com C端家庭订阅/按次自付 + B端雇主福利 Care@Work 由企业买单）",
+      "business_tags_suggest": {"role": "平台（家庭照护市场 Care.com）/ 控股集团"},
+      "latest_news": [
+        {"title": "Pacific Avenue Capital Partners to Acquire IAC's Care.com ($320M)", "date": "2026-03-02", "source": "web", "url": "https://www.care.com/about/press/pacific-avenue-capital-partners-to-acquire-iacs-care-com"},
+        {"title": "IAC Completes Sale of Care.com (SEC Form 8-K)", "date": "2026-03-16", "source": "web", "url": "https://www.sec.gov/Archives/edgar/data/1800227/000110465926028545/tm268870d1_8k.htm"},
+        {"title": "IAC Announces Agreement to Acquire Care.com ($500M)", "date": "2019-12-20", "source": "web", "url": "https://www.iac.com/press-releases/iac-announces-agreement-to-acquire-care-com"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "主体 IAC 为综合互联网/媒体控股集团，仅通过子公司 Care.com 提供老年照护匹配服务；而 Care.com 同时覆盖儿童/宠物/家政照护（全龄段平台），老年业务仅为其一部分，非专为老人，故判为泛医疗擦边。",
+      "info_aid": "IAC 收购 Care.com 的5亿美元价格、2019宣布/2020完成均有 IAC 官方稿与 SEC 文件佐证；2026年3.2亿美元出售亦有 Care.com 官方稿与 IAC 8-K 确认，信息可靠。但作为银发题材，IAC 主业非银发、中文报道少，信息量中等。",
+      "diff_aid": "用'互联网集团收购垂直照护平台再分拆'的打法独特；Care.com 全龄段平台中 senior care 增长最快，反常识；2026年 IAC 以3.2亿（低于5亿买入价）出售，战略起落明显。",
+      "copy_aid": "国内类似'家庭照护匹配平台'（天鹅到家、58到家等）众多，但纯老年照护匹配多为区域化、融资规模小、无上市巨头；支付方差异（美国雇主福利 Care@Work 成熟 vs 中国雇主照护福利稀缺）使模式可部分平移但需教育市场，属早期/空白。",
+      "sources": [
+        "https://www.iac.com/press-releases/iac-announces-agreement-to-acquire-care-com",
+        "https://ir.iac.com/node/23536/html",
+        "https://www.care.com/about/press/pacific-avenue-capital-partners-to-acquire-iacs-care-com",
+        "https://www.sec.gov/Archives/edgar/data/1800227/000110465926028545/tm268870d1_8k.htm",
+        "https://www.bizjournals.com/newyork/news/2019/12/20/iac-buys-care-com-appoints-new-ceo.html"
+      ]
+    },
+    {
+      "serial": "#0850",
+      "founded_verified": "2010（由 WebMD 创始人 Jeff Arnold 与 Dr. Mehmet Oz 共同创立于美国亚特兰大）",
+      "hq": "美国佐治亚州亚特兰大（Atlanta, Georgia）",
+      "one_liner": "数据驱动的数字健康平台，2021年SPAC上市，通过收购 CareLinx（45万+照护人员）切入居家照护，服务支付方、雇主与个人。",
+      "key_products": [
+        "Sharecare 数字健康平台（健康档案/RealAge/慢病管理/健康教练）",
+        "CareLinx 居家照护匹配平台（45万+照护人员，服务老年/失能人群）",
+        "保险/雇主健康福利方案",
+        "数字疗法与循证健康辅导"
+      ],
+      "funding_latest_corrected": {
+        "round": "被 Altaris 私有化收购（take-private）",
+        "amount": "$5.18亿",
+        "currency": "USD",
+        "date": "2024-10",
+        "investors": ["Altaris LLC"]
+      },
+      "funding_total_corrected": {
+        "amount": "2021年SPAC上市（与 Falcon Capital Acquisition Corp 合并，估值约 $39亿，Nasdaq:SHCR）；2024年被 Altaris 以 $5.18亿 私有化",
+        "currency": "USD"
+      },
+      "events": [
+        "2010 Sharecare 由 Jeff Arnold 与 Mehmet Oz 创立于亚特兰大",
+        "2021 与 Falcon Capital Acquisition Corp 通过 SPAC 合并上市（估值约 $39亿，Nasdaq:SHCR）",
+        "2021 以 $6500万 收购 CareLinx（切入居家照护）",
+        "2024-06 Altaris 宣布以 $5.18亿 收购 Sharecare",
+        "2024-10 交易完成，Sharecare 从 Nasdaq 退市私有化",
+        "2025 CareLinx 获 NCQA 认证、22项数字健康奖，扩张居家照护"
+      ],
+      "payor_model": "混合（B端机构付费为主：健康险计划 Medicare Advantage/商业保险、雇主福利、政府项目 Medicare/Medicaid；亦有面向消费者的服务）",
+      "business_tags_suggest": {"role": "服务商（数字健康平台）/ 平台"},
+      "latest_news": [
+        {"title": "Altaris completes acquisition of Sharecare", "date": "2024-10-22", "source": "web", "url": "https://about.sharecare.com/press-releases/altaris-completes-acquisition-of-sharecare"},
+        {"title": "Health Care Investment Firm Altaris Agrees to Acquire Sharecare For $518 Million", "date": "2024-06-21", "source": "web", "url": "https://homehealthcarenews.com/2024/06/health-care-investment-firm-altaris-agrees-to-acquire-sharecare-for-518-million/"},
+        {"title": "CareLinx Sees 'Explosive Growth' For Sharecare, With MA Business Netting 1.8M New Members", "date": "2023-03-29", "source": "web", "url": "https://homehealthcarenews.com/company/sharecare"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "全龄段数字健康平台，通过 CareLinx 居家照护网络（45万+照护人员）直接服务老年/失能人群并做慢病管理；但主体平台面向全龄段健康，非专为老人，故判为泛医疗擦边（CareLinx 本身属核心银发）。",
+      "info_aid": "Sharecare 被 Altaris 收购金额(5.18亿)、时间、CareLinx 收购价(6500万)均有官方新闻稿及 Home Health Care News 等医疗媒体佐证；WebMD 创始人光环+SPAC上市又私有化的起落是热点，信息量大。",
+      "diff_aid": "数字健康平台+居家照护(CareLinx)双轮，跨雇主/保险/政府/药企多支付通道；SPAC上市（估值39亿）仅3年即被以5.18亿私有化，估值大幅缩水，反常识起落。",
+      "copy_aid": "国内有类似'数字健康/慢病管理+居家护理'平台（善诊、福寿康、互联网医院），但'保险/雇主买单的整合式数字健康+居家护理'成熟模式少、无上市巨头；支付方差异（美国 MA/雇主福利成熟 vs 中国商保/长护险起步）使模式可借鉴但需支付方成熟，属蓝海。",
+      "sources": [
+        "https://about.sharecare.com/press-releases/altaris-completes-acquisition-of-sharecare",
+        "https://homehealthcarenews.com/2024/06/health-care-investment-firm-altaris-agrees-to-acquire-sharecare-for-518-million/",
+        "http://altariscap.com/news/altaris-enters-into-agreement-to-aquire-sharecare",
+        "https://homehealthcarenews.com/company/sharecare",
+        "https://www.vbdata.cn/intelDetail/191259"
+      ]
+    },
+    {
+      "serial": "#0012",
+      "founded_verified": "2015（由吴竑兴创立于上海；运营主体为上海维跃信息科技有限公司，定位'父母健康找善诊'）",
+      "hq": "中国上海（浦东新区）",
+      "one_liner": "面向中老年人群的体检预约与健康管理平台，并首创老年医疗险风控，连接子女、父母与保险公司，形成'服务+数据'闭环，累计融资近10亿元。",
+      "key_products": [
+        "定制体检与全国体检服务网络（覆盖近2000家体检/三甲医院、300+城市）",
+        "老年医疗险风控与TPA（为保险公司提供核保定价与数据服务）",
+        "善太医 AI（接入 DeepSeek 的体检数据处理）",
+        "健康管理服务（检后解读、复查提醒）"
+      ],
+      "funding_latest_corrected": {
+        "round": "B轮（高瓴、启明于后续轮次入局，未单独披露）",
+        "amount": "数千万美元",
+        "currency": "USD",
+        "date": "2019-05",
+        "investors": ["SIG海纳亚洲（领投）", "蓝驰创投", "纪源资本(GGV)"]
+      },
+      "funding_total_corrected": {
+        "amount": "近10亿元人民币（累计多轮）",
+        "currency": "CNY"
+      },
+      "events": [
+        "2015 善诊由吴竑兴创立于上海（运营主体上海维跃信息科技有限公司）",
+        "2015-04 天使轮 1000万人民币（蓝驰创投）",
+        "2016-04 A轮 700万美元（GGV、蓝驰）",
+        "2019-05 B轮 数千万美元（SIG领投，蓝驰、GGV跟投）",
+        "2019 高瓴资本、启明创投于后续轮次入局（金额未披露）",
+        "2025-02 发布接入 DeepSeek 的 AI 总检一体机（体检数据处理+210%）",
+        "2025-08 发布银发族体检蓝海战略"
+      ],
+      "payor_model": "混合（子女/个人自付体检 + 商业保险 + 与保险公司合作的 B 端健康服务/风控 + 企业员工体检福利）",
+      "business_tags_suggest": {"role": "服务商（健康服务+保险科技平台）"},
+      "latest_news": [
+        {"title": "瞄准3000亿体检蓝海,善诊谋局智能化", "date": "2025-08-30", "source": "web", "url": "https://news.qq.com/rain/a/20250830A06LSF00"},
+        {"title": "善诊发布接入DeepSeek成绩单(体检数据处理+210%)", "date": "2025-02-26", "source": "web", "url": "https://digi.china.com/articles/20250226/202502261641375.html"},
+        {"title": "善诊吴竑兴入选2024年浦东新区明珠计划'菁英人才'", "date": "2024", "source": "web", "url": "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6808591ea310f54263473dd4.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "业务完全围绕父母/中老年健康（老年体检、老年医疗险风控、子女照料父母），是专为银发人群设计的健康服务与保险科技平台。",
+      "info_aid": "成立时间(2015)、B轮融资(2019, SIG/GGV/蓝驰)、累计近10亿融资由天眼查、动脉网、人民网白皮书等多源印证；2025年DeepSeek热点与界面/腾讯报道多，信息量大易写深度。",
+      "diff_aid": "国内少见以健康数据驱动打通'预防—干预—支付（保险）'全产业链的银发互联网大健康公司，首创老年医疗险风控，'服务+数据'双轮模式独特；但体检预约赛道已有美年/爱康等巨头，差异化在老年+保险风控。",
+      "copy_aid": "国内同类多（美年大健康、爱康国宾、瑞慈等连锁体检及平安好医生），有上亿融资/上市企业；'老年专属体检+保险风控'细分仍蓝海；支付方差异（中国医保不覆盖常规体检、商保起步）使平移容易但依赖支付方成熟。",
+      "sources": [
+        "https://www.tianyancha.com/company/2944854696",
+        "https://data.iyiou.com/company/details/74c824572a494a4bdfecc91ef14b1e3b/profile",
+        "https://www.peopleapp.com/rmharticle/30022750896",
+        "https://news.qq.com/rain/a/20250830A06LSF00",
+        "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6808591ea310f54263473dd4.html"
+      ]
+    },
+    {
+      "serial": "#0461",
+      "founded_verified": "1982（创立于美国路易斯安那州巴吞鲁日 Baton Rouge）",
+      "hq": "美国路易斯安那州巴吞鲁日（Baton Rouge, Louisiana）",
+      "one_liner": "美国大型居家医疗、临终关怀与安宁疗护服务商，每年服务超46.5万患者，2025年被 UnitedHealth/Optum 以33亿美元收购。",
+      "key_products": [
+        "居家健康护理（Home Health）",
+        "临终关怀（Hospice）",
+        "姑息治疗（Palliative Care）",
+        "个人护理与医疗陪护"
+      ],
+      "funding_latest_corrected": {
+        "round": "被 Optum/UnitedHealth 收购（take-private）",
+        "amount": "$33亿",
+        "currency": "USD",
+        "date": "2025-08",
+        "investors": ["UnitedHealth/Optum"]
+      },
+      "funding_total_corrected": {
+        "amount": "原美股上市公司（Nasdaq:AMED，2025年被收购退市）",
+        "currency": "USD"
+      },
+      "events": [
+        "1982 Amedisys 创立于路易斯安那州巴吞鲁日",
+        "2014 在 Nasdaq 上市（AMED）",
+        "2023-06 Optum 宣布以101美元/股（约33亿美元）收购 Amedisys",
+        "2024-11 DOJ 提起反垄断诉讼阻止交易",
+        "2025-08-07 与 DOJ 达成和解（剥离164个网点予 BrightSpring 与 Pennant）",
+        "2025-08-14 交易正式完成，Amedisys 成为 UnitedHealth 全资子公司并退市"
+      ],
+      "payor_model": "政府支付为主（Medicare/Medicaid 报销居家医疗与安宁疗护）+ 商业保险",
+      "business_tags_suggest": {"role": "服务商（居家医疗/安宁疗护）"},
+      "latest_news": [
+        {"title": "UnitedHealth closes $3.3B Amedisys buy after long antitrust review", "date": "2025-08-15", "source": "web", "url": "https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/"},
+        {"title": "UnitedHealth Group, Amedisys close $3.3B merger deal", "date": "2025-08-14", "source": "web", "url": "https://www.fiercehealthcare.com/payers/unitedhealth-amedisys-sell-facilities-settlement-doj"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家医疗与安宁疗护患者以老年慢病/临终群体为主（年服务46.5万患者），业务高度依赖银发人群，属核心银发。",
+      "info_aid": "收购金额(33亿美元/101美元股)、完成时间(2025-08-14)、DOJ 剥离164个网点等由 Healthcare Dive、Fierce Healthcare、Federal Register 一致报道，信息量大且权威，易写深度。",
+      "diff_aid": "全美居家医疗+安宁疗护头部，被联合健康以33亿收入囊中经历两年反垄断拉锯（剥离164个网点），垂直整合典型，起落巨大。",
+      "copy_aid": "国内居家护理/上门护理赛道有（福寿康、颐家、关爱通等），但多为区域化、融资数亿级、无巨头上市；支付方差异（美国 Medicare 覆盖居家护理 vs 中国长护险试点起步）使模式可借鉴但支付方成熟度差异大，国内仍早期/空白。",
+      "sources": [
+        "https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/",
+        "https://www.fiercehealthcare.com/payers/unitedhealth-amedisys-sell-facilities-settlement-doj",
+        "https://www.federalregister.gov/documents/2025/11/19/2025-20311/united-states-et-al-v-unitedhealth-group-incorporated-et-al-response-of-plaintiff-united-states-to"
+      ]
+    }
+  ]
+}

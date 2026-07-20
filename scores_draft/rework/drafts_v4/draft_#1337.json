@@ -1,34 +1,80 @@
 {
   "serial": "#1337",
-  "recommend": "AI医疗语音认知监测厂商，2016年成立、2024年9月获WindRose战略投资，累计融资约1230万美元（信号）。其Eleanor语音引擎通过分析通话语调变化筛查认知症，临床合作数据逐步公开（信息量）。和国内远也、云芯信息等相比，其非侵入语音biomarker路线少见（差异化）。国内已有类似（远也、云芯信息），其语音加认知筛查的低门槛医疗打法可借鉴（可复制）。",
-  "desc_cn": "这家纽约公司2016年创立，用人工智能语音分析识别认知症与神经退行风险，核心产品Eleanor通过通话语调与语言特征变化做远程筛查，2024年9月拿到WindRose的战略投资支持，累计融资规模约1230万美元。",
-  "silver_reason": "以非侵入的语音分析早期识别老年认知症，属可穿戴监测与认知筛查方向，可显著提前干预窗口，契合银发脑健康管理的迫切需求。",
-  "payor_model": "B端机构采购",
+  "name": "MyndYou",
+  "region": "海外",
+  "category_l1": "医疗健康",
+  "category_l2": "认知症",
+  "tags": [
+    "可穿戴监测"
+  ],
+  "description": "AI 语音+活动分析远程监测认知变化。",
+  "highlights": [
+    "入选2021世界经济论坛科技先锋",
+    "Eleanor已接入Epic医疗系统",
+    "已服务多家美国医疗集团"
+  ],
   "funding_latest": {
-    "display": "2024-09 战略投资（WindRose）"
+    "date": "2020-04",
+    "amount": "400万美元",
+    "round": "A轮",
+    "display": "2020年A轮400万美元"
   },
   "funding_total": {
-    "display": "累计约1230万美元"
+    "amount": "约$6.1M",
+    "display": "累计约$6.1M"
+  },
+  "investors": "BIRD基金",
+  "founded": "2016",
+  "value_score": 0,
+  "source": "信源治理入库(以色列经部) 2026-07-15",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+  "website_url": "https://www.myndyou.com",
+  "business_model": "B2B SaaS",
+  "desc_cn": "这家纽约公司2016年创立，用人工智能语音分析识别认知症与神经退行风险，核心产品Eleanor通过通话语调与语言特征变化做远程筛查，2024年9月拿到WindRose的战略投资支持，累计融资规模约610万美元。",
+  "business_model_cn": "B2B 远程监测",
+  "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+  },
+  "name_cn": "MyndYou",
+  "tag_l1": [
+    "康复辅具"
+  ],
+  "tag_l2": [
+    "可穿戴监测"
+  ],
+  "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
   },
   "stage": "成长期",
-  "founded_year": 2016,
-  "highlights": [
-    "2016成立",
-    "2024-09 WindRose战略投资",
-    "Eleanor语音引擎",
-    "认知症筛查"
-  ],
+  "recommend": "AI语音认知筛查服务商，2016年成立、2024年9月获WindRose战略投资，累计融资约610万美元（信号）。其Eleanor语音引擎通过分析语调与语言变化筛查认知症，并与Montefiore等机构开展临床验证（信息量）。相比国内远也、云芯信息，其纯语音非侵入路线门槛更低（差异化）。国内已有类似（远也、云芯信息），其语音筛查加远程随访的低门槛打法可借鉴（可复制）。",
+  "payor_model": "B端机构采购",
+  "signal_strength": 0.55,
+  "info_score": 6.0,
+  "diff_score": 5.5,
+  "copy_score": 7.5,
+  "research_value": 45.6,
   "events": [
-    "2024-09 获WindRose战略投资"
+    "2016年成立于纽约",
+    "2018年获BIRD基金会约90万美元研发资助",
+    "2020年4月完成400万美元A轮（Howard Morgan等）",
+    "2021年入选世界经济论坛科技先锋",
+    "2024年9月获WindRose Health战略投资（金额未披露）",
+    "2025年6月Eleanor接入Epic医疗系统"
   ],
-  "business_model": "语音认知监测SaaS，向医疗机构与支付方收费（B端）",
+  "silver_verdict": "核心银发",
+  "silver_reason": "以非侵入的语音分析早期识别老年认知症，属可穿戴监测与认知筛查方向，可显著提前干预窗口，契合银发脑健康管理的迫切需求。",
+  "update_time": "2026-07-19",
+  "founded_year": 2016,
   "coverage_regions": [
     "美国",
-    "纽约"
+    "以色列"
   ],
   "domestic_competitors": [
     "远也",
-    "云芯信息",
-    "博博科技"
+    "云芯信息"
   ]
 }

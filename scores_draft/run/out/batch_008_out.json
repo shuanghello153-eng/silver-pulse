@@ -1,0 +1,551 @@
+{
+ "batch": 8,
+ "enterprises": [
+  {
+   "serial": "#0459",
+   "signal_strength": 4.55,
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 4.0,
+   "research_value": 54.7,
+   "recommend": {
+    "rec_v1": "信号中等但价值医疗主线清晰；机构背书强、资料易核实；用社工干预SDOH改写初级保健颇具新意；国内医保体系不同难照搬，但其上门协同模式值得参考。",
+    "rec_v2": "虽非纯银发赛道，其复杂人群照护信号明确；融资与团队信息公开透明；把住房食物等社会因素纳入诊疗是差异化关键；对国内整合式社区照护有启发但受支付方制约。",
+    "rec_v3": "信号偏早期但赛道稀缺；公开报道与官网可交叉验证；以家庭为单位打通医疗+社会服务的打法少见；国内长护险起步可局部借鉴其运营框架。",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 4.0,
+    "signal_strength": 4.55,
+    "research_value": 54.7
+   },
+   "payor_model": "政府医保(Medicaid)+价值医疗风险共担",
+   "business_tags_role": "服务商",
+   "desc_cn": "美国价值医疗初级保健，上门+社工照护复杂需求人群",
+   "founded": 2022,
+   "stage": "融资中",
+   "events": [
+    {"date": "2024-01", "text": "完成5600万美元A轮融资，投资方含Venrock、ARCH"}
+   ],
+   "highlights": [
+    "以价值医疗模式为复杂需求Medicaid人群提供上门与社区初级保健",
+    "将食物、住房等社会决定因素(SDOH)纳入诊疗闭环",
+    "获Venrock、ARCH等顶级VC支持，2024年A轮5600万美元"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "业务面向广义复杂需求Medicaid人群，并非专门服务老年人，属医疗公平/价值医疗赛道"
+  },
+  {
+   "serial": "#0467",
+   "signal_strength": 4.55,
+   "info_score": 7.0,
+   "diff_score": 8.0,
+   "copy_score": 5.0,
+   "research_value": 60.7,
+   "recommend": {
+    "rec_v1": "信号稳健且C轮后增长可信；媒体报道与融资记录齐备；把丧亲事务做成标准化SaaS流程属稀缺品类；国内遗产与临终事务需求上升但文化路径不同。",
+    "rec_v2": "虽跨年龄但银发家庭是高发用户；信息透明度高、合作方清晰；将悲伤辅导与保险理赔打包的体验设计独到；可借鉴其B端险企合作而非直接照搬产品。",
+    "rec_v3": "信号中等偏上、商业模式已验证；公开资料足以支撑研究；用分步引导降低身后事处理门槛的思路新颖；国内可参考其服务设计，落地需适配本土信任链。",
+    "info_score": 7.0,
+    "diff_score": 8.0,
+    "copy_score": 5.0,
+    "signal_strength": 4.55,
+    "research_value": 60.7
+   },
+   "payor_model": "个人自费+商业保险企业采购",
+   "business_tags_role": "服务商",
+   "desc_cn": "美国丧亲与遗产事务管理App，对接寿险公司",
+   "founded": 2020,
+   "stage": "融资中",
+   "events": [
+    {"date": "2025-05", "text": "完成7200万美元C轮融资，累计1.62亿美元"}
+   ],
+   "highlights": [
+    "将丧亲事务、遗产清算、保险理赔做成标准化分步SaaS流程",
+    "2025年C轮7200万美元，累计融资1.62亿美元",
+    "与寿险公司合作，定位'生命遗产规划'赛道"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "核心场景为丧亲与遗产事务，跨年龄通用，仅银发家庭为高发用户，非专属老年服务"
+  },
+  {
+   "serial": "#0469",
+   "signal_strength": 4.55,
+   "info_score": 6.0,
+   "diff_score": 6.0,
+   "copy_score": 4.0,
+   "research_value": 51.7,
+   "recommend": {
+    "rec_v1": "信号明确聚焦居家养老；Kaiser等产业资本入局信息可查；依托PACE做社区嵌入式照护差异清晰；国内长护险可借鉴其居家整合模式，但PACE牌照难复制。",
+    "rec_v2": "银发居家照护信号强；融资与合伙方公开透明；以技术平台串联医疗与社区服务的新意在于可规模化的PACE运营；国内可学其整合逻辑而非美国项目框架。",
+    "rec_v3": "信号稳、定位精准；官网与投资人信息充分；把慢病管理与生活独立绑定是差异化卖点；对国内社区养老服务中心有参考，受本土支付结构约束。",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 4.0,
+    "signal_strength": 4.55,
+    "research_value": 51.7
+   },
+   "payor_model": "政府医保(PACE/Medicare)",
+   "business_tags_role": "平台",
+   "desc_cn": "PACE模式居家养老技术平台，助长者社区独立",
+   "founded": 2023,
+   "stage": "融资中",
+   "events": [
+    {"date": "2024-09", "text": "完成5000万美元融资，投资方含Town Hall Ventures、NEA、Kaiser Permanente"}
+   ],
+   "highlights": [
+    "依托PACE计划为长者提供社区嵌入式居家照护",
+    "技术平台串联医疗提供方解决健康社会决定因素",
+    "获Kaiser Permanente等产业资本投资"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "围绕PACE计划专门服务老年群体，助其在家庭与社区保持独立，银发属性明确"
+  },
+  {
+   "serial": "#0477",
+   "signal_strength": 4.55,
+   "info_score": 8.0,
+   "diff_score": 6.0,
+   "copy_score": 6.0,
+   "research_value": 61.7,
+   "recommend": {
+    "rec_v1": "信号强且a16z等背书易核实；B轮后扩张信息丰富；派员上门做化验与体征监测切中失能老人痛点；国内居家医护起步可借鉴其服务标准化与支付对接。",
+    "rec_v2": "居家医疗信号明确；头部基金与媒体覆盖使信息可靠；以移动化验式轻资产切入检验环节颇具巧思；国内可复制其上门检测网络，需突破医保定点限制。",
+    "rec_v3": "信号中等偏上、成长性清晰；公开融资与新闻交叉印证；把诊前检验搬到家中的差异化降低就医门槛；对国内网约护士业态有启发，依赖本地医疗合规。",
+    "info_score": 8.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "signal_strength": 4.55,
+    "research_value": 61.7
+   },
+   "payor_model": "政府医保(Medicare/Medicaid)",
+   "business_tags_role": "服务商",
+   "desc_cn": "美国上门移动医疗，为老年及失能者做化验",
+   "founded": 2021,
+   "stage": "融资中",
+   "events": [
+    {"date": "2025-05", "text": "完成5500万美元B轮融资，累计1.25亿美元"}
+   ],
+   "highlights": [
+    "派护士/采血师上门完成化验与生命体征检测",
+    "主要支付方为Medicare/Medicaid，服务老年及行动不便人群",
+    "2025年B轮5500万美元(a16z、General Catalyst、GV)"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "以Medicare(65+)为主要支付方，专注老年及行动不便人群的上门医疗，银发属性强"
+  },
+  {
+   "serial": "#0481",
+   "signal_strength": 4.55,
+   "info_score": 6.0,
+   "diff_score": 6.0,
+   "copy_score": 6.0,
+   "research_value": 55.7,
+   "recommend": {
+    "rec_v1": "信号稳、服务5万长者可佐证；机构信息中等透明；让居家护理员与医生共享数据的协同机制是核心差异；国内可学其信息打通，受隐私与支付制约。",
+    "rec_v2": "银发居家照护信号明确；融资与规模数据公开；以护理协调平台提升疗效的打法差异化明显；国内长护险试点可借鉴其多方协同，落地需打通医保数据。",
+    "rec_v3": "信号偏早期但场景真实；公开资料足以研究；把非正式照护者纳入临床闭环的思路少见；参考价值在协同框架，国内复制要看家庭护理员职业化进程。",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "signal_strength": 4.55,
+    "research_value": 55.7
+   },
+   "payor_model": "政府医保+管理式医疗计划",
+   "business_tags_role": "平台",
+   "desc_cn": "居家护理协同平台，连接护理员与临床医生",
+   "founded": 2018,
+   "stage": "融资中",
+   "events": [
+    {"date": "2024-09", "text": "完成6500万美元融资"}
+   ],
+   "highlights": [
+    "连接居家护理员与付款人、临床医生共享信息改善疗效",
+    "已服务超5万老年人",
+    "平台化协调居家护理，降低再住院与急诊"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专为居家老年人提供护理协调服务，已覆盖超5万长者，银发属性明确"
+  },
+  {
+   "serial": "#0482",
+   "signal_strength": 4.55,
+   "info_score": 7.0,
+   "diff_score": 5.0,
+   "copy_score": 4.0,
+   "research_value": 52.7,
+   "recommend": {
+    "rec_v1": "信号明确、MA人群定位清晰；亿元级融资与ACO模式信息可查；以数据分析驱动慢病协调照护差异在中后台；国内可借鉴其风控，但价值医疗契约难照搬。",
+    "rec_v2": "银发慢病管理信号稳；融资与合伙方公开；把初级保健打包进ACO按效果付费是新意；对国内医共体有参考，受支付方式差异限制。",
+    "rec_v3": "信号中等、赛道成熟；官网与融资记录充分；以数据平台协调多方照护的轻模式差异明显；国内可学其慢病管理，价值医疗土壤尚浅。",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 4.0,
+    "signal_strength": 4.55,
+    "research_value": 52.7
+   },
+   "payor_model": "商业保险(Medicare Advantage)",
+   "business_tags_role": "服务商",
+   "desc_cn": "美国老年价值医疗初级保健，ACO慢病管理",
+   "founded": 2014,
+   "stage": "融资中",
+   "events": [
+    {"date": "2025-07", "text": "完成5500万美元融资，累计融资上亿"}
+   ],
+   "highlights": [
+    "面向Medicare Advantage人群的价值医疗初级保健",
+    "通过ACO模式与数据分析平台做慢病管理与协调照护",
+    "2025年完成5500万美元融资，累计融资上亿"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专门服务老年Medicare Advantage人群做慢病管理与协调照护，银发定位清晰"
+  },
+  {
+   "serial": "#0484",
+   "signal_strength": 4.55,
+   "info_score": 9.0,
+   "diff_score": 6.0,
+   "copy_score": 8.0,
+   "research_value": 68.7,
+   "recommend": {
+    "rec_v1": "信号强、25年沉淀资料极丰；融资与AI转型新闻皆可查；全美最大养老社区撮合网络的规模壁垒是硬差异；国内养老中介可照搬其匹配逻辑与佣金模式。",
+    "rec_v2": "银发中介龙头信号明确；公开信息充分且持续更新；把1.6万机构标准化展示+免费家庭端是体验差异；国内可高度复制其平台化撮合与B端收费结构。",
+    "rec_v3": "信号高、模式已被验证；历史融资与近期AI动向透明；以咨询入口绑定后续居家照护的生态打法新颖；国内可借鉴其流量入口定位，需本地机构供给支撑。",
+    "info_score": 9.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "signal_strength": 4.55,
+    "research_value": 68.7
+   },
+   "payor_model": "B端养老机构采购(佣金)",
+   "business_tags_role": "平台",
+   "desc_cn": "美国最大养老社区转介平台，机构付佣金",
+   "founded": 2000,
+   "stage": "融资中",
+   "events": [
+    {"date": "2022-01", "text": "完成1.75亿美元B轮融资"},
+    {"date": "2025-11", "text": "引入AI并扩展居家照护业务，纪念成立25周年"}
+   ],
+   "highlights": [
+    "美国最大老年生活(senior living)转介平台，对接1.6万+机构",
+    "由养老机构支付佣金，家庭端免费",
+    "2025年引入AI并扩展居家照护，成立25周年"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "美国最大养老社区/居家护理转介平台，专门服务老年生活决策，银发属性核心"
+  },
+  {
+   "serial": "#0628",
+   "signal_strength": 4.55,
+   "info_score": 8.0,
+   "diff_score": 8.0,
+   "copy_score": 6.0,
+   "research_value": 65.7,
+   "recommend": {
+    "rec_v1": "信号强、成立即获过亿美元易核实；接入CMS痴呆模型新闻可查；专攻老年精神与痴呆照护的专科定位差异稀缺；国内认知症照护缺口大可借鉴其支付对接。",
+    "rec_v2": "银发精神健康信号明确；融资与GUIDE模型信息透明；把严重精神疾病护理做进MA体系的整合是新意；国内可参考其专科化路径，受医保框架约束。",
+    "rec_v3": "信号稳、赛道精准；公开资料足以支撑；以老年抑郁痴呆为切口的纵向照护差异明显；对国内认知症友好服务有启发，依赖本土精神科资源。",
+    "info_score": 8.0,
+    "diff_score": 8.0,
+    "copy_score": 6.0,
+    "signal_strength": 4.55,
+    "research_value": 65.7
+   },
+   "payor_model": "商业保险(Medicare Advantage)+政府医保",
+   "business_tags_role": "服务商",
+   "desc_cn": "美国老年精神与痴呆专业诊疗照护机构",
+   "founded": 2023,
+   "stage": "融资中",
+   "events": [
+    {"date": "2023-06", "text": "成立即获1.15亿美元A轮(General Atlantic领投)"},
+    {"date": "2025-07", "text": "接入CMS GUIDE痴呆照护创新模型"}
+   ],
+   "highlights": [
+    "专注老年严重精神疾病与痴呆的专业诊疗照护",
+    "2025年接入CMS GUIDE痴呆照护创新模型",
+    "成立即获1.15亿美元A轮(General Atlantic领投)"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专攻老年抑郁、焦虑及痴呆等认知相关行为的专业诊疗，银发精神健康定位精准"
+  },
+  {
+   "serial": "#0652",
+   "signal_strength": 4.55,
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 4.0,
+   "research_value": 54.7,
+   "recommend": {
+    "rec_v1": "信号稳、Inc5000榜首与营收可佐证；融资信息中等；做Medicaid长期照护管理的居家协同差异清晰；国内长护险可借鉴其LTSS框架，受美国支付制约束。",
+    "rec_v2": "银发居家照护信号明确；C轮与收入数据公开；把失能老人长期服务与支持打包运营是新意；国内可学其照护管理，难复制其Medicaid结算体系。",
+    "rec_v3": "信号中等、规模已现；公开信息基本充分；以虚拟+居家混合交付降低照护成本的差异常见；参考价值在运营效率，国内复制要看支付方成熟度。",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 4.0,
+    "signal_strength": 4.55,
+    "research_value": 54.7
+   },
+   "payor_model": "政府医保(Medicaid/Medicare LTSS)",
+   "business_tags_role": "平台",
+   "desc_cn": "Medicaid长期照护居家管理，服务失能老人",
+   "founded": 2017,
+   "stage": "融资中",
+   "events": [
+    {"date": "2022-06", "text": "完成1.4亿美元C轮融资"},
+    {"date": "2023", "text": "位列Inc.5000榜首，营收8.73亿美元"}
+   ],
+   "highlights": [
+    "Medicaid/Medicare长期服务与支持(LTSS)居家照护管理",
+    "2023年Inc.5000榜首，营收8.73亿美元",
+    "面向失能老人群体的虚拟+居家混合交付"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "面向失能老人群体提供Medicaid/Medicare长期照护(LTSS)居家管理，银发属性明确"
+  },
+  {
+   "serial": "#0667",
+   "signal_strength": 4.55,
+   "info_score": 9.0,
+   "diff_score": 5.0,
+   "copy_score": 3.0,
+   "research_value": 56.7,
+   "recommend": {
+    "rec_v1": "信号强、57亿估值与9亿融资易查；覆盖多州信息透明；技术驱动服务复杂人群的模式差异在底层数据；国内可借鉴其社区运营，受Medicaid体系限制。",
+    "rec_v2": "虽面向广义弱势人群、银发占比高；公开资料极丰；把食物住房等社工服务计入诊疗闭环是新意；对国内整合式社区健康有启发，复制受支付结构制约。",
+    "rec_v3": "信号高、标杆性强；融资与会员结构公开；以医生创业+按价值付费切复杂慢病差异清晰；国内可参考其人群分层，美国医保框架难直接迁移。",
+    "info_score": 9.0,
+    "diff_score": 5.0,
+    "copy_score": 3.0,
+    "signal_strength": 4.55,
+    "research_value": 56.7
+   },
+   "payor_model": "政府医保(Medicaid/双重资格)",
+   "business_tags_role": "平台",
+   "desc_cn": "技术驱动价值医疗，服务Medicaid复杂人群",
+   "founded": 2017,
+   "stage": "融资中",
+   "events": [
+    {"date": "2024-01", "text": "完成1亿美元后期融资"},
+    {"date": "2021", "text": "完成1.6亿美元融资，估值超10亿美元(历史轮次)"}
+   ],
+   "highlights": [
+    "技术赋能、按价值付费，服务Medicaid/双重资格复杂人群",
+    "86%会员为Medicaid或双重资格，83%有2种以上慢病",
+    "估值57亿美元，累计融资约9亿美元"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "主要服务Medicaid及双重资格等复杂弱势人群，老年占比高但非专属，属广义价值医疗"
+  },
+  {
+   "serial": "#0675",
+   "signal_strength": 4.55,
+   "info_score": 7.0,
+   "diff_score": 7.0,
+   "copy_score": 5.0,
+   "research_value": 58.7,
+   "recommend": {
+    "rec_v1": "信号稳、累计2.36亿融资可查；住院率降47%数据公开；医生带队上门做风险付费综合照护差异在Patient3D平台；国内可借鉴其居家整合，受合规约束。",
+    "rec_v2": "银发居家医疗信号明确；融资与成效指标透明；把医疗行为健康社工组队上门是新意；国内可学其跨学科协同，难复制其按风险付费契约。",
+    "rec_v3": "信号中等、模式成熟；公开资料充分；以自有人口健康平台支撑居家照护的差异明显；对国内家庭病床有启发，依赖本地医生资源供给。",
+    "info_score": 7.0,
+    "diff_score": 7.0,
+    "copy_score": 5.0,
+    "signal_strength": 4.55,
+    "research_value": 58.7
+   },
+   "payor_model": "政府医保(Medicare/Medicaid)",
+   "business_tags_role": "服务商",
+   "desc_cn": "风险付费居家综合照护，服务老年慢病群体",
+   "founded": 2004,
+   "stage": "融资中",
+   "events": [
+    {"date": "2022-02", "text": "完成1.05亿美元B轮融资"}
+   ],
+   "highlights": [
+    "风险付费的居家综合照护，医生带队跨学科上门",
+    "自有Patient3D®人口健康平台支撑",
+    "宣称降低住院率47%，累计融资约2.36亿美元"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "面向老年Medicare/Medicaid会员提供风险付费居家综合照护，银发定位清晰"
+  },
+  {
+   "serial": "#0725",
+   "signal_strength": 4.55,
+   "info_score": 9.0,
+   "diff_score": 7.0,
+   "copy_score": 5.0,
+   "research_value": 64.7,
+   "recommend": {
+    "rec_v1": "信号强、23亿估值与3.2亿融资易核实；6.5万治疗师网络公开；替治疗师扛理赔行政的轻平台差异清晰；国内可借鉴其保险对接，受商保成熟度制约。",
+    "rec_v2": "虽为广义心理平台、已拓银发支付；信息极丰且持续融资；把资质认证与结算外包给平台的体验新意明显；国内可参考其网络效应，须适配本土支付。",
+    "rec_v3": "信号高、规模已验证；融资与收购动态透明；以保险友好网络降低求诊门槛的差异化突出；对国内心理服务可及性有启发，复制看医保商保协同。",
+    "info_score": 9.0,
+    "diff_score": 7.0,
+    "copy_score": 5.0,
+    "signal_strength": 4.55,
+    "research_value": 64.7
+   },
+   "payor_model": "商业保险+个人自费",
+   "business_tags_role": "平台",
+   "desc_cn": "美国保险友好心理治疗师匹配平台",
+   "founded": 2019,
+   "stage": "融资中",
+   "events": [
+    {"date": "2024-07", "text": "完成1亿美元D轮融资，估值23亿美元"},
+    {"date": "2026-03", "text": "收购Tezi团队推进AI"}
+   ],
+   "highlights": [
+    "全美最大'接受保险'治疗师与精神科医生网络",
+    "为治疗师承担资质认证、保险理赔与结算等行政工作",
+    "2024年D轮1亿美元估值23亿，网络覆盖6.5万+服务提供者"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "为全年龄段保险友好心理治疗师网络，仅近期扩展至MA/Medicaid，非老年专属"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#0459",
+   "name": "Accompany Health",
+   "intro": "美国以价值医疗为基础的综合初级保健机构，为复杂医疗需求的Medicaid人群提供上门与社区照护，并干预社会决定因素(SDOH)以改善健康。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["SDOH"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "居家医疗", "reason": "业务含上门与社区照护，现有标签未体现其居家服务属性"},
+    {"action": "add", "tag": "初级保健", "reason": "核心是价值医疗初级保健机构，建议补充以反映业务实质"}
+   ]
+  },
+  {
+   "serial": "#0467",
+   "name": "Empathy",
+   "intro": "美国丧亲与遗产事务管理应用，帮助用户处理逝者身后的遗产清算、账单、保险理赔等事务，提供分步指导与专家支持，并与寿险公司合作。",
+   "old_tags": {"tag_l1": ["金融保险"], "tag_l2": ["遗产规划"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "丧亲服务", "reason": "核心场景为丧亲后事务处理，'遗产规划'仅覆盖部分，建议补充以反映完整业务"}
+   ]
+  },
+  {
+   "serial": "#0469",
+   "name": "Habitat Health",
+   "intro": "依托PACE计划的技术平台，帮助老年人管理健康并在家庭与社区保持独立，串联医疗提供方解决健康社会决定因素。",
+   "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["养老软件"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "change", "tag": "养老软件→社区居家养老", "reason": "其本质是PACE社区嵌入式养老运营平台，'养老软件'颗粒度过窄未能体现养老服务实质"}
+   ]
+  },
+  {
+   "serial": "#0477",
+   "name": "Sprinter Health",
+   "intro": "提供上门移动医疗服务（抽血、生命体征、医疗测试），主要支付方为Medicare/Medicaid，服务老年及行动不便人群。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家医疗"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": []
+  },
+  {
+   "serial": "#0481",
+   "name": "Vesta Healthcare",
+   "intro": "居家护理协调平台，让居家护理人员与付款人和临床医生共享信息改善治疗效果，已服务超过5万老年人。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家护理"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "护理协调", "reason": "核心是把护理员-临床-付款人信息打通的协调平台，建议在标签中体现'护理协调'"}
+   ]
+  },
+  {
+   "serial": "#0482",
+   "name": "Vytalize Health",
+   "intro": "美国面向老年人的价值医疗初级保健管理机构，通过ACO模式与数据分析平台为老年患者提供慢病管理与协调照护，服务Medicare Advantage人群。",
+   "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["养老软件"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "慢病管理", "reason": "核心业务为老年慢病管理与协调照护，当前'养老软件'未能体现其医疗实质"}
+   ]
+  },
+  {
+   "serial": "#0484",
+   "name": "A Place for Mom",
+   "intro": "美国最大的老年生活(senior living)转介服务平台，免费为家庭对接全美1.6万+养老社区与居家护理机构，由养老机构支付佣金。",
+   "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["养老咨询"], "business_tags": {"customer": "B2B", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "change", "tag": "养老咨询→养老中介/转介", "reason": "其本质是养老社区撮合marketplace，'养老咨询'未能准确反映中介平台定位"}
+   ]
+  },
+  {
+   "serial": "#0628",
+   "name": "Author Health",
+   "intro": "专注老年人复杂精神健康需求的美国医疗公司，为老年群体提供抑郁、焦虑及认知相关行为的专业诊疗与照护协调，已接入CMS GUIDE痴呆照护模型。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["心理健康"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "认知症照护", "reason": "业务重点在老年痴呆/严重精神疾病照护，建议补充'认知症照护'以突出专科定位"}
+   ]
+  },
+  {
+   "serial": "#0652",
+   "name": "CareBridge",
+   "intro": "Medicaid/Medicare长期服务与支持(LTSS)的居家照护管理公司，面向失能老人群体提供虚拟与居家混合交付，2023年Inc.5000榜首。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["远程医疗"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "change", "tag": "远程医疗→长期照护(LTSS)", "reason": "其本质是LTSS长期照护管理而非远程医疗，现有标签与业务实质偏差较大"}
+   ]
+  },
+  {
+   "serial": "#0667",
+   "name": "Cityblock Health",
+   "intro": "技术赋能、按价值付费的医疗提供商，专注服务Medicaid及医保双重资格等复杂需求人群，提供初级医疗、行为健康与社工服务，覆盖多州。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["慢病管理", "诊所"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "SDOH/社会照护", "reason": "核心差异化是把食物住房等社会因素纳入诊疗闭环，建议补充以体现其模式特色"}
+   ]
+  },
+  {
+   "serial": "#0675",
+   "name": "Concerto Care",
+   "intro": "技术赋能、按风险付费的居家综合照护提供商，面向有复杂医疗与社会需求的老年Medicare/Medicaid会员，医生带队跨学科上门，依托Patient3D®平台。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家医疗", "慢病管理"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+   "suggested": []
+  },
+  {
+   "serial": "#0725",
+   "name": "Headway",
+   "intro": "美国心理健康科技公司，搭建全美最大的'接受保险'治疗师与精神科医生网络，为治疗师承担资质认证、保险理赔与结算等行政工作，已扩展至MA/Medicaid。",
+   "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["心理健康"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+   "suggested": [
+    {"action": "add", "tag": "保险对接", "reason": "核心壁垒在替治疗师处理保险理赔结算，建议补充'保险对接'以反映平台价值"}
+   ]
+  }
+ ],
+ "nonsilver": [
+  {
+   "serial": "#0459",
+   "name": "Accompany Health",
+   "verdict": "泛医疗擦边",
+   "reason": "业务面向广义复杂需求Medicaid人群，并非专门服务老年人，属医疗公平/价值医疗赛道"
+  },
+  {
+   "serial": "#0467",
+   "name": "Empathy",
+   "verdict": "泛医疗擦边",
+   "reason": "核心场景为丧亲与遗产事务，跨年龄通用，仅银发家庭为高发用户，非专属老年服务"
+  },
+  {
+   "serial": "#0667",
+   "name": "Cityblock Health",
+   "verdict": "泛医疗擦边",
+   "reason": "主要服务Medicaid及双重资格等复杂弱势人群，老年占比高但非专属，属广义价值医疗"
+  },
+  {
+   "serial": "#0725",
+   "name": "Headway",
+   "verdict": "泛医疗擦边",
+   "reason": "为全年龄段保险友好心理治疗师网络，仅近期扩展至MA/Medicaid，非老年专属"
+  }
+ ]
+}

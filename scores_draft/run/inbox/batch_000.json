@@ -1,0 +1,1191 @@
+{
+ "batch": 0,
+ "tier": "A",
+ "enterprises": [
+  {
+   "serial": "#0565",
+   "name": "Oak Street Health",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "诊所"
+   ],
+   "description": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+   "highlights": "以预防性、全面护理为特色。平均患者年龄68岁",
+   "funding_latest": {
+    "date": "2023-05",
+    "amount": "106亿美元收购",
+    "round": "被Optum收购",
+    "display": "被Optum收购 106亿美元收购 (2023-05)"
+   },
+   "funding_total": {
+    "amount": "$201M",
+    "display": "$201M (IPO前累计融资, 2020年IPO后于2023年被Optum以$106亿收购)"
+   },
+   "investors": "General Atlantic, Vensbridge Capital, Hercules Capital, Silicon Valley Bank",
+   "founded": "2012",
+   "value_score": 55,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Oak%20Street%20Health",
+   "website_url": "https://www.oakstreethealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Oak Street Health: From Start-up to Strategic Acquisition",
+      "date": "2024-03-13",
+      "source": "Harvard Business School",
+      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=65604"
+     },
+     {
+      "title": "Agetech News: Combination CVS and Oak St. Health",
+      "date": "2024-09-24",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/agetech-news-42-combination-cvs-oak-st-health-max-zamkow-vxsxe"
+     }
+    ],
+    "snippets": [
+     "CVS Health acquired Oak Street Health for $10.6B in 2023; integrating with CVS retail pharmacies (2024).",
+     "Primary-care-for-seniors (Medicare) model, capitated payments."
+    ]
+   },
+   "name_cn": "橡树街健康",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Oak Street Health】聚焦产业资本/保健品/健康管理，以预防性、全面护理为特色。平均患者年龄68岁，B2B+B2C模式，研究价值分55。",
+   "payor_model": "未披露",
+   "signal_strength": 10.0,
+   "_packet": {
+    "serial": "#0565",
+    "name": "Oak Street Health",
+    "name_cn": "橡树街健康",
+    "region": "海外",
+    "founded": "2012",
+    "stage": "已上市",
+    "source": "选题库",
+    "website_url": "https://www.oakstreethealth.com",
+    "desc_cn": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+    "description": "专注Medicare患者的初级保健连锁诊所，以预防性、全面护理为特色。平均患者年龄68岁，医患配比高，能同时满足看病、学习、交友需求。被Optum收购。",
+    "funding_latest": {
+     "date": "2023-05",
+     "amount": "106亿美元收购",
+     "round": "被Optum收购",
+     "display": "被Optum收购 106亿美元收购 (2023-05)"
+    },
+    "funding_total": {
+     "amount": "$201M",
+     "display": "$201M (IPO前累计融资, 2020年IPO后于2023年被Optum以$106亿收购)"
+    },
+    "investors": "General Atlantic, Vensbridge Capital, Hercules Capital, Silicon Valley Bank",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "诊所"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    },
+    "news_coverage": {
+     "news_count": 10,
+     "news_quality": "high",
+     "latest_news": [
+      {
+       "title": "Oak Street Health: From Start-up to Strategic Acquisition",
+       "date": "2024-03-13",
+       "source": "Harvard Business School",
+       "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=65604"
+      },
+      {
+       "title": "Agetech News: Combination CVS and Oak St. Health",
+       "date": "2024-09-24",
+       "source": "LinkedIn",
+       "url": "https://www.linkedin.com/pulse/agetech-news-42-combination-cvs-oak-st-health-max-zamkow-vxsxe"
+      }
+     ],
+     "snippets": [
+      "CVS Health acquired Oak Street Health for $10.6B in 2023; integrating with CVS retail pharmacies (2024).",
+      "Primary-care-for-seniors (Medicare) model, capitated payments."
+     ]
+    },
+    "highlights": "以预防性、全面护理为特色。平均患者年龄68岁"
+   }
+  },
+  {
+   "serial": "#0855",
+   "name": "Signify Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "家庭健康评估，强调预防，会员平均年龄71岁",
+   "highlights": "强调预防",
+   "funding_latest": {
+    "date": "2023年被收购",
+    "amount": "78亿美元",
+    "round": "收购",
+    "display": "收购 78亿美元 (2023年被收购)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Signify%20Health",
+   "website_url": "https://www.signifyhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "家庭健康评估，强调预防，会员平均年龄71岁",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Signify Health】聚焦产业资本/健康监测/健康管理，强调预防，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 10.0,
+   "_packet": {
+    "serial": "#0855",
+    "name": "Signify Health",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "2017",
+    "stage": "融资中",
+    "source": "选题库V4",
+    "website_url": "https://www.signifyhealth.com",
+    "desc_cn": "家庭健康评估，强调预防，会员平均年龄71岁",
+    "description": "家庭健康评估，强调预防，会员平均年龄71岁",
+    "funding_latest": {
+     "date": "2023年被收购",
+     "amount": "78亿美元",
+     "round": "收购",
+     "display": "收购 78亿美元 (2023年被收购)"
+    },
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "居家医疗"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    },
+    "news_coverage": {},
+    "highlights": "强调预防"
+   }
+  },
+  {
+   "serial": "#0602",
+   "name": "Abbvie",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "照护机构",
+   "tags": [
+    "药品"
+   ],
+   "description": "收购Aliada Therapeutics，获得跨越血脑屏障的阿尔茨海默病候选药物",
+   "highlights": "获得跨越血脑屏障的阿尔茨海默病候选药物",
+   "funding_latest": {
+    "amount": "14亿美元",
+    "round": "收购",
+    "display": "收购 14亿美元"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Abbvie",
+   "website_url": "https://www.abbvie.com",
+   "business_model": "B2B 制药/生物科技",
+   "desc_cn": "收购Aliada Therapeutics，获得跨越血脑屏障的阿尔茨海默病候选药物",
+   "business_model_cn": "B2B 制药/生物科技",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Abbvie】聚焦产业资本/养老社区/认知症，获得跨越血脑屏障的阿尔茨海默病候选药物，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 9.55,
+   "_packet": {
+    "serial": "#0602",
+    "name": "Abbvie",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "2013",
+    "stage": "融资中",
+    "source": "选题库V4",
+    "website_url": "https://www.abbvie.com",
+    "desc_cn": "收购Aliada Therapeutics，获得跨越血脑屏障的阿尔茨海默病候选药物",
+    "description": "收购Aliada Therapeutics，获得跨越血脑屏障的阿尔茨海默病候选药物",
+    "funding_latest": {
+     "amount": "14亿美元",
+     "round": "收购",
+     "display": "收购 14亿美元"
+    },
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "药品"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "制造商(药)",
+     "channel": []
+    },
+    "news_coverage": {},
+    "highlights": "获得跨越血脑屏障的阿尔茨海默病候选药物"
+   }
+  },
+  {
+   "serial": "#0398",
+   "name": "松龄护老",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "远程医疗"
+   ],
+   "description": "松龄护老集团（Pine Care Group，港股曾代码01989）创立于1989年，是香港最具声誉的护老院运营商之一，也是首家在香港主板上市的护老集团（2017年上市、2024年私有化退市），在香港运营12间护老院舍及日间中心、提供床位逾1600个，并拓展至内地（浙江乌镇）医养项目，提供认知障碍主题照护等专业安老服务。",
+   "highlights": "2017年上市",
+   "funding_latest": {
+    "date": "2022年8月",
+    "amount": "5746万美元",
+    "round": "并购",
+    "display": "并购 5746万美元 (2022年8月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1989",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%9D%BE%E9%BE%84%E6%8A%A4%E8%80%81",
+   "website_url": "https://www.pinecaregroup.com",
+   "business_model": "上市企业",
+   "name_cn": "松龄护老",
+   "desc_cn": "香港养老护理提供商，2017年上市",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "香港养老三巨头：0.3%的稀缺生意如何闷声发财（松龄护老篇）",
+      "date": "2025-06-17",
+      "source": "微信公众号",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5OTA4MjQwMA==&mid=2247526347&idx=2"
+     },
+     {
+      "title": "三大关键词，看懂港澳养老行业发展新格局",
+      "date": "2024-05-29",
+      "source": "微信公众号",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3MDQ0NzQzMA==&mid=2247491214&idx=1"
+     }
+    ],
+    "snippets": [
+     "松龄护老集团（Pine Care Group，01989.HK）2017年港交所主板上市，为香港养老护理院舍运营商。",
+     "2022年加入华懋集团，推出“尚耆·贤居”高端护老系列。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【松龄护老】聚焦产业资本/居家护理/行业媒体，2017年上市，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 8.55,
+   "_packet": {
+    "serial": "#0398",
+    "name": "松龄护老",
+    "name_cn": "松龄护老",
+    "region": "国内",
+    "founded": "1989",
+    "stage": "已上市",
+    "source": "选题库V4",
+    "website_url": "https://www.pinecaregroup.com",
+    "desc_cn": "香港养老护理提供商，2017年上市",
+    "description": "松龄护老集团（Pine Care Group，港股曾代码01989）创立于1989年，是香港最具声誉的护老院运营商之一，也是首家在香港主板上市的护老集团（2017年上市、2024年私有化退市），在香港运营12间护老院舍及日间中心、提供床位逾1600个，并拓展至内地（浙江乌镇）医养项目，提供认知障碍主题照护等专业安老服务。",
+    "funding_latest": {
+     "date": "2022年8月",
+     "amount": "5746万美元",
+     "round": "并购",
+     "display": "并购 5746万美元 (2022年8月)"
+    },
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "远程医疗"
+    ],
+    "business_tags": {
+     "customer": "未标注",
+     "role": "上市公司",
+     "channel": []
+    },
+    "news_coverage": {
+     "news_count": 4,
+     "news_quality": "medium",
+     "latest_news": [
+      {
+       "title": "香港养老三巨头：0.3%的稀缺生意如何闷声发财（松龄护老篇）",
+       "date": "2025-06-17",
+       "source": "微信公众号",
+       "url": "https://mp.weixin.qq.com/s?__biz=Mzg5OTA4MjQwMA==&mid=2247526347&idx=2"
+      },
+      {
+       "title": "三大关键词，看懂港澳养老行业发展新格局",
+       "date": "2024-05-29",
+       "source": "微信公众号",
+       "url": "https://mp.weixin.qq.com/s?__biz=MzU3MDQ0NzQzMA==&mid=2247491214&idx=1"
+      }
+     ],
+     "snippets": [
+      "松龄护老集团（Pine Care Group，01989.HK）2017年港交所主板上市，为香港养老护理院舍运营商。",
+      "2022年加入华懋集团，推出“尚耆·贤居”高端护老系列。"
+     ]
+    },
+    "highlights": "2017年上市"
+   }
+  },
+  {
+   "serial": "#0593",
+   "name": "Tivity Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "健身"
+   ],
+   "description": "老年健身会员项目运营商，2006年以4.5亿美元收购SilverSneakers",
+   "highlights": "2006年以4.5亿美元收购SilverSneakers",
+   "funding_latest": {
+    "date": "2006",
+    "amount": "4.5亿美元",
+    "round": "收购",
+    "display": "收购 4.5亿美元 (2006)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1981",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tivity%20Health",
+   "website_url": "https://www.tivityhealth.com",
+   "business_model": "B2C 老年健身/健康",
+   "desc_cn": "老年健身会员项目运营商，2006年以4.5亿美元收购SilverSneakers",
+   "business_model_cn": "B2C 老年健身/健康",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Tivity Health】聚焦产业资本/健身/行业媒体，2006年以4.5亿美元收购SilverSneakers，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 7.55,
+   "_packet": {
+    "serial": "#0593",
+    "name": "Tivity Health",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "1981",
+    "stage": "融资中",
+    "source": "Stage(not Age)书籍",
+    "website_url": "https://www.tivityhealth.com",
+    "desc_cn": "老年健身会员项目运营商，2006年以4.5亿美元收购SilverSneakers",
+    "description": "老年健身会员项目运营商，2006年以4.5亿美元收购SilverSneakers",
+    "funding_latest": {
+     "date": "2006",
+     "amount": "4.5亿美元",
+     "round": "收购",
+     "display": "收购 4.5亿美元 (2006)"
+    },
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "文娱社交"
+    ],
+    "tag_l2": [
+     "健身"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "服务商",
+     "channel": []
+    },
+    "news_coverage": {},
+    "highlights": "2006年以4.5亿美元收购SilverSneakers"
+   }
+  },
+  {
+   "serial": "#0594",
+   "name": "SilverSneakers",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "健身"
+   ],
+   "description": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购",
+   "highlights": "2006年被Tivity Health以4.5亿美元收购",
+   "funding_latest": {
+    "date": "2006",
+    "amount": "4.5亿美元",
+    "round": "收购",
+    "display": "收购 4.5亿美元 (2006)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1992",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SilverSneakers",
+   "website_url": "https://www.silversneakers.com",
+   "business_model": "B2C 老年健身/健康",
+   "desc_cn": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购",
+   "business_model_cn": "B2C 老年健身/健康",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【SilverSneakers】聚焦产业资本/行业媒体，2006年被Tivity Health以4.5亿美元收购，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 7.55,
+   "_packet": {
+    "serial": "#0594",
+    "name": "SilverSneakers",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "1992",
+    "stage": "融资中",
+    "source": "Stage(not Age)书籍",
+    "website_url": "https://www.silversneakers.com",
+    "desc_cn": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购",
+    "description": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购",
+    "funding_latest": {
+     "date": "2006",
+     "amount": "4.5亿美元",
+     "round": "收购",
+     "display": "收购 4.5亿美元 (2006)"
+    },
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "文娱社交"
+    ],
+    "tag_l2": [
+     "健身"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "服务商",
+     "channel": []
+    },
+    "news_coverage": {},
+    "highlights": "2006年被Tivity Health以4.5亿美元收购"
+   }
+  },
+  {
+   "serial": "#0595",
+   "name": "IAC",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "互联网集团，2019年以5亿美元收购Care.com",
+   "highlights": "2019年以5亿美元收购Care.com",
+   "funding_latest": {
+    "date": "2019",
+    "amount": "5亿美元",
+    "round": "收购",
+    "display": "收购 5亿美元 (2019)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1995",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=IAC",
+   "website_url": "https://www.iac.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "互联网集团，2019年以5亿美元收购Care.com",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【IAC】聚焦产业资本/行业媒体，2019年以5亿美元收购Care.com，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 7.55,
+   "_packet": {
+    "serial": "#0595",
+    "name": "IAC",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "1995",
+    "stage": "融资中",
+    "source": "Stage(not Age)书籍",
+    "website_url": "https://www.iac.com",
+    "desc_cn": "互联网集团，2019年以5亿美元收购Care.com",
+    "description": "互联网集团，2019年以5亿美元收购Care.com",
+    "funding_latest": {
+     "date": "2019",
+     "amount": "5亿美元",
+     "round": "收购",
+     "display": "收购 5亿美元 (2019)"
+    },
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "行业服务"
+    ],
+    "tag_l2": [
+     "养老信息平台"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": [
+      "线上"
+     ]
+    },
+    "news_coverage": {},
+    "highlights": "2019年以5亿美元收购Care.com"
+   }
+  },
+  {
+   "serial": "#0850",
+   "name": "Sharecare",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "Sharecare 成立于2010年，总部位于美国亚特兰大，由WebMD创始人Jeff Arnold与Mehmet Oz共同创立，是一家数据驱动的数字健康平台，帮助用户在一处管理健康记录、用药与生活方式；2021年通过SPAC上市，并收购CareLinx（逾45万注册照护人员）切入居家照护，形成面向支付方、雇主与个人的全渠道健康与居家护理服务",
+   "highlights": "拥有CareLinx家庭护理平台的数字健康公司",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "5.18亿美元",
+    "round": "收购",
+    "display": "收购 5.18亿美元 (2024年6月)"
+   },
+   "funding_total": "$518M",
+   "investors": "Altaris (acquirer); prior VCs",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sharecare",
+   "website_url": "https://www.sharecare.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Sharecare 成立于2010年，总部位于美国亚特兰大，由WebMD创始人Jeff Arnold与Mehmet Oz共同创立，是一家数据驱动的数字健康平台，帮助用户在一处管理健康记录、用药与生活方式；2021年通过SPAC上市，并收购CareLinx（逾45万注册照护人员）切入居家照护，形成面向支付方、雇主与个人的全渠道健康与居家护理服务",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Sharecare】聚焦产业资本/健康管理，拥有CareLinx家庭护理平台的数字健康公司，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 7.55,
+   "_packet": {
+    "serial": "#0850",
+    "name": "Sharecare",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "2010",
+    "stage": "融资中",
+    "source": "选题库V4",
+    "website_url": "https://www.sharecare.com",
+    "desc_cn": "Sharecare 成立于2010年，总部位于美国亚特兰大，由WebMD创始人Jeff Arnold与Mehmet Oz共同创立，是一家数据驱动的数字健康平台，帮助用户在一处管理健康记录、用药与生活方式；2021年通过SPAC上市，并收购CareLinx（逾45万注册照护人员）切入居家照护，形成面向支付方、雇主与个人的全渠道健康与居家护理服务",
+    "description": "Sharecare 成立于2010年，总部位于美国亚特兰大，由WebMD创始人Jeff Arnold与Mehmet Oz共同创立，是一家数据驱动的数字健康平台，帮助用户在一处管理健康记录、用药与生活方式；2021年通过SPAC上市，并收购CareLinx（逾45万注册照护人员）切入居家照护，形成面向支付方、雇主与个人的全渠道健康与居家护理服务",
+    "funding_latest": {
+     "date": "2024年6月",
+     "amount": "5.18亿美元",
+     "round": "收购",
+     "display": "收购 5.18亿美元 (2024年6月)"
+    },
+    "funding_total": {},
+    "investors": "Altaris (acquirer); prior VCs",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "慢病管理"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    },
+    "news_coverage": {},
+    "highlights": "拥有CareLinx家庭护理平台的数字健康公司"
+   }
+  },
+  {
+   "serial": "#0012",
+   "name": "善诊",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "成立于2015年，上海，老年体检服务平台。通过整合全国体检机构资源，为老年人和企业客户提供专业体检服务及健康管理方案。累计融资近10亿元。",
+   "highlights": "上海",
+   "funding_latest": {
+    "date": "2020",
+    "amount": "近10亿元累计融资",
+    "round": "多轮",
+    "display": "多轮 近10亿元累计融资 (2020)"
+   },
+   "funding_total": {
+    "amount": "近10亿元",
+    "display": "累计近10亿元"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 38,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%96%84%E8%AF%8A",
+   "website_url": "https://shanzhen.com",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "善诊",
+   "desc_cn": "成立于2015年，上海，老年体检服务平台。通过整合全国体检机构资源，为老年人和企业客户提供专业体检服务及健康管理方案。累计融资近10亿元。",
+   "business_model_cn": "B2C 健康养生服务",
+   "news_coverage": {
+    "news_count": 16,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "瞄准3000亿体检蓝海,善诊谋局智能化",
+      "date": "2025-08-30",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250830A06LSF00"
+     },
+     {
+      "title": "善诊发布接入DeepSeek成绩单(体检数据处理+210%)",
+      "date": "2025-02-26",
+      "source": "中华网",
+      "url": "https://digi.china.com/articles/20250226/202502261641375.html"
+     }
+    ],
+    "snippets": [
+     "善诊是专注中老年健康服务与体检产业综合服务商,累计融资近10亿元",
+     "自研'善太医'AI接入DeepSeek,体检数据处理能力提升210%"
+    ]
+   },
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【善诊】聚焦产业资本/健康管理，上海，B2C模式，研究价值分38。",
+   "payor_model": "未披露",
+   "signal_strength": 7.05,
+   "_packet": {
+    "serial": "#0012",
+    "name": "善诊",
+    "name_cn": "善诊",
+    "region": "国内",
+    "founded": "2015",
+    "stage": "融资中",
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://shanzhen.com",
+    "desc_cn": "成立于2015年，上海，老年体检服务平台。通过整合全国体检机构资源，为老年人和企业客户提供专业体检服务及健康管理方案。累计融资近10亿元。",
+    "description": "成立于2015年，上海，老年体检服务平台。通过整合全国体检机构资源，为老年人和企业客户提供专业体检服务及健康管理方案。累计融资近10亿元。",
+    "funding_latest": {
+     "date": "2020",
+     "amount": "近10亿元累计融资",
+     "round": "多轮",
+     "display": "多轮 近10亿元累计融资 (2020)"
+    },
+    "funding_total": {
+     "amount": "近10亿元",
+     "display": "累计近10亿元"
+    },
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "体检筛查"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "服务商",
+     "channel": []
+    },
+    "news_coverage": {
+     "news_count": 16,
+     "news_quality": "high",
+     "latest_news": [
+      {
+       "title": "瞄准3000亿体检蓝海,善诊谋局智能化",
+       "date": "2025-08-30",
+       "source": "腾讯新闻",
+       "url": "https://news.qq.com/rain/a/20250830A06LSF00"
+      },
+      {
+       "title": "善诊发布接入DeepSeek成绩单(体检数据处理+210%)",
+       "date": "2025-02-26",
+       "source": "中华网",
+       "url": "https://digi.china.com/articles/20250226/202502261641375.html"
+      }
+     ],
+     "snippets": [
+      "善诊是专注中老年健康服务与体检产业综合服务商,累计融资近10亿元",
+      "自研'善太医'AI接入DeepSeek,体检数据处理能力提升210%"
+     ]
+    },
+    "highlights": "上海"
+   }
+  },
+  {
+   "serial": "#0461",
+   "name": "Amedisys",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+   "highlights": "2024年8月被正式收购（33亿美元）",
+   "funding_latest": {
+    "date": "2024-08",
+    "amount": "3300000000",
+    "round": "Acquisition",
+    "display": "Acquisition $33亿 (2024-08)"
+   },
+   "funding_total": {
+    "amount": "美股上市公司 (Nasdaq: AMED)",
+    "display": "美股上市公司 (Nasdaq: AMED)"
+   },
+   "investors": "公众股东（Nasdaq: AMED 上市公司）",
+   "founded": "1982",
+   "value_score": 48,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Amedisys",
+   "website_url": "https://www.amedisys.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "UnitedHealth closes $3.3B Amedisys buy after long antitrust review",
+      "date": "2025-08-15",
+      "source": "Healthcare Dive",
+      "url": "https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/"
+     }
+    ],
+    "snippets": [
+     "UnitedHealth/Optum closed $3.3B acquisition of Amedisys (Aug 2025, after DOJ).",
+     "Divesting some agencies to BrightSpring & Pennant."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Amedisys】聚焦专业护理/产业资本/居家护理，2024年8月被正式收购（33亿美元），B2B+B2C模式，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 7.05,
+   "_packet": {
+    "serial": "#0461",
+    "name": "Amedisys",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "1982",
+    "stage": "融资中",
+    "source": "选题库",
+    "website_url": "https://www.amedisys.com",
+    "desc_cn": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+    "description": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+    "funding_latest": {
+     "date": "2024-08",
+     "amount": "3300000000",
+     "round": "Acquisition",
+     "display": "Acquisition $33亿 (2024-08)"
+    },
+    "funding_total": {
+     "amount": "美股上市公司 (Nasdaq: AMED)",
+     "display": "美股上市公司 (Nasdaq: AMED)"
+    },
+    "investors": "公众股东（Nasdaq: AMED 上市公司）",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "居家护理"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    },
+    "news_coverage": {
+     "news_count": 10,
+     "news_quality": "high",
+     "latest_news": [
+      {
+       "title": "UnitedHealth closes $3.3B Amedisys buy after long antitrust review",
+       "date": "2025-08-15",
+       "source": "Healthcare Dive",
+       "url": "https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/"
+      }
+     ],
+     "snippets": [
+      "UnitedHealth/Optum closed $3.3B acquisition of Amedisys (Aug 2025, after DOJ).",
+      "Divesting some agencies to BrightSpring & Pennant."
+     ]
+    },
+    "highlights": "2024年8月被正式收购（33亿美元）"
+   }
+  },
+  {
+   "serial": "#0949",
+   "name": "LHC Group",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+   "highlights": "主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。20...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1994",
+   "value_score": 55,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=LHC%20Group",
+   "website_url": "https://www.lhcgroup.com",
+   "business_model": "上市企业",
+   "desc_cn": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 10,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "UnitedHealth closed $5.4B acquisition of LHC Group",
+      "date": "2025-04-19",
+      "source": "insuredandmore",
+      "url": "https://insuredandmore.com/did-unitedhealthcare-buy-lhc-group"
+     },
+     {
+      "title": "Optum and LHC Group to Combine",
+      "date": "2026-06-22",
+      "source": "hhmglobal",
+      "url": "https://www.hhmglobal.com/industry-updates/press-releases/optum-and-lhc-group-to-combine-advancing-abilities-to-extend-value-based-care-into-patients-homes"
+     },
+     {
+      "title": "BrightSpring's purchase of Amedisys, LHC Group locations to become accretive in 2026",
+      "date": "2025-10-31",
+      "source": "hospicenews",
+      "url": "https://hospicenews.com/2025/10/31/brightsprings-purchase-of-amedisys-lhc-group-locations-to-become-accretive-in-2026/"
+     }
+    ],
+    "snippets": [
+     "UnitedHealth/Optum closed $5.4B acquisition of LHC Group (2025).",
+     "Further Optum–LHC Group combination/integration announced 2026; some locations to BrightSpring."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【LHC Group】聚焦产业资本/保健品/居家护理，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。20...，研究价值分55。",
+   "payor_model": "未披露",
+   "signal_strength": 7.05,
+   "_packet": {
+    "serial": "#0949",
+    "name": "LHC Group",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "1994",
+    "stage": "已上市",
+    "source": "选题库V4",
+    "website_url": "https://www.lhcgroup.com",
+    "desc_cn": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+    "description": "美国家庭医疗保健服务商，主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。2005年上市融资6720万美元，2022年以54亿美元被并购",
+    "funding_latest": {},
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "business_tags": {
+     "customer": "未标注",
+     "role": "上市公司",
+     "channel": []
+    },
+    "news_coverage": {
+     "news_count": 10,
+     "news_quality": "high",
+     "latest_news": [
+      {
+       "title": "UnitedHealth closed $5.4B acquisition of LHC Group",
+       "date": "2025-04-19",
+       "source": "insuredandmore",
+       "url": "https://insuredandmore.com/did-unitedhealthcare-buy-lhc-group"
+      },
+      {
+       "title": "Optum and LHC Group to Combine",
+       "date": "2026-06-22",
+       "source": "hhmglobal",
+       "url": "https://www.hhmglobal.com/industry-updates/press-releases/optum-and-lhc-group-to-combine-advancing-abilities-to-extend-value-based-care-into-patients-homes"
+      },
+      {
+       "title": "BrightSpring's purchase of Amedisys, LHC Group locations to become accretive in 2026",
+       "date": "2025-10-31",
+       "source": "hospicenews",
+       "url": "https://hospicenews.com/2025/10/31/brightsprings-purchase-of-amedisys-lhc-group-locations-to-become-accretive-in-2026/"
+      }
+     ],
+     "snippets": [
+      "UnitedHealth/Optum closed $5.4B acquisition of LHC Group (2025).",
+      "Further Optum–LHC Group combination/integration announced 2026; some locations to BrightSpring."
+     ]
+    },
+    "highlights": "主要为老年慢性病患者提供居家医疗、临终关怀、医疗护理以及家庭健康等服务。20..."
+   }
+  },
+  {
+   "serial": "#0954",
+   "name": "Enhabit",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "临终关怀",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "Enhabit（NYSE: EHAB）是美国全国性的居家健康与临终关怀服务商，在 34 个州运营约 255 个居家护理点和 112 个临终关怀点，靠医保与服务收费。亮点是居家医疗+安宁疗护双线布局的上市规模企业。",
+   "highlights": "美国家庭健康、临终关怀服务商。2022年上市",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Enhabit",
+   "website_url": "",
+   "business_model": "上市企业",
+   "desc_cn": "Enhabit（NYSE: EHAB）是美国全国性的居家健康与临终关怀服务商，在 34 个州运营约 255 个居家护理点和 112 个临终关怀点，靠医保与服务收费。亮点是居家医疗+安宁疗护双线布局的上市规模企业。",
+   "business_model_cn": "B2C/B2B 临终关怀/舒缓疗护服务",
+   "news_coverage": {
+    "news_count": 12,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Enhabit Reports Fourth Quarter 2025 Results",
+      "date": "2026-03-04",
+      "source": "Enhabit",
+      "url": "https://www.enhabit.com/enhabit-reports-fourth-quarter-2025-financial-results/"
+     },
+     {
+      "title": "Enhabit 2025 Q2: 临终关怀增长抵消家庭健康下滑",
+      "date": "2025-08-07",
+      "source": "Investing.com中文",
+      "url": "https://cn.investing.com/news/company-news/article-2924355"
+     }
+    ],
+    "snippets": [
+     "Enhabit(纽交所:EHAB)是全美居家护理与临终关怀头部企业",
+     "在34个州拥有255个家庭健康与115个临终关怀服务点,2024年投入超7.98亿美元完成42项收购"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Enhabit】聚焦临终关怀/居家护理，美国家庭健康、临终关怀服务商。2022年上市，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 7.05,
+   "_packet": {
+    "serial": "#0954",
+    "name": "Enhabit",
+    "name_cn": null,
+    "region": "海外",
+    "founded": "2014",
+    "stage": "已上市",
+    "source": "选题库V4",
+    "website_url": "",
+    "desc_cn": "Enhabit（NYSE: EHAB）是美国全国性的居家健康与临终关怀服务商，在 34 个州运营约 255 个居家护理点和 112 个临终关怀点，靠医保与服务收费。亮点是居家医疗+安宁疗护双线布局的上市规模企业。",
+    "description": "Enhabit（NYSE: EHAB）是美国全国性的居家健康与临终关怀服务商，在 34 个州运营约 255 个居家护理点和 112 个临终关怀点，靠医保与服务收费。亮点是居家医疗+安宁疗护双线布局的上市规模企业。",
+    "funding_latest": {},
+    "funding_total": {},
+    "investors": "",
+    "payor_model": "未披露",
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "安宁疗护"
+    ],
+    "business_tags": {
+     "customer": "未标注",
+     "role": "上市公司",
+     "channel": []
+    },
+    "news_coverage": {
+     "news_count": 12,
+     "news_quality": "medium",
+     "latest_news": [
+      {
+       "title": "Enhabit Reports Fourth Quarter 2025 Results",
+       "date": "2026-03-04",
+       "source": "Enhabit",
+       "url": "https://www.enhabit.com/enhabit-reports-fourth-quarter-2025-financial-results/"
+      },
+      {
+       "title": "Enhabit 2025 Q2: 临终关怀增长抵消家庭健康下滑",
+       "date": "2025-08-07",
+       "source": "Investing.com中文",
+       "url": "https://cn.investing.com/news/company-news/article-2924355"
+      }
+     ],
+     "snippets": [
+      "Enhabit(纽交所:EHAB)是全美居家护理与临终关怀头部企业",
+      "在34个州拥有255个家庭健康与115个临终关怀服务点,2024年投入超7.98亿美元完成42项收购"
+     ]
+    },
+    "highlights": "美国家庭健康、临终关怀服务商。2022年上市"
+   }
+  }
+ ]
+}

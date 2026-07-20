@@ -1,0 +1,523 @@
+{
+ "batch": 71,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0706",
+   "name": "Friendi.fi",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "Friendi.fi 是一家早期（2024 年成立、承诺融资超 1,000 万美元）的 AI 陪伴公司，训练自有对话式 AI 模型与老年人、自闭症青年等群体建立'友谊'关系，并在友好对话中穿插持证专业人员指导的健康 coaching；通过与照护机构及 Medicare/Medicaid 支付方合作，为低收入人群提供价值。创始人来自 care.coach。",
+   "highlights": "生成式AI模型提供高信任度对话关系",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2025",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Friendi.fi",
+   "website_url": "https://www.friendi.fi",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Friendi.fi 是一家早期（2024 年成立、承诺融资超 1,000 万美元）的 AI 陪伴公司，训练自有对话式 AI 模型与老年人、自闭症青年等群体建立'友谊'关系，并在友好对话中穿插持证专业人员指导的健康 coaching；通过与照护机构及 Medicare/Medicaid 支付方合作，为低收入人群提供价值。创始人来自 care.coach。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Friendi.fi】聚焦文娱社交，生成式AI模型提供高信任度对话关系，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0707",
+   "name": "Gather Health",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "诊所",
+    "SDOH"
+   ],
+   "description": "Gather Health 是面向 65 岁以上 Medicare（含双重资格）长者的'社会型'初级医疗提供商，提供诊所、上门与虚拟三种照护模式，由全科医生、负责社会支持的 Guide Partner 与上门访视的医疗技术员组成环绕式团队，并设社区活动中心解决孤独、住房、食物等社会决定因素(SDOH)。成立于 2022 年，总部波士顿，累计融资约 5,250 万美元（Khosla、Maverick 等）。",
+   "highlights": "面对面+虚拟",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "1600万美元",
+    "display": "1600万美元 (2024年5月)"
+   },
+   "funding_total": "$21.2M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Gather%20Health",
+   "website_url": "https://www.gatherhealth.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "Gather Health 是面向 65 岁以上 Medicare（含双重资格）长者的'社会型'初级医疗提供商，提供诊所、上门与虚拟三种照护模式，由全科医生、负责社会支持的 Guide Partner 与上门访视的医疗技术员组成环绕式团队，并设社区活动中心解决孤独、住房、食物等社会决定因素(SDOH)。成立于 2022 年，总部波士顿，累计融资约 5,250 万美元（Khosla、Maverick 等）。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所",
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Gather Health】聚焦产业资本/保健品/居家护理，面对面+虚拟，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0708",
+   "name": "Gennev",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "Gennev 是美国数字更年期诊所，提供经更年期认证 OB/GYN 的远程问诊、注册营养师健康教练、社群与免费教育，覆盖全 50 州；方案含处方药（如激素疗法）、营养与生活方式干预。由前微软高管 Jill Angelo 于 2016 年创立，2022 年被 Unified Women's Healthcare 收购，定位'后半生女性健康平台'。",
+   "highlights": "虚拟诊疗、HRT等",
+   "funding_latest": {
+    "amount": "450万美元",
+    "display": "450万美元"
+   },
+   "funding_total": "$4M",
+   "investors": "a16z, Y Combinator, Baseline Ventures, Maven Ventures, Recursive Ventures, Toyota Ventures, Seven Seven Six",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Gennev",
+   "website_url": "https://gennev.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Gennev 是美国数字更年期诊所，提供经更年期认证 OB/GYN 的远程问诊、注册营养师健康教练、社群与免费教育，覆盖全 50 州；方案含处方药（如激素疗法）、营养与生活方式干预。由前微软高管 Jill Angelo 于 2016 年创立，2022 年被 Unified Women's Healthcare 收购，定位'后半生女性健康平台'。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Gennev】聚焦产业资本/健康管理/女性健康，虚拟诊疗、HRT等，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0709",
+   "name": "GeoH",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "家庭护理管理和支付软件",
+   "highlights": "家庭护理管理和支付软件",
+   "funding_latest": {
+    "amount": "290万美元",
+    "display": "290万美元"
+   },
+   "funding_total": "$30M",
+   "investors": "Council Capital (lead), Boomerang Ventures",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GeoH",
+   "website_url": "https://www.geoh.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "家庭护理管理和支付软件",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【GeoH】聚焦专业护理/产业资本，家庭护理管理和支付软件，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0710",
+   "name": "GetSetUp",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "教育",
+    "兴趣社群"
+   ],
+   "description": "GetSetUp 成立于2019年，是一家面向银发群体的在线社交学习平台，提供由退休同龄人授课的直播课程（数字技能、健康、艺术、理财等5000+主题）及AI辅助工具，并与美国多州政府、60余家Medicare Advantage/Medicaid健康险计划合作，覆盖160余国、累计数千万学习人次。",
+   "highlights": "疫情后爆发式增长",
+   "funding_latest": null,
+   "funding_total": "$120.05M",
+   "investors": "12 investors (per Inc42)",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GetSetUp",
+   "website_url": "https://www.getsetup.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "线上老年学习与社交融合，疫情后爆发式增长",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【GetSetUp】聚焦教育/文娱社交/渠道，疫情后爆发式增长，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0711",
+   "name": "Glooko",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "description": "Glooko 是糖尿病管理远程监测平台，其 App 可同步 200+ 款血糖仪、CGM、胰岛素泵与健康追踪设备的数据，并提供医生仪表盘、远程协作与 EndoTool 住院血糖管理系统（FDA 认证），帮助 1 型/2 型/妊娠糖尿病及前期人群改善血糖控制。服务全球 29+ 国家、逾 300 万用户，支持按 CPT 代码报销。",
+   "highlights": "为慢性疾病患者提供医疗技术和联网医疗平台",
+   "funding_latest": {
+    "date": "2024年10月",
+    "amount": "1亿美元",
+    "display": "1亿美元 (2024年10月)"
+   },
+   "funding_total": {
+    "amount": "$201M",
+    "display": "$201M (截至2024年10月)"
+   },
+   "investors": "Georgian, Canaan Partners, Social Capital, Health Catalyst Capital",
+   "founded": "2010",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Glooko",
+   "website_url": "https://www.glooko.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "Glooko 是糖尿病管理远程监测平台，其 App 可同步 200+ 款血糖仪、CGM、胰岛素泵与健康追踪设备的数据，并提供医生仪表盘、远程协作与 EndoTool 住院血糖管理系统（FDA 认证），帮助 1 型/2 型/妊娠糖尿病及前期人群改善血糖控制。服务全球 29+ 国家、逾 300 万用户，支持按 CPT 代码报销。",
+   "business_model_cn": "B2B/B2C 血压血糖监测管理",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Glooko Scores $100 Million Series F",
+      "date": "2024-10-19",
+      "source": "Silicon Valley Daily",
+      "url": "https://svdaily.com/2024/10/19/glooko-scores-100-million-series-f/"
+     },
+     {
+      "title": "Glooko收购Monarch Medical，拓展全流程糖尿病护理",
+      "date": "2025-09-24",
+      "source": "G-MedTech",
+      "url": "https://g-medtech.com/news/zh/glooko-acquires-monarch-medical-to-expand-diabetes-care-across-care-settings/"
+     }
+    ],
+    "snippets": [
+     "Glooko为数字糖尿病管理平台（连接200+设备做远程监测），2024年10月完成1亿美元F轮（Georgian领投）。",
+     "2025年9月收购Monarch Medical，从门诊/家庭延伸至住院血糖管理，服务大量老年糖尿病患者。"
+    ]
+   },
+   "tag_l1": [
+    "食品营养",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Glooko】聚焦产业资本/健康监测/慢病管理，为慢性疾病患者提供医疗技术和联网医疗平台，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0713",
+   "name": "Grace",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "尿失禁"
+   ],
+   "description": "专为女性设计的可持续健康品牌，膀胱渗漏",
+   "highlights": "膀胱渗漏",
+   "funding_latest": {
+    "amount": "200万美元",
+    "display": "200万美元"
+   },
+   "funding_total": "$2.57M",
+   "investors": "Almi, Fast Track Malmo, VNV Global",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Grace",
+   "website_url": "https://www.grace.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "专为女性设计的可持续健康品牌，膀胱渗漏",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Grace】聚焦专业护理/产业资本/健康管理，膀胱渗漏，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0714",
+   "name": "Grand Circle",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "年营收6亿，200万50岁+",
+   "highlights": "200万50岁+",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1958",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Grand%20Circle",
+   "website_url": "https://www.gct.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "年营收6亿，200万50岁+",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Grand Circle】聚焦产业资本/旅游/行业媒体，200万50岁+，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0718",
+   "name": "Growl",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "健身"
+   ],
+   "description": "家庭健身AI互动拳击教练，面向全年龄段",
+   "highlights": "面向全年龄段",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "4.75亿美元",
+    "display": "4.75亿美元 (2024年12月)"
+   },
+   "funding_total": "$4.75M",
+   "investors": "Skip Capital (lead), Kima Ventures, Teampact Ventures",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Growl",
+   "website_url": "https://www.growl.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "家庭健身AI互动拳击教练，面向全年龄段",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Growl】聚焦产业资本/健身/文娱社交，面向全年龄段，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0719",
+   "name": "Guaranteed Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "description": "远程临终关怀医疗服务",
+   "highlights": "远程临终关怀医疗服务",
+   "funding_latest": null,
+   "funding_total": "$7.0M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Guaranteed%20Health",
+   "website_url": "https://www.onguaranteed.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "远程临终关怀医疗服务",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程医疗",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Guaranteed Health】聚焦临终关怀/慢病管理/远程医疗，远程临终关怀医疗服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0720",
+   "name": "Halmek",
+   "region": "海外",
+   "category_l1": "购物渠道",
+   "category_l2": "线上渠道",
+   "tags": [
+    "电商"
+   ],
+   "description": "面向50+女性做健康资讯杂志，引流到商品销售，年利润6000多万",
+   "highlights": "引流到商品销售",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1989",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Halmek",
+   "website_url": "https://www.halmek-holdings.co.jp",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "面向50+女性做健康资讯杂志，引流到商品销售，年利润6000多万",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Halmek】聚焦消费品/渠道，引流到商品销售，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0721",
+   "name": "Hamilton Health Box",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "Hamilton Health Box 是按需付费(value-based)的初级医疗提供商，2019 年成立于休斯顿，通过部署在乡村、医疗资源不足地区及雇主场所的'微型诊所(microclinics™)'提供小型化、就近的门诊服务；2024 年完成 1,000 万美元 A 轮融资。原标签'诊所'准确。",
+   "highlights": "微型诊所在医疗资源匮乏地区提供初级保健",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "1000万美元",
+    "display": "1000万美元 (2024年5月)"
+   },
+   "funding_total": "$10.0M",
+   "investors": "1588 Ventures, Johnson & Johnson Innovation, Memorial Hermann Health System, Sullivan Brothers, Texas Medical Center",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hamilton%20Health%20Box",
+   "website_url": "https://www.hamiltonhealthbox.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Hamilton Health Box 是按需付费(value-based)的初级医疗提供商，2019 年成立于休斯顿，通过部署在乡村、医疗资源不足地区及雇主场所的'微型诊所(microclinics™)'提供小型化、就近的门诊服务；2024 年完成 1,000 万美元 A 轮融资。原标签'诊所'准确。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hamilton Health Box】聚焦产业资本/保健品/健康管理，微型诊所在医疗资源匮乏地区提供初级保健，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,976 @@
+[
+  {
+    "serial": "#0063",
+    "name": "上品折扣",
+    "name_cn": "上品折扣",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "零售"
+    ],
+    "region": "国内",
+    "desc_cn": "北京名牌折扣连锁零售运营商，以2-5折销售知名服装、鞋包、运动与家居百货，拥有多家实体门店与线上商城，目标客群为追求性价比的年轻大众。收入来自商品进销差价与供应商返利。与银发经济仅边缘相关——老年顾客自然流入但无适老化选品或长者服务，本质是非专项的通用折扣零售。",
+    "description": "上品折扣是北京本土名牌折扣连锁零售商，拥有8家实体门店与上品折扣网，以2–5折销售服装、鞋履、运动、家居等知名品牌商品。其客群以追求性价比的广大消费者为主，并非专做老年业务。",
+    "silver_reason": "综合名牌折扣连锁零售，目标年轻大众客群，仅老年顾客自然流入、无适老业务，实质非银发。",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2000,
+    "highlights": [
+      "北京名牌折扣连锁，8家实体门店+上品折扣网",
+      "商品为知名百货2-5折，目标年轻大众客群",
+      "会员超100万，奥运村店年营业额近8亿",
+      "无适老化选品或长者服务，与银发仅边缘相关"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 2.0,
+    "copy_score": 3.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号弱、资料中等；综合折扣零售客群泛化，仅涉足银发消费非专做老年，差异化低，对银发创业者借鉴有限。",
+      "rec_v2": "冷门企业信息量一般；本质是性价比百货，无老年业务主线，复制容易但非银发范式，不宜当作养老样本研究。",
+      "rec_v3": "低关注且实质非银发：其折扣模式可抄但与养老无关，仅中老年顺带客群，创业者应避开、不当作银发案例。",
+      "info_score": 5,
+      "diff_score": 2,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.shopin.net/"
+  },
+  {
+    "serial": "#0103",
+    "name": "元气家族",
+    "name_cn": "元气家族",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "维生素矿物质"
+    ],
+    "region": "国内",
+    "desc_cn": "定位中老年维生素与矿物质补充剂品牌，面向银发群体提供日常营养补给类产品。公开资料稀缺，具体产品线、产能与销售渠道尚未披露，推测以电商B2C与代工模式为主。收入来自C端个人自费，对应老年人基础营养与慢病辅助补充需求，但品牌辨识度与差异化尚不明确。",
+    "description": "元气家族是健康营养品品牌，专注中老年维生素和矿物质补充剂。",
+    "silver_reason": "专注中老年维生素矿物质补充剂，属银发营养",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "定位中老年维生素与矿物质补充剂品牌",
+      "推测以电商B2C与代工模式为主",
+      "公开资料稀缺，品牌辨识度与差异化尚不明确"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号极弱、信息不足；其中老年维矿补充剂属常规品类、差异化低；模式清晰国内易复制，可学其人群细分定位。",
+      "rec_v2": "资料稀少；亮点仅在锁定银发营养这一大品类；同质化严重，创业者可抄但其需靠配方与渠道建立区隔。",
+      "rec_v3": "声量低、披露少；价值有限但“银发维矿”切入轻；国内极易复制，建议学其如何用内容做中老年信任转化。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0223",
+    "name": "昱言养老",
+    "name_cn": "昱言养老",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "region": "国内",
+    "desc_cn": "中原集团旗下的养老产业研究与咨询机构，提供养老政策与项目研究、CCRC盈利模式分析、机构咨询与培训服务，并发布‘北京养老地图’与行业数据库。收入来自政府、房企及机构的咨询与数据服务采购。银发关联在它是养老行业的研究与标准供给方，服务于康养产业决策。",
+    "description": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
+    "silver_reason": "养老产业研究、咨询与数据服务，服务于养老行业，属银发行业服务。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端(政府/房企/机构)咨询与数据服务付费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2016,
+    "highlights": [
+      "2016年由张坤昱创办，中原集团旗下养老产业研究、咨询与数据平台",
+      "发布全国首张‘北京养老地图’与养老数据库，出版CCRC专著",
+      "张坤昱任中国房地产业协会康养社区(CCRC)研究中心执行主任"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息少；养老地图与CCRC研究属常规咨询差异化低，可复制，可学其用研究报告做行业入口。",
+      "rec_v2": "信号低、披露有限；中原集团旗下行业平台是亮点，差异化模式平却易借鉴，国内宜学其养老数据+咨询变现。",
+      "rec_v3": "信号偏弱、资料薄；其养老产业研究咨询定位清晰有差异，可抄性高，可学它如何用地图报告建B端信任。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0284",
+    "name": "票圈视频",
+    "name_cn": "票圈视频",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "短视频"
+    ],
+    "region": "国内",
+    "desc_cn": "综合短视频创作与社交平台（非银发）",
+    "description": "票圈视频是湖南为趣时代网络科技有限公司旗下的视频创作与社交平台（含乐活圈社区），提供视频剪辑、AI处理、分享互动功能，矩阵累计用户超4亿，属综合短视频工具，并非专门面向银发人群。",
+    "silver_reason": "综合短视频工具，非专门面向银发人群",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费+广告/B端变现",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2018,
+    "highlights": [
+      "矩阵累计用户超4亿",
+      "提供视频剪辑、AI处理、分享互动",
+      "含乐活圈社区，非专门面向银发"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 2.0,
+    "copy_score": 3.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等（矩阵4亿用户）；实为综合短视频工具非银发。差异在视频编辑+社区，对银发创业者参考价值低，难直接借鉴。",
+      "rec_v2": "冷门工具型产品，披露一般。其乐活圈社区虽触老但非专攻，差异化弱，银发赛道可学有限，不建议作为养老案例深研。",
+      "rec_v3": "信号低、信息中等；差异在通用短视频工具无银发聚焦。与银发关联稀薄，复制性对其无意义，仅作泛娱乐流量背景参考。",
+      "info_score": 5,
+      "diff_score": 2,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0313",
+    "name": "聚鲨环球",
+    "name_cn": "聚鲨环球",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "零售",
+      "电商"
+    ],
+    "region": "国内",
+    "desc_cn": "全媒体电视购物零售平台",
+    "description": "聚鲨环球精选（原环球购物）是北京环球国广运营的全媒体零售/电视购物平台，通过电视频道、电商App、智能大屏、微信社群等渠道精选全球好物（进口品牌占比超60%），覆盖全球约3亿家庭，并收购中东北非CITRUSS拓展海外。",
+    "silver_reason": "全媒体电视购物零售，非专门面向银发",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费+广告",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2014,
+    "highlights": [
+      "聚鲨环球精选（原环球购物）全媒体零售/电视购物平台",
+      "通过电视频道、电商App、智能大屏、微信社群等渠道",
+      "覆盖全球约3亿家庭，进口品牌占比超60%，收购中东北非CITRUSS"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 2.0,
+    "copy_score": 3.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等（3亿家庭+全媒体零售）；实为电视购物非银发。差异在多渠道零售，对银发创业者借鉴低，难直接套用。",
+      "rec_v2": "冷门零售平台，披露一般。亮点是电视+App+大屏全域，但非专攻老人，银发可学有限，建议不作养老案例。",
+      "rec_v3": "信号低、信息中等；差异在通用全媒体零售无银发聚焦。与银发关联薄，复制性无意义，仅作银发渠道背景参考。",
+      "info_score": 5,
+      "diff_score": 2,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.sharkshopping.com"
+  },
+  {
+    "serial": "#0508",
+    "name": "Gather",
+    "name_cn": "Gather",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群",
+      "短视频"
+    ],
+    "region": "海外",
+    "desc_cn": "机构合作的虚拟直播学习活动",
+    "description": "机构合作的虚拟直播学习活动",
+    "silver_reason": "老年社交活动平台，但信息不足待核实主体",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人免费",
+    "business_model": "B2C 社交娱乐平台",
+    "funding_latest": {
+      "date": "2022",
+      "amount": "未披露",
+      "round": "Series A",
+      "display": "Series A 未披露 (2022)"
+    },
+    "funding_total": {
+      "amount": "$10M+",
+      "display": "累计$10M+"
+    },
+    "investors": "Matrix Partners, Founders Fund",
+    "stage": "A轮",
+    "founded": 2018,
+    "highlights": [
+      "老年社交活动平台",
+      "帮助社区组织管理活动"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 4.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息存疑（难独立验证），老年社交活动平台定位清晰、差异化一般；国内社区活动运营可参考。",
+      "rec_v2": "披露极少、信号低，信息不足难深评；亮点在机构合作直播活动，创业者可学其社区运营轻模式。",
+      "rec_v3": "信息薄且未验证、信号一般，差异化在虚拟活动；国内可抄其帮助机构管活动的思路，但需核实主体。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.gather.co/"
+  },
+  {
+    "serial": "#0513",
+    "name": "Greycroft Partners",
+    "name_cn": "Greycroft Partners",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "VC"
+    ],
+    "region": "海外",
+    "desc_cn": "早期成长期VC，布局老年科技",
+    "description": "Greycroft Partners是专注早期和成长期投资的VC，在消费科技和医疗健康领域有布局，投资了多个老年科技项目。",
+    "silver_reason": "通用VC仅布局老年科技，非银发经营主体",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "基金LP出资",
+    "business_model": "B2B 科技研发",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2006,
+    "highlights": [
+      "早期+成长期VC",
+      "在老年科技领域有投资布局"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 3.0,
+    "copy_score": 2.0,
+    "research_value": 26.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中，但仅泛布局老年科技、差异化低；作为通用VC模式难复制，非银发核心宜判擦边。",
+      "rec_v2": "披露尚可、信号低，亮点在多个AgeTech投资；但其为综合VC，养老仅财务配置，参考价值有限。",
+      "rec_v3": "信息量中、信号弱，差异化弱（泛VC逻辑）；国内宜看其portfolio赛道，实质非银发核心。",
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 26.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.greycroft.com/"
+  },
+  {
+    "serial": "#0005",
+    "name": "全民K歌",
+    "name_cn": "全民K歌",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "文娱"
+    ],
+    "region": "国内",
+    "desc_cn": "国民级在线K歌与社交平台，提供录唱、修音、歌房、合唱与直播，靠会员订阅与虚拟礼物变现；腾讯生态流量加持。银发关联不在主业而在用户画像——70后在线时长与互动频次极高，平台以电视长辈专区与合唱社交承接其文娱需求。",
+    "description": "腾讯旗下在线K歌应用，中老年用户活跃度极高，是银发群体最常用的娱乐社交应用之一。",
+    "silver_reason": "通用K歌社交平台，银发仅高活跃用户而非专属业务",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费（会员/虚拟礼物）",
+    "business_model": "B2C 社交娱乐平台",
+    "funding_latest": {
+      "amount": "腾讯旗下产品",
+      "round": "子公司",
+      "display": "子公司 腾讯旗下产品"
+    },
+    "funding_total": {
+      "amount": "腾讯集团内部",
+      "display": "累计腾讯集团内部"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": 2014,
+    "highlights": [
+      "腾讯旗下国民级K歌社交，录唱/修音/歌房/合唱/直播",
+      "70后用户占比约17%，在线时长是95后1.6倍、互动频次领先",
+      "电视版长辈专区与合唱社交承接银发文娱",
+      "与平安银行颐年学院合作探索'娱乐+金融'"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 2.0,
+    "copy_score": 1.0,
+    "research_value": 25.6,
+    "recommend": {
+      "rec_v1": "信号极低且非银发主业；通用K歌平台无差异，国内创业者勿照搬，可学其「适老界面+社群」留存打法。",
+      "rec_v2": "披露为集团层面；银发仅高活跃用户，难复制其生态，但对适老产品设计有微弱启发价值。",
+      "rec_v3": "综合平台银发非核心；差异化弱、复制无意义，研究价值在警示：银发需垂直而非流量附带。",
+      "info_score": 6,
+      "diff_score": 2,
+      "copy_score": 1,
+      "signal_strength": 0.55,
+      "research_value": 25.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://kg.qq.com"
+  },
+  {
+    "serial": "#0253",
+    "name": "海森林",
+    "name_cn": "海森林",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "美妆护肤"
+    ],
+    "region": "国内",
+    "desc_cn": "高端假发与发制品ODM/OEM制造商,主营真人发头套、男士发块与睫毛,以外贸出口为导向销往全球26国;拥有9家工厂与115项专利,高端真发出口规模国内第一,收入来自制造与出口,正推进A股上市。",
+    "description": "青岛海森林发制品集团（2002年创立）是国内高端假发/发制品龙头，产品涵盖女士头套、男士发块、发帘等，出口全球30余国，多次冲刺IPO。",
+    "silver_reason": "高端假发发制品制造与出口,客户以欧美为主,非老年专属,与银发照护无实质关联",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "A轮",
+    "founded": 2002,
+    "highlights": [
+      "高端真发发制品出口规模国内第一",
+      "ODM/OEM代工、9家工厂、115项专利、销往26国",
+      "三度冲刺A股(2023/2025/2026辅导备案)",
+      "原欧莱雅供应商,2022年完成A轮融资"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 2.0,
+    "copy_score": 2.0,
+    "research_value": 24.6,
+    "recommend": {
+      "rec_v1": "信号弱出口信息足但非银发；假发制造同质化，与老年照护创业之间无借鉴关系，银发库建议将其移出或单独标注。",
+      "rec_v2": "披露中等热度低；发制品代工无差异，国内银发创业者无需参考其品类与打法，其模式对银发创业者无实质借鉴意义。",
+      "rec_v3": "信号不强资料够；假发龙头实质非银发，银发库建议移出，其创业参考价值有限，后续可按非银发类别单独归类处理。",
+      "info_score": 5,
+      "diff_score": 2,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 24.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.seaforesthair.com"
+  },
+  {
+    "serial": "#0265",
+    "name": "环球捕手",
+    "name_cn": "环球捕手",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "电商"
+    ],
+    "region": "国内",
+    "desc_cn": "会员制进口美食社交电商平台,以S2b2c模式通过团长社群分销进口零食与健康食品;曾获经纬、顺为等投资,曾陷多级分销涉传争议;收入来自商品销售佣金,与银发照护无实质关联。",
+    "description": "环球捕手是浙江格家网络技术有限公司旗下的会员制社交电商平台（以进口美食为主），曾获经纬、顺为资本等投资，注册用户一度超2000万；后因多级分销模式陷入涉传争议，主体已转向“斑马会员”“T97”等品牌孵化业务，并非专门面向银发人群的企业。",
+    "silver_reason": "会员制进口美食社交电商,非专门面向银发人群,且多级分销涉传合规风险高",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "会员制进口美食社交电商平台(S2b2c)",
+      "曾获经纬、顺为投资,注册用户曾超2000万",
+      "2019年陷多级分销涉传争议",
+      "属非银发赛道,与银发照护无实质关联"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 2.0,
+    "copy_score": 2.0,
+    "research_value": 24.6,
+    "recommend": {
+      "rec_v1": "信号弱但用户数据可查；社交电商非银发，多级分销争议对创业无借鉴价值，银发库建议将其移出或单独标注。",
+      "rec_v2": "披露中等热度低；进口美食电商无差异，银发创业者无需参考其平台模式，其模式对银发创业者无实质借鉴意义。",
+      "rec_v3": "信号不强资料够；实质非银发人群，库内建议移出，其创业参考价值有限，后续可按非银发类别单独归类处理。",
+      "info_score": 5,
+      "diff_score": 2,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 24.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0448",
+    "name": "养老福祉圈",
+    "name_cn": "养老福祉圈",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "资讯门户"
+    ],
+    "region": "国内",
+    "desc_cn": "养老辅具与福祉产业垂直媒体，聚焦适老产品赛道",
+    "description": "养老福祉圈是上海国展展览中心有限公司（CHINA AID）运营的养老产业资讯新媒体（微信公众号chinaaidsh），每日分享福祉产业最新政策资讯、热门活动、项目案例及先锋人物，依托上海国际养老、辅具及康复医疗博览会（AID）面向行业专业人群。",
+    "silver_reason": "养老福祉产业垂直媒体，专门服务银发经济生态",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构订阅/广告",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "依托上海AID博览会面向行业专业人群",
+      "每日分享福祉产业政策与案例"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 24.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息薄，作为养老福祉垂直媒体差异化一般；但其依托展会的行业资源打法，国内区域媒体可参考变现。",
+      "rec_v2": "披露少、信号低，行业新媒体模式常规；亮点是绑定线下博览会流量，创业者可学'媒体+会展'双轮获客。",
+      "rec_v3": "低信号小媒体信息有限，差异化不突出；国内可抄其'政策资讯+案例'内容矩阵，但区域壁垒较强。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 24.6
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0453",
+    "name": "方文咨询",
+    "name_cn": "方文咨询",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "region": "国内",
+    "desc_cn": "养老行业运营咨询，聚焦机构运营提升、公建民营投标",
+    "description": "方文咨询是一家关注养老产业创新与创业的咨询/研究服务机构，为养老企业提供产业研究、市场分析与战略/投融资顾问内容，常在养老行业媒体发表养老公司研究与市场观察文章，覆盖社区居家养老、机构养老及康养互联网平台等方向。",
+    "silver_reason": "养老产业运营咨询，专门服务银发赛道",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端/G端咨询采购",
+    "business_model": "B2B 咨询服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "聚焦机构运营提升、公建民营投标",
+      "常在养老媒体发表公司研究"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 24.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息少，养老咨询属常规服务、差异化一般；但其机构运营提升与公建民营投标经验，国内小顾问可学。",
+      "rec_v2": "披露有限、信号低，咨询打法同质；亮点在覆盖社区居家到机构，创业者可借其研究框架做区域深耕。",
+      "rec_v3": "低信号咨询机构信息薄，差异化不强；国内可复制其'研究+投标'轻资产模式，但依赖人脉资源。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 24.6
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0454",
+    "name": "群业咨询",
+    "name_cn": "群业咨询",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "region": "国内",
+    "desc_cn": "康养产业规划咨询，服务地方政府康养产业落地",
+    "description": "群业（上海）投资咨询有限公司（2006年前后创立，创始人郭玉群）是国内最早从事大健康与养老产业专业咨询的服务机构之一，总部位于上海，为万科、中国人寿、太平保险、中信、华润等大型房企、保险集团及央国企提供养老产业发展战略规划、项目落地设计与投融资投行服务，参与杭州万科随园嘉树、太平梧桐人家等标杆项目。",
+    "silver_reason": "康养产业规划咨询，服务银发经济落地",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端/G端咨询采购",
+    "business_model": "B2G 政企合作",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2006,
+    "highlights": [
+      "服务万科、中国人寿、太平、华润等头部客户",
+      "参与杭州万科随园嘉树等标杆项目"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 24.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息少（创立年存疑），康养规划咨询常规、差异化低；但其服务头部房企险企的案例，国内顾问可参考。",
+      "rec_v2": "披露有限、信号低，亮点在参与头部标杆项目；创业者可学其'战略规划+落地设计'咨询交付模型。",
+      "rec_v3": "信息薄、信号一般，咨询打法常规；国内可抄其政企康养产业规划路径，但强依赖政府与品牌背书。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 24.6
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0676",
+    "name": "Conduce Health",
+    "name_cn": "Conduce Health",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护理协调"
+    ],
+    "region": "海外",
+    "desc_cn": "多专科价值医疗(value-based care)协调平台，用精算与数据科学为初级医疗组织匹配最合适的专科医生，管理专科风险并简化合同与支付。当前网络含150余名专科医生，落地南卡与佐治亚，并与Pearl Health合作，聚焦慢病与共病老人的专科协同。",
+    "description": "将付款人与多专业医生联系",
+    "silver_reason": "通用价值医疗协调平台，虽服务共病老人群体但无老年专属定位，非银发主业",
+    "silver_verdict": "非银发",
+    "payor_model": "B端机构采购（医保/付款人）",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2024年3月",
+      "amount": "300万美元",
+      "round": "种子轮",
+      "display": "种子轮 300万美元 (2024年3月)"
+    },
+    "funding_total": {
+      "amount": "$3M (Seed)",
+      "display": "$3M Seed"
+    },
+    "investors": "CT Innovations, AlleyCorp, Black Opal, CityLight",
+    "stage": "种子期",
+    "founded": 2021,
+    "highlights": [
+      "多专科价值医疗协调网络，用精算做“按病人匹配专科”",
+      "已接入150余名专科医生，落地南卡、佐治亚并与Pearl Health合作",
+      "聚焦共病/慢病老人的专科协同与风险管控",
+      "2024年3月完成300万美元种子轮（CT Innovations领投）"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 3.0,
+    "diff_score": 3.0,
+    "copy_score": 3.0,
+    "research_value": 24.1,
+    "recommend": {
+      "rec_v1": "信号低且信息薄（仅早期资本支持）；护理协调无银发专属差异，国内创业者勿照搬其医保耦合模式，参考价值有限。",
+      "rec_v2": "披露稀少；亮点是value-based协调，但受美国支付体系约束难复制，对国内银发创业者启发弱。",
+      "rec_v3": "小注验证概念；其平台无差异化壁垒，研究价值低，仅作「医保—服务」衔接的思路注脚。",
+      "info_score": 3,
+      "diff_score": 3,
+      "copy_score": 3,
+      "signal_strength": 1.05,
+      "research_value": 24.2
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.conducehealth.com"
+  },
+  {
+    "serial": "#0084",
+    "name": "亿芃健康",
+    "name_cn": "亿芃健康",
+    "tag_l1": [
+      "食品营养",
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "保健品",
+      "医疗器械"
+    ],
+    "region": "国内",
+    "desc_cn": "温州健康产品经销与技术服务商，经营范围涵盖保健食品、特殊医学用途配方食品与一二类医疗器械销售，并涉细胞技术研发。收入来自健康产品分销与技术服务，面向个人与机构客户。银发关联在经营保健品与医疗器械等适老健康消费品，但无明确自有产品或业务实质披露，信息高度有限。",
+    "description": "公开信息有限，疑似为2022年成立于温州的健康科技企业，经营范围含保健食品、特殊医学用途配方食品及一/二类医疗器械销售、细胞技术研发等。建议人工复核其实际产品与业务。",
+    "silver_reason": "经营保健品与医疗器械等适老健康消费品，面向银发健康需求，但实质待核验。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端机构采购",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2022,
+    "highlights": [
+      "2022年成立，温州龙湾，注册资本1000万、实缴242万、参保仅2人",
+      "经营范围含保健食品、特医食品与一二类医疗器械销售",
+      "曾用名浙江亿芃生物科技，2025年上线自有健康小程序",
+      "无自有产品或融资披露，业务实质模糊"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 2.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 23.7,
+    "recommend": {
+      "rec_v1": "信号弱且信息稀薄；经营范围含保健品与医疗器械，差异待核，国内创业者暂缓参考、需先核实其真实老年产品线。",
+      "rec_v2": "冷门企业资料极少；疑似做保健+特医食品，壁垒不明，可学其'经营范围广'的轻资产入局思路但须尽调。",
+      "rec_v3": "低关注且披露不足：其银发属性存疑，可复制性待定，创业者宜把它当'待核验'样本而非直接对标案例。",
+      "info_score": 2,
+      "diff_score": 4,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 25.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0388",
+    "name": "Coffee Cherry",
+    "name_cn": "Coffee Cherry",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "零售"
+    ],
+    "region": "国内",
+    "desc_cn": "面包店与咖啡连锁品牌",
+    "description": "面包店、咖啡",
+    "silver_reason": "面包店/咖啡连锁，无银发业务实质",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2023年3月",
+      "amount": "1亿美元",
+      "display": "1亿美元 (2023年3月)"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": 2014,
+    "highlights": [
+      "面包店与咖啡连锁",
+      "2023年3月完成1亿美元融资"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 2.0,
+    "copy_score": 3.0,
+    "research_value": 23.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息偏少，面包店咖啡连锁模式常规；其与银发无关，国内创业者无可借鉴的银发切入点，仅参考其零售扩张。",
+      "rec_v2": "披露一般、获大额融资，亮点在烘焙+咖啡业态；无银发属性，融资故事不可作为银发案例参考。",
+      "rec_v3": "热点低、信息量低，综合餐饮无银发差异；模式虽可抄却非银发场景，不宜纳入银发研究。",
+      "info_score": 4,
+      "diff_score": 2,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 23.7
+    },
+    "source": "选题库V4",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0283",
+    "name": "祥和",
+    "name_cn": "祥和",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械"
+    ],
+    "region": "国内",
+    "desc_cn": "康复辅具及康养大健康集团（主体存疑）",
+    "description": "公开信息中与银发相关的主要为山东祥和集团（以健身器材起家，业务覆盖康复辅助器材、医疗、养老等大健康产业）及成都祥和智慧健康管理（长者健康立体养老服务平台）。“祥和”为通用名，较难唯一确定。",
+    "silver_reason": "康复辅具与康养业务服务老年群体（主体待确认）",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端机构采购",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "山东祥和集团以健身器材起家，覆盖康复/医疗/养老",
+      "成都祥和智慧健康管理做长者立体养老服务",
+      "祥和为通用名，真实主体待确认"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 2.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 21.6,
+    "recommend": {
+      "rec_v1": "信号极弱、信息模糊（通用名难定主体）；业务含康复器材与养老。差异不显，但国内适老康复制造可学其健身器材转型康养的延展思路。",
+      "rec_v2": "冷门且主体存疑，公开资料少。差异在山东祥和横跨康复/医疗/养老的多元布局，创业者可参考老牌器械厂切入银发康养的产业链打法。",
+      "rec_v3": "信号低、信息少；差异仅在泛康复制造。可复制性中等，国内许多器械厂可仿其健身+康复+养老多业务协同路径。",
+      "info_score": 2,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 21.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0314",
+    "name": "肌肉科技",
+    "name_cn": "肌肉科技",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "膳食补充剂"
+    ],
+    "region": "国内",
+    "desc_cn": "美国运动营养补剂品牌",
+    "description": "肌肉科技（MuscleTech）是美国运动营养品牌，主打乳清蛋白粉、肌酸等补剂，畅销140余国，号称美国#1运动营养品牌，在中国通过官方旗舰店销售，面向健身人群。",
+    "silver_reason": "运动营养面向健身人群，非银发",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1995,
+    "highlights": [
+      "肌肉科技MuscleTech美国运动营养品牌",
+      "主打乳清蛋白粉、肌酸等补剂，畅销140余国",
+      "号称美国#1运动营养品牌，面向健身人群"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 2.0,
+    "copy_score": 2.0,
+    "research_value": 21.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等（美国运动营养品牌）；面向健身人群非银发。差异在乳清蛋白补剂，对银发借鉴低，不建议深研。",
+      "rec_v2": "冷门补剂品牌，披露偏少。亮点是美国#1运动营养，但客群为健身者，银发关联弱，可学有限。",
+      "rec_v3": "信号低、信息中等；差异在标准运动营养补剂无银发定位。与银发无关，复制性无意义，仅作营养品背景参考。",
+      "info_score": 4,
+      "diff_score": 2,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 21.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0450",
+    "name": "银行＆保险公司",
+    "name_cn": "银行＆保险公司",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "region": "国内",
+    "desc_cn": "银行养老理财、保险年金、增额终身寿等银发主流理财渠道",
+    "description": "银行养老理财、保险年金、增额终身寿等银发主流理财渠道",
+    "silver_reason": "银行养老理财与保险年金等老年主流理财渠道",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人保费自付",
+    "business_model": "B2C/B2B 老年健康保险",
+    "funding_latest": {
+      "amount": "持牌金融机构主体",
+      "display": "持牌金融机构主体"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "银行养老理财、保险年金、增额终身寿",
+      "银发主流理财渠道的集合条目"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 2.0,
+    "copy_score": 3.0,
+    "research_value": 20.6,
+    "recommend": {
+      "rec_v1": "信号弱、仅为渠道条目，养老理财与年金属常规金融、差异化低；受牌照强约束，国内创业者难直接复制。",
+      "rec_v2": "信息披露极少、信号低，银行保险养老渠道同质化明显；创业者可学其产品包装，但核心受金融监管不可抄。",
+      "rec_v3": "低信号泛化条目，理财年金打法常规、无差异；国内宜关注其适老产品设计思路，主体模式受牌照限制。",
+      "info_score": 3,
+      "diff_score": 2,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 20.6
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0688",
+    "name": "DoorSpace",
+    "name_cn": "DoorSpace",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "照护支持"
+    ],
+    "region": "海外",
+    "desc_cn": "医疗行业员工关系与人才发展SaaS，把临床人员的资质、继续教育与合规数据汇成统一台账，帮医院降低流失、提升留任。面向医疗机构HR而非患者，并引入AI做技能缺口与职业路径分析，解决护士等高流失岗位的用工痛点。",
+    "description": "医疗保健领域首个员工关系管理系统",
+    "silver_reason": "医疗HR软件，服务对象为医疗机构员工而非老年人群",
+    "silver_verdict": "非银发",
+    "payor_model": "B端机构采购（HR SaaS）",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "amount": "200万美元",
+      "round": "种子轮",
+      "display": "种子轮 200万美元"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": 2021,
+    "highlights": [
+      "医疗行业首个员工关系/人才发展管理系统（Keys平台）",
+      "把资质、继续教育、合规汇成“单一真相源”降护理员事务负担",
+      "2024年5月完成200万美元种子轮",
+      "CEO Sarah Worthy，聚焦高护士流失率机构的留任"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 3.0,
+    "diff_score": 2.0,
+    "copy_score": 2.0,
+    "research_value": 20.1,
+    "recommend": {
+      "rec_v1": "信号低信息薄（仅早期资本支持）；员工关系管理无银发差异，国内创业者无需参考，研究价值低。",
+      "rec_v2": "披露稀少；亮点是医疗HR垂直化，但与老年服务无直接关联，难复制为银发场景，对创业者启发弱。",
+      "rec_v3": "小资本试水；其系统无差异化且偏离银发主线，仅作医疗人力数字化旁证，不建议作为重点研究对象。",
+      "info_score": 3,
+      "diff_score": 2,
+      "copy_score": 2,
+      "signal_strength": 1.05,
+      "research_value": 20.2
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.doorspace.com"
+  }
+]

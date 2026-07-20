@@ -1,0 +1,228 @@
+{
+  "pack": 2,
+  "enterprises": [
+    {
+      "serial": "#0594",
+      "founded_verified": "1992",
+      "hq": "美国亚利桑那州创立，现运营方 Tivity Health 总部位于田纳西州纳什维尔",
+      "one_liner": "SilverSneakers 是美国面向 65 岁以上老年人的健身与健康会员项目，通过 Medicare Advantage 及补充医疗保险计划向会员免费提供健身房及线上线下健康课程。",
+      "key_products": ["SilverSneakers 健身会员（覆盖约1.6万家健身房/老年中心）", "SilverSneakers LIVE 线上直播课", "SilverSneakers On-Demand 点播内容", "Burnalong 数字健康平台（2023年收购）"],
+      "funding_latest_corrected": {"round": "被 Healthways（现 Tivity Health）收购", "amount": "450000000", "currency": "USD", "date": "2006", "investors": ["Healthways"]},
+      "funding_total_corrected": {"amount": "无独立融资（2006年起为 Tivity Health 资产）", "currency": "USD"},
+      "events": ["2006年被 Healthways 以约4.5亿美元收购", "2022年母公司 Tivity Health 被 Stone Point Capital 以约20亿美元私有化", "2023年 Tivity Health 收购数字健康平台 Burnalong"],
+      "payor_model": "B端机构付费（Medicare Advantage 及 Medicare 补充险计划按人头月费支付给 Tivity Health，会员免费使用）",
+      "business_tags_suggest": {"role": "服务商（老年健身健康项目/平台）"},
+      "latest_news": [
+        {"title": "1900万老人“免费”健身,0成本撬动144亿,保险巨头“抢着买单”", "date": "2025", "source": "web", "url": "https://m.jiemian.com/article/12867854.html"},
+        {"title": "Are taxpayers wasting $86 billion on SilverSneakers and Medicare Advantage goodies they don't use?", "date": "2025", "source": "web", "url": "https://www.yahoo.com/news/articles/taxpayers-wasting-86-billion-silversneakers-194900872.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为 Medicare 老年群体设计的健身健康项目，会员均为老年人，业务完全围绕银发人群。",
+      "info_aid": "成立年(1992)、被Healthways收购(2006)、母公司2022年被Stone Point以20亿美元私有化等多源公开资料可交叉验证，信息可信度高。",
+      "diff_aid": "全美最大老年健身项目，绑定 Medicare Advantage 保险支付方，形成“保险买单—老人免费健身—降低医疗支出”的闭环，稀缺性强。",
+      "copy_aid": "1900万美国老人“免费”健身，保险巨头抢着买单——SilverSneakers 用预防式健身撬动百亿银发健康市场。",
+      "sources": ["https://m.jiemian.com/article/12867854.html", "https://www.yahoo.com/news/articles/taxpayers-wasting-86-billion-silversneakers-194900872.html", "https://www.prnewswire.com/news-releases/tivity-health-announces-ceo-transition-301770380.html"]
+    },
+    {
+      "serial": "#0595",
+      "founded_verified": "1995",
+      "hq": "美国纽约",
+      "one_liner": "IAC 是 Barry Diller 创立的互联网与媒体控股集团（NASDAQ:IAC），旗下通过子公司 Care.com 运营涵盖儿童与老年照护的家庭照护匹配平台。",
+      "key_products": ["Care.com 家庭照护平台（含老年照护匹配）", "Care@Work 企业员工照护福利", "Angi/HomeAdvisor 家庭服务", "Match Group 等多元互联网资产（已分拆）"],
+      "funding_latest_corrected": {"round": "上市公司 NASDAQ:IAC（无新一轮股权融资；以自有资金对外投资）", "amount": "", "currency": "", "date": "", "investors": []},
+      "funding_total_corrected": {"amount": "上市公司（NASDAQ:IAC），历史上多次分拆上市融资", "currency": "USD"},
+      "events": ["2019-12 IAC 宣布以5亿美元收购 Care.com（2020-02完成，Care.com 成为 IAC 全资子公司）", "Care.com 老年照护为增长最快板块"],
+      "payor_model": "混合（Care.com 个人/家庭订阅自付 + 企业 Care@Work 福利 B 端付费）",
+      "business_tags_suggest": {"role": "平台（家庭照护市场 Care.com）/ 控股集团"},
+      "latest_news": [
+        {"title": "IAC Announces Agreement to Acquire Care.com", "date": "2019-12-20", "source": "web", "url": "https://www.iac.com/press-releases/iac-announces-agreement-to-acquire-care-com"},
+        {"title": "IAC Announces Close of $500 Million Care.com Acquisition", "date": "2020-02", "source": "web", "url": "https://ir.iac.com/node/23536/html"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "主体 IAC 为综合互联网控股集团，仅通过子公司 Care.com 提供老年照护匹配服务，老年业务占其家庭照护平台一部分，非专为老人。",
+      "info_aid": "IAC 收购 Care.com 的价格(5亿美元)、时间(2019宣布/2020完成)有 IAC 官方新闻稿与 SEC 文件佐证，信息可靠。",
+      "diff_aid": "以控股集团资源赋能 Care.com 老年照护这一最快增长板块，具备平台规模与流量优势，但银发非其主业。",
+      "copy_aid": "IAC 豪掷5亿美元拿下 Care.com，押注“银发照护”成家庭照护赛道最快增长极。",
+      "sources": ["https://www.iac.com/press-releases/iac-announces-agreement-to-acquire-care-com", "https://ir.iac.com/node/23536/html", "https://www.bizjournals.com/newyork/news/2019/12/20/iac-buys-care-com-appoints-new-ceo.html"]
+    },
+    {
+      "serial": "#0850",
+      "founded_verified": "2010",
+      "hq": "美国佐治亚州亚特兰大",
+      "one_liner": "Sharecare 是由 WebMD 创始人 Jeff Arnold 与 Mehmet Oz 共同创立的数据驱动数字健康平台，2021年 SPAC 上市，并通过收购 CareLinx 切入居家照护。",
+      "key_products": ["数据驱动健康平台（benefits navigation、健康信息管理等）", "CareLinx 居家照护平台（45万+照护人员）", "数字疗法与循证健康辅导", "雇主/健康计划/政府/药企 SaaS 服务"],
+      "funding_latest_corrected": {"round": "被 Altaris 私有化收购（take-private）", "amount": "518000000", "currency": "USD", "date": "2024-10-22", "investors": ["Altaris"]},
+      "funding_total_corrected": {"amount": "2021年 SPAC 上市（Nasdaq:SHCR，估值约39亿美元）", "currency": "USD"},
+      "events": ["2021年通过 SPAC（Falcon II）上市", "2021年以6500万美元收购居家照护平台 CareLinx", "2024-10 被 Altaris 以5.18亿美元私有化"],
+      "payor_model": "混合（B端机构付费为主：雇主、商业/政府健康计划、药企；亦有面向消费者的服务）",
+      "business_tags_suggest": {"role": "服务商（数字健康平台）/ 平台"},
+      "latest_news": [
+        {"title": "Altaris completes acquisition of Sharecare", "date": "2024-10-22", "source": "web", "url": "https://about.sharecare.com/press-releases/altaris-completes-acquisition-of-sharecare"},
+        {"title": "Health Care Investment Firm Altaris Agrees to Acquire Sharecare For $518 Million", "date": "2024-06-21", "source": "web", "url": "https://homehealthcarenews.com/2024/06/health-care-investment-firm-altaris-agrees-to-acquire-sharecare-for-518-million/"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "全龄数字健康平台，通过 CareLinx 切入居家照护，并非专为老年人设计，属泛医疗全龄服务的银发擦边。",
+      "info_aid": "Sharecare 被 Altaris 收购金额(5.18亿美元)、时间、CareLinx 收购价(6500万)均有官方新闻稿及医疗媒体佐证。",
+      "diff_aid": "以数据驱动平台整合健康管理与居家照护(CareLinx)，跨雇主/保险/政府/药企多支付通道，居家照护是其银发切入点。",
+      "copy_aid": "从 WebMD 创始人到 CareLinx 居家照护，Sharecare 用5.18亿美元私有化换道深耕“健康+居家”全龄赛道。",
+      "sources": ["https://about.sharecare.com/press-releases/altaris-completes-acquisition-of-sharecare", "https://homehealthcarenews.com/2024/06/health-care-investment-firm-altaris-agrees-to-acquire-sharecare-for-518-million/", "http://altariscap.com/news/altaris-enters-into-agreement-to-aquire-sharecare"]
+    },
+    {
+      "serial": "#0012",
+      "founded_verified": "2015",
+      "hq": "中国上海（浦东新区）",
+      "one_liner": "善诊是专注中老年健康服务的互联网大健康平台，以“体检—健康管理—健康保险”闭环帮助子女照料父母健康，累计融资近10亿元。",
+      "key_products": ["定制体检与全国体检服务网络（300+城市、3000+机构）", "老年医疗险（保险科技/风控）", "AI 总检一体机与 AI 定制体检", "健康管理服务（检后解读、复查提醒等）"],
+      "funding_latest_corrected": {"round": "B轮", "amount": "数千万美元", "currency": "USD", "date": "2019-05-21", "investors": ["SIG海纳亚洲", "纪源资本(GGV)", "蓝驰创投"]},
+      "funding_total_corrected": {"amount": "近10亿元人民币（累计5轮）", "currency": "CNY"},
+      "events": ["2019-05 完成 B 轮数千万美元融资（SIG、GGV、蓝驰）", "2025年发布接入 DeepSeek 的 AI 总检一体机", "2025年透露已有 IPO 打算"],
+      "payor_model": "混合（子女/个人自付体检 + 商业保险 + 与保险公司合作的 B 端健康服务/风控）",
+      "business_tags_suggest": {"role": "服务商（健康服务+保险科技平台）"},
+      "latest_news": [
+        {"title": "瞄准3000亿体检蓝海,善诊谋局智能化", "date": "2025-08-30", "source": "web", "url": "https://news.qq.com/rain/a/20250830A06LSF00"},
+        {"title": "善诊发布接入DeepSeek成绩单(体检数据处理+210%)", "date": "2025-02-26", "source": "web", "url": "https://digi.china.com/articles/20250226/202502261641375.html"},
+        {"title": "善诊吴竑兴入选2024年浦东新区明珠计划“菁英人才”", "date": "2024", "source": "web", "url": "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6808591ea310f54263473dd4.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "业务完全围绕父母/中老年健康（老年体检、老年医疗险、子女照料父母），是专为银发人群设计的健康服务与保险科技平台。",
+      "info_aid": "成立时间(2015)、B轮融资(2019, SIG/GGV/蓝驰)、累计近10亿融资(5轮)由天眼查、脉脉、China Daily 等多源印证。",
+      "diff_aid": "国内唯一以健康数据驱动打通“预防—干预—支付”全产业链的银发互联网大健康公司，并首创老年医疗险。",
+      "copy_aid": "10年、近10亿融资、300城体检网络——善诊用 AI 总检一体机重新定义“父母健康找善诊”。",
+      "sources": ["https://www.tianyancha.com/company/2944854696", "https://app.mokahr.com/apply/wayyue", "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS6808591ea310f54263473dd4.html", "https://news.qq.com/rain/a/20250830A06LSF00"]
+    },
+    {
+      "serial": "#0461",
+      "founded_verified": "1982",
+      "hq": "美国路易斯安那州巴吞鲁日（Baton Rouge）",
+      "one_liner": "Amedisys 是美国大型居家医疗、临终关怀与安宁疗护服务商，每年服务超46.5万患者，2025年被 UnitedHealth/Optum 以33亿美元收购。",
+      "key_products": ["居家健康护理（Home Health）", "临终关怀（Hospice）", "姑息治疗（Palliative Care）", "个人护理与医疗陪护"],
+      "funding_latest_corrected": {"round": "被 Optum/UnitedHealth 收购（take-private）", "amount": "3300000000", "currency": "USD", "date": "2025-08-14", "investors": ["UnitedHealth/Optum"]},
+      "funding_total_corrected": {"amount": "美股上市公司（Nasdaq:AMED，2025年被收购退市）", "currency": "USD"},
+      "events": ["2023-06 Optum 宣布以101美元/股（约33亿美元）收购 Amedisys", "2025-08-14 完成收购（DOJ 反垄断和解，剥离164个网点予 BrightSpring 与 Pennant）", "原为 Nasdaq:AMED 上市公司"],
+      "payor_model": "政府支付为主（Medicare/Medicaid 报销居家医疗与安宁疗护）+ 商业保险",
+      "business_tags_suggest": {"role": "服务商（居家医疗/安宁疗护）"},
+      "latest_news": [
+        {"title": "UnitedHealth closes $3.3B Amedisys buy after long antitrust review", "date": "2025-08-15", "source": "web", "url": "https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/"},
+        {"title": "UnitedHealth Group, Amedisys close $3.3B merger deal", "date": "2025-08-14", "source": "web", "url": "https://www.fiercehealthcare.com/payers/unitedhealth-amedisys-sell-facilities-settlement-doj"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家医疗与安宁疗护患者以老年慢性病群体为主（年服务46.5万患者），业务高度依赖银发人群，属核心银发。",
+      "info_aid": "收购金额(33亿美元/101美元股)、完成时间(2025-08-14)、DOJ 剥离164个网点等由 Healthcare Dive、Fierce Healthcare、Hospice News 一致报道。",
+      "diff_aid": "美国居家医疗+安宁疗护头部，并入 UnitedHealth/Optum 后强化“保险+照护”垂直整合，规模化优势显著。",
+      "copy_aid": "33亿美元、46.5万患者——Amedisys 被 Optum 收入囊中，美国居家照护版图再洗牌。",
+      "sources": ["https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/", "https://www.fiercehealthcare.com/payers/unitedhealth-amedisys-sell-facilities-settlement-doj", "https://hospicenews.com/2025/08/14/unitedhealth-groups-acquisition-of-amedisys-closes/"]
+    },
+    {
+      "serial": "#0949",
+      "founded_verified": "1994（由Keith Myers与护士妻子Ginger于路易斯安那州创立首家居家护理机构）",
+      "hq": "美国路易斯安那州拉斐特（Lafayette, Louisiana）",
+      "one_liner": "美国大型居家医疗与安宁疗护服务商，为老年慢病及临终患者提供上门护理，2023年被Optum以54亿美元收购。",
+      "key_products": ["居家健康护理（Home Health）", "临终关怀/安宁疗护（Hospice）", "社区及家庭基础服务（HCBS）", "院后机构化照护（facility-based care）"],
+      "funding_latest_corrected": {"round": "被Optum（UnitedHealth Group）收购（take-private）", "amount": "5400000000", "currency": "USD", "date": "2023-02-22", "investors": ["UnitedHealth Group / Optum"]},
+      "funding_total_corrected": {"amount": "上市公司（NASDAQ:LHCG），2005年IPO募资约6720万美元；2023年被Optum以54亿美元收购退市", "currency": "USD"},
+      "events": ["1994年 由Keith与Ginger Myers创立于路易斯安那州", "2005年 纳斯达克IPO，募资约6720万美元", "2022-03 Optum（联合健康）宣布以54亿美元（170美元/股）收购", "2023-02-22 收购完成，退市并入Optum Health"],
+      "payor_model": "政府支付为主（Medicare/Medicaid报销居家医疗与安宁疗护）+ 商业保险（Medicare Advantage）/少量自费",
+      "business_tags_suggest": {"role": "服务商（居家医疗/安宁疗护）"},
+      "latest_news": [
+        {"title": "Optum Closes $5.4 Billion LHC Group Acquisition", "date": "2023-02-22", "source": "web", "url": "https://hospicenews.com/2023/02/22/unitedhealth-group-closes-5-5-billion-lhc-group-acquisition/"},
+        {"title": "UnitedHealth Group closes $5.4B acquisition of LHC Group", "date": "2023-02-22", "source": "web", "url": "https://healthexec.com/node/232856"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家医疗与安宁疗护患者以老年慢病及临终人群为主（年服务超1200万人次，覆盖全美约69%的65岁以上人口），业务高度依赖银发人群。",
+      "info_aid": "成立年(1994)、IPO(2005)、被Optum以54亿美元收购(2023-02-22)等信息由Hospice News、HealthExec及SEC文件一致佐证，公开信息丰富且可交叉验证。",
+      "diff_aid": "从夫妻创立的乡镇小机构成长为全美最大居家医疗/安宁疗护商之一，最终被保险巨头Optum垂直整合——保险+照护一体化反常识闭环，起落巨大。",
+      "copy_aid": "54亿美元、1200万年服务人次——LHC Group被Optum收入囊中，美国保险办照护浪潮下居家养老版图再洗牌。",
+      "sources": ["https://hospicenews.com/2023/02/22/unitedhealth-group-closes-5-5-billion-lhc-group-acquisition/", "https://healthexec.com/node/232856", "https://legalclarity.org/who-owns-lhc-group-the-unitedhealth-acquisition"]
+    },
+    {
+      "serial": "#0954",
+      "founded_verified": "2014（前身Encompass Home Health于1994年创立，2014年被HealthSouth/Encompass Health以7.5亿美元收购整合；2022年分拆为Enhabit）",
+      "hq": "美国得克萨斯州达拉斯（Dallas, Texas）",
+      "one_liner": "全美居家健康与临终关怀服务商，34州约370个网点，为老年及临终患者提供上门护理，2026年被Kinderhook以11亿美元收购。",
+      "key_products": ["居家健康护理（Home Health）", "临终关怀/安宁疗护（Hospice）", "居家康复与慢性病管理", "基于转诊与合同的综合上门照护"],
+      "funding_latest_corrected": {"round": "被Kinderhook Industries收购（take-private，PE）", "amount": "1100000000", "currency": "USD", "date": "2026-05-18", "investors": ["Kinderhook Industries"]},
+      "funding_total_corrected": {"amount": "分拆上市未做新股募资（2022年从Encompass Health分拆；2014年Encompass以7.5亿美元收购组建该居家护理业务）", "currency": "USD"},
+      "events": ["2014年 前身Encompass Home Health被HealthSouth（现Encompass Health）以7.5亿美元收购", "2022-07-01 从Encompass Health分拆，NYSE:EHAB独立上市", "2024年 终止与UnitedHealthcare合同后重建付费方组合、关闭整合网点", "2026-02-23 宣布被Kinderhook以11亿美元收购（13.80美元/股）", "2026-05-18 收购完成退市（take-private）"],
+      "payor_model": "政府支付为主（Medicare/Medicaid报销居家医疗与临终关怀）+ 商业保险（Medicare Advantage）/少量自费",
+      "business_tags_suggest": {"role": "服务商（居家健康/安宁疗护）"},
+      "latest_news": [
+        {"title": "Kinderhook Industries To Acquire Enhabit For $1.1B", "date": "2026-02-23", "source": "web", "url": "https://homehealthcarenews.com/2026/02/kinderhook-industries-to-acquire-enhabit-for-1-1b/"},
+        {"title": "Private equity firm closes $1.1B take-private deal of Enhabit", "date": "2026-05-18", "source": "web", "url": "https://www.healthcaredive.com/news/private-equity-firm-to-buy-home-health-and-hospice-provider-enhabit-in-11/812938"},
+        {"title": "Enhabit Reports Second Quarter 2025 Financial Results", "date": "2025-08-06", "source": "web", "url": "https://investors.ehab.com/news/news-details/2025/Enhabit-Reports-Second-Quarter-2025-Financial-Results/default.aspx"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家健康与安宁疗护直接服务老年及临终人群（经营225+居家护理点与110+临终关怀点，遍及34州），业务完全围绕银发人群。",
+      "info_aid": "分拆上市(2022-07-01)、Kinderhook 11亿美元收购(2026-02宣布/05完成)、Q2 2025财报等由Enhabit官网、HHCN、HealthCare Dive一致报道，信息量多。",
+      "diff_aid": "从Encompass Health分拆出的纯居家照护标的，在Medicare Advantage挤压下艰难转型，最终被PE折价私有化——分拆到再被收购的反转故事。",
+      "copy_aid": "11亿美元、34州370个网点——Enhabit从分拆上市到PE私有化，美国居家照护小而美标的的资本过山车。",
+      "sources": ["https://www.enhabit.com/spin-off-notice/", "https://www.kinderhook.com/press-release/enhabit-to-be-acquired-by-kinderhook-industries", "https://homehealthcarenews.com/2026/02/kinderhook-industries-to-acquire-enhabit-for-1-1b/", "https://www.healthcaredive.com/news/private-equity-firm-to-buy-home-health-and-hospice-provider-enhabit-in-11/812938"]
+    },
+    {
+      "serial": "#0009",
+      "founded_verified": "1952（南京新街口百货商店创立；1991年改组为股份，1993年上交所上市）",
+      "hq": "中国江苏省南京市",
+      "one_liner": "A股百货转型大健康企业，旗下安康通/禾康/以色列Natali为老年人提供居家、社区与机构养老服务，养老已成第一大板块。",
+      "key_products": ["安康通（居家/社区养老平台、长护险服务）", "禾康养老（机构养老、社区养老服务）", "Natali（以色列远程医疗与健康养老服务）", "齐鲁干细胞/新健康医院（生物医疗，辅助养老生态）"],
+      "funding_latest_corrected": {"round": "IPO（上交所主板）", "amount": "144000000", "currency": "CNY", "date": "1993-10-18", "investors": []},
+      "funding_total_corrected": {"amount": "A股上市公司（1993年IPO募资1.44亿元，后续历次再融资）", "currency": "CNY"},
+      "events": ["1952年 南京新街口百货商店创立", "1993-10-18 上交所上市（600682）", "2014-2015 收购以色列Natali、布局安康通/禾康养老", "2024年 营收67亿元，健康养老护理业收入21.28亿元", "2025年 养老护理业收入22.83亿元（占比升至35.89%，成第一大板块）"],
+      "payor_model": "混合（C端老人/子女自费 + 长期护理保险（长护险）结算 + B端机构/G端采购；Natali以以色列商业保险与私人付费为主）",
+      "business_tags_suggest": {"role": "平台/服务商（居家社区机构养老综合运营）"},
+      "latest_news": [
+        {"title": "南京新百2024年实现营收67亿元 大健康主业稳健发展", "date": "2025-04-29", "source": "web", "url": "https://www.cnstock.com/commonDetail/430256"},
+        {"title": "南京新百2024年净利润2.3亿元 拟10派0.16元", "date": "2025-04-30", "source": "web", "url": "https://newzzbcx.cs.com.cn/cxnews.html?name=new20250502004206bkqcfcea"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "旗下安康通（居家/社区养老）、禾康（机构养老）、Natali（远程照护）直接面向老年人提供养老服务，且养老已成为公司第一大业务板块。",
+      "info_aid": "2024年报（营收67亿、养老收入21.28亿）、2025年报（养老收入22.83亿占比35.89%）、安康通中标182个项目与Natali增速等由上证报、中证网多源披露，A股信披质量高。",
+      "diff_aid": "A股罕见的百货+跨国养老复合体：同时持有以色列Natali、国内安康通与禾康，打通居家/社区/机构/远程四类养老场景，跨境养老科技稀缺。",
+      "copy_aid": "从南京百货到养老龙头——南京新百靠安康通+Natali+禾康，把老有所养成第一大生意。",
+      "sources": ["https://www.cnstock.com/commonDetail/430256", "https://newzzbcx.cs.com.cn/cxnews.html?name=new20250502004206bkqcfcea", "https://www.jixuncaiwu.com/qy/show/6485"]
+    },
+    {
+      "serial": "#0011",
+      "founded_verified": "2001（金利伟创立杭州侨资纸业/可靠前身）",
+      "hq": "中国浙江省杭州市临安区",
+      "one_liner": "中国成人失禁护理龙头（可靠品牌），主打成人纸尿裤等老年失禁用品，被称为A股银发经济第一股。",
+      "key_products": ["成人纸尿裤/拉拉裤（可靠品牌）", "成人护理垫、尿片", "吸收宝普惠线、安护士长护险集采线", "吸水巾（轻度失禁/女性）及宠物/婴儿护理"],
+      "funding_latest_corrected": {"round": "IPO（深交所创业板）", "amount": "852343800", "currency": "CNY", "date": "2021-06-17", "investors": []},
+      "funding_total_corrected": {"amount": "A股上市公司，2021年IPO募资净额7.62亿元（总额8.52亿元）", "currency": "CNY"},
+      "events": ["2001年 金利伟创立（杭州侨资纸业）", "2008年 转向国内成人纸尿裤品牌", "2012年 成中国成人纸尿裤市场份额第一", "2021-06-17 深交所创业板IPO，募资8.52亿元", "2024年 营收10.79亿元，成人失禁用品5.58亿元（占51.72%），净利增54.44%"],
+      "payor_model": "混合（C端消费者/子女自费 + 长护险耗材集采 + 机构/医院/养老院B端采购 + ODM出口）",
+      "business_tags_suggest": {"role": "产品商（成人失禁护理用品）"},
+      "latest_news": [
+        {"title": "可靠股份：2024年成人失禁用品实现营收约5.58亿元 占总营收51.72%", "date": "2025-04-28", "source": "web", "url": "https://m.caijing.com.cn/article/202504/368007"},
+        {"title": "瞄准成人隐秘消费 70后浙商创出行业第一股 年入超10亿", "date": "2025-07-28", "source": "web", "url": "https://finance.sina.cn/tech/2025-07-28/detail-infhysif0408990.d.html"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人失禁用品主要目标客群为老年失禁者（中国失禁人群超5000万，渗透率仅约6%），业务直接服务银发人群的刚性护理需求。",
+      "info_aid": "2024年报（成人失禁5.58亿、净利+54.44%）、创始人24年深耕访谈、天猫618登顶与70%复购等由财经网、新浪、招股书多源印证，信息丰富。注：库内A股代码误为301298，正确为301009（301298为东利机械）。",
+      "diff_aid": "中国成人纸尿裤第一股，耐住7年冷启动、第10年才盈亏平衡，靠高端-普惠-集采三层品牌+长护险渠道逆袭；渗透率6% vs 日本80%的反常识蓝海。",
+      "copy_aid": "10亿营收、70%复购、渗透率仅6%——可靠股份用一片成人纸尿裤，撬动被忽视的银发隐秘刚需。",
+      "sources": ["https://m.caijing.com.cn/article/202504/368007", "https://finance.sina.cn/tech/2025-07-28/detail-infhysif0408990.d.html", "https://finance.ce.cn/stock/gsgdbd/202311/01/t20231101_38774418.shtml", "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-04-28/b3f10d6b-8d1c-47e1-bfc0-98f09ca1fd8d.PDF"]
+    },
+    {
+      "serial": "#0020",
+      "founded_verified": "1993（上海斯米克建筑陶瓷成立；2007年上市）",
+      "hq": "中国上海市（闵行区）",
+      "one_liner": "原斯米克瓷砖转型大健康，布局中高端康养社区、医养结合机构与养老职业教育，直接服务老年人群。",
+      "key_products": ["中高端康养社区服务（悦心·漫活欣成）", "失智失能专业照护（悦心·安颐别业）", "养老护理职业培训（悦心照护培训中心）", "康复医疗/医养康教研示范园"],
+      "funding_latest_corrected": {"round": "IPO（深交所主板）", "amount": "482600000", "currency": "CNY", "date": "2007-08-23", "investors": []},
+      "funding_total_corrected": {"amount": "A股上市公司，2007年IPO募资净额4.57亿元（总额4.826亿元）", "currency": "CNY"},
+      "events": ["1993年 成立（原斯米克建筑陶瓷）", "2007-08-23 深交所上市（002162）", "2015-10 更名悦心健康，战略转型大健康", "2024年 营收12.04亿元，大健康营收1.08亿元（+10.33%），扣非连亏三年", "2025年 战略投资浙江康芮嘉养，托管奉贤颐养院（床位使用率97%）"],
+      "payor_model": "混合（C端老人/家庭自费 + 政府公建民营/长护险 + 部分医保；康养地产销售回款）",
+      "business_tags_suggest": {"role": "服务商/运营商（康养社区·医养结合）"},
+      "latest_news": [
+        {"title": "悦心健康:2024年亏损1.47亿元", "date": "2025-02-28", "source": "web", "url": "https://newzzbcx.cs.com.cn/cxnews.html?name=new20250228095527rvopslzq&random=KF5mkFHl"},
+        {"title": "大健康布局成效初显 2024年大健康业务营收同比增长10.33%", "date": "2025-03", "source": "web", "url": "https://wxly.p5w.net/news/6337120.html"},
+        {"title": "大健康营收占比不足9% 悦心健康转型十年仍蹒跚", "date": "2025-03-14", "source": "web", "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-14/doc-inepryri6525614.shtml"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "公司布局中高端康养社区、失智失能照护与医养康教研，直接面向老年人群提供养老服务，属核心银发；但养老营收占比仍低（<9%），转型尚在早期。",
+      "info_aid": "2024年报（营收12.04亿、大健康1.08亿+10.33%、扣非三年累亏5亿）、转型十年问询、奉贤颐养院97%入住率等由中证网、全景网、新浪多源披露，信息充分。",
+      "diff_aid": "建材龙头跨界养老的典型转型起落样本：十年双轮驱动，养老占比仍不足9%、扣非连亏，反常识地揭示康养重资产之难；2025年总裁闪辞凸显执行波折。",
+      "copy_aid": "建材大王转行养老，十年仍蹒跚——悦心健康的1.08亿与5亿亏空，是一堂康养慢生意警示课。",
+      "sources": ["https://newzzbcx.cs.com.cn/cxnews.html?name=new20250228095527rvopslzq&random=KF5mkFHl", "https://wxly.p5w.net/news/6337120.html", "https://finance.sina.com.cn/stock/relnews/cn/2025-03-14/doc-inepryri6525614.shtml"]
+    }
+  ]
+}

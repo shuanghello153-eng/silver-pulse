@@ -1,0 +1,757 @@
+{
+ "batch": 19,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0001",
+   "name": "AgeClub",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "行业研究"
+   ],
+   "description": "银发产业数据与创新服务平台，成立于2016年，北京。聚焦银发经济产业研究、企业服务、投资对接和行业峰会，是国内银发经济领域头部产业媒体。",
+   "highlights": "成立于2016年",
+   "funding_latest": {
+    "date": "2016",
+    "amount": "银创资本投资",
+    "round": "天使轮",
+    "display": "天使轮 银创资本投资 (2016)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "银创资本",
+   "founded": "2016",
+   "value_score": 51,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://ageclub.net",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "银发产业数据与创新服务平台，成立于2016年，北京。聚焦银发经济产业研究、企业服务、投资对接和行业峰会，是国内银发经济领域头部产业媒体。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 28,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "1200+观众齐聚银发产业商业创新大会",
+      "date": "2026-01-28",
+      "source": "sohu",
+      "url": "https://www.sohu.com/a/980850579_120019119"
+     },
+     {
+      "title": "老龄化引爆投资狂潮：亿元级融资扎堆",
+      "date": "2026-05-21",
+      "source": "sina",
+      "url": "https://t.cj.sina.com.cn/articles/view/6859155568/198d6687000101bri2"
+     },
+     {
+      "title": "银发快讯 | 投资超2亿，首个开源鸿蒙养老护理院落地；红松推出AI生活记录产品；具身智能「墨奇智能」融资超10亿 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13UGh2czJJdDI4RlpTTXBWRTFDMFBsQldDYU42R0NlOFhxLWdDVml1SjI0Mzc4NFNmYUFaVUJiQkJQVlJDUmpIMWR1TmctS3haUTZjbGpn?oc=5",
+      "date": "2026-07-07",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "美国老年生活行业：新项目融资、资产交易、品牌重塑三线并进 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15eGc0RzZXODk0R3Vid2x1cjY0a3NoWDB5am52UjRTdm1SYlVJbVQ1SVo2VHJJSDd5VGRleHgxbGl3b2xZSl9fTHlWdVlCSUFrcDg3YjlB?oc=5",
+      "date": "2026-07-07",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "银发快讯 | 养老机器人「如身机器人」完成亿元Pre-A轮融资；2000亿元“两新”设备更新资金全部下达，支持养老机构等改造",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnFhamJMMjl2R19WSTJFNlpqbGo5VFFLZkhGX3F1bG00ZXRRNHYtckpEa2JhVkF5V05HTjZ5dE9yUzd1Z29WZUdZNnoyeU1Kbk5zakhn?oc=5",
+      "date": "2026-07-06",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "2026年二季度康养发展报告：3.2亿老人+2.52人/户：家庭小型化倒逼服务网络延伸",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04djVmVlYxak9yRU9JQkotekNvQVNYd1FQSC1RSWc1WmRDVE0zZWVhZHRabXdSWVZNdldpTGluWXVjRGw1dkpkTDFiajZkTUFlUk1nOWZ3?oc=5",
+      "date": "2026-07-06",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "上海银发经济“家底”首度公开，一份报告看懂养老新赛道",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YNHpUWGRXNHltU2JQMjJZWjl0WXRBck10Y3FKT000S0RqT1dtSDlWY09PSzg2X0p2dldCTFdaY1BxSzFfTnYxQllqLUtyVEtrMHpzMTJB?oc=5",
+      "date": "2026-07-05",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "如身机器人完成亿元Pre-A轮融资，构建面向真实养老场景的具身智能系统能力平台 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40X29fUGJzM1VKTUwwWXptMlJxR1JBcWcxUmNhTmViS0t4Q1VuR1pRVmNfakpMZzNDdlRYT3MxeUpVZkRpLWotQ3RISkMwbzFqMkpfR2N3?oc=5",
+      "date": "2026-07-05",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "长护险：老龄化+政策驱动，激发银发经济新蓝海",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsODg3TFN0THRRdVpNY1VJRnhoMDRBX01fQ3RMYnp2bjhUVHpzRFhUdm5zbDE2RTUtVkc1RXFCdW95YmZVekFheDhQbTVlNVR4QWVsd0J3?oc=5",
+      "date": "2026-07-04",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "融资1.08亿美元、年费8.5万美元：这家长寿诊所不治病，只卖健康",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeVkxaHBsMmRFWlhfQ241eXlsN0Z2dlVHWURzSDEwNkRTZTdXYVNBdm1ya2t0M1ZQQmZOdjVOcU8yaDRVVXVtSmZoWFN3MWxGdDVjdDZ3?oc=5",
+      "date": "2026-07-04",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "每人最高800元/月，京东接入居家养老服务国补；5起银发投融资；上海推进老年助医陪诊；优必选推出家用陪伴仿生机器人 | 行业动态 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TOVRnNm5xNkxmOUM2VzdUSENpUGRyWXRMVTUyX2Q1TVM5WG1aSFVkeW80OC1WRjY0b1BOc21GSC01Rm9sb0RRM1V2N1liWVFvQVgtVFNR?oc=5",
+      "date": "2026-07-03",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "产业支持·租金减免·投融资对接：罗湖银发科技孵化加速中心招商全面启动，入驻即享政策端赋能！ - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WbGR2UmxJM2gtVVg1YlNiSjUwZDNTenFTUjJNcGphRlpYX0g0dFRhbHB0SEZZdnlCTGxrN1VhV2t3LTVuSUhLYkk2aUtIWjJORWxCbmxB?oc=5",
+      "date": "2026-07-03",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "英国私募巨头14亿美元收购美国房地产平台，布局老年生活与医疗办公赛道 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfMktwUnVIQ1ZmMkdMZGZYSmF1LVQwQmZpUGJVRVkwTmtmSUdSTnJlSkdzLUozbGpvUXVaejFGdHFUaGxiUlBVVW9tdzVTZjhvY0tidFpR?oc=5",
+      "date": "2026-07-03",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "美国护理协调平台获2700万美元融资，AI+专业人员破解老年难题 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvbGV6TW0wQnBmc29IUDl2MkF3d2N4eGZUS2ZueWk3RU93TzQtZzN3eE1Lc25BUmEtYldTUHdfbU1ESGhxYi1lOGVjSC1PVWR0MEJMMm53?oc=5",
+      "date": "2026-07-03",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "2026奶商指数发布：超七成银发族首选纯牛奶，“睡前一杯奶”成健康新仪式 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSFltZnR3bHdHejZ4NGhUb2Y4SmRlM2VHZVFqYjZqWS1Jb2s4NkFnNjJ0UENfeklwZUxBc1BaQnBsUzJOQTktcnN1bFRqRTVzZVVTSXN3?oc=5",
+      "date": "2026-07-03",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "获数百万美元融资！AIVELA的差异化路径破解银发健康监测焦虑 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uSWlLcFludFVvcFB5VFlsenNpNUt0eWhkbEpfd2xCUWhjbFlhNEE5ZnlKeEZOOTVxd2JvWmk2aXllUFNwZWdUOXpLVmk2TDhvNk1PSTB3?oc=5",
+      "date": "2026-07-02",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "美国机器人伴侣公司融资700万美元，超2.3万份预购验证银发陪伴市场 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40WlBISTBRNHdEdWNBNXEzUnhqbFFfd2lidklJOFJrcWtaTV9Yc01XS2Jzd19Wd2gyUzdIRWZOd0NSVFpTdmhtRmljY1VnalE0bDZERWdR?oc=5",
+      "date": "2026-07-01",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "银发快讯 | 投资超4.5亿，京东方养老服务项目获批复；优必选超仿生人形机器人U1系列发布；51岁+银发群体成“夜经济”消费主力 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1idDR6VzVaOVlrZnZPN01MSi1xM2V0UlV1aVdsX3VVSmZ0aTZTTnRjTDg2NEJkSVcwOE5CcHZuaTQ4cWx1OVdUcndjSjRWT19Lc3lIRzFR?oc=5",
+      "date": "2026-07-01",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "银发科技与多元渠道的“价值共振”：银发智能科技产品与线上线下渠道对接会圆满落幕 - AgeClub",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zLVgxSUpWZmFvdEQ5bERGTmY3VERaQlZQdHFpbThnbUp4VFNpMk5aZ2h1eHNTMjB6OEQ0SjBMamFJam8tOE5oMFNTeG9wQzlnX3p2ZDlR?oc=5",
+      "date": "2026-07-01",
+      "source": "AgeClub",
+      "matched_from": "scored_latest"
+     },
+     {
+      "title": "AI时代中国银发科技发展研究报告发布：五大技术路线从可用到必选",
+      "url": "https://jucap.com/news/tech/20260616-08-ai-agetech-report-2026/",
+      "date": "2026-06-16",
+      "source": "JUCAP",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": [
+     "头部银发产业媒体/服务平台; 发布2025AgeAwards; 行业峰会+投资对接.",
+     "No external funding event surfaced (media/events platform)."
+    ]
+   },
+   "name_cn": "AgeClub",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "行业研究"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【AgeClub】聚焦产业资本/数字化/行业媒体，成立于2016年，B2B模式，研究价值分51。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0017",
+   "name": "小橙",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理",
+    "适老化"
+   ],
+   "description": "天津小橙集团（2015年前后创立）是综合为老服务企业，旗下小橙长护提供居家护理与长护险定点服务、康力元提供智能养老产品，业务覆盖全国300+城市。其与60余家头部险企合作，将护理服务责任化、辅具租赁普惠化，并推出48小时居家适老化改造体系。",
+   "highlights": "天津居家养老服务商，\"服务+产品+数字化\"模式，Pre-B轮超亿元",
+   "funding_latest": {
+    "date": "2026-03",
+    "amount": "超亿元",
+    "round": "Pre-B轮",
+    "display": "Pre-B轮 超亿元 (2026-03)"
+   },
+   "funding_total": {
+    "amount": "超亿元",
+    "display": "累计超亿元"
+   },
+   "investors": "中信医疗基金, 银创资本, 中关村中诺基金, 可靠股份",
+   "founded": "2018",
+   "value_score": 41,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%B0%8F%E6%A9%99",
+   "website_url": "https://www.xiaochengch.com/",
+   "business_model": "B2B SaaS/软件平台",
+   "name_cn": "小橙",
+   "desc_cn": "天津小橙集团（2015年前后创立）是综合为老服务企业，旗下小橙长护提供居家护理与长护险定点服务、康力元提供智能养老产品，业务覆盖全国300+城市。其与60余家头部险企合作，将护理服务责任化、辅具租赁普惠化，并推出48小时居家适老化改造体系。",
+   "business_model_cn": "B2C 居家/机构专业护理服务",
+   "news_coverage": {
+    "news_count": 20,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "小橙集团完成超亿元Pre-B轮融资",
+      "date": "2026-03-31",
+      "source": "AgeClub",
+      "url": "https://www.ageclub.net/article-detail/8759"
+     },
+     {
+      "title": "小橙集团营收破4.6亿,发布居家养老智能体",
+      "date": "2025-06-10",
+      "source": "AgeClub",
+      "url": "https://m.ageclub.net/article-detail/5954"
+     }
+    ],
+    "snippets": [
+     "小橙集团提供一站式数字医护康养解决方案,旗下含小橙长护/康力元等品牌",
+     "2026年3月完成超亿元Pre-B轮,2025年营收破4.6亿元,服务家庭超百万"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【小橙】聚焦专业护理/产业资本/居家护理，天津居家养老服务商，\"服务+产品+数字化\"模式，Pre-B轮超亿元，B2B模式，研究价值分41。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0503",
+   "name": "Everplans",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "遗产规划"
+   ],
+   "description": "Everplans 是一个美国临终与身后事务规划平台，帮助用户在线制定「数字遗产档案」，涵盖遗嘱、丧葬、保险等安排并共享给指定联系人。",
+   "highlights": "数字遗产与临终规划平台，2021年被National Guardian Life Insurance收购",
+   "funding_latest": {
+    "date": "2017-07",
+    "amount": "$5.6M",
+    "round": "Debt",
+    "display": "Debt $5.6M (2017-07)"
+   },
+   "funding_total": {
+    "amount": "$16.4M",
+    "display": "累计$16.4M"
+   },
+   "investors": "Transamerica Ventures, Generator Ventures, Mousse Partners",
+   "founded": "2012",
+   "value_score": 35,
+   "source": "Stage (not Age) Book",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Everplans",
+   "website_url": "https://www.everplans.com/",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Everplans 是一个美国临终与身后事务规划平台，帮助用户在线制定「数字遗产档案」，涵盖遗嘱、丧葬、保险等安排并共享给指定联系人。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "遗产规划"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Everplans】聚焦产业资本/健康管理/行业媒体，数字遗产与临终规划平台，2021年被National Guardian Life Insurance收购，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0600",
+   "name": "9amHealth",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "虚拟心脏代谢诊所，预防糖尿病、肥胖症等",
+   "highlights": "预防糖尿病、肥胖症等",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "950万美元",
+    "round": "A轮",
+    "display": "A轮 950万美元 (2024年2月)"
+   },
+   "funding_total": {
+    "amount": "$26M (Series B)",
+    "display": "$26M Series B"
+   },
+   "investors": "Define Ventures (领投), SemperVirens VC, Catalio Capital, 7wire Ventures, Founders Fund",
+   "founded": "2021",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=9amHealth",
+   "website_url": "https://9am.health",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "虚拟心脏代谢诊所，预防糖尿病、肥胖症等",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "9amHealth Raises $26M to Expand Into Chronic Conditions",
+      "date": "2026-05-13",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/9amhealth-raises-26m-to-expand-into-chronic-conditions-driving-the-majority-of-employer-pharmacy-spend-302769972.html"
+     },
+     {
+      "title": "虚拟糖尿病诊所9amHealth获得2600万美元B轮融资",
+      "date": "2026-05-13",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/newsDetail/dead888c4ecc11f181d600163e034e34"
+     }
+    ],
+    "snippets": [
+     "9amHealth为虚拟心代谢（糖尿病/肥胖/高血压）慢病照护平台，2026年5月完成2600万美元B轮。",
+     "面向老年高发的慢病管理，已与多家财富100强雇主合作，宣称节省超5000万美元医疗/药费。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【9amHealth】聚焦产业资本/健康管理/慢病管理，预防糖尿病、肥胖症等，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0677",
+   "name": "Credo Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "AI医疗记录收集和分析，促进价值型护理",
+   "highlights": "促进价值型护理",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "525万美元",
+    "round": "种子轮",
+    "display": "种子轮 525万美元 (2024年1月)"
+   },
+   "funding_total": {
+    "amount": "$8.25M",
+    "display": "$8.25M"
+   },
+   "investors": "FCA Venture Partners (领投)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Credo%20Health",
+   "website_url": "https://www.credohealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI医疗记录收集和分析，促进价值型护理",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Credo Health】聚焦产业资本/文娱社交，促进价值型护理，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0728",
+   "name": "Hedia",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "糖尿病"
+   ],
+   "description": "糖尿病管理数字疗法，糖尿病助手",
+   "highlights": "糖尿病助手",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "300万欧元",
+    "round": "种子轮",
+    "display": "种子轮 300万欧元 (2024年3月)"
+   },
+   "funding_total": "$3M",
+   "investors": "EISMEA, Startupbootcamp Digital Health Berlin",
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hedia",
+   "website_url": "https://www.hedia.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "糖尿病管理数字疗法，糖尿病助手",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "糖尿病"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Hedia】聚焦产业资本/健康监测/慢病管理，糖尿病助手，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0754",
+   "name": "Kins",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "康复医疗"
+   ],
+   "description": "虚拟+面对面物理治疗，NPS达92",
+   "highlights": "NPS达92",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "700万美元",
+    "round": "A轮",
+    "display": "A轮 700万美元 (2024年7月)"
+   },
+   "funding_total": "$7M",
+   "investors": "Healthworx (CareFirst)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Kins",
+   "website_url": "https://www.kinshealth.com",
+   "business_model": "B2C/B2B 养老运营服务",
+   "desc_cn": "虚拟+面对面物理治疗，NPS达92",
+   "business_model_cn": "B2C/B2B 养老运营服务",
+   "news_coverage": {
+    "news_count": 1,
+    "news_quality": "matched",
+    "latest_news": [
+     {
+      "title": "Bayada新CEO Winn：通过价值医疗风险承担实现近双位数增长",
+      "url": "https://homehealthcarenews.com/2026/07/beyond-payer-contracts-how-bayadas-new-ceo-plans-to-scale-through-value-based-risk/",
+      "date": "2026-07-01",
+      "source": "Home Health Care News",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": []
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "康复医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Kins】聚焦专业护理/产业资本/健康管理，NPS达92，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0796",
+   "name": "NeoSilver",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "健身",
+    "兴趣社群"
+   ],
+   "description": "NeoSilver is a French service that books vetted activity leaders—sophrology, sport, music, art—into senior residences (EHPAD) and lets families reserve local cultural and wellness activities for older relatives.",
+   "highlights": "解决老年人孤独问题的法国平台",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "400万欧元",
+    "round": "种子轮",
+    "display": "种子轮 400万欧元 (2024年9月)"
+   },
+   "funding_total": "$4.4M",
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NeoSilver",
+   "website_url": "https://www.neosilver.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "NeoSilver 是法国企业，为养老院与老年公寓派遣经审核的活动带领者（舒缓训练、运动、音乐、艺术），并让家属为长辈预约周边文娱与康养课程。",
+   "business_model_cn": "B2B活动服务/预订佣金",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "健身",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【NeoSilver】聚焦产业资本/数字化/文娱社交，解决老年人孤独问题的法国平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0807",
+   "name": "NourishedRx",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "保健品",
+    "膳食配送"
+   ],
+   "description": "NourishedRx 是一家总部位于美国康涅狄格州斯坦福德的数字医疗公司，主打“食物即药物（Food-as-Medicine）”，为医疗保险（Medicare Advantage）与医疗补助（Medicaid）等脆弱会员提供由注册营养师定制的个性化餐食、食材包与营养教育，依托云平台对接健康计划，改善慢病预后并降低医疗支出",
+   "highlights": "为健康计划和提供者提供个性化食品解决方案",
+   "funding_latest": {
+    "amount": "600万美元",
+    "round": "种子轮",
+    "display": "种子轮 600万美元"
+   },
+   "funding_total": "$6.0M",
+   "investors": "",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=NourishedRx",
+   "website_url": "https://www.nourishedrx.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "NourishedRx 是一家总部位于美国康涅狄格州斯坦福德的数字医疗公司，主打“食物即药物（Food-as-Medicine）”，为医疗保险（Medicare Advantage）与医疗补助（Medicaid）等脆弱会员提供由注册营养师定制的个性化餐食、食材包与营养教育，依托云平台对接健康计划，改善慢病预后并降低医疗支出",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品",
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【NourishedRx】聚焦产业资本/保健品/特医食品，为健康计划和提供者提供个性化食品解决方案，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0831",
+   "name": "Rest Less",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财",
+    "兴趣社群"
+   ],
+   "description": "Rest Less 成立于2018年，总部位于英国，是面向50岁以上人群的就业与生活数字社区，早期聚焦年龄友好型企业与中老年求职者的岗位匹配与职业培训，后扩展至理财养老、旅行、健康、社交与终身学习等全场景，拥有超百万会员，被称为英国银发综合生活平台",
+   "highlights": "英国中老年就业服务平台",
+   "funding_latest": {
+    "amount": "743万美元",
+    "round": "A轮",
+    "display": "A轮 743万美元"
+   },
+   "funding_total": "£6.1M",
+   "investors": "MTech Capital, Viola FinTech",
+   "founded": "2019",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Rest%20Less",
+   "website_url": "https://www.reless.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Rest Less 成立于2018年，总部位于英国，是面向50岁以上人群的就业与生活数字社区，早期聚焦年龄友好型企业与中老年求职者的岗位匹配与职业培训，后扩展至理财养老、旅行、健康、社交与终身学习等全场景，拥有超百万会员，被称为英国银发综合生活平台",
+   "business_model_cn": "B2B 行业媒体/数据与资源对接平台",
+   "tag_l1": [
+    "金融保险",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "金融理财",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Rest Less】聚焦产业资本/教育/数字化，英国中老年就业服务平台，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0841",
+   "name": "Season Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "咨询研究",
+   "tags": [
+    "膳食配送"
+   ],
+   "description": "Season Health runs a 'food-as-medicine' benefit that lets clinicians prescribe grocery and medically tailored meal boxes, fulfilled through retail and delivery partners and reimbursed by Medicaid and commercial health plans.",
+   "highlights": "营养师虚拟咨询服务在线平台",
+   "funding_latest": {
+    "date": "2023年12月",
+    "amount": "700万美元",
+    "round": "A轮",
+    "display": "A轮 700万美元 (2023年12月)"
+   },
+   "funding_total": "$52M",
+   "investors": "a16z, Bain Capital Ventures",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Season%20Health",
+   "website_url": "https://www.seasonhealth.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "Season Health 运营食物即药物福利，医生可开具杂货与医学定制餐盒处方，由零售与配送伙伴履约，并向医疗补助与商业健康险报销。",
+   "business_model_cn": "B2B报销结算",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "膳食配送"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Season Health】聚焦产业资本/咨询研究/远程医疗，营养师虚拟咨询服务在线平台，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  },
+  {
+   "serial": "#0867",
+   "name": "Starling Medical",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "慢病管理",
+    "远程医疗",
+    "智能硬件"
+   ],
+   "description": "家用尿液分析设备远程监控慢性病",
+   "highlights": "家用尿液分析设备远程监控慢性病",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "680万美元",
+    "round": "A轮",
+    "display": "A轮 680万美元 (2024年9月)"
+   },
+   "funding_total": "$825K",
+   "investors": "16 investors (MAGIC Fund, Rebel Fund)",
+   "founded": "2021",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Starling%20Medical",
+   "website_url": "https://www.starlingmedical.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "家用尿液分析设备远程监控慢性病",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "tag_l1": [
+    "养老服务",
+    "消费品"
+   ],
+   "tag_l2": [
+    "慢病管理",
+    "远程医疗",
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Starling Medical】聚焦产业资本/医疗器械/慢病管理，家用尿液分析设备远程监控慢性病，B2B+B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 1.55
+  }
+ ]
+}

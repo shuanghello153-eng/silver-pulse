@@ -1,0 +1,793 @@
+{
+  "batch": 10,
+  "enterprises": [
+    {
+      "serial": "#0037",
+      "signal_strength": 4.05,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 54.1,
+      "recommend": {
+        "rec_v1": "信号中等但媒体背书强（央视、MIT TR50），柔性肌肉外甲以AI预测动作意图提供主动助力的思路少见；国内康复硬件多停留支撑式外骨骼，其‘增强肌肉’路径与居家轻量化定位值得拆解。",
+        "rec_v2": "别家外骨骼靠托体重，它靠机器学习预判步态、实时补力，把康复从‘代步’变‘增能’。国内做银发助行的团队不少，但柔性化+消费级打法还空着，可重点研究其量产与二类器械取证节奏。",
+        "rec_v3": "信息量够、差异清晰，复制难点在柔性驱动与算法壁垒而非概念。想做银发助行产品的创业者，应关注它如何用轻量穿戴把医院康复搬到居家，并借政策把外骨骼从辅具做成可报销的康复服务。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 4.05,
+        "research_value": 54.1
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "做柔性肌肉外甲的银发助行外骨骼研发商，主打居家康复增能。",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-07",
+          "text": "肌肉外甲获二类医疗器械注册证并发布"
+        },
+        {
+          "date": "2024",
+          "text": "完成6400万元B轮融资（无锡梁溪科创基金领投）"
+        },
+        {
+          "date": "2025",
+          "text": "入选《麻省理工科技评论》50家聪明公司"
+        }
+      ],
+      "highlights": [
+        "全球首款轻量级柔性肌肉外甲，AI预测动作意图实时补力",
+        "产品进入全国40余家三甲医院，已实现量产销售",
+        "2025入选MIT TR50聪明公司，获央视新质生产力奖项"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "柔性助行外骨骼直接服务老年人与行动不便人群日常康复助行。"
+    },
+    {
+      "serial": "#0471",
+      "signal_strength": 4.05,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 57.1,
+      "recommend": {
+        "rec_v1": "信号中等但媒体质量高，它不看老人看‘护理员’——给照护者情感与专业支持来撬动家庭照护，反共识。国内caregiving经济刚萌芽，这种‘赋能供给端’打法比直接做保姆平台更可持续。",
+        "rec_v2": "别家抢C端老人，它服务B端健康计划和企业，用技术降低员工照护离职率。信息扎实、模式清晰，难点在国内的雇主健康福利生态不成熟，可研究它怎样把护理员留存做成可量化商业指标。",
+        "rec_v3": "信息量足、差异化在‘护理员即产品’，复制关键不在技术而在美国雇主+健康计划付费结构。想做银发照护服务的创业者，应关注它如何用SaaS把分散的家庭照护组织成可管理的网络。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 4.05,
+        "research_value": 57.1
+      },
+      "payor_model": "混合支付",
+      "business_tags_role": "服务商",
+      "desc_cn": "为家庭照护者提供情感与专业支持的养老护理赋能平台。",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-05",
+          "text": "完成2000万美元B轮"
+        },
+        {
+          "date": "2024-11",
+          "text": "再融资2000万美元，规模自2022年增4倍"
+        },
+        {
+          "date": "2025-04",
+          "text": "36氪报道其融资1.5亿、数百家企业买单"
+        }
+      ],
+      "highlights": [
+        "技术驱动family caregiving，服务雇主与健康计划",
+        "2024年11月融资2000万美元，自2022年规模增4倍",
+        "客户含数百家企业，切入员工照护福利"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向家庭照护者提供支持，间接服务老年人群的专业护理需求。"
+    },
+    {
+      "serial": "#0564",
+      "signal_strength": 4.05,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 4,
+      "research_value": 57.1,
+      "recommend": {
+        "rec_v1": "信号中等但媒体热度高，Papa用‘共享儿女’把大学生闲时间与老人孤独需求对接，非医疗陪伴反共识。国内复制难点在信任与保险支付，但‘情感陪伴可降本’的量化思路值得护理机构学。",
+        "rec_v2": "它本质是中介平台，不养护理员、靠保险+长者付费，单次服务降本9%、住院减18%。信息扎实、模式清晰，可借鉴其用数据向保险公司证明陪伴的经济价值，而非只卖温情。",
+        "rec_v3": "差异在跳出‘身体护理’做情感陪伴，复制受美国MA/社会征信强约束。想做银发社交的创业者，应关注它如何把大学生资源标准化、审核率压到三分之一，用规模与评分建立信任。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 4,
+        "signal_strength": 4.05,
+        "research_value": 57.1
+      },
+      "payor_model": "保险支付+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "连接大学生与老人的非医疗陪伴平台，主打情感陪伴与轻家务。",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021-11",
+          "text": "完成1.5亿美元D轮，估值14亿美元成独角兽"
+        },
+        {
+          "date": "2024-07",
+          "text": "完成6000万美元D轮延展"
+        },
+        {
+          "date": "2026-06",
+          "text": "获联邦痴呆照护项目支持，扩展人性化照护"
+        }
+      ],
+      "highlights": [
+        "非医疗陪伴‘共享儿女’模式，估值14亿美元独角兽",
+        "服务覆盖全美50州、超100家健康计划，累计服务超260万次",
+        "保险支付+长者自费，会员医疗开支降9%、住院减18%"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以大学生陪伴对接独居老人情感与家务需求，直击银发孤独经济。"
+    },
+    {
+      "serial": "#0861",
+      "signal_strength": 4.05,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 49.1,
+      "recommend": {
+        "rec_v1": "信号中等但信息厚，Somatus做价值导向的肾+心综合护理，用RenalIQ预测分析延缓病程。模式稳健但反共识低，国内按价值付费环境不同，可对比其‘纯肾’与‘多专科’扩张路径。",
+        "rec_v2": "它不与医院抢病人，而是和健康计划、医生集团分润降总医疗成本，已服务50万生命、降肾病死亡率13%。信息扎实，复制难点在美国VBC支付结构，可学其用数据证明护理经济回报。",
+        "rec_v3": "差异在中游‘护理协调’而非诊疗，复制受Medicare风险合约强约束。想做慢病管理的创业者，应关注它怎样把肾与心血管打包、用本地团队+算法做早期干预。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 4.05,
+        "research_value": 49.1
+      },
+      "payor_model": "混合（健康计划+政府Medicare价值医疗合同，B端机构付费为主）",
+      "business_tags_role": "服务商",
+      "desc_cn": "价值导向的肾与心血管综合护理龙头，以VBC模式延缓病程。",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-02",
+          "text": "完成3.25亿美元E轮，估值超25亿美元"
+        },
+        {
+          "date": "2025-06",
+          "text": "完成约7500万美元G轮，估值约49.8亿美元"
+        }
+      ],
+      "highlights": [
+        "价值导向肾+心血管综合护理龙头",
+        "G轮约7500万美元(2025-06)，估值约49.8亿",
+        "服务突破50万生命，降低肾病死亡率13%"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向中老年慢性病(肾/心)人群的价值导向综合护理，直接服务银发健康。"
+    },
+    {
+      "serial": "#0959",
+      "signal_strength": 4.05,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 55.2,
+      "recommend": {
+        "rec_v1": "信号中等但德国已落地1000+机构，Voize用语音AI把护理员口述变合规文档，直击文书痛点。国内养老机构同样被记录拖累，这种‘省人力’工具型思路清晰、可借鉴，难点在医疗数据合规。",
+        "rec_v2": "它不碰护理本身，只做记录自动化，B2B卖给机构按量收费。信息扎实、模式轻，复制关键在对接各国电子病历与隐私法规，可研究它怎样用语音模型替代护工加班写报告。",
+        "rec_v3": "差异在‘护理文档’这一被忽略环节，复制受德语市场与GDPR约束中等。想做养老SaaS的创业者，应关注它如何用离线/边缘语音降低机构对云合规的顾虑、快速铺量。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 4.05,
+        "research_value": 55.2
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "AI语音护理记录助手，将护理员口述转为合规结构化文档。",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-03",
+          "text": "获900万美元种子轮"
+        },
+        {
+          "date": "2025-11",
+          "text": "获4300万欧元A轮，由Balderton领投"
+        }
+      ],
+      "highlights": [
+        "AI语音将护理口述转结构化合规文档",
+        "已在德国1000+家养老机构落地",
+        "2025年连获种子+A轮，累计约5900万欧元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为养老机构提供护理记录自动化，直接提升银发照护效率。"
+    },
+    {
+      "serial": "#0032",
+      "signal_strength": 3.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 51.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但技术稀缺，织生用AI眼动追踪6分钟测认知风险、准确度约93%，把阿尔茨海默早筛做成无创检查。国内认知症筛查刚起步、政策利好，这种‘设备+保险’闭环值得抄。",
+        "rec_v2": "它不靠问卷靠眼球，生物标记物思路反共识，已进入医院/企业/政府脑健康管理。信息中等、复制性强，可研究它怎样把筛查结果接上干预与支付，做成持续服务而非一次性检测。",
+        "rec_v3": "差异在眼动数字生物标记物，复制难点在医疗注册与数据积累而非概念。想做银发认知健康的创业者，应关注它如何把早筛嵌入体检与保险，用低风险入口撬动长期干预收入。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 3.55,
+        "research_value": 51.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "AI眼动追踪认知筛查商，6分钟评估阿尔茨海默风险。",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2022-02",
+          "text": "完成1000万元天使轮，诺庾资本投资"
+        }
+      ],
+      "highlights": [
+        "AI眼动追踪6分钟评估认知功能，鉴别准确度约93%",
+        "延伸至干预治疗与保险支付综合服务",
+        "产品用于医疗机构、企业与政府脑健康管理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以AI眼动筛查服务老年认知障碍早筛与干预，直击失智赛道。"
+    },
+    {
+      "serial": "#0457",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但2025年又融1.4亿美元，Honor用‘滴滴护工’模式连护理员与家庭，还收购Home Instead铺14国。国内护工平台扎堆，它‘技术+收购’做重网络的打法值得研究。",
+        "rec_v2": "它从2C转2B，把招聘培训、匹配监测做成给同行的技术底座。信息扎实、模式清晰，复制难点在护理员供给与信任，可借鉴其用平台标准化分散护工、降低中介摩擦。",
+        "rec_v3": "差异在‘网络而非自营’，复制受美国零工与医保约束中等。想做居家照护的创业者，应关注它怎样用收购快速扩规模、把护工留存与质量管控当核心资产。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 52.6
+      },
+      "payor_model": "混合支付",
+      "business_tags_role": "平台",
+      "desc_cn": "养老护理网络平台，连接护理员与家庭并输出技术底座。",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021",
+          "text": "收购全美最大居家护理公司Home Instead(估值约21亿美元)"
+        },
+        {
+          "date": "2024-03",
+          "text": "完成7000万美元E轮"
+        },
+        {
+          "date": "2025-03",
+          "text": "与Home Instead再获1.4亿美元融资"
+        }
+      ],
+      "highlights": [
+        "‘滴滴护工’模式连接护理员与家庭，估值超30亿美元",
+        "2021收购Home Instead，网络覆盖14国",
+        "2025年3月再获1.4亿美元融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护理技术与网络平台，直接服务老年护理供需匹配。"
+    },
+    {
+      "serial": "#0458",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但2025连融A、B轮共1.35亿，Inspiren用AUGi设备实时感知老年社区环境，做‘护理智能基础设施’。国内智慧养老多堆硬件，它‘无感监测’思路值得抄。",
+        "rec_v2": "它把AI嵌进生活空间而非可穿戴，靠环境传感预警风险。信息扎实、模式清晰，复制难点在部署成本与隐私，可研究它怎样用B2B卖给社区、把监测变基础设施。",
+        "rec_v3": "差异在‘环境智能’而非手环，复制受场景与合规约束中等。想做养老机构数字化的创业者，应关注它18个月拿下150+社区的打法，以及怎样用数据降低护理人力依赖。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 52.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "AI环境感知养老监护商，以AUGi设备做无感安全监测。",
+      "founded": 2016,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-03",
+          "text": "完成3500万美元A轮"
+        },
+        {
+          "date": "2025-09",
+          "text": "完成1亿美元B轮，Insight Partners领投"
+        }
+      ],
+      "highlights": [
+        "AUGi设备实时感知老年社区环境，定位护理智能基础设施",
+        "2025年连获A、B轮共1.35亿美元",
+        "18个月拿下150+老年社区"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI环境感知直接服务老年社区安全监护与生活质量。"
+    },
+    {
+      "serial": "#0463",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 50.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但已铺21州700+社区，Blooming Health把医疗与社会服务(交通/送餐/社交)连起来，认‘社交即健康’。国内社区养老割裂，这种‘医社联动’网络值得借鉴。",
+        "rec_v2": "它做连接层不养服务，靠B2B+B2C把分散资源编排成照护。信息中等、模式清晰，复制难点在医疗与社会服务的接口标准，可学它用轻平台撬动存量服务。",
+        "rec_v3": "差异在‘社会照护编排’而非直接服务，复制受美国医疗体系约束中等。想做社区银发平台的创业者，应关注它怎样用数据证明社交干预降低医疗成本，从而拿到健康计划付费。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 50.6
+      },
+      "payor_model": "混合支付",
+      "business_tags_role": "平台",
+      "desc_cn": "连接医疗与社会服务的银发社区支持平台，覆盖21州。",
+      "founded": 2020,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-04",
+          "text": "完成2600万美元A轮，Insight Partners领投"
+        }
+      ],
+      "highlights": [
+        "连接医疗保健提供者与社会服务组织，覆盖21州700+社区",
+        "为老人提供交通、送餐、社交等社会照护支持",
+        "2025年完成2600万美元A轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为社会隔离老人提供交通/送餐/社交等基础银发支持服务。"
+    },
+    {
+      "serial": "#0464",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但有硬数据——CarePredict用AI识别日常行为变化，住院率降39%、跌倒率降69%。国内养老怕跌倒，这种‘行为预警’思路清晰、可借鉴，难点在可穿戴接受度。",
+        "rec_v2": "它不靠问卷靠长期行为基线，异常自动告警。信息扎实、模式清晰，复制关键在算力与隐私平衡，可研究它怎样把预警接进机构护理流程、用结果向保险证明价值。",
+        "rec_v3": "差异在‘行为即信号’的持续感知，复制受可穿戴习惯约束中等。想做老年健康监控的创业者，应关注它如何用轻量穿戴把急性事件变可预防，降低机构运营风险。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 52.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "AI行为感知健康平台，早期预警老人健康恶化风险。",
+      "founded": 2013,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-07",
+          "text": "完成2900万美元A轮"
+        }
+      ],
+      "highlights": [
+        "AI识别日常活动与行为变化，提前发现健康异常",
+        "落地数据：住院率降39%、跌倒率降69%",
+        "2023年完成2900万美元A轮，累计约4860万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI行为监测直接服务老年健康预警与跌倒预防。"
+    },
+    {
+      "serial": "#0465",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但客户含宝洁、毕马威，Cariloop把‘照护员工’做成企业福利，3年收入增300%、NPS超80。国内企业福利重体检轻照护，这种‘留人’思路值得抄。",
+        "rec_v2": "它服务B端雇主、帮员工兼顾caregiving，用平台降流失。信息扎实、模式清晰，复制难点在国内雇主健康预算结构，可学它怎样把照护支持量化成留任率指标。",
+        "rec_v3": "差异在‘企业买单的照护福利’，复制受美国雇主福利体系约束中等。想做员工福祉的创业者，应关注它如何用教练+导航把分散的家庭照护组织成可管理的企业服务。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 52.6
+      },
+      "payor_model": "B端企业采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "企业员工照护支持平台，把家庭照护做成留人福利。",
+      "founded": 2012,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-04",
+          "text": "完成2000万美元C轮"
+        }
+      ],
+      "highlights": [
+        "为宝洁、毕马威等企业提供员工家庭照护支持",
+        "3年收入增长近300%，NPS超80",
+        "2024年完成2000万美元C轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "通过企业福利支持在职子女照护老年亲属，切入银发照护链。"
+    },
+    {
+      "serial": "#0472",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "信号偏弱但获亚马逊Alexa基金投资，IXI做全球首款自动对焦老花镜，按佩戴者视力实时调焦。国内老花镜同质化，这种‘电子变焦’硬件创新值得研究其量产与定价。",
+        "rec_v2": "它把相机自动对焦技术塞进镜片，解决老花眼频繁换镜痛点。信息中等、产品清晰，复制难点在光学与续航成本，可借鉴其用消费电子思路重做传统银发品类。",
+        "rec_v3": "差异在‘动态光学’而非渐进多焦，复制受供应链与价格约束中等。想做银发消费品的创业者，应关注它怎样借亚马逊渠道与资本，把小众辅具做成大众科技单品。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 52.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "自动对焦老花眼镜研发商，按视力实时调节镜片度数。",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-04",
+          "text": "完成3650万美元融资，亚马逊Alexa基金参投"
+        }
+      ],
+      "highlights": [
+        "全球首款自动对焦老花眼镜，按佩戴者视力实时调焦",
+        "获亚马逊Alexa基金等投资",
+        "2025年完成3650万美元融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "自动对焦老花镜直接服务老年视力退化人群。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0037",
+      "name": "远也",
+      "intro": "苏州的柔性可穿戴机器人公司，研发全球首款轻量级‘肌肉外甲’，用AI预测动作意图为脑卒中、肌少症等患者提供主动助行与康复。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "外骨骼",
+          "助行器",
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "柔性肌肉外甲含AI动作预测与机器学习，建议补充智能科技维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0471",
+      "name": "Homethrive",
+      "intro": "美国技术驱动的家庭照护(family caregiving)平台，为护理员及雇主、健康计划提供情感、专业与福利支持。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "以技术平台组织分散的家庭照护，建议补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0564",
+      "name": "Papa",
+      "intro": "美国‘共享儿女’非医疗陪伴平台，连接大学生(Papa Pals)与老人，提供陪伴、交通、轻家务，由保险与长者付费。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "陪伴服务"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "平台",
+          "reason": "连接供需的双边平台型模式，建议补平台标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0861",
+      "name": "Somatus",
+      "intro": "美国价值导向的肾脏与心血管综合护理龙头，用RenalIQ预测分析与健康计划、医生集团合作延缓疾病进展、降低总医疗成本。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "慢病管理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "数字健康",
+          "reason": "以RenalIQ预测分析做价值医疗，建议补数字健康标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0959",
+      "name": "Voize",
+      "intro": "柏林的AI语音护理记录助手，将护理员口述自动转为合规结构化文档，已在德国1000+家养老机构落地。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "AI语音识别与文档结构化，建议补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0032",
+      "name": "织生科技",
+      "intro": "上海的AI脑健康公司，首创摄像头眼动追踪技术，6分钟评估认知功能、判断阿尔茨海默风险，并延伸至干预与保险支付。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练",
+          "认知筛查"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "AI眼动数字生物标记物技术，建议补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0457",
+      "name": "Honor",
+      "intro": "美国‘滴滴护工’式养老护理网络与技术平台，连接护理员与家庭，并收购Home Instead扩张至14国。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工平台"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0458",
+      "name": "Inspiren",
+      "intro": "美国AI养老监护公司，以AUGi设备实时感知老年社区环境，做‘护理智能基础设施’式的无感安全监测。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "AI环境感知与无感监测，建议补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0463",
+      "name": "Blooming Health",
+      "intro": "美国连接医疗保健提供者与社会服务组织的银发社区支持平台，覆盖21州700+社区，提供交通、送餐、社交支持。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "社区"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "平台",
+          "reason": "医社联动的轻连接平台型模式，建议补平台标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0464",
+      "name": "CarePredict",
+      "intro": "美国AI数字健康平台，自主识别老人日常活动与行为变化、早期预警健康恶化，落地数据称住院率降39%、跌倒率降69%。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "AI行为感知与早期预警，建议补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0465",
+      "name": "Cariloop",
+      "intro": "美国面向企业雇主的员工家庭照护支持平台，以教练与导航帮在职子女兼顾照护责任，客户含宝洁、毕马威。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "企业服务",
+          "reason": "面向企业雇主提供员工照护福利，建议补企业服务标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0472",
+      "name": "IXI",
+      "intro": "全球首款自动对焦老花镜研发商，镜片按佩戴者视力实时调节度数，获亚马逊Alexa基金等投资。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "眼镜"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "电子自动对焦光学技术，建议补智能科技标签"
+        }
+      ]
+    }
+  ],
+  "nonsilver": []
+}

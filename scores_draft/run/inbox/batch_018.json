@@ -1,0 +1,629 @@
+{
+ "batch": 18,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "Teton.ai",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "摔倒监测",
+   "tags": [
+    "视觉辅助"
+   ],
+   "description": "丹麦AI医疗公司，通过计算机视觉与传感器预测老年护理场景中的跌倒与健康衰退风险，帮助养老机构从被动响应转向主动预防。",
+   "highlights": "计算机视觉+传感器预测跌倒风险，提升机构主动照护能力。",
+   "funding_latest": {
+    "date": "2025-09",
+    "amount": "$20M",
+    "round": "Series A",
+    "display": "Series A $20M (2025-09)"
+   },
+   "funding_total": {
+    "amount": "$20M",
+    "display": "累计约$20M"
+   },
+   "investors": "Plural领投，Bertelsmann Investments、Antler Elevate、Nebular、PSV Tech跟投",
+   "founded": "",
+   "value_score": 38,
+   "source": "WebSearch: theaiinsider.tech 2025-09-11",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Teton.ai",
+   "website_url": "https://teton.ai",
+   "business_model": "B2B 养老机构AI监测SaaS+硬件",
+   "desc_cn": "丹麦AI医疗公司，通过计算机视觉与传感器预测老年护理场景中的跌倒与健康衰退风险，帮助养老机构从被动响应转向主动预防。",
+   "business_model_cn": "B2B 养老机构AI监测SaaS+硬件",
+   "serial": "#1131",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "视觉辅助"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Teton.ai】聚焦AI科技/产业资本/健康监测，计算机视觉+传感器预测跌倒风险，提升机构主动照护能力。，B2B模式，研究价值分38。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "name": "Zingage",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "纽约AI居家护理交付平台，自动化排班、调度与报销流程，帮助居家护理机构提升运营效率与覆盖率。",
+   "highlights": "AI自动化居家护理排班与运营交付。",
+   "funding_latest": {
+    "date": "2025-10",
+    "amount": "$12.5M",
+    "round": "Seed",
+    "display": "Seed $12.5M (2025-10)"
+   },
+   "funding_total": {
+    "amount": "$12.5M",
+    "display": "累计$12.5M"
+   },
+   "investors": "Bessemer Venture Partners领投，TQ Ventures、South Park Commons等跟投",
+   "founded": "",
+   "value_score": 34,
+   "source": "WebSearch: hitconsultant.net 2025-10-08 / healthcareittoday 2025-11-18",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Zingage",
+   "website_url": "https://zingage.com",
+   "business_model": "B2B 居家护理AI运营SaaS(订阅)",
+   "desc_cn": "纽约AI居家护理交付平台，自动化排班、调度与报销流程，帮助居家护理机构提升运营效率与覆盖率。",
+   "business_model_cn": "B2B 居家护理AI运营SaaS(订阅)",
+   "serial": "#1133",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Zingage】聚焦AI科技/专业护理/产业资本，AI自动化居家护理排班与运营交付。，B2B模式，研究价值分34。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "name": "Enzo Health",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "开发AI工作流工具，自动完成患者接入与病历审核等任务，面向家居健康与临终关怀机构，2025年获2000万美元Series A(N47领投)。",
+   "highlights": "AI运营工作流，服务家居健康与临终关怀机构，获$20M Series A。",
+   "funding_latest": {
+    "date": "2025",
+    "amount": "$20M",
+    "round": "Series A",
+    "display": "Series A $20M (2025)"
+   },
+   "funding_total": {
+    "amount": "$20M",
+    "display": "累计$20M"
+   },
+   "investors": "N47领投",
+   "founded": "",
+   "value_score": 33,
+   "source": "WebSearch: dealroom.co 2025 (Enzo Health Series A)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Enzo%20Health",
+   "website_url": "https://enzo.health",
+   "business_model": "B2B 家居健康/临终关怀AI运营SaaS",
+   "desc_cn": "开发AI工作流工具，自动完成患者接入与病历审核等任务，面向家居健康与临终关怀机构，2025年获2000万美元Series A(N47领投)。",
+   "business_model_cn": "B2B 家居健康/临终关怀AI运营SaaS",
+   "serial": "#1146",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Enzo Health】聚焦AI科技/专业护理/产业资本，AI运营工作流，服务家居健康与临终关怀机构，获$20M Series A。，B2B模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "name": "Neurable",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "认知健康",
+   "category_l2": "脑机接口",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。",
+   "desc_cn": "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。",
+   "highlights": "3500万美元A轮，消费级脑机接口认知健康",
+   "funding_latest": {
+    "amount": "3500万美元",
+    "round": "A轮",
+    "date": "2025-12",
+    "display": "A轮 3500万美元 (2025-12)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2015",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Neurable",
+   "website_url": "https://www.neurable.com",
+   "business_model": "B2C 消费级BCI硬件+订阅",
+   "business_model_cn": "B2C 消费级BCI硬件+订阅",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "消费级脑机接口（BCI）公司，将日常脑电监测与AI结合，做认知健康消费产品（如头戴设备）。2025年12月完成3500万美元A轮。"
+    ]
+   },
+   "serial": "#1186",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Neurable】聚焦AI科技/产业资本，3500万美元A轮，消费级脑机接口认知健康，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "name": "Optain Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "视觉健康",
+   "tags": [
+    "视觉辅助"
+   ],
+   "description": "将AI、机器人视网膜成像与远程眼科结合，通过视网膜影像（oculomics）筛查眼疾与全身健康风险。2025年9月完成2600万美元A轮（Insight Partners等）。",
+   "desc_cn": "将AI、机器人视网膜成像与远程眼科结合，通过视网膜影像（oculomics）筛查眼疾与全身健康风险。2025年9月完成2600万美元A轮（Insight Partners等）。",
+   "highlights": "2600万美元A轮，AI视网膜成像（oculomics）",
+   "funding_latest": {
+    "amount": "2600万美元",
+    "round": "A轮",
+    "date": "2025-09",
+    "display": "A轮 2600万美元 (2025-09)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "Insight Partners",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Optain+Health",
+   "website_url": "https://www.optainhealth.com",
+   "business_model": "B2B 视网膜AI筛查SaaS+硬件",
+   "business_model_cn": "B2B 视网膜AI筛查SaaS+硬件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "将AI、机器人视网膜成像与远程眼科结合，通过视网膜影像（oculomics）筛查眼疾与全身健康风险。2025年9月完成2600万美元A轮（Insight Partners等）。"
+    ]
+   },
+   "serial": "#1188",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "视觉辅助"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Optain Health】聚焦产业资本，2600万美元A轮，AI视网膜成像（oculomics），B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "name": "Lumata Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "视觉健康",
+   "tags": [
+    "用药提醒"
+   ],
+   "description": "通过AI与患者参与平台提升视力保护（vision-saving）治疗的依从性与可及性，已对接全美大型眼科网络。2025年3月完成2300万美元B轮。",
+   "desc_cn": "通过AI与患者参与平台提升视力保护（vision-saving）治疗的依从性与可及性，已对接全美大型眼科网络。2025年3月完成2300万美元B轮。",
+   "highlights": "2300万美元B轮，视力保护治疗依从性平台",
+   "funding_latest": {
+    "amount": "2300万美元",
+    "round": "B轮",
+    "date": "2025-03",
+    "display": "B轮 2300万美元 (2025-03)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lumata+Health",
+   "website_url": "https://www.lumatahealth.com",
+   "business_model": "B2B 眼科慢病管理SaaS",
+   "business_model_cn": "B2B 眼科慢病管理SaaS",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过AI与患者参与平台提升视力保护（vision-saving）治疗的依从性与可及性，已对接全美大型眼科网络。2025年3月完成2300万美元B轮。"
+    ]
+   },
+   "serial": "#1189",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药提醒"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Lumata Health】聚焦产业资本/慢病管理，2300万美元B轮，视力保护治疗依从性平台，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#1307",
+   "name": "Clyx",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "社交与精神健康",
+   "category_l2": "抗孤独社交平台",
+   "tags": [
+    "兴趣社群",
+    "陪伴服务"
+   ],
+   "description": "面向老年人的社交平台，以兴趣社群、视频连线、AI陪伴等方式对抗老年孤独。2025年9月完成1400万美元A轮融资，由Blitzscaling Ventures领投。",
+   "highlights": "老年孤独是全球银发核心痛点；以'社交产品'而非'医疗产品'切入，用户增长路径清晰，对国内'银发社交/兴趣社区'赛道有直接借鉴（S3差异化+S4国内可比）。",
+   "funding_latest": {
+    "amount": "1400万美元",
+    "round": "A轮",
+    "date": "2025-09",
+    "display": "A轮 1400万美元 (2025-09)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "Blitzscaling Ventures",
+   "founded": "",
+   "value_score": 0,
+   "source": "StartupHub AI / Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clyx",
+   "website_url": "",
+   "business_model": "B2C social app for older adults combating loneliness via interest communities, group video, and AI companionship.",
+   "desc_cn": "面向老年人的社交平台，以兴趣社群、视频连线、AI陪伴等方式对抗老年孤独。2025年9月完成1400万美元A轮融资，由Blitzscaling Ventures领投。",
+   "business_model_cn": "B2C 老年抗孤独社交App",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "面向老年人的社交平台，以兴趣社群、视频连线、AI陪伴等方式对抗老年孤独。2025年9月完成1400万美元A轮融资，由Blitzscaling Ventures领投。"
+    ]
+   },
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Clyx】聚焦产业资本/文娱社交/精神健康，老年孤独是全球银发核心痛点；以'社交产品'而非'医疗产品'切入，用户增长路径清晰，对国内'银发社交/兴趣社区'赛道有直接借鉴（S3差异化+S4国内可比）。，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#1312",
+   "name": "Jubo",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "AI养老平台",
+   "tags": [
+    "养老软件",
+    "远程护理"
+   ],
+   "description": "台湾AI养老照护平台，连接机构与居家场景、沉淀照护数据。成立于2018年；累计融资约2350万美元，B轮。",
+   "highlights": "台湾领先的AI养老数据平台，与国内'智慧养老SaaS'高度同构，是可直接对标的样本（S4国内可比+S2有融资）。",
+   "funding_latest": {
+    "amount": "2350万美元",
+    "round": "B轮",
+    "date": "",
+    "display": "B轮 2350万美元"
+   },
+   "funding_total": {
+    "amount": "累计约2350万美元",
+    "display": "累计约2350万美元"
+   },
+   "investors": "",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "Failory 2026 elder care list",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Jubo",
+   "website_url": "http://www.jubo.health",
+   "business_model": "AI-powered elder care platform connecting facility and home care, aggregating care data (Taiwan).",
+   "desc_cn": "台湾AI养老照护平台，连接机构与居家场景、沉淀照护数据。成立于2018年；累计融资约2350万美元，B轮。",
+   "business_model_cn": "AI养老照护数据平台(台湾)",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "台湾AI养老照护平台，连接机构与居家场景、沉淀照护数据。成立于2018年；累计融资约2350万美元，B轮。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "养老软件",
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Jubo】聚焦AI科技/产业资本，台湾领先的AI养老数据平台，与国内'智慧养老SaaS'高度同构，是可直接对标的样本（S4国内可比+S2有融资）。。",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#1335",
+   "name": "Altoida",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "认知症",
+   "tags": [
+    "认知筛查"
+   ],
+   "description": "AR+AI 数字生物标志物，平板 10 分钟预测 AD 风险。",
+   "highlights": "成立于2016年",
+   "funding_latest": {
+    "date": "2022",
+    "amount": "1400万美元",
+    "round": "Series A",
+    "display": "Series A $14M (默克领投)"
+   },
+   "funding_total": {
+    "amount": "约$2000万",
+    "display": "累计约$2000万"
+   },
+   "investors": "M Ventures(默克)",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "信源治理入库(ADDF) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.altoida.com",
+   "business_model": "B2B SaaS",
+   "desc_cn": "AR+AI 数字生物标志物，平板 10 分钟预测 AD 风险。",
+   "business_model_cn": "B2B 数字生物标记",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "A轮",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 2.55
+  },
+  {
+   "serial": "#1332",
+   "name": "Rejuvenate Bio",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "神经/抗衰老",
+   "tags": [
+    "保健品"
+   ],
+   "description": "抗衰老基因疗法公司，携手默克推进研发。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "2026-06-24",
+    "amount": "新融资(未披露额)",
+    "round": "近期",
+    "display": "新融资(携手默克)"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "未披露"
+   },
+   "investors": "默克等",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(agetech.com) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "https://www.rejuvenatebio.com",
+   "business_model": "Biotech",
+   "desc_cn": "抗衰老基因疗法公司，携手默克推进研发。",
+   "business_model_cn": "生物科技",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 2.3
+  },
+  {
+   "serial": "#1333",
+   "name": "Vali Health",
+   "region": "海外",
+   "category_l1": "智能科技",
+   "category_l2": "照护平台",
+   "tags": [
+    "保健品"
+   ],
+   "description": "将 AI Agent 用于居家照护场景的健康管理工具。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "2026-06-19",
+    "amount": "600万美元",
+    "round": "近期",
+    "display": "$6M"
+   },
+   "funding_total": {
+    "amount": "约$600万",
+    "display": "累计约$600万"
+   },
+   "investors": "未披露",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(agetech.com) 2026-07-15",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeClub",
+   "website_url": "",
+   "business_model": "B2C App",
+   "desc_cn": "将 AI Agent 用于居家照护场景的健康管理工具。",
+   "business_model_cn": "B2C 健康App",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "signal_strength": 2.3
+  },
+  {
+   "serial": "#1356",
+   "name": "Whispp",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "AI医疗",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "语音重建AI，助言语障碍老人恢复自然声音；2026-07-07获LUMO Labs领投融资。",
+   "highlights": "",
+   "funding_latest": {
+    "date": "2026-07-07",
+    "amount": "$5.7M",
+    "round": "早期",
+    "display": "$5.7M (LUMO Labs领投)"
+   },
+   "funding_total": {
+    "amount": "约$5.7M",
+    "display": "累计约$5.7M"
+   },
+   "investors": "LUMO Labs等",
+   "founded": "未披露",
+   "value_score": 0,
+   "source": "信源治理入库(W3 AIGC) 2026-07-16",
+   "crunchbase_url": "",
+   "website_url": "https://www.whispp.com",
+   "business_model": "B2C/B2B App",
+   "desc_cn": "语音重建AI，助言语障碍老人恢复自然声音；2026-07-07获LUMO Labs领投融资。",
+   "business_model_cn": "B2C语音重建AI",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "unscored",
+    "latest_news": null
+   },
+   "name_cn": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": [],
+   "stage": "早期",
+   "recommend": "",
+   "payor_model": "未披露",
+   "ingest_time": "2026-07-16",
+   "signal_strength": 2.3
+  }
+ ]
+}

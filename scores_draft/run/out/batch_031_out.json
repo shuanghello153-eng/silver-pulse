@@ -1,0 +1,646 @@
+{
+  "batch": 31,
+  "enterprises": [
+    {
+      "serial": "#0109",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其免费养老顾问+机构匹配的平台模式有差异化；轻资产可复制，可学其“信任中介”定位。",
+        "rec_v2": "资料一般；亮点在5000+机构与20万用户的双边网络；模式清晰，创业者可抄其顾问式获客与会员权益设计。",
+        "rec_v3": "声量低；价值在解决“选机构信息不对称”而非自建床位；国内极易复制，可学其B端机构合作分成路径。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "C端会员费+B端机构分成",
+      "business_tags_role": "平台",
+      "desc_cn": "养老信息咨询平台，链接机构与老人",
+      "founded": null,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021",
+          "text": "完成Pre-A轮融资"
+        }
+      ],
+      "highlights": [
+        "一站式养老信息咨询平台",
+        "合作养老机构5000+、注册用户20万",
+        "免费养老顾问+机构匹配"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老信息平台直接链接老人与机构，服务养老供需"
+    },
+    {
+      "serial": "#0110",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 39.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其50+科学运动+慢病干预有场景差异化；社区+线上模式国内极易复制，可学其课程研发。",
+        "rec_v2": "资料有限；亮点在把运动医学用于银发健康促进；路径清，创业者可抄其适老化健身课程体系与专家背书打法。",
+        "rec_v3": "关注低；差异化在“运动即预防”而非卖器械；国内易复制，可学其社区健身房+训练营的轻量变现模型。",
+        "info_score": 4,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 39.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "50+科学运动与健康促进服务商",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注50+人群科学运动与健康",
+        "适老化健身课程+运动医学专家",
+        "社区健身房+线上训练营"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注50+人群科学运动与健康促进，直接服务活力老人"
+    },
+    {
+      "serial": "#0111",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其家用理疗按摩器切入银发健康有实用差异化；制造模式国内易复制，可学其品类延伸。",
+        "rec_v2": "资料一般；亮点在把按摩理疗做成居家可负担产品；同质化但路径清，创业者可抄其B端渠道与性价比定位。",
+        "rec_v3": "声量低；价值在“居家理疗”刚需而非技术壁垒；国内极易复制，可学其银发适用的简化交互设计。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "家用理疗与按摩类银发健康器械商",
+      "founded": 2002,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "家用理疗设备、按摩器",
+        "面向银发健康产品",
+        "B2B医疗器械"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用理疗按摩器切入银发健康，属老年健康器械"
+    },
+    {
+      "serial": "#0112",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其护士上门解决居家医疗“最后一公里”有差异化；需资质但模式清，可学其派单中台。",
+        "rec_v2": "资料有限；亮点在把医院护理搬到老人家中；受护士资源与监管约束，创业者可借鉴其“评估+派单”运营。",
+        "rec_v3": "关注低；差异化在医疗级上门而非普通家政；国内可复制获客，但难抄其合规护理供给，可学其标准化流程。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "上门医疗护理服务平台，专注居家养老",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "护士上门、护理员上门服务",
+        "专注老年居家医疗需求",
+        "B2B+B2C平台"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "上门医疗护理服务平台，专注老年居家医疗"
+    },
+    {
+      "serial": "#0113",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 30.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其押注老年医疗康复的赛道卡位有差异化；但作为VC难复制，国内创业者宜学其选赛道逻辑。",
+        "rec_v2": "资料一般；亮点在医疗健康portfolio含银发布局；财务投资属性强，可借鉴其“银发+康复”投资框架而非模式。",
+        "rec_v3": "声量低；价值在资本视角看清银发医疗机会；本身不可复制，创业者可学其尽调维度与产业链判断方法。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 30.6
+      },
+      "payor_model": "LP出资(基金)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "医疗健康风险投资机构，布局银发赛道",
+      "founded": 2010,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注医疗健康的风险投资基金",
+        "在老年医疗、康复护理有布局",
+        "财务投资属性"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "本质是医疗健康VC，仅财务投资布局银发，不直接服务老年人"
+    },
+    {
+      "serial": "#0114",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号极弱、信息不足；其银发兴趣课程与文化产品有情感差异化；内容模式国内极易复制，可学其人群洞察。",
+        "rec_v2": "资料稀少；亮点在把中老年精神需求做成文化消费；路径清，创业者可抄其兴趣社群与低价课转化模型。",
+        "rec_v3": "关注低、披露少；价值在“文化养老”蓝海而非硬件；国内极易复制，可学其用内容建立银发用户黏性。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商(媒体/数据)",
+      "desc_cn": "中老年文化内容与兴趣课程品牌",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中老年文化内容品牌",
+        "银发群体兴趣课程与文娱产品",
+        "信息较少"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注银发群体兴趣课程与文化产品，直接服务老年文娱"
+    },
+    {
+      "serial": "#0115",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 30.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息不足；其低强度老年健身课程有场景差异化；模式国内极易复制，可学其适老运动方案设计。",
+        "rec_v2": "资料有限；亮点在把健身下沉到银发低门槛需求；同质化但路径清，创业者可抄其社区兴趣社群打法。",
+        "rec_v3": "声量低；价值在“运动适老”切入而非设备；国内易复制，可学其用低强度课程降低老年人尝试门槛。",
+        "info_score": 3,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 30.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "老年低强度健身课程与运动方案商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "适合老年人的低强度健身课程",
+        "老年运动方案",
+        "信息较少"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "推出适合老年人的低强度健身课程，服务银发运动需求"
+    },
+    {
+      "serial": "#0116",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 4,
+      "research_value": 39.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息较丰；其“央企+外资”合资整合区域养老有资源差异化；重资产难复制，可学其控股整合法。",
+        "rec_v2": "资料完整；亮点在通过投资控股快速布点11城；模式受资本约束，创业者可借鉴其区域平台并购思路。",
+        "rec_v3": "关注低；价值在产融结合做养老规模；国内难抄其资源，但可学其“控股区域龙头”的轻整合路径。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 39.6
+      },
+      "payor_model": "个人自费+政府补贴",
+      "business_tags_role": "平台",
+      "desc_cn": "央企合资养老投资与运营平台",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "华润集团与比利时Verlinvest合资",
+        "布局5家区域养老平台、35+机构",
+        "投资控股整合区域资源"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "央企合资养老投资运营平台，直接运营养老机构"
+    },
+    {
+      "serial": "#0117",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其中老年配方羊奶在银发乳品有品类差异化；消费模式极易复制，可学其配方定位。",
+        "rec_v2": "资料一般；亮点在把羊奶做成银发功能性乳品；路径清，创业者可抄其“中老年+营养”的渠道与话术。",
+        "rec_v3": "声量低；差异化在羊奶细分而非通用奶；国内极易复制，可学其银发乳品私域与复购模型。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "制造商(消费品)",
+      "desc_cn": "中老年配方羊奶品牌",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中老年配方羊奶产品",
+        "银发乳制品市场布局",
+        "B2C"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注中老年配方羊奶，属银发营养食品"
+    },
+    {
+      "serial": "#0118",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其“五助”居家养老中心深耕社区有差异化；模式可复制，可学其网格化服务点布局。",
+        "rec_v2": "资料有限；亮点在112个服务点覆盖80社区的密度；路径清，创业者可抄其“中心厨房+上门”的本地化模型。",
+        "rec_v3": "关注低；价值在民政衔接的居家网络而非技术；国内易复制，可学其“五助”标准化与街道合作打法。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+政府购买服务",
+      "business_tags_role": "服务商",
+      "desc_cn": "居家养老服务中心，深耕社区五助",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "“五助”居家养老服务(助餐/洁/浴/急/乐)",
+        "全市112个服务点、覆盖80社区",
+        "配餐中心厨房+家政康复"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "民办非企业居家养老服务机构，直接服务社区老人"
+    },
+    {
+      "serial": "#0119",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其跌倒检测可穿戴把安全预警做成便携有差异化；硬件模式国内可复制，可学其算法。",
+        "rec_v2": "资料一般；亮点在把跌倒风险实时化而非事后救助；路径清，创业者可抄其“设备+预警通知”产品逻辑。",
+        "rec_v3": "声量低；差异化在主动安全监测而非定位；国内极易复制，可学其适老可穿戴的轻交互与续航设计。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "制造商(硬件/设备)",
+      "desc_cn": "老年人跌倒检测可穿戴设备商",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "智能健康可穿戴设备",
+        "老年人跌倒检测与健康监测",
+        "B2C"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "跌倒检测可穿戴设备直接服务老年人安全监测"
+    },
+    {
+      "serial": "#0120",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 30.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等；其布局老年健康与医疗器械的赛道眼光有差异化；VC属性难复制，可学其产业判断。",
+        "rec_v2": "资料一般；亮点在医疗健康portfolio含银发方向；财务投资为主，创业者可借鉴其“银发+器械”选品框架。",
+        "rec_v3": "关注低；价值在资本侧看清老年健康机会；本身不可复制，可学其尽调与产业链协同的投法。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 30.6
+      },
+      "payor_model": "LP出资(基金)",
+      "business_tags_role": "投资机构",
+      "desc_cn": "医疗健康产业投资基金，含银发布局",
+      "founded": 2017,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注医疗健康产业的投资基金",
+        "覆盖创新药、医疗器械、老年健康",
+        "财务投资属性"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "本质是医疗健康产业VC，仅投资布局老年健康，不直接服务老年人"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0109",
+      "name": "初新养老",
+      "intro": "初新信息技术旗下一站式养老信息咨询平台，链接C端老人与B端养老机构。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老信息平台"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老服务",
+          "reason": "平台直接服务养老供需双方，建议补养老服务标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0110",
+      "name": "动龄健康",
+      "intro": "动龄健康专注50+人群科学运动与健康，提供运动健康促进与慢病干预服务。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0111",
+      "name": "匹奇",
+      "intro": "健康器械品牌，专注家用理疗设备、按摩器等银发健康产品。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0112",
+      "name": "医护到家",
+      "intro": "上门医疗护理服务平台，提供护士上门、护理员上门等服务，专注老年居家医疗。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护士上门"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0113",
+      "name": "千骥资本",
+      "intro": "专注医疗健康领域的风险投资基金，在老年医疗、康复护理等赛道有投资布局。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "VC"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0114",
+      "name": "半月浮生",
+      "intro": "中老年文化内容品牌，专注银发群体的兴趣课程和文化产品。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0115",
+      "name": "华友健身",
+      "intro": "健身品牌，推出适合老年人的低强度健身课程和运动方案。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身",
+          "兴趣社群"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0116",
+      "name": "华润维麟",
+      "intro": "华润集团与比利时Verlinvest合资的养老产业投资与运营平台，控股整合区域养老资源。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0117",
+      "name": "卓牧",
+      "intro": "羊奶品牌，专注中老年配方羊奶产品，在银发乳制品市场有布局。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "营养食品"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0118",
+      "name": "南京携才",
+      "intro": "南京携才居家养老服务中心，提供“五助”居家养老服务，深耕江苏社区网络。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "家政"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0119",
+      "name": "博博科技",
+      "intro": "智能健康设备研发商，专注老年人跌倒检测和健康监测可穿戴设备。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0120",
+      "name": "博远资本",
+      "intro": "专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有布局。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "VC"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0113",
+      "name": "千骥资本",
+      "verdict": "泛医疗擦边",
+      "reason": "本质是医疗健康VC，仅财务投资布局银发，不直接服务老年人"
+    },
+    {
+      "serial": "#0120",
+      "name": "博远资本",
+      "verdict": "泛医疗擦边",
+      "reason": "本质是医疗健康产业VC，仅投资布局老年健康，不直接服务老年人"
+    }
+  ]
+}

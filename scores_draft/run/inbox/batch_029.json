@@ -1,0 +1,480 @@
+{
+ "batch": 29,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0081",
+   "name": "享睡",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "睡眠监测"
+   ],
+   "description": "享睡是睡眠健康品牌，专注老年人睡眠监测和睡眠改善产品。",
+   "highlights": "睡眠健康品牌，老年睡眠监测",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%AB%E7%9D%A1",
+   "website_url": "https://www.sleepace.com/cn",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "享睡",
+   "desc_cn": "享睡是睡眠健康品牌，专注老年人睡眠监测和睡眠改善产品。",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【享睡】聚焦健康监测/健康管理，睡眠健康品牌，老年睡眠监测，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0083",
+   "name": "人寿堂",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "药品"
+   ],
+   "description": "人寿堂是国药集团旗下中医养生品牌，融合传统中医药与现代健康管理，服务老年人群。",
+   "highlights": "国药集团旗下中医养生品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1993",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%BA%E5%AF%BF%E5%A0%82",
+   "website_url": "http://renshoutang.com",
+   "business_model": "B2C/B2B 养老社区运营",
+   "name_cn": "人寿堂",
+   "desc_cn": "人寿堂是国药集团旗下中医养生品牌，融合传统中医药与现代健康管理，服务老年人群。",
+   "business_model_cn": "B2C/B2B 养老社区运营",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【人寿堂】聚焦养老社区，国药集团旗下中医养生品牌，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0084",
+   "name": "亿芃健康",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "保健品",
+    "医疗器械"
+   ],
+   "description": "公开信息有限，疑似为2022年成立于温州的健康科技企业，经营范围含保健食品、特殊医学用途配方食品及一/二类医疗器械销售、细胞技术研发等。建议人工复核其实际产品与业务。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BA%BF%E8%8A%83%E5%81%A5%E5%BA%B7",
+   "website_url": "",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "亿芃健康",
+   "desc_cn": "公开信息有限，疑似为2022年成立于温州的健康科技企业，经营范围含保健食品、特殊医学用途配方食品及一/二类医疗器械销售、细胞技术研发等。建议人工复核其实际产品与业务。",
+   "business_model_cn": "B2C 老年辅助器具/康复器械",
+   "tag_l1": [
+    "食品营养",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "保健品",
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【亿芃健康】聚焦产业资本/智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0085",
+   "name": "今旭面业",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "今旭面业是面食品牌，推出适合老年人消化的营养面条产品线。",
+   "highlights": "面食品牌，老年营养面条",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BB%8A%E6%97%AD%E9%9D%A2%E4%B8%9A",
+   "website_url": "http://www.jinxumianye.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "今旭面业",
+   "desc_cn": "今旭面业是面食品牌，推出适合老年人消化的营养面条产品线。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【今旭面业】聚焦保健品，面食品牌，老年营养面条，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0087",
+   "name": "令羽",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "服装鞋帽"
+   ],
+   "description": "令羽是中老年服饰品牌，专注适合老年人的舒适功能性服装。",
+   "highlights": "中老年服饰品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BB%A4%E7%BE%BD",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "令羽",
+   "desc_cn": "令羽是中老年服饰品牌，专注适合老年人的舒适功能性服装。",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "服装鞋帽"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【令羽】聚焦行业媒体/鞋服，中老年服饰品牌，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0088",
+   "name": "伊对",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "相亲"
+   ],
+   "description": "伊对是北京米连科技（2015年成立）旗下的音视频恋爱社交App，以「红娘+直播」三方视频互动模式服务30岁左右严肃婚恋用户。其月活超千万、累计19万+主持人，2025年营收约41亿元并已递交IPO。",
+   "highlights": "下沉市场视频相亲平台，中老年单身群体高频使用",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%8A%E5%AF%B9",
+   "website_url": "https://www.520yidui.com",
+   "business_model": "B2C 社交娱乐平台",
+   "name_cn": "伊对",
+   "desc_cn": "伊对是北京米连科技（2015年成立）旗下的音视频恋爱社交App，以「红娘+直播」三方视频互动模式服务30岁左右严肃婚恋用户。其月活超千万、累计19万+主持人，2025年营收约41亿元并已递交IPO。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "相亲"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【伊对】聚焦文娱社交，下沉市场视频相亲平台，中老年单身群体高频使用，B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0089",
+   "name": "优加健康",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "陪诊"
+   ],
+   "description": "优加健保健康科技搭建签约医护网络，链接近5万家体检、眼科与齿科机构，向保险公司及企业输出家庭医生、院内护工、陪诊、垫付与院后照护等管理式医疗健康服务。",
+   "highlights": "健康管理平台，中老年慢病管理",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%98%E5%8A%A0%E5%81%A5%E5%BA%B7",
+   "website_url": "",
+   "business_model": "B2C/B2B 老年健康保险",
+   "name_cn": "优加健康",
+   "desc_cn": "优加健康以数字化管理式医疗模式整合数万名签约医护与数千家医疗网络，向保司及企业客户交付家庭医生、陪诊护工与就医协助等健康服务。",
+   "business_model_cn": "B2B服务费/按人头",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "陪诊"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【优加健康】聚焦健康管理/慢病管理，健康管理平台，中老年慢病管理，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0090",
+   "name": "优复门诊",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "康复医疗",
+    "健身"
+   ],
+   "description": "优复门诊是康复医疗连锁机构，提供运动康复、术后康复、老年慢病康复等服务，在上海等一线城市运营。",
+   "highlights": "康复医疗连锁机构，一线城市运营",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%98%E5%A4%8D%E9%97%A8%E8%AF%8A",
+   "website_url": "https://www.upclinic.cn",
+   "business_model": "B2C/B2B 加盟连锁",
+   "name_cn": "优复门诊",
+   "desc_cn": "优复门诊是康复医疗连锁机构，提供运动康复、术后康复、老年慢病康复等服务，在上海等一线城市运营。",
+   "business_model_cn": "B2C/B2B 加盟连锁",
+   "tag_l1": [
+    "养老服务",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "康复医疗",
+    "健身"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【优复门诊】聚焦康复/慢病管理/智能硬件，康复医疗连锁机构，一线城市运营，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0092",
+   "name": "优生活",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "优生活是中老年消费品品牌，专注适合老年人的日常用品和健康食品。",
+   "highlights": "中老年消费品品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%98%E7%94%9F%E6%B4%BB",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "优生活",
+   "desc_cn": "优生活是中老年消费品品牌，专注适合老年人的日常用品和健康食品。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【优生活】聚焦保健品，中老年消费品品牌，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0093",
+   "name": "余生幸福",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "相亲"
+   ],
+   "description": "余生幸福是一个中老年相亲平台，分青年、离异、中老年三个板块，采用会员实名制提供在线婚介服务。它面向不同年龄与处境的单身人群，主打真诚、严肃、温馨的征婚交友体验。",
+   "highlights": "中老年婚恋社交平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BD%99%E7%94%9F%E5%B9%B8%E7%A6%8F",
+   "website_url": "https://www.yushengxingfu.com",
+   "business_model": "B2C 社交娱乐平台",
+   "name_cn": "余生幸福",
+   "desc_cn": "余生幸福是一个中老年相亲平台，分青年、离异、中老年三个板块，采用会员实名制提供在线婚介服务。它面向不同年龄与处境的单身人群，主打真诚、严肃、温馨的征婚交友体验。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "相亲"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【余生幸福】聚焦文娱社交，中老年婚恋社交平台，B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0094",
+   "name": "佛山建泰",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "适老化"
+   ],
+   "description": "佛山建泰是适老化建材品牌，专注防滑地板、无障碍扶手等适老化装修材料。",
+   "highlights": "适老化建材品牌，防滑+无障碍",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1995",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BD%9B%E5%B1%B1%E5%BB%BA%E6%B3%B0",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "佛山建泰",
+   "desc_cn": "佛山建泰是适老化建材品牌，专注防滑地板、无障碍扶手等适老化装修材料。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【佛山建泰】聚焦辅具，适老化建材品牌，防滑+无障碍，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0095",
+   "name": "佛山永爱",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "佛山永爱是适老化家具和养老机构配套设施品牌，为养老机构提供整体适老化空间解决方案。",
+   "highlights": "适老化家具品牌，养老机构配套",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BD%9B%E5%B1%B1%E6%B0%B8%E7%88%B1",
+   "website_url": "https://www.yongaimall.com",
+   "business_model": "B2C 适老化家居产品",
+   "name_cn": "佛山永爱",
+   "desc_cn": "佛山永爱是适老化家具和养老机构配套设施品牌，为养老机构提供整体适老化空间解决方案。",
+   "business_model_cn": "B2C 适老化家居产品",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【佛山永爱】聚焦适老化改造，适老化家具品牌，养老机构配套，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,654 @@
+{
+  "batch": 33,
+  "enterprises": [
+    {
+      "serial": "#0135",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 33.7,
+      "recommend": {
+        "rec_v1": "信号偏弱、公开信息有限，但成人失禁护理是失能老人硬刚需；其卡位耗材而非服务，差异化清晰；产品商模式轻，国内长护险扩面下极易复制起量。",
+        "rec_v2": "信息量中低，亮点在选品精准——避开泛保健红海，专做失能照护耗材；可借鉴其单品刚需加家庭照护场景打法，初创小资金即可切入。",
+        "rec_v3": "冷门低信号反而显蓝海；与动辄重资产的养老机构不同，它用纸尿裤这类标品建立适老入口；国内适老耗材品牌化空白，创业者可抄其定位逻辑。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 33.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "面向失能高龄老人的成人失禁护理用品品牌",
+      "founded": 2017,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "成人失禁护理等适老日用品",
+        "面向失能及高龄老人日常照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人失禁护理等适老日用品直接服务失能及高龄老人日常照护"
+    },
+    {
+      "serial": "#0136",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号低但信息扎实：自营近3万护理员、覆盖20省；员工制直营是相对平台的重差异化；其长护险获客路径国内可借鉴，但直营重人力难快速复制。",
+        "rec_v2": "披露较透明，护工加护士上门加长护险组合罕见；强在闭环服务而非流量；创业者可学其与医院绑定的驻点获客，但员工制管理门槛高。",
+        "rec_v3": "低信号背后是真实规模；差异在把零散护工做成标准化自营体系；复制难点在人力培训，建议借鉴其医院场景入口而非全盘照搬。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费+政府长护险",
+      "business_tags_role": "服务商",
+      "desc_cn": "自营员工制护理机构，提供医院陪护与居家养老护理",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自营员工制护理人员近3万",
+        "覆盖近20个省会城市与数十家医院",
+        "承接长护险与护士上门"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "自营护理员提供医院陪护、居家养老与长护险护理，直接服务老人"
+    },
+    {
+      "serial": "#0137",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号偏低、有官网与产品矩阵；从适老家具到护理床全品类是差异化；B2B机构加B2C零售模式清晰，国内居家适老化改造缺整合者，可抄其选品逻辑。",
+        "rec_v2": "信息中等，亮点是商城加机构配置加居家改造三位一体；整合者定位少见；创业者可学其用单品切入再延展改造服务的节奏。",
+        "rec_v3": "冷门但有产业链价值；差异在适老用品一站式而非单品；国内适老化改造正起量，其产品加服务组合轻量可复制。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "老年用品与适老化综合服务商，含商城与改造",
+      "founded": 2011,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "运营嘉年乐老年商城",
+        "提供养老机构设施配置与居家适老化改造"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年用品与适老化综合服务商，覆盖适老家具、康复器材与居家改造"
+    },
+    {
+      "serial": "#0138",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 27.7,
+      "recommend": {
+        "rec_v1": "信号低、信息有限，实质为险资系产业投资基金；不直接服务老人而布局医养股权，差异在资本视角；模式难复制，创业者宜学其养老赛道选品逻辑。",
+        "rec_v2": "披露少，亮点是背靠国寿资源投养老医疗；作为VC难借鉴运营；可关注它押注的细分方向，反向寻找国内空白品类。",
+        "rec_v3": "低信号且非运营实体；差异在资金加产业双轮；个人创业者难复制其禀赋，但可跟踪其被投企业找产品灵感。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 27.7
+      },
+      "payor_model": "母公司及LP出资",
+      "business_tags_role": "投资机构",
+      "desc_cn": "中国人寿旗下大健康产业投资基金，布局医养投资",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中国人寿旗下大健康产业投资基金",
+        "聚焦医疗健康与养老服务股权投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "实质为中国人寿旗下产业投资基金，布局医养股权但不直接服务老年人，属泛银发资本方"
+    },
+    {
+      "serial": "#0139",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号低、有4000加自提店信息尚可；本质是社区生鲜零售，仅泛含健康食品，银发非主业；差异在溯源供应链；模式可抄但非银发专属。",
+        "rec_v2": "披露中等，亮点是产地直供加无理由退换；与银发关联弱；创业者可学其社区自提履约，但客群并非专为老。",
+        "rec_v3": "冷门且综合零售属性强；差异在品牌农业供应链；国内社区团购成熟，其模型可借鉴但非银发服务场景。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "社区新零售供应链，生鲜健康食品全国自提店",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全国4000+线下自提/体验店",
+        "产地直供+全程溯源+365天退换"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "综合社区生鲜与健康食品零售供应链，客群为家庭而非专服务老年，仅泛含健康食品品类"
+    },
+    {
+      "serial": "#0140",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号低但信息厚：2025保费126亿、数十款适老产品；社区加保险生态是强差异化；牌照壁垒高难复制，创业者可学其养老场景嵌入保险的设计。",
+        "rec_v2": "披露透明，亮点是把养老医疗做成保险产品矩阵；差异在支付端闭环；复制受保险牌照约束，但险加养组合思路值得借。",
+        "rec_v3": "冷门信号难掩实力；差异在打通保险支付与养老场景；国内养老支付弱，可借鉴其用保单锁定客户的长周期打法。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 44.6
+      },
+      "payor_model": "商业保险支付+个人保费",
+      "business_tags_role": "服务商",
+      "desc_cn": "合资寿险公司，构建养老生态与适老化保险产品",
+      "founded": 2012,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "2025保险业务收入126亿元",
+        "推出数十款适老化养老/医疗/疾病保险",
+        "星享寿养老生态"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "合资寿险公司聚焦一老一小，构建养老生态并推适老化保险产品"
+    },
+    {
+      "serial": "#0141",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：代理3000加种器械、12家直营店；差异在渠道而非品牌；代理加直营轻模式国内易复制，适老康复耗材需求稳。",
+        "rec_v2": "披露一般，亮点是绑定欧姆龙等厂家的区域代理网；差异有限；创业者可抄其名厂代理加中老年门店的低门槛切入。",
+        "rec_v3": "低信号但有渠道价值；与重研发不同，它用代理降低风险；国内县域适老器械零售空白大，可学其选品与门店模型。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "家用医疗器械代理销售商，经营康复护理用品",
+      "founded": 2004,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "代理3000+种家用医疗器械",
+        "合作欧姆龙、鱼跃、强生等",
+        "广东福建12家直营店"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用医疗器械代理销售，面向中老年与残障人群康复护理需求"
+    },
+    {
+      "serial": "#0142",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号极低、信息薄；以亚麻籽护肤切入中老年个护是差异化空白；产品商轻模式易复制，国内银发护肤几乎无头部品牌可抄。",
+        "rec_v2": "披露少，亮点是温和无负担功能定位；差异在中老年而非婴童；创业者可学其从垂直人群做功能个护的细分打法。",
+        "rec_v3": "冷门却踩准银发消费；差异在把抗老需求转成日常护肤；国内中年护肤品牌化刚起步，其定位逻辑可直接借鉴。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "亚麻籽护肤品牌，切入中老年功能性个护",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "亚麻籽护肤功能性个护",
+        "切入中老年护肤人群"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "从中老年护肤切入的功能性个护品牌，服务银发肤质需求"
+    },
+    {
+      "serial": "#0143",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号低、信息少；主打affordable听力方案是强差异化；助听器高价红海中走平价，国内老人听力刚需大，产品商模式清晰可抄。",
+        "rec_v2": "披露薄弱，亮点是把助听器做成普惠单品；差异在价格带下沉；创业者可学其用性价比切老年听力这一被忽视市场。",
+        "rec_v3": "低信号但赛道精准；与动辄万元的进口机不同，它卡位平价；国内老龄听力障碍人群庞大，其普惠定位极易复制起量。",
+        "info_score": 3,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "平价助听器品牌，服务老年听力障碍人群",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "平价(affordable)助听器品牌",
+        "服务老年听力障碍人群"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "平价助听器品牌，服务老年听力障碍人群"
+    },
+    {
+      "serial": "#0144",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号低、信息扎实：代表作泰康燕园等、参编标准；适老化设计领军是强差异；设计咨询轻资产，国内养老建设潮下可抄其标准化研究方法。",
+        "rec_v2": "披露较透，亮点是把建筑研究与运营咨询绑定；差异在医养专业度；创业者可学其设计加标准建立壁垒，但需行业积累。",
+        "rec_v3": "冷门却有标杆价值；差异在引领适老化建筑标准；国内新建养老机构激增，其研究方法与选品逻辑值得借。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "养老建筑设计及运营咨询团队，主导适老化标准",
+      "founded": 1997,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "代表作泰康之家·燕园、太保家园、万科怡园",
+        "参与多项适老化行业标准制定"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "天华医养团队深耕养老建筑设计与运营咨询，主导适老化标准"
+    },
+    {
+      "serial": "#0145",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 31.6,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：500加直营门店、牵手国药；产品加理疗超市组合是差异化；连锁轻模式国内可抄，但保健品同质化需差异化选品。",
+        "rec_v2": "披露一般，亮点是国药等合作背书；差异在门店体验；创业者可学其用理疗引流带动健康品复购，但需合规把控。",
+        "rec_v3": "低信号但有渠道规模；差异在把营养品放进社区超市；国内银发健康零售可借鉴其体验式门店，避免纯电商。",
+        "info_score": 4,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 31.6
+      },
+      "payor_model": "个人自费+门店零售",
+      "business_tags_role": "产品商",
+      "desc_cn": "健康科技企业，营养品与中医养生理疗连锁",
+      "founded": 2022,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全国直营门店五百多家",
+        "与一然生物、国药集团合作推出益生菌等产品"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "健康科技企业提供营养品、功能食品与中医养生理疗，服务老年健康"
+    },
+    {
+      "serial": "#0146",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号低、信息中等：多次中标长护险与医院免陪照护；线上点单加分层匹配是差异化；其长护险信息化路径国内可抄，政策利好复制性强。",
+        "rec_v2": "披露尚可，亮点是政府项目背书；差异在信息化调度而非人力；创业者可学其用系统对接长护险支付，轻资产切入。",
+        "rec_v3": "冷门但踩中长护险风口；差异在居家社区机构一体化；国内长护险扩面，其派单中台与评估模型值得借鉴。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "政府长护险+个人自费+B端采购",
+      "business_tags_role": "平台",
+      "desc_cn": "智慧养老信息化平台，居家社区机构+长护险",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "多次中标医院免陪照护与长护险定点",
+        "集居家社区机构三大板块",
+        "线上点单+分层需求匹配"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智慧养老信息化平台，提供长护险服务与居家社区机构一体化养老"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0135",
+      "name": "唯艾",
+      "intro": "唯艾是面向失能及高龄老人群体的成人失禁护理（纸尿裤、护理垫）等适老日用品品牌。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "个人护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0136",
+      "name": "嘉堡护理",
+      "intro": "嘉堡护理是从医院陪护起家的专业护理服务机构，提供护工、居家养老护理、护士上门与长护险服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "护士上门"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0137",
+      "name": "嘉年乐",
+      "intro": "嘉年乐是上海老年用品与适老化综合服务商，运营老年商城并提供机构设施配置与居家适老化改造。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0138",
+      "name": "国寿大健康",
+      "intro": "国寿大健康是中国人寿旗下大健康产业投资基金，聚焦医疗健康和养老服务领域的股权投资。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "产业基金"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老服务",
+          "reason": "基金明确聚焦养老服务领域股权投资，可补标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0139",
+      "name": "国科优选",
+      "intro": "国科优选是社区新零售供应链公司，以互联网+品牌农业模式批发果蔬生鲜、健康食品等家庭消费品。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0140",
+      "name": "复星保德信",
+      "intro": "复星保德信是复星与保德信合资寿险公司，构建星享寿养老生态、打通社区+保险场景。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "保险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老生态",
+          "reason": "打通社区+保险养老场景，可补养老生态标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0141",
+      "name": "夕阳红",
+      "intro": "夕阳红是家用医疗器械代理销售商，经营康复器材、理疗仪器、护理用品，面向中老年与残障人群。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "医疗器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "适老用品",
+          "reason": "面向中老年与残障的家用医疗器械与护理用品，可补适老用品标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0142",
+      "name": "多呵",
+      "intro": "多呵是亚麻籽护肤品牌，为银发、婴童等人群提供皮肤健康解决方案，从中老年护肤切入。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "美妆护肤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "中老年护肤",
+          "reason": "以中老年护肤切入的功能性个护品牌，可补细分标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0143",
+      "name": "大耳马",
+      "intro": "大耳马是专注平价听力解决方案的助听器品牌，服务老年听力障碍人群。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "助听器"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0144",
+      "name": "天华设计",
+      "intro": "天华设计旗下天华医养团队深耕养老设计，提供养老规划建筑设计与运营咨询。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0145",
+      "name": "天合人康",
+      "intro": "天合人康是健康科技企业，主营基础营养品、功能食品、中医养生理疗服务与超市。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "营养食品",
+          "保健品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0146",
+      "name": "天壹智慧",
+      "intro": "天壹智慧是以信息化为特征的新型养老服务公司，集居家、社区、机构业务并承接长护险。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务",
+          "金融保险"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "养老机构",
+          "长护险"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0138",
+      "name": "国寿大健康",
+      "verdict": "泛医疗擦边",
+      "reason": "实质为中国人寿旗下产业投资基金，布局医养股权但不直接服务老年人，属泛银发资本方"
+    },
+    {
+      "serial": "#0139",
+      "name": "国科优选",
+      "verdict": "非银发",
+      "reason": "综合社区生鲜与健康食品零售供应链，客群为家庭而非专服务老年，仅泛含健康食品品类"
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+ "batch": 91,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#1055",
+   "name": "Jona",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "微生态",
+   "tags": [
+    "个性化营养"
+   ],
+   "description": "用AI将微生物组数据转为个性化健康洞察与“数字孪生”",
+   "highlights": "肠道微生态个性化健康",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://jona.health",
+   "business_model": "",
+   "desc_cn": "用AI将微生物组数据转为个性化健康洞察与“数字孪生”",
+   "business_model_cn": "B2C 数字健康平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Jona】聚焦AI科技，肠道微生态个性化健康。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1056",
+   "name": "Miils",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "银发消费",
+   "category_l2": "膳食计划",
+   "tags": [
+    "个性化营养",
+    "养老膳食"
+   ],
+   "description": "Miils offers an AI meal-planning app for older adults that generates tailored recipes and grocery lists with nutritional guidance, and lets users order ingredients through a simplified online shopping flow.",
+   "highlights": "老年食品电商+营养",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://miils.com",
+   "business_model": "",
+   "desc_cn": "Miils 面向老人推出 AI 配餐应用，生成个性化食谱与购物清单并附营养建议，支持简易线上下单采购食材。",
+   "business_model_cn": "B2C订阅+佣金",
+   "news_coverage": "",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "个性化营养",
+    "养老膳食"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Miils】聚焦AI科技/营养食品，老年食品电商+营养。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1057",
+   "name": "Pepper",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "银发消费",
+   "category_l2": "社交烹饪",
+   "tags": [
+    "兴趣社群"
+   ],
+   "description": "社交烹饪App，连接家庭厨师共享食谱、留存家庭美食记忆",
+   "highlights": "美食社交切入老年情感",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://www.peppertheapp.com",
+   "business_model": "",
+   "desc_cn": "社交烹饪App，连接家庭厨师共享食谱、留存家庭美食记忆",
+   "business_model_cn": "B2C 银发社交服务",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Pepper】聚焦文娱社交，美食社交切入老年情感。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1058",
+   "name": "Ultrahuman",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "生物标志物追踪",
+   "tags": [
+    "睡眠监测",
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "description": "追踪睡眠、运动、血糖等生物标志物的产品套件优化健康",
+   "highlights": "消费级生物标志物追踪，活力老人",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "AgeTech Collaborative 13",
+   "crunchbase_url": "",
+   "website_url": "https://www.ultrahuman.com",
+   "business_model": "",
+   "desc_cn": "追踪睡眠、运动、血糖等生物标志物的产品套件优化健康",
+   "business_model_cn": "B2C 健康智能硬件",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具",
+    "食品营养"
+   ],
+   "tag_l2": [
+    "睡眠监测",
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ultrahuman】聚焦健康管理，消费级生物标志物追踪，活力老人。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1059",
+   "name": "玄源科技 X-ORIGIN-AI",
+   "name_cn": "玄源科技",
+   "region": "国内",
+   "category_l1": "智能硬件",
+   "category_l2": "陪伴机器人",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "消费级AI机器人，围绕全生命周期需求构建个性化AI伴侣",
+   "highlights": "全生命周期AI伴侣，出海定位清晰",
+   "funding_latest": "近亿元 Pre-A轮(2025.4)",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "36氪 养老机器人 / 玄源科技",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "消费级AI机器人，围绕全生命周期需求构建个性化AI伴侣",
+   "business_model_cn": "B2C 银发陪伴机器人消费品",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【玄源科技 X-ORIGIN-AI】聚焦机器人，全生命周期AI伴侣，出海定位清晰。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1060",
+   "name": "优龙机器人",
+   "name_cn": "优龙机器人",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "柔性外骨骼",
+   "tags": [
+    "外骨骼",
+    "助行器"
+   ],
+   "description": "柔性外骨骼助行产品，通过二类医疗器械认证，医养双落地",
+   "highlights": "国资+产业资本双背书，外骨骼刚需",
+   "funding_latest": "国资战略投资(长沙城发+谊安)",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "ITH康养家 2025融资实录",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "柔性外骨骼助行产品，通过二类医疗器械认证，医养双落地",
+   "business_model_cn": "B2C/B2B 康复外骨骼辅具",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼",
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【优龙机器人】聚焦智能硬件/辅具，国资+产业资本双背书，外骨骼刚需。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1061",
+   "name": "程天科技",
+   "name_cn": "程天科技",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "外骨骼助行",
+   "tags": [
+    "外骨骼",
+    "助行器"
+   ],
+   "description": "智慧康养外骨骼助行器（消费级“易行EasyGo”），数百台15秒售罄",
+   "highlights": "消费级外骨骼爆品验证，C端突破样本",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "36氪 养老机器人 / ITH",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "智慧康养外骨骼助行器（消费级“易行EasyGo”），数百台15秒售罄",
+   "business_model_cn": "B2C/B2B 康复外骨骼辅具",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼",
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【程天科技】聚焦智能硬件/辅具，消费级外骨骼爆品验证，C端突破样本。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1062",
+   "name": "傅利叶智能",
+   "name_cn": "傅利叶智能",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "康复机器人",
+   "tags": [
+    "外骨骼"
+   ],
+   "description": "康复机器人矩阵（伽利略、下肢外骨骼等），进驻超500家医疗机构",
+   "highlights": "康复机器人龙头，资本密集加持",
+   "funding_latest": "E轮及追加累计超11亿元",
+   "funding_total": "累计超11亿元",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "ITH康养家 2025融资实录",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "康复机器人矩阵（伽利略、下肢外骨骼等），进驻超500家医疗机构",
+   "business_model_cn": "B2B 康复机器人/设备",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【傅利叶智能】聚焦AI科技/康复/机器人，康复机器人龙头，资本密集加持。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1063",
+   "name": "乐聚机器人",
+   "name_cn": "乐聚机器人",
+   "region": "国内",
+   "category_l1": "智能硬件",
+   "category_l2": "人形机器人",
+   "tags": [
+    "人形机器人",
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "description": "推出家庭场景人形机器人，布局居家养老陪伴",
+   "highlights": "人形机器人Pre-IPO，居家养老想象空间大",
+   "funding_latest": "近15亿元 Pre-IPO轮",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "ITH康养家 2025融资实录",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "推出家庭场景人形机器人，布局居家养老陪伴",
+   "business_model_cn": "B2B/B2C 人形机器人",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具",
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "人形机器人",
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【乐聚机器人】聚焦居家护理/机器人，人形机器人Pre-IPO，居家养老想象空间大。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1064",
+   "name": "迈步机器人",
+   "name_cn": "迈步机器人",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "康复机器人",
+   "tags": [
+    "康复器械",
+    "机器人"
+   ],
+   "description": "康复机器人研发，初具规模企业之一",
+   "highlights": "康复机器人赛道成员",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "36氪 养老机器人",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "康复机器人研发，初具规模企业之一",
+   "business_model_cn": "B2B 康复机器人/设备",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械",
+    "机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【迈步机器人】聚焦康复/机器人，康复机器人赛道成员。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1065",
+   "name": "卓道医疗",
+   "name_cn": "卓道医疗",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "智能康复",
+   "tags": [
+    "康复器械",
+    "机器人"
+   ],
+   "description": "卓道医疗 develops upper-limb rehabilitation robots and the 'Ark' (智慧方舟) intelligent rehab system used in hospitals and rehab centers to deliver gamified, data-tracked therapy for stroke and elderly patients.",
+   "highlights": "智能康复综合方案",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "36氪 养老机器人",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "卓道医疗研发上肢康复机器人与『智慧方舟』智能康复系统，供医院与康复中心为卒中及老年患者开展游戏化、可量化的康复训练。",
+   "business_model_cn": "B2B康复设备销售",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械",
+    "机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【卓道医疗】聚焦康复，智能康复综合方案。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1066",
+   "name": "江苏艾雨文承",
+   "name_cn": "江苏艾雨文承",
+   "region": "国内",
+   "category_l1": "智能硬件",
+   "category_l2": "陪伴机器人",
+   "tags": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "description": "推出集多功能一体的智能养老机器人“大头阿亮”（已至第四代）",
+   "highlights": "多合一养老机器人量产迭代",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "36氪 养老机器人",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "推出集多功能一体的智能养老机器人“大头阿亮”（已至第四代）",
+   "business_model_cn": "B2C 银发陪伴机器人消费品",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人",
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【江苏艾雨文承】聚焦机器人，多合一养老机器人量产迭代。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

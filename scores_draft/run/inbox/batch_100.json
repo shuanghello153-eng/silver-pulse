@@ -1,0 +1,674 @@
+{
+ "batch": 100,
+ "tier": "C",
+ "enterprises": [
+  {
+   "name": "中科华意",
+   "name_cn": "中科华意",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "神经调控",
+   "tags": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "description": "以无创神经调控为核心技术，基于无创电刺激脑机接口控制方法，提供多参数脑认知障碍检测与神经反馈运动训练。",
+   "desc_cn": "以无创神经调控为核心技术，基于无创电刺激脑机接口控制方法，提供多参数脑认知障碍检测与神经反馈运动训练。",
+   "highlights": "无创神经调控BCI，认知障碍检测与训练",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=中科华意",
+   "website_url": "",
+   "business_model": "B2B 无创神经调控康复器械",
+   "business_model_cn": "B2B 无创神经调控康复器械",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "以无创神经调控为核心技术，基于无创电刺激脑机接口控制方法，提供多参数脑认知障碍检测与神经反馈运动训练。"
+    ]
+   },
+   "serial": "#1206",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练",
+    "认知筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【中科华意】聚焦AI科技/精神健康/认知症，无创神经调控BCI，认知障碍检测与训练，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "阶梯医疗",
+   "name_cn": "阶梯医疗",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "脑机接口",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "植入式脑机接口（BCI）公司，研发用于神经系统疾病治疗与监测的植入电极系统，涉足神经疾病病灶监测及调控。",
+   "desc_cn": "植入式脑机接口（BCI）公司，研发用于神经系统疾病治疗与监测的植入电极系统，涉足神经疾病病灶监测及调控。",
+   "highlights": "植入式脑机接口，神经疾病治疗监测",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2021",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=阶梯医疗",
+   "website_url": "https://www.stairmed.com",
+   "business_model": "B2B 植入式脑机接口医疗器械",
+   "business_model_cn": "B2B 植入式脑机接口医疗器械",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "植入式脑机接口（BCI）公司，研发用于神经系统疾病治疗与监测的植入电极系统，涉足神经疾病病灶监测及调控。"
+    ]
+   },
+   "serial": "#1207",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【阶梯医疗】聚焦AI科技/产业资本，植入式脑机接口，神经疾病治疗监测，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "宸汐健康",
+   "name_cn": "宸汐健康",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "管理式健康",
+   "tags": [
+    "保险"
+   ],
+   "description": "构建管理式健康服务平台，整合医院、患者与保险公司等主体，实现全产业链融合的健康管理服务。",
+   "desc_cn": "构建管理式健康服务平台，整合医院、患者与保险公司等主体，实现全产业链融合的健康管理服务。",
+   "highlights": "管理式健康平台，整合医院/患者/保险",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=宸汐健康",
+   "website_url": "",
+   "business_model": "B2B2C 管理式健康服务平台",
+   "business_model_cn": "B2B2C 管理式健康服务平台",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "构建管理式健康服务平台，整合医院、患者与保险公司等主体，实现全产业链融合的健康管理服务。"
+    ]
+   },
+   "serial": "#1208",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【宸汐健康】聚焦保险/健康管理/数字化，管理式健康平台，整合医院/患者/保险，B2B+B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "智医慧云",
+   "name_cn": "智医慧云",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "数字营销",
+   "tags": [
+    "养老咨询"
+   ],
+   "description": "医疗健康数字营销服务企业，连接制药公司与各大医疗平台，提供药企边界服务、渠道链接与数字化营销解决方案，服务于医药企业与医疗渠道方",
+   "desc_cn": "医疗健康数字营销服务企业，连接制药公司与各大医疗平台，提供药企边界服务、渠道链接与数字化营销解决方案，服务于医药企业与医疗渠道方",
+   "highlights": "药企数字营销，链接医疗平台",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=智医慧云",
+   "website_url": "",
+   "business_model": "B2B 医药数字营销平台",
+   "business_model_cn": "B2B 医疗数字营销",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "通过数字营销服务连接制药公司与各大医疗平台，提供药企边界服务与渠道链接。"
+    ]
+   },
+   "serial": "#1209",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老咨询"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【智医慧云】聚焦保健品/健康管理/数字化，药企数字营销，链接医疗平台，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "泉智博",
+   "name_cn": "泉智博",
+   "region": "国内",
+   "category_l1": "智能硬件",
+   "category_l2": "机器人关节模组",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "机器人一体化关节模组解决方案提供商，2025年关节模组年出货量突破10万台，与乐聚机器人、松延动力等多家本体企业合作。2026年4月完成数亿元A++轮（深投控领投）。",
+   "desc_cn": "机器人一体化关节模组解决方案提供商，2025年关节模组年出货量突破10万台，与乐聚机器人、松延动力等多家本体企业合作。2026年4月完成数亿元A++轮（深投控领投）。",
+   "highlights": "数亿元A++轮，机器人关节模组出货10万+",
+   "funding_latest": {
+    "amount": "数亿元",
+    "round": "A++轮",
+    "date": "2026-04",
+    "display": "A++轮 数亿元 (2026-04)"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "深投控, 光合创投",
+   "founded": "2021",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=泉智博",
+   "website_url": "",
+   "business_model": "B2B 机器人关节模组（养老机器人供应链）",
+   "business_model_cn": "B2B 机器人关节模组（养老机器人供应链）",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "机器人一体化关节模组解决方案提供商，2025年关节模组年出货量突破10万台，与乐聚机器人、松延动力等多家本体企业合作。2026年4月完成数亿元A++轮（深投控领投）。"
+    ]
+   },
+   "serial": "#1210",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【泉智博】聚焦产业资本/机器人，数亿元A++轮，机器人关节模组出货10万+，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "海每康医疗",
+   "name_cn": "海每康医疗",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "康复",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "医疗康复科技企业，涉足人体感知缺失康复、感知觉修复等神经康复领域，研发相关康复机器人与医疗设备，服务于医疗机构与康复患者",
+   "desc_cn": "医疗康复科技企业，涉足人体感知缺失康复、感知觉修复等神经康复领域，研发相关康复机器人与医疗设备，服务于医疗机构与康复患者",
+   "highlights": "神经感知修复康复医疗",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=海每康医疗",
+   "website_url": "",
+   "business_model": "B2B 神经康复医疗器械",
+   "business_model_cn": "B2B 康复医疗设备",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "涉足人体感知缺失康复、感知觉修复等神经康复领域的医疗企业。"
+    ]
+   },
+   "serial": "#1211",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【海每康医疗】聚焦康复，神经感知修复康复医疗，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "纽聆氪医疗",
+   "name_cn": "纽聆氪医疗",
+   "region": "国内",
+   "category_l1": "医疗健康",
+   "category_l2": "康复",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "康复医疗科技企业，聚焦神经疾病病灶监测及调控等康复医疗领域，研发相关的神经监测与神经调控设备，服务于临床神经康复与运动功能恢复场景",
+   "desc_cn": "康复医疗科技企业，聚焦神经疾病病灶监测及调控等康复医疗领域，研发相关的神经监测与神经调控设备，服务于临床神经康复与运动功能恢复场景",
+   "highlights": "神经疾病监测调控康复",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=纽聆氪医疗",
+   "website_url": "",
+   "business_model": "B2B 神经康复医疗器械",
+   "business_model_cn": "B2B 康复医疗设备",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "涉足神经疾病病灶监测及调控等康复医疗领域的企业。"
+    ]
+   },
+   "serial": "#1212",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【纽聆氪医疗】聚焦康复，神经疾病监测调控康复，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "博芮健",
+   "name_cn": "博芮健",
+   "region": "国内",
+   "category_l1": "长寿科技/生物医药",
+   "category_l2": "阿尔茨海默药",
+   "tags": [
+    "药品"
+   ],
+   "description": "研发阿尔茨海默病治疗药物的生物科技公司，通过数智治疗手段切入认知症治疗。",
+   "desc_cn": "研发阿尔茨海默病治疗药物的生物科技公司，通过数智治疗手段切入认知症治疗。",
+   "highlights": "阿尔茨海默新药研发，数智治疗切入",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "WebSearch(AgeClub/ITH康养家/Crunchbase News/MobiHealthNews/EU-Startups/PRNewswire等2025-2026报道)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=博芮健",
+   "website_url": "",
+   "business_model": "B2B 阿尔茨海默新药研发",
+   "business_model_cn": "B2B 阿尔茨海默新药研发",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "研发阿尔茨海默病治疗药物的生物科技公司，通过数智治疗手段切入认知症治疗。"
+    ]
+   },
+   "serial": "#1213",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【博芮健】聚焦产业资本/认知症，阿尔茨海默新药研发，数智治疗切入，B2B模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Audicus",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "听觉辅具",
+   "tags": [
+    "助听器"
+   ],
+   "description": "直接面向消费者的在线助听器公司，提供平价、可自调的助听器与听力测试，降低老年听力障碍干预门槛。",
+   "desc_cn": "直接面向消费者的在线助听器公司，提供平价、可自调的助听器与听力测试，降低老年听力障碍干预门槛。",
+   "highlights": "DTC平价助听器，降低老年听障干预门槛",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2012",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Audicus",
+   "website_url": "https://www.audicus.com",
+   "business_model": "B2C 在线助听器订阅+服务",
+   "business_model_cn": "B2C 在线助听器订阅+服务",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "直接面向消费者的在线助听器公司，提供平价、可自调的助听器与听力测试，降低老年听力障碍干预门槛。"
+    ]
+   },
+   "serial": "#1214",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Audicus】聚焦辅具，DTC平价助听器，降低老年听障干预门槛，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Lexie Hearing",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "听觉辅具",
+   "tags": [
+    "助听器"
+   ],
+   "description": "由WS Audiology支持的DTC助听器品牌，提供APP自助验配与远程听力专家服务，面向轻中度听损老人。",
+   "desc_cn": "由WS Audiology支持的DTC助听器品牌，提供APP自助验配与远程听力专家服务，面向轻中度听损老人。",
+   "highlights": "WS Audiology支持的DTC助听器，APP自助验配",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Lexie+Hearing",
+   "website_url": "https://www.lexiehearing.com",
+   "business_model": "B2C DTC助听器+远程验配",
+   "business_model_cn": "B2C DTC助听器+远程验配",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "由WS Audiology支持的DTC助听器品牌，提供APP自助验配与远程听力专家服务，面向轻中度听损老人。"
+    ]
+   },
+   "serial": "#1215",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Lexie Hearing】聚焦辅具，WS Audiology支持的DTC助听器，APP自助验配，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Audien",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "听觉辅具",
+   "tags": [
+    "助听器"
+   ],
+   "description": "主打极致平价的自验配助听器品牌，面向预算敏感老年听损人群，通过电商直售。",
+   "desc_cn": "主打极致平价的自验配助听器品牌，面向预算敏感老年听损人群，通过电商直售。",
+   "highlights": "平价自验配助听器，电商直售",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2018",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Audien",
+   "website_url": "https://www.audienhearing.com",
+   "business_model": "B2C 平价助听器硬件",
+   "business_model_cn": "B2C 平价助听器硬件",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "主打极致平价的自验配助听器品牌，面向预算敏感老年听损人群，通过电商直售。"
+    ]
+   },
+   "serial": "#1216",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【Audien】聚焦辅具，平价自验配助听器，电商直售，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "name": "Olive Union",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "听觉辅具",
+   "tags": [
+    "助听器",
+    "可穿戴监测"
+   ],
+   "description": "消费级智能耳塞/助听器公司，将听力增强做成时尚可穿戴，降低老年用户佩戴 stigma。",
+   "desc_cn": "消费级智能耳塞/助听器公司，将听力增强做成时尚可穿戴，降低老年用户佩戴 stigma。",
+   "highlights": "消费级时尚助听器，降低佩戴 stigma",
+   "funding_latest": {
+    "amount": "未披露",
+    "round": "",
+    "date": "",
+    "display": "未披露"
+   },
+   "funding_total": {
+    "amount": "累计未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 0,
+   "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Olive+Union",
+   "website_url": "https://www.olive.co",
+   "business_model": "B2C 消费级听力增强可穿戴",
+   "business_model_cn": "B2C 消费级听力增强可穿戴",
+   "news_coverage": {
+    "latest_news": [],
+    "news_count": 0,
+    "news_quality": "low",
+    "snippets": [
+     "消费级智能耳塞/助听器公司，将听力增强做成时尚可穿戴，降低老年用户佩戴 stigma。"
+    ]
+   },
+   "serial": "#1217",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Olive Union】聚焦辅具，消费级时尚助听器，降低佩戴 stigma，B2C模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

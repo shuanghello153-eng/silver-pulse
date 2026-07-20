@@ -1,0 +1,765 @@
+{
+  "batch": 17,
+  "enterprises": [
+    {
+      "serial": "#0832",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；视网膜早筛阿尔茨海默差异突出，国内可学其无创认知筛查路径方法。",
+        "rec_v2": "信号偏低但资料中等，亮点是眼科影像替代有创；创业者可借鉴其将早筛嵌入常规眼科体检（可纳入国内对标案例）",
+        "rec_v3": "低信号、模式偏诊断，资料可查，独特在视网膜标志物；国内认知症早筛可复用其设备化筛查思路（适合作为国内参考样本）",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 48.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "用视网膜成像早筛阿尔茨海默病的诊断技术",
+      "founded": "2018",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-07",
+          "text": "完成1380万美元A轮融资（iGan Partners领投）"
+        }
+      ],
+      "highlights": [
+        "视网膜成像早筛阿尔茨海默病",
+        "iGan Partners领投A轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "视网膜早筛阿尔茨海默病，直接面向老年认知症。"
+    },
+    {
+      "serial": "#0835",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 53.7,
+      "recommend": {
+        "rec_v1": "信号低但资料丰富；AI视频跌倒预防差异强，国内可学其事前预警替代事后处置思路（国内可重点研究其落地打法）",
+        "rec_v2": "信号偏低但信息中等，亮点是99%准确率与机构订阅；创业者可借鉴其计算机视觉照护降本方案（值得国内创业者拆解借鉴）",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在视觉预防；国内养老机构可复用其跌倒前置干预能力（可纳入国内对标案例）",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 53.7
+      },
+      "payor_model": "B端机构采购(机构订阅)",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "用AI视频识别预防老年人跌倒的照护技术",
+      "founded": "2015",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021-12",
+          "text": "完成4000万美元B轮融资（累计4300万美元）"
+        }
+      ],
+      "highlights": [
+        "AI视频识别预防跌倒，准确率约99%",
+        "机构订阅制，累计4300万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI视频预防老年人跌倒，典型银发照护技术。"
+    },
+    {
+      "serial": "#0849",
+      "signal_strength": 2.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 56.7,
+      "recommend": {
+        "rec_v1": "信号低但融资透明；音频AI监测老人健康差异强，国内可学其用声音做无感健康监护方案。",
+        "rec_v2": "信号偏低但资料丰富，亮点是80%+大型护理网络采用；创业者可借鉴其音频数据服务的变现路径。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在声音监测；国内居家照护可复用其非侵入式预警中台能力（适合作为国内参考样本）",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 56.7
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "用音频AI监测老人健康的家庭护理网络工具",
+      "founded": "2019",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "完成4500万美元C轮融资（累计9800万美元）"
+        }
+      ],
+      "highlights": [
+        "音频AI监测老人健康",
+        "美国80%+大型家庭护理网络采用，累计9800万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "音频AI监测老人健康，服务对象为老年家庭护理。"
+    },
+    {
+      "serial": "#0862",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限，差异化明显；AI睡眠神经技术偏通用，国内可学其消费级睡眠硬件的产品化路径。",
+        "rec_v2": "信号偏低但资料中等，亮点是神经刺激改善睡眠；创业者可借鉴其将睡眠做成可量化设备的思路（国内可重点研究其落地打法）",
+        "rec_v3": "低信号、差异中等，资料可查，独特在神经调控；国内睡眠健康可复用其消费硬件打法（非专老，可对标研究）。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 44.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "AI神经技术睡眠改善设备（通用人群）",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-06",
+          "text": "完成1000万美元种子轮+融资（Khosla Ventures领投）"
+        }
+      ],
+      "highlights": [
+        "AI神经技术睡眠改善设备",
+        "Khosla Ventures领投，通用人群"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "AI睡眠神经技术，明确标注“非专门面向老人”的通用消费硬件。"
+    },
+    {
+      "serial": "#0864",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 40.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；医保经纪人工具差异中等，国内可学其代理人数字化展业中台系统（值得国内创业者拆解借鉴）",
+        "rec_v2": "信号偏低但资料中等，亮点是营销与后台一体；创业者难抄美国医保，但可借鉴经纪赋能SaaS打法。",
+        "rec_v3": "低信号、模式偏B2B，资料可查，独特在保险中介提效；国内可复用其代理人作业系统能力（可纳入国内对标案例）",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 2.55,
+        "research_value": 40.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "服务医疗保险经纪人的营销与后台工具",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "完成2500万美元B轮融资（累计2500万美元）"
+        }
+      ],
+      "highlights": [
+        "医保经纪人营销/销售/后台工具",
+        "B轮累计2500万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "服务医疗保险经纪人，Medicare本质为老年健保。"
+    },
+    {
+      "serial": "#0890",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；数字耳镜+听力评估差异中等，国内可学其社区耳健康筛查设备化方案。",
+        "rec_v2": "信号偏低但资料中等，亮点是耳科一体化系统；创业者可借鉴其将听力服务下沉到基层机构的做法（适合作为国内参考样本）",
+        "rec_v3": "低信号、模式偏诊断，资料可查，独特在便携耳检；国内老年听力筛查可复用其软硬件一体方案（国内可重点研究其落地打法）",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 44.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "数字耳镜+听力评估的耳健康系统",
+      "founded": "2019",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-04",
+          "text": "完成2300万美元A轮融资（累计3100万美元）"
+        }
+      ],
+      "highlights": [
+        "数字耳镜+听力评估一体化系统",
+        "累计融资3100万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "耳与听力健康评估，老年听力衰退为核心人群。"
+    },
+    {
+      "serial": "#0894",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 46.6,
+      "recommend": {
+        "rec_v1": "信号低但资料可查；复杂病居家医疗全额支付差异强，国内可学其到家式整合照护模式（值得国内创业者拆解借鉴）",
+        "rec_v2": "信号偏低但信息中等，亮点是保险100%覆盖；创业者难抄支付，但可借鉴其上门多学科团队打法。",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在全额支付到家；国内可复用其复杂病例居家管理经验（可纳入国内对标案例）",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 46.6
+      },
+      "payor_model": "商业保险+政府医保(Medicare/Medicaid)",
+      "business_tags_role": "服务商",
+      "desc_cn": "为复杂病患者提供全额保险支付的居家医疗",
+      "founded": "2017",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "完成1250万美元C轮融资（Trinity Capital）"
+        }
+      ],
+      "highlights": [
+        "复杂病患者居家医疗由保险100%支付",
+        "Trinity Capital投C轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家医疗服务由Medicare/Medicaid支付，核心服务老年复杂病患者。"
+    },
+    {
+      "serial": "#0910",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 47.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限；安宁疗护+高级照护计划差异中等，国内可学其临终照护标准化体系。",
+        "rec_v2": "信号偏低但资料中等，亮点是预立医疗计划；创业者可借鉴其把安宁疗护做成可交付服务包模式（适合作为国内参考样本）",
+        "rec_v3": "低信号、模式偏服务，资料可查，独特在安宁管理；国内可复用其舒缓疗护的流程化工具方法（国内可重点研究其落地打法）",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 2.55,
+        "research_value": 47.6
+      },
+      "payor_model": "商业保险+政府医保",
+      "business_tags_role": "服务商",
+      "desc_cn": "姑息治疗与高级照护计划的临终关怀服务",
+      "founded": "2020",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2021-01",
+          "text": "完成3000万美元C轮融资（累计5080万美元）"
+        }
+      ],
+      "highlights": [
+        "姑息治疗+高级照护计划+增强护理管理",
+        "累计融资5080万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "安宁疗护与高级照护计划，服务临终老年群体。"
+    },
+    {
+      "serial": "#0960",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 47.6,
+      "recommend": {
+        "rec_v1": "信号低但资料较全；AI温控床垫罩对标Eight Sleep差异一般，国内可学其低价睡眠硬件。",
+        "rec_v2": "信号偏低但信息中等，亮点是比竞品低400-800美元；创业者可借鉴其性价比切入睡眠赛道的打法。",
+        "rec_v3": "低信号、模式偏产品，资料可查，独特在价格卡位；国内可复用其消费级智能床垫思路（非专老）（值得国内创业者拆解借鉴）",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 47.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "低价AI温控床垫罩，对标Eight Sleep（通用）",
+      "founded": "2018",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-11",
+          "text": "完成1750万美元种子轮融资"
+        }
+      ],
+      "highlights": [
+        "AI温控床垫罩对标Eight Sleep",
+        "价格比竞品低400-800美元，通用睡眠硬件"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "AI温控床垫罩对标Eight Sleep，通用睡眠硬件非专老。"
+    },
+    {
+      "serial": "#0965",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 51.6,
+      "recommend": {
+        "rec_v1": "信号低但融资透明；护理机构AI运营自动化差异强，国内可学其减负行政的SaaS工具。",
+        "rec_v2": "信号偏低但资料中等，亮点是康复护理设施客户；创业者可借鉴其把运营数据变成管理工具平台（可纳入国内对标案例）",
+        "rec_v3": "低信号、模式清晰，资料可查，独特在机构侧提效；国内养老院可复用其行政自动化中台能力（适合作为国内参考样本）",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 2.55,
+        "research_value": 51.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "面向康复护理机构的AI运营自动化平台",
+      "founded": "2023",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "完成3000万美元A轮融资（Insight Partners等）"
+        }
+      ],
+      "highlights": [
+        "面向康复护理机构的AI运营自动化",
+        "Insight Partners等投A轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向康复护理机构的运营自动化，客户为银发照护机构。"
+    },
+    {
+      "serial": "#0975",
+      "signal_strength": 2.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 3,
+      "research_value": 38.6,
+      "recommend": {
+        "rec_v1": "信号低、披露有限，差异化明显；阿尔茨海默药物研发偏泛医疗，国内可学其靶向神经精神机理方向（国内可重点研究其落地打法）",
+        "rec_v2": "信号偏低但资料中等，亮点是Dementia Discovery Fund支持；创业者难抄新药，但可借鉴选题。",
+        "rec_v3": "低信号、差异中等，资料可查，独特在神经退行管线；国内可关注其疾病修饰疗法方向与适应症选择。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 3,
+        "signal_strength": 2.55,
+        "research_value": 38.6
+      },
+      "payor_model": "B端机构采购(药企研发)",
+      "business_tags_role": "产品商",
+      "desc_cn": "开发阿尔茨海默/帕金森药物的新锐药企",
+      "founded": "2021",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-08",
+          "text": "完成3000万美元A轮融资（Dementia Discovery Fund）"
+        }
+      ],
+      "highlights": [
+        "开发阿尔茨海默/帕金森等神经退行药物",
+        "Dementia Discovery Fund支持"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "神经退行性疾病新药研发，属泛医疗/制药非银发服务。"
+    },
+    {
+      "serial": "#0976",
+      "signal_strength": 2.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 3,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号低但资料较全；长寿蛋白α-Klotho治认知差异中等，国内可学其衰老靶向新机理。",
+        "rec_v2": "信号偏低但信息中等，亮点是True Ventures领投；创业者难抄新药，但可借鉴其longevity定位。",
+        "rec_v3": "低信号、模式偏研发，资料可查，独特在α-Klotho；国内抗衰赛道可复用其认知障碍适应症切入。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 3,
+        "signal_strength": 2.55,
+        "research_value": 41.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "研发长寿蛋白α-Klotho治疗认知障碍",
+      "founded": "2021",
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2025-08",
+          "text": "完成3500万美元A轮融资（True Ventures等）"
+        }
+      ],
+      "highlights": [
+        "研发长寿蛋白α-Klotho治疗认知障碍",
+        "True Ventures等投A轮"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "长寿蛋白α-Klotho研发，属泛再生医学/抗衰非银发。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0832",
+      "name": "RETISPEC",
+      "intro": "用视网膜成像技术早期检测阿尔茨海默病的诊断技术公司。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知筛查"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "早筛诊断",
+          "reason": "视网膜影像早筛阿尔茨海默，可补诊断维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0835",
+      "name": "SafelyYou",
+      "intro": "用AI视频识别预防老年人跌倒的照护技术公司，主打机构订阅制。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "预防式跌倒",
+          "reason": "AI视频事前预防跌倒，差异在预防式"
+        }
+      ]
+    },
+    {
+      "serial": "#0849",
+      "name": "Sensi.AI",
+      "intro": "用音频AI监测老人健康的公司，美国逾80%大型家庭护理网络采用。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "远程护理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "音频AI监测",
+          "reason": "以音频AI监测老人健康，差异在声音模态"
+        }
+      ]
+    },
+    {
+      "serial": "#0862",
+      "name": "Somnee",
+      "intro": "研发AI神经技术睡眠改善设备的通用消费硬件公司，非专门面向老人。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "通用睡眠健康",
+          "reason": "明确非专老，属通用消费睡眠硬件"
+        }
+      ]
+    },
+    {
+      "serial": "#0864",
+      "name": "Spark Advisors",
+      "intro": "为医疗保险经纪人提供营销、销售支持与后台管理工具的B2B公司。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "保险科技"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "代理人赋能",
+          "reason": "服务医保经纪人展业与后台，可补标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0890",
+      "name": "TympaHealth",
+      "intro": "提供数字耳镜检查与听力评估一体化系统的耳健康公司。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "医疗器械"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "听力筛查",
+          "reason": "数字耳检+听力评估，可补听力维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0894",
+      "name": "Upward Health",
+      "intro": "为复杂疾病患者提供由保险100%支付的到家式整合医疗服务的公司。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "到家整合照护",
+          "reason": "复杂病居家医疗全额支付，可补服务模式标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0910",
+      "name": "VyncaCare",
+      "intro": "提供姑息治疗、高级照护计划与增强护理管理的临终关怀服务公司。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "安宁疗护"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "预立医疗计划",
+          "reason": "高级照护计划/预立医疗是其亮点"
+        }
+      ]
+    },
+    {
+      "serial": "#0960",
+      "name": "Orion",
+      "intro": "研发AI温控床垫罩、对标Eight Sleep的通用睡眠硬件公司，价格更低。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "睡眠监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能床垫(通用)",
+          "reason": "通用睡眠硬件，非专老"
+        }
+      ]
+    },
+    {
+      "serial": "#0965",
+      "name": "ExaCare AI",
+      "intro": "面向康复护理机构提供AI运营自动化、减轻行政负担的B2B公司。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "养老软件"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "机构运营自动化",
+          "reason": "面向护理机构的AI运营自动化"
+        }
+      ]
+    },
+    {
+      "serial": "#0975",
+      "name": "Leal Therapeutics",
+      "intro": "开发阿尔茨海默病、帕金森等神经退行性疾病药物的生物制药公司。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "制造商(药)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "生物医药",
+          "reason": "实为神经退行新药研发，原tag_l1“消费品”严重错误"
+        }
+      ]
+    },
+    {
+      "serial": "#0976",
+      "name": "Jocasta Neuroscience",
+      "intro": "研发长寿蛋白α-Klotho、治疗神经退行认知障碍的生物科技公司。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "长寿抗衰"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "生物医药",
+          "reason": "长寿蛋白新药研发，原tag_l1“消费品”错误"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0862",
+      "name": "Somnee",
+      "verdict": "泛医疗擦边",
+      "reason": "AI睡眠神经技术，明确标注“非专门面向老人”的通用消费硬件。"
+    },
+    {
+      "serial": "#0960",
+      "name": "Orion",
+      "verdict": "泛医疗擦边",
+      "reason": "AI温控床垫罩对标Eight Sleep，通用睡眠硬件非专老。"
+    },
+    {
+      "serial": "#0975",
+      "name": "Leal Therapeutics",
+      "verdict": "泛医疗擦边",
+      "reason": "神经退行性疾病新药研发，属泛医疗/制药非银发服务。"
+    },
+    {
+      "serial": "#0976",
+      "name": "Jocasta Neuroscience",
+      "verdict": "泛医疗擦边",
+      "reason": "长寿蛋白α-Klotho研发，属泛再生医学/抗衰非银发。"
+    }
+  ]
+}

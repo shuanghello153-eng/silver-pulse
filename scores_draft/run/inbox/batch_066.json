@@ -1,0 +1,558 @@
+{
+ "batch": 66,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0606",
+   "name": "AdhereTech",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "用药提醒"
+   ],
+   "description": "提醒人们服药并在不服药时干预",
+   "highlights": "提醒人们服药并在不服药时干预",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AdhereTech",
+   "website_url": "https://www.adheretech.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "提醒人们服药并在不服药时干预",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药提醒"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AdhereTech】聚焦保健品/行业媒体，提醒人们服药并在不服药时干预，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0607",
+   "name": "ADL Smartcar",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "健康测评问卷收集老年人群健康数据",
+   "highlights": "健康测评问卷收集老年人群健康数据",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2002",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ADL%20Smartcar",
+   "website_url": "https://www.adlsmartcare.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "健康测评问卷收集老年人群健康数据",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【ADL Smartcar】聚焦健康管理/行业媒体，健康测评问卷收集老年人群健康数据，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0609",
+   "name": "Advosense",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "德国柏林的老年护理智能失禁监测方案商。核心产品 Sensa 系统：一次性传感贴片监测失禁用者的干湿状态，实时向护理人员推送提醒，帮助养老机构减少渗漏与压疮。B2B 面向临床与护理机构。",
+   "highlights": "尿失禁数字解决方案",
+   "funding_latest": {
+    "date": "2020年",
+    "amount": "17万美元",
+    "round": "种子轮",
+    "display": "种子轮 17万美元 (2020年)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Advosense",
+   "website_url": "https://www.advosense.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "德国柏林的老年护理智能失禁监测方案商。核心产品 Sensa 系统：一次性传感贴片监测失禁用者的干湿状态，实时向护理人员推送提醒，帮助养老机构减少渗漏与压疮。B2B 面向临床与护理机构。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "早期",
+   "recommend": "【Advosense】聚焦产业资本/行业媒体，尿失禁数字解决方案，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0610",
+   "name": "After.com",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "殡葬"
+   ],
+   "description": "以互联网为核心，帮助家庭预先计划或安排火葬和葬礼服务",
+   "highlights": "帮助家庭预先计划或安排火葬和葬礼服务",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "1000万美元",
+    "display": "1000万美元 (2024年7月)"
+   },
+   "funding_total": {
+    "amount": "$14M+",
+    "display": "$14M+"
+   },
+   "investors": "",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=After.com",
+   "website_url": "https://www.after.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "以互联网为核心，帮助家庭预先计划或安排火葬和葬礼服务",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "殡葬"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【After.com】聚焦产业资本/行业媒体，帮助家庭预先计划或安排火葬和葬礼服务，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0612",
+   "name": "AgeWell Global",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "基于同伴的社交参与+移动技术，改善健康结果",
+   "highlights": "改善健康结果",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgeWell%20Global",
+   "website_url": "https://www.agewellglobal.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "基于同伴的社交参与+移动技术，改善健康结果",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AgeWell Global】聚焦文娱社交，改善健康结果，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0613",
+   "name": "Air Protein",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "功能性食品"
+   ],
+   "description": "由CO2制成的富含蛋白质的食品",
+   "highlights": "由CO2制成的富含蛋白质的食品",
+   "funding_latest": {
+    "date": "2023年5月",
+    "amount": "7500万美元",
+    "display": "7500万美元 (2023年5月)"
+   },
+   "funding_total": {
+    "amount": "$32.1M",
+    "display": "$32.1M"
+   },
+   "investors": "Google Ventures, Barclays, ADM Ventures, Primera Capital 等",
+   "founded": "2019",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Air%20Protein",
+   "website_url": "https://www.airprotein.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "由CO2制成的富含蛋白质的食品",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "功能性食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Air Protein】聚焦产业资本/营养食品/行业媒体，由CO2制成的富含蛋白质的食品，B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0614",
+   "name": "Aktiia",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "血压血糖",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "光学连续血压监测手环，44个国家60,000+用户",
+   "highlights": "44个国家60,000+用户",
+   "funding_latest": {
+    "date": "2024年3月",
+    "amount": "3000万美元",
+    "display": "3000万美元 (2024年3月)"
+   },
+   "funding_total": {
+    "amount": "$42M (Series B, 2025)",
+    "display": "$42M Series B"
+   },
+   "investors": "Earlybird Health, Wellington Partners (领投)",
+   "founded": "2018",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Aktiia",
+   "website_url": "https://healthcare.aktiia.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "光学连续血压监测手环，44个国家60,000+用户",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Aktiia secures $42 million Series B, rebrands to Hilo",
+      "date": "2025-05-02",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news/aktiia/"
+     },
+     {
+      "title": "光学式血压监测公司Aktiia获得4200万美元融资",
+      "date": "2025-06-19",
+      "source": "搜狐",
+      "url": "https://news.sohu.com/a/905688851_121124378"
+     }
+    ],
+    "snippets": [
+     "Aktiia（后更名Hilo）为无袖带连续血压监测可穿戴公司，2025年5月完成4200万美元B轮（Earlybird、Wellington领投）。",
+     "已售出超12万台设备，面向高血压老人群体；2026年5月多款无袖带血压计获FDA 510(k)。"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Aktiia】聚焦产业资本/健康监测，44个国家60,000+用户，B2C模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0615",
+   "name": "Alaffia Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "生成式AI简化健康计划索赔操作",
+   "highlights": "生成式AI简化健康计划索赔操作",
+   "funding_latest": {
+    "amount": "1000万美元",
+    "display": "1000万美元"
+   },
+   "funding_total": {
+    "amount": "$73M (累计, Series B $55M 2026)",
+    "display": "$73M (累计)"
+   },
+   "investors": "Transformation Capital (领投)",
+   "founded": "2020",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Alaffia%20Health",
+   "website_url": "https://www.alaffia.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "生成式AI简化健康计划索赔操作",
+   "business_model_cn": "B2B AI/数据驱动",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Alaffia Health Raises $55M Series B for Claims Management AI",
+      "date": "2026-02-03",
+      "source": "MobiHealthNews",
+      "url": "https://www.mobihealthnews.com/news/alaffia-health-raises-55m-claims-management-ai"
+     },
+     {
+      "title": "Alaffia Health获得5500万美元B轮融资",
+      "date": "2026-02-04",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260204A0379200"
+     }
+    ],
+    "snippets": [
+     "Alaffia Health用agentic AI处理健康保险理赔，2026年2月完成5500万美元B轮（Transformation Capital领投）。",
+     "定位解决医疗5700亿美元浪费，与老年医保理赔相关。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Alaffia Health】聚焦产业资本/文娱社交，生成式AI简化健康计划索赔操作，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0616",
+   "name": "Alloy",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "更年期初创公司",
+   "highlights": "更年期初创公司",
+   "funding_latest": {
+    "date": "2024年11月",
+    "amount": "1600万美元",
+    "display": "1600万美元 (2024年11月)"
+   },
+   "funding_total": {
+    "amount": "$16M (Series A)",
+    "display": "$16M Series A"
+   },
+   "investors": "Kairos HQ (领投), PACE Healthcare Capital, Emmeline, Amboy Street",
+   "founded": "2022",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Alloy",
+   "website_url": "https://www.myalloy.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "更年期初创公司",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Alloy】聚焦产业资本/女性健康/行业媒体，更年期初创公司，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0617",
+   "name": "Allwayswithyou",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "陪伴服务"
+   ],
+   "description": "Allwayswithyou 是一款面向老年人的远程陪伴与照护提醒应用，通过定时提醒、语音互动与家属端同步，帮助独居长者按时用药与起居。",
+   "highlights": "远程护理",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Allwayswithyou",
+   "website_url": "https://www.allwayswithyou.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Allwayswithyou 是一款面向老年人的远程陪伴与照护提醒应用，通过定时提醒、语音互动与家属端同步，帮助独居长者按时用药与起居。",
+   "business_model_cn": "B2C/B2B 居家及机构护理服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴服务"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Allwayswithyou】聚焦专业护理/远程医疗，远程护理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0619",
+   "name": "Amplifon",
+   "region": "海外",
+   "category_l1": "购物渠道",
+   "category_l2": "线下渠道",
+   "tags": [
+    "零售"
+   ],
+   "description": "领先助听器零售商，收购Hear Again America",
+   "highlights": "收购Hear Again America",
+   "funding_latest": {
+    "date": "2024年1月",
+    "round": "收购",
+    "display": "收购 (2024年1月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1950",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Amplifon",
+   "website_url": "https://www.amplifon.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "领先助听器零售商，收购Hear Again America",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Amplifon】聚焦产业资本/渠道，收购Hear Again America，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0620",
+   "name": "Anatomy Financial",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "AI金融操作系统，向医疗保险公司收费",
+   "highlights": "向医疗保险公司收费",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "760万美元",
+    "display": "760万美元 (2024年2月)"
+   },
+   "funding_total": {
+    "amount": "$19M (Series A)",
+    "display": "$19M Series A"
+   },
+   "investors": "Canapi Ventures (领投)",
+   "founded": "2020",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Anatomy%20Financial",
+   "website_url": "https://www.anatomy.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "AI金融操作系统，向医疗保险公司收费",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Anatomy Financial】聚焦产业资本/文娱社交，向医疗保险公司收费，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

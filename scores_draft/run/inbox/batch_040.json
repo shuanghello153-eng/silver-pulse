@@ -1,0 +1,483 @@
+{
+ "batch": 40,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0220",
+   "name": "星巡智能",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "视觉辅助"
+   ],
+   "description": "星巡智能推出智慧养老看护机“海马爷爷”，融合4K视觉与毫米波传感器，具备情感交互、跌倒监测与健康管理功能，并通过大型语言模型实现适老陪伴与紧急预警。",
+   "highlights": "智能家居品牌，老年安防监测",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2020",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%98%9F%E5%B7%A1%E6%99%BA%E8%83%BD",
+   "website_url": "",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "星巡智能",
+   "desc_cn": "星巡智能以“视觉+决策”多模态分析技术打造老人看护机海马爷爷，支持跌倒报警、久未活动提醒与SOS一键呼叫，兼顾情感陪伴与无接触监测。",
+   "business_model_cn": "硬件销售",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "视觉辅助"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【星巡智能】聚焦健康管理，智能家居品牌，老年安防监测，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0221",
+   "name": "春树养老",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老信息平台"
+   ],
+   "description": "春树养老（前身“养老网”）由春树安养（北京）信息技术有限公司运营，是国内较早的养老生活服务平台，收录全国约2.5万家养老机构信息，年度用户达400万、机构查询量逾2000万，为长者提供机构遴选、能力评估、预约试住等顾问服务，并为养老机构提供精准获客与品牌展示，旗下自媒体“春树视点”深耕行业观察。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%98%A5%E6%A0%91%E5%85%BB%E8%80%81",
+   "website_url": "http://www.yanglao.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "春树养老",
+   "desc_cn": "春树养老（前身“养老网”）由春树安养（北京）信息技术有限公司运营，是国内较早的养老生活服务平台，收录全国约2.5万家养老机构信息，年度用户达400万、机构查询量逾2000万，为长者提供机构遴选、能力评估、预约试住等顾问服务，并为养老机构提供精准获客与品牌展示，旗下自媒体“春树视点”深耕行业观察。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老信息平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【春树养老】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0222",
+   "name": "昱芝夕",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "个人护理"
+   ],
+   "description": "昱芝夕是上海夕昱商贸有限公司2023年创立的中老年功效型个护品牌，专注服务40+中老年群体，核心团队来自欧莱雅、联合利华等，产品涵盖沐浴露、身体乳、护手霜、面霜等，针对皮肤干燥瘙痒、“老人味”等痛点，已入驻200多家养老院及养老机构，深耕银发个护细分赛道。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%98%B1%E8%8A%9D%E5%A4%95",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "昱芝夕",
+   "desc_cn": "昱芝夕是上海夕昱商贸有限公司2023年创立的中老年功效型个护品牌，专注服务40+中老年群体，核心团队来自欧莱雅、联合利华等，产品涵盖沐浴露、身体乳、护手霜、面霜等，针对皮肤干燥瘙痒、“老人味”等痛点，已入驻200多家养老院及养老机构，深耕银发个护细分赛道。",
+   "business_model_cn": "B2B 行业媒体/内容服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【昱芝夕】聚焦个护，行业服务领域企业，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0223",
+   "name": "昱言养老",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老咨询"
+   ],
+   "description": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%98%B1%E8%A8%80%E5%85%BB%E8%80%81",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "昱言养老",
+   "desc_cn": "昱言养老工作室（2016年创立，中原集团旗下）是国内养老产业研究、咨询与数据服务平台，发布养老地图、CCRC研究与行业报告。",
+   "business_model_cn": "B2B 养老产业咨询",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老咨询"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【昱言养老】聚焦咨询研究，行业服务领域企业，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0224",
+   "name": "普健济康",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "VC"
+   ],
+   "description": "上海普健济康众创空间管理有限公司运营“895医疗健康孵化器暨普健济康医创基地”，由张江高科“895创业营”与HiMed医创空间联手打造，是垂直医疗健康孵化器，孵化方向涵盖智慧医疗（微创器械、可穿戴设备、医用机器人）与智慧养老（居家养老、康复护理），并提供天使投资与创业陪练。",
+   "highlights": "产业资本领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%AE%E5%81%A5%E6%B5%8E%E5%BA%B7",
+   "website_url": "",
+   "business_model": "银发经济企业",
+   "name_cn": "普健济康",
+   "desc_cn": "上海普健济康众创空间管理有限公司运营“895医疗健康孵化器暨普健济康医创基地”，由张江高科“895创业营”与HiMed医创空间联手打造，是垂直医疗健康孵化器，孵化方向涵盖智慧医疗（微创器械、可穿戴设备、医用机器人）与智慧养老（居家养老、康复护理），并提供天使投资与创业陪练。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "VC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【普健济康】聚焦产业资本，产业资本领域企业，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0225",
+   "name": "景昱",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "康复器械"
+   ],
+   "description": "景昱医疗科技（苏州）自主研发脑机接口DBS脑深部电刺激系统，以Aaxon系列脑起搏器治疗帕金森病、药物成瘾与强迫症等脑功能疾病，为全球少数能量产DBS的企业之一。",
+   "highlights": "康复设备领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%AF%E6%98%B1",
+   "website_url": "http://www.sceneray.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "景昱",
+   "desc_cn": "景昱医疗聚焦脑科学，推出脑机接口DBS神经调控芯片与脑起搏器，应用于帕金森病及难治性精神疾病，产品覆盖全国300余家诊疗中心并远销海外。",
+   "business_model_cn": "医疗器械销售",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【景昱】聚焦康复/智能硬件，康复设备领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0226",
+   "name": "晶彩人生",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "兴趣社群",
+    "旅游",
+    "文娱"
+   ],
+   "description": "晶彩人生始创于2015年，从酒店场景切入中老年社交文娱，打造“聚会+酒店”模式，为中老年客户提供聚会、美拍、旅居、健身、终身学习等一站式社交空间，旗下“晶彩同城聚”提供当日往返主题聚会。全网粉丝超50万，年服务聚会客户约30万人次，是中老年聚会社交服务开拓者。",
+   "highlights": "老年文娱领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%B6%E5%BD%A9%E4%BA%BA%E7%94%9F",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "晶彩人生",
+   "desc_cn": "晶彩人生始创于2015年，从酒店场景切入中老年社交文娱，打造“聚会+酒店”模式，为中老年客户提供聚会、美拍、旅居、健身、终身学习等一站式社交空间，旗下“晶彩同城聚”提供当日往返主题聚会。全网粉丝超50万，年服务聚会客户约30万人次，是中老年聚会社交服务开拓者。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "旅游",
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【晶彩人生】聚焦文娱社交，老年文娱领域企业，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0228",
+   "name": "智听",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "助听器"
+   ],
+   "description": "深圳市智听科技有限公司2017年成立于深圳，旗下品牌“挚听”专注智能助听器研发、生产与销售，创始团队来自高校并获小米集团战略投资。产品支持手机APP自主测听与远程验配，融合腾讯天籁AI降噪技术，价格亲民，90%用户为听障老人，入选工信部《2022年老年用品产品推广目录》，线上线下结合提供听力服务。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%BA%E5%90%AC",
+   "website_url": "https://www.eartech.cn",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "智听",
+   "desc_cn": "深圳市智听科技有限公司2017年成立于深圳，旗下品牌“挚听”专注智能助听器研发、生产与销售，创始团队来自高校并获小米集团战略投资。产品支持手机APP自主测听与远程验配，融合腾讯天籁AI降噪技术，价格亲民，90%用户为听障老人，入选工信部《2022年老年用品产品推广目录》，线上线下结合提供听力服务。",
+   "business_model_cn": "B2C 老年辅助器具/康复器械",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【智听】聚焦助听器/智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0229",
+   "name": "智宇孝老",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理",
+    "家政"
+   ],
+   "description": "智宇孝老集团（厦门智宇信息技术有限公司）成立于2001年，是居家和社区养老服务提供商，构建“平台-照料中心-社区-家庭”四级居家养老体系，业务覆盖福建、浙江、湖北等6省40余区县，运营400多家居家养老服务驿站、45家照料中心及4家养老院。提供居家上门生活照料、医疗护理、康复保健、精神慰藉及“平安通”紧急救援、健康监测等服务。",
+   "highlights": "养老服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%BA%E5%AE%87%E5%AD%9D%E8%80%81",
+   "website_url": "http://www.zhiyuinfo.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "智宇孝老",
+   "desc_cn": "智宇孝老集团（厦门智宇信息技术有限公司）成立于2001年，是居家和社区养老服务提供商，构建“平台-照料中心-社区-家庭”四级居家养老体系，业务覆盖福建、浙江、湖北等6省40余区县，运营400多家居家养老服务驿站、45家照料中心及4家养老院。提供居家上门生活照料、医疗护理、康复保健、精神慰藉及“平安通”紧急救援、健康监测等服务。",
+   "business_model_cn": "B2C 居家/机构专业护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "家政"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【智宇孝老】聚焦专业护理/居家护理，养老服务领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0230",
+   "name": "智杰教育",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "护工培训"
+   ],
+   "description": "成都市智杰教育咨询有限责任公司（智杰教育）成立于2013年，总部位于成都，是一家职业技能培训机构，主打护士资格、执业药师、养老护理员（病患陪护）、健康管理师、公共营养师等医学与健康类培训，并与华西公共卫生学院等合作开展医护人才培训及涉外就业派遣，直营机构遍布11个省市。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%BA%E6%9D%B0%E6%95%99%E8%82%B2",
+   "website_url": "http://www.zhijie-edu.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "智杰教育",
+   "desc_cn": "成都市智杰教育咨询有限责任公司（智杰教育）成立于2013年，总部位于成都，是一家职业技能培训机构，主打护士资格、执业药师、养老护理员（病患陪护）、健康管理师、公共营养师等医学与健康类培训，并与华西公共卫生学院等合作开展医护人才培训及涉外就业派遣，直营机构遍布11个省市。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工培训"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【智杰教育】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0231",
+   "name": "最美芳华",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "个人护理"
+   ],
+   "description": "北京最美芳华生物科技有限公司是一家集研发、生产、销售于一体的企业，旗下“芳华”品牌专注老年专用洗护产品，代表产品有芳华老年润肤乳等，针对老年人肌肤特点改善日常护理方式，倡导“像关爱孩子一样关爱老人”，曾参加中国国际养老服务业博览会等银发展会。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%9C%80%E7%BE%8E%E8%8A%B3%E5%8D%8E",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "最美芳华",
+   "desc_cn": "北京最美芳华生物科技有限公司是一家集研发、生产、销售于一体的企业，旗下“芳华”品牌专注老年专用洗护产品，代表产品有芳华老年润肤乳等，针对老年人肌肤特点改善日常护理方式，倡导“像关爱孩子一样关爱老人”，曾参加中国国际养老服务业博览会等银发展会。",
+   "business_model_cn": "B2B 行业媒体/内容服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【最美芳华】聚焦个护，行业服务领域企业，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0232",
+   "name": "月神",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "保健品",
+    "药品"
+   ],
+   "description": "德国女性健康品牌月神（Princess Luna）以女性益生菌为核心，推出私护专研与健康美学两条产品线，其中小花园益生菌含4株原生菌株与120亿活菌，并面向更年期女性做私密养护。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%9C%88%E7%A5%9E",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "月神",
+   "desc_cn": "月神是深耕女性健康的德国品牌，主打女性益生菌与私护产品，小花园益生菌累计服务超200万女性，并围绕更年期等阶段布局微生态养护方案。",
+   "business_model_cn": "保健品零售",
+   "tag_l1": [
+    "食品营养",
+    "消费品"
+   ],
+   "tag_l2": [
+    "保健品",
+    "药品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【月神】聚焦保健品，健康食品领域企业，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

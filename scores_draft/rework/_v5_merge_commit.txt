@@ -1,0 +1,33 @@
+  [R10] 比对 194 对 | 失败 170 家
+
+============================================================
+V5受控合并报告 (drafts_v5, 队列内 494 家)
+  单企业PASS: 472
+  R10失败:    170
+  最终写回:   302
+  不写回:     192
+  不写回明细(前20):
+    0007: R-field-dedup:与desc_cn雷同(17字≥10阈值)
+    0168: R2:字数过长(224>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(11字≥10阈值); R-field-dedup:与highlights[1]雷同(8字≥8阈值); R
+    0222: R2:字数过长(225>220，疑似啰嗦); R3:模板套话[机构打法]; R-field-dedup:与desc_cn雷同(14字≥10阈值)
+    0226: R5:缺维度-差异化; R-integrity:前后半段讲不同赛道(前['社交']→后['旅游'])，疑似拼接错误
+    0235: R-field-dedup:与desc_cn雷同(14字≥10阈值); R-field-dedup:与highlights[1]雷同(12字≥8阈值)
+    0246: R2:字数过长(224>220，疑似啰嗦); R-field-dedup:与highlights[1]雷同(8字≥8阈值)
+    0258: R2:字数过长(248>220，疑似啰嗦); R5:缺维度-信号,差异化; R-field-dedup:与desc_cn雷同(12字≥10阈值); R-field-dedup:与highlights[
+    0315: R2:字数过长(227>220，疑似啰嗦); R5:缺维度-信号
+    0365: R2:字数过长(238>220，疑似啰嗦); R-field-dedup:与highlights[2]雷同(12字≥8阈值); R-field-dedup:与description(英文)雷同(13字
+    0393: R2:字数过长(231>220，疑似啰嗦); R-field-dedup:与highlights[1]雷同(8字≥8阈值); R-field-dedup:与funding_latest.display
+    0399: R2:字数过长(235>220，疑似啰嗦)
+    0426: R5:缺维度-信息量,差异化
+    0511: R2:字数过长(281>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(10字≥10阈值)
+    0642: R2:字数过长(239>220，疑似啰嗦); R-field-dedup:与desc_cn雷同(12字≥10阈值); R-field-dedup:与highlights[1]雷同(24字≥8阈值)
+    0877: R5:缺维度-信号
+    1128: R5:缺维度-信号
+    1129: R5:缺维度-信息量
+    1130: R5:缺维度-信号
+    1138: R5:缺维度-信号
+    1151: R-field-dedup:与description(英文)雷同(11字≥10阈值)
+    ... 还有 172 家
+已保存主库: G:\workbuddy\2026-06-28-23-34-20\silver-pulse\data/enterprise/all_enterprises.json (1502家)
+
+已写回 302 家 recommend（仅recommend字段，未动620干净企业，未碰drafts_v4）

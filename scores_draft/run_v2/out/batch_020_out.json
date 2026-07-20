@@ -1,0 +1,710 @@
+{
+  "batch": 20,
+  "enterprises": [
+    {
+      "serial": "#0873",
+      "name": "Sugar.fit",
+      "name_cn": "Sugar.fit",
+      "region": "海外",
+      "website_url": "https://www.sugarfit.com",
+      "signal_strength": 1.55,
+      "info_score": 6.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 40.6,
+      "recommend": "信号明确（印度约7700万糖尿病患者刚需），信息披露较充分（公开90%用户血糖下降、3个月HbA1c平均降2%）。差异化在以CGM硬件+营养师真人干预+线下诊所的'软硬一体'打法，而非纯App；其把血糖管理做成可量化结果产品的模式值得国内慢病团队借鉴，但传感器进口成本与都市集中是落地主要障碍。",
+      "desc_cn": "面向印度糖尿病及前期人群的订阅制逆转服务：用户佩戴连续血糖监测仪，由AI算法与持证营养师、医生联合干预，配套7家线下诊所做线上线下一体管理。收入来自月度订阅费与诊所诊疗，宣称九成用户血糖下降、3个月糖化血红蛋白平均降2%。核心银发价值在慢病自我管理，对应中国上亿糖前/糖尿病老人的生活方式干预缺口。",
+      "payor_model": "个人自费（订阅制，无保险覆盖）",
+      "business_tags_role": "服务商",
+      "founded": 2021,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2024年3月",
+        "amount": "500万美元",
+        "round": "A轮",
+        "display": "A轮扩展 500万美元 (2024年3月)"
+      },
+      "funding_total": "约$26M",
+      "investors": ["B Capital", "MassMutual Ventures", "Tanglin Venture Partners", "Endiya Partners", "Cure.fit"],
+      "highlights": [
+        "订阅制糖尿病逆转：CGM实时血糖+AI算法+持证营养师/医生联合干预，宣称90%用户血糖下降、3个月HbA1c平均降2%",
+        "omnichannel模式：7家班加罗尔线下糖尿病诊所+App，FY25营收66.5千万卢比、同比增77%",
+        "累计融资约2600万美元（B Capital、MassMutual Ventures领投），服务超3万用户"
+      ],
+      "events": [
+        {"date": "2021", "text": "公司成立于班加罗尔，获1000万美元种子轮"},
+        {"date": "2023", "text": "完成1100万美元A轮（MassMutual Ventures领投）"},
+        {"date": "2024-03", "text": "完成500万美元A轮扩展（B Capital领投），拓展线下诊所"},
+        {"date": "2025", "text": "FY25营收66.5千万卢比、同比增长77%"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "糖尿病管理App服务全龄，非老年专属，属泛医疗。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0875",
+      "name": "Switchboard Health",
+      "name_cn": "Switchboard Health",
+      "region": "海外",
+      "website_url": "https://www.switchboardhealth.com",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 5.0,
+      "research_value": 39.6,
+      "recommend": "信号偏弱（近期刚完成首轮机构融资，公开客户规模有限），数据透明度中等（披露覆盖10+专科、对接价值医疗组织）。差异化在'专科护理导航'定位——用数亿数据点做供需匹配引擎，帮健康计划降低专科转诊成本、提升Star Ratings；国内商保与互联网医院可借鉴其将护理分诊做成SaaS的打法，但美国PBM与支付结构难以直接照搬。",
+      "desc_cn": "面向健康险计划、价值医疗组织与雇主的专科护理导航SaaS：用数亿数据点训练的匹配引擎，把患者自动对接到高价值、可负担、网络内的专科服务（骨科、胃肠、行为健康等），并自动化转诊与授权流程。收入来自B端平台与按价值的合同费。核心银发价值在帮基层医生为多重慢病的老年会员快速找到对的专科，降低医疗成本。",
+      "payor_model": "B端机构采购（健康险计划/雇主/价值医疗组织）",
+      "business_tags_role": "平台",
+      "founded": 2019,
+      "stage": "种子期",
+      "funding_latest": {
+        "amount": "650万美元",
+        "round": "种子轮",
+        "display": "种子轮 650万美元"
+      },
+      "funding_total": "$14.2M",
+      "investors": [
+        "First Trust Capital Partners",
+        "Route 66 Ventures",
+        "InnovateHealth Ventures",
+        "Capital Eleven",
+        "Ikigai Growth Partners"
+      ],
+      "highlights": [
+        "AI专科护理匹配引擎：基于数亿数据点把患者自动对接高价值、网络内专科（骨科/胃肠/行为健康等），自动化转诊授权",
+        "客户为健康险计划、价值医疗组织与雇主，主打降低专科转诊成本、提升Star Ratings",
+        "2026年获微软Rural Health AI Lab'Referral Router'挑战赛冠军；与Vivo（55+力量训练）合作触达老人群体"
+      ],
+      "events": [
+        {"date": "2019", "text": "公司成立"},
+        {"date": "2024-05", "text": "完成650万美元种子轮（First Trust Capital Partners领投）"},
+        {"date": "2025-04", "text": "与Vivo（55+力量训练）达成合作，拓展老年专科"},
+        {"date": "2026-02", "text": "获微软Rural Health AI Lab'Referral Router'挑战赛冠军"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "专科护理导航为通用医疗服务，非老年专属，属泛医疗。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0911",
+      "name": "Waterlily",
+      "name_cn": "Waterlily",
+      "region": "海外",
+      "website_url": "https://www.waterlilycare.com",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 7.0,
+      "copy_score": 7.0,
+      "research_value": 47.7,
+      "recommend": "信号强（已签Prudential等8家险企、MRR月增58%），信息透明度高（公开与CMS及联邦长护险项目的数据合作）。差异化在把'健康风险'翻译成'财务风险'的AI精算定位，并引入家属'崩溃点'变量预测照护时点；国内养老金融与长护险机构可借鉴其SaaS+保单撮合模式，但美国LTC险与年金生态国内暂无对应土壤。",
+      "desc_cn": "面向理财顾问与险企的B2B SaaS：用户填3-5分钟问卷，AI基于5亿+数据点预测其长期照护的发生时点、强度与费用，并匹配长护险、年金等资金方案。收入来自每席位月订阅与保单撮合分成。核心银发价值在把'老后照护风险'翻译成可定价财务语言，对应中国长护险教育与家庭财务规划空白。",
+      "payor_model": "B端机构采购（理财顾问/险企 SaaS 订阅）",
+      "business_tags_role": "平台",
+      "founded": 2021,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2025年1月",
+        "amount": "700万美元",
+        "round": "种子轮",
+        "display": "种子轮 700万美元 (2025年1月)"
+      },
+      "funding_total": "约$9.2M（$7M种子+$2.2M pre-seed）",
+      "investors": ["Brewer Lane Ventures", "Genworth", "Nationwide", "Edward Jones"],
+      "highlights": [
+        "AI长护规划：基于5亿+数据点预测个体长护发生时点、强度与费用，引入家属'崩溃点'变量",
+        "B2B SaaS订阅（每席位月费59美元）+保单撮合分成，已签Prudential等8家险企、MRR月增58%",
+        "数据合作含CMS、联邦长护险项目及Genworth/Nationwide/Edward Jones等战略投资方"
+      ],
+      "events": [
+        {"date": "2021-12", "text": "公司成立（Lily Vittayarukskul创立）"},
+        {"date": "2024-03", "text": "平台公开上线"},
+        {"date": "2025-01", "text": "完成700万美元种子轮（Brewer Lane领投，Genworth/Nationwide/Edward Jones战略投资）"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "长期护理（长护）需求预测与规划直接服务老年，属核心银发（长护=银发基础设施）。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0925",
+      "name": "ŌURA",
+      "name_cn": "欧若拉",
+      "region": "海外",
+      "website_url": "https://ouraring.com",
+      "signal_strength": 1.55,
+      "info_score": 9.0,
+      "diff_score": 6.0,
+      "copy_score": 5.0,
+      "research_value": 53.7,
+      "recommend": "信号极强（累计售550万枚、付费会员近500万、冲刺IPO），数据护城河深（公开称积累150亿小时身体数据）。差异化在'无感连续监测'定位——手指血管测睡眠/压力比腕部更稳，并拿FDA医疗器械认证、训练老年健康监测模型；国内硬件厂可借鉴其'硬件+订阅'双收入打法，但医疗级算法与险企/军方B端渠道难以照搬。",
+      "desc_cn": "智能戒指硬件+健康订阅服务：戒指24小时无感采集心率、体温、血氧与睡眠/压力信号，配套App与AI助手做趋势解读，已获FDA医疗器械认证并与Dexcom合作慢病管理。收入来自硬件销售与每月会员费，另含军方、NASA与企业健康计划B端订单。核心银发价值在连续体征监测，对应独居老人跌倒与健康预警场景。",
+      "payor_model": "个人自费（硬件+会员）+ B端机构采购（军方/企业健康/险企）",
+      "business_tags_role": "产品商",
+      "founded": 2013,
+      "stage": "成长期",
+      "funding_latest": {
+        "date": "2024年12月",
+        "amount": "2亿美元",
+        "display": "2亿美元 (2024年12月)"
+      },
+      "funding_total": {
+        "amount": "$1.32B",
+        "display": "$1.32B (截至2025年)"
+      },
+      "investors": "Fidelity Management & Research Company, ICONIQ Capital, Temasek, Forerunner Ventures, The Chernin Group, Elysian Park, Dexcom, Square",
+      "highlights": [
+        "智能戒指24小时无感采集心率/体温/血氧/睡眠，累计售550万枚、付费会员近500万",
+        "硬件+会员双收入（戒指349美元、会员5.99美元/月，订阅占收入约20%），B端含美军、NASA、企业健康计划",
+        "获FDA医疗器械认证，收购Veri与Sparta Science、携手Dexcom做糖尿病管理，训练'老年健康监测模型'"
+      ],
+      "events": [
+        {"date": "2013", "text": "公司成立（芬兰）"},
+        {"date": "2024-12", "text": "完成2亿美元融资"},
+        {"date": "2025-10", "text": "完成9亿美元融资，估值110亿美元"},
+        {"date": "2026", "text": "获FDA医疗器械认证，推进IPO"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "智能戒指为通用健康追踪，仅间接受益老年，属泛医疗。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0968",
+      "name": "LambdaVision",
+      "name_cn": "LambdaVision",
+      "region": "海外",
+      "website_url": "https://www.lambdavision.com",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 7.0,
+      "copy_score": 2.0,
+      "research_value": 37.6,
+      "recommend": "信号偏弱（仍处临床前、靠NASA非稀释资金推进），信息披露透明（公开9次国际空间站制造实验与层叠蛋白膜原理）。差异化在'太空微重力制造'壁垒——用菌视紫红质蛋白仿生光感受器修复AMD患者视力，路径反常识；国内眼科学界可借鉴其微重力提升膜均一性的思路，但生物制造上轨成本与临床转化周期极难落地。",
+      "desc_cn": "临床前生物科技公司：研发基于菌视紫红质蛋白的200层人工视网膜，替代受损光感受器以恢复视网膜退行性疾病（含AMD与视网膜色素变性）患者视力；利用国际空间站微重力环境层叠制造以提升膜均一性，获NASA多项非稀释资助。尚未商业化，未来付费方为医保与个人。核心银发价值在恢复老年致盲性AMD患者视力。",
+      "payor_model": "政府资助（NASA/SBIR 非稀释资金）+ 未来医保/个人自付（未商业化）",
+      "business_tags_role": "产品商",
+      "founded": 2016,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2025.11",
+        "amount": "700万美元",
+        "round": "种子轮",
+        "display": "种子轮 700万美元 (2025.11)"
+      },
+      "funding_total": "约$23M（含NASA非稀释资助）",
+      "investors": [
+        "Seven Seven Six",
+        "Aurelia Foundry Fund",
+        "Seraphim Space"
+      ],
+      "highlights": [
+        "基于菌视紫红质蛋白的200层人工视网膜，替代受损光感受器恢复AMD/视网膜色素变性患者视力",
+        "利用国际空间站微重力层叠制造提升膜均一性，已完成9次ISS任务，获NASA InSPA Phase 2与SBIR资助",
+        "临床前阶段，2025年完成700万美元种子轮（Seven Seven Six、Aurelia Foundry领投），累计约2300万美元"
+      ],
+      "events": [
+        {"date": "2016", "text": "公司成立（UConn spinoff）"},
+        {"date": "2025-09", "text": "获NASA InSPA Phase 2奖，推进ISS微重力制造"},
+        {"date": "2025-11", "text": "完成700万美元种子轮"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "人工视网膜治AMD为眼科器械，非老年服务专属，属泛医疗。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0972",
+      "name": "NewDays",
+      "name_cn": "NewDays",
+      "region": "海外",
+      "website_url": "https://www.newdays.ai",
+      "signal_strength": 1.55,
+      "info_score": 6.0,
+      "diff_score": 8.0,
+      "copy_score": 6.0,
+      "research_value": 50.6,
+      "recommend": "信号中等（试点超1000人、满意度4.5分、刚完成首轮机构融资），信息披露较实（公开临床问诊由Medicare覆盖、AI伴侣99美元/月自费）。差异化在把哈佛对话干预研究做成'AI伴侣+真人临床监督'的可扩展模式，破解认知训练人力瓶颈；国内认知症照护机构可借鉴其非药物数字疗法打法，但Medicare支付通道与临床背书难以照搬。",
+      "desc_cn": "面向轻度认知障碍与早期痴呆老人的数字疗法：AI伴侣'Sunny'每日引导结构化对话训练，配合持证临床师的远程认知治疗。免费提供日常AI练习，进阶个性化训练包每月99美元（自费），临床问诊由Medicare及商保覆盖。核心银发价值在非药物认知干预，对应中国千万级认知症家庭缺专业训练、陪伴稀缺的痛点。",
+      "payor_model": "政府医保(Medicare/商保)覆盖临床问诊 + 个人自费（$99/月 AI 伴侣）",
+      "business_tags_role": "服务商",
+      "founded": 2022,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2025.09",
+        "amount": "700万美元",
+        "round": "种子轮",
+        "display": "种子轮 700万美元 (2025.09)"
+      },
+      "funding_total": "$11.5M",
+      "investors": [
+        "General Catalyst",
+        "Madrona"
+      ],
+      "highlights": [
+        "AI伴侣'Sunny'每日结构化对话+持证临床师远程认知治疗，方法授权自哈佛对话干预临床试验",
+        "临床问诊由Medicare及商保覆盖，AI进阶训练包99美元/月自费；试点超1000人、满意度4.5/5",
+        "创始人含前Google X/Google Glass负责人Babak Parviz；2025年完成700万美元种子轮（General Catalyst、Madrona领投）"
+      ],
+      "events": [
+        {"date": "2022", "text": "公司成立（Babak Parviz、Daniel Kelly创立）"},
+        {"date": "2025-09", "text": "完成700万美元种子轮（General Catalyst、Madrona领投）"},
+        {"date": "2025-09", "text": "产品公开上线，试点超1000人"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI伴侣认知康复直接服务认知症/MCI老人，属核心银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#1190",
+      "name": "Age Care Labs",
+      "name_cn": "Age Care Labs",
+      "region": "海外",
+      "website_url": "https://www.emoha.com",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 45.7,
+      "recommend": "信号强（服务6万+老人、覆盖120城，近期完成新一轮增长融资），信息透明度高（公开Emoha居家+Epoch机构双品牌与Shremoha高端独立生活新线）。差异化在'居家+机构+社区'全场景资产轻模式，用技术串联急救、监测与社交；国内居家养老平台可借鉴其双品牌分层打法，但印度家庭结构与国内支付习惯差异大，落地须重做获客与定价。",
+      "desc_cn": "印度综合养老平台，双品牌运营：Emoha做居家应急、健康监测与远程问诊，Epoch做辅助生活与痴呆长期照护；近期携手Shrem Group推Shremoha高端独立生活社区。收入来自家庭与机构照护费及B端合作。核心银发价值覆盖居家到机构全场景，对应中国社区养老供给缺口。",
+      "payor_model": "个人自费（家庭居家/机构照护）+ B端机构采购（养老机构合作）",
+      "business_tags_role": "平台",
+      "founded": 2017,
+      "stage": "成长期",
+      "funding_latest": {
+        "amount": "900万美元",
+        "round": "B1轮",
+        "date": "2026-07",
+        "display": "B1轮 900万美元 (2026-07)"
+      },
+      "funding_total": {
+        "amount": "累计约$29M",
+        "display": "累计约$29M"
+      },
+      "investors": "Shrem Group, Rainmatter, Pegasus Finvest, Lumis Partners, Gruhas, KOIS Invest",
+      "highlights": [
+        "双品牌：Emoha居家照护（24h应急/健康监测/远程问诊）+Epoch机构照护（辅助生活/痴呆/长期照护）",
+        "服务超6万老人、覆盖120城；携手Shrem Group推Shremoha高端独立生活社区",
+        "2026年完成85千万卢比（约900万美元）B1轮，获Rainmatter、Shrem Group等投资"
+      ],
+      "events": [
+        {"date": "2017", "text": "公司成立（Emoha/Epoch母公司）"},
+        {"date": "2021", "text": "收购Epoch Elder Care，进入机构照护"},
+        {"date": "2026-07", "text": "完成85千万卢比（约900万美元）B1轮，携手Shrem Group推Shremoha"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "印度居家与机构养老服务，属核心银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#1308",
+      "name": "BetterAge",
+      "name_cn": "BetterAge",
+      "region": "海外",
+      "website_url": "https://betterage.net",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 45.7,
+      "recommend": "信号中等（获NIH/NIA长期资助、合作40+社区组织），数据透明度高（公开12维度福祉评估框架与正向心理学方法）。差异化在'社区组织+老年人福祉测评'定位，把健康老龄化做成免费C端工具、向服务机构收SaaS费；国内老年大学与社区可借鉴其标准化福祉评估打法，但依赖政府资助与USAging渠道，纯商业化落地需另找付费方。",
+      "desc_cn": "面向老年群体的AI福祉平台：通过12维度健康与福祉测评，基于正向心理学生成个性化行动建议，鼓励老人连接社区与同伴；对C端免费，向老龄化服务机构（地区老龄化事务署、社区组织）收年度订阅费，并获政府科研资助。核心银发价值在把'健康老龄化'做成可量化、可规模化的福祉干预工具。",
+      "payor_model": "政府资助（NIH/NIA）+ B端机构采购（老年服务组织订阅）",
+      "business_tags_role": "服务商",
+      "founded": 2020,
+      "stage": "成长期",
+      "funding_latest": {
+        "amount": "550万美元",
+        "round": "政府资助(Grant)",
+        "date": "",
+        "display": "政府资助(Grant) 550万美元"
+      },
+      "funding_total": {
+        "amount": "累计约$6.3M",
+        "display": "累计约$6.3M"
+      },
+      "investors": "NIH, National Institute on Aging",
+      "highlights": [
+        "12维度老年人福祉测评+正向心理学个性化建议，对C端免费、向服务机构收订阅",
+        "获NIH/NIA累计550万美元SBIR资助，合作40+社区组织并与USAging全国结盟",
+        "创始人含前NIA创新官Jim Firman，聚焦'健康老龄化'标准化与社区组织赋能"
+      ],
+      "events": [
+        {"date": "2020", "text": "公司成立（Diana Yin、Jim Firman创立）"},
+        {"date": "2024-04", "text": "获NIH/NIA 250万美元SBIR资助"},
+        {"date": "2025-09", "text": "再获NIA 300万美元SBIR，累计NIH资助达550万美元"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向老年人的个性化健康福祉平台，属核心银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#1314",
+      "name": "Watcherr",
+      "name_cn": "Watcherr",
+      "region": "海外",
+      "website_url": "https://watcherr.com",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 45.7,
+      "recommend": "信号中等（已完成多轮机构融资、已落地比/英/加三国），信息披露较实（公开跌倒检测、室内外定位与进食睡眠节律算法）。差异化在'蓝牙信标+智能手表'轻部署打法，把护理员呼叫升级为预测式主动警报；国内养老院与社区可借鉴其即插即用方案并落地，但欧洲小国市场天花板低，须绑定本土照护机构与医保支付。",
+      "desc_cn": "面向养老院、医院与居家老人的SaaS+AI安全监测：用户佩戴智能手表，配合即插即用蓝牙信标，实时捕捉跌倒、室内外定位、心率与进食睡眠节律异常并主动警报，把传统护理呼叫升级为预测式预警。收入来自机构与家庭订阅。核心银发价值在降低跌倒与走失风险，对应中国养老机构人手不足下的实时安全管护需求。",
+      "payor_model": "B端机构采购（机构订阅）+ 个人自费（家庭用户）",
+      "business_tags_role": "服务商",
+      "founded": 2016,
+      "stage": "成长期",
+      "funding_latest": {
+        "amount": "约890万美元",
+        "round": "未披露",
+        "date": "",
+        "display": "未披露 约890万美元"
+      },
+      "funding_total": {
+        "amount": "累计约$10.1M",
+        "display": "累计约$10.1M"
+      },
+      "investors": ["Angelwise", "BAN Flanders", "Family Stevens", "ING Group"],
+      "highlights": [
+        "即插即用蓝牙信标+智能手表，实时监测跌倒、室内外定位、心率与进食/睡眠节律并主动警报",
+        "客户为养老院、医院与家庭，已落地比利时、英国、加拿大",
+        "累计融资约1010万美元（含2023年200万欧元A轮）"
+      ],
+      "events": [
+        {"date": "2016", "text": "公司成立（比利时）"},
+        {"date": "2023-07", "text": "完成200万欧元A轮（Angelwise等）"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老/机构老人安全远程监测，属核心银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#1315",
+      "name": "Cuidum",
+      "name_cn": "Cuidum",
+      "region": "海外",
+      "website_url": "https://www.cuidum.com",
+      "signal_strength": 1.55,
+      "info_score": 4.0,
+      "diff_score": 5.0,
+      "copy_score": 7.0,
+      "research_value": 40.7,
+      "recommend": "信号偏弱（仍处早期、累计融资有限），信息披露较实（公开严选23%通过率的照护员筛选与8.4万家庭服务量）。差异化在'技术匹配+全流程托管'定位——平台代管薪资与合规，并联合Pensium用房产反向融资缓解付费压力；国内家政与居家照护平台可借鉴其严选与在线管理打法，但西班牙家庭雇看护文化与国内护工体系差异大，落地须重建护工供给端。",
+      "desc_cn": "西班牙居家照护对接平台：以严苛筛选（仅23%照护员通过）为家庭匹配老人居家照护者，平台代管薪资、合规与个性化照护计划，并联合Pensium用房产反向融资缓解付费压力。收入来自家庭支付的服务费与平台管理费。核心银发价值在让老人留在家中被专业照护，对应中国'居家养老+护工匹配'的供给短板。",
+      "payor_model": "个人自费（家庭支付照护费）",
+      "business_tags_role": "平台",
+      "founded": 2015,
+      "stage": "成长期",
+      "funding_latest": {
+        "amount": "约190万欧元",
+        "round": "二次市场",
+        "date": "",
+        "display": "二次市场 约190万欧元"
+      },
+      "funding_total": {
+        "amount": "累计约190万欧元",
+        "display": "累计约190万欧元"
+      },
+      "investors": ["Bewater Funds", "Cabiedes & Partners", "Toubkal Partners", "Startupxplore", "Demium"],
+      "highlights": [
+        "西班牙居家照护对接平台，严苛筛选仅23%照护员通过，平台代管薪资与合规",
+        "累计注册照护员超24万、服务8.4万+家庭；联合Pensium以房产反向融资缓解付费压力",
+        "2015年成立，为西班牙居家照护市场领先者"
+      ],
+      "events": [
+        {"date": "2015", "text": "公司成立（西班牙瓦伦西亚）"},
+        {"date": "2016", "text": "累计融资约190万欧元"},
+        {"date": "2022", "text": "注册照护员超24万、服务8.4万+家庭"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "西班牙居家照护平台服务老年，属核心银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#1338",
+      "name": "MapHabit",
+      "name_cn": "MapHabit",
+      "region": "海外",
+      "website_url": "https://www.maphabit.com",
+      "signal_strength": 1.55,
+      "info_score": 4.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 40.7,
+      "recommend": "信号中等（获NIH多轮非稀释资助、近期推出AI建图功能），数据透明度高（公开75%独立性提升、35%照护负担下降结果）。差异化在'视觉步骤映射'壁垒——把认知训练做成可编辑地图库，经州政府豁免计划触达患者；国内认知症照护可借鉴其标准化视觉支持打法，但依赖Medicaid豁免与NIH经费，国内宜先做B端机构SaaS。",
+      "desc_cn": "面向认知症、智力障碍等群体的视觉步骤映射平台：把洗漱、用药等日常任务拆成可编辑图文/音频地图，配合平板、活动包与教练帮患者建立独立生活routine；经美国州政府豁免计划向符合条件者免费提供，机构客户付费订阅。核心银发价值在认知训练可视化、降低照护负担，对应中国认知症家庭缺结构化日常训练工具。",
+      "payor_model": "B端机构采购（医疗/养老机构）+ 政府医保(Medicaid 豁免计划)",
+      "business_tags_role": "服务商",
+      "founded": 2016,
+      "stage": "成长期",
+      "funding_latest": {
+        "date": "未披露",
+        "amount": "未披露大额",
+        "round": "成长",
+        "display": "营收约$5.1M(未披露大额融资)"
+      },
+      "funding_total": {
+        "amount": "NIH累计超$11M（非稀释）",
+        "display": "NIH累计超$11M（非稀释）"
+      },
+      "investors": ["NIH/NIA"],
+      "highlights": [
+        "视觉步骤映射：把日常任务拆成可编辑图文/音频地图，帮认知症/IDD等群体建立独立生活routine",
+        "获NIH超1100万美元非稀释资助，公开75%独立性提升、35%照护负担下降结果",
+        "经美国州政府Medicaid豁免计划向符合条件者免费提供；2026年推出AI建图（Map Builder）"
+      ],
+      "events": [
+        {"date": "2016", "text": "公司成立（亚特兰大）"},
+        {"date": "2018", "text": "获NIH-NIA痴呆照护协调挑战赛第一名"},
+        {"date": "2025", "text": "发布重设计App；累计获NIH超1100万美元"},
+        {"date": "2026-05", "text": "推出AI建图（Map Builder）"}
+      ],
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知训练服务痴呆/认知症老人，属核心银发。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0015",
+      "name": "安杰莱",
+      "name_cn": "安杰莱",
+      "region": "国内",
+      "website_url": "https://rehab.angelexo.com",
+      "signal_strength": 1.05,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 4.0,
+      "research_value": 41.2,
+      "recommend": "信号中等（LiteStepper入选省级首台套目录、产品已进医院临床），信息披露较实（公开脑机接口单下肢机器人路线与NMPA二类创新注册）。差异化在'健侧带动患侧'双侧联合步态训练打法，避开双足预设程序、主攻神经重塑；国内康复器械厂可借鉴其单下肢外骨骼定位，但临床验证周期长、医院采购与医保覆盖仍是落地主要瓶颈。",
+      "desc_cn": "康复机器人厂商：以AI、脑机接口与机器人为核心，主打LiteStepper单下肢偏瘫康复机器人——采集健侧步态带动患侧做双侧联合训练促神经重塑，另有踝、上肢、手功能及床旁康复机器人，多款获NMPA注册。收入来自医院机构采购与患者自费。核心银发价值在脑卒中及老年后康复，对应中国老龄化下康复科产能不足。",
+      "payor_model": "B端机构采购（医院/机构）+ 个人自费（患者）",
+      "business_tags_role": "产品商",
+      "founded": 2017,
+      "stage": "成长期",
+      "funding_latest": {
+        "date": "2024",
+        "amount": "数千万融资",
+        "round": "多轮",
+        "display": "多轮 数千万融资 (2024)"
+      },
+      "funding_total": {
+        "amount": "数千万",
+        "display": "累计数千万"
+      },
+      "investors": ["October Capital", "Shanghai Xuyuan Investment", "未搜到"],
+      "highlights": [
+        "LiteStepper单下肢偏瘫康复机器人：采集健侧步态带动患侧做双侧联合训练促神经重塑，全球首款单下肢外骨骼",
+        "多款获NMPA注册（ExoMax踝、ExoPedia儿童踝为二类创新器械），2025年LiteStepper入选河南省首台套目录",
+        "2022年完成数千万元Pre-A轮，研发脑机接口单下肢智能康复机器人，构建'医院-社区-家庭'康复体系"
+      ],
+      "events": [
+        {"date": "2017-12", "text": "公司成立（杭州）"},
+        {"date": "2022", "text": "LiteStepper单下肢康复机器人获NMPA批准上市；完成数千万元Pre-A轮"},
+        {"date": "2025", "text": "LiteStepper入选河南省首台套目录；研发脑机接口单下肢康复机器人"}
+      ],
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "康复外骨骼用于卒中/脊髓损伤，非老年专属，属泛医疗。",
+      "update_time": "2026-07-17",
+      "数据来源": "联网精评"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0873",
+      "name": "Sugar.fit",
+      "intro": "印度订阅制糖尿病逆转平台，用CGM+AI+真人营养师干预改善血糖，配套线下诊所。",
+      "old_tags": {
+        "tag_l1": ["食品营养"],
+        "tag_l2": ["糖尿病"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=数字健康（慢病管理）", "reason": "公司以CGM+AI订阅做糖尿病逆转，并非食品/营养品类，建议l1改为数字健康/慢病管理"}
+      ]
+    },
+    {
+      "serial": "#0875",
+      "name": "Switchboard Health",
+      "intro": "面向健康险与价值医疗组织的专科护理导航SaaS，用数据匹配引擎优化转诊。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["护理协调"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=医疗服务", "reason": "专科护理导航服务全龄，非养老专属，建议l1改医疗服务"}
+      ]
+    },
+    {
+      "serial": "#0911",
+      "name": "Waterlily",
+      "intro": "AI长期护理财务规划SaaS，预测个体长护需求与费用并匹配保险/年金方案。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["护理协调"],
+        "business_tags": {"customer": "B2B", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=保险科技/长护规划", "reason": "偏保险科技与长护财务规划，非广义养老服务，建议l1调整"}
+      ]
+    },
+    {
+      "serial": "#0925",
+      "name": "ŌURA",
+      "intro": "智能戒指硬件+健康订阅，连续监测睡眠/压力/血氧并可医疗级分析。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["可穿戴监测"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "数字健康", "reason": "智能戒指属通用健康追踪硬件，建议补数字健康标签"}
+      ]
+    },
+    {
+      "serial": "#0968",
+      "name": "LambdaVision",
+      "intro": "临床前生物科技公司，研发蛋白基人工视网膜恢复AMD等致盲性眼病视力。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["视觉辅助"],
+        "business_tags": {"customer": "B2B", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=眼科医疗器械", "reason": "属治疗性植入器械而非康复辅具，建议l1改眼科医疗器械"},
+        {"action": "change", "tag": "tag_l2=视网膜假体", "reason": "核心交付物为人工视网膜植入物，建议l2改视网膜假体"}
+      ]
+    },
+    {
+      "serial": "#0972",
+      "name": "NewDays",
+      "intro": "AI伴侣+真人临床监督的数字认知疗法，服务轻度认知障碍与早期痴呆老人。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["认知训练"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=认知健康/数字疗法", "reason": "属认知数字疗法而非广义养老服务，建议l1调整"}
+      ]
+    },
+    {
+      "serial": "#1190",
+      "name": "Age Care Labs",
+      "intro": "印度综合养老平台，Emoha居家照护+Epoch机构照护双品牌覆盖全场景。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["居家护理"],
+        "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "机构养老", "reason": "Epoch覆盖辅助生活/痴呆/长期照护机构，建议l2补机构养老"}
+      ]
+    },
+    {
+      "serial": "#1308",
+      "name": "BetterAge",
+      "intro": "面向老年人的AI福祉平台，12维度测评生成个性化健康老龄化建议。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["慢病管理"],
+        "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l2=健康老龄化（老年福祉）", "reason": "核心是福祉测评而非慢病管理，建议l2改健康老龄化/老年福祉"}
+      ]
+    },
+    {
+      "serial": "#1314",
+      "name": "Watcherr",
+      "intro": "面向养老/医院的SaaS+AI安全监测，用信标与手表预测跌倒与走失。",
+      "old_tags": {
+        "tag_l1": ["康复辅具", "养老服务", "消费品"],
+        "tag_l2": ["跌倒监测", "远程医疗", "智能硬件"],
+        "business_tags": {"customer": "未标注", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "del", "tag": "康复辅具", "reason": "Watcherr为安全监测方案而非康复辅具，建议删l1康复辅具"},
+        {"action": "change", "tag": "role=服务商", "reason": "提供SaaS+监测服务而非纯硬件产品，建议role改服务商"}
+      ]
+    },
+    {
+      "serial": "#1315",
+      "name": "Cuidum",
+      "intro": "西班牙居家照护对接平台，严选照护员并代管薪资合规。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["护工平台", "居家护理"],
+        "business_tags": {"customer": "未标注", "role": "平台", "channel": []}
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#1338",
+      "name": "MapHabit",
+      "intro": "视觉步骤映射平台，把日常任务拆成可编辑地图帮认知症/IDD群体独立生活。",
+      "old_tags": {
+        "tag_l1": ["养老服务"],
+        "tag_l2": ["认知训练"],
+        "business_tags": {"customer": "B2B", "role": "服务商", "channel": []}
+      },
+      "suggested": [
+        {"action": "change", "tag": "tag_l1=认知健康", "reason": "服务认知症/IDD群体的认知支持，建议l1改认知健康"}
+      ]
+    },
+    {
+      "serial": "#0015",
+      "name": "安杰莱",
+      "intro": "康复机器人厂商，主打单下肢偏瘫康复外骨骼，融合AI与脑机接口。",
+      "old_tags": {
+        "tag_l1": ["康复辅具"],
+        "tag_l2": ["外骨骼"],
+        "business_tags": {"customer": "B2B+B2C", "role": "产品商", "channel": []}
+      },
+      "suggested": [
+        {"action": "add", "tag": "神经康复", "reason": "产品主攻卒中/偏瘫神经重塑康复，建议l2补神经康复"}
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0873",
+      "name": "Sugar.fit",
+      "verdict": "泛医疗擦边",
+      "reason": "糖尿病管理App服务全龄人群，非老年专属，银发仅潜在延伸。"
+    },
+    {
+      "serial": "#0875",
+      "name": "Switchboard Health",
+      "verdict": "泛医疗擦边",
+      "reason": "专科护理导航为通用医疗服务，非老年专属，银发仅潜在延伸。"
+    },
+    {
+      "serial": "#0925",
+      "name": "ŌURA",
+      "verdict": "泛医疗擦边",
+      "reason": "智能戒指为通用健康追踪硬件，仅间接受益老年，银发仅潜在延伸。"
+    },
+    {
+      "serial": "#0968",
+      "name": "LambdaVision",
+      "verdict": "泛医疗擦边",
+      "reason": "人工视网膜治AMD为眼科治疗器械，非老年服务专属，银发仅潜在延伸。"
+    },
+    {
+      "serial": "#0015",
+      "name": "安杰莱",
+      "verdict": "泛医疗擦边",
+      "reason": "康复外骨骼用于卒中/脊髓损伤等广泛人群，非老年专属，银发仅潜在延伸。"
+    }
+  ]
+}

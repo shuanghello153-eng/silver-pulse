@@ -1,0 +1,560 @@
+{
+ "batch": 4,
+ "enterprises": [
+  {
+   "serial": "#0950",
+   "signal_strength": 6.55,
+   "info_score": 7.0,
+   "diff_score": 5.0,
+   "copy_score": 5.0,
+   "research_value": 60.6,
+   "recommend": "信号稳，38州财报高度透明（2025营收+20%、调整后EBITDA+75%），信息量足；差异化在居家健康+安宁疗护+私人护理三线整合与优选支付方策略，壁垒是规模化护理员调度中台。国内居家护理最该照搬的是'护理员小时计费+绑定商保'的轻资产运营系统，而非重资产铺点，且须警惕美国医保支付波动对利润的牵制。",
+   "desc_cn": "面向失能、慢病与临终老人的整合照护平台，在38州提供居家护理、安宁疗护与私人陪护三类到家服务。收入来自Medicare/Medicaid报销及个人自费，并以'优选支付方'策略将约57%业务绑定管理式医疗。银发价值是把居家医疗、临终关怀与私人护理多线整合，对应国内居家护理与长护险上门服务的供给缺口。",
+   "payor_model": "政府医保(Medicare/Medicaid)+个人自费",
+   "business_tags_role": "服务商",
+   "founded": 2017,
+   "stage": "已上市",
+   "highlights": [
+    "38州居家健康/安宁/私人护理/医疗解决方案多线运营",
+    "2025营收24.33亿美元(+20.2%)，调整后EBITDA 3.21亿(+74.8%)",
+    "优选支付方策略覆盖约57%管理式医疗量，并收购Thrive儿科居家护理",
+    "对2026年医保居家护理拟削减6.4%保持纪律性并购"
+   ],
+   "events": [
+    {
+     "date": "2025全年",
+     "text": "完成三年战略转型，营收24.33亿美元(+20.2%)，调整后EBITDA 3.21亿(+74.8%)"
+    },
+    {
+     "date": "2025",
+     "text": "收购Thrive Skilled Pediatric Care，并宣布1.755亿美元收购Family First Homecare(预计2026 Q2完成)"
+    },
+    {
+     "date": "2025-11",
+     "text": "对2026年医保居家护理拟削减6.4%表达关切，对安宁并购保持纪律性(回避两位数倍数)"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "居家健康、安宁疗护、私人护理直接服务老龄与失能人群，且含儿科属多元。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0951",
+   "signal_strength": 6.55,
+   "info_score": 8.0,
+   "diff_score": 6.0,
+   "copy_score": 4.0,
+   "research_value": 63.7,
+   "recommend": "信号中，PACE模式年报完整（20中心/参与者约8000），信息透明度高；差异化在政府按人头打包付费、把失能老人全包照护风险绑在自己身上，模式壁垒极高。国内长护险最该学的不是照搬PACE，而是把医保、民政与商保做成'封顶预算+一家统筹'的整合照护，难点在支付方能否让渡风险。",
+   "desc_cn": "专为失能双重资格老人设计的全包式日间照护中心网络，在6个州运营20个PACE中心，为约8000名参保者提供医疗、康复、营养与接送的一站式到店+上门服务。收入来自政府按人头打包付费、公司承担全部医疗风险。银发核心价值是把医保、民政与商保整合为封顶预算、由单一主体统筹居家到机构的连续照护。",
+   "payor_model": "政府医保(Medicare+Medicaid按人头打包支付)",
+   "business_tags_role": "服务商",
+   "founded": 2007,
+   "stage": "已上市",
+   "highlights": [
+    "PACE全包照护龙头，服务以失能双重资格老人为主",
+    "2025营收8.537亿美元(+11.8%)，参与者约8010人、20个中心6州",
+    "按人头打包支付(Medicare+Medicaid)，公司承担全部风险",
+    "FY2026指引参与者7900-8100、营收9-9.5亿美元"
+   ],
+   "events": [
+    {
+     "date": "2025-09",
+     "text": "发布FY2025年报：营收8.537亿美元(+11.8%)，参与者约7740人、20个中心"
+    },
+    {
+     "date": "2026指引",
+     "text": "预计参与者7900-8100、营收9-9.5亿美元、调整后EBITDA 5600-6500万美元"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "PACE全包式整合照护专为失能双重资格老人设计，是银发支付创新范本。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0952",
+   "signal_strength": 6.55,
+   "info_score": 8.0,
+   "diff_score": 5.0,
+   "copy_score": 5.0,
+   "research_value": 63.7,
+   "recommend": "信号稳，并购与州费率上调信息透明，资料披露充分；差异化在以个人护理为核、用单州密度并购换政府/商保议价权的轻资产打法，壁垒是区域密度。国内居家护理最该抄的是'先做密度、用规模换支付方定价权'的区域垄断路径，但须正视国内低客单与医保结算慢对回报周期的压制。",
+   "desc_cn": "以个人护理（洗澡、进食、出行协助）为核心的到家照护连锁，在23个州布局260个网点、为德州最大供应商。收入主要来自Medicaid与州政府报销及管理式医疗，并正向商业保险转移。银发价值在于用密度并购换取对政府与客户定价权的轻资产扩张，对应国内居家护理低客单、难连锁化的痛点。",
+   "payor_model": "政府医保(Medicaid/州政府)+商业保险(管理式医疗)+个人自费",
+   "business_tags_role": "服务商",
+   "founded": 1979,
+   "stage": "已上市",
+   "highlights": [
+    "以个人护理为核心，260个网点覆盖23州，德州最大供应商",
+    "2024年3.506亿美元收购Gentiva个人护理资产",
+    "德州基础时薪+9.9%预计年增收1770万美元，目标年增10%",
+    "支付以Medicaid/州政府+管理式医疗为主，正向商保转移"
+   ],
+   "events": [
+    {
+     "date": "2024-12-02",
+     "text": "以3.506亿美元收购Gentiva个人护理资产，进入德州并成为最大供应商"
+    },
+    {
+     "date": "2025",
+     "text": "德州基础时薪+9.9%预计年增收1770万美元；目标每年增长10%(半数为并购)"
+    },
+    {
+     "date": "2025-08",
+     "text": "收购Helping Hands Home Care继续扩张"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "个人护理/居家照护是银发最基础的到家服务，直接服务老人与长护人群。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#0953",
+   "signal_strength": 6.55,
+   "info_score": 7.0,
+   "diff_score": 5.0,
+   "copy_score": 5.0,
+   "research_value": 60.6,
+   "recommend": "信号稳，分拆式并购与财报高度透明（从同行剥离资产收购54处、去中心化运营），信息披露充分；差异化在放权地方院长+集群式整合的轻总部操作系统，壁垒是并购后的质量管控。国内最该借鉴的是'小股权控股+强中台赋能'既扩张又保照护质量的收购打法，而非全资重资产持有。",
+   "desc_cn": "去中心化到家照护控股平台，以少数股权控股141家居家健康/安宁机构与61养老社区，各单元独立运营、总部做中台赋能。收入来自Medicare/Medicaid报销与个人自费。银发价值在'小股权独立运营+强中台'的收购操作系统，用放权地方院长换取扩张同时保质量，对应国内居家护理连锁化率低、管控弱的短板。",
+   "payor_model": "政府医保(Medicare/Medicaid)+个人自费",
+   "business_tags_role": "运营商",
+   "founded": 2019,
+   "stage": "已上市",
+   "highlights": [
+    "去中心化控股：141家居家健康/安宁机构+61个养老社区独立运营",
+    "2025年1.465亿美元收购UnitedHealth/Amedisys剥离的54处资产(最大交易)",
+    "Medicare居家护理FFS收入占比<20%，多元抗支付波动",
+    "放权地方院长+集群式整合的轻总部收购操作系统"
+   ],
+   "events": [
+    {
+     "date": "2025-10-01",
+     "text": "以1.465亿美元收购UnitedHealth/Amedisys剥离的54处居家健康/安宁资产(田纳西/乔治亚/阿拉巴马)"
+    },
+    {
+     "date": "2025",
+     "text": "Q3营收2.29亿美元(+26.8%)，Medicare居家护理FFS收入占比<20%"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "居家健康/安宁/养老社区覆盖老龄全场景，去中心化运营提升照护质量。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1135",
+   "signal_strength": 6.55,
+   "info_score": 7.0,
+   "diff_score": 6.0,
+   "copy_score": 4.0,
+   "research_value": 60.6,
+   "recommend": "信号新，招股书与运营数据（34社区/入住情况）公开透明，信息披露完整；差异化在把养老地产从综合REIT分拆为纯Play标的、用住户费而非医保现金流，亮点是资产分拆定价。国内最该学的是'分拆被低估板块单独上市+外部管理人'的资本路径，但A股尚无养老REIT、制度土壤不同，难直接照搬。",
+   "desc_cn": "从综合医疗REIT分拆出的纯养老社区运营平台，以RIDEA结构自持并运营34个养老社区、约1.04万单元分布于10州，收入来自住户租金与服务费而非政府报销。银发价值在把养老地产从混合资产中独立定价，为国内尚无公募养老REIT的市场提供'资产分拆+外部管理人+单元化持有'的轻资产样本。",
+   "payor_model": "个人自费(住户社区租金)为主",
+   "business_tags_role": "投资机构",
+   "founded": "未搜到",
+   "stage": "已上市",
+   "highlights": [
+    "由Healthpeak分拆的纯Play养老社区REIT，34社区/10422单元/10州",
+    "2026-03纽交所上市(JAN)，发行4830万股@$20募资约8.78亿美元",
+    "RIDEA结构：收入主要来自住户费而非政府报销",
+    "Healthpeak任外部管理人并持有约81.6%股权"
+   ],
+   "events": [
+    {
+     "date": "2026-01-07",
+     "text": "Healthpeak宣布分拆组建纯Play养老REIT Janus Living"
+    },
+    {
+     "date": "2026-03-20",
+     "text": "纽交所上市(JAN)，发行4830万股@$20，募资约8.78亿美元"
+    },
+    {
+     "date": "2026 Q1",
+     "text": "完成7.14亿美元养老社区收购并注入Janus"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "纯Play养老社区REIT，资产直接服务活跃/照护型长者居住需求。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1136",
+   "signal_strength": 6.55,
+   "info_score": 8.0,
+   "diff_score": 5.0,
+   "copy_score": 4.0,
+   "research_value": 61.6,
+   "recommend": "信号强，分拆与资本循环动作密集（剥离养老组合、与黑石组门诊JV、回购），信息量足；差异化在把养老地产作独立上市平台、母体转向门诊与实验室的资产腾挪术，壁垒是资本配置纪律。国内险资/地产基金最该借鉴其'给被低估板块单独定价'的资产配置思路，但底层资产与REITs规则差异大，难整体平移。",
+   "desc_cn": "大型综合医疗地产REIT，将34个养老社区注入分拆出的纯Play平台后，把资产重心转向门诊医疗与生命科学实验室。收入来自triple-net净租赁下运营商支付的租金。银发价值在'养老地产单独分拆、母体聚焦高增长医疗资产'的资本腾挪术，为国内险资做医疗地产配置提供资产轮动的参照。",
+   "payor_model": "B端机构付费(triple-net净租赁，运营商付租金；终端政府医保+个人自付)",
+   "business_tags_role": "投资机构",
+   "founded": "未搜到",
+   "stage": "已上市",
+   "highlights": [
+    "S&P500医疗地产REIT，2026-01将34个养老社区注入Janus Living",
+    "分拆后聚焦门诊医疗与生命科学实验室资产",
+    "2026 Q1完成7.14亿美元养老收购，并与黑石组门诊医疗JV(作价2.12亿)",
+    "回购590万股(约1亿美元)，资本循环积极"
+   ],
+   "events": [
+    {
+     "date": "2026-01-07",
+     "text": "宣布将34个养老社区(1.04万单元)注入Janus Living并任外部管理人"
+    },
+    {
+     "date": "2026 Q1",
+     "text": "完成7.14亿美元养老收购；与黑石组建门诊医疗JV(作价2.12亿美元)"
+    },
+    {
+     "date": "2026-03",
+     "text": "回购590万股(约1亿美元)"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "分拆出的养老社区组合是核心银发地产，母公司仍持多数股权与管理。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1144",
+   "signal_strength": 6.55,
+   "info_score": 7.0,
+   "diff_score": 5.0,
+   "copy_score": 4.0,
+   "research_value": 58.6,
+   "recommend": "信号稳，运营与并购数据透明（同店入住率87.7%创新高），信息量足；差异化在全资自持+运营一体化+区域做密度的业主运营商路径，壁垒是品牌与规模。国内民营养老社区最该学的是'resident-first'服务品牌与收购式做大规模，但重资产回报周期长，需配套金融化退出才可持续。",
+   "desc_cn": "独立生活、辅助生活与记忆照护社区的业主兼运营商，全资自持并自主运营上百个社区，收入约87%来自住户服务费、以个人自费为主。通过收购式扩规模、在区域做密度。银发价值在'resident-first'品牌+重资产自持一体化的纯养老社区打法，对应国内民营养老社区重资产回报周期长的探索。",
+   "payor_model": "个人自费(住户服务费)为主",
+   "business_tags_role": "运营商",
+   "founded": "未搜到",
+   "stage": "已上市",
+   "highlights": [
+    "独立/辅助生活与记忆照护业主-运营商，纽交所SNDA",
+    "2025 Q3同店入住率87.7%(疫后新高)，组合NOI+21%",
+    "住户费收入占比约87%，支付以个人自费为主",
+    "2026-03完成收购CNL(69社区)，组合达153处、全美第8大"
+   ],
+   "events": [
+    {
+     "date": "2025 Q3",
+     "text": "同店入住率87.7%(疫后新高)，组合NOI+21%"
+    },
+    {
+     "date": "2026-03-11",
+     "text": "完成收购CNL Healthcare Properties(69社区)，组合达153处、全美第8大"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "独立/辅助生活与记忆照护社区业主-运营商，直接服务银发居住。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1147",
+   "signal_strength": 6.55,
+   "info_score": 6.0,
+   "diff_score": 7.0,
+   "copy_score": 3.0,
+   "research_value": 57.7,
+   "recommend": "信号弱，仅更名与管线概念披露、无临床与营收，信息透明度低；差异化在基因改造细胞+封装技术做免免疫抑制的长寿蛋白疗法，亮点在合作撬动成熟平台。国内生物科技最该学的是'用合资轻资产借力成熟技术'的研发定位，而非烧钱自建实验室，但项目全在临床前、高风险，不宜当作确定赛道。",
+   "desc_cn": "聚焦健康寿命延长的细胞疗法生物科技公司，通过合资引入基因改造细胞与封装技术，开发免免疫抑制的糖尿病胰岛细胞疗法与α-Klotho'长寿蛋白'抗衰疗法，均处临床前。变现路径尚未开启，目标客户为未来商保与自费患者。银发价值直击年龄相关衰退，是银发科技最前沿，但离商业化尚远。",
+   "payor_model": "商业保险+个人自费(研发阶段，尚未商业化)",
+   "business_tags_role": "产品商",
+   "founded": "未搜到",
+   "stage": "已上市",
+   "highlights": [
+    "前身Avant Technologies，2026-02更名聚焦长寿细胞疗法",
+    "两大合资：Insulinova(糖尿病细胞疗法)+Klothonova(α-Klotho长寿蛋白)",
+    "借Austrianova的Cell-in-a-Box封装做免免疫抑制递送",
+    "均处临床前，OTCQB挂牌、无营收，高投机性"
+   ],
+   "events": [
+    {
+     "date": "2026-02-11",
+     "text": "由Avant Technologies更名Avaí Bio，聚焦长寿细胞疗法"
+    },
+    {
+     "date": "2025-10/11",
+     "text": "与Austrianova设合资Insulinova、Klothonova(糖尿病/长寿蛋白细胞疗法，均临床前)"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "长寿细胞疗法直击健康寿命延长与年龄相关衰退，属银发科技前沿。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1153",
+   "signal_strength": 6.55,
+   "info_score": 9.0,
+   "diff_score": 3.0,
+   "copy_score": 7.0,
+   "research_value": 66.6,
+   "recommend": "信号中，官网IR与2025财报信息极丰富，资料披露充分；差异化不强——模式稳健但偏传统REIT，壁垒在资产规模与出租率。国内险资/地产基金可直接对标其资产组合与SHOP同店NOI逻辑，与同业并读能看清'银发地产'的资本纪律与周期，但纯养老REIT在A股尚无对应标的。",
+   "desc_cn": "全美规模领先的老龄与医疗地产REIT，持有逾1400处物业，组合覆盖养老社区、门诊医疗与生命科学实验室，以triple-net净租赁收取运营商租金。银发价值在'SHOP（自有运营）养老社区'的精细化运营与出租率逻辑，为国内险资/地产基金理解银发不动产的资本纪律与周期提供对标基准。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府医保Medicare/Medicaid+个人自付）",
+   "business_tags_role": "投资机构",
+   "founded": 1983,
+   "stage": "已上市",
+   "highlights": [
+    "美国第二大养老/医疗REIT，纽交所VTR，1400+处物业",
+    "2025通过远期股权协议结算约1640万股、募资约11亿美元加仓养老社区",
+    "SHOP同店现金NOI同比+13%(2025 Q2)",
+    "资产覆盖养老社区/门诊医疗/生命科学实验室，多元化分散风险"
+   ],
+   "events": [
+    {
+     "date": "2025 Q2",
+     "text": "SHOP同店现金NOI同比+13%"
+    },
+    {
+     "date": "2025",
+     "text": "通过远期股权协议结算约1640万股、募资约11亿美元加仓养老社区"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "养老/医疗地产REIT，底层资产以养老社区为核心银发不动产。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1155",
+   "signal_strength": 6.55,
+   "info_score": 8.0,
+   "diff_score": 4.0,
+   "copy_score": 5.0,
+   "research_value": 61.6,
+   "recommend": "信号中，2025年报披露完整，信息量足；差异化弱、模式是标准triple-net，真正壁垒在租户风险管控。2025租户Genesis破产凸显集中度风险。国内护理院重资产最该复制的不是REIT架构，而是'多元租户+强信用筛查'的租户风险管理，否则医保结算波动会直接击穿回报。",
+   "desc_cn": "专注护理院（SNF）与长期急症医院的三重净租赁医疗REIT，持有逾1100处物业、9万余张床位，向运营商收取固定租金、终端支付来自政府医保与长者护理报销。银发价值在深度绑定护理院这一最刚需的银发不动产，但租户偿付能力是命门，为国内护理院重资产投资敲响集中度风险警钟。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端护理报销来自政府Medicare/Medicaid为主+个人自付）",
+   "business_tags_role": "投资机构",
+   "founded": 1992,
+   "stage": "已上市",
+   "highlights": [
+    "专注Skilled Nursing护理院与长期急症医院的医疗REIT，纽交所OHI",
+    "2025投资资产115亿美元、1111处物业、9.3万+张床位",
+    "2025租户Genesis破产凸显租户集中度风险",
+    "2025 Q4发行Omega OP Units约2.22亿美元，新设20亿美元ATM计划"
+   ],
+   "events": [
+    {
+     "date": "2025",
+     "text": "投资资产115亿美元、1111处物业；租户Genesis破产凸显集中度风险"
+    },
+    {
+     "date": "2025 Q4",
+     "text": "发行Omega OP Units约2.22亿美元，新设20亿美元ATM计划"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专注护理院(SNF)地产，终端支付来自政府医保与长者护理报销。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1156",
+   "signal_strength": 6.55,
+   "info_score": 8.0,
+   "diff_score": 4.0,
+   "copy_score": 6.0,
+   "research_value": 63.7,
+   "recommend": "信号中，年报与出海收购报道信息丰富，资料披露充分；差异化在自管理+低杠杆+多元租户的成长路径，亮点是连续十年提股息的资本纪律。国内'运营+地产'分拆REIT最该落地的是其架构与出租率管理，但A股尚无纯养老REIT、出海更难复制，真正可抄的是轻杠杆下的资产周转率控制。",
+   "desc_cn": "自管理的纯养老社区净租赁REIT，从单租户分拆起步、靠多元租户与出海并购做大规模，2025年收购英国Care REIT开启国际化，以triple-net收取运营商租金、保持低杠杆与高出租率。银发价值在'轻杠杆+自管理+高出租率'的资本纪律，为国内'运营+地产'分拆式养老REIT提供可落地架构。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府Medicare/Medicaid+个人自付）",
+   "business_tags_role": "投资机构",
+   "founded": 2014,
+   "stage": "已上市",
+   "highlights": [
+    "自管理养老REIT，纳斯达克CTRE，2014自Ensign分拆",
+    "2025以约8.17亿美元收购英国Care REIT(135处)开启出海",
+    "连续10年提高股息，低杠杆+Triple-net+高出租率",
+    "2025 Q3公开募资7.36亿美元"
+   ],
+   "events": [
+    {
+     "date": "2025 Q3",
+     "text": "公开募资7.36亿美元"
+    },
+    {
+     "date": "2025",
+     "text": "以约8.17亿美元收购英国Care REIT(135处)出海；连续10年提高股息"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "自管理养老社区REIT，资产100%围绕银发居住与照护。",
+   "数据来源": "联网精评"
+  },
+  {
+   "serial": "#1158",
+   "signal_strength": 6.55,
+   "info_score": 8.0,
+   "diff_score": 3.0,
+   "copy_score": 5.0,
+   "research_value": 59.6,
+   "recommend": "信号中，财报与行业媒体报道信息丰富，资料披露充分；模式稳健顺常识、反共识性低，壁垒在药师网络与冷链履约。国内京东健康上门与民营护理站已有同类雏形，最该借鉴其'药师驱动+标准化上门'的复杂慢病居家体系，但国内支付以医保/个人为主、上门标准化弱，需先补履约底座。",
+   "desc_cn": "全美最大的独立居家输液与专科药房服务商，为免疫、肿瘤、罕见病等复杂慢病患者提供到家/门诊的输液与特药配送，由药师驱动、配套冷链与居家场景服务。收入以医保与商业保险报销为主、个人自付为辅。银发价值在'药师+冷链+居家'的复杂慢病上门体系，对应国内老龄化下居家医疗与特药配送缺口。",
+   "payor_model": "混合（医保/商业保险报销为主，个人自付为辅；B端机构合作）",
+   "business_tags_role": "服务商",
+   "founded": 1984,
+   "stage": "已上市",
+   "highlights": [
+    "全美最大独立居家输液与专科药房，纳斯达克OPCH",
+    "服务免疫/肿瘤/罕见病等复杂慢病患者的居家/门诊输液",
+    "通过并购成长为赛道龙头",
+    "支付以医保/商业保险报销为主、个人自付为辅"
+   ],
+   "events": [
+    {
+     "date": "1984至今",
+     "text": "通过持续并购成长为全美最大独立居家输液与专科药房服务商"
+    }
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "居家输液/专科药房服务复杂慢病长者，是居家医疗银发场景。",
+   "数据来源": "联网精评"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#0950",
+   "name": null,
+   "intro": "在38州整合居家健康、安宁疗护与私人护理的多线到家照护服务商。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "居家照护", "reason": "主营居家健康/安宁/私人护理三类到家服务"},
+    {"action": "add", "tag": "整合照护", "reason": "居家+安宁+私人护理多线整合模式"},
+    {"action": "add", "tag": "到家整合照护服务商", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#0951",
+   "name": null,
+   "intro": "以政府按人头打包付费运营PACE全包式失能老人整合照护的龙头。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "整合照护", "reason": "PACE全包式统筹居家到机构照护"},
+    {"action": "add", "tag": "PACE全包式照护", "reason": "按人头打包支付绑定失能老人"},
+    {"action": "add", "tag": "PACE日间照护中心", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#0952",
+   "name": null,
+   "intro": "以个人护理为核心、靠密度并购扩张的到家照护连锁。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "居家照护", "reason": "以个人护理为核心的到家服务"},
+    {"action": "add", "tag": "个人护理连锁", "reason": "260网点区域密度并购打法"},
+    {"action": "add", "tag": "到家个人护理连锁", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#0953",
+   "name": null,
+   "intro": "以少数股权控股、去中心化运营居家健康与养老社区的收购平台。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "居家照护", "reason": "居家健康/安宁机构控股平台"},
+    {"action": "add", "tag": "去中心化到家照护控股", "reason": "小股权独立运营+强中台模式"},
+    {"action": "add", "tag": "到家照护控股平台", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1135",
+   "name": null,
+   "intro": "从综合医疗REIT分拆出的纯Play养老社区运营平台，RIDEA结构。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "养老地产", "reason": "纯Play养老社区资产"},
+    {"action": "add", "tag": "纯Play养老社区REIT", "reason": "分拆独立上市的养老REIT"},
+    {"action": "add", "tag": "养老社区REIT", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1136",
+   "name": null,
+   "intro": "大型综合医疗地产REIT，将养老组合分拆后聚焦门诊与实验室。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "医疗地产", "reason": "综合医疗/实验室REIT"},
+    {"action": "add", "tag": "综合医疗REIT(分拆养老)", "reason": "拆分养老社区后的资产腾挪"},
+    {"action": "add", "tag": "医疗地产REIT", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1144",
+   "name": null,
+   "intro": "全资自持并运营独立/辅助生活与记忆照护社区的业主运营商。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "养老社区", "reason": "独立/辅助生活+记忆照护"},
+    {"action": "add", "tag": "业主-运营商一体", "reason": "自持+自营的纯养老社区打法"},
+    {"action": "add", "tag": "养老社区业主运营商", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1147",
+   "name": null,
+   "intro": "聚焦长寿细胞疗法的生物科技，合资开发免免疫抑制抗衰疗法。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "银发科技", "reason": "长寿/抗衰细胞疗法前沿"},
+    {"action": "add", "tag": "长寿细胞疗法", "reason": "糖尿病+α-Klotho长寿蛋白管线"},
+    {"action": "add", "tag": "长寿生物科技", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1153",
+   "name": null,
+   "intro": "全美规模领先的老龄与医疗地产REIT，覆盖养老/门诊/实验室。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "养老地产", "reason": "第二大养老/医疗REIT"},
+    {"action": "add", "tag": "综合银发/医疗REIT", "reason": "多元化银发不动产组合"},
+    {"action": "add", "tag": "银发医疗REIT", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1155",
+   "name": null,
+   "intro": "专注护理院(SNF)与长期急症医院的三重净租赁医疗REIT。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "护理院地产", "reason": "专注SNF护理院不动产"},
+    {"action": "add", "tag": "SNF三重净租赁REIT", "reason": "triple-net租赁护理院"},
+    {"action": "add", "tag": "护理院REIT", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1156",
+   "name": null,
+   "intro": "自管理、低杠杆、靠出海并购做大规模的纯养老社区净租赁REIT。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "养老地产", "reason": "纯养老社区净租赁REIT"},
+    {"action": "add", "tag": "自管理养老净租赁REIT", "reason": "自管理+出海并购成长"},
+    {"action": "add", "tag": "自管理养老REIT", "reason": "business_tags角色定位"}
+   ]
+  },
+  {
+   "serial": "#1158",
+   "name": null,
+   "intro": "全美最大的独立居家输液与专科药房服务商，药师驱动冷链到家。",
+   "old_tags": {"tag_l1": null, "tag_l2": null, "business_tags": null},
+   "suggested": [
+    {"action": "add", "tag": "居家医疗", "reason": "复杂慢病居家输液/特药"},
+    {"action": "add", "tag": "居家输液/专科药房", "reason": "药师+冷链+居家场景"},
+    {"action": "add", "tag": "居家输液专科药房", "reason": "business_tags角色定位"}
+   ]
+  }
+ ],
+ "nonsilver": []
+}

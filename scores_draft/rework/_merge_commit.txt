@@ -1,0 +1,42 @@
+找到 1160 个草稿文件 → 去重后 1039 家（含 121 家多版本已择优）
+  [R10] 候选对初筛后实际比对: 2362 对
+
+============================================================
+V4合并报告 (1039家去重后草稿)
+============================================================
+  单企业PASS:   822
+  单企业FAIL:   217
+  R10跨企业FAIL:2174
+  最终PASS:     539
+  最终FAIL:     2391
+  耗时:         25.2s
+
+  FAIL明细:
+    #0015: R7:silver_reason<30(26); R8:payor非规范[B端机构采购（医院/机构）+ 个人自费（患者）]
+    #0689: R7:silver_reason<30(26); R8:payor非规范[个人自费（会员月费）+B端机构采购（养老社区分成）]
+    #0698: R6:desc_cn<80(21); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0707: R6:desc_cn<80(13); R7:silver_reason<30(14); R8:payor非规范[政府医保/商业保险支付]
+    #0708: R6:desc_cn<80(13); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0713: R6:desc_cn<80(19); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0724: R6:desc_cn<80(17); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0733: R6:desc_cn<80(25); R7:silver_reason<30(14); R8:payor非规范[政府医保/商业保险支付]
+    #0750: R6:desc_cn<80(13); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0751: R6:desc_cn<80(12); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0765: R6:desc_cn<80(17); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0771: R-integrity:前后半段讲不同赛道(前['数据']→后['理财'])，疑似拼接错误
+    #0773: R6:desc_cn<80(17); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0776: R6:desc_cn<80(8); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0782: R-field-dedup:与desc_cn雷同(18字≥10阈值)
+    #0784: R6:desc_cn<80(21); R7:silver_reason<30(14); R8:payor非规范[个人自费+部分政府补贴]
+    #0794: R6:desc_cn<80(9); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0797: R-field-dedup:与desc_cn雷同(16字≥10阈值)
+    #0799: R6:desc_cn<80(12); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    #0809: R6:desc_cn<80(16); R7:silver_reason<30(14); R8:payor非规范[B端机构采购/政府买单]
+    ... 还有 2371 家
+
+  源数据疑误flag(1条):
+    源数据funding_latest(1300万美元/2024-10)与highlights/description(3250万澳元/2025，创澳洲最大种子轮)矛盾，疑似金额或币种录入错误
+已保存主库: G:\workbuddy\2026-06-28-23-34-20\silver-pulse\data/enterprise/all_enterprises.json (1502家)
+
+ 已写回主库: 539 家 PASS（R10失败2174家未写回）
+  flags已存: G:\workbuddy\2026-06-28-23-34-20\silver-pulse\scores_draft\rework\flags_v4.json

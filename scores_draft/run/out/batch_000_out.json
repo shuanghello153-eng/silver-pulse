@@ -1,0 +1,535 @@
+{
+  "batch": 0,
+  "enterprises": [
+    {
+      "serial": "#0565",
+      "signal_strength": 10.0,
+      "info_score": 9.0,
+      "diff_score": 8.5,
+      "copy_score": 7.0,
+      "research_value": 88.0,
+      "recommend": {
+        "rec_v1": "信号与信息量双高（CVS 106亿接盘、报道密集），它用按人头付费的价值医疗做差异化，国内险企可抄其'诊所即获客入口'打法。",
+        "rec_v2": "公开资料厚、模式独特：Oak Street 以 Canopy 系统把老年预防护理标准化，信号强但深嵌美国医保，国内创业者宜学其社区诊所运营而非照搬支付。",
+        "rec_v3": "高信号高差异化的标杆案例：信息透明、被巨头并购印证价值，其高医患比+社交化诊所可复制性强，适合国内做老年线下流量入口参考。",
+        "info_score": 9.0,
+        "diff_score": 8.5,
+        "copy_score": 7.0,
+        "signal_strength": 10.0,
+        "research_value": 88.0
+      },
+      "payor_model": "政府医保(Medicare)按人头预付",
+      "business_tags_role": "服务商",
+      "desc_cn": "专注Medicare老年人的价值型连锁初级保健诊所",
+      "founded": 2012,
+      "stage": "被收购",
+      "events": [
+        {"date": "2020-08", "text": "纽交所上市(OSH)，IPO募资约3.28亿美元"},
+        {"date": "2023-05", "text": "被CVS Health以106亿美元全现金收购，并入医疗交付体系"}
+      ],
+      "highlights": [
+        "平均患者年龄68岁，医患配比高，诊所兼具看病与社交功能",
+        "自研Canopy系统整合老年预防护理全流程",
+        "被CVS Health以106亿美元收购，验证价值医疗规模化"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注65岁以上Medicare人群的初级保健，核心客群即老年人。"
+    },
+    {
+      "serial": "#0855",
+      "signal_strength": 10.0,
+      "info_score": 8.5,
+      "diff_score": 8.0,
+      "copy_score": 5.0,
+      "research_value": 81.5,
+      "recommend": {
+        "rec_v1": "信号与信息量顶尖（CVS 80亿接盘），它以入户健康评估切入Medicare优势计划做差异，但支付深嵌美国医保，国内只宜学其上门评估机制。",
+        "rec_v2": "高信号高透明的居家医疗样本：Signify 用上门体检把风险前置，模式独特、报道充分，可复制性受限于美国医保结构，价值在'评估即控费入口'。",
+        "rec_v3": "被CVS 80亿美元收购的强信号案例，信息厚、以入户健康评估差异化，虽难直接复制，其把评估嵌入保险支付链的做法值得国内健康管理团队拆解。",
+        "info_score": 8.5,
+        "diff_score": 8.0,
+        "copy_score": 5.0,
+        "signal_strength": 10.0,
+        "research_value": 81.5
+      },
+      "payor_model": "政府医保(Medicare Advantage)按人头付费",
+      "business_tags_role": "服务商",
+      "desc_cn": "为Medicare优势计划提供上门健康评估的服务商",
+      "founded": 2017,
+      "stage": "被收购",
+      "events": [
+        {"date": "2023", "text": "被CVS Health以78亿美元收购，并入医疗交付体系"}
+      ],
+      "highlights": [
+        "会员平均年龄71岁，以预防型上门健康评估为核心",
+        "被CVS Health以78亿美元收购，强化居家医疗布局"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以老年Medicare人群入户健康评估为核心业务。"
+    },
+    {
+      "serial": "#0602",
+      "signal_strength": 9.55,
+      "info_score": 9.0,
+      "diff_score": 5.0,
+      "copy_score": 3.0,
+      "research_value": 71.6,
+      "recommend": {
+        "rec_v1": "信号与信息量都高（跨国药企、公开数据厚），但差异化仅体现在收购Aliada的一条阿尔茨海默管线，可复制性极低——对银发创业者参考价值有限。",
+        "rec_v2": "大型药企的银发触点案例：报道充分、信号强，靠并购Aliada拿到穿越血脑屏障的AD候选药，属重资产研发、难抄，创业者宜关注其给药技术而非模式。",
+        "rec_v3": "高信号高透明的上市药企，银发相关度靠单笔AD管线并购撑起，差异化与可复制性都弱；国内团队更该看其'并购补管线'的布局思路。",
+        "info_score": 9.0,
+        "diff_score": 5.0,
+        "copy_score": 3.0,
+        "signal_strength": 9.55,
+        "research_value": 71.6
+      },
+      "payor_model": "商业保险+个人自付(处方药)",
+      "business_tags_role": "产品商",
+      "desc_cn": "跨国综合药企，并购Aliada布局阿尔茨海默病管线",
+      "founded": 2013,
+      "stage": "已上市",
+      "events": [
+        {"date": "2024", "text": "以14亿美元收购Aliada Therapeutics，获阿尔茨海默病候选药物"}
+      ],
+      "highlights": [
+        "收购Aliada获穿越血脑屏障的阿尔茨海默病候选药物",
+        "全球TOP级生物制药，免疫与肿瘤为主业，银发仅单线布局"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "大型综合药企，仅通过收购Aliada布局阿尔茨海默病单条管线，核心业务不聚焦银发。"
+    },
+    {
+      "serial": "#0398",
+      "signal_strength": 8.55,
+      "info_score": 7.5,
+      "diff_score": 6.5,
+      "copy_score": 6.0,
+      "research_value": 73.1,
+      "recommend": {
+        "rec_v1": "信号与信息量中上（港股上市又私有化、报道持续），它把认知症主题照护做成高端差异化，国内创业者可抄其'院舍+日间中心'组合与港式运营标准。",
+        "rec_v2": "香港首家主板上市护老集团的成熟样本：信息透明、以认知障碍专业照护差异化，可复制性受牌照与地价约束，但高端定位与内地拓展路径值得参考。",
+        "rec_v3": "强信号的区域标杆：松龄护老运营12间院舍逾1600床，模式差异在认知症主题照护；国内团队宜学其服务分层与品牌化，而非重资产复制。",
+        "info_score": 7.5,
+        "diff_score": 6.5,
+        "copy_score": 6.0,
+        "signal_strength": 8.55,
+        "research_value": 73.1
+      },
+      "payor_model": "个人自费+香港政府买位/资助",
+      "business_tags_role": "运营商",
+      "desc_cn": "香港护老院运营商，首家主板上市护老集团",
+      "founded": 1989,
+      "stage": "被收购",
+      "events": [
+        {"date": "2017", "text": "港交所主板上市(01989.HK)，为香港首家上市护老集团"},
+        {"date": "2022", "text": "加入华懋集团，推出'尚耆·贤居'高端护老系列"},
+        {"date": "2024", "text": "完成私有化退市"}
+      ],
+      "highlights": [
+        "运营12间护老院舍及日间中心、床位逾1600个",
+        "首家香港主板上市护老集团，2024年私有化",
+        "拓展浙江乌镇医养项目，设认知障碍主题照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "香港护老院舍与认知症照护运营商，核心客群为老年人。"
+    },
+    {
+      "serial": "#0593",
+      "signal_strength": 7.55,
+      "info_score": 7.0,
+      "diff_score": 7.0,
+      "copy_score": 5.0,
+      "research_value": 67.7,
+      "recommend": {
+        "rec_v1": "信号与信息量中上（被Stone Point私有化、报道充分），它靠SilverSneakers把老年健身包进保险做差异，但支付嵌美国医保，国内宜学'健身即福利'思路。",
+        "rec_v2": "高透明的银发健身样本：Tivity 以 SilverSneakers 借医保优势计划免费开放健身房，模式独特；可复制性受限于医保，价值在'运动即控费'。",
+        "rec_v3": "被私募20亿美元接盘的强信号企业，以老年健身会员差异化；国内创业者可抄其把健身嵌入健康计划的运营，而非照搬美国保险支付。",
+        "info_score": 7.0,
+        "diff_score": 7.0,
+        "copy_score": 5.0,
+        "signal_strength": 7.55,
+        "research_value": 67.7
+      },
+      "payor_model": "政府医保(Medicare Advantage)补贴+健康计划采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "老年健身与健康管理服务商，旗下SilverSneakers",
+      "founded": 1981,
+      "stage": "被收购",
+      "events": [
+        {"date": "2022", "text": "被Stone Point Capital以约20亿美元收购并私有化"}
+      ],
+      "highlights": [
+        "旗下SilverSneakers为全美领先老年健身计划，经医保优势计划免费开放",
+        "2023年收购数字健康平台Burnalong，扩展线上线下健康项目"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "以SilverSneakers老年健身计划服务老年人群，核心客群为银发。"
+    },
+    {
+      "serial": "#0594",
+      "signal_strength": 7.55,
+      "info_score": 7.0,
+      "diff_score": 7.0,
+      "copy_score": 5.0,
+      "research_value": 67.7,
+      "recommend": {
+        "rec_v1": "信号与信息量中上（国民级老年健身品牌），它把健身房经医保免费开放做差异，但根植美国优势计划，国内宜学'健身即健康福利'的产品设计。",
+        "rec_v2": "高认知度的银发健身范本：SilverSneakers 借 Medicare 让老人免费进健身房，模式独特、资料足；可复制性受限于医保，价值在'运动即控费'思路。",
+        "rec_v3": "被Tivity收购的成熟品牌、强信号样本，以老年健身会员差异化；国内团队可抄其'健身嵌入健康计划'打法，而非照搬美国保险支付。",
+        "info_score": 7.0,
+        "diff_score": 7.0,
+        "copy_score": 5.0,
+        "signal_strength": 7.55,
+        "research_value": 67.7
+      },
+      "payor_model": "政府医保(Medicare Advantage)补贴",
+      "business_tags_role": "服务商",
+      "desc_cn": "经医保优势计划向老人免费开放的健身会员项目",
+      "founded": 1992,
+      "stage": "被收购",
+      "events": [
+        {"date": "2006", "text": "被Tivity Health以4.5亿美元收购"}
+      ],
+      "highlights": [
+        "全美领先老年健身计划，经医保优势计划向65+人群免费开放",
+        "覆盖大量合作健身房与线上线下课程，含社交与心理 enrichment"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为老年人群设计的健身会员项目，核心客群为银发。"
+    },
+    {
+      "serial": "#0595",
+      "signal_strength": 7.55,
+      "info_score": 8.0,
+      "diff_score": 4.0,
+      "copy_score": 3.0,
+      "research_value": 60.6,
+      "recommend": {
+        "rec_v1": "信号中上、信息量高（上市传媒集团），但仅借收购Care.com擦边养老，差异化弱、几乎不可复制——对银发创业者参考价值有限。",
+        "rec_v2": "互联网控股集团的银发触点：IAC 公开资料厚、信号稳，靠并购Care.com涉足照护匹配，业务横跨育儿与养老，定位模糊、难抄。",
+        "rec_v3": "高信息量的上市巨头案例，银发相关度仅靠Care.com一笔并购撑起，差异化与可复制性都弱；创业者宜看其'平台型并购'逻辑而非业务本身。",
+        "info_score": 8.0,
+        "diff_score": 4.0,
+        "copy_score": 3.0,
+        "signal_strength": 7.55,
+        "research_value": 60.6
+      },
+      "payor_model": "B端平台抽佣+个人订阅",
+      "business_tags_role": "服务商",
+      "desc_cn": "互联网控股集团，曾收购Care.com布局照护匹配",
+      "founded": 1995,
+      "stage": "已上市",
+      "events": [
+        {"date": "2019", "text": "以5亿美元收购养老/育儿照护平台Care.com"}
+      ],
+      "highlights": [
+        "旗下曾含Care.com，业务横跨养老与育儿照护匹配",
+        "互联网控股集团，核心为媒体与平台资产，银发仅为局部布局"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "互联网集团仅通过收购Care.com涉足照护匹配，且Care.com业务横跨育儿与养老，非聚焦银发。"
+    },
+    {
+      "serial": "#0850",
+      "signal_strength": 7.55,
+      "info_score": 7.5,
+      "diff_score": 7.0,
+      "copy_score": 6.0,
+      "research_value": 71.2,
+      "recommend": {
+        "rec_v1": "信号与信息量中上（SPAC上市后被Altaris接盘），它用聚合式数字健康+CareLinx居家护理做差异，国内可抄其'健康档案+护理市场'双轮。",
+        "rec_v2": "数字健康聚合的样本：Sharecare 把健康记录、用药与CareLinx护理市场打通，模式独特、报道足；可复制性中等，国内宜学其平台整合思路。",
+        "rec_v3": "被Altaris以5.18亿美元收购的强信号企业，以'数据驱动健康+居家护理'差异化；国内创业者可抄其把分散照护资源平台化的打法。",
+        "info_score": 7.5,
+        "diff_score": 7.0,
+        "copy_score": 6.0,
+        "signal_strength": 7.55,
+        "research_value": 71.2
+      },
+      "payor_model": "支付方/雇主采购+个人订阅",
+      "business_tags_role": "服务商",
+      "desc_cn": "数字健康平台，收购CareLinx切入居家照护",
+      "founded": 2010,
+      "stage": "被收购",
+      "events": [
+        {"date": "2021", "text": "通过SPAC上市"},
+        {"date": "2024", "text": "被Altaris以5.18亿美元收购"}
+      ],
+      "highlights": [
+        "由WebMD创始人联合创立，数据驱动整合健康记录与用药",
+        "收购CareLinx(逾45万注册照护人员)切入居家照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "通过CareLinx居家护理市场服务老年人群，核心涉及银发照护。"
+    },
+    {
+      "serial": "#0012",
+      "signal_strength": 7.05,
+      "info_score": 8.0,
+      "diff_score": 7.0,
+      "copy_score": 8.0,
+      "research_value": 75.2,
+      "recommend": {
+        "rec_v1": "信号与信息量都高（16篇报道、接DeepSeek），它用整合全国体检资源的老年健康管理做差异，国内创业者可直接抄其'平台+AI解读'打法。",
+        "rec_v2": "本土银发健康的标杆样本：善诊把体检资源平台化、自研'善太医'AI提效210%，模式独特、资料透明，可复制性强、政策友好。",
+        "rec_v3": "强信号高透明的国内案例，以'中老年体检+健康管理'差异化；其用AI处理体检数据、对接B端企业的打法，对国内创业团队可直接借鉴。",
+        "info_score": 8.0,
+        "diff_score": 7.0,
+        "copy_score": 8.0,
+        "signal_strength": 7.05,
+        "research_value": 75.2
+      },
+      "payor_model": "个人自费+B端企业采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "整合全国体检资源的老年健康管理与体检平台",
+      "founded": 2015,
+      "stage": "融资中",
+      "events": [
+        {"date": "2020", "text": "完成多轮融资，累计近10亿元"},
+        {"date": "2025", "text": "接入DeepSeek，'善太医'AI体检数据处理提效210%"}
+      ],
+      "highlights": [
+        "累计融资近10亿元，专注中老年健康管理与体检",
+        "自研'善太医'AI接入DeepSeek，体检数据处理能力提升210%"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注中老年体检筛查与健康管理，核心客群为银发。"
+    },
+    {
+      "serial": "#0461",
+      "signal_strength": 7.05,
+      "info_score": 8.0,
+      "diff_score": 6.5,
+      "copy_score": 4.0,
+      "research_value": 66.1,
+      "recommend": {
+        "rec_v1": "信号与信息量高（被UnitedHealth以33亿美元接盘），它用居家护理+临终关怀规模化的并购打法做差异，但深嵌美国医保，国内难照搬。",
+        "rec_v2": "居家医疗头部样本：Amedisys 以临终关怀与居家护理的并购整合差异化，公开资料厚；可复制性受美国医保与强监管约束，价值在'居家即主场景'趋势。",
+        "rec_v3": "被Optum 33亿美元收购的强信号企业，以居家+安宁疗护双线差异化；国内创业者宜学其'医院外溢到家庭'的照护分层，而非支付结构。",
+        "info_score": 8.0,
+        "diff_score": 6.5,
+        "copy_score": 4.0,
+        "signal_strength": 7.05,
+        "research_value": 66.1
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国居家护理与临终关怀服务商，被UnitedHealth收购",
+      "founded": 1982,
+      "stage": "被收购",
+      "events": [
+        {"date": "2023-06", "text": "UnitedHealth宣布以101美元/股收购Amedisys"},
+        {"date": "2025-08", "text": "经DOJ批准后完成33亿美元收购，并入Optum"}
+      ],
+      "highlights": [
+        "年服务超46.5万患者，覆盖38州+华盛顿特区",
+        "居家健康+临终关怀+缓和医疗并购整合龙头"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家护理与临终关怀服务商，核心客群为老年慢性病患者。"
+    },
+    {
+      "serial": "#0949",
+      "signal_strength": 7.05,
+      "info_score": 8.0,
+      "diff_score": 6.5,
+      "copy_score": 4.0,
+      "research_value": 66.1,
+      "recommend": {
+        "rec_v1": "信号与信息量高（被UnitedHealth 54亿美元接盘），它用家庭医疗+临终关怀的并购规模化做差异，但根植美国医保，国内难直接复制。",
+        "rec_v2": "家庭医疗整合样本：LHC Group 以居家医疗、临终关怀的连锁并购差异化，资料透明；可复制性受医保与监管约束，价值在'居家照护连锁化'思路。",
+        "rec_v3": "被Optum 54亿美元收购的强信号企业，以家庭医疗+安宁疗护双线差异化；国内宜学其把分散居家护理资产连锁化的运营，而非支付结构。",
+        "info_score": 8.0,
+        "diff_score": 6.5,
+        "copy_score": 4.0,
+        "signal_strength": 7.05,
+        "research_value": 66.1
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国家庭医疗与临终关怀服务商，被UnitedHealth收购",
+      "founded": 1994,
+      "stage": "被收购",
+      "events": [
+        {"date": "2005", "text": "纳斯达克上市，融资6720万美元"},
+        {"date": "2023", "text": "被UnitedHealth/Optum以54亿美元收购"}
+      ],
+      "highlights": [
+        "主要为老年慢性病患者提供居家医疗、临终关怀与家庭健康服务",
+        "被UnitedHealth/Optum以54亿美元收购，并入居家照护体系"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家庭医疗保健与临终关怀服务商，核心客群为老年慢病患者。"
+    },
+    {
+      "serial": "#0954",
+      "signal_strength": 7.05,
+      "info_score": 7.5,
+      "diff_score": 6.5,
+      "copy_score": 4.0,
+      "research_value": 64.7,
+      "recommend": {
+        "rec_v1": "信号与信息量中上（纽交所上市、季度财报透明），它用居家健康+临终关怀双线全国布局做差异，但深嵌美国医保，国内难照搬支付。",
+        "rec_v2": "居家+安宁双线样本：Enhabit 在34州运营数百个照护点，模式独特、报道充足；可复制性受美国医保约束，价值在'居家与临终协同'架构。",
+        "rec_v3": "纽交所上市(EHAB)的强信号企业，以居家医疗+临终关怀双线差异化；国内创业者宜学其'家庭健康与安宁疗护协同'的轻资产布点，而非支付。",
+        "info_score": 7.5,
+        "diff_score": 6.5,
+        "copy_score": 4.0,
+        "signal_strength": 7.05,
+        "research_value": 64.7
+      },
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险+服务收费",
+      "business_tags_role": "运营商",
+      "desc_cn": "全美居家健康与临终关怀双线上市服务商",
+      "founded": 2014,
+      "stage": "已上市",
+      "events": [
+        {"date": "2022", "text": "从Encompass Health分拆并于纽交所上市(EHAB)"},
+        {"date": "2024", "text": "投入超7.98亿美元完成42项收购扩张"}
+      ],
+      "highlights": [
+        "在34个州运营约255个居家护理点与112个临终关怀点",
+        "2024年投入超7.98亿美元完成42项收购扩张"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家健康与临终关怀服务商，核心客群为老年人群。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0565",
+      "name": "Oak Street Health",
+      "intro": "专注Medicare老年人的价值型初级保健连锁诊所，以按人头付费模式与Canopy系统实现预防护理标准化，2023年被CVS Health收购。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["诊所"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "价值医疗", "reason": "以Medicare按人头付费的价值医疗为核心模式，应补维度标签"}
+      ]
+    },
+    {
+      "serial": "#0855",
+      "name": "Signify Health",
+      "intro": "为Medicare优势计划提供入户健康评估的居家医疗服务商，2023年被CVS Health以78亿美元收购。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家医疗"], "business_tags": {"customer": "B2B", "role": "服务商", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "健康评估", "reason": "核心业务为入户健康评估，现标签未体现该关键维度"}
+      ]
+    },
+    {
+      "serial": "#0602",
+      "name": "Abbvie",
+      "intro": "跨国生物制药企业，主业为免疫与肿瘤，2024年收购Aliada Therapeutics获得阿尔茨海默病候选药物，银发仅为单线布局。",
+      "old_tags": {"tag_l1": ["消费品"], "tag_l2": ["药品"], "business_tags": {"customer": "B2B", "role": "制造商(药)", "channel": []}},
+      "suggested": [
+        {"action": "change", "tag": "生物医药", "reason": "AbbVie为跨国生物制药企业，'消费品'标签不准确"}
+      ]
+    },
+    {
+      "serial": "#0398",
+      "name": "松龄护老",
+      "intro": "香港护老院舍运营商，首家主板上市护老集团，运营12间院舍逾1600床，设认知障碍主题照护，2024年私有化。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["远程医疗"], "business_tags": {"customer": "未标注", "role": "上市公司", "channel": []}},
+      "suggested": [
+        {"action": "change", "tag": "养老院/院舍", "reason": "实为香港护老院舍运营商，'远程医疗'标签明显错误"}
+      ]
+    },
+    {
+      "serial": "#0593",
+      "name": "Tivity Health",
+      "intro": "老年健身与健康管理服务商，旗下SilverSneakers经Medicare优势计划向老人免费开放，2022年被Stone Point Capital私有化。",
+      "old_tags": {"tag_l1": ["文娱社交"], "tag_l2": ["健身"], "business_tags": {"customer": "B2C", "role": "服务商", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "健康管理", "reason": "除健身外还提供综合健康生活方式项目，可补维度"}
+      ]
+    },
+    {
+      "serial": "#0594",
+      "name": "SilverSneakers",
+      "intro": "经Medicare优势计划向65+人群免费开放的老年健身会员项目，2006年被Tivity Health收购。",
+      "old_tags": {"tag_l1": ["文娱社交"], "tag_l2": ["健身"], "business_tags": {"customer": "B2C", "role": "服务商", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "健康管理", "reason": "健身会员外含社交与心理enrichment，可补维度"}
+      ]
+    },
+    {
+      "serial": "#0595",
+      "name": "IAC",
+      "intro": "互联网控股集团，2019年以5亿美元收购Care.com（业务横跨育儿与养老照护匹配），银发仅为局部布局。",
+      "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["养老信息平台"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": ["线上"]}},
+      "suggested": [
+        {"action": "change", "tag": "互联网平台", "reason": "IAC为互联网控股集团，Care.com跨育儿养老，'养老信息平台'标签过窄且偏"}
+      ]
+    },
+    {
+      "serial": "#0850",
+      "name": "Sharecare",
+      "intro": "数据驱动的数字健康平台，整合健康记录与用药管理，并收购CareLinx(逾45万照护人员)切入居家照护，2024年被Altaris收购。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["慢病管理"], "business_tags": {"customer": "B2B+B2C", "role": "服务商", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "数字健康", "reason": "核心为数据驱动数字健康平台，应补科技维度标签"}
+      ]
+    },
+    {
+      "serial": "#0012",
+      "name": "善诊",
+      "intro": "整合全国体检资源的老年健康管理与体检平台，累计融资近10亿元，自研'善太医'AI接入DeepSeek提效210%。",
+      "old_tags": {"tag_l1": ["消费品"], "tag_l2": ["体检筛查"], "business_tags": {"customer": "B2C", "role": "服务商", "channel": []}},
+      "suggested": [
+        {"action": "change", "tag": "健康服务", "reason": "善诊为老年体检与健康管理服务商，'消费品'标签不准"}
+      ]
+    },
+    {
+      "serial": "#0461",
+      "name": "Amedisys",
+      "intro": "美国居家护理与临终关怀服务商，年服务超46.5万患者，2025年被UnitedHealth/Optum以33亿美元收购。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家护理"], "business_tags": {"customer": "B2B+B2C", "role": "平台", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "临终关怀", "reason": "业务含临终关怀与缓和医疗，现标签未覆盖"}
+      ]
+    },
+    {
+      "serial": "#0949",
+      "name": "LHC Group",
+      "intro": "美国家庭医疗保健服务商，为老年慢病患者提供居家医疗、临终关怀与家庭健康服务，2023年被UnitedHealth/Optum以54亿美元收购。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["安宁疗护"], "business_tags": {"customer": "未标注", "role": "上市公司", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "居家医疗", "reason": "核心为家庭医疗保健与居家护理，现标签仅安宁疗护偏窄"}
+      ]
+    },
+    {
+      "serial": "#0954",
+      "name": "Enhabit",
+      "intro": "全美居家健康与临终关怀双线上市服务商(NYSE:EHAB)，在34个州运营数百个照护点。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["安宁疗护"], "business_tags": {"customer": "未标注", "role": "上市公司", "channel": []}},
+      "suggested": [
+        {"action": "add", "tag": "居家护理", "reason": "居家健康与临终关怀双线，应补居家护理维度"}
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0602",
+      "name": "Abbvie",
+      "verdict": "泛医疗擦边",
+      "reason": "大型综合药企，仅通过收购Aliada布局阿尔茨海默病单条管线，核心业务不聚焦银发。"
+    },
+    {
+      "serial": "#0595",
+      "name": "IAC",
+      "verdict": "泛医疗擦边",
+      "reason": "互联网集团仅通过收购Care.com涉足照护匹配，且Care.com业务横跨育儿与养老，非聚焦银发。"
+    }
+  ]
+}

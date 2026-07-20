@@ -1,0 +1,568 @@
+{
+ "batch": 67,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0621",
+   "name": "Angels on Call Homecare",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "Angels on Call 是一家美国居家照护机构，为老年人与术后人群提供上门的护理、陪伴及个人照料服务，由注册护士与护理员执行。",
+   "highlights": "美国第一家获得帕金森病护理认证的家庭护理提供商",
+   "funding_latest": {
+    "date": "2024年11月",
+    "display": "(2024年11月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2010",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Angels%20on%20Call%20Homecare",
+   "website_url": "https://www.angelsoncall.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Angels on Call 是一家美国居家照护机构，为老年人与术后人群提供上门的护理、陪伴及个人照料服务，由注册护士与护理员执行。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Angels on Call Homecare】聚焦产业资本/居家护理/行业媒体，美国第一家获得帕金森病护理认证的家庭护理提供商，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0622",
+   "name": "Apple",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "助听器",
+    "睡眠监测",
+    "康复器械"
+   ],
+   "description": "Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准为助听器",
+   "highlights": "Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1976",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Apple",
+   "website_url": "https://www.apple.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准为助听器",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器",
+    "睡眠监测",
+    "康复器械"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Apple】聚焦健康监测/健康管理，Apple Watch睡眠呼吸暂停检测、跌倒检测；AirPods获FDA批准...，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0623",
+   "name": "Apree",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "由 Castlight（医疗导航）与 Vera Whole Health（进阶初级护理）于2022年合并而成的医疗科技公司，提供数据驱动的健康导航平台+进阶初级护理中心，服务含老年在内的风险人群，按价值医疗（VBC）模式运营。B2B 健康平台。",
+   "highlights": "为36000名员工提供医疗保健",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2022",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Apree",
+   "website_url": "https://apreehealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "由 Castlight（医疗导航）与 Vera Whole Health（进阶初级护理）于2022年合并而成的医疗科技公司，提供数据驱动的健康导航平台+进阶初级护理中心，服务含老年在内的风险人群，按价值医疗（VBC）模式运营。B2B 健康平台。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Apree】聚焦保健品/健康管理/行业媒体，为36000名员工提供医疗保健，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0625",
+   "name": "Artis Senior Living",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "认知症"
+   ],
+   "description": "辅助生活社区，为记忆力减退老年人服务",
+   "highlights": "为记忆力减退老年人服务",
+   "funding_latest": {
+    "date": "2023年5月",
+    "amount": "4000万美元",
+    "display": "4000万美元 (2023年5月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Artis%20Senior%20Living",
+   "website_url": "https://artisseniorliving.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "辅助生活社区，为记忆力减退老年人服务",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Artis Senior Living】聚焦产业资本/行业媒体，为记忆力减退老年人服务，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0626",
+   "name": "AssistMe",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "德国柏林的护理数字化 SaaS 厂商。核心产品 alea 系统：基于传感夹+IoT+AI，实时监测失禁状态、跌倒与体位并自动生成护理记录，已获 CE 医疗器械认证，服务多家养老院。B2B 护理机构软件。",
+   "highlights": "护理基础设施",
+   "funding_latest": {
+    "date": "2016年",
+    "amount": "510万美元",
+    "display": "510万美元 (2016年)"
+   },
+   "funding_total": {
+    "amount": "€5.2M (2025)",
+    "display": "€5.2M (2025)"
+   },
+   "investors": "",
+   "founded": "2019",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AssistMe",
+   "website_url": "https://www.assistme.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "德国柏林的护理数字化 SaaS 厂商。核心产品 alea 系统：基于传感夹+IoT+AI，实时监测失禁状态、跌倒与体位并自动生成护理记录，已获 CE 医疗器械认证，服务多家养老院。B2B 护理机构软件。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AssistMe】聚焦产业资本/居家护理/智能硬件，护理基础设施，B2B+B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0627",
+   "name": "Assured Allies",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "数据驱动的健康干预帮助老年人更健康生活，降低理赔风险",
+   "highlights": "降低理赔风险",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$78M+ (累计, Series B $42.5M 2024)",
+    "display": "$78M+ (累计)"
+   },
+   "investors": "FinTLV Ventures, Harel Insurance 等",
+   "founded": "2017",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Assured%20Allies",
+   "website_url": "https://assuredallies.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "数据驱动的健康干预帮助老年人更健康生活，降低理赔风险",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Assured Allies Secures $42.5M Series B to Revolutionize Aging",
+      "date": "2024-12-23",
+      "source": "SignalBase",
+      "url": "https://www.trysignalbase.com/news/funding/assured-allies-secures-42.5-million-in-series-b-funding-to-revolutionize-aging-with-personalized-prevention-and-preparation"
+     },
+     {
+      "title": "Assured Allies与CalPERS达成长寿风险管理合作",
+      "date": "2024-05",
+      "source": "Startup Nation Finder",
+      "url": "https://finder.startupnationcentral.org/company_page/assured-allies"
+     }
+    ],
+    "snippets": [
+     "Assured Allies为“成功老龄化”保险科技公司，2024年12月完成4250万美元B轮。",
+     "2024年5月与全美最大公共养老金CalPERS合作，向4.5万合格退休者提供长寿风险管理服务。"
+    ]
+   },
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Assured Allies】聚焦产业资本/健康管理/行业媒体，降低理赔风险，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0629",
+   "name": "Auxa Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "SDOH"
+   ],
+   "description": "Auxa Health 是一家美国医疗协调平台，聚焦社会决定因素（SDOH）筛查与社区资源对接，帮助慢病与老年患者在就医之外获得生活支持。",
+   "highlights": "福利导航",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "520万美元",
+    "display": "520万美元 (2024年4月)"
+   },
+   "funding_total": {
+    "amount": "$5.2M (Seed)",
+    "display": "$5.2M Seed"
+   },
+   "investors": "AlleyCorp, Zeal Capital Partners 等",
+   "founded": "2023",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Auxa%20Health",
+   "website_url": "https://www.auxahealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Auxa Health 是一家美国医疗协调平台，聚焦社会决定因素（SDOH）筛查与社区资源对接，帮助慢病与老年患者在就医之外获得生活支持。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "SDOH"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Auxa Health】聚焦产业资本/文娱社交，福利导航，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0630",
+   "name": "Avation Medical",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "可穿戴监测",
+    "尿失禁"
+   ],
+   "description": "可穿戴神经调节设备治疗急迫性尿失禁",
+   "highlights": "可穿戴神经调节设备治疗急迫性尿失禁",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "2200万美元",
+    "display": "2200万美元 (2024年2月)"
+   },
+   "funding_total": {
+    "amount": "$22M+ (Series C, 2024)",
+    "display": "$22M+ Series C"
+   },
+   "investors": "Angelini Ventures 等",
+   "founded": "2017",
+   "value_score": 46,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Avation%20Medical",
+   "website_url": "https://www.avationmed.com",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "可穿戴神经调节设备治疗急迫性尿失禁",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "news_coverage": {
+    "news_count": 6,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Avation Medical raises $22M+ in equity funding",
+      "date": "2024-02-01",
+      "source": "vbdata/Today's Medical Developments",
+      "url": "https://www.vbdata.cn/intelDetail/115226"
+     }
+    ],
+    "snippets": [
+     "$22M+ equity (2024) for Vivally wearable bladder neuromodulation (FDA-cleared).",
+     "Closed-loop wearable for OAB/urgency incontinence."
+    ]
+   },
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "可穿戴监测",
+    "尿失禁"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Avation Medical】聚焦产业资本/健康管理/智能硬件，可穿戴神经调节设备治疗急迫性尿失禁，B2C模式，研究价值分46。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0635",
+   "name": "Better Coliving",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "邻里社交"
+   ],
+   "description": "老年版Airbnb",
+   "highlights": "老年版Airbnb",
+   "funding_latest": {
+    "date": "2020年",
+    "display": "(2020年)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Better%20Coliving",
+   "website_url": "https://www.bettercoliving.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "老年版Airbnb",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "邻里社交"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Better Coliving】聚焦产业资本/文娱社交，老年版Airbnb，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0636",
+   "name": "Better Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "零售"
+   ],
+   "description": "在线医疗产品商店，造口、泌尿科和糖尿病产品",
+   "highlights": "造口、泌尿科和糖尿病产品",
+   "funding_latest": {
+    "date": "2024年6月",
+    "amount": "1400万美元",
+    "display": "1400万美元 (2024年6月)"
+   },
+   "funding_total": {
+    "amount": "$27.5M (累计, 最新$14M 2024)",
+    "display": "$27.5M (累计)"
+   },
+   "investors": "Healthworx (CareFirst 旗下)",
+   "founded": "2019",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Better%20Health",
+   "website_url": "https://joinbetter.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "在线医疗产品商店，造口、泌尿科和糖尿病产品",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Better Health】聚焦产业资本/健康管理/慢病管理，造口、泌尿科和糖尿病产品，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0637",
+   "name": "Biomotum",
+   "region": "海外",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "助行器"
+   ],
+   "description": "智能辅助设备优化人类移动性，双脚电动自行车技术",
+   "highlights": "双脚电动自行车技术",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$290K (Seed)",
+    "display": "$290K (Seed)"
+   },
+   "investors": "AARP AgeTech Collaborative, NIH 等 (9位投资人)",
+   "founded": "2019",
+   "value_score": 54,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Biomotum",
+   "website_url": "https://www.biomotum.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "desc_cn": "智能辅助设备优化人类移动性，双脚电动自行车技术",
+   "business_model_cn": "B2B/B2C 硬件产品",
+   "news_coverage": {
+    "news_count": 3,
+    "news_quality": "low",
+    "latest_news": [],
+    "snippets": [
+     "Wearable ankle exoskeleton (Spark) for gait rehab; backers AARP Agetech Collaborative & NIH.",
+     "No major 2024-25 funding round surfaced."
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助行器"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Biomotum】聚焦产业资本/康复/智能硬件，双脚电动自行车技术，B2B+B2C模式，研究价值分54。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0641",
+   "name": "Bloom Nutrition",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "专门从事女性健身补充剂销售",
+   "highlights": "专门从事女性健身补充剂销售",
+   "funding_latest": {
+    "date": "2024年1月",
+    "amount": "9000万美元",
+    "display": "9000万美元 (2024年1月)"
+   },
+   "funding_total": {
+    "amount": "$90M",
+    "display": "$90M"
+   },
+   "investors": "Nutrabolt, Amberstone Ventures 等",
+   "founded": "2019",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Bloom%20Nutrition",
+   "website_url": "https://bloomnu.com",
+   "business_model": "B2C 老年健身/健康",
+   "desc_cn": "专门从事女性健身补充剂销售",
+   "business_model_cn": "B2C 老年健身/健康",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Bloom Nutrition】聚焦产业资本/女性健康/行业媒体，专门从事女性健身补充剂销售，B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

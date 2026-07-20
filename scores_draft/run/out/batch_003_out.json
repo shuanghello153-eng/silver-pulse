@@ -1,0 +1,772 @@
+{
+  "batch": 3,
+  "enterprises": [
+    {
+      "serial": "#0557",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 8,
+      "copy_score": 7,
+      "research_value": 73.7,
+      "recommend": {
+        "rec_v1": "信号强且被纪录片与媒体反复书写，信息厚度足；其反常识处是把养老包装成\"永久度假\"而非照护；国内宜抄社群运营与居民自治，慎抄重资产地产。",
+        "rec_v2": "媒体与学术持续追踪使其信息公开极丰；差异化在\"生活方式会员\"黏住活力老人；可借鉴的是高频活动体系与适老交通，土地与治理难直接迁移。",
+        "rec_v3": "高信号高信息背后，是用小镇社交绑定用户的非典型模式；复制关键在于\"主题广场+社团\"的运营方法论，而非照搬高尔夫球车社区。",
+        "info_score": 8,
+        "diff_score": 8,
+        "copy_score": 7,
+        "signal_strength": 6.55,
+        "research_value": 73.7
+      },
+      "payor_model": "个人自费（置业+月度会费）",
+      "business_tags_role": "平台",
+      "desc_cn": "美国最大活力退休社区，卖生活方式而非照护",
+      "founded": 1980,
+      "stage": "未披露",
+      "events": [
+        {
+          "date": "2025-10",
+          "text": "通过市政债融资约1.3亿美元扩建新社区"
+        }
+      ],
+      "highlights": [
+        "非上市，由Morse家族控股，靠市政债而非股票融资扩张（2025年发债约1.3亿美元）",
+        "约7万+住户、60+球场、3000+社团，全球最大退休社区",
+        "模式核心是\"生活方式会员\"而非养老服务，纠正库内\"NYSE上市\"错误标注"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "活力老人社区运营，直接服务55+人群"
+    },
+    {
+      "serial": "#0558",
+      "signal_strength": 6.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 58.7,
+      "recommend": {
+        "rec_v1": "信号稳但公开财务少、信息偏薄；亮点在把AI/VR/机器人做成可量化的照护ROI，反常识；国内机构最该学其技术选型与成效评估框架。",
+        "rec_v2": "作为非营利机构信息披露有限，却因AgeTech落地经验被行业深挖；差异化是\"技术必须算清回报\"；可抄的是小步试点+数据复盘，而非堆设备。",
+        "rec_v3": "中等信号与信息量下，它证明了适老科技不是摆设而是ROI工具；复制难点在美方支付体系，但\"先验证后铺开\"的思路值得国内借鉴。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 58.7
+      },
+      "payor_model": "政府医保+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "纽约养老康复机构，主攻AgeTech落地ROI",
+      "founded": 1989,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注把AI/VR/机器人等AgeTech转化为实际ROI",
+        "非营利大型养老康复机构，接受行业深度访谈分享落地经验",
+        "技术落地方法论对国内机构有借鉴价值（纠正库内\"已上市\"错误标注）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专业护理+AgeTech，直接服务失能/半失能老人"
+    },
+    {
+      "serial": "#0647",
+      "signal_strength": 6.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 67.7,
+      "recommend": {
+        "rec_v1": "纳斯达克新上市公司、信息极透明；差异化在院外医疗+药房+居家护理闭环服务复杂慢病人群；国内可学整合逻辑，但强依赖美国医保难照搬。",
+        "rec_v2": "高信号高信息，刚完成IPO便借反垄断案接手对手资产扩张；其反常识是用药房做慢病管理入口；复制受医保结构约束，模式思路可借鉴。",
+        "rec_v3": "公开资料厚、信号强，定位\"院外\"而非医院内照护是差异化关键；对国内启示在药房+居家护理联动，支付方设计难以直接复制。",
+        "info_score": 8,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 67.7
+      },
+      "payor_model": "政府医保+商业保险+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国复杂慢病居家医疗与药房服务平台",
+      "founded": 1996,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2024-03",
+          "text": "登陆纳斯达克（BTSG）完成IPO"
+        }
+      ],
+      "highlights": [
+        "2024年3月纳斯达克上市（BTSG），美国院外医疗+药房整合平台",
+        "服务复杂慢病与残疾人群，居家护理+康复+用药配送闭环",
+        "在Amedisys反垄断案中接手部分剥离资产，扩大居家护理网络"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家医疗与药房服务，主要客群为慢病老人与失能人群"
+    },
+    {
+      "serial": "#0654",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 8,
+      "research_value": 72.6,
+      "recommend": {
+        "rec_v1": "韩国第一护理品牌、信号与信息双高；差异化在信息撮合+护理协调+养老地产一体化；国内空白明显，平台+地产双轮模式极可抄。",
+        "rec_v2": "B轮170亿韩元、IPO在即，透明度高；反常识是把\"中介平台\"做成重资产养老住宅运营商；可借鉴其与资管合资做Care Home的路径。",
+        "rec_v3": "高信号背后是GMV超3000亿韩元的验证；差异化在贯穿老人全生命周期的一站式；复制性强，国内创业者可直接参考其平台+地产打法。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 8,
+        "signal_strength": 6.55,
+        "research_value": 72.6
+      },
+      "payor_model": "个人自付+政府长期护理保险",
+      "business_tags_role": "平台",
+      "desc_cn": "韩国第一老年护理平台，信息匹配+养老地产",
+      "founded": 2018,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023-11-15",
+          "text": "完成170亿韩元B轮融资（累计超350亿韩元）"
+        },
+        {
+          "date": "2025",
+          "text": "选定韩国投资证券主承销，推进2027年IPO"
+        }
+      ],
+      "highlights": [
+        "韩国第一老年护理品牌，累计融资超350亿韩元，GMV超3000亿韩元",
+        "信息匹配+护理协调+养老地产（Care Home）一体化平台",
+        "与景顺（Invesco）合资布局高端养老住宅，启动IPO筹备（纠正库内成立年2016→2018）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "韩国第一老年护理平台，全生命周期养老服务"
+    },
+    {
+      "serial": "#0678",
+      "signal_strength": 6.55,
+      "info_score": 10,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 73.7,
+      "recommend": {
+        "rec_v1": "巨头信号与信息量满分；差异化在药房+保险（Aetna）+Oak Street诊所的支付-服务-零售闭环；国内可学\"社区健康入口\"概念，规模难复制。",
+        "rec_v2": "公开信息极丰、信号极强，用零售网络把老年初级保健前置到药店隔壁；反常识的整合值得研究；受美国牌照与监管约束，模式难照搬。",
+        "rec_v3": "高信号高信息下，它把慢病老人锁进保险+药房+诊所闭环；复制价值在\"药店即健康站\"的触点设计，整体受支付体系牵制。",
+        "info_score": 10,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 73.7
+      },
+      "payor_model": "商业保险+政府医保+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国零售药房巨头，整合保险与老年初级保健",
+      "founded": 1963,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2023",
+          "text": "完成收购Oak Street Health，切入老年初级保健诊所"
+        }
+      ],
+      "highlights": [
+        "CVS=Aetna保险+零售药房+Oak Street Health诊所的支付-服务-零售闭环",
+        "2023年收购Oak Street Health布局老年初级保健",
+        "（更正）Amedisys于2025年被UnitedHealth/Optum收购，非CVS资产，库内标注有误"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "通过Oak Street Health等深耕老年初级保健与慢病管理"
+    },
+    {
+      "serial": "#0712",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 58.6,
+      "recommend": {
+        "rec_v1": "上市公司信号稳、信息充足；但模式是通用处方药比价，并非老年专营，差异化弱；国内已有同类，借鉴有限，仅价格透明思路可参考。",
+        "rec_v2": "信息公开透明、信号中上，靠折扣卡帮患者省药费间接受益老人；模式无银发专属创新；可抄的是药价透明机制，落地受医保结构影响。",
+        "rec_v3": "高信息量但低差异化，它是普适性用药省钱工具而非银发方案；对国内启示仅在处方比价逻辑，复制壁垒低、专属性弱。",
+        "info_score": 7,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 58.6
+      },
+      "payor_model": "个人自付（处方药省钱）",
+      "business_tags_role": "平台",
+      "desc_cn": "美国处方药比价省钱平台（NASDAQ:GDRX）",
+      "founded": 2011,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2020",
+          "text": "纳斯达克上市（GDRX）"
+        }
+      ],
+      "highlights": [
+        "处方药比价+折扣卡，间接受益于老年用药人群",
+        "上市公司但无银发专项融资事件，以盈利/财报为主",
+        "价格透明模式对国内处方药的借鉴有限（已有同类）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "处方药比价省钱平台，服务老年但非银发专营"
+    },
+    {
+      "serial": "#0810",
+      "signal_strength": 6.55,
+      "info_score": 9,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 70.6,
+      "recommend": {
+        "rec_v1": "被亚马逊收购、信号与信息极强；会员制数字初级保健差异化明显；虽非老年专营但老年占比高，国内可学\"诊所即社区健康入口\"运营。",
+        "rec_v2": "公开资料极丰、信号高，用订阅制把看病变会员服务是反常识点；复制到国内受支付与规模制约，但其便捷就诊体验值得借鉴。",
+        "rec_v3": "高信号高信息背后，是被亚马逊纳入零售生态的初级保健范本；差异化在体验而非人群，国内创业者可参考其门店标准化与数字化。",
+        "info_score": 9,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 70.6
+      },
+      "payor_model": "个人会员费+商业保险",
+      "business_tags_role": "服务商",
+      "desc_cn": "会员制初级保健机构，已被亚马逊收购",
+      "founded": 2007,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2020",
+          "text": "IPO募资2.45亿美元"
+        },
+        {
+          "date": "2023",
+          "text": "被亚马逊收购并退市（纠正库内\"已上市\"标注）"
+        }
+      ],
+      "highlights": [
+        "会员制初级保健+数字化，2023年被亚马逊收购整合进零售/语音生态",
+        "老年用户占比高，主打便利与慢病管理",
+        "诊所即社区健康入口模式对国内社区卫生服务中心有借鉴"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "综合初级保健并非老年专营，但老年用户占比高"
+    },
+    {
+      "serial": "#0840",
+      "signal_strength": 6.55,
+      "info_score": 9,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 70.6,
+      "recommend": {
+        "rec_v1": "北美殡葬龙头、信号与信息极足；差异化在靠并购整合高度分散的临终市场；国内可学连锁化与预付费信托，但文化/牌照差异大。",
+        "rec_v2": "公开透明、信号强，用殡葬信托+预付费做出现金流模型是反常识点；复制受各地殡葬体制约束，其规模化运营思路有借鉴。",
+        "rec_v3": "高信息高信号下，它把\"临终\"做成可并购的标准化生意；对国内启示在连锁服务与金融化预付，属地化管理难直接迁移。",
+        "info_score": 9,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 70.6
+      },
+      "payor_model": "个人自付",
+      "business_tags_role": "运营商",
+      "desc_cn": "北美最大上市殡葬服务公司（NYSE:SCI）",
+      "founded": 1962,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-02",
+          "text": "发布2024Q4财报，营收同比+4%"
+        }
+      ],
+      "highlights": [
+        "北美最大殡葬服务商，2000+设施，年服务30万家庭",
+        "通过并购整合高度分散的临终/殡葬市场",
+        "殡葬信托+预付费模式提供稳定现金流"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "殡葬/临终服务直接对应老年生命周期末端需求"
+    },
+    {
+      "serial": "#0935",
+      "signal_strength": 6.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 63.7,
+      "recommend": {
+        "rec_v1": "日本老年旅游上市公司、信号稳但英文资料薄；差异化在高端活力老人度假产品；国内康养旅游可直接抄其客群分层与产品设计中。",
+        "rec_v2": "信息公开度中等、信号尚可，专做银发旅游是其定位反常识处；可借鉴的是把\"玩\"做成老年刚需产品，落地阻力小。",
+        "rec_v3": "中信号中信息下，它验证了高端老人旅游的上市可行性；差异化清晰、复制性强，国内文旅+养老结合可参考其品类运营。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 6.55,
+        "research_value": 63.7
+      },
+      "payor_model": "个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "日本高端老年旅游上市公司",
+      "founded": 1976,
+      "stage": "已上市",
+      "events": [],
+      "highlights": [
+        "日本高端老年旅游，主打活力老人度假产品",
+        "（注）公开英文资料有限，未见明确融资/并购事件，库内信息待补",
+        "老年旅游产品设计对国内康养旅游有借鉴"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专为老年群体设计的高端旅游产品"
+    },
+    {
+      "serial": "#0938",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 66.7,
+      "recommend": {
+        "rec_v1": "东京上市殡葬信息平台、信息较足；差异化在购墓/殡仪/佛坛一体化+日本邮政合作；国内可学\"殡葬信息撮合+服务\"闭环。",
+        "rec_v2": "公开财报透明、信号稳，把临终服务做成信息平台的思路反常识；可借鉴其与邮政网点合作下沉触达，复制需本土化。",
+        "rec_v3": "中高信息下，它用信息平台整合分散的殡葬需求；差异化在撮合而非重资产，国内创业者可参考其轻资产信息中介模式。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 6.55,
+        "research_value": 66.7
+      },
+      "payor_model": "个人自付",
+      "business_tags_role": "平台",
+      "desc_cn": "日本东京上市殡葬信息平台（6184），购墓殡仪佛坛",
+      "founded": 1979,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-02",
+          "text": "发布第41期财报（FY2024销售额约58亿日元）"
+        },
+        {
+          "date": "2024",
+          "text": "与日本邮政达成殡葬服务战略合作"
+        }
+      ],
+      "highlights": [
+        "东京上市（6184）临终/殡葬信息平台，FY2024销售额约58亿日元",
+        "与日本邮政合作扩大殡葬服务触达",
+        "购墓/殡仪/佛坛一体化，信息撮合+服务闭环"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "殡葬/临终信息服务，对应老年生命周期末端"
+    },
+    {
+      "serial": "#0945",
+      "signal_strength": 6.55,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 8,
+      "research_value": 72.6,
+      "recommend": {
+        "rec_v1": "零售巨头旗下、信号稳信息足；差异化在用家电渠道+Geek Squad做PERS/RPM居家养老；国内家电/零售做银发极可抄。",
+        "rec_v2": "公开资料充分、信号中上，把紧急呼叫与远程监测塞进零售网络是反常识点；复制性强，国内门店渠道可直接借鉴。",
+        "rec_v3": "高差异化高可复制，它证明\"卖电器的也能做养老\"；对国内启示在渠道复用与上门服务，模式轻、落地快。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 8,
+        "signal_strength": 6.55,
+        "research_value": 72.6
+      },
+      "payor_model": "个人自付+医保报销",
+      "business_tags_role": "平台",
+      "desc_cn": "百思买旗下居家健康部门，PERS+RPM+极客 Squad",
+      "founded": 2018,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2021",
+          "text": "收购Current Health补齐远程患者监测（RPM）"
+        }
+      ],
+      "highlights": [
+        "零售巨头百思买旗下，Lively（PERS）+Current Health（RPM）+Geek Squad整合",
+        "用家电零售/上门渠道做居家养老，渠道差异化明显",
+        "老龄化就地养老（aging-in-place）的零售化范本"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家健康与紧急呼叫，直接服务老年人就地养老"
+    },
+    {
+      "serial": "#0946",
+      "signal_strength": 6.55,
+      "info_score": 9,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 70.6,
+      "recommend": {
+        "rec_v1": "美国最大住院康复商、信号与信息极强；差异化在远程康复+数据优化流程；国内可学康复连锁化，但重资产强监管难照搬。",
+        "rec_v2": "公开透明、信号高，用数据分析提效康复流程是反常识点；复制受医疗牌照与资本约束，其标准化运营值得研究。",
+        "rec_v3": "高信息高信号下，它把术后/卒中康复做成连锁生意；对国内启示在康复医院连锁与数据驱动，重资产属性限制快速复制。",
+        "info_score": 9,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 6.55,
+        "research_value": 70.6
+      },
+      "payor_model": "政府医保+商业保险+个人自付",
+      "business_tags_role": "运营商",
+      "desc_cn": "美国最大住院康复服务商（NYSE:EHC）",
+      "founded": 1984,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-04",
+          "text": "发布2024年报：服务约25万患者，出院+8.3%"
+        }
+      ],
+      "highlights": [
+        "美国最大住院康复提供商（NYSE:EHC），2024服务约25万患者",
+        "远程康复+数据分析优化流程，连锁化成熟体系",
+        "2024年调整后自由现金流6.9亿美元，持续扩建康复医院"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "住院康复主要客群为老年术后/卒中患者"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0557",
+      "name": "The Villages",
+      "intro": "美国最大的活力退休社区运营商，以\"生活方式会员\"模式运营55+成人社区，靠社群与设施绑定居民，非上市、由Morse家族控股。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "文娱社交",
+          "reason": "核心是社交/社群运营与活力生活，标签应补文娱社交维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0558",
+      "name": "Riverspring Living",
+      "intro": "纽约大型非营利养老康复机构，专注把AI/VR/机器人等AgeTech转化为可量化的照护ROI，并对外分享落地经验。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构",
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "主打AI/VR/机器人等AgeTech落地，应补科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0647",
+      "name": "BrightSpring Health",
+      "intro": "美国面向复杂慢病与残疾人群的院外医疗与药房服务平台，2024年纳斯达克上市（BTSG），提供居家护理、康复与用药配送。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "医药健康",
+          "reason": "业务含药房配送与慢病用药，应补医药维度标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0654",
+      "name": "Caredoc",
+      "intro": "韩国第一老年护理平台，提供护理信息撮合、护理协调与养老地产（Care Home）运营，累计融资超350亿韩元，计划2027年IPO。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "养老地产",
+          "reason": "已与Invesco合资开发Care Home养老住宅，应补地产维度"
+        },
+        {
+          "action": "add",
+          "tag": "平台",
+          "reason": "信息撮合+护理协调平台属性明显，建议补平台标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0678",
+      "name": "CVS Health",
+      "intro": "美国零售药房巨头，整合Aetna保险、零售药房与Oak Street Health老年初级保健诊所，形成支付-服务-零售闭环。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "诊所"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "医药健康",
+          "reason": "零售药房+药品业务，应补医药标签"
+        },
+        {
+          "action": "add",
+          "tag": "保险支付",
+          "reason": "含Aetna保险业务，应补支付方标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0712",
+      "name": "GoodRx",
+      "intro": "美国处方药比价与折扣平台（NASDAQ:GDRX），帮患者比对药店药价并用折扣卡省钱，间接受益于用药人群。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "药品"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "医药健康",
+          "reason": "处方药比价属医药健康消费，建议补维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0810",
+      "name": "One Medical",
+      "intro": "会员制数字初级保健机构，2023年被亚马逊收购退市，主打便捷就诊与慢病管理，老年用户占比高但非老年专营。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "诊所"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "养老服务→健康服务",
+          "reason": "会员制综合初级保健，并非老年专营，category误标为老年文娱亦应留意"
+        }
+      ]
+    },
+    {
+      "serial": "#0840",
+      "name": "SCI (Service Corporation International)",
+      "intro": "北美最大上市殡葬服务公司（NYSE:SCI），2000+殡葬设施，年服务30万家庭，靠并购整合分散的临终/殡葬市场。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "殡葬"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "运营商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "临终关怀",
+          "reason": "殡葬属临终/末端服务，建议补临终关怀标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0935",
+      "name": "Nikko Travel",
+      "intro": "日本高端老年旅游上市公司，主打活力老人度假产品，公开英文资料有限。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "旅游"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0938",
+      "name": "镰仓新书",
+      "intro": "日本东京上市（6184）殡葬信息平台，提供购墓、殡仪、佛坛等一站式服务，并与日本邮政合作下沉触达。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "殡葬"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "临终关怀",
+          "reason": "殡葬信息平台，建议补临终关怀标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0945",
+      "name": "Best Buy Health",
+      "intro": "百思买旗下居家健康部门，整合Lively（PERS）、Current Health（RPM）与Geek Squad上门服务，服务老年人就地养老。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "远程护理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "PERS/RPM硬件+远程监测，应补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0946",
+      "name": "Encompass Health",
+      "intro": "美国最大住院康复提供商（NYSE:EHC），用远程康复与数据分析优化流程，2024年服务约25万患者，连锁化成熟。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "康复医疗"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "运营商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "用数据分析优化康复流程，可补科技维度"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0712",
+      "name": "GoodRx",
+      "verdict": "泛医疗擦边",
+      "reason": "处方药比价省钱平台，服务老年但非银发专营，银发属性弱"
+    },
+    {
+      "serial": "#0810",
+      "name": "One Medical",
+      "verdict": "泛医疗擦边",
+      "reason": "会员制综合初级保健，并非老年专营，仅老年用户占比高"
+    }
+  ]
+}

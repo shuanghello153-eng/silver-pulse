@@ -1,0 +1,697 @@
+{
+  "batch": 58,
+  "enterprises": [
+    {
+      "serial": "#0485",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，其AgeTech生态连接创业者与资本差异化强；国内可抄其'倡导组织+加速器'模型。",
+        "rec_v2": "披露透明、信号一般，亮点在最大老年组织做创新平台；创业者可学其资源撮合与标杆筛选机制。",
+        "rec_v3": "信息量高、信号弱，差异化在权益组织驱动的银发科创网络；国内协会/媒体可借鉴其生态运营打法。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 48.7
+      },
+      "payor_model": "会员费+基金资助",
+      "business_tags_role": "平台",
+      "desc_cn": "美国最大老年组织旗下AgeTech加速器",
+      "founded": 1958,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "美国最大老年权益组织，会员基数庞大",
+        "AgeTech Collaborative连接创业者、投资人与机构"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "美国最大老年权益组织旗下AgeTech创新平台"
+    },
+    {
+      "serial": "#0487",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息较实，全球老年科技创新网络差异化清晰；国内可抄其峰会+孵化器连接模式。",
+        "rec_v2": "披露尚可、信号一般，亮点在跨国分部与创业社群；创业者可学其'网络+活动'轻资产扩张路径。",
+        "rec_v3": "信息量中、信号弱，其差异化在全球化AgeTech社群；国内可借鉴其城市分会与创投对接机制。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "会员费+活动赞助",
+      "business_tags_role": "平台",
+      "desc_cn": "全球老年科技创新创业网络",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全球性老年科技创新网络",
+        "30+城市分部，定期峰会与孵化器"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "全球性老年科技创新网络，服务银发创业生态"
+    },
+    {
+      "serial": "#0488",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息有限，退休人群再就业与社区参与平台定位新颖、差异化清晰；国内活力老人赛道可借鉴。",
+        "rec_v2": "披露少、信号低，亮点在连接空巢老人与社会机会；创业者可学其终身学习社区留存打法。",
+        "rec_v3": "信息薄、信号一般，差异化在'退休再就业'切口；国内可抄其社区参与+技能匹配轻模式。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "个人会员费",
+      "business_tags_role": "平台",
+      "desc_cn": "虚拟终身学习社区",
+      "founded": 2018,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "退休人群再就业与社区参与平台",
+        "连接空巢老人与社会机会"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "退休人群再就业与社区参与平台服务活力老人"
+    },
+    {
+      "serial": "#0490",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 2,
+      "research_value": 29.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息实，但仅泛布局医疗养老、差异化低；作为通用PE模式难复制，非核心银发。",
+        "rec_v2": "披露透明、信号一般，亮点在多个银发项目投资；但其为综合PE，养老仅财务投资，参考价值有限。",
+        "rec_v3": "信息量高、信号低，差异化弱（泛医疗VC逻辑）；国内宜看其portfolio而非模式，实质非银发核心。",
+        "info_score": 6,
+        "diff_score": 3,
+        "copy_score": 2,
+        "signal_strength": 0.55,
+        "research_value": 29.6
+      },
+      "payor_model": "基金LP出资",
+      "business_tags_role": "投资机构",
+      "desc_cn": "全球PE巨头，布局医疗与养老投资",
+      "founded": 1972,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "全球知名私募，管理规模庞大",
+        "在医疗健康和养老服务领域有布局"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用PE仅财务布局医疗养老，非银发经营主体"
+    },
+    {
+      "serial": "#0491",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 30.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中，车内适老化与辅助驾驶是其老年出行feature、差异化一般；整车厂资源难复制，非银发核心。",
+        "rec_v2": "披露尚可、信号低，亮点在适老设计与安全舒适；但宝马本质车企，老年出行仅为产品特性，参考价值有限。",
+        "rec_v3": "信息量中、信号弱，差异化在辅助驾驶适老；国内可学交互思路，但主体非银发企业，宜判擦边。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 30.6
+      },
+      "payor_model": "个人购车自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "车企适老化设计与辅助驾驶",
+      "founded": 1916,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "车内适老化设计+辅助驾驶技术",
+        "提升老年驾驶者安全与舒适度"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "车企适老化设计仅为产品特性，非银发核心企业"
+    },
+    {
+      "serial": "#0492",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 35.6,
+      "recommend": {
+        "rec_v1": "信号中等、信息较实，退休规划与防诈服务差异化一般；受牌照强约束，国内创业者难直接复制其主体模式。",
+        "rec_v2": "披露透明、信号一般，亮点在老年金融防欺诈；创业者可学其适老财管UX，但银行牌照不可复制。",
+        "rec_v3": "信息量高、信号弱，其差异化在退休账户规模；国内可借鉴防诈与适老投教，主体模式受监管限制。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 35.6
+      },
+      "payor_model": "个人管理费/账户费",
+      "business_tags_role": "服务商",
+      "desc_cn": "全美最大退休账户管理机构之一",
+      "founded": 1904,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "提供退休规划、财富管理、老年防诈",
+        "退休账户管理规模领先"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "退休规划与老年金融防诈，直接服务银发客群"
+    },
+    {
+      "serial": "#0494",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息较实，定制老年居家健身、数据驱动差异化强；国内银发健身蓝海，模式清晰可抄。",
+        "rec_v2": "披露透明、信号一般，亮点在居家场景+个性化训练；创业者可学其远程指导与成效量化模型。",
+        "rec_v3": "信息量高、信号弱，差异化在'健身即预防'定位；国内可借鉴其B2C订阅+B2B保险合作双轨。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人订阅+B端合作",
+      "business_tags_role": "平台",
+      "desc_cn": "定制化老年居家健身方案",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "定制老年居家健身，数据驱动",
+        "头部VC加持，累计融资可观"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "定制老年居家健身方案直接服务银发人群"
+    },
+    {
+      "serial": "#0498",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，护工培训标准化平台差异化强；国内护理人力缺口大，模式清晰可抄。",
+        "rec_v2": "披露透明、信号一般，亮点在在线职业培训对接机构用工；创业者可学其课程+认证+派单闭环。",
+        "rec_v3": "信息量高、信号弱，差异化在护工供给端赋能；国内可复制其B2B机构订阅+合规培训打法。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 45.7
+      },
+      "payor_model": "B端机构采购+个人学费",
+      "business_tags_role": "平台",
+      "desc_cn": "居家照护从业者职业培训",
+      "founded": 2013,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "家庭护理员在线培训平台",
+        "头部机构加持，覆盖数千家家政机构"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "护工职业培训赋能老年照护供给端"
+    },
+    {
+      "serial": "#0499",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，科技护工匹配+保险合作差异化强；国内可学但支付体系异。",
+        "rec_v2": "披露透明、信号一般，亮点在背景核查护工网络；创业者可抄其匹配中台，但美国医保接口难复制。",
+        "rec_v3": "信息量高、信号弱，差异化在'平台+健康险'绑定；国内可借鉴其派单与质量管控，支付侧需本土化。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费+保险支付",
+      "business_tags_role": "平台",
+      "desc_cn": "护工与家庭匹配服务",
+      "founded": 2012,
+      "stage": "被收购",
+      "events": [
+        {
+          "date": "2021",
+          "text": "被Sharecare收购，并入健康险体系"
+        }
+      ],
+      "highlights": [
+        "科技型居家照护匹配平台",
+        "累计提供超百万小时照护"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "科技护工匹配平台服务居家老年照护"
+    },
+    {
+      "serial": "#0502",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息有限，资深人才与非营利代际连接定位新颖、差异化清晰；国内银发人力资源可借鉴。",
+        "rec_v2": "披露少、信号低，亮点在代际价值交换；创业者可学其'经验老人+社会项目'匹配模型。",
+        "rec_v3": "信息薄、信号一般，差异化在代际连接切口；国内可抄其非营利合作与志愿者运营轻模式。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "B端/G端项目采购",
+      "business_tags_role": "平台",
+      "desc_cn": "资深人才与非营利组织匹配、代际连接项目",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "资深人才与非营利组织匹配",
+        "代际连接项目服务活力老人"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "资深人才与代际连接项目服务活力老人"
+    },
+    {
+      "serial": "#0504",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号中等、信息实，老年金融防诈监测差异化强；国内银发反诈需求大，模式可抄。",
+        "rec_v2": "披露透明、信号一般，亮点在实时交易异常识别；创业者可学其'监测+子女告警'产品设计。",
+        "rec_v3": "信息量高、信号弱，差异化在防诈数据安全；国内可借鉴其B端金融机构+个人订阅双收费。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "B端金融机构采购+个人订阅",
+      "business_tags_role": "平台",
+      "desc_cn": "老年金融诈骗监测与防护",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "老年人金融欺诈监测平台",
+        "头部基金加持，累计融资可观"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年金融诈骗监测直接保护银发客群"
+    },
+    {
+      "serial": "#0505",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 2,
+      "research_value": 28.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中，VR适老社交与认知训练仅为平台feature、差异化一般；巨头资源不可复制，非银发核心。",
+        "rec_v2": "披露尚可、信号低，亮点在VR用于老年认知干预；但Meta本质通用平台，参考价值有限宜判擦边。",
+        "rec_v3": "信息量中、信号弱，差异化在VR适老尝试；国内可学交互思路，但主体非银发企业，实质擦边。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 2,
+        "signal_strength": 0.55,
+        "research_value": 28.6
+      },
+      "payor_model": "免费+广告变现",
+      "business_tags_role": "平台",
+      "desc_cn": "VR社交与认知训练，适老防诈",
+      "founded": 2004,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "Oculus VR用于老年社交和认知训练",
+        "推出保护老年用户防诈功能"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "通用社交平台VR适老仅为特性，非银发核心"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0485",
+      "name": "AARP Innovation Labs / AgeTech Collaborative",
+      "intro": "AARP（美国最大老年权益组织）旗下的AgeTech创新加速器，连接银发科创生态。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "行业研究"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "技术服务商→平台",
+          "reason": "实质为创新加速器/生态平台，建议改角色标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0487",
+      "name": "Aging2.0 Collective",
+      "intro": "全球性老年科技创新网络，连接创业者、投资人与养老服务机构。",
+      "old_tags": {
+        "tag_l1": [
+          "行业服务"
+        ],
+        "tag_l2": [
+          "行业研究"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "技术服务商→平台",
+          "reason": "实质为创新网络/平台，建议改角色标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0488",
+      "name": "Amava",
+      "intro": "面向退休人群的虚拟终身学习社区，连接再就业与社区参与机会。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "教育"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0490",
+      "name": "Apax Partners",
+      "intro": "全球知名私募股权投资公司，在医疗健康与养老服务领域有投资布局。",
+      "old_tags": {
+        "tag_l1": [
+          "投资机构"
+        ],
+        "tag_l2": [
+          "产业基金"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→投资机构",
+          "reason": "实质为PE投资机构，角色标签误标"
+        }
+      ]
+    },
+    {
+      "serial": "#0491",
+      "name": "宝马",
+      "intro": "BMW（宝马）在银发领域聚焦老年人出行，通过车内适老化设计与辅助驾驶提升安全。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "智能硬件"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商→产品商",
+          "reason": "宝马为汽车制造商，角色标签应改为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0492",
+      "name": "美国银行",
+      "intro": "美国银行在银发领域提供退休规划、财富管理与老年金融防欺诈服务。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→服务商",
+          "reason": "实为金融服务商，媒体/数据后缀不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0494",
+      "name": "Bold",
+      "intro": "定制化老年居家健身平台，由头部VC投资，主打数据驱动的个性化训练。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "健身"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0498",
+      "name": "CareAcademy",
+      "intro": "面向居家照护从业者的在线职业培训平台，获头部机构投资，覆盖大量家政机构。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工培训"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "职业培训",
+          "reason": "核心为在线职业培训，可与护工培训并列补标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0499",
+      "name": "CareLinx",
+      "intro": "技术型居家照护匹配平台，连接家庭与背景核查的专业照护人员，已被收购整合。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工平台"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "居家护理",
+          "reason": "核心为居家照护人员匹配，建议补标签"
+        },
+        {
+          "action": "change",
+          "tag": "服务商→平台",
+          "reason": "实质为匹配平台，角色标签应改平台"
+        }
+      ]
+    },
+    {
+      "serial": "#0502",
+      "name": "现名 CoGenerate",
+      "intro": "将资深人才与非营利组织匹配、推动代际连接的项目（现名CoGenerate）。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "就业"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商→平台",
+          "reason": "实质为人才匹配平台，建议改角色标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0504",
+      "name": "Eversafe",
+      "intro": "面向老年人的金融诈骗监测与防护平台，获头部基金投资。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体/数据)→平台",
+          "reason": "实质为监测防护平台，媒体/数据后缀不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0505",
+      "name": "Meta",
+      "intro": "Meta通过Oculus VR为老年人提供社交与认知训练，并研究VR认知衰退干预。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "制造商(硬件/设备)→平台",
+          "reason": "Meta核心为社交平台，硬件仅VR分支，角色标签宜改平台"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0490",
+      "name": "Apax Partners",
+      "verdict": "泛医疗擦边",
+      "reason": "通用PE仅财务布局医疗养老，非银发经营主体"
+    },
+    {
+      "serial": "#0491",
+      "name": "宝马",
+      "verdict": "泛医疗擦边",
+      "reason": "车企适老化设计仅为产品特性，非银发核心企业"
+    },
+    {
+      "serial": "#0505",
+      "name": "Meta",
+      "verdict": "泛医疗擦边",
+      "reason": "通用社交平台VR适老仅为特性，非银发核心"
+    }
+  ]
+}

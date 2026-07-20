@@ -1,0 +1,555 @@
+{
+ "batch": 83,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0933",
+   "name": "Ivory",
+   "region": "海外",
+   "category_l1": "失智老人赛道",
+   "category_l2": "病情早筛",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "大脑健康初创公司，覆盖1500万面临痴呆症风险的印度人",
+   "highlights": "覆盖1500万面临痴呆症风险的印度人",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "50万美元",
+    "display": "50万美元 (2024年2月)"
+   },
+   "funding_total": "$1.5M",
+   "investors": [
+    "IIMA Ventures",
+    "Capital A"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ivory",
+   "website_url": "https://www.ivory.io",
+   "business_model": "银发经济企业",
+   "desc_cn": "大脑健康初创公司，覆盖1500万面临痴呆症风险的印度人",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ivory】聚焦产业资本/认知症，覆盖1500万面临痴呆症风险的印度人，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0934",
+   "name": "Khyaal",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "社区"
+   ],
+   "description": "印度老年人超级应用，覆盖300万+老年用户",
+   "highlights": "覆盖300万+老年用户",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "420万美元",
+    "display": "420万美元 (2024年2月)"
+   },
+   "funding_total": "$5.4M",
+   "investors": [
+    "62Ventures",
+    "SVQuad",
+    "Inventus Capital Partners"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Khyaal",
+   "website_url": "https://www.khyaal.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "印度老年人超级应用，覆盖300万+老年用户",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "社区"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Khyaal】聚焦产业资本/文娱社交/行业媒体，覆盖300万+老年用户，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0936",
+   "name": "Partner Agent",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "相亲"
+   ],
+   "description": "日本老年婚介",
+   "highlights": "日本老年婚介",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2006",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Partner%20Agent",
+   "website_url": "https://www.p-a.jp",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "日本老年婚介",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "相亲"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Partner Agent】聚焦文娱社交/行业媒体，日本老年婚介，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0937",
+   "name": "Seniorworld",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "社区"
+   ],
+   "description": "印度规模最大的老年人社区，20万老年人",
+   "highlights": "20万老年人",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Seniorworld",
+   "website_url": "https://www.seniorworld.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "印度规模最大的老年人社区，20万老年人",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "社区"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Seniorworld】聚焦文娱社交，20万老年人，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0939",
+   "name": "Landmark Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "为患有多种慢性病的复杂老年患者群体提供居家医疗服务，隶属于Optum/UHG，被Optum以35亿美元收购",
+   "highlights": "隶属于Optum/UHG",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2013",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Landmark%20Health",
+   "website_url": "https://landmarkhealth.org",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "为患有多种慢性病的复杂老年患者群体提供居家医疗服务，隶属于Optum/UHG，被Optum以35亿美元收购",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Landmark Health】聚焦产业资本/健康管理/居家护理，隶属于Optum/UHG，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0940",
+   "name": "Optum (Home & Community)",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "UHG旗下Optum Home & Community（含Landmark），深度布局老年居家和社区护理，UHG是最大MA提供商",
+   "highlights": "深度布局老年居家和社区护理",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Optum%20%28Home%20%26%20Community%29",
+   "website_url": "https://business.optum.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "UHG旗下Optum Home & Community（含Landmark），深度布局老年居家和社区护理，UHG是最大MA提供商",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Optum (Home & Community)】聚焦专业护理/产业资本/居家护理，深度布局老年居家和社区护理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0941",
+   "name": "DispatchHealth",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "提供上门的紧急和急性护理服务（移动急诊室/居家医院模式），老年人是核心受益者。总融资额约7.3亿美元",
+   "highlights": "老年人是核心受益者。总融资额约7.3亿美元",
+   "funding_latest": null,
+   "funding_total": "$700M",
+   "investors": [
+    "Optum Ventures",
+    "Tiger Global Management",
+    "Alta Partners"
+   ],
+   "founded": "2013",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=DispatchHealth",
+   "website_url": "https://www.dispatchhealth.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "提供上门的紧急和急性护理服务（移动急诊室/居家医院模式），老年人是核心受益者。总融资额约7.3亿美元",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【DispatchHealth】聚焦专业护理/产业资本/居家护理，老年人是核心受益者。总融资额约7.3亿美元，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0942",
+   "name": "Medically Home",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "居家医疗"
+   ],
+   "description": "提供\"居家医院\"技术和服务平台，赋能医疗系统将急性护理转移到家庭，主要服务老年患者。总融资额约2.7-2.8亿美元",
+   "highlights": "赋能医疗系统将急性护理转移到家庭",
+   "funding_latest": null,
+   "funding_total": "$197M",
+   "investors": [
+    "Mayo Clinic",
+    "Connecticut Innovations",
+    "Kaiser Permanente"
+   ],
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Medically%20Home",
+   "website_url": "https://www.medicallyhome.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "提供\"居家医院\"技术和服务平台，赋能医疗系统将急性护理转移到家庭，主要服务老年患者。总融资额约2.7-2.8亿美元",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Medically Home】聚焦产业资本/健康管理/居家护理，赋能医疗系统将急性护理转移到家庭，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0943",
+   "name": "Iora Health",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "诊所"
+   ],
+   "description": "创立之初就专注于老年人(Medicare受益者)的初级保健，强调关系和团队协作。被Amazon通过One Medical以39亿美元收购",
+   "highlights": "强调关系和团队协作。被Amazon通过One Medical以39亿美元收购",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 33,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Iora%20Health",
+   "website_url": "https://www.iorahealth.com",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "创立之初就专注于老年人(Medicare受益者)的初级保健，强调关系和团队协作。被Amazon通过One Medical以39亿美元收购",
+   "business_model_cn": "B2C/B2B 老年健康保险",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Iora Health】聚焦产业资本/保健品/护理平台，强调关系和团队协作。被Amazon通过One Medical以39亿美元收购，B2B+B2C模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0944",
+   "name": "Philips (Lifeline)",
+   "region": "海外",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "紧急呼叫"
+   ],
+   "description": "飞利浦Lifeline是个人紧急响应系统（PERS）的先驱品牌，提供可穿戴紧急呼叫设备和24/7紧急响应服务，2006年飞利浦收购Lifeline Systems。",
+   "highlights": [
+    "PERS紧急响应系统先驱(1974)",
+    "AutoAlert自动跌倒检测",
+    "2006飞利浦收购→2021转手Connect America"
+   ],
+   "funding_latest": {
+    "round": "被收购",
+    "amount": "未披露",
+    "currency": "USD",
+    "date": "2021-07",
+    "display": "被Connect America收购 (2021-07)",
+    "investors": [
+     "Connect America(买方)",
+     "飞利浦保留股权"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "品牌/部门，已被并购"
+   },
+   "investors": [
+    "Connect America",
+    "飞利浦"
+   ],
+   "founded": "1974",
+   "value_score": 42,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Philips%20%28Lifeline%29",
+   "website_url": "https://www.lifeline.philips.com/",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "个人紧急响应系统(PERS)先驱品牌，提供可穿戴紧急呼叫按钮+24/7紧急响应中心服务；1974年成立，2006年被飞利浦收购，2021年转手Connect America（飞利浦保留股权）。",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Philips Lifeline Review (2026): With Costs",
+      "date": "2026-04-02",
+      "source": "Retirement Living",
+      "url": "https://www.retirementliving.com/reviews/philips-lifeline"
+     },
+     {
+      "title": "Lifeline Medical Alert System Review 2026",
+      "date": "2026-04-14",
+      "source": "seniorliving.org",
+      "url": "https://www.seniorliving.org/medical-alert-systems/philips-lifeline/reviews/"
+     }
+    ],
+    "snippets": [
+     "Philips Lifeline is an established medical-alert brand (45+ years serving older adults); no funding/M&A events (Philips division).",
+     "Chinese coverage references 飞利浦 Lifeline With AutoAlert in elderly-tech roundups."
+    ]
+   },
+   "name_cn": "飞利浦（Lifeline）",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "信息中等（品牌历史清晰，但作为飞利浦部门财务不独立），近50年持续运营、模式成熟不反常识。中国PERS/一键呼叫/跌倒报警玩家众多（小米、华为、平安），业务可平移、支付方以个人自付+长护险/政府补贴为主——可作为“老牌PERS如何迭代到跌倒检测+订阅”的对照样本。",
+   "payor_model": "个人自付为主（月付订阅约30-50美元）+ 部分经医院/养老机构渠道推荐（混合）",
+   "signal_strength": 0.55,
+   "info_score": 6,
+   "diff_score": 3,
+   "copy_score": 8,
+   "research_value": 41.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "serial": "#0947",
+   "name": "AccentCare",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "PE大额并购支撑，规模头部。以线下服务交付为主，连锁居家机构标准化运营。2019收购，2018融资3.75亿",
+   "highlights": "规模头部。以线下服务交付为主",
+   "funding_latest": {
+    "round": "已被收购",
+    "display": "已被收购"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1999",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AccentCare",
+   "website_url": "https://www.accentcare.com",
+   "business_model": "B2C/B2B 加盟连锁",
+   "desc_cn": "PE大额并购支撑，规模头部。以线下服务交付为主，连锁居家机构标准化运营。2019收购，2018融资3.75亿",
+   "business_model_cn": "B2C/B2B 加盟连锁",
+   "news_coverage": {
+    "news_count": 1,
+    "news_quality": "matched",
+    "latest_news": [
+     {
+      "title": "AccentCare部署Caribou workforce技术获640% ROI，排班效率提升40%",
+      "url": "https://homehealthcarenews.com/2026/06/how-accentcare-gained-640-roi-with-new-workforce-tech/",
+      "date": "2026-06-29",
+      "source": "Home Health Care News",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": []
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【AccentCare】聚焦专业护理/产业资本/居家护理，规模头部。以线下服务交付为主，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0948",
+   "name": "Right At Home",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "Right at Home是居家护理加盟品牌，提供个人护理、companionship、护理管理等服务，在全美和全球拥有500+加盟点。",
+   "highlights": "居家护理加盟品牌，全球500+加盟点",
+   "funding_latest": {
+    "round": "私营(特许经营)",
+    "display": "私营(特许经营)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "1995",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Right%20At%20Home",
+   "website_url": "https://www.rightathome.net/",
+   "business_model": "B2C/B2B 加盟连锁",
+   "desc_cn": "Right at Home是居家护理加盟品牌，提供个人护理、companionship、护理管理等服务，在全美和全球拥有500+加盟点。",
+   "business_model_cn": "B2C/B2B 加盟连锁",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Right At Home】聚焦专业护理/居家护理，居家护理加盟品牌，全球500+加盟点，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

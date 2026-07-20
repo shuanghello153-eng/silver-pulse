@@ -1,0 +1,592 @@
+{
+  "batch": 19,
+  "enterprises": [
+    {
+      "serial": "#0001",
+      "name": "AgeClub",
+      "signal_strength": 1.55,
+      "info_score": 8.0,
+      "diff_score": 5.0,
+      "copy_score": 6.0,
+      "research_value": 50.6,
+      "recommend": "信号中等（月活触达30万产业从业者但C端弱）；信息透明度高（累计发布千篇深度报告、500份调研）。差异化在「媒体+数据+大会+创投」四件套闭环，壁垒是十年沉淀的700+企业会员与行业信任。国内创业者可借鉴其「先建媒体流量、再变现资源对接」的变现路径，但重内容模式难快速照搬。",
+      "desc_cn": "面向银发产业从业者、创业者与政府园区的B2B服务平台，以产业新媒体(AgeNews)、行业大会(ABI)、创新咨询、产业数据库(AgeData)与早期创投基金五大业务矩阵变现，收入来自企业会员、会议赞助与咨询服务。核心价值在把分散的银发产业信息聚合为可决策的智库与对接网络。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2016,
+      "stage": "天使",
+      "funding_latest": {
+        "date": "2016",
+        "amount": "银创资本投资",
+        "round": "天使轮",
+        "display": "天使轮 银创资本投资 (2016)"
+      },
+      "funding_total": {
+        "amount": "未披露",
+        "display": "累计未披露"
+      },
+      "investors": "银创资本",
+      "highlights": [
+        "国内银发经济头部产业媒体与数据服务平台",
+        "五大业务矩阵：媒体+大会+咨询+数据+创投",
+        "700+企业会员、触达30万+产业从业者，自建银发产业数据库",
+        "2025年作为数据支持方亮相央视CMG银发经济盛典"
+      ],
+      "events": [
+        {"date": "2016", "text": "成立并获银创资本天使轮"},
+        {"date": "2025", "text": "作为数据支持方亮相央视CMG银发经济盛典，发布《2025中国银发生活与消费数据报告》"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注银发产业媒体与数据服务，是中国银发经济基础设施型平台，属核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0017",
+      "name": "小橙",
+      "signal_strength": 1.55,
+      "info_score": 8.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 54.6,
+      "recommend": "信号强（覆盖近60城、2025营收破4.6亿）；信息披露充分（自建数据交易平台、890万+工单）。差异点在把长护险做成「数字化服务商」而非纯护理队，壁垒是180余项知识产权与全流程质控。国内创业者可直接复制其「长护险先行—商保—自费」三级收入结构与智能派单系统落地居家养老。",
+      "desc_cn": "面向失能半失能老人与长护险基金的数字医护康养服务商，以「产品+服务+数字化」模式提供居家/社区/机构护理、辅具租赁与适老化改造；收入来自长护险结算、商业护理险与个人自费三支柱，智能派单与毫米波监测设备支撑全国标准化复制。核心银发价值在把长护险支付转化为可规模化的专业护理交付。",
+      "payor_model": "政府医保(长护险)+个人自付+商业保险",
+      "business_tags_role": "服务商",
+      "founded": 2021,
+      "stage": "成长期",
+      "funding_latest": {
+        "date": "2026-03",
+        "amount": "超亿元",
+        "round": "Pre-B轮",
+        "display": "Pre-B轮 超亿元 (2026-03)"
+      },
+      "funding_total": {
+        "amount": "超亿元",
+        "display": "累计超亿元"
+      },
+      "investors": "中信医疗基金, 银创资本, 中关村中诺基金, 可靠股份",
+      "highlights": [
+        "长护险业务为营收基石，覆盖天津等6区、120社区超8000名失能老人",
+        "2025年营收破4.6亿元，复合增长率连续超50%，业务覆盖全国近60城",
+        "获180余项知识产权，毫米波「非接触式睡眠呼吸记录仪」获二类医疗器械证",
+        "自建康养AI大模型，沉淀890万+标准化服务工单"
+      ],
+      "events": [
+        {"date": "2026-03", "text": "完成超亿元Pre-B轮融资"},
+        {"date": "2025", "text": "集团营收突破4.6亿元，发布居家养老智能体"},
+        {"date": "2026-04", "text": "五周年庆典发布康养AI生态大模型，与智元创新达成合作"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "长护险护理、适老化改造均直接服务老年刚需，且以长护险（政府医保）为核心支付体系，属核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0503",
+      "name": "Everplans",
+      "signal_strength": 1.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 6.0,
+      "research_value": 46.6,
+      "recommend": "信号偏弱（2021被险企收购后无新融资披露）；信息透明度一般（产品逻辑公开但用户规模未更新）。差异点在于用「数字遗产保险箱」做家庭身后事治理，定位独特——不是医疗服务而是文件托管。国内险企可借鉴其把遗产规划嵌入保单增值服务的打法，但中西方继承法律差异大，照搬需重做合规框架。",
+      "desc_cn": "面向中老年及家庭的数字化生前/遗产规划平台，帮用户在线整理遗嘱、保险单、医疗授权等文件并指定「代理人」安全共享；采用B2C订阅+险企雇主B2B分发双轨收费，被National Guardian Life收购后成为其遗产模块。核心价值在把「身后事」标准化可托管，填补老年临终事务数字空白。",
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "founded": 2012,
+      "stage": "被收购",
+      "funding_latest": {
+        "date": "2017-07",
+        "amount": "$5.6M",
+        "round": "Debt",
+        "display": "Debt $5.6M (2017-07)"
+      },
+      "funding_total": {
+        "amount": "$16.4M",
+        "display": "累计$16.4M"
+      },
+      "investors": "Transamerica Ventures, Generator Ventures, Mousse Partners",
+      "highlights": [
+        "数字遗产与临终事务规划平台，被险企收购",
+        "平台累计共享超200万条家庭重要信息，内容被超2000万人阅读",
+        "服务400+保险与金融服务企业，作为保单/员工福利分发"
+      ],
+      "events": [
+        {"date": "2017-07", "text": "完成560万美元债务融资"},
+        {"date": "2021", "text": "被National Guardian Life Insurance收购，成为其数字遗产服务子公司"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "临终/遗产规划直接服务中老年及家庭身后事务，被养老险企收购，属核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0600",
+      "name": "9amHealth",
+      "signal_strength": 1.55,
+      "info_score": 7.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 43.7,
+      "recommend": "信号强（与诺和诺德、Cost Plus Drugs合作、服务多家Fortune 100企业）；信息透明度高（公布12个月减重17.6%等硬指标）。差异在「AI临床工作流+专科药师」压低全龄慢病管理成本，亮点是把雇主药房支出变成利润池。国内创业者可复制其虚拟专科诊所的AI分诊与居家检测闭环，但依赖美国PBM与GLP-1产业链，国内落地需另寻支付方。",
+      "desc_cn": "面向雇主、健康计划与PBM的AI虚拟专科诊所，围绕糖尿病、肥胖、高血压等心代谢慢病提供内分泌科医生、药剂师远程问诊、居家检测与GLP-1药物配送；按会员/服务向B端收费，并为Fortune 100企业实现超5000万美元医疗支出节约。属全龄慢病管理，对老年价值在慢病用药依从性与并发症控制。",
+      "payor_model": "商业保险支付",
+      "business_tags_role": "平台",
+      "founded": 2021,
+      "stage": "B轮",
+      "funding_latest": {
+        "date": "2026-05",
+        "amount": "$26M",
+        "round": "B轮",
+        "display": "B轮 $26M (2026-05)"
+      },
+      "funding_total": {
+        "amount": "$56M",
+        "display": "累计约$56M"
+      },
+      "investors": "Define Ventures (领投), SemperVirens VC, Catalio Capital, 7wire Ventures, Founders Fund, The Cigna Group Ventures",
+      "highlights": [
+        "AI虚拟心代谢慢病诊所，服务雇主、健康计划与PBM",
+        "与诺和诺德、Mark Cuban Cost Plus Drugs、Instacart达成合作",
+        "公布12个月GLP-1用户平均减重17.6%、为两家Fortune 100企业节约超5000万美元支出",
+        "获CDC糖尿病预防项目最高等级(Full Plus)认证"
+      ],
+      "events": [
+        {"date": "2024-02", "text": "完成950万美元A轮扩展（Cigna Group Ventures领投）"},
+        {"date": "2025", "text": "与诺和诺德、Cost Plus Drugs合作扩展肥胖管理可及性"},
+        {"date": "2026-05", "text": "完成2600万美元B轮（Define Ventures领投），拓展至自身免疫等高成本慢病"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "虚拟心代谢慢病诊所主体服务雇主端全龄人群，仅小比例切入Medicare Advantage，非以老年医保为核心支付体系。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0677",
+      "name": "Credo Health",
+      "signal_strength": 1.55,
+      "info_score": 4.0,
+      "diff_score": 4.0,
+      "copy_score": 4.0,
+      "research_value": 32.6,
+      "recommend": "信号中等（已服务多家价值医疗VBC机构）；信息透明度一般（ROI数据公开但客户量未披露）。差异在于专攻Medicare Advantage风险调整场景，用「就诊前AI病历摘要」替代人工追传真，壁垒是HCC编码训练数据。国内医保DRG/DIP改革可借鉴其「病历自动聚合+编码质控」模式，但需对接国内异构HIS与医保结算规则。",
+      "desc_cn": "面向医生、MSO、ACO与健康计划的B2B SaaS，用AI代理抓取各机构病历，生成就诊前病史摘要并识别HCC疑似诊断与护理缺口，支撑Medicare Advantage风险调整与报销；按成功调取记录收费加订阅。核心银发价值在直接服务美国老年医保(Medicare)支付与风控体系。",
+      "payor_model": "B端机构采购",
+      "business_tags_role": "服务商",
+      "founded": 2020,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2024-01",
+        "amount": "525万美元",
+        "round": "种子轮",
+        "display": "种子轮 525万美元 (2024-01)"
+      },
+      "funding_total": {
+        "amount": "$8.25M",
+        "display": "$8.25M"
+      },
+      "investors": "FCA Venture Partners (领投)",
+      "highlights": [
+        "AI病历获取+分析SaaS，专为Medicare Advantage风险调整(HCC/RAF)设计",
+        "PreDx可在就诊前生成完整病史摘要，平均3天、94%病历回收率",
+        "自称12:1 ROI，图表获取成本降低80%+",
+        "接入85000家医疗系统与诊所，覆盖CMS审计合规场景"
+      ],
+      "events": [
+        {"date": "2023-03", "text": "发布PreDx就诊前病历摘要方案，面向Medicare Advantage价值医疗机构"},
+        {"date": "2024-01", "text": "完成525万美元种子轮"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "产品专为Medicare Advantage风险调整(HCC/RAF)设计，直接服务美国老年医保支付与风控体系，属银发基础设施，按V3规则判定为核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0728",
+      "name": "Hedia",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 4.0,
+      "copy_score": 4.0,
+      "research_value": 35.6,
+      "silver_verdict": "泛医疗擦边",
+      "recommend": "信号中等（已与Glooko集成、在11国CE上市）；信息披露较充分（公布12周低血糖风险下降等临床数据）。差异在把胰岛素计算做成获CE认证的SaMD而非普通记录App，定位聚焦「用药决策」而非健康管理。国内糖尿病硬件厂商可借鉴其「算法+医护推荐渠道」打法，但需先过NMPA二类器械审批与医保对接。",
+      "desc_cn": "面向胰岛素依赖型糖尿病患者的IIb类数字疗法(DTx)应用，按血糖、碳水、活动量等个性化输入生成胰岛素剂量建议，经CE认证在11国上市，80%日活来自医护推荐；通过B2B（诊所/保险公司集成Glooko）与B2C订阅双轨变现。属全龄慢病管理，对老年价值在降低低血糖风险、简化用药决策。",
+      "payor_model": "个人自费+商业保险",
+      "business_tags_role": "产品商",
+      "founded": 2016,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2024-03",
+        "amount": "300万欧元",
+        "round": "种子轮",
+        "display": "种子轮 300万欧元 (2024-03)"
+      },
+      "funding_total": "$3M",
+      "investors": "EISMEA, Startupbootcamp Digital Health Berlin",
+      "highlights": [
+        "糖尿病管理数字疗法，获CE认证IIb类医疗器械",
+        "与Glooko集成，将餐时胰岛素计算嵌入远程患者监测平台",
+        "临床研究显示新用户12周低血糖风险下降、亚优化控制者eA1c改善",
+        "B2B模式，80%日活来自医护推荐，留存率高"
+      ],
+      "events": [
+        {"date": "2024-03", "text": "完成300万欧元种子扩展轮，加速商业化"},
+        {"date": "2024", "text": "与Glooko集成方案在欧洲推出，兼容智能胰岛素笔"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_reason": "糖尿病数字疗法服务全龄胰岛素依赖患者，无老年专属定位，属泛医疗。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0754",
+      "name": "Kins",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 37.6,
+      "recommend": "信号中等（获CareFirst旗下基金战略入股、拓展至DC等三州）；信息透明度一般（完课率与NPS亮眼但财务未公开）。差异在「虚拟+面对面」混合而非纯数字MSK，壁垒是licensed理疗师网络与个性化排程。国内康复机构可借鉴其「数字评估前置、线下履约」模式提升完课率，但美国按价值医疗由险企买单，国内落地要靠商保或自费才跑得通。",
+      "desc_cn": "面向全龄肌骨(MSK)疼痛人群的数字化混合理疗机构，以「线上评估+定制化线下/虚拟理疗」组合提供1对1康复，按疗程向商业保险与个人收费；84%完课率、NPS 92，2024获CareFirst旗下基金A轮后拓展至DC/马里兰/弗吉尼亚。属全龄康复医疗，对老年价值在跌倒与关节术后的居家康复可及性。",
+      "payor_model": "商业保险支付+个人自费",
+      "business_tags_role": "服务商",
+      "founded": 2021,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2024-07",
+        "amount": "700万美元",
+        "round": "A轮",
+        "display": "A轮 700万美元 (2024-07)"
+      },
+      "funding_total": "$7M",
+      "investors": "Healthworx (CareFirst), Redesign Health, W Health Ventures, Asahi Kasei Ventures",
+      "highlights": [
+        "数字优先混合理疗，虚拟+面对面1对1康复",
+        "84%完课率、NPS 92，疼痛减轻达行业平均2倍",
+        "获CareFirst旗下Healthworx战略投资，拓展DC/马里兰/弗吉尼亚",
+        "面向价值医疗(payer)交付，降低MSK赔付成本"
+      ],
+      "events": [
+        {"date": "2024-07", "text": "完成700万美元A轮，CareFirst旗下Healthworx战略入股"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "混合理疗服务全龄肌骨疼痛人群，非养老专属，属泛医疗。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0796",
+      "name": "NeoSilver",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 45.7,
+      "recommend": "信号中等（已覆盖1200余家机构、获法国退休金体系背书）；信息披露偏少（用户量未公开）。差异在于把养老文娱活动做成「供给侧平台」而非内容社区，独特在对接法国退休金体系。国内社区养老可借鉴其「审核带领者+家属代约」轻模式快速落地，但法国强福利语境难照搬，需换国内街道/物业合作方。",
+      "desc_cn": "面向法国养老院(EHPAD)与社区长辈的活动预订平台，整合运动、艺术、预防等1200+机构的5000余名带领者，家属可为长辈预约周边文娱康养课程，按活动抽佣+机构订阅收费；被退休金体系(caisse de retraite)支持，定位抗孤独与防失能。核心银发价值在把「精神慰藉/社交」做成可调度服务。",
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "平台",
+      "founded": 2018,
+      "stage": "种子期",
+      "funding_latest": {
+        "date": "2024-09",
+        "amount": "400万欧元",
+        "round": "种子轮",
+        "display": "种子轮 400万欧元 (2024-09)"
+      },
+      "funding_total": "$4.4M",
+      "investors": "Banque des Territoires, Mirova, Polymatter Ventures, Antropia",
+      "highlights": [
+        "法国老年文娱活动预订平台，覆盖1200+养老院与住宅机构",
+        "整合5000余名审核带领者，提供120+主题（运动/艺术/动物疗愈等）",
+        "获法国退休金体系(caisse de retraite)支持，定位抗孤独防失能",
+        "89%受益长者反馈对未来的看法因活动改善"
+      ],
+      "events": [
+        {"date": "2024-09", "text": "完成400万欧元种子扩展轮"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向养老院与长辈的文娱活动与社交防孤独服务，直接服务老年群体，属核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0807",
+      "name": "NourishedRx",
+      "signal_strength": 1.55,
+      "info_score": 5.0,
+      "diff_score": 6.0,
+      "copy_score": 4.0,
+      "research_value": 39.6,
+      "recommend": "信号中等（会员招募年增142%、已接入46家带食品福利的支付方）；信息披露较充分（公布T2DM患者14周HbA1c降1.5点）。差异在坚持「临床整合型FAM平台」而非纯RD聚合或数字自营，亮点是把餐食+教练+社区资源打包。国内慢病管理可借鉴其「营养师主导+本地食材网络」模式，但依赖美国Medicaid/Medicare waiver报销，国内需绑定商保或卫健委试点。",
+      "desc_cn": "面向慢病、孕产、术后人群的「食物即药物」(FAM)平台，由注册营养师定制餐食与食材包，通过健康计划、政府(Medicaid/Medicare)与食品供应商网络分发；按会员项目向B端收费。核心银发价值在经Medicare/Medicaid报销的慢病营养干预，直连美国老年医保支付体系。",
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+      "business_tags_role": "平台",
+      "founded": 2019,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2024",
+        "amount": "未披露",
+        "round": "A轮",
+        "display": "A轮 (2024)"
+      },
+      "funding_total": {
+        "amount": "未披露",
+        "display": "累计未披露（含600万美元种子轮）"
+      },
+      "investors": "S2G Investments, Route 66 Ventures, Connecticut Innovations, PeakBridge, Primetime Partners",
+      "highlights": [
+        "「食物即药物」(FAM)平台，由注册营养师主导定制餐食与食材包",
+        "服务Medicare/Medicaid会员、孕产与术后人群，接入46家带食品福利的支付方",
+        "公布T2DM患者14周HbA1c平均降1.5点且一年后可维持",
+        "2024年会员招募增长142%，通过SOC 2 Type II认证"
+      ],
+      "events": [
+        {"date": "2022", "text": "成立并完成600万美元种子轮"},
+        {"date": "2024", "text": "完成A轮融资，会员招募年增142%"},
+        {"date": "2024-03", "text": "与Alliance Health合作服务北卡过渡社区生活(TCL)项目"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "FAM慢病营养干预经Medicare/Medicaid报销，直接对接美国老年医保与医疗补助支付体系，按V3规则判定为核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0831",
+      "name": "Rest Less",
+      "signal_strength": 1.55,
+      "info_score": 6.0,
+      "diff_score": 6.0,
+      "copy_score": 7.0,
+      "research_value": 48.7,
+      "recommend": "信号强（会员超110万、2025获UKTV媒体换股权并上电视广告）；信息透明度高（用户规模与融资历次公开）。差异在「内容+就业+金融」入口型定位而非单一养老工具，亮点是弱算法、强可信内容契合中老年习惯。国内银发平台可借鉴其「50+招聘筛选+内容建信任」打法，但英国电视渠道红利难复制，国内要靠短视频私域与线下渠道。",
+      "desc_cn": "英国面向50+人群的综合性数字社区，整合再就业（年龄友好雇主招聘）、理财养老金、兴趣学习、旅游、约会等模块，以广告品牌合作、企业招聘服务与金融分佣变现，会员超110万；2025获UKTV媒体换股权投资并投放电视广告。核心价值在把中老年「再就业+生活服务」做成入口型平台。",
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "平台",
+      "founded": 2018,
+      "stage": "成长期",
+      "funding_latest": {
+        "date": "2025",
+        "amount": "未披露",
+        "round": "成长期",
+        "display": "成长期 多轮 (2022-2025)"
+      },
+      "funding_total": {
+        "amount": "超£1900万",
+        "display": "累计超£1900万"
+      },
+      "investors": "MTech Capital, Viola FinTech, UKTV Ventures",
+      "highlights": [
+        "英国面向50+人群发展最快的数字社区，会员超110万",
+        "模块覆盖就业、理财养老金、学习、旅游、约会，弱算法强可信内容",
+        "2023年收购在线活动平台Mirthy与女性生活方式杂志Annabel&Grace",
+        "2025年获UKTV媒体换股权(airtime-for-equity)投资并投放电视广告"
+      ],
+      "events": [
+        {"date": "2018", "text": "公司成立（英国），定位50+再就业与生活方式"},
+        {"date": "2023", "text": "收购Mirthy与Annabel&Grace，补全内容与社交生态"},
+        {"date": "2025-01", "text": "获UKTV Ventures媒体换股权投资，启动电视广告"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "明确面向50+中老年人群的综合生活平台，属核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0841",
+      "name": "Season Health",
+      "signal_strength": 1.55,
+      "info_score": 7.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 43.7,
+      "recommend": "信号中等（已被远程医疗基建商OpenLoop收购、曾深度集成Steward等医疗系统）；信息披露充分（公布高血压与Medicaid营养不安全项目结果）。差异在「医生开食物处方+大型RD网络+福利银行」闭环，壁垒是与医疗系统的深度集成。国内创业者可借鉴其「营养处方化+月度食物积分」模式，但中美支付结构不同，需先接入长护险或商保营养服务才落地。",
+      "desc_cn": "面向慢病患者的「食物即药物」处方平台，医生可开杂货与餐盒「处方」，由注册营养师网络提供1对1营养支持、医疗适配餐食到家与月度食物积分，经Medicare/Medicaid报销；按项目向健康计划收费，2026年4月被远程医疗基建商OpenLoop收购。核心银发价值在对接美国老年医保支付体系的营养干预。",
+      "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+      "business_tags_role": "平台",
+      "founded": 2020,
+      "stage": "被收购",
+      "funding_latest": {
+        "date": "2023-12",
+        "amount": "700万美元",
+        "round": "A轮",
+        "display": "A轮 700万美元 (2023-12)"
+      },
+      "funding_total": {
+        "amount": "$52M",
+        "display": "累计$52M"
+      },
+      "investors": "a16z, Bain Capital Ventures, Ziegler, Inception Health",
+      "highlights": [
+        "「食物即药物」处方平台，医生可开杂货/餐盒处方",
+        "大型注册营养师网络+月度食物积分+福利银行闭环",
+        "与Steward医疗网络合作高血压与Medicaid营养不安全项目",
+        "2026年4月被远程医疗基建商OpenLoop收购"
+      ],
+      "events": [
+        {"date": "2020", "text": "公司成立（Josh Hix与Mustafa Shabib联合创立）"},
+        {"date": "2023-12", "text": "完成700万美元A轮（Inception Health、Ziegler等）"},
+        {"date": "2026-04", "text": "被远程医疗基础设施商OpenLoop收购"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "处方餐/营养服务经Medicare/Medicaid报销，对接美国老年医保与医疗补助支付体系，按V3规则判定为核心银发。",
+      "数据来源": "联网精评"
+    },
+    {
+      "serial": "#0867",
+      "name": "Starling Medical",
+      "signal_strength": 1.55,
+      "info_score": 4.0,
+      "diff_score": 5.0,
+      "copy_score": 4.0,
+      "research_value": 34.6,
+      "recommend": "信号中等（获YC与AARP背书、亮相CES Age Tech）；信息披露一般（试点报销数据公开但量产未披露）。差异在把尿检做成「无感嵌入马桶」的居家监测而非试纸DIY，独特在获Medicare报销的预防性监测定位。国内适老硬件可借鉴其「马桶嵌入式+护理团队兜底」模式，但FDA clearance与医保编码是门槛，国内需先过二类器械与长护险适配。",
+      "desc_cn": "面向反复尿路感染(rUTI)与慢病监测人群的家用尿检设备商，其设备嵌入马桶、每次如厕用光谱+ML扫描尿液并夜间上传护理团队，获Aetna、BCBS及Medicare报销试点；按设备+监测服务向保险与个人收费，正推进FDA clearance。核心银发价值在获Medicare覆盖的适老居家监测硬件。",
+      "payor_model": "政府医保(Medicare)+商业保险+个人自费",
+      "business_tags_role": "产品商",
+      "founded": 2020,
+      "stage": "A轮",
+      "funding_latest": {
+        "date": "2024-09",
+        "amount": "680万美元",
+        "round": "A轮",
+        "display": "A轮 680万美元 (2024-09)"
+      },
+      "funding_total": {
+        "amount": "$825K",
+        "display": "$825K"
+      },
+      "investors": "16 investors (MAGIC Fund, Rebel Fund, YC, AARP, Wellstar Health System)",
+      "highlights": [
+        "家用尿检设备UrinDx嵌入马桶，每次如厕用光谱+ML扫描尿液",
+        "试点获Aetna、BCBS及Medicare报销，护理团队夜间监测预警",
+        "YC W22、AARP背书，亮相CES 2025 Age Tech",
+        "规划扩展慢性肾病与膀胱癌FDA适应症"
+      ],
+      "events": [
+        {"date": "2021", "text": "入选Y Combinator Winter 2022批次"},
+        {"date": "2024-09", "text": "完成A轮融资"},
+        {"date": "2025-01", "text": "亮相CES 2025，展示面向老年人的在厕尿检设备"}
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用尿检设备获Medicare报销，是面向老人的支付体系覆盖的适老居家监测硬件，按V3规则判定为核心银发。",
+      "数据来源": "联网精评"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0001",
+      "name": "AgeClub",
+      "intro": "中国银发产业头部媒体与数据服务平台，覆盖媒体、大会、咨询、数据与创投五大矩阵。",
+      "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["行业研究"], "business_tags": {"customer": "B2B", "role": "服务商"}},
+      "suggested": [
+        {"action": "add", "tag": "产业媒体", "reason": "业务以银发产业媒体AgeNews为核心，单一「行业研究」标签未能覆盖其媒体属性与影响力"}
+      ]
+    },
+    {
+      "serial": "#0017",
+      "name": "小橙",
+      "intro": "天津长护险护理与数字医护康养服务商，覆盖近60城，2025营收破4.6亿。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["居家护理", "适老化"], "business_tags": {"customer": "B2B", "role": "平台"}},
+      "suggested": [
+        {"action": "add", "tag": "长护险", "reason": "长护险业务为集团营收基石与核心定位，应在二级标签显式体现"}
+      ]
+    },
+    {
+      "serial": "#0600",
+      "name": "9amHealth",
+      "intro": "面向雇主与健康计划的AI虚拟心代谢慢病诊所，覆盖糖尿病/肥胖/高血压。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["诊所"], "business_tags": {"customer": "B2B", "role": "服务商"}},
+      "suggested": [
+        {"action": "change", "tag": "数字医疗", "reason": "虚拟心代谢慢病诊所属数字医疗/慢病管理，与「养老服务」标签错配"}
+      ]
+    },
+    {
+      "serial": "#0677",
+      "name": "Credo Health",
+      "intro": "面向VBC机构与Medicare Advantage的AI病历获取与风险调整SaaS。",
+      "old_tags": {"tag_l1": ["行业服务"], "tag_l2": ["AI医疗"], "business_tags": {"customer": "B2B", "role": "服务商"}},
+      "suggested": [
+        {"action": "add", "tag": "医保支付", "reason": "产品专为Medicare Advantage风险调整(HCC/RAF)设计，应体现医保支付/风控属性"}
+      ]
+    },
+    {
+      "serial": "#0728",
+      "name": "Hedia",
+      "intro": "面向胰岛素依赖型糖尿病患者的IIb类数字疗法(DTx)应用。",
+      "old_tags": {"tag_l1": ["食品营养"], "tag_l2": ["糖尿病"], "business_tags": {"customer": "B2B+B2C", "role": "服务商"}},
+      "suggested": [
+        {"action": "change", "tag": "数字医疗", "reason": "糖尿病数字疗法(SaMD)与「食品营养」无关，标签严重错配，应改为数字医疗/数字疗法"}
+      ]
+    },
+    {
+      "serial": "#0754",
+      "name": "Kins",
+      "intro": "面向全龄肌骨疼痛人群的数字化混合理疗机构。",
+      "old_tags": {"tag_l1": ["养老服务"], "tag_l2": ["康复医疗"], "business_tags": {"customer": "B2B+B2C", "role": "服务商"}},
+      "suggested": [
+        {"action": "change", "tag": "医疗服务", "reason": "混合理疗服务全龄人群，非养老专属，「养老服务」一级标签错配"}
+      ]
+    },
+    {
+      "serial": "#0807",
+      "name": "NourishedRx",
+      "intro": "「食物即药物」(FAM)慢病营养平台，服务Medicare/Medicaid会员。",
+      "old_tags": {"tag_l1": ["食品营养"], "tag_l2": ["保健品", "膳食配送"], "business_tags": {"customer": "B2C", "role": "产品商"}},
+      "suggested": [
+        {"action": "del", "tag": "保健品", "reason": "本质是食物即药物(FAM)临床营养干预，非保健品电商，标签误导"},
+        {"action": "add", "tag": "食物即药物", "reason": "FAM是其核心模式与差异化定位，应在标签体现"}
+      ]
+    },
+    {
+      "serial": "#0841",
+      "name": "Season Health",
+      "intro": "「食物即药物」处方餐平台，医生开营养处方、RD网络交付。",
+      "old_tags": {"tag_l1": ["食品营养"], "tag_l2": ["膳食配送"], "business_tags": {"customer": "B2C", "role": "产品商"}},
+      "suggested": [
+        {"action": "add", "tag": "食物即药物", "reason": "「医生开食物处方+福利银行」是其核心模式，应加FAM标签以与单纯膳食配送区分"}
+      ]
+    },
+    {
+      "serial": "#0867",
+      "name": "Starling Medical",
+      "intro": "家用嵌入式尿检设备商，面向rUTI与慢病监测，获Medicare报销试点。",
+      "old_tags": {"tag_l1": ["养老服务", "消费品"], "tag_l2": ["慢病管理", "远程医疗", "智能硬件"], "business_tags": {"customer": "B2B+B2C", "role": "产品商"}},
+      "suggested": [
+        {"action": "del", "tag": "养老服务", "reason": "家用尿检监测面向全龄慢病/泌尿健康，非养老专属，「养老服务」一级标签错配"}
+      ]
+    },
+    {
+      "serial": "#0831",
+      "name": "Rest Less",
+      "intro": "英国50+综合数字社区，覆盖就业、理财、学习、旅游、约会。",
+      "old_tags": {"tag_l1": ["金融保险", "文娱社交"], "tag_l2": ["金融理财", "兴趣社群"], "business_tags": {"customer": "B2B", "role": "平台"}},
+      "suggested": [
+        {"action": "add", "tag": "就业", "reason": "50+再就业/年龄友好雇主招聘是核心模块与B端收入来源，标签缺失"}
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0600",
+      "name": "9amHealth",
+      "verdict": "泛医疗擦边",
+      "reason": "虚拟心代谢慢病诊所主体服务雇主端全龄人群，仅小比例切入Medicare Advantage，非以老年医保为核心支付体系。"
+    },
+    {
+      "serial": "#0728",
+      "name": "Hedia",
+      "verdict": "泛医疗擦边",
+      "reason": "糖尿病数字疗法服务全龄胰岛素依赖患者，无老年专属定位，属泛医疗。"
+    },
+    {
+      "serial": "#0754",
+      "name": "Kins",
+      "verdict": "泛医疗擦边",
+      "reason": "混合理疗服务全龄肌骨疼痛人群，非养老专属，属泛医疗。"
+    }
+  ]
+}

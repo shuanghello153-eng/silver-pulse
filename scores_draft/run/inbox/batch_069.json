@@ -1,0 +1,552 @@
+{
+ "batch": 69,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0663",
+   "name": "ChenMed",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "诊所"
+   ],
+   "description": "Oak Street竞争对手，强调更高医患配比和医生强化培训",
+   "highlights": "强调更高医患配比和医生强化培训",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1985",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=ChenMed",
+   "website_url": "https://www.chenmed.com",
+   "business_model": "B2C 教育/培训",
+   "desc_cn": "Oak Street竞争对手，强调更高医患配比和医生强化培训",
+   "business_model_cn": "B2C 教育/培训",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【ChenMed】聚焦行业媒体，强调更高医患配比和医生强化培训，B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0664",
+   "name": "Ciba Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "慢病管理"
+   ],
+   "description": "通过根本治疗逆转慢性疾病的数字健康",
+   "highlights": "通过根本治疗逆转慢性疾病的数字健康",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "1000万美元",
+    "display": "1000万美元 (2024年5月)"
+   },
+   "funding_total": {
+    "amount": "$21.5M",
+    "display": "$21.5M"
+   },
+   "investors": "DigiTx Partners (领投), Third Culture Capital, E12 Ventures, 3CC Capital, Plug and Play",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ciba%20Health",
+   "website_url": "https://www.cibahealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "通过根本治疗逆转慢性疾病的数字健康",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Ciba Health】聚焦产业资本/健康管理/行业媒体，通过根本治疗逆转慢性疾病的数字健康，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0665",
+   "name": "circleengage",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "CircleEngage（前身 Trusty，2018 年成立）是面向 Medicare 及政府医保的健康险会员管理与互动 SaaS 平台，为健康险公司、FMO 和保险经纪人提供报价投保、CRM、佣金管理与会员留存工具，已签约经纪人数从 1,000 增长至 5 万，累计融资约 1,300 万美元。它持有保险代理牌照，定位为医保销售赋能与会员互动技术商。",
+   "highlights": "为医疗保险公司和经纪人提供销售和运营管理平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=circleengage",
+   "website_url": "https://www.circleengage.ai",
+   "business_model": "B2C/B2B 老年健康保险",
+   "desc_cn": "CircleEngage（前身 Trusty，2018 年成立）是面向 Medicare 及政府医保的健康险会员管理与互动 SaaS 平台，为健康险公司、FMO 和保险经纪人提供报价投保、CRM、佣金管理与会员留存工具，已签约经纪人数从 1,000 增长至 5 万，累计融资约 1,300 万美元。它持有保险代理牌照，定位为医保销售赋能与会员互动技术商。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【circleengage】聚焦保险/健康管理/数字化，为医疗保险公司和经纪人提供销售和运营管理平台，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0668",
+   "name": "Clara Home Care",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "Clara Home Care 是美国长者居家照护对接平台，通过算法和护理顾问将家庭匹配到经过背景核查、持证培训的居家照护人员，并提供 Clara Payroll 代缴薪酬与税费，相比中介节省约 20–40% 费用。服务覆盖美国主要都会区，强调 24 小时响应与快速到岗。",
+   "highlights": "在线平台连接需要居家护理的家庭与护理人员",
+   "funding_latest": {
+    "date": "2025年7月",
+    "amount": "310万美元",
+    "display": "310万美元 (2025年7月)"
+   },
+   "funding_total": {
+    "amount": "$3.1M (Seed)",
+    "display": "$3.1M Seed"
+   },
+   "investors": "Torch Capital (领投)",
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clara%20Home%20Care",
+   "website_url": "https://www.clarahomecare.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "Clara Home Care 是美国长者居家照护对接平台，通过算法和护理顾问将家庭匹配到经过背景核查、持证培训的居家照护人员，并提供 Clara Payroll 代缴薪酬与税费，相比中介节省约 20–40% 费用。服务覆盖美国主要都会区，强调 24 小时响应与快速到岗。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Clara Home Care】聚焦产业资本/居家护理/数字化，在线平台连接需要居家护理的家庭与护理人员，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0670",
+   "name": "Clipboard Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护士派遣"
+   ],
+   "description": "医疗保健配置市场，估值13亿美元",
+   "highlights": "估值13亿美元",
+   "funding_latest": {
+    "amount": "8000万美元",
+    "display": "8000万美元"
+   },
+   "funding_total": "$90M (截至2022年)",
+   "investors": [
+    "Sequoia Capital",
+    "IVP (Institutional Venture Partners)",
+    "Y Combinator",
+    "Initialized Capital",
+    "Alexis Ohanian",
+    "Liquid 2 Ventures",
+    "Michael Seibel",
+    "Muse Capital",
+    "Oyster Ventures"
+   ],
+   "founded": "2017",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Clipboard%20Health",
+   "website_url": "https://www.clipboardhealth.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "医疗保健配置市场，估值13亿美元",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士派遣"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Clipboard Health】聚焦产业资本/保健品/健康管理，估值13亿美元，B2B模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0671",
+   "name": "Cloud DX",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "可穿戴监测",
+    "慢病管理"
+   ],
+   "description": "Cloud DX 是加拿大远程患者监测(RPM)设备与软件公司，持有 FDA 注册与加拿大卫生部许可，其 Connected Health™ 平台包含血压计、血氧仪等生命体征硬件、医生仪表盘与远程问诊，用于慢病、术后及安宁期居家管理，帮助长者原居安老。为 Medtronic、Teladoc 等提供 RPM，据称用户满意度 89–100%。",
+   "highlights": "虚拟管理慢性病",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "280万美元",
+    "display": "280万美元 (2024年4月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cloud%20DX",
+   "website_url": "https://www.clouddx.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Cloud DX 是加拿大远程患者监测(RPM)设备与软件公司，持有 FDA 注册与加拿大卫生部许可，其 Connected Health™ 平台包含血压计、血氧仪等生命体征硬件、医生仪表盘与远程问诊，用于慢病、术后及安宁期居家管理，帮助长者原居安老。为 Medtronic、Teladoc 等提供 RPM，据称用户满意度 89–100%。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "康复辅具",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "可穿戴监测",
+    "慢病管理"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cloud DX】聚焦产业资本/数字化/行业媒体，虚拟管理慢性病，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0672",
+   "name": "CoachCare",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "远程患者监控、慢性病管理和远程治疗监控",
+   "highlights": "远程患者监控、慢性病管理和远程治疗监控",
+   "funding_latest": {
+    "date": "2024年12月",
+    "amount": "1100万美元",
+    "display": "1100万美元 (2024年12月)"
+   },
+   "funding_total": {
+    "amount": "$11M",
+    "display": "$11M"
+   },
+   "investors": "Catalyst Investors",
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CoachCare",
+   "website_url": "https://www.coachcare.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "远程患者监控、慢性病管理和远程治疗监控",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【CoachCare】聚焦产业资本/慢病管理/远程医疗，远程患者监控、慢性病管理和远程治疗监控，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0673",
+   "name": "Cohere Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "AI医疗"
+   ],
+   "description": "Cohere Health 是面向健康险公司的临床智能 SaaS 平台，用经临床训练的负责任 AI 自动化事前授权(prior authorization)与支付准确性审核，可实时自动批准最高 90% 的申请、降低约 47% 管理成本。服务 Humana、Geisinger 等，年处理超 1,200 万次事前授权，连续多年入选 Gartner 医保支付方 Hype Cycle。",
+   "highlights": "AI简化健康计划和提供商的事先授权",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "5000万美元",
+    "display": "5000万美元 (2024年2月)"
+   },
+   "funding_total": "$213M (截至2025年5月)",
+   "investors": [
+    "Temasek Holdings",
+    "Define Ventures",
+    "Flare Capital Partners",
+    "T. Rowe Price",
+    "Amgen Ventures",
+    "Deerfield Management"
+   ],
+   "founded": "2019",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Cohere%20Health",
+   "website_url": "https://coherehealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "Cohere Health 是面向健康险公司的临床智能 SaaS 平台，用经临床训练的负责任 AI 自动化事前授权(prior authorization)与支付准确性审核，可实时自动批准最高 90% 的申请、降低约 47% 管理成本。服务 Humana、Geisinger 等，年处理超 1,200 万次事前授权，连续多年入选 Gartner 医保支付方 Hype Cycle。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Cohere Health Secures $90M Series C to Expand AI-Powered Platform",
+      "date": "2025-05-14",
+      "source": "Cohere Health",
+      "url": "https://www.coherehealth.com/news/cohere-health-90m-series-c-ai-platform-expansion"
+     },
+     {
+      "title": "Cohere Health推出Cohere Align 智能预授权机制",
+      "date": "2025-03-25",
+      "source": "动脉网",
+      "url": "https://www.vbdata.cn/intelDetail/694762"
+     }
+    ],
+    "snippets": [
+     "Cohere Health为健康计划提供AI临床智能与预授权（prior authorization）平台，2025年5月完成9000万美元C轮。",
+     "服务于医保支付方与风险承担型供应商，间接提升老年医保理赔效率。"
+    ]
+   },
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "AI医疗"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Cohere Health】聚焦产业资本/文娱社交，AI简化健康计划和提供商的事先授权，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0674",
+   "name": "Compassus",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "临终关怀",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "Compassus 是美国全国性居家照护提供商，提供临终关怀(hospice)、居家医疗、居家输液与姑息治疗，持有 Medicare 认证，在 31 个州拥有 150+ 个服务机构。公司源于 1979 年的临终关怀业务，强调以患者住所为中心、由跨学科团队提供身心社灵照护。",
+   "highlights": "提供家庭保健、输液治疗、姑息治疗和临终关怀",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2006",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Compassus",
+   "website_url": "https://www.compassus.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Compassus 是美国全国性居家照护提供商，提供临终关怀(hospice)、居家医疗、居家输液与姑息治疗，持有 Medicare 认证，在 31 个州拥有 150+ 个服务机构。公司源于 1979 年的临终关怀业务，强调以患者住所为中心、由跨学科团队提供身心社灵照护。",
+   "business_model_cn": "B2C/B2B 临终关怀与安宁疗护",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Compassus】聚焦临终关怀，提供家庭保健、输液治疗、姑息治疗和临终关怀，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0679",
+   "name": "Daffodil Health",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "生成式AI为付款人自动化网络外定价",
+   "highlights": "生成式AI为付款人自动化网络外定价",
+   "funding_latest": {
+    "amount": "460万美元",
+    "display": "460万美元"
+   },
+   "funding_total": {
+    "amount": "$16.3M (Series A)",
+    "display": "$16.3M Series A"
+   },
+   "investors": "Flare Capital Partners (领投), LRVHealth, Maverick Ventures",
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Daffodil%20Health",
+   "website_url": "https://www.daffodilhealth.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "生成式AI为付款人自动化网络外定价",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Daffodil Health】聚焦产业资本/文娱社交，生成式AI为付款人自动化网络外定价，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0680",
+   "name": "DarioHealth",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "慢病管理",
+   "tags": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "description": "DarioHealth（纳斯达克:DRIO）是数字疗法(DTx)公司，提供覆盖糖尿病、高血压、体重、肌骨与行为健康的多慢病平台，含智能血糖仪/血压计等联网设备、App 与一对一教练。以 B2B2C 模式服务健康险与公司雇主，发表 100+ 篇同行评审研究，为客户带来最高 5 倍 ROI、人均年省约 5,077 美元。",
+   "highlights": "多慢性病数字疗法平台",
+   "funding_latest": {
+    "date": "2024年2月",
+    "amount": "2240万美元",
+    "display": "2240万美元 (2024年2月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=DarioHealth",
+   "website_url": "https://www.dariohealth.com",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "DarioHealth（纳斯达克:DRIO）是数字疗法(DTx)公司，提供覆盖糖尿病、高血压、体重、肌骨与行为健康的多慢病平台，含智能血糖仪/血压计等联网设备、App 与一对一教练。以 B2B2C 模式服务健康险与公司雇主，发表 100+ 篇同行评审研究，为客户带来最高 5 倍 ROI、人均年省约 5,077 美元。",
+   "business_model_cn": "B2B/B2C 慢病管理服务",
+   "tag_l1": [
+    "食品营养",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "糖尿病",
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【DarioHealth】聚焦产业资本/慢病管理，多慢性病数字疗法平台，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0681",
+   "name": "Daughterhood",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "兴趣社群",
+    "照护支持"
+   ],
+   "description": "Daughterhood 是由老龄化政策专家 Anne Tumlinson 于 2015 年创立的非营利社群，专为照顾年迈父母等家人的家属（尤其女性）提供支持。通过免费的线上互助小组(Circles)、播客、博客与资源库，陪伴照护者从确诊、日常照护到临终及照护后的全过程，强调'你不是一个人'。它属于照护者教育与互助社区，而非商业产品。",
+   "highlights": "书籍推荐",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 32,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Daughterhood",
+   "website_url": "https://daughterhood.org",
+   "business_model": "B2C 社交娱乐平台",
+   "desc_cn": "Daughterhood 是由老龄化政策专家 Anne Tumlinson 于 2015 年创立的非营利社群，专为照顾年迈父母等家人的家属（尤其女性）提供支持。通过免费的线上互助小组(Circles)、播客、博客与资源库，陪伴照护者从确诊、日常照护到临终及照护后的全过程，强调'你不是一个人'。它属于照护者教育与互助社区，而非商业产品。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "文娱社交",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "兴趣社群",
+    "照护支持"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Daughterhood】聚焦文娱社交，书籍推荐，B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

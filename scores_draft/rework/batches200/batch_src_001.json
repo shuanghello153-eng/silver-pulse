@@ -1,0 +1,2493 @@
+[
+ {
+  "serial": "#0810",
+  "name": "One Medical",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+   "诊所"
+  ],
+  "description": "会员制初级保健机构，2023年被亚马逊收购",
+  "highlights": [
+   "会员制+年费+保险，数字化便捷门诊",
+   "2023年被亚马逊收购，并入其健康生态",
+   "虚拟+到店全科，覆盖含老人在内全龄人群"
+  ],
+  "funding_latest": {
+   "date": "2020年",
+   "amount": "2.45亿美元",
+   "round": "IPO",
+   "display": "IPO 2.45亿美元 (2020年)"
+  },
+  "funding_total": "$3.9B",
+  "investors": "Amazon (acquirer); pre-acquisition VCs",
+  "founded": 2007,
+  "value_score": 32,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=One%20Medical",
+  "website_url": "https://www.onemedical.com",
+  "business_model": "B2C 社交娱乐平台",
+  "desc_cn": "会员制数字化初级保健平台，靠年费会员与保险覆盖提供虚拟+到店全科服务，2023年被亚马逊以约39亿美元收购并入其健康生态。收入来自会员年费、商业保险(含Medicare Advantage)与B端企业健康合约。银发关联在覆盖含老人在内的全龄人群，但需叠加慢病管理才更贴银发场景。",
+  "business_model_cn": "B2C 社交娱乐平台",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "诊所"
+  ],
+  "business_tags": {
+   "customer": "B2C",
+   "role": "平台",
+   "channel": []
+  },
+  "stage": "被收购",
+  "recommend": {
+   "rec_v1": "被亚马逊以约39亿美元收购的会员制数字初级保健平台，信披极强；靠年费会员与保险覆盖提供虚拟+到店全科，信号与信息足。",
+   "rec_v2": "差异化在把看病变成会员订阅服务、以数字化便捷就诊体验取胜；覆盖含老人在内全龄人群，但非老年专营定位。",
+   "rec_v3": "可复制的是门店标准化与数字化运营；会员制体验虽好，但受美国支付与规模制约，叠加慢病管理才更贴银发场景。",
+   "info_score": 9,
+   "diff_score": 6,
+   "copy_score": 6,
+   "signal_strength": 6.55,
+   "research_value": 70.6
+  },
+  "payor_model": "个人自费+医保",
+  "signal_strength": 6.55,
+  "info_score": 9.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 70.6,
+  "events": [
+   {
+    "date": "2023",
+    "text": "被亚马逊以约39亿美元收购"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "会员制数字化全科初级保健，服务全龄含老人但业务非银发专属，属泛医疗擦边。",
+  "name_cn": "One Medical",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0267",
+    "name": "瑞尔齿科",
+    "overlap_l2": [
+     "诊所"
+    ]
+   },
+   {
+    "serial": "#0303",
+    "name": "美呀植牙",
+    "overlap_l2": [
+     "诊所"
+    ]
+   },
+   {
+    "serial": "#0349",
+    "name": "通策医疗",
+    "overlap_l2": [
+     "诊所"
+    ]
+   },
+   {
+    "serial": "#0383",
+    "name": "鼎植口腔",
+    "overlap_l2": [
+     "诊所"
+    ]
+   },
+   {
+    "serial": "#1382",
+    "name": "无锡市第二人民医院",
+    "overlap_l2": [
+     "诊所"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0840",
+  "name": "SCI (Service Corporation International)",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "殡葬"
+  ],
+  "description": "美国最大的上市殡葬服务公司，2000+殡葬设施，每年服务30万家庭",
+  "highlights": [
+   "北美最大殡葬服务商，2000+设施、年服务30万家庭",
+   "预付费(pre-need)保险/信托锁定终身需求",
+   "NYSE上市，规模与品牌护城河显著"
+  ],
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "founded": 1962,
+  "value_score": 48,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SCI%20%28Service%20Corporation%20International%29",
+  "website_url": "https://www.sci-corp.com",
+  "business_model": "上市企业",
+  "desc_cn": "北美最大殡葬与墓园连锁服务商，运营2000余处设施、年服务约30万家庭。收入来自殡葬/墓园服务收费与预付费(pre-need)保险/信托锁定终身需求，NYSE上市。银发价值在把终老消费做成全国连锁+预付费锁客的规模化生意，对应国内殡葬公益化、标准化程度低的缺口。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 5,
+   "news_quality": "low",
+   "latest_news": [
+    {
+     "title": "Service Corporation International Announces Q4 2024 Results",
+     "date": "2025-02-12",
+     "source": "StockTitan",
+     "url": "https://www.stocktitan.net/news/SCI/service-corporation-international-announces-fourth-quarter-2024-c9b8atdkciwa.html"
+    }
+   ],
+   "snippets": [
+    "Largest North American deathcare provider (NYSE: SCI).",
+    "Q4 2024 revenue +4%; earnings, no major funding/M&A in 2024-25."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "殡葬"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "北美最大殡葬与墓园连锁(NYSE:SCI)，运营2000余处设施、年服务约30万家庭，信披极透明、信号强且信息厚度足。",
+   "rec_v2": "差异化在靠并购整合高度分散的临终市场，并以预付费(pre-need)保险/信托锁定终身需求，做出强现金流模型。",
+   "rec_v3": "可复制的是连锁化运营与金融化预付思路；但殡葬属地化管理、文化与牌照差异大，规模化与信托模式难直接迁移。",
+   "info_score": 9,
+   "diff_score": 7,
+   "copy_score": 5,
+   "signal_strength": 6.55,
+   "research_value": 70.6
+  },
+  "payor_model": "个人自费",
+  "signal_strength": 6.55,
+  "info_score": 9.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 70.6,
+  "events": [
+   {
+    "date": "2025-02",
+    "text": "发布2024 Q4财报，营收同比+4%"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "北美最大殡葬连锁服务商，把终老消费做成全国连锁加预付费锁客的规模化生意，属核心银发。",
+  "name_cn": "SCI (Service Corporation International)",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0003",
+    "name": "乐湾",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0004",
+    "name": "优享陪诊",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0009",
+    "name": "南京新百",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0010",
+    "name": "博斯腾",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0014",
+    "name": "安护通",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0946",
+  "name": "Encompass Health",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+   "康复医疗"
+  ],
+  "description": "上市公司(EHC)，数十亿营收。远程康复、数据分析优化流程，成熟连锁医疗服务体系。海量老年康复/居家患者",
+  "highlights": [
+   "全美最大住院康复(IRF)提供商，2024年服务约25万患者",
+   "远程康复+数据分析优化照护流程",
+   "成熟连锁体系，并拓展居家健康与临终关怀"
+  ],
+  "funding_latest": {
+   "round": "上市公司",
+   "display": "上市公司"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1984,
+  "value_score": 48,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Encompass%20Health",
+  "website_url": "https://www.encompasshealth.com",
+  "business_model": "上市企业",
+  "desc_cn": "全美最大住院康复(IRF)连锁提供商，2024年服务约25万患者，以远程康复与数据分析优化照护流程，并拓展居家健康与临终关怀。收入来自政府医保(Medicare)、商业保险与个人自付。银发价值在面向老年康复需求把住院康复做成全国连锁，并延伸至居家，对应国内康复支付与床位供给不足的缺口。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 5,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "Encompass Health 2024 Annual Report",
+     "date": "2025-04-01",
+     "source": "SEC/q4cdn",
+     "url": "https://s203.q4cdn.com/714480614/files/doc_financials/2024/ar/EHC-2024-Annual-Report-and-Proxy.pdf"
+    }
+   ],
+   "snippets": [
+    "Largest US inpatient rehab provider (NYSE: EHC); 2024 cared ~250,000 patients, +8.3% discharges.",
+    "$690M adjusted free cash flow; expanding IRF capacity."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "康复医疗"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "全美最大住院康复(IRF)连锁(EHC)，2024年服务约25万患者、出院量同比+8.3%，年报透明、信号强且信息量极大。",
+   "rec_v2": "差异化在远程康复+数据分析优化照护流程，并延伸至居家健康与临终关怀；把术后/卒中康复做成全国连锁生意。",
+   "rec_v3": "可复制的是康复医院连锁化与数据驱动提效思路；但重资产、强监管、依赖美国医保，整体难平移，宜拆解其运营标准。",
+   "info_score": 9,
+   "diff_score": 7,
+   "copy_score": 5,
+   "signal_strength": 6.55,
+   "research_value": 70.6
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 6.55,
+  "info_score": 9.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 70.6,
+  "events": [
+   {
+    "date": "2025-04",
+    "text": "发布2024年报，住院康复出院量同比+8.3%"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "面向老年康复需求的全美最大住院康复连锁，并延伸至居家与临终关怀，属核心银发。",
+  "name_cn": "Encompass Health",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0045",
+    "name": "鹤灵医疗",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0066",
+    "name": "东方华康",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0090",
+    "name": "优复门诊",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0171",
+    "name": "尊术医疗",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   },
+   {
+    "serial": "#0188",
+    "name": "康爱医疗",
+    "overlap_l2": [
+     "康复医疗"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0009",
+  "name": "南京新百",
+  "region": "国内",
+  "category_l1": "产业资本",
+  "category_l2": "相关上市公司",
+  "tags": [
+   "养老机构"
+  ],
+  "description": "A股上市公司（600682），旗下拥有安康通、Natali、禾康养老等品牌，是国内领先的养老服务运营企业，业务覆盖居家养老、社区养老和机构养老。",
+  "highlights": [
+   "旗下安康通以长护险服务为核心，2025H1中标105个项目同比+28%",
+   "服务超2800万老年用户，承建运营400余个政府重点项目",
+   "以色列Natali高端养老与英国护理平台国际化布局",
+   "2025年领投得印科技，布局AI养老机器人"
+  ],
+  "funding_latest": {
+   "date": "上市",
+   "amount": "A股上市（600682）",
+   "round": "IPO",
+   "display": "IPO A股上市（600682） (上市)"
+  },
+  "funding_total": {
+   "amount": "A股上市公司",
+   "display": "累计A股上市公司"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1952,
+  "value_score": 43,
+  "source": "中国企业图谱(许之怿)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%97%E4%BA%AC%E6%96%B0%E7%99%BE",
+  "website_url": "http://www.sanpowergroup.com/investor/nanjing_new.html",
+  "business_model": "上市企业",
+  "name_cn": "南京新百",
+  "desc_cn": "全国性综合养老服务运营商，以'医康养护育'一体化构建15分钟养老服务圈，面向各地政府提供智慧养老系统、长护险服务、居家社区机构养老整体解决方案。收入来自政府养老项目服务费、长护险运营结算及高端私人护理会员费。银发价值在于以规模化政府合作网络直接触达失能及独居老年群体。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 6,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "南京新百半年营收32亿,养老业务增速超27%",
+     "date": "2025-09-01",
+     "source": "金融界",
+     "url": "https://m.jrj.com.cn/madapter/finance/2025/09/01171752848838.shtml"
+    },
+    {
+     "title": "双线布局养老产业 南京新百掘金银发经济",
+     "date": "2025-11-30",
+     "source": "sohu",
+     "url": "https://www.sohu.com/a/960008305_120142825"
+    }
+   ],
+   "snippets": [
+    "600682; 2025H1养老业务增速>27%, 居家/社区/机构全场景.",
+    "健康养老+生物免疫+商业四大业务."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老机构"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "南京新百养老信号来自A股披露与政府采购：旗下安康通2025上半年中标长护险项目105个同比增28%、服务超2800万老年用户，是完整养老运营样本。",
+   "rec_v2": "它用政府长护险运营加以色列Natali高端照护加AI养老机器人三层组合，把居家社区机构养老做成可复制交付网络，差异化在政企协同的规模化能力。",
+   "rec_v3": "中小团队难搬其政府资源，但可学长护险服务运营商定位：以政府结算为锚做居家照护，比纯C端会员更稳，国内多地长护险扩面正释放窗口。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 6.55,
+  "info_score": 8.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 69.7,
+  "events": [
+   {
+    "date": "2025-09-01",
+    "text": "半年营收32亿，养老业务增速超27%"
+   },
+   {
+    "date": "2025-11-30",
+    "text": "双线布局养老产业，掘金银发经济"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "南京新百通过安康通以长护险为核心运营居家社区机构养老，服务超2800万老年用户并布局AI养老机器人，是核心银发服务运营商。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0076",
+    "name": "九如城",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   },
+   {
+    "serial": "#0105",
+    "name": "光大养老",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   },
+   {
+    "serial": "#0116",
+    "name": "华润维麟",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   },
+   {
+    "serial": "#0146",
+    "name": "天壹智慧",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   },
+   {
+    "serial": "#0161",
+    "name": "安养帮",
+    "overlap_l2": [
+     "养老机构"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0091",
+  "name": "优必选",
+  "region": "国内",
+  "category_l1": "养老用品",
+  "category_l2": "肢体障碍",
+  "tags": [
+   "人形机器人"
+  ],
+  "description": "优必选科技是人形机器人和智能机器人研发商，在养老陪护机器人、康复训练机器人领域有布局，已在港交所上市。",
+  "highlights": [
+   "与麦迪科技合资发布'优麦机器人·康养版'",
+   "融合人形机器人硬件与CGA老年综合评估体系",
+   "覆盖居家/社区/机构养老的健康数据采集与风险预警"
+  ],
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "founded": 2012,
+  "value_score": 43,
+  "source": "中国企业图谱(许之怿)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E4%BC%98%E5%BF%85%E9%80%89",
+  "website_url": "https://www.ubtrobot.com/cn",
+  "business_model": "上市企业",
+  "name_cn": "优必选",
+  "desc_cn": "智能机器人研发商，与麦迪科技/优必选合资推出'优麦机器人·康养版'，融合人形机器人硬件与CGA老年综合评估体系，覆盖居家社区机构健康数据采集与风险预警。收入来自机器人设备销售及与医疗机构的合资运营。银发价值在于以康养陪护机器人填补养老照护人力缺口。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 6,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "麦迪科技联合优必选全球首发优麦康养机器人",
+     "date": "2026-07-01",
+     "source": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/csjzbj/2026-07-01/doc-inifhvwq4159972.shtml"
+    },
+    {
+     "title": "银发快讯：华为、优必选推动人形机器人家庭场景落地",
+     "date": "2025-05-15",
+     "source": "今日头条",
+     "url": "https://www.toutiao.com/article/7504332250838778394/"
+    }
+   ],
+   "snippets": [
+    "优必选推出智慧康养机器人及云平台，覆盖机构运营、生活护理、安全保障、记忆照护等。",
+    "2026年与麦迪科技合资发布“优麦机器人·康养版”，面向居家/社区/机构养老。"
+   ]
+  },
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "人形机器人"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "产品商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "优必选信号来自上市与合资：2026年与麦迪科技合资发布优麦机器人康养版，融合人形硬件与CGA老年综合评估，覆盖居家社区机构健康数据采集。",
+   "rec_v2": "它把通用人形机器人落到康养陪护与风险评估具体场景，差异化在硬件加评估体系加云平台一体化，而非空泛展示，是国内康养机器人少有的产品化落子。",
+   "rec_v3": "人形机器人造价与场景适配门槛高，但机构端优先、再下沉家庭的切入顺序可学，中小团队可先以单功能陪护设备对接养老院验证需求。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 6.55,
+  "info_score": 8.0,
+  "diff_score": 8.0,
+  "copy_score": 5.0,
+  "research_value": 69.7,
+  "events": [
+   {
+    "date": "2026-07-01",
+    "text": "联合麦迪科技发布优麦康养机器人"
+   },
+   {
+    "date": "2025-05-15",
+    "text": "推动人形机器人家庭场景落地"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "优必选与麦迪科技合资推出优麦康养机器人，融合人形硬件与CGA老年评估，面向养老陪护场景，属核心银发智能硬件。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1063",
+    "name": "乐聚机器人",
+    "overlap_l2": [
+     "人形机器人"
+    ]
+   },
+   {
+    "serial": "#1068",
+    "name": "达闼机器人",
+    "overlap_l2": [
+     "人形机器人"
+    ]
+   },
+   {
+    "serial": "#1086",
+    "name": "朗毅机器人",
+    "overlap_l2": [
+     "人形机器人"
+    ]
+   },
+   {
+    "serial": "#1088",
+    "name": "骅羲智能",
+    "overlap_l2": [
+     "人形机器人"
+    ]
+   },
+   {
+    "serial": "#1114",
+    "name": "银河通用",
+    "overlap_l2": [
+     "人形机器人"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Benesse",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "教育+养老",
+  "tags": [
+   "教育"
+  ],
+  "description": "日本教育与原日生(老年照护)集团，东京证交所上市，业务横跨儿童教育与高龄者照护(护理规划中心、养老住宅)。",
+  "highlights": [
+   "日本'教育+养老'跨代融合，运营360+养老设施(2025)",
+   "自研'神AI'护理辅助系统，入选联合国SDGs优秀案例",
+   "高端养老社区Aria护国寺全面部署传感器+AI护理"
+  ],
+  "funding_latest": {
+   "date": "1955",
+   "amount": "上市公司(东证:9783)",
+   "round": "上市",
+   "display": "上市公司 东证:9783 (1955)"
+  },
+  "funding_total": {
+   "amount": "未披露",
+   "display": "累计未披露"
+  },
+  "investors": "公共市场",
+  "founded": 1955,
+  "value_score": 67,
+  "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Benesse",
+  "website_url": "https://www.benesse.co.jp",
+  "business_model": "B2C/B2B 教育+高龄照护，会员与服务机构收费",
+  "name_cn": "Benesse｜倍乐生",
+  "desc_cn": "运营360余处养老设施与儿童教育机构，主打'老幼共托'社区综合体与居家照护服务。收入来自介护保险给付、B2C会员费及B2B机构合作。核心银发价值在跨代融合照护模式——以统一会员体系串联全生命周期服务，并以自研'神AI'护理辅助系统与数字化护理记录提升照护效率，对应国内'一老一小'服务整合缺口。",
+  "business_model_cn": "B2C/B2B 教育与高龄照护，会员与服务机构收费",
+  "serial": "#1174",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "教育"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "日本上市集团Benesse运营360余处养老设施，自研'神AI'护理系统入选联合国SDGs，教育+养老跨界信息披露充分。",
+   "rec_v2": "Benesse把教育IP与介护网络打包成'老幼共托'会员体系，跨代融合在社区综合体落地，差异在代际运营而非单纯照护。",
+   "rec_v3": "Benesse以统一会员串联教育与介护，跨代社区已在日本360余处落地，其代际融合的产品架构可平移到国内一老一小服务整合。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 6.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 69.7,
+  "events": [
+   {
+    "date": "2025-05",
+    "text": "北东北首座有偿老人HOME'リハビリホームボンセジュール菜園'开业"
+   },
+   {
+    "date": "2025-12",
+    "text": "'リハビリホームグランダ中野南'开业，引入睡眠传感器/脸认证服药AI"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "运营养老住宅与高龄照护、做老幼共托跨代融合，直接服务老龄人群，Benesse是核心银发的跨代照护标杆。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0007",
+    "name": "兴趣岛",
+    "overlap_l2": [
+     "教育"
+    ]
+   },
+   {
+    "serial": "#0019",
+    "name": "心智青",
+    "overlap_l2": [
+     "教育"
+    ]
+   },
+   {
+    "serial": "#0031",
+    "name": "红松学堂",
+    "overlap_l2": [
+     "教育"
+    ]
+   },
+   {
+    "serial": "#0038",
+    "name": "量子之歌",
+    "overlap_l2": [
+     "教育"
+    ]
+   },
+   {
+    "serial": "#0072",
+    "name": "乐唱族",
+    "overlap_l2": [
+     "教育"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0227",
+  "name": "智云健康",
+  "region": "国内",
+  "category_l1": "健康服务",
+  "category_l2": "健康养生",
+  "tags": [
+   "糖尿病"
+  ],
+  "description": "智云健康是国内最大的慢病管理平台，聚焦糖尿病等慢性病管理，为医院和患者提供数字化慢病管理SaaS服务，已上市。",
+  "highlights": [
+   "国内最大数字化慢病管理方案商，覆盖近三千家医院",
+   "药店SaaS装机超20万家，约占全国三分之一",
+   "AI慢病闭环+药企数字营销，院内为主收入来源"
+  ],
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "founded": 2014,
+  "value_score": 54,
+  "source": "中国企业图谱(许之怿)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%99%BA%E4%BA%91%E5%81%A5%E5%BA%B7",
+  "website_url": "https://www.zyhealth.com",
+  "business_model": "上市企业",
+  "name_cn": "智云健康",
+  "desc_cn": "数字化慢病管理方案商，向医院与药店输出慢病管理SaaS（智云医汇/智云问诊），并以AI模型连接医患药，叠加P2M自营药品。收入来自院内订阅与P2M药品销售、药企数字营销及药店SaaS。银发价值在于以数字化慢病闭环管理老年慢病人群，对应处方流转与随访缺口。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 5,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "智云健康与迈极康医疗战略合作",
+     "date": "2024-05-17",
+     "source": "东方财富",
+     "url": "http://testtoo1.oss-cn-hangzhou.aliyuncs.com/eastmoney_pdf/AP202405171633701084.pdf"
+    },
+    {
+     "title": "2024年智云健康研究报告：深耕数字化慢病领域",
+     "date": "2024-05-20",
+     "source": "vzkoo",
+     "url": "https://www.vzkoo.com/read/2024052046f617633d9a34745c4cf1e3.html"
+    }
+   ],
+   "snippets": [
+    "国内最大数字化慢病管理方案商 (HK 9955).",
+    "Hospital SaaS 智云医汇; no fresh 2024-25 funding (public co)."
+   ]
+  },
+  "tag_l1": [
+   "食品营养"
+  ],
+  "tag_l2": [
+   "糖尿病"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "智云健康信号扎实：覆盖近三千家医院、药店SaaS装机超20万家约占全国三分之一，2024年战略合作与研究报告密集，是数字化慢病管理头部样本。",
+   "rec_v2": "它用智云医汇院内SaaS连接医患药，叠加AI慢病闭环与P2M自营药品，差异化在医院端入口锁客再转药事变现的院内为主收入结构。",
+   "rec_v3": "其先B端医院布点、再沉淀C端慢病用户路径可学，中小团队可借区域医院HIS对接做随访管理，比直接做C端App更易获首批老年用户。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 68.7,
+  "events": [
+   {
+    "date": "2024-05-17",
+    "text": "与迈极康医疗战略合作"
+   },
+   {
+    "date": "2024-05-20",
+    "text": "2024研究报告：深耕数字化慢病领域"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "智云健康是国内最大数字化慢病管理平台，核心用户为老年慢病人群，以SaaS连接医患药，属核心银发健康服务。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0206",
+    "name": "慢糖家",
+    "overlap_l2": [
+     "糖尿病"
+    ]
+   },
+   {
+    "serial": "#0254",
+    "name": "深纳普思",
+    "overlap_l2": [
+     "糖尿病"
+    ]
+   },
+   {
+    "serial": "#0281",
+    "name": "硅基仿生",
+    "overlap_l2": [
+     "糖尿病"
+    ]
+   },
+   {
+    "serial": "#0282",
+    "name": "神探伍伍",
+    "overlap_l2": [
+     "糖尿病"
+    ]
+   },
+   {
+    "serial": "#0295",
+    "name": "糖友饱饱",
+    "overlap_l2": [
+     "糖尿病"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0484",
+  "name": "A Place for Mom",
+  "region": "海外",
+  "category_l1": "养老地产",
+  "category_l2": "养老院中介",
+  "tags": [
+   "养老咨询"
+  ],
+  "description": "A Place for Mom（APFM）成立于2000年，是美国最大的老年生活（senior living）转介服务平台，免费为家庭对接全美1.6万+养老社区与居家护理机构（独立生活、辅助生活、记忆照护、居家护理等），由养老机构支付佣金；2017年起由 General Atlantic 与 Silver Lake 控股。",
+  "highlights": [
+   "美国最大老年生活转介平台，向养老社区收佣金、家庭免费",
+   "2025年11月引入AI并扩展居家照护，纪念成立25周年",
+   "由General Atlantic、Silver Lake与Insight Partners私募持有"
+  ],
+  "funding_latest": {
+   "date": "2022-01",
+   "amount": "$175M",
+   "round": "Series B",
+   "display": "Series B $175M (2022-01)"
+  },
+  "funding_total": {
+   "amount": "$184M",
+   "display": "累计$184M"
+  },
+  "investors": "Insight Partners, General Atlantic, Battery Ventures",
+  "founded": 2000,
+  "value_score": 43,
+  "source": "Stage (not Age) Book",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=A%20Place%20for%20Mom",
+  "website_url": "https://www.aplaceformom.com/",
+  "business_model": "B2B 咨询服务",
+  "desc_cn": "美国最大的老年生活(养老社区)转介与匹配平台：家庭免费咨询，由顾问根据老人照护等级、预算与地理位置匹配养老社区与居家照护机构，向入住机构收取佣金。收入来自养老社区按成功入住支付的中介佣金。其银发价值在降低家庭'选老院'的信息差，对应国内养老社区信息不对称、缺乏独立第三方向导的市场空白。",
+  "business_model_cn": "B2B 咨询服务",
+  "news_coverage": {
+   "news_count": 4,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "A Place For Mom Embraces AI, Expands Home Care Offerings",
+     "date": "2025-11-12",
+     "source": "Home Health Care News",
+     "url": "https://homehealthcarenews.com/2025/11/a-place-for-mom-embraces-ai-expands-home-care-offerings-amid-shifting-trends/"
+    },
+    {
+     "title": "美国老年版“美团点评” A Place for Mom，融资1.75亿美元",
+     "date": "2024-12-24",
+     "source": "36氪",
+     "url": "https://www.36kr.com/p/3092274405261057"
+    }
+   ],
+   "snippets": [
+    "APFM为美国最大老年生活转介/咨询平台，2025年11月转向AI并扩展居家照护，纪念成立25周年。",
+    "曾于早期完成1.75亿美元融资（历史轮次），近年以运营与AI转型新闻为主。"
+   ]
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老咨询"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": {
+   "rec_v1": "信号强、25年沉淀资料极丰；融资与AI转型新闻皆可查；全美最大养老社区撮合网络的规模壁垒是硬差异；国内养老中介可照搬其匹配逻辑与佣金模式。",
+   "rec_v2": "银发中介龙头信号明确；公开信息充分且持续更新；把1.6万机构标准化展示+免费家庭端是体验差异；国内可高度复制其平台化撮合与B端收费结构。",
+   "rec_v3": "信号高、模式已被验证；历史融资与近期AI动向透明；以咨询入口绑定后续居家照护的生态打法新颖；国内可借鉴其流量入口定位，需本地机构供给支撑。",
+   "info_score": 9.0,
+   "diff_score": 6.0,
+   "copy_score": 8.0,
+   "signal_strength": 4.55,
+   "research_value": 68.7
+  },
+  "payor_model": "B端机构采购(养老社区佣金)",
+  "signal_strength": 4.55,
+  "info_score": 9.0,
+  "diff_score": 6.0,
+  "copy_score": 8.0,
+  "research_value": 68.7,
+  "events": [
+   {
+    "date": "2025-11",
+    "text": "引入AI并扩展居家照护服务，纪念成立25周年"
+   },
+   {
+    "date": "2022-01",
+    "text": "Insight Partners领投1.75亿美元成长轮，估值超10亿"
+   }
+  ],
+  "update_time": "2026-07-17",
+  "silver_verdict": "核心银发",
+  "silver_reason": "专为老年生活（senior living）选配与转介，银发定位清晰",
+  "name_cn": "A Place for Mom",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0130",
+    "name": "和君康养",
+    "overlap_l2": [
+     "养老咨询"
+    ]
+   },
+   {
+    "serial": "#0223",
+    "name": "昱言养老",
+    "overlap_l2": [
+     "养老咨询"
+    ]
+   },
+   {
+    "serial": "#0453",
+    "name": "方文咨询",
+    "overlap_l2": [
+     "养老咨询"
+    ]
+   },
+   {
+    "serial": "#0454",
+    "name": "群业咨询",
+    "overlap_l2": [
+     "养老咨询"
+    ]
+   },
+   {
+    "serial": "#1209",
+    "name": "智医慧云",
+    "overlap_l2": [
+     "养老咨询"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0964",
+  "name": "Synchron",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "智能硬件"
+  ],
+  "description": "非手术脑机接口(BCI)，帮助瘫痪患者恢复沟通和行动能力。微创植入，未来将扩展至与衰老相关的认知和功能衰退",
+  "highlights": [
+   "血管内微创脑机接口Stentrode，经颈静脉植入运动皮层，免开颅",
+   "2025年首例意念控制iPad(ALS患者)，并完成2亿美元D轮",
+   "投资方含ARCH、Khosla、Bezos Expeditions、QIA等"
+  ],
+  "funding_latest": {
+   "round": "D轮",
+   "amount": "2亿美元",
+   "currency": "USD",
+   "date": "2025-11",
+   "display": "D轮 2亿美元 (2025-11)",
+   "investors": [
+    "Double Point Ventures",
+    "ARCH Ventures",
+    "Khosla Ventures",
+    "Bezos Expeditions",
+    "QIA"
+   ]
+  },
+  "funding_total": {
+   "amount": "约3.45亿美元",
+   "display": "累计约3.45亿美元"
+  },
+  "investors": [
+   "Double Point Ventures",
+   "ARCH Ventures",
+   "Khosla Ventures",
+   "Bezos Expedations",
+   "QIA"
+  ],
+  "founded": 2012,
+  "value_score": 69,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Synchron",
+  "website_url": "https://www.synchron.com",
+  "business_model": "B2B 行业媒体/数据服务",
+  "desc_cn": "美国非手术（血管内）脑机接口公司，核心产品Stentrode经颈静脉植入运动皮层，免开颅采神经信号助瘫痪与ALS患者思维控制设备。2025年实现全球首例通过Apple BCI协议意念控制iPad，并完成2亿美元D轮。由医院采购植入、远期或由医保商保覆盖，其微创路线远期对应老龄化功能衰退辅助。",
+  "business_model_cn": "B2B 行业媒体/数据服务",
+  "news_coverage": {
+   "news_count": 18,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "Synchron Raises $200M Series D (BCI)",
+     "date": "2025-11-06",
+     "source": "BusinessWire",
+     "url": "https://www.businesswire.com/news/home/20251106150841/en/Synchron-Raises-%24200-Million-Series-D-to-Advance-Brain-Computer-Interface-Technology"
+    },
+    {
+     "title": "Synchron完成2亿美元D轮融资(脑机接口)",
+     "date": "2025-11-10",
+     "source": "动脉网",
+     "url": "https://www.vbdata.cn/intelDetail/831135"
+    }
+   ],
+   "snippets": [
+    "Synchron(纽约)是非手术式脑机接口(Stentrode)公司,可用于渐冻症等神经退行患者",
+    "2025年11月完成2亿美元D轮,投资方含 QIA、Bezos Expeditions 等"
+   ]
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "智能硬件"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": {
+   "rec_v1": "信号稳、信息爆炸：免开颅的血管内脑机接口路线稀缺到独一份，差异化拉满；但监管与支付未定，国内只能学其临床转化节奏。",
+   "rec_v2": "差异化封顶——用微创方式让瘫痪者意念控设备，资料极厚；可复制性低，植根美国神经科技生态，重点研究其支付方演进路径。",
+   "rec_v3": "信息量顶级、反常识极强：把BCI做成血管内微创，信号稳健；国内强脑赛道多走外戴路线，它提供植入式范本，难平移但启发性大。",
+   "info_score": 9,
+   "diff_score": 9,
+   "copy_score": 4,
+   "signal_strength": 5.05,
+   "research_value": 68.1
+  },
+  "payor_model": "B端机构采购（医院植入设备）；远期或由医保/商保覆盖，尚未商业上市",
+  "signal_strength": 5.05,
+  "info_score": 9.0,
+  "diff_score": 9.0,
+  "copy_score": 4.0,
+  "research_value": 68.1,
+  "update_time": "2026-07-17",
+  "events": [
+   {
+    "date": "2025-08",
+    "text": "全球首例通过Apple BCI协议意念控制iPad(ALS患者)"
+   },
+   {
+    "date": "2025-11",
+    "text": "完成2亿美元D轮融资"
+   }
+  ],
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "当前产品为瘫痪/ALS患者的微创脑机接口，非老年专属；公司明确将扩展至衰老相关认知与功能衰退，属泛医疗神经科技",
+  "name_cn": "Synchron",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0061",
+    "name": "万德厨",
+    "overlap_l2": [
+     "智能硬件"
+    ]
+   },
+   {
+    "serial": "#0163",
+    "name": "安泰康成",
+    "overlap_l2": [
+     "智能硬件"
+    ]
+   },
+   {
+    "serial": "#0260",
+    "name": "爱牵挂",
+    "overlap_l2": [
+     "智能硬件"
+    ]
+   },
+   {
+    "serial": "#0291",
+    "name": "立奇电子",
+    "overlap_l2": [
+     "智能硬件"
+    ]
+   },
+   {
+    "serial": "#0341",
+    "name": "达旦无极",
+    "overlap_l2": [
+     "智能硬件"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0593",
+  "name": "Tivity Health",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "健身"
+  ],
+  "description": "老年健身会员项目运营商，2006年以4.5亿美元收购SilverSneakers",
+  "highlights": [
+   "Stone Point Capital于2022年以20亿美元收购，由上市公司转为私有",
+   "核心资产SilverSneakers为全美领先老年健身福利，覆盖1.6万网点",
+   "按会员每月向健康计划收费，参保会员医疗支出低约16%",
+   "2023年收购数字健康平台Burnalong，拓展虚拟健身"
+  ],
+  "funding_latest": {
+   "date": "2006",
+   "amount": "4.5亿美元",
+   "round": "收购",
+   "display": "收购 4.5亿美元 (2006)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1981,
+  "value_score": 26,
+  "source": "Stage(not Age)书籍",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Tivity%20Health",
+  "website_url": "https://www.tivityhealth.com",
+  "business_model": "B2C 老年健身/健康",
+  "desc_cn": "运营全美领先的老年健身福利，覆盖上万家健身房与老年活动中心，为参保MA等健康计划的长者提供免费健身与社交活动。按会员每月向健康计划收费，会员免费。核心银发价值是把'健身即预防'做成保险买单的福利闭环——参保会员医疗支出低约16%，对应国内惠民保与社区健身结合的银发健康促进模式。",
+  "business_model_cn": "B2C 老年健身/健康",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "健身"
+  ],
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "被收购",
+  "recommend": {
+   "rec_v1": "信号与信息量中上（被Stone Point私有化、报道充分），它靠SilverSneakers把老年健身包进保险做差异，但支付嵌美国医保，国内宜学'健身即福利'思路。",
+   "rec_v2": "高透明的银发健身样本：Tivity 以 SilverSneakers 借医保优势计划免费开放健身房，模式独特；可复制性受限于医保，价值在'运动即控费'。",
+   "rec_v3": "被私募20亿美元接盘的强信号企业，以老年健身会员差异化；国内创业者可抄其把健身嵌入健康计划的运营，而非照搬美国保险支付。"
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 7.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 67.7,
+  "events": [
+   {
+    "date": "2022-06",
+    "text": "Stone Point Capital以20亿美元收购并私有化"
+   },
+   {
+    "date": "2023-07",
+    "text": "任命Hill Ferguson为CEO"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "SilverSneakers为老年健身福利，降低长者医疗支出",
+  "name_cn": "Tivity Health",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0090",
+    "name": "优复门诊",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0110",
+    "name": "动龄健康",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0115",
+    "name": "华友健身",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0157",
+    "name": "如身机器人",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0175",
+    "name": "尚体乐活",
+    "overlap_l2": [
+     "健身"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0594",
+  "name": "SilverSneakers",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "健身"
+  ],
+  "description": "老年健身会员项目，2006年被Tivity Health以4.5亿美元收购",
+  "highlights": [
+   "1992年由Mary Swanson创立，现属Tivity/Stone Point体系",
+   "面向长者免费健身福利，通过MA与健康补充险覆盖",
+   "网络含1.6万健身房与老年中心，会员满意度高",
+   "被视为降低医疗支出的'生活方式福利'标杆"
+  ],
+  "funding_latest": {
+   "date": "2006",
+   "amount": "4.5亿美元",
+   "round": "收购",
+   "display": "收购 4.5亿美元 (2006)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1992,
+  "value_score": 26,
+  "source": "Stage(not Age)书籍",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=SilverSneakers",
+  "website_url": "https://www.silversneakers.com",
+  "business_model": "B2C 老年健身/健康",
+  "desc_cn": "面向65岁以上长者提供由MA及健康补充险全额覆盖的免费健身与社交福利，合作网络含上万家健身房与社区老年中心，提供团体操课与社交活动。收入按会员人头向承保健康计划收费，长者零付费。核心银发价值是用保险补贴把'健身+社交'变为降低医疗支出的生活方式干预，对应国内社区老年健身与商保/长护险结合的轻模式。",
+  "business_model_cn": "B2C 老年健身/健康",
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "健身"
+  ],
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "被收购",
+  "recommend": {
+   "rec_v1": "信号与信息量中上（国民级老年健身品牌），它把健身房经医保免费开放做差异，但根植美国优势计划，国内宜学'健身即健康福利'的产品设计。",
+   "rec_v2": "高认知度的银发健身范本：SilverSneakers 借 Medicare 让老人免费进健身房，模式独特、资料足；可复制性受限于医保，价值在'运动即控费'思路。",
+   "rec_v3": "被Tivity收购的成熟品牌、强信号样本，以老年健身会员差异化；国内团队可抄其'健身嵌入健康计划'打法，而非照搬美国保险支付。"
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 7.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 67.7,
+  "events": [
+   {
+    "date": "1992",
+    "text": "由Mary Swanson创立"
+   },
+   {
+    "date": "2022",
+    "text": "随Tivity被Stone Point收购转为私有资产"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "SilverSneakers为65岁以上长者提供由Medicare Advantage全额覆盖的免费健身与社交福利，参保会员医疗支出低约16%，属核心银发健康促进。",
+  "name_cn": "SilverSneakers",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0090",
+    "name": "优复门诊",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0110",
+    "name": "动龄健康",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0115",
+    "name": "华友健身",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0157",
+    "name": "如身机器人",
+    "overlap_l2": [
+     "健身"
+    ]
+   },
+   {
+    "serial": "#0175",
+    "name": "尚体乐活",
+    "overlap_l2": [
+     "健身"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0647",
+  "name": "BrightSpring Health",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "居家护理"
+  ],
+  "description": "BrightSpring Health Services 是美国面向复杂慢病与残疾人群的家外医疗与药房服务平台，提供居家护理、康复与用药配送，已登陆纳斯达克（BTSG）。",
+  "highlights": [
+   "全美50州、日服务超46万复杂/老年慢病患者",
+   "药房(PharMerica)与上门医护垂直整合",
+   "发表十余篇同行评审研究，循证驱动质量改进"
+  ],
+  "funding_latest": {
+   "date": "2024年3月",
+   "amount": "IPO",
+   "display": "IPO (2024年3月)"
+  },
+  "funding_total": "未搜到",
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1996,
+  "value_score": 26,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=BrightSpring%20Health",
+  "website_url": "https://www.brightspringhealth.com",
+  "business_model": "B2B 行业媒体/数据服务",
+  "desc_cn": "面向老年与复杂慢病的居家整合照护平台，将药房(PharMerica)、上门医护与数据分析垂直整合，覆盖全美50州、日服务超46万患者。收入来自政府医保、商业保险按服务付费及药企返点。银发价值在\"药+护+数据一体\"支撑居家全程管理，对应国内居家护理供给弱与按效付费缺位的缺口。",
+  "business_model_cn": "B2B/B2C 银发行业服务",
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "居家护理"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "纳斯达克新上市公司(BTSG)，把药房PharMerica与上门医护垂直整合，日服务超46万复杂慢病患者，信号强且信息极透明。",
+   "rec_v2": "差异化在'院外医疗+药房+居家护理'闭环服务慢病人群；刚完成IPO便借反垄断案接手对手资产，反常识以药房做入口。",
+   "rec_v3": "可复制的是'药+护+数据'一体支撑居家全程管理的整合逻辑；其强依赖美国医保难照搬，但业务协同思路清晰可参考。",
+   "info_score": 8,
+   "diff_score": 7,
+   "copy_score": 5,
+   "signal_strength": 6.55,
+   "research_value": 67.7
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 6.55,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 67.7,
+  "events": [
+   {
+    "date": "2024-01",
+    "text": "登陆纳斯达克(BTSG)，KVK+Walgreens体系分拆上市"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "面向老年与复杂慢病人群的居家整合医疗平台，以药房、上门医护与数据闭环支撑居家全程管理，属核心银发。",
+  "name_cn": "BrightSpring Health",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0017",
+    "name": "小橙",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0022",
+    "name": "易得康",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0029",
+    "name": "福寿康",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0042",
+    "name": "颐家",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0058",
+    "name": "一家依",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0683",
+  "name": "Devoted Health",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "保险"
+  ],
+  "description": "Devoted Health 成立于2017年，由Todd Park与Ed Park兄弟创办，是一家面向老年人群的Medicare Advantage健康险公司（覆盖美国29州），将保险计划与自研Orinoco技术平台、Devoted Medical虚拟/居家医疗及\"健康向导\"个性化服务结合，累计融资超22亿美元。",
+  "highlights": [
+   "面向老年Medicare Advantage的一体化保险+医疗",
+   "自研Orinoco平台+虚拟/居家医疗+健康向导",
+   "覆盖多州、多次入选最佳联邦医保优先计划"
+  ],
+  "funding_latest": {
+   "date": "2026年1月",
+   "amount": "$3.66亿",
+   "round": "F轮",
+   "display": "F轮 $3.66亿 (2026年1月)"
+  },
+  "funding_total": "$2.62B (截至2026年1月)",
+  "investors": [
+   "Venrock",
+   "Oak HC/FT",
+   "F-Prime Capital",
+   "Maverick Ventures",
+   "Obvious Ventures",
+   "Andreessen Horowitz",
+   "Premji Invest",
+   "Uprising Capital",
+   "SoftBank Vision Fund",
+   "Emerson Collective",
+   "General Catalyst",
+   "GIC",
+   "Iconiq Capital",
+   "Base10 Partners",
+   "Frist Cressey Ventures",
+   "Cox Enterprises",
+   "Google Ventures",
+   "Morgan Health",
+   "Centricus",
+   "Franklin Venture Partners",
+   "VanEck"
+  ],
+  "founded": 2017,
+  "value_score": 43,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Devoted%20Health",
+  "website_url": "https://www.devoted.com",
+  "business_model": "B2C/B2B 老年健康保险",
+  "desc_cn": "美国Medicare Advantage(老年医保优势计划)一体化险企，将保险与自研技术平台、虚拟/居家医疗及'健康向导'捆绑。收入来自政府CMS按人头给付与个人保费。核心银发价值在'保险+服务一体化'——用健康结果换保费竞争力，对应国内商业长护险与'保险+康养'融合刚起步、缺运营经验的现状。",
+  "business_model_cn": "B2C/B2B 老年健康保险",
+  "news_coverage": {
+   "news_count": 4,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "Devoted Health Raises Additional Funding (Series E)",
+     "date": "2024-08-02",
+     "source": "Devoted Health",
+     "url": "https://devoted.com/resources/devoted-health-series-e/"
+    },
+    {
+     "title": "融资23亿美元！保险科技+老年护理如何创新？",
+     "date": "2024-12-23",
+     "source": "知乎",
+     "url": "https://zhuanlan.zhihu.com/p/14112127970"
+    }
+   ],
+   "snippets": [
+    "Devoted Health为面向Medicare受益人的一体化医疗+保险科技公司，2024年8月完成2.87亿美元E轮（含1.12亿美元追加）。",
+    "累计融资超22亿美元，覆盖13州并计划扩张，入选“2025最佳联邦医保优先计划”。"
+   ]
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "保险"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "成长期",
+  "recommend": {
+   "rec_v1": "Devoted Health的F轮3.66亿美元、累计26.2亿美元融资全公开，MA险企把保险与技术平台垂直整合信息极厚。",
+   "rec_v2": "Devoted以自研Orinoco平台加'健康向导'把保险、虚拟医疗与居家服务捆成一体，差异在险企自有医疗闭环。",
+   "rec_v3": "Devoted覆盖多州并多次入选最佳联邦医保优先计划，其会员运营与技管融合架构清晰，但根植美国CMS按人头给付难平移。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 5.55,
+  "info_score": 9.0,
+  "diff_score": 8.0,
+  "copy_score": 4.0,
+  "research_value": 67.6,
+  "events": [
+   {
+    "date": "2026-01",
+    "text": "完成F轮3.66亿美元融资"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "专为老年Medicare受益人群设计的医保优势计划险企，Devoted Health属核心银发。",
+  "name_cn": "Devoted Health",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0140",
+    "name": "复星保德信",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#0151",
+    "name": "太平养老",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#0434",
+    "name": "天一智慧",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#1208",
+    "name": "宸汐健康",
+    "overlap_l2": [
+     "保险"
+    ]
+   },
+   {
+    "serial": "#1378",
+    "name": "太平洋人寿",
+    "overlap_l2": [
+     "保险"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0010",
+  "name": "博斯腾",
+  "region": "国内",
+  "category_l1": "失智老人赛道",
+  "category_l2": "照护机构",
+  "tags": [
+   "认知训练",
+   "认知筛查"
+  ],
+  "description": "上海博斯腾网络科技，认知症（阿尔茨海默病）数字疗法企业。通过AI驱动的认知评估和训练游戏，为轻度认知障碍和认知症患者提供非药物干预治疗方案。已完成亿元级A+轮融资。",
+  "highlights": [
+   "认知症(阿尔茨海默)数字疗法，持二类医疗器械注册证",
+   "'科普-筛查-诊断-干预-随访'闭环，服务超1300万用户",
+   "亿元级A+轮，千骥资本领投"
+  ],
+  "funding_latest": {
+   "date": "2024",
+   "amount": "100000000",
+   "round": "A+",
+   "display": "A+ $1亿 (2024)"
+  },
+  "funding_total": {
+   "amount": "亿元级",
+   "display": "累计亿元级"
+  },
+  "investors": "千骥资本领投，长岭资本/金沙江创投/博远资本跟投",
+  "founded": 2016,
+  "value_score": 37,
+  "source": "中国企业图谱(许之怿)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8D%9A%E6%96%AF%E8%85%BE",
+  "website_url": "http://www.bestcovered.com/",
+  "business_model": "B2B 制药/生物科技",
+  "name_cn": "博斯腾",
+  "desc_cn": "专注认知症(阿尔茨海默)的数字疗法企业，提供AI认知评估、筛查与游戏化训练产品，已获NMPA二类医疗器械注册证。收入来自B端医院/体检/保险采购与个人自费订阅。核心银发价值在'科普-筛查-诊断-干预-随访'闭环——用早筛早干预覆盖认知障碍人群，对应国内认知症知晓率低、筛查网络缺位的巨大需求。",
+  "business_model_cn": "B2B 制药/生物科技",
+  "news_coverage": {
+   "news_count": 15,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "博斯腾完成亿元A+轮融资(认知障碍数字疗法)",
+     "date": "2025-09",
+     "source": "36氪",
+     "url": "https://pitchhub.36kr.com/project/1817517333890944"
+    },
+    {
+     "title": "博斯腾:引领认知障碍数字疗法新时代",
+     "date": "2025-09-20",
+     "source": "百度",
+     "url": "https://m.baidu.com/bh/m/detail/ar_9097435950656976272"
+    }
+   ],
+   "snippets": [
+    "博斯腾(上海)聚焦阿尔茨海默症数字化筛查与干预,构建'科普-筛查-诊断-干预-随访'闭环",
+    "2025年完成亿元级A+轮,由千骥资本领投,老股东长岭/金沙江/博远跟投"
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "认知训练",
+   "认知筛查"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "产品商",
+   "channel": []
+  },
+  "stage": "A轮",
+  "recommend": {
+   "rec_v1": "博斯腾持NMPA二类医疗器械注册证，A+轮获千骥资本领投1亿元，认知数字疗法信号与融资双实。",
+   "rec_v2": "博斯腾用AI把认知筛查压到7分钟并打通'筛查-诊断-干预-随访'闭环，差异在早筛入口的产品化定义。",
+   "rec_v3": "博斯腾已服务超1300万用户、把认知干预做成居家可量化训练，其'筛查即入口'获客逻辑轻资产，国内社区与支付方联动可复用。"
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 6.05,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 7.0,
+  "research_value": 67.2,
+  "events": [
+   {
+    "date": "2025-09",
+    "text": "完成亿元级A+轮融资，千骥资本领投"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "认知症数字疗法直接服务认知障碍老年人群，博斯腾持二类器械证做早筛早干预，属核心银发。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0027",
+    "name": "特霍芬",
+    "overlap_l2": [
+     "认知训练",
+     "认知筛查"
+    ]
+   },
+   {
+    "serial": "#0032",
+    "name": "织生科技",
+    "overlap_l2": [
+     "认知训练",
+     "认知筛查"
+    ]
+   },
+   {
+    "serial": "#0040",
+    "name": "集思鸣智",
+    "overlap_l2": [
+     "认知训练",
+     "认知筛查"
+    ]
+   },
+   {
+    "serial": "#0131",
+    "name": "和家健脑",
+    "overlap_l2": [
+     "认知训练",
+     "认知筛查"
+    ]
+   },
+   {
+    "serial": "#0315",
+    "name": "脑动极光",
+    "overlap_l2": [
+     "认知训练",
+     "认知筛查"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0020",
+  "name": "悦心健康",
+  "region": "国内",
+  "category_l1": "产业资本",
+  "category_l2": "相关上市公司",
+  "tags": [
+   "康养地产"
+  ],
+  "description": "A股上市公司（002162，原斯米克），从建筑陶瓷业务转型大健康与养老服务，布局康养社区、康复医疗和老年教育。",
+  "highlights": [
+   "轻资产公建民营托管，上海奉贤颐养院入住率超95%",
+   "'医养康教研'五位一体，引入康养机器人",
+   "温州龙港示范园设610床，与温医附一紧密合作"
+  ],
+  "funding_latest": {
+   "date": "上市",
+   "amount": "A股上市（002162）",
+   "round": "IPO",
+   "display": "IPO A股上市（002162） (上市)"
+  },
+  "funding_total": {
+   "amount": "A股上市公司",
+   "display": "累计A股上市公司"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 1993,
+  "value_score": 43,
+  "source": "中国企业图谱(许之怿)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%82%A6%E5%BF%83%E5%81%A5%E5%BA%B7",
+  "website_url": "https://www.everjoyhealth.com",
+  "business_model": "上市企业",
+  "name_cn": "悦心健康",
+  "desc_cn": "轻资产养老运营服务商，以'公建民营'托管模式运营居家社区养老机构，构建'医养康教研'五位一体区域养老网络。收入来自政府委托运营的管理费、品牌费及入住长者的床位费、护理费、餐费。银发价值在于以零重资产的托管打法撬动普惠型医养结合照护，对应公办养老设施运营缺口。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 5,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "悦心健康获机构调研 康养业务高入住率",
+     "date": "2026-07-01",
+     "source": "新浪财经",
+     "url": "https://finance.sina.com.cn/stock/aigc/jgdy/2026-07-01/doc-inifiaen4109307.shtml"
+    },
+    {
+     "title": "悦心健康2025年报 持续照料切换模式",
+     "date": "2026-03-31",
+     "source": "cninfo",
+     "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051641.PDF"
+    }
+   ],
+   "snippets": [
+    "002162; 康养业务(活力/护理/认知症/医疗)高入住率; 引入养老机器人.",
+    "医养结合; 持续照料切换模式."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "康养地产"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "悦心健康信号来自年报与调研：以公建民营托管沪上奉贤颐养院入住率超95%，2025年报披露医养康教研五位一体并引入康养机器人。",
+   "rec_v2": "它用零重资产的政府设施托管撬动普惠医养结合、构建区域养老网络而非自建物业，差异化在轻资产运营商定位，避开了重资产养老的现金流陷阱。",
+   "rec_v3": "公建民营模式对中小团队最易平移：拿政府闲置设施做委托运营，靠管理费与床位费变现，比自持物业风险低，国内公办民营化正提速。"
+  },
+  "payor_model": "个人自费+医保",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 66.7,
+  "events": [
+   {
+    "date": "2026-07-01",
+    "text": "获机构调研，康养业务高入住率"
+   },
+   {
+    "date": "2026-03-31",
+    "text": "2025年报持续照料切换模式，引入养老机器人"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "悦心健康以公建民营轻资产模式运营医养结合养老机构并引入康养机器人，直接服务自理至失能老人，属核心银发照护。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0069",
+    "name": "中金佰仁堂",
+    "overlap_l2": [
+     "康养地产"
+    ]
+   },
+   {
+    "serial": "#0073",
+    "name": "乐成养老",
+    "overlap_l2": [
+     "康养地产"
+    ]
+   },
+   {
+    "serial": "#0082",
+    "name": "亲和源",
+    "overlap_l2": [
+     "康养地产"
+    ]
+   },
+   {
+    "serial": "#0299",
+    "name": "绿城康养",
+    "overlap_l2": [
+     "康养地产"
+    ]
+   },
+   {
+    "serial": "#0364",
+    "name": "链老网",
+    "overlap_l2": [
+     "康养地产"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0938",
+  "name": "镰仓新书",
+  "region": "海外",
+  "category_l1": "行业服务",
+  "category_l2": "行业媒体",
+  "tags": [
+   "殡葬"
+  ],
+  "description": "日本京东上市的殡葬服务公司，购墓、殡仪、佛坛等",
+  "highlights": [
+   "运营'いい葬儀/いいお墓'等终活门户，推荐佣金+广告变现",
+   "多域名相互送客，并拓展保险/不动产/介护周边",
+   "2025年承继Ateam'Life.'事业，强化终活综合平台"
+  ],
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "founded": 1984,
+  "value_score": 48,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%95%B0%E4%BB%93%E6%96%B0%E4%B9%A6",
+  "website_url": "https://www.kamakura-net.co.jp",
+  "business_model": "上市企业",
+  "name_cn": "镰仓新书",
+  "desc_cn": "运营\"いい葬儀/いいお墓\"等日本最大级终活门户的供养与终活专门企业，提供葬仪、墓园、佛坛、相续、介护等一站式信息撮合与免费咨询，2025年承继Ateam旗下\"Life.\"事业。收入来自向殡葬/墓园等B端服务商收取的推荐佣金与广告。银发价值在把终老决策的信息不对称做成可信入口并撮合变现。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 5,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "镰仓新书 财务报告 第41期 (2024/02/01-2025/01/31)",
+     "date": "2025-02-01",
+     "source": "富途",
+     "url": "https://www.futunn.com/stock/6184-JP/announcement"
+    }
+   ],
+   "snippets": [
+    "Tokyo-listed (6184) end-of-life/funeral info platform; FY2024 sales ~58亿日元.",
+    "Strategic partnership with Japan Post for funeral services."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "殡葬"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "平台",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "运营'いい葬儀/いいお墓'等日本最大级终活门户的上市企业，财报透明；2025年承继Ateam旗下'Life.'事业，信号稳且信息量足。",
+   "rec_v2": "差异化在购墓/殡仪/佛坛信息撮合加日本邮政合作下沉触达，把分散的殡葬需求做成可信入口并靠推荐佣金变现。",
+   "rec_v3": "可复制的是轻资产信息中介模式；国内殡葬信息高度不对称，可学'门户撮合+服务网络'闭环，但需本土化合规改造。",
+   "info_score": 7,
+   "diff_score": 7,
+   "copy_score": 6,
+   "signal_strength": 6.55,
+   "research_value": 66.7
+  },
+  "payor_model": "B端机构采购",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 66.7,
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "承继Ateam旗下终活综合站'Life.'事业"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "围绕终活的一站式信息撮合平台，整合购墓、殡仪、佛坛与介护咨询，深度绑定老龄化需求，属核心银发。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0003",
+    "name": "乐湾",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0004",
+    "name": "优享陪诊",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0009",
+    "name": "南京新百",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0010",
+    "name": "博斯腾",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0014",
+    "name": "安护通",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0011",
+  "name": "可靠股份",
+  "region": "国内",
+  "category_l1": "产业资本",
+  "category_l2": "相关上市公司",
+  "tags": [
+   "纸尿裤"
+  ],
+  "description": "成人失禁护理用品龙头企业，A股上市（301298），旗下\"可靠\"品牌是国内成人纸尿裤头部品牌，产品覆盖成人失禁护理全品类。",
+  "highlights": [
+   "连续多年国内成人失禁市占率第一，电商复购率超70%",
+   "切入长护险耗材集采，机构业务营收同比+58%",
+   "2025上半年净利同比+21.81%，推专业吸水巾填补轻失禁空白"
+  ],
+  "funding_latest": {
+   "date": "2021",
+   "amount": "A股上市（301298）",
+   "round": "IPO",
+   "display": "IPO A股上市（301298） (2021)"
+  },
+  "funding_total": {
+   "amount": "A股上市公司",
+   "display": "累计A股上市公司"
+  },
+  "investors": [
+   "未搜到"
+  ],
+  "founded": 2001,
+  "value_score": 43,
+  "source": "中国企业图谱(许之怿)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8F%AF%E9%9D%A0%E8%82%A1%E4%BB%BD",
+  "website_url": "https://www.cocohealthcare.com",
+  "business_model": "上市企业",
+  "name_cn": "可靠股份",
+  "desc_cn": "成人失禁护理自主品牌商，主营成人纸尿裤、吸水巾等失禁护理产品，覆盖中重度失禁与轻度失禁多元场景。收入来自自有品牌零售电商（天猫/京东/拼多多）及ODM代工，并借长护险耗材集采切入机构渠道。银发价值在于以刚需失禁耗材绑定长期护理支付，对应失能老人照护痛点。",
+  "business_model_cn": "上市企业",
+  "news_coverage": {
+   "news_count": 6,
+   "news_quality": "medium",
+   "latest_news": [
+    {
+     "title": "可靠股份的韧性增长:2025营收11.5亿、扣非净利增17%",
+     "date": "2026-04-27",
+     "source": "baidu",
+     "url": "https://baijiahao.baidu.com/s?id=1863612756360227969"
+    },
+    {
+     "title": "CIDPEX2026 可靠股份以银发生态链主之力",
+     "date": "2026-04-21",
+     "source": "界面",
+     "url": "https://www.jiemian.com/article/14286366.html"
+    }
+   ],
+   "snippets": [
+    "成人失禁护理龙头 (301009); 2025营收11.5亿.",
+    "拟收购上海汉合纸业≥60%延伸产能."
+   ]
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "纸尿裤"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "产品商",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "可靠股份信号强：连续多年居国内成人失禁市占率第一，2025年营收11.5亿元、扣非净利增17%，电商复购率超70%，上市数据充分。",
+   "rec_v2": "它把成人失禁做成自主品牌加ODM双轮，并借长护险耗材集采切入机构渠道、机构业务营收同比增58%，差异化在消费品牌力加支付绑定的失禁垂直深耕。",
+   "rec_v3": "失禁护理渗透率国内远低于日本，创业者不必重做品牌，可抄其集采进机构加电商教育C端双轨，从护理垫等轻SKU切入失能老人高频耗材。"
+  },
+  "payor_model": "个人自费+长护险",
+  "signal_strength": 6.55,
+  "info_score": 7.0,
+  "diff_score": 5.0,
+  "copy_score": 8.0,
+  "research_value": 66.6,
+  "events": [
+   {
+    "date": "2026-04-27",
+    "text": "2025营收11.5亿、扣非净利增17%"
+   },
+   {
+    "date": "2026-04-21",
+    "text": "CIDPEX2026以银发生态链主之力参展"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "可靠股份是国内成人失禁护理龙头，电商复购率超70%，并借长护险耗材集采切入机构渠道，失禁耗材直接服务失能半失能老人。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0199",
+    "name": "恒发",
+    "overlap_l2": [
+     "纸尿裤"
+    ]
+   },
+   {
+    "serial": "#0244",
+    "name": "永福康",
+    "overlap_l2": [
+     "纸尿裤"
+    ]
+   },
+   {
+    "serial": "#0261",
+    "name": "爱舒乐",
+    "overlap_l2": [
+     "纸尿裤"
+    ]
+   },
+   {
+    "serial": "#0336",
+    "name": "豪悦",
+    "overlap_l2": [
+     "纸尿裤"
+    ]
+   },
+   {
+    "serial": "#0394",
+    "name": "可靠护理",
+    "overlap_l2": [
+     "纸尿裤"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ventas",
+  "region": "海外",
+  "category_l1": "养老地产",
+  "category_l2": "医疗地产信托(REIT)",
+  "tags": [
+   "养老REIT"
+  ],
+  "description": "美国老牌医疗地产信托(REIT)，纽交所代码 VTR，资产覆盖养老社区、医疗办公楼与生物实验室，是养老地产证券化另一龙头。",
+  "highlights": [
+   "美国第二大养老/医疗REIT，纽交所VTR，1400+处物业",
+   "2025通过远期股权协议结算约1640万股、募资约11亿美元加仓养老社区",
+   "SHOP同店现金NOI同比+13%(2025 Q2)",
+   "资产覆盖养老社区/门诊医疗/生命科学实验室，多元化分散风险"
+  ],
+  "funding_latest": {
+   "round": "上市公司/远期股权增发",
+   "amount": "约11亿美元",
+   "currency": "USD",
+   "date": "2025",
+   "display": "2025远期股权增发约11亿美元",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "funding_total": {
+   "amount": "不适用",
+   "display": "持续公开市场融资，企业价值约500亿美元"
+  },
+  "investors": [
+   "公共市场"
+  ],
+  "founded": 1983,
+  "value_score": 66,
+  "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ventas",
+  "website_url": "https://www.ventasre.com",
+  "business_model": "REIT: 持有养老社区/医疗办公楼/生命科学实验室，多元化分散风险",
+  "name_cn": "Ventas｜医疗REIT",
+  "desc_cn": "全美规模领先的老龄与医疗地产REIT，持有逾1400处物业，组合覆盖养老社区、门诊医疗与生命科学实验室，以triple-net净租赁收取运营商租金。银发价值在'SHOP（自有运营）养老社区'的精细化运营与出租率逻辑，为国内险资/地产基金理解银发不动产的资本纪律与周期提供对标基准。",
+  "business_model_cn": "REIT：持有养老社区/医疗办公楼/生命科学实验室，多元化配置分散风险",
+  "serial": "#1153",
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "business_tags": {
+   "customer": "未标注",
+   "role": "投资机构",
+   "channel": []
+  },
+  "stage": "已上市",
+  "recommend": {
+   "rec_v1": "全美规模领先的老龄与医疗REIT(VTR)，持有逾1400处物业，2025年远期股权募资约11亿美元加仓养老社区，信披极全、信号强且信息量足。",
+   "rec_v2": "差异化在'SHOP自有运营养老社区'的精细化出租率逻辑，叠加门诊医疗与生命科学实验室做多元分散，抗周期。",
+   "rec_v3": "可复制性低：国内险资与地产基金可对标其资产组合与周期应对；但依赖美国REITs税制，与Welltower并读学资产逻辑。",
+   "info_score": 9,
+   "diff_score": 3,
+   "copy_score": 7,
+   "signal_strength": 6.55,
+   "research_value": 66.6
+  },
+  "payor_model": "混合支付",
+  "signal_strength": 6.55,
+  "info_score": 9.0,
+  "diff_score": 3.0,
+  "copy_score": 7.0,
+  "research_value": 66.6,
+  "update_time": "2026-07-18",
+  "events": [
+   {
+    "date": "2025 Q2",
+    "text": "SHOP同店现金NOI同比+13%"
+   },
+   {
+    "date": "2025",
+    "text": "通过远期股权协议结算约1640万股、募资约11亿美元加仓养老社区"
+   }
+  ],
+  "silver_verdict": "核心银发",
+  "silver_reason": "养老与医疗地产REIT，底层资产以养老社区为核心银发不动产，属核心银发。",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0048",
+    "name": "BAI资本",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0113",
+    "name": "千骥资本",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0120",
+    "name": "博远资本",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0138",
+    "name": "国寿大健康",
+    "overlap_l2": []
+   },
+   {
+    "serial": "#0150",
+    "name": "太保资本",
+    "overlap_l2": []
+   }
+  ]
+ },
+ {
+  "serial": "#0969",
+  "name": "Hippocratic AI",
+  "region": "海外",
+  "category_l1": "老年文娱",
+  "category_l2": "社交平台",
+  "tags": [
+   "AI医疗"
+  ],
+  "description": "医疗AI代理，执行低风险、面向患者的行政和运营任务。估值35亿；已与50+大型医疗系统/支付方合作；累计完成1.15亿+临床患者互动。累计融资4.04亿美...",
+  "highlights": [
+   "安全优先的医疗生成式AI代理，执行随访/预约/用药提醒不诊断",
+   "2025年完成1.26亿美元C轮、估值35亿美元，合作50+医疗系统/支付方",
+   "累计超1.15亿次临床患者互动"
+  ],
+  "funding_latest": {
+   "round": "C轮",
+   "amount": "1.26亿美元",
+   "currency": "USD",
+   "date": "2025-11",
+   "display": "C轮 1.26亿美元 (2025-11)",
+   "investors": [
+    "Avenir Growth",
+    "CapitalG",
+    "General Catalyst",
+    "a16z",
+    "Kleiner Perkins",
+    "Premji Invest"
+   ]
+  },
+  "funding_total": {
+   "amount": "约4.04亿美元",
+   "display": "累计约4.04亿美元(估值35亿)"
+  },
+  "investors": [
+   "Avenir Growth",
+   "CapitalG",
+   "General Catalyst",
+   "a16z",
+   "Kleiner Perkins",
+   "Premji Invest"
+  ],
+  "founded": 2023,
+  "value_score": 67,
+  "source": "选题库V4",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hippocratic%20AI",
+  "website_url": "https://hippocraticai.com",
+  "business_model": "B2B AI/数据驱动",
+  "desc_cn": "美国安全优先的医疗生成式AI代理开发商，产品执行随访、预约、用药提醒等非诊断类患者服务，明确'不诊断'以控合规风险。已合作50多家医疗系统与支付方，累计超1.15亿次互动，15个月商业化跑出千余用例。收入来自向医疗系统、健康计划与药企收SaaS与使用费，对应国内大模型患者服务落地路径。",
+  "business_model_cn": "B2B AI/数据驱动",
+  "news_coverage": {
+   "news_count": 10,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "Hippocratic AI Announces Series C Funding $126 Million",
+     "date": "2025-11-03",
+     "source": "Hippocratic AI / BusinessWire",
+     "url": "https://hippocraticai.com/hippocratic-ai-announces-series-c-funding-126-million/"
+    }
+   ],
+   "snippets": [
+    "$126M Series C at $3.5B valuation (2025); total $404M.",
+    "Safety-focused generative AI healthcare agents; backers a16z, CapitalG, Avenir."
+   ]
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "stage": "C轮",
+  "recommend": "信号与信息量强（15个月商业化、千余用例），差异化在'安全优先、不诊断'的低风险患者服务AI代理，定位是替医护干重复性沟通活而非抢诊断，亮点在把合规边界当产品支点。可复制性中等，国内大模型客服受医疗合规与支付方差异制约；其'合规边界设计+医疗系统/支付方SaaS'的商业化速度最值得拆解——先把不诊断的活做扎实，再横向扩场景，比一上来就做诊断型AI更稳。",
+  "payor_model": "B端机构付费（向医疗系统、健康计划/支付方、药企收SaaS与使用费）",
+  "signal_strength": 5.05,
+  "info_score": 9.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 66.2,
+  "update_time": "2026-07-17",
+  "events": [
+   {
+    "date": "2025-11",
+    "text": "完成1.26亿美元C轮融资，估值35亿美元"
+   }
+  ],
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "通用医疗AI客服代理，非专门面向老年人群",
+  "name_cn": "Hippocratic AI",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#1085",
+    "name": "问岐健康",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1117",
+    "name": "智医向量",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1198",
+    "name": "深睿医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1200",
+    "name": "傲意科技",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   },
+   {
+    "serial": "#1207",
+    "name": "阶梯医疗",
+    "overlap_l2": [
+     "AI医疗"
+    ]
+   }
+  ]
+ },
+ {
+  "serial": "#0461",
+  "name": "Amedisys",
+  "region": "海外",
+  "category_l1": "养老服务",
+  "category_l2": "专业级护理",
+  "tags": [
+   "居家护理"
+  ],
+  "description": "美国大型居家护理服务提供商，2024年8月被正式收购（33亿美元），之前因反垄断推迟。",
+  "highlights": [
+   "2025年8月被UnitedHealth/Optum以33亿美元收购并退市",
+   "全美最大居家医疗与临终关怀商之一，年服务46.5万患者、覆盖38州",
+   "因反垄断被要求剥离164个网点（涉及年收入5.28亿美元）",
+   "居家照护成本较住院低50%–70%，契合价值医疗"
+  ],
+  "funding_latest": {
+   "date": "2024-08",
+   "amount": "3300000000",
+   "round": "Acquisition",
+   "display": "Acquisition $33亿 (2024-08)"
+  },
+  "funding_total": {
+   "amount": "美股上市公司 (Nasdaq: AMED)",
+   "display": "美股上市公司 (Nasdaq: AMED)"
+  },
+  "investors": "公众股东（Nasdaq: AMED 上市公司）",
+  "founded": 1982,
+  "value_score": 48,
+  "source": "选题库",
+  "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Amedisys",
+  "website_url": "https://www.amedisys.com",
+  "business_model": "B2C/B2B 社区/居家服务",
+  "desc_cn": "全美最大居家医疗与临终关怀商，在38个州年服务数十万患者，提供上门护理、康复及安宁疗护。收入来自Medicare/Medicaid按服务付费与商业保险，居家照护成本较住院低50%–70%。核心银发价值是'居家+安宁'一体化照护网络与按服务收费模式，对应国内长护险定点机构与院后居家护理衔接。",
+  "business_model_cn": "B2C/B2B 社区/居家服务",
+  "news_coverage": {
+   "news_count": 10,
+   "news_quality": "high",
+   "latest_news": [
+    {
+     "title": "UnitedHealth closes $3.3B Amedisys buy after long antitrust review",
+     "date": "2025-08-15",
+     "source": "Healthcare Dive",
+     "url": "https://www.healthcaredive.com/news/unitedhealth-amedisys-deal-closes-doj/757742/"
+    }
+   ],
+   "snippets": [
+    "UnitedHealth/Optum closed $3.3B acquisition of Amedisys (Aug 2025, after DOJ).",
+    "Divesting some agencies to BrightSpring & Pennant."
+   ]
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "居家护理"
+  ],
+  "business_tags": {
+   "customer": "B2B+B2C",
+   "role": "运营商",
+   "channel": []
+  },
+  "stage": "被收购",
+  "recommend": {
+   "rec_v1": "信号与信息量高（被UnitedHealth以33亿美元接盘），它用居家护理+临终关怀规模化的并购打法做差异，但深嵌美国医保，国内难照搬。",
+   "rec_v2": "居家医疗头部样本：Amedisys 以临终关怀与居家护理的并购整合差异化，公开资料厚；可复制性受美国医保与强监管约束，价值在'居家即主场景'趋势。",
+   "rec_v3": "被Optum 33亿美元收购的强信号企业，以居家+安宁疗护双线差异化；国内创业者宜学其'医院外溢到家庭'的照护分层，而非支付结构。"
+  },
+  "payor_model": "政府医保/商保支付",
+  "signal_strength": 7.05,
+  "info_score": 8.0,
+  "diff_score": 6.5,
+  "copy_score": 4.0,
+  "research_value": 66.1,
+  "events": [
+   {
+    "date": "2023-06",
+    "text": "同意被UnitedHealth以33亿美元收购"
+   },
+   {
+    "date": "2025-08-14",
+    "text": "完成收购并退市，剥离164网点"
+   }
+  ],
+  "update_time": "2026-07-18",
+  "silver_verdict": "核心银发",
+  "silver_reason": "Amedisys是全美最大居家医疗与临终关怀商之一，在38州年服务46.5万患者，居家照护成本较住院低50%至70%，属核心银发到家照护。",
+  "name_cn": "Amedisys",
+  "数据来源": "联网精评",
+  "domestic_competitors": [
+   {
+    "serial": "#0017",
+    "name": "小橙",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0022",
+    "name": "易得康",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0029",
+    "name": "福寿康",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0042",
+    "name": "颐家",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   },
+   {
+    "serial": "#0058",
+    "name": "一家依",
+    "overlap_l2": [
+     "居家护理"
+    ]
+   }
+  ]
+ }
+]

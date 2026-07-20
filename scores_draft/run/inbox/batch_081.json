@@ -1,0 +1,530 @@
+{
+ "batch": 81,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0901",
+   "name": "Vitable",
+   "region": "海外",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "保健品"
+   ],
+   "description": "Vitable 是一家澳洲个性化维生素订阅品牌，按问卷与算法为个人配制每日分装营养包，D2C 订阅直邮、持有 TGA 相关资质。亮点是把膳食补充剂做成'按人定制+每日分装'的订阅模式。",
+   "highlights": "每月30美元/员工",
+   "funding_latest": {
+    "date": "2024年7月",
+    "amount": "1600万美元",
+    "display": "1600万美元 (2024年7月)"
+   },
+   "funding_total": "$25M",
+   "investors": [
+    "Cherryrock Capital",
+    "Y Combinator"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vitable",
+   "website_url": "https://www.vitable.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "Vitable 是一家澳洲个性化维生素订阅品牌，按问卷与算法为个人配制每日分装营养包，D2C 订阅直邮、持有 TGA 相关资质。亮点是把膳食补充剂做成'按人定制+每日分装'的订阅模式。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Vitable】聚焦产业资本/保健品，每月30美元/员工，研究价值分26。",
+   "payor_model": "商业保险",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0902",
+   "name": "VitalTech",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "糖尿病",
+    "可穿戴监测",
+    "居家护理"
+   ],
+   "description": "VitalTech sells a remote patient monitoring and telehealth system that streams vitals from wearables and home devices to care teams, flagging falls, heart and glucose changes for senior-living and home-health agencies.",
+   "highlights": "家庭护理远程监控和慢性病管理解决方案",
+   "funding_latest": {
+    "date": "2024年4月",
+    "amount": "900万美元",
+    "display": "900万美元 (2024年4月)"
+   },
+   "funding_total": "$26.3M",
+   "investors": [
+    "BayMed Venture Partners",
+    "Stanley Ventures"
+   ],
+   "founded": "2015",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=VitalTech",
+   "website_url": "https://www.vitaltech.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "VitalTech 销售远程健康监测与远程问诊系统，将可穿戴与居家设备的心率、血糖等数据传给照护团队，为养老机构与居家护理机构预警跌倒与异常。",
+   "business_model_cn": "B2B SaaS订阅",
+   "tag_l1": [
+    "食品营养",
+    "康复辅具",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "糖尿病",
+    "可穿戴监测",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【VitalTech】聚焦产业资本/居家护理/行业媒体，家庭护理远程监控和慢性病管理解决方案，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0903",
+   "name": "Vitas",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "美国最大临终关怀机构",
+   "highlights": "美国最大临终关怀机构",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1978",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vitas",
+   "website_url": "https://www.vitas.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "美国最大临终关怀机构",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Vitas】聚焦临终关怀/行业媒体，美国最大临终关怀机构，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0904",
+   "name": "Vivian Labs",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "Vivian offers employers a menopause benefit that gives staff access to vetted clinicians, peer community and evidence-based resources for midlife women's health, charged as a per-employee annual subscription.",
+   "highlights": "为更年期女性提供个性化护理数字平台",
+   "funding_latest": {
+    "date": "2024年9月",
+    "amount": "30万欧元",
+    "display": "30万欧元 (2024年9月)"
+   },
+   "funding_total": "€1.15M",
+   "investors": [
+    "Eleven Ventures",
+    "FRC Capital"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Vivian%20Labs",
+   "website_url": "https://www.vivianlabs.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Vivian 向雇主供应更年期员工福利，让女性员工对接经筛选的医生、同侪社群与循证健康资源，按每位员工年度订阅收费。",
+   "business_model_cn": "B2B按人订阅",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Vivian Labs】聚焦产业资本/女性健康/居家护理，为更年期女性提供个性化护理数字平台，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0906",
+   "name": "Voiceitt",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "面向言语障碍人群（含中风、帕金森等导致的老年失语患者）的语音识别AI解决方案，通过机器学习识别非标准语音并转换为清晰语音，帮助失语老人重新沟通。采用B2B技术授权+面向终端用户的App模式。",
+   "highlights": "言语障碍人士的语音AI解决方案",
+   "funding_latest": null,
+   "funding_total": "$20M",
+   "investors": [
+    "Technion",
+    "Quake Capital",
+    "Connecticut Innovations"
+   ],
+   "founded": "2012",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Voiceitt",
+   "website_url": "https://www.voiceitt.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "面向言语障碍人群（含中风、帕金森等导致的老年失语患者）的语音识别AI解决方案，通过机器学习识别非标准语音并转换为清晰语音，帮助失语老人重新沟通。采用B2B技术授权+面向终端用户的App模式。",
+   "business_model_cn": "B2C/B2B 老年文娱社交平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Voiceitt】聚焦文娱社交/辅具，言语障碍人士的语音AI解决方案，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0908",
+   "name": "Voxela",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "AI图像分析检测跌倒和走动，护理机构和医院",
+   "highlights": "护理机构和医院",
+   "funding_latest": {
+    "date": "2024年10月",
+    "round": "Pre-A",
+    "display": "Pre-A (2024年10月)"
+   },
+   "funding_total": "$4.68M",
+   "investors": [
+    "Third Act Ventures",
+    "BlackCrow Capital",
+    "Risktaker"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Voxela",
+   "website_url": "https://www.voxela.com",
+   "business_model": "B2B AI/数据驱动",
+   "desc_cn": "AI图像分析检测跌倒和走动，护理机构和医院",
+   "business_model_cn": "B2B AI/数据驱动",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "成长期",
+   "recommend": "【Voxela】聚焦产业资本/健康监测/文娱社交，护理机构和医院，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0912",
+   "name": "Watershed Health",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "护理协调"
+   ],
+   "description": "连接患者所有临床和非临床团队改善护理协调",
+   "highlights": "连接患者所有临床和非临床团队改善护理协调",
+   "funding_latest": {
+    "amount": "1360万美元",
+    "display": "1360万美元"
+   },
+   "funding_total": "$13.6M",
+   "investors": [
+    "First Trust Capital Partners",
+    "FCA Venture Partners"
+   ],
+   "founded": "2020",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Watershed%20Health",
+   "website_url": "https://www.watershedhealth.com",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "连接患者所有临床和非临床团队改善护理协调",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护理协调"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Watershed Health】聚焦产业资本/居家护理/行业媒体，连接患者所有临床和非临床团队改善护理协调，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0913",
+   "name": "Welbi",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "Welbi 是一款面向养老社区的入住长者参与（resident engagement）AI 平台，自动编排活动、匹配同伴并对接 EHR 电子健康档案，按机构订阅收费。亮点是用 AI 把日常活动与社交参与数据化，提升长者满意度与留存。",
+   "highlights": "专注于养老院和退休护理社区的健康管理",
+   "funding_latest": null,
+   "funding_total": "$6M",
+   "investors": [
+    "MaRS Investment Accelerator Fund",
+    "Ontario Centre of Innovation"
+   ],
+   "founded": "2016",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Welbi",
+   "website_url": "https://www.welbi.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "Welbi 是一款面向养老社区的入住长者参与（resident engagement）AI 平台，自动编排活动、匹配同伴并对接 EHR 电子健康档案，按机构订阅收费。亮点是用 AI 把日常活动与社交参与数据化，提升长者满意度与留存。",
+   "business_model_cn": "B2B/B2C 养老社区/机构运营",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Welbi】聚焦健康管理/养老社区，专注于养老院和退休护理社区的健康管理，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0914",
+   "name": "Wesper",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "睡眠监测",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "家用睡眠测试和呼吸暂停诊断，FDA批准",
+   "highlights": "FDA批准",
+   "funding_latest": null,
+   "funding_total": "$13.8M",
+   "investors": [
+    "Valor Equity Partners",
+    "Breyer Capital"
+   ],
+   "founded": "2017",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wesper",
+   "website_url": "https://wesper.co",
+   "business_model": "B2B/B2C 健康服务",
+   "desc_cn": "家用睡眠测试和呼吸暂停诊断，FDA批准",
+   "business_model_cn": "B2B/B2C 健康服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Wesper】聚焦健康监测/认知症，FDA批准，B2B+B2C模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0916",
+   "name": "Wheel the World",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "无障碍旅行初创公司",
+   "highlights": "无障碍旅行初创公司",
+   "funding_latest": null,
+   "funding_total": "$8.48M",
+   "investors": [
+    "ChileGlobal Ventures",
+    "Chivas Venture",
+    "Kayak Ventures"
+   ],
+   "founded": "2018",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wheel%20the%20World",
+   "website_url": "https://wheeltheworld.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "无障碍旅行初创公司",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Wheel the World】聚焦旅游/行业媒体，无障碍旅行初创公司，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0917",
+   "name": "Wile",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "更年期"
+   ],
+   "description": "女性健康补充剂，针对围绝经期，被Nameless CPG收购",
+   "highlights": "针对围绝经期",
+   "funding_latest": {
+    "date": "2024年5月",
+    "round": "收购",
+    "display": "收购 (2024年5月)"
+   },
+   "funding_total": "$3M",
+   "investors": [
+    "Serena Ventures",
+    "Springdale Ventures"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Wile",
+   "website_url": "https://www.wile.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "女性健康补充剂，针对围绝经期，被Nameless CPG收购",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "更年期"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【Wile】聚焦产业资本/健康管理/女性健康，针对围绝经期，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0918",
+   "name": "Xander Glasses",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "眼镜"
+   ],
+   "description": "将语音翻译成文本并实时显示字幕，AR增强对话",
+   "highlights": "AR增强对话",
+   "funding_latest": {
+    "amount": "280万美元",
+    "display": "280万美元"
+   },
+   "funding_total": "$2.82M",
+   "investors": [
+    "Ray Stata",
+    "Mark Ethier"
+   ],
+   "founded": "2021",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Xander%20Glasses",
+   "website_url": "https://www.xanderglasses.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "将语音翻译成文本并实时显示字幕，AR增强对话",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "眼镜"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Xander Glasses】聚焦产业资本/文娱社交/行业媒体，AR增强对话，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

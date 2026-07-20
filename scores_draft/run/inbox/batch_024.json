@@ -1,0 +1,586 @@
+{
+ "batch": 24,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0006",
+   "name": "共比邻",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "老年旅游",
+   "tags": [
+    "旅游"
+   ],
+   "description": "共比邻（上海共比邻国际旅行社有限公司）成立于2021年，由饿了么联合创始人康嘉创立，是专为退休及活力银发人群提供旅游、聚会、演出与电商服务的O2O平台，主打\"纯玩无购物\"，累计用户超500万，2025年完成过亿元A轮融资。",
+   "highlights": "有公众号和小程序。",
+   "funding_latest": {
+    "date": "2025-07",
+    "amount": "上亿融资",
+    "display": "上亿融资 (2025-07)"
+   },
+   "funding_total": "过亿元",
+   "investors": [
+    "概念资本 (MindWorks Ventures)"
+   ],
+   "founded": "2020",
+   "value_score": 21,
+   "source": "选题库",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%85%B1%E6%AF%94%E9%82%BB",
+   "website_url": "https://go-belink.com",
+   "business_model": "B2C 老年出行服务",
+   "name_cn": "共比邻",
+   "desc_cn": "老年旅游平台，有公众号和小程序。",
+   "business_model_cn": "B2C 老年出行服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "未披露",
+   "recommend": "【共比邻】聚焦产业资本/文娱社交/旅游，有公众号和小程序。，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0007",
+   "name": "兴趣岛",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "教育",
+    "兴趣社群"
+   ],
+   "description": "前身\"千聊\"，成立于2016年，中老年在线兴趣教育平台。提供太极、瑜伽、书法、国画、声乐等课程，累计服务数百万中老年用户。",
+   "highlights": "成立于2016年",
+   "funding_latest": {
+    "date": "2020",
+    "amount": "千聊时期获多轮融资",
+    "round": "多轮",
+    "display": "多轮 千聊时期获多轮融资 (2020)"
+   },
+   "funding_total": {
+    "amount": "未披露具体金额",
+    "display": "累计未披露具体金额"
+   },
+   "investors": "",
+   "founded": "2016",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%85%B4%E8%B6%A3%E5%B2%9B",
+   "website_url": "http://www.manzhu.online",
+   "business_model": "B2C 教育/培训",
+   "name_cn": "兴趣岛",
+   "desc_cn": "前身\"千聊\"，成立于2016年，中老年在线兴趣教育平台。提供太极、瑜伽、书法、国画、声乐等课程，累计服务数百万中老年用户。",
+   "business_model_cn": "B2C 教育/培训",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【兴趣岛】聚焦产业资本/文娱社交，成立于2016年，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0008",
+   "name": "医家通",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "社区居家养老SaaS系统提供商，为养老机构和社区养老服务中心提供信息化管理平台。",
+   "highlights": "为养老机构和社区养老服务中心提供信息化管理平台。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2014",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%8C%BB%E5%AE%B6%E9%80%9A",
+   "website_url": "https://www.colorv.com",
+   "business_model": "B2B SaaS/软件平台",
+   "name_cn": "医家通",
+   "desc_cn": "社区居家养老SaaS系统提供商，为养老机构和社区养老服务中心提供信息化管理平台。",
+   "business_model_cn": "B2B SaaS/软件平台",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【医家通】聚焦居家护理/适老化改造，为养老机构和社区养老服务中心提供信息化管理平台。，B2B模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0013",
+   "name": "奕然康复",
+   "region": "国内",
+   "category_l1": "康复设备",
+   "category_l2": "运动康复",
+   "tags": [
+    "外骨骼"
+   ],
+   "description": "上海奕然康复器械研发无源的奕行®仿生机械外骨骼下肢康复训练系统，借助专利外骨骼肌腱技术辅助脑卒中、脊髓损伤与小儿脑瘫患者恢复步行能力，产品分医院版、家庭版与儿童版并获中美监管认证。",
+   "highlights": "专注于康复机器人及智能康复解决方案。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2022",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A5%95%E7%84%B6%E5%BA%B7%E5%A4%8D",
+   "website_url": "https://www.tsinglantech.com",
+   "business_model": "B2B/B2C 服务机器人",
+   "name_cn": "奕然康复",
+   "desc_cn": "奕然康复主营无源仿生机械外骨骼下肢康复设备，以Exotendon技术帮助卒中与脑瘫患者重建步行能力，覆盖医院、社区与居家场景。",
+   "business_model_cn": "康复器械销售+租赁",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "外骨骼"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【奕然康复】聚焦康复/智能硬件，专注于康复机器人及智能康复解决方案。，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0014",
+   "name": "安护通",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "居家康复",
+    "护士上门"
+   ],
+   "description": "居家护理服务平台，提供专业护理员上门服务，覆盖居家养老、术后护理、慢病管理等场景。",
+   "highlights": "提供专业护理员上门服务",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": [
+    "广东宏升投资集团有限公司"
+   ],
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%AE%89%E6%8A%A4%E9%80%9A",
+   "website_url": "https://dianke-aiot.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "安护通",
+   "desc_cn": "居家护理服务平台，提供专业护理员上门服务，覆盖居家养老、术后护理、慢病管理等场景。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家康复",
+    "护士上门"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【安护通】聚焦健康管理/居家护理/慢病管理，提供专业护理员上门服务，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0016",
+   "name": "小年糕",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "短视频"
+   ],
+   "description": "中老年短视频和影集制作应用，微信生态内头部小程序，服务数亿用户，是银发群体最常用的内容创作工具之一。",
+   "highlights": "微信生态内头部小程序",
+   "funding_latest": {
+    "date": "2020",
+    "amount": "D轮融资（一线投资机构）",
+    "round": "D",
+    "display": "D D轮融资（一线投资机构） (2020)"
+   },
+   "funding_total": {
+    "amount": "多轮融资",
+    "display": "累计多轮融资"
+   },
+   "investors": [
+    "君联资本"
+   ],
+   "founded": "2014",
+   "value_score": 36,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%B0%8F%E5%B9%B4%E7%B3%95",
+   "website_url": "https://www.xnioz.com",
+   "business_model": "B2C 社交娱乐平台",
+   "name_cn": "小年糕",
+   "desc_cn": "中老年短视频和影集制作应用，微信生态内头部小程序，服务数亿用户，是银发群体最常用的内容创作工具之一。",
+   "business_model_cn": "B2C 社交娱乐平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "短视频"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "平台",
+    "channel": [
+     "线上",
+     "短视频"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【小年糕】聚焦产业资本/文娱社交，微信生态内头部小程序，B2C模式，研究价值分36。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0018",
+   "name": "彩视",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "短视频",
+    "兴趣社群"
+   ],
+   "description": "彩视是迅捷联动（北京）科技推出的音乐相册与短视频创作App，主要面向中老年用户，提供海量模板一键生成MV、兴趣群组与直播功能，累计约3000万同龄用户。它以极简操作和怀旧社区氛围，成为中老年表达与社交的「数字家园」。",
+   "highlights": "提供视频制作、社区互动等功能",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2017",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%BD%A9%E8%A7%86",
+   "website_url": "http://www.wieyes.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "彩视",
+   "desc_cn": "彩视是迅捷联动（北京）科技推出的音乐相册与短视频创作App，主要面向中老年用户，提供海量模板一键生成MV、兴趣群组与直播功能，累计约3000万同龄用户。它以极简操作和怀旧社区氛围，成为中老年表达与社交的「数字家园」。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "短视频",
+    "兴趣社群"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": [
+     "短视频"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【彩视】聚焦文娱社交，提供视频制作、社区互动等功能，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0019",
+   "name": "心智青",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "教育",
+    "文娱"
+   ],
+   "description": "心智青（2020年前后创立于济南）是中老年文娱教育连锁品牌，开设声乐、舞蹈、瑜伽、新媒体运营等49门适老化课程，全国直营与合作校区超500家。其以教育+活动为纽带，通过私域直播与商城延伸出旅游、电商等银发消费闭环。",
+   "highlights": "提供线下课程和社区活动",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%BF%83%E6%99%BA%E9%9D%92",
+   "website_url": "https://xianqudao.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "心智青",
+   "desc_cn": "心智青（2020年前后创立于济南）是中老年文娱教育连锁品牌，开设声乐、舞蹈、瑜伽、新媒体运营等49门适老化课程，全国直营与合作校区超500家。其以教育+活动为纽带，通过私域直播与商城延伸出旅游、电商等银发消费闭环。",
+   "business_model_cn": "B2B/B2C 平台",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "教育",
+    "文娱"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": [
+     "线下"
+    ]
+   },
+   "stage": "融资中",
+   "recommend": "【心智青】聚焦文娱社交，提供线下课程和社区活动，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0021",
+   "name": "抚理健康",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家康复",
+    "护士上门"
+   ],
+   "description": "居家养老护理服务商，提供专业护理员上门服务，覆盖生活照料、医疗护理、康复陪伴等。",
+   "highlights": "提供专业护理员上门服务",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%8A%9A%E7%90%86%E5%81%A5%E5%BA%B7",
+   "website_url": "https://www.yytong.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "抚理健康",
+   "desc_cn": "居家养老护理服务商，提供专业护理员上门服务，覆盖生活照料、医疗护理、康复陪伴等。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家康复",
+    "护士上门"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【抚理健康】聚焦专业护理/居家护理，提供专业护理员上门服务，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0022",
+   "name": "易得康",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "护士上门",
+    "居家护理"
+   ],
+   "description": "易得康是国内医疗照护连锁机构，引入美国CNA照护标准，为出入院患者及居家长者提供护士/照护师上门服务、长护险定点护理与陪医就诊。其业务网络覆盖全国56城，护理站多为上海长护险定点机构，个人仅需承担10%费用。",
+   "highlights": "提供专业护理员上门服务",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2009",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%98%93%E5%BE%97%E5%BA%B7",
+   "website_url": "http://www.i-altus.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "易得康",
+   "desc_cn": "易得康是国内医疗照护连锁机构，引入美国CNA照护标准，为出入院患者及居家长者提供护士/照护师上门服务、长护险定点护理与陪医就诊。其业务网络覆盖全国56城，护理站多为上海长护险定点机构，个人仅需承担10%费用。",
+   "business_model_cn": "B2C 居家/机构专业护理服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护士上门",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【易得康】聚焦专业护理/居家护理，提供专业护理员上门服务，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0023",
+   "name": "橙医健康",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "陪诊"
+   ],
+   "description": "北京橙医健康以专业陪诊为核心业务，配套院内24小时护理、住家照护与医院代办服务，通过陪诊师培训与城市合伙人模式已将业务覆盖全国20余省份，累计协助17万个家庭完成就医。",
+   "highlights": "提供就医陪同、健康体检、慢病管理等服务。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2023",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%A9%99%E5%8C%BB%E5%81%A5%E5%BA%B7",
+   "website_url": "https://www.wpeizhen.com",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "橙医健康",
+   "desc_cn": "橙医健康构建以陪诊为核心、延伸至院内陪护与住家照护的就医协助体系，自主培训并认证七千余名陪诊师，网络遍及全国多数省份。",
+   "business_model_cn": "陪诊与护理服务费",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "陪诊"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【橙医健康】聚焦健康管理/慢病管理，提供就医陪同、健康体检、慢病管理等服务。，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0024",
+   "name": "清澜技术",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "跌倒监测",
+    "睡眠监测"
+   ],
+   "description": "清澜技术基于60GHz毫米波雷达研发无感生命体征监测仪，实时探测老人呼吸、心率、跌倒与离床状态并支持双向语音告警，已与泰康、平安等机构合作并销往日本、欧美市场。",
+   "highlights": "专注于物联网和AI技术在养老场景的应用。",
+   "funding_latest": {
+    "amount": "未公开披露",
+    "round": "未披露",
+    "display": "未披露 未公开披露"
+   },
+   "funding_total": {
+    "amount": "未披露",
+    "display": "累计未披露"
+   },
+   "investors": "",
+   "founded": "2022",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E6%B8%85%E6%BE%9C%E6%8A%80%E6%9C%AF",
+   "website_url": "https://www.adheling.com",
+   "business_model": "B2B AI/数据驱动",
+   "name_cn": "清澜技术",
+   "desc_cn": "清澜技术以毫米波雷达为核心打造无摄像头、无穿戴的养老监测设备，可识别跌倒、呼吸心率异常与睡眠状况，面向机构与居家养老做主动守护。",
+   "business_model_cn": "硬件销售+系统订阅",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测",
+    "睡眠监测"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "融资中",
+   "recommend": "【清澜技术】聚焦健康监测/健康管理，专注于物联网和AI技术在养老场景的应用。，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

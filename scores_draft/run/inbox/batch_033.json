@@ -1,0 +1,484 @@
+{
+ "batch": 33,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0135",
+   "name": "唯艾",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "个人护理"
+   ],
+   "description": "唯艾主打中老年个人护理用品，涵盖成人失禁护理产品（如成人纸尿裤、护理垫）等适老日用品，满足失能及高龄老人的日常卫生与照护需求。",
+   "highlights": "中医艾灸健康品牌",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%94%AF%E8%89%BE",
+   "website_url": "",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "唯艾",
+   "desc_cn": "唯艾面向失能与高龄老人群体，经营成人纸尿裤、护理垫等个人护理适老用品，减轻家庭与机构的日常照护负担。",
+   "business_model_cn": "日用品销售",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "个人护理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【唯艾】聚焦健康管理/智能硬件，中医艾灸健康品牌，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0136",
+   "name": "嘉堡护理",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "居家护理",
+    "护士上门"
+   ],
+   "description": "嘉堡护理（2013年试运营）是从医院陪护起家的专业护理服务机构，提供医院护工、居家护理（母婴/养老/全失能护理、长护险、护士上门）与月嫂产后修复。其自营员工制护理人员近3万，覆盖近20个省会城市与几十家医院。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%98%89%E5%A0%A1%E6%8A%A4%E7%90%86",
+   "website_url": "http://www.ihomeclub.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "嘉堡护理",
+   "desc_cn": "嘉堡护理（2013年试运营）是从医院陪护起家的专业护理服务机构，提供医院护工、居家护理（母婴/养老/全失能护理、长护险、护士上门）与月嫂产后修复。其自营员工制护理人员近3万，覆盖近20个省会城市与几十家医院。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "护士上门"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【嘉堡护理】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0137",
+   "name": "嘉年乐",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "嘉年乐（2011年成立，上海）是老年用品与适老化综合服务商，运营嘉年乐老年商城，产品含适老家具、康复器材、助行移动（助行器/拐杖/代步车）、健康监测、入浴如厕辅助与护理床。其同时提供养老机构设施设备配置与居家适老化改造。",
+   "highlights": "适老化改造领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2011",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%98%89%E5%B9%B4%E4%B9%90",
+   "website_url": "https://www.jianianle.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "嘉年乐",
+   "desc_cn": "嘉年乐（2011年成立，上海）是老年用品与适老化综合服务商，运营嘉年乐老年商城，产品含适老家具、康复器材、助行移动（助行器/拐杖/代步车）、健康监测、入浴如厕辅助与护理床。其同时提供养老机构设施设备配置与居家适老化改造。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【嘉年乐】聚焦居家护理/智能硬件/适老化改造，适老化改造领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0138",
+   "name": "国寿大健康",
+   "region": "国内",
+   "category_l1": "产业资本",
+   "category_l2": "消费背景",
+   "tags": [
+    "产业基金"
+   ],
+   "description": "国寿大健康是中国人寿旗下大健康产业投资基金，聚焦医疗健康和养老服务领域的股权投资。",
+   "highlights": "中国人寿旗下大健康产业基金",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%9B%BD%E5%AF%BF%E5%A4%A7%E5%81%A5%E5%BA%B7",
+   "website_url": "https://www.chinalifepe.com",
+   "business_model": "银发经济企业",
+   "name_cn": "国寿大健康",
+   "desc_cn": "国寿大健康是中国人寿旗下大健康产业投资基金，聚焦医疗健康和养老服务领域的股权投资。",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "产业基金"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【国寿大健康】聚焦产业资本，中国人寿旗下大健康产业基金，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0139",
+   "name": "国科优选",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "零售"
+   ],
+   "description": "北京国科优选科技（2021年成立）是社区新零售供应链公司，以「互联网+品牌农业」模式批发果蔬生鲜、米面粮油、家居日化、健康食品等家庭消费品。其全国开设4000+线下自提/体验店（上海近80家），以产地直供、全程溯源与365天无理由退换为特色。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2021",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%9B%BD%E7%A7%91%E4%BC%98%E9%80%89",
+   "website_url": "https://guokeyouxuan.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "国科优选",
+   "desc_cn": "北京国科优选科技（2021年成立）是社区新零售供应链公司，以「互联网+品牌农业」模式批发果蔬生鲜、米面粮油、家居日化、健康食品等家庭消费品。其全国开设4000+线下自提/体验店（上海近80家），以产地直供、全程溯源与365天无理由退换为特色。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【国科优选】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0140",
+   "name": "复星保德信",
+   "region": "国内",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "保险"
+   ],
+   "description": "复星保德信人寿是复星与保德信合资的寿险公司（2012年成立），聚焦「一老一小」构建「星享寿」等养老生态，打通「社区+保险」场景。其2025年保险业务收入126亿元，推出数十款适老化养老/医疗/疾病保险产品。",
+   "highlights": "养老地产领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%8D%E6%98%9F%E4%BF%9D%E5%BE%B7%E4%BF%A1",
+   "website_url": "https://www.pflife.com.cn",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "复星保德信",
+   "desc_cn": "复星保德信人寿是复星与保德信合资的寿险公司（2012年成立），聚焦「一老一小」构建「星享寿」等养老生态，打通「社区+保险」场景。其2025年保险业务收入126亿元，推出数十款适老化养老/医疗/疾病保险产品。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【复星保德信】聚焦养老社区，养老地产领域企业，B2B+B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0141",
+   "name": "夕阳红",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "广州夕阳红医疗用品（2004年成立）是家用医疗器械代理与销售商，经营康复器材、理疗仪器、检测仪器、护理用品等3000+种产品，合作欧姆龙、鱼跃、强生等厂家。其在广东、福建拥有12家直营专卖店，面向中老年与残障人群。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 27,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%95%E9%98%B3%E7%BA%A2",
+   "website_url": "",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "夕阳红",
+   "desc_cn": "广州夕阳红医疗用品（2004年成立）是家用医疗器械代理与销售商，经营康复器材、理疗仪器、检测仪器、护理用品等3000+种产品，合作欧姆龙、鱼跃、强生等厂家。其在广东、福建拥有12家直营专卖店，面向中老年与残障人群。",
+   "business_model_cn": "B2C 老年辅助器具/康复器械",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【夕阳红】聚焦智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分27。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0142",
+   "name": "多呵",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "美妆护肤"
+   ],
+   "description": "多呵（DOWLHO）是源自上海比优缇生物科技的护肤品牌，以「亚麻籽护肤」为特色，为银发、婴童等人群提供皮肤健康解决方案。其从中老年护肤切入，主打温和无负担的功能性个护产品。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%9A%E5%91%B5",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "多呵",
+   "desc_cn": "多呵（DOWLHO）是源自上海比优缇生物科技的护肤品牌，以「亚麻籽护肤」为特色，为银发、婴童等人群提供皮肤健康解决方案。其从中老年护肤切入，主打温和无负担的功能性个护产品。",
+   "business_model_cn": "B2B 行业媒体/内容服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "美妆护肤"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【多呵】聚焦个护，行业服务领域企业，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0143",
+   "name": "大耳马",
+   "region": "国内",
+   "category_l1": "健康服务",
+   "category_l2": "健康养生",
+   "tags": [
+    "助听器"
+   ],
+   "description": "大耳马是助听器品牌，专注 affordable 听力解决方案，服务老年听力障碍人群。",
+   "highlights": "助听器品牌，affordable听力方案",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2015",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A7%E8%80%B3%E9%A9%AC",
+   "website_url": "",
+   "business_model": "B2C 健康养生服务",
+   "name_cn": "大耳马",
+   "desc_cn": "大耳马是助听器品牌，专注 affordable 听力解决方案，服务老年听力障碍人群。",
+   "business_model_cn": "B2C 健康养生服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "助听器"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【大耳马】聚焦健康管理，助听器品牌，affordable听力方案，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0144",
+   "name": "天华设计",
+   "region": "国内",
+   "category_l1": "适老化改造",
+   "category_l2": "适老家居产品",
+   "tags": [
+    "适老化"
+   ],
+   "description": "上海天华建筑设计旗下「天华医养」团队自2010年起深耕养老设计，提供养老产业研究、养老规划建筑设计与运营咨询，代表作含泰康之家·燕园、太保家园、万科怡园等。其以适老化建筑研究引领养老地产设计，参与多项行业标准的制定。",
+   "highlights": "适老化改造领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1997",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E5%8D%8E%E8%AE%BE%E8%AE%A1",
+   "website_url": "http://thape.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "天华设计",
+   "desc_cn": "上海天华建筑设计旗下「天华医养」团队自2010年起深耕养老设计，提供养老产业研究、养老规划建筑设计与运营咨询，代表作含泰康之家·燕园、太保家园、万科怡园等。其以适老化建筑研究引领养老地产设计，参与多项行业标准的制定。",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天华设计】聚焦居家护理/智能硬件/适老化改造，适老化改造领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0145",
+   "name": "天合人康",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品",
+    "保健品"
+   ],
+   "description": "天合人康（品牌源自2003年创立的人康/仁瑞体系）是健康科技企业，主营基础营养品、功能食品、中医养生理疗服务与超市，全国直营门店五百多家。其与一然生物、国药集团等合作推出益生菌、牦牛胶原蛋白肽等产品。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2022",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E5%90%88%E4%BA%BA%E5%BA%B7",
+   "website_url": "",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "天合人康",
+   "desc_cn": "天合人康（品牌源自2003年创立的人康/仁瑞体系）是健康科技企业，主营基础营养品、功能食品、中医养生理疗服务与超市，全国直营门店五百多家。其与一然生物、国药集团等合作推出益生菌、牦牛胶原蛋白肽等产品。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品",
+    "保健品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天合人康】聚焦保健品，健康食品领域企业，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0146",
+   "name": "天壹智慧",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理",
+    "养老机构",
+    "长护险"
+   ],
+   "description": "南京天一智慧养老（2019年成立）是以信息化为特征的新型养老服务公司，集居家、社区、机构三大业务板块，提供线上点单小程序、分层需求匹配与长护险服务。其多次中标医院免陪照护与长护险定点项目，覆盖江苏、安徽、广东等多地。",
+   "highlights": "智慧养老信息化平台",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E5%A4%A9%E5%A3%B9%E6%99%BA%E6%85%A7",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "天壹智慧",
+   "desc_cn": "南京天一智慧养老（2019年成立）是以信息化为特征的新型养老服务公司，集居家、社区、机构三大业务板块，提供线上点单小程序、分层需求匹配与长护险服务。其多次中标医院免陪照护与长护险定点项目，覆盖江苏、安徽、广东等多地。",
+   "business_model_cn": "B2C 居家/机构专业护理服务",
+   "tag_l1": [
+    "养老服务",
+    "金融保险"
+   ],
+   "tag_l2": [
+    "居家护理",
+    "养老机构",
+    "长护险"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【天壹智慧】聚焦专业护理/居家护理，智慧养老信息化平台，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

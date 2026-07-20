@@ -1,0 +1,945 @@
+[
+ {
+  "serial": "#0470",
+  "name": "Hinge Health",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "IPO",
+   "amount": "4.373亿美元",
+   "currency": "USD",
+   "date": "2025-05",
+   "display": "IPO 募资4.373亿美元 (2025-05)",
+   "investors": [
+    "NYSE公开发行(HNGE)"
+   ]
+  },
+  "payor_model": "B端机构付费（雇主与健康计划采购MSK福利，会员零自付）+ 正拓展Medicare Advantage",
+  "highlights": [
+   "纽交所上市 HNGE（2025-05）",
+   "AI动作追踪+FDA认证可穿戴Enso镇痛",
+   "服务自保雇主与健康计划，目标降低手术率"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "远程医疗",
+   "慢病管理"
+  ],
+  "info_score": 9,
+  "diff_score": 4,
+  "copy_score": 5,
+  "signal_strength": 7.05,
+  "research_value": 66.1,
+  "silver_hit": [
+   "养老",
+   "护理",
+   "慢病",
+   "康复"
+  ]
+ },
+ {
+  "serial": "#0866",
+  "name": "Spring Health",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "E轮",
+   "amount": "1亿美元",
+   "currency": "USD",
+   "date": "2024-07",
+   "display": "E轮 1亿美元 (2024-07)",
+   "investors": [
+    "Generation Investment Management",
+    "Kinnevik",
+    "Northzone",
+    "RRE Ventures"
+   ]
+  },
+  "payor_model": "B端机构付费（雇主与健康计划订阅采购，员工免费使用）",
+  "highlights": [
+   "精准心理健康匹配平台，覆盖超1000万生命",
+   "E轮1亿美元、估值33亿美元(2024-07)",
+   "客户含微软/Target/JPMorgan等400+雇主",
+   "独立研究认证：每投入$1为健康计划省$2.20（2.2x ROI）"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "心理健康"
+  ],
+  "info_score": 9,
+  "diff_score": 3,
+  "copy_score": 5,
+  "signal_strength": 5.55,
+  "research_value": 59.6,
+  "silver_hit": [
+   "养老"
+  ]
+ },
+ {
+  "serial": "#0886",
+  "name": "Transcarent",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "D轮",
+   "amount": "1.26亿美元",
+   "currency": "USD",
+   "date": "2024-05",
+   "display": "D轮 1.26亿美元 (2024-05)",
+   "investors": [
+    "General Catalyst",
+    "7wire Ventures",
+    "Kinnevik",
+    "Kleiner Perkins",
+    "Merck GHIF"
+   ]
+  },
+  "payor_model": "B端机构付费（自保雇主与健康计划付费；收入与为雇主节省的医疗成本绑定）",
+  "highlights": [
+   "Livongo创始人Glen Tullman创立",
+   "WayFinding生成式AI导诊",
+   "2025以6.21亿美元收购Accolade",
+   "完成 Accolade 并购后估值约 22 亿美元"
+  ],
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "保险"
+  ],
+  "info_score": 8,
+  "diff_score": 7,
+  "copy_score": 4,
+  "signal_strength": 5.55,
+  "research_value": 62.6,
+  "silver_hit": [
+   "护理",
+   "慢病"
+  ]
+ },
+ {
+  "serial": "#0974",
+  "name": "Eight Sleep",
+  "name_cn": "八睡眠",
+  "funding_latest": {
+   "round": "战略轮",
+   "amount": "5000万美元",
+   "currency": "USD",
+   "date": "2026-03",
+   "display": "战略轮 5000万美元 (2026-03, Tether领投)",
+   "investors": [
+    "Tether Investments",
+    "Khosla Ventures",
+    "Founders Fund",
+    "HSG",
+    "Y Combinator"
+   ]
+  },
+  "payor_model": "个人自付(C端)：硬件销售+Autopilot会员订阅；2026入华取消订阅费改DTC电商",
+  "highlights": [
+   "Pod智能床垫罩(温控+生物监测)",
+   "硬件+强制会员订阅模式",
+   "2026-04进入中国，取消订阅改DTC"
+  ],
+  "tag_l1": [
+   "消费品",
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "更年期",
+   "睡眠监测"
+  ],
+  "info_score": 8,
+  "diff_score": 4,
+  "copy_score": 5,
+  "signal_strength": 4.55,
+  "research_value": 55.6,
+  "silver_hit": [
+   "康复"
+  ]
+ },
+ {
+  "serial": "#0853",
+  "name": "Sidecar Health",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "D轮",
+   "amount": "1.65亿美元",
+   "currency": "USD",
+   "date": "2024-06",
+   "display": "D轮 1.65亿美元 (2024-06)",
+   "investors": [
+    "Koch Disruptive Technologies",
+    "GreatPoint Ventures",
+    "BOND Capital",
+    "Menlo Ventures",
+    "Drive Capital"
+   ]
+  },
+  "payor_model": "商业保险/雇主福利(B端)：雇主赞助保险，会员用Visa福利卡直付并按节省分润",
+  "highlights": [
+   "透明定价+无网络限制健康险",
+   "Visa福利卡直付、会员按节省分润",
+   "2021成独角兽，覆盖44+州"
+  ],
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "保险"
+  ],
+  "info_score": 7,
+  "diff_score": 8,
+  "copy_score": 3,
+  "signal_strength": 5.05,
+  "research_value": 58.1,
+  "silver_hit": []
+ },
+ {
+  "serial": "#0964",
+  "name": "Synchron",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "D轮",
+   "amount": "2亿美元",
+   "currency": "USD",
+   "date": "2025-11",
+   "display": "D轮 2亿美元 (2025-11)",
+   "investors": [
+    "Double Point Ventures",
+    "ARCH Ventures",
+    "Khosla Ventures",
+    "Bezos Expeditions",
+    "QIA"
+   ]
+  },
+  "payor_model": "B端机构付费（面向医院/医疗系统的植入式设备；远期或由商业/政府医疗保险覆盖，尚未商业上市）",
+  "highlights": [
+   "血管内微创脑机接口Stentrode(免开颅)",
+   "2025首例意念控制iPad(ALS患者)",
+   "D轮2亿美元(2025-11)"
+  ],
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "智能硬件"
+  ],
+  "info_score": 9,
+  "diff_score": 9,
+  "copy_score": 4,
+  "signal_strength": 5.05,
+  "research_value": 68.1,
+  "silver_hit": [
+   "认知"
+  ]
+ },
+ {
+  "serial": "#0872",
+  "name": "Strive Health",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "D轮",
+   "amount": "5.5亿美元(3亿股权+2.5亿债务)",
+   "currency": "USD",
+   "date": "2025-09",
+   "display": "D轮 5.5亿美元 (2025-09)",
+   "investors": [
+    "NEA",
+    "CVS Health Ventures",
+    "CapitalG",
+    "Echo Health Ventures",
+    "Redpoint"
+   ]
+  },
+  "payor_model": "混合（商业保险+政府Medicare/MA，通过风险/价值医疗合同向健康计划与医疗系统收费）",
+  "highlights": [
+   "价值导向肾脏护理全国龙头",
+   "D轮5.5亿美元(2025-09)，估值18亿",
+   "管理近50亿美元年医疗支出、14.5万+患者",
+   "临床实证：总医疗成本降 20%、住院降 41%"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "慢病管理"
+  ],
+  "info_score": 8,
+  "diff_score": 4,
+  "copy_score": 4,
+  "signal_strength": 5.05,
+  "research_value": 55.1,
+  "silver_hit": [
+   "养老",
+   "护理",
+   "慢病"
+  ]
+ },
+ {
+  "serial": "#0861",
+  "name": "Somatus",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "G轮",
+   "amount": "约7500万美元",
+   "currency": "USD",
+   "date": "2025-06",
+   "display": "G轮 约7500万美元 (2025-06)",
+   "investors": [
+    "未披露(Forge标注Undisclosed)"
+   ]
+  },
+  "payor_model": "混合（健康计划+政府Medicare价值医疗合同，B端机构付费为主）",
+  "highlights": [
+   "价值导向肾+心血管综合护理龙头",
+   "G轮约7500万美元(2025-06)，估值约49.8亿",
+   "服务突破50万生命，降低肾病死亡率13%"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "慢病管理"
+  ],
+  "info_score": 7,
+  "diff_score": 4,
+  "copy_score": 4,
+  "signal_strength": 4.05,
+  "research_value": 49.1,
+  "silver_hit": [
+   "养老",
+   "护理",
+   "慢病"
+  ]
+ },
+ {
+  "serial": "#0977",
+  "name": "Wellth",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "C轮",
+   "amount": "3600万美元",
+   "currency": "USD",
+   "date": "2025-03",
+   "display": "C轮 3600万美元 (2025-03)",
+   "investors": [
+    "Mercato Partners",
+    "FCA Venture Partners",
+    "Comcast Ventures",
+    "SignalFire",
+    "New York Life"
+   ]
+  },
+  "payor_model": "混合（客户为健康计划，终极支付方为政府Medicare/Medicaid；B端机构付费+政府支付主导）",
+  "highlights": [
+   "行为经济学+每日财务激励提升依从",
+   "C轮3600万美元(2025-03)",
+   "累计5000万+次打卡，住院降51%"
+  ],
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "用药提醒"
+  ],
+  "info_score": 8,
+  "diff_score": 6,
+  "copy_score": 5,
+  "signal_strength": 3.05,
+  "research_value": 55.2,
+  "silver_hit": [
+   "老年",
+   "护理",
+   "康复"
+  ]
+ },
+ {
+  "serial": "#0392",
+  "name": "傅里叶智能",
+  "name_cn": "傅里叶智能",
+  "funding_latest": {
+   "round": "E轮",
+   "amount": "近8亿元",
+   "currency": "CNY",
+   "date": "2025-01",
+   "display": "E轮 近8亿元 (2025-01)",
+   "investors": [
+    "国鑫投资",
+    "浦东创投",
+    "张江科投",
+    "Prosperity7 Ventures",
+    "钧山资本"
+   ]
+  },
+  "payor_model": "混合（康复机器人以B端医疗机构/康复中心采购为主，C端辅助器具含个人自付；人形机器人面向企业场景）",
+  "highlights": [
+   "康复机器人+通用人形机器人双板块",
+   "E轮近8亿元(2025-01)，史上最大单笔",
+   "产品进入60+国、3000+机构"
+  ],
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "康复器械",
+   "机器人"
+  ],
+  "info_score": 9,
+  "diff_score": 8,
+  "copy_score": 8,
+  "signal_strength": 6.55,
+  "research_value": 78.6,
+  "silver_hit": [
+   "康养",
+   "康复"
+  ]
+ },
+ {
+  "serial": "#0895",
+  "name": "Vayyar",
+  "name_cn": "万蕴",
+  "funding_latest": {
+   "round": "E轮扩展轮",
+   "amount": "2500万美元",
+   "currency": "USD",
+   "date": "2024-10",
+   "display": "E轮扩展轮 2500万美元 (2024-10)",
+   "investors": [
+    "ITI Venture Capital Partners"
+   ]
+  },
+  "payor_model": "B端机构付费（向OEM、养老机构与智能家居厂商出售雷达芯片/模组与方案，不直接对个人）",
+  "highlights": [
+   "4D成像雷达(无摄像头、隐私保护)",
+   "Vayyar Care养老跌倒监测方案",
+   "2020在华设全资子公司+研发中心"
+  ],
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "智能家居"
+  ],
+  "info_score": 8,
+  "diff_score": 5,
+  "copy_score": 7,
+  "signal_strength": 3.05,
+  "research_value": 57.1,
+  "silver_hit": [
+   "养老"
+  ]
+ },
+ {
+  "serial": "#0969",
+  "name": "Hippocratic AI",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "C轮",
+   "amount": "1.26亿美元",
+   "currency": "USD",
+   "date": "2025-11",
+   "display": "C轮 1.26亿美元 (2025-11)",
+   "investors": [
+    "Avenir Growth",
+    "CapitalG",
+    "General Catalyst",
+    "a16z",
+    "Kleiner Perkins",
+    "Premji Invest"
+   ]
+  },
+  "payor_model": "B端机构付费（向医疗系统、健康计划/支付方、药企收SaaS/使用费）",
+  "highlights": [
+   "安全优先的医疗生成式AI代理(不诊断)",
+   "C轮1.26亿美元(2025-11)，估值35亿",
+   "合作50+医疗系统/支付方，1.15亿+次互动"
+  ],
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "AI医疗"
+  ],
+  "info_score": 9,
+  "diff_score": 6,
+  "copy_score": 6,
+  "signal_strength": 5.05,
+  "research_value": 66.2,
+  "silver_hit": []
+ },
+ {
+  "serial": "#0618",
+  "name": "American HealthTech",
+  "name_cn": null,
+  "funding_latest": {
+   "round": "被收购",
+   "amount": "未披露",
+   "currency": "USD",
+   "date": "2024-01",
+   "display": "被PointClickCare收购 (2024-01)",
+   "investors": [
+    "PointClickCare(买方)"
+   ]
+  },
+  "payor_model": "B端机构付费（向养老院/SNF/辅助生活机构出售EHR SaaS）",
+  "highlights": [
+   "长期照护EHR+RCM老牌厂商",
+   "2024-01被PointClickCare收购",
+   "传统EHR行业整合案例"
+  ],
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老软件"
+  ],
+  "info_score": 6,
+  "diff_score": 3,
+  "copy_score": 8,
+  "signal_strength": 1.05,
+  "research_value": 43.1,
+  "silver_hit": [
+   "养老",
+   "老年",
+   "照护",
+   "护理"
+  ]
+ },
+ {
+  "serial": "#0944",
+  "name": "Philips (Lifeline)",
+  "name_cn": "飞利浦（Lifeline）",
+  "funding_latest": {
+   "round": "被收购",
+   "amount": "未披露",
+   "currency": "USD",
+   "date": "2021-07",
+   "display": "被Connect America收购 (2021-07)",
+   "investors": [
+    "Connect America(买方)",
+    "飞利浦保留股权"
+   ]
+  },
+  "payor_model": "个人自付为主（月付订阅约30-50美元）+ 部分经医院/养老机构渠道推荐（混合）",
+  "highlights": [
+   "PERS紧急响应系统先驱(1974)",
+   "AutoAlert自动跌倒检测",
+   "2006飞利浦收购→2021转手Connect America"
+  ],
+  "tag_l1": [
+   "康复辅具"
+  ],
+  "tag_l2": [
+   "紧急呼叫"
+  ],
+  "info_score": 6,
+  "diff_score": 3,
+  "copy_score": 8,
+  "signal_strength": 0.55,
+  "research_value": 41.6,
+  "silver_hit": [
+   "康复"
+  ]
+ },
+ {
+  "serial": "#1152",
+  "name": "Welltower",
+  "name_cn": "Welltower｜医疗地产信托",
+  "funding_latest": {
+   "round": "重大交易/资本运作",
+   "amount": "230亿美元(约140亿为收购)",
+   "currency": "USD",
+   "date": "2025-10",
+   "display": "230亿美元交易组合 (2025-10，含约140亿收购)",
+   "investors": [
+    "公共股权/债务市场",
+    "ADIA等第三方LP"
+   ]
+  },
+  "payor_model": "B端机构付费为主（向养老运营商收租/分成；终端需求来自入住长者，WELL直接收费对象为运营商）",
+  "highlights": [
+   "全球最大医疗地产REIT(纽交所WELL)",
+   "2025-10宣布230亿美元交易组合",
+   "SHOP入住率87.3%(2026 Q1)",
+   "2025 年股价年初至今涨约 49%"
+  ],
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "info_score": 10,
+  "diff_score": 3,
+  "copy_score": 7,
+  "signal_strength": 10.0,
+  "research_value": 80.0,
+  "silver_hit": [
+   "养老",
+   "银发",
+   "护理",
+   "营养"
+  ]
+ },
+ {
+  "serial": "#1153",
+  "name": "Ventas",
+  "name_cn": "Ventas｜医疗REIT",
+  "funding_latest": {
+   "round": "上市公司/远期股权增发",
+   "amount": "约11亿美元",
+   "currency": "USD",
+   "date": "2025",
+   "display": "2025远期股权增发约11亿美元",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府医保Medicare/Medicaid+个人自付）",
+  "highlights": [
+   "美国第二大养老/医疗REIT(纽交所VTR)",
+   "2025增发约11亿美元加仓养老社区",
+   "SHOP同店现金NOI同比+13%(2025 Q2)"
+  ],
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "info_score": 9,
+  "diff_score": 3,
+  "copy_score": 7,
+  "signal_strength": 6.55,
+  "research_value": 66.6,
+  "silver_hit": [
+   "养老",
+   "护理",
+   "营养"
+  ]
+ },
+ {
+  "serial": "#1169",
+  "name": "Clariane",
+  "name_cn": "Clariane（原 Korian）",
+  "funding_latest": {
+   "round": "上市公司/混合票据",
+   "amount": "3.33亿欧元",
+   "currency": "EUR",
+   "date": "2026-06",
+   "display": "拟发行3.33亿欧元永续混合票据 (2026-06)",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "混合（欧洲养老院费用主要由政府社会医保/地方财政报销+居民个人自付补足；高端房间与增值服务以个人自付为主）",
+  "highlights": [
+   "欧洲养老运营龙头(原Korian)",
+   "2024营收52.82亿欧元，服务88.6万人",
+   "2023更名Clariane，获使命驱动型地位"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老机构"
+  ],
+  "info_score": 8,
+  "diff_score": 3,
+  "copy_score": 7,
+  "signal_strength": 6.55,
+  "research_value": 63.7,
+  "silver_hit": [
+   "养老",
+   "照护",
+   "护理"
+  ]
+ },
+ {
+  "serial": "#0493",
+  "name": "百思买",
+  "name_cn": "百思买",
+  "funding_latest": {
+   "round": "上市公司/收购支出",
+   "amount": "约4亿美元(收购Current Health,2021)",
+   "currency": "USD",
+   "date": "2021-10",
+   "display": "收购Current Health约4亿美元 (2021-10)",
+   "investors": [
+    "Best Buy(买方)"
+   ]
+  },
+  "payor_model": "混合（Lively/PERS+以个人自付为主；亦B端与医疗系统/支付方合作居家照护项目）",
+  "highlights": [
+   "零售巨头跨界老年科技(Best Buy Health)",
+   "2021收购Current Health，2025回售并减值超6亿",
+   "典型“零售+临床”模式错配反例"
+  ],
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "电商",
+   "零售"
+  ],
+  "info_score": 8,
+  "diff_score": 8,
+  "copy_score": 7,
+  "signal_strength": 10.0,
+  "research_value": 84.0,
+  "silver_hit": [
+   "老年",
+   "照护"
+  ]
+ },
+ {
+  "serial": "#1155",
+  "name": "Omega Healthcare Investors",
+  "name_cn": "Omega 医疗投资者",
+  "funding_latest": {
+   "round": "上市公司/公开增发",
+   "amount": "约2.22亿美元",
+   "currency": "USD",
+   "date": "2025-Q4",
+   "display": "2025 Q4发行Omega OP Units约2.22亿美元",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端护理报销来自政府Medicare/Medicaid为主+个人自付）",
+  "highlights": [
+   "专业护理院REIT龙头(纽交所OHI)",
+   "2025投资资产115亿美元、1111处物业",
+   "2025 Genesis破产凸显租户集中度风险"
+  ],
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "info_score": 8,
+  "diff_score": 4,
+  "copy_score": 5,
+  "signal_strength": 6.55,
+  "research_value": 61.6,
+  "silver_hit": [
+   "养老",
+   "护理"
+  ]
+ },
+ {
+  "serial": "#1156",
+  "name": "CareTrust REIT",
+  "name_cn": "CareTrust REIT",
+  "funding_latest": {
+   "round": "上市公司/公开增发",
+   "amount": "7.36亿美元",
+   "currency": "USD",
+   "date": "2025-Q3",
+   "display": "2025 Q3公开募资7.36亿美元",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府Medicare/Medicaid+个人自付）",
+  "highlights": [
+   "自管理养老REIT(NASDAQ:CTRE)",
+   "2025收购英国Care REIT出海",
+   "连续10年提高股息"
+  ],
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "info_score": 8,
+  "diff_score": 4,
+  "copy_score": 6,
+  "signal_strength": 6.55,
+  "research_value": 63.7,
+  "silver_hit": [
+   "养老"
+  ]
+ },
+ {
+  "serial": "#1170",
+  "name": "Emeis (Orpea)",
+  "name_cn": "Emeis（原 Orpea）",
+  "funding_latest": {
+   "round": "上市公司/债务重组",
+   "amount": "财务重组中",
+   "currency": "EUR",
+   "date": "2024",
+   "display": "上市公司，2024推进债务重组与资产出售",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "混合（欧洲养老院费用政府社会医保报销+居民个人自付补足）",
+  "highlights": [
+   "原Orpea，欧洲养老运营巨头",
+   "曾陷财务造假与照护质量丑闻",
+   "重组转型、去杠杆中"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "养老机构"
+  ],
+  "info_score": 7,
+  "diff_score": 5,
+  "copy_score": 6,
+  "signal_strength": 6.55,
+  "research_value": 62.6,
+  "silver_hit": [
+   "养老",
+   "照护"
+  ]
+ },
+ {
+  "serial": "#1158",
+  "name": "Option Care Health",
+  "name_cn": "Option Care 健康",
+  "funding_latest": {
+   "round": "上市公司",
+   "amount": "不适用",
+   "currency": "USD",
+   "date": "1984",
+   "display": "上市公司(NASDAQ:OPCH)",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "混合（医保/商业保险报销为主，个人自付为辅；B端机构合作）",
+  "highlights": [
+   "美国最大独立居家输液服务商",
+   "服务免疫/肿瘤/罕见病等复杂慢病",
+   "并购成长路径"
+  ],
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "药品配送"
+  ],
+  "info_score": 8,
+  "diff_score": 3,
+  "copy_score": 5,
+  "signal_strength": 6.55,
+  "research_value": 59.6,
+  "silver_hit": [
+   "慢病"
+  ]
+ },
+ {
+  "serial": "#1159",
+  "name": "The Ensign Group",
+  "name_cn": "Ensign 集团",
+  "funding_latest": {
+   "round": "上市公司",
+   "amount": "不适用",
+   "currency": "USD",
+   "date": "1999",
+   "display": "上市公司(NASDAQ:ENSG)",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "混合（政府Medicare/Medicaid+个人自付；B端机构运营）",
+  "highlights": [
+   "美国养老与医疗运营网络(NASDAQ:ENSG)",
+   "自管式运营+频繁收购扩张",
+   "风险导向护理模式"
+  ],
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "安宁疗护"
+  ],
+  "info_score": 8,
+  "diff_score": 4,
+  "copy_score": 6,
+  "signal_strength": 6.55,
+  "research_value": 63.7,
+  "silver_hit": [
+   "养老",
+   "护理",
+   "康复"
+  ]
+ },
+ {
+  "serial": "#1160",
+  "name": "National Health Investors",
+  "name_cn": "国家医疗投资者",
+  "funding_latest": {
+   "round": "上市公司",
+   "amount": "不适用",
+   "currency": "USD",
+   "date": "1991",
+   "display": "上市公司(纽交所NHI)",
+   "investors": [
+    "公共市场"
+   ]
+  },
+  "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府Medicare/Medicaid+个人自付）",
+  "highlights": [
+   "医疗地产REIT(纽交所NHI)",
+   "Triple-net净租赁资本提供方",
+   "稳健收租模式"
+  ],
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "养老REIT"
+  ],
+  "info_score": 7,
+  "diff_score": 3,
+  "copy_score": 5,
+  "signal_strength": 6.55,
+  "research_value": 56.6,
+  "silver_hit": [
+   "养老",
+   "护理"
+  ]
+ },
+ {
+  "serial": "#1171",
+  "name": "BioAge Labs",
+  "name_cn": "BioAge Labs｜长寿科技",
+  "funding_latest": {
+   "round": "IPO",
+   "amount": "1.98亿美元",
+   "currency": "USD",
+   "date": "2024-09",
+   "display": "纳斯达克IPO募资1.98亿美元 (2024-09)",
+   "investors": [
+    "NASDAQ公开发行"
+   ]
+  },
+  "payor_model": "B端机构付费（药企/研发合作）+ 远期上市后为医保/个人支付（尚未商业化）",
+  "highlights": [
+   "长寿科技/抗衰老药物研发",
+   "2024-09 IPO募资1.98亿美元",
+   "上市后股价暴跌约98%"
+  ],
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "长寿抗衰"
+  ],
+  "info_score": 8,
+  "diff_score": 7,
+  "copy_score": 4,
+  "signal_strength": 6.55,
+  "research_value": 65.7,
+  "silver_hit": []
+ }
+]

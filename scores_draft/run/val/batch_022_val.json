@@ -1,0 +1,76 @@
+{
+  "batch": 22,
+  "checks": [
+    {
+      "serial": "#0689",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0693",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0694",
+      "pass": false,
+      "issues": [
+        "research_value 不符 out=43.2 calc=43.1"
+      ]
+    },
+    {
+      "serial": "#0703",
+      "pass": false,
+      "issues": [
+        "research_value 不符 out=38.2 calc=38.1"
+      ]
+    },
+    {
+      "serial": "#0740",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0757",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0762",
+      "pass": false,
+      "issues": [
+        "research_value 不符 out=49.2 calc=49.1"
+      ]
+    },
+    {
+      "serial": "#0779",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0781",
+      "pass": false,
+      "issues": [
+        "research_value 不符 out=29.2 calc=29.1"
+      ]
+    },
+    {
+      "serial": "#0805",
+      "pass": false,
+      "issues": [
+        "research_value 不符 out=44.2 calc=44.1"
+      ]
+    },
+    {
+      "serial": "#0818",
+      "pass": true,
+      "issues": []
+    },
+    {
+      "serial": "#0834",
+      "pass": true,
+      "issues": []
+    }
+  ],
+  "overall_pass": false
+}

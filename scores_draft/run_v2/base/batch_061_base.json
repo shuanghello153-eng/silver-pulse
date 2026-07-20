@@ -1,0 +1,483 @@
+[
+ {
+  "serial": "#0531",
+  "name": "耐克",
+  "name_cn": "耐克",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "未搜到",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "未搜到",
+  "desc_cn": "运动鞋服、运动装备研发销售",
+  "recommend": "信号偏弱、公开信息较少，其「B2C 老年健身/健康」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入老年健身赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "服装鞋帽"
+  ],
+  "highlights": "运动鞋服、运动装备研发销售",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 3.5,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 34.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "未搜到",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0532",
+  "name": "NimbleRx",
+  "name_cn": "NimbleRx",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2015",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": "9位投资人",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "处方药品上门配送",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "药品配送"
+  ],
+  "highlights": "处方药品上门配送",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.nimblerx.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0533",
+  "name": "OXO",
+  "name_cn": "OXO",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1990",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "人体工学厨房工具",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "养老服务"
+  ],
+  "tag_l2": [
+   "适老化"
+  ],
+  "highlights": "人体工学厨房工具",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.oxo.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0534",
+  "name": "PillPack",
+  "name_cn": "PillPack",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2013",
+  "funding_latest": "未融资",
+  "funding_total": {
+   "amount": "被 Amazon 以约$10亿收购 (2018)",
+   "display": "被 Amazon 以约$10亿收购 (2018)"
+  },
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "按剂量分装的药品配送服务",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "药品配送"
+  ],
+  "highlights": "按剂量分装的药品配送服务",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.pillpack.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0535",
+  "name": "Pivotal Ventures",
+  "name_cn": "Pivotal Ventures",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2015",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "银发经济企业",
+  "recommend": "信号偏弱、信息量一般，其「银发经济企业」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入消费背景赛道）。",
+  "business_tags": {
+   "customer": "未标注",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "VC"
+  ],
+  "highlights": "Melinda French Gates创立，关注老年人财务安全",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 7.5,
+  "research_value": 42.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://pivotalventures.org/",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0536",
+  "name": "Primetime Partners",
+  "name_cn": "Primetime Partners",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2020",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": "投资方向：居家养老、退休财务、照护管理、长寿健康、老年消费体验。",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B 科技研发",
+  "recommend": "信号偏弱、信息量一般，其「B2B 科技研发」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入消费背景赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "技术服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "投资机构"
+  ],
+  "tag_l2": [
+   "产业基金"
+  ],
+  "highlights": "专注银发经济VC，Alan Patricof创立",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 7.5,
+  "research_value": 42.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.primetimepartners.vc/",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0537",
+  "name": "保德信金融",
+  "name_cn": "保德信金融",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1875",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "B2B 行业媒体/数据服务",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "金融保险"
+  ],
+  "tag_l2": [
+   "金融理财"
+  ],
+  "highlights": "全球最大金融服务公司之一，退休金管理领导者",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.prudential.com/",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0538",
+  "name": "ReBoot Accel",
+  "name_cn": "ReBoot Accel",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2014",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "职业中断人群技能更新与求职支持",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "就业"
+  ],
+  "highlights": "职业中断人群技能更新与求职支持",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.rebootaccel.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0539",
+  "name": "Rendever",
+  "name_cn": "Rendever",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2015",
+  "funding_latest": "未融资",
+  "funding_total": {
+   "amount": "NIH 拨款约$4.5M (2025)",
+   "display": "NIH 拨款约$4.5M (2025)"
+  },
+  "investors": "National Institutes of Health, MassVentures 等 (5位投资人)",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "老年 VR 社交与云游览服务",
+  "recommend": "信号偏弱、信息量一般，其「B2B 行业媒体/数据服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商(媒体/数据)",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "陪伴服务"
+  ],
+  "highlights": "老年 VR 社交与云游览服务",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.rendever.com",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0540",
+  "name": "Road Scholar",
+  "name_cn": "Road Scholar",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1975",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "面向中老年的教育性旅行",
+  "recommend": "信号偏弱、信息量一般，其「B2C 教育/培训」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入老年教育赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "文娱社交"
+  ],
+  "tag_l2": [
+   "教育"
+  ],
+  "highlights": "面向中老年的教育性旅行",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.roadscholar.org",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0541",
+  "name": "三星",
+  "name_cn": "三星",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "1938",
+  "funding_latest": "未融资",
+  "funding_total": "未融资",
+  "investors": [
+   "未融资"
+  ],
+  "payor_model": "个人自费/家庭自费",
+  "desc_cn": "B2C 老年健康食品",
+  "recommend": "信号偏弱、信息量一般，其「B2C 老年健康食品」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+  "business_tags": {
+   "customer": "B2C",
+   "role": "制造商(消费品)",
+   "channel": []
+  },
+  "tag_l1": [
+   "消费品"
+  ],
+  "tag_l2": [
+   "智能硬件"
+  ],
+  "highlights": "智能健康设备+适老化电子产品，韩国养老服务平台",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 5.5,
+  "copy_score": 5.5,
+  "research_value": 38.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.samsung.com/",
+  "business_tags_role": null
+ },
+ {
+  "serial": "#0542",
+  "name": "Seniorly",
+  "name_cn": "Seniorly",
+  "region": "海外",
+  "stage": "未搜到",
+  "founded": "2014",
+  "funding_latest": "未融资",
+  "funding_total": {
+   "amount": "$9.3M",
+   "display": "累计$9.3M (被 CareScout 收购 2025)"
+  },
+  "investors": "Formation Capital (领投)",
+  "payor_model": "B端机构采购/政府买单",
+  "desc_cn": "养老机构在线搜索与咨询",
+  "recommend": "信号偏弱、信息量一般，其「B2B 咨询服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入运营商赛道）。",
+  "business_tags": {
+   "customer": "B2B",
+   "role": "服务商",
+   "channel": []
+  },
+  "tag_l1": [
+   "行业服务"
+  ],
+  "tag_l2": [
+   "养老信息平台"
+  ],
+  "highlights": "养老机构在线搜索与咨询",
+  "events": [
+   "未搜到"
+  ],
+  "signal_strength": 0.55,
+  "info_score": 5.0,
+  "diff_score": 4.5,
+  "copy_score": 5.5,
+  "research_value": 36.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "基线默认判定，待质量波次复核",
+  "website_url": "https://www.seniorly.com",
+  "business_tags_role": null
+ }
+]

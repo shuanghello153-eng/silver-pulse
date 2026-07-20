@@ -1,0 +1,497 @@
+{
+ "batch": 86,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0993",
+   "name": "Homage",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "居家照护平台",
+   "tags": [
+    "居家康复",
+    "护士上门"
+   ],
+   "description": "Homage is a Singapore on-demand service that matches licensed care professionals with seniors for home nursing, companionship and therapy visits, billing per visit and offering subscription care plans to families.",
+   "highlights": "亚洲居家照护平台标杆，国内可对标居家上门照护模式",
+   "funding_latest": "Series C",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena top AgeTech startups",
+   "crunchbase_url": "",
+   "website_url": "https://www.homage.sg",
+   "business_model": "",
+   "desc_cn": "Homage 是新加坡按需上门照护服务，将持证护理员匹配给老人做居家护理、陪伴与康复探访，按次计费并向家庭出售照护套餐。",
+   "business_model_cn": "按次+套餐费",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家康复",
+    "护士上门"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Homage】聚焦居家护理，亚洲居家照护平台标杆，国内可对标居家上门照护模式。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0994",
+   "name": "Trusty.care",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老金融",
+   "category_l2": "保险科技",
+   "tags": [
+    "保险科技"
+   ],
+   "description": "Trusty.care gives insurance agents a quoting and enrollment system for Medicare Advantage, Supplement and long-term-care policies, with client needs-analysis and carrier connectivity, charging agents and agencies a subscription.",
+   "highlights": "保险侧会员运营，对国内长护险商业化有启发",
+   "funding_latest": "Debt Financing",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://trusty.care",
+   "business_model": "",
+   "desc_cn": "Trusty.care 为保险代理人供应联邦医保优势、补充险与长期护理险的报价与投保系统，含客户需求和分析与保险公司对接，向代理人收订阅费。",
+   "business_model_cn": "B2B SaaS订阅",
+   "news_coverage": "",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "保险科技"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Trusty.care】聚焦保险科技/养老金融，保险侧会员运营，对国内长护险商业化有启发。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0995",
+   "name": "DNX",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "语音远程监测",
+   "tags": [
+    "远程护理"
+   ],
+   "description": "通过语音消息与干预改善老人远程监测、行为改变与孤独缓解",
+   "highlights": "语音交互降低使用门槛，适合低数字素养老人",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "通过语音消息与干预改善老人远程监测、行为改变与孤独缓解",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "远程护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【DNX】聚焦精神健康，语音交互降低使用门槛，适合低数字素养老人。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0996",
+   "name": "Elder",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "居家照护匹配",
+   "tags": [
+    "护工平台"
+   ],
+   "description": "Elder is a UK service that matches older adults needing round-the-clock help with vetted live-in carers within 24 hours, handling matching, contracts and backup cover while charging families a weekly care fee.",
+   "highlights": "居家照护供给侧匹配模式，可对标国内护工平台",
+   "funding_latest": "Series B",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.elder.org",
+   "business_model": "",
+   "desc_cn": "Elder 是英国居家全时照护服务，24 小时内为需全天候照料的老人匹配经审核的住家护理员，负责匹配、合同与替补，按周向家庭收费。",
+   "business_model_cn": "按周照护费",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工平台"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Elder】聚焦居家护理，居家照护供给侧匹配模式，可对标国内护工平台。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0997",
+   "name": "Patronus",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "数字健康",
+   "tags": [
+    "智能硬件"
+   ],
+   "description": "Patronus, based in Berlin, sells a smartwatch with built-in SIM that connects seniors directly to a 24/7 emergency call centre and a companion app that updates relatives on location and wellbeing, on a device-plus-subscription model.",
+   "highlights": "聚焦老年医疗数字化空白",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "Patronus 总部位于柏林，销售内置 SIM 卡的智能应急手表，老人可一键直连 24 小时急救中心，配套应用向家属实时同步位置与状态，走设备加订阅模式。",
+   "business_model_cn": "硬件+订阅费",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Patronus】聚焦健康管理，聚焦老年医疗数字化空白。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0998",
+   "name": "Emoha",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "居家/旅行照护",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "印度居家与旅行老人照护服务，含紧急响应与预防监测",
+   "highlights": "新兴市场居家照护，人口结构类似中国",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "",
+   "business_model": "",
+   "desc_cn": "印度居家与旅行老人照护服务，含紧急响应与预防监测",
+   "business_model_cn": "B2C/B2B 居家照护服务平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Emoha】聚焦居家护理，新兴市场居家照护，人口结构类似中国。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0999",
+   "name": "Lindera",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "AI防跌倒",
+   "tags": [
+    "跌倒监测"
+   ],
+   "description": "开发AI步行分析App优化日常照护并专注防跌倒",
+   "highlights": "AI步态分析防跌倒，轻量软件方案易落地",
+   "funding_latest": "Series A",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.lindera.ai",
+   "business_model": "",
+   "desc_cn": "开发AI步行分析App优化日常照护并专注防跌倒",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "跌倒监测"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Lindera】聚焦健康监测，AI步态分析防跌倒，轻量软件方案易落地。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1000",
+   "name": "Labrador",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "智能硬件",
+   "category_l2": "辅助机器人",
+   "tags": [
+    "陪伴机器人"
+   ],
+   "description": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活",
+   "highlights": "辅助移动机器人切入生活自理场景",
+   "funding_latest": "Seed",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.labrador.co",
+   "business_model": "",
+   "desc_cn": "辅助机器人公司，移动机器人帮老人送餐取物提升独立生活",
+   "business_model_cn": "B2C/B2B 养老陪伴/辅助机器人硬件",
+   "news_coverage": "",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "陪伴机器人"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Labrador】聚焦智能硬件/机器人，辅助移动机器人切入生活自理场景。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1001",
+   "name": "SmartQare",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "多传感器监测",
+   "tags": [
+    "跌倒监测",
+    "智能硬件"
+   ],
+   "description": "多传感器设备viQtor实现24/7生命体征与跌倒监测",
+   "highlights": "多传感器一体监测硬件",
+   "funding_latest": "",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://smartqare.com",
+   "business_model": "",
+   "desc_cn": "多传感器设备viQtor实现24/7生命体征与跌倒监测",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "康复辅具",
+    "消费品"
+   ],
+   "tag_l2": [
+    "跌倒监测",
+    "智能硬件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【SmartQare】聚焦健康监测，多传感器一体监测硬件。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1002",
+   "name": "NurseBuddy",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "养老照护",
+   "category_l2": "照护排班软件",
+   "tags": [
+    "养老软件"
+   ],
+   "description": "居家照护软件，用AI排班与护理计划节省80%时间",
+   "highlights": "照护机构SaaS，提升护工效率",
+   "funding_latest": "Seed",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://nursebuddy.co.uk",
+   "business_model": "",
+   "desc_cn": "居家照护软件，用AI排班与护理计划节省80%时间",
+   "business_model_cn": "B2B SaaS/养老与健康管理软件",
+   "news_coverage": "",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "养老软件"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【NurseBuddy】聚焦照护系统，照护机构SaaS，提升护工效率。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1003",
+   "name": "Aloe Care Health",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "医疗警报",
+   "tags": [
+    "智能家居",
+    "紧急呼叫"
+   ],
+   "description": "Aloe Care Health makes a 4G smart-home hub with fall detection, motion and voice alerts that notify a family/caregiver app, sold with monitoring plans to older adults and their remote care circles.",
+   "highlights": "医疗警报+照护者协同硬件",
+   "funding_latest": "Seed",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://www.aloecare.com",
+   "business_model": "",
+   "desc_cn": "Aloe Care Health 制造含跌倒检测、动作与语音告警的 4G 智能家居中枢，向家属与照护者应用推送提醒，配合监测套餐售予老人及其远程照护圈。",
+   "business_model_cn": "硬件+监测套餐",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品",
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "智能家居",
+    "紧急呼叫"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Aloe Care Health】聚焦健康监测，医疗警报+照护者协同硬件。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#1004",
+   "name": "GrandCare Systems",
+   "name_cn": "",
+   "region": "海外",
+   "category_l1": "适老科技",
+   "category_l2": "智能家庭",
+   "tags": [
+    "智能硬件",
+    "远程医疗"
+   ],
+   "description": "远程支持与辅助技术，通过触摸屏与传感器提升独立生活",
+   "highlights": "早期智能家庭远程照护代表",
+   "funding_latest": "Venture",
+   "funding_total": "",
+   "investors": "",
+   "founded": "",
+   "value_score": 0,
+   "source": "Omdena",
+   "crunchbase_url": "",
+   "website_url": "https://grandcare.com",
+   "business_model": "",
+   "desc_cn": "远程支持与辅助技术，通过触摸屏与传感器提升独立生活",
+   "business_model_cn": "B2B/B2C 适老智能监测设备与平台",
+   "news_coverage": "",
+   "tag_l1": [
+    "消费品",
+    "养老服务"
+   ],
+   "tag_l2": [
+    "智能硬件",
+    "远程医疗"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【GrandCare Systems】聚焦远程医疗，早期智能家庭远程照护代表。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "batch": 65,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0587",
+   "name": "Hulu",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "资讯门户"
+   ],
+   "description": "Hulu（葫芦）是美国主流的订阅制流媒体视频平台（由NBC环球与迪士尼控股），提供影视剧、直播电视及原创内容点播服务。",
+   "highlights": "作为长寿市场服务模式的类比参照",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 37,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Hulu",
+   "website_url": "https://www.hulu.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "订阅制内容平台，作为长寿市场服务模式的类比参照",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 2,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "银发观影新趋势:移动端观看时长提升",
+      "date": "2025-02-26",
+      "source": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250226A06OVP00"
+     },
+     {
+      "title": "银发剧集数量激增",
+      "date": "2025-06-23",
+      "source": "今日头条",
+      "url": "https://www.toutiao.com/article/7519062915383640611/"
+     }
+    ],
+    "snippets": [
+     "Hulu 无专门银发/养老新闻,仅作为流媒体平台在'银发内容'行业报道中被提及",
+     "可验证的养老专项新闻极少,标记为低覆盖"
+    ]
+   },
+   "name_cn": "葫芦（Hulu）",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "资讯门户"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Hulu】聚焦数字化/行业媒体，作为长寿市场服务模式的类比参照，B2B模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0588",
+   "name": "Coinbase",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "金融理财"
+   ],
+   "description": "Coinbase 是美国领先的加密货币交易所，提供数字资产买卖、托管与钱包服务，面向大众投资者（含退休人群）提供加密资产入口。",
+   "highlights": "类比长寿市场导航型平台机会",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2012",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Coinbase",
+   "website_url": "https://www.coinbase.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "Coinbase 是美国领先的加密货币交易所，提供数字资产买卖、托管与钱包服务，面向大众投资者（含退休人群）提供加密资产入口。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "金融保险"
+   ],
+   "tag_l2": [
+    "金融理财"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Coinbase】聚焦数字化/行业媒体，类比长寿市场导航型平台机会，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0589",
+   "name": "Airbnb",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "Airbnb（爱彼迎）是全球领先的在线短租与体验预订平台（2008年成立），连接房东与旅客提供民宿、特色住宿及本地体验，并探索适老化的'银发旅居/长辈友好住宿'等相关服务。",
+   "highlights": "推行现代长者人才理念",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2008",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Airbnb",
+   "website_url": "https://www.airbnb.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "共享住宿平台，推行现代长者人才理念",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Airbnb】聚焦数字化/行业媒体，推行现代长者人才理念，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0590",
+   "name": "Salesforce",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "就业"
+   ],
+   "description": "企业软件公司，推行永久混合办公为老年员工延长职业周期创造条件",
+   "highlights": "推行永久混合办公为老年员工延长职业周期创造条件",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1999",
+   "value_score": 51,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Salesforce",
+   "website_url": "https://www.salesforce.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "企业软件公司，推行永久混合办公为老年员工延长职业周期创造条件",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "MCG and Salesforce Health Cloud",
+      "date": "2024-08-28",
+      "source": "tectonic",
+      "url": "https://gettectonic.com/mcg-and-salesforce-health-cloud-2/"
+     },
+     {
+      "title": "CrossCountry Consulting Acquires Dupont Circle Solutions, Significantly Expanding Salesforce Practice - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZEcxRXQ4eHdGUWN1YmJWZ2FRd2RsUGdqZlA3ZjVVeXpVUnFfNlUxQVRfZjBqSVFja3A1c1FOOGRvcVdqS3FQcEsxa3U2eEFxa3hTUHU4cmUwZURtR2lhX2Z1S1g4Z2g5MjlJU1JLczRaTVFnQUUyOWJLcE5hVDQ1cVVqeFVoWEdmOUdsOGtXNHNMQWFlY2QzdDVKOE1UcDA0VEIzbTNfWHIzeWNPM0h3Y1dJc3JBeGVmM0lzQ1RLU0hMbFozUGdycDlObzg4SDB2MlRzaHNtNUs2YnM0NmlGRURDWVhSZzlxQ2YtaE9n?oc=5",
+      "date": "2026-07-01",
+      "source": "Business Wire",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": [
+     "Salesforce Health Cloud for healthcare; MCG partnership (2024).",
+     "No silver-economy-specific funding; giant enterprise SaaS."
+    ]
+   },
+   "name_cn": "赛富时",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "就业"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Salesforce】聚焦行业媒体，推行永久混合办公为老年员工延长职业周期创造条件，B2B模式，研究价值分51。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0591",
+   "name": "Google",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "就业"
+   ],
+   "description": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
+   "highlights": "设有职场回归项目吸纳职业中断的资深人才",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1998",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Google",
+   "website_url": "https://www.google.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "就业"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Google】聚焦产业资本/数字化/行业媒体，设有职场回归项目吸纳职业中断的资深人才，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0592",
+   "name": "IBM",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "就业"
+   ],
+   "description": "IBM（国际商业机器公司）是全球领先的企业级信息技术与咨询服务巨头（1911年成立），业务涵盖混合云、人工智能（Watson）与行业解决方案，其AI与物联网技术亦被应用于智慧养老、远程医疗与适老科技场景。",
+   "highlights": "设有职场回归项目吸纳职业中断的资深人才",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 26,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=IBM",
+   "website_url": "https://www.ibm.com",
+   "business_model": "B2B 科技研发",
+   "desc_cn": "科技公司，设有职场回归项目吸纳职业中断的资深人才",
+   "business_model_cn": "B2B 科技研发",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "就业"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "技术服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【IBM】聚焦数字化/行业媒体，设有职场回归项目吸纳职业中断的资深人才，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "needs_review": true,
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0596",
+   "name": "GE Healthcare",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "医疗器械"
+   ],
+   "description": "医疗科技企业，2009年收购居家养老技术企业Living Independently Group",
+   "highlights": "2009年收购居家养老技术企业Living Independently Gr...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 33,
+   "source": "Stage(not Age)书籍",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=GE%20Healthcare",
+   "website_url": "https://www.gehealthcare.com",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "desc_cn": "医疗科技企业，2009年收购居家养老技术企业Living Independently Group",
+   "business_model_cn": "B2C/B2B 社区/居家服务",
+   "name_cn": "GE医疗",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "医疗器械"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【GE Healthcare】聚焦健康管理/居家护理/数字化，2009年收购居家养老技术企业Living Independently Gr...，B2B+B2C模式，研究价值分33。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0597",
+   "name": "101 Mobility",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "适老化"
+   ],
+   "description": "特许经营模式，年收入7000万-1.2亿美元，193店，累计服务7万客户",
+   "highlights": "年收入7000万-1.2亿美元",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2008",
+   "value_score": 26,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=101%20Mobility",
+   "website_url": "https://www.101mobility.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "特许经营模式，年收入7000万-1.2亿美元，193店，累计服务7万客户",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "适老化"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【101 Mobility】聚焦产业资本/行业媒体，年收入7000万-1.2亿美元，B2B模式，研究价值分26。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0599",
+   "name": "6Degrees",
+   "region": "海外",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "可穿戴监测"
+   ],
+   "description": "可穿戴AI将动作转换为数字命令，控制智能设备",
+   "highlights": "控制智能设备",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 37,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=6Degrees",
+   "website_url": "https://www.6degrees.co",
+   "business_model": "B2C 智能可穿戴设备",
+   "desc_cn": "可穿戴AI将动作转换为数字命令，控制智能设备",
+   "business_model_cn": "B2C 智能可穿戴设备",
+   "news_coverage": {
+    "news_count": 0,
+    "news_quality": "low",
+    "latest_news": [],
+    "snippets": [
+     "未检索到名为 6Degrees 的明确老年社交平台公司可靠新闻(检索结果多为学术'社交网络与老龄化'研究)",
+     "疑似数据集条目难以独立验证,标记 unverified"
+    ]
+   },
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "可穿戴监测"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【6Degrees】聚焦文娱社交/智能硬件，控制智能设备，B2C模式，研究价值分37。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0601",
+   "name": "AARP",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "行业研究"
+   ],
+   "description": "美国退休人员协会，50岁+会员制组织",
+   "highlights": "50岁+会员制组织",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1958",
+   "value_score": 34,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AARP",
+   "website_url": "https://www.aarp.org",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "美国退休人员协会，50岁+会员制组织",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 1,
+    "news_quality": "matched",
+    "latest_news": [
+     {
+      "title": "Why Senior Living Operators Shouldn't Ignore Trend of Older Adults Working Longer",
+      "url": "https://seniorhousingnews.com/2026/07/02/why-senior-living-operators-shouldnt-ignore-trend-of-older-adults-working-longer/",
+      "date": "2026-07-02",
+      "source": "Senior Housing News",
+      "matched_from": "scored_latest"
+     }
+    ],
+    "snippets": []
+   },
+   "name_cn": "美国退休人员协会",
+   "tag_l1": [
+    "行业服务"
+   ],
+   "tag_l2": [
+    "行业研究"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AARP】聚焦行业媒体，50岁+会员制组织，B2B模式，研究价值分34。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0603",
+   "name": "AccessibleGO",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "旅游"
+   ],
+   "description": "AccessibleGO 是一个无障碍旅游预订平台，提供适合老年人与残障人士的酒店、机票及景点票务，并标注无障碍设施信息。",
+   "highlights": "第一个为有无障碍需求的人提供的旅游网站",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "约$1.2M",
+    "display": "约$1.2M"
+   },
+   "investors": "Red Door Capital Partners, Keter Point, Arc Impact, Booking Booster",
+   "founded": "2016",
+   "value_score": 35,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AccessibleGO",
+   "website_url": "https://www.accessiblego.com",
+   "business_model": "B2C 老年出行服务",
+   "desc_cn": "AccessibleGO 是一个无障碍旅游预订平台，提供适合老年人与残障人士的酒店、机票及景点票务，并标注无障碍设施信息。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "文娱社交"
+   ],
+   "tag_l2": [
+    "旅游"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AccessibleGO】聚焦产业资本/旅游/行业媒体，第一个为有无障碍需求的人提供的旅游网站，B2C模式，研究价值分35。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0605",
+   "name": "Actif",
+   "region": "海外",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "创建于2021年，针对老年人的体育和认知锻炼",
+   "highlights": "针对老年人的体育和认知锻炼",
+   "funding_latest": null,
+   "funding_total": {
+    "amount": "$484K",
+    "display": "$484K"
+   },
+   "investors": "Banco Português de Fomento, Snap Partners, Casa do Impacto, Ageas Foundation, Mission (Spain)",
+   "founded": "2021",
+   "value_score": 43,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Actif",
+   "website_url": "https://www.actif.online",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "创建于2021年，针对老年人的体育和认知锻炼",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "news_coverage": {
+    "news_count": 2,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Actif – Crunchbase Company Profile",
+      "date": "",
+      "source": "Crunchbase",
+      "url": "https://www.crunchbase.com/organization/actif-c78b"
+     }
+    ],
+    "snippets": [
+     "Actif为面向老年人的数字化居家健身/运动平台，鼓励长者改善体能。",
+     "未检索到2024-2025可验证的融资事件，信息丰度低（仅公司档案与老年健身行业报道）。"
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Actif】聚焦产业资本/行业媒体/认知症，针对老年人的体育和认知锻炼，B2B模式，研究价值分43。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}

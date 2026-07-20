@@ -1,0 +1,809 @@
+[
+  {
+    "serial": "#0504",
+    "name": "Eversafe",
+    "name_cn": "Eversafe",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "region": "海外",
+    "desc_cn": "老年金融诈骗监测与防护",
+    "description": "老年金融诈骗监测与防护",
+    "silver_reason": "老年金融诈骗监测直接保护银发客群",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端金融机构采购+个人订阅",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2019",
+      "amount": "未披露",
+      "round": "Series A",
+      "display": "Series A 未披露 (2019)"
+    },
+    "funding_total": {
+      "amount": "$15M+",
+      "display": "累计$15M+"
+    },
+    "investors": "EisnerAmper, AARP Innovation Fund",
+    "stage": "A轮",
+    "founded": 2014,
+    "highlights": [
+      "老年人金融欺诈监测平台",
+      "头部基金加持，累计融资可观"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "research_value": 43.7,
+    "recommend": {
+      "rec_v1": "信号中等、信息实，老年金融防诈监测差异化强；国内银发反诈需求大，模式可抄。",
+      "rec_v2": "披露透明、信号一般，亮点在实时交易异常识别；创业者可学其'监测+子女告警'产品设计。",
+      "rec_v3": "信息量高、信号弱，差异化在防诈数据安全；国内可借鉴其B端金融机构+个人订阅双收费。",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 43.7
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.eversafe.com/"
+  },
+  {
+    "serial": "#0507",
+    "name": "FreeWill",
+    "name_cn": "FreeWill",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "region": "海外",
+    "desc_cn": "在线遗嘱订立、遗产规划工具",
+    "description": "在线遗嘱订立、遗产规划工具",
+    "silver_reason": "在线遗嘱与遗产规划服务老年财富传承",
+    "silver_verdict": "核心银发",
+    "payor_model": "免费+慈善机构合作",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2022",
+      "amount": "未披露",
+      "round": "Series B",
+      "display": "Series B 未披露 (2022)"
+    },
+    "funding_total": {
+      "amount": "$30M+",
+      "display": "累计$30M+"
+    },
+    "investors": "Norwest Venture Partners, Founders Fund, Bessemer Venture Partners,_e2015",
+    "stage": "B轮",
+    "founded": 2017,
+    "highlights": [
+      "免费在线遗嘱平台",
+      "撬动巨额慈善遗赠"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "research_value": 43.7,
+    "recommend": {
+      "rec_v1": "信号中等、信息实，免费遗嘱+慈善联动差异化强；国内遗嘱规划空白，模式可抄。",
+      "rec_v2": "披露透明、信号一般，亮点在'免费工具+公益捐赠'闭环；创业者可学其获客与机构合作打法。",
+      "rec_v3": "信息量高、信号弱，差异化在遗产规划普惠化；国内可借鉴其B2B慈善机构分成轻模式。",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 43.7
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.freewill.com/"
+  },
+  {
+    "serial": "#0600",
+    "name": "9amHealth",
+    "name_cn": "9amHealth",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "诊所"
+    ],
+    "region": "海外",
+    "desc_cn": "面向雇主、健康计划与PBM的AI虚拟专科诊所，围绕糖尿病、肥胖、高血压等心代谢慢病提供内分泌科医生、药剂师远程问诊、居家检测与GLP-1药物配送；按会员/服务向B端收费，并为Fortune 100企业实现超5000万美元医疗支出节约。属全龄慢病管理，对老年价值在慢病用药依从性与并发症控制。",
+    "description": "虚拟心脏代谢诊所，预防糖尿病、肥胖症等",
+    "silver_reason": "虚拟心代谢慢病诊所主体服务雇主端全龄人群，仅小比例切入Medicare Advantage，非以老年医保为核心支付体系。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "商业保险支付",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": {
+      "date": "2024年2月",
+      "amount": "950万美元",
+      "round": "A轮",
+      "display": "A轮 950万美元 (2024年2月)"
+    },
+    "funding_total": {
+      "amount": "$26M (Series B)",
+      "display": "$26M Series B"
+    },
+    "investors": "Define Ventures (领投), SemperVirens VC, Catalio Capital, 7wire Ventures, Founders Fund",
+    "stage": "B轮",
+    "founded": 2021,
+    "highlights": [
+      "AI虚拟心代谢慢病诊所，服务雇主、健康计划与PBM",
+      "与诺和诺德、Mark Cuban Cost Plus Drugs、Instacart达成合作",
+      "公布12个月GLP-1用户平均减重17.6%、为两家Fortune 100企业节约超5000万美元支出",
+      "获CDC糖尿病预防项目最高等级(Full Plus)认证"
+    ],
+    "signal_strength": 1.55,
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 4.0,
+    "research_value": 43.7,
+    "recommend": {
+      "rec_v1": "信号弱但B轮2600万披露实；其虚拟心代谢慢病诊所对接雇主，模式清晰但依赖美国商保，国内宜学其慢病管理而非支付。",
+      "rec_v2": "信息较足、差异在雇主端虚拟诊所；国内复制受支付结构制约，建议研究其控费即收入的逻辑与用药管理链路。",
+      "rec_v3": "慢病管理同质化高；其亮点是绑财富100强雇主省下医疗费，国内难照搬支付方，可借鉴其用户分层与远程随访。",
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 4,
+      "signal_strength": 1.55,
+      "research_value": 43.7
+    },
+    "source": "选题库V4",
+    "website_url": "https://9am.health"
+  },
+  {
+    "serial": "#0841",
+    "name": "Season Health",
+    "name_cn": "Season Health",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "膳食配送"
+    ],
+    "region": "海外",
+    "desc_cn": "面向慢病患者的「食物即药物」处方平台，医生可开杂货与餐盒「处方」，由注册营养师网络提供1对1营养支持、医疗适配餐食到家与月度食物积分，经Medicare/Medicaid报销；按项目向健康计划收费，2026年4月被远程医疗基建商OpenLoop收购。核心银发价值在对接美国老年医保支付体系的营养干预。",
+    "description": "Season Health runs a 'food-as-medicine' benefit that lets clinicians prescribe grocery and medically tailored meal boxes, fulfilled through retail and delivery partners and reimbursed by Medicaid and commercial health plans.",
+    "silver_reason": "处方餐/营养服务经Medicare/Medicaid报销，对接美国老年医保与医疗补助支付体系，按V3规则判定为核心银发。",
+    "silver_verdict": "核心银发",
+    "payor_model": "政府医保(Medicare/Medicaid)+商业保险",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": {
+      "date": "2023年12月",
+      "amount": "700万美元",
+      "round": "A轮",
+      "display": "A轮 700万美元 (2023年12月)"
+    },
+    "funding_total": "$52M",
+    "investors": "a16z, Bain Capital Ventures",
+    "stage": "被收购",
+    "founded": 2020,
+    "highlights": [
+      "「食物即药物」处方平台，医生可开杂货/餐盒处方",
+      "大型注册营养师网络+月度食物积分+福利银行闭环",
+      "与Steward医疗网络合作高血压与Medicaid营养不安全项目",
+      "2026年4月被远程医疗基建商OpenLoop收购"
+    ],
+    "signal_strength": 1.55,
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 4.0,
+    "research_value": 43.7,
+    "recommend": {
+      "rec_v1": "信号弱但a16z领投、累计5200万披露实；其食物即药物处方餐绑定医保，模式硬但依赖美国支付，国内宜学产品不抄支付。",
+      "rec_v2": "信息充分、差异在医生开餐盒处方；国内复制受商保薄弱制约，建议研究其临床-零售-配送履约与报销结算设计。",
+      "rec_v3": "FAM赛道资本热；其亮点是与Medicaid报销打通，国内支付方不同难照搬，可借鉴其医学定制餐的供应链组织。",
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 4,
+      "signal_strength": 1.55,
+      "research_value": 43.7
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.seasonhealth.com"
+  },
+  {
+    "serial": "#0843",
+    "name": "Senior.com",
+    "name_cn": "Senior.com",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "电商"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 老年电商/零售渠道",
+    "description": "Senior.com 是一家面向老年人和照护者的电商平台，销售助行、居家安全、康复等适老产品，成立于 2004 年、总部加州尔湾，靠商品销售营利。亮点是较早专注银发垂直电商，形成稳定的适老用品选品与复购。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": {
+      "date": "2000年6月",
+      "amount": "1900万美元",
+      "display": "1900万美元 (2000年6月)"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2009",
+    "highlights": "270万会员",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 老年电商/零售渠道」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入线上渠道赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.senior.com"
+  },
+  {
+    "serial": "#0902",
+    "name": "VitalTech",
+    "name_cn": "VitalTech",
+    "tag_l1": [
+      "食品营养",
+      "康复辅具",
+      "养老服务"
+    ],
+    "tag_l2": [
+      "糖尿病",
+      "可穿戴监测",
+      "居家护理"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B SaaS订阅",
+    "description": "VitalTech sells a remote patient monitoring and telehealth system that streams vitals from wearables and home devices to care teams, flagging falls, heart and glucose changes for senior-living and home-health agencies.",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": {
+      "date": "2024年4月",
+      "amount": "900万美元",
+      "display": "900万美元 (2024年4月)"
+    },
+    "funding_total": "$26.3M",
+    "investors": [
+      "BayMed Venture Partners",
+      "Stanley Ventures"
+    ],
+    "stage": "未搜到",
+    "founded": "2015",
+    "highlights": "家庭护理远程监控和慢性病管理解决方案",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS订阅」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入行业媒体赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.vitaltech.com"
+  },
+  {
+    "serial": "#1002",
+    "name": "NurseBuddy",
+    "name_cn": "NurseBuddy",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "居家照护软件，用AI排班与护理计划节省80%时间",
+    "description": "居家照护软件，用AI排班与护理计划节省80%时间",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Seed",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "highlights": "照护机构SaaS，提升护工效率",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护排班软件赛道）。",
+    "source": "Omdena",
+    "website_url": "https://nursebuddy.co.uk"
+  },
+  {
+    "serial": "#1010",
+    "name": "Nourish Care",
+    "name_cn": "Nourish Care",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "英国照护管理软件，灵活记录协调与报告社交照护",
+    "description": "英国照护管理软件，灵活记录协调与报告社交照护",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Private Equity",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "照护管理SaaS被PE收购，赛道整合信号",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护管理软件赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.nourishcare.com"
+  },
+  {
+    "serial": "#1014",
+    "name": "eCaring",
+    "name_cn": "eCaring",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B SaaS订阅",
+    "description": "eCaring sells home-care agency software with electronic visit verification, caregiver scheduling, point-of-care charts and same-day caregiver pay, helping agencies comply with Medicaid EVV rules and manage shifts.",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Series A",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "A轮",
+    "founded": "未搜到",
+    "highlights": "照护SaaS+护工激励闭环",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS订阅」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护软件赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.ecaring.com"
+  },
+  {
+    "serial": "#1017",
+    "name": "Smartcare",
+    "name_cn": "Smartcare",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "养老照护软件与EMR，自动化排班匹配护工提升留存",
+    "description": "养老照护软件与EMR，自动化排班匹配护工提升留存",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Series A",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "A轮",
+    "founded": "未搜到",
+    "highlights": "照护EMR提升留存",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护软件EMR赛道）。",
+    "source": "Omdena",
+    "website_url": "https://smartcare.com"
+  },
+  {
+    "serial": "#1022",
+    "name": "Mon Ami",
+    "name_cn": "Mon Ami",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "为老残服务机构重造数据库，自动报告与活动协调",
+    "description": "为老残服务机构重造数据库，自动报告与活动协调",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Venture",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "机构管理数据库",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入机构管理软件赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.monami.care"
+  },
+  {
+    "serial": "#1024",
+    "name": "Caring.com",
+    "name_cn": "Caring.com",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老信息平台"
+    ],
+    "region": "海外",
+    "desc_cn": "全美养老社区与居家照护免费目录与家庭顾问指导",
+    "description": "全美养老社区与居家照护免费目录与家庭顾问指导",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Private Equity",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "养老信息聚合流量入口",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入信息目录赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.caring.com"
+  },
+  {
+    "serial": "#1029",
+    "name": "Gubbe",
+    "name_cn": "Gubbe",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "region": "海外",
+    "desc_cn": "芬兰连接老人与看护者App，含传感器跌倒监测",
+    "description": "芬兰连接老人与看护者App，含传感器跌倒监测",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Seed",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "highlights": "北欧照护连接",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护连接App赛道）。",
+    "source": "Omdena",
+    "website_url": "https://gubbe.com"
+  },
+  {
+    "serial": "#1030",
+    "name": "CareConnectMD",
+    "name_cn": "CareConnectMD",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护理协调"
+    ],
+    "region": "海外",
+    "desc_cn": "25年经验将价值型照护带入急性后设置的复杂病患",
+    "description": "25年经验将价值型照护带入急性后设置的复杂病患",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Private Equity",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "highlights": "价值型医疗到家",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入价值型医疗赛道）。",
+    "source": "Omdena",
+    "website_url": "https://careconnectmd.com"
+  },
+  {
+    "serial": "#1036",
+    "name": "Cubigo",
+    "name_cn": "Cubigo",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "养老生活云集成非临床运营（餐饮、维修等）提效率",
+    "description": "养老生活云集成非临床运营（餐饮、维修等）提效率",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "",
+    "funding_latest": "Series A",
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "A轮",
+    "founded": "未搜到",
+    "highlights": "养老社区运营中台",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B SaaS/养老与健康管理软件」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入养老生活云赛道）。",
+    "source": "Omdena",
+    "website_url": "https://www.cubigo.com"
+  },
+  {
+    "serial": "#1217",
+    "name": "Olive Union",
+    "name_cn": "Olive Union",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "助听器",
+      "可穿戴监测"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C 消费级听力增强可穿戴",
+    "description": "消费级智能耳塞/助听器公司，将听力增强做成时尚可穿戴，降低老年用户佩戴 stigma。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费/家庭自费",
+    "business_model": "B2C 消费级听力增强可穿戴",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2016",
+    "highlights": "消费级时尚助听器，降低佩戴 stigma",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2C 消费级听力增强可穿戴」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入听觉辅具赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.olive.co"
+  },
+  {
+    "serial": "#1234",
+    "name": "WellSky",
+    "name_cn": "WellSky",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B 照护运营SaaS+数据",
+    "description": "post-acute与家庭护理领域头部SaaS与数据分析平台，连接机构、支付方与家庭，优化照护交付。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 照护运营SaaS+数据",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "1998",
+    "highlights": "post-acute照护SaaS头部（S1）",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B 照护运营SaaS+数据」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入照护运营SaaS赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.wellsky.com"
+  },
+  {
+    "serial": "#1235",
+    "name": "AlayaCare",
+    "name_cn": "AlayaCare",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B 居家护理SaaS",
+    "description": "加拿大居家与社区护理SaaS平台，整合临床、排班、远程监测与家庭端，提升居家养老运营效率。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 居家护理SaaS",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2014",
+    "highlights": "加拿大居家护理SaaS平台",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B 居家护理SaaS」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入居家照护SaaS赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.alayacare.com"
+  },
+  {
+    "serial": "#1237",
+    "name": "OnShift",
+    "name_cn": "OnShift",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护理协调"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B 护理人力SaaS",
+    "description": "面向老年护理与长期照护机构的人力资源与排班SaaS，缓解照护人力短缺。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 护理人力SaaS",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2008",
+    "highlights": "照护机构人力排班SaaS",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B 护理人力SaaS」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入人力资源SaaS赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.onshift.com"
+  },
+  {
+    "serial": "#1238",
+    "name": "ClearCare",
+    "name_cn": "ClearCare",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B 居家照护SaaS",
+    "description": "家庭护理机构运营SaaS企业（已被WellSky收购），提供排班、计费与家庭门户等一体化运营工具，服务于居家护理机构。企业聚焦银发场景，通过技术与服务满足中老年群体的细分需求",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2B 家庭护理SaaS",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "累计未披露",
+      "display": "累计未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2008",
+    "highlights": "家庭护理SaaS（已被WellSky收购）",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.5,
+    "research_value": 43.7,
+    "recommend": "信号偏弱、信息量一般，其「B2B 居家照护SaaS」有一定差异点；且轻模式易复制，国内创业者可直接借鉴落地（切入居家照护SaaS赛道）。",
+    "source": "WebSearch(WebSearch企业库扩充: Crunchbase/Tracxn/TheGerontechnologist/PRNewswire/公司官网等)",
+    "website_url": "https://www.clearcareonline.com"
+  }
+]

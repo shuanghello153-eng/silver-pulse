@@ -1,0 +1,956 @@
+[
+  {
+    "serial": "#0834",
+    "name": "RxDiet",
+    "name_cn": "RxDiet",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "个性化营养"
+    ],
+    "region": "海外",
+    "desc_cn": "AI驱动的'食物即药物'服务平台：用算法为糖尿病、高血压等慢病患者生成医学定制食材包与行为指导，联合连锁商超把新鲜食材直送到家，由保险（如Aetna）全额买单、个人基本零自付。本质是与支付方合作的慢病营养干预，覆盖含高龄老人在内的慢病人群。",
+    "description": "AI制定医学定制饮食计划，新鲜食材+行为支持",
+    "silver_reason": "通用慢病医学营养干预，虽在老年群体渗透高但非老年专属信号",
+    "silver_verdict": "非银发",
+    "payor_model": "商业保险支付（保险全额买单）+个人基本零自付",
+    "business_model": "B2B AI/数据驱动",
+    "funding_latest": {
+      "date": "2024年7月",
+      "amount": "300万美元",
+      "round": "种子轮",
+      "display": "种子轮 300万美元 (2024年7月)"
+    },
+    "funding_total": "$3.8M",
+    "investors": "Giant Ventures (lead), Better Ventures, Form Life",
+    "stage": "种子期",
+    "founded": 2019,
+    "highlights": [
+      "AI生成医学定制食材包（非预制餐），联合连锁商超配送",
+      "Aetna项目97分NPS、78岁以上用户76%使用率",
+      "保险全额买单、个人基本零自付",
+      "已合作美国三大 insurer 中两家"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 4.0,
+    "research_value": 31.2,
+    "recommend": {
+      "rec_v1": "信号低信息薄（仅早期资本支持）；AI定制饮食无银发差异，国内慢病饮食创业者可参考但非银发专属。",
+      "rec_v2": "披露稀少；亮点是食材+行为支持闭环，与老年服务关联弱，国内复制受供应链约束明显。",
+      "rec_v3": "小注验证概念；其营养平台无差异化壁垒、研究价值低，宜作银发营养方向的旁证而非重点。",
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "signal_strength": 1.05,
+      "research_value": 31.2
+    },
+    "source": "选题库V4",
+    "website_url": "https://www.rxdiet.com"
+  },
+  {
+    "serial": "#0054",
+    "name": "VTN",
+    "name_cn": "VTN",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "电商"
+    ],
+    "region": "国内",
+    "desc_cn": "国际性的健康美丽会员制电商平台，全球精选细胞抗衰、口服美容、植物基营养等前沿品牌，以会员俱乐部形式提供定制化健康方案。收入来自会员消费与品牌销售佣金，用户以一线城市精英人群为主。银发相关仅落在健康营养消费板块，并非专营老年，属泛健康跨境电商品类。",
+    "description": "VTN是澳大利亚高端健康品牌购物平台，聚焦营养保健品、护肤品等领域，在银发健康消费市场有布局。",
+    "silver_reason": "通用健康电商，仅银发健康消费有布局，非专营老年。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2013,
+    "highlights": [
+      "跨境消费集团旗下国际健康美丽会员制电商平台，2020年APP上线，全球精选前沿健康品牌",
+      "采用会员制加独家品牌合作（如与MitoQ十年独家），产品入选率仅1%",
+      "注册用户已达千万级，银发健康营养（细胞抗衰、植物基营养）为其消费板块之一"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 30.7,
+    "recommend": {
+      "rec_v1": "信号弱但定位清（澳新高端健康平台）；银发健康消费仅布局非核心，差异化低，国内创业者可借鉴其选品与跨境。",
+      "rec_v2": "冷门却偏通用；营养保健品护肤品为主、养老为辅，亮点在高端供应链，可抄性有限，值得学其银发选品。",
+      "rec_v3": "披露中等但非专营；健康电商本身可学，但银发只是场景之一，可研究其如何把保健品类打到银发人群。",
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 30.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.vtn.com.au/"
+  },
+  {
+    "serial": "#0055",
+    "name": "WonderLab",
+    "name_cn": "WonderLab",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "功能性食品"
+    ],
+    "region": "国内",
+    "desc_cn": "新锐营养品牌，以350ml瓶装即饮代餐奶昔主攻体重管理与肠道健康，主打开盖即饮、高颜值小瓶与多口味，主力客群为都市年轻消费者。收入来自零售电商与个人自费购买，产品延伸至蛋白谷物棒、白芸豆控卡片等功能性食品。银发相关仅停留在营养健康消费的可能延伸，并非专营老年。",
+    "description": "WonderLab是中国新锐营养品牌，聚焦肠道健康、代餐等产品，在银发健康营养市场有一定布局。",
+    "silver_reason": "通用营养品牌，主力年轻客群，银发仅营养消费的可能延伸，非专营老年。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2018,
+    "highlights": [
+      "国内瓶装代餐奶昔代表性品牌，以开盖即饮、高颜值小瓶切入年轻体重管理人群",
+      "产品线涵盖代餐奶昔、蛋白谷物棒、白芸豆控卡片等功能性营养食品",
+      "银发仅为其营养板块的潜在延伸，目前主力客群为都市年轻消费者"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 3.0,
+    "copy_score": 4.0,
+    "research_value": 30.7,
+    "recommend": {
+      "rec_v1": "信号弱但品牌新（肠道健康+代餐）；银发营养仅布局非核心，差异化低，国内创业者可借鉴其银发营养线打法。",
+      "rec_v2": "冷门却偏通用；新锐营养品牌为主、养老为辅，亮点在年轻化营销，可抄性有限，值得学其功能食品定位。",
+      "rec_v3": "披露中等但非专营；营养电商本身可学，银发只是场景之一，可研究其如何把代餐蛋白打到银发人群。",
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 30.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.wonderlab.com/"
+  },
+  {
+    "serial": "#0125",
+    "name": "台格",
+    "name_cn": "台格",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "适老化"
+    ],
+    "region": "国内",
+    "desc_cn": "据库内标注为适老化家具设计制造商，面向养老机构与居家场景提供适老家具产品，公开可核实信息极少，业务规模与商业模式不清晰，需谨慎看待其银发产业链定位。",
+    "description": "台格是适老化家具品牌，专注养老机构和居家适老化家具设计制造。",
+    "silver_reason": "适老化家具服务养老机构与居家适老，属银发产业链（信息待核实）",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "库内标注为适老化家具设计制造商",
+      "服务养老机构与居家场景",
+      "公开信息较少，主体与规模待核实"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 30.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息不足；其适老化家具聚焦机构与居家有场景差异化；制造模式极易复制，可学其产品设计。",
+      "rec_v2": "资料稀少；亮点在把适老安全做进家具细节；路径清，创业者可抄其“机构+居家”双渠道与防撞设计。",
+      "rec_v3": "关注低、披露少；价值在适老家居刚需而非技术；国内极易复制，可学其家具适老化的人因工程要点。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 30.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0334",
+    "name": "记忆家",
+    "name_cn": "记忆家",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知症"
+    ],
+    "region": "国内",
+    "desc_cn": "认知症专业照护品牌",
+    "description": "记忆家是专注认知症老人照护的服务品牌，提供认知症家庭支持、日间照料和专业照护服务。",
+    "silver_reason": "专注认知症老人家庭支持与专业照护，失智照护赛道。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+政府长护险",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2012,
+    "highlights": [
+      "认知症家庭支持",
+      "日间照料+专业照护",
+      "专注认知症细分"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 30.7,
+    "recommend": {
+      "rec_v1": "信号弱但专注认知症照护，家庭支持+日间照料+专业照护的分层服务体系对银发创业者有样板。",
+      "rec_v2": "公开信息虽有限，但其把认知症照护拆成社区与机构衔接的分层打法，区域养老服务者可复制借鉴。",
+      "rec_v3": "模式不炫但刚需强，其用专业照护承接认知家庭的路径，值得社区养老与家政创业者重点借鉴。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 30.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0405",
+    "name": "蓓姿",
+    "name_cn": "蓓姿",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "尿失禁",
+      "纸尿裤"
+    ],
+    "region": "国内",
+    "desc_cn": "成人失禁护理用品品牌",
+    "description": "国内尿失禁产品",
+    "silver_reason": "成人失禁护理用品直接服务老年失禁人群",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "成人失禁护理",
+      "纸尿裤品类",
+      "银发个护刚需"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 30.7,
+    "recommend": {
+      "rec_v1": "信号弱信息极少；成人失禁用品差异在吸收材料，国内个护创业者可复制其细分人群定位打法。",
+      "rec_v2": "披露稀少热度低；其专攻尿失禁护理差异稳，新品牌能学其电商加私域复购的银发个护路径。",
+      "rec_v3": "信号不强资料不足；它切入老年失禁刚需差异清晰，国内宜抄其高性价比国货路线避开国际大牌。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 30.7
+    },
+    "source": "选题库V4",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0438",
+    "name": "振邦医疗",
+    "name_cn": "振邦医疗",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "轮椅"
+    ],
+    "region": "国内",
+    "desc_cn": "银发经济企业",
+    "description": "手动轮椅、助行器县域渠道批发",
+    "silver_reason": "轮椅助行器流通直接服务县域老年辅具需求",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购",
+    "business_model": "银发经济企业",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2015,
+    "highlights": [
+      "手动轮椅/助行器",
+      "县域渠道批发",
+      "下沉市场流通"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 30.7,
+    "recommend": {
+      "rec_v1": "信号弱信息少；轮椅助行器县域批发差异在下沉，国内创业者可抄其渠道下沉分销打法路径。",
+      "rec_v2": "披露稀少热度低；其县域批发打法清晰，创业者能学其低线市场代理网络布局轻扩张路径。",
+      "rec_v3": "信号不强资料不足；它做辅具下沉渠道差异明确，国内宜抄其'县代+终端'轻资产流通模型。",
+      "info_score": 3,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 30.7
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0113",
+    "name": "千骥资本",
+    "name_cn": "千骥资本",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "VC"
+    ],
+    "region": "国内",
+    "desc_cn": "2009/2010年成立于上海的医疗健康专业投资基金（Cenova），专注生命科学、医疗器械、医疗服务与生物医药领域的风险投资和私募股权投资，管理多支基金、已投资培育60余家医疗健康企业。作为财务投资机构，其本身不直接面向老年人提供产品或服务，仅通过布局老年医疗、康复护理等赛道间接关联银发经济。",
+    "description": "千骥资本是专注医疗健康领域的风险投资基金，在老年医疗、康复护理等银发经济赛道有多个投资布局。",
+    "silver_reason": "本质是医疗健康VC，仅财务投资布局银发，不直接服务老年人",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "LP出资(基金)",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2010,
+    "highlights": [
+      "2009/2010年成立于上海的医疗健康专业基金",
+      "管理多支基金，已投资培育60余家医疗企业",
+      "专注生命科学、医疗器械、医疗服务与生物医药",
+      "出资人为主权基金、政府引导基金及产业巨头"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 4.0,
+    "copy_score": 3.0,
+    "research_value": 30.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等；其押注老年医疗康复的赛道卡位有差异化；但作为VC难复制，国内创业者宜学其选赛道逻辑。",
+      "rec_v2": "资料一般；亮点在医疗健康portfolio含银发布局；财务投资属性强，可借鉴其“银发+康复”投资框架而非模式。",
+      "rec_v3": "声量低；价值在资本视角看清银发医疗机会；本身不可复制，创业者可学其尽调维度与产业链判断方法。",
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 30.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.cenova.com"
+  },
+  {
+    "serial": "#0120",
+    "name": "博远资本",
+    "name_cn": "博远资本",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "VC"
+    ],
+    "region": "国内",
+    "desc_cn": "2017年成立的专业医疗健康投资机构(BioTrack Capital)，创始合伙人为复星陶峰与红杉/美敦力陈鹏辉，管理人民币与美元基金、投资孵化逾百家企业。作为财务投资机构，不直接服务老年人，仅通过布局老年医疗等赛道间接关联银发经济。",
+    "description": "博远资本是专注医疗健康产业的投资基金，在创新药、医疗器械和老年健康领域有投资布局。",
+    "silver_reason": "本质是医疗健康产业VC，仅投资布局老年健康，不直接服务老年人",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "LP出资(基金)",
+    "business_model": "B2B 医疗器械",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2017,
+    "highlights": [
+      "2017年成立的医疗健康专业投资机构",
+      "创始合伙人为复星医药陶峰、红杉/美敦力陈鹏辉",
+      "管理人民币与美元基金，已投资孵化逾百家企业",
+      "覆盖创新药、医疗器械、医疗服务与数字健康"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 4.0,
+    "copy_score": 3.0,
+    "research_value": 30.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等；其布局老年健康与医疗器械的赛道眼光有差异化；VC属性难复制，可学其产业判断。",
+      "rec_v2": "资料一般；亮点在医疗健康portfolio含银发方向；财务投资为主，创业者可借鉴其“银发+器械”选品框架。",
+      "rec_v3": "关注低；价值在资本侧看清老年健康机会；本身不可复制，可学其尽调与产业链协同的投法。",
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 30.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.biotrackcapital.cn"
+  },
+  {
+    "serial": "#0341",
+    "name": "达旦无极",
+    "name_cn": "达旦无极",
+    "tag_l1": [
+      "康复辅具",
+      "消费品"
+    ],
+    "tag_l2": [
+      "跌倒监测",
+      "智能硬件"
+    ],
+    "region": "国内",
+    "desc_cn": "老人安全监测设备商",
+    "description": "达旦无极是智能养老设备品牌，研发老年人安全监测和健康追踪产品。",
+    "silver_reason": "老人安全监测与健康追踪硬件，居家养老安全场景。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端机构采购",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2022,
+    "highlights": [
+      "老年人安全监测产品",
+      "健康追踪产品",
+      "智能养老设备品牌"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 3.0,
+    "diff_score": 5.0,
+    "copy_score": 5.0,
+    "research_value": 30.6,
+    "recommend": {
+      "rec_v1": "信号弱但做老人安全监测与健康追踪硬件，跌倒监测刚需对银发智能硬件创业者有启发。",
+      "rec_v2": "公开资料较薄，但其把安全监测与健康追踪做成轻量家用设备的思路，适老硬件创业者可复制。",
+      "rec_v3": "产品常规但场景精准，其用跌倒监测卡位居家安全的路径，值得智能硬件团队重点研究借鉴。",
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 30.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.dadanwuji.com"
+  },
+  {
+    "serial": "#0491",
+    "name": "宝马",
+    "name_cn": "宝马",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能硬件"
+    ],
+    "region": "海外",
+    "desc_cn": "车企适老化设计与辅助驾驶",
+    "description": "BMW（宝马）在银发经济领域聚焦老年人出行，通过车内适老化设计、辅助驾驶技术等提升老年驾驶者的安全性和舒适度。",
+    "silver_reason": "车企适老化设计仅为产品特性，非银发核心企业",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人购车自费",
+    "business_model": "B2C 老年出行服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1916,
+    "highlights": [
+      "车内适老化设计+辅助驾驶技术",
+      "提升老年驾驶者安全与舒适度"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 5.0,
+    "diff_score": 4.0,
+    "copy_score": 3.0,
+    "research_value": 30.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中，车内适老化与辅助驾驶是其老年出行feature、差异化一般；整车厂资源难复制，非银发核心。",
+      "rec_v2": "披露尚可、信号低，亮点在适老设计与安全舒适；但宝马本质车企，老年出行仅为产品特性，参考价值有限。",
+      "rec_v3": "信息量中、信号弱，差异化在辅助驾驶适老；国内可学交互思路，但主体非银发企业，宜判擦边。",
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 30.6
+    },
+    "source": "Stage (not Age) Book",
+    "website_url": "https://www.bmw.com/"
+  },
+  {
+    "serial": "#0050",
+    "name": "EE广州老博会",
+    "name_cn": "EE广州老博会",
+    "tag_l1": [
+      "消费品",
+      "行业服务"
+    ],
+    "tag_l2": [
+      "智能家居",
+      "行业媒体"
+    ],
+    "region": "国内",
+    "desc_cn": "立足广州、辐射大湾区的养老健康产业博览会，聚合养老机构、智能家居、康复辅具与适老消费品供应商，面向B端机构出租展位。配套行业论坛与商贸对接，帮助银发企业触达华南专业买家与渠道。核心价值在填补华南区域银发产业展会供给，是本地企业发布适老新品、拓展大湾区市场的窗口。",
+    "description": "广州国际养老健康产业博览会，聚焦华南地区养老产业，涵盖养老机构、智能家居、康复辅具等领域。",
+    "silver_reason": "养老健康产业B2B展会，聚焦养老全链条。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购（展位）",
+    "business_model": "B2B 行业服务/媒体",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2015,
+    "highlights": [
+      "聚焦华南市场的养老健康产业博览会，涵盖机构、智能家居、康复辅具等",
+      "立足广州辐射大湾区，聚合养老机构、适老产品与康复设备供应商",
+      "与上海、北京老博会形成区域互补，是华南银发企业对接渠道的窗口"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 3.0,
+    "copy_score": 2.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱但信息实（华南最大养老展）；行业展会差异化低且IP难复制，国内创业者可借鉴其区域选品与招商思路。",
+      "rec_v2": "冷门却是区域入口；聚焦华南养老产业含智能家居辅具，亮点在B2B撮合，可抄性极低，值得学其供需对接。",
+      "rec_v3": "披露中等但非直营；展会本身不可复制，可借鉴其区域产业聚合，可研究其如何映射华南银发供给格局。",
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.eldercareexpo.com.cn/"
+  },
+  {
+    "serial": "#0053",
+    "name": "SIC保利老博会",
+    "name_cn": "SIC保利老博会",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "行业媒体"
+    ],
+    "region": "国内",
+    "desc_cn": "由保利集团主办的央企背景养老产业博览会，聚焦养老地产、康养设备、辅具与养老服务全链条，向B端机构出租展位并配套行业论坛。核心价值在借助保利自身康养地产业务资源，打通展示、对接、落地的展产协同，是南方地区银发企业与渠道商重要的年度对接平台。",
+    "description": "保利国际老博会（SIC），由保利集团主办，聚焦养老产业全链条，包括养老地产、康养设备、养老服务等领域。",
+    "silver_reason": "保利主办养老产业展会，覆盖养老全链条。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购（展位）",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2012,
+    "highlights": [
+      "保利集团主办、央企背景的养老产业博览会，聚焦养老地产、康养设备与服务全链条",
+      "展会规模居行业前列，汇聚逾万种适老产品，吸引海内外买家",
+      "依托保利自身康养地产业务，具备展、产、投协同的独特资源"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 3.0,
+    "copy_score": 2.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱但背景实（央企保利主办）；养老展会差异化低且IP难复制，国内创业者可借鉴其全产业链招商打法。",
+      "rec_v2": "冷门却有资源；聚焦养老地产、康养设备、服务全链条，亮点在央企背书，可抄性极低，值得学其B2B聚合。",
+      "rec_v3": "披露中等但非直营；展会本身不可复制，可借鉴其产业全景，可研究其如何映射保利系康养布局。",
+      "info_score": 6,
+      "diff_score": 3,
+      "copy_score": 2,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.sic-care.com/"
+  },
+  {
+    "serial": "#0232",
+    "name": "月神",
+    "name_cn": "月神",
+    "tag_l1": [
+      "食品营养",
+      "消费品"
+    ],
+    "tag_l2": [
+      "保健品",
+      "药品"
+    ],
+    "region": "国内",
+    "desc_cn": "德国专业女性健康品牌，以‘小花园益生菌’为核心，采用四种源自健康女性私处的原生菌株，主打私密微生态调理，并针对更年期女性推出口服益生菌干预方案，与国内三甲医院开展临床研究。收入来自个人自费。客群为全龄女性，更年期养护仅为延伸场景，偏泛医疗健康消费。",
+    "description": "德国女性健康品牌月神（Princess Luna）以女性益生菌为核心，推出私护专研与健康美学两条产品线，其中小花园益生菌含4株原生菌株与120亿活菌，并面向更年期女性做私密养护。",
+    "silver_reason": "女性益生菌与私护品牌，客群为全龄女性，更年期养护仅为延伸，非银发核心。",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "德国女性健康品牌Princess Luna，以女性益生菌为核心",
+      "小花园益生菌含4株原生菌株，面向更年期女性做私密养护",
+      "与北京世纪坛医院合作开展口服益生菌对更年期综合征研究，进博会设立中国分院"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中；女性益生菌含更年期养护但客群非老年差异化弱，可复制，可学其原菌株+活菌数卖点。",
+      "rec_v2": "信号低、披露一般；小花园益生菌120亿活菌是亮点，差异化模式常规却易借鉴，国内宜学其女性微生态定位。",
+      "rec_v3": "信号偏弱、资料有限；其面向更年期私护只是延伸差异化弱，非银发核心但可学其跨境品牌内容打法。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0247",
+    "name": "泰一健康",
+    "name_cn": "泰一健康",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "保健品"
+    ],
+    "region": "国内",
+    "desc_cn": "健康品供应链全案服务商,为保健品与功能食品品牌方提供原料、研发、ODM代工到营销的一体化出货;拥有宁波研发总部与两家GMP智造工厂,客户超600家,收入来自代工与服务费。",
+    "description": "宁波泰一健康产业（2016年）是健康品供应链全案服务商，提供保健品与功能性食品的原料、研发与ODM代工，服务品牌方一站式出货。",
+    "silver_reason": "健康品供应链支撑银发营养消费",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2016,
+    "highlights": [
+      "健康品供应链全案服务商(原料+ODM+营销)",
+      "两家GMP智造工厂(青云山药业37年历史)",
+      "浙大泰一未来健康食品联合研究中心",
+      "服务品牌客户超600家"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱官网信息有限；ODM代工同质化高，但健康食品一站式供应链打法仍可供国内创业者参考。",
+      "rec_v2": "公开资料中等热度低；代工模式无强差异，品牌方供货体系在国内属于轻资产易复制路径，运营细节值得国内创业者拆解借鉴。",
+      "rec_v3": "信号不强信息偏少；其为品牌商一站式出货，轻资产供应链思路值得银发食品创业者抄作业，该路径在国内的落地门槛与要点清晰。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.taiyi-nb.com"
+  },
+  {
+    "serial": "#0268",
+    "name": "瑞贝卡",
+    "name_cn": "瑞贝卡",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "美妆护肤"
+    ],
+    "region": "国内",
+    "desc_cn": "全球假发发制品制造与出口龙头,主营工艺发、化纤发、发套与发条,具备从原料到成品的全产业链与全球渠道;海外营收占比较高,国内A股上市;收入来自制造与出口,与银发照护无实质关联。",
+    "description": "河南瑞贝卡发制品股份有限公司（600439.SH）是全球假发/发制品龙头，产品覆盖工艺发、化纤发、教习头及发套，银发群体（白发/脱发）为假发核心消费人群，海外营收占比较高。",
+    "silver_reason": "全球假发发制品制造,非老年专属,与银发照护无实质关联",
+    "silver_verdict": "非银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "已上市",
+    "founded": 1999,
+    "highlights": [
+      "600439.SH全球假发龙头",
+      "工艺发/化纤发/发套全产业链",
+      "海外营收占比较高",
+      "属非银发赛道,与银发照护无实质关联"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 2.0,
+    "copy_score": 3.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱但A股龙头可查；假发制造非银发，与老年照护创业无借鉴关系，银发库建议将其移出或单独标注。",
+      "rec_v2": "披露充分热度低；发制品全球代工无差异，银发创业者无需参考其品类，其模式对银发创业者无实质借鉴意义。",
+      "rec_v3": "信号不强资料全；实质非银发品类，库内建议移出，其创业价值有限，后续可按非银发类别单独归类处理。",
+      "info_score": 6,
+      "diff_score": 2,
+      "copy_score": 3,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.rebeccafashion.com.cn"
+  },
+  {
+    "serial": "#0292",
+    "name": "章华",
+    "name_cn": "章华",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "美妆护肤"
+    ],
+    "region": "国内",
+    "desc_cn": "植物染发与洗护化妆品品牌",
+    "description": "浙江章华保健美发实业有限公司（SAVOL 章华）是国产染发与洗护化妆品品牌，主打植物染发剂、洗发护发产品，中老年染发为主要消费场景之一。",
+    "silver_reason": "植物染发主场景中老年人群",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2011,
+    "highlights": [
+      "SAVOL章华国产染发与洗护化妆品品牌",
+      "主打植物染发剂、洗发护发产品",
+      "中老年染发为主要消费场景之一"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等（植物染发老牌）；中老年染发为场景。差异在植物染发定位，国内银发个护可学其把染发做成银发刚需品类。",
+      "rec_v2": "冷门日化品牌，披露偏少。亮点是中老年染发主场景，创业者可抄其用植物概念做银发个护信任的细分打法。",
+      "rec_v3": "信号低、信息中等；差异仅在染发洗护。复制性中，国内可仿其聚焦银发染发刚需、避开水战的功能性个护路径。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.savolherb.cn"
+  },
+  {
+    "serial": "#0293",
+    "name": "米兰登",
+    "name_cn": "米兰登",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "region": "国内",
+    "desc_cn": "中老年麻棉功能女装品牌",
+    "description": "米兰登服饰（广东）有限公司（1995年创立）旗下中老年女装知名品牌，主打天然麻棉环保面料的功能性高端女装。",
+    "silver_reason": "中老年功能女装服务银发女性",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1995,
+    "highlights": [
+      "米兰登服饰（广东）1995年创立",
+      "主打天然麻棉环保面料的功能性高端女装",
+      "中老年女装知名品牌"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息一般（麻棉功能女装）；中老年定位明确。差异在环保面料+功能女装，国内银发服饰可学其材质卖点+中老年细分。",
+      "rec_v2": "冷门女装品牌，披露少。亮点是天然麻棉+功能性，创业者可抄其用面料科技做银发女装溢价的轻品牌打法。",
+      "rec_v3": "信号低、信息中等；差异在麻棉环保定位。复制性中，国内可仿其聚焦中老年女性、以材质差异做银发服饰的路径。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0294",
+    "name": "粤嘉康",
+    "name_cn": "粤嘉康",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "医疗器械"
+    ],
+    "region": "国内",
+    "desc_cn": "家用按摩理疗器械品牌",
+    "description": "粤嘉康是按摩理疗器械品牌，主营颈椎/腰椎按摩器、按摩椅、止鼾器、电动修脚器等家用保健器械，通过天猫等电商平台销售，属家用按摩保健设备。",
+    "silver_reason": "家用按摩保健器械服务银发人群",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2025,
+    "highlights": [
+      "主营颈椎/腰椎按摩器、按摩椅、止鼾器、电动修脚器",
+      "通过天猫等电商平台销售",
+      "属家用按摩保健设备"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 3.0,
+    "copy_score": 5.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等（天猫在售按摩器械）；差异在颈椎/腰椎按摩器等家用保健。国内银发保健可学其标品按摩+电商轻切入。",
+      "rec_v2": "冷门按摩品牌，披露偏少。亮点是家用按摩椅/修脚器等矩阵，创业者可抄其用天猫做银发保健器械的电商打法。",
+      "rec_v3": "信号低、信息中等；差异仅在常规按摩设备。复制性高，国内可仿其家用保健器械+平台销售的银发保健小品类路径。",
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0332",
+    "name": "蓝力",
+    "name_cn": "蓝力",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "保健品"
+    ],
+    "region": "国内",
+    "desc_cn": "胶原蛋白肽原料ODM商",
+    "description": "德州蓝力生物技术专业从事鱼胶原蛋白肽、牛胶原蛋白肽等医用食品与多肽原料的OEM/ODM生产，产品用于食品、保健品、医药与化妆品，出口欧美日韩，注册资本1.28亿元。",
+    "silver_reason": "胶原肽等营养原料用于银发抗衰食品，归健康食品供应链。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "鱼/牛胶原蛋白肽OEM/ODM",
+      "出口欧美日韩",
+      "注册资本1.28亿元"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 4.0,
+    "research_value": 29.6,
+    "recommend": {
+      "rec_v1": "信号弱但注册资本1.28亿做胶原肽OEM/ODM，银发抗衰原料供应链对食品创业者有参照。",
+      "rec_v2": "公开资料显示其出口欧美日韩，重资产原料代工难复制，但选品与跨境合规经验值得研究。",
+      "rec_v3": "模式偏B端，其把鱼牛胶原肽做成多行业原料网的能力，是银发保健品少走弯路的供应链模板。",
+      "info_score": 4,
+      "diff_score": 4,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 29.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  }
+]

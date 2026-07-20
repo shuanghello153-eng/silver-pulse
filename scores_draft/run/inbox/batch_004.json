@@ -1,0 +1,672 @@
+{
+ "batch": 4,
+ "tier": "A",
+ "enterprises": [
+  {
+   "serial": "#0950",
+   "name": "Aveanna Healthcare",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "临终关怀",
+   "tags": [
+    "安宁疗护"
+   ],
+   "description": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+   "highlights": "主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Aveanna%20Healthcare",
+   "website_url": "https://www.aveannahomecare.com",
+   "business_model": "上市企业",
+   "desc_cn": "美国家庭健康、临终关怀服务提供商，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 4,
+    "news_quality": "low",
+    "latest_news": [
+     {
+      "title": "Aveanna Healthcare 10-K Annual Report",
+      "date": "2025-03",
+      "source": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1832332/000095017025038504/avah-20241228.htm"
+     }
+    ],
+    "snippets": [
+     "Home health/hospice/private-duty provider; earnings only.",
+     "No major 2024-25 funding/M&A event surfaced."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Aveanna Healthcare】聚焦临终关怀/产业资本/居家护理，主要业务还包括儿科治疗、个人护理等。2021年上市融资4.59亿美元，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0951",
+   "name": "InnovAge",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "专业护理",
+    "居家护理"
+   ],
+   "description": "提供老年人全包护理计划(PACE)，为居家老人提供处方药、医疗保健、家庭护理、体检、医院就诊、上门协助、交通、营养等服务。2021年上市融资3.5亿美元",
+   "highlights": "为居家老人提供处方药、医疗保健、家庭护理、体检、医院就诊、上门协助、交通、营...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2007",
+   "value_score": 55,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=InnovAge",
+   "website_url": "https://www.myinnovage.org",
+   "business_model": "上市企业",
+   "desc_cn": "提供老年人全包护理计划(PACE)，为居家老人提供处方药、医疗保健、家庭护理、体检、医院就诊、上门协助、交通、营养等服务。2021年上市融资3.5亿美元",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 8,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "InnovAge Announces Financial Results for Q4 and Fiscal Year ended June 30, 2025",
+      "date": "2025-09-10",
+      "source": "Biospace",
+      "url": "https://www.biospace.com/press-releases/innovage-announces-financial-results-for-the-fourth-quarter-and-fiscal-year-ended-june-30-2025"
+     },
+     {
+      "title": "InnovAge Holding Annual Report 2025",
+      "date": "2025-10-01",
+      "source": "stocklight",
+      "url": "https://stocklight.com/stocks/us/nasdaq-innv/innovage-holding/annual-reports/nasdaq-innv-2025-10K-251303992.pdf"
+     }
+    ],
+    "snippets": [
+     "Public co (NASDAQ: INNV), PACE program leader for dual-eligible frail seniors.",
+     "Avg Medicare RAF 2.42; earnings/disclosure news, no fresh funding/M&A event in 2024-25."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "专业护理",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【InnovAge】聚焦专业护理/产业资本/居家护理，为居家老人提供处方药、医疗保健、家庭护理、体检、医院就诊、上门协助、交通、营...，研究价值分55。",
+   "payor_model": "PACE",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0952",
+   "name": "Addus HomeCare",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "居家护理"
+   ],
+   "description": "美国家庭护理服务提供商，以家庭及社区为基础，面向老人、长期病患、残疾人士等提供个人护理、日常生活活动支援、成人日间看护等服务。2009年上市融资5400万美元",
+   "highlights": "以家庭及社区为基础",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1979",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Addus%20HomeCare",
+   "website_url": "https://addus.com",
+   "business_model": "上市企业",
+   "desc_cn": "美国家庭护理服务提供商，以家庭及社区为基础，面向老人、长期病患、残疾人士等提供个人护理、日常生活活动支援、成人日间看护等服务。2009年上市融资5400万美元",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 8,
+    "news_quality": "high",
+    "latest_news": [
+     {
+      "title": "Addus Charts Rapid Growth, Enabled By $350M Gentiva Acquisition",
+      "date": "2025-09-30",
+      "source": "Home Health Care News",
+      "url": "https://homehealthcarenews.com/2025/09/addus-charts-rapid-growth-enabled-by-350m-gentiva-acquisition/"
+     },
+     {
+      "title": "Addus HomeCare Announces Q3 2025 Financial Results",
+      "date": "2025-11-04",
+      "source": "MarketScreener",
+      "url": "https://www.marketscreener.com/news/addus-homecare-announces-third-quarter-2025-financial-results-ce7d5cd9d08dfe26"
+     }
+    ],
+    "snippets": [
+     "Acquired Gentiva personal-care assets for $350M (Dec 2024).",
+     "Acquired Helping Hands Home Care (Aug 2025)."
+    ]
+   },
+   "name_cn": "爱德斯家庭护理",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Addus HomeCare】聚焦专业护理/居家护理，以家庭及社区为基础，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "serial": "#0953",
+   "name": "The Pennant Group",
+   "region": "海外",
+   "category_l1": "养老服务",
+   "category_l2": "临终关怀",
+   "tags": [
+    "安宁疗护",
+    "居家护理"
+   ],
+   "description": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+   "highlights": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2...",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 48,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=The%20Pennant%20Group",
+   "website_url": "https://pennantgroup.com",
+   "business_model": "上市企业",
+   "desc_cn": "美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2019年上市",
+   "business_model_cn": "上市企业",
+   "news_coverage": {
+    "news_count": 5,
+    "news_quality": "medium",
+    "latest_news": [
+     {
+      "title": "Pennant Group Annual Report 2025",
+      "date": "2025-03-01",
+      "source": "stocklight",
+      "url": "https://stocklight.com/stocks/us/nasdaq-pntg/pennant-group/annual-reports/nasdaq-pntg-2025-10K-25678754.pdf"
+     }
+    ],
+    "snippets": [
+     "Home health/hospice/senior-living (NASDAQ: PNTG).",
+     "Benefits from Amedisys divestiture (agencies to BrightSpring & Pennant)."
+    ]
+   },
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "安宁疗护",
+    "居家护理"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "上市公司",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【The Pennant Group】聚焦临终关怀/居家护理，美国家庭健康、临终关怀、家庭护理、辅助生活、独立生活、记忆护理服务提供商。2...，研究价值分48。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Janus Living",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+   "highlights": "养老地产REIT，2026年申报IPO，估值目标约$50亿。",
+   "funding_latest": {
+    "date": "2026-03",
+    "amount": "估值约$5B",
+    "round": "IPO(申报)",
+    "display": "IPO申报 估值约$50亿 (2026-03)"
+   },
+   "funding_total": {
+    "amount": "拟募资约$7.4亿",
+    "display": "IPO拟募资约$7.4亿"
+   },
+   "investors": "Healthpeak为外部管理人并注入资产",
+   "founded": "",
+   "value_score": 50,
+   "source": "WebSearch: Reuters 2026-03-16 / renaissancecapital.com",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Janus%20Living",
+   "website_url": "https://janusliving.com",
+   "business_model": "RIDEA结构 上市养老地产REIT",
+   "desc_cn": "美国养老地产纯Play REIT，由Healthpeak注入34个养老社区组合，2026年申报美股IPO，目标估值约50亿美元。",
+   "business_model_cn": "RIDEA结构 上市养老地产REIT",
+   "serial": "#1135",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Janus Living】聚焦产业资本/养老社区，养老地产REIT，2026年申报IPO，估值目标约$50亿。，研究价值分50。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Healthpeak Properties",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+   "highlights": "医疗地产REIT，分拆养老组合成立Janus Living。",
+   "funding_latest": {
+    "date": "2026-01",
+    "amount": "NYSE: PEAK",
+    "round": "IPO上市",
+    "display": "NYSE: PEAK 上市公司"
+   },
+   "funding_total": {
+    "amount": "上市公司",
+    "display": "上市公司"
+   },
+   "investors": "公开市场",
+   "founded": "",
+   "value_score": 54,
+   "source": "WebSearch: ir.healthpeak.com 2026-01-07",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Healthpeak",
+   "website_url": "https://www.healthpeak.com",
+   "business_model": "上市医疗/养老地产REIT(RIDEA)",
+   "desc_cn": "美国医疗地产REIT，将34个社区、约1万套养老住房组合注入新设的Janus Living并以RIDEA结构分拆为纯Play上市养老地产REIT。",
+   "business_model_cn": "上市医疗/养老地产REIT(RIDEA)",
+   "serial": "#1136",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Healthpeak Properties】聚焦养老社区，医疗地产REIT，分拆养老组合成立Janus Living。，研究价值分54。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Sonida Senior Living",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "运营商",
+   "tags": [
+    "CCRC"
+   ],
+   "description": "美国大型纯Play养老社区业主-运营商，运营独立生活、辅助生活与记忆照护社区，纽交所上市(代码SNDA)，2025全年业绩稳健。",
+   "highlights": "纽交所上市(SNDA)养老社区运营商。",
+   "funding_latest": {
+    "date": "2026-03",
+    "amount": "NYSE: SNDA",
+    "round": "IPO上市",
+    "display": "NYSE: SNDA 上市公司"
+   },
+   "funding_total": {
+    "amount": "上市公司",
+    "display": "上市公司"
+   },
+   "investors": "公开市场",
+   "founded": "",
+   "value_score": 46,
+   "source": "WebSearch: sonidaseniorliving.com IR / MarketWatch 2026-03-11",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Sonida%20Senior%20Living",
+   "website_url": "https://investors.sonidaseniorliving.com",
+   "business_model": "上市养老社区业主-运营商",
+   "desc_cn": "美国大型纯Play养老社区业主-运营商，运营独立生活、辅助生活与记忆照护社区，纽交所上市(代码SNDA)，2025全年业绩稳健。",
+   "business_model_cn": "上市养老社区业主-运营商",
+   "serial": "#1144",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "CCRC"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Sonida Senior Living】聚焦产业资本/养老社区，纽交所上市(SNDA)养老社区运营商。，研究价值分46。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Avaí Bio",
+   "region": "海外",
+   "category_l1": "医疗健康",
+   "category_l2": "长寿科技",
+   "tags": [
+    "长寿抗衰"
+   ],
+   "description": "长寿生物科技公司(原Avant Technologies，2026年2月更名为Avaí Bio，OTCQB:AVAI)，推进两项针对糖尿病与年龄相关疾病的细胞治疗项目。",
+   "highlights": "长寿细胞治疗公司，OTCQB:AVAI上市。",
+   "funding_latest": {
+    "date": "2026-02",
+    "amount": "OTCQB: AVAI",
+    "round": "IPO上市",
+    "display": "OTCQB: AVAI 上市公司(更名)"
+   },
+   "funding_total": {
+    "amount": "上市公司",
+    "display": "上市公司"
+   },
+   "investors": "公开市场",
+   "founded": "",
+   "value_score": 30,
+   "source": "WebSearch: nasdaq.com press-release 2026-04-23",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Avaí%20Bio",
+   "website_url": "https://www.avaibio.com",
+   "business_model": "上市公司 长寿细胞治疗(生物科技)",
+   "desc_cn": "长寿生物科技公司(原Avant Technologies，2026年2月更名为Avaí Bio，OTCQB:AVAI)，推进两项针对糖尿病与年龄相关疾病的细胞治疗项目。",
+   "business_model_cn": "上市公司 长寿细胞治疗(生物科技)",
+   "serial": "#1147",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "长寿抗衰"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "制造商(药)",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "【Avaí Bio】聚焦健康管理，长寿细胞治疗公司，OTCQB:AVAI上市。，研究价值分30。",
+   "payor_model": "未披露",
+   "signal_strength": 6.55
+  },
+  {
+   "name": "Ventas",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "医疗地产信托(REIT)",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "美国老牌医疗地产信托(REIT)，纽交所代码 VTR，资产覆盖养老社区、医疗办公楼与生物实验室，是养老地产证券化另一龙头。",
+   "highlights": [
+    "美国第二大养老/医疗REIT(纽交所VTR)",
+    "2025增发约11亿美元加仓养老社区",
+    "SHOP同店现金NOI同比+13%(2025 Q2)"
+   ],
+   "funding_latest": {
+    "round": "上市公司/远期股权增发",
+    "amount": "约11亿美元",
+    "currency": "USD",
+    "date": "2025",
+    "display": "2025远期股权增发约11亿美元",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "持续公开市场融资，企业价值约500亿美元"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": "1983",
+   "value_score": 66,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Ventas",
+   "website_url": "https://www.ventasre.com",
+   "business_model": "REIT: 持有养老社区/医疗办公楼/生命科学实验室，多元化分散风险",
+   "name_cn": "Ventas｜医疗REIT",
+   "desc_cn": "美国第二大养老/医疗地产REIT（纽交所VTR），持有并运营养老社区、门诊医疗与研究院、长期急症护理地产；1998年上市，2025年通过远期股权协议结算约1640万股、募资约11亿美元用于养老社区投资。",
+   "business_model_cn": "REIT：持有养老社区/医疗办公楼/生命科学实验室，多元化配置分散风险",
+   "serial": "#1153",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息极丰富（官网IR+Q2 2025财报+1400+处物业数据），REIT模式稳健、受老龄化与新建供给低位双重顺风，起伏平缓。中国无直接上市养老REIT，但险资/养老地产基金可对标其资产组合与出租率逻辑——与Welltower并读，能看清“银发地产”这门生意的资本纪律与周期。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府医保Medicare/Medicaid+个人自付）",
+   "signal_strength": 6.55,
+   "info_score": 9,
+   "diff_score": 3,
+   "copy_score": 7,
+   "research_value": 66.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "Omega Healthcare Investors",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "护理院REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注 skilled nursing(专业护理院)与长期急症医院的医疗 REIT，纽交所代码 OHI，是美国护理院地产最大持有人之一。",
+   "highlights": [
+    "专业护理院REIT龙头(纽交所OHI)",
+    "2025投资资产115亿美元、1111处物业",
+    "2025 Genesis破产凸显租户集中度风险"
+   ],
+   "funding_latest": {
+    "round": "上市公司/公开增发",
+    "amount": "约2.22亿美元",
+    "currency": "USD",
+    "date": "2025-Q4",
+    "display": "2025 Q4发行Omega OP Units约2.22亿美元",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "持续公开市场+债务融资，总资产约115亿美元"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": "1992",
+   "value_score": 58,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Omega%20Healthcare%20Investors",
+   "website_url": "https://www.omegahc.com",
+   "business_model": "REIT: 持有护理院/长期护理地产并以 triple-net 租赁给运营商",
+   "name_cn": "Omega 医疗投资者",
+   "desc_cn": "专注专业护理院(SNF)与辅助生活(ALF)的医疗REIT（纽交所OHI），以Triple-net净租赁为美国护理院地产最大持有人之一；2025年末投资资产115亿美元、1111处物业、9.3万+张床位，2025年新设20亿美元ATM计划。",
+   "business_model_cn": "REIT：持有护理院与长期护理地产，以 triple-net 净租赁给运营商",
+   "serial": "#1155",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息丰富（2025年报+FAQ+组合数据），纯护理院Triple-net REIT模式稳健但高度依赖运营商偿付能力（2025年租户Genesis破产凸显集中度风险），非剧烈起落。国内护理院重资产持有可参考triple-net结构，但中国REITs/ABS市场与医保支付差异大，纯SNF REIT难直接平移——其“租户风险管控”是核心看点。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端护理报销来自政府Medicare/Medicaid为主+个人自付）",
+   "needs_review": true,
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 4,
+   "copy_score": 5,
+   "research_value": 61.6,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "CareTrust REIT",
+   "region": "海外",
+   "category_l1": "养老地产",
+   "category_l2": "养老地产REIT",
+   "tags": [
+    "养老REIT"
+   ],
+   "description": "专注养老社区与医疗地产的 REIT，纳斯达克代码 CTRE，2014 年从 Ensign Group 分拆，以高出租率与稳健派息著称。",
+   "highlights": [
+    "自管理养老REIT(NASDAQ:CTRE)",
+    "2025收购英国Care REIT出海",
+    "连续10年提高股息"
+   ],
+   "funding_latest": {
+    "round": "上市公司/公开增发",
+    "amount": "7.36亿美元",
+    "currency": "USD",
+    "date": "2025-Q3",
+    "display": "2025 Q3公开募资7.36亿美元",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "持续公开市场融资，市值约95亿美元"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": "2014",
+   "value_score": 60,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=CareTrust%20REIT",
+   "website_url": "https://www.caretrustreit.com",
+   "business_model": "REIT: 持有养老社区/医疗地产并净租赁",
+   "name_cn": "CareTrust REIT",
+   "desc_cn": "专注养老社区与医疗地产的自管理REIT（NASDAQ:CTRE），以低杠杆+Triple-net净租赁+高出租率著称；2014年自The Ensign Group分拆上市，2025年以约8.17亿美元收购英国Care REIT（135处物业）开启出海，连续10年提高股息。",
+   "business_model_cn": "REIT：持有养老社区与医疗地产并净租赁",
+   "serial": "#1156",
+   "tag_l1": [
+    "投资机构"
+   ],
+   "tag_l2": [
+    "养老REIT"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息丰富（年报+投资者演示+英国收购报道），从单租户分拆到多元化+出海的成长型REIT，模式清晰非反共识。国内“运营+地产”分拆REIT可参考其资本架构；但A股无纯养老REIT、出海逻辑难复制——其“轻杠杆+高出租率+多元租户”的资本纪律值得借鉴。",
+   "payor_model": "B端机构付费（Triple-net净租赁，运营商付租金；终端来自政府Medicare/Medicaid+个人自付）",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 4,
+   "copy_score": 6,
+   "research_value": 63.7,
+   "update_time": "2026-07-16"
+  },
+  {
+   "name": "Option Care Health",
+   "region": "海外",
+   "category_l1": "健康服务",
+   "category_l2": "居家输液/药房",
+   "tags": [
+    "药品配送"
+   ],
+   "description": "美国最大独立居家输液与专科药房服务商，纳斯达克代码 OPCH，为慢病与复杂用药患者提供上门输液治疗。",
+   "highlights": [
+    "美国最大独立居家输液服务商",
+    "服务免疫/肿瘤/罕见病等复杂慢病",
+    "并购成长路径"
+   ],
+   "funding_latest": {
+    "round": "上市公司",
+    "amount": "不适用",
+    "currency": "USD",
+    "date": "1984",
+    "display": "上市公司(NASDAQ:OPCH)",
+    "investors": [
+     "公共市场"
+    ]
+   },
+   "funding_total": {
+    "amount": "不适用",
+    "display": "上市公司"
+   },
+   "investors": [
+    "公共市场"
+   ],
+   "founded": 1984,
+   "value_score": 42,
+   "source": "WebSearch: 企业官网/公开财报/融资报道(2025-2026)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Option%20Care%20Health",
+   "website_url": "https://www.optioncarehealth.com",
+   "business_model": "B2B2C 居家输液/专科药房，按疗程与药品毛利获利",
+   "name_cn": "Option Care 健康",
+   "desc_cn": "美国最大独立居家输液(infusion)与专业药物管理服务商（NASDAQ:OPCH），为复杂慢病（免疫、肿瘤、罕见病）患者提供居家/门诊输液；1984年成立，通过并购成长为赛道龙头。",
+   "business_model_cn": "B2B2C 居家输液与专科药房，按疗程与药品毛利获利",
+   "serial": "#1158",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "药品配送"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "已上市",
+   "recommend": "信息丰富（上市公司财报+行业媒体），居家输液模式稳健、顺常识，反共识性低。中国居家护理/输液（京东健康上门、民营护理站）有同类但支付以医保/个人为主、上门服务标准化弱——其“药师驱动+冷链药品+居家场景”的运营体系可对标，尤其适合老龄化下居家医疗趋势。",
+   "payor_model": "混合（医保/商业保险报销为主，个人自付为辅；B端机构合作）",
+   "signal_strength": 6.55,
+   "info_score": 8,
+   "diff_score": 3,
+   "copy_score": 5,
+   "research_value": 59.6,
+   "update_time": "2026-07-16"
+  }
+ ]
+}

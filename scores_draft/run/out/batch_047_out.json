@@ -1,0 +1,673 @@
+{
+  "batch": 47,
+  "enterprises": [
+    {
+      "serial": "#0306",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 5,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（百年鞋业+适老健步鞋）；差异在老字号+健步鞋。国内银发鞋服可学其老品牌延展适老鞋款打法。",
+        "rec_v2": "冷门鞋企，披露偏少。亮点是1899老字号+浙江老字号，创业者可抄其用品牌资产做银发健步鞋的轻延伸路径。",
+        "rec_v3": "信号低、信息中等；差异在适老健步鞋款。复制性中，国内可仿其传统鞋企+适老功能做银发鞋服的微创新。",
+        "info_score": 5,
+        "diff_score": 3,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "百年鞋业+适老健步鞋",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "老人头尚品旗下百年鞋业品牌（1899年创立于上海）",
+        "浙江老字号，主营皮鞋与休闲鞋",
+        "近年推出适老健步鞋款"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "适老健步鞋服务老年人群"
+    },
+    {
+      "serial": "#0307",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 47.7,
+      "recommend": {
+        "rec_v1": "信号弱但有社企模式；信息中等（365天上门+时间银行）。差异在助餐配药陪诊一体+时间银行，国内可抄其社区助老模型。",
+        "rec_v2": "冷门社会企业，披露有料。亮点是多街道居家上门+志愿体系，创业者可学其用时间银行降低助老人力成本的打法。",
+        "rec_v3": "信号低、信息中等；差异在互联网+养老社企。复制性高，国内可仿其助餐/陪诊/护理一站式街道切入路径。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 47.7
+      },
+      "payor_model": "政府买单（助老项目）+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "社区居家养老上门服务社企",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "上海老友记（合勇信息/智慧助老服务中心）互联网+养老社企",
+        "为街道老人提供365天助餐、配药、陪诊、上门护理",
+        "运营时间银行志愿体系"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "社区居家上门助老服务"
+    },
+    {
+      "serial": "#0308",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱但有官方背景；信息中等（全国老年就业平台）。差异在一网一库一平台再就业，国内可学其银发人才匹配模型。",
+        "rec_v2": "冷门公益平台，披露一般。亮点是老龄协会主办+求职招聘，创业者可抄其做银发再就业信息服务的轻平台打法。",
+        "rec_v3": "信号低、信息中等；差异在老年人才信息库。复制性中（需公信力），国内可学其平台+培训做银发就业的路径。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "B端机构采购+个人免费",
+      "business_tags_role": "平台",
+      "desc_cn": "全国老年人才就业平台",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中国老年人才网由中国老龄协会老年人才信息中心主办",
+        "全国老年人才信息服务平台（一网一库一平台）",
+        "为老年人再就业提供求职招聘、职业介绍与培训指导"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年人才再就业服务平台"
+    },
+    {
+      "serial": "#0309",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 5,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（300+健康店+中医管理）；保健食品常规。差异在中医+健康管理连锁，国内可学其社区银发营养店打法。",
+        "rec_v2": "冷门保健品牌，披露偏少。亮点是全国300余家店面，创业者可抄其用社区膳食营养连锁做银发复购的模型。",
+        "rec_v3": "信号低、信息中等；差异在保健食品+社区店。复制性中，国内可仿其中医背书+门店做银发健康管理的路径。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "中老年保健食品连锁",
+      "founded": 2002,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "济南老来寿生物集团2002年创立",
+        "主打中老年保健食品（软胶囊、氨糖葛钙、鱼油银杏叶）",
+        "全国300余家健康服务店面，结合中医+健康管理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年保健食品服务银发群体"
+    },
+    {
+      "serial": "#0310",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱但有映客背书；信息中等（中老年直播社交）。差异在降低直播门槛的银发社交，国内可学其一键直播+连麦打法。",
+        "rec_v2": "冷门直播平台，披露一般。亮点是同龄圈子+虚拟礼物，创业者可抄其用直播做银发社交娱乐的互动模型。",
+        "rec_v3": "信号低、信息中等；差异在中老年直播社交。复制性中，国内可仿其低门槛直播+礼物做银发文娱的路径。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+虚拟礼物/B端",
+      "business_tags_role": "平台",
+      "desc_cn": "中老年直播社交娱乐平台",
+      "founded": 2017,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "北京老柚多汁（映客孵化）的中老年直播社交娱乐平台",
+        "主打同龄圈子、一键直播、K歌、多人连麦、虚拟礼物",
+        "降低老年人直播门槛"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年直播社交娱乐平台"
+    },
+    {
+      "serial": "#0311",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 5,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（中华老字号+适老健步鞋）；差异在手工布鞋+银发鞋服。国内可学其老字号做适老鞋延展打法。",
+        "rec_v2": "冷门鞋服老字号，披露偏少。亮点是1911创号+手工布鞋，创业者可抄其用老字号资产做银发鞋服的轻延伸路径。",
+        "rec_v3": "信号低、信息中等；差异在适老健步鞋款。复制性中，国内可仿其传统布鞋+适老功能做银发鞋服微创新。",
+        "info_score": 5,
+        "diff_score": 3,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "老字号布鞋+银发鞋服",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "天津老美華鞋业服饰，始创于1911年的中华老字号",
+        "以手工布鞋、传统中式鞋服著称",
+        "近年推出适老健步鞋与银发鞋服产品线"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "适老健步鞋与银发鞋服"
+    },
+    {
+      "serial": "#0312",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 45.7,
+      "recommend": {
+        "rec_v1": "信号弱但有大厂客户；信息中等（服务腾讯阿里+标准制定）。差异在信息无障碍适老化改造，国内可学其B端适老改造打法。",
+        "rec_v2": "冷门社会企业，披露有料。亮点是100+产品适老改造+国标参与，创业者可抄其接大厂订单+定标准的适老服务模型。",
+        "rec_v3": "信号低、信息中等；差异在信息无障碍+适老化。复制性中，国内可仿其技术适老+标准话语权做B端服务的路径。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 45.7
+      },
+      "payor_model": "B端机构采购（大厂/政府）",
+      "business_tags_role": "服务商",
+      "desc_cn": "信息无障碍适老化改造服务商",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "为腾讯、阿里、华为等100+款产品提供信息无障碍与适老化改造",
+        "参与多项国家/行业无障碍标准制定",
+        "推动残障者融合就业的社会企业"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "信息无障碍适老化改造服务"
+    },
+    {
+      "serial": "#0313",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 2,
+      "copy_score": 3,
+      "research_value": 26.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（3亿家庭+全媒体零售）；实为电视购物非银发。差异在多渠道零售，对银发创业者借鉴低，难直接套用。",
+        "rec_v2": "冷门零售平台，披露一般。亮点是电视+App+大屏全域，但非专攻老人，银发可学有限，建议不作养老案例。",
+        "rec_v3": "信号低、信息中等；差异在通用全媒体零售无银发聚焦。与银发关联薄，复制性无意义，仅作银发渠道背景参考。",
+        "info_score": 5,
+        "diff_score": 2,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 26.6
+      },
+      "payor_model": "个人自费+广告",
+      "business_tags_role": "平台",
+      "desc_cn": "全媒体电视购物零售平台",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "聚鲨环球精选（原环球购物）全媒体零售/电视购物平台",
+        "通过电视频道、电商App、智能大屏、微信社群等渠道",
+        "覆盖全球约3亿家庭，进口品牌占比超60%，收购中东北非CITRUSS"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "全媒体电视购物零售，非专门面向银发"
+    },
+    {
+      "serial": "#0314",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 2,
+      "copy_score": 2,
+      "research_value": 21.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等（美国运动营养品牌）；面向健身人群非银发。差异在乳清蛋白补剂，对银发借鉴低，不建议深研。",
+        "rec_v2": "冷门补剂品牌，披露偏少。亮点是美国#1运动营养，但客群为健身者，银发关联弱，可学有限。",
+        "rec_v3": "信号低、信息中等；差异在标准运动营养补剂无银发定位。与银发无关，复制性无意义，仅作营养品背景参考。",
+        "info_score": 4,
+        "diff_score": 2,
+        "copy_score": 2,
+        "signal_strength": 0.55,
+        "research_value": 21.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "美国运动营养补剂品牌",
+      "founded": 1995,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "肌肉科技MuscleTech美国运动营养品牌",
+        "主打乳清蛋白粉、肌酸等补剂，畅销140余国",
+        "号称美国#1运动营养品牌，面向健身人群"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "运动营养面向健身人群，非银发"
+    },
+    {
+      "serial": "#0315",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 6,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "信号弱但有AI定位；信息中等（认知筛查+干预）。差异在AI数字认知评估，国内可学其筛查-训练银发认知打法。",
+        "rec_v2": "冷门AI平台，披露一般。亮点是认知衰退早筛+干预，创业者可抄其用AI做银发认知训练的B端入院模型。",
+        "rec_v3": "信号低、信息中等；差异在AI认知评估训练。复制性中（需临床背书），国内可仿其筛查+干预数字疗法路径。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 42.7
+      },
+      "payor_model": "B端机构采购（医院/政府）+个人自费",
+      "business_tags_role": "技术服务商",
+      "desc_cn": "AI数字认知评估训练平台",
+      "founded": 2012,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "脑动极光NeuraLum数字认知评估与训练平台",
+        "用AI技术为老年人提供认知衰退筛查和干预方案",
+        "聚焦认知训练与认知筛查"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "AI认知筛查训练服务老年人群"
+    },
+    {
+      "serial": "#0316",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但有连锁规模；信息中等（2500网点+听觉康复）。差异在助听器验配直营，国内可学其网点+康复银发听力打法。",
+        "rec_v2": "冷门听力连锁，披露有料。亮点是全国2500家直营，创业者可抄其用密集网点做银发助听器服务的模型。",
+        "rec_v3": "信号低、信息中等；差异在助听器验配连锁。复制性中（专业门槛），国内可仿其直营+听觉康复做银发听力路径。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费（部分医保）",
+      "business_tags_role": "服务商",
+      "desc_cn": "助听器验配连锁龙头",
+      "founded": 1996,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "北京自然之声助听器技术服务有限公司（1996年创立）",
+        "国内助听器验配与听觉康复直营连锁龙头",
+        "全国超2500家直营服务网点"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "助听器验配服务老年听力障碍"
+    },
+    {
+      "serial": "#0317",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但有销售第一；信息中等（中老年羊奶粉全网第一）。差异在分阶银发营养，国内可学其羊奶粉+银发精准打法。",
+        "rec_v2": "冷门乳品品牌，披露有料。亮点是无蔗糖高钙+全网第一，创业者可抄其用分阶营养做银发羊奶粉的细分模型。",
+        "rec_v3": "信号低、信息中等；差异在银发精准羊奶粉。复制性高，国内可仿其功能配方+电商榜首做银发营养品的路径。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "中老年羊奶粉银发营养品牌",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注中老年羊奶粉，依托陕西富平黄金奶源带与自建工厂",
+        "主打无蔗糖高钙、低GI、分阶营养羊奶粉",
+        "连续多年居中老年羊奶粉全网销售额第一"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "中老年羊奶粉银发精准营养"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0306",
+      "name": "老人头",
+      "intro": "百年鞋业+适老健步鞋",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "服装鞋帽"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发服饰",
+          "reason": "推出适老健步鞋，宜补银发服饰标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0307",
+      "name": "老友记",
+      "intro": "社区居家养老上门服务社企",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "陪诊"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0308",
+      "name": "老年人才网",
+      "intro": "全国老年人才就业平台",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "就业"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0309",
+      "name": "老来寿",
+      "intro": "中老年保健食品连锁",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "保健品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0310",
+      "name": "老柚",
+      "intro": "中老年直播社交娱乐平台",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "文娱",
+          "社区"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0311",
+      "name": "老美华",
+      "intro": "老字号布鞋+银发鞋服",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "服装鞋帽"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发服饰",
+          "reason": "推出适老健步鞋与银发鞋服，宜补银发服饰标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0312",
+      "name": "联谛信息",
+      "intro": "信息无障碍适老化改造服务商",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "信息无障碍技术服务商，宜补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0313",
+      "name": "聚鲨环球",
+      "intro": "全媒体电视购物零售平台",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "零售",
+          "电商"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0314",
+      "name": "肌肉科技",
+      "intro": "美国运动营养补剂品牌",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "膳食补充剂"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0315",
+      "name": "脑动极光",
+      "intro": "AI数字认知评估训练平台",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "认知训练",
+          "认知筛查"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "技术服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能科技",
+          "reason": "AI数字认知评估训练，宜补智能科技标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0316",
+      "name": "自然之声",
+      "intro": "助听器验配连锁龙头",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "助听器"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发听力",
+          "reason": "助听器验配服务老年听力障碍，宜补银发听力标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0317",
+      "name": "臻牧",
+      "intro": "中老年羊奶粉银发营养品牌",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "营养食品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发营养",
+          "reason": "定位银发精准营养的中老年羊奶粉，宜补银发营养标签"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0313",
+      "name": "聚鲨环球",
+      "verdict": "非银发",
+      "reason": "全媒体电视购物零售，非专门面向银发"
+    },
+    {
+      "serial": "#0314",
+      "name": "肌肉科技",
+      "verdict": "非银发",
+      "reason": "运动营养面向健身人群，非银发"
+    }
+  ]
+}

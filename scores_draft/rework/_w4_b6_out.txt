@@ -1,0 +1,27 @@
+
+### #0896  PASS
+
+### #0897  PASS
+
+### #0898  PASS
+
+### #0908  FAIL
+   - R-field-dedup:与desc_cn雷同(12字≥10阈值)
+     [>10] desc_cn: …亮点在视觉监测不打扰老人…
+
+### #0961  PASS
+
+### #0963  PASS
+
+### #0967  FAIL
+   - R4:未落到本企业具体事实(无数字/无tag锚点)
+
+### #0981  PASS
+
+### #0983  FAIL
+   - R-field-dedup:与description(英文)雷同(10字≥10阈值)
+     [>10] description(英文): …（Theora360…
+
+### #0984  PASS
+
+==== ALL OK: False ====

@@ -1,0 +1,798 @@
+{
+ "batch": 13,
+ "enterprises": [
+  {
+   "serial": "#0696",
+   "signal_strength": 3.05,
+   "info_score": 8,
+   "diff_score": 8,
+   "copy_score": 6,
+   "research_value": 61.2,
+   "recommend": {
+    "rec_v1": "信号稳、资料扎实（十年迭代+多项专利可查），以主动社交+关系编排引擎破局被动式陪伴属强差异化；其B2G政府分发+订阅模式清晰，国内创业者可学情感+健康双驱动与机构渠道打法。",
+    "rec_v2": "公开信息极丰（媒体深度拆解、用户日均互动30+），不走医疗设备、走消费级+健康辅助是反共识的轻监管路径；国内陪伴硬件常困合规，ElliQ绕开医疗资质、靠B2G补贴扩面值得抄。",
+    "rec_v3": "关注度高但非同质：它把心理学/行为科学嵌入长期关系记忆而非堆功能；可复制点在硬件补贴+订阅盈利的降本结构，及对独居老人痛点的精准锁定，国内银发硬件多缺可持续收费模型，可对照。",
+    "info_score": 8,
+    "diff_score": 8,
+    "copy_score": 6,
+    "signal_strength": 3.05,
+    "research_value": 61.2
+   },
+   "payor_model": "混合（政府老龄署/医疗组织B2G采购+个人订阅；MCO/Medicare支付）",
+   "business_tags_role": "服务商",
+   "desc_cn": "以色列AI老年陪伴机器人ElliQ，主动对话+健康提醒",
+   "founded": 2016,
+   "stage": "融资中",
+   "events": [
+    {
+     "date": "2023-08",
+     "text": "完成25M新融资（Woven Capital领投，含5M债权），推进生成式AI集成"
+    },
+    {
+     "date": "2025",
+     "text": "与日本Kanematsu合作启动日本市场布局"
+    }
+   ],
+   "highlights": [
+    "12项美国专利，关系编排引擎实现长期个性化陪伴",
+    "纽约州800+老人经政府试点使用，95%孤独感下降、日均互动30+",
+    "硬件补贴+订阅盈利，刻意避开医疗设备监管"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "专为老年人设计的主动式AI陪伴机器人，直击独居老人孤独与健康管理。"
+  },
+  {
+   "serial": "#0895",
+   "signal_strength": 3.05,
+   "info_score": 8,
+   "diff_score": 5,
+   "copy_score": 7,
+   "research_value": 57.1,
+   "recommend": {
+    "rec_v1": "信号稳、资料透明（独角兽级融资与多场景落地可查），雷达替代摄像头做无接触跌倒监测是隐私友好的差异化切入点；RFIC+天线阵列壁垒高，B端授权模式可直接平移国内养老机构与智能家居厂。",
+    "rec_v2": "信息充足、技术叙事清晰，4D成像雷达跨汽车/医疗/养老多线，养老只是其一；对国内毫米波雷达厂商而言，可复制的是芯片+方案授权打法，而非单点产品，建议关注其如何用一颗雷达吃透多场景。",
+    "rec_v3": "虽属泛传感赛道，其Care线把非接触监测做到可量产，差异化在自研射频前端而非算法；国内创业者若想切入机构跌倒监测，应学它卖模组不卖终端的B2B边界，避开重资产硬件红海。",
+    "info_score": 8,
+    "diff_score": 5,
+    "copy_score": 7,
+    "signal_strength": 3.05,
+    "research_value": 57.1
+   },
+   "payor_model": "B端机构付费（向OEM、养老机构与智能家居厂商售雷达芯片/模组）",
+   "business_tags_role": "产品商",
+   "desc_cn": "4D成像雷达公司，无摄像头跌倒监测赋能养老",
+   "founded": 2011,
+   "stage": "融资中",
+   "events": [
+    {
+     "date": "2024-10",
+     "text": "完成2500万美元扩展轮"
+    },
+    {
+     "date": "2022-06",
+     "text": "完成108M Series E，估值超1B"
+    }
+   ],
+   "highlights": [
+    "自研RFIC+多天线阵列，4D成像雷达无摄像头、隐私友好",
+    "Vayyar Care养老跌倒/活动监测，2020年在华设全资子公司",
+    "跨汽车/医疗/零售多场景，养老为其中一条线"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "泛医疗擦边",
+   "silver_reason": "底层是通用4D成像雷达半导体公司，养老跌倒监测仅为其多行业应用之一。"
+  },
+  {
+   "serial": "#0977",
+   "signal_strength": 3.05,
+   "info_score": 8,
+   "diff_score": 6,
+   "copy_score": 5,
+   "research_value": 55.2,
+   "recommend": {
+    "rec_v1": "信号稳、成效数据硬（5000万+打卡、住院降51%可查），行为经济学+每日小额激励撬动慢病依从是清晰差异化；其支付锚定美国健康计划，国内医保控费语境下只能学行为设计、难搬支付结构。",
+    "rec_v2": "公开信息丰、临床与财务结果并重，把日常照护激励做成独立品类属反套路；可复制性受限于Medicare/Medicaid支付方，国内慢病管理可借鉴其微小金钱激励+社交式日更的黏性机制。",
+    "rec_v3": "高关注、证据链完整，差异化在每天一次正向触达而非一次性宣教；对国内创业者，价值在把行为科学嵌入医保控费与商保会员运营，而非复制其按效果向健康计划收费的本土难落地模式。",
+    "info_score": 8,
+    "diff_score": 6,
+    "copy_score": 5,
+    "signal_strength": 3.05,
+    "research_value": 55.2
+   },
+   "payor_model": "混合（客户为健康计划，终极支付方为政府Medicare/Medicaid）",
+   "business_tags_role": "服务商",
+   "desc_cn": "行为经济学+财务激励提升慢病用药依从",
+   "founded": 2014,
+   "stage": "成长期",
+   "events": [
+    {
+     "date": "2025-03",
+     "text": "完成36M超额认购C轮（Mercato Partners领投）"
+    }
+   ],
+   "highlights": [
+    "5000万+次每日打卡、平均90%护理计划依从、住院降51%",
+    "服务Medicare Advantage/Medicaid/D-SNP等高风险人群",
+    "获纽约人寿等保险系资本支持，generative AI个性化激励"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "以行为经济学+财务激励服务Medicare/Medicaid高风险老年慢病人群。"
+  },
+  {
+   "serial": "#1331",
+   "signal_strength": 2.8,
+   "info_score": 6,
+   "diff_score": 7,
+   "copy_score": 3,
+   "research_value": 46.4,
+   "recommend": {
+    "rec_v1": "信号一般但技术叙事扎实（多机构资助、靶点机制清晰），自研单抗修复血脑屏障属强差异化神经科学；国内难直接复制管线，神经血管轴抗衰老思路对本土新药立项有镜鉴。",
+    "rec_v2": "信息中等、科学壁垒高，LYS241以管线即产品横扫帕金森/卒中多适应症是反共识打法；可复制性低（药物研发+欧美监管），其靶向血脑屏障的衰老视角，值得国内抗衰老Biotech跟踪。",
+    "rec_v3": "关注度有限却方向稀缺，聚焦tPA-NMDAr轴干预神经退行，区别于堆功能的陪伴/辅具；对国内创业者几乎不可抄（重研发），可作抗衰老脑科学赛道标的，理解资本为何下注神经血管机制。",
+    "info_score": 6,
+    "diff_score": 7,
+    "copy_score": 3,
+    "signal_strength": 2.8,
+    "research_value": 46.4
+   },
+   "payor_model": "研发期未商业化（未来上市后政府医保+商业保险支付）",
+   "business_tags_role": "产品商",
+   "desc_cn": "法国神经退行性疾病Biotech，自研单抗LYS241",
+   "founded": 2021,
+   "stage": "早期",
+   "events": [
+    {
+     "date": "2026-06-22",
+     "text": "宣布累计融资超25M欧元，推进LYS241临床前/监管研究，获Michael J. Fox基金会500万+美元资助"
+    }
+   ],
+   "highlights": [
+    "自研全人源单抗LYS241，靶向tPA-NMDAr轴修复血脑屏障",
+    "获迈克尔·J·福克斯基金会500万+美元资助（帕金森），Bpifrance支持",
+    "管线覆盖帕金森/多系统萎缩/缺血性卒中，拟启动Phase 1a/1b"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "主攻神经退行性疾病/抗衰老脑科学，人群高度老龄化相关。"
+  },
+  {
+   "serial": "#1334",
+   "signal_strength": 2.8,
+   "info_score": 6,
+   "diff_score": 6,
+   "copy_score": 6,
+   "research_value": 50.4,
+   "recommend": {
+    "rec_v1": "信号一般但刚全国上线、信息渐丰，不卖家庭信息、无付费置顶的中立匹配是反套路差异化；其连接家庭与小型养老院的透明模型清晰，国内区域化养老平台可学其运营工具+Listing双端打法。",
+    "rec_v2": "公开信息中等、打法新鲜，专攻18人以下小型照护院这一被大目录忽略的缝隙市场；可复制性高，国内社区嵌入式小微机构正兴起，BedHub的透明评分与机构端SaaS对本土平台有直接参照。",
+    "rec_v3": "关注不高却切中真痛点：家庭找小微机构靠口碑、机构无曝光；其不抽成、靠运营工具变现的边界设定差异化明显，国内创业者应研究它如何用透明信任替代中介抽佣来建立双边网络。",
+    "info_score": 6,
+    "diff_score": 6,
+    "copy_score": 6,
+    "signal_strength": 2.8,
+    "research_value": 50.4
+   },
+   "payor_model": "混合（C端家庭免费，B端机构订阅listing/运营工具）",
+   "business_tags_role": "平台",
+   "desc_cn": "美国家庭-小型养老院匹配平台（无付费置顶）",
+   "founded": "未披露",
+   "stage": "初创",
+   "events": [
+    {
+     "date": "2026-07-07",
+     "text": "BedHub全美上线，连接家庭与小型养老照护院，并提供机构端BedHub Operations运营工具"
+    }
+   ],
+   "highlights": [
+    "2026-07全国上线，连接家庭与18人以下小型养老照护院",
+    "无付费置顶/不卖家庭信息，强调透明与中立",
+    "面向机构提供BedHub Operations运营工具+listing",
+    "创始人具15年小型养老院运营经验"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "帮家庭搜寻优质小型养老照护机构的匹配平台，直接服务银发。"
+  },
+  {
+   "serial": "#0387",
+   "signal_strength": 2.55,
+   "info_score": 6,
+   "diff_score": 5,
+   "copy_score": 6,
+   "research_value": 47.6,
+   "recommend": {
+    "rec_v1": "信号平稳、资料清晰（服务30+险企可查），以API化健康OS把分诊/理赔/保单揉进险企App属稳妥差异化；国内保险科技红海，可抄其白标嵌入险企的轻交付，而非自建流量。",
+    "rec_v2": "信息公开度中上，CareVoiceOS把健康服务做成险企可调用模块，避开直面C端获客；对国内创业者，价值在做险企的水电煤定位与合规边界，复制成本低、适合作为出海对照。",
+    "rec_v3": "关注适中、模式不炫但扎实，差异在只服务保险公司、不做终端品牌的克制；可复制性强，国内健康险正缺这类中立中台，可学其用API把医疗网络与保单体验缝合的集成思路。",
+    "info_score": 6,
+    "diff_score": 5,
+    "copy_score": 6,
+    "signal_strength": 2.55,
+    "research_value": 47.6
+   },
+   "payor_model": "B端保险机构付费（健康险公司采购CareVoiceOS）",
+   "business_tags_role": "服务商",
+   "desc_cn": "上海/香港保险科技，CareVoiceOS赋能险企健康",
+   "founded": 2014,
+   "stage": "成长期",
+   "events": [
+    {
+     "date": "2024-03",
+     "text": "完成1000万美元B轮融资"
+    }
+   ],
+   "highlights": [
+    "CareVoiceOS：API化数字健康操作系统，覆盖分诊/医生查询/保单/理赔",
+    "服务全球30+保险公司，2024-03完成10M B轮",
+    "总部上海/香港，2014年成立"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "保险科技赋能健康险，间接服务银发客群。"
+  },
+  {
+   "serial": "#0479",
+   "signal_strength": 2.55,
+   "info_score": 7,
+   "diff_score": 7,
+   "copy_score": 6,
+   "research_value": 54.7,
+   "recommend": {
+    "rec_v1": "信号稳、报道密集（2.3万预订、秋上市在即可查），仿生机器狗Jennie以真实幼犬交互区隔Paro海豹属强差异；其硬件+情感支持组合清晰，国内宠物机器人可学瞄准认知症的精准定位。",
+    "rec_v2": "信息充足、产品完成度高，把陪伴机器人从功能堆砌做到情感拟真是反共识；可复制在机器宠物替代活体的刚需场景，国内创业者应研究其如何借养老/医疗投资方打通B端与机构采购。",
+    "rec_v3": "关注高、量产在即，差异化在自治仿生+针对3亿认知症人群的痛点锁定；对国内而言，硬件供应链可抄、情感算法难抄，建议重点研究其医疗/养老背景投资方+预售的冷启动路径。",
+    "info_score": 7,
+    "diff_score": 7,
+    "copy_score": 6,
+    "signal_strength": 2.55,
+    "research_value": 54.7
+   },
+   "payor_model": "B端机构+个人自费（机器宠物硬件销售）",
+   "business_tags_role": "产品商",
+   "desc_cn": "加州仿生机器小狗Jennie，陪伴认知症老人",
+   "founded": 2017,
+   "stage": "融资中",
+   "events": [
+    {
+     "date": "2026-06",
+     "text": "完成7M Series A3，推进Jennie量产与2026秋上市"
+    },
+    {
+     "date": "2025-06",
+     "text": "完成6.1M Series A"
+    }
+   ],
+   "highlights": [
+    "仿生机器小狗Jennie，模拟8-10周拉布拉多，服务认知症/孤独老人",
+    "2026-06完成7M A3轮，累计16.5M+，2.3万+预订",
+    "计划2026年秋首发，获养老/医疗背景投资方支持"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "仿生机器小狗专门陪伴痴呆症/认知障碍老人。"
+  },
+  {
+   "serial": "#0500",
+   "signal_strength": 2.55,
+   "info_score": 6,
+   "diff_score": 4,
+   "copy_score": 7,
+   "research_value": 47.6,
+   "recommend": {
+    "rec_v1": "信号平稳、信息中等，家庭照护一站式电商模式清晰但差异化弱（综合电商可替代）；其价值在照护者垂直人群与内容粘性，国内照护用品电商可抄其选品+教育组合，门槛低、易落地。",
+    "rec_v2": "公开信息尚可，Carewell把失禁/康复/营养用品聚成垂直货架，靠规模效应证明赛道；可复制性高，国内创业者应学其用品+照护知识的内容电商打法，而非追逐技术差异化。",
+    "rec_v3": "关注一般、模式常规，差异化仅在聚焦家庭照护者这一被综合平台忽视的群体；对国内最值得抄的是垂直人群+复购的零售逻辑，以及把教育内容当留存钩子的运营手法。",
+    "info_score": 6,
+    "diff_score": 4,
+    "copy_score": 7,
+    "signal_strength": 2.55,
+    "research_value": 47.6
+   },
+   "payor_model": "C端个人自费（家庭照护者购买用品）",
+   "business_tags_role": "平台",
+   "desc_cn": "美国家庭照护用品电商+照护知识平台",
+   "founded": 2015,
+   "stage": "融资中",
+   "events": [
+    {
+     "date": "2023-06",
+     "text": "完成24.7M Series B"
+    }
+   ],
+   "highlights": [
+    "家庭照护一站式电商，覆盖失禁/康复/营养等用品+教育内容",
+    "累计融资54.7M，2023-06完成24.7M B轮",
+    "2015年成立，面向家庭照护者"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "家庭照护者电商+教育平台，服务居家养老场景。"
+  },
+  {
+   "serial": "#0501",
+   "signal_strength": 2.55,
+   "info_score": 7,
+   "diff_score": 6,
+   "copy_score": 6,
+   "research_value": 52.7,
+   "recommend": {
+    "rec_v1": "信号稳、被Best Buy收购公信力强，居家生命体征监测+零售渠道分发是设备即服务的差异化整合；国内远程监测多困于医院采购，可学其借零售巨头触达居家老人的前置入口打法。",
+    "rec_v2": "信息丰、退出路径清晰，把RPM做成可被消费电子巨头吞并的资产，反向证明居家监测的入口价值；可复制在硬件+AI预警组合，国内创业者应研究其如何把临床监测降维成消费级健康管理。",
+    "rec_v3": "关注适中、叙事完整，差异在不单卖设备、卖居家连续数据；对国内而言，Best Buy式零售分发难照搬，但监测即保险/服务入口的定位值得抄，尤其适配国内居家养老政府购买场景。",
+    "info_score": 7,
+    "diff_score": 6,
+    "copy_score": 6,
+    "signal_strength": 2.55,
+    "research_value": 52.7
+   },
+   "payor_model": "B端医疗机构/支付方+个人（居家监测方案）",
+   "business_tags_role": "平台",
+   "desc_cn": "居家生命体征监测平台，2021被Best Buy收购",
+   "founded": 2015,
+   "stage": "被收购",
+   "events": [
+    {
+     "date": "2021",
+     "text": "被Best Buy以约400M美元收购，纳入零售健康体系"
+    }
+   ],
+   "highlights": [
+    "居家生命体征监测（可穿戴+AI），覆盖慢病/术后/老年居家",
+    "2021年被Best Buy以400M美元收购，整合进零售健康生态",
+    "累计融资79.1M，2015年成立"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "居家生命体征监测直接服务老年慢病与居家照护。"
+  },
+  {
+   "serial": "#0511",
+   "signal_strength": 2.55,
+   "info_score": 5,
+   "diff_score": 5,
+   "copy_score": 5,
+   "research_value": 42.6,
+   "recommend": {
+    "rec_v1": "信号一般、信息中等，数字遗产信托把遗嘱+信托+账号管理合一属清晰差异化；其切身后事务这一被忽视的银发金融缝隙，国内遗嘱/继承服务可抄其数字化整合，但账户托管合规需本土化。",
+    "rec_v2": "公开信息有限但方向新鲜，把遗产规划做成自助式数字平台，避开传统律所高门槛；可复制性中等，国内银发财产/数字资产继承刚起步，可学其用轻量流程降低决策阻力、做家庭入口。",
+    "rec_v3": "关注不高却踩中老龄化痛点：老人数字资产与身后安排无处安放；差异化在一站式托管而非单点公证，国内创业者应研究其如何把情感刚需转成可付费的订阅产品，而非只做工具。",
+    "info_score": 5,
+    "diff_score": 5,
+    "copy_score": 5,
+    "signal_strength": 2.55,
+    "research_value": 42.6
+   },
+   "payor_model": "个人自费（遗嘱/信托服务）+B端顾问合作",
+   "business_tags_role": "平台",
+   "desc_cn": "数字遗产与遗嘱信托平台，整合遗嘱+信托",
+   "founded": 2020,
+   "stage": "融资中",
+   "events": [
+    {
+     "date": "2021",
+     "text": "完成500万Seed轮"
+    }
+   ],
+   "highlights": [
+    "数字遗产信托：遗嘱+信托+账号管理一站式",
+    "2021年Seed 500万，2020年成立",
+    "面向家庭的数字资产继承与身后事务规划"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "遗产规划/数字资产继承属银发金融范畴。"
+  },
+  {
+   "serial": "#0598",
+   "signal_strength": 2.55,
+   "info_score": 6,
+   "diff_score": 5,
+   "copy_score": 3,
+   "research_value": 41.6,
+   "recommend": {
+    "rec_v1": "信号平稳、近期融资背书强，自动化401(k)平台把退休金管理做成中小企业SaaS属稳妥差异；但其根植美国养老金税制，国内个人养老金体系不同，只能学低门槛自动化交互，难搬底层结构。",
+    "rec_v2": "信息中等、模式清晰，401GO用全托管降低中小企业设退休账户门槛，反共识在不做C端理财、只做B端基建；可复制性受限于中美养老第三支柱差异，国内可借鉴其雇主端渗透逻辑。",
+    "rec_v3": "关注适中、定位精准，差异在新一代退休解决方案的嵌入式体验；对国内创业者几乎不可抄（制度依赖），但可作养老金融科技对标，理解美国如何用SaaS把雇主退休计划规模化。",
+    "info_score": 6,
+    "diff_score": 5,
+    "copy_score": 3,
+    "signal_strength": 2.55,
+    "research_value": 41.6
+   },
+   "payor_model": "B端中小企业付费（401k管理SaaS）+员工缴费",
+   "business_tags_role": "技术服务商",
+   "desc_cn": "美国中小企业自动化401(k)退休金管理平台",
+   "founded": 2020,
+   "stage": "成长期",
+   "events": [
+    {
+     "date": "2025-12-09",
+     "text": "完成33M Series B（Centana Growth Partners领投）"
+    }
+   ],
+   "highlights": [
+    "自动化401(k)退休金平台，服务5000+企业",
+    "2025-12完成33M B轮（Centana领投），累计45M+",
+    "2020年成立，定位新一代退休解决方案"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "美国退休金（401k）自动化管理，属养老金融。"
+  },
+  {
+   "serial": "#0604",
+   "signal_strength": 2.55,
+   "info_score": 5,
+   "diff_score": 4,
+   "copy_score": 7,
+   "research_value": 44.6,
+   "recommend": {
+    "rec_v1": "信号平稳、信息中等，智能药盒Karie管多药老人依从，模式清晰但差异化弱（同类多）；其价值在硬件+提醒的极简切入，国内智能药盒红海，可抄其面向多药慢病老人的产品聚焦与机构渠道。",
+    "rec_v2": "公开信息有限，AceAge把用药管理做成单一硬件而非App，降低老人使用门槛；可复制性高，国内创业者应学其少而准的硬件定位与通过药房/长护机构分发，而非堆功能做平台。",
+    "rec_v3": "关注一般、产品常规，差异仅在管理3种以上药物的细分场景；对国内最值得抄的是轻量硬件+B2B机构采购的落地路径，以及把用药依从当照护入口、而非孤立卖设备的思路。",
+    "info_score": 5,
+    "diff_score": 4,
+    "copy_score": 7,
+    "signal_strength": 2.55,
+    "research_value": 44.6
+   },
+   "payor_model": "B端机构采购+个人自费（智能药盒硬件）",
+   "business_tags_role": "产品商",
+   "desc_cn": "加拿大智能药盒Karie，管理多药老人用药",
+   "founded": 2017,
+   "stage": "成长期",
+   "events": [
+    {
+     "date": "2020",
+     "text": "完成A轮500万元"
+    }
+   ],
+   "highlights": [
+    "智能药盒Karie，管理3种以上药物、提升用药依从",
+    "2017年成立（加拿大），累计3.9M，A轮500万元(2020)",
+    "面向多药慢病老人"
+   ],
+   "update_time": "2026-07-17",
+   "silver_verdict": "核心银发",
+   "silver_reason": "智能药盒管理多药老人用药，属用药照护。"
+  }
+ ],
+ "tag_review": [
+  {
+   "serial": "#0696",
+   "name": "ElliQ",
+   "intro": "以色列Intuition Robotics出品的AI老年陪伴机器人，主动对话+健康提醒，B2G+B2C。",
+   "old_tags": {
+    "tag_l1": [
+     "文娱社交"
+    ],
+    "tag_l2": [
+     "陪伴机器人",
+     "陪伴服务"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0895",
+   "name": "Vayyar",
+   "intro": "以色列4D成像雷达公司，无摄像头非接触式跌倒/活动监测，B端授权给OEM与养老机构。",
+   "old_tags": {
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "智能家居"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "智能家居→智能硬件",
+     "reason": "Vayyar底层是4D成像雷达半导体，智能家居只是应用之一，智能硬件更贴其产品属性"
+    },
+    {
+     "action": "change",
+     "tag": "服务商(媒体/数据)→产品商",
+     "reason": "实质是卖雷达芯片/模组的硬件产品公司，非媒体/数据服务商"
+    }
+   ]
+  },
+  {
+   "serial": "#0977",
+   "name": "Wellth",
+   "intro": "美国数字健康公司，用行为经济学+财务激励提升慢病用药依从，服务Medicare/Medicaid。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "用药提醒"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "康复辅具→健康服务",
+     "reason": "Wellth是数字健康/慢病管理软件，非康复辅具"
+    },
+    {
+     "action": "change",
+     "tag": "用药提醒→慢病管理",
+     "reason": "其核心是行为激励提升整体照护计划依从，远超用药提醒单一动作"
+    }
+   ]
+  },
+  {
+   "serial": "#1331",
+   "name": "Lys Therapeutics",
+   "intro": "法国神经科学Biotech，自研单抗LYS241靶向tPA-NMDAr轴，攻关帕金森等神经退行性疾病。",
+   "old_tags": {
+    "tag_l1": [
+     "食品营养"
+    ],
+    "tag_l2": [
+     "保健品"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "食品营养→医疗健康",
+     "reason": "LYS241是处方级单克隆抗体药物，与食品营养无关"
+    },
+    {
+     "action": "change",
+     "tag": "保健品→神经/抗衰老",
+     "reason": "公司主攻神经退行性疾病/抗衰老脑科学，保健品严重错标"
+    },
+    {
+     "action": "change",
+     "tag": "服务商(媒体/数据)→产品商",
+     "reason": "实质是Biotech产品公司，自研药物管线"
+    }
+   ]
+  },
+  {
+   "serial": "#1334",
+   "name": "BedHub",
+   "intro": "美国家庭-小型养老照护院匹配平台，无付费置顶、强调透明中立，机构端配运营工具。",
+   "old_tags": {
+    "tag_l1": [
+     "消费品"
+    ],
+    "tag_l2": [
+     "智能家居"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "消费品→养老服务",
+     "reason": "业务是养老照护机构搜索匹配，非消费品"
+    },
+    {
+     "action": "change",
+     "tag": "智能家居→养老运营",
+     "reason": "做的是机构检索/运营匹配，与智能家居无关；建议养老运营或机构搜索"
+    },
+    {
+     "action": "change",
+     "tag": "服务商(媒体/数据)→平台",
+     "reason": "连接家庭与机构的双边匹配平台"
+    }
+   ]
+  },
+  {
+   "serial": "#0387",
+   "name": "CareVoice",
+   "intro": "上海/香港保险科技，CareVoiceOS以API化数字健康OS赋能健康险公司。",
+   "old_tags": {
+    "tag_l1": [
+     "金融保险"
+    ],
+    "tag_l2": [
+     "保险科技"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0479",
+   "name": "Tombot",
+   "intro": "加州机器人公司，仿生机器小狗Jennie陪伴痴呆症/认知障碍老人。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "机器人"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "康复辅具→文娱社交",
+     "reason": "Jennie是情感陪伴机器人，非康复辅具；文娱社交或智能硬件更贴切"
+    },
+    {
+     "action": "change",
+     "tag": "机器人→陪伴机器人",
+     "reason": "应细化到陪伴机器人以体现痴呆陪伴定位"
+    },
+    {
+     "action": "change",
+     "tag": "服务商→产品商",
+     "reason": "自研并销售硬件机器人，属产品商"
+    }
+   ]
+  },
+  {
+   "serial": "#0500",
+   "name": "Carewell",
+   "intro": "美国家庭照护者电商+教育平台，覆盖失禁/康复/营养等用品。",
+   "old_tags": {
+    "tag_l1": [
+     "行业服务",
+     "消费品"
+    ],
+    "tag_l2": [
+     "养老信息平台",
+     "电商"
+    ],
+    "business_tags": {
+     "customer": "B2C",
+     "role": "服务商",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "养老信息平台→银发零售",
+     "reason": "Carewell是照护用品电商而非信息平台；规则库已将此类归银发零售"
+    },
+    {
+     "action": "change",
+     "tag": "服务商→平台",
+     "reason": "B2C电商零售平台"
+    }
+   ]
+  },
+  {
+   "serial": "#0501",
+   "name": "Current Health",
+   "intro": "居家生命体征监测平台，2021年被Best Buy收购。",
+   "old_tags": {
+    "tag_l1": [
+     "养老服务"
+    ],
+    "tag_l2": [
+     "远程护理"
+    ],
+    "business_tags": {
+     "customer": "B2B+B2C",
+     "role": "平台",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0511",
+   "name": "GoodTrust",
+   "intro": "数字遗产与遗嘱信托平台，整合遗嘱+信托+账号管理。",
+   "old_tags": {
+    "tag_l1": [
+     "金融保险"
+    ],
+    "tag_l2": [
+     "遗产规划"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "服务商(媒体/数据)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "服务商(媒体/数据)→平台",
+     "reason": "是面向家庭的数字化遗产规划平台，非媒体/数据服务商"
+    }
+   ]
+  },
+  {
+   "serial": "#0598",
+   "name": "401GO",
+   "intro": "美国中小企业自动化401(k)退休金管理平台。",
+   "old_tags": {
+    "tag_l1": [
+     "金融保险"
+    ],
+    "tag_l2": [
+     "金融理财"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "技术服务商",
+     "channel": []
+    }
+   },
+   "suggested": []
+  },
+  {
+   "serial": "#0604",
+   "name": "AceAge",
+   "intro": "加拿大智能药盒Karie，管理多药老人用药依从。",
+   "old_tags": {
+    "tag_l1": [
+     "康复辅具"
+    ],
+    "tag_l2": [
+     "智能药盒",
+     "用药提醒",
+     "用药管理"
+    ],
+    "business_tags": {
+     "customer": "B2B",
+     "role": "制造商(药)",
+     "channel": []
+    }
+   },
+   "suggested": [
+    {
+     "action": "change",
+     "tag": "制造商(药)→产品商",
+     "reason": "AceAge是硬件（智能药盒）制造商，并非制药企业"
+    }
+   ]
+  }
+ ],
+ "nonsilver": [
+  {
+   "serial": "#0895",
+   "name": "Vayyar",
+   "verdict": "泛医疗擦边",
+   "reason": "底层是通用4D成像雷达半导体公司，养老跌倒监测仅为其汽车/医疗/零售多行业应用之一，非老年专属业务。"
+  }
+ ]
+}

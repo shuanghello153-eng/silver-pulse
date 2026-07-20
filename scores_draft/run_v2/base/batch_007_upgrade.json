@@ -1,0 +1,482 @@
+[
+ {
+  "serial": "#0919",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2022,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构采购（企业/运动队/高校的员工健康检测与数据订阅）",
+  "desc_cn": "面向企业的员工健康检测与数据订阅服务商",
+  "recommend": "信号中等（企业健康检测受海湾资本青睐但信息不透明），差异化在把体检做成面向企业的员工健康订阅；可复制性高——国内企业健康管理与险企员工福利场景可直接借鉴其'打包检测+数据'路径，但需跨过医疗资质与数据合规门槛。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "英国B2B科学健康检测商，为企业员工建全面健康项目并提供实验室结果",
+   "客户含企业、职业运动队与高校；2023年完成4.83亿英镑私募股权融资",
+   "2024年推出体育部门(Sports Division)并建成新实验室"
+  ],
+  "events": [
+   {
+    "date": "2023",
+    "text": "完成4.83亿英镑私募股权融资，SHUAA Capital领投"
+   },
+   {
+    "date": "2024",
+    "text": "推出体育部门并建成运营新实验室"
+   }
+  ],
+  "signal_strength": 5.55,
+  "info_score": 4.0,
+  "diff_score": 5.0,
+  "copy_score": 5.0,
+  "research_value": 48.7,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "面向企业员工的科学健康检测与运动/高校 wellness，非老年专属；属预防健康检测，与银发早筛相邻但非核心银发",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#1197",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2020,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "商业保险(太保系)+个人会员年费（保险系背景的管理式医疗）",
+  "desc_cn": "保险系家庭医生式慢病管理平台",
+  "recommend": "信号强（保险巨头与头部基金持续加注），信息量足；差异化在背靠保险资源做'家庭医生+管理式医疗'闭环而非流量打法，可复制性受国内商保支付能力弱、医药险变现难制约——最该学的是'险企自有流量+会员制家医'的轻资产切入。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "中国太保旗下，红杉中国参投；2024年完成9.2亿元战略轮融资",
+   "三大板块：医疗服务、健康管理、健康商城，会员制一人签约全家共享",
+   "以保险为支付方提供增值服务，并探索与药企融合的带病体保险"
+  ],
+  "events": [
+   {
+    "date": "2021",
+    "text": "品牌发布，定位一站式家医与管理式医疗平台"
+   },
+   {
+    "date": "2024",
+    "text": "完成9.2亿元战略轮融资，中国太保与红杉中国追加投资"
+   }
+  ],
+  "signal_strength": 5.55,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 7.0,
+  "research_value": 60.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "家庭医生+管理式医疗主打慢病与老年健康管理，模式与银发人群高度契合",
+  "website_url": null,
+  "business_tags_role": "平台"
+ },
+ {
+  "serial": "#1310",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "种子期",
+  "founded": 2020,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构采购（医院/诊所AI影像SaaS订阅）",
+  "desc_cn": "AI影像早筛老年骨松与心衰的SaaS",
+  "recommend": "信号中等但技术硬（多国器械认证），信息量中；差异化在用既有X光/超声做老年骨松与心衰低速早筛、以低价SaaS下沉基层，可复制性强——国内基层'老年疾病影像早筛'与设备厂商增值合作可直接对标，注意CFDA认证周期。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "DeepXray用X光精准量测骨密度、分级骨关节炎；DeepSono用超声测心功能",
+   "获美国FDA、台湾TFDA、日本PMDA、越南MoH等Class II认证",
+   "低价授权+月度SaaS订阅，已部署台湾与越南50+诊所医院"
+  ],
+  "events": [
+   {
+    "date": "2025",
+    "text": "DeepXray/DeepSono获多国认证并部署台越50+机构"
+   },
+   {
+    "date": "2025-08",
+    "text": "与越南大安综合医院签署AI精准医疗MOU"
+   }
+  ],
+  "signal_strength": 5.55,
+  "info_score": 5.0,
+  "diff_score": 8.0,
+  "copy_score": 8.0,
+  "research_value": 63.7,
+  "silver_verdict": "核心银发",
+  "silver_reason": "用AI对老年骨质疏松/心血管等慢病早筛，目标人群明确为老年人",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#1317",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 1995,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构订阅（养老机构/护理院SaaS+AI模块）",
+  "desc_cn": "长期照护机构云端EHR与AI SaaS",
+  "recommend": "信号强、信息量大（覆盖数千家机构与主流支付方），差异化在把长期照护数据网络做成AI工作流（风险预警/转诊/计费），可复制性受国内养老机构信息化低、付费意愿弱制约——值得学的是'以EHR为底座+AI降本增效'的养老SaaS产品化路径。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "北美长期照护与急性期后护理头部EHR/SaaS，连接3万+机构与各大健康计划",
+   "2026年推出AI-native Advisor Suite（Chart/Referral/Billing/MDS Advisor）",
+   "连续7年获Best in KLAS，并将Chart Advisor扩展至senior living养老社区"
+  ],
+  "events": [
+   {
+    "date": "2026-05",
+    "text": "Chart Advisor扩展至senior living养老社区场景"
+   },
+   {
+    "date": "2026-06",
+    "text": "发布AI-native Advisor Suite（计费/转诊/MDS顾问）"
+   }
+  ],
+  "signal_strength": 5.55,
+  "info_score": 7.0,
+  "diff_score": 6.0,
+  "copy_score": 8.0,
+  "research_value": 65.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "长期照护与急性期后护理机构SaaS，直接服务养老/护理场景",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0791",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2017,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(Medicare/MA)+商业保险+个人自付（按价值医疗合同收费）",
+  "desc_cn": "价值导向的居家慢病多学科护理商",
+  "recommend": "信号强、信息披露充分（覆盖多州、与头部健康计划按价值医疗合作），差异化在把居家多学科护理与支付方风险合同深度绑定，可复制性受国内按价值付费机制缺失制约——最该学的是'险企/健康计划合资+居家护士团队'的慢病管理落地模式。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "价值导向的多专科居家护理，主攻慢性肾病等老年多发病",
+   "2025年与Humana扩至5州、与Memorial Hermann合资，覆盖36州20万+患者",
+   "投资人含TPG、CVS、Cigna、Humana等，2023年收入近22亿美元"
+  ],
+  "events": [
+   {
+    "date": "2025-02",
+    "text": "与Humana扩大综合肾脏护理至乔治亚等5州"
+   },
+   {
+    "date": "2025-03",
+    "text": "与Memorial Hermann合资，覆盖36州20万+患者"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 8.0,
+  "diff_score": 7.0,
+  "copy_score": 5.0,
+  "research_value": 63.2,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专注Medicare Advantage慢病居家护理，用户以老年多发病群体为主",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0853",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2018,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "商业保险/雇主福利（雇主赞助险；会员Visa福利卡直付并按节省分润）",
+  "desc_cn": "去网络透明定价的健康险运营商",
+  "recommend": "信号中等、信息披露较充分（模式与定价公开可查），差异化极强：'去网络+透明定价+会员按节省分润'颠覆传统HMO/PPO；可复制性低，因国内商保以社保补充与基础医疗险为主、雇主直付福利不成熟——其'透明定价+分润'机制值得国内健康险产品借鉴。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "透明定价+无网络限制健康险，会员持Visa福利卡按协商价直付",
+   "会员按节省金额分润，2021年成独角兽，覆盖44+州",
+   "2024年完成1.65亿美元D轮，Koch Disruptive Technologies领投"
+  ],
+  "events": [
+   {
+    "date": "2024-06",
+    "text": "完成1.65亿美元D轮，Koch Disruptive Technologies领投"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 7.0,
+  "diff_score": 8.0,
+  "copy_score": 3.0,
+  "research_value": 58.1,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "透明定价健康险面向雇主与在职员工，非老年专属；属健康险赛道，与银发支付方相邻但非核心银发",
+  "website_url": null,
+  "business_tags_role": "运营商"
+ },
+ {
+  "serial": "#0872",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2018,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "混合（商业保险+政府Medicare/MA，价值医疗风险合同）",
+  "desc_cn": "价值导向的肾脏慢病全旅程护理商",
+  "recommend": "信号强、临床与财务数据透明（总医疗成本降20%、住院降41%），差异化在价值导向肾脏护理全流程管理，反共识性低；可复制性受国内按价值付费环境缺失制约——重点学其'风险分层+现场护理团队'绑定支付方分成的肾病管理模式。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "价值导向(value-based)肾脏护理全国领导者，CKD→ESKD全旅程干预",
+   "2025年完成5.5亿美元D轮（3亿股权+2.5亿债务），估值18亿美元",
+   "管理近50亿美元年医疗支出、服务14.5万+患者，临床降本显著"
+  ],
+  "events": [
+   {
+    "date": "2025-09",
+    "text": "完成5.5亿美元D轮，估值18亿美元"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 8.0,
+  "diff_score": 4.0,
+  "copy_score": 4.0,
+  "research_value": 55.1,
+  "silver_verdict": "核心银发",
+  "silver_reason": "价值导向肾脏护理服务CKD→ESKD全旅程，肾病群体以老年人为主",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0915",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2018,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构付费（健康计划/药企/零售商按平台与接诊量计费）",
+  "desc_cn": "可白标嵌入的虚拟医疗基建服务商",
+  "recommend": "信号中等、信息量中；差异化在把虚拟医疗能力做成白标/API可嵌入各类产品的底层基建（含医生网络与用药履约），可复制性强——国内险企、药店、药企做DTC远程问诊时可直接借鉴其'基础设施即服务'定位，避免重资产自建。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "虚拟医疗基础设施：白标/API接入+全美50州医生网络+临床运营",
+   "2024年发布Horizon平台，2025年整合Amazon Pharmacy用药履约",
+   "覆盖70+病种，日均4000+次问诊，获2025 Fierce 15虚拟医疗奖"
+  ],
+  "events": [
+   {
+    "date": "2025-06",
+    "text": "发布Horizon平台并与Amazon Pharmacy整合用药履约"
+   },
+   {
+    "date": "2025",
+    "text": "获Fierce Healthcare 'Fierce 15'虚拟医疗奖"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 6.0,
+  "diff_score": 7.0,
+  "copy_score": 6.0,
+  "research_value": 59.1,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "虚拟医疗基础设施面向各类企业提供远程问诊能力，非老年专属；远程医疗与银发照护相邻但非核心银发",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0964",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2012,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构采购（医院植入设备）；远期或由医保/商保覆盖，尚未商业上市",
+  "desc_cn": "免开颅微创脑机接口植入器械商",
+  "recommend": "信号与信息量极强（密集临床与资本报道），差异化在免开颅血管内脑机接口这一稀缺前沿路线；可复制性低，国内微创血管内路线与支付路径均未成熟——值得作为'脑机接口临床转化+支付方演进'的硬核参照，远期可切入衰老相关功能衰退。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "血管内微创脑机接口Stentrode，经颈静脉植入运动皮层，免开颅",
+   "2025年首例意念控制iPad(ALS患者)，并完成2亿美元D轮",
+   "投资方含ARCH、Khosla、Bezos Expeditions、QIA等"
+  ],
+  "events": [
+   {
+    "date": "2025-08",
+    "text": "全球首例通过Apple BCI协议意念控制iPad(ALS患者)"
+   },
+   {
+    "date": "2025-11",
+    "text": "完成2亿美元D轮融资"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 9.0,
+  "diff_score": 9.0,
+  "copy_score": 4.0,
+  "research_value": 68.1,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "当前产品为瘫痪/ALS患者的微创脑机接口，非老年专属；公司明确将扩展至衰老相关认知与功能衰退，属泛医疗神经科技",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#0969",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "C轮",
+  "founded": 2023,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构付费（向医疗系统、健康计划/支付方、药企收SaaS与使用费）",
+  "desc_cn": "安全优先的医疗生成式AI代理商",
+  "recommend": "信号与信息量强（15个月商业化、千余用例），差异化在'安全优先、不诊断'的低风险患者服务AI代理；可复制性中等，国内大模型客服受医疗合规与支付方差异制约——其'合规边界设计+医疗系统/支付方SaaS'的商业化速度最值得拆解。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "安全优先的医疗生成式AI代理，执行随访/预约/用药提醒不诊断",
+   "2025年完成1.26亿美元C轮、估值35亿美元，合作50+医疗系统/支付方",
+   "累计超1.15亿次临床患者互动"
+  ],
+  "events": [
+   {
+    "date": "2025-11",
+    "text": "完成1.26亿美元C轮融资，估值35亿美元"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 9.0,
+  "diff_score": 6.0,
+  "copy_score": 6.0,
+  "research_value": 66.2,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "通用医疗AI客服代理，非专门面向老年人群",
+  "website_url": null,
+  "business_tags_role": "服务商"
+ },
+ {
+  "serial": "#0978",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2007,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "政府医保(CMS过渡支付TPT)+商业保险（植入式器械，医院门诊/ASC场景）",
+  "desc_cn": "迷走神经刺激治类风湿植入器械商",
+  "recommend": "信号与信息量强（FDA获批且获CMS过渡支付编码），差异化在全球首款FDA批准的神经免疫调节植入器械（迷走神经刺激治RA）；可复制性低、监管与支付门槛高——值得作为'器械+支付方编码'同步打通的硬科技商业化范本，与老龄化自身免疫慢病相关。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "SetPoint System：植入式迷走神经刺激器，每日1分钟调控抗炎通路治RA",
+   "2025年7月获FDA批准；11月获CMS过渡支付(TPT)新编码C1607(2026-01生效)",
+   "2025年完成1.4亿美元融资，雅培/波科战略入局神经调控赛道"
+  ],
+  "events": [
+   {
+    "date": "2025-07",
+    "text": "SetPoint System获FDA批准治疗类风湿关节炎"
+   },
+   {
+    "date": "2025-11",
+    "text": "获CMS过渡支付(TPT)编码C1607，2026年1月生效"
+   }
+  ],
+  "signal_strength": 5.05,
+  "info_score": 7.0,
+  "diff_score": 8.0,
+  "copy_score": 3.0,
+  "research_value": 58.1,
+  "silver_verdict": "泛医疗擦边",
+  "silver_reason": "迷走神经刺激植入设备治疗类风湿关节炎，属自身免疫/炎症器械，非老年专属；与银发相邻但非核心银发",
+  "website_url": null,
+  "business_tags_role": "产品商"
+ },
+ {
+  "serial": "#0456",
+  "name": null,
+  "name_cn": null,
+  "region": null,
+  "stage": "成长期",
+  "founded": 2020,
+  "funding_latest": null,
+  "funding_total": null,
+  "investors": null,
+  "payor_model": "B端机构合作（医疗系统/金融机构/雇主导流）+ 老年用户免费使用",
+  "desc_cn": "AI驱动的医保方案导航与退休顾问",
+  "recommend": "信号中等但增长猛（营收三年三倍、规模跻身头部梯队），信息量足；差异化在'审查全美每一款医保方案+无佣金冲突'的AI退休导航，可复制性强——国内养老金融与退休规划赛道可借鉴其'数据+持证顾问' unbiased模式，需注意中外医保制度差异。",
+  "business_tags": null,
+  "tag_l1": null,
+  "tag_l2": null,
+  "highlights": [
+   "AI-native退休平台，审查全美每一款Medicare方案并提供无佣金 unbiased建议",
+   "2026年完成1亿美元E轮，2025年营收3倍、ARR破亿美元",
+   "推出处方费用计算器与最准供应商目录，合作医疗系统/金融机构/雇主"
+  ],
+  "events": [
+   {
+    "date": "2025-04",
+    "text": "完成7500万美元D轮(Stripes领投)"
+   },
+   {
+    "date": "2026-04",
+    "text": "完成1亿美元E轮(Generation Investment领投)，ARR破亿"
+   }
+  ],
+  "signal_strength": 4.55,
+  "info_score": 6.0,
+  "diff_score": 6.0,
+  "copy_score": 4.0,
+  "research_value": 51.6,
+  "silver_verdict": "核心银发",
+  "silver_reason": "专为老年人提供Medicare医保方案导航与退休指导，目标人群明确为银发群体",
+  "website_url": null,
+  "business_tags_role": "平台"
+ }
+]

@@ -1,0 +1,516 @@
+{
+  "batch": 53,
+  "enterprises": [
+    {
+      "serial": "#0378",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，特医食品切老年营养差异化中高；其医学营养方案可复制，国内创业者可学其把术后/慢病营养做成合规产品。",
+        "rec_v2": "披露一般、有官网，亮点在特医食品牌照壁垒差异；食品制造易抄，可学其用“医学营养”心智切银发刚需。",
+        "rec_v3": "热点低、信息量中等，特医营养有真实差异；配方门槛适中可复制，国内宜借鉴其院外+家庭双场景的营养补充。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "特医食品与营养健康企业，服务术后、慢病及老年人群",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注特殊医学用途配方食品（特医食品）",
+        "面向术后/慢病/老年人群医学营养",
+        "提供医学营养补充解决方案"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "特医/医学营养服务于老年及慢病人群"
+    },
+    {
+      "serial": "#0379",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 37.6,
+      "recommend": {
+        "rec_v1": "信号中等、获腾讯IDG投资信息透明；AI私域电商差异化一般，但其团长+供应链模式与银发无关，国内创业者仅可学其私域SaaS。",
+        "rec_v2": "披露充分、处融资中，亮点在AI私域分发效率；电商打法成熟但无银发属性，可借鉴其数字团长中台而非业务方向。",
+        "rec_v3": "热点一般、信息量高，私域电商难言银发差异；模式可抄却非银发场景，宜只参考其供应链SaaS能力。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 37.6
+      },
+      "payor_model": "B端品牌商+个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "AI私域电商平台与数字供应链，链接团长与品牌商",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "未披露",
+          "text": "获腾讯、IDG等机构投资"
+        }
+      ],
+      "highlights": [
+        "AI私域电商与数字供应链公司",
+        "旗下蜂享家、好衣库",
+        "获腾讯、IDG等机构投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "综合私域电商平台，无银发业务实质"
+    },
+    {
+      "serial": "#0380",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，养老护理员培训+派遣差异化中高；其人力中台可复制，国内创业者可学其把护理培训做成认证标准。",
+        "rec_v2": "披露少、无官网，亮点在百洋旗下的医疗人力协同差异；培训+派遣打法易抄，可学其向机构批量输出护理员的供给模型。",
+        "rec_v3": "热点低、信息量低，银发护理人力有差异；模式轻、易复制，国内宜借鉴其“培训认证+劳务派遣”的护工供应链。",
+        "info_score": 3,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "医疗健康人才服务商，养老护理员培训认证与人力派遣",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "百洋医药集团旗下医疗健康人才服务商",
+        "提供养老/医疗护理员培训与认证",
+        "向医院、康养机构输出护理人力"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "养老护理员培训与派遣，服务于银发照护人力供给"
+    },
+    {
+      "serial": "#0381",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 35.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，医学营养/特医食品差异化中高；其肠内营养方案可复制，国内创业者可学其把疾病营养做成合规单品。",
+        "rec_v2": "披露一般、有官网，亮点在进食受限人群覆盖差异；食品制造易抄，可学其用“医学营养”切银发疾病营养刚需。",
+        "rec_v3": "热点低、信息量中等，特医营养有真实差异；配方门槛适中可复制，国内宜借鉴其院内外一体的营养支持。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 35.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "医学营养与特医食品企业，提供肠内营养产品",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "医学营养与特殊医学用途配方食品企业",
+        "为进食受限/消化吸收障碍患者供肠内营养",
+        "覆盖含老年人群的疾病营养支持"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "医学营养服务于老年及疾病状态人群"
+    },
+    {
+      "serial": "#0382",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 3,
+      "copy_score": 4,
+      "research_value": 27.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，老牌服饰邮购电商模式常规；其家庭消费定位与银发无关，国内创业者仅可参考其目录零售历史经验。",
+        "rec_v2": "披露一般、有官网，亮点在早期邮购基因；电商打法成熟但无银发属性，无可借鉴的银发切入点。",
+        "rec_v3": "热点低、信息量低，综合电商无银发差异；模式可抄却非银发场景，不宜作为银发案例研究。",
+        "info_score": 4,
+        "diff_score": 3,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 27.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "老牌邮购与电商零售企业，主打服饰邮购目录",
+      "founded": 1996,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "老牌邮购与电商零售企业",
+        "曾以服饰邮购目录切入家庭消费市场"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "老牌服饰邮购/电商零售，无银发业务实质"
+    },
+    {
+      "serial": "#0383",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等，疑难种植（穿颧穿翼）技术差异化中高；其直营连锁可复制但受医疗牌照约束，国内创业者仅可学其专科定位。",
+        "rec_v2": "披露一般、有官网，亮点在疑难种植技术壁垒差异；诊所模式易抄但门槛高，可学其用技术标签做口腔连锁溢价。",
+        "rec_v3": "热点低、信息量中等，口腔专科难言银发差异；受医生与牌照约束不可复制，宜只参考其专科连锁运营。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+政府医保",
+      "business_tags_role": "服务商",
+      "desc_cn": "种植牙专科连锁口腔机构，主打疑难种植与口腔综合治疗",
+      "founded": 2006,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "国内种植牙专科连锁口腔机构",
+        "主打疑难种植（穿颧穿翼）",
+        "直营诊所模式多地扩张"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "口腔种植专科连锁属泛医疗，非专攻老年群体"
+    },
+    {
+      "serial": "#0384",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 7,
+      "copy_score": 4,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息极少，常规抽血AD早筛差异化突出；其低侵入检测思路可借鉴，但受医疗检验体系约束，国内创业者获资质难。",
+        "rec_v2": "披露极少、仅一句话，亮点在抽血替代有创筛查的技术差异；检测模式难复制，可学其将认知症早筛前置到体检场景。",
+        "rec_v3": "热点低、信息量低，AD早筛技术有真实差异；受注册与渠道约束不可复制，但其“常规抽血”降门槛思路值得参考。",
+        "info_score": 3,
+        "diff_score": 7,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "基于常规抽血的早期阿尔茨海默病检测服务商",
+      "founded": 2018,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "使用常规抽血进行早期阿尔茨海默病检测",
+        "面向认知症（失智）早筛赛道"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "阿尔茨海默病（认知症）早筛，服务于失智老人防控"
+    },
+    {
+      "serial": "#0385",
+      "signal_strength": 0.55,
+      "info_score": 3,
+      "diff_score": 6,
+      "copy_score": 7,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，认知症照护信息平台差异化中高；其知识+资源导航可复制，国内创业者可学其做照护者社区降低焦虑。",
+        "rec_v2": "披露一般、无官网，亮点在家属/照护者双边内容差异；平台打法易抄，可学其用资源导航把分散照护服务聚合。",
+        "rec_v3": "热点低、信息量中等，认知症信息中台有差异；内容模型轻、易复制，国内宜借鉴其“知识+社区”黏住照护者。",
+        "info_score": 3,
+        "diff_score": 6,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构合作+个人免费",
+      "business_tags_role": "服务商",
+      "desc_cn": "阿尔茨海默病家属与照护者信息平台，认知症照护知识导航",
+      "founded": 2016,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "面向阿尔茨海默病家属与照护者的信息平台",
+        "提供认知症照护知识与资源导航",
+        "社区支持应对照护全流程"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "认知症照护知识与资源平台，服务于失智老人照护者"
+    },
+    {
+      "serial": "#0386",
+      "signal_strength": 0.55,
+      "info_score": 2,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 31.6,
+      "recommend": {
+        "rec_v1": "信号弱、信息极少，音乐干预AD症状差异化突出；其非药物疗法思路可借鉴，但证据弱、国内创业者宜先验证再复制。",
+        "rec_v2": "披露极少、仅一句话，亮点在音乐非药物干预差异；内容模式易抄，可学其用熟悉旋律触发老人记忆的照护活动设计。",
+        "rec_v3": "热点低、信息量低，音乐认知干预有真实差异；疗法门槛低但循证不足，国内宜小步试错而非照搬。",
+        "info_score": 2,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 31.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "以音乐干预缓解阿尔茨海默病症状的平台",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "使用音乐解决阿尔茨海默病症状",
+        "面向认知症非药物干预"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "音乐干预认知症症状，服务于失智老人非药物照护"
+    },
+    {
+      "serial": "#0388",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 2,
+      "copy_score": 3,
+      "research_value": 23.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息偏少，面包店咖啡连锁模式常规；其与银发无关，国内创业者无可借鉴的银发切入点，仅参考其零售扩张。",
+        "rec_v2": "披露一般、获大额融资，亮点在烘焙+咖啡业态；无银发属性，融资故事不可作为银发案例参考。",
+        "rec_v3": "热点低、信息量低，综合餐饮无银发差异；模式虽可抄却非银发场景，不宜纳入银发研究。",
+        "info_score": 4,
+        "diff_score": 2,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 23.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "面包店与咖啡连锁品牌",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023年3月",
+          "text": "完成1亿美元融资"
+        }
+      ],
+      "highlights": [
+        "面包店与咖啡连锁",
+        "2023年3月完成1亿美元融资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "面包店/咖啡连锁，无银发业务实质"
+    },
+    {
+      "serial": "#0390",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 3,
+      "research_value": 34.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息中等、获种子轮，居家养老照护协调平台差异化中高；其24/7呼叫中心+服务商网络可借鉴，但深嵌美国保险体系统难复制。",
+        "rec_v2": "披露一般、处种子轮，亮点在把陪伴/家政/就医统一调度差异；协调中台易学，可抄其“评估分级→派单”运营，但支付侧不可照搬。",
+        "rec_v3": "热点低、信息量中等，照护协调平台有真实差异；受美国保险/雇主福利约束不可复制，国内宜只借鉴其服务商网络治理。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 3,
+        "signal_strength": 0.55,
+        "research_value": 34.7
+      },
+      "payor_model": "商业保险支付+雇主福利",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国居家养老照护协调平台，呼叫中心+APP+智能监测+服务商网络",
+      "founded": 2017,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024年5月",
+          "text": "完成50万美元种子轮融资"
+        }
+      ],
+      "highlights": [
+        "面向居家养老（Age in Place）的照护协调平台",
+        "24/7呼叫中心+APP+智能监测+服务商网络",
+        "与保险及雇主福利合作"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家养老（Age in Place）照护协调，服务于老年人群"
+    },
+    {
+      "serial": "#0391",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 4,
+      "research_value": 34.6,
+      "recommend": {
+        "rec_v1": "信号中等、获亿元融资信息透明；长寿抗衰精准健康差异化一般，但其表观遗传检测+WhatsApp AI可借鉴，受地域模式约束难复制。",
+        "rec_v2": "披露充分、处融资中，亮点在医生主导个性化方案差异；健康服务打法受印度市场约束，可学其用AI做轻量健康管理而非业务方向。",
+        "rec_v3": "热点一般、信息量高，抗衰精准健康难言银发差异；模式受地域限制不可复制，宜只参考其表观遗传检测产品化。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 34.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "印度长寿抗衰精准健康公司，个性化方案+表观遗传检测+补剂",
+      "founded": 2019,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2023年3月",
+          "text": "完成2.15亿元融资"
+        }
+      ],
+      "highlights": [
+        "印度长寿与精准健康公司",
+        "医生主导个性化方案+表观遗传年龄检测",
+        "借助WhatsApp AI提供抗衰与健康管理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "长寿抗衰精准健康属泛医疗/抗衰，面向一般人群非专攻老年"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0383",
+      "name": "鼎植口腔",
+      "intro": "种植牙专科连锁口腔机构，主打疑难种植，直营诊所扩张",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "诊所"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "del",
+          "tag": "养老服务",
+          "reason": "实质为口腔诊所而非养老服务机构，tag_l1“养老服务”不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0384",
+      "name": "AgenT",
+      "intro": "基于常规抽血的早期阿尔茨海默病检测服务商",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "体检筛查"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "del",
+          "tag": "消费品",
+          "reason": "实质为AD早筛生物技术公司而非消费品，tag_l1“消费品”不准确"
+        }
+      ]
+    },
+    {
+      "serial": "#0390",
+      "name": "lyflynks",
+      "intro": "美国居家养老照护协调平台，呼叫中心+APP+智能监测+服务商网络",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "用药管理"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": [
+            "线上"
+          ]
+        }
+      },
+      "suggested": [
+        {
+          "action": "del",
+          "tag": "康复辅具",
+          "reason": "实质为照护协调平台而非康复辅具，tag_l1“康复辅具”不准确"
+        }
+      ]
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0379",
+      "name": "鲸灵集团",
+      "verdict": "非银发",
+      "reason": "综合私域电商平台，无银发业务实质"
+    },
+    {
+      "serial": "#0382",
+      "name": "麦考林",
+      "verdict": "非银发",
+      "reason": "老牌服饰邮购/电商零售，无银发业务实质"
+    },
+    {
+      "serial": "#0383",
+      "name": "鼎植口腔",
+      "verdict": "泛医疗擦边",
+      "reason": "口腔种植专科连锁属泛医疗，非专攻老年群体"
+    },
+    {
+      "serial": "#0388",
+      "name": "Coffee Cherry",
+      "verdict": "非银发",
+      "reason": "面包店/咖啡连锁，无银发业务实质"
+    },
+    {
+      "serial": "#0391",
+      "name": "yooLab",
+      "verdict": "泛医疗擦边",
+      "reason": "长寿抗衰精准健康属泛医疗/抗衰，面向一般人群非专攻老年"
+    }
+  ]
+}

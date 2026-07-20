@@ -1,0 +1,942 @@
+[
+  {
+    "serial": "#1336",
+    "name": "Winterlight Labs",
+    "name_cn": "Winterlight Labs",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知筛查"
+    ],
+    "region": "海外",
+    "desc_cn": "基于平板/APP的语音生物标志物公司，通过分析短语音提取数百个语言标记筛查认知障碍（痴呆、精神疾病），服务药企临床试验、养老与临床机构；收入来自B端授权与API调用。银发价值在提供客观、可远程、低压力的认知早筛工具。",
+    "description": "语音数字生物标志物检测认知障碍（已被 Cambridge Cognition 收购）。",
+    "silver_reason": "语音生物标志物服务认知症早期筛查",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购（药企/临床机构）",
+    "business_model": "B2B SaaS",
+    "funding_latest": {
+      "date": "2019",
+      "amount": "420万美元",
+      "round": "Series A(被收购)",
+      "display": "Series A $4.2M;后被Cambridge Cognition收购"
+    },
+    "funding_total": {
+      "amount": "约$600万",
+      "display": "累计约$600万"
+    },
+    "investors": "Hikma Ventures",
+    "stage": "被收购",
+    "founded": 2015,
+    "highlights": [
+      "自由语音提取数百语言标记，客观筛查认知障碍",
+      "进入十余项临床试验，五大药企采用",
+      "2023年被Cambridge Cognition收购",
+      "支持英/法/西/德语，远程可部署"
+    ],
+    "signal_strength": 1.05,
+    "info_score": 3.0,
+    "diff_score": 8.0,
+    "copy_score": 6.0,
+    "research_value": 40.2,
+    "recommend": {
+      "rec_v1": "信号低但技术稀缺（被收编）；语音生物标志物差异化强，国内认知筛查创业者可学其非侵入早筛路径。",
+      "rec_v2": "披露偏薄（新闻少）；亮点是用说话评估认知，国内受数据约束，可借鉴其临床验证打法。",
+      "rec_v3": "被巨头收编印证价值；其早筛技术差异化明显，国内宜学「语音—标记—预警」而非重设备。",
+      "info_score": 3,
+      "diff_score": 8,
+      "copy_score": 6,
+      "signal_strength": 1.05,
+      "research_value": 40.2
+    },
+    "source": "信源治理入库(BioTechScope) 2026-07-15",
+    "website_url": "https://www.winterlightlabs.com"
+  },
+  {
+    "serial": "#0075",
+    "name": "乐龄圈",
+    "name_cn": "乐龄圈",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群",
+      "相亲"
+    ],
+    "region": "国内",
+    "desc_cn": "专为银发族设计的兴趣社交App。用户可发布书法摄影作品、按年龄地域兴趣加入圈子并参与同城活动，界面极简、支持语音输入降低数字门槛，收入靠免费流量与增值或广告。银发价值在通过兴趣社群与红娘相亲缓解老年孤独，对应国内银发线上社交与情感陪伴的空白市场。",
+    "description": "乐龄圈是湖北乐友科技推出的银发族兴趣社交App，提供书法/摄影作品展示、20+兴趣小组、同城活动与红娘相亲服务，并配适老化界面与健康专栏。它以安全社交与线下活动组织，服务全国280城的中老年用户。",
+    "silver_reason": "银发兴趣社交App，服务中老年文娱社交与情感陪伴需求。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2022,
+    "highlights": [
+      "开发者为湖北乐友科技有限公司，2022年完成ICP备案",
+      "智能算法按年龄/地域/兴趣精准推荐圈子",
+      "极简界面+语音输入，专为不熟悉智能手机的长辈设计",
+      "内置红娘相亲功能，主打「千万中老年在这里玩」"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱但产品清晰；兴趣社群+相亲+适老界面差异中，覆盖280城，国内创业者可抄其'安全社交+线下活动'打法。",
+      "rec_v2": "冷门App信息一般；亮点是用适老化UI做中老年社区，壁垒低，可学其20+兴趣小组撬动内容自传播的玩法。",
+      "rec_v3": "低关注却有启发：其银发社交差异在场景聚焦，可复制，创业者能学它用红娘+活动把线上流量转线下信任。",
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0110",
+    "name": "动龄健康",
+    "name_cn": "动龄健康",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "健身"
+    ],
+    "region": "国内",
+    "desc_cn": "专注50+人群科学运动与健康促进，研发原创健康体适能课程体系，涵盖训练、舞蹈、按摩、康复与疗法五大模块，提供团课、一对一及社区运动空间运营，通过专题课程、健康套餐与运动处方变现。收入来自C端个人自费。",
+    "description": "动龄健康（2021年成立，深圳）专注50+人群科学运动与健康，提供以运动为核心的健康促进、慢病干预与康复辅助服务。其拥有原创适老化健身课程与运动医学专家，以社区健身房+线上训练营模式实现变现。",
+    "silver_reason": "专注50+人群科学运动与健康促进，直接服务活力老人",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2C 老年健身/健康",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2021,
+    "highlights": [
+      "专注50+人群科学运动与健康促进",
+      "原创健康体适能课程，五大模块：训练/舞蹈/按摩/康复/疗法",
+      "社区场景、团课+一对一，借鉴ACSM标准适老化",
+      "变现靠专题课程、健康管理套餐与运动处方定制"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息中等；其50+科学运动+慢病干预有场景差异化；社区+线上模式国内极易复制，可学其课程研发。",
+      "rec_v2": "资料有限；亮点在把运动医学用于银发健康促进；路径清，创业者可抄其适老化健身课程体系与专家背书打法。",
+      "rec_v3": "关注低；差异化在“运动即预防”而非卖器械；国内易复制，可学其社区健身房+训练营的轻量变现模型。",
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0153",
+    "name": "奥特顺咽",
+    "name_cn": "奥特顺咽",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "功能性食品"
+    ],
+    "region": "国内",
+    "desc_cn": "吞咽障碍食品增稠剂品牌，以黄原胶与麦芽糊精复配制成医用级增稠粉，按II-V级吞咽障碍分级调配水与流食稠度，降低老人呛咳与误吸风险，通过医疗器械与康复渠道销售。",
+    "description": "奥特顺咽是广州奥迪特生物科技出品的黄原胶类食品增稠剂，用于为吞咽困难的老人及患者增加水、汤、奶等液体黏稠度，属吞咽康复特殊营养食品；公司还生产乳清蛋白粉等特医食品。",
+    "silver_reason": "吞咽障碍食品增稠剂，服务老年及吞咽障碍患者进食安全",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端机构采购",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2012,
+    "highlights": [
+      "黄原胶+麦芽糊精复配的吞咽障碍食品增稠剂",
+      "按II-V级吞咽障碍分级调配水/汤/奶稠度",
+      "降低老人呛咳与误吸风险，属吞咽康复特殊营养",
+      "生产厂家为广州奥迪特生物科技有限公司"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号低、信息中等；黄原胶增稠剂解决老人吞咽障碍是强差异化细分；特医食品刚需，产品商模式国内易复制且政策利好。",
+      "rec_v2": "披露尚可，亮点是卡位吞咽康复这一被忽略场景；差异在极细分功能食品；创业者可学其从临床痛点做特医单品。",
+      "rec_v3": "冷门却极精准；与泛保健品不同，它解决真实进食风险；国内吞咽障碍人群庞大，其特医定位清晰可抄。",
+      "info_score": 4,
+      "diff_score": 7,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0188",
+    "name": "康爱医疗",
+    "name_cn": "康爱医疗",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "康复医疗"
+    ],
+    "region": "国内",
+    "desc_cn": "聚焦院内肿瘤与临床营养诊疗的解决方案商，以营养检测设备、临床营养软件与营养食品“三位一体”，为医院提供从筛查、评价到个性化营养治疗的系统方案，已装机近200家肿瘤专科医院。收入来自医院设备与软件采购及院外DTP药房合作。银发价值在服务于以老年为主的高龄肿瘤患者营养支持。",
+    "description": "康爱医疗是肿瘤康复和老年慢病管理服务平台，提供术后康复、营养支持和心理干预等综合服务。",
+    "silver_reason": "院内肿瘤营养诊疗服务以老年为主的高龄肿瘤患者，属银发临床营养支持。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费",
+    "business_model": "B2C 老年健康食品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "A轮",
+    "founded": 2011,
+    "highlights": [
+      "“设备+软件+营养食品”三位一体肿瘤营养诊疗系统",
+      "2020年获临床营养检测仪注册证，装机近200家医院",
+      "三分钟完成营养筛评诊治，营养师效率提升十倍",
+      "获海银资本A轮、远毅资本A+轮数千万元融资"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱但肿瘤康复加老年慢病管理信息清晰；其康复加营养加心理综合差异化强，政策利好可复制。",
+      "rec_v2": "声量低而信息量适中；把心理干预嵌进慢病康复是反常识切口，国内创业者能抄其多学科照护流程。",
+      "rec_v3": "早期弱信号但业务辨识高；亮点在肿瘤与老年慢病双轨，国内可学其院内转院外的延续照护模式。",
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.ainst.com"
+  },
+  {
+    "serial": "#0220",
+    "name": "星巡智能",
+    "name_cn": "星巡智能",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "视觉辅助"
+    ],
+    "region": "国内",
+    "desc_cn": "面向居家老人的AI看护机厂商，以4K视觉与毫米波传感器融合大模型，提供跌倒监测、情感交互与健康提醒。设备无佩戴负担、界面适老化，通过APP向子女推送预警。收入来自硬件销售与养老机构、渠道采购，已入选国家级老年用品推广目录，直接回应独居老人安全看护刚需。",
+    "description": "星巡智能推出智慧养老看护机“海马爷爷”，融合4K视觉与毫米波传感器，具备情感交互、跌倒监测与健康管理功能，并通过大型语言模型实现适老陪伴与紧急预警。",
+    "silver_reason": "海马爷爷养老看护机做跌倒监测与适老陪伴，直接服务居家养老安全。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端(养老机构/渠道)采购",
+    "business_model": "B2C 健康养生服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "C轮",
+    "founded": 2020,
+    "highlights": [
+      "‘海马爷爷’智慧养老看护机入选《2025年老年用品产品推广目录》",
+      "以4K视觉+毫米波传感器融合大模型，实现无佩戴跌倒监测与情感交互，累计订单超千万元、覆盖数万户家庭",
+      "消费级‘海马爸比’婴童看护器市占率超85%，拥有170余项专利，2025年完成C轮融资"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱但产品资料实；视觉+毫米波+大模型做适老看护差异化强，国内供应链可复制，可学其无接触监测。",
+      "rec_v2": "信号低、信息中等；海马爷爷融合情感交互与跌倒预警是亮点，差异化技术新且可借鉴，宜学其硬件+AI陪伴。",
+      "rec_v3": "信号偏弱、披露有限；其4K视觉配LLM做老人陪护属差异化亮点，可借鉴性强，可学它把安防改写陪伴场景。",
+      "info_score": 4,
+      "diff_score": 7,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0372",
+    "name": "青鸟软通",
+    "name_cn": "青鸟软通",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "国内",
+    "desc_cn": "全域智慧康养服务商，汇养通SaaS+青鸟颐居连锁机构",
+    "description": "青鸟软通（现通用环球青鸟）是国内全域智慧康养综合服务商，核心产品为面向养老企业的「汇养通」SaaS管理平台，并运营「青鸟颐居」连锁养老机构，业务覆盖全国20余省。",
+    "silver_reason": "智慧康养SaaS与连锁机构运营，服务于养老行业与老年人群",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2010,
+    "highlights": [
+      "核心产品「汇养通」SaaS管理平台",
+      "运营「青鸟颐居」连锁养老机构",
+      "业务覆盖全国20余省"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息偏少，汇养通SaaS+连锁机构差异化中高；其康养SaaS可复制，国内创业者可学其用软件给中小机构降本增效。",
+      "rec_v2": "披露一般、无官网，亮点在SaaS+自营机构的双轮；软件模式易抄，可学其“系统赋能+轻资产运营”的区域扩张。",
+      "rec_v3": "热点低、信息量中等，康养SaaS有真实差异；产品逻辑清晰可复制，国内宜借鉴其把养老机构管理做成标准化PaaS。",
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0375",
+    "name": "颐佳康",
+    "name_cn": "颐佳康",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "连锁化社区与居家养老服务机构，智能化平台+适老化评估",
+    "description": "颐佳（颐佳康）是在国家民政部及北京市民政局指导下的连锁化社区与居家养老服务机构，依托智能化平台提供社区养老运营、居家上门照护、适老化评估改造及养老培训，已在北京、上海、宁波、成都等城市布局多家养老机构与超300家社区服务中心，服务会员老人超12万人。",
+    "silver_reason": "社区与居家养老服务运营，直接服务老年人群",
+    "silver_verdict": "核心银发",
+    "payor_model": "政府购买服务+个人自费",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2023,
+    "highlights": [
+      "民政部及北京市民政局指导的连锁养老",
+      "超300家社区服务中心、12万会员老人",
+      "提供适老化评估改造与养老培训"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱、信息偏少，社区+居家+适老化评估组合差异化中高；其政企指导的连锁打法可复制，国内创业者可学其社区触点密度。",
+      "rec_v2": "披露一般、无官网，亮点在超300社区中心+12万会员的规模差异；模式易抄，可学其用适老化评估改造撬动政府购买。",
+      "rec_v3": "热点低、信息量中等，社区居家一体化有差异；运营模型清晰可复制，国内宜借鉴其“中心+上门+培训”的区域密度。",
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0413",
+    "name": "小羊养老",
+    "name_cn": "小羊养老",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "陪诊"
+    ],
+    "region": "国内",
+    "desc_cn": "陪诊与适老化改造服务商",
+    "description": "专业的陪诊业务和适老化改造业务是小羊养老目前最主要的服务。2022.08天使轮数百万元融资",
+    "silver_reason": "陪诊与适老化改造直接服务居家老人",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端机构采购",
+    "business_model": "B2B/B2C 健康服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2022,
+    "highlights": [
+      "陪诊+适老化改造双业务",
+      "天使轮融资",
+      "到家服务组合"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "research_value": 39.7,
+    "recommend": {
+      "rec_v1": "信号弱天使轮有披露；陪诊加适老化改造双线差异在交叉获客，国内可抄其上门评估加施工链路。",
+      "rec_v2": "公开偏少热度低；其'陪诊引流+改造变现'打法清晰，本地创业者能直接复制其到家服务组合包。",
+      "rec_v3": "信号不强资料有限；它把两类银发刚需拼在一起差异稳，国内宜学其低客单陪诊转高客单改造路径。",
+      "info_score": 4,
+      "diff_score": 6,
+      "copy_score": 7,
+      "signal_strength": 0.55,
+      "research_value": 39.7
+    },
+    "source": "选题库V4",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0116",
+    "name": "华润维麟",
+    "name_cn": "华润维麟",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "region": "国内",
+    "desc_cn": "华润与比利时Verlinvest合资的养老投资平台，通过股权投资整合区域养老运营商，已布局上海红日、广州颐和、北京华方、成都哺恩、重庆合展5家平台，进入11城、床位超9000张。以“投资控股+运营赋能”输出管理，收入来自被投机构运营。",
+    "description": "华润维麟是华润集团与比利时Verlinvest基金合资的养老产业投资与运营平台（2016年合作），在粤港澳、京津冀、长三角、成渝布局5家区域养老平台，进入11城运营养老机构35+家。其通过投资控股（如重庆合展、成都哺恩）整合区域养老资源。",
+    "silver_reason": "央企合资养老投资运营平台，直接运营养老机构",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+政府补贴",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2016,
+    "highlights": [
+      "华润集团与比利时Verlinvest合资的养老投资平台",
+      "整合上海红日、广州颐和、北京华方、成都哺恩、重庆合展5家区域平台",
+      "进入11个城市、运营养老机构35余家、床位超9000张",
+      "“投资控股+运营赋能”输出标准化管理"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 4.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号弱、信息较丰；其“央企+外资”合资整合区域养老有资源差异化；重资产难复制，可学其控股整合法。",
+      "rec_v2": "资料完整；亮点在通过投资控股快速布点11城；模式受资本约束，创业者可借鉴其区域平台并购思路。",
+      "rec_v3": "关注低；价值在产融结合做养老规模；国内难抄其资源，但可学其“控股区域龙头”的轻整合路径。",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.cre.com.hk"
+  },
+  {
+    "serial": "#0178",
+    "name": "巨贸康万家",
+    "name_cn": "巨贸康万家",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "轮椅"
+    ],
+    "region": "国内",
+    "desc_cn": "位于丹阳的康复器械制造商，主营轮椅、制氧机与可移动病床，产品通过FDA 510K与CE认证，主要客户为欧美国际品牌并大量外销，年营收居行业前列。收入来自机构与海外代工。银发价值在为全球失能及呼吸不便人群提供基础康复辅具，国内正拓展自有品牌。",
+    "description": "江苏巨贸康万家医疗设备是康复器械制造商，主营轮椅、制氧机、可移动病床等产品，远销欧美，2023年营收5.4亿元，为国家级高新技术企业。",
+    "silver_reason": "轮椅与制氧机等康复器械，主要服务老年及行动不便人群。",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购+个人自费",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2018,
+    "highlights": [
+      "2023年营业收入5.40亿元，国家级高新技术企业",
+      "轮椅、制氧机通过美国FDA 510K及欧盟CE认证",
+      "主要客户为INVACARE、DRIVE、MEDLINE等国际品牌，远销欧美",
+      "2023年续建项目达产后可年产150万辆轮椅、50万台制氧机"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 5.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号弱但2023营收5.4亿、高新企业信息可信；轮椅制氧机出口属常规制造，可学其欧美认证与外贸打法。",
+      "rec_v2": "声量低却经营数据透明；康复器械代工同质化高，差异在规模与认证，国内厂可抄其海外注册路径。",
+      "rec_v3": "早期弱信号但资料扎实；亮点是年收过5亿的出口型制造商，中小创业者能借鉴其认证加渠道出海模型。",
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 37.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.jumaomedical.com"
+  },
+  {
+    "serial": "#0192",
+    "name": "德林",
+    "name_cn": "德林",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械"
+    ],
+    "region": "国内",
+    "desc_cn": "源自1960年台湾的假肢矫形器与康复辅具集团，提供上肢、下肢义肢、智能仿生手、电子膝关节、脊椎侧弯背架与各类踝足辅具，具备百件专利与ISO、CE、FDA认证，在亚太设有超100个服务网点并多次承担残运会辅具保障。收入来自个人装配自费与机构采购。银发价值在为截肢及肢体障碍老年人群恢复行动力。",
+    "description": "德林（德林义肢康复辅具）1992年创立，总部台北，专注假肢、矫形器及康复辅具的研发装配与适配，在深圳、成都、上海等地设近百家分公司，服务网络覆盖全国，并多次承担残运会辅具保障。",
+    "silver_reason": "假肢矫形器康复辅具，服务老年及残障人群行动功能恢复。",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+政府项目采购",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 1960,
+    "highlights": [
+      "1960年台湾创立，60余年假肢矫形器经验，百件以上专利",
+      "智能仿生手、V One电子膝、3D切削接受腔等前沿产品",
+      "通过ISO9001/ISO13485/CE/FDA认证，亚太超100个服务网点",
+      "多次承担残运会假肢轮椅维修保障，获国际发明展金奖"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 5.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号弱但近百家分公司信息可信；假肢矫形器自研仿生手差异化在技术与网络，可学其残联定点模式。",
+      "rec_v2": "声量低却资料完整；代理加自研双轨是稳健打法，国内创业者能抄其装配服务加产品研发组合。",
+      "rec_v3": "早期弱信号但网络扎实；亮点是台资老牌辅具商，国内可借鉴其分公司下沉与残运会保障背书。",
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.tehlin.com.cn"
+  },
+  {
+    "serial": "#0229",
+    "name": "智宇孝老",
+    "name_cn": "智宇孝老",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理",
+      "家政"
+    ],
+    "region": "国内",
+    "desc_cn": "居家和社区养老服务提供商，构建‘平台-照料中心-社区-家庭’四级养老照护体系，提供助餐助浴、紧急救援、健康管理及适老化改造。收入以政府购买服务为主（约七成）、个人自费与新零售为辅。银发价值在直接服务失能半失能及空巢老人，覆盖近四百万长者、年服务超千万人次。",
+    "description": "智宇孝老集团（厦门智宇信息技术有限公司）成立于2001年，是居家和社区养老服务提供商，构建“平台-照料中心-社区-家庭”四级居家养老体系，业务覆盖福建、浙江、湖北等6省40余区县，运营400多家居家养老服务驿站、45家照料中心及4家养老院。提供居家上门生活照料、医疗护理、康复保健、精神慰藉及“平安通”紧急救援、健康监测等服务。",
+    "silver_reason": "居家和社区养老、上门照料与紧急救援，直接服务老年人群。",
+    "silver_verdict": "核心银发",
+    "payor_model": "政府购买服务+个人自费",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "A轮",
+    "founded": 2001,
+    "highlights": [
+      "成立于2001年，居家和社区养老服务提供商",
+      "构建‘平台-照料中心-社区-家庭’四级居家养老体系",
+      "覆盖6省40余区县，运营400+驿站、45家照料中心、4家养老院，覆盖近四百万老人、年服务超千万人次"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号弱但网络资料实；平台-照料中心-社区-家庭四级体系模式清晰有差异，可复制，可学其400驿站下沉。",
+      "rec_v2": "信号低、信息较足；6省40余区县运营是亮点，差异化覆盖广且可借鉴，国内宜学其平安通+健康监测组合。",
+      "rec_v3": "信号偏低、披露有限；其居家养老四级网有规模效应属差异化，可抄性高，可学它用政府购买绑定社区驿站。",
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "http://www.zhiyuinfo.com"
+  },
+  {
+    "serial": "#0276",
+    "name": "盈康生命",
+    "name_cn": "盈康生命",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "康复医疗"
+    ],
+    "region": "国内",
+    "desc_cn": "肿瘤放疗设备与康复医疗服务商",
+    "description": "盈康生命科技股份有限公司在海尔体系下布局肿瘤放射治疗设备与医疗服务，子公司玛西普研发头部伽玛刀，国内装机量领先并出口欧美，同时运营上海永慈康复医院等医疗机构。",
+    "silver_reason": "肿瘤放疗设备为主，康复与老年照护仅为部分业务",
+    "silver_verdict": "泛医疗擦边",
+    "payor_model": "B端机构采购+政府医保",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": "未搜到",
+    "highlights": [
+      "玛西普伽玛刀出口欧美",
+      "上海永慈康复医院承接老年照护",
+      "海尔体系肿瘤放疗设备"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 5.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号低但伽玛刀可查；肿瘤设备加康复医院差异稳，牌照制约其复制，银发库建议将其移出或单独标注。",
+      "rec_v2": "披露较全热度弱；永慈康复嵌老年照护独，创业者参考其医疗重资产路线，其模式对银发创业者无实质借鉴意义。",
+      "rec_v3": "信号不强资料够；实质泛医疗擦边，银发仅康复部分，其复制价值中等，后续可按非银发类别单独归类处理。",
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.inkonlife.com"
+  },
+  {
+    "serial": "#0286",
+    "name": "福仕得",
+    "name_cn": "福仕得",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "轮椅",
+      "助行器"
+    ],
+    "region": "国内",
+    "desc_cn": "家用适老康复辅具制造商",
+    "description": "中山市福仕得健身器材有限公司（福仕得）深耕家用康复辅具，主营轮椅、移位机、拐杖、助行器、坐便椅、洗澡椅、无障碍扶手等适老化全系列产品，拥有“雅德”等自主品牌，产品远销40多国，为适老化改造项目供贷。",
+    "silver_reason": "适老化康复辅具服务居家老人",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费+B端机构采购",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2012,
+    "highlights": [
+      "主营轮椅、移位机、拐杖、洗澡椅、扶手等适老全系列",
+      "产品远销40多国",
+      "为适老化改造项目供货，拥雅德等自主品牌"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号弱但有出口实绩；信息中等（远销40国+适老化供货）。差异在适老辅具全系列，国内可学其自主品牌+适老化改造供货双轨路径。",
+      "rec_v2": "冷门制造商，披露一般。亮点是雅德品牌+无障碍产品线，创业者可抄其从外贸转内销、绑定适老化改造项目的渠道打法。",
+      "rec_v3": "信号低、信息中等；差异在轮椅/移位机/扶手矩阵。复制性高，国内厂商可仿其研发+出口+政府适老项目的制造供货模型。",
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "https://www.fstmed.com"
+  },
+  {
+    "serial": "#0290",
+    "name": "福玛玛",
+    "name_cn": "福玛玛",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "region": "国内",
+    "desc_cn": "中老年妈妈装电商品牌",
+    "description": "杭州福玛玛服装科技有限公司主营中老年/大码妈妈装女装品牌，旗下“福玛玛”在唯品会妈妈装常年TOP1，2023年整体销售额约16亿元，抖音达人“小风子老板娘”带货，并非养老服务机构。",
+    "silver_reason": "中老年妈妈装服务银发女性消费",
+    "silver_verdict": "核心银发",
+    "payor_model": "个人自费",
+    "business_model": "B2B 行业媒体/数据服务",
+    "funding_latest": "未融资",
+    "funding_total": "未融资",
+    "investors": [
+      "未融资"
+    ],
+    "stage": "未搜到",
+    "founded": 2018,
+    "highlights": [
+      "旗下福玛玛在唯品会妈妈装常年TOP1",
+      "2023年整体销售额约16亿元",
+      "抖音达人小风子老板娘带货，非养老服务机构"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号弱但有销售实绩；信息中等（唯品会TOP1+16亿）。差异在中老年妈妈装精准定位，国内银发服饰可学其达人带货+大码细分打法。",
+      "rec_v2": "冷门服饰品牌，披露偏少有体量。亮点是妈妈装常年前三，创业者可抄其用抖音达人做银发女装爆发的渠道模型。",
+      "rec_v3": "信号低、信息中等；差异在专攻中老年/大码女装。复制性高，国内可仿其垂直人群+电商榜单+直播的银发服饰路径。",
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 6,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国企业图谱(许之怿)",
+    "website_url": "未搜到"
+  },
+  {
+    "serial": "#0445",
+    "name": "品驰医疗",
+    "name_cn": "品驰医疗",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械"
+    ],
+    "region": "国内",
+    "desc_cn": "脑起搏器龙头，帕金森等老年神经疾病植入式治疗设备",
+    "description": "脑起搏器龙头，帕金森等老年神经疾病植入式治疗设备",
+    "silver_reason": "脑起搏器用于帕金森等老年神经疾病治疗",
+    "silver_verdict": "核心银发",
+    "payor_model": "医保报销+个人自付",
+    "business_model": "B2B/B2C 硬件产品",
+    "funding_latest": {
+      "amount": "多轮融资，高瓴、红杉参与",
+      "display": "多轮融资，高瓴、红杉参与"
+    },
+    "funding_total": "未搜到",
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": 2008,
+    "highlights": [
+      "脑起搏器（DBS）国产龙头",
+      "多轮融资，高瓴、红杉等头部机构参与"
+    ],
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 4.0,
+    "research_value": 39.6,
+    "recommend": {
+      "rec_v1": "信号中等、披露靠龙头口碑，脑起搏器植入技术壁垒高、差异化强；但受医生与监管资源约束，国内创业者难直接复制。",
+      "rec_v2": "公开信息靠融资背书、信号平淡，其帕金森植入设备技术稀缺；难点在耗材注册与专家网络，创业者宜学其临床定位而非照搬。",
+      "rec_v3": "作为脑起搏器龙头信息量尚可、信号一般；强差异在植入式治疗，但高值耗材受牌照严管，国内宜做国产替代而非模式抄袭。",
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 4,
+      "signal_strength": 0.55,
+      "research_value": 39.6
+    },
+    "source": "中国银发经济行业mapping",
+    "website_url": "https://www.pinsmedical.com"
+  },
+  {
+    "serial": "#0562",
+    "name": "Geri Care",
+    "name_cn": "Geri Care",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家医疗"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 养老护理服务",
+    "description": "印度首家专注于老年人的综合医疗服务提供商，2018年创立，提供360度连续护理模式，包括预防、诊断、治疗、康复和长期护理。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": {
+      "date": "2025-01",
+      "amount": "1300万美元",
+      "display": "1300万美元 (2025-01)"
+    },
+    "funding_total": "$13M (截至2025年)",
+    "investors": [
+      "InvAscent (India Life Sciences Fund IV)"
+    ],
+    "stage": "未搜到",
+    "founded": "2019",
+    "highlights": "2018年创立",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 5.5,
+    "research_value": 39.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 养老护理服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入专业级护理赛道）。",
+    "source": "选题库",
+    "website_url": "https://www.gericare.com"
+  },
+  {
+    "serial": "#0563",
+    "name": "Hello Sage",
+    "name_cn": "Hello Sage",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2C/B2B 社区/居家服务",
+    "description": "总部位于纽约的老年生活运营管理平台提供商，为老年社区提供基于云的运营系统，帮助社区优化人员配置、提供更好的住户护理并提供数据洞察。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C/B2B 社区/居家服务",
+    "funding_latest": {
+      "date": "2024-12",
+      "amount": "3500万美元",
+      "display": "3500万美元 (2024-12)"
+    },
+    "funding_total": "$59M (截至2024年)",
+    "investors": [
+      "IVP",
+      "Animo Ventures",
+      "Distributed Ventures",
+      "Goldcrest Capital",
+      "Friends and Family Capital",
+      "Plus Capital"
+    ],
+    "stage": "未搜到",
+    "founded": "2022",
+    "highlights": "为老年社区提供基于云的运营系统",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 5.5,
+    "research_value": 39.6,
+    "recommend": "信号偏弱、信息量一般，其「B2C/B2B 社区/居家服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入专业级护理赛道）。",
+    "source": "选题库",
+    "website_url": "https://www.hellosage.com"
+  },
+  {
+    "serial": "#0626",
+    "name": "AssistMe",
+    "name_cn": "AssistMe",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "region": "海外",
+    "desc_cn": "B2B/B2C 银发行业服务",
+    "description": "德国柏林的护理数字化 SaaS 厂商。核心产品 alea 系统：基于传感夹+IoT+AI，实时监测失禁状态、跌倒与体位并自动生成护理记录，已获 CE 医疗器械认证，服务多家养老院。B2B 护理机构软件。",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "silver_verdict": "核心银发",
+    "payor_model": "B端机构采购/政府买单",
+    "business_model": "B2C/B2B 养老护理服务",
+    "funding_latest": {
+      "date": "2016年",
+      "amount": "510万美元",
+      "display": "510万美元 (2016年)"
+    },
+    "funding_total": {
+      "amount": "€5.2M (2025)",
+      "display": "€5.2M (2025)"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "未搜到",
+    "founded": "2019",
+    "highlights": "护理基础设施",
+    "signal_strength": 0.55,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 5.5,
+    "research_value": 39.6,
+    "recommend": "信号偏弱、信息量一般，其「B2B/B2C 银发行业服务」有一定差异点；复制需结合本地资源，部分环节可借鉴（切入行业媒体赛道）。",
+    "source": "选题库V4",
+    "website_url": "https://www.assistme.com"
+  }
+]

@@ -1,0 +1,715 @@
+{
+  "batch": 11,
+  "enterprises": [
+    {
+      "serial": "#0474",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 50.6,
+      "recommend": {
+        "rec_v1": "资本持续加注认知症赛道，公开资料已能勾勒其支付方协作路径。它把患者治疗与家属照护者支持打包，反常识地跳出纯医疗框架；国内长护险试点正缺这类全家支持样板，可拆抄其服务包设计。",
+        "rec_v2": "行业对痴呆照护关注度走高，其雇主与支付方合作细节有迹可循。差异化在于用行为健康加照护者培训补足人力缺口，而非堆机构；国内居家照护人力紧，这套轻资产协作模式值得对照落地。",
+        "rec_v3": "认知症是确定性增量市场，媒体与融资动态便于持续追踪。它把记忆保健、行为干预、家属赋能做成闭环，难在支付方谈判；国内可先学其照护者赋能模块，避开重资产陷阱。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 50.6
+      },
+      "payor_model": "商业保险+个人自付",
+      "business_tags_role": "服务商",
+      "desc_cn": "美国认知症照护与家属支持服务商",
+      "founded": 2021,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-10",
+          "text": "完成2300万美元融资，累计约7540万美元"
+        }
+      ],
+      "highlights": [
+        "专注痴呆症全周期照护",
+        "同时服务患者与家属照护者",
+        "获ARCH Venture等投资，累计融资约7540万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注认知症(痴呆)照护，直接服务老年人群及其家属照护者。"
+    },
+    {
+      "serial": "#0480",
+      "signal_strength": 3.55,
+      "info_score": 7,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 55.7,
+      "recommend": {
+        "rec_v1": "银发防诈理财赛道被头部基金看好，其运作模式在公开渠道有清晰穿透。它把账户托管、消费监控与亲属预警做成防线，而非单纯代销；国内适老金融起步，这种守富加防骗结构值得拆学。",
+        "rec_v2": "资本押注老年财富守护，公司披露的业务闭环便于研究者临摹。亮点是用算法在交易环节拦截欺骗，把金融安全产品化；国内子女远程看护父母账目有强需求，可参考其预警机制。",
+        "rec_v3": "老年金融欺诈损失巨大，该案例的合规架构与风控逻辑有公开可查价值。它把受托管理与反诈服务绑定，绕开销售导向；国内养老资金监管趋严，这套受托加防护定位有参照意义。",
+        "info_score": 7,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 55.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "面向老年人防欺诈的资产管理与理财平台",
+      "founded": 2012,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "管理资产超10亿美元",
+        "服务家庭超25万",
+        "防金融欺诈的受托账户与监控卡"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向老年人与残疾人的防欺诈资产管理，是银发财富安全刚需。"
+    },
+    {
+      "serial": "#0483",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "雇主健康福利正把护理当刚需，其全职专家网络已被资本反复验证。差异化是用技术把碎片护理需求从育儿到临终一站式协调；国内护理协调员角色缺位，其平台化派单可借鉴。",
+        "rec_v2": "护理服务被风投视为高黏性赛道，其B2B+B2C双轮在官网可详查。它卖护理导航而非直接看护，轻资产撬动家庭决策；国内可学其把复杂照护流程做成标准化服务包。",
+        "rec_v3": "全生命周期照护是确定性方向，其融资与合作伙伴动态便于跟踪。它让护理专家远程统筹就医、保险与家政，降低家庭负担；国内独居老人增多，这类护理指挥中枢模式有落地空间。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 48.7
+      },
+      "payor_model": "企业福利支付+个人自付",
+      "business_tags_role": "平台",
+      "desc_cn": "全生命周期护理协调平台(雇主福利+个人)",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "数百名全职护理专家",
+        "B2B雇主福利+B2C双轮",
+        "覆盖从育儿到临终的全周期护理"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "护理协调服务大量老年失能家庭，属养老照护核心环节。"
+    },
+    {
+      "serial": "#0560",
+      "signal_strength": 3.55,
+      "info_score": 8,
+      "diff_score": 8,
+      "copy_score": 4,
+      "research_value": 58.6,
+      "recommend": {
+        "rec_v1": "非药物神经调控走热，其获批与保险覆盖进展被主流媒体跟踪。差异化在于把处方级震颤治疗做成可穿戴、按疗效收费；国内康复器械多卖硬件，可学其疗法加报销闭环。",
+        "rec_v2": "资本追捧数字疗法，其大牌药企背书与临床数据公开可查。亮点是设备绑定Medicare，让患者零首付用上；国内商保刚试水康复，这种支付设计值得研究。",
+        "rec_v3": "特发性震颤无药可治的痛点清晰，该公司的监管路径有标杆价值。它用体表刺激替代手术，把慢性症状管理消费品化；国内同类硬件强但服务弱，可抄其临床加支付组合拳。",
+        "info_score": 8,
+        "diff_score": 8,
+        "copy_score": 4,
+        "signal_strength": 3.55,
+        "research_value": 58.6
+      },
+      "payor_model": "医保+个人自付",
+      "business_tags_role": "产品商",
+      "desc_cn": "FDA批准非药物震颤治疗可穿戴设备商",
+      "founded": 2014,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2024-12",
+          "text": "完成5000万美元增长轮"
+        }
+      ],
+      "highlights": [
+        "FDA批准的非侵入式震颤治疗可穿戴",
+        "绑定Medicare支付",
+        "累计融资约2.57亿美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "特发性震颤高发于老年，FDA获批可穿戴直接服务银发慢病。"
+    },
+    {
+      "serial": "#0634",
+      "signal_strength": 3.55,
+      "info_score": 9,
+      "diff_score": 8,
+      "copy_score": 4,
+      "research_value": 61.6,
+      "recommend": {
+        "rec_v1": "自动化闭环胰岛素输送获批即上市，其IPO与临床证据被全球媒体覆盖。差异化是iLet无需算碳水、自动调剂量，解放老年糖友；国内泵企多在手动档，可学其傻瓜式算法与报销策略。",
+        "rec_v2": "糖尿病器械站上风口，其招股书与适应症数据透明可溯。它把仿生胰腺做成首获批闭环设备，降使用门槛；国内老龄糖友多、自我管理难，这套自动输送思路有借鉴价值。",
+        "rec_v3": "慢病自主管理是银发刚需，该公司从VC到敲钟的路径完整可研究。它用AI替代护士算剂量，减少老年患者操作失误；国内可关注其设备加培训加医保的一体化打法。",
+        "info_score": 9,
+        "diff_score": 8,
+        "copy_score": 4,
+        "signal_strength": 3.55,
+        "research_value": 61.6
+      },
+      "payor_model": "医保+个人自付",
+      "business_tags_role": "产品商",
+      "desc_cn": "自动化胰岛素输送(iLet仿生胰腺)医疗器械商",
+      "founded": 2015,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2025-01-31",
+          "text": "纳斯达克IPO(代码BBNX)，募资超2.29亿美元，iLet仿生胰腺上市"
+        }
+      ],
+      "highlights": [
+        "iLet仿生胰腺获FDA批准(首款自动化胰岛素输送)",
+        "2025年1月纳斯达克IPO募资超2.29亿美元",
+        "累计融资约3.49亿美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "糖尿病含大量老年患者，自动化胰岛素输送利好老年慢病管理。"
+    },
+    {
+      "serial": "#0642",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "有机奶粉DTC订阅被消费基金看好，其欧盟标准与供应链故事公开透明。差异化在订阅直送加透明配方，而非渠道铺货；但与银发无关，国内养老食品创业者难直接借鉴其母婴打法。",
+        "rec_v2": "婴童营养赛道资本活跃，其增长轮与渠道策略有案可查。亮点是用订阅制锁定复购、建立信任；虽模式清晰，目标人群为产妇婴儿，对老年营养品仅剩订阅形式可参考。",
+        "rec_v3": "DTC消费品牌方法论成熟，该公司合规与营销路径便于临摹。它靠订阅加内容建立母婴社群；除去订阅制外壳，其人群运营与银发几乎无交集，研究价值主要体现在通用DTC层面。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 3.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "美国有机婴儿配方奶粉DTC订阅品牌",
+      "founded": 2018,
+      "stage": "成长期",
+      "events": [],
+      "highlights": [
+        "有机婴儿配方奶粉DTC订阅",
+        "主打欧盟标准配方",
+        "C轮7000万美元(2023)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "婴儿配方奶粉DTC品牌，目标人群为产妇与婴儿，与老龄化/养老赛道无交集(分类错误)。"
+    },
+    {
+      "serial": "#0717",
+      "signal_strength": 3.55,
+      "info_score": 8,
+      "diff_score": 7,
+      "copy_score": 5,
+      "research_value": 58.7,
+      "recommend": {
+        "rec_v1": "心理健康的保险支付被巨头押注，其治疗师网络与估值跃升屡见报端。差异化是直连商保与Medicaid，把看诊自付降到极低；国内心理服务支付弱，可学其保险直连降本模型。",
+        "rec_v2": "资本看涨行为健康，其平台匹配逻辑与雇主合作细节公开可查。它用B2B2C撬动保险与雇主买单，而非个人掏腰包；国内可借鉴其把精神科资源通过平台均摊的做法。",
+        "rec_v3": "老年抑郁就诊难是共性痛点，该公司覆盖保险的用户规模有追踪价值。它把预约、匹配、报销一键化，缩短等待；国内可抄其平台加支付方两端撬动的轻模式。",
+        "info_score": 8,
+        "diff_score": 7,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 58.7
+      },
+      "payor_model": "保险支付+个人自付",
+      "business_tags_role": "平台",
+      "desc_cn": "保险直连的线上心理治疗匹配平台",
+      "founded": 2020,
+      "stage": "成长期",
+      "events": [
+        {
+          "date": "2026-03-03",
+          "text": "D轮1.5亿美元，估值达30亿美元"
+        }
+      ],
+      "highlights": [
+        "平台汇聚2.6万+治疗师",
+        "直连商保与Medicaid",
+        "2026年3月D轮1.5亿美元、估值30亿"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "心理健康平台覆盖老年抑郁人群，保险直连降低老年就诊门槛。"
+    },
+    {
+      "serial": "#0722",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "初级诊疗连锁被顶级基金布局，其诊所网络与融资节奏有公开记录。差异化在把专科与初级care整合进社区，贴近慢病老人；国内基层医疗连锁可参考其就近加整合选址逻辑。",
+        "rec_v2": "资本看好下沉医疗可及性，其B轮与扩张计划可查。亮点是诊所同时接医保与商业支付，做全人管理；国内社区诊所可学其慢病随访与多学科协作流程。",
+        "rec_v3": "社区医疗是银发前哨，该公司从0到多州诊所的路径有样本意义。它用统一系统管预约、病历与支付，降低运营摩擦；国内连锁诊所要补的正是这套中台能力。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 3.55,
+        "research_value": 44.6
+      },
+      "payor_model": "医保+商业保险+个人自付",
+      "business_tags_role": "运营商",
+      "desc_cn": "初级与专科诊所连锁医疗集团",
+      "founded": 2022,
+      "stage": "成长期",
+      "events": [],
+      "highlights": [
+        "初级+专科诊所连锁",
+        "B轮9550万美元(2024)",
+        "获General Catalyst等投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "初级与专科诊所连锁，服务含Medicare老年群体，贴近社区慢病老人。"
+    },
+    {
+      "serial": "#0729",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 52.6,
+      "recommend": {
+        "rec_v1": "心血管数字健康被险企追捧，其血压硬件加APP组合有公开评测。差异化是把监测数据反哺保险风控，做预防管理；国内可学其设备加健康计划绑定雇主的获客法。",
+        "rec_v2": "慢病监测赛道资本稳进，其D轮与临床结果可溯源。亮点是用无线袖带替代诊室随访，提升依从；国内可借鉴其把居家数据变成保险减费依据的设计。",
+        "rec_v3": "高血压管理是银发高频需求，该公司的产品闭环便于研究者拆解。它让患者在家测、APP读、医生看，形成提醒链；国内硬件强但服务弱，可抄其数据到干预运营。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 3.55,
+        "research_value": 52.6
+      },
+      "payor_model": "保险支付+个人自付",
+      "business_tags_role": "产品商",
+      "desc_cn": "心血管健康监测(血压袖带+APP)服务商",
+      "founded": 2013,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "无线血压袖带+APP",
+        "D轮7000万美元(2022)",
+        "通过雇主健康计划触达用户"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "心血管监测高发于老年，血压管理是银发慢病核心场景。"
+    },
+    {
+      "serial": "#0732",
+      "signal_strength": 3.55,
+      "info_score": 7,
+      "diff_score": 8,
+      "copy_score": 7,
+      "research_value": 61.7,
+      "recommend": {
+        "rec_v1": "保险支付方下场整合居家服务成新趋势，其覆盖的支付方与服务商数被披露。差异化是把送餐、保洁、适老化改造聚成一张网；国内长护险正缺这种服务超市，可直接抄架构。",
+        "rec_v2": "资本看好居家养老的基础设施，其B2B嫁接险企的路径公开可查。亮点是非医疗服务也由保险买单，扩大可及；国内可学其把零散供应商标准化的准入与派单机制。",
+        "rec_v3": "非医疗居家支持被严重低估，该公司连接43家支付方的规模有标杆性。它用技术撮合护工、改造、送餐，减轻家庭照护；国内长护险落地正需要这类聚合平台样本。",
+        "info_score": 7,
+        "diff_score": 8,
+        "copy_score": 7,
+        "signal_strength": 3.55,
+        "research_value": 61.7
+      },
+      "payor_model": "保险支付(B端)",
+      "business_tags_role": "平台",
+      "desc_cn": "连接保险方与居家非医疗服务的平台",
+      "founded": 2018,
+      "stage": "成长期",
+      "events": [
+        {
+          "date": "2025-01",
+          "text": "C轮3500万美元"
+        }
+      ],
+      "highlights": [
+        "连接43家保险支付方与2万+服务商",
+        "覆盖居家护理/适老化改造/送餐/保洁",
+        "C轮3500万美元(2025)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "连接险企与居家非医疗服务(护理/适老化改造)，老年居家养老基础设施。"
+    },
+    {
+      "serial": "#0738",
+      "signal_strength": 3.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 3,
+      "research_value": 42.7,
+      "recommend": {
+        "rec_v1": "代餐功能性食品受消费资本青睐，其营养配方与DTC打法透明可学。差异化在全营养定位加订阅复购，而非单一保健品；但与银发关联弱，国内老年食品仅能借鉴其营养标准化思路。",
+        "rec_v2": "泛健康饮食走热，其产品矩阵与渠道策略有公开资料。亮点是用科学叙事建立信任、用订阅锁客；目标人群偏年轻上班族，对老年营养品参考价值限于营养密度加便捷形式。",
+        "rec_v3": "功能性营养品牌方法论成熟，其供应链与营销可临摹。它把代餐做成日常刚需、降低决策；除去全营养概念，与老龄化直接交集有限，研究价值偏通用消费层面。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 3,
+        "signal_strength": 3.55,
+        "research_value": 42.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "全营养代餐功能性食品DTC品牌",
+      "founded": 2015,
+      "stage": "融资中",
+      "events": [],
+      "highlights": [
+        "全营养代餐功能性食品",
+        "私募股权8250万美元(2023)",
+        "DTC订阅品牌"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "全营养代餐面向泛健康年轻人群，非老年专属，与银发仅营养概念弱相关。"
+    },
+    {
+      "serial": "#0743",
+      "signal_strength": 3.55,
+      "info_score": 7,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 51.6,
+      "recommend": {
+        "rec_v1": "医疗人力紧缺推高护理招聘平台价值，其资本青睐与被投方公开。差异化是护士技能垂直匹配加快速上岗，而非通用招聘；国内养老护理员荒，可学其技能标签加极速匹配机制。",
+        "rec_v2": "资本看好医疗人力基础设施，其B轮与雇主网络可查。亮点是用算法缩短医院空缺周期、绑定护士职业成长；国内可借鉴其把护理人力做成垂直交易市场的思路。",
+        "rec_v3": "护理供给失衡是银发隐忧，该公司从招聘切入的路径有样本价值。它让护士绕过中介直连医院、提升留存；国内养老机构招人难，可抄其透明评级加职业路径运营法。",
+        "info_score": 7,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 3.55,
+        "research_value": 51.6
+      },
+      "payor_model": "B端机构采购",
+      "business_tags_role": "平台",
+      "desc_cn": "护士垂直招聘与配置平台",
+      "founded": 2017,
+      "stage": "成长期",
+      "events": [],
+      "highlights": [
+        "护士垂直招聘与配置平台",
+        "估值16.5亿美元",
+        "B轮8000万美元(2022)"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "护士配置平台缓解护理人力短缺，直接支撑养老与老年医疗照护供给。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0474",
+      "name": "Rippl Care",
+      "intro": "美国专注痴呆症(认知症)照护的企业，为认知症患者及其家属照护者提供记忆保健、行为健康与照护支持服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "心理健康",
+          "认知症"
+        ],
+        "business_tags": {
+          "customer": "未标注",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "照护者支持",
+          "reason": "同时服务患者与家属照护者，现标签偏窄未体现照护者维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0480",
+      "name": "True Link Financial",
+      "intro": "面向老年人与残疾人的防金融欺诈资产管理平台，提供受托账户、消费监控与亲属预警。",
+      "old_tags": {
+        "tag_l1": [
+          "金融保险"
+        ],
+        "tag_l2": [
+          "金融理财"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "防欺诈",
+          "reason": "核心差异化是老年防金融欺诈，现仅金融理财未体现"
+        }
+      ]
+    },
+    {
+      "serial": "#0483",
+      "name": "Wellthy",
+      "intro": "技术驱动的护理协调平台，拥有数百名全职护理专家，以B2B雇主福利+B2C模式覆盖从育儿到临终的全周期护理需求。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "照护支持"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "护理协调平台",
+          "reason": "定位是用技术统筹碎片护理需求，偏平台而非单纯服务商"
+        }
+      ]
+    },
+    {
+      "serial": "#0560",
+      "name": "Cala Health",
+      "intro": "开发FDA批准的非侵入式可穿戴设备，用于缓解特发性震颤(常见于老年人群)，与Medicare保险绑定提供非药物解决方案。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "神经康复",
+          "reason": "适应症为特发性震颤等神经运动障碍，现标签未显神经病种"
+        }
+      ]
+    },
+    {
+      "serial": "#0634",
+      "name": "Beta Bionics",
+      "intro": "自动化胰岛素输送系统(iLet仿生胰腺)医疗器械商，获FDA批准、2025年1月纳斯达克IPO，面向1型及老年糖尿病患者。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "医疗器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "糖尿病管理",
+          "reason": "主打下闭环胰岛素输送，现医疗器械过泛未体现慢病病种"
+        }
+      ]
+    },
+    {
+      "serial": "#0642",
+      "name": "Bobbie",
+      "intro": "美国有机婴儿配方奶粉DTC订阅品牌，主打欧盟标准配方，目标人群为产妇与婴儿，与银发无关。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "营养食品"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "营养食品→母婴食品",
+          "reason": "实为婴儿配方奶粉，非老年营养，属分类错误"
+        }
+      ]
+    },
+    {
+      "serial": "#0717",
+      "name": "Grow Therapy",
+      "intro": "保险直连的线上心理治疗匹配平台，汇聚2.6万+治疗师，直连商保与Medicaid，覆盖含老年抑郁在内的人群。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "心理健康"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "保险支付",
+          "reason": "直连商保/Medicaid是其核心，现缺支付维度标签"
+        }
+      ]
+    },
+    {
+      "serial": "#0722",
+      "name": "Harbor Health",
+      "intro": "初级与专科诊所连锁医疗集团，服务含Medicare老年群体，贴近社区做慢病管理。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "诊所"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0729",
+      "name": "Hello Heart",
+      "intro": "心血管健康监测服务商，提供无线血压袖带+APP，通过雇主健康计划触达用户。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "可穿戴监测"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": [
+            "线上"
+          ]
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0732",
+      "name": "Helper bees",
+      "intro": "连接保险支付方与居家非医疗服务商的技术平台，覆盖居家护理、适老化改造、送餐、保洁、交通等，已接入43家支付方。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护工平台"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "居家服务整合",
+          "reason": "业务覆盖送餐/保洁/适老化改造等非医疗居家服务，现护工平台偏窄"
+        }
+      ]
+    },
+    {
+      "serial": "#0738",
+      "name": "Huel",
+      "intro": "全营养代餐功能性食品DTC品牌，面向泛健康年轻人群，非老年专属营养。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "功能性食品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "功能性食品→泛健康代餐",
+          "reason": "面向年轻泛健康人群，非银发专属，标签应反映人群属性"
+        }
+      ]
+    },
+    {
+      "serial": "#0743",
+      "name": "Incredible Health",
+      "intro": "护士垂直招聘与配置平台，估值16.5亿美元，用算法做技能匹配与极速上岗，缓解护理人力短缺。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "护士派遣"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0642",
+      "name": "Bobbie",
+      "verdict": "非银发",
+      "reason": "婴儿配方奶粉DTC品牌，目标人群为产妇与婴儿，与老龄化/养老赛道无交集，属数据集分类错误。"
+    },
+    {
+      "serial": "#0738",
+      "name": "Huel",
+      "verdict": "泛医疗擦边",
+      "reason": "全营养代餐功能性食品，面向泛健康年轻人群，非老年专属，与银发仅营养概念弱相关。"
+    }
+  ]
+}

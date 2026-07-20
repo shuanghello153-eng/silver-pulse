@@ -1,0 +1,720 @@
+{
+  "batch": 38,
+  "enterprises": [
+    {
+      "serial": "#0196",
+      "signal_strength": 0.55,
+      "info_score": 8,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但A股上市资料极详；家庭电视购物面向全龄非老年专项，差异化有限，银发创业者难直接借鉴。",
+        "rec_v2": "声量低却披露充分；媒体零售平台同质化高，值得看其内容加带货模型，但无专门银发服务场景。",
+        "rec_v3": "早期弱信号但信息扎实；亮点是芒果系电视购物龙头，国内可学其媒体零售打法而非用户定位。",
+        "info_score": 8,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "家庭电视购物与媒体零售平台",
+      "founded": 2005,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2015",
+          "text": "A股上市（现芒果超媒）"
+        }
+      ],
+      "highlights": [
+        "湖南广电旗下家庭电视购物与媒体零售",
+        "2005年创立，2015年A股上市（现芒果超媒）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "综合电视购物与媒体零售平台，面向家庭全龄消费者，无银发专项业务"
+    },
+    {
+      "serial": "#0197",
+      "signal_strength": 0.55,
+      "info_score": 7,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号弱但拼多多系与1500亿GMV信息可信；团长私域分销差异化在模式，非银发赛道借鉴其裂变。",
+        "rec_v2": "声量低却数据透明；团长分销连接供需是反常识切口，国内可学其私域运营，但非老年专属。",
+        "rec_v3": "早期弱信号但资料完整；亮点是千亿级私域团购工具，创业者能抄其团长体系，银发需另做适老改造。",
+        "info_score": 7,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 44.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "微信私域团购分销电商平台",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "拼多多旗下微信私域团购工具",
+        "团长分销模式，覆盖90余行业",
+        "2022年GMV达1500亿元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "通用私域团购电商平台，面向全龄消费者，无银发专项业务"
+    },
+    {
+      "serial": "#0198",
+      "signal_strength": 0.55,
+      "info_score": 9,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 48.7,
+      "recommend": {
+        "rec_v1": "信号弱但创业板上市信息极详；家用呼吸机龙头差异化在研发与渠道，可学其慢病管理软硬件一体。",
+        "rec_v2": "声量低却披露充分；通气面罩睡眠监测属常规器械，值得看其呼吸健康全周期打法，复制需注册。",
+        "rec_v3": "早期弱信号但资料扎实；亮点是国产呼吸机上市龙头，国内可借鉴其设备加慢病管理服务延伸。",
+        "info_score": 9,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 48.7
+      },
+      "payor_model": "个人自费+医保",
+      "business_tags_role": "产品商",
+      "desc_cn": "家用无创呼吸机龙头制造商",
+      "founded": 2001,
+      "stage": "已上市",
+      "events": [
+        {
+          "date": "2022",
+          "text": "登陆创业板（股票代码301367）"
+        }
+      ],
+      "highlights": [
+        "家用无创呼吸机与通气面罩龙头",
+        "产品覆盖呼吸机/面罩/睡眠监测/高流量湿化氧疗",
+        "2022年登陆创业板（301367）"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "家用无创呼吸机龙头，服务老年睡眠呼吸与慢病"
+    },
+    {
+      "serial": "#0199",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱但2025上半年出口超千万美元信息可查；成人护理用品制造属常规，可学其外贸与产线。",
+        "rec_v2": "声量低而数据透明；纸尿裤拉拉裤同质化高，值得看其出口能力，国内创业者能抄其产能加外销。",
+        "rec_v3": "早期弱信号但资料完整；亮点是银发成人护理用品出口商，国内可借鉴其母婴加成人双线生产模型。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "成人护理用品出口制造商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "主营成人纸尿裤/拉拉裤及母婴护理",
+        "远销欧美",
+        "2025年上半年出口额超1000万美元"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "成人护理用品（纸尿裤），服务老年失禁人群"
+    },
+    {
+      "serial": "#0200",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 43.7,
+      "recommend": {
+        "rec_v1": "信号弱但残联定点与自研仿生手信息扎实；辅具连锁加自研差异化足，可学其代理加研发双轨。",
+        "rec_v2": "声量低却网络领先；假肢矫形器连锁是稳健打法，国内创业者能抄其标准化配置与售后服务体系。",
+        "rec_v3": "早期弱信号但资料完整；亮点是规模领先辅具连锁，国内可借鉴其自研仿生手提升毛利路径。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 43.7
+      },
+      "payor_model": "个人自费+政府项目采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "假肢矫形器辅具连锁配置商",
+      "founded": 2003,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "假肢矫形器辅助器具配置连锁",
+        "代理英国Blatchford假肢并自研智能仿生手/仿生膝关节",
+        "残联定点单位"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "假肢矫形器与助听器辅具，服务老年及残障人群"
+    },
+    {
+      "serial": "#0201",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 8,
+      "research_value": 44.6,
+      "recommend": {
+        "rec_v1": "信号弱但获红杉投资信息可查；聚焦银发居家消费电商差异化明显，国内银发电商空白可直接借鉴。",
+        "rec_v2": "声量低而模式清晰；专做中老年居家消费品是反常识切口，创业者能抄其选品与代际信任打法。",
+        "rec_v3": "早期弱信号但业务辨识高；亮点是红杉系银发电商，国内可学其人群垂直加居家刚需选品模型。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 8,
+        "signal_strength": 0.55,
+        "research_value": 44.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "聚焦银发人群的电商平台",
+      "founded": null,
+      "stage": "融资中",
+      "events": [
+        {
+          "date": "2019",
+          "text": "创立并获红杉等机构投资"
+        }
+      ],
+      "highlights": [
+        "中老年群体电商平台",
+        "与染博士同体系，聚焦银发居家消费品",
+        "2019年获红杉等投资"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "聚焦银发人群的居家消费品电商，用户为老年群体"
+    },
+    {
+      "serial": "#0202",
+      "signal_strength": 0.55,
+      "info_score": 4,
+      "diff_score": 5,
+      "copy_score": 7,
+      "research_value": 37.7,
+      "recommend": {
+        "rec_v1": "信号弱但街道慈善适老项目信息可查；居家适老化改造差异化在场景，政策补贴利好可低成本复制。",
+        "rec_v2": "声量低而资料单薄；扶手防滑等微改造是轻切口，国内创业者能抄其政府项目加上门施工模型。",
+        "rec_v3": "早期弱信号但模式透明；亮点是社区适老化改造施工，国内可学其借慈善/政府采购切入的获客法。",
+        "info_score": 4,
+        "diff_score": 5,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 37.7
+      },
+      "payor_model": "个人自费+政府补贴",
+      "business_tags_role": "服务商",
+      "desc_cn": "居家适老化改造施工服务",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "专注居家适老化改造",
+        "床边扶手/洗澡椅/防滑等改造施工",
+        "曾承接街道慈善适老化项目"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "居家适老化改造施工，服务高龄长者居家安全"
+    },
+    {
+      "serial": "#0203",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但床位超1万张信息可信；公建民营加自建自营差异化在模式，可学其政府加自营双线。",
+        "rec_v2": "声量低却资料完整；失智失能专业照护是刚需切口，国内创业者能抄其公建民营轻资产扩张。",
+        "rec_v3": "早期弱信号但业务扎实；亮点是上市系医康养运营商，国内可借鉴其床位规模加医养结合打法。",
+        "info_score": 6,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费+政府补贴",
+      "business_tags_role": "运营商",
+      "desc_cn": "医康养床位专业照护运营商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "悦心健康（002162）旗下康养品牌",
+        "失智失能长者专业照护",
+        "公建民营+自建自营，床位超1万张"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "失智失能长者专业照护，医康养床位运营"
+    },
+    {
+      "serial": "#0204",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱但全媒体零售信息可查；电视购物面向全龄非老年专项，差异化有限，银发创业者难直接借鉴。",
+        "rec_v2": "声量低却模式常规；居家生活品零售同质化高，值得看其全媒体渠道，但无专门银发服务场景。",
+        "rec_v3": "早期弱信号但资料完整；亮点是电视购物零售集团，国内创业者可学其渠道打法而非用户定位。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "服务商",
+      "desc_cn": "电视购物与全媒体电商零售",
+      "founded": 2010,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "电视购物与全媒体电商零售集团",
+        "主营居家生活类商品零售"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "非银发",
+      "silver_reason": "综合电视购物与全媒体电商零售，面向全龄，无专门服务老年人业务"
+    },
+    {
+      "serial": "#0205",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 44.7,
+      "recommend": {
+        "rec_v1": "信号弱但团队超1200人信息清晰；安宁疗护三位一体差异化强，国内临终关怀空白创业者可借鉴。",
+        "rec_v2": "声量低却模式完整；引入日英疗护理念是反常识切口，国内可学其机构-社区-居家联动体系。",
+        "rec_v3": "早期弱信号但业务辨识高；亮点是生命关怀服务品牌，国内创业者能抄其陪伴照护标准化培训。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 44.7
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "服务商",
+      "desc_cn": "安宁疗护与生命关怀服务",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "安宁疗护与生命关怀服务",
+        "引入日本殡仪与英国临终关怀理念",
+        "机构-社区-居家三位一体，团队超1200人"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "安宁疗护与生命关怀，服务临终长者及家属"
+    },
+    {
+      "serial": "#0206",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 8,
+      "research_value": 46.7,
+      "recommend": {
+        "rec_v1": "信号弱但slowgar技术与10万用户信息扎实；低GI控糖主食差异化强，慢病食品国内空白可落地。",
+        "rec_v2": "声量低而技术清晰；把主食改造成低升糖是反常识切口，创业者能抄其控糖食品加全渠道模型。",
+        "rec_v3": "早期弱信号但业务辨识高；亮点是低GI控糖品牌，国内可学其三维缓释技术应用于银发膳食。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 8,
+        "signal_strength": 0.55,
+        "research_value": 46.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "低GI控糖主食食品品牌",
+      "founded": 2021,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "低GI控糖食品品牌（2024升级慢教授）",
+        "slowgar三维碳水缓释技术",
+        "全渠道用户超10万"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "低GI控糖食品服务糖尿病人群（含大量老年慢病者）但也覆盖孕期控糖，非专属银发产品"
+    },
+    {
+      "serial": "#0207",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 47.7,
+      "recommend": {
+        "rec_v1": "信号弱但800万家庭信息可信；父母帮子女相亲差异化强，银发父母社交空白创业者可借鉴。",
+        "rec_v2": "声量低却模式新颖；把相亲角搬线上由父母代劳是反常识切口，国内可学其红娘精准匹配体系。",
+        "rec_v3": "早期弱信号但资料完整；亮点是长辈代际婚恋平台，国内创业者能抄其父母社群加信任背书打法。",
+        "info_score": 6,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 47.7
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "平台",
+      "desc_cn": "父母代子女相亲婚恋平台",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "完美世界旗下婚恋平台",
+        "首创父母帮子女相亲模式",
+        "服务超800万家庭"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "父母帮子女相亲平台，活跃用户为银发父母群体"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0196",
+      "name": "快乐购",
+      "intro": "快乐购物股份（湖南广电旗下，现芒果超媒）是国内领先的家庭电视购物与媒体零售平台。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商",
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体零售)",
+          "reason": "实际为电视购物/媒体零售平台，原role误标为服务商(媒体/数据)，建议改为服务商(媒体零售)"
+        }
+      ]
+    },
+    {
+      "serial": "#0197",
+      "name": "快团团",
+      "intro": "快团团是拼多多推出的微信私域团购工具与电商平台，采用团长分销模式，2022年GMV达1500亿元。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "平台",
+          "reason": "实际为私域团购电商平台，原role误标为服务商(媒体/数据)，建议改为平台"
+        }
+      ]
+    },
+    {
+      "serial": "#0198",
+      "name": "怡和嘉业",
+      "intro": "怡和嘉业（301367）是国内家用无创呼吸机与通气面罩龙头，2022年登陆创业板。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "医疗器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为医疗器械制造商，原role误标为制造商(硬件/设备)，建议规范为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0199",
+      "name": "恒发",
+      "intro": "恒发（疑为山东恒发卫生用品）主营成人护理用品，产品含成人纸尿裤、拉拉裤，远销欧美。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "纸尿裤"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为成人护理用品制造商，原role误标为服务商(媒体/数据)，建议改为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0200",
+      "name": "恩德莱",
+      "intro": "恩德莱是国内规模领先的假肢矫形器辅助器具配置连锁企业，自研智能仿生手，残联定点单位。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为康复辅具制造商兼连锁配置商，原role误标为制造商(硬件/设备)，建议规范为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0201",
+      "name": "悟空百货",
+      "intro": "悟空百货（北京泽它贸易）是聚焦银发人群居家消费品的中老年群体电商平台，获红杉投资。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "平台",
+          "reason": "实际为中老年电商平台，原role误标为服务商(媒体/数据)，建议改为平台"
+        }
+      ]
+    },
+    {
+      "serial": "#0202",
+      "name": "悠幸",
+      "intro": "悠幸是专注居家适老化改造的服务品牌，为高龄长者提供床边扶手加装、防滑等改造施工。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "适老化"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商",
+          "reason": "实际为适老化改造施工服务商，原role误标为平台，建议改为服务商"
+        }
+      ]
+    },
+    {
+      "serial": "#0203",
+      "name": "悦心安颐",
+      "intro": "悦心安颐是悦心健康旗下康养品牌，提供失智失能长者专业照护，床位超1万张。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "运营商",
+          "reason": "实际为医康养床位运营商，原role误标为平台，建议改为运营商"
+        }
+      ]
+    },
+    {
+      "serial": "#0204",
+      "name": "惠买集团",
+      "intro": "惠买集团是电视购物与全媒体电商零售集团，主营居家生活类商品零售。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "电商",
+          "零售"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "服务商(媒体零售)",
+          "reason": "实际为电视购物/全媒体零售集团，原role误标为服务商(媒体/数据)，建议改为服务商(媒体零售)"
+        }
+      ]
+    },
+    {
+      "serial": "#0205",
+      "name": "慈康生命",
+      "intro": "慈康生命专注安宁疗护与生命关怀服务，引入日英理念，提供机构-社区-居家三位一体服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "安宁疗护"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "服务商",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0206",
+      "name": "慢糖家",
+      "intro": "慢糖家（2024升级慢教授）是低GI控糖食品品牌，以slowgar技术将主食改造成低升糖食品。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "糖尿病"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "产品商",
+          "reason": "实际为控糖食品制造商，原role误标为制造商(消费品)，建议规范为产品商"
+        }
+      ]
+    },
+    {
+      "serial": "#0207",
+      "name": "成家相亲",
+      "intro": "成家相亲是完美世界旗下婚恋平台，首创父母帮子女相亲模式，服务超800万家庭。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "相亲"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0196",
+      "name": "快乐购",
+      "verdict": "非银发",
+      "reason": "综合电视购物与媒体零售平台，面向家庭全龄消费者，无银发专项业务"
+    },
+    {
+      "serial": "#0197",
+      "name": "快团团",
+      "verdict": "非银发",
+      "reason": "通用私域团购电商平台，面向全龄消费者，无银发专项业务"
+    },
+    {
+      "serial": "#0204",
+      "name": "惠买集团",
+      "verdict": "非银发",
+      "reason": "综合电视购物与全媒体电商零售，面向全龄，无专门服务老年人业务"
+    },
+    {
+      "serial": "#0206",
+      "name": "慢糖家",
+      "verdict": "泛医疗擦边",
+      "reason": "低GI控糖食品服务糖尿病人群（含大量老年慢病者）但也覆盖孕期控糖，非专属银发产品"
+    }
+  ]
+}

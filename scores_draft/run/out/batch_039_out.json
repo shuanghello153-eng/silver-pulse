@@ -1,0 +1,661 @@
+{
+  "batch": 39,
+  "enterprises": [
+    {
+      "serial": "#0208",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 5,
+      "copy_score": 5,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱但资料较实；智能洗浴与护理机器人切失能清洁痛点，差异化清晰，中小团队可抄其硬件+上门轻量打法。",
+        "rec_v2": "信号低、信息中等；便携洗浴设备替代人工助浴是亮点，可复制性强，国内长护险扩面正需此类辅具方案。",
+        "rec_v3": "信号偏弱、披露有限；其护理机器人主打卧床清洁属差异化方向，可借鉴性高，创业者可学它从单点设备切入照护。",
+        "info_score": 5,
+        "diff_score": 5,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费+B端机构采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "失能人群智能护理康复设备及服务商",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "自研智能便携洗浴机、护理机器人、助浴护理一体床",
+        "提供上门助浴与居家护理，面向卧床及失能人群",
+        "浙江企业，研发+服务一体"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "智能护理康复设备与服务直接面向失能/卧床老年人群，属银发核心刚需。"
+    },
+    {
+      "serial": "#0209",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 4,
+      "copy_score": 7,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但销量数据实；轻便折叠电动轮椅连续领先，差异化在性价比，模式易复制，可学其线上线下与认证打法。",
+        "rec_v2": "信号低、信息较足；CE认证与全网销量领先是亮点，产品常规但可借鉴，新品牌易复制其折叠轮椅定位。",
+        "rec_v3": "信号偏弱、资料清晰；小金刚折叠轮椅靠适老安全设计占市场，差异化一般却易抄，可学其出口定位。",
+        "info_score": 6,
+        "diff_score": 4,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "轻便折叠电动轮椅研发制造商",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "2022-2025连续三年全网电动轮椅销量领先",
+        "产品通过GB/T12996及欧盟CE认证",
+        "北京/上海/深圳设体验店，天猫京东旗舰店，累计服务十余万人"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "电动轮椅服务于行动不便老年人群，属银发辅具核心品类。"
+    },
+    {
+      "serial": "#0210",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 4,
+      "research_value": 32.6,
+      "recommend": {
+        "rec_v1": "信号弱但背景实；六颐体系+四级网做CCRC属差异化模式，重资产难复制，可学其公建民营与认知症照护。",
+        "rec_v2": "信号低、信息中等；招商局旗下五星机构是亮点，差异化常规但可借鉴，重资产门槛高宜学其智慧养老接入。",
+        "rec_v3": "信号偏弱、披露有限；其街道到家庭四级网有差异化参考价值，重投入难抄，可学其运营分层逻辑。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 4,
+        "signal_strength": 0.55,
+        "research_value": 32.6
+      },
+      "payor_model": "个人自费+保险支付",
+      "business_tags_role": "运营商",
+      "desc_cn": "招商局旗下CCRC与社区养老运营商",
+      "founded": 2020,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "招商蛇口旗下康养医护专业机构，旗舰为盐田招商观颐之家（公建民营五星）",
+        "主打'六颐'康养体系，含智慧养老、认知症照护、安宁疗护",
+        "构建街道-社区-小区-家庭四级养老服务网络"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "CCRC持续照料退休社区与机构养老直接服务老年人，银发核心业态。"
+    },
+    {
+      "serial": "#0211",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 6,
+      "research_value": 34.7,
+      "recommend": {
+        "rec_v1": "信号弱、资料较实；护理床助行器高度同质化差异化低，可复制性高，创业者应学其民政招投标集采切入。",
+        "rec_v2": "信号低、信息中等；衡水器械厂亮点在救灾物资采购，差异化低却易仿，宜学其B端机构打法。",
+        "rec_v3": "信号偏弱、披露有限；常规辅具难溢价差异化弱，可借鉴性强，中小厂可学它用招投标绑定医养渠道。",
+        "info_score": 5,
+        "diff_score": 3,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 34.7
+      },
+      "payor_model": "B端机构采购+个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "康养辅具(护理床/助行器)制造商",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "主营Ⅰ类医疗器械，产品含护理床、助行器、拐杖、座便椅等",
+        "服务于医院、养老院等机构",
+        "多次参与民政设备与救灾物资采购招投标"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "护理床、助行器等康养辅具服务于老年及失能人群，属银发辅具。"
+    },
+    {
+      "serial": "#0212",
+      "signal_strength": 0.55,
+      "info_score": 2,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 31.7,
+      "recommend": {
+        "rec_v1": "信号弱、信息极少；以银发时尚IP切中老年文娱属差异化打法，轻模式可复制，可学其内容+社群变现。",
+        "rec_v2": "信号低、披露有限；把老龄化做成时尚是亮点，差异化角度新且可借鉴，国内宜学其IP化运营。",
+        "rec_v3": "信号偏弱、资料单薄；其长者生活方式内容定位清晰有差异，模式轻可抄，宜学它用时尚叙事撬银发流量。",
+        "info_score": 2,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 31.7
+      },
+      "payor_model": "B端品牌合作+个人消费",
+      "business_tags_role": "服务商",
+      "desc_cn": "中老年时尚生活方式内容与IP",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "聚焦中老年群体生活方式与文娱内容",
+        "以银发时尚IP切入，区别于传统养老叙事",
+        "模式轻，内容+社群可快速起量"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "专注中老年群体文娱内容与时尚IP，直接服务银发人群精神消费。"
+    },
+    {
+      "serial": "#0213",
+      "signal_strength": 0.55,
+      "info_score": 6,
+      "diff_score": 5,
+      "copy_score": 6,
+      "research_value": 41.6,
+      "recommend": {
+        "rec_v1": "信号弱但历史资料实；四位一体+长护险护理站模式差异化明显，可复制，可学其医院陪护转社区照护。",
+        "rec_v2": "信号低、信息较足；2003起步覆盖十余省是亮点，差异化模式清晰可借鉴，可抄其护理站+培训闭环。",
+        "rec_v3": "信号偏弱、披露有限；其把护士上门嵌进长护险体系是差异化亮点，复制性强，宜学其从B端下沉社区。",
+        "info_score": 6,
+        "diff_score": 5,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 41.6
+      },
+      "payor_model": "个人自费+长护险+政府购买服务",
+      "business_tags_role": "服务商",
+      "desc_cn": "失能老人居家护理与长护险服务商",
+      "founded": 2003,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "2003年成立于上海，国内较早专业医疗护理服务供应商",
+        "'医院陪护+培训+社区护理站+互联网护理'四位一体",
+        "覆盖沪京津浙等十余省市，含长护险护理站"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "为失能半失能老人提供居家护理、护士上门与长护险护理站，银发核心服务。"
+    },
+    {
+      "serial": "#0214",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 6,
+      "research_value": 40.7,
+      "recommend": {
+        "rec_v1": "信号弱但产品资料实；帮帮码毫秒级呼救+跌倒雷达差异化强，可复制，可学其独居老人安全硬件选品。",
+        "rec_v2": "信号低、信息中等；被称为中国SOS的紧急救助平台是亮点，差异化技术清晰可借鉴，宜学其硬件+服务闭环。",
+        "rec_v3": "信号偏弱、披露有限；其腕带胸章多形态呼救设备覆盖全场景属差异化，可复制性高，可学它用低价硬件撬救援。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 40.7
+      },
+      "payor_model": "个人自费+B端(社区/政府)采购",
+      "business_tags_role": "平台",
+      "desc_cn": "独居老人紧急呼救与跌倒监测平台",
+      "founded": 2022,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "旗下'安康玖玖'专注居家养老与急救安全",
+        "基于'帮帮码'技术做智能呼救硬件（腕带/胸章/平安扣/雷达）",
+        "提供毫秒级紧急呼叫、跌倒监测与定位救援，被称为'中国的SOS'"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "独居、失能老人的紧急呼救与跌倒监测，直接对应银发安全刚需。"
+    },
+    {
+      "serial": "#0215",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱但背景资料实；德系技术+AI碳纤维轮椅差异化一般，国内供应链成熟易复制，可学其参与标准制定。",
+        "rec_v2": "信号低、信息中等；源自SWEMO做超轻爬楼机是亮点，差异化常规却可借鉴，创业者宜学其全龄段出行定位。",
+        "rec_v3": "信号偏弱、披露清晰；其AI互联网电动轮椅属常规升级差异化弱，复制门槛低，可抄其认证+出海双线。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "智能电动轮椅与老年代步车制造商",
+      "founded": 2014,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "源自德国SWEMO GmbH（亚琛），2014年设上海公司",
+        "产品含电动/手动轮椅、老年代步车、爬楼机",
+        "参与行业标准制定，面向全龄段行动不便人群"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "电动轮椅、老年代步车服务于行动不便老年人群，银发辅具核心。"
+    },
+    {
+      "serial": "#0216",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 4,
+      "copy_score": 6,
+      "research_value": 36.6,
+      "recommend": {
+        "rec_v1": "信号弱但老字号资料实；燕窝虫草靠品牌力差异化弱，可复制，可学其药食同源+AI一人一方组合。",
+        "rec_v2": "信号低、信息中等；连续七年京东滋补第一是亮点，模式常规却易仿可借鉴，宜学其年轻化订阅化尝试。",
+        "rec_v3": "信号偏弱、披露有限；其2000万家庭基本盘稳但非老年专向差异化弱，可借鉴性一般，可学其老字号内容化。",
+        "info_score": 5,
+        "diff_score": 4,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 36.6
+      },
+      "payor_model": "个人自费",
+      "business_tags_role": "产品商",
+      "desc_cn": "中式滋补食品(老字号)品牌",
+      "founded": null,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "始创1906年，2024年获评'中华老字号'",
+        "主营药食同源、贵细滋补、南北干货，燕窝海参等",
+        "连续7年京东滋补干货销量第一，推'AI+一人一方'方案"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "泛医疗擦边",
+      "silver_reason": "中式滋补食品面向家庭消费，非专门老年群体，属大健康消费品，老年属性弱。"
+    },
+    {
+      "serial": "#0217",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 6,
+      "copy_score": 5,
+      "research_value": 38.7,
+      "recommend": {
+        "rec_v1": "信号弱但体系资料实；抗衰科普+检测+诊所三位一体差异化强，可学，可借鉴其时光尺评估产品化路径。",
+        "rec_v2": "信号低、信息中等；上海首家长寿诊所是亮点，差异化角度新但需资质，国内可抄其检测驱动补剂定制。",
+        "rec_v3": "信号偏弱、披露清晰；其把衰老管理做成平台而非卖货属差异化亮点，复制需医疗资质，可学其科普引流。",
+        "info_score": 5,
+        "diff_score": 6,
+        "copy_score": 5,
+        "signal_strength": 0.55,
+        "research_value": 38.7
+      },
+      "payor_model": "个人自费+检测服务收费",
+      "business_tags_role": "服务商",
+      "desc_cn": "抗衰科普检测与长寿健康管理平台",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "中国抗衰科普平台先驱，集科普/检测/干预于一体",
+        "推出'时光尺'衰老检测体系与TimeCure管理服务",
+        "在上海开设国内首家长寿诊所，做检测评估与补剂定制"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "面向追求健康衰老人群做抗衰检测与长寿管理，直接对应 aging 群体。"
+    },
+    {
+      "serial": "#0218",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 7,
+      "copy_score": 7,
+      "research_value": 44.7,
+      "recommend": {
+        "rec_v1": "信号弱但粉丝资料实；65+女性旗袍IP切银发文娱差异化强，轻模式可复制，可学其直播带货+形体培训。",
+        "rec_v2": "信号低、信息较足；全网3000万粉是亮点，定位独特差异化强且可借鉴，国内宜学其社群运营把老龄变红利。",
+        "rec_v3": "信号偏弱、披露有限；其银发女性时尚社群模式清晰有差异，可抄性高，可学它把走秀内容做成商业闭环。",
+        "info_score": 5,
+        "diff_score": 7,
+        "copy_score": 7,
+        "signal_strength": 0.55,
+        "research_value": 44.7
+      },
+      "payor_model": "B端品牌合作+个人消费",
+      "business_tags_role": "服务商",
+      "desc_cn": "银发女性时尚IP与社群平台",
+      "founded": 2019,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "2019年成立于北京，由平均65岁以上女性组成",
+        "通过旗袍走秀、直播带货与形体培训商业化",
+        "全网粉丝超3000万"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "银发女性时尚IP与社群，直接服务老年女性文娱与消费。"
+    },
+    {
+      "serial": "#0219",
+      "signal_strength": 0.55,
+      "info_score": 5,
+      "diff_score": 3,
+      "copy_score": 6,
+      "research_value": 34.7,
+      "recommend": {
+        "rec_v1": "信号弱但产能资料实；老年代步车松手刹车适老设计常规差异化弱，易复制，可学其内销+出口双市场。",
+        "rec_v2": "信号低、信息中等；年产能8万台与CE认证是亮点，产品同质却易仿可借鉴，宜学其单手操控安全卖点。",
+        "rec_v3": "信号偏弱、披露清晰；常规代步车难差异化但可抄性高，中小厂可学它用适老安全功能做出口突破口。",
+        "info_score": 5,
+        "diff_score": 3,
+        "copy_score": 6,
+        "signal_strength": 0.55,
+        "research_value": 34.7
+      },
+      "payor_model": "个人自费+B端采购",
+      "business_tags_role": "产品商",
+      "desc_cn": "老年代步车与电动轮椅制造商",
+      "founded": 2015,
+      "stage": "未披露",
+      "events": [],
+      "highlights": [
+        "位于浙江金华，专业生产老年/电动代步车与电动轮椅",
+        "年产能电动轮椅约8万台，产品通过欧盟CE认证",
+        "主打轻便折叠、单手操控、松手自动刹车等适老安全设计"
+      ],
+      "update_time": "2026-07-17",
+      "silver_verdict": "核心银发",
+      "silver_reason": "老年代步车与电动轮椅服务于行动不便老年人群，银发辅具。"
+    }
+  ],
+  "tag_review": [
+    {
+      "serial": "#0208",
+      "name": "戴恩",
+      "intro": "戴恩医疗科技（浙江）深耕智能护理康复，研发洗浴机、护理机器人并提供上门助浴。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "康复器械"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "智能护理/助浴",
+          "reason": "核心产品为智能洗浴机与护理机器人，现标签仅'康复器械'未体现其智能护理定位"
+        }
+      ]
+    },
+    {
+      "serial": "#0209",
+      "name": "护卫神",
+      "intro": "杭州护卫神科技2020年成立，专注轻便折叠电动轮椅，连续三年全网销量领先。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0210",
+      "name": "招商观颐",
+      "intro": "招商观颐是招商局旗下招商蛇口康养机构，运营CCRC、机构与社区嵌入式养老。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "CCRC",
+          "养老机构"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0211",
+      "name": "振邦",
+      "intro": "衡水振邦医疗器械2015年成立，主营护理床、助行器等康养辅具，服务医养机构。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "助行器",
+          "护理床"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0212",
+      "name": "摩登银龄",
+      "intro": "摩登银龄是聚焦中老年生活方式与文娱内容的银发时尚IP。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "文娱"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发内容IP",
+          "reason": "业务实质是银发时尚内容IP，现标签'文娱'颗粒度偏粗，建议补'银发内容IP'"
+        }
+      ]
+    },
+    {
+      "serial": "#0213",
+      "name": "擎浩护理",
+      "intro": "擎浩护理2003年成立于上海，提供居家护理、护士上门与长护险护理站服务。",
+      "old_tags": {
+        "tag_l1": [
+          "养老服务"
+        ],
+        "tag_l2": [
+          "居家护理",
+          "护士派遣"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0214",
+      "name": "救救帮",
+      "intro": "北京救救帮旗下安康玖玖做居家养老急救安全，研发帮帮码呼救硬件与平台。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "紧急呼叫",
+          "跌倒监测"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "平台",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "change",
+          "tag": "智能硬件",
+          "reason": "紧急呼救与跌倒监测属智能安全硬件，现tag_l1'康复辅具'不匹配，建议改为智能硬件/安全监护"
+        }
+      ]
+    },
+    {
+      "serial": "#0215",
+      "name": "斯维驰",
+      "intro": "斯维驰健康科技源自德国SWEMO，研发电动轮椅、代步车与爬楼机等出行产品。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0216",
+      "name": "方家铺子",
+      "intro": "方家铺子始创1906年的中华老字号，主营燕窝虫草等东方滋补食品，服务超2000万家庭。",
+      "old_tags": {
+        "tag_l1": [
+          "食品营养"
+        ],
+        "tag_l2": [
+          "保健品"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    },
+    {
+      "serial": "#0217",
+      "name": "时光派",
+      "intro": "时光派是抗衰科普与衰老综合管理平台的先驱，在上海开有国内首家长寿诊所。",
+      "old_tags": {
+        "tag_l1": [
+          "消费品"
+        ],
+        "tag_l2": [
+          "长寿抗衰"
+        ],
+        "business_tags": {
+          "customer": "B2C",
+          "role": "制造商(消费品)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "健康管理",
+          "reason": "业务含抗衰检测与长寿诊所管理，现标签仅有'长寿抗衰'，建议补'健康管理'维度"
+        }
+      ]
+    },
+    {
+      "serial": "#0218",
+      "name": "时尚奶奶团",
+      "intro": "时尚奶奶团2019年成立于北京，是由65岁以上女性组成的银发时尚IP与社群。",
+      "old_tags": {
+        "tag_l1": [
+          "文娱社交"
+        ],
+        "tag_l2": [
+          "短视频"
+        ],
+        "business_tags": {
+          "customer": "B2B",
+          "role": "服务商(媒体/数据)",
+          "channel": []
+        }
+      },
+      "suggested": [
+        {
+          "action": "add",
+          "tag": "银发社群",
+          "reason": "业务核心是银发女性社群运营，现标签'短视频'偏渠道，建议补'银发社群'"
+        }
+      ]
+    },
+    {
+      "serial": "#0219",
+      "name": "易乐车业",
+      "intro": "永康市易乐车业位于浙江金华，生产老年代步车与电动轮椅，年产能约8万台。",
+      "old_tags": {
+        "tag_l1": [
+          "康复辅具"
+        ],
+        "tag_l2": [
+          "轮椅"
+        ],
+        "business_tags": {
+          "customer": "B2B+B2C",
+          "role": "制造商(硬件/设备)",
+          "channel": []
+        }
+      },
+      "suggested": []
+    }
+  ],
+  "nonsilver": [
+    {
+      "serial": "#0216",
+      "name": "方家铺子",
+      "verdict": "泛医疗擦边",
+      "reason": "中式滋补食品面向家庭消费，非专门老年群体，属大健康消费品，老年属性弱。"
+    }
+  ]
+}

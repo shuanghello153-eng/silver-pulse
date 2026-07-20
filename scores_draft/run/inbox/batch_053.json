@@ -1,0 +1,488 @@
+{
+ "batch": 53,
+ "tier": "C",
+ "enterprises": [
+  {
+   "serial": "#0378",
+   "name": "鲲鱼健康",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "鲲鱼健康是一家专注特殊医学用途配方食品（特医食品）与营养健康产品的企业，为术后、慢病及老年人群提供医学营养补充解决方案。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%B2%B2%E9%B1%BC%E5%81%A5%E5%BA%B7",
+   "website_url": "http://www.mykwins.com",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "鲲鱼健康",
+   "desc_cn": "鲲鱼健康是一家专注特殊医学用途配方食品（特医食品）与营养健康产品的企业，为术后、慢病及老年人群提供医学营养补充解决方案。",
+   "business_model_cn": "B2C 老年健康食品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【鲲鱼健康】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0379",
+   "name": "鲸灵集团",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "电商",
+    "零售"
+   ],
+   "description": "鲸灵集团（2017年杭州创立）是AI私域电商平台与数字供应链公司，旗下蜂享家、好衣库，链接数字团长与品牌商，获腾讯、IDG等投资。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%B2%B8%E7%81%B5%E9%9B%86%E5%9B%A2",
+   "website_url": "https://www.jingling.group",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "鲸灵集团",
+   "desc_cn": "鲸灵集团（2017年杭州创立）是AI私域电商平台与数字供应链公司，旗下蜂享家、好衣库，链接数字团长与品牌商，获腾讯、IDG等投资。",
+   "business_model_cn": "B2B2C 社交电商SaaS",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商",
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【鲸灵集团】聚焦渠道，行业服务领域企业，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0380",
+   "name": "鹏翼时代",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "社交平台",
+   "tags": [
+    "护工培训"
+   ],
+   "description": "鹏翼时代是百洋医药集团旗下医疗健康人才服务商，提供养老护理员、医疗护理员培训与职业技能认证，并向医院、康养机构输出护理人力（劳务派遣）。",
+   "highlights": "老年文娱领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%B9%8F%E7%BF%BC%E6%97%B6%E4%BB%A3",
+   "website_url": "",
+   "business_model": "B2C/B2B 社区/居家服务",
+   "name_cn": "鹏翼时代",
+   "desc_cn": "鹏翼时代是百洋医药集团旗下医疗健康人才服务商，提供养老护理员、医疗护理员培训与职业技能认证，并向医院、康养机构输出护理人力（劳务派遣）。",
+   "business_model_cn": "B2C/B2B 银发社交与文娱平台",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "护工培训"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "平台",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【鹏翼时代】聚焦文娱社交，老年文娱领域企业，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0381",
+   "name": "麦孚",
+   "region": "国内",
+   "category_l1": "健康食品",
+   "category_l2": "保健品&OTC",
+   "tags": [
+    "营养食品"
+   ],
+   "description": "麦孚营养是一家医学营养与特殊医学用途配方食品企业，为进食受限、消化吸收障碍及疾病状态下的患者（含老年人群）提供肠内营养产品。",
+   "highlights": "健康食品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%BA%A6%E5%AD%9A",
+   "website_url": "http://www.mfcare.cn",
+   "business_model": "B2C 老年健康食品",
+   "name_cn": "麦孚",
+   "desc_cn": "麦孚营养是一家医学营养与特殊医学用途配方食品企业，为进食受限、消化吸收障碍及疾病状态下的患者（含老年人群）提供肠内营养产品。",
+   "business_model_cn": "B2C 老年健康食品/保健品",
+   "tag_l1": [
+    "食品营养"
+   ],
+   "tag_l2": [
+    "营养食品"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【麦孚】聚焦保健品，健康食品领域企业，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0382",
+   "name": "麦考林",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "电商"
+   ],
+   "description": "老牌邮购与电商零售企业，曾以服饰邮购目录切入家庭消费市场。",
+   "highlights": "行业服务领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "1996",
+   "value_score": 21,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%BA%A6%E8%80%83%E6%9E%97",
+   "website_url": "http://www.mecoxlane.com",
+   "business_model": "B2B 行业媒体/数据服务",
+   "name_cn": "麦考林",
+   "desc_cn": "老牌邮购与电商零售企业，曾以服饰邮购目录切入家庭消费市场。",
+   "business_model_cn": "B2C 邮购/电商零售",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "电商"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【麦考林】聚焦保健品/渠道，行业服务领域企业，B2B模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0383",
+   "name": "鼎植口腔",
+   "region": "国内",
+   "category_l1": "养老用品",
+   "category_l2": "肢体障碍",
+   "tags": [
+    "诊所"
+   ],
+   "description": "鼎植口腔是国内种植牙专科连锁口腔机构，主打疑难种植（穿颧穿翼）与口腔综合治疗，以直营诊所模式在多地扩张。",
+   "highlights": "养老用品领域企业",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2006",
+   "value_score": 32,
+   "source": "中国企业图谱(许之怿)",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=%E9%BC%8E%E6%A4%8D%E5%8F%A3%E8%85%94",
+   "website_url": "https://www.dingzhidental.com",
+   "business_model": "B2B/B2C 硬件产品",
+   "name_cn": "鼎植口腔",
+   "desc_cn": "鼎植口腔是国内种植牙专科连锁口腔机构，主打疑难种植（穿颧穿翼）与口腔综合治疗，以直营诊所模式在多地扩张。",
+   "business_model_cn": "B2B/B2C 康复辅具与适老化硬件",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "诊所"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "制造商(硬件/设备)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【鼎植口腔】聚焦智能硬件/辅具，养老用品领域企业，B2B+B2C模式，研究价值分32。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0384",
+   "name": "AgenT",
+   "region": "国内",
+   "category_l1": "失智老人赛道",
+   "category_l2": "病情早筛",
+   "tags": [
+    "体检筛查"
+   ],
+   "description": "使用常规抽血进行早期阿尔茨海默病检测",
+   "highlights": "使用常规抽血进行早期阿尔茨海默病检测",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2018",
+   "value_score": 21,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=AgenT",
+   "website_url": "https://agent-biotech.com",
+   "business_model": "银发经济企业",
+   "desc_cn": "使用常规抽血进行早期阿尔茨海默病检测",
+   "business_model_cn": "银发经济企业",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "体检筛查"
+   ],
+   "business_tags": {
+    "customer": "未标注",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【AgenT】聚焦认知症，使用常规抽血进行早期阿尔茨海默病检测，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0385",
+   "name": "Alz You Need",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "认知症"
+   ],
+   "description": "Alz You Need 是一个面向阿尔茨海默病家属与照护者的信息平台，提供认知症照护知识、资源导航与社区支持，帮助用户应对照护全流程。",
+   "highlights": "为护理人员找到阿尔茨海默症相关技术解决方案的匹配服务",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "2016",
+   "value_score": 16,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Alz%20You%20Need",
+   "website_url": "",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "Alz You Need 是一个面向阿尔茨海默病家属与照护者的信息平台，提供认知症照护知识、资源导航与社区支持，帮助用户应对照护全流程。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知症"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Alz You Need】聚焦居家护理/行业媒体，为护理人员找到阿尔茨海默症相关技术解决方案的匹配服务，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0386",
+   "name": "Autotune Me",
+   "region": "国内",
+   "category_l1": "老年文娱",
+   "category_l2": "老年音乐",
+   "tags": [
+    "认知训练"
+   ],
+   "description": "使用音乐解决阿尔茨海默病症状",
+   "highlights": "使用音乐解决阿尔茨海默病症状",
+   "funding_latest": null,
+   "funding_total": null,
+   "investors": "",
+   "founded": "",
+   "value_score": 16,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Autotune%20Me",
+   "website_url": "",
+   "business_model": "B2C 休闲文娱",
+   "desc_cn": "使用音乐解决阿尔茨海默病症状",
+   "business_model_cn": "B2C 休闲文娱",
+   "tag_l1": [
+    "养老服务"
+   ],
+   "tag_l2": [
+    "认知训练"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "服务商",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Autotune Me】聚焦文娱社交，使用音乐解决阿尔茨海默病症状，B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0388",
+   "name": "Coffee Cherry",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "零售"
+   ],
+   "description": "面包店、咖啡",
+   "highlights": "面包店、咖啡",
+   "funding_latest": {
+    "date": "2023年3月",
+    "amount": "1亿美元",
+    "display": "1亿美元 (2023年3月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2014",
+   "value_score": 16,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=Coffee%20Cherry",
+   "website_url": "",
+   "business_model": "B2B 行业媒体/数据服务",
+   "desc_cn": "面包店、咖啡",
+   "business_model_cn": "B2B 行业媒体/数据服务",
+   "tag_l1": [
+    "消费品"
+   ],
+   "tag_l2": [
+    "零售"
+   ],
+   "business_tags": {
+    "customer": "B2B",
+    "role": "服务商(媒体/数据)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【Coffee Cherry】聚焦产业资本/行业媒体，面包店、咖啡，B2B模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0390",
+   "name": "lyflynks",
+   "region": "国内",
+   "category_l1": "养老服务",
+   "category_l2": "专业级护理",
+   "tags": [
+    "用药管理"
+   ],
+   "description": "LyfLynks（2017年创立于美国巴尔的摩）是一个面向\"居家养老（Age in Place）\"家庭的照护协调平台，通过24/7会员呼叫中心、移动APP、智能监测设备与甄选服务商网络，为家庭统一安排陪伴、家政、就医交通、用药提醒、紧急响应等照护服务，并与保险及雇主福利合作；2024年完成50万美元种子轮融资。",
+   "highlights": "连接C端、护士、护理机构",
+   "funding_latest": {
+    "date": "2024年5月",
+    "amount": "50万美元",
+    "round": "种子轮",
+    "display": "种子轮 50万美元 (2024年5月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2017",
+   "value_score": 16,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=lyflynks",
+   "website_url": "",
+   "business_model": "B2C/B2B 养老护理服务",
+   "desc_cn": "移动互联网护理平台，连接C端、护士、护理机构",
+   "business_model_cn": "B2C/B2B 养老护理服务",
+   "tag_l1": [
+    "康复辅具"
+   ],
+   "tag_l2": [
+    "用药管理"
+   ],
+   "business_tags": {
+    "customer": "B2B+B2C",
+    "role": "服务商",
+    "channel": [
+     "线上"
+    ]
+   },
+   "stage": "早期",
+   "recommend": "【lyflynks】聚焦专业护理/产业资本/数字化，连接C端、护士、护理机构，B2B+B2C模式，研究价值分16。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  },
+  {
+   "serial": "#0391",
+   "name": "yooLab",
+   "region": "国内",
+   "category_l1": "行业服务",
+   "category_l2": "行业媒体",
+   "tags": [
+    "长寿抗衰",
+    "个性化营养"
+   ],
+   "description": "YouLabs 是一家印度长寿与精准健康公司，通过医生主导的个性化健康方案、表观遗传年龄检测及肽类/补剂，借助WhatsApp AI提供抗衰与健康管理服务。",
+   "highlights": "为现代人设计智能食品解决方案",
+   "funding_latest": {
+    "date": "2023年3月",
+    "amount": "2.15亿元",
+    "display": "2.15亿元 (2023年3月)"
+   },
+   "funding_total": null,
+   "investors": "",
+   "founded": "2019",
+   "value_score": 21,
+   "source": "选题库V4",
+   "crunchbase_url": "https://www.crunchbase.com/textsearch?q=yooLab",
+   "website_url": "https://www.yoolab.com",
+   "business_model": "B2C 老年健康食品",
+   "desc_cn": "YouLabs 是一家印度长寿与精准健康公司，通过医生主导的个性化健康方案、表观遗传年龄检测及肽类/补剂，借助WhatsApp AI提供抗衰与健康管理服务。",
+   "business_model_cn": "B2B/B2C 银发行业服务",
+   "tag_l1": [
+    "消费品",
+    "食品营养"
+   ],
+   "tag_l2": [
+    "长寿抗衰",
+    "个性化营养"
+   ],
+   "business_tags": {
+    "customer": "B2C",
+    "role": "制造商(消费品)",
+    "channel": []
+   },
+   "stage": "未披露",
+   "recommend": "【yooLab】聚焦产业资本/智能硬件/特医食品，为现代人设计智能食品解决方案，B2C模式，研究价值分21。",
+   "payor_model": "未披露",
+   "signal_strength": 0.55
+  }
+ ]
+}
