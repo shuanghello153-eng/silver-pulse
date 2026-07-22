@@ -13,6 +13,7 @@ from email.utils import parsedate_to_datetime
 import feedparser
 import requests
 
+import config  # 提供 config.DedupStore() 等模块级调用（第738行）
 from config import (
     SOURCES, DATA_DIR, RELEVANCE_KEYWORDS, CN_RELEVANCE_KEYWORDS,
     IRRELEVANT_KEYWORDS, SILVER_STRONG_KEYWORDS, SILVER_WEAK_KEYWORDS,

@@ -1,0 +1,939 @@
+[
+  {
+    "serial": "0980",
+    "current_recommend": "用体感训练叠加神经重塑原理做康复硬件，技术路线在国内少见；其原理验证与适应症选择素材可挖，可拆其科学叙事。国内可对标远也、博博科技在康复机器人上的思路，学其把临床机制转成消费硬件的方法。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "0983",
+    "current_recommend": "远程护理云平台，切口在把零散居家监测聚成统一看板卖给机构，平台化整合是核心。信息量上，其整合逻辑与机构销售打法可拆，但公开客户数与财务极薄、产品成熟度难判断；差异化在跨数据源统一视图而非单点监测；国内慢病远程管理已多，可借鉴其平台聚合思路，真正差异须在告警准确与家属协同上体现，可学其把分散数据收口的打法。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": true
+  },
+  {
+    "serial": "0986",
+    "current_recommend": "把枯燥的护工培训做成第一人称沉浸体验，错位打法少见；其课程脚本与机构采购案例公开可挖，素材有故事性。国内可参照智杰教育、合心养老在护理培训上的思路，学其用体验式教学提升照护质量的模式。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护工培训"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "0987",
+    "current_recommend": "面向老人与不便出行者的直播云游平台，由真人导览带观众实时虚拟游览全球景点，常与养老机构及政府老龄部门合作。信息量上，其机构合作与直播运营打法可拆，但公开规模数据有限；差异化在实时直播把游览体验送达受限长者、兼顾社交与认知刺激；国内适老文娱供给稀缺，可借鉴其机构合作加直播体验的打法，运营偏重，可学其把旅游做成社交联结产品的思路。",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "旅游"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": true
+  },
+  {
+    "serial": "0988",
+    "current_recommend": "把孤独拆成可交付的陪伴服务，用高频轻互动对抗疏离，模式轻且少见；其干预节奏与用户回访故事公开有得挖，素材有温度。国内可对标乐聚机器人、大象机器人在陪伴交互上的思路，学其用低门槛触达独居老人的方法。",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "陪伴服务"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "0991",
+    "current_recommend": "把防跌保护从硬护具压成日常可穿的柔软服饰，形态错位且罕见；其尺码体系与跌倒场景设计公开有得挖，素材够拆。国内可参照令羽、响午在适老鞋服上的思路，学其把安全功能藏进日常穿搭的方法。",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "0992",
+    "current_recommend": "把烹饪从明火热源换成光，精准控温帮老人轻松备餐，技术卡位少见；其加热曲线与适老餐谱公开有得挖，素材可拆。国内可对标万德厨在老年营养餐上的思路，学其用硬件降低做饭门槛的模式。",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能硬件"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "0996",
+    "current_recommend": "把居家照护做成按周付费的供给侧匹配，模式故事性强，可挖其护工调度与留存案例。'平台派单+周期制收费'打法与中介型护工介绍所错位，差异在标准化交付。国内可参照乐湾、优享陪诊，学其护工平台运营思路，对做照护匹配的创业者有借鉴价值。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护工平台"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "0997",
+    "current_recommend": "用硬件加订阅费切进银发就医场景，软硬捆绑打法在国内少见；其付费节点与服务包设计公开有得挖，素材可拆。国内可对标安泰康成、爱牵挂在硬件+服务上的思路，学其把看病全流程线上化的轻量落地模式。",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能硬件"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1003",
+    "current_recommend": "把家属与照护者拉进硬件闭环，医疗警报配协同网络，错位打法少见；其套餐结构与多方角色设计公开有得挖，素材可拆。国内可对标爱牵挂、点可在紧急呼叫与家属协同上的思路，学其把照护关系做成产品的模式。",
+    "tag_l1": [
+      "消费品",
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "智能家居",
+      "紧急呼叫"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1008",
+    "current_recommend": "把平板压到极简、配内置网络与全天候客服，做成银发社交入口，打法卡位独特；其客服体系与续费黏性公开有得挖，素材可拆。国内可对标达旦无极、立奇电子在银发终端上的思路，学其用服务而非硬件赚复购的模式。",
+    "tag_l1": [
+      "文娱社交",
+      "消费品"
+    ],
+    "tag_l2": [
+      "陪伴服务",
+      "智能硬件"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1012",
+    "current_recommend": "用手势交互的游戏机做认知训练，比屏幕点选更贴合老人身体，错位打法少见；其关卡设计与训练成效公开有得挖，素材有故事性。国内可对标博斯腾、织生科技在认知训练上的思路，学其把康复变成日常娱乐的模式。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知训练"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1013",
+    "current_recommend": "其把重病居家照护协调打包进医疗健康险结算，是可挖的样本，故事性在如何替保险人降住院成本。差异在'保险买单+居家安宁'的错位打法，国内长护还多靠自费与零散家政。国内团队可借鉴'用支付方绑定居家照护'的思路，平移到养老与医疗护理的本地化安宁服务。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "安宁疗护"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1018",
+    "current_recommend": "用沉浸式VR内容做老人心理舒缓与认知刺激，差异在靠临场感触发情绪与记忆，错位普通老年文娱只给平板屏幕。素材可挖：其VR内容库、机构落地案例都具故事性。国内心智青、美好盛年做老年文娱，可借鉴其'沉浸式内容触发情绪'的思路，把VR当情绪与认知训练入口而非玩具。",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "文娱"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1020",
+    "current_recommend": "其机构安全呼叫系统走硬件+订阅打法，有得写，素材在养老院与护理院的批量采购逻辑。差异在'设备即入口、数据反哺护理'的卡位，国内呼叫器多卖断不续费。国内团队可借鉴'以SaaS订阅锁定机构复购'的思路，平移到养老与护理的远程监测产品线。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1026",
+    "current_recommend": "用一台稳定性秤把跌倒风险量化成可测指标，差异在靠静态平衡测分而非可穿戴连续监测，错位多数防跌方案只做报警。素材可挖：其平衡数据与跌倒相关性的研究、低成本硬件案例都具故事性。国内清澜技术、清雷做跌倒监测，可借鉴其'单次测量量化风险'的筛查思路，把防跌入口放在体检与社区。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械",
+      "跌倒监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1028",
+    "current_recommend": "按个人认知基线动态调难度的脑训练，差异在自适应算法而非通用脑力游戏，错位多数产品只给固定题。素材可挖：其训练效果追踪、用户认知变化案例都具故事性。国内博斯腾、织生科技做认知训练，可借鉴其'自适应难度加效果追踪'的打法，把训练做成可量化的防痴呆入口。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知训练"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1039",
+    "current_recommend": "用全包会员制卖长寿健康管理，把检测与干预打包成年度订阅，模式独特少见；其套餐层级与用户故事公开有得挖，素材可拆。国内可参照集思鸣智、时光派在抗衰赛道上的思路，学其把高端体检转成长效服务的打法。",
+    "tag_l1": [
+      "养老服务",
+      "消费品"
+    ],
+    "tag_l2": [
+      "诊所",
+      "长寿抗衰"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1040",
+    "current_recommend": "近期新获融资约20M。数据赛道上把长寿科学做成消费级护肤、靠订阅数据复购，差异在绕过诊疗监管切入银发抗衰；国内华熙生物、巨子生物同样布局数据但同样押注重组胶原但多走医美渠道，其DTC订阅思路可借鉴做老年个护数据化复购。",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "美妆护肤",
+      "长寿抗衰"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1042",
+    "current_recommend": "2025年新获融资约1.09M；医疗领域靠手机传感器采集健康医疗数据做慢病居家监测。差异在轻量部署、不依赖专用硬件，国内鱼跃医疗、乐心医疗做医疗时远程监测偏设备销售，这套订阅式服务打法对国内有借鉴价值，可做居家慢病医疗管理。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1043",
+    "current_recommend": "就医疗而言，2025年新获融资约16M，用手机摄像头做生命体征监测、采集健康数据零硬件门槛。差异在把监测终端缩到一部手机；国内乐心医疗、华为穿戴也做医疗但走硬件路线，其低门槛模式思路值得国内团队参考，落地做国内居家养老监测。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1046",
+    "current_recommend": "把线下老年大学搬成虚拟中心，差异在靠电视或平板入口聚合课程、社交与活动，错位普通老年社群只做聊天室。素材可挖：其虚拟中心活动运营、对抗孤立的案例都具故事性。国内红松学堂、兴趣岛做老年兴趣社群，可借鉴其'虚拟中心聚合多活动'的社交打法，把孤独老人留在每天的使用习惯里。",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群",
+      "陪伴服务"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1047",
+    "current_recommend": "看医疗方向，这家消费品企业近期合作与产品落地加速，处方级非侵入训练器治疗压力性尿失禁、临床验证居家可练。差异在卡位被忽视的老年女性失禁细分；与国内麦澜德、伟思医疗（也做医疗但盆底设备偏院内）相比，其家用消费化路线亮点可复制，做银发女性失禁居家干预。",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "尿失禁"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1048",
+    "current_recommend": "用生物电子主动训练前庭系统来防跌，差异在纠正平衡而非只报警，错位多数可穿戴只做跌倒监测。素材可挖：其临床训练路径、机构加消费双线打法都具故事性，反共识点是防跌能靠'练'而非仅'测'。国内远也、心永科技做可穿戴，可借鉴其'主动训练替代被动监测'的思路，把康复从报警转向干预。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1049",
+    "current_recommend": "把康复助行功能藏进日常鞋款，差异在自适应鞋底随步态调摩擦与支撑，错位普通老年鞋只加防滑底。素材可挖：其步态自适应技术、康复加时尚双场景案例都具故事性。国内响午、令羽做老年鞋，可借鉴其'康复功能时装化'的打法，把医疗器械感去掉做成日常消费。",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1050",
+    "current_recommend": "用隐私优先的雷达做无感居家监测，差异在不用摄像头与可穿戴也能识跌倒与久滞，错位视频方案总踩隐私红线。素材可挖：其误报治理、机构试点案例都具故事性，反共识点是监测未必靠镜头。国内清雷、百芝龙做跌倒监测，可借鉴其'隐私优先的雷达无感'打法，把安全守护做成不打扰。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1051",
+    "current_recommend": "医院物流机器人的错位打法值得拆：它专接药品配送、物资周转与医废清运这类非护理杂活，把护士从体力行政里解放，而非去替代护理，分工边界清楚。美国院端的真实部署案例与运维故事素材足，有得写。国内可对标傅里叶智能、迈步机器人的康复机器人路线，学其'先打辅助工种、再进康养场景'的思路。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "机器人"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1052",
+    "current_recommend": "无药物助眠的打法有特色：它用脑电反馈配定制音频把人带进睡眠，绕开安眠药路径，干预机制少见。产品验证与早期商业化的原理科普、用户故事素材足，有得写。国内可对标清澜技术、远也的脑机可穿戴路线，学其'以非药物手段切老年失眠刚需'的思路。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "睡眠监测",
+      "可穿戴监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1053",
+    "current_recommend": "痴呆风险前置干预的切口巧：它把认知训练做成日常任务化活动，先盯中年群体和家庭照护人，而非等发病再治，打法错位。照护者视角的真实故事、订阅转化案例素材足，有得写。国内可对标博斯腾的认知训练路线，学其'早筛加日常陪伴式训练'的思路。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知训练"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1054",
+    "current_recommend": "精准营养数字化的卡位巧：它把检验指标直接转成医生可开的膳食方案，打通化验与配餐，模式少见。慢病管理里的真实处方案例、院内落地故事素材足，有得写。国内可对标 yooLab 的个性化营养路线，学其'检验数据驱动膳食干预'的思路。",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "个性化营养"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1058",
+    "current_recommend": "消费级生物标志物追踪的打法有亮点：一个指环把作息、活动与血糖波动拢进同一 App 做日常优化，集成度高。硬件加软件的生态故事、活力长辈使用案例素材足，有得写。国内可对标硅基仿生、九安医疗的监测硬件路线，学其'多指标合一的可穿戴'思路。",
+    "tag_l1": [
+      "康复辅具",
+      "食品营养"
+    ],
+    "tag_l2": [
+      "睡眠监测",
+      "糖尿病",
+      "可穿戴监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1060",
+    "current_recommend": "这家康复辅具企业近期合作与产品落地加速；康复领域核心助行产品获二类医疗器械认证、与多家康养机构合作落地积累临床样本。差异在柔性结构更贴老年日常，国内傅利叶智能做康复时走刚性康复外骨骼，这套轻量家用打法对国内有借鉴价值，可做社区租赁康复。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "外骨骼",
+      "助行器"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1061",
+    "current_recommend": "就康复而言，这家康复辅具企业近期合作与产品落地加速，消费级外骨骼曾现数百台15秒售罄、把康复助行拉到个人买得起积累用户。差异在C端爆品验证；国内大艾机器人、傅利叶智能也做康复但主攻B端康复，其15秒售罄的C端思路值得国内团队参考，落地做老年助行消费化。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "外骨骼",
+      "助行器"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1065",
+    "current_recommend": "看康复方向，这家康复辅具企业近期合作与产品落地加速，提供上肢康复机器人等综合方案、规模供货医疗机构。差异在软硬件一体打包；与国内傅利叶智能、迈步机器人（也做康复但同做康复机器人）相比，其B端整体方案亮点可复制，做基层康养中心配置。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械",
+      "机器人"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1077",
+    "current_recommend": "看康复：这家康复辅具企业近期合作与产品落地加速，把万元级助行设备按次租给社区老人、已落地试点积累用户。差异在用租赁把价格门槛打下来；对标国内程天科技（也做康复但做C端销售），其社区租赁方法可平移做老旧小区适老共享。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "外骨骼"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1079",
+    "current_recommend": "就康复而言，这家康复辅具企业近期合作与产品落地加速，研究院背景外骨骼团队开启个人预售、髋部助行产品TK1000直面C端积累用户。差异在科研转民用快；国内程天科技易行系列也做康复但已售罄验证，其预售思路值得国内团队参考，落地做银发助行众筹。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "外骨骼",
+      "助行器"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1080",
+    "current_recommend": "用AI算法做助听设备的本土替代，卡位中端价格带，打法在国内少见；其渠道下沉与验配网络公开有得挖，素材可拆。国内可对标博音、左点在助听器上的思路，学其用技术把进口溢价打下来的模式。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "助听器"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1081",
+    "current_recommend": "看器械方向，这家康复辅具企业近期合作与产品落地加速，用AI呼吸机做老年睡眠呼吸暂停干预、靠算法自动调压降戴机痛苦积累临床样本。差异在算法自动调压降低戴机痛苦；与国内怡和嘉业（也做器械但呼吸机龙头但偏标准机型）相比，其智能调压亮点可复制，做居家睡眠管理。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "睡眠监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1082",
+    "current_recommend": "这家行业服务企业近期合作与产品落地加速。养老赛道上给养老机构一套系统加运营陪跑、覆盖入住到护理全流程、服务量可观，差异在系统加运营双收费；国内安康通、三维九成同样布局养老但做养老信息化，其OS化思路可借鉴做中小机构低成本上云。",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1083",
+    "current_recommend": "看陪伴：这家文娱社交企业近期合作与产品落地加速，用摄像头加语音做老人独居安全与情感陪伴、积累用户。差异在陪伴与安防合一；对标国内萤石、小米（也做陪伴但做智能摄像机），其适老交互方法可平移做独居老人看护入口。",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "陪伴机器人"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1084",
+    "current_recommend": "这家养老服务企业近期合作与产品落地加速；医疗领域把中医辨证开方做成可复制的AI辅助、对接基层机构积累样本。差异在中医也能标准化，国内固生堂做医疗时做中医连锁但靠名医，这套AI辅助打法对国内有借鉴价值，可做县域中医养老。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "中医养生"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1085",
+    "current_recommend": "把中医诊疗做成B2B智能工具有案例可挖，可拆它如何给机构降门槛、提效率。亮点在「中医+AI」错位，与西医影像AI厂商卡位不同。国内可对标深睿医疗、智医向量，学其把中医经验产品化的思路。",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1087",
+    "current_recommend": "把可弯折的触觉传感做成通用技术底座，既喂康复机器人也喂银发穿戴，错位打法少见；其跨场景落地案例公开有得挖，素材够拆。国内可对标远也、心永科技在传感与康复上的思路，学其用底层技术横向铺赛道的方法。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1088",
+    "current_recommend": "看机器人方向，这家康复辅具企业近期合作与产品落地加速，推进C端量产、把端茶递水陪伴做成家用设备、规模可期。差异在具身智能直接进客厅；与国内优必选、达闼（也做机器人但攻人形）相比，其量产亮点可复制，做家庭适老机器人。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1089",
+    "current_recommend": "这家养老服务企业近期合作与产品落地加速。养老赛道上把医疗与日常照护打包、用智慧管理降人力、服务量可观，差异在中等体量也能做医养；国内泰康之家同样布局养老但做高端CCRC，其智慧管理思路可借鉴做区域普惠医养。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1105",
+    "current_recommend": "2026年新获融资约850万美元。医疗赛道上临床级慢病管理主打胃肠与代谢慢病长期管理、降急诊使用积累病例，差异在降急诊使用；国内智云健康同样布局医疗但做慢病SaaS，其临床闭环思路可借鉴做医院外管理。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1112",
+    "current_recommend": "看诊所：这家养老服务企业近期合作与产品落地加速，专做老年女性初级医疗的诊所网络、绑定支付方做慢病预防、网点扩张。差异在把女性老去当作独立专科；对标国内卓正医疗、丁香医生（也做诊所但做全科），其女性银发专科方法可平移做专科门诊。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "诊所"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1116",
+    "current_recommend": "银发辅具硬件的打法有亮点：它把智能代步与助行做成高配加设计感路线，避开低价内卷，卡位清晰。品牌出海与设计溢价的真实拆解、用户故事素材足，有得写。国内可对标互邦、福仕得的轮椅助行路线，学其'设计驱动加高端定位'的思路。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "轮椅",
+      "助行器"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1117",
+    "current_recommend": "医疗 AI 加养老的切口巧：它把问答机器人同虚拟建模塞进机构系统，给养老与社区医疗做智能化，打法集成。技术栈拆解、机构落地故事素材足，有得写。国内可对标深睿医疗的 AI 医疗路线，学其'多模块打包服务机构'的思路。",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1118",
+    "current_recommend": "人形机器人进康养的切口巧：它走地方国资挂帅、院校同场景绑定的路线，把整机能力直接落进照护现场，打法少见。政企协同与试点故事素材足，有得写。国内可对标优必选、乐聚机器人的人形路线，学其'国资搭台加场景牵引'的思路。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1119",
+    "current_recommend": "看药品方向，这家养老服务企业近期合作与产品落地加速，把处方药的居家交付与上门医疗履约打通、服务量可观。差异在药加服务一体；与国内叮当快药、京东健康（也做药品但做送药）相比，其履约亮点可复制，做居家老人用药闭环。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家医疗"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1120",
+    "current_recommend": "这家养老服务企业近期合作与产品落地加速。护理赛道上做过渡期照护与再住院率管理、按价值付费规模服务老人，差异在以降低再住院为KPI；国内福寿康同样布局护理但做上门护理，其协调管理思路可借鉴做出院后居家衔接。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护理协调",
+      "居家护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1121",
+    "current_recommend": "看护理：这家养老服务企业近期合作与产品落地加速，用加盟模式快速扩张caregiver网络、网点数增长。差异在轻加盟扩张；对标国内福寿康（也做护理但直营上门），其加盟方法可平移做区域护理网点复制。",
+    "tag_l1": [
+      "养老服务",
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "居家护理",
+      "陪伴服务"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1122",
+    "current_recommend": "这家养老服务企业近期合作与产品落地加速；护理领域把护士家访与日常照护打包给支付方、服务量可观。差异在医疗级履约，国内颐家、福寿康做护理时做居家照护，这套医疗打包打法对国内有借鉴价值，可做长护险定点服务。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1123",
+    "current_recommend": "居家照护加盟体系的打法有壁垒：它把日常陪伴和持证护理并到同一招牌下、靠加盟快速铺网，模式少见。上万名护理员的管理、单店盈利案例素材足，有得写。国内可对标福寿康、小橙的居家照护路线，学其'非医疗加专业护理一体、轻总部重网点'的思路。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1124",
+    "current_recommend": "就护理而言，这家养老服务企业近期合作与产品落地加速，授权加盟商做老人陪诊与生活照护、网点扩张。差异在品牌授权轻资产；国内福寿康也做护理但直营，其授权思路值得国内团队参考，落地做下沉市场护理站。",
+    "tag_l1": [
+      "养老服务",
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "居家护理",
+      "陪伴服务"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1125",
+    "current_recommend": "其美国养老社区与认知症照护的运营样本有案例可挖；反共识在于纯认知症细分而非综合CCRC，差异化在认知症专属社区壁垒。国内创业者可对标本赛道、借鉴美邸中国与记忆家的认知症打法。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知症"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1126",
+    "current_recommend": "看器械方向，这家康复辅具企业近期合作与产品落地加速，OTC助听器DTC品牌绕过验配师、电商直售价格打到几百美元积累用户。差异在去中介化；与国内锦好医疗、可孚医疗（也做器械但做助听器）相比，其OTC直售亮点可复制，做银发听力普惠。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "助听器"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1128",
+    "current_recommend": "美国连锁安宁疗护的运营样本有得挖，可拆其多城市布点的成本与赔付结构。亮点在「区域连锁+保险对接」错位，与单点独立机构卡位不同。国内可对标泰康安宁疗护、慈康生命，学其连锁化运营的思路。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "安宁疗护"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1129",
+    "current_recommend": "美国安宁疗护连锁的财务模型有素材可挖，可拆其按床日付费的盈亏平衡点。亮点在「保险支付方直连」错位，与医院附属临终科卡位不同。国内可参照慈康生命、乐湾，学其连锁安宁疗护的运营思路。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "安宁疗护"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1137",
+    "current_recommend": "2025年底获PE机构注资、走并购扩张路线的安宁疗护与临终关怀运营公司，用标准化缓和医疗团队同时管多家机构的临终床位。国内泰康安宁、慈爱嘉也做临终关怀，但多自营单点，它差异在'运营加并购'快速吃下区域网络而非慢慢开店。它的并购打法已整合一批机构，能帮国内医疗体系做连锁整合，适合写'临终关怀并购整合'案例。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "安宁疗护"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1138",
+    "current_recommend": "家居健康叠加安宁疗护的运营组合素材详实，可挖其临终关怀服务标准与支付案例。'居家照护+缓和医疗'打法与纯家政护理错位，壁垒在多学科团队。国内可对标泰康安宁疗护、慈康生命，学其安宁疗护本土化思路，对做临终关怀的创业者有参照价值。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "安宁疗护"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1140",
+    "current_recommend": "其'家庭健康办公室'把分子诊断、影像与医疗AI疗程打包，是可拆的样本，反共识在针对高净值人群做抗衰早筛而非治病。差异在'高端诊所+会员制'的稀缺打法，国内多散卖单项检测。国内团队可借鉴'以健康办公室整合多组学数据'的思路，平移到养老与医疗营养的备老健康管理。",
+    "tag_l1": [
+      "养老服务",
+      "消费品"
+    ],
+    "tag_l2": [
+      "诊所",
+      "长寿抗衰"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 1.05,
+    "has_scores": false
+  },
+  {
+    "serial": "1141",
+    "current_recommend": "2025年7月在欧洲多国完成200万欧元早期融资的长寿诊所，把衰老标志物检测、营养和运动处方做成会员制定制套餐。国内和睦家、生命滙也做功能医学与抗衰诊所，但多偏高端体检，它差异在把'长寿'做成可量化的年度管理合约。它的会员制已积累一批高净值用户，能帮国内诊所做长寿专科，适合写'长寿诊所会员制'案例。",
+    "tag_l1": [
+      "养老服务",
+      "消费品"
+    ],
+    "tag_l2": [
+      "诊所",
+      "长寿抗衰"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  },
+  {
+    "serial": "1148",
+    "current_recommend": "2025年2月拿到200万美元早期融资的精准给药与用药提醒技术公司，用可穿戴与算法把老人用药时间、剂量做成自动校准，减少漏服错服。国内叮当快药、1药网也做用药服务，但多偏配送，它差异在'给药精度'的硬件算法而非单纯提醒。它的精准给药已落地一批合作机构用户，能帮国内医疗体系做用药升级，适合写'精准给药技术'案例。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "用药提醒"
+    ],
+    "is_listed": null,
+    "funding_stage": null,
+    "signal_strength": 0.55,
+    "has_scores": false
+  }
+]

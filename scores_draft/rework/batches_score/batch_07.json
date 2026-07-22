@@ -1,0 +1,621 @@
+[
+  {
+    "serial": "#1037",
+    "name_cn": "Sage",
+    "name_en": null,
+    "desc_cn": "面向养老院与护理机构的AI监测软件商：在院内布设传感器与算法，自动识别老人活动能力下降、跌倒风险与健康状况变化，提前预警护理团队以降低住院率。以SaaS订阅向机构收费，收入来自养老院与护理院的软件年费，银发价值在帮机构用最少人力盯住最多高风险老人。",
+    "highlights": "Goldman Sachs领投$65M，AI预测式照护代表",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "stage": "C轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "2026年刚完成6500万美元C轮、高盛领投，近期融资信号清楚；公开资料显示它用传感器和算法帮养老院预判老人跌倒与机能走下坡，数据透明可查。打法是把被动看护做成'减住院'的付费理由，黏住养老院采购；国内已有乐湾、医家通等养老软件，可学其按年费订阅的轻模式，但需打通国内机构采购与回款周期；适合小爽写'养老院监测软件'案例。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1059",
+    "name_cn": "玄源科技",
+    "name_en": null,
+    "desc_cn": "面向家庭的消费级AI陪伴机器人厂商：围绕独居与空巢老人的情感陪伴需求，做能对话、记往事、引导回忆的个性化机器人伴侣，定位C端硬件消费品。收入来自机器人销售与后续内容服务，银发价值在缓解孤独与认知退化，并以出海为清晰切入点。",
+    "highlights": "全生命周期AI伴侣，出海定位清晰",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "陪伴机器人"
+    ],
+    "stage": "A轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "2025年4月拿了近亿元Pre-A，国内陪伴机器人赛道融资活跃；公开报道显示它做面向家庭的AI机器人伴侣，围着老人做个性化陪伴、记往事、引导回忆。打法是把'长期陪伴'做成消费级硬件而非纯软件，这是和手机App不同的载体；国内已有乐聚、大象等玩家，可对标其C端消费品定位，重点学硬件降本与情感交互而非堆功能；适合小爽写'陪伴机器人'案例。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1114",
+    "name_cn": "银河通用",
+    "name_en": null,
+    "desc_cn": "通用机器人技术公司，把自研通用具身智能能力投向康养、工业与家庭等多场景；在养老侧探索人形机器人承担搬运、巡检与陪伴等任务。收入来自机构端与场景方的技术授权与解决方案，银发价值在用工荒下以机器人补足养老照护人力缺口，具风向标意义。",
+    "highlights": "国内具身智能“吸金王”之一，资本将通用技术底座投向养老场景；其“5G+机器人+康养”生态对国内养老机器人创业路线有风向标意义（S1 大+S2 热点）。",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "2026年3月新拿一笔25亿元融资、估值站上200亿，资本信号极强；公开资料显示它把通用机器人技术投到康养与家庭场景。打法是以通用底座适配养老垂直需求，而非做单点养老设备，这是和专用机器人不同的思路；国内已有优必选、达闼等人形机器人，可借鉴其把通用能力嫁接养老的路线，但重资产难直接平移；适合小爽写'通用机器人进养老'案例。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1172",
+    "name_cn": "Calico｜Alphabet 长寿实验室",
+    "name_en": null,
+    "desc_cn": "谷歌母公司旗下的长寿研究实验室，2013年设立，专攻衰老生物学与延长健康寿命的基础研究，由雄厚资源支撑但不直接卖产品。自身不靠商业化变现，价值在于输出抗衰科学认知与数据平台，对国内平台型企业布局衰老研究有战略启发，属银发科研基础设施而非消费服务。",
+    "highlights": "科技巨头押注'衰老是一门可工程化的科学'，对国内平台型公司布局抗衰研究有战略启发。",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "行业研究"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "它把衰老当作可工程化的科学做基础研究的路径，本身不卖货、只产出认知与数据，这种科研基础设施的错位定位值得拆。素材上可挖其论文、人才与跨学科组织方式的故事性。国内 AgeClub 这类行业研究机构可对标其用研究反哺产业认知的思路，给平台型公司布局抗衰提供参照。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1183",
+    "name_cn": "Catalia 健康",
+    "name_en": null,
+    "desc_cn": "面向慢病老人的AI患者参与与居家管理公司，旗舰产品为陪伴机器人加健康管理平台，主动提醒用药、陪伴聊天并推动治疗依从。以B2B2C方式向企业健康计划与合作支付方收订阅费，银发价值在帮慢病老人居家维持用药与治疗纪律，降低并发症与再入院。",
+    "highlights": "'具身AI+慢病管理'差异化样本，国内慢病老人居家管理可对标其陪伴式交互。",
+    "tag_l1": [
+      "文娱社交",
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "陪伴服务",
+      "用药提醒"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "具身 AI 落在慢病居家管理的打法有样本意义：用陪伴机器人扛用药提醒与聊天，向支付方收订阅而非直接面向个人，这种 B 端买单的错位值得写。可挖其依从率提升与再入院下降的公开案例。国内乐聚机器人可对标其机器人进家庭做慢病陪伴的交互思路，给居家照护创业者以启示。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1184",
+    "name_cn": "Uniper｜抗孤独虚拟互动",
+    "name_en": null,
+    "desc_cn": "面向长者的虚拟互动平台，用视频问诊、直播活动与录播课程帮助老人对抗孤独、促进身心参与。以B2B2C方式向养老机构收订阅费、向个人收使用费，银发价值在填补独居与机构老人的社交空档，用轻量线上活动替代部分线下陪伴，国内可对标其机构合作运营。",
+    "highlights": "'对抗孤独'垂直赛道样本，国内老年文娱/社交可对标其活动运营与机构(B 端)合作。",
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群",
+      "陪伴服务"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "它把对抗孤独做成养老垂类：用视频问诊、直播与录播课填满独居与机构老人的社交空档，靠机构订阅而非散客买单，这种 B 端撬动的打法有差异。可挖其与养老机构分成与活动完播等运营素材，国内红松学堂可对标其直播活动加机构合作的运营思路，给做养老文娱的创业者提供参照。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1198",
+    "name_cn": "深睿医疗",
+    "name_en": null,
+    "desc_cn": "医疗人工智能企业，把AI用于医学影像诊断与临床决策，覆盖医疗机构与居民健康场景，并向老年慢病筛查与随访延展。收入来自向医院与卫健机构销售软件与解决方案，银发价值在提升基层老年慢病与影像筛查效率，属医疗AI赛道的核心玩家。",
+    "highlights": "近5亿元融资，医疗AI全流程（老年慢病延展）",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "2024年拿了近5亿元投资，医疗AI影像赛道融资持续；公开资料显示它用AI帮医生读影像、出诊断建议，并延伸到居民健康档案。打法是'影像加决策'全流程而非单点工具，模型覆盖与医院接入规模可查，这是和单模块产品不同的广度；国内已有问岐健康、智医向量等AI医疗，可对标其向老年慢病筛查延展的思路，但需过器械审批门槛；适合小爽写'医疗AI影像'案例。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1318",
+    "name_cn": "Vestwell",
+    "name_en": null,
+    "desc_cn": "美国职场养老金与退休储蓄科技平台，为企业提供自动化、合规的退休计划管理服务，帮员工打理补充养老资金。收入来自向企业收SaaS式管理费，银发价值在补足养老'支付端'基础设施，对国内个人养老金与企业年金科技化有强借鉴意义。",
+    "highlights": "退休储蓄是银发经济'支付端'核心；Vestwell代表美国养老金融基础设施，对国内'个人养老金/企业年金科技'有强借鉴（S1+S4）。",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 57.1,
+    "signal_strength": 0.55,
+    "current_recommend": "走到E轮、近年获投不断的美国养老金融基础设施，2026年还登上Seedtable老年护理榜第一，退休储蓄与理财赛道受资本关注；公开资料显示它为企业自动化管理合规退休计划、服务大量职场员工。打法是'养老金科技加合规托管'定位，黏住企业HR与员工，这是和传统资管不同的入口；国内已有国民养老保险、太医管家等，可借鉴其把企业年金做轻量化科技中台，但国内账户与税优结构不同；适合小爽写'养老金融基建'案例。",
+    "current_info": 8.5,
+    "current_diff": 7.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0849",
+    "name_cn": "Sensi.AI",
+    "name_en": null,
+    "desc_cn": "面向家庭护理机构的被动式音频监护平台：在老人家中放置即插即用设备，用AI分析哭声、起夜、对话等音频信号，预警身体/情绪/认知退化并生成护理日志。以Sensi Pod硬件加按监测人数计价的SaaS卖给机构而非家庭。核心银发价值在补上独居老人夜间与无人看护时段的风险空档。",
+    "highlights": [
+      "100%被动音频监控，无需老人佩戴设备或点击",
+      "服务北美80%+大型家庭护理网络，年收入同比增400%",
+      "由直接to C转向to B机构，客群为家庭护理机构",
+      "可预警跌倒、如厕异常、情绪波动与认知衰退迹象"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "stage": "C轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.7,
+    "signal_strength": 2.55,
+    "current_recommend": "2025年十月完成4500万美元C轮、累计约9800万美元，近期融资信号强；公开披露它服务北美八成以上大型居家护理机构、年收入同比增4倍，数据透明。打法是用声音做无感健康监测、不靠可穿戴，黏住护理机构，这是和手环不同的路径；国内已有益生康健等远程护理，可借鉴其音频预警中台，但需过隐私与合规关；适合小爽写'音频监护'案例。",
+    "current_info": 7.0,
+    "current_diff": 7.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0162",
+    "name_cn": "安康通",
+    "name_en": null,
+    "desc_cn": "智慧居家养老运营标杆，为各地政府与单位提供一站式养老解决方案，业务含紧急救援、居家上门、社区中心、长护险服务与适老化改造，以'互联网加大养老'链式模式承建政府指挥中心并落地社区服务。覆盖24省市、2800万老年用户，属银发基础设施。",
+    "highlights": [
+      "1998年成立，A股南京新百(600682)全资子公司",
+      "覆盖24个省市、2800万老年用户，承建100个政府指挥中心",
+      "600+社区服务中心，累计居家养老服务2亿人次",
+      "200+项软著专利，业务含长护险与适老化改造"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "stage": "被收购",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 0.85,
+    "current_recommend": "1998年成立、后被南京新百收归旗下，信号来自连锁化扩张与养老政策合作；公开资料显示它辐射24个省市、老年用户规模达2800万、搭起100个政府级指挥中心，数据规模透明。打法是'指挥中心加社区上门'的可复制运营中台，黏住政府与家庭两端，这是和纯商业机构不同的网络；国内已有福寿康、易得康等居家养老护理，可借鉴其政企合作拿单，但依赖地方数据与资源；适合小爽写'智慧居家养老'案例。",
+    "current_info": 8.0,
+    "current_diff": 8.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0667",
+    "name_cn": "Cityblock Health",
+    "name_en": null,
+    "desc_cn": "以技术驱动的价值医疗提供商，面向Medicaid与双重资格复杂慢病人群，由社区健康伙伴上门提供医疗、行为健康并解决住房营养等社会决定因素。收入来自政府医保按人头风险支付与共享储蓄。银发价值在覆盖大量低收入老年慢病及双重资格人群，对应国内困难老人'医疗加社工'整合照护的组织空白。",
+    "highlights": [
+      "技术驱动价值医疗，覆盖Medicaid与双重资格复杂人群",
+      "86%会员为Medicaid或双重资格，83%有两种以上慢病",
+      "2024年完成1亿美元后期VC融资，累计约9亿美元、估值57亿"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理",
+      "诊所"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 4.55,
+    "current_recommend": "2024年1月落定1亿美金后期轮、累计约9亿美金、估值57亿，信号与信息都强；公开资料显示它服务美国政府医保与双重资格等低收入慢病人群，八成六会员属政府医保、超八成患两种以上慢病，数据透明。打法是食物住房等社工服务算进诊疗闭环，这是和纯医疗不同的整合；国内已有安泰康成等慢病管理，可学其'医疗加社工'整合法，但受美国医保框架限制难照搬；适合小爽写'医疗加社工'案例。",
+    "current_info": 9.0,
+    "current_diff": 5.0,
+    "current_copy": 3.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1160",
+    "name_cn": "国家医疗投资者",
+    "name_en": null,
+    "desc_cn": "以Triple-net净租赁模式向养老与护理运营商提供物业资本，收取稳定租金并承担房产税、保险与维护。收入来自运营商租金，终端付费方为政府Medicare/Medicaid与住户自费。作为银发地产资本方，其价值在于用长期低成本资金支撑养老运营资产扩张，是银发支付链条上游。",
+    "highlights": [
+      "医疗地产REIT(纽交所NHI)，Triple-net净租赁资本方",
+      "组合以养老/护理地产为主，租约稳健",
+      "与Welltower/Ventas等构成美国养老REIT资本阵营"
+    ],
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "养老REIT"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 6.55,
+    "current_recommend": "1991年成立的纽交所上市养老地产信托，年报与投资者材料信披充分，信号稳、信息透明；公开资料显示它靠净租赁给养老与护理运营商供物业资本、收稳定租金。打法是'出钱不运营'的轻资产定位，靠长期低成本资金撑起资产扩张，这是和自持运营不同的角色；国内已有国寿大健康、太保资本等，险资可借鉴其净租赁包租公模式，但国内REITs规则不同；适合小爽写'养老地产资本方'案例。",
+    "current_info": 7.0,
+    "current_diff": 3.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1161",
+    "name_cn": "Sabra 医疗REIT",
+    "name_en": null,
+    "desc_cn": "持有护理院、老年住宅与精神科地产并以Triple-net净租赁租予运营商，靠租金与资产增值获利，终端付费来自政府医保与住户自费。以租金覆盖倍数为锚管控租户风险。银发关联在于其资产直接承接老年照护与护理院运营，是养老地产资本底座。",
+    "highlights": [
+      "医疗REIT(纳斯达克SBRA)，Triple-net净租赁为主",
+      "组合含护理院/老年住宅/精神科/专科 hospital",
+      "2025年Moody's上调至Baa3，护理院EBITDARM覆盖率2.35x",
+      "2025年新增约4.2亿美元老年住宅投资"
+    ],
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "养老REIT"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 6.55,
+    "current_recommend": "2010年上市的纳斯达克养老地产信托，2025年获评级上调、把约4.2亿美金新投进老年住宅，信号与信披都强；公开资料显示它组合含护理院与老年住宅，租户租金覆盖倍数达2.35倍，数据透明。打法是主动压降高风险护理院占比、改押自理养老的再平衡，这是和守稳不动不同的打法；国内已有国寿大健康等，康养地产可借鉴其组合降集中度操作，但国内资产类型不同；适合小爽写'养老REIT再平衡'案例。",
+    "current_info": 7.0,
+    "current_diff": 3.0,
+    "current_copy": 5.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1162",
+    "name_cn": "LTC 地产",
+    "name_en": null,
+    "desc_cn": "持有养老与护理地产，近年从净租赁转向自营老年社区，靠租金与自营社区运营收入获利，终端付费来自政府医保与住户自费。银发价值在'以新vintage社区加绩效化运营对冲护理院依赖'的资产腾挪，对应国内险资布局养老资产路径。",
+    "highlights": [
+      "养老与护理地产REIT(纽交所LTC)，1992年成立",
+      "2025年战略转向自营SHOP老年社区，NOI利润率升至28%",
+      "组合约190处，60%老年住宅+40%护理院",
+      "2025年Genesis租户破产，2026年换租户去化风险"
+    ],
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "养老REIT"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 6.55,
+    "current_recommend": "1992年上市的纽交所养老地产信托，2025年起把重心转到自营老年社区、净营业利润率升到28%，信号稳、信息透明；公开资料显示它组合约190处、六成老年住宅加四成护理院。打法是拿新社区加绩效运营来对冲对护理院的依赖，这种资产腾挪、2026年因某租户破产换血去化，这是和守旧不同的调整；国内险资可借鉴其持有加自营路径，但国内照护资产供给不足；适合小爽写'养老REIT自营化'案例。",
+    "current_info": 7.0,
+    "current_diff": 3.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1163",
+    "name_cn": "医疗地产信托",
+    "name_en": null,
+    "desc_cn": "以医疗办公楼(MOB)信托模式持有毗邻医院的医生集团办公楼，靠长租医生集团与医院系统的租金获利，终端为医疗服务自费与医保。银发切点较弱，属医疗地产而非养老运营，其'锚定医院流量'逻辑对国内医养结合地产有参考，但非直接养老照护。",
+    "highlights": [
+      "医疗办公楼(MOB)REIT(纽交所HR)，2022年合并HTA",
+      "资产以毗邻医院的医生集团办公楼为主",
+      "银发切点弱，属医疗地产而非养老运营",
+      "“锚定医院流量”逻辑对医养结合地产有参考"
+    ],
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "养老REIT"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 6.55,
+    "current_recommend": "1992年上市、2022年并入HTA的医疗办公楼信托，信披充分、信号稳；公开资料显示它资产以紧挨医院的医生办公楼层为主，靠把楼长租给医生团体和医院体系赚钱，数据透明。打法是'贴着医院拿地'的选址逻辑，这是和综合地产不同的锚定；但客群是全龄患者而非老人，银发关联偏弱，国内医养结合地产可参考其锚定医院流量，归类宜作泛医疗擦边；适合小爽写'医疗办公楼REIT'案例。",
+    "current_info": 7.0,
+    "current_diff": 3.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1167",
+    "name_cn": "多元医疗信托",
+    "name_en": null,
+    "desc_cn": "持有医疗与养老混合地产(约68亿美元组合)，原自营老年社区现转交多元运营商托管，靠净租赁租金与自营社区收入获利，终端付费来自政府医保与住户自费。银发价值在持有2.5万余老年生活单元，以及'运营商多元化加绩效化托管'出清思路。",
+    "highlights": [
+      "医疗+养老混合REIT(纳斯达克DHC)，组合约68亿美元",
+      "2025把116个原AlerisLife社区转交七家新运营商",
+      "2025年处置69处资产回收约6亿美元、降杠杆",
+      "无重大债务到期至2028，转向运营提升"
+    ],
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "养老REIT"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.6,
+    "signal_strength": 6.55,
+    "current_recommend": "1998年上市的医疗与养老混合信托，2025年把116个原自营老年社区交给七家新运营商打理、卖掉69处资产回笼约6亿美金，信号与信息都强；公开资料显示它手里约2.5万套老年生活单元。打法是让运营商多元化和绩效化托管来出清低效资产，这是和死守自营不同的取舍；国内已有国寿大健康等，康养资本可借鉴其跨业态配置，但国内退出渠道有限；适合小爽写'养老REIT出清'案例。",
+    "current_info": 7.0,
+    "current_diff": 3.0,
+    "current_copy": 5.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0779",
+    "name_cn": "Meela",
+    "name_en": null,
+    "desc_cn": "面向独居老人的AI语音陪伴服务：系统按预设时间表主动打电话与老人实时聊天，记住其兴趣与往事、引导回忆与游戏，并标记情绪或认知异常预警转交照护团队；个人版月费订阅、机构版供养老社区运营。直接缓解老年孤独与认知退化。",
+    "highlights": [
+      "AI主动打电话陪伴独居老人，记住偏好维持连续对话",
+      "自动标记情绪低落/困惑并预警转交照护团队",
+      "无App、仅靠普通电话，降低老人使用门槛",
+      "获WSJ报道，Bain Capital Ventures领投种子轮"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "陪伴服务"
+    ],
+    "stage": "种子期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.2,
+    "signal_strength": 1.05,
+    "current_recommend": "2025年9月获350万美元种子轮、贝恩资本创投领投，近期融资信号清楚；公开资料显示它用AI按预设时间点主动致电独居老人闲聊、标记情绪异常并预警，不用App降低门槛，信息透明。打法是'定时语音呼叫加异常预警'的轻运营，这是和陪伴硬件不同的路径；国内已有上海云虚互伴等陪伴服务，可借鉴其社区级运营产品化，但需解决老人信任与方言；适合小爽写'语音陪伴'案例。",
+    "current_info": 7.0,
+    "current_diff": 8.0,
+    "current_copy": 8.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1320",
+    "name_cn": "Warren",
+    "name_en": null,
+    "desc_cn": "根特金融科技，自营持牌养老基金，把员工养老金资本投于多元ETF组合，免进出与资产管理费，雇主付固定订阅、收益全归员工。叠加AI加真人财务教练覆盖养老、健康险、房贷与投资，已接入Mypension.be与PSD2。核心银发价值在提升补充养老参与率与财务素养。",
+    "highlights": [
+      "自营IBP持牌养老基金，ETF低费组合、无资产费率，雇主固定订阅",
+      "AI+真人财务教练覆盖养老/健康险/房贷/投资，已接入Mypension.be与PSD2",
+      "一年内约百家比利时企业采用，目标2028年10万员工上平台"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "stage": "种子期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 56.2,
+    "signal_strength": 5.05,
+    "current_recommend": "2026年6月新募1000万欧元融资，职场养老金与理财赛道信号新；公开资料显示它自营持牌养老基金、让员工养老金进多元ETF篮子且免管理费，并叠AI加真人财务教练，信息透明。打法是'补充养老标配化加教练式陪伴'定位，这是和单纯投顾不同的服务；国内已有国民养老保险等，第三支柱创业者可对标其轻量工具提升参与率，但国内账户与税优结构不同；适合小爽写'职场养老金平台'案例。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0480",
+    "name_cn": "True Link Financial",
+    "name_en": null,
+    "desc_cn": "面向老年及认知障碍人群的防金融欺诈资产守护平台，发行可自定义消费规则的预付Visa卡与资产管理工具，由家属或监护人为老人设消费护栏。收入来自账户订阅月费与资产管理费，资金享FDIC保障。银发切点在于用产品化手段为易受诈骗人群筑起消费防火墙。",
+    "highlights": [
+      "预付Visa卡支持50+类消费场景定制防欺诈规则",
+      "年防欺诈金额超1.75亿美元，服务25万+家庭",
+      "覆盖老年、残障、康复人群，资金享FDIC保险保障"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 55.7,
+    "signal_strength": 3.55,
+    "current_recommend": "2020年完成3500万美元B轮、由头部创投基金领投，银发防诈理财信号明确；公开资料显示它管着超10亿美元资产、覆盖25万以上家庭，每年帮家庭挡下逾1.75亿美元诈骗损失，数据透明。打法是把账户托管、消费监控与亲属预警做成防线而非代销，这是和卖理财产品不同的定位；国内银行与保险公司也已涉足适老金融，可借鉴其防骗护栏设计，但需合规持牌；适合小爽写'银发防诈'案例。",
+    "current_info": 7.0,
+    "current_diff": 7.0,
+    "current_copy": 5.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0481",
+    "name_cn": "Vesta Healthcare",
+    "name_en": null,
+    "desc_cn": "把居家照护员(家政/护工)纳入临床团队，通过平台把老人日常状态与异常事件实时共享给护士与保险计划，辅以远程监测改善脆弱老人预后。收入来自政府医保与商业健康计划按服务或按人头支付的协调管理费。其银发价值在激活'照护员即数据入口'，对应国内家政护理与医保、长护险数据不通、难以早期预警的痛点。",
+    "highlights": [
+      "把居家照护员纳入临床团队，与保险计划共享数据改善预后",
+      "服务超5万高风险老人，覆盖12州并扩张",
+      "2024年9月完成6500万美元C轮，RA Capital领投"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "stage": "C轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 55.7,
+    "signal_strength": 4.55,
+    "current_recommend": "2024年9月拿下6500万美金C轮，近期融资与服务规模信号都强；公开资料显示它把居家护工纳入临床团队、把老人日常异常实时同步给护士和保险方，服务五万多高风险老人，数据透明。打法是'把护工当数据入口'的协同机制，这是和单点护理不同的整合；国内已有福寿康、易得康等居家护理，可借鉴其多方协同框架，但受国内护理员职业化与数据互通制约；适合小爽写'居家照护协同'案例。",
+    "current_info": 6.0,
+    "current_diff": 6.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  }
+]

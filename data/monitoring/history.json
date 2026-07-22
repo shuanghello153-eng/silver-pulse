@@ -50,5 +50,31 @@
       "payor_model": 3.462050599201065,
       "value_score": 100.0
     }
+  },
+  {
+    "date": "2026-07-20",
+    "n_ent": 1502,
+    "n_scored": 63,
+    "comp": {
+      "name_cn": 100.0,
+      "website_url": 100.0,
+      "crunchbase_url": 78.62849533954727,
+      "founded": 100.0,
+      "stage": 100.0,
+      "funding_latest.amount": 30.892143808255657,
+      "funding_total": 100.0,
+      "investors": 100.0,
+      "news_coverage": 31.957390146471372,
+      "highlights": 100.0,
+      "desc_cn": 100.0,
+      "region": 100.0,
+      "category_l1": 100.0,
+      "category_l2": 99.86684420772303,
+      "tag_l1": 100.0,
+      "tag_l2": 100.0,
+      "business_model": 80.55925432756325,
+      "payor_model": 100.0,
+      "value_score": 100.0
+    }
   }
 ]

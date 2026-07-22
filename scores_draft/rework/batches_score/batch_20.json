@@ -1,0 +1,635 @@
+[
+  {
+    "serial": "#1245",
+    "name_cn": "Retro Biosciences",
+    "name_en": null,
+    "desc_cn": "长寿生物科技公司，聚焦细胞重编程、自噬与血浆稀释三大延寿机制，并用定制AI模型设计重编程蛋白以提速研发。首款在研药物RTR242（增强溶酶体自噬）已启动阿尔茨海默病人体试验，尚处临床早期。收入模式待药品上市后B端合作或授权，目前靠资本支撑。银发关联在对抗衰老相关疾病，但非直接面向老人的产品。",
+    "highlights": [
+      "聚焦细胞重编程/自噬/血浆稀释三大延寿机制并行",
+      "获OpenAI CEO Sam Altman 1.8亿美元单一注资",
+      "目标为健康寿命延长10年，尚处临床前阶段"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "长寿抗衰"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.7,
+    "signal_strength": 4.55,
+    "current_recommend": "Altman单人注资1.8亿、临床前的长寿抗衰医疗研发信号极强、数据有限；差异在细胞重编程自噬血浆稀释三机制，打法重研发。国内抗衰医疗可借鉴其延寿方向，但深科技加FDA、短期复制性极低。",
+    "current_info": 4.0,
+    "current_diff": 8.0,
+    "current_copy": 3.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1311",
+    "name_cn": "Qida",
+    "name_en": null,
+    "desc_cn": "西班牙医养结合整合服务商，从对接家庭的护工平台演进为一站式居家照护：提供上门护理、AI预防性监测，并与加泰罗尼亚政府共建公共健康监测软件，还推出西班牙首款帕金森等慢病保险。收入来自私人与公共居家照护服务及保险，已是盈利的B Corp社企。银发价值在把照护、预防与公共支付协同成可持续生态。",
+    "highlights": [
+      "西班牙领先居家照护整合商，已服务2万+家庭且盈利",
+      "B Corp社企，与加泰罗尼亚政府共建公共健康监测软件",
+      "推出西班牙首款慢病(帕金森)保险，做成'养老亚马逊'市场"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程医疗"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.7,
+    "signal_strength": 4.55,
+    "current_recommend": "完成6000万欧元B轮、服务2万家庭的远程医疗信号强、信息披露充分；差异在照护预防公共支付协同，打法重整合。国内医疗医养结合可借鉴其一体化，复制中、支付需本地化改造。",
+    "current_info": 4.0,
+    "current_diff": 5.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0248",
+    "name_cn": "泰康之家",
+    "name_en": null,
+    "desc_cn": "国内CCRC连锁医养社区运营商,以保险+医养模式向高净值长者提供含康复医院的全周期照护;收入来自保单对接的社区入住与照护服务费,全国已布局37城48个项目、在住超2.2万人。",
+    "highlights": [
+      "全国37城48个CCRC项目、在住居民超2.2万",
+      "保险+医养\"支付+服务\"模式、自建五大医学中心",
+      "养医融合3.0、推\"城市养联体\"延伸至居家社区",
+      "2026年6月落地深圳梅沙府(第48个项目)"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "CCRC"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 0.55,
+    "current_recommend": "37城48项目、在住2.2万的养老机构信号透明；差异在保险+CCRC支付服务闭环，打法重重资产。国内康养养老服务可借鉴其保单获客，但牌照与资金制约快速复制扩张。",
+    "current_info": 8.0,
+    "current_diff": 7.0,
+    "current_copy": 4.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0387",
+    "name_cn": "CareVoice",
+    "name_en": null,
+    "desc_cn": "保险科技操作系统CareVoiceOS。以API将分诊、就医预约、理赔与健康管理等数字健康旅程模块化，嵌入寿险与健康险公司的自有App与SuperApp，并接入70余家健康服务方。收入来自向保司收取SaaS与集成服务费。银发价值在把健康服务植入保单，间接服务慢病与养老客群。",
+    "highlights": [
+      "上海或香港保险科技，CareVoiceOS健康操作系统",
+      "以API将分诊或保单或理赔嵌入保司",
+      "服务全球30余家保险公司",
+      "2024年完成千万美元级B轮"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "保险科技"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 2.55,
+    "current_recommend": "2024年1000万B轮的保险科技信号清晰、数据透明；差异在API把分诊理赔嵌入保司App，打法重白标。国内健康险可借鉴其中立中台，复制成本低、宜做出海对照。",
+    "current_info": 6.0,
+    "current_diff": 5.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0500",
+    "name_cn": "Carewell",
+    "name_en": null,
+    "desc_cn": "家庭照护者电商与知识平台。在线售卖失禁、营养、行动辅助等居家照护用品，并配套300余篇照护科普文章、视频与一对一客服，由照护者创办。收入来自C端家庭照护者商品销售毛利。银发价值在把'买用品加学照护'做成一站式，降低分散照护者的信息与采购门槛。",
+    "highlights": [
+      "家庭照护者一站式用品电商加知识平台",
+      "2023年B轮2470万美元、累计5470万",
+      "soonicorn级别、增长快",
+      "聚焦居家养老照护场景"
+    ],
+    "tag_l1": [
+      "行业服务",
+      "消费品"
+    ],
+    "tag_l2": [
+      "养老信息平台",
+      "电商"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 2.55,
+    "current_recommend": "累计5470万、B轮2470万的养老信息平台信号清晰、信息披露充分；差异在家庭照护者用品+科普电商，打法重垂直。国内养老照护零售可借鉴其选品+教育，复制门槛低、宜学内容钩子。",
+    "current_info": 6.0,
+    "current_diff": 4.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0777",
+    "name_cn": "Medisafe",
+    "name_en": null,
+    "desc_cn": "面向慢病患者与照护者的用药管理App，提供个性化服药提醒、相互作用预警、家属协同监护与用药报告。底层以AI（JITI引擎）分析用药行为，向药企与支付方输出真实世界依从性数据。收入来自C端订阅（2026年起美国外转付费）及B端药企/支付方授权与数据合作。覆盖全龄慢病，老年多病共服人群为高频使用者。",
+    "highlights": [
+      "用药管理App，1000万+下载、40亿+剂量管理、700万+注册用户",
+      "JITI即时干预引擎+药企数据合作闭环",
+      "多项RCT验证依从性提升(6716人研究提醒持久性高170%)",
+      "2026年起美国外市场转为订阅制(4.99美元/月)"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "用药提醒"
+    ],
+    "stage": "C轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 2.55,
+    "current_recommend": "C轮3000万、千万下载的用药提醒医疗信号强、用户数据厚；差异在依从性数据反哺药企，打法重闭环。国内用药医疗管理可借鉴其B2B变现，但客群全龄、复制需药企与支付方合作。",
+    "current_info": 6.0,
+    "current_diff": 4.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0806",
+    "name_cn": "Nourish",
+    "name_en": null,
+    "desc_cn": "保险直付的虚拟营养照护平台，连接注册营养师（RD）、患者与支付方，覆盖糖尿病、肾病、肥胖、IBS等营养相关慢病。患者经保险匹配专科RD做视频问诊、AI餐食追踪与可穿戴/化验联动；94%零自付，已接入Medicare等商保。收入来自支付方按服务结算，并叠加GLP-1减重协同管理。",
+    "highlights": [
+      "保险直付虚拟营养照护，3000+签约RD、覆盖50州、数十万患者",
+      "94%用户零自付，接入Medicare/Medicaid及Aetna等商保",
+      "GLP-1人群配RD减重高33%，A1C/LDL改善",
+      "2026年C轮1亿美元，累计2.15亿，转型AI代谢诊所"
+    ],
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "个性化营养"
+    ],
+    "stage": "C轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 2.55,
+    "current_recommend": "做保险直付的线上营养照护平台，对接注册营养师、患者与支付方，管糖尿病肾病等慢病，94%零自付、接入政府医保，3000多名RD、遍及50州，2024年A轮3500万融资、累计1.15亿，规模数据清晰。差异在把营养当可报销处方、绑定支付方，国内慢病营养管理可对标；可借鉴其保险直付思路，但国内营养科弱、支付方不同，且GLP-1协同是新增长点，适合做营养照护报销化选题。",
+    "current_info": 6.0,
+    "current_diff": 5.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0910",
+    "name_cn": "VyncaCare",
+    "name_en": null,
+    "desc_cn": "面向重病与临终人群的科技赋能舒缓疗护机构：将预先照护计划软件、居家/虚拟安宁疗护、增强照护管理打包，由雇佣的临床团队提供身心社灵全人支持。与医疗计划按价值付费合作。核心银发价值在服务预期寿命≤12个月、尚未进hospice的老年重病群体，补足临终关怀前空白。",
+    "highlights": [
+      "由预先照护计划软件起家，2021年收购Resolution Care切入疗护服务",
+      "已交付超100万份预先照护计划，覆盖全美50州",
+      "居家舒缓疗护+增强照护管理(ECM)打包，按价值付费",
+      "患者多为医疗补助(Medicaid)人群，覆盖加州等5州"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "安宁疗护"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 2.55,
+    "current_recommend": "C轮3000万、交付百万份计划的安宁疗护护理信号清晰、规模数据厚；差异在预先照护计划+居家舒缓，打法重流程。国内临终护理疗护可借鉴其标准化包，复制需医疗与支付方协同。",
+    "current_info": 6.0,
+    "current_diff": 5.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0960",
+    "name_cn": "Orion",
+    "name_en": null,
+    "desc_cn": "面向成人的智能温控床垫罩：水循环系统实现50–115°F双区冷暖，嵌入式传感追踪心率呼吸与睡眠阶段，AI按体温画像个性化调温，全功能免强制订阅。售价数百美元、可用HSA/FSA。定位通用睡眠与健身人群，银发关联仅在老年睡眠中断的潜在适老延伸，非专老。",
+    "highlights": [
+      "水循环双区冷暖+嵌入式生物传感，可罩任意床垫",
+      "全功能免强制订阅，主打去订阅化对标Eight Sleep",
+      "上线4个月做到八位数年化营收，HSA/FSA可抵税",
+      "创始人为连续创业者Harry Gestetner（前Fanfix）"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "睡眠监测"
+    ],
+    "stage": "种子期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.6,
+    "signal_strength": 2.55,
+    "current_recommend": "智能温控床垫罩这类家居睡眠硬件，水循环实现双区冷暖、内嵌生物传感追踪睡眠，上线四个月就做到八位数年收、营收数据透明，种子1750万、累计1750万，可用HSA/FSA抵税。差异在去订阅化对标海外同类、把睡眠硬件做成通用健康品，但银发关联弱、非专老，国内家居睡眠经济起、可局部对标；可借鉴其免订阅思路，但国内睡眠监测合规与渠道不同、难平移，适合做智能睡眠硬件参照。",
+    "current_info": 6.0,
+    "current_diff": 4.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0648",
+    "name_cn": "Brightview Senior Living",
+    "name_en": null,
+    "desc_cn": "创立于1999年的美国痴呆症护理养老院运营商，提供专设认知症照护院区的养老社区服务，2022年获2.02亿美元融资。定位在把认知症照护做成专项院区，属重资产专科养老。",
+    "highlights": "成立于1999年",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知症"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 0.55,
+    "current_recommend": "2022年2.02亿、1999年创立的养老认知症机构信号明确、财务数据厚；差异在痴呆症专项照护院区，打法重专科。国内认知症养老照护可借鉴其专院设计，复制难在重资产与护理团队。",
+    "current_info": 8.5,
+    "current_diff": 4.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0651",
+    "name_cn": "Care Continuity",
+    "name_en": null,
+    "desc_cn": "提供软件加礼宾服务的护理导航与过渡协调商，帮患者在出院与机构间平滑过渡、对接后续照护，2024年获1000万美元融资。定位在把护理协调做成导航服务，连接医院与支付方。",
+    "highlights": "软件+礼宾服务帮助患者护理导航和过渡",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护理协调"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 0.55,
+    "current_recommend": "2024年1000万的护理协调信号清晰、数据透明；差异在软件+礼宾帮患者过渡导航，打法重衔接。国内院后护理管理可借鉴其导航服务，复制需对接医院与支付方流程。",
+    "current_info": 8.5,
+    "current_diff": 4.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0962",
+    "name_cn": "Nestimate",
+    "name_en": null,
+    "desc_cn": "面向退休计划顾问的SaaS分析平台，对401k等固定缴费计划中的目标日期基金与终身收入（年金）方案做客观拟合度评估；收入来自B端机构订阅与Nuveen等渠道分发。银发价值在帮助50+参保人把储蓄转化为可持续的退休现金流。",
+    "highlights": [
+      "退休计划尽职调查SaaS，客观评估目标日期基金与终身收入方案",
+      "2026年与Nuveen（TIAA资管）合作向顾问免费开放",
+      "投资方含TIAA Ventures、PruVen Capital、S3 Ventures",
+      "切入SECURE Act后退休收入(年金)评估空白"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "stage": "种子期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 1.05,
+    "current_recommend": "种子轮300万、TIAA系注资的金融理财信号清晰、数据透明；差异在401k终身收入测算，打法重合规。国内个人养老金理财可借鉴其保底收入工具，复制宜学测算—嵌入而非照搬。",
+    "current_info": 6.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1044",
+    "name_cn": "The Helper Bees",
+    "name_en": null,
+    "desc_cn": "连接居家护理与保险的care-concierge平台，把会员匹配到审核过的照护者并管理福利资助的入户支持，已完成C轮3500万美元融资。定位在保险绑定下的居家护理撮合。",
+    "highlights": "保险+居家护理连接，国内长护险可借鉴",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "护工平台"
+    ],
+    "stage": "C轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 0.55,
+    "current_recommend": "C轮3500万的护理护工平台信号清晰、数据透明；差异在保险绑定居家护理撮合，打法重连接。国内长护护理险可借鉴其福利金匹配，复制需支付方与护工池两端建设。",
+    "current_info": 8.5,
+    "current_diff": 4.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1101",
+    "name_cn": "京东方",
+    "name_en": null,
+    "desc_cn": "面板巨头京东方布局的智慧养老运营项目，投资超4.5亿元，以显示屏与物联网能力切入机构与社区养老场景。定位在科技巨头跨界做康养重资产，处项目批复与建设阶段，后续看运营落地能力。",
+    "highlights": "面板巨头布局智慧养老重资产",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 0.55,
+    "current_recommend": "超4.5亿项目批复的养老服务智慧运营信号明确、投资数据厚；差异在面板巨头布局康养重资产，打法重科技。国内智慧养老服务可借鉴其屏端入口，复制难在资金与跨界运营能力。",
+    "current_info": 8.5,
+    "current_diff": 4.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1181",
+    "name_cn": "Front Porch｜CCRC",
+    "name_en": null,
+    "desc_cn": "美国加州非营利养老运营商，1999年创立，运营持续照料退休社区与活跃长者社区，并设老龄化创新实验室研究养老。定位在非营利CCRC加社区营造，靠入住费月费与捐赠。",
+    "highlights": "非营利 CCRC+老龄化创新实验室模式，国内公建民营养老社区可参考其社区营造。",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "CCRC"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 0.55,
+    "current_recommend": "1999年创立、非营利养老CCRC服务机构信号平稳、运营数据有限；差异在养老社区+老龄化创新实验室，打法重营造。国内公建民营养老服务可借鉴其社区营造，复制需非营利定位与本地资源。",
+    "current_info": 8.5,
+    "current_diff": 4.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1182",
+    "name_cn": "Visiting Angels｜上门照护加盟",
+    "name_en": null,
+    "desc_cn": "美国大型非医疗居家照护加盟网络，1992年创立，遍布数百个加盟网点，提供陪伴、个人护理与家务协助，按服务时长收费加加盟费。定位在居家照护加盟连锁扩张，网络覆盖持续扩张。",
+    "highlights": "居家照护'加盟连锁'扩张样本，国内上门养老护理加盟化可参考其网点管理与培训。",
+    "tag_l1": [
+      "养老服务",
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "居家护理",
+      "陪伴服务"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 47.1,
+    "signal_strength": 0.55,
+    "current_recommend": "1992年创立、数百加盟网的居家护理信号平稳、经营信息透明；差异在非医疗照护加盟连锁，打法重网点。国内上门护理可借鉴其加盟培训，复制需标准化与护工供给池建设。",
+    "current_info": 8.5,
+    "current_diff": 4.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0147",
+    "name_cn": "天天好",
+    "name_en": null,
+    "desc_cn": "面向全球的功能性多肽原料与健康食品研发生产商，主营血蛋白低聚肽等原料及'十二新经方'食养系列，通过原料供应、配方研发、成品定制与一站式OEM/ODM跨境代工盈利，服务老年营养与特医食品客户。",
+    "highlights": [
+      "中国多肽营养学开创者，首创'肽益协同'技术并有多项国家专利",
+      "产品服务全球1.7亿消费者，出口加拿大、东南亚",
+      "2026上海FIA展会血蛋白低聚肽获Fi可持续创新奖与金萃奖",
+      "AI多肽筛选平台Bio-AI+一站式OEM/ODM跨境代工"
+    ],
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "营养食品",
+      "保健品"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 46.8,
+    "signal_strength": 0.6,
+    "current_recommend": "2026年Fi获奖、服务1.7亿消费者的营养食品信号平稳、规模数据厚；差异在血蛋白低聚肽+特医OEM，打法重原料。国内老年营养可借鉴其肽类卡位，复制需研发与跨境代工能力。",
+    "current_info": 7.0,
+    "current_diff": 6.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0167",
+    "name_cn": "家瑞康",
+    "name_en": null,
+    "desc_cn": "家用呼吸诊疗设备商，主营制氧机、雾化器、呼吸训练器等产品，构建从体外诊断、临床诊断到呼吸治疗、重症监护与康复的慢病管理闭环，与跨国药企合作，产品获FDA与CE认证并远销海外。",
+    "highlights": [
+      "品牌创立于2003年，与跨国药企深度战略合作",
+      "产品获美国FDA与欧盟CE认证，远销全球",
+      "智能雾化系统进入全国数千家儿童医院",
+      "从'大雾化'升级'大呼吸'全周期呼吸慢病管理"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "医疗器械"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 46.8,
+    "signal_strength": 0.6,
+    "current_recommend": "2003年创立、FDA与CE认证的医疗器械信号平稳、认证数据清晰；差异在制氧雾化+三甲儿童医院指定，打法重院外。国内呼吸医疗慢病可借鉴其医院背书做家用，复制需注册与渠道。",
+    "current_info": 7.0,
+    "current_diff": 6.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0099",
+    "name_cn": "倍益康",
+    "name_en": null,
+    "desc_cn": "北交所上市公司(920199.BJ)，智能康复设备制造商，既有干扰电治疗仪等二类医疗设备，也有筋膜枪、制氧机等消费级产品，拥有800余项专利。收入来自B端与C端，对应老年康复与居家理疗需求。",
+    "highlights": [
+      "北交所上市公司（920199.BJ，2022年12月上市）",
+      "专业医疗+健康消费双轮，拥有800余项专利",
+      "产品覆盖干扰电治疗仪等二类医疗设备与筋膜枪、制氧机等消费级产品",
+      "成都6.2万㎡智能制造基地"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "康复器械"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 46.7,
+    "signal_strength": 0.55,
+    "current_recommend": "北交所2022年挂牌、手握800余项专利，康复器械信号中等但信披透明；6.2万㎡智造基地与双产品线构成扎实信息量。差异化在把医院级理疗下放到居家康复场景，走医疗加消费双轮模式而非单卖设备；国内中小厂可复用其居家康复产品矩阵，落地门槛不高，适合做银发康复家电化对标案例。",
+    "current_info": 7.0,
+    "current_diff": 6.0,
+    "current_copy": 6.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0193",
+    "name_cn": "心乐空间",
+    "name_en": null,
+    "desc_cn": "嵌入社区的长者运动健康之家，面向55岁以上老人提供体质检测、科学健身与慢病运动干预，配备走步机、等速肌力等主动器材与垂直律动床等被动设备，并以智能手环实时监测心率、设一键急停保障安全。收入来自每月99元会费及政府购买服务。银发价值在用“体医融合”帮老人延缓功能退化、管理慢病。",
+    "highlights": [
+      "上海虹桥街道嵌入式长者健身房，月卡99元半公益收费",
+      "主动训练（走步机、等速肌力）+被动律动床，适配坐轮椅老人",
+      "智能手环心率监测+一键急停，对接上海“十四五”慢病运动干预",
+      "由尚体健康运营，上海多家、南京长沙亦有类似长者运动之家"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "健身"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 46.7,
+    "signal_strength": 0.55,
+    "current_recommend": "社区长者健身点月卡99元，健身信号靠政府采购买单、信披一般但模式清晰；智能手环测心率与一键急停保障构成基础信息量。差异化在体医融合靠主动与被动双类器材适配坐轮椅老人，比普通健身房更贴慢病群体；国内社区可复制其半公益收费与政府合作路径，但要警惕依赖街道补贴的可持续性。",
+    "current_info": 5.0,
+    "current_diff": 7.0,
+    "current_copy": 8.0,
+    "_is_v5_already": false
+  }
+]

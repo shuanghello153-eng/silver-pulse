@@ -1,0 +1,653 @@
+[
+  {
+    "serial": "#0025",
+    "name_cn": "清雷",
+    "name_en": null,
+    "desc_cn": "研发非接触式毫米波雷达健康监测设备，通过隔被监测呼吸、心率与跌倒姿态，主打医疗级睡眠与呼吸慢病筛查。获国内首张毫米波雷达二类医疗器械证，产品已落地泰康之家等高端养老机构，并为京东健康、德州仪器提供技术合作。收入来自设备销售与医疗方案授权。",
+    "highlights": [
+      "获国内首张毫米波雷达二类医疗器械注册证，睡眠监测领域唯一创新医疗器械",
+      "清华团队孵化，隔被监测呼吸心率、卫生间跌倒0.3秒报警",
+      "与京东健康、德州仪器合作，落地泰康之家等高端养老机构"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "stage": "Pre-A",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "它用非接触式毫米波雷达隔被读呼吸、心率与跌倒姿态，把监测做成无感设备，打法去穿戴化少见。素材可挖：二类器械获证路径、落地高端养老机构的案例都具故事性，反共识点是'健康监测不必贴身'。国内清澜技术、百芝龙、苗米等可借鉴这种'非接触无感监测'的思路，把卧室卫生间当核心场景。",
+    "current_info": 5.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0027",
+    "name_cn": "特霍芬",
+    "name_en": null,
+    "desc_cn": "与上海市精神卫生中心联合研发TCSA认知筛查系统，以电子游戏式交互在3分钟内完成阿尔茨海默病风险初筛，敏感性85.3%、特异性95.1%。产品已纳入蓝皮书推荐并在上海社区常态化使用，同时作为太平洋保险认知症险的筛查与训练权益，向B端机构与保险支付方输出数字筛查能力。",
+    "highlights": [
+      "与上海市精神卫生中心联合研发TCSA，国内首款完全自主产权认知筛查工具",
+      "敏感性85.3%、特异性95.1%，已纳入《中国阿尔茨海默病蓝皮书》推荐",
+      "作为太平洋保险阿尔茨海默病险的筛查与训练权益输出"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知筛查",
+      "认知训练"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "与上海市精神卫生中心联合研发的认知筛查系统，以游戏化快筛完成阿尔茨海默病风险初评。强在游戏化加医研背书加保险衔接三位一体，壁垒在医研信任与数据。国内博斯腾、织生科技同做认知筛查；可借鉴其医研背书加保险衔接，看筛查如何变保险获客入口而非一次性服务。其筛查路径与保险转化可作案例素材。",
+    "current_info": 5.0,
+    "current_diff": 7.0,
+    "current_copy": 6.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0028",
+    "name_cn": "百芝龙",
+    "name_en": null,
+    "desc_cn": "推出「孝智通」人体行为感知器，融合Wi-Fi波与毫米波雷达双重探测，在卫生间等私密场景无摄像头识别跌倒、滞留等异常并联动微信/电话报警。产品入选三部委智慧健康养老推广目录，已通过上海长宁慈善助老项目落地6000户高龄居家老人，并向机构与社区输出无感看护方案。",
+    "highlights": [
+      "Wi-Fi波+毫米波雷达双波融合，无摄像头解决隐私痛点",
+      "产品入选工信部等三部委《智慧健康养老产品及服务推广目录（2020）》",
+      "与华为海思、中国电信、中国航天战略合作，落地上海长宁6000户高龄老人"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "人体行为感知器厂商，融合双波段雷达做融合探测，在卫浴等私密场景无摄像头识别跌倒滞留并联动报警。强在双传感加无摄像头兼顾精准与隐私，壁垒在多源信号融合算法。国内清雷、清澜技术同做雷达跌倒检测；可借鉴其目录落地路径，看慈善项目如何跳板到规模采购。其探测精度与误报数据可作深度稿素材。",
+    "current_info": 5.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0039",
+    "name_cn": "闲趣岛",
+    "name_en": null,
+    "desc_cn": "专为40岁以上人群打造的综合性社交平台，以兴趣小岛聚合歌唱、舞蹈、书画、养生等社群，并提供同城聚会、婚恋相亲、直播与社区创作。通过适老化界面与实名认证降低使用门槛，靠会员特权与本地商家银发优惠实现变现，定位中老年专属交流空间。",
+    "highlights": [
+      "专为40岁以上人群设计，宣称用户超500万、日活破80万",
+      "「兴趣社群+同城相亲+直播」三位一体，强实名认证",
+      "适老化界面降低使用门槛，会员特权与本地商家银发优惠变现"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群",
+      "相亲"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "专为四十岁以上人群做的综合社交平台，以兴趣社群聚歌舞书画养生，并做同城聚会、婚恋相亲和直播创作。强在全兴趣加强在地而非单一相亲或合唱，壁垒在线下活动组织力。国内兴趣岛、彩视同做中老年社交但偏内容；可借鉴其在地化变现，看同城线下活动如何把流量变会员收入。其活动转化率与会员结构可作素材。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0074",
+    "name_cn": "乐陪护",
+    "name_en": null,
+    "desc_cn": "扎根重庆的医院陪护与居家护理服务商。以三大子品牌覆盖院内陪护、就医陪诊与居家养老照护，采用「一院一队」驻点+员工制培训，收入来自护工服务费与长护险结算。银发价值在打通住院到居家的专业护理链条，对应国内护工规范化与长护险落地缺口。",
+    "highlights": [
+      "「一院一队」驻点陪护，服务团队近1400人、合作医院29家",
+      "三大子品牌乐陪护/乐陪诊/乐管家，覆盖院内+居家+长护险全链条",
+      "承接长期护理保险相关服务，设968000服务热线与乐陪诊微信平台",
+      "重庆市医疗护理员实训基地，拥有34项资质证书"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理",
+      "陪诊"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "扎根重庆的院内外陪护与居家照料商，三大子品牌覆盖院内陪护、陪诊与居家照护，采用一院一队驻点加员工制培训。差异在驻点制而非平台派单、服务标准化更可控，壁垒在护工供给稳定性。国内优享陪诊、小橙同做陪诊陪护但多平台化；可学其员工制重模式，看重庆本地密度打法如何把护工变稳定供给。其培训与调度体系可作案例素材。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0087",
+    "name_cn": "令羽",
+    "name_en": null,
+    "desc_cn": "日化集团旗下专研熟龄肌的高端护肤品牌，以虫草等成分为50岁以上女性提供抗衰修护产品。收入来自个人自费的美妆零售。银发关联在精准切入银发女性'她经济'——针对50加肌肤老化、松垮等痛点做分龄护肤，并通过视频号内容与私域社群触达退休女性客群。",
+    "highlights": [
+      "日化集团旗下专为50加熟龄肌打造的高端护肤品牌，主打虫草成分",
+      "与中老年女性访谈IP合作，视频号加私域社群触达退休女性",
+      "目标客群女性占比高，精准切入银发'她经济'抗衰护肤",
+      "无独立融资披露，依托母集团供应链与渠道"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "日化集团旗下专研熟龄肌高端护肤品牌，以虫草等成分为半百女性做抗衰修护。强在集团供应链加精准年龄带而非泛抗老，壁垒在成分研发与渠道。国内响午、爱风尚做银发女性消费品但偏鞋服；可借鉴其分龄护肤思路，看抗老如何从泛概念做成年龄精准带。其复购与客群结构可作深度稿素材。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0096",
+    "name_cn": "作为科技",
+    "name_en": null,
+    "desc_cn": "研发非接触式适老化安全监护硬件与数字化平台，含红外跌倒感应器、SOS呼救、睡眠呼吸监测带，数据上传机构后台与家属小程序。收入来自B端机构、政府家庭养老床位采购及C端套装，对应独居老人安全看护刚需。",
+    "highlights": [
+      "非接触式红外跌倒感应器、SOS一键呼救、睡眠监测带等适老硬件",
+      "富阳区“空巢老人安全守护系统”示范案例（2021）",
+      "数字化平台整合机构运营、智能硬件与微信小程序",
+      "B端养老服务机构+政府家庭养老床位项目采购"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "睡眠监测"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "做无接触适老安全看护硬件的厂商，含红外防跌探测、一键呼救、睡眠呼吸监测，数据传到机构后台与家属端。打法是无接触无摄像头解决隐私顾虑，壁垒在算法对非接触信号的识别精度。国内清澜技术、苗米同做无接触监测；可学其无摄像头跌倒监测方案，看机构与家庭养老床位采购的双向渠道。其落地场景与误报率数据可作素材。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0101",
+    "name_cn": "健特药业",
+    "name_en": null,
+    "desc_cn": "脑白金专属生产基地无锡健特药业，主营改善睡眠、润肠通便类保健食品，胶囊年产能13亿粒、口服液2400万瓶。产品依托肠脑轴双剂型配方，通过淘宝、京东、抖音等电商及线下礼盒触达消费者，深耕“送礼给长辈”的礼孝场景。收入以C端个人自费为主，国民级品牌认知度构成其核心壁垒。",
+    "highlights": [
+      "脑白金专属生产基地无锡健特药业，胶囊年产能13亿粒",
+      "改善睡眠、润肠通便保健食品，肠脑轴双剂型",
+      "淘宝/京东/抖音电商+线下礼盒，深耕“送礼给长辈”场景",
+      "近30年国民品牌认知度"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "药品"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "脑白金代工厂，主营助眠通便类保健食品，依托肠脑轴双剂型通过电商及线下礼盒触达，深耕礼孝场景。差异在把保健食品做成送礼硬通货而非自服，绕开自服低频（差异化）。国内同仁堂同样做老年滋补但偏自服，可借鉴其礼品化打法，靠礼赠场景做高频复购（可复制）。信息量足：一个国民级代工厂怎么把保健品做成'送礼硬通货'、礼孝场景的复购逻辑怎么搭，素材够写一篇消费品牌案例。",
+    "current_info": 7.0,
+    "current_diff": 4.0,
+    "current_copy": 6.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0105",
+    "name_cn": "光大养老",
+    "name_en": null,
+    "desc_cn": "光大集团旗下养老平台，以机构养老为支柱，联动社区、居家、旅居与CCRC并叠加康复医疗与“保险+养老”。布局50余城、床位超3万张、机构200余家。收入来自个人自费、政府补贴及联推的长护险，央企背景重资产运营商。",
+    "highlights": [
+      "光大集团旗下养老健康产业平台",
+      "布局50余个核心城市、运营养老机构200余家、床位超3万张",
+      "机构/社区/居家/旅居/CCRC多形态+“保险+养老”协同",
+      "与光大永明人寿联合开发长期护理险产品"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "养老机构"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "央企旗下养老平台，以机构养老为支柱联动社区、居家、旅居与CCRC并叠加保险协同。强在集团军式资源协同、险资地产医疗一把抓，壁垒在跨板块导流。国内九如城、华润维麟同走连锁机构但缺金融协同；可写保险系养老的床位规模战，看险资如何把重资产床位变成获客入口。其多业态协同账可作深度稿素材。",
+    "current_info": 7.0,
+    "current_diff": 5.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0146",
+    "name_cn": "天壹智慧",
+    "name_en": null,
+    "desc_cn": "智慧养老与居家上门服务运营商，以信息化平台承接多地民政局居家养老与长护险服务，提供线下实体服务、老人位置采集与服务平台监管，收入来自政府养老服务采购。",
+    "highlights": [
+      "多次中标临海、泰州、扬州、句容等地民政局居家养老服务项目",
+      "承接长护险定点与爱心卡居家上门服务",
+      "线上点单+分层需求匹配的信息化监管平台",
+      "集居家、社区、机构三大板块于一体的服务体系"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "金融保险"
+    ],
+    "tag_l2": [
+      "居家护理",
+      "养老机构",
+      "长护险"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "智慧养老与上门服务运营商，用信息化平台接多地政府居家养老与长护险服务，做线下实体服务与平台监管。打法是政府端采购加平台监管双轮、重合规可追溯，壁垒在政府关系与资质。国内福寿康、璞缘照护同样接长护险服务但偏一线；可借鉴其政府集采加平台监管模式，看区域民政订单的复制条件。其服务标准与监管框架可作案例素材。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0180",
+    "name_cn": "平安臻颐年",
+    "name_en": null,
+    "desc_cn": "旗下高端康养品牌，以CCRC“颐年城”为核心，主打“城芯享老”——在城市中心落子高品质持续照料社区，引入双金级建筑标准、国际管家学院与美日护理体系。收入来自高净值个人会员的入住与照护消费。银发价值在为中高收入长者提供不离城的品质康养。",
+    "highlights": [
+      "CCRC“颐年城”+“逸享城”双产品线，主打“城芯享老”",
+      "引入LEED+WELL双金级标准、荷兰国际管家学院服务",
+      "整合美国GEMS宝石失智护理、日本倍乐生失能护理资源",
+      "截至2025年末已在上海、深圳、广州、杭州等城市落子布局"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "CCRC"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "险企旗下高端康养品牌，以CCRC为核心做城芯享老，在城市中心落高品质持续照料社区。错位在核心城区加高净值、不跑远郊大盘，壁垒在集团资源与选址能力。国内一龄集团、招商观颐同样做高端康养；可借鉴其城芯CCRC选址逻辑，看核心城区重资产模型如何平衡地价与客群支付力。其服务体系与入住结构可作深度稿素材。",
+    "current_info": 7.0,
+    "current_diff": 7.0,
+    "current_copy": 3.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0222",
+    "name_cn": "昱芝夕",
+    "name_en": null,
+    "desc_cn": "专注40+中老年群体的功效型个护品牌，针对皮肤干燥、瘙痒与‘老人味’等年龄相关痛点，开发沐浴露、润肤乳、护手霜与面霜等分区护理产品。收入来自个人自费与养老机构、渠道的B端采购。核心银发价值在把通用个护按老年肌肤特点重做，已入驻两百余家养老机构。",
+    "highlights": [
+      "上海夕昱商贸2023年创立的中老年功效型个护品牌，核心团队来自欧莱雅、联合利华",
+      "针对皮肤干燥瘙痒、‘老人味’痛点，已入驻两百余家养老机构",
+      "2026年向上海市人口福利基金会捐赠银龄肌肤呵护产品，布局公益与B端渠道"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "个人护理"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "它把通用个护按长辈肌肤特点重做，专攻干燥、瘙痒与体感异味等年龄痛点，打法细分少见。素材可挖：团队出自日化巨头的背景、入驻机构渠道的案例都具故事性，反共识点是'个护的银发切口在气味而非美白'。国内唯艾、天空树等可借鉴这种'年龄向功效护肤'的思路，用B端养老机构撬动复购。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0226",
+    "name_cn": "晶彩人生",
+    "name_en": null,
+    "desc_cn": "从中老年‘聚会+酒店’场景切入的社交文娱平台，提供聚会、美拍、旅居、终身学习等一站式服务，并衍生中老年主题餐厅与摄影打卡空间。收入来自家庭聚会与旅居套餐自费及联盟酒店合作分成。银发价值在为中老年群体创造社交与精神慰藉场景，回应孤独感与悦己需求。",
+    "highlights": [
+      "2017年成立，国内中老年‘聚会+酒店’品类开拓者",
+      "全网粉丝数十万，年服务聚会客户数十万人次，联盟酒店逾百家、用户年消费额过亿元",
+      "衍生‘晶彩同城聚’中老年主题餐厅，以影视场景化摄影空间打造社交地标"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "兴趣社群",
+      "旅游",
+      "文娱"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "把中老年社交嵌进酒店聚会与主题餐厅场景化的打法，有故事性可挖：从开拓'聚会+酒店'品类到影视场景摄影空间做成社交地标，错位切中悦己与孤独慰藉。国内可对标共比邻、美好盛年，学其线下社交场景运营思路。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0235",
+    "name_cn": "染博士",
+    "name_en": null,
+    "desc_cn": "面向中老年‘在家安全染发’的新国货美妆品牌，首创亲肤低敏染膏与染前头皮隔离霜，核心用户为45至65岁女性。通过抖音、视频号直播与创始人IP驱动销售，收入来自个人自费电商消费与B端渠道分销。银发价值在直击老人‘盖白发’刚需与对温和安全的焦虑，是银发个护中少有的规模化品牌。",
+    "highlights": [
+      "北京泽它贸易旗下银发染发新国货美妆品牌，2021年创立",
+      "首创亲肤低敏染膏与染前头皮隔离霜，核心用户为45至65岁中老年女性",
+      "获红杉中国、险峰长青、至临资本等投资，全网粉丝逾五百万、年营收数亿元，抖音染发类目口碑分第一"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "美妆护肤"
+    ],
+    "stage": "A轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "从'盖白发'刚需切入做低敏染膏加头皮隔离的差异化壁垒，素材可挖：创始人IP驱动与中老年女性自传播案例有故事性。国内可对标章华、瑞贝卡，学其把银发个护做成规模化品牌的打法。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0246",
+    "name_cn": "沐恒实业",
+    "name_en": null,
+    "desc_cn": "面向养老机构与政府部门提供适老化空间整体解决方案,业务含康养项目设计咨询、适老家具研发制造与\"阿沐养老\"行业自媒体;收入来自设计服务费、适老家具销售与内容运营,研发中心在南京、自有工厂在湖州。",
+    "highlights": [
+      "以设计研发为核心的医养设施硬件综合服务商",
+      "累计服务1500+康养项目、专利70余项",
+      "旗下\"阿沐养老\"为养老行业头部自媒体",
+      "湖州自有适老家具生产基地、南京研发中心"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "适老化"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "以设计研发串起适老家具与空间方案的打法有详实素材：上千康养项目与行业自媒体沉淀出案例库。差异化在'设计+自有工厂+内容'三位一体的壁垒。国内可对标中匠福、佛山建泰，借鉴其适老硬件落地思路。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0258",
+    "name_cn": "爱可声",
+    "name_en": null,
+    "desc_cn": "助听器研发生产商,主营自研数字助听器芯片与算法基础上的耳背式、隐形及蓝牙助听器;支持远程验配,面向听力障碍人群,产品通过CE与FDA认证、覆盖国内千家听力中心并销全球80多国;收入来自设备销售。",
+    "highlights": [
+      "自研国产数字助听器芯片(ACOD2101/3101)与算法",
+      "杭州亚运会/亚残运会官方助听设备供应商",
+      "远程验配技术、产品销全球80多国、覆盖国内千家听力中心",
+      "60余项核心专利,通过CE与FDA认证"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "助听器"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "自研国产数字助听器芯片叠加远程验配的打法有技术故事可挖，亚运级供应案例可作深度素材。差异化在芯片自主与线上验配错位的壁垒。国内可对标博音、左点，学其助听器国产替代思路。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0262",
+    "name_cn": "爱风尚",
+    "name_en": null,
+    "desc_cn": "面向中老年群体的健康鞋与社交电商平台,以广场舞健身鞋切入,联合清华体育健康研究中心研发足弓支撑专利鞋款;通过\"送鞋给队长建社群\"裂变获客,会员约300万,延伸至健步鞋与康养购物平台;收入来自鞋品与电商零售。",
+    "highlights": [
+      "以广场舞健身鞋切入中老年健康鞋",
+      "联合清华体育健康研究中心、足弓支撑桥专利",
+      "会员约300万、\"送鞋给队长\"社群裂变",
+      "联合阿里创业团队推\"购风尚\"银发购物平台"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "这家公司2015年成立、2018年获碧生源系A轮投资，2024年参与贵州村超“超级星期舞”，2025年以60.5万元中标全国女子门球赛。其以广场舞鞋为引流爆款，曾免费送出10万双鞋给广场舞队长、撬动约300万会员，2019年单品销量破100万双，并持28项专利、联合清华与双星研发足弓支撑桥鞋款。相比普通老人鞋，它用S2b2C把队长变成小b、以社群复购黏住中老年用户。国内已有类似（足力健、双星、舒悦等），可借鉴其“爆款+社群KOL”打法。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0315",
+    "name_cn": "脑动极光",
+    "name_en": null,
+    "desc_cn": "AI数字认知评估训练平台",
+    "highlights": [
+      "脑动极光NeuraLum数字认知评估与训练平台",
+      "用AI技术为老年人提供认知衰退筛查和干预方案",
+      "聚焦认知训练与认知筛查"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知训练",
+      "认知筛查"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "用AI做认知衰退筛查与干预的打法有研报与临床案例可挖，素材密度足。差异化在数字评估训练平台相对线下认知训练的错位卡位。国内可对标博斯腾，借鉴其认知早筛产品化思路。",
+    "current_info": 5.0,
+    "current_diff": 7.0,
+    "current_copy": 6.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0342",
+    "name_cn": "达晨财智",
+    "name_en": null,
+    "desc_cn": "银发经济企业",
+    "highlights": "领先本土创投，管理350亿+资产",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "产业基金"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "这家深圳老牌创投在管规模超350亿元，2023年以来在医疗健康赛道高频出手，信号清晰。公开年报与招股书可交叉印证其被投企业画像，信息透明度高。不同于红杉、高瓴的美元基金打法，它更倚重国内A股退出通道与产业方协同，这种本土成长期打法值得国内创业者对照。适合写'本土创投如何卡位银发医疗'案例。",
+    "current_info": 5.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0343",
+    "name_cn": "达风投资",
+    "name_en": null,
+    "desc_cn": "银发经济企业",
+    "highlights": "产业资本领域企业",
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "产业基金"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 42.7,
+    "signal_strength": 0.55,
+    "current_recommend": "受托险资超400亿元、在管基金余额238亿的医养结合专营GP，2023年仍逆势新设多支养老基金，信号明确。其投资组合（锦欣、绿康、朗高等）公开可查，信息透明度高。打法和泰康、太保自建重资产养老社区完全不同——它只做存量机构的少数股权，轻资产、可快速铺量。国内想切入养老金融的险资可参考其'投而不建'思路。适合写'险资投养老'对比案例。",
+    "current_info": 5.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  }
+]

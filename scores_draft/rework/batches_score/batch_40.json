@@ -1,0 +1,573 @@
+[
+  {
+    "serial": "#1243",
+    "name_cn": "Alignment Health",
+    "name_en": null,
+    "desc_cn": "B2B2C Medicare Advantage保险",
+    "highlights": "MA计划，上市（S1），慢病管理导向",
+    "tag_l1": [
+      "金融保险",
+      "养老服务"
+    ],
+    "tag_l2": [
+      "保险",
+      "慢病管理"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "这家金融保险企业近期合作与产品落地加速。保险赛道上把慢病管理与初级医疗绑进保险、靠数据驱动控费，差异在医保数据驱动控费；国内平安健康同样布局保险但做健康险，其绑定思路可借鉴做银发慢病险。",
+    "current_info": 6.0,
+    "current_diff": 7.5,
+    "current_copy": 3.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1244",
+    "name_cn": "CareMax",
+    "name_en": null,
+    "desc_cn": "B2B2C Medicare医疗+养老",
+    "highlights": "Medicare综合医疗+养老关怀，上市",
+    "tag_l1": [
+      "金融保险",
+      "养老服务"
+    ],
+    "tag_l2": [
+      "保险",
+      "慢病管理"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "看养老：这家金融保险企业近期合作与产品落地加速，Medicare综合医疗与养老商上市做诊所加居家照护打包、用户广。差异在医养进保险包；对标国内泰康在线（也做养老但做养老险），其打包方法可平移做银发医养支付。",
+    "current_info": 6.0,
+    "current_diff": 7.5,
+    "current_copy": 3.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1246",
+    "name_cn": "Life Biosciences",
+    "name_en": null,
+    "desc_cn": "B2B 长寿生物技术研发",
+    "highlights": "衰老干预长寿生物科技",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "长寿抗衰"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "这家消费品企业近期合作与产品落地加速；药品领域衰老干预生物企业做多通路延寿化合物、靶点覆盖广积累专利。差异在平台型抗衰老，国内华大基因做药品时有衰老研究，这套多靶点打法对国内有借鉴价值，可做银发抗衰科研转化。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1248",
+    "name_cn": "InsideTracker",
+    "name_en": null,
+    "desc_cn": "B2C/B2B 长寿健康检测",
+    "highlights": "血液标志物+AI个性化长寿建议",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "体检筛查",
+      "长寿抗衰"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "就数据而言，这家消费品企业近期合作与产品落地加速，血液生物标志检测商用AI给个性化长寿建议、可加月度复测积累数据。差异在数据驱动个性化；国内23魔方也做数据但做消费基因，其标志测思路值得国内团队参考，落地做银发健康基线。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1249",
+    "name_cn": "Function Health",
+    "name_en": null,
+    "desc_cn": "B2C 长寿体检订阅",
+    "highlights": "会员制全面体检+趋势追踪",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "体检筛查",
+      "长寿抗衰"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "把医疗体检做成年度订阅、靠趋势追踪留人，反共识模式有亮点：健康从单次检查变成长线关系。案例素材可挖，国内善诊、时光派可参照其订阅制思路，学其把医疗监测拆成可续费服务的错位打法。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1250",
+    "name_cn": "Prenuvo",
+    "name_en": null,
+    "desc_cn": "B2C/B2B 长寿健康检测",
+    "highlights": "全身MRI早筛连锁",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "体检筛查"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "看医疗方向，这家消费品企业近期合作与产品落地加速，全身MRI早筛连锁30分钟无辐射扫全身、走高端自费用户。差异在体验式早筛；与国内美年大健康（也做医疗但做体检）相比，其MRI亮点可复制，做银发防癌早筛。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1251",
+    "name_cn": "Elysium Health",
+    "name_en": null,
+    "desc_cn": "B2C 长寿补剂订阅",
+    "highlights": "长寿消费补剂（科研转化）",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "药品"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "这家消费品企业近期合作与产品落地加速。营养赛道上长寿补剂商用NAD加相关研究做订阅、卖科学人设用户增长，差异在科研背书卖补剂；国内基因港同样布局营养但做NMN，其科学叙事思路可借鉴做银发抗衰补剂。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1256",
+    "name_cn": "WalkJoy",
+    "name_en": null,
+    "desc_cn": "B2C 步态训练康复硬件",
+    "highlights": "可穿戴步态反馈防跌倒",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "看器械：这家康复辅具企业近期合作与产品落地加速，可穿戴步态反馈商用鞋垫传感实时纠正步姿、防老人跌倒积累样本。差异在主动防跌而非报警；对标国内华为穿戴（也做器械但有跌倒检测），其反馈方法可平移做银发防跌硬件。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1257",
+    "name_cn": "Kraydel",
+    "name_en": null,
+    "desc_cn": "B2B 居家远程监测",
+    "highlights": "英国非侵入式居家安全监测",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "这家康复辅具企业近期合作与产品落地加速；医疗领域非侵入居家监测商用电视机顶盒看老人日常异常、不装摄像头保护隐私积累监测数据。差异在无摄像头护隐私，国内萤石做医疗时做智能摄像机，这套无感监测打法对国内有借鉴价值，可做独居看护。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1258",
+    "name_cn": "Tunstall",
+    "name_en": null,
+    "desc_cn": "B2B 远程照护+紧急呼叫",
+    "highlights": "英国远程照护与紧急呼叫龙头",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "远程护理"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "就护理而言，这家养老服务企业近期合作与产品落地加速，英国远程照护与紧急呼叫龙头数十年运营呼叫中心、覆盖社区用户广。差异在呼叫中心规模壁垒；国内安康通也做护理但做紧急呼叫，其中心化思路值得国内团队参考，落地做银发安全网。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1260",
+    "name_cn": "Capsule",
+    "name_en": null,
+    "desc_cn": "B2C 药品配送",
+    "highlights": "技术药房当日送药，便利老人",
+    "tag_l1": [
+      "康复辅具",
+      "消费品"
+    ],
+    "tag_l2": [
+      "智能药盒",
+      "药品配送"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "技术药房做当日送药，把取药变成上门服务，模式亮点在用药依从性管理。案例素材可挖，国内爱牵挂、响午可参照其药品配送思路，学其把智能药盒与送药绑定的错位打法，降低独居老人断药风险。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1261",
+    "name_cn": "EllieGrid",
+    "name_en": null,
+    "desc_cn": "智能药盒公司，通过APP提醒与色彩编码帮助老人按时按量服药。",
+    "highlights": "智能药盒提醒按时服药",
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "智能药盒",
+      "用药提醒"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "看器械方向，这家康复辅具企业近期合作与产品落地加速，智能药盒商用色彩编码加APP提醒老人按时按量服药、用户增长。差异在视觉化提醒降错服；与国内小米（也做器械但做智能药盒）相比，其色彩亮点可复制，做银发家庭药管理。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1262",
+    "name_cn": "PharmAdva",
+    "name_en": null,
+    "desc_cn": "B2B2C 用药预分包服务",
+    "highlights": "用药预分包+配送服务",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "药品配送"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "把多重用药按次预分包再配送，模式亮点在解决老人吃错药：用药品分装而非算法更可信。案例素材可挖，国内可靠股份、集思鸣智可参照其用药管理思路，学其把药品服务做成人力密集的错位打法。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1263",
+    "name_cn": "Mom's Meals",
+    "name_en": null,
+    "desc_cn": "面向慢病与居家老人的医疗定制餐食配送公司，可对接医保/医疗计划。",
+    "highlights": "医疗定制餐食配送，对接医保",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "膳食配送"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "看营养：这家食品营养企业近期合作与产品落地加速，医疗定制餐食商按疾病配餐并对接医保支付、送居家老人积累样本。差异在餐即治疗；对标国内美团（也做营养但推银发助餐），其医疗餐方法可平移做慢病老人膳食。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1264",
+    "name_cn": "Silver Cuisine",
+    "name_en": null,
+    "desc_cn": "B2C 老年膳食订阅",
+    "highlights": "50+定制膳食订阅",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "养老膳食",
+      "膳食配送"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "这家食品营养企业近期合作与产品落地加速；营养领域50加定制膳食订阅商按营养标签配周餐、月费直达用户多。差异在订阅制营养餐，国内饿了么做营养时推助老e餐，这套订阅打法对国内有借鉴价值，可做银发周餐。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1265",
+    "name_cn": "Magic Kitchen",
+    "name_en": null,
+    "desc_cn": "B2C 银发膳食配送",
+    "highlights": "老年特定冷冻餐配送",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "养老膳食",
+      "膳食配送"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "就营养而言，这家食品营养企业近期合作与产品落地加速，老年冷冻餐配送商按流质软食等需求备餐、全国邮寄覆盖广。差异在冷冻长尾覆盖；国内美团也做营养但做银发助餐，其备餐思路值得国内团队参考，落地做卧床老人餐。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#1266",
+    "name_cn": "Kate Farms",
+    "name_en": null,
+    "desc_cn": "B2C/B2B 医学营养",
+    "highlights": "植物基医用营养品",
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "营养食品"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "植物基配方做医用营养品，模式亮点在把临床营养变成适口食品：吞咽困难人群也能补足蛋白。案例素材可挖，国内冬泽、优生活可参照其营养食品思路，学其把医用营养从药品感的罐装改成日常饮食的错位打法。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1267",
+    "name_cn": "Solace",
+    "name_en": null,
+    "desc_cn": "B2B 医疗福利导航",
+    "highlights": "医疗福利导航，含临终协调",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "保险"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "帮患者搞懂并用上医疗福利、还管临终协调，模式亮点在把繁琐流程外包给导航员。案例故事性足，国内宸汐健康、天一智慧可参照其福利导航思路，学其把医疗健康保险服务从赔付延伸到就医陪跑的错位打法。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1269",
+    "name_cn": "Lotus",
+    "name_en": null,
+    "desc_cn": "B2B2C 女性数字健康",
+    "highlights": "女性全生命周期数字健康",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "更年期"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "锁定女性更年期做数字健康，错位模式有亮点：把被忽视的银发女性医疗需求做成连续服务而非单次问诊。案例素材可挖，国内善诊、集思鸣智可参照其垂直思路，学其把医疗健康和社群服务绑定的打法。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1272",
+    "name_cn": "Bluecrest",
+    "name_en": null,
+    "desc_cn": "B2C/B2B 健康筛查",
+    "highlights": "英国平价健康筛查",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "体检筛查"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 41.6,
+    "signal_strength": 0.55,
+    "current_recommend": "用固定低价做健康筛查，反共识模式有亮点：把医疗体检变成像买日用品一样的零售消费。案例素材可挖，国内善诊、AgenT可参照其平价筛查思路，学其把医疗检查拆成标准化套餐的错位打法。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  }
+]

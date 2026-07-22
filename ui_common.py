@@ -167,6 +167,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .badge-event{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--fund-bg);color:var(--fund-text);font-weight:700}
 .badge-domain{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--surface-2);color:var(--text-secondary);font-weight:600;border:1px solid var(--border)}
 .badge-tag{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--tag-bg);color:var(--tag-text);font-weight:600}
+.badge-entity{font-size:10.5px;padding:2px 9px;border-radius:7px;background:var(--accent-light);color:var(--accent-strong);font-weight:700;text-decoration:none;border:1px solid var(--accent)}
+.badge-entity:hover{filter:brightness(.97)}
 .badge-rv{font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:10px;white-space:nowrap;color:#fff}
 .badge-rv.s-high{background:rgba(16,185,.129,.72)}
 .badge-rv.s-mid{background:rgba(14,165,183,.68)}
@@ -210,7 +212,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .btn-group .f-btn{border-radius:0;border:none;padding:4px 13px;font-size:12px;height:28px;line-height:1}
 .btn-group .f-btn:first-child{border-radius:14px 0 0 14px}
 .btn-group .f-btn:last-child{border-radius:0 14px 14px 0}
-.sort-group{display:inline-flex;gap:5px;flex-wrap:wrap}
+.sort-group{display:inline-flex;gap:5px;flex-wrap:wrap;margin-left:12px}
+.search-inline-group{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;margin-left:12px}
 .sort-arrow{display:inline-flex;align-items:center;gap:2px;padding:4px 13px;border-radius:14px;border:1px solid var(--border);background:var(--surface);
   font-size:12px;cursor:pointer;color:var(--text-secondary);transition:.15s;font-family:inherit;white-space:nowrap;height:28px;line-height:1;box-sizing:border-box}
 .sort-arrow:hover{border-color:var(--accent);color:var(--accent-strong)}
@@ -232,6 +235,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .view-btn{padding:4px 14px;border:none;background:var(--surface);font-size:12px;cursor:pointer;color:var(--text-secondary);transition:all .15s;font-family:inherit;height:28px;line-height:1}
 .view-btn:hover{background:var(--surface-2)}
 .view-btn.active{background:var(--accent-grad);color:#fff;font-weight:700}
+.reg-btn{padding:4px 14px;border:none;background:var(--surface);font-size:12px;cursor:pointer;color:var(--text-secondary);transition:all .15s;font-family:inherit;height:28px;line-height:1}
+.reg-btn:hover{background:var(--surface-2)}
+.reg-btn.active{background:var(--accent-grad);color:#fff;font-weight:700}
 .result-count{font-size:11.5px;color:var(--text-muted);margin-bottom:10px;padding-left:3px;font-weight:600}
 
 .ent-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 22px;margin-bottom:12px;

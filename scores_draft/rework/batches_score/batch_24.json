@@ -1,0 +1,622 @@
+[
+  {
+    "serial": "#1308",
+    "name_cn": "BetterAge",
+    "name_en": null,
+    "desc_cn": "面向老年群体的AI福祉平台：通过12维度健康与福祉测评，基于正向心理学生成个性化行动建议，鼓励老人连接社区与同伴；对C端免费，向老龄化服务机构（地区老龄化事务署、社区组织）收年度订阅费，并获政府科研资助。核心银发价值在把'健康老龄化'做成可量化、可规模化的福祉干预工具。",
+    "highlights": [
+      "12维度老年人福祉测评+正向心理学个性化建议，对C端免费、向服务机构收订阅",
+      "获NIH/NIA累计550万美元SBIR资助，合作40+社区组织并与USAging全国结盟",
+      "创始人含前NIA创新官Jim Firman，聚焦'健康老龄化'标准化与社区组织赋能"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.7,
+    "signal_strength": 1.55,
+    "current_recommend": "用多维福祉测评加正向心理学做个性化行动建议，素材可挖其社区组织合作与干预效果案例；差异在福祉量化而非单点慢病管理，卡位机构订阅；国内可学安泰康成与森梅医疗，借鉴其健康老龄化干预的落地方法。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#1314",
+    "name_cn": "Watcherr",
+    "name_en": null,
+    "desc_cn": "面向养老院、医院与居家老人的SaaS+AI安全监测：用户佩戴智能手表，配合即插即用蓝牙信标，实时捕捉跌倒、室内外定位、心率与进食睡眠节律异常并主动警报，把传统护理呼叫升级为预测式预警。收入来自机构与家庭订阅。核心银发价值在降低跌倒与走失风险，对应中国养老机构人手不足下的实时安全管护需求。",
+    "highlights": [
+      "即插即用蓝牙信标+智能手表，实时监测跌倒、室内外定位、心率与进食/睡眠节律并主动警报",
+      "客户为养老院、医院与家庭，已落地比利时、英国、加拿大",
+      "累计融资约1010万美元（含2023年200万欧元A轮）"
+    ],
+    "tag_l1": [
+      "康复辅具",
+      "养老服务",
+      "消费品"
+    ],
+    "tag_l2": [
+      "跌倒监测",
+      "远程医疗",
+      "智能硬件"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.7,
+    "signal_strength": 1.55,
+    "current_recommend": "做养老安全远程监测的SaaS加AI商，用户戴智能腕表配可直插蓝牙信标，实时抓摔倒、院内外定位与心率睡眠异常并主动告警，养老跌倒监测信号偏强、出海数据扎实但偏机构；落地比利时英加累计1010万美元融资构成信息量。差异化在把护理呼叫升级成预测式预警，比拉绳报警更主动；国内养老机构可复制其腕表加信标打法，但设备成本、误报治理与跨场景适配是门槛。",
+    "current_info": 5.0,
+    "current_diff": 6.0,
+    "current_copy": 7.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0024",
+    "name_cn": "清澜技术",
+    "name_en": null,
+    "desc_cn": "毫米波雷达无感监测设备商，自研AI生命体征检测仪实现免佩戴的跌倒检测（准确率99%）、呼吸心率与睡眠监测，保护隐私且不干扰生活。配套呼救精灵与智慧看护后台，应用于居家、社区及机构养老。收入来自硬件销售与系统订阅。银发价值在独居老人无感安全守护。",
+    "highlights": [
+      "自研60GHz毫米波雷达，跌倒检测准确率99%、免佩戴、不侵犯隐私，监测范围24㎡",
+      "产品入选工信部《智慧健康养老产品及服务推广目录(2024年版)》，并入围腾讯「银发科技伙伴计划」",
+      "已与泰康、平安、京东方、腾讯合作，产品销往欧美、日本、澳大利亚"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测",
+      "睡眠监测"
+    ],
+    "stage": "种子期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做环境雷达无感看护的设备商，自研AI体征仪不戴设备测摔倒、呼吸心率与睡眠，护隐私不扰生活，银发养老跌倒监测信号偏强、精度与出口数据扎实；摔倒识别99%准与入选推广目录构成信息量。差异化在把监测藏进环境而非可穿戴，比手环摄像头更无感；国内养老机构可复制其雷达无感打法，但成本下探、多物追踪与老人隐私顾虑是门槛。",
+    "current_info": 6.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0035",
+    "name_cn": "苗米",
+    "name_en": null,
+    "desc_cn": "基于中科院无线感知核心技术，研发毫米波AI融合感知器，实现跌倒、离床、滞留、呼吸暂停等多功能无感监测，可同时追踪多人并生成睡眠报告。产品已进入海尔智家、美的、OPPO等龙头企业的下一代智能雷达项目，面向康养看护与智能家居双场景出货。",
+    "highlights": [
+      "核心技术源自中科院，底层毫米波算法与多目标追踪能力强",
+      "产品进入海尔智家、美的、OPPO下一代智能雷达项目",
+      "入选工信部《智慧健康养老产品推广目录》、2024中日理创大赛康养方案全国第二"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "跌倒监测",
+      "睡眠监测"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "把无线感知算法做成跌倒与睡眠无感监测并嵌入家电龙头供应链，案例可挖其多目标追踪与双场景出货路径；差异在做toB方案而非自研整机，壁垒在底层算法；国内可参照清澜技术与清雷，学其康养雷达产品化的思路。",
+    "current_info": 6.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0040",
+    "name_cn": "集思鸣智",
+    "name_en": null,
+    "desc_cn": "以高精度眼动追踪技术做认知功能评估，通过捕捉眼球运动量化大脑认知状态，3-5分钟完成阿尔茨海默病等神经退行性疾病早筛。核心产品眼镜式眼动仪仅120克、已获NMPA医疗器械注册证，并配套40余款认知训练游戏形成「筛查-评估-干预」数字疗法闭环。",
+    "highlights": [
+      "国内首家基于眼动技术获国家创新医疗器械认证，眼镜式眼动仪仅120克",
+      "建成国内最大眼动数据库，筛查敏感性达85%以上、3-5分钟出结果",
+      "入围2025年工信部/药监局AI医疗器械揭榜挂帅，落地华西医院等三甲"
+    ],
+    "tag_l1": [
+      "消费品",
+      "养老服务"
+    ],
+    "tag_l2": [
+      "眼镜",
+      "认知训练",
+      "认知筛查"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做眼镜式眼动认知快检的设备商，用眼球运动捕捉量化脑状态、3到5分钟跑完阿尔茨海默早筛，眼镜重120克已过NMPA注册，养老认知筛查信号偏强、数据库与敏感度数据扎实；另配40余款训练游戏做筛查到干预的闭环构成信息量。差异化在把认知早筛做成免问诊的眼动快检，比问卷血检更轻；国内养老机构可复制其眼动筛查打法，但临床付费、老人配合与结果解读是门槛。",
+    "current_info": 6.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0102",
+    "name_cn": "健行仿生",
+    "name_en": null,
+    "desc_cn": "东京大学博士孙小军创立的智能动力假肢机器人公司，2021年量产亚洲首款高端智能电动假肢“Bio Leg”，融合仿生与机器人技术帮助下肢截肢人群恢复行走。已获种子/A/B三轮融资，收入来自B端机构与C端用户。",
+    "highlights": [
+      "创始人孙小军为截肢者、东京大学博士",
+      "2021年量产亚洲首款高端智能电动假肢“Bio Leg”",
+      "已完成种子、A、B三轮融资（B轮NEC资本领投数千万）",
+      "融合仿生与机器人技术，帮助下肢截肢及行动障碍人群行走"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "外骨骼"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "把智能动力假肢做成亚洲首款量产电动款，素材可挖其仿生算法与截肢者视角的产品故事；差异在消费级动力化而非传统机械义肢，壁垒在机器人控制；国内可对标程天与迈步，学其智能假肢产品化的落地打法。",
+    "current_info": 6.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0327",
+    "name_cn": "若创科技",
+    "name_en": null,
+    "desc_cn": "若创科技（RoboSpectra/STRUTT）由前大疆激光雷达业务负责人洪小平2023年创立，做具身智能个人出行载具，2025年底在旧金山发布搭载车规级激光雷达的智能电动轮椅STRUTT ev1，获数千万美元Pre-A轮融资。",
+    "highlights": [
+      "前大疆激光雷达负责人创立",
+      "2025年底旧金山发布STRUTT ev¹",
+      "获数千万美元Pre-A轮"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "轮椅"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "把电动轮椅当成具身智能载具来做，是其最大错位：用车规级感知与自主导航替代传统辅具思路。素材可挖——创始人出自大疆、产品先在海外发布，反共识点是'轮椅也能是高科技出行设备'。国内互邦、小飞哥等轮椅厂可借鉴'辅具机器人化'打法，把感知能力当护城河而非拼价格。",
+    "current_info": 6.0,
+    "current_diff": 8.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0329",
+    "name_cn": "英洛华",
+    "name_en": null,
+    "desc_cn": "英洛华（000795）健康器材板块主营电动轮椅车、电动代步车与助行器，产品进入国家适老用品推广名单，远销海外多国，是全球主要电动轮椅制造与代工方，长期为海外品牌做ODM代工并建有规模化产线。",
+    "highlights": [
+      "产品入选工信部老年用品推广目录",
+      "出口海外，全球主要电动轮椅制造与代工方",
+      "A股上市公司(000795)"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "轮椅"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做适老出行硬件与助行器具的康复辅具制造商，产品进了国家级适老推广名录、远销海外做全球主要代工方，养老康复辅具信号偏强、制造与渠道数据扎实但偏硬件贸易；A股代码000795与全球主要代工方构成信息量。差异化在把适老出行硬件做成规模化制造而非小作坊，比贸易商更有产能；国内养老机构可复制其名录加出口打法，但自主品牌溢价与内销渠道是短板。",
+    "current_info": 8.0,
+    "current_diff": 5.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0377",
+    "name_cn": "鱼跃",
+    "name_en": null,
+    "desc_cn": "鱼跃医疗是国内家用医疗器械龙头，主营制氧机、血压计、血糖仪与呼吸机，覆盖院端与家庭双场景，长期服务于老年健康监测与慢病管理，已登陆A股并建有多个生产基地与研发体系。",
+    "highlights": [
+      "国内家用医疗器械龙头",
+      "产品覆盖制氧机/血压计/血糖仪/呼吸机",
+      "已登陆A股，院端与家庭双场景"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "医疗器械"
+    ],
+    "stage": "已上市",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做家用医疗装备龙头的适老化健康硬件商，4类主力器械覆盖院端与家庭，养老适老化信号偏强、渠道与品牌数据扎实但偏传统制造；已登陆A股并覆盖双场景构成信息量。差异化在把慢病监测设备做成家庭可自备的刚需品，比机构检测更日常；国内养老机构可复制其家用器械打法，但集采压价、同质化与出海合规是隐忧。",
+    "current_info": 8.0,
+    "current_diff": 5.0,
+    "current_copy": 5.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0566",
+    "name_cn": "Lifeway Mobility",
+    "name_en": null,
+    "desc_cn": "Lifeway Mobility是居家无障碍改造方案商，销售安装与维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯与浴室安全产品，提供免费居家评估，经医疗渠道获客，2024年服务2万家庭。",
+    "highlights": "销售、安装和维护楼梯升降机、轮椅坡道、轮椅升降机、转运辅助设备、家用电梯和浴...",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "适老化"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做居家适老改造的方案商，卖装维楼梯升降设备、坡道与家用电梯等适老硬件，经医疗网络获客并给免费测评，银发养老家居改造信号偏强、服务数据扎实但偏本地施工；2024年服务逾2万家庭构成信息量。差异化在把适老改造做成硬件加施工的一体交付，比零散装修更专业；国内养老机构可复制其无障碍改造打法，但上门施工重资产、跨区域复制与回款是门槛。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0619",
+    "name_cn": "Amplifon",
+    "name_en": null,
+    "desc_cn": "Amplifon是领先助听器零售与听力服务连锁，通过门店网络做助听器验配与售后，并收购Hear Again America扩张规模，属康复辅具类的听力服务，主要服务听损人群。",
+    "highlights": "收购Hear Again America",
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "零售"
+    ],
+    "stage": "被收购",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做助听器销售与听力照护的连锁商，靠门店网做验配售后、并并购美国同业做规模扩张，养老听力服务信号偏强、网点与并购数据扎实但偏渠道；零售龙头与海外并购构成信息量。差异化在把验配做成连锁标准化而非散店，比街边店更可信；国内养老机构可复制其听力连锁打法，但国产替代、线上验配与支付意愿是竞争点。",
+    "current_info": 6.0,
+    "current_diff": 7.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0624",
+    "name_cn": "Arbital Health",
+    "name_en": null,
+    "desc_cn": "为医保支付方与医疗机构提供价值医疗(VBC)风险合约的中立基础设施，统一理赔、基准、利用率与合约数据，用精算师团队+AI平台做合约裁决与实时绩效监测，2026年推出对话式AI助手Merlin。收入来自向支付方/供应商收取的SaaS订阅与精算咨询服务费。与银发的关联较弱：其服务医保整体，并非专为老年人群设计。",
+    "highlights": [
+      "为价值医疗风险合约提供AI精算与中立裁决",
+      "2025年完成3100万美元B轮，领投Valtruis",
+      "服务医保支付方与供应商，降低赔付争议",
+      "2026年推出对话式AI助手Merlin，已支撑百万级患者人头"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "行业研究"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 2.55,
+    "current_recommend": "它卡位在医保支付方与机构之间的'中立裁决层'——用精算师加AI平台处理风险合约争议，而非直接做医疗服务。素材可挖：其AI助手已支撑百万级人头、合约裁决案例有故事性。差异化在于'不站队、只做裁判'这一少见定位。国内乐湾、医家通等医疗信息化商可借鉴这种'做规则层而非执行层'的思路，避开与大厂的直面竞争。",
+    "current_info": 6.0,
+    "current_diff": 7.0,
+    "current_copy": 3.0,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0748",
+    "name_cn": "JOGO Health",
+    "name_en": null,
+    "desc_cn": "JOGO Health是用神经可塑技术治疗慢性疼痛与失禁的理疗企业，其设备获FDA批准，以非侵入方式帮患者恢复盆底与神经控制，属康复与适老交叠的居家康复服务，主要服务慢病与术后人群。",
+    "highlights": "FDA批准",
+    "tag_l1": [
+      "消费品",
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "尿失禁",
+      "医疗器械"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "它把神经可塑原理做成居家可用的非侵入设备，绕开药物与手术改善盆底与失禁问题，打法少见。素材可挖：美国监管获批路径、临床随访案例都具故事性，反共识点是'康复未必靠吃药'。国内亿芃健康、安泰康成等器械商可借鉴'用训练重建神经控制'的思路，把居家场景当增量市场。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0753",
+    "name_cn": "Kemtai",
+    "name_en": null,
+    "desc_cn": "Kemtai是数字物理治疗平台，用自研计算机视觉实时分析人体动作关键点并提供纠正，无需传感器可穿戴、任意摄像头设备即可运行，FDA注册与CE认证，覆盖两千余项练习，服务医疗系统与药械企业。",
+    "highlights": "FDA批准的计算机视觉AI锻炼和评估平台",
+    "tag_l1": [
+      "养老服务",
+      "行业服务"
+    ],
+    "tag_l2": [
+      "居家康复",
+      "AI医疗"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "它靠纯视觉方案做动作纠正——不用任何传感器，普通摄像头就能实时分析关键点并纠错，打法轻且少见。素材可挖：庞大的练习库、与药械企业的合作案例都具故事性，反共识点是'康复评估不必靠穿戴设备'。国内抚理健康、安护通等居家康复服务方可借鉴这种'零硬件门槛'思路，把评估环节从机构搬到家里。",
+    "current_info": 6.0,
+    "current_diff": 7.5,
+    "current_copy": 5.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0767",
+    "name_cn": "Log my Care",
+    "name_en": null,
+    "desc_cn": "Log my Care是英国养老照护管理软件，让养老院与居家照护机构撰写数字照护计划、记录日常活动、管理事故与用药并保持监管合规，按每人每月订阅收费，已服务数百家照护机构并对接CQC监管框架。",
+    "highlights": "数字化养老院管理平台",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "做英国养老照护类管理软件的SaaS商，供院舍与居家机构做电子化照护台账、追踪日常并统管用药与意外，按每人每月5英镑订阅收费，养老软件信号偏强、合规与机构数据扎实但地域窄；监管合规与机构渗透构成信息量。差异化在把纸质照护流程搬进可审计的软件，比手抄更稳；国内养老机构可复制其照护管理SaaS打法，但本土监管口径、数据隐私与机构信息化差是门槛。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0771",
+    "name_cn": "Luminary",
+    "name_en": null,
+    "desc_cn": "Luminary是纽约的信托与遗产规划数据协作平台，2021年前后成立，创始人David Barnard（前AllianceBernstein财富负责人）与Joe Lonsdale（8VC、Addepar、Palantir联合创始人）。2024年4月完成由8VC、Focus Financial、Rockefeller Asset Management等领投的A轮/可转换票据融资，并获ThinkAdvisor 2024创新奖与Family Wealth Report两项大奖。平台用human-in-the-loop AI把信托/遗产原始文件数字化，连接顾问、律师、税务师做可视化与情景模拟，客户含家族办公室、RIA、险企。",
+    "highlights": "专为信托和遗产规划顾问打造的数据和协作平台",
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "信号：2024年4月拿到由8VC、洛克菲勒等领投的A轮，并获美国理财媒体年度创新奖，财富传承赛道受捧。信息量：披露服务家族办公室、RIA与险企，年超千亿美元家族赠予待释放，SOC2认证，数据中等。差异化：把信托与遗产规划做成顾问协作SaaS，用AI把原始文件变可视化与情景模拟，切遗产规划数字化空白。可复制：国内竞品较少（顾问式遗产规划SaaS刚起步），但高净值传承需求上升，其开放架构加人机协作AI思路对国内家族信托科技有借鉴。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": true
+  },
+  {
+    "serial": "#0782",
+    "name_cn": "Metyos",
+    "name_en": null,
+    "desc_cn": "Metyos是法国巴黎的medtech初创，2021年成立，做慢性肾病（CKD）可穿戴监测。其生物贴片传感器配合平台实时读取与肾功相关的生物标志物，追踪饮食/用药影响并预警肾衰与高血钾。2024年3月完成230万欧元种子轮（Cenitz领投，KIMA Ventures、Bpifrance等跟投），创始人CEO Alexandre Boulanger此前创办Wandercraft（FDA外骨骼）。公司处原型阶段，正推进临床试验以争取FDA许可。",
+    "highlights": "类似FreeStyle Libre",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "stage": "种子期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "信号：2024年3月拿到230万欧元种子轮、Cenitz领投，尚处早期，融资信号不强。信息量：披露慢性肾病影响全球一成人口、美国每年在肾病领域耗870亿美元，欧洲年耗1400亿欧元，创始人出自外骨骼机器人公司，数据可信。差异化：做贴片式生物可穿戴实时监测肾功标志物、预警肾衰与高血钾，把慢病管理前移到主动预防。可复制：国内竞品较少（肾病专项可穿戴监测仍早期），但其可穿戴加标志物加临床前验证路线，对国内远程监测厂商有对标价值。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0797",
+    "name_cn": "NeuroClues",
+    "name_en": null,
+    "desc_cn": "NeuroClues（前身P3Lab）是法比medtech，2020年成立，做基于眼动追踪的神经退行性疾病早筛。头戴设备每秒记录800帧红外眼动图像，免校准、数分钟出量化生物标志物，可在影像确诊前数年提示帕金森、阿尔茨海默、多发性硬化。2025年1月获CE二类认证，2026年4月完成1000万欧元A轮，团队约40人，参与巴黎脑科院ICEBERG队列（360例）。",
+    "highlights": "帕金森筛查",
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "认知筛查"
+    ],
+    "stage": "成长期",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "信号：2026年4月拿到1000万欧元A轮融资，2025年1月拿到CE二类认证，资本与监管双推进。信息量：披露设备以每秒800帧捕捉红外眼动图像、帕金森患者2040年料翻倍至1300万、约四分之一误诊且平均比确诊晚13个月，披露充分。差异化：用免校准头戴眼动设备做脑听诊器，在影像确诊前数年揪出帕金森与阿尔茨海默，CE已落地。可复制：国内已有类似（脑动极光、强脑科技等），但其免校准、量化眼动标志物的器械化路径，对国内脑疾病早筛有参考。",
+    "current_info": 6.0,
+    "current_diff": 5.5,
+    "current_copy": 7.5,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0828",
+    "name_cn": "Redi Health",
+    "name_en": null,
+    "desc_cn": "Redi Health是总部哥伦布的数字患者支持平台，2021年成立，连接制药企业、医疗机构与患者。其移动端把药企患者援助项目（PSP）数字化：用药提醒、症状追踪、品牌化健康教育、经济援助对接与入组，替代约70%依赖电话传真的非依从流程。2024年2月完成1400万美元B轮（Blue Heron Capital领投），客户月度入组提升30%，收入来自药企B端采购，App对患者免费。",
+    "highlights": [
+      "数字患者支持平台连接药企-机构-患者，提升用药依从",
+      "AI远程监测+移动端，替代70%非依从传统PSP",
+      "客户月度入组+30%，行业年损超6000亿美元背景",
+      "B轮1400万美元，Blue Heron Capital领投"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "stage": "B轮",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 2.55,
+    "current_recommend": "信号稳——2024年2月拿下1400万美元的B轮、蓝鹭资本领投，医疗侧的药企患者支持平台受资本关注。信息量足：披露传统援助项目非依从率约七成、行业年损超六千亿美元，客户月度入组提升三成，量化清楚。差异在把药企患者支持做成数字化中台，替代七成非依从的传统流程，连接药企、支付方与医疗端患者。国内已有类似（镁信健康、零氪科技），可借鉴其把依从性产品化、用量化结果换药企预算的思路。",
+    "current_info": 6.0,
+    "current_diff": 5.0,
+    "current_copy": 5.0,
+    "_is_v5_already": false
+  },
+  {
+    "serial": "#0874",
+    "name_cn": "Swift Medical",
+    "name_en": null,
+    "desc_cn": "Swift Medical是总部多伦多的AI数字伤口护理公司，2015年成立，把智能手机变成临床级伤口成像设备。其平台覆盖家庭护理、急门诊、护养院等场景，累计处理3200万+伤口影像、6200万+评估，服务4000+机构、2万+临床用户；循证显示压疮愈合快35%、评估快79%、伤口相关住院降15%。2024年1月完成800万美元增资（BDC、Virgo），累计融资约5700万美元。",
+    "highlights": "AI技术",
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "stage": "未搜到",
+    "is_listed": null,
+    "funding_stage": null,
+    "funding_amount": null,
+    "funding_date": null,
+    "funding_investors": null,
+    "country": null,
+    "domestic_competitors": null,
+    "research_value": 45.6,
+    "signal_strength": 0.55,
+    "current_recommend": "信号：2024年1月拿到800万美元增资、BDC与Virgo参与，历史融资约5700万美金，伤口AI稳健扩张。信息量：累计处理3200多万张伤口图片、6200万次评估，服务4000余家机构，压疮愈合提速35%、评估提速79%。差异化：把手机变成临床级伤口拍照设备，专攻居家护理与护养院压疮，数据壁垒厚。可复制：国内已有类似（伤口AI评估、压疮管理类创业公司），其手机即器械、居家机构全覆盖的轻部署路径，对国内护理院伤口管理可直接对标。",
+    "current_info": 6.0,
+    "current_diff": 7.5,
+    "current_copy": 5.5,
+    "_is_v5_already": false
+  }
+]

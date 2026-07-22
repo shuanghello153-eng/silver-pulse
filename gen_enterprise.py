@@ -105,6 +105,19 @@ def _score_class(score):
     return "s-low"
 
 
+def _total_class(score):
+    """综合评分(0–100)色阶：s-high(≥70) / s-mid(≥40) / s-low(<40)。"""
+    try:
+        s = float(score)
+    except (TypeError, ValueError):
+        return "s-low"
+    if s >= 70:
+        return "s-high"
+    elif s >= 40:
+        return "s-mid"
+    return "s-low"
+
+
 def _extract_fund_num(display):
     """把 '$106M' / '1.2亿' / '¥5000万' / '57B' 解析成「百万美元」量级数值（用于排序）。"""
     if not display or not isinstance(display, str):
@@ -127,6 +140,58 @@ def _extract_fund_num(display):
     if "亿" in unit and "万" in unit:
         mult = 100.0  # 1亿=100M 已覆盖
     return val * mult
+
+
+import re as _re
+
+
+def norm_amount(s):
+    """融资金额单位归一: 英文单位 M/B/K、中文 百万/十亿 → 万/亿; 币种(￥/$/人民币/美元)保持不转换。
+    仅做子串替换, 保留周边文案(如 'A轮融资'); 无金额单位的原文返回。"""
+    if not s or not isinstance(s, str):
+        return s
+
+    def repl_m(m):
+        cur = m.group(1) or ""
+        try:
+            val = float(m.group(2))
+        except Exception:
+            return m.group(0)
+        wan = val * 100.0  # 1M = 100万
+        if wan >= 10000:
+            return f"{cur}{wan / 10000:.1f}亿".replace(".0亿", "亿")
+        return f"{cur}{wan:.0f}万"
+
+    def repl_b(m):
+        cur = m.group(1) or ""
+        try:
+            val = float(m.group(2))
+        except Exception:
+            return m.group(0)
+        return f"{cur}{val * 10:.1f}亿".replace(".0亿", "亿")  # 1B = 10亿
+
+    def repl_mil(m):
+        try:
+            val = float(m.group(1))
+        except Exception:
+            return m.group(0)
+        wan = val * 100.0
+        if wan >= 10000:
+            return f"{wan / 10000:.1f}亿".replace(".0亿", "亿")
+        return f"{wan:.0f}万"
+
+    def repl_10yi(m):
+        try:
+            val = float(m.group(1))
+        except Exception:
+            return m.group(0)
+        return f"{val * 10:.1f}亿".replace(".0亿", "亿")
+
+    s = _re.sub(r"([\$￥]?)\s*([\d.]+)\s*M\b", repl_m, s)
+    s = _re.sub(r"([\$￥]?)\s*([\d.]+)\s*B\b", repl_b, s)
+    s = _re.sub(r"([\d.]+)\s*百万", repl_mil, s)
+    s = _re.sub(r"([\d.]+)\s*十亿", repl_10yi, s)
+    return s
 
 
 def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_by_entity=None, last_news_date=None, news_count=0):
@@ -238,58 +303,69 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     # --- Build card HTML ---
     parts = []
 
-    # Header line: name + category badge + tags + region
+    # === 企业库字段渲染规范 (2026-07-21 小爽确认版) ===
+    # 展示字段(有值才渲染): name_cn | tag_l2(二级标签) | total_score(总评分+hover四维)
+    #   | description(介绍) | recommend(推荐理由) | payor_model(支付模式)
+    #   | funding_latest(最新融资) | funding_total(累计融资) | investors(投资方)
+    #   | founded(成立年份) | 外链(Crunchbase/官网)
+    #   | 近期动态/报道(有关联新闻时)
+    # 不再展示的字段(原因):
+    #   business_tags     — 雷同度高(customer仅4种B2B/B2C变体, role集中服务商/平台)
+    #   tag_l1/category_l1/category_l2 — 用户要求只保留tag_l2作为唯一分类标识
+    #   region            — 太粗糙(国内/海外)，从介绍可判断
+    #   source(数据来源)  — 对选题决策无直接价值
+    #   highlights         — 与description 60%+重复，已停止独立展示
+    #   competitors        — 数据为空(0/1467)，规则需重做，暂隐藏
+    #   business_model     — 已被business_tags替代(而business_tags也不展示了)
+    #   events            — 100%填充但~33%与meta(founded/funding)重复, 增量价值(产品上线/榜单/营收)稀疏且可由近期动态/news覆盖, 暂不展示(如需复活做成折叠"大事记")
+    #
+    # 空值铁律: 所有展示字段，值为空/"未搜到"/"未披露"/"未公开"/含"上市"(非金额)
+    #           时一律不渲染。stage融入meta行与融资去重。
+
+    # Header line: name + tags (only tag_l2)
     header_parts = [f'<span class="ent-name">{name}</span>']
 
-    # Category badge (primary L1 · L2，取自清洗后的 tag_l1/tag_l2)
-    if cat_l1_list:
-        cat_text = cat_l1_list[0]
-        if cat_l2_list:
-            cat_text += f" · {cat_l2_list[0]}"
-        header_parts.append(f'<span class="ent-badge badge-cat">{esc(cat_text)}</span>')
-
-    # 一级标签 tag_l1（行业大类，与 tag_l2 是两个独立字段，描边灰底区分）
-    if tag_l1 and isinstance(tag_l1, list):
-        l1_html = "".join(
-            f'<span class="ent-tag-l1">{esc(t)}</span>' for t in tag_l1 if t
-        )
-        if l1_html:
-            header_parts.append(f'<span class="ent-tags-l1">{l1_html}</span>')
-
-    # Tags (展示全量 tag_l2，不限制数量)
-    if tags and isinstance(tags, list):
+    # Tags — 只展示 tag_l2（二级标签），不展示 tag_l1/category_l1/category_l2/region
+    if cat_l2_list:
+        visible_tags = list(cat_l2_list)  # 优先用清洗后的 tag_l2
+    elif tags and isinstance(tags, list):
         visible_tags = [t for t in tags if t]
-        if visible_tags:
-            tags_html = "".join(
-                f'<span class="ent-tag">{esc(t)}</span>' for t in visible_tags
-            )
-            header_parts.append(f'<span class="ent-tags">{tags_html}</span>')
+    else:
+        visible_tags = []
+    if visible_tags:
+        tags_html = "".join(
+            f'<span class="ent-tag">{esc(t)}</span>' for t in visible_tags
+        )
+        header_parts.append(f'<span class="ent-tags">{tags_html}</span>')
 
-    # Business tags (业务标签: 客户对象/角色/渠道) — 新维度, 暂停原始 business_model 展示
-    if biz_tags:
-        _bt = []
-        _cust = biz_tags.get("customer")
-        if _cust and _cust != "未标注":
-            _bt.append(f'<span class="ent-biz-tag biz-customer">{esc(_cust)}</span>')
-        _role = biz_tags.get("role")
-        if _role:
-            _bt.append(f'<span class="ent-biz-tag biz-role">{esc(_role)}</span>')
-        for _ch in (biz_tags.get("channel") or []):
-            _bt.append(f'<span class="ent-biz-tag biz-channel">{esc(_ch)}</span>')
-        if _bt:
-            header_parts.append(f'<span class="ent-biz-tags">{" ".join(_bt)}</span>')
+    # [已移除] business_tags — 2026-07-21 确认不展示(100%填充但customer仅4种B2B变体,
+    #   role集中服务商/平台, 对选题区分度极低)
 
-    # Region (低调，放最后)
-    if region:
-        header_parts.append(f'<span class="ent-badge badge-region">{esc(region)}</span>')
+    # Region — 不展示（用户要求：看企业介绍就知道，太粗糙）
 
-    # Stage badge (阶段)
-    if stage:
-        header_parts.append(f'<span class="ent-badge badge-stage">阶段·{esc(stage)}</span>')
+    # [已移除] stage badge from header — 2026-07-21 改为融入 meta 行，
+    #   与融资/成立日期合并展示，且自动与融资信息去重
 
-    # Research-value badge — 加"研究分"标签 + hover 解释（避免裸数字看不懂）
-    if rv is not None:
-        header_parts.append(f'<span class="badge-rv {_score_class(rv)}" title="研究价值分：综合规模/信息密度/商业模式/国内可比性打分（0-100），越高越值得深写">研究分 {esc(str(rv))}</span>')
+    # Total-score badge — 综合评分(0~10封顶), hover 显示四维度明细
+    ts = ent.get("total_score")
+    sig = ent.get("signal_strength")
+    info = ent.get("info_score")
+    diff = ent.get("diff_score")
+    copy = ent.get("copy_score")
+    if ts is not None:
+        # 封顶10分(2026-07-21 确认: 评分总分是10分制)
+        ts_display = min(int(round(float(ts) * 10)), 100)
+        # 四维度 tooltip: 信号·信息·差异·可复制
+        dim_parts = []
+        for label, val in [("信号",sig),("信息",info),("差异",diff),("复制",copy)]:
+            if val is not None:
+                dim_parts.append(f"{label}{int(round(float(val) * 10))}")
+        dim_str = " · ".join(dim_parts) if dim_parts else ""
+        header_parts.append(
+            f'<span class="badge-rv {_total_class(ts_display)}" '
+            f'title="{dim_str}">'
+            f'{ts_display}</span>'
+        )
 
     # "近期有动态"徽标：仅当企业是新闻的"被报道主体(subject)"且近期有动态才显示；
     # 媒体类企业(行业媒体)即使发布了大量资讯，也不标"近期有动态"（改用"近期报道"）。
@@ -305,7 +381,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
             _ld = max(_rdates)
             is_recent = (_NOW - _ld).days <= NEWS_RECENT_DAYS
     if is_recent:
-        header_parts.append('<span class="ent-badge badge-recent">🔥 近期有动态</span>')
+        header_parts.append('<span class="ent-badge badge-recent" title="近期有动态">🔥</span>')
     # 收藏按钮（localStorage 反馈）
     if serial:
         header_parts.append(f'<button class="fav-btn" data-type="ent" data-id="{esc(serial)}"><span class="ico">☆</span><span class="lbl">收藏</span></button>')
@@ -318,51 +394,76 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     if description:
         parts.append(f'<div class="ent-desc">{description}</div>')
 
-    # Highlights (小字)
-    if highlights:
-        parts.append(f'<div class="ent-highlights">★ {highlights}</div>')
+    # Highlights — 已移除独立展示（与 description 高度重复，约 60%+ 为子集关系；
+    # 真正有价值的差异化信息已融入 recommend 推荐理由）
 
-    # Recommend (推荐理由: 规则占位版, 待 AI 精修)
+    # Recommend (推荐理由 — AI 精修版, 用💡标签与"基本信息"视觉区分)
     if recommend:
-        parts.append(f'<div class="ent-reco">💡 推荐理由: {recommend}</div>')
+        parts.append(f'<div class="ent-reco"><span class="reco-label">💡 推荐理由</span>{recommend}</div>')
 
-    # Meta line: funding / investors / founded / links
+    # Meta line: stage(融入) / funding / investors / payor_model / founded / links
+    # 2026-07-21 规则: 所有字段有值才渲染; 空值/"未搜到"/"未披露"/"未公开"一律不显示
     meta_parts = []
 
-    # Latest funding
+    # Stage — 融入 meta 行，与融资信息智能去重
+    # 去重逻辑: 如果 funding_latest/total 的 display 已包含阶段同义词(如"天使轮""IPO"),
+    #           则不再单独展示 stage
+    _stage_keywords = {"天使": "天使轮", "种子": "种子轮", "A轮": "A轮", "B轮": "B轮",
+                       "C轮": "C轮", "D轮": "D轮", "已上市": "上市", "被收购": "收购",
+                       "成长期": "", "成熟期": "", "Pre-A": "Pre", "Pre-A轮": "Pre"}
+    _fund_display_text = ""
+    if fund_latest and isinstance(fund_latest, dict):
+        _fund_display_text += fund_latest.get("display", "") or ""
+    if fund_total and isinstance(fund_total, dict):
+        _fund_display_text += " " + (fund_total.get("display", "") or "")
+    _show_stage = True
+    if stage and stage not in ("未搜到", "未披露", "", "未知"):
+        # 检查融资display是否已包含等价阶段信息
+        for sk, fk in _stage_keywords.items():
+            if sk in str(stage) and fk and fk in _fund_display_text:
+                _show_stage = False
+                break
+        if _show_stage:
+            meta_parts.append(f'<span class="meta-item meta-stage">{esc(stage)}</span>')
+
+    # Latest funding — 过滤未披露/未公开/上市等非金额文本
     if fund_latest and isinstance(fund_latest, dict):
         display = fund_latest.get("display", "")
-        if display and "未披露" not in display and "未公开" not in display:
-            meta_parts.append(f'<span class="meta-item meta-fund">{esc(display)}</span>')
+        # 融资金额单位归一: 英文M/B/K、中文百万/十亿→万/亿(币种不转换), 并清理"被收购"等非金额文本
+        if display and "未披露" not in display and "未公开" not in display and "上市" not in display and "被收购" not in display and "已被收购" not in display and _re.search(r'\d', display):
+            meta_parts.append(f'<span class="meta-item meta-fund">{esc(norm_amount(display))}</span>')
 
-    # Total funding
+    # Total funding — 同上过滤
     if fund_total and isinstance(fund_total, dict):
         display = fund_total.get("display", "")
-        if display and "未披露" not in display and "未公开" not in display:
-            meta_parts.append(f'<span class="meta-item meta-fund-total">{esc(display)}</span>')
+        if display and "未披露" not in display and "未公开" not in display and "上市" not in display and "被收购" not in display and _re.search(r'\d', display):
+            meta_parts.append(f'<span class="meta-item meta-fund-total">{esc(norm_amount(display))}</span>')
 
-    # Investors
-    if investors:
+    # Investors — [2026-07-21 用户决策] 投资方对选题价值有限且常过长挤压其他字段, 默认隐藏(数据保留在真相源, 如需复活改 SHOW_INVESTORS=True)
+    SHOW_INVESTORS = False
+    if investors and SHOW_INVESTORS:
         inv_str = investors if isinstance(investors, str) else ", ".join(investors)
-        if inv_str and "未披露" not in inv_str:
+        _skip_words = ("未披露", "未搜到", "未公开", "上市公司", "公众股东", "未知")
+        if inv_str and not any(w in inv_str for w in _skip_words):
             meta_parts.append(f'<span class="meta-item">投资方: {esc(inv_str)}</span>')
 
-    # Founded
-    if founded:
+    # Payor model (支付模式) — 2026-07-21 新增展示, 100%填充率, 对选题有区分度
+    pm = ent.get("payor_model", "")
+    if pm and pm not in ("未搜到", "未披露", ""):
+        meta_parts.append(f'<span class="meta-item meta-payor">{esc(pm)}</span>')
+
+    # Founded — 空值/"未搜到"不展示
+    if founded and founded not in ("未搜到", "", "未知"):
         meta_parts.append(f'<span class="meta-item">成立: {founded}</span>')
 
-    # Business model: 已暂停原始 business_model 展示(改由上方业务标签 chips 替代)
+    # [已隐藏] Source — 2026-07-21 确认隐藏(对选题决策无直接价值)
 
-    # Source
-    if source:
-        meta_parts.append(f'<span class="meta-item meta-source">{source}</span>')
-
-    # Links (small, right-aligned) — 点击复制链接，停留在当前列表页（不开新标签）
+    # Links — JS后台打开: 新标签页不切换(用户一次看很多企业, 外部站加载慢, 不跳走)
     link_parts = []
     if crunchbase_url:
-        link_parts.append(f'<a href="{esc(crunchbase_url)}" class="ent-link" onclick="return spCopyLink(event,\'{esc(crunchbase_url)}\',\'Crunchbase\')" title="点击复制链接（原地不动）">Crunchbase</a>')
+        link_parts.append(f'<a href="{esc(crunchbase_url)}" class="ent-link" onclick="return openBg(this.href)" title="在新标签页打开 Crunchbase">Crunchbase</a>')
     if website_url:
-        link_parts.append(f'<a href="{esc(website_url)}" class="ent-link" onclick="return spCopyLink(event,\'{esc(website_url)}\',\'官网\')" title="点击复制链接（原地不动）">官网</a>')
+        link_parts.append(f'<a href="{esc(website_url)}" class="ent-link" onclick="return openBg(this.href)" title="在新标签页打开官网">官网</a>')
     if link_parts:
         meta_parts.append(f'<span class="meta-links">{" · ".join(link_parts)}</span>')
 
@@ -375,7 +476,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
         rec_items = []
         for rn in _show_news:
             if rn["url"]:
-                link = "index.html#news-" + _url_hash(rn["url"])
+                link = rn["url"]
             else:
                 link = "index.html"
             t = esc(rn["title"])
@@ -385,20 +486,25 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
             srcs = rn.get("sources") or []
             if srcs:
                 src_links = " · ".join(
-                    f'<a href="{esc(s["url"])}" target="_blank" rel="noopener" class="ent-src-link">{esc(s["source"] or "来源")}</a>'
+                    f'<a href="{esc(s["url"])}" onclick="return openBg(this.href)" class="ent-src-link">{esc(s["source"] or "来源")}</a>'
                     for s in srcs if s.get("url")
                 )
                 src_html = f' <span class="ent-cluster-srcs">〔同事件：{src_links}〕</span>'
             rec_items.append(
-                f'<a href="{esc(link)}" class="ent-recent-link">{t}</a>{d}{src_html}'
+                f'<a href="{esc(link)}" class="ent-recent-link" onclick="return openBg(this.href)" title="在新标签页打开资讯详情">{t}</a>{d}{src_html}'
             )
         parts.append(f'<div class="ent-recent">{esc(_recent_label or "🔥 近期动态")}: {" · ".join(rec_items)}</div>')
 
-    # 竞争对手 — other enterprises sharing an L1 category (category_l1) or the
-    # same normalized business_model, ranked by research_value, top 5. Omitted if none.
-    if competitors:
+    # 竞争对手 — [2026-07-21 暂停展示] 规则: 按 category_l1 或 business_model 聚类,
+    #   取 research_value Top5。当前问题: 0/1467 家有数据(competitors 字段全空)，
+    #   规则可能未执行或产出为空。需重做规则后再复活此区块。
+    # if competitors:
+    #     ... (原代码保留, 待规则修复后取消注释)
+    # 暂时用占位注释标记，避免生成空 HTML 区块
+    _comp_raw = ent.get("competitors")
+    if _comp_raw and isinstance(_comp_raw, list) and len(_comp_raw) > 0:
         comp_items = []
-        for c in competitors:
+        for c in _comp_raw:
             anchor = "ent-" + _url_hash(c.get("serial", "")) if c.get("serial") else ""
             href = "#" + anchor if anchor else "#"
             rv = c.get("rv")
@@ -743,16 +849,19 @@ def generate():
         dom = max(l2_to_l1[l2].items(), key=lambda kv: kv[1])[0]
         l2_counts.setdefault(dom, {})[l2] = tot
 
-    # Build cards — 精选优先、研究价值降序（精选视图默认按价值排）
+    # Build cards — 默认排序：最新动态日期降序 → 研究价值降序（与前端 recent 模式一致）
     def _disp_rv(e):
         sc = ent_scores_map.get(e.get("serial", ""))
         return (sc.get("research_value") if sc else None) or e.get("value_score") or 0
 
-    enterprises_sorted = sorted(
-        enterprises,
-        key=lambda e: (1 if is_curated(e) else 0, _disp_rv(e)),
-        reverse=True,
-    )
+    def _sort_key(e):
+        serial = e.get("serial", "")
+        lnd = last_news_map.get(serial, "")  # 空字符串排末尾
+        # 有动态的排前面(日期越近越前)，无动态的按评分
+        rv = _disp_rv(e)
+        return (not lnd, lnd, -rv)
+
+    enterprises_sorted = sorted(enterprises, key=_sort_key)
     cards_html = "\n".join(
         build_card(e, ent_scores_map, news_map, competitors_map.get(e.get("serial", "")), news_by_entity, last_news_map.get(e.get("serial", "")), news_count_map.get(e.get("serial", ""), 0))
         for e in enterprises_sorted
@@ -828,51 +937,18 @@ __SIDEBAR__
 
 <div class="header">
   <h2>银发经济企业数据库</h2>
-  <p class="header-stats">共 {total} 家企业 · 国内 {domestic} 家 · 海外 {overseas} 家 · 精选 {curated_count} 家 · {len(cat_counts)} 个一级分类</p>
+  <p class="header-stats">共 {total} 家企业</p>
 </div>
 
 <div class="toolbar">
-  <!-- 第1行：视图 / 地区 / 排序 / 搜索(内联, 输入框缩短, 按钮常驻) -->
-  <div class="filter-row filter-main">
-    <span class="f-label">视图</span>
-    <div class="view-toggle">
-      <button class="view-btn active" data-view="curated">精选 ({curated_count})</button>
-      <button class="view-btn" data-view="all">全量 ({total})</button>
-    </div>
-    <span class="f-label">地区</span>
-    <div class="btn-group">
-      <button class="f-btn active" data-reg="all">全部</button>
-      <button class="f-btn" data-reg="1">国内</button>
-      <button class="f-btn" data-reg="2">海外</button>
-    </div>
-    <span class="f-label">排序</span>
-    <div class="sort-group">
-      <button class="sort-arrow active" data-sort="news" onclick="setEntSort('news')">资讯相关</button>
-      <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">研究分</button>
-      <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额</button>
-    </div>
-    <span class="f-label">搜索</span>
-    <div class="search-inline-group">
-      <input type="text" class="search-inline" id="search" placeholder="搜索企业 / 行业 / 关键词" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
-      <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
-    </div>
-  </div>
-
-  <!-- 第2行：分类（L1全展示，点击展开L2子类） -->
-  <div class="filter-row" id="cat-filter">
-    <span class="f-label">分类</span>
-    <div class="filter-btns">{cat_buttons}</div>
-  </div>
-  {l2_filter_html}
-
-  <!-- 第3行：标签（全展示不折叠） -->
+  <!-- 第1行：标签筛选（二级标签 pills） -->
   <div class="filter-row">
     <span class="f-label">标签</span>
     <div class="filter-btns ent-tag-pills">{tag_pills_html}</div>
   </div>
 
-  <!-- 第4行：时间[左] + 辅助按钮[右] -->
-  <div class="filter-row filter-last">
+  <!-- 第2行：时间筛选 + 地区筛选（紧邻排列） -->
+  <div class="filter-row">
     <span class="f-label">时间</span>
     <div class="filter-btns" id="ent-time-pills">
       <button class="f-btn active" data-enttime="all">全部</button>
@@ -880,6 +956,29 @@ __SIDEBAR__
       <button class="f-btn" data-enttime="2w">近2周</button>
       <button class="f-btn" data-enttime="1m">近1月</button>
       <button class="f-btn" data-enttime="3m">近3月</button>
+      <button class="f-btn" data-enttime="6m">近半年</button>
+      <button class="f-btn" data-enttime="1y">近1年</button>
+    </div>
+    <span class="f-label" style="margin-left:16px">地区</span>
+    <div class="view-toggle">
+      <button class="reg-btn active" data-reg="all">全部</button>
+      <button class="reg-btn" data-reg="1">国内</button>
+      <button class="reg-btn" data-reg="2">海外</button>
+    </div>
+  </div>
+
+  <!-- 第3行：排序 + 搜索 + 辅助按钮 -->
+  <div class="filter-row filter-main">
+    <span class="f-label">排序</span>
+    <div class="sort-group">
+      <button class="sort-arrow active" data-sort="recent" onclick="setEntSort('recent')">动态↓</button>
+      <button class="sort-arrow" data-sort="rv" onclick="setEntSort('rv')">评分↓</button>
+      <button class="sort-arrow" data-sort="fund" onclick="setEntSort('fund')">融资金额↓</button>
+    </div>
+    <span class="f-label">搜索</span>
+    <div class="search-inline-group">
+      <input type="text" class="search-inline" id="search" placeholder="搜索企业 / 行业 / 关键词" oninput="spDebouncedSearch()" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
+      <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
     </div>
     <div class="aux-group">
       <button class="recent-filter-btn" onclick="spToggleRecentFilter()" title="只看近期有资讯动态的企业">🔥 近期动态</button>
@@ -912,16 +1011,30 @@ __SIDEBAR__
 </div>
 
 <script>
+/* 外链后台打开：新标签页不切换(解决 target=_blank 默认切标签问题) */
+function openBg(url) {{
+  if (!url) return false;
+  try {{
+    var w = window.open(url, '_blank');
+    if (w) {{ w.blur(); window.focus(); }}
+  }} catch(e) {{/* popup blocker or security error — still prevent default */}}
+  return false;
+}}
+
 let activeReg = 'all';
 let activeCat = 'all';
 let activeL2 = 'all';
-let activeView = 'curated';
 let activeTag = 'all';
-let entSortMode = 'news';
+let entSortMode = 'recent';
 let entSortDir = 'desc';
 let activeRecent = false;
 let activeEntTime = 'all';
 window.spReapply = filterEnt;
+let _searchTimer = null;
+function spDebouncedSearch() {{
+  if (_searchTimer) clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(function() {{ filterEnt(); }}, 250);
+}}
 
 function setEntSort(mode) {{
   if (entSortMode === mode) {{
@@ -934,7 +1047,7 @@ function setEntSort(mode) {{
     const m = b.dataset.sort;
     b.classList.toggle('active', m === entSortMode);
     const arrow = (m === entSortMode) ? (entSortDir === 'desc' ? '↓' : '↑') : '↓';
-    b.textContent = (m === 'news' ? '匹配资讯 ' : (m === 'rv' ? '评分 ' : '融资金额 ')) + arrow;
+    b.textContent = (m === 'recent' ? '动态 ' : (m === 'rv' ? '评分 ' : '融资金额 ')) + arrow;
   }});
   filterEnt();
 }}
@@ -943,9 +1056,28 @@ function sortEnt() {{
   const mode = entSortMode;
   const list = document.getElementById('ent-list');
   if (!list) return;
-  const cards = Array.from(list.querySelectorAll('.ent-card'));
+  const cards = getEntCards();
+  if (mode === 'recent') {{
+    // 默认排序：主键=最新动态日期降序(越近越靠前)；次键=评分降序；无动态的排末尾按评分
+    cards.sort(function(a, b) {{
+      const da = a.dataset.lastnews || '';
+      const db = b.dataset.lastnews || '';
+      if (da && db) {{
+        const dc = db.localeCompare(da);
+        if (dc !== 0) return dc;
+      }}
+      if (da && !db) return -1;
+      if (!da && db) return 1;
+      // 同日期或都无动态：按评分排
+      let sc = (parseFloat(b.dataset.rv) || 0) - (parseFloat(a.dataset.rv) || 0);
+      if (entSortDir === 'asc') sc = -sc;
+      return sc;
+    }});
+    appendInOrder(list, cards);
+    return;
+  }}
   if (mode === 'news') {{
-    // 默认排序：主键=匹配到的资讯文章数量降序；次键=近期有动态的企业上浮；再次=研究价值降序
+    // 兼容旧模式：按匹配资讯数降序
     cards.sort(function(a, b) {{
       const ca = parseInt(a.dataset.news || '0', 10);
       const cb = parseInt(b.dataset.news || '0', 10);
@@ -958,7 +1090,7 @@ function sortEnt() {{
       }}
       return cmp;
     }});
-    cards.forEach(function(c) {{ list.appendChild(c); }});
+    appendInOrder(list, cards);
     return;
   }}
   if (activeRecent) {{
@@ -971,7 +1103,7 @@ function sortEnt() {{
       if (db) return 1;
       return 0;
     }});
-    cards.forEach(function(c) {{ list.appendChild(c); }});
+    appendInOrder(list, cards);
     return;
   }}
   cards.sort(function(a, b) {{
@@ -994,9 +1126,20 @@ function spToggleRecentFilter() {{
   filterEnt();
 }}
 
-var entRendered = 40, ENT_PAGE = 40, lastMatched = [];
+var entRendered = 20, ENT_PAGE = 20, lastMatched = [], entPrevShown = new Set(), ENT_CARDS = null;
+// 卡片列表只查询一次(服务端已渲染), 后续筛选/排序直接复用, 避免每次 keystroke 重查 1467 个 DOM
+function getEntCards() {{
+  if (!ENT_CARDS) ENT_CARDS = Array.from(document.querySelectorAll('#ent-list .ent-card'));
+  return ENT_CARDS;
+}}
+// 批量重排 DOM, 用 fragment 减少 reflow
+function appendInOrder(list, cards) {{
+  const frag = document.createDocumentFragment();
+  cards.forEach(function(c) {{ frag.appendChild(c); }});
+  list.appendChild(frag);
+}}
 function filterEnt() {{
-  entRendered = ENT_PAGE;   // 每次筛选从头分页(渐进渲染, 先显示前40家)
+  entRendered = ENT_PAGE;   // 每次筛选从头分页(渐进渲染, 先显示前20家)
   sortEnt();
   const qRaw = (document.getElementById('search').value || '').trim().toLowerCase();
   const q = qRaw;
@@ -1006,7 +1149,7 @@ function filterEnt() {{
     const canon = SYN_FLAT[q];
     if (CANON_SYN[canon]) qTerms = qTerms.concat(CANON_SYN[canon].map(function(t){{ return t.toLowerCase(); }}));
   }}
-  const cards = Array.from(document.querySelectorAll('.ent-card'));
+  const cards = getEntCards();
   let visible = 0;
   const catVisCounts = {{}};
   const l2VisCounts = {{}};
@@ -1022,8 +1165,8 @@ function filterEnt() {{
     // 搜索打分：3=标签精确命中(含扩展同义词) 2=标签子串命中(最小颗粒度, 如 护理⊂专业护理/硬件⊂智能硬件) 1=仅在名称/描述/推荐理由 0=不命中
     let score = 0;
     if (q) {{
-      const tags = (card.dataset.tags || '').split(' ').filter(Boolean).map(function(t){{ return t.toLowerCase(); }});
-      const blob = (card.dataset.search || '').toLowerCase();
+      const tags = (card._tags !== undefined) ? card._tags : (card._tags = (card.dataset.tags || '').split(' ').filter(Boolean).map(function(t){{ return t.toLowerCase(); }}));
+      const blob = (card._blob !== undefined) ? card._blob : (card._blob = (card.dataset.search || '').toLowerCase());
       for (const qt of qTerms) {{ if (tags.indexOf(qt) >= 0) {{ score = 3; break; }} }}
       if (score < 3) {{
         for (const qt of qTerms) {{
@@ -1039,7 +1182,6 @@ function filterEnt() {{
     const searchMatch = !q || score > 0;
     const catMatch = activeCat === 'all' || catList.indexOf(activeCat) >= 0;
     const l2Match = activeL2 === 'all' || l2List.indexOf(activeL2) >= 0;
-    const viewMatch = activeView === 'all' || curated;
     const tag = (card.dataset.tags || '').split(' ').filter(Boolean);
     const tagMatch = activeTag === 'all' || (activeTag === '__funded__' ? (card.dataset.hasfund === '1') : tag.includes(activeTag));
     const recentMatch = !activeRecent || card.dataset.recent === '1';
@@ -1049,13 +1191,13 @@ function filterEnt() {{
     const timeMatch = (activeEntTime === 'all') ? true : (function() {{
       const d = card.dataset.lastnews || '';
       if (!d) return false;
-      const days = {{'1w':7,'2w':14,'1m':30,'3m':90}}[activeEntTime] || 0;
+      const days = {{'1w':7,'2w':14,'1m':30,'3m':90,'6m':180,'1y':365}}[activeEntTime] || 0;
       const cut = new Date(); cut.setDate(cut.getDate() - days);
       const dd = new Date(d.replace(/-/g, '/'));
       return dd >= cut;
     }})();
 
-    if (regMatch && searchMatch && viewMatch && tagMatch && recentMatch && hiddenMatch && readMatch && favMatch && timeMatch) {{
+    if (regMatch && searchMatch && tagMatch && recentMatch && hiddenMatch && readMatch && favMatch && timeMatch) {{
       totalVis++;
       catList.forEach(function(c){{ catVisCounts[c] = (catVisCounts[c]||0)+1; }});
       if (activeCat === 'all') {{
@@ -1085,7 +1227,7 @@ function filterEnt() {{
       return (parseInt(b.dataset.news || '0', 10)) - (parseInt(a.dataset.news || '0', 10));
     }});
     const list = document.getElementById('ent-list');
-    matched.forEach(function(c) {{ list.appendChild(c); }});
+    appendInOrder(list, matched);
   }}
 
   // 渐进渲染: 只显示前 entRendered 张, 其余隐藏(点"加载更多"再显示)
@@ -1114,32 +1256,31 @@ function filterEnt() {{
   // Update result count
   const rc = document.getElementById('result-count');
   if (rc) {{
-    const viewLabel = activeView === 'curated' ? '精选' : '全量';
     const regLabel = activeReg === 'all' ? '全部地区' : (activeReg === '1' ? '国内' : '海外');
     const catLabel = activeCat === 'all' ? '全部分类' : activeCat;
     const l2Label = activeL2 === 'all' ? '' : ' · ' + activeL2;
     const tagLabel = activeTag === 'all' ? '' : ' · ' + (activeTag === '__funded__' ? '有融资/IPO' : activeTag);
     const recentLabel = activeRecent ? ' · 近期有动态' : '';
-    rc.textContent = `展示 ${{Math.min(entRendered, visible)}} / 共 ${{visible}} 家企业 · ${{viewLabel}} · ${{regLabel}} · ${{catLabel}}${{l2Label}}${{tagLabel}}${{recentLabel}}`;
+    rc.textContent = `展示 ${{Math.min(entRendered, visible)}} / 共 ${{visible}} 家企业 · ${{regLabel}} · ${{catLabel}}${{l2Label}}${{tagLabel}}${{recentLabel}}`;
   }}
 }}
 
-// View toggle
-document.querySelectorAll('.view-btn').forEach(btn => {{
-  btn.addEventListener('click', function() {{
-    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
-    this.classList.add('active');
-    activeView = this.dataset.view;
-    filterEnt();
-  }});
-}});
-
 // 渐进渲染: 控制可见卡片数量(方案A: 先显示前40家, 点"加载更多"追加)
+// 外链后台打开：openBg() 在新标签页打开但不切换
+
 function paintEnt() {{
   const matched = lastMatched || [];
-  matched.forEach(function(c) {{ c.style.display = 'none'; }});
-  const show = matched.slice(0, entRendered);
-  show.forEach(function(c) {{ c.style.display = ''; }});
+  const showSet = new Set(matched.slice(0, entRendered));
+  const cards = getEntCards();
+  // 遍历全部卡片, 仅对显示状态发生变化的卡片改 display(避免每次全量 reflow)
+  cards.forEach(function(c) {{
+    const show = showSet.has(c);
+    if (c._shown !== show) {{
+      c.style.display = show ? '' : 'none';
+      c._shown = show;
+    }}
+  }});
+  entPrevShown = showSet;
   const btn = document.getElementById('ent-loadmore');
   if (btn) {{
     if (entRendered < matched.length) {{
@@ -1303,7 +1444,7 @@ function toggleEntCats() {{
 
     RECENT_CSS = """
 /* 近期有动态徽标 + 筛选按钮（与统一按钮高度28px对齐） */
-.ent-badge.badge-recent { background:#fff1e6; color:#e8590c; border:1px solid #ffd8a8; font-weight:600; white-space:nowrap; }
+.ent-badge.badge-recent { background:#fff1e6; color:#e8590c; border:none; font-weight:600; white-space:nowrap; }
 .ent-cluster-srcs { font-size:12px; color:#868e96; margin-left:4px; }
 .ent-src-link { color:#1c7ed6; text-decoration:none; }
 .ent-src-link:hover { text-decoration:underline; }
@@ -1319,8 +1460,12 @@ function toggleEntCats() {{
 .ent-tags-l1 { display:inline-flex; gap:4px; flex-wrap:wrap; align-items:center; margin-right:2px; }
 .ent-tag-l1 { font-size:10.5px; color:#6b7280; background:#f3f4f6; border:1px solid #d1d5db; padding:2px 8px; border-radius:6px; font-weight:600; letter-spacing:.3px; }
 .ent-badge.badge-stage { background:#eef0ff; color:#3b3b8f; border:1px solid #c5c8f0; font-weight:600; white-space:nowrap; }
-.ent-reco { font-size:12px; color:#555; margin-top:4px; line-height:1.55; }
+.ent-reco { font-size:12px; color:#3a3a3a; margin-top:6px; line-height:1.6; background:#fafbff; border-left:3px solid #5b8def; border-radius:0 6px 6px 0; padding:6px 9px; }
+.reco-label { display:inline-block; font-weight:700; color:#2b5cc4; margin-right:4px; }
 .ent-reco::first-letter { font-weight:600; }
+/* 长内容截断, 避免挤压其他字段(点击暂不展开, 如需可加展开交互) */
+.ent-desc { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.ent-recent { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
 .recent-filter-btn.active { background:#e8590c; color:#fff; border-color:#e8590c; }
 """
     html_content = html_content.replace("__RECENT_CSS__", RECENT_CSS)

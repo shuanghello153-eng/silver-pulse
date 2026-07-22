@@ -1,0 +1,6970 @@
+{
+  "summary": {
+    "total_parsed": 355,
+    "after_dedup": 355,
+    "exact_match": 30,
+    "fuzzy_match": 18,
+    "fuzzy_resolved": {
+      "merged": 5,
+      "new": 13
+    },
+    "after_silver_signal_filter": 313,
+    "rejected": [
+      {
+        "name": "中国人生科学学会",
+        "reason": "行业协会（非企业产品主体）"
+      },
+      {
+        "name": "佛山市南海区养老服务业协会",
+        "reason": "行业协会（非企业产品主体）"
+      },
+      {
+        "name": "广西中小企业经济互助商会 / 广西桂派旗袍文旅",
+        "reason": "商会+旗袍泛女性社群，无明确50+定位"
+      },
+      {
+        "name": "北京服装学院",
+        "reason": "高校科研机构（非企业产品主体）"
+      },
+      {
+        "name": "湖北广播电视台电视综合频道",
+        "reason": "综合电视台（泛融媒体，银发仅子板块）"
+      },
+      {
+        "name": "中科极地抗衰老技术研究院",
+        "reason": "研究院/泛抗衰（非标准企业主体，属泛再生医学）"
+      },
+      {
+        "name": "合肥通鼎文化传媒有限公司",
+        "reason": "纯广告大屏置换（泛融媒体，无银发产品）"
+      }
+    ],
+    "final_new_entries": 313
+  },
+  "exact_match_supplements": [
+    {
+      "name": "上海地宝防滑防护科技有限公司",
+      "existing_tags": [
+        "养老服务",
+        "适老化"
+      ],
+      "suggested_description_addition": "AgeClub补充其产品矩阵含无障碍扶手、淋浴辅具，建议在描述中增补具体适老辅具品类。"
+    },
+    {
+      "name": "福建百龄康养产业发展集团有限公司",
+      "existing_tags": [
+        "养老服务",
+        "养老机构"
+      ],
+      "suggested_description_addition": "AgeClub最新显示其在运营养老机构已增至12家（库内记录为11家），建议更新规模数据。"
+    },
+    {
+      "name": "浙江三网科技股份有限公司",
+      "existing_tags": [
+        "行业服务",
+        "养老服务",
+        "养老信息平台",
+        "适老化"
+      ],
+      "suggested_description_addition": "AgeClub列明其养老硬件含定位手环、防跌倒报警器，建议补充硬件品类细节。"
+    },
+    {
+      "name": "时尚奶奶团",
+      "existing_tags": [
+        "文娱社交",
+        "短视频"
+      ],
+      "suggested_description_addition": "AgeClub称其拥有100个中老年IP矩阵（库内仅述粉丝规模），建议补充IP矩阵化运营模式。"
+    },
+    {
+      "name": "江西哦咔科技有限公司",
+      "existing_tags": [
+        "养老服务",
+        "养老机构"
+      ],
+      "suggested_description_addition": "AgeClub显示其正采购认知症养老空间设计团队，说明业务延伸至认知症专区设计，建议补充。"
+    },
+    {
+      "name": "美适浴（上海）卫浴有限公司",
+      "existing_tags": [
+        "养老服务",
+        "适老化"
+      ],
+      "suggested_description_addition": "AgeClub强调“100%防摔倒适老开门浴缸”，建议补充产品安全性卖点。"
+    }
+  ],
+  "new_entries": [
+    {
+      "name": "上海原座标空间设计有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "上海原座标空间设计有限公司：养老建筑室内改造设计。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海长润国际贸易有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "上海长润国际贸易有限公司：适老化设计、养老体验馆加盟。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "智慧康（雄安）健康养老科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "智慧康（雄安）健康养老科技有限公司：伴步地面防滑适老化改造。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "德际凯艾（上海）健康咨询服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "德际凯艾（上海）健康咨询服务有限公司：海尔康养适老化改造落地。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "福满堂适老化改造服务平台",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "福满堂适老化改造服务平台：一站式适老化改造供应链。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都朗力养老产业发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "成都朗力养老产业发展有限公司：适老化改造 + 养老培训。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "武汉金柏康医疗科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "武汉金柏康医疗科技有限公司：适老化工程施工企业。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "河南工之坊科技集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "河南工之坊科技集团有限公司：地面防滑工程龙头。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "乐宜适老化健康科技（江苏）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "乐宜适老化健康科技（江苏）有限公司：全屋适老化改造工程。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "合肥盛东信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "合肥盛东信息科技有限公司：民政监管 + 社区 / 地产养老综合平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "颐享时代",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "颐享时代：社区一站式智慧养老 SaaS 平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都全时云信息有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "成都全时云信息有限公司：十年智慧养老落地方案服务商。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海天与智慧养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "上海天与智慧养老服务有限公司：居家 / 机构照护一体化平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市升质科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "深圳市升质科技有限公司：居家养老全闭环系统。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "铭博科技",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "铭博科技：适老化改造项目管理系统。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "大连东软睿新健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "大连东软睿新健康科技有限公司：智慧康养综合 SaaS 平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广州立恒信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "广州立恒信息科技有限公司：医养一体化软硬件解决方案。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市九町科技有限公司 / 柠檬网联",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "深圳市九町科技有限公司 / 柠檬网联：AI 银发流量运营平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "南通英可达信息技术有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "南通英可达信息技术有限公司：养老软硬件定制开发平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海言策企业管理咨询有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "上海言策企业管理咨询有限公司：AI 品牌流量推荐系统。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海乐龄云求索科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "上海乐龄云求索科技有限公司：老年垂类 APP，上海 50 + 中老年展演。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "牛程（重庆）信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "牛程（重庆）信息科技有限公司：9000 + 旅行社票池平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "臻林国际康养度假园区",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "臻林国际康养度假园区：高端旅居康养综合体。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "湖州市机汽猫科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "养老信息平台"
+      ],
+      "tags": [],
+      "description": "湖州市机汽猫科技有限公司：2000 + 医院精准银发流量。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海神圆文化发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "上海神圆文化发展有限公司：老年无极球运动赛事运营。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江绿色森林康养集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "浙江绿色森林康养集团有限公司：千岛湖森林旅居康养基地。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "鲁网",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "行业媒体"
+      ],
+      "tags": [],
+      "description": "鲁网：涉老行业媒体智库。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海欢乐友道数字科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "上海欢乐友道数字科技有限公司：上海社区门店资源平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "爱护悦龄科技（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "爱护悦龄科技（上海）有限公司：银发运动防护服饰供应链。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京光彩中道大健康产业科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "北京光彩中道大健康产业科技有限公司：全国康养旅居平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "椿熙堂（安享）",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "椿熙堂（安享）：400 + 社区活动中心、10 家机构。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "点时文化传媒（北京）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "点时文化传媒（北京）有限公司：银发行业展会 IP 流量平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市加力健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "深圳市加力健康科技有限公司：康复养老、高职实训集成渠道服务商。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "至美芳华（山东）康养产业发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "至美芳华（山东）康养产业发展有限公司：多床位社区养护院 + CCRC 项目。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中信养老",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "中信养老：上海杭州 9 家中高端养老机构。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "济南颐悦聚信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "济南颐悦聚信息科技有限公司：中老年视频号私域流量矩阵。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广州市万颐养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "广州市万颐养老服务有限公司：2300 + 养老床位运营机构。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "小橙集团郑州公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "小橙集团郑州公司：社区日间照料中心运营赋能。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "厚德世家",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "厚德世家：深圳 60 + 社区养老站点。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山东宜养康健康产业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "山东宜养康健康产业有限公司：养老院联营、托管一站式服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京新安居健康科技产业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "北京新安居健康科技产业有限公司：北京成都 6 家社区嵌入式养老。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "合肥市同舟家政公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "合肥市同舟家政公司：万人级居家护工服务团队。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "玩转余生（贵州）老龄服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "玩转余生（贵州）老龄服务有限公司：活力老人综合生活服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都锦欣康养产业集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "成都锦欣康养产业集团有限公司：全产业链康养集团。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "招商局仁和养老投资有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "招商局仁和养老投资有限公司：全产业链养老投资集团。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "宁夏佰穗银发养老服务有限责任公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "宁夏佰穗银发养老服务有限责任公司：养老综合资源整合平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "元氏县福缘养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "元氏县福缘养老服务有限公司：500 张在建养老机构。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中移（杭州）信息技术有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "中移（杭州）信息技术有限公司：移动银发生态平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "福寿康南京城市公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "福寿康南京城市公司：居家照护服务交付平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "云南傣乡巾帼康养服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "云南傣乡巾帼康养服务有限公司：县域养老服务综合体。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "银康养老",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "银康养老：市场化社区居家养老模式输出。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "江西省天同健康产业发展集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "江西省天同健康产业发展集团有限公司：连锁机构养老运营。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "南京涵田春之谷品牌运营管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "南京涵田春之谷品牌运营管理有限公司：文旅养老综合体。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "陕西科晟本草大健康产业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "陕西科晟本草大健康产业有限公司：医药健康超市、一刻钟便民健康小屋。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "圣元老君堂（北京）营养科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "圣元老君堂（北京）营养科技有限公司：高端中老年营养滋补品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "前海人寿深圳分公司",
+      "region": "国内",
+      "tag_l1": [
+        "金融保险"
+      ],
+      "tag_l2": [
+        "保险"
+      ],
+      "tags": [],
+      "description": "前海人寿深圳分公司：保险 + 康养社区 + 医院。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海励成营养科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "上海励成营养科技有限公司：特医 / 特膳中老年营养品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "挪亚生扬科技（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "挪亚生扬科技（上海）有限公司：DPA 鳕鱼肝油蓝帽产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "长春市大圣文化传播有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "长春市大圣文化传播有限公司：养生保健食品源头。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "天津富勤科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "天津富勤科技股份有限公司：石墨烯理疗护具、草本凝胶贴。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "扬子江药业集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "扬子江药业集团有限公司：药企健康食品全渠道。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "家游智伴",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "家游智伴：10 万集老年大学课程 + 智能陪伴机。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海超宇教育科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "上海超宇教育科技有限公司：老年智慧康养课程内容。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海乐康云互联网信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "远程医疗"
+      ],
+      "tags": [],
+      "description": "上海乐康云互联网信息科技有限公司：LE-CARE 智能药盒慢病系统。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "海南汝风九莲投资有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "远程医疗"
+      ],
+      "tags": [],
+      "description": "海南汝风九莲投资有限公司：AI 银发设备渠道招商平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海怡养餐饮",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老膳食"
+      ],
+      "tags": [],
+      "description": "上海怡养餐饮：三甲医院、养老院老年健康餐。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京怡安医疗科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "远程医疗"
+      ],
+      "tags": [],
+      "description": "北京怡安医疗科技有限公司：三甲专家视频问诊平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "南京玉鹤鸣医学营养科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "远程医疗"
+      ],
+      "tags": [],
+      "description": "南京玉鹤鸣医学营养科技股份有限公司：咽喉、护嗓贴 OEM 代工。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市路得康养科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "保健品"
+      ],
+      "tags": [],
+      "description": "深圳市路得康养科技有限公司：中老年抗衰护肝保健产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "厦门福慧康电子科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "厦门福慧康电子科技有限公司：医康养 AI 智能硬件解决方案。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州七有人工智能科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "杭州七有人工智能科技有限公司：院长 AI 助手、消防巡检 AI。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "湖南湘科常德鑫鼎",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "湖南湘科常德鑫鼎：110 联网养老智能预警系统。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "老年网科技（北京）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "老年网科技（北京）有限公司：学习强国 8000 万老年用户流量。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海清元网联智能科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海清元网联智能科技有限公司：养老软硬件全链条解决方案。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳作为科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "深圳作为科技有限公司：纯钛智能药水杯、护理机器人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海希卡立科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海希卡立科技有限公司：生命体征、跌倒监测硬件。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海叁联人科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海叁联人科技有限公司：AI 助行外骨骼。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "麒盛科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "麒盛科技股份有限公司：数字睡眠监测智能床。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海乐活元医学科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海乐活元医学科技有限公司：准医疗级 AI 健康手表。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海三思电子工程有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海三思电子工程有限公司：适老化 LED 智能照明。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "安徽中科家和数智医疗科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "安徽中科家和数智医疗科技有限公司：全套智慧养老监护软硬件。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江云澎科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "浙江云澎科技有限公司：AI 无创健康监测戒指。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "鹰瞳医疗 Airdoc",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "鹰瞳医疗 Airdoc：视网膜 AI 健康评估系统。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海小度技术有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海小度技术有限公司：智慧养老语音硬件。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "青岛海讯智康健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "青岛海讯智康健康科技有限公司：海尔全套智慧康养硬件。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "英特睿达（山东）电子科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "英特睿达（山东）电子科技有限公司：毫米波雷达无感监测设备。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海亲聆科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "上海亲聆科技有限公司：居家养老软硬件集成平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "索尼半导体",
+      "region": "海外",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "索尼半导体：隐私防护跌倒监测相机。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "睿墨智能科技（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "睿墨智能科技（上海）有限公司：跌倒监测传感设备。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广东启慧科技发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "广东启慧科技发展有限公司：适老化软硬件检测设备。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "精华隆科技",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "精华隆科技：养老智能传感报警器。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "吾老科技",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "吾老科技：老人智能平板。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京大众益康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "北京大众益康科技有限公司：非接触健康监测设备。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳华旗科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "深圳华旗科技有限公司：AI 康养智能手表。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "晋江足迹智能科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "晋江足迹智能科技有限公司：银发智能穿戴设备。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中科天镜（成都）机器人有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "中科天镜（成都）机器人有限公司：康复辅助机器人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "智偶集元",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "智偶集元：巡检陪护机器人。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "五指山仁商基业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "五指山仁商基业有限公司：海南雨林康养旅居基地。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "都江堰瑞韵银发酒店管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "都江堰瑞韵银发酒店管理有限公司：青城山 5A 文旅康养项目。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广东惠州愉景酒店松鹤延年康养中心",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "广东惠州愉景酒店松鹤延年康养中心：300 间客房康养综合体。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "湖南友阿农业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "湖南友阿农业有限公司：农文旅康养闲置资产盘活。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广东弘明医养度假发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "广东弘明医养度假发展有限公司：综合医养度假园区。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "亘宇投资",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "康养地产"
+      ],
+      "tags": [],
+      "description": "亘宇投资：昆明 25000㎡养老物业开发。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "阜南县仁和医养中心",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "阜南县仁和医养中心：80 亩成熟医养净地。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "常州裕丰科创医疗器械有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "常州裕丰科创医疗器械有限公司：智能护理床、医养全屋辅具。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "创艺色智能科技（江苏）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "创艺色智能科技（江苏）有限公司：电动功能床、智能床垫。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江澳森实业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "浙江澳森实业有限公司：AI 智能助起沙发、适老化家具。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "优乐步康复器材（昆山）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "优乐步康复器材（昆山）有限公司：智能出行辅具、助行器。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江格瑞特家具有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "浙江格瑞特家具有限公司：适老化全屋家具制造。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏州市升乐迪机械科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "苏州市升乐迪机械科技有限公司：康复辅具 OEM 代工。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中进康玛信息科技 (江苏) 有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "中进康玛信息科技 (江苏) 有限公司：手动 / 电动轮椅制造。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "河北伟誉医疗康养科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "河北伟誉医疗康养科技有限公司：养老防护辅具全套生产。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "瑞尔特卫浴",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "瑞尔特卫浴：智能适老马桶制造。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "创维集团小维健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "助听器"
+      ],
+      "tags": [],
+      "description": "创维集团小维健康科技有限公司：远程测听助听器、银发智能家电。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "河南友倍康医疗器械有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "河南友倍康医疗器械有限公司：制氧机、智能手环、老年拐杖全系列。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "扬子集团",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "扬子集团：水暖毯、足浴盆适老加热家电。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "考工柔性科技义乌市有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "考工柔性科技义乌市有限公司：银发智能家居出口服务商。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江迈德斯特医疗器械科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "浙江迈德斯特医疗器械科技有限公司：全品类康复辅具供应链。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "济南齐佳医疗器械有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "济南齐佳医疗器械有限公司：排痰、抗血栓、认知筛查设备。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏州医疗用品厂有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "苏州医疗用品厂有限公司：中医理疗器械。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京和熙元科技发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "北京和熙元科技发展有限公司：卧床全套护理耗材。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "博博科技（苏州）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "博博科技（苏州）有限公司：智能康养床垫。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "恒信（天津）医药有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "助听器"
+      ],
+      "tags": [],
+      "description": "恒信（天津）医药有限公司：免验配医疗器械助听器。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "东莞市英蓓医疗科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "东莞市英蓓医疗科技有限公司：血压计、雾化器二类器械。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "澳中医疗设备有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "康复器械"
+      ],
+      "tags": [],
+      "description": "澳中医疗设备有限公司：低频睡眠治疗仪。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "聆晟科技（广东）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "助听器"
+      ],
+      "tags": [],
+      "description": "聆晟科技（广东）有限公司：数字助听器。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "镧塔机器人",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "机器人"
+      ],
+      "tags": [],
+      "description": "镧塔机器人：居家服务、助行外骨骼机器人。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广东物语云智能科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "机器人"
+      ],
+      "tags": [],
+      "description": "广东物语云智能科技股份有限公司：AI 中医理疗全套机器人。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "伊利诺护理机器人有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "机器人"
+      ],
+      "tags": [],
+      "description": "伊利诺护理机器人有限公司：穿戴式二便护理机器人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "合肥赫格工业设计",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "机器人"
+      ],
+      "tags": [],
+      "description": "合肥赫格工业设计：养老机器人外观结构设计。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "创智轻量化外骨骼机器人（深圳市创智机器人有限公司）",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "机器人"
+      ],
+      "tags": [],
+      "description": "创智轻量化外骨骼机器人（深圳市创智机器人有限公司）：活力老人外骨骼设备。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "博歌（深圳）自动化有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "陪伴机器人"
+      ],
+      "tags": [],
+      "description": "博歌（深圳）自动化有限公司：商用服务陪护机器人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京中源翊博生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "陪伴机器人"
+      ],
+      "tags": [],
+      "description": "北京中源翊博生物科技有限公司：养老陪护机器人。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州遐龄交互智能服务机器人有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "陪伴机器人"
+      ],
+      "tags": [],
+      "description": "杭州遐龄交互智能服务机器人有限公司：康养服务陪护机器人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "粮丞名品科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "粮丞名品科技有限公司：月 GMV6000 万，152 万银发用户。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州恬熙（私域团购供应链）",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "杭州恬熙（私域团购供应链）：动态血糖仪、智能手环、中国风服饰、染发梳、电动轮椅、一体机。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "利讯集团",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "利讯集团：年销 10 亿 +，3000 + 线下鞋服门店。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "湖南华升纯麻时代科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "湖南华升纯麻时代科技有限公司：国企适老肌底衣、冲锋衣、护膝等 19 款功能服饰。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "海尔康养产业",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "海尔康养产业：社区居家智慧平台、全品类适老产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "爱妈妈康养文化服务中心",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "爱妈妈康养文化服务中心：“健康 + 文化 + 生活” 线下康养门店体系。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "瑞铧智能科技（东莞）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "瑞铧智能科技（东莞）有限公司：稳善防滑稳步老年鞋。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海不器文化传媒有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "上海不器文化传媒有限公司：一二线中老年私域 / 公域直播电商流量。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "愉悦家纺有限公司（VitalAge 莲谷）",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "愉悦家纺有限公司（VitalAge 莲谷）：中高端乐龄家纺、适老服饰、慢病调理产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江霸滃科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "浙江霸滃科技有限公司：回春鸟智能按摩鞋、助眠枕。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江香云控股集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "浙江香云控股集团有限公司：300 + 线下门店，百万女性用户。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "韩城市金雀居家养老服务中心",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "韩城市金雀居家养老服务中心：稳定 800 名独居 / 失能 / 空巢老人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江福如海医养服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "浙江福如海医养服务有限公司：私域商城、直播间，十万存量中老年用户。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市锦绣芳华科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "深圳市锦绣芳华科技有限公司：7 个视频号，12 万中老年粉丝。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "禾乐健护鞋服",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "禾乐健护鞋服：中老年鞋履、服饰、配件全品类。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江贺清装饰有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "浙江贺清装饰有限公司：银发生活馆、社区团长店。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海禾乐无忧科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "上海禾乐无忧科技有限公司：健护鞋、安全止滑鞋、中老年服饰。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "瀚锐科技（深圳）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "瀚锐科技（深圳）有限公司：20 年中老年贴身内衣贴牌生产。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "汇晨（苏州）健康养老产业发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "汇晨（苏州）健康养老产业发展有限公司：光大智慧养老线上商城。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "东阳市洁来雅新材料科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "东阳市洁来雅新材料科技有限公司：银发家居服、保暖内衣工厂。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京盛年华彩康养产业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "北京盛年华彩康养产业有限公司：养老产业综合平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海亿拉服装辅料有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "上海亿拉服装辅料有限公司：服装定制开发生产。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "天津路可服饰有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "天津路可服饰有限公司：35 年银发女装生产企业。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "晋江轻博士健步鞋业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "晋江轻博士健步鞋业有限公司：宽楦止滑中老年健步鞋，胖东来供应商。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "河北乐迹旅游管理",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "河北乐迹旅游管理：张家口中老年游客资源。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "卓尚服饰",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "卓尚服饰：杭派中老年女装。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海银发无忧科技发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "服装鞋帽"
+      ],
+      "tags": [],
+      "description": "上海银发无忧科技发展有限公司：中老年线上零售平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "承德云水行旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "承德云水行旅行社有限公司：坝上 / 北戴河康养地接，草原 / 非遗银发定制行程。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳十方融海科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "深圳十方融海科技有限公司：中老年朗诵 / 声乐 / 英语线上课程。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "慧龄游戏",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "慧龄游戏：老年桌游、剧本杀、非遗手工配套课程。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海尽孝驿站旅居管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "上海尽孝驿站旅居管理有限公司：10 万 + 中老年付费粉丝，高复购。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京筑航体育健身有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "北京筑航体育健身有限公司：国家级太极非遗 IP 课程、软硬件。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州春尚时代网络科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "杭州春尚时代网络科技有限公司：4 家老年教育直营门店、3000 + 学员。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "韵百年中老年文娱",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "韵百年中老年文娱：全国 200 + 线下中老年文娱门店。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "新十年爱美丽健康咨询有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "新十年爱美丽健康咨询有限公司：20 万付费中老年养生心理用户。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳乐庭老年大学",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "深圳乐庭老年大学：15 年老年文娱活动策划，2 万 + 优质会员。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都为学乐养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "成都为学乐养老服务有限公司：中老年文娱活动标准化 SOP。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京国大博远教育科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "北京国大博远教育科技有限公司：AI 银发产业资源平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "与医同行健康科技（湖北）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "与医同行健康科技（湖北）有限公司：武汉中老年艺术团、数千支文艺团队。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "喜悦盛年",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "喜悦盛年：39 城 151 家老年教育校区。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "EF 海外游学",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "EF 海外游学：50 + 熟龄海外游学产品。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "自由量级（上海）智能科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "自由量级（上海）智能科技有限公司：AI 音乐康养解决方案。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市吉吉鑫实业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "深圳市吉吉鑫实业有限公司：线下中老年门店综合体。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "宁夏音色岁月文化传媒有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "宁夏音色岁月文化传媒有限公司：线下 5000 + 中老年声乐学员。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "四川环球假期国际旅行社",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "四川环球假期国际旅行社：年服务 2 万 + 中老年游客。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中筝文化",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "中筝文化：40 万 + 中老年古筝古琴学员。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市海外国际旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "深圳市海外国际旅行社有限公司：高端中老年南北极、出境定制游。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "和爱至美（北京）文化传媒有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "和爱至美（北京）文化传媒有限公司：中老年文娱 IP 孵化。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "尚德及象教育",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "尚德及象教育：百万级中老年教育用户。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山西小鬼闯天涯栏目组",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "山西小鬼闯天涯栏目组：省级老年春晚、健康直播间 IP。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "寅锦旅行信息咨询（西宁）",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "寅锦旅行信息咨询（西宁）：适老化房车游学、医护配套车队。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "景德镇陶溪川国际旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "景德镇陶溪川国际旅行社有限公司：陶瓷主题银发研学产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "贝莱昆明健康产业控股有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "贝莱昆明健康产业控股有限公司：云南康养旅居、康复度假基地。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "合肥柏慕年美育学院",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "合肥柏慕年美育学院：5 万 + 中老年艺术教育粉丝。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "洛阳腾韵阁信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "洛阳腾韵阁信息科技有限公司：国画直播私域团队。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中科惠泽养老产业投资有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "中科惠泽养老产业投资有限公司：大健康养老综合平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "一诺音乐器（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "一诺音乐器（上海）有限公司：老年电钢配套全套课程。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏州启教文化科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "苏州启教文化科技有限公司：银发旅居项目运营。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广西博创智能信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "广西博创智能信息科技有限公司：康养综合服务平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "潮龄俱乐部",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "潮龄俱乐部：中老年文旅服务平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京博学明辨科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "相亲"
+      ],
+      "tags": [],
+      "description": "北京博学明辨科技有限公司：中老年社交婚恋平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "河南人人教育信息咨询有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "河南人人教育信息咨询有限公司：康养从业证书培训。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江金颐文化创意有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "浙江金颐文化创意有限公司：高端退休私域俱乐部。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "乐事艺术学校",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "乐事艺术学校：民办中老年艺术院校。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "英杰之旅",
+      "region": "海外",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "英杰之旅：英国熟龄游学定制服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "徐报创业投资（江苏）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "徐报创业投资（江苏）有限公司：本地中老年媒体平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京中视志合文化传媒有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "兴趣社群"
+      ],
+      "tags": [],
+      "description": "北京中视志合文化传媒有限公司：夕阳红老年电视栏目。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "石家庄憬颐网络技术服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "石家庄憬颐网络技术服务有限公司：中老年线上教育平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海刚刚开始文化传播有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "上海刚刚开始文化传播有限公司：中老年文旅、教育平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山西新华国旅有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "山西新华国旅有限公司：中老年旅居线路产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京退休青年俱乐部",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "北京退休青年俱乐部：中老年游学私域。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "金护点教育",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "教育"
+      ],
+      "tags": [],
+      "description": "金护点教育：中老年线上教育机构。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京润生堂化妆品研发有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "北京润生堂化妆品研发有限公司：中老年染发、洗护产品，年 GMV1 亿 +。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京幸福益生高新技术有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "北京幸福益生高新技术有限公司：中老年功效牙膏、护理器械。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "长青（中国）日用品有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "长青（中国）日用品有限公司：骆驼乳、牛羊乳、中老年营养保健品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海夕昱商贸有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "上海夕昱商贸有限公司：中老年功效个护产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "立白",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "立白：中老年洗护个护产品线。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "火人（北京）科技发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "火人（北京）科技发展有限公司：双极水健康护理用品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "恒安集团",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "恒安集团：成人护理、适老化个护产品。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京泽它贸易有限公司（染博士）",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "北京泽它贸易有限公司（染博士）：中老年染发头部品牌。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "武汉九生堂生物科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "武汉九生堂生物科技股份有限公司：酶法多肽抗衰个护产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中国纸业投资有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "纸尿裤"
+      ],
+      "tags": [],
+      "description": "中国纸业投资有限公司：成人纸尿裤、失禁护理用品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州欧诗漫珠宝",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "美妆护肤"
+      ],
+      "tags": [],
+      "description": "杭州欧诗漫珠宝：珍珠护肤、珠宝银发产品线。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "洁柔・老桐学",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "洁柔・老桐学：中老年生活个护全品类。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州静博士",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "杭州静博士：墨墨告白防脱养发系列。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "河南领澜供应链管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "河南领澜供应链管理有限公司：中老年个护全品类供应链。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江东盛慧谷科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "浙江东盛慧谷科技有限公司：水杨酸灰指甲抑菌凝胶。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浦康养老服务促进中心",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "浦康养老服务促进中心：社区养老服务平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "欧比护理用品（佛山）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "纸尿裤"
+      ],
+      "tags": [],
+      "description": "欧比护理用品（佛山）有限公司：成人失禁一次性护理用品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广州黑嘟嘟化妆品有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "广州黑嘟嘟化妆品有限公司：中老年染发剂品牌。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "三边科技（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "三边科技（上海）有限公司：中老年个护、养生产品。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海佰孝养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "上海佰孝养老服务有限公司：社区养老综合服务商。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "长者之家衡水健康管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "长者之家衡水健康管理有限公司：养老企业增长赋能、产业共创平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "吉林省邻里之家康养服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "吉林省邻里之家康养服务有限公司：社区 / 机构养老全流程规划、康复护理。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中进宏康医疗科技（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "中进宏康医疗科技（上海）有限公司：纳米助浴机、氧疗舱、轮椅、代步车。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广东卡莱雅科技实业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "广东卡莱雅科技实业有限公司：适老化地面防滑改造头部品牌。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "首慈康健养老集团",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "首慈康健养老集团：综合社区养老运营服务商。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "东原仁知服务集团",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "东原仁知服务集团：居家上门养老服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "医联泰和（北京）健康管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "医联泰和（北京）健康管理有限公司：线上轻问诊、就医辅助咨询服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏州昆山中老年服务公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "苏州昆山中老年服务公司：本地中老年综合服务门店。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "江苏尚满天养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "江苏尚满天养老服务有限公司：社区居家一站式养老服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都瑞式助浴陪诊养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "成都瑞式助浴陪诊养老服务有限公司：上门助浴、陪诊服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海茶寿健康管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "上海茶寿健康管理有限公司：社区康养服务平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "江苏贤德居养老产业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "养老机构"
+      ],
+      "tags": [],
+      "description": "江苏贤德居养老产业有限公司：线下养老机构。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "慧择保险经纪",
+      "region": "国内",
+      "tag_l1": [
+        "金融保险"
+      ],
+      "tag_l2": [
+        "保险"
+      ],
+      "tags": [],
+      "description": "慧择保险经纪：500 万 + 中老年保险用户。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "南京天一智慧养老",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "养老软件"
+      ],
+      "tags": [],
+      "description": "南京天一智慧养老：长护险配套医院、陪诊、老年大学资源。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "海南华研胶原科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "海南华研胶原科技股份有限公司：小分子活性肽原料、OEM 代工。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市梦马创新智能科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "养老软件"
+      ],
+      "tags": [],
+      "description": "深圳市梦马创新智能科技有限公司：AI 多因子肩部康复理疗仪。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "南通市数盾保联科技",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "养老软件"
+      ],
+      "tags": [],
+      "description": "南通市数盾保联科技：长护险、健康险系统服务。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市琛源供应链",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "深圳市琛源供应链：控糖降糖食品、检测设备。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海万物街科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "上海万物街科技有限公司：银发线上零售平台。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江九龙厨具集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "浙江九龙厨具集团有限公司：适老智慧厨房设备、康养产业园区。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏州香溢富能品牌管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "苏州香溢富能品牌管理有限公司：中茶健康银发茶品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "荣耀",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "荣耀：适老智能家居整套产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州飞羊生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "杭州飞羊生物科技有限公司：智能眼部护理仪。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "江苏堂皇集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "江苏堂皇集团有限公司：银发功能健康纺织品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "松下（家电）中国有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "智能家居"
+      ],
+      "tags": [],
+      "description": "松下（家电）中国有限公司：松下适老家电全系列。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "湖北颐晟康养产业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "湖北颐晟康养产业有限公司：链接全国优质康养基地，双向奔赴，合作共赢。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "长沙于创健康咨询有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "长沙于创健康咨询有限公司：寻找流量团队, 合作。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "中青旅新域（北京）旅游有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "中青旅新域（北京）旅游有限公司：需要银发族群资源。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "爱景国际酒店",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "爱景国际酒店：寻找需要在海南共建康养基地的企业和老年研学布点。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海众信国际旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "上海众信国际旅行社有限公司：高品质出境旅游资源，南北极包船资源。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京传之典文化传播有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "北京传之典文化传播有限公司：传记回忆录创作出版专业服务商,。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "贵州吉途旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "贵州吉途旅行社有限公司：贵州中老年康养旅居，私家团定制游等，寻找渠道资源。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海万里国际旅行社",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "上海万里国际旅行社：超过十年的邮轮旅行经验。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "泉州丰泽予点网络技术有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "泉州丰泽予点网络技术有限公司：福建省36个旅居基地寻求全国中老年旅游旅居公司合作。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "四川空港国际旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "四川空港国际旅行社有限公司：空港诚品-中国西部康养旅游专业服务商，寻找渠道合作。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京山河途美旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "北京山河途美旅行社有限公司：全北京近郊景区暖场。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "监利裕融电子商务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "监利裕融电子商务有限公司：可提供客资，合作共赢。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "享玩旅居（云南）传媒有限责任公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "享玩旅居（云南）传媒有限责任公司：云南首批“旅居推广大使”政府官方授牌企业，寻求资源对接。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都千旅千寻旅行社有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "成都千旅千寻旅行社有限公司：银发定制旅行，1000+私域会员，适合 50+人群的产品。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "新程逸游（北京）旅游有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "新程逸游（北京）旅游有限公司：专注高端康养与精品旅行企业。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "黑龙江路途国际旅游有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "文娱社交"
+      ],
+      "tag_l2": [
+        "旅游"
+      ],
+      "tags": [],
+      "description": "黑龙江路途国际旅游有限公司：提供私人定制旅行，银发旅行，会议预定，研学旅行等。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "内蒙古沙漠肉苁蓉有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "内蒙古沙漠肉苁蓉有限公司：欢迎线下经销商，私域直播，渠道方。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "均瑶润盈生物科技（上海）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "均瑶润盈生物科技（上海）有限公司：国内标杆益生菌供应链。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "时莱泰柯（连云港）健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "时莱泰柯（连云港）健康科技有限公司：GNC（健安喜）南极磷虾油渠道招商，需城市合伙人和渠道。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "康兴（吉林）营养食品有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "康兴（吉林）营养食品有限公司：原研独家人工合成特殊脑蛋白补充剂 诚邀全国渠道合伙人。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "济南亚西亚药业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "济南亚西亚药业有限公司：对接私域分销商，做保健品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市诺崔特贸易有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "深圳市诺崔特贸易有限公司：供给澳洲原装进口奶粉，学生奶粉，中老年奶粉、乳铁蛋白、孕妇奶。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山东亿企加速管理咨询有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "山东亿企加速管理咨询有限公司：可承接公域流量的私域转化团队。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "合肥阿莫尔生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "合肥阿莫尔生物科技有限公司：供应血蛋白低聚肽高铁固体饮料，对接保险康养、养老机构供货合作。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏州斛美美铁皮石斛有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "苏州斛美美铁皮石斛有限公司：铁皮石斛大健康产业，寻找渠道合作。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京澜岳汇贸易有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "北京澜岳汇贸易有限公司：区别市场化的俱乐部项目。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市盛年优品商贸服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "深圳市盛年优品商贸服务有限公司：银发社区一站式服务和商贸。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "苏陀科技（北京）有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "苏陀科技（北京）有限公司：独创嚼着吃的蛋白粉-高转化软食蛋白寻求私域合作。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海优欣生物科技发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "上海优欣生物科技发展有限公司：CellRescue细胞营养素限时。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山东木齐健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "医疗器械"
+      ],
+      "tags": [],
+      "description": "山东木齐健康科技有限公司：非电解富氢产品，国家发明专利HI氢素，富氢水机/杯，氢水瓷，。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "郑州盈悦信息技术有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "养老软件"
+      ],
+      "tags": [],
+      "description": "郑州盈悦信息技术有限公司：为大健康连锁门店，提供私域直播零售系统。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳市优爱康实业有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "深圳市优爱康实业有限公司：专注于研发及生产医疗级可穿戴设备。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "化州鼎锋生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "化州鼎锋生物科技有限公司：中国化橘红博览馆。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "广州东晨网络科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "广州东晨网络科技有限公司：我司有精准银发流量。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "优博瑞科技",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "优博瑞科技：康养大健康仪器，寻求渠道及经销合作；。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "云南沪滇数字科技集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "智能硬件"
+      ],
+      "tags": [],
+      "description": "云南沪滇数字科技集团有限公司：征集“ai智能监护床”/“智能监测床垫”/”陪护机器人”。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "永康家和养老服务有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "永康家和养老服务有限公司：寻找适老化产品，AI智慧养老产品，银发消费等合作伙伴。。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海师夷商贸有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "上海师夷商贸有限公司：上海养老产品商贸公司。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "科图设计",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "科图设计：提供医疗、养老、康养旅居等大健康产业一体化设计服务，对接需求企业。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳鸿益生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "深圳鸿益生物科技有限公司：源头二类医械厂供应预适应训练仪，诚招全国康养渠道代理商。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "深圳秉航汇通科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "深圳秉航汇通科技有限公司：体感音波疗愈解压助眠，疲劳修复，情绪舒缓，肌肉放松寻渠道合作。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山东芯超生物",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "山东芯超生物：FMT肠道菌群胶囊。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "即予健康管理公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "视觉辅助"
+      ],
+      "tags": [],
+      "description": "即予健康管理公司：对银发群体的智能视觉健康管理，对接中老年群体，寻求渠道资源，前期推广。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "四川华西健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "四川华西健康科技有限公司：四川大学华西医院全资公司，对接医康养企业，提供业务规划、运营管理、资源对接服务。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江易乐医疗科技公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "浙江易乐医疗科技公司：电动轮椅等智能养老产品，寻求养老场景相关渠道资源。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "南京宏鑫烨生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "南京宏鑫烨生物科技有限公司：糖足压疮独家产品，寻找糖足压疮患者和机构合作。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京幸福益生再生医学科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "北京幸福益生再生医学科技有限公司：医疗产品和医疗器械的科技创新企业，寻B端渠道。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "济南爱之声助听器有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "济南爱之声助听器有限公司：寻求养老机构、老年大学、医药机构、中老年杂志报刊和新媒体合作。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "未来电视",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [
+        "行业媒体"
+      ],
+      "tags": [],
+      "description": "未来电视：胡亮网电视企业，能覆盖大量的老年用户。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海锣钹信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "行业服务"
+      ],
+      "tag_l2": [],
+      "tags": [],
+      "description": "上海锣钹信息科技有限公司：银发线上艺术教育、线下社团。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "山东知年养老产业发展有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "山东知年养老产业发展有限公司：中老年文娱旅居康养运营。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京立保科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "北京立保科技有限公司：花甲商城适老改造供应链平台。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "浙江健仕科技股份有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "浙江健仕科技股份有限公司：西屋适老卫浴、智能小家电。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "爱床智能科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "护理床"
+      ],
+      "tags": [],
+      "description": "爱床智能科技有限公司：高端智能睡眠检测床。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海其然生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "个人护理"
+      ],
+      "tags": [],
+      "description": "上海其然生物科技有限公司：中老年洗护、头皮护理品牌。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海益麒生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "美妆护肤"
+      ],
+      "tags": [],
+      "description": "上海益麒生物科技有限公司：熟龄肌个护、微生态护肤产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海青蒿生物科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "消费品"
+      ],
+      "tag_l2": [
+        "美妆护肤"
+      ],
+      "tags": [],
+      "description": "上海青蒿生物科技有限公司：中老年护肤养生产品。公司主要通过渠道招商、代理分销与产业链上下游合作拓展市场。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "上海协赢信息科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "居家护理"
+      ],
+      "tags": [],
+      "description": "上海协赢信息科技有限公司：上海老年教务平台，80 万老年用户。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都千果科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "食品营养"
+      ],
+      "tag_l2": [
+        "营养食品"
+      ],
+      "tags": [],
+      "description": "成都千果科技有限公司：大健康产业客户资源、营养保健品店、社区团购、想做社群营销、私域直播、课程种草等需求的客户。。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "成都汇鸿科技集团有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "养老服务"
+      ],
+      "tag_l2": [
+        "适老化"
+      ],
+      "tags": [],
+      "description": "成都汇鸿科技集团有限公司：教育、医疗、养老为核心的共同空间家具研发、制造、销售与空间研究设计的一体化服务商，整合产品供应链及完善招投标资质。以自主研发与生产制造为核心，面向B端机构与终端银发消费群体提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "北京康硬尔健康管理有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "北京康硬尔健康管理有限公司：中医外治技术输出。通过平台化运营与软硬件服务，连接银发人群、服务机构与产业资源。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    },
+    {
+      "name": "杭州悦伴健康科技有限公司",
+      "region": "国内",
+      "tag_l1": [
+        "康复辅具"
+      ],
+      "tag_l2": [
+        "健康管理"
+      ],
+      "tags": [],
+      "description": "杭州悦伴健康科技有限公司：诚邀保险、社区、养老、大健康等合作。面向银发人群及相关养老服务机构提供产品与服务。",
+      "recommend": "",
+      "source": "AgeClub供需对接",
+      "website_url": "",
+      "crunchbase_url": "",
+      "funding_latest": null,
+      "funding_total": null,
+      "investors": null,
+      "founded": "",
+      "stage": "",
+      "payor_model": ""
+    }
+  ]
+}

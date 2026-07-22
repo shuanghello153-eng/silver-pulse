@@ -171,7 +171,7 @@ def classify_event_type(title, summary, tags):
     if any(kw in text for kw in ["ipo", "上市", "敲钟", "挂牌", "公开募股",
                                   "goes public", "listed on", "listing",
                                   "首次公开发行", "新股上市", "港交所", "纳斯达克"]):
-        return "IPO上市"
+        return "IPO"
 
     if any(kw in text for kw in ["融资", "funding", "raises", "raised", "investment", "invest",
                                   "series a", "series b", "series c", "seed round", "天使轮",
@@ -206,7 +206,7 @@ def classify_event_type(title, summary, tags):
                                   "任命", "离职", "人事", "joined", "leaves", "resigns",
                                   "appointed", "executive", "leadership", "换帅",
                                   "创始人", "联合创始人", "stepping down", "takes over"]):
-        return "人事变动"
+        return "其他事件"
 
     return "其他事件"
 
@@ -405,15 +405,25 @@ def build_card_html(art):
     # Build event type badge (highlighted)
     event_badge = '<span class="badge-event">%s</span>' % event_type
 
-    # Build domain badges (secondary)
+    # Build domain badges (secondary) — 最多2个，保持一行不溢出
     domain_badges = "".join(
-        '<span class="badge-domain">%s</span>' % d for d in domains[:3]
+        '<span class="badge-domain">%s</span>' % d for d in domains[:2]
     )
 
-    # Build tag badges (from TAG_POOL)
+    # Build tag badges (from TAG_POOL) — 最多3个，标题上方单行
     tag_badges = "".join(
-        '<span class="badge-tag">%s</span>' % t for t in tags[:5]
+        '<span class="badge-tag">%s</span>' % t for t in tags[:3]
     )
+
+    # 关联企业 chip：有 entity_serial 时跳企业库列表（新标签页打开）
+    serial = art.get("entity_serial") or ""
+    if serial:
+        serial_enc = serial.replace("#", "%23")
+        entity_chip = ('<a class="badge-entity" href="enterprise.html?serial=%s" '
+                       'target="_blank" rel="noopener" title="在企业库查看 %s">'
+                       '🔗 关联企业 %s</a>') % (serial_enc, _esc(serial), _esc(serial))
+    else:
+        entity_chip = ""
 
     # Build meta line: source + region + viral
     meta_parts = ['<span class="feed-source">%s</span>' % source]
@@ -423,14 +433,16 @@ def build_card_html(art):
         meta_parts.append(viral_badge)
     meta_html = '<div class="feed-meta">%s</div>' % " ".join(meta_parts)
 
-    # Build classification line: event type + domains
+    # 标题上方单行：事件类型 + 领域 + 关联企业（横切标签已按小爽要求移除，卡片只留领域）
     class_parts = [event_badge]
     if domain_badges:
         class_parts.append(domain_badges)
+    if entity_chip:
+        class_parts.append(entity_chip)
     class_html = '<div class="feed-class">%s</div>' % " ".join(class_parts)
 
-    # Tags at the bottom (after recommendation)
-    tag_html = '<div class="feed-tags">%s</div>' % tag_badges if tag_badges else ""
+    # 底部不再单独展示标签行（已上移标题上方单行）
+    tag_html = ""
 
     # Build summary (only if not empty after dedup)
     summary_html = '<p class="feed-summary">%s</p>' % summary if summary else ""
@@ -443,70 +455,51 @@ def build_card_html(art):
     url_hash = _url_hash(url)
     entity_name = art.get("entity_name", "") or ""
     src_search = art.get("source", "") or ""
-    # 评分面板（与精选卡片完全一致：评分 + 6 维 + 收藏）
+    # 评分面板：总评分单数字（取整）+ 悬停四维拆解 + 收藏（与企业库同款）
     fs = art.get("final_score") or 0
-    ds = art.get("dim_scores") or {}
-    dims = [
-        ("产业", ds.get("industry")),
-        ("信号", ds.get("signal")),
-        ("文笔", ds.get("writing")),
-        ("中文契合", ds.get("cn_fit")),
-        ("时效", ds.get("urgency")),
-        ("反常", ds.get("novelty")),
-    ]
-    # 6 维评分芯片
-    dim_html = "".join(
-        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
-    )
+    fs_int = int(round(float(fs)))
+    score_tip = _build_score_tooltip(art)
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score %s" title="评分">%s</span>'
-        '<span class="dim-line">%s</span>'
+        '<span class="badge-score %s" title="%s">%s</span>'
         '%s'
         '</div>'
-    ) % (_score_class(fs), _fmt_score(fs), dim_html, fav_html)
+    ) % (_score_class(fs), _esc(score_tip), fs_int, fav_html)
     # 列表内操作按钮（不再显示 / 备注 / 已读）
     actions_html = sp_card_actions("news", url_hash, with_read=True)
     actions_line = '<div class="feed-tags" style="margin-top:6px;">%s</div>' % actions_html
     # 卡片底部备注占位（点击编辑，仅存本机）
     note_html = sp_note_placeholder("news", url_hash)
-    extra = []
-    cl = art.get("cluster_id", "") or ""
-    if entity_name:
-        extra.append('<span class="badge-tag">主体 %s</span>' % _esc(entity_name))
-    if cl:
-        extra.append('<span class="badge-domain" title="该资讯与同主题其他资讯被系统归为一组，便于横向对比">同主题</span>')
-    extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
     novelty = float(art.get("novelty") or 0)
     signal = float(art.get("signal") or (art.get("dim_scores") or {}).get("signal") or 0)
     funded = 1 if (art.get("event_type") == "融资" or "融资" in (art.get("tags") or [])) else 0
+    fund_val = _extract_fund(art)
     tier = SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or "")
     card = (
         '<div class="feed-item" id="news-%s" data-card-id="%s" data-view="%s" data-score="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
         'data-tags="%s" data-region="%s" '
         'data-entity="%s" data-source="%s" data-tier="%s" '
-        'data-novelty="%s" data-signal="%s" data-funded="%s">\n'
+        'data-novelty="%s" data-signal="%s" data-funded="%s" data-fund="%s">\n'
         '  <div class="feed-time">%s</div>\n'
         '  <div class="feed-body">\n'
         '    %s\n'
         '    %s\n'
         '    <h3 class="feed-title"><a href="%s" target="_blank" rel="noopener">%s</a></h3>\n'
-        '%s'
-        '%s\n'
-        '%s\n'
-        '%s\n'
-        '%s\n'
-        '%s\n'
-        '%s\n'
-        '  </div>\n'
-        '</div>'
+'%s'
+'%s\n'
+'%s\n'
+'%s\n'
+'%s\n'
+'%s\n'
+'  </div>\n'
+'</div>'
     ) % (
         url_hash, url_hash, view, _fmt_score(fs), date or "", event_type, ",".join(domains),
         ",".join(tags), region,
         entity_name, src_search, SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or ""),
-        novelty, signal, funded,
+        novelty, signal, funded, fund_val,
         date or "",
         meta_html,
         class_html,
@@ -515,7 +508,6 @@ def build_card_html(art):
         rec_html,
         score_html,
         actions_line,
-        extra_html,
         tag_html,
         note_html,
     )
@@ -557,6 +549,51 @@ def _score_class(score):
     return "s-low"
 
 
+def _build_score_tooltip(art):
+    """悬停浮层文本：总评分 + 四维拆解（与企业库同款，原生 title 浮层）。
+
+    映射自 dim_scores（0–10 制，无需 ×10）：
+      信号强度 → signal；信息量 → writing（可写性/时效并入信息量）；
+      差异化可复制 → novelty（反常/差异化）；国内可借鉴 → cn_fit（中文契合）。
+    """
+    ds = art.get("dim_scores") or {}
+    fs = art.get("final_score") or 0
+    try:
+        fs_int = int(round(float(fs)))
+    except Exception:
+        fs_int = "-"
+    dims = [
+        ("信号强度", ds.get("signal")),
+        ("信息量", ds.get("writing")),
+        ("差异化可复制", ds.get("novelty")),
+        ("国内可借鉴", ds.get("cn_fit")),
+    ]
+    parts = ["评分%s" % fs_int]
+    for label, val in dims:
+        if val is not None:
+            parts.append("%s%s" % (label, _fmt_score(val)))
+    return " ｜ ".join(parts)
+
+
+def _extract_fund(art):
+    """提取融资金额（数值，用于「融资金额↓」排序）。
+
+    兼容 amount / funding_amount / funding_latest.amount(value)。
+    缺失或非正数返回 0（排序时排到末尾）。
+    """
+    for key in ("amount", "funding_amount"):
+        v = art.get(key)
+        if isinstance(v, (int, float)) and v > 0:
+            return float(v)
+    fl = art.get("funding_latest")
+    if isinstance(fl, dict):
+        for key in ("amount", "value", "usd", "raised"):
+            v = fl.get(key)
+            if isinstance(v, (int, float)) and v > 0:
+                return float(v)
+    return 0
+
+
 def build_selected_card_html(art):
     """Build a 精选 card that mirrors the full news-list card style, but also
     shows the recommendation reason, the 5 dim scores + final_score, and any
@@ -585,8 +622,18 @@ def build_selected_card_html(art):
     viral_badge = '<span class="viral-tag">🔥</span>' if viral else ''
 
     event_badge = '<span class="badge-event">%s</span>' % event_type
-    domain_badges = "".join('<span class="badge-domain">%s</span>' % d for d in domains[:3])
-    tag_badges = "".join('<span class="badge-tag">%s</span>' % t for t in tags[:5])
+    domain_badges = "".join('<span class="badge-domain">%s</span>' % d for d in domains[:2])
+    tag_badges = "".join('<span class="badge-tag">%s</span>' % t for t in tags[:3])
+
+    # 关联企业 chip：有 entity_serial 时跳企业库列表（新标签页打开）
+    serial = art.get("entity_serial") or ""
+    if serial:
+        serial_enc = serial.replace("#", "%23")
+        entity_chip = ('<a class="badge-entity" href="enterprise.html?serial=%s" '
+                       'target="_blank" rel="noopener" title="在企业库查看 %s">'
+                       '🔗 关联企业 %s</a>') % (serial_enc, _esc(serial), _esc(serial))
+    else:
+        entity_chip = ""
 
     meta_parts = ['<span class="feed-source">%s</span>' % source]
     if region_tag:
@@ -595,11 +642,14 @@ def build_selected_card_html(art):
         meta_parts.append(viral_badge)
     meta_html = '<div class="feed-meta">%s</div>' % " ".join(meta_parts)
 
+    # 标题上方单行：事件类型 + 领域 + 关联企业（横切标签已按小爽要求移除，卡片只留领域）
     class_parts = [event_badge]
     if domain_badges:
         class_parts.append(domain_badges)
+    if entity_chip:
+        class_parts.append(entity_chip)
     class_html = '<div class="feed-class">%s</div>' % " ".join(class_parts)
-    tag_html = '<div class="feed-tags">%s</div>' % tag_badges if tag_badges else ""
+    tag_html = ""
 
     summary_html = '<p class="feed-summary">%s</p>' % summary if summary else ""
 
@@ -607,58 +657,39 @@ def build_selected_card_html(art):
     rec = art.get("recommendation", "") or art.get("recommendation_reason", "")
     rec_html = '<p class="feed-rec">★ %s</p>' % rec if rec else ""
 
-    # 评分面板：评分 + 5 维评分
+    # 评分面板：总评分单数字（取整）+ 悬停四维拆解 + 收藏（与企业库同款）
     fs = art.get("final_score") or 0
-    ds = art.get("dim_scores") or {}
-    dims = [
-        ("产业", ds.get("industry")),
-        ("信号", ds.get("signal")),
-        ("文笔", ds.get("writing")),
-        ("中文契合", ds.get("cn_fit")),
-        ("时效", ds.get("urgency")),
-        ("反常", ds.get("novelty")),
-    ]
-    # 6 维人话解释（悬停可见）
-    # 6 维评分芯片
-    dim_html = "".join(
-        '<span class="dim-chip">%s <b>%s</b></span>' % (k, _fmt_score(v)) for k, v in dims
-    )
+    fs_int = int(round(float(fs)))
+    score_tip = _build_score_tooltip(art)
     url_hash = _url_hash(url)
     fav_html = '<button class="fav-btn" data-type="news" data-id="%s"><span class="ico">☆</span><span class="lbl">收藏</span></button>' % url_hash
     score_html = (
         '<div class="sel-scores">'
-        '<span class="badge-score %s" title="评分">%s</span>'
-        '<span class="dim-line">%s</span>'
+        '<span class="badge-score %s" title="%s">%s</span>'
         '%s'
         '</div>'
-    ) % (_score_class(fs), _fmt_score(fs), dim_html, fav_html)
+    ) % (_score_class(fs), _esc(score_tip), fs_int, fav_html)
     # 列表内操作按钮（不再显示 / 备注 / 已读）
     actions_html = sp_card_actions("news", url_hash, with_read=True)
     actions_line = '<div class="feed-tags" style="margin-top:6px;">%s</div>' % actions_html
     # 卡片底部备注占位（点击编辑，仅存本机）
     note_html = sp_note_placeholder("news", url_hash)
 
-    # 主体 / 聚类 标签
-    extra = []
-    ent = art.get("entity_name", "") or ""
-    cl = art.get("cluster_id", "") or ""
-    if ent:
-        extra.append('<span class="badge-tag">主体 %s</span>' % _esc(ent))
-    if cl:
-        extra.append('<span class="badge-domain" title="该资讯与同主题其他资讯被系统归为一组，便于横向对比">同主题</span>')
-    extra_html = '<div class="feed-tags">%s</div>' % " ".join(extra) if extra else ""
+    # 卡片底部备注占位（点击编辑，仅存本机）
+    note_html = sp_note_placeholder("news", url_hash)
 
     entity_name = art.get("entity_name", "") or ""
     src_search = art.get("source", "") or ""
     novelty = float(art.get("novelty") or 0)
     signal = float(art.get("signal") or (art.get("dim_scores") or {}).get("signal") or 0)
     funded = 1 if (art.get("event_type") == "融资" or "融资" in (art.get("tags") or [])) else 0
+    fund_val = _extract_fund(art)
     card = (
         '<div class="feed-item" id="news-%s" data-card-id="%s" data-view="selected" data-score="%s" '
         'data-date="%s" data-event="%s" data-domains="%s" '
         'data-tags="%s" data-region="%s" '
         'data-entity="%s" data-source="%s" data-tier="%s" '
-        'data-novelty="%s" data-signal="%s" data-funded="%s">\n'
+        'data-novelty="%s" data-signal="%s" data-funded="%s" data-fund="%s">\n'
         '  <div class="feed-time">%s</div>\n'
         '  <div class="feed-body">\n'
         '    %s\n'
@@ -676,7 +707,7 @@ def build_selected_card_html(art):
         url_hash, url_hash, _fmt_score(fs), date or "", event_type, ",".join(domains),
         ",".join(tags), region,
         entity_name, src_search, SOURCE_NAME_TO_TIER.get(src_search, art.get("tier") or ""),
-        novelty, signal, funded,
+        novelty, signal, funded, fund_val,
         date or "",
         meta_html,
         class_html,
@@ -685,7 +716,6 @@ def build_selected_card_html(art):
         rec_html,
         score_html,
         actions_line,
-        extra_html,
         note_html,
     )
     return card
@@ -752,7 +782,6 @@ def build_timeline_html(log):
 # === CSS Stylesheet ===
 
 JS_SCRIPT = """
-let activeView='curated';
 let activeRegion='all';
 let activeEvent='all';
 let activeDomain='all';
@@ -767,7 +796,6 @@ let feedRendered=NEWS_PAGE;
 let spVisible=[];
 const feedItems=document.querySelectorAll('.feed-item');
 const feedContainer=document.getElementById('feed-container');
-const selectedContainer=document.getElementById('selected-container');
 
 function sortContainer(c){
   if(!c)return;
@@ -776,9 +804,9 @@ function sortContainer(c){
     if(sortMode==='date'){
       return (b.dataset.date||'')<(a.dataset.date||'')?-1:1;
     }
-    if(sortMode==='signal'){
-      const sa=parseFloat(a.dataset.signal)||0, sb=parseFloat(b.dataset.signal)||0;
-      if(sb!==sa) return sb-sa;
+    if(sortMode==='fund'){
+      const fa=parseFloat(a.dataset.fund)||0, fb=parseFloat(b.dataset.fund)||0;
+      if(fb!==fa) return fb-fa;
       return (parseFloat(b.dataset.score)||0)-(parseFloat(a.dataset.score)||0);
     }
     const va=parseFloat(a.dataset.score)||0, vb=parseFloat(b.dataset.score)||0;
@@ -793,7 +821,6 @@ function updateDisplay(){
   feedRendered=NEWS_PAGE;
   spVisible=[];
   feedItems.forEach(item=>{
-    const v=item.dataset.view;
     const evt=item.dataset.event||'';
     const doms=item.dataset.domains||'';
     const tgs=item.dataset.tags||'';
@@ -804,8 +831,7 @@ function updateDisplay(){
     const summary=summaryEl?summaryEl.textContent.toLowerCase():'';
     const entity=(item.dataset.entity||'').toLowerCase();
     const source=(item.dataset.source||'').toLowerCase();
-    const vm=(activeView==='curated') ? (v==='selected') : (v==='curated'||v==='raw');
-    if(!vm){ item.style.display='none'; return; }
+    // 不再区分精选/全量视图，全部显示
     const rm=activeRegion==='all'||reg===activeRegion;
     const em=activeEvent==='all'||evt===activeEvent;
     const dm=activeDomain==='all'||doms.split(',').includes(activeDomain);
@@ -817,7 +843,7 @@ function updateDisplay(){
     const dateStr=item.dataset.date||'';
     let tmTime=true;
     if(activeTime!=='all'&&dateStr){
-      const days={'1w':7,'2w':14,'1m':30,'3m':90}[activeTime]||0;
+      const days={'1w':7,'2w':14,'1m':30,'3m':90,'6m':180,'1y':365}[activeTime]||0;
       const cut=new Date();cut.setDate(cut.getDate()-days);
       const d=new Date(dateStr.replace(/-/g,'/'));
       tmTime = d>=cut;
@@ -826,14 +852,9 @@ function updateDisplay(){
       spVisible.push(item);
     }else{item.style.display='none'}
   });
-  if(activeView==='curated'){
-    if(feedContainer) feedContainer.style.display='none';
-    if(selectedContainer) selectedContainer.style.display='block';
-  }else{
-    if(feedContainer) feedContainer.style.display='block';
-    if(selectedContainer) selectedContainer.style.display='none';
-  }
-  sortContainer(activeView==='curated'?selectedContainer:feedContainer);
+  // 始终显示 feedContainer
+  if(feedContainer) feedContainer.style.display='block';
+  sortContainer(feedContainer);
   const visible=spVisible.length;
   paintFeed();
   const s=document.getElementById('header-stats');
@@ -855,18 +876,6 @@ function paintFeed(){
       btn.textContent='加载更多（剩余 '+(n-feedRendered)+' 条）';
     }else{btn.style.display='none';}
   }
-}
-
-function setView(view){
-  activeView=view;activeEvent='all';activeDomain='all';activeTag='all';searchTerm='';
-  const si=document.getElementById('search-input');if(si)si.value='';
-  document.getElementById('pill-curated').classList.toggle('active',view==='curated');
-  document.getElementById('pill-all').classList.toggle('active',view==='all');
-  document.querySelectorAll('.filter-btn[data-group="event"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
-  document.querySelectorAll('.filter-btn[data-group="domain"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
-  document.querySelectorAll('.filter-btn[data-group="tag"]').forEach(b=>b.classList.toggle('active',b.dataset.value==='all'));
-  document.querySelectorAll('.region-pill').forEach(b=>b.classList.toggle('active',b.dataset.region==='all'));
-  activeRegion='all';updateDisplay();
 }
 
 document.querySelectorAll('.region-pill').forEach(btn=>{
@@ -897,22 +906,27 @@ function doNewsSearch(){
   var si=document.getElementById('search-input');
   searchTerm=(si?si.value:'').toLowerCase().trim();updateDisplay();
 }
-// 排序箭头：评分↓ → 评分↑ → 时间↓ → 信号↓ 循环
-function cycleSort(){
-  if(sortMode==='score'&&sortDir==='desc'){sortDir='asc';}
-  else if(sortMode==='score'&&sortDir==='asc'){sortMode='date';sortDir='desc';}
-  else if(sortMode==='date'){sortMode='signal';sortDir='desc';}
-  else{sortMode='score';sortDir='desc';}
-  const btn=document.getElementById('sort-btn');
-  if(btn){
-    if(sortMode==='date'){btn.textContent='时间 ↓';btn.classList.add('active');}
-    else if(sortMode==='signal'){btn.textContent='信号 ↓';btn.classList.add('active');}
-    else{btn.textContent='评分 '+(sortDir==='desc'?'↓':'↑');btn.classList.add('active');}
-  }
-  updateDisplay();
-}
-const sbEl=document.getElementById('sort-btn');
-if(sbEl){sbEl.addEventListener('click',cycleSort);}
+// 排序：评分↓ / 时间↓ / 融资金额↓ 三个平铺 chip（默认 时间↓）
+document.querySelectorAll('#sort-pills .region-pill').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('#sort-pills .region-pill').forEach(b=>b.classList.remove('active'));
+    this.classList.add('active');
+    const s=this.dataset.sort;
+    if(s==='score'){sortMode='score';sortDir='desc';}
+    else if(s==='fund'){sortMode='fund';}
+    else{sortMode='date';}
+    updateDisplay();
+  });
+});
+
+// 整卡可点 → 跳资讯详情页（外链新标签页）；不劫持按钮/链接/备注
+document.querySelectorAll('.feed-item').forEach(function(card){
+  card.addEventListener('click',function(e){
+    if(e.target.closest('a,button,.sp-note,.feed-title')) return;
+    var link=card.querySelector('.feed-title a');
+    if(link && link.href) window.open(link.href,'_blank','noopener');
+  });
+});
 // 时间筛选
 document.querySelectorAll('.filter-btn[data-time]').forEach(btn=>{
   btn.addEventListener('click',function(){
@@ -1018,8 +1032,8 @@ def generate_html(scored_articles=None, output_path=None):
 
     curated_count = sum(1 for a in merged if a.get("view") == "curated")
     total_count = len(merged)
-    domestic_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "domestic")
-    overseas_curated = sum(1 for a in merged if a.get("view") == "curated" and a.get("region") == "overseas")
+    domestic_count = sum(1 for a in merged if a.get("region") == "domestic")
+    overseas_count = sum(1 for a in merged if a.get("region") == "overseas")
 
     today_str = datetime.now().strftime("%Y-%m-%d %H:%M")
     dates = [a.get("date") for a in merged
@@ -1028,13 +1042,6 @@ def generate_html(scored_articles=None, output_path=None):
 
     # Build cards
     cards_html = "".join(build_card_html(art) for art in merged)
-
-    # Build 精选 (Selected) view cards — 默认按时间倒序（最新在前），与默认排序一致
-    selected = [a for a in merged if is_selected(a)]
-    selected.sort(key=lambda a: a.get("date", "0000-00-00"), reverse=True)
-    selected_html = "".join(build_selected_card_html(a) for a in selected)
-    selected_count = len(selected)
-    update_log = update_update_log(selected_count)
 
     # Build filter buttons — 全展示不折叠，带数量徽章
     from collections import Counter as _Ctr
@@ -1049,12 +1056,16 @@ def generate_html(scored_articles=None, output_path=None):
         f'<button class="filter-btn" data-group="domain" data-value="{d}">{d}<span class="cnt">{_dom_ctr.get(d, 0)}</span></button>' for d in domain_list
     )
 
-    # Tag pills: 全展示不折叠，带数量徽章
+    # Tag pills: 全展示不折叠，带数量徽章（不含"全部"，因标签行已自带）
     _tag_btns = (
         '<button class="filter-btn active" data-group="tag" data-value="all">全部</button>'
         + "".join(
             f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}<span class="cnt">{_tag_ctr.get(t, 0)}</span></button>' for t in tag_list
         )
+    )
+    # Domainless tag pills（用于合并的标签行，不含"全部"前缀）
+    _tag_btns_domainless = "".join(
+        f'<button class="filter-btn" data-group="tag" data-value="{t}">{t}<span class="cnt">{_tag_ctr.get(t, 0)}</span></button>' for t in tag_list
     )
 
     # Inject values into JS template
@@ -1088,32 +1099,25 @@ def generate_html(scored_articles=None, output_path=None):
         '<h2>银发经济每周速览</h2>',
         '<div class="header-stats" id="header-stats">更新于 %s · 数据 %s · 共 %s 条</div>' % (today_str, data_date_str, total_count),
         '<div class="search-inline-group" style="margin-left:auto">',
-        '<input type="text" class="search-inline" id="search-input" placeholder="搜索标题/摘要/标签" onkeydown="if(event.key===\'Enter\'){doNewsSearch();}">',
+        '<input type="text" class="search-inline" id="search-input" placeholder="搜索标题/摘要" onkeydown="if(event.key===\'Enter\'){doNewsSearch();}">',
         '<button type="button" class="search-btn" onclick="doNewsSearch()">搜索</button>',
         '</div>',
         '</div>',
 
-        # 第1行：视图 / 地区 / 排序
+        # 第1行：地区 / 排序（地区放最下面，但这里保留位置；实际顺序见下方筛选区）
         '<div class="filter-bar">',
-        '<span class="filter-label">视图</span>',
-        '<div class="view-pills">',
-        '<button class="view-pill active" id="pill-curated" onclick="setView(\'curated\')">精选(%s)</button>' % selected_count,
-        '<button class="view-pill" id="pill-all" onclick="setView(\'all\')">全量(%s)</button>' % total_count,
-        '</div>',
-        '<span class="filter-label">地区</span>',
-        '<div class="region-pills" id="region-pills">',
-        '<button class="region-pill active" data-region="all">全部</button>',
-        '<button class="region-pill" data-region="domestic">国内(%s)</button>' % domestic_curated,
-        '<button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_curated,
-        '</div>',
         '<span class="filter-label">排序</span>',
-        '<button class="sort-arrow active" id="sort-btn" title="点击切换：时间↓ / 信号↓ / 评分↓ / 评分↑">时间 ↓</button>',
+        '<div class="region-pills" id="sort-pills">',
+        '<button class="region-pill active" data-sort="date">时间↓</button>',
+        '<button class="region-pill" data-sort="score">评分↓</button>',
+        '<button class="region-pill" data-sort="fund">融资金额↓</button>',
+        '</div>',
         '</div></div>',
 
         # 筛选区：每行独占一个筛选项类型
         '<div class="filter-section" id="filter-section">',
 
-        # 第2行：事件（独占一行）
+        # 第1行：事件（独占一行）
         '  <div class="filter-row">',
         '    <span class="filter-label">事件</span>',
         '    <div class="filter-btns">',
@@ -1122,24 +1126,16 @@ def generate_html(scored_articles=None, output_path=None):
         '    </div>',
         '  </div>',
 
-        # 第3行：领域（独占一行）
+        # 第2行：领域（原「标签」行已按小爽要求删除横切标签，只保留领域L2）
         '  <div class="filter-row">',
         '    <span class="filter-label">领域</span>',
-        '    <div class="filter-btns">',
+        '    <div class="filter-btns" id="tag-btns-wrap">',
         '      <button class="filter-btn active" data-group="domain" data-value="all">全部</button>',
         domain_buttons,
         '    </div>',
         '  </div>',
 
-        # 第4行：标签（独占一行）
-        '  <div class="filter-row">',
-        '    <span class="filter-label">标签</span>',
-        '    <div class="filter-btns" id="tag-btns-wrap">',
-        _tag_btns,
-        '    </div>',
-        '  </div>',
-
-        # 第5行：时间[左] + 辅助按钮[右]
+        # 第3行：时间[左] + 地区[中] + 辅助按钮[右]
         '  <div class="filter-row filter-last">',
         '    <span class="filter-label">时间</span>',
         '    <div class="filter-btns">',
@@ -1148,6 +1144,14 @@ def generate_html(scored_articles=None, output_path=None):
         '      <button class="filter-btn" data-time="2w">近2周</button>',
         '      <button class="filter-btn" data-time="1m">近1月</button>',
         '      <button class="filter-btn" data-time="3m">近3月</button>',
+        '      <button class="filter-btn" data-time="6m">近半年</button>',
+        '      <button class="filter-btn" data-time="1y">近一年</button>',
+        '    </div>',
+        '    <span class="filter-label" style="margin-left:16px;">地区</span>',
+        '    <div class="region-pills" id="region-pills">',
+        '      <button class="region-pill active" data-region="all">全部</button>',
+        '      <button class="region-pill" data-region="domestic">国内(%s)</button>' % domestic_count,
+        '      <button class="region-pill" data-region="overseas">海外(%s)</button>' % overseas_count,
         '    </div>',
         '    <div class="aux-group">',
         '      <button class="fav-filter-btn" title="只看已收藏">🔖 已收藏<span class="fav-cnt">0</span></button>',
@@ -1157,21 +1161,13 @@ def generate_html(scored_articles=None, output_path=None):
         '  </div>',
         '</div>',
 
-        # 信号概览（放在所有筛选下方、列表上方）
-        signal_line,
-
         # 收藏标签筛选条（仅 fav-mode 下显示）
         '<div class="filter-row fav-tag-filter" id="fav-tag-filter" style="display:none;">',
         '  <span class="filter-label">收藏标签</span>',
         '  <div class="filter-btns" id="fav-tag-pills"></div>',
         '</div>',
 
-        # 精选 (Selected) view: selected cards（按评分降序，与全量同款）
-        '<div id="selected-container">',
-        selected_html,
-        '</div>',
-
-        # Feed container (全量 view)
+        # Feed container（唯一视图）
         '<div id="feed-container">',
         cards_html,
         '</div>',

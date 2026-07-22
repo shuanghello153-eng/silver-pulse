@@ -1,35 +1,7 @@
 {
   "serial": "#0698",
-  "recommend": "MIT孵化的温控可穿戴公司，把「局部温控」做成更年期潮热的可穿戴解法，2023年拿到3500万美元债权融资扩零售，旗舰Embr Wave手环售价299美元、已售20万+台（信号/信息量）。对比华为、小米健康手环只做睡眠体温监测，它的闭环温控加6项温度波形专利能主动缓解潮热，壁垒突出（差异化）；国内可借鉴「非药物硬件加零售」思路，但体温干预式穿戴认证门槛高、难快速复制（可复制）。",
-  "desc_cn": "美国一家从MIT走出来的温控可穿戴企业，2014年由David Cohen-Tanugi等人创立；核心技术用皮肤表面的降温升温波形刺激自主神经，针对更年期潮热、睡眠与压力做非药物干预，走FDA认可路径。公司已获6项温度波形专利，资方含DigiTx、Bose Ventures、Intel Capital，产品借Costco、Walmart等连锁零售触达用户。",
-  "silver_reason": "非药物更年期硬件是稀缺赛道，适合写「温控可穿戴 vs 国内监测型手环」对比案例，提示国内认证与临床门槛。",
-  "payor_model": "个人自费",
-  "founded": "2014",
-  "funding_latest": {
-    "amount": "3500万美元",
-    "round": "债权融资",
-    "date": "2023年5月",
-    "display": "3500万美元（2023年5月，Ghost Tree Partners领投）"
-  },
-  "funding_total": {
-    "amount": "累计约7681万美元",
-    "display": "累计约$76.81M（CB Insights）"
-  },
-  "investors": [
-    "DigiTx Partners",
-    "Safar Partners",
-    "Bose Ventures",
-    "Intel Capital",
-    "Ghost Tree Partners"
-  ],
-  "events": [
-    "2014年MIT孵化创立",
-    "2023年5月获3500万美元债权融资",
-    "2024年11月获6项温度波形专利",
-    "产品入驻Costco/Walmart/Best Buy/Target"
-  ],
-  "domestic_competitors": [
-    "华为健康",
-    "小米手环"
-  ]
+  "recommend": "MIT孵化的温控可穿戴公司，把局部温控做成更年期潮热的穿戴解法，素材可挖在它怎么用闭环温控主动缓解潮热（信息量）。差异在打法：它有温度波形专利能主动干预，华为小米健康手环只做睡眠体温监测（差异化）。国内可借鉴「非药物硬件加零售」思路，但体温干预式穿戴认证门槛高、难快速复制（可复制）。",
+  "info_score": 7,
+  "diff_score": 8,
+  "copy_score": 6
 }
