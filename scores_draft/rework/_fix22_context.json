@@ -1,0 +1,569 @@
+[
+  {
+    "serial": "#0285",
+    "name_cn": "福东海",
+    "name": "福东海",
+    "country": null,
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "保健品",
+      "营养食品"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "新中式滋补老字号（药食同源）",
+    "silver_reason": "药食同源滋补品主打中老年养生",
+    "payor_model": "个人自费",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "信号在银发养生年轻化与电商滋补升温：年线上销售额超4亿元，药食同源类目居市场前列。信息量在电商销售透明、南药产业园投产可查。差异在老字号加新媒体反向定制，用消费热词快速推新品。国内竞品较少，可借鉴其用电商反馈反哺研发、把中式滋补做成新消费品牌的思路。",
+    "fail_reason": "R-integrity:前后半段讲不同赛道(前['数据']→后['社交'])，疑似拼接错误"
+  },
+  {
+    "serial": "#0399",
+    "name_cn": "梨花教育",
+    "name": "梨花教育",
+    "country": null,
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "教育"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "中老年兴趣教育头部平台",
+    "silver_reason": "中老年兴趣教育直接服务老年人群",
+    "payor_model": "个人自费",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "信号在政策鼓励老年教育：累计服务用户超2200万，获授全国中老年艺术等级考评规范秘书处。信息量在用户规模与央视报道可查、AI声学评测专利可挖。差异在兴趣加AI加社群展演三位一体，把声音培训做成老有所乐的课堂。国内竞品较少，可借鉴其用AI陪练降低学习门槛、把课程变成高频复购的教育生意。",
+    "fail_reason": "R-integrity:前后半段讲不同赛道(前['教育']→后['社交'])，疑似拼接错误"
+  },
+  {
+    "serial": "#0430",
+    "name_cn": "大耳马医学",
+    "name": "大耳马医学",
+    "country": null,
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "睡眠监测",
+      "康复器械"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "睡眠呼吸暂停居家监测商",
+    "silver_reason": "睡眠呼吸暂停监测直接适配老年慢病人群",
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "round": "A轮",
+      "display": "A轮"
+    },
+    "stage": "A轮",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "信号在居家慢病早筛升温：心衰管理设备获FDA突破性医疗器械认定。信息量在融资与认证透明——累计专利20余项、产品获二类与FDA注册。差异在光纤传感非接触监测的技术壁垒，把鼾症筛查从医院搬进卧室。国内竞品较少，可借鉴其用无感硬件做居家睡眠监测、把临床指标变预警服务的思路。",
+    "fail_reason": "R-integrity:前后半段讲不同赛道(前['医疗','器械']→后['数据'])，疑似拼接错误"
+  },
+  {
+    "serial": "#0453",
+    "name_cn": "方文咨询",
+    "name": "方文咨询",
+    "country": null,
+    "tag_l1": [
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老咨询"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "养老行业运营咨询，聚焦机构运营提升、公建民营投标",
+    "silver_reason": "养老产业运营咨询，专门服务银发赛道",
+    "payor_model": "B端/G端咨询采购",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "养老行业研究智库，长期输出标杆案例与白皮书。信息量在公开报告与顾问项目素材丰富、可拆解。差异在轻资产研究输出、不持重资产、靠认知变现。国内竞品较少，可借鉴其用研究报告撬动咨询与培训、把行业认知变成持续收入的思路。",
+    "fail_reason": "R3:模板套话[信号偏弱]"
+  },
+  {
+    "serial": "#1445",
+    "name_cn": "山西航天投资",
+    "name": "山西航天投资",
+    "country": null,
+    "tag_l1": [
+      "投资机构"
+    ],
+    "tag_l2": [
+      "产业基金"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "聚焦养老咨询的",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "个人自费+部分政府补贴",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "国资背景加项目资源，基金加产业思路；写作可写银发产业基金。短板在投资金额未披露、需看实际落子。",
+    "fail_reason": "R5:缺维度-信息量"
+  },
+  {
+    "serial": "#1455",
+    "name_cn": "嘉康源健康管理有限公司",
+    "name": "嘉康源健康管理有限公司",
+    "country": null,
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "大健康\n【提供资源】讲师\n【需求资源】客户",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "个人自费+部分政府补贴",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "把监测数据与人工随访打通做慢病闭环；可写银发医疗健康，但对比智云健康、信息薄、讲师驱动模式难规模化，访写看其真实客户与效果证据。",
+    "fail_reason": "R5:缺维度-信息量"
+  },
+  {
+    "serial": "#1464",
+    "name_cn": "长沙市芙蓉区后稷后食品商行",
+    "name": "长沙市芙蓉区后稷后食品商行",
+    "country": null,
+    "tag_l1": [
+      "食品营养"
+    ],
+    "tag_l2": [
+      "养老膳食"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "聚焦中医养生的",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "B端机构采购/政府买单",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "贴牌做适老吃的，靠几个商标铺进护养机构食堂；可写'银发膳食品牌化'。风险：商超系对手挤压，订单绑在机构渠道。",
+    "fail_reason": "R5:缺维度-信息量"
+  },
+  {
+    "serial": "#1477",
+    "name_cn": "中科启新生命细胞科技(深圳)有限公司",
+    "name": "中科启新生命细胞科技(深圳)有限公司",
+    "country": null,
+    "tag_l1": [
+      "消费品"
+    ],
+    "tag_l2": [
+      "长寿抗衰",
+      "体检筛查"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "聚焦康复医疗的",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "个人自费+部分政府补贴",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "细胞检测加干预方案打包、沉淀检测数据，是抗衰筛查样本。可写银发医疗健康；对标美年写抗衰加筛查，风险在合规与疗效。",
+    "fail_reason": "R5:缺维度-信息量"
+  },
+  {
+    "serial": "#1507",
+    "name_cn": "湖北优唐健康管理有限公司",
+    "name": "湖北优唐健康管理有限公司",
+    "country": null,
+    "tag_l1": [
+      "养老服务",
+      "食品营养"
+    ],
+    "tag_l2": [
+      "慢病管理",
+      "糖尿病"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "聚焦慢病管理的",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "个人自费+部分政府补贴",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "三师共管加贝塔素动态监测做闭环，ICCM方法论；写作可写糖尿病管理连锁轻重之辩。短板在三师人力与选址成本吃重。",
+    "fail_reason": "R5:缺维度-信息量"
+  },
+  {
+    "serial": "#0518",
+    "name_cn": "摩根大通",
+    "name": "摩根大通",
+    "country": null,
+    "tag_l1": [
+      "金融保险"
+    ],
+    "tag_l2": [
+      "金融理财"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "全球金融巨头，银发经济投资布局",
+    "silver_reason": "通用金融巨头仅策略布局银发，非核心主体",
+    "payor_model": "个人/机构服务费",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "大型金融机构银发专项策略是养老金融风向；差异在跨资产银发主题配置与投研体系、壁垒在客户资源。可借鉴其金融+健康交叉思路做养老财富管理。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1226",
+    "name_cn": "Ekso Bionics",
+    "name": "Ekso Bionics",
+    "country": null,
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "外骨骼"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "B2B 临床康复外骨骼（上市）",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "B端机构采购/政府买单",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "上市临床级康复外骨骼绑定医院康复科刚需，相对消费级是临床错位。写作可抓银发康复网络；风险在价格与处方依赖，可复制看科室渠道。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1322",
+    "name_cn": "北京缘和银发经济科技有限公司",
+    "name": "缘和银发",
+    "country": null,
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "tag_l2": [
+      "教育"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "2025年成立的银发科技公司，旗下教培板块引老年大学师资开书法、非遗等课程、落地北京社区，亮点在银发教育加社区新消费路线，是国内老年兴趣教育的社区样本，可参考。",
+    "silver_reason": "银发教育加社区兴趣平台，属国内银发文娱教育，新消费路线，可参考。",
+    "payor_model": "个人自费+政府补贴",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "借老年大学师资把书法非遗课开进社区、'教育+社区'真实样本。写作可抓银发教育社区化；风险在课程变现与规模化复制待验证，信号价值大于规模。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1531",
+    "name_cn": "重庆大顺7号科技有限公司",
+    "name": "重庆大顺7号科技有限公司",
+    "country": null,
+    "tag_l1": [
+      "养老服务",
+      "行业服务"
+    ],
+    "tag_l2": [
+      "养老机构",
+      "养老信息平台"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "聚焦养老机构的",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "B端机构采购/政府买单",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "会员加托管轻重结合，既卖系统又托管机构；写作可写区域养老平台轻重结合。短板在托管机构质量参差、规模化管控难。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#0739",
+    "name_cn": "Hyfe AI",
+    "name": "Hyfe AI",
+    "country": null,
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "慢病管理"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "以手机麦克风持续拾音、监测咳嗽并评估呼吸慢病人工智能公司，已积累超七亿条声音样本，向制药企业出售真实世界数据，早期获数百万美元融资，把咳嗽声作为被动健康信号、无需可穿戴设备。",
+    "silver_reason": "咳嗽声监测服务呼吸慢病人群，方法可借鉴于老年慢病被动监测场景。",
+    "payor_model": "B端机构采购+政府付费",
+    "funding_latest": {
+      "amount": "几百万",
+      "display": "几百万"
+    },
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "把咳嗽声当被动健康信号、零可穿戴负担，向药企卖真实世界数据；写作可写声音生物标志物。短板在服务于药企而非老年前端，国内数据合规模糊。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#0940",
+    "name_cn": "Optum (Home & Community)",
+    "name": "Optum (Home & Community)",
+    "country": null,
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "B2C/B2B 社区/居家服务",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "B端机构采购/政府买单",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "保险与服务支付闭环把医疗级居家照护缝成网；写作可写居家社区护理巨头。短板在模式根植美国MA，国内支付结构不同难复制。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1247",
+    "name_cn": "Idoven",
+    "name": "Idoven",
+    "country": null,
+    "tag_l1": [
+      "消费品",
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "心血管",
+      "可穿戴监测",
+      "体检筛查"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "这家西班牙公司2018年创立，用人工智能解读心电图，核心平台Willem面向养老机构与基层医疗提供远程心电筛查，2024年取得欧盟CE IIa类医疗器械认证，可识别22种心律，2025年房颤识别准确率公布为96.4%。",
+    "silver_reason": "用AI心电筛查提前发现房颤等老年高发心血管风险，属可穿戴监测与体检筛查方向，可降低老年心脑血管意外发生率，契合银发健康管理需求。",
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "云端判读加IIa认证壁垒突出，房颤识别准确率披露；写作可写可穿戴心电申报路径。短板在国内心电厂商已多，需看认证与渠道差异。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1283",
+    "name_cn": "Medical Guardian",
+    "name": "Medical Guardian",
+    "country": null,
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "tag_l2": [
+      "紧急呼叫"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "B2C 家用医疗警报",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "个人自费+部分政府补贴",
+    "funding_latest": {
+      "amount": "未披露",
+      "round": "",
+      "date": "",
+      "display": "未披露"
+    },
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "硬件加呼叫中心加保险支付跑通多年，GPS加7x24值守成标准；写作可写居家急救呼叫。短板在国内爱牵挂已占位，告警接入网格待建。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1058",
+    "name_cn": "Ultrahuman",
+    "name": "Ultrahuman",
+    "country": null,
+    "tag_l1": [
+      "康复辅具",
+      "食品营养"
+    ],
+    "tag_l2": [
+      "睡眠监测",
+      "糖尿病",
+      "可穿戴监测"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "Ultrahuman推出追踪睡眠、运动与血糖等生物标志物的消费级产品套件，包括智能戒指与配套应用，帮助用户持续优化日常健康，客群覆盖注重自我的活力人群与早期健康管理需求者，属消费级健康监测硬件赛道。",
+    "silver_reason": "以多指标生物标志物套件服务活力老人主动健康管理，属银发可穿戴监测中的综合健康追踪细分。",
+    "payor_model": "个人自费",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "一个指环拢睡眠、活动与血糖做日常优化、多指标合一；可对标硅基仿生学多指标可穿戴，但消费级、银发关联弱，访写看其适老场景真实渗透与医生背书。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1439",
+    "name_cn": "Kinetic Motion",
+    "name": "Kinetic Motion",
+    "country": null,
+    "tag_l1": [
+      "康复辅具",
+      "养老服务"
+    ],
+    "tag_l2": [
+      "康复器械",
+      "康复医疗"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "聚焦保险的",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "政府医保/商业保险支付",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "stage": "成长期",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "把训练设备与临床路径打通、沉淀康复数据，是器械加康复样本。可写银发康复；对标翔宇看数据闭环，风险在临床采纳。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#0621",
+    "name_cn": "Angels on Call Homecare",
+    "name": "Angels on Call Homecare",
+    "country": null,
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "B2B/B2C 银发行业服务",
+    "silver_reason": "基线默认判定，待质量波次复核",
+    "payor_model": "B端机构采购/政府买单",
+    "funding_latest": "未融资",
+    "stage": "未搜到",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "非医疗居家照护、自办护理员学院做培训与精准匹配、轻医疗定位；可借鉴培训体系锁服务质量，但国内福寿康更重医养结合，复制需适配本地用工与监管。",
+    "fail_reason": "R10:跨企业雷同"
+  },
+  {
+    "serial": "#1168",
+    "name_cn": "Cera｜英国居家医疗AI",
+    "name": "Cera",
+    "country": null,
+    "tag_l1": [
+      "养老服务",
+      "金融保险"
+    ],
+    "tag_l2": [
+      "远程医疗",
+      "保险"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "英国数字化居家医疗运营商，以预测式AI（防跌倒/防住院）调度万名护工并配合远程监测与远程问诊，向老年与失能人群提供到家照护。收入来自NHS/地方议会公共支付、个人自费与保险，月均250万次上门访视、年化收入约5亿美元。银发价值在用预测式AI降低住院来绑定公共支付方，是居家养老的规模样板。",
+    "silver_reason": "英国头部居家养老医疗平台，AI驱动调度护工直接服务老年与失能群体，属核心银发。",
+    "payor_model": "混合支付",
+    "funding_latest": {
+      "date": "2025",
+      "amount": "1.5亿美元 Series C (2026-05); 累计约4.21亿美元",
+      "round": "Series C",
+      "display": "1.5亿美元 Series C (2026-05)，累计约4.21亿美元"
+    },
+    "stage": "C轮",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "预测式AI压住院率绑公共支付方、调度上万护工，是AI调度样本。可写AI调度居家照护；风险在重人力与公共预算瓶颈。",
+    "fail_reason": "R3:模板套话[信号与信息都强] (仅v4废稿，需重写)"
+  },
+  {
+    "serial": "#0952",
+    "name_cn": "爱德斯家庭护理",
+    "name": "Addus HomeCare",
+    "country": null,
+    "tag_l1": [
+      "养老服务"
+    ],
+    "tag_l2": [
+      "居家护理"
+    ],
+    "coverage_regions": null,
+    "desc_cn": "以个人护理（洗澡、进食、出行协助）为核心的到家照护连锁，在23个州布局260个网点、为德州最大供应商。收入主要来自Medicaid与州政府报销及管理式医疗，并正向商业保险转移。银发价值在于用密度并购换取对政府与客户定价权的轻资产扩张，对应国内居家护理低客单、难连锁化的痛点。",
+    "silver_reason": "以个人护理与居家照护服务老人及长护人群，是银发最基础的到家服务，属核心银发。",
+    "payor_model": "政府医保/商保支付",
+    "funding_latest": "未融资",
+    "stage": "已上市",
+    "founded_year": null,
+    "domestic_competitors": null,
+    "current_recommend": "密集并购换定价话语权、轻资产扩张，与重资产院不同；写作可写到家护理连锁并购。短板在收入靠政府报销、利润薄，国内客单低难连锁。",
+    "fail_reason": "R3:模板套话[信号与信息都足] (仅v4废稿，需重写)"
+  }
+]

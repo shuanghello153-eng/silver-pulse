@@ -759,12 +759,14 @@ def generate():
     for e in enterprises:
         _serial = e.get("serial", "")
         _ds = []
+        # 来源1: news_coverage.latest_news（资讯关联）
         _nc = e.get("news_coverage")
         if isinstance(_nc, dict):
             for _x in (_nc.get("latest_news") or []):
                 _d = _pdate(_x.get("date"))
                 if _d:
                     _ds.append(_d)
+        # 来源2: 评分文件的 last_event_date
         _sc = ent_scores_map.get(_serial)
         if _sc:
             _led = _sc.get("last_event_date")
@@ -772,6 +774,13 @@ def generate():
                 _d = _pdate(_led)
                 if _d:
                     _ds.append(_d)
+        # 来源3: funding_latest.date（融资/收购/IPO 本身就是重要动态）
+        _fl = e.get("funding_latest")
+        if isinstance(_fl, dict) and _fl.get("date") and _fl["date"] not in ("未披露", "未公开", "未知", ""):
+            _fd = _pdate(_fl["date"])
+            if _fd:
+                _ds.append(_fd)
+        # 来源4: 标题子串兜底匹配
         if _serial in _fallback_date:
             _ds.append(_fallback_date[_serial])
         if _ds:
