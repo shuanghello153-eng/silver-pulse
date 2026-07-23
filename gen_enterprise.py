@@ -576,8 +576,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     _desc_blob = " ".join([
         str(_fl.get("round", "")), str(_fl.get("display", "")),
         str(_ft.get("display", "")), ent.get("description", "") or "",
-        ent.get("desc_cn", "") or "",
-    ]).lower()
+    ]).lower()  # 只用 description 判定上市（desc_cn 为历史遗留字段，内容可能过期，不再参与判定）
     is_ipo = 1 if any(k in _desc_blob for k in
                      ["ipo", "上市", "纳斯达克", "nasdaq", "nyse", "港股",
                       "主板", "挂牌", "公开募股", "public listing", "上市公司"]) else 0

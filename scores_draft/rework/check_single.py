@@ -8,7 +8,7 @@
   ★编辑注 / 投融资金额 / 阶段上市状态 / 近期动态)是**同一屏**，所以：
 
   ★ 禁止重复列表已有信息：不复述融资额、不复述上市/被收购状态、不复述规模数字、
-    不逐字抄 desc_cn / highlights。这些字段用户已经看过了，重复展示=看 2~3 遍。
+    不逐字抄 description / highlights。这些字段用户已经看过了，重复展示=看 2~3 遍。
   ★ 不做"换汤不换药"：把"50岁以上女性"改成"半百女性"也算重复，门禁用 4-gram 重合度
     抓近逐字抄，用"不出现融资数字/状态词"抓数据复述。
 
@@ -27,7 +27,7 @@
           ★不要求"信号"维度：融资/收购/上市等事件已在列表投融资/阶段字段展示，
             禁止在推荐理由里复述（小爽 2026-07-20 明确）。
   R-name 禁重复企业名（列表已有）
-  ★R-redundancy  禁重复列表字段：融资数字 / 阶段状态词 / 近逐字抄 desc_cn·highlights
+  ★R-redundancy  禁重复列表字段：融资数字 / 阶段状态词 / 近逐字抄 description·highlights
   R-integrity    前后半段同一赛道（防拼接串内容）
   R-noabs         禁绝对化"国内空白"论断
   R-jargon        禁技术黑话/废话
@@ -156,11 +156,13 @@ def _number_tokens(text):
 
 
 def _field_texts(e):
-    """提取与 recommend 可能冗余的字段：desc_cn / highlights / 融资展示 / 阶段。"""
+    """提取与 recommend 可能冗余的字段：description / highlights / 融资展示 / 阶段。
+    注：比对素材用 description（前端实际展示的介绍字段）。desc_cn 为历史遗留字段，
+    内容可能过期，不再作为比对素材。"""
     pairs = []
-    dc = e.get("desc_cn") or ""
+    dc = e.get("description") or ""
     if dc:
-        pairs.append(("desc_cn", dc))
+        pairs.append(("description", dc))
     hl = e.get("highlights") or []
     if isinstance(hl, list):
         for i, h in enumerate(hl):
@@ -185,7 +187,7 @@ def _field_texts(e):
 def validate(e, others=None, skip=None):
     """
     返回 issues 列表（空=通过）。
-    e 须含 recommend 及上下文(name/name_cn/tag_*/desc_cn/serial/stage/funding_*)。
+    e 须含 recommend 及上下文(name/name_cn/tag_*/description/serial/stage/funding_*)。
     others: 其他企业的 recommend 字符串列表（用于 R10 跨企业去重）。
     """
     skip = set(skip or [])
@@ -255,7 +257,7 @@ def validate(e, others=None, skip=None):
             if sw in stage and sw in txt:
                 issues.append(f"R-redundancy:复述阶段状态[{sw}](卡片阶段字段已有)")
                 break
-        # (c) 近逐字抄 desc_cn / highlights（4-gram 重合度）
+        # (c) 近逐字抄 description / highlights（4-gram 重合度）
         rec_grams = _fourgrams(txt)
         for fname, ftext in fpairs:
             if fname.startswith("funding") or fname == "stage":
@@ -337,7 +339,7 @@ def main():
     dr = json.load(open(fp, encoding="utf-8"))
     ctx = _ctx_from_db(dr.get("serial", ""))
     tmp = dict(ctx)
-    for k in ("recommend", "desc_cn", "highlights", "stage", "funding_latest", "funding_total"):
+    for k in ("recommend", "description", "desc_cn", "highlights", "stage", "funding_latest", "funding_total"):
         if k in dr and dr[k] is not None:
             tmp[k] = dr[k]
     iss = validate(tmp)
