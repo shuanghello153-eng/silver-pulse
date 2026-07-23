@@ -401,6 +401,16 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     if recommend:
         parts.append(f'<div class="ent-reco"><span class="reco-label">💡 推荐理由</span>{recommend}</div>')
 
+    # Deep article links (深度文章链接) — 仅在有值时展示，不强制
+    _dal = ent.get("deep_article_links") or []
+    if _dal:
+        _links = "".join(
+            f'<a href="{esc(x.get("url", ""))}" target="_blank" rel="noopener" class="ent-deep-link">🔗 {esc(x.get("title", x.get("url", "")))}</a>'
+            for x in _dal if isinstance(x, dict) and x.get("url")
+        )
+        if _links:
+            parts.append(f'<div class="ent-deep-links"><span class="reco-label">📚 深度文章</span>{_links}</div>')
+
     # Meta line: stage(融入) / funding / investors / payor_model / founded / links
     # 2026-07-21 规则: 所有字段有值才渲染; 空值/"未搜到"/"未披露"/"未公开"一律不显示
     meta_parts = []
@@ -1464,6 +1474,9 @@ function toggleEntCats() {{
 .ent-reco { font-size:12px; color:#3a3a3a; margin-top:6px; line-height:1.6; background:#fafbff; border-left:3px solid #5b8def; border-radius:0 6px 6px 0; padding:6px 9px; }
 .reco-label { display:inline-block; font-weight:700; color:#2b5cc4; margin-right:4px; }
 .ent-reco::first-letter { font-weight:600; }
+.ent-deep-links { font-size:12px; margin-top:6px; line-height:1.7; background:#f6fff7; border-left:3px solid #2f9e44; border-radius:0 6px 6px 0; padding:6px 9px; }
+.ent-deep-link { color:#2f9e44; text-decoration:none; margin-right:10px; }
+.ent-deep-link:hover { text-decoration:underline; }
 /* 长内容截断, 避免挤压其他字段(点击暂不展开, 如需可加展开交互) */
 .ent-desc { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
 .ent-recent { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
