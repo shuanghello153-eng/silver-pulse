@@ -303,7 +303,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     # --- Build card HTML ---
     parts = []
 
-    # === 企业库字段渲染规范 (2026-07-21 小爽确认版) ===
+    # === 企业库字段渲染规范 (2026-07-21 确认版) ===
     # 展示字段(有值才渲染): name_cn | tag_l2(二级标签) | total_score(总评分+hover四维)
     #   | description(介绍) | recommend(推荐理由) | payor_model(支付模式)
     #   | funding_latest(最新融资) | funding_total(累计融资) | investors(投资方)
@@ -977,7 +977,8 @@ __SIDEBAR__
     </div>
     <span class="f-label">搜索</span>
     <div class="search-inline-group">
-      <input type="text" class="search-inline" id="search" placeholder="搜索企业 / 行业 / 关键词" oninput="spDebouncedSearch()" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
+      <input type="text" class="search-inline" id="search" placeholder="搜索企业 / 行业 / 关键词" oninput="spDebouncedSearch();this.closest('.search-inline-group').classList.toggle('has-text',this.value.length>0)" onkeydown="if(event.key==='Enter'){{filterEnt();}}">
+      <button type="button" class="search-clear" id="searchClear" onclick="document.getElementById('search').value='';this.parentElement.classList.remove('has-text');spDebouncedSearch();" style="display:none;">×</button>
       <button type="button" class="search-btn" onclick="filterEnt()">搜索</button>
     </div>
     <div class="aux-group">

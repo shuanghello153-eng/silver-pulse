@@ -100,6 +100,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .search-btn{flex:0 0 auto;padding:7px 16px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
   font-size:12.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
 .search-btn:hover{opacity:.9}
+.search-clear{display:none;flex:0 0 auto;width:26px;height:26px;border:none;border-radius:50%;background:var(--border);color:var(--text-muted);font-size:16px;cursor:pointer;line-height:1;transition:.15s}
+.search-clear:hover{background:#e74c3c;color:#fff}
+.search-inline-group.has-text .search-clear{display:flex;align-items:center;justify-content:center}
 
 .ent-loadmore-wrap{display:flex;justify-content:center;margin:28px 0 8px}
 .ent-loadmore-btn{padding:11px 28px;border:1px solid var(--border);border-radius:14px;background:var(--surface);
@@ -439,12 +442,11 @@ html,body{overflow-x:hidden}
 # 2. 统一侧栏组件
 # ============================================================
 def SIDEBAR(active):
-    """返回侧栏 HTML。active ∈ {index, enterprise, about}。
-    顺序：资讯看板 → 企业库 → 我的收藏 → 网站说明。"""
+    """返回侧栏 HTML。active ∈ {index, enterprise}。
+    顺序：资讯看板 → 企业库。"""
     items = [
         ("index", "📡", "资讯看板", "index.html"),
         ("enterprise", "🏢", "企业库", "enterprise.html"),
-        ("about", "📖", "网站说明", "about.html"),
     ]
     nav = []
     for key, ico, label, href in items:

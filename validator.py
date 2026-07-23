@@ -179,8 +179,9 @@ def main():
     about_text = _read_text(ABOUT_PATH)
     drift_detail_parts = []
     if about_text is None:
-        drift_ok = False
-        drift_detail_parts.append("about.html 缺失")
+        # 网站说明页已于 2026-07-23 主动下线，缺失属预期，不报规则漂移
+        drift_ok = True
+        drift_detail_parts.append("about.html 已主动下线(预期)")
     else:
         tl = _lower(about_text)
         c1 = "每日" in about_text

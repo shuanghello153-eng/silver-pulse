@@ -21,7 +21,7 @@ import tempfile
 
 REPO = os.path.dirname(os.path.abspath(__file__))
 OUTPUT = os.path.join(REPO, "output")
-FILES = ["index.html", "enterprise.html", "about.html", "weekly_topics.json"]
+FILES = ["index.html", "enterprise.html", "weekly_topics.json"]
 
 
 def _no_proxy_env():
