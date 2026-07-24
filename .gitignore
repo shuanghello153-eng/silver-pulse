@@ -63,6 +63,10 @@ enterprise.html
 about.html
 _shots/
 
+# Office/WPS 打开文档产生的锁文件（2026-07-24 加）
+~$*
+**/~$*
+
 # 标签重建临时备份(不入库)
 data/enterprise/*.bak*.json
 # 大批量整库备份(误入库需清理，绝不再跟踪)

@@ -19,20 +19,21 @@
   python check_single.py --batch batch_src.json
   (被 merge 脚本 import：from check_single import validate, lcs_len)
 
-【规则清单】
+【规则清单】（V7.4 调整：删除 R5 与 R-integrity，保留 R10）
   R1     recommend 必须是单字符串
   R2     字数 20~200（小爽 2026-07-24 确认：下限放宽到20不凑字，上限200防长篇）
   R3     禁模板套话签名句 / 结构级正则（真敌人）
-  R5     须覆盖三维度（信息量=素材可挖 / 差异化 / 可复制）——编辑视角。
-          ★不要求"信号"维度：融资/收购/上市等事件已在列表投融资/阶段字段展示，
-            禁止在推荐理由里复述（小爽 2026-07-20 明确）。
   R-name 禁重复企业名（列表已有）
   ★R-redundancy  禁重复列表字段：融资数字 / 阶段状态词 / 近逐字抄 description·highlights
-  R-integrity    前后半段同一赛道（防拼接串内容）
   R-noabs         禁绝对化"国内空白"论断
   R-jargon        禁技术黑话/废话
-  R6/R7/R8        合并时跳过（不写这些字段）
-  R10             跨企业雷同（合并且单独跑）
+  R-filler        禁废话填充
+  R10             跨企业雷同（纯脚本 LCS+Jaccard，不耗积分，合并且单独跑）
+
+  —— 已删除 ——
+  R5（三维覆盖）    2026-07-24 小爽定：机械化凑词会让 recommend 像模板、泛泛而谈，删。
+  R-integrity（前后半段同赛道）  同上：实际触发概率低、意义不大，删。
+  删除后"三维度是否有真判断"改由关卡2子智能体语义走查负责（不靠关键词凑）。
 """
 import json, os, re, sys
 
@@ -215,18 +216,6 @@ def validate(e, others=None, skip=None):
             if re.search(pat, txt):
                 issues.append("R3:模板套话正则[" + pat + "]")
 
-    # ── R5 三维覆盖（编辑视角；不要求"信号"，因融资/收购已在列表字段） ──
-    if "R5" not in skip:
-        miss = []
-        if not any(k in txt for k in DIM_INFO):
-            miss.append("信息量")
-        if not any(k in txt for k in DIM_DIFF):
-            miss.append("差异化")
-        if not any(k in txt for k in DIM_COPY):
-            miss.append("可复制")
-        if miss:
-            issues.append("R5:缺维度-" + ",".join(miss))
-
     # ── R-name 禁企业名 ──
     if "R-name" not in skip:
         nm = e.get("name") or ""
@@ -269,19 +258,6 @@ def validate(e, others=None, skip=None):
             jac = len(rec_grams & fgrams) / len(union)
             if jac > 0.65:
                 issues.append(f"R-redundancy:与{fname}近逐字重复(重合{jac:.0%})，换编辑视角写")
-
-    # ── R-integrity 内部一致性 ──
-    if "R-integrity" not in skip and cl >= 50:
-        _DOMAIN_WORDS = ["殡葬", "康复", "养老", "保险", "陪伴", "机器人", "食品", "辅具",
-                         "护理", "地产", "医疗", "诊所", "健身", "社交", "旅游", "教育",
-                         "理财", "服装", "营养", "药品", "器械", "家居", "出行", "传媒", "数据"]
-        half = cl // 2
-        first_dom = [w for w in _DOMAIN_WORDS if w in txt[:half]]
-        second_dom = [w for w in _DOMAIN_WORDS if w in txt[half:]]
-        if first_dom and second_dom and not (set(first_dom) & set(second_dom)):
-            issues.append(
-                f"R-integrity:前后半段讲不同赛道(前{first_dom}→后{second_dom})，疑似拼接错误"
-            )
 
     # ── R-noabs / R-jargon ──
     if "R-noabs" not in skip:
