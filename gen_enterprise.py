@@ -39,6 +39,11 @@ from ui_common import sp_card_actions, sp_note_placeholder
 sys.path.insert(0, BASE_DIR)
 from config import ENTERPRISE_CATEGORIES, ENT_RV_HIGH, ENT_RV_MID, NEWS_RECENT_DAYS, SOURCES
 
+# ⚡ total_score 精选阈值（2026-07-24 改用四维加权评分，0~10 内部制，前端 ×10 显示）
+# TS_MID = 精选线（显示分 >= 48 约前 50%）/ TS_HIGH = 高分线（显示分 >= 64 约 Top 5%）
+TS_MID = 48    # 显示分制（内部 total_score >= 4.8）
+TS_HIGH = 64   # 显示分制（内部 total_score >= 6.4）
+
 # 13 L1 categories (no numbering in display)
 L1_CATS = list(ENTERPRISE_CATEGORIES.keys())
 
@@ -68,22 +73,25 @@ def esc(text):
 def is_curated(ent, rv=None):
     """Determine if an enterprise is 'curated' (精选).
 
-    与资讯页统一规则：精选 = 高分优质，按各自分数阈值切分。
-    企业库以「研究分」(research_value, 0–100) 为阈值，
-    rv >= ENT_RV_MID（约前 50% 高分企业）即入选精选。
-    rv 由调用方传入（build_card 内已算好），缺省时从 _ENT_SCORES 缓存读取，
-    再缺省回退到 ent 自身 value_score。
+    2026-07-24 改用 total_score（四维加权，0~10 内部分制，前端 ×10 显示）。
+    精选阈值：total_score >= TS_MID（约前 50% 高分企业）。
+    rv 由调用方传入（build_card 内已算好，为 ×10 后的显示值），
+    缺省时从 ent.total_score 读取并 ×10 转显示分制。
     """
     if rv is None:
-        sc = _ENT_SCORES.get(ent.get("serial", "")) if ent.get("serial") else None
-        rv = (sc or {}).get("research_value")
-    if rv is None:
-        rv = ent.get("value_score") or 0
+        ts = ent.get("total_score")
+        if ts is not None:
+            try:
+                rv = float(ts) * 10  # 内部0~10 → 显示0~100
+            except (TypeError, ValueError):
+                rv = 0
+        else:
+            rv = 0
     try:
         rv = float(rv)
     except (TypeError, ValueError):
         rv = 0.0
-    return rv >= ENT_RV_MID
+    return rv >= TS_MID
 
 
 _FUND_UNIT = {"b": 1000.0, "bn": 1000.0, "亿": 100.0, "m": 1.0, "mn": 1.0,
@@ -92,15 +100,15 @@ _FUND_UNIT = {"b": 1000.0, "bn": 1000.0, "亿": 100.0, "m": 1.0, "mn": 1.0,
 
 
 def _score_class(score):
-    """企业研究分专用色阶：s-high(≥ENT_RV_HIGH) / s-mid(≥ENT_RV_MID) / s-low(<ENT_RV_MID)。
-    企业分量纲 0–61，不能用资讯的 ≥7/4–6.9 阈值（否则 88% 全绿失效）。"""
+    """评分色阶（显示分制 0~100）：s-high(>=TS_HIGH=64) / s-mid(>=TS_MID=48) / s-low(<48)。
+    2026-07-24 统一用 total_score×10 显示分制，不再区分 research_value 和 total_score 两套分制。"""
     try:
         s = float(score)
     except (TypeError, ValueError):
         return "s-low"
-    if s >= ENT_RV_HIGH:
+    if s >= TS_HIGH:
         return "s-high"
-    elif s >= ENT_RV_MID:
+    elif s >= TS_MID:
         return "s-mid"
     return "s-low"
 
@@ -214,14 +222,16 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
     recommend = esc(ent.get("recommend", ""))
 
     serial = ent.get("serial", "")
-    rv = None
+    # ⚡ 2026-07-24 改用 total_score（四维加权），不再读旧 research_value
+    _ts_raw = ent.get("total_score")
+    rv = round(float(_ts_raw) * 10, 0) if _ts_raw is not None else None  # 显示分制 0~100
     deep = None
     top_event = None
     recent_news = []
     if ent_scores_map:
         sc = ent_scores_map.get(serial)
         if sc:
-            rv = sc.get("research_value") or ent.get("value_score")
+            # ⚡ 2026-07-24: rv 已在上面从 total_score 取值，不再被旧 research_value 覆盖
             deep = bool(sc.get("worth_deep_write"))
             top_event = sc.get("top_event")
             if news_map:
@@ -506,7 +516,7 @@ def build_card(ent, ent_scores_map=None, news_map=None, competitors=None, news_b
         parts.append(f'<div class="ent-recent">{esc(_recent_label or "🔥 近期动态")}: {" · ".join(rec_items)}</div>')
 
     # 竞争对手 — [2026-07-21 暂停展示] 规则: 按 category_l1 或 business_model 聚类,
-    #   取 research_value Top5。当前问题: 0/1467 家有数据(competitors 字段全空)，
+    #   取 total_score Top5。⚡ 2026-07-24 改用四维加权评分替代旧 research_value。
     #   规则可能未执行或产出为空。需重做规则后再复活此区块。
     # if competitors:
     #     ... (原代码保留, 待规则修复后取消注释)
@@ -796,14 +806,16 @@ def generate():
     for _serial, _c in _fallback_count.items():
         news_count_map[_serial] = news_count_map.get(_serial, 0) + _c
 
-    # --- Phase 2: TOP 15 by research_value ---
+    # --- Phase 2: TOP 15 by total_score（四维加权） ---
     top_ranked = []
     for e in enterprises:
         serial = e.get("serial", "")
         sc = ent_scores_map.get(serial)
         if not sc:
             continue
-        rv = sc.get("research_value") or e.get("value_score") or 0
+        # ⚡ 2026-07-24 改用 total_score（四维加权）替代旧 research_value
+        _ts = e.get("total_score")
+        rv = round(float(_ts) * 10, 0) if _ts is not None else 0
         top_ranked.append((rv, e, sc))
     top_ranked.sort(key=lambda t: t[0], reverse=True)
     top_ranked = top_ranked[:15]
@@ -815,8 +827,9 @@ def generate():
     competitors_map = {}
     try:
         def _rv_of(e):
-            sc = ent_scores_map.get(e.get("serial", ""))
-            return (sc.get("research_value") if sc else None) or e.get("value_score") or 0
+            # ⚡ 2026-07-24 改用 total_score（四维加权），显示分制
+            _ts = e.get("total_score")
+            return round(float(_ts) * 10, 0) if _ts is not None else 0
 
         def _bm_norm(bm):
             return (bm or "").strip().lower().replace(" ", "").replace("/", "")
@@ -867,10 +880,11 @@ def generate():
         dom = max(l2_to_l1[l2].items(), key=lambda kv: kv[1])[0]
         l2_counts.setdefault(dom, {})[l2] = tot
 
-    # Build cards — 默认排序：最新动态日期降序 → 研究价值降序（与前端 recent 模式一致）
+    # Build cards — 默认排序：最新动态日期降序 → total_score降序（四维加权评分）
     def _disp_rv(e):
-        sc = ent_scores_map.get(e.get("serial", ""))
-        return (sc.get("research_value") if sc else None) or e.get("value_score") or 0
+        # ⚡ 2026-07-24 改用 total_score（0~10 内部制），返回显示分制(×10)
+        ts = e.get("total_score")
+        return round(float(ts) * 10, 0) if ts is not None else 0
 
     def _sort_key(e):
         serial = e.get("serial", "")

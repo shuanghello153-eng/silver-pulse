@@ -63,13 +63,14 @@ for s, e in by.items():
                 e[dst] = float(v)
             except Exception:
                 pass
-    # total_score 用四维加权：信号×0.3 + 信息×0.3 + 差异×0.2 + 复制×0.2
-    # （小爽 2026-07-24 确认公式，无"综合"元维度，信号也乘权重）
-    sig = float(e.get("signal_strength") or 0)
-    info = float(e.get("info_score") or 0)
-    diff = float(e.get("diff_score") or 0)
-    copy = float(e.get("copy_score") or 0)
-    e["total_score"] = round(sig * 0.3 + info * 0.3 + diff * 0.2 + copy * 0.2, 1)
+    # total_score = 信号强度×30% + 信息量×30% + 差异化×20% + 可复制×20%
+    # （小爽 2026-07-24 确认公式：四维加权，无"综合"元维度）
+    # 每维防御性封顶 0~10；total_score 封顶 0~10（前端展示时 ×10 → 0~100）
+    sig = max(0.0, min(10.0, float(e.get("signal_strength") or 0)))
+    info = max(0.0, min(10.0, float(e.get("info_score") or 0)))
+    diff = max(0.0, min(10.0, float(e.get("diff_score") or 0)))
+    copy = max(0.0, min(10.0, float(e.get("copy_score") or 0)))
+    e["total_score"] = round(max(0.0, min(10.0, sig * 0.3 + info * 0.3 + diff * 0.2 + copy * 0.2)), 1)
     merged += 1
 
 # ---- 写回 ----
