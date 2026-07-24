@@ -4,7 +4,8 @@
 - current_recommend -> recommend（清洗后的推荐理由文本）
 - current_info/diff/copy -> info_score/diff_score/copy_score
 - signal_strength / research_value 保持真相源原值（批次与真相源一致，未改动）
-- total_score = 信号强度 + (信息量*0.3 + 差异化*0.3 + 可复制*0.2 + 综合*0.2)，综合=(info+diff+copy)/3
+- total_score = 信号强度×0.3 + 信息量×0.3 + 差异化×0.2 + 可复制×0.2
+  四维加权（小爽 2026-07-24 确认：信号也要乘权重，无"综合"元维度）
 合并前自动备份。
 """
 import json, os, glob, shutil, datetime
@@ -62,13 +63,13 @@ for s, e in by.items():
                 e[dst] = float(v)
             except Exception:
                 pass
-    # total_score 用真相源规则分 + 批次三维分
+    # total_score 用四维加权：信号×0.3 + 信息×0.3 + 差异×0.2 + 复制×0.2
+    # （小爽 2026-07-24 确认公式，无"综合"元维度，信号也乘权重）
     sig = float(e.get("signal_strength") or 0)
     info = float(e.get("info_score") or 0)
     diff = float(e.get("diff_score") or 0)
     copy = float(e.get("copy_score") or 0)
-    overall = (info + diff + copy) / 3
-    e["total_score"] = round(sig + (info * 0.3 + diff * 0.3 + copy * 0.2 + overall * 0.2), 1)
+    e["total_score"] = round(sig * 0.3 + info * 0.3 + diff * 0.2 + copy * 0.2, 1)
     merged += 1
 
 # ---- 写回 ----

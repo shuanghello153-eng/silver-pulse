@@ -21,7 +21,7 @@
 
 【规则清单】
   R1     recommend 必须是单字符串
-  R2     字数 50~240（扫读舒适，不为凑字牺牲表达）
+  R2     字数 20~200（小爽 2026-07-24 确认：下限放宽到20不凑字，上限200防长篇）
   R3     禁模板套话签名句 / 结构级正则（真敌人）
   R5     须覆盖三维度（信息量=素材可挖 / 差异化 / 可复制）——编辑视角。
           ★不要求"信号"维度：融资/收购/上市等事件已在列表投融资/阶段字段展示，
@@ -201,10 +201,10 @@ def validate(e, others=None, skip=None):
 
     # ── R2 字数（软绑） ──
     if "R2" not in skip:
-        if cl < 50:
-            issues.append(f"R2:字数过短({cl}<50)")
-        if cl > 240:
-            issues.append(f"R2:字数过长({cl}>240)")
+        if cl < 20:
+            issues.append(f"R2:字数过短({cl}<20)")
+        if cl > 200:
+            issues.append(f"R2:字数过长({cl}>200)")
 
     # ── R3 模板套话 ──
     if "R3" not in skip:
