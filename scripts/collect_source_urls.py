@@ -87,17 +87,29 @@ def collect_from_record(rec):
 
 
 def load_existing_channels():
-    """从 config.SOURCES 取现有渠道主域名集合。"""
+    """从 config.SOURCES 取现有渠道主域名集合。
+
+    SOURCES 每个源把域名存在 `l1_domain`，把各频道 URL 存在 `l2_channels`
+    （list of (name, url, type)）。老结构可能用 `url`/`feeds`。这里全都兼容读取，
+    统一归并到主域名（eTLD+1）。之前只读 `s['url']` 导致渠道去重从未生效（已修）。
+    """
     domains = set()
     try:
         sys.path.insert(0, BASE)
         import config
         for s in getattr(config, "SOURCES", {}).values():
-            u = s.get("url") or ""
-            d = reg_domain(u)
-            if d:
-                domains.add(d)
-            # 也加 name 里的域名（有些源 url 缺失）
+            # 1) 主域名字段
+            for key in ("l1_domain", "url"):
+                d = reg_domain(s.get(key) or "")
+                if d:
+                    domains.add(d)
+            # 2) 各频道 URL（l2_channels / feeds 都是 (name, url, type) 元组列表）
+            for key in ("l2_channels", "feeds"):
+                for ch in s.get(key) or []:
+                    url = ch[1] if isinstance(ch, (list, tuple)) and len(ch) > 1 else (ch if isinstance(ch, str) else "")
+                    d = reg_domain(url)
+                    if d:
+                        domains.add(d)
     except Exception as e:
         print(f"[warn] 读取 config.SOURCES 失败：{e}（将只做统计，不做渠道比对）")
     return domains
@@ -151,18 +163,22 @@ def main():
     lines.append(f"> 纯代码统计，不耗积分。比对规则：只看主频道域名（eTLD+1），忽略子域名与栏目路径。\n")
 
     # 1. 潜在信息源（按"跨企业"引用次数，排除企业自家官网的单次引用噪声）
-    lines.append(f"## 一、被多家企业共同引用（≥{args.min} 家）的域名 → 潜在企业库 / 资讯来源")
+    #    已在渠道库的高频域名无需报备，只报个数；只显性列"不在渠道库、需评估收录"的
+    lines.append(f"## 一、被多家企业共同引用（≥{args.min} 家）且**不在渠道库**的域名 → 需评估收录")
     flagged = sorted(
         [(d, len(s)) for d, s in per_domain_serials.items() if len(s) >= args.min],
         key=lambda x: -x[1],
     )
-    if not flagged:
-        lines.append(f"- 无（当前无任何域名被 {args.min} 家以上企业共同引用；AI 补全时请务必写 `source_urls`）\n")
+    flagged_new = [(d, n) for d, n in flagged if d not in existing]
+    flagged_known = [(d, n) for d, n in flagged if d in existing]
+    if not flagged_new:
+        lines.append(f"- 无（当前无「不在渠道库」的域名被 {args.min} 家以上企业共同引用）")
     else:
-        for d, n in flagged:
-            tag = "【已在渠道表】" if d in existing else "【⚠️ 不在渠道表，建议评估收录】"
-            lines.append(f"- {d} ：被 {n} 家企业引用 （样本 #{per_domain_samples[d]}） {tag}")
-        lines.append("")
+        for d, n in flagged_new:
+            lines.append(f"- {d} ：被 {n} 家企业引用 （样本 #{per_domain_samples[d]}） 【⚠️ 建议评估收录】")
+    if flagged_known:
+        lines.append(f"\n> 另有 {len(flagged_known)} 个高频域名已在渠道库（无需报备）：{'、'.join(d for d, _ in flagged_known[:10])}{' 等' if len(flagged_known) > 10 else ''}")
+    lines.append("")
 
     # 2. 渠道去重比对（只列"跨企业共享"且不在渠道表的域名，过滤企业自家官网噪声）
     lines.append("## 二、渠道去重比对（跨企业共享域名 vs 现有渠道表）")
