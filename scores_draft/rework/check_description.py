@@ -49,8 +49,15 @@ except ImportError:
     ]
 
 # ---- 原始标记残留（D4 检测）----
-RAW_MARKERS = ["【提供资源】", "【需求数源】", "[提供资源]", "[需求数源]",
-               "【来源】", "【备注】", "【待补充】.*未补充"]
+# 说明（2026-07-26 修复）：原实现把所有标记塞进一个列表并用 re.search 匹配，
+# 但半角 "[提供资源]"/"[需求数源]" 在正则里是**字符集**（匹配 提/供/资/源 任一字），
+# 会误杀几乎所有含"提供/资源/源"的中文描述（实测误杀现有库 165/300）。
+# 按文档意图（检测字面占位标记），拆成"字面标记"与"正则标记"两类分别处理。
+RAW_MARKERS_LITERAL = ["【提供资源】", "【需求数源】", "[提供资源]", "[需求数源]",
+                       "【来源】", "【备注】"]
+RAW_MARKERS_REGEX = [r"【待补充】.*未补充"]
+# 兼容旧引用
+RAW_MARKERS = RAW_MARKERS_LITERAL + RAW_MARKERS_REGEX
 
 
 def content_len(s):
@@ -97,7 +104,10 @@ def validate_desc(e, skip=None):
 
     # ── D4：原始标记残留 ──
     if "D4" not in skip and desc and isinstance(desc, str):
-        for m in RAW_MARKERS:
+        for m in RAW_MARKERS_LITERAL:
+            if m in desc:                       # 字面子串匹配，方括号不再当字符集
+                issues.append(f"D4:原始标记残留[{m}]")
+        for m in RAW_MARKERS_REGEX:
             if re.search(m, desc):
                 issues.append(f"D4:原始标记残留[{m}]")
 
