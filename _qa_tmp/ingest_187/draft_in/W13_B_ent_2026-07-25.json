@@ -1,0 +1,558 @@
+[
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Point",
+  "website": "https://www.point.com",
+  "country": "美国",
+  "track": "老年金融(以房养老)",
+  "business": "房屋净值投资（HEI）：无月供、最长 30 年，帮退休者释放房产现金",
+  "funding_raw": "未披露",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "房屋净值投资（HEI）：无月供、最长 30 年，帮退休者释放房产现金；【银发相关性(已校验)：强相关】；借鉴点：以房养老 HEI 模式（无月供、最长30年房屋净值投资），国内『以房养老』反向抵押可借鉴其金融产品设计",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "老年",
+   "退休"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Everdays",
+  "website": "https://www.everdays.com",
+  "country": "美国",
+  "track": "老年金融(死亡科技/寿险)",
+  "business": "临终/丧葬费用终身寿险与事后事务简化（无体检、即时承保）",
+  "funding_raw": "未披露",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "临终/丧葬费用终身寿险与事后事务简化（无体检、即时承保）；【银发相关性(已校验)：强相关】；借鉴点：临终/丧葬终身寿险数字化，『死亡科技』细分，国内殡葬+保险结合空白",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "老年"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Portea",
+  "website": "https://www.portea.com",
+  "country": "印度",
+  "track": "居家护理(印度)",
+  "business": "印度头部居家医疗，含专属「Elder Care」老人护理，700k+ 年访、40+ 城市",
+  "funding_raw": "未披露（公开报道 Accel 等投资）",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "印度头部居家医疗，含专属「Elder Care」老人护理，700k+ 年访、40+ 城市；【银发相关性(已校验)：强相关】；借鉴点：印度居家医疗龙头，Elder Care 专项线，新兴市场中产居家养老范本",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "居家护理",
+   "护理",
+   "elder care"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Estia Health",
+  "website": "https://www.estiahealth.com.au",
+  "country": "澳大利亚",
+  "track": "养老运营(住宅护理)",
+  "business": "澳洲上市住宅养老护理运营商（失能/认知症/姑息/短期喘息）",
+  "funding_raw": "ASX 上市（EHL）",
+  "fund": "",
+  "status_raw": "上市·现役(ASX:EHL)",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "澳洲上市住宅养老护理运营商（失能/认知症/姑息/短期喘息）；【银发相关性(已校验)：强相关】；sld共享,疑似误报,需人工确认是否真重复；借鉴点：澳洲上市住宅养老护理（失智/安宁/喘息），受 Aged Care Quality Commission 强监管范式",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "护理",
+   "认知症",
+   "失智",
+   "失能"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Regis Healthcare",
+  "website": "https://www.regis.com.au",
+  "country": "澳大利亚",
+  "track": "养老运营(住宅护理)",
+  "business": "澳洲本土养老护理运营商，30+ 年、全国网点",
+  "funding_raw": "ASX 上市（REG）",
+  "fund": "",
+  "status_raw": "上市·现役(ASX:REG)",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "澳洲本土养老护理运营商，30+ 年、全国网点；【银发相关性(已校验)：强相关】；sld共享,疑似误报,需人工确认是否真重复；借鉴点：澳洲全国 aged care 运营 30+ 年，规模化 residential+home care 运营",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "护理",
+   "aged care",
+   "home care"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Buurtzorg",
+  "website": "https://www.buurtzorg.com",
+  "country": "荷兰",
+  "track": "居家照护(自组织模式)",
+  "business": "自组织护士团队居家照护模式（850 队、1.4 万护士、24 国），去官僚化标杆",
+  "funding_raw": "社会组织/非营利（无外部融资）",
+  "fund": "",
+  "status_raw": "社会组织/非营利",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "自组织护士团队居家照护模式（850 队、1.4 万护士、24 国），去官僚化标杆；【银发相关性(已校验)：强相关】；借鉴点：自组织护士团队居家护理标杆（850队/24国），去官僚化模式对国内社区护理极具借鉴",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "居家护理",
+   "居家照护",
+   "护理",
+   "照护"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Careswitch",
+  "website": "https://www.careswitch.com",
+  "country": "美国",
+  "track": "居家照护科技(SaaS)",
+  "business": "AI 驱动的居家护理操作系统（排班/计费/授权风控/呼叫补缺）",
+  "funding_raw": "未披露",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "AI 驱动的居家护理操作系统（排班/计费/授权风控/呼叫补缺）；【银发相关性(已校验)：强相关】；借鉴点：AI 居家护理操作系统（排班/计费/风控），居家护理机构 SaaS 工具链",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "居家护理",
+   "居家照护",
+   "护理",
+   "照护"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "HHAeXchange",
+  "website": "https://www.hhaexchange.com",
+  "country": "美国",
+  "track": "长护险支付/照护 SaaS",
+  "business": "居家与社区照护（HCBS）连接供应商/支付方/护理员 SaaS，$38B 年支付管理",
+  "funding_raw": "未披露（公开报道累计约 $2 亿+，需校验）",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "居家与社区照护（HCBS）连接供应商/支付方/护理员 SaaS，$38B 年支付管理；【银发相关性(已校验)：强相关】；借鉴点：HCBS 长护支付平台连接 provider/payer/caregiver，$38B 年支付管理——长护险支付基础设施范式",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "护理",
+   "照护",
+   "caregiver"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Helite",
+  "website": "https://www.helite.com",
+  "country": "法国",
+  "track": "适老硬件(防跌倒)",
+  "business": "气囊髋部防护穿戴（sénior & mobilité urbaine），Made in France，2002 起",
+  "funding_raw": "私营（未披露）",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "mid",
+  "relevance_raw": "弱相关",
+  "note_raw": "气囊髋部防护穿戴（sénior & mobilité urbaine），Made in France，2002 起；【银发相关性(已校验)：弱相关】；借鉴点：气囊髋部防护穿戴，银发仅为其多业务线之一（弱相关），但 senior 跌倒防护线真实",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "适老",
+   "senior"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Cano Health",
+  "website": "https://www.canohealth.com",
+  "country": "美国(佛州)",
+  "track": "价值型初级保健",
+  "business": "价值型初级保健+「Cano at Home」，主攻 Medicare/双重资格老人",
+  "funding_raw": "曾 NYSE:CANO，2023 私有化；近期经营承压，状态需校验",
+  "fund": "",
+  "status_raw": "已私有化(原NYSE:CANO, 2023)",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "价值型初级保健+「Cano at Home」，主攻 Medicare/双重资格老人；【银发相关性(已校验)：强相关】；借鉴点：价值型初级保健+Cano at Home，Medicare 老人主轴——反共识：Oak Street 式『保险+医疗』闭环可借鉴，亦需吸取关店教训",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "medicare"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Aidaly",
+  "website": "aidaly.com",
+  "country": "美国",
+  "track": "居家照护(家属照护中介)",
+  "business": "把家属培训成「带薪家庭照护者」的软件化居家照护中介 ||另批(W9-W10_企): 把家庭无偿护理变有偿工作，发薪+税务福利管理",
+  "funding_raw": "Primetime 被投；早期 ||另批(W9-W10_企): 未披露",
+  "fund": "Primetime",
+  "status_raw": "初创(Primetime被投)",
+  "research_value_raw": "high ||另批(W9-W10_企): 照护者有偿化反常识，对标长护险家属补贴",
+  "relevance_raw": "强相关",
+  "note_raw": "把家属培训成「带薪家庭照护者」的软件化居家照护中介；【银发相关性(已校验)：强相关】；借鉴点：把家属培训成带薪家庭照护者，软件化居家照护中介，盘活家庭劳动力",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "居家照护",
+   "照护"
+  ],
+  "_verdict": "keep",
+  "_merged_from": [
+   "W9-W10_企业74条_2026-07-25"
+  ]
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "SafeRide Health",
+  "website": "saferidehealth.com",
+  "country": "美国",
+  "track": "就医接送(NEMT)",
+  "business": "为 Medicaid/Medicare 成员安排非紧急就医接送(NEMT)",
+  "funding_raw": "Primetime 被投",
+  "fund": "",
+  "status_raw": "私营(Primetime被投)",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "为 Medicaid/Medicare 成员安排非紧急就医接送(NEMT)；【银发相关性(已校验)：强相关】；借鉴点：NEMT 非紧急就医接送平台，连接 Medicare/Medicaid 最脆弱成员，老年慢病刚需",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "老年",
+   "慢病",
+   "medicare",
+   "medicaid"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Ambea",
+  "website": "ambea.se",
+  "country": "瑞典",
+  "track": "养老运营(北欧龙头)",
+  "business": "北欧养老护理龙头（Vardaga 养老院+居家护理）",
+  "funding_raw": "斯德哥尔摩上市",
+  "fund": "",
+  "status_raw": "上市·现役(斯德哥尔摩)",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "北欧养老护理龙头（Vardaga 养老院+居家护理）；【银发相关性(已校验)：强相关】；借鉴点：北欧养老护理龙头（Vardaga 养老院+居家），18,000 被照护者、1,050 机构",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "居家护理",
+   "护理",
+   "养老院",
+   "照护"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Attendo",
+  "website": "attendo.se",
+  "country": "瑞典",
+  "track": "养老运营(北欧)",
+  "business": "北欧养老/居家护理服务商（1985年起）",
+  "funding_raw": "斯德哥尔摩上市 OMX:ATT",
+  "fund": "",
+  "status_raw": "上市·现役(OMX:ATT)",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "北欧养老/居家护理服务商（1985年起）；【银发相关性(已校验)：强相关】；借鉴点：瑞典养老/居家护理 1985 起，北欧领先私营运营商",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "居家护理",
+   "护理"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Care UK",
+  "website": "careuk.com",
+  "country": "英国",
+  "track": "养老运营(养老院)",
+  "business": "英国大型养老院运营商（260+院舍，含痴呆/护理）",
+  "funding_raw": "私有大型",
+  "fund": "",
+  "status_raw": "私营·大型",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "英国大型养老院运营商（260+院舍，含痴呆/护理）；【银发相关性(已校验)：强相关】；借鉴点：英国 260+ 养老院（含痴呆/护理），大规模 residential care 运营",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "护理",
+   "痴呆",
+   "养老院"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "HC-One",
+  "website": "hc-one.co.uk",
+  "country": "英国",
+  "track": "养老运营(护理院)",
+  "business": "英国大型养老护理院（住宅/护理/痴呆）",
+  "funding_raw": "私有大型（~280院舍）",
+  "fund": "",
+  "status_raw": "私营·大型",
+  "research_value_raw": "s-high",
+  "relevance_raw": "强相关",
+  "note_raw": "英国大型养老护理院（住宅/护理/痴呆）；【银发相关性(已校验)：强相关】；sld共享,疑似误报,需人工确认是否真重复；借鉴点：英国大型养老护理院（住宅/护理/痴呆），『Caring with Kindness』品牌",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "护理",
+   "痴呆",
+   "护理院"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "StoriiCare",
+  "website": "storii.care",
+  "country": "英美",
+  "track": "养老机构 EHR",
+  "business": "养老机构 EHR/照护管理+家庭参与平台",
+  "funding_raw": "私营",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "养老机构 EHR/照护管理+家庭参与平台；【银发相关性(已校验)：强相关】；借鉴点：养老机构/成人日托 EHR + 家庭参与平台，照护数字化记录",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "照护"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Core.Care",
+  "website": "corecare.io",
+  "country": "美国",
+  "track": "长护机构收入合规",
+  "business": "技能护理机构(LTC)收入合规/医保对账 AI 平台",
+  "funding_raw": "私营",
+  "fund": "",
+  "status_raw": "私营",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "技能护理机构(LTC)收入合规/医保对账 AI 平台；【银发相关性(已校验)：强相关】；借鉴点：技能护理机构(LTC)收入合规/医保对账 AI，养老长护机构 B2B 财务合规软件",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "护理"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Helpany (Paul)",
+  "website": "helpany.com",
+  "country": "美/瑞",
+  "track": "适老监测(防跌倒雷达) ||并(W9-W10_): 雷达跌倒预防",
+  "business": "雷达+AI 防跌倒设备（无摄像头/麦克风），用于养老机构 ||并(W9-W10_): 雷达隐私级跌倒预防",
+  "funding_raw": "初创（奖项背书） ||并(W9-W10_): 未披露",
+  "fund": "并(W9-W10_): W10渠道线索",
+  "status_raw": "初创",
+  "research_value_raw": "high ||并(W9-W10_): 隐私传感赛道",
+  "relevance_raw": "强相关",
+  "note_raw": "雷达+AI 防跌倒设备（无摄像头/麦克风），用于养老机构；【银发相关性(已校验)：强相关】；借鉴点：雷达+AI 防跌倒（无摄像头/麦克风），养老机构安全监测",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "养老",
+   "适老"
+  ],
+  "_verdict": "keep",
+  "_merged_internal": [
+   "W9-W10_企业74条_2026-07-25"
+  ]
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Pontosense",
+  "website": "pontosense.com",
+  "country": "加/美",
+  "track": "适老监测(雷达)",
+  "business": "隐私优先雷达，24/7 老人安全/活动监测（无穿戴）",
+  "funding_raw": "融资",
+  "fund": "",
+  "status_raw": "私营(融资)",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "隐私优先雷达，24/7 老人安全/活动监测（无穿戴）；【银发相关性(已校验)：强相关】；借鉴点：隐私优先雷达 24/7 老人安全/活动监测（无穿戴），适老监测硬件",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "适老"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Total Life",
+  "website": "totallife.com",
+  "country": "美国",
+  "track": "老年心理健康",
+  "business": "Medicare 覆盖的老年人心理咨询/认知测评（远程）",
+  "funding_raw": "Primetime 被投",
+  "fund": "",
+  "status_raw": "私营(Primetime被投)",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "Medicare 覆盖的老年人心理咨询/认知测评（远程）；【银发相关性(已校验)：强相关】；借鉴点：Medicare 覆盖的老年人心理咨询/认知测评，老年精神健康远程服务",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "老年",
+   "medicare"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Yes Hearing",
+  "website": "yeshearing.com",
+  "country": "美国",
+  "track": "老年听力(到家助听)",
+  "business": "上门验配+低价助听器（in-home audiologist）",
+  "funding_raw": "Primetime 被投",
+  "fund": "",
+  "status_raw": "私营(Primetime被投)",
+  "research_value_raw": "high",
+  "relevance_raw": "强相关",
+  "note_raw": "上门验配+低价助听器（in-home audiologist）；【银发相关性(已校验)：强相关】；借鉴点：上门验配+低价助听器（in-home audiologist），老年听力服务到家",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "老年"
+  ],
+  "_verdict": "keep"
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Retirable",
+  "website": "retirable.com",
+  "country": "美国",
+  "track": "退休理财",
+  "business": "退休人员专属 fiduciary 财务规划+收入管理 ||另批(W9-W10_企): 订阅式退休理财顾问",
+  "funding_raw": "Primetime 被投 ||另批(W9-W10_企): 未披露",
+  "fund": "Primetime",
+  "status_raw": "私营(Primetime被投)",
+  "research_value_raw": "high ||另批(W9-W10_企): 中国退休规划服务稀缺可对标",
+  "relevance_raw": "强相关",
+  "note_raw": "退休人员专属 fiduciary 财务规划+收入管理；【银发相关性(已校验)：强相关】；借鉴点：退休人员专属 fiduciary 财务规划+收入管理，退休理财顾问模式",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "退休"
+  ],
+  "_verdict": "keep",
+  "_merged_from": [
+   "W9-W10_企业74条_2026-07-25"
+  ]
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Rosarium Health",
+  "website": "rosariumhealth.com",
+  "country": "美国",
+  "track": "居家适老化改造",
+  "business": "通过健康险付费的居家适老化改造（OT/PT评估+施工） ||另批(W9-W10_企): 职业治疗师×家装公司平台",
+  "funding_raw": "Primetime 被投 ||另批(W9-W10_企): 未披露",
+  "fund": "Primetime",
+  "status_raw": "私营(Primetime被投)",
+  "research_value_raw": "high ||另批(W9-W10_企): 对标中国居家适老化改造政策热点",
+  "relevance_raw": "强相关",
+  "note_raw": "通过健康险付费的居家适老化改造（OT/PT评估+施工）；【银发相关性(已校验)：强相关】；借鉴点：通过健康险付费的居家适老化改造（OT/PT评估+施工），适老化改造支付创新",
+  "ticker": "",
+  "_kw_hits": [
+   "银发",
+   "适老",
+   "适老化"
+  ],
+  "_verdict": "keep",
+  "_merged_from": [
+   "W9-W10_企业74条_2026-07-25"
+  ]
+ },
+ {
+  "batch": "W13_B_企业_2026-07-25",
+  "name": "Sam (Quo Labs)",
+  "website": "withsam.com",
+  "country": "美国",
+  "track": "老人陪伴设备 ||并(W9-W10_): AI照护",
+  "business": "语音优先老人陪伴设备+家属 App（无订阅） ||并(W9-W10_): 面向老人的AI照护者",
+  "funding_raw": "Primetime 被投 ||并(W9-W10_): 未披露",
+  "fund": "并(W9-W10_): Magnify",
+  "status_raw": "初创",
+  "research_value_raw": "high ||并(W9-W10_): AI照护者反常识",
+  "relevance_raw": "强相关",
+  "note_raw": "语音优先老人陪伴设备+家属 App（无订阅）；【银发相关性(已校验)：强相关】；借鉴点：语音优先老人陪伴设备+家属 App（无订阅），独居老人陪伴/安全硬件",
+  "ticker": "",
+  "_kw_hits": [
+   "银发"
+  ],
+  "_verdict": "keep",
+  "_merged_internal": [
+   "W9-W10_企业74条_2026-07-25"
+  ]
+ }
+]
