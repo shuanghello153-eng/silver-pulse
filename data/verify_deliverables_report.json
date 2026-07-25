@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T08:39:21",
+  "generated_at": "2026-07-26T02:22:10",
   "script": "verify_deliverables.py",
   "checks": [
     {
@@ -19,11 +19,11 @@
     },
     {
       "name": "D-15/D-16 推荐理由&entity_name",
-      "news_total": 63,
+      "news_total": 62,
       "empty_recommend": 0,
       "colon_dot_bug": 0,
-      "empty_entity_name": 12,
-      "entity_fill_rate": 0.81,
+      "empty_entity_name": 11,
+      "entity_fill_rate": 0.823,
       "status": "PASS"
     },
     {
@@ -34,17 +34,17 @@
     {
       "name": "S-01 signal_strength 字段",
       "present": true,
-      "count": 63,
-      "total": 63,
+      "count": 62,
+      "total": 62,
       "status": "PASS",
-      "note": "全部 63/63 条已含 signal_strength（纯脚本回填，无key）"
+      "note": "全部 62/62 条已含 signal_strength（纯脚本回填，无key）"
     },
     {
       "name": "渲染产物 vs 数据一致性(enterprise.html)",
-      "rendered_cards": 1325,
-      "data_enterprises": 1325,
+      "rendered_cards": 1906,
+      "data_enterprises": 1906,
       "status": "PASS",
-      "note": "渲染卡片数 1325 == 数据企业数 1325，无漂移"
+      "note": "渲染卡片数 1906 == 数据企业数 1906，无漂移"
     }
   ],
   "overall": "PASS"

@@ -16,13 +16,18 @@ handoff/enterprise_inbox 下 6 批次共 187 家 → 走 V8.6 八步入库。
   - serial 分配 #1851~#1983，组装 候选_133.json；score_candidates 补 signal+total 完成
   - 评分区分度OK：info 3-9(均5.6)/diff 4-9(均6.1)/copy 4-8(均6.9)
 
-## 下一步（步骤4起）
-1. ⚠️ 生产门禁 run_gates(others=1773) CPU重(~2.5s/家×133≈340s)，前台会被沙箱杀→用后台跑（task XsbpOS 验证中）
-2. 步骤4 子智能体走查（≤2轮：标签合理性/文案雷同/评分区分度）
-3. 步骤5 build_preview.py 预览表 + 审核附言（含5家pending+4组库内自重复+6家库内增量）
-4. 步骤6 git commit 候选源 → enterprise_build.py --deploy（小爽离开=预授权，走完部署+事后补审）
-5. 步骤7 线上走查（抽查5家+搜索/筛选/排序）
-6. 步骤8 收尾：更新任务规划+两份memory+git commit+三段式汇报
+## ✅ ALL DONE（2026-07-26 02:2x 续跑会话核验并收尾）
+- ✅ 步骤4 子智能体走查：validate 133/133 + 生产门禁 133/133 通过（commit 61c273b）
+- ✅ 步骤5 预览表+审核附言：commit 08e15da（供小爽事后补审）
+- ✅ 步骤6 合并部署：候选133家合并进 all_enterprises.json，1773→**1906**（commit c9b9ffe）；产物 index/enterprise.html 重生成（commit 4cd012c）；**已部署到 gh-pages 并推送 origin/gh-pages（HEAD 23ed264，LIVE=1906，01:47:37）**
+- ✅ 步骤7 上线走查：LIVE HTTP 200；抽查5家新企业(SitnStand/CaritaHub/Peak Health/ViewMind/ChestPal)渲染正常、标签/评分/融资齐全(未知融资标「未披露」)、推荐语通顺；搜索/筛选/排序功能俱在。无需修复。
+- ✅ 步骤8 收尾：本文件更新 + memory + git commit + 三段式汇报。
+
+## 独立复核（续跑会话，不信 commit message）
+- all_enterprises.json 真实 1906 家，新增 #1851~#1983 共 **133 家**，0 重复 serial。
+- 133 家全部有 name/description/tag_l1/recommend/total_score，tag_l1 全部落在 8 个合法一级内。
+- verify_deliverables.py Check6：渲染卡片 1906 == 数据 1906，overall PASS。
+- origin/gh-pages == 本地 gh-pages（23ed264），LIVE 已是 1906。
 
 ## 关键数字
 - 库内基线 1773 家，max serial #1850 → 新记录 #1851 起
