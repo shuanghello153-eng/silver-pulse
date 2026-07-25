@@ -1,0 +1,5693 @@
+[
+  {
+    "serial": "#1851",
+    "name": "Heim Health",
+    "name_cn": "海姆健康",
+    "region": "海外",
+    "country_hint": "英国",
+    "website_url": "https://heim.health",
+    "crunchbase_url": "https://www.crunchbase.com/organization/heim-health",
+    "description": "把注册护士与临床服务送到老人家中，提供急性后期与慢病上门照护，对接英国 NHS 社区护理体系，由临床团队完成评估、换药、监测等家庭病床式服务。",
+    "recommend": "英国国家医保体系下的上门临床护理，把急性后期与慢病管理从医院延伸到卧室，与中国正在推的家庭病床、上门护理高度同构。其调度与护理质量管控方式，对国内社区卫生中心开展居家服务有直观参考。",
+    "tag_l2": [
+      "居家护理",
+      "护士上门"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "英国NHS社区护理支付+个人自费",
+    "funding_latest": {
+      "date": "2024",
+      "amount": "约$3M",
+      "round": "Seed",
+      "display": "Seed ~$3M (2024)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Heal Capital"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.05,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1852",
+    "name": "Zorggenoot",
+    "name_cn": "佐格诺特",
+    "region": "海外",
+    "country_hint": "荷兰",
+    "website_url": "https://zorggenoot.nl",
+    "crunchbase_url": "https://www.crunchbase.com/organization/zorggenoot",
+    "description": "为家庭照护者提供数字化平台与 AI 助手，帮助安排护理日程、获取知识与情绪支持，降低非正式照护者（家属）长期照料带来的倦怠风险。",
+    "recommend": "家庭照护者长期承担繁重劳务却少被看见，这类用数字化工具和 AI 助手缓解照护者倦怠的模式，在国内长护险落地后同样会浮现——家属支持体系如何搭建，是政策之外容易被忽略的一块。",
+    "tag_l2": [
+      "照护支持"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "约$1.92M",
+      "round": "Seed",
+      "display": "Seed ~$1.92M"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "NN Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.05,
+    "total_score": 4.8
+  },
+  {
+    "serial": "#1853",
+    "name": "Grace / MetGrace",
+    "name_cn": "格蕾丝",
+    "region": "海外",
+    "country_hint": "荷兰",
+    "website_url": "https://metgrace.nl",
+    "crunchbase_url": "https://www.crunchbase.com/organization/metgrace",
+    "description": "简化遗产规划与丧亲事务支持，协助家庭在线处理后事安排、遗嘱相关事务与丧亲期间的情绪挑战，把死亡科技做成模块化、可自助操作的线上流程。",
+    "recommend": "身后事与遗产安排在我国仍以线下中介为主，线上化、模块化的处理方式能显著降低普通家庭的决策门槛。围绕死亡与丧亲的情绪支持叠加事务代办，这一类「死亡科技」在国内还处在早期。",
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "NN Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1854",
+    "name": "Remind",
+    "name_cn": "睿敏",
+    "region": "海外",
+    "country_hint": "荷兰",
+    "website_url": "https://remindbrainhealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/remind-brainhealth",
+    "description": "AI 平台通过语音、打字节奏与短测评等低门槛信号，早期识别认知功能变化，预警脑健康退化，将专业认知评估前置到日常数字场景。",
+    "recommend": "认知退化越早识别，后续照护成本与家庭负担越可控。用语音、打字等低门槛信号做日常早筛，把专业评估前置到生活场景，契合国内认知障碍筛查进社区、进公卫的推进方向。",
+    "tag_l2": [
+      "认知筛查"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+B端机构(保险)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "NN Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1855",
+    "name": "Help at Home",
+    "name_cn": "居家帮护",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://helpathome.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/help-at-home",
+    "description": "面向长者与失能人群的上门护理与陪伴服务网络，在全美多州提供个人护理、陪伴与居家支持，由本地护理员团队按标准化流程交付服务。",
+    "recommend": "全美覆盖最广的上门护理网络之一，把护理与陪伴做成标准化可复制的本地服务单元。其规模化运营、人员培训与质量管控经验，对国内居家养老上门服务的连锁化有参照意义，但支付端依赖 Medicaid 的差异需留意。",
+    "tag_l2": [
+      "居家护理",
+      "陪伴服务"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "文娱社交"
+    ],
+    "payor_model": "Medicaid支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ascension Ventures"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1856",
+    "name": "NaviHealth",
+    "name_cn": "纳维健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://navihealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/navihealth",
+    "description": "为 Medicare/Medicaid 人群提供急性后期照护协调与导航，衔接医院出院与社区康复，由支付方买单去降低再入院率与不合理照护支出。",
+    "recommend": "衔接医院出院与社区康复的『院后一段』，由支付方买单去做急性后期照护导航，是控制再入院率的关键环节。国内在病人出院后转接社区、制定出院计划上仍在摸索，这类以支付方为锚点的协调机制值得对照其运行逻辑。",
+    "tag_l2": [
+      "护理协调"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "Medicare/Medicaid支付（政府医保）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ascension Ventures"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1857",
+    "name": "Validic",
+    "name_cn": "瓦利迪克",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://validic.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/validic",
+    "description": "把居家可穿戴设备与医疗仪器数据聚合进临床与保险工作流，提供远程患者监测（RPM）的数据接入与标准化层，服务医院、保险与药企。",
+    "recommend": "把分散在手表、血压计、血糖仪里的居家数据统一接进临床与保险系统，是远程监测真正落地的基建层。国内险企与互联网医院也在做健康数据打通，其数据标准与接入范式有可借鉴之处。",
+    "tag_l2": [
+      "远程护理",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "康复辅具"
+    ],
+    "payor_model": "B端机构(医院/保险)采购+个人",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Philips Ventures"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1858",
+    "name": "Mytonomy",
+    "name_cn": "麦托诺米",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://mytonomy.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/mytonomy",
+    "description": "以短视频内容引擎做患者教育与用药依从管理，把医嘱翻译成看得懂、记得住的内容，服务慢病与老年人群，售往医院与保险机构。",
+    "recommend": "慢病老人最缺的往往不是药物而是理解与执行，用短视频把医嘱翻译成看得懂、记得住的内容，直接影响用药依从与复诊。这种模式轻、复制快，适合作为国内互联网医院患者教育的补充形态。",
+    "tag_l2": [
+      "慢病管理",
+      "用药管理"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "康复辅具"
+    ],
+    "payor_model": "B端机构(医院/保险)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Philips Ventures"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1859",
+    "name": "Allm",
+    "name_cn": "奥尔姆",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://allm.net",
+    "crunchbase_url": "https://www.crunchbase.com/organization/allm",
+    "description": "Join/Team 系列医疗 ICT 工具连接医生、患者与多职种人员，涵盖医嘱共享、随访与访问护理协作，服务于日本诊所、医院与家访护理机构。",
+    "recommend": "日本老龄化更早更深，其连接医生、护士与家访护理的多职种协作工具，建立在介护保险体系之上，与我国长护险有近似的制度土壤。这类协同软件对国内护理站与家庭病床的跨机构联动有参考价值。",
+    "tag_l2": [
+      "居家护理",
+      "远程医疗"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构(医院/诊所)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Philips Ventures"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1860",
+    "name": "BioIntelliSense",
+    "name_cn": "拜奥智能",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://biointellisense.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/biointellisense",
+    "description": "BioButton 连续监测贴片持续采集体温、心率、血氧等体征，对失能、术后与慢病老人群体做恶化预警，数据接入临床监护工作流。",
+    "recommend": "一枚可连续监测体温、心率、血氧的贴片，把体征预警从病房带到居家，对失能、术后老人群体尤其实用。其传感器微型化与临床级数据可靠性，是国内可穿戴企业做医疗纵深时值得留意的工程方向。",
+    "tag_l2": [
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构(医院/保险)采购+个人",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Philips Ventures"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1861",
+    "name": "DearHealth",
+    "name_cn": "迪尔健康",
+    "region": "海外",
+    "country_hint": "荷兰",
+    "website_url": "https://dearhealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/dearhealth",
+    "description": "以动态风险分层驱动慢病照护路径，结合决策支持把有限的医护资源投向最需要的群体，服务保险与医疗机构的整合照护管理。",
+    "recommend": "按动态风险把慢病人群分层，再匹配差异化的照护路径与决策支持，本质是让有限医护资源投向最需要的人。这种以风险分层驱动路径分发的思路，对国内整合照护与家庭医生签约管理有启发。",
+    "tag_l2": [
+      "慢病管理",
+      "护理协调"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构(保险/医院)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Philips Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1862",
+    "name": "Timeline / Mitopure",
+    "name_cn": "泰姆莱恩",
+    "region": "海外",
+    "country_hint": "瑞士",
+    "website_url": "https://timeline.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/timeline-nutrition",
+    "description": "以经临床验证的 Urolithin A 线粒体抗衰成分为核心，推出 Mitopure 营养补剂，面向关注健康衰老的消费者做直接面向个人的零售。",
+    "recommend": "以临床验证的线粒体抗衰成分切入营养补剂，把「长寿科学」做成可日常消费的产品，是抗衰从概念走向货架的代表。国内银发营养与抗衰老消费正在升温，其科学传播与合规宣称方式值得研究。",
+    "tag_l2": [
+      "长寿抗衰",
+      "膳食补充剂"
+    ],
+    "tag_l1": [
+      "消费品",
+      "食品营养"
+    ],
+    "payor_model": "个人自费(零售)",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Nestlé Health Science"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.3
+  },
+  {
+    "serial": "#1863",
+    "name": "ViewMind",
+    "name_cn": "维尤明德",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://viewmind.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/viewmind",
+    "description": "用眼动轨迹与认知任务量化脑健康「生命体征」，支持神经退行性疾病的早期诊断和病程监测，门槛低、可高频次重复，服务科研机构与临床。",
+    "recommend": "通过眼动轨迹与认知任务给脑健康打「生命体征」，既可用于早诊也能做病程监测，门槛低、可频次高。在认知障碍管理被纳入公共卫生议题的当下，这种量化手段提供了可规模化的评估入口。",
+    "tag_l2": [
+      "认知筛查"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购+个人",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "A轮",
+      "display": "A轮（未披露）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1864",
+    "name": "Macuject",
+    "name_cn": "麦视捷",
+    "region": "海外",
+    "country_hint": "澳大利亚",
+    "website_url": "https://macuject.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/macuject",
+    "description": "AI 量化眼底积液，为年龄相关性黄斑变性（AMD）提供临床决策支持 SaaS，把主观读片变成可追踪的积液指标，服务眼科诊所与随访管理。",
+    "recommend": "针对老年致盲主因之一的黄斑变性，用 AI 量化眼底积液辅助临床决策，把主观读片变成可追踪的指标。国内眼底筛查 AI 已不少，但其聚焦积液随访、服务复诊决策的定位有差异点。",
+    "tag_l2": [
+      "远程医疗"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构(眼科诊所/医院)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "Seed",
+      "display": "Seed（未披露）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1865",
+    "name": "Lifeyear",
+    "name_cn": "生命年",
+    "region": "海外",
+    "country_hint": "英国/爱沙尼亚",
+    "website_url": "https://lifeyear.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/lifeyear",
+    "description": "通过智能手机与居家设备做心血管患者远程管理，提供风险预警与用药调整，业务横跨英国与爱沙尼亚并对接两地医保体系。",
+    "recommend": "把心血管随访从门诊搬到手机与居家，借助远程监测做风险预警与用药调整，与国内推的家庭病床、居家心电监测方向一致。其跨区域（英/爱沙尼亚）的医保对接经验对跨境或异地管理有提示。",
+    "tag_l2": [
+      "心血管"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "payor_model": "政府医保(NHS)支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "€2.8M",
+      "round": "未披露",
+      "display": "€2.8M 轮（含€1.5M政府补助）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1866",
+    "name": "Health2Sync",
+    "name_cn": "健康联动",
+    "region": "海外",
+    "country_hint": "台湾",
+    "website_url": "https://health2sync.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/health2sync",
+    "description": "东亚地区用户规模领先的糖尿病数字管理平台，联动本人、家属与医护，提供血糖记录、趋势分析与远程指导，面向糖尿病与代谢指标管理。",
+    "recommend": "作为东亚地区用户规模领先的糖尿病数字管理平台，它把家属、医护与本人拉进同一个管理网络，贴合华人家庭照护习惯。同文同种的慢病管理经验，对大陆地区糖尿病与代谢指标管理有较高的就近参照价值。",
+    "tag_l2": [
+      "慢病管理",
+      "糖尿病"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "食品营养"
+    ],
+    "payor_model": "个人自费+B端(保险/企业)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.9
+  },
+  {
+    "serial": "#1867",
+    "name": "Vigor",
+    "name_cn": "维格",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://hellovigor.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/vigor",
+    "description": "把心肺慢病的居家康复与护理协调收进一个指挥平台，让患者在家按路径完成心脏与肺部康复、慢病管理，减少再入院，对接商业保险与 Medicare。",
+    "recommend": "把心肺慢病的居家康复与护理协调收进一个指挥平台，让患者在家也能按路径完成康复，减少再入院。国内居家康复尚在起步，这类把康复处方落到日常生活的组织方式，对国内服务设计有参照。",
+    "tag_l2": [
+      "居家护理",
+      "居家康复"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "商业保险/Medicare支付+个人",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1868",
+    "name": "OLI Technologies",
+    "name_cn": "奥利科技",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://oli.inc",
+    "crunchbase_url": "https://www.crunchbase.com/organization/oli-technologies",
+    "description": "研发便携式居家血液透析系统，把终末期肾病的透析治疗从透析中心搬到患者家中，面向需长期透析的肾衰人群，技术门槛高、监管路径长。",
+    "recommend": "把血液透析从透析中心搬到居家、做成便携式系统，是终末期肾病照护去机构化的大胆尝试。技术门槛高、监管路径长，国内若要推进透析居家化，其工程路径与支付方案都需重点研判。",
+    "tag_l2": [
+      "医疗器械"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "医保(Medicare)/保险支付+个人",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "Seed",
+      "display": "Seed（未披露）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1869",
+    "name": "ChestPal",
+    "name_cn": "胸伴",
+    "region": "海外",
+    "country_hint": "英国",
+    "website_url": "https://chestpal.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/chestpal",
+    "description": "蓝牙听诊器自动识别啰音与哮鸣，辅助 COPD、肺炎等呼吸慢病的早诊与居家监测，面向基层诊所、养老机构与个人用户。",
+    "recommend": "一只蓝牙听诊器自动分辨啰音与哮鸣，让 COPD、肺炎等呼吸慢病在基层和居家就能早一步发现。国内呼吸慢病负担重、基层听诊能力不均，这类轻量硬件辅助诊断的思路有落地土壤。",
+    "tag_l2": [
+      "医疗器械",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "康复辅具",
+      "养老服务"
+    ],
+    "payor_model": "B端机构(诊所/医院)采购+个人",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1870",
+    "name": "Akari Hosho (あかり保証)",
+    "name_cn": "光明保证",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://akarihosho.jp",
+    "crunchbase_url": "https://www.crunchbase.com/organization/akari-hosho",
+    "description": "由律师与护理专家网络组成，为无亲属老人提供法律上的「家族代行」身元保证与终身支援，覆盖事务代办、护理资源对接与身后事安排。",
+    "recommend": "为没有亲属的老人担任法律上的「家族代行」，把身元保证、终身支援与护理资源打包，回应的是独居化社会的极端痛点。国内意定监护与陪诊代办刚萌芽，这类代际托付模式提供了制度之外的组织样本。",
+    "tag_l2": [
+      "遗产规划",
+      "照护支持"
+    ],
+    "tag_l1": [
+      "金融保险",
+      "养老服务"
+    ],
+    "payor_model": "个人自费(服务订阅)",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "约¥1.3亿($1.4M)",
+      "display": "累计约¥1.3亿($1.4M)"
+    },
+    "investors": [
+      "Incubate Fund"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 8.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.9
+  },
+  {
+    "serial": "#1871",
+    "name": "Braingear",
+    "name_cn": "脑 Gear（脑能）",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "https://dagear.net",
+    "crunchbase_url": "https://www.crunchbase.com/organization/braingear",
+    "description": "韩国研发的 SleePYA 红外光脑康复睡眠穿戴设备，面向认知障碍人群提供家用认知康复与睡眠干预，通过可穿戴硬件在家庭场景进行非药物干预。",
+    "recommend": "认知障碍家庭干预在东亚老龄化社会需求明确，非药物可穿戴方案把康复从机构搬回卧室，国内适老辅具多停留在定位呼叫，脑刺激类家用器械尚少见，具备产品形态借鉴空间。",
+    "tag_l2": [
+      "认知症",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "康复辅具"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Big Bang Angels"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1872",
+    "name": "Promisope / Careple",
+    "name_cn": "普罗米索普（Careple）",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "https://promisope.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/promisope",
+    "description": "韩国照护记录云平台，为残障与失能患者照护机构提供数据管理、护理记录电子化与运营分析，帮助机构沉淀照护过程数据并提升管理效率。",
+    "recommend": "机构照护数据的结构化在国内长护险落地后价值凸显，把分散的护理记录转为可分析资产，比单纯排班软件更贴近支付与质控，国内同类机构级数据平台尚不多见。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "2021",
+      "amount": "未披露",
+      "round": "A轮",
+      "display": "A轮 (2021, Big Bang Angels 等)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Big Bang Angels"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1873",
+    "name": "SoundEye",
+    "name_cn": "声眼",
+    "region": "海外",
+    "country_hint": "新加坡",
+    "website_url": "https://sound-eye.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/soundeye",
+    "description": "新加坡企业利用声纹识别与激光雷达等音频传感技术实现无摄像头老人安全监测，在保护隐私前提下侦测跌倒与异常活动，面向居家与机构场景。",
+    "recommend": "隐私优先的监测路线在国内适老改造中讨论多但落地少，声音加雷达避开摄像头敏感点，对独居老人看护有现实适配，值得观察其误报率与成本曲线。",
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费（机构集采）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Quest Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1874",
+    "name": "SG Assist",
+    "name_cn": "SG 安助",
+    "region": "海外",
+    "country_hint": "新加坡",
+    "website_url": "https://sgassist.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/sg-assist",
+    "description": "新加坡居家养老平台，为本地老人整合照护协调、生活服务与就医陪同等资源，由单一入口调度上门服务与机构对接，降低家庭寻找照护资源的门槛。",
+    "recommend": "城市级居家照护调度在人口密集城市有天然需求，把零散服务方接入统一平台，对国内市级养老服务平台有参照，关键看供需匹配效率与服务质量控制。",
+    "tag_l2": [
+      "护理协调",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费（部分政府补贴）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Quest Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1875",
+    "name": "Tricog Health",
+    "name_cn": "特里科格健康",
+    "region": "海外",
+    "country_hint": "印度/新加坡",
+    "website_url": "https://tricog.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/tricog-health",
+    "description": "印度与新加坡企业的便携心电设备结合云端 AI 诊断，面向基层诊所与居家场景提供快速心律失常识别，把心电图解读能力下沉到资源不足地区。",
+    "recommend": "基层心电 AI 诊断在我国县域医共体与社区医院同样存在缺口，设备轻、云端判读的模式利于铺量，其诊断准确率与院内落地路径是关键看点。",
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "机构采购（基层诊所）+个人自费",
+    "funding_latest": {
+      "date": "2023",
+      "amount": "$8.5M",
+      "round": "B轮",
+      "display": "Series B $8.5M (2023)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "SGInnovate"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1876",
+    "name": "HealthBeacon",
+    "name_cn": "健康蜂巢",
+    "region": "海外",
+    "country_hint": "爱尔兰",
+    "website_url": "https://healthbeacon.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/healthbeacon",
+    "description": "爱尔兰上市企业推出智能锐器盒，记录患者注射类药物的用药时间与剂量，提升慢性病自我注射的依从性，并通过数据反馈帮助医患管理疗程。",
+    "recommend": "注射类慢病用药依从性管理在国内糖尿病与自免患者群中同样突出，硬件结合数据的方案比单纯提醒更能形成管理回路，其把设备嵌入医保报销与药企渠道的打法值得对照。",
+    "tag_l2": [
+      "用药管理"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费（部分医保覆盖）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（奥斯陆证交所上市）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "上市",
+    "founded": "未搜到",
+    "info_score": 9.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.5
+  },
+  {
+    "serial": "#1877",
+    "name": "Doccla",
+    "name_cn": "多克拉",
+    "region": "海外",
+    "country_hint": "英国",
+    "website_url": "https://doccla.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/doccla",
+    "description": "英国虚拟病房与居家远程患者监测平台，承接 NHS 体系内的慢病与术后居家监护，通过连网设备把患者生命体征实时回传医护团队，减少非必要住院。",
+    "recommend": "虚拟病房模式与我国推进的家庭医生签约和居家监护方向一致，依托公立医疗体系的规模化路径值得研究，对国内院外监测商业化有参照。",
+    "tag_l2": [
+      "远程医疗",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府支付（NHS体系）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Speedinvest"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.9
+  },
+  {
+    "serial": "#1878",
+    "name": "Afilio",
+    "name_cn": "阿菲利奥",
+    "region": "海外",
+    "country_hint": "德国",
+    "website_url": "https://afilio.de",
+    "crunchbase_url": "https://www.crunchbase.com/organization/afilio",
+    "description": "德国养老规划平台，把遗嘱订立、护理等级申请与身元保证（财务担保）整合为线上一体化服务，帮助家庭应对失能后的法律与照护安排。",
+    "recommend": "把失能后的法律手续与财务担保做成标准化线上产品，在德国长护体系下有清晰刚需，国内遗产与意定监护服务仍分散在线下，产品化空间值得注意。",
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "2021-08",
+      "amount": "$13M",
+      "round": "A轮",
+      "display": "Series A $13M (2021-08)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "CommerzVentures",
+      "Speedinvest",
+      "Cherry Ventures",
+      "Cavalry Ventures"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 2.55,
+    "total_score": 5.7
+  },
+  {
+    "serial": "#1879",
+    "name": "OKHOME",
+    "name_cn": "OK 家护",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "https://okhome.co.kr",
+    "crunchbase_url": "https://www.crunchbase.com/organization/okhome",
+    "description": "韩国上门照护平台，通过应用调度护理员为长者提供居家护理与生活辅助服务（방문요양），并以科技手段做排班、考勤与服务过程管理。",
+    "recommend": "韩国上门照护已纳入长护险支付，平台化调度与国内网约护理方向一致，其排班与过程管理经验对国内长护险定点机构有参照，差异在支付方成熟度。",
+    "tag_l2": [
+      "居家护理",
+      "照护支持"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "长护险支付（韩国）+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "种子期/成长期",
+      "display": "Seed (Kakao Ventures等) 及 Series A (POSCO等)，金额未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Kakao Ventures",
+      "SpringCamp",
+      "POSCO"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1880",
+    "name": "CareRing",
+    "name_cn": "关怀环（CareRing）",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "https://carering.co.kr",
+    "crunchbase_url": "https://www.crunchbase.com/organization/carering",
+    "description": "韩国照护匹配平台，依据政府评定的护理等级为老人匹配合适护理员，并调度上门照护服务，把长护险受益人与护理劳动力连接起来。",
+    "recommend": "护理等级驱动的上门照护匹配，把支付资质与服务供给直接挂钩，对国内长护险定点护理派单有现实参照，难点在护理员供给与服务质量标准化。",
+    "tag_l2": [
+      "护工平台",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "长护险支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "A轮",
+      "display": "A轮（约₩300亿，LB Investment 等，金额未官方确认）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "LB Investment",
+      "SV Investment",
+      "KB Investment",
+      "Aju IB",
+      "NH",
+      "Kyobo"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1881",
+    "name": "Caring / 케어링",
+    "name_cn": "凯琳（Caring）",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "https://caring.co.kr",
+    "crunchbase_url": "https://www.crunchbase.com/organization/caring",
+    "description": "韩国综合老年照护平台，业务覆盖上门访问照护、家庭照护支持、日间照料与银发小镇运营，为不同照护等级老人提供从居家到社区的连续服务。",
+    "recommend": "居家到社区再到小镇的连续照护链条，对应国内构建居家社区机构协调体系的提法，其多业态协同与获客方式值得观察，关键在重资产小镇的回报周期。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "长护险支付+个人自费+机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "LB Investment"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.8
+  },
+  {
+    "serial": "#1882",
+    "name": "Umps Health",
+    "name_cn": "昂普斯健康",
+    "region": "海外",
+    "country_hint": "澳大利亚",
+    "website_url": "https://umpshealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/umps-health",
+    "description": "澳大利亚企业采用非侵入式传感器结合 AI，持续监测独居老人的日常活动与异常状态，把被动照护转为主动预警，降低跌倒与突发状况的漏报。",
+    "recommend": "从被动响应转为主动预警的思路，契合国内独居老人规模扩大的现实，传感器部署成本与误报控制决定普及速度，其无感化路线比可穿戴更易被长者接受。",
+    "tag_l2": [
+      "跌倒监测",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费+政府补贴",
+    "funding_latest": {
+      "date": "2024",
+      "amount": "$2M",
+      "round": "A轮",
+      "display": "Series A $2M (2024)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Breakthrough Victoria"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.05,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1883",
+    "name": "The Goodfellows",
+    "name_cn": "好伙伴（The Goodfellows）",
+    "region": "海外",
+    "country_hint": "印度",
+    "website_url": "https://thegoodfellows.in",
+    "crunchbase_url": "https://www.crunchbase.com/organization/the-goodfellows",
+    "description": "印度代际陪伴服务，招募年轻「Goodfellow」为独居老人提供定期陪伴、就医陪诊与智能设备教学，以人力陪伴弥补家庭照护缺位。",
+    "recommend": "青年陪伴弥补独居老人情感与事务缺口的模式，与国内时间银行、青年陪诊的探索同源，其双边匹配与人力供给可持续性值得比较，付费意愿是主要变量。",
+    "tag_l2": [
+      "陪伴服务",
+      "陪诊"
+    ],
+    "tag_l1": [
+      "文娱社交",
+      "养老服务"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "天使轮",
+      "display": "天使轮（Ratan Tata 等）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ratan Tata",
+      "天使投资人"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1884",
+    "name": "Kinoxis Therapeutics",
+    "name_cn": "基诺西斯制药",
+    "region": "海外",
+    "country_hint": "澳大利亚",
+    "website_url": "https://kinoxistherapeutics.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/kinoxis-therapeutics",
+    "description": "澳大利亚生物制药企业开发非镇静式的痴呆激越药物 KNX100，面向阿尔茨海默病等认知症患者的激越行为，提供不诱发嗜睡的替代治疗方案。",
+    "recommend": "认知症患者激越症状长期缺乏安全药物，非镇静路线避开传统抗精神病药的风险，国内同类在研管线不多，其临床进展对银发用药市场有指示意义。",
+    "tag_l2": [
+      "药品",
+      "认知症"
+    ],
+    "tag_l1": [
+      "消费品",
+      "养老服务"
+    ],
+    "payor_model": "药品处方支付（医保/商业保险）",
+    "funding_latest": {
+      "date": "2024",
+      "amount": "$14.5M",
+      "round": "B轮",
+      "display": "Series B $14.5M (2024)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Uniseed"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 8.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 2.55,
+    "total_score": 5.7
+  },
+  {
+    "serial": "#1885",
+    "name": "Cardihab",
+    "name_cn": "心康（Cardihab）",
+    "region": "海外",
+    "country_hint": "澳大利亚",
+    "website_url": "https://cardihab.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/cardihab",
+    "description": "澳大利亚数字疗法企业开发经临床验证的心脏康复平台，为心梗与术后患者提供远程运动处方、风险监测与行为干预，把康复从医院延伸到日常。",
+    "recommend": "数字心脏康复在我国心衰与术后康复资源紧张背景下有落地价值，处方级 DTx 的循证与收费路径值得研究，其临床合作模式对国内数字疗法企业有参照。",
+    "tag_l2": [
+      "康复医疗"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "医保/商业保险支付+机构采购",
+    "funding_latest": {
+      "date": "2017",
+      "amount": "$1.35M",
+      "round": "种子轮",
+      "display": "Seed $1.35M (2017)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Uniseed"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.05,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1886",
+    "name": "Reliant at Home Care",
+    "name_cn": "信靠居家照护",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://relianthathomecare.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/reliant-at-home-care",
+    "description": "美国上门老年照护机构，为长者提供居家护理与生活协助服务，覆盖日常照料与基础护理需求，由护理人员在老人住所提供定期服务。",
+    "recommend": "美国上门照护市场由 Medicaid 与商业保险分层的支付结构成熟，其连锁化运营与人员管理模式对国内居家照护机构有参照，但需先核实主体存续与正确域名。",
+    "tag_l2": [
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "商业保险+政府支付（Medicaid）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ascension Ventures"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.2
+  },
+  {
+    "serial": "#1887",
+    "name": "Care Partner / Bosalpim",
+    "name_cn": "护伴（Care Partner）",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "https://carepartner.co.kr",
+    "crunchbase_url": "https://www.crunchbase.com/organization/care-partner",
+    "description": "韩国护理匹配平台，连接家庭与照护者，为老年护理需求方匹配合适的护理人手并提供上门照护协调，处于 Pre-A 阶段。",
+    "recommend": "家庭与照护者之间的智能匹配，是长护险落地后派单效率的关键环节，其算法匹配与信任机制对国内网约护理平台有借鉴，域名与主体仍需最终确认。",
+    "tag_l2": [
+      "护工平台",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "长护险支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "Pre-A",
+      "display": "Pre-A（Kakao Ventures 领投，Goodwater/Smilegate/Strong 等）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Kakao Ventures",
+      "Goodwater Capital",
+      "Smilegate",
+      "Strong Ventures"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 5.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1888",
+    "name": "NTUC Health",
+    "name_cn": "全国职工总会健康（NTUC Health）",
+    "region": "海外",
+    "country_hint": "新加坡",
+    "website_url": "https://www.ntuchealth.sg/",
+    "crunchbase_url": "https://www.crunchbase.com/organization/ntuc-health",
+    "description": "新加坡合作社体系下的最大乐龄服务运营商，运营日间照护中心、疗养院、居家照护与活跃老化中心，为各阶段长者提供从活跃老化到机构照护的连续服务。",
+    "recommend": "依托合作社网络提供从活跃老化到机构照护的连续服务，其社区嵌入与公益属性结合的模式，对国内街道级养老服务中心的可持续运营有参照，非营利定位影响盈利观察。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理",
+      "社区"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "文娱社交"
+    ],
+    "payor_model": "政府补贴+个人自费+长护险（类似）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（合作社体系非营利社企）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 5.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.2
+  },
+  {
+    "serial": "#1889",
+    "name": "CaritaHub",
+    "name_cn": "凯瑞达枢纽（CaritaHub）",
+    "region": "海外",
+    "country_hint": "新加坡+印尼",
+    "website_url": "https://www.caritahub.com/",
+    "crunchbase_url": "https://www.crunchbase.com/organization/caritahub",
+    "description": "新加坡与印尼两地的养老照护 SaaS 与 AI 平台，面向活跃老化中心、日间照料与居家照护机构，提供运营数字化、排班与数据看板等工具。",
+    "recommend": "新印两地养老运营数字化的软件供给，处于早期但有区域出海示范意义，其 AI 模块是否真正减员增效值得验证，对国内中小机构 SaaS 出海有观察意义。",
+    "tag_l2": [
+      "养老软件",
+      "养老信息平台"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（2024 成立，未公开融资）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": 2024,
+    "info_score": 5.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.9
+  },
+  {
+    "serial": "#1890",
+    "name": "Life Care",
+    "name_cn": "生命照护（Life Care）",
+    "region": "海外",
+    "country_hint": "菲律宾",
+    "website_url": "https://lifecare.ph/",
+    "crunchbase_url": "https://www.crunchbase.com/organization/life-care-ph",
+    "description": "菲律宾独立生活与协助生活养老社区运营商，在宿务与黎萨尔两地布局养老地产项目，为长者提供带生活协助的居住式养老服务。",
+    "recommend": "东南亚私立养老社区在日韩与欧美退休客群外溢下升温，其地产加服务的模式对国内康养地产去化有参照，需关注当地支付力与跨境客户获取。",
+    "tag_l2": [
+      "养老机构",
+      "康养地产"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费（地产销售/月费）",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 4.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.4
+  },
+  {
+    "serial": "#1891",
+    "name": "St. Camillus Medhaven",
+    "name_cn": "圣卡米洛康养园（St. Camillus Medhaven）",
+    "region": "海外",
+    "country_hint": "菲律宾",
+    "website_url": "https://stcamillusmedhaven.com/",
+    "crunchbase_url": "https://www.crunchbase.com/organization/st-camillus-medhaven",
+    "description": "菲律宾最大私立持续照料养老社区，设有 185 张床位，覆盖失智专区、缓和疗护与多层级照护，由 Camillian 修会非营利运营。",
+    "recommend": "天主教背景非营利持续照料社区，把失智照护与缓和疗护并入同一园区，其宗教慈善与付费服务平衡的治理，对国内非营利养老机构有参照，床位规模在东南亚领先。",
+    "tag_l2": [
+      "养老机构",
+      "认知症",
+      "安宁疗护"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+慈善捐赠",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（修会非营利运营）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1892",
+    "name": "La Verna Aged Care",
+    "name_cn": "拉维尔纳长者照护",
+    "region": "海外",
+    "country_hint": "菲律宾",
+    "website_url": "https://www.lavernaagedcare.com/about",
+    "crunchbase_url": "https://www.crunchbase.com/organization/la-verna-aged-care",
+    "description": "菲律宾首家失智村运营商，参照荷兰 Hogeweyk 模式建设专为认知症长者设计的封闭社区，通过拟真生活环境减缓认知退化并提升照护安全。",
+    "recommend": "失智村模式把环境设计作为非药物干预手段，在亚太尚属早期，其仿真实景与人员配置的成本结构，对国内认知症专区建设有参照，落地受支付与观念制约。",
+    "tag_l2": [
+      "认知症",
+      "养老机构"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1893",
+    "name": "ワタミ（Watami）",
+    "name_cn": "和民",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.watami.co.jp/",
+    "crunchbase_url": "",
+    "description": "日本大型综合餐饮与银发餐配企业，核心银发业务为『宅食』——每日向老年家庭配送约24万份定制餐，并在送餐时附带独居老人安全探视（見守り）；2015年已将旗下介护业务出售给SOMPO。收入来自餐食配送费与餐饮门店。",
+    "recommend": "把老年助餐做成每天数十万份规模、并让送餐员顺带承担独居老人安全探视，这种'一餐两用'的组合在国内社区助餐刚起步的阶段很有参考价值；它早年剥离重资产介护、聚焦轻资产餐配的取舍，也说明了餐饮集团做老龄市场的另一条路径。国内老年助餐多为政府补贴驱动，商业化配送网络仍在早期，其单量密度与探视增值服务的搭法可供经营者参照。",
+    "tag_l2": [
+      "膳食配送",
+      "养老膳食"
+    ],
+    "tag_l1": [
+      "食品营养"
+    ],
+    "payor_model": "个人自费（餐食配送费）",
+    "funding_latest": {
+      "date": "上市",
+      "amount": "东证Prime上市(7522)",
+      "round": "IPO",
+      "display": "东证Prime上市 (代码7522)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已上市",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 7.2
+  },
+  {
+    "serial": "#1894",
+    "name": "ケア21（Care21）",
+    "name_cn": "Care21",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.care21.co.jp/",
+    "crunchbase_url": "",
+    "description": "以关西地区为主的介护服务运营商，提供访问介护、日间照料与收费养老院（有料老人ホーム），收入来自介护保险结算与自费服务费。",
+    "recommend": "作为深耕单一区域的中型介护运营商，它展示了在人力密集、利润偏薄的上门与机构照护里，靠区域密度做出规模的活法；日本介护保险的结算机制与中国长护险高度相似，其人效控制与站点扩张节奏对国内区域型养老运营商有直接参照意义。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "介护保险+个人自费",
+    "funding_latest": {
+      "date": "上市",
+      "amount": "东证Standard上市(2373)",
+      "round": "IPO",
+      "display": "东证Standard上市 (代码2373)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已上市",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 4.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 6.2
+  },
+  {
+    "serial": "#1895",
+    "name": "チャーム・ケア・コーポレーション（Charm Care）",
+    "name_cn": "Charm Care",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.charmcc.jp/",
+    "crunchbase_url": "",
+    "description": "关西与关东布局的中高端收费养老院运营商，运营逾百处介护付有料老人ホーム，主打付费入住，收入来自入住金与月度介护服务费。",
+    "recommend": "把介护付养老院做成持续开新店的成长型公司，这在低增长的日本养老业里并不多见，其中高端定位加密集展店的打法说明了付费养老在成熟市场依然能跑出成长性；国内高端养老社区多为重资产会员制，其偏租赁的轻资产扩张与坪效管理可供国内经营者参考。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+介护保险",
+    "funding_latest": {
+      "date": "上市",
+      "amount": "东证Prime上市(6062)",
+      "round": "IPO",
+      "display": "东证Prime上市 (代码6062)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已上市",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 6.2
+  },
+  {
+    "serial": "#1896",
+    "name": "ウチヤマホールディングス（Uchiyama HD）",
+    "name_cn": "内山控股",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "http://www.uchiyama-gr.jp/",
+    "crunchbase_url": "",
+    "description": "多元控股集团，以介护事业（『さわやか倶楽部』全国逾120处设施）为核心，另有卡拉OK与餐饮业务；介护收入来自介护保险与入住费。",
+    "recommend": "介护主业之外还并行卡拉OK与外食，这种把老年娱乐消费与照护装进同一集团的结构，反映了区域民营企业围绕老年人时间与消费做多元经营的思路；对国内想从单一养老服务向老年生活消费延伸的运营商来说，是一个现成的组合样本。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "介护保险+个人自费",
+    "funding_latest": {
+      "date": "上市",
+      "amount": "东证Standard上市(6059)",
+      "round": "IPO",
+      "display": "东证Standard上市 (代码6059)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已上市",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 5.7
+  },
+  {
+    "serial": "#1897",
+    "name": "フレアス（Fureasu）",
+    "name_cn": "Fureasu",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://fureasu.jp/",
+    "crunchbase_url": "",
+    "description": "以上门按摩（在宅マッサージ）起家的居家照护企业，扩展至看护小规模多机能与临终照护（hospice），服务居家及失能老人，收入来自医保/介护保险结算与自费。",
+    "recommend": "从上门按摩这样一个细分切口进入居家照护，再叠加临终照护，这条'先做高频轻服务、再向重照护延伸'的路径颇有想法；国内上门康复、上门中医推拿正在兴起，其把可报销的上门理疗做成连锁、并向安宁疗护延伸的做法，对相关创业者有实操层面的启发。",
+    "tag_l2": [
+      "居家护理",
+      "安宁疗护"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "医保/介护保险+个人自费",
+    "funding_latest": {
+      "date": "上市",
+      "amount": "东证Growth上市(7062)",
+      "round": "IPO",
+      "display": "东证Growth上市 (代码7062)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已上市",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 6.3
+  },
+  {
+    "serial": "#1898",
+    "name": "SOMPO HD",
+    "name_cn": "SOMPO控股",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.sompo-hd.com/",
+    "crunchbase_url": "",
+    "description": "日本大型保险控股集团，旗下SOMPOケア为日本头部介护运营商之一，形成保险与介护并行的业务结构，并推进照护数据与养老科技布局；收入以财险寿险为主，介护为增长板块。",
+    "recommend": "一家财险巨头把介护养老纳入主业，用保险资金与客户资源支撑重资产照护，这种'保险公司自己下场做养老'的结构，正是国内险企布局康养时最常参照的路线；它如何在低回报的照护业务与保险主业之间做协同、沉淀照护数据，对国内保险系养老玩家有很强的参考意义。",
+    "tag_l2": [
+      "保险",
+      "养老机构"
+    ],
+    "tag_l1": [
+      "金融保险",
+      "养老服务"
+    ],
+    "payor_model": "保险+介护保险+个人自费",
+    "funding_latest": {
+      "date": "上市",
+      "amount": "东证Prime上市(8630)",
+      "round": "IPO",
+      "display": "东证Prime上市 (代码8630)"
+    },
+    "funding_total": {
+      "amount": "上市公司",
+      "display": "上市公司"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已上市",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 7.2
+  },
+  {
+    "serial": "#1899",
+    "name": "ベネッセホールディングス（Benesse HD）",
+    "name_cn": "倍乐生控股",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.benesse.co.jp/",
+    "crunchbase_url": "",
+    "description": "教育起家的综合服务集团，旗下ベネッセスタイルケア运营全国350余处收费养老院，为日本介护龙头之一；2024年经瑞典EQT与创始福武家族以约2080亿日元要约收购完成MBO，并从东证Prime退市。",
+    "recommend": "教育巨头引入海外长期资本联手创始家族做深度重整，转身押注教育与长照两大主业，这类『成熟龙头借外部资本重塑业务』的案例，是理解养老资产为何吸引长期资金的好切口；它把教育领域积累的会员与品牌迁移到养老的路径，也给国内跨界做养老的企业提供现实参照。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+介护保险",
+    "funding_latest": {
+      "date": "2024",
+      "amount": "约2080亿日元",
+      "round": "MBO私有化",
+      "display": "EQT+福武家族 MBO 私有化退市 约2080亿日元 (2024)"
+    },
+    "funding_total": {
+      "amount": "约2080亿日元收购",
+      "display": "MBO私有化 约2080亿日元 (2024)"
+    },
+    "investors": [
+      "EQT AB (BPEA Fund VIII)",
+      "福武家族"
+    ],
+    "stage": "已退市私有化",
+    "founded": 1955,
+    "info_score": 8.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 7.2
+  },
+  {
+    "serial": "#1900",
+    "name": "ニチイ学館（Nichii Gakkan）",
+    "name_cn": "日医学馆",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.nichiigakkan.co.jp/",
+    "crunchbase_url": "",
+    "description": "日本医疗事务外包与介护龙头，旗下『ニチイケア』运营大量居家与机构介护，并经营介护人才培训；2020年经贝恩资本主导MBO私有化退市，营收规模约2682亿日元。",
+    "recommend": "医疗事务与介护双主业的老牌龙头被贝恩私有化，是海外基金重仓日本老龄资产的标志性一役；它同时握有介护服务与介护人才培训两端，这种'自己开店又自己培养护理员'的自供体系，对长期受困于护理员短缺的国内养老企业尤其有启发。",
+    "tag_l2": [
+      "养老机构",
+      "护工培训"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "介护保险+个人自费",
+    "funding_latest": {
+      "date": "2020",
+      "amount": "未披露",
+      "round": "MBO私有化",
+      "display": "贝恩资本主导 MBO 私有化退市 (2020)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "MBO私有化退市 (2020)"
+    },
+    "investors": [
+      "Bain Capital"
+    ],
+    "stage": "已退市私有化",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.3
+  },
+  {
+    "serial": "#1901",
+    "name": "メッセージ（Message）",
+    "name_cn": "Message（现SOMPO Care Message）",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.message.co.jp/",
+    "crunchbase_url": "",
+    "description": "曾为日本大型收费养老院运营商，2016–2017年被SOMPO（时为损保ジャパン日本興亜）收购并退市，整合为SOMPOケアメッセージ，成为SOMPO介护版图核心。",
+    "recommend": "一家独立养老运营商最终被保险集团收编、成为对方介护主业的骨架，这条'被并购退出'的路径揭示了成熟市场里中型养老资产的常见归宿是产业资本整合；国内养老机构普遍面临规模不经济，其被险资吸收时的估值逻辑与整合方式有借鉴意义。",
+    "tag_l2": [
+      "养老机构"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "介护保险+个人自费",
+    "funding_latest": {
+      "date": "2017",
+      "amount": "未披露",
+      "round": "被SOMPO收购",
+      "display": "被SOMPO收购退市 (2017)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "被SOMPO收购退市 (2017)"
+    },
+    "investors": [
+      "SOMPO HD"
+    ],
+    "stage": "已被收购",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1902",
+    "name": "ツクイ（Tsukui）",
+    "name_cn": "Tsukui",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.tsukui.net/",
+    "crunchbase_url": "",
+    "description": "日本规模领先的日间照料（デイサービス）服务商，兼营居家介护，全国站点网络庞大；2021年经MBK Partners要约收购非公开化退市，运营仍持续。",
+    "recommend": "把日间照料这类相对标准化的介护服务做成全国最大网络，再被亚洲基金私有化，说明日托这种'轻资产、可复制、依赖介护保险结算'的模式在成熟市场具备规模与并购价值；国内社区日照中心多依赖补贴、盈利模型尚未跑通，其单店经济与连锁扩张经验很有参照价值。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "介护保险+个人自费",
+    "funding_latest": {
+      "date": "2021",
+      "amount": "未披露",
+      "round": "TOB私有化",
+      "display": "MBK Partners TOB 非公开化退市 (2021)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "TOB私有化退市 (2021)"
+    },
+    "investors": [
+      "MBK Partners"
+    ],
+    "stage": "已退市私有化",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1903",
+    "name": "セントケア・ホールディングス（Saint-Care）",
+    "name_cn": "圣护控股",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://www.saint-care.com/",
+    "crunchbase_url": "",
+    "description": "日本访问介护（上门介护）领先运营商，提供居家介护、访问看护与福祉用具等服务；2026年3月经股份合并挤出方式完成私有化退市。",
+    "recommend": "上门介护龙头近期完成一轮资本运作，是观察日本居家照护赛道资本动向的新鲜案例；上门介护人力重、单值低，它能长期跑通并获得资本青睐，其排班效率与访问看护的搭配，对正在发力居家上门护理的国内企业是很有时效性的参照。",
+    "tag_l2": [
+      "居家护理",
+      "护士上门"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "介护保险+个人自费",
+    "funding_latest": {
+      "date": "2026-03",
+      "amount": "未披露",
+      "round": "私有化退市",
+      "display": "股份合并挤出私有化退市 (2026-03)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "私有化退市 (2026-03)"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已退市私有化",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W12_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.8
+  },
+  {
+    "serial": "#1904",
+    "name": "YEARS",
+    "name_cn": "YEARS长寿预防诊所",
+    "region": "海外",
+    "country_hint": "德国",
+    "website_url": "https://years.health",
+    "crunchbase_url": "",
+    "description": "德国柏林的高端长寿预防医疗机构，提供一日式深度体检——涵盖230余项生物标志物检测与全身MRI，并结合AI分析给出健康评估，套餐价约1900至16900欧元，直接面向注重健康与抗衰的消费者B2C直售。",
+    "recommend": "把预防医学做成面向高净值人群的一次性高价体检产品，用海量生物标志物加影像加AI给出'长寿评估'，这种消费医疗定位在国内高端体检升级的语境下颇有想象空间；国内美年、慈铭等体检机构正寻求从筛查向健康管理与抗衰延伸，其产品化定价与高端获客方式提供了现成参照。",
+    "tag_l2": [
+      "长寿抗衰",
+      "体检筛查"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 8.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_A_企业_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1905",
+    "name": "Point",
+    "name_cn": "磐石房屋净值",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://www.point.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/point",
+    "description": "提供房屋净值投资（HEI）产品，退休业主可在无月供、最长30年期限内释放房产现金用于补充养老开支，到期或售房时结算。",
+    "recommend": "房产变现养老在海外已有成熟产品形态，把不动产转为现金流的思路对国内反向抵押有参照意义；其无月供、长周期设计降低了使用门槛，可观察产品条款与风险揭示方式。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人房产净值+金融产品",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1906",
+    "name": "Everdays",
+    "name_cn": "永伴人寿",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://www.everdays.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/everdays",
+    "description": "提供覆盖临终与丧葬费用的终身寿险，免体检、即时承保，并简化身后事务办理流程，面向有身后安排需求的家庭。",
+    "recommend": "身后事务与寿险结合的数字形态在国内尚不多见，把零散的丧葬安排前置为可投保产品降低了家庭突发支出压力；其免体检承保与流程线上化值得比较中外保险触达差异。",
+    "tag_l2": [
+      "保险"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费+商业寿险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.8
+  },
+  {
+    "serial": "#1907",
+    "name": "Portea",
+    "name_cn": "波泰居家护理",
+    "region": "海外",
+    "country_hint": "印度",
+    "website_url": "https://www.portea.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/portea",
+    "description": "印度居家医疗头部平台，设有独立 Elder Care 老人护理线，年服务超70万人次、覆盖40余城市，提供上门护理与医疗协助。",
+    "recommend": "新兴市场中产居家养老已有规模化样本，把护理与医疗上门打包的方式在人口结构相近地区具备参照性；其多城市运营与人力组织经验可对照国内社区照护供给短板。",
+    "tag_l2": [
+      "居家护理",
+      "居家医疗"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1908",
+    "name": "Estia Health",
+    "name_cn": "埃斯蒂亚健康",
+    "region": "海外",
+    "country_hint": "澳大利亚",
+    "website_url": "https://www.estiahealth.com.au",
+    "crunchbase_url": "https://www.crunchbase.com/organization/estia-health",
+    "description": "澳洲上市住宅养老护理运营商，提供失能照护、认知症照护、姑息治疗与短期喘息服务，受老年护理质量委员会监管。",
+    "recommend": "住宅式养老机构运营商的公开财报与监管披露，便于追踪单床模型与人力成本结构；认知症与安宁服务线对国内机构的细分定位有参照，其监管框架也适合对照了解。",
+    "tag_l2": [
+      "养老机构",
+      "认知症"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府养老金支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "上市",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1909",
+    "name": "Regis Healthcare",
+    "name_cn": "瑞吉斯医疗",
+    "region": "海外",
+    "country_hint": "澳大利亚",
+    "website_url": "https://www.regis.com.au",
+    "crunchbase_url": "https://www.crunchbase.com/organization/regis-healthcare",
+    "description": "澳洲本土养老护理运营商，运营逾30年、网点遍布全国，同时提供 residential care 与 home care 服务。",
+    "recommend": "全国化运营多年的护理集团，机构养老与居家照护双线协同可作为连锁化样本；公开披露使单店经济与区域密度数据透明，利于分析规模化养老服务的成本曲线。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府养老金支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "上市",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.8
+  },
+  {
+    "serial": "#1910",
+    "name": "Buurtzorg",
+    "name_cn": "布尔佐格照护",
+    "region": "海外",
+    "country_hint": "荷兰",
+    "website_url": "https://www.buurtzorg.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/buurtzorg",
+    "description": "荷兰自组织护士团队居家照护模式，约850支团队、1.4万名护士、覆盖24国，以去层级化自我管理著称。",
+    "recommend": "自组织护士团队的去官僚化模式，对社区居家护理的人效与员工留存提供了反例；其少管理层、信任授权的组织方式在人力紧缺的照护行业具备很强参照价值。",
+    "tag_l2": [
+      "居家护理",
+      "护理协调"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府医保支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 9.0,
+    "diff_score": 9.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 6.3
+  },
+  {
+    "serial": "#1911",
+    "name": "Careswitch",
+    "name_cn": "凯尔照护系统",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://www.careswitch.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/careswitch",
+    "description": "提供 AI 驱动的居家护理操作系统，覆盖排班、计费、授权风控与临时补缺，面向居家护理机构提升运营效率。",
+    "recommend": "把排班计费与合规风控整合进一套系统的思路，切中居家护理机构最重的后台负担；这类运营工具在国内照护机构数字化初期属于可参照的轻量切入点。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1912",
+    "name": "HHAeXchange",
+    "name_cn": "居家照护交易所",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://www.hhaexchange.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/hhaexchange",
+    "description": "面向居家与社区照护（HCBS）的 SaaS 平台，连接服务提供商、支付方与护理员，管理居家与社区照护的结算与合规。",
+    "recommend": "连接支付方、服务方与护理员三端的长护基础设施，在长护险制度推进中有明确参照性；其结算与合规中枢定位，有助于厘清国内长护支付环节上尚不完善的衔接。",
+    "tag_l2": [
+      "养老软件",
+      "长护险"
+    ],
+    "tag_l1": [
+      "行业服务",
+      "金融保险"
+    ],
+    "payor_model": "政府长护支付+机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 8.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1913",
+    "name": "Helite",
+    "name_cn": "海莱特防护",
+    "region": "海外",
+    "country_hint": "法国",
+    "website_url": "https://www.helite.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/helite",
+    "description": "法国品牌，自2002年起生产气囊式髋部防护穿戴，面向老年人与城市出行人群，主打 Made in France 制造。",
+    "recommend": "把跌倒防护做成人可日常穿着的气囊装备，是适老硬件中较细分的方向；其防护而非监测的思路，对国内辅具从被动报警转向主动保护的升级有参照。",
+    "tag_l2": [
+      "跌倒监测",
+      "适老化"
+    ],
+    "tag_l1": [
+      "康复辅具",
+      "养老服务"
+    ],
+    "payor_model": "个人自费+商业保险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": 2002,
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1914",
+    "name": "Cano Health",
+    "name_cn": "卡诺健康",
+    "region": "海外",
+    "country_hint": "美国(佛州)",
+    "website_url": "https://www.canohealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/cano-health",
+    "description": "美国价值型初级保健机构，设 Cano at Home 上门服务，主要服务 Medicare 与双重资格老年人群，曾于纽交所上市、2023年私有化。",
+    "recommend": "保险支付与初级医疗深度绑定的模式在美国几经起落，其扩张与收缩本身就是行业样本；对国内而言，价值导向的老年慢病管理如何平衡控费与服务，其中的教训可能比经验更值得留意。",
+    "tag_l2": [
+      "诊所",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府医保(Medicare)+商业保险",
+    "funding_latest": {
+      "date": "2023",
+      "amount": "未披露",
+      "round": "私有化",
+      "display": "NYSE:CANO 私有化 (2023)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "已退市私有化",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1915",
+    "name": "Aidaly",
+    "name_cn": "爱达丽照护",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://aidaly.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/aidaly",
+    "description": "将家属培训为带薪家庭照护者的软件化中介，提供发薪、税务与福利管理，把家庭无偿护理转为有偿工作。",
+    "recommend": "把家庭照护者纳入有偿体系的做法，直接对应长护险中家属补贴的制度空白；其软件化处理薪酬与合规的思路，为盘活家庭劳动力提供了可落地的参照角度。",
+    "tag_l2": [
+      "护工平台",
+      "照护支持"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+B端平台抽成",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 9.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.1
+  },
+  {
+    "serial": "#1916",
+    "name": "SafeRide Health",
+    "name_cn": "安行健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://saferidehealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/saferide-health",
+    "description": "为 Medicaid 与 Medicare 成员安排非紧急就医接送（NEMT），解决慢病与老年群体就诊出行障碍。",
+    "recommend": "就医出行常被视作医疗之外的琐事，却直接决定慢病老人能否持续复诊；把接送纳入支付方覆盖、以平台调度缺口运力，对国内分级诊疗下的陪诊服务有参照。",
+    "tag_l2": [
+      "陪诊"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府医保(Medicaid/Medicare)",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1917",
+    "name": "Ambea",
+    "name_cn": "安必达养老",
+    "region": "海外",
+    "country_hint": "瑞典",
+    "website_url": "https://ambea.se",
+    "crunchbase_url": "https://www.crunchbase.com/organization/ambea",
+    "description": "北欧养老护理龙头，通过 Vardaga 品牌运营养老院并提供居家护理，覆盖数百家机构、服务上万名被照护者。",
+    "recommend": "北欧龙头的养老院与居家双轨，显示了高福利体系下私营运营商的生存方式；其规模数据与人力配置对理解国内连锁养老的坪效与照护比有对照意义。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府养老金支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "上市",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1918",
+    "name": "Attendo",
+    "name_cn": "安腾多照护",
+    "region": "海外",
+    "country_hint": "瑞典",
+    "website_url": "https://attendo.se",
+    "crunchbase_url": "https://www.crunchbase.com/organization/attendo",
+    "description": "瑞典养老与居家护理服务商，自1985年运营，为北欧地区领先的私营老年护理运营商之一。",
+    "recommend": "运营近四十年的私营护理集团，提供了老龄化社会中民营力量长期参与的样本；其居家与机构协同的经验，对国内公办民营并举的供给结构有平稳的参照价值。",
+    "tag_l2": [
+      "养老机构",
+      "居家护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府养老金支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "上市",
+    "founded": 1985,
+    "info_score": 8.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1919",
+    "name": "Care UK",
+    "name_cn": "英国关怀养老",
+    "region": "海外",
+    "country_hint": "英国",
+    "website_url": "https://careuk.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/care-uk",
+    "description": "英国大型养老院运营商，拥有260余处院舍，提供含痴呆照护与专业护理在内的住宅养老服务。",
+    "recommend": "数百院舍的规模化 residential care 运营，便于观察密集照护机构的人效与质量管控；其痴呆专区设置对国内养老院认知症照护单元的建设节奏有参照。",
+    "tag_l2": [
+      "养老机构",
+      "认知症"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1920",
+    "name": "HC-One",
+    "name_cn": "一家护理院",
+    "region": "海外",
+    "country_hint": "英国",
+    "website_url": "https://hc-one.co.uk",
+    "crunchbase_url": "https://www.crunchbase.com/organization/hc-one",
+    "description": "英国大型养老护理院运营商，提供住宅、护理与痴呆照护，约280处院舍，主打亲和照护品牌。",
+    "recommend": "以亲和照护为品牌主张的大型护理院，显示了服务理念如何转化为运营标准；其痴呆照护院的日常组织方式，对国内同类机构的培训与氛围营造有可比较之处。",
+    "tag_l2": [
+      "养老机构",
+      "认知症"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1921",
+    "name": "StoriiCare",
+    "name_cn": "故事照护",
+    "region": "海外",
+    "country_hint": "英美",
+    "website_url": "https://storii.care",
+    "crunchbase_url": "https://www.crunchbase.com/organization/storii-care",
+    "description": "面向养老机构与成人日托的 EHR 与照护管理平台，并接入家属参与模块，记录日常照护活动。",
+    "recommend": "把照护记录与家属参与放在同一平台，缓解了机构与家庭的信任断层；这类轻量数字化工具，在国内养老机构信息化从零起步阶段属于易上手的参照类型。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1922",
+    "name": "Core.Care",
+    "name_cn": "核心照护",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://corecare.io",
+    "crunchbase_url": "https://www.crunchbase.com/organization/core-care",
+    "description": "面向技能护理机构（LTC）的收入合规与医保对账 AI 平台，帮助机构减少账单差错与合规风险。",
+    "recommend": "长护机构的收入合规与医保对账是后台痛点，用 AI 做账单校验能直接减少资金损耗；这类 B 端财务合规工具在国内长护结算规范化中有明确的参照需求。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1923",
+    "name": "Helpany (Paul)",
+    "name_cn": "随处安雷达",
+    "region": "海外",
+    "country_hint": "美/瑞",
+    "website_url": "https://helpany.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/helpany",
+    "description": "提供雷达加 AI 的防跌倒设备，不依赖摄像头与麦克风，主要部署于养老机构等集体场景。",
+    "recommend": "用雷达而非摄像头的隐私优先监测，避开了集体照护场景中的尊严争议；其无感跌倒预警对国内机构安全管理和独居监测都有可直接比较的技术路线。",
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1924",
+    "name": "Pontosense",
+    "name_cn": "迅感雷达",
+    "region": "海外",
+    "country_hint": "加/美",
+    "website_url": "https://pontosense.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/pontosense",
+    "description": "提供隐私优先的毫米波雷达，支持24小时老人安全与活动监测，无需被监测者佩戴任何设备。",
+    "recommend": "无穿戴、无摄像头的连续活动监测，平衡了安全与隐私两难；这类环境式传感在适老住宅与机构都有接入空间，对国内监测硬件的路线选择有参照。",
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1925",
+    "name": "Total Life",
+    "name_cn": "全龄生活心理",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://totallife.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/total-life",
+    "description": "提供由 Medicare 覆盖的老年人心理咨询与认知测评，以远程方式触达行动不便的老年群体。",
+    "recommend": "把老年心理咨询纳入支付覆盖并以远程交付，回应了高龄群体精神健康被长期忽略的现实；其测评与咨询的组合对国内老年心理服务进社区有参照。",
+    "tag_l2": [
+      "心理健康",
+      "认知筛查"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "政府医保(Medicare)",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1926",
+    "name": "Yes Hearing",
+    "name_cn": "YES听力到家",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://yeshearing.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/yes-hearing",
+    "description": "提供上门验配与低价助听器服务，由 in-home audiologist 完成听力评估与设备调试。",
+    "recommend": "把助听器验配搬到老人家中，降低了行动不便者的获取门槛；其低价与上门的组合，对国内听力服务下沉与验配网络不足有直接的参照意义。",
+    "tag_l2": [
+      "助听器"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费+商业保险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1927",
+    "name": "Retirable",
+    "name_cn": "可退族理财",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://retirable.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/retirable",
+    "description": "面向退休人员的受托财务规划与收入管理服务，提供订阅式顾问，统筹养老金与资产现金流。",
+    "recommend": "退休人员专属的现金流管理，把理财从资产增值转向收入可持续，贴合长寿时代的真实焦虑；这类受托顾问服务在国内同类型形态尚少见，可观察其收费与信任建立方式。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费(咨询订阅)",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1928",
+    "name": "Rosarium Health",
+    "name_cn": "玫瑰园健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://rosariumhealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/rosarium-health",
+    "description": "提供由健康险付费的居家适老化改造，含职业与物理治疗师评估及后续施工落地。",
+    "recommend": "让健康险来支付适老化改造费用，把一次性家装变为可报销的预防投入；其治疗师与施工方对接的平台模式，对国内居家适老化政策落地有清晰的参照路径。",
+    "tag_l2": [
+      "适老化"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "商业健康险支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1929",
+    "name": "Sam (Quo Labs)",
+    "name_cn": "萨姆陪伴",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://withsam.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/sam-quo-labs",
+    "description": "提供语音优先的老人陪伴设备并配家属 App，无订阅费，面向独居老人的日常陪伴与安全联络。",
+    "recommend": "以语音而非屏幕为主的交互，降低了高龄用户的操作门槛；把陪伴硬件与家属端联通的做法，对国内独居老人情感支持与远程关怀有可参照的产品思路。",
+    "tag_l2": [
+      "陪伴机器人"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 8.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W13_B) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1930",
+    "name": "Sweetch",
+    "name_cn": "斯威奇",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://sweetch.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/sweetch",
+    "description": "AI行为干预平台，通过情感智能与个性化参与提升糖尿病、心血管及肥胖等慢病患者的用药依从性，由临床团队与药企合作落地。",
+    "recommend": "慢病用药依从长期被低估，行为科学叠加AI个性化提醒的路线在国内慢病管理场景中同样关键，可对比国内手机端健康管理的依从率短板。",
+    "tag_l2": [
+      "慢病管理",
+      "用药管理"
+    ],
+    "tag_l1": [
+      "养老服务",
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "$20M",
+      "round": "Series A",
+      "display": "Series A $20M"
+    },
+    "funding_total": {
+      "amount": "$20M",
+      "display": "$20M (累计)"
+    },
+    "investors": [
+      "Entrée Capital",
+      "Philips Ventures",
+      "OurCrowd"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 6.5,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 2.55,
+    "total_score": 5.6
+  },
+  {
+    "serial": "#1931",
+    "name": "GaitBetter",
+    "name_cn": "盖特贝特",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.gaitbetter.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/gaitbetter",
+    "description": "VR与跑步机结合的双重任务训练系统，通过认知-运动同步训练改善老年及帕金森、卒中患者的步态稳定性，降低跌倒风险，用于康复机构与医院。",
+    "recommend": "双重任务训练在神经康复里证据扎实但国内落地少，把VR与跑步机做成标准化训练单元的思路可被国内康复科借鉴，尤其卒中后步态康复场景。",
+    "tag_l2": [
+      "康复器械",
+      "跌倒监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（MindUP孵化）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.5,
+    "diff_score": 6.0,
+    "copy_score": 7.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1932",
+    "name": "CogniShine",
+    "name_cn": "康尼诗恩",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.cognishine.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/cognishine",
+    "description": "面向治疗师与长者的数字认知干预平台，提供认知训练与怀旧疗法模块化内容，用于认知障碍患者的日常刺激与康复活动，由机构采购部署。",
+    "recommend": "认知刺激疗法的数字化在国外已进治疗场景，国内多数仍停留在纸笔训练，把怀旧疗法做成可追踪模块的思路对国内认知症照护机构有参考价值。",
+    "tag_l2": [
+      "认知训练",
+      "认知症"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "Seed",
+      "display": "Seed 未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.5,
+    "diff_score": 5.5,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1933",
+    "name": "SitnStand",
+    "name_cn": "西特斯坦",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.sitnstand.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/sitnstand",
+    "description": "便携式智能助起装置，可加装于普通座椅形成升降功能，辅助行动不便者安全完成起坐动作、降低跌倒风险，已获FDA注册并与美国退伍军人事务部合作。",
+    "recommend": "起坐辅助是老年人日常高风险动作，把升降功能做成可便携加装模块比整机换椅更轻，国内适老家具改造可参考这种“加装式”思路。",
+    "tag_l2": [
+      "康复器械"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（FDA注册、VA合作）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.5,
+    "diff_score": 6.0,
+    "copy_score": 7.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1934",
+    "name": "Ola Care",
+    "name_cn": "奥拉照护",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.olacare.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/ola-care",
+    "description": "隐私优先的AI安全监测方案，通过非摄像头传感识别跌倒、异常行为与照护执行情况，服务于居家与机构场景，在保护隐私前提下完成照护验证。",
+    "recommend": "非摄像头监测正成为海外居家安全的主流取向，隐私合规与照护可验证性同时兼顾的设计，对国内居家养老监测的合规路线有启发。",
+    "tag_l2": [
+      "跌倒监测",
+      "远程护理"
+    ],
+    "tag_l1": [
+      "康复辅具",
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（商业化阶段）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.5,
+    "copy_score": 7.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1935",
+    "name": "EyeClick",
+    "name_cn": "艾克莱克",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.eyeclick.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/eyeclick",
+    "description": "互动投影游戏系统BEAM，将地面或墙面变为可触控游戏界面，引导长者进行认知与身体活动，用于养老机构与社区的社交互动场景。",
+    "recommend": "把游戏化互动做成无穿戴的投影界面，降低了高龄用户的使用门槛，国内机构活动区可借鉴这种低门槛的群体激活方式。",
+    "tag_l2": [
+      "文娱",
+      "健身"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.5,
+    "diff_score": 5.5,
+    "copy_score": 6.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.9
+  },
+  {
+    "serial": "#1936",
+    "name": "Vitalerter",
+    "name_cn": "维塔尔特",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.vitalerter.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/vitalerter",
+    "description": "非接触式生命体征持续监测方案，通过传感器捕捉心率、呼吸、离床与跌倒风险，无需可穿戴设备，已在中国设立子公司拓展本地市场。",
+    "recommend": "非接触监测在两国养老机构需求重合度高，该企业已在中国设子公司，其无穿戴方案与落地路径对国内设备商是现成参考。",
+    "tag_l2": [
+      "跌倒监测",
+      "远程护理"
+    ],
+    "tag_l1": [
+      "康复辅具",
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（以色列SDS旗下）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.5,
+    "diff_score": 6.0,
+    "copy_score": 7.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1937",
+    "name": "Motion Informatics",
+    "name_cn": "莫申信息学",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://motioninformatics.ai",
+    "crunchbase_url": "https://www.crunchbase.com/organization/motion-informatics",
+    "description": "AI结合增强现实的神经康复系统，融合功能性电刺激、生物反馈等技术，用于卒中与帕金森患者的运动功能训练与恢复。",
+    "recommend": "神经康复里电刺激与生物反馈结合AR反馈是较新方向，国内康复设备多停留在单一模态，多技术融合的交互式训练代表了技术演进的一条可行路径。",
+    "tag_l2": [
+      "康复器械"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.5,
+    "diff_score": 6.5,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1938",
+    "name": "XRHealth",
+    "name_cn": "XR医疗",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.xr.health",
+    "crunchbase_url": "https://www.crunchbase.com/organization/xr-health",
+    "description": "VR数字治疗平台，覆盖疼痛管理、认知训练与康复场景，通过远程临床督导交付治疗方案，2024年收购RealizedCare与NeuroReality扩充管线。",
+    "recommend": "数字疗法走VR路径在海外已有保险支付案例，国内尚处早期，其通过并购扩充管线的路径能反映数字疗法公司如何从单点走向平台。",
+    "tag_l2": [
+      "康复医疗",
+      "认知训练"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "商业保险支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（信源：数千万美元级待核实）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露（信源：数千万美元级待核实）"
+    },
+    "investors": [
+      "Med Towers"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.5,
+    "copy_score": 6.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1939",
+    "name": "Maolac",
+    "name_cn": "毛拉克",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.maolac.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/maolac",
+    "description": "以牛初乳为原料提取生物功能蛋白，利用AI筛选活性成分，面向老年群体开发改善营养、免疫与炎性衰老的膳食补充产品。",
+    "recommend": "老龄化带来抗炎与免疫营养需求，用AI从天然蛋白中筛选活性成分的做法，对国内保健品企业升级原料技术有可参照的思路。",
+    "tag_l2": [
+      "保健品",
+      "膳食补充剂"
+    ],
+    "tag_l1": [
+      "食品营养"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "2022",
+      "amount": "$3M",
+      "round": "Seed",
+      "display": "Seed $3M (2022)"
+    },
+    "funding_total": {
+      "amount": "$3M",
+      "display": "$3M (累计)"
+    },
+    "investors": [
+      "OurCrowd"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.5,
+    "diff_score": 5.5,
+    "copy_score": 6.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.05,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1940",
+    "name": "Travaxy",
+    "name_cn": "特拉瓦克西",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://data.travaxy.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/travaxy",
+    "description": "面向老年与残障群体的无障碍旅行数据与预订API，为OTA与旅行社提供可访问性筛选与预订能力，以B2B方式嵌入出行服务。",
+    "recommend": "无障碍出行在国内旅游市场尚少见，把可访问性做成结构化数据接口的思路，对国内OTA与适老旅游产品有借鉴价值。",
+    "tag_l2": [
+      "旅游"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（信源口径约$0.57M-$1.2M，不一致）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 5.5,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.7
+  },
+  {
+    "serial": "#1941",
+    "name": "AposHealth",
+    "name_cn": "阿波斯健康",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.aposhealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/aposhealth",
+    "description": "非侵入式足部穿戴装置，通过改写步态受力分布缓解膝、髋与下背痛，主要面向骨关节炎患者，已获FDA清除并完成70余项临床研究。",
+    "recommend": "骨关节炎疼痛的非手术路径在老龄化社会需求大，用改写步态受力的小型穿戴替代部分手术，对国内骨科康复与保守治疗有参考意义。",
+    "tag_l2": [
+      "康复器械"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费+商业保险支付",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（商业化成熟）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 6.5,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1942",
+    "name": "MediTouch",
+    "name_cn": "麦迪触控",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.meditouch.co.il",
+    "crunchbase_url": "https://www.crunchbase.com/organization/meditouch",
+    "description": "康复动作捕捉设备商，主打HandTutor与BalanceTutor等产品，通过生物反馈训练改善神经与运动康复患者的手部功能与平衡能力，2004年成立。",
+    "recommend": "康复动作捕捉在国内多依附大型设备，把训练做成便携式反馈终端的思路成熟且可复制，对国内康复器械厂商的产品形态有参照。",
+    "tag_l2": [
+      "康复器械"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（2004年成立，成熟设备商）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": 2004,
+    "info_score": 6.0,
+    "diff_score": 4.5,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1943",
+    "name": "myAir Longevity",
+    "name_cn": "迈尔长寿",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://myair.ai",
+    "crunchbase_url": "https://www.crunchbase.com/organization/myair",
+    "description": "AI个性化营养平台，依据压力与情绪状态推荐“食疗情绪”方案，针对健康老龄化人群管理慢性压力相关的饮食。",
+    "recommend": "情绪与饮食的关联管理在国内营养服务中较少成体系，用AI把“食物调情绪”做成个性化方案，对国内健康管理公司的服务扩展有启发。",
+    "tag_l2": [
+      "个性化营养"
+    ],
+    "tag_l1": [
+      "食品营养"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（营收估计$1M-$10M）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.5,
+    "diff_score": 5.5,
+    "copy_score": 6.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.9
+  },
+  {
+    "serial": "#1944",
+    "name": "Agado",
+    "name_cn": "阿加多",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://www.agadolive.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/agado",
+    "description": "面向理疗师的远程康复平台，支持治疗师从线下延伸至线上督导患者训练，用于肌骨与神经康复的随访管理。",
+    "recommend": "远程康复把理疗师从单次面诊扩展为持续督导，国内康复资源分布不均，这类连接治疗师与患者的轻平台有现实需求。",
+    "tag_l2": [
+      "远程医疗",
+      "康复医疗"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 4.5,
+    "copy_score": 6.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.6
+  },
+  {
+    "serial": "#1945",
+    "name": "介护太郎 Caretaro（山下/Yamashita）",
+    "name_cn": "介护太郎（Caretaro）",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://caretaro.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/caretaro",
+    "description": "日本介护用品电商龙头企业，运营逾四十年，销售纸尿裤、护理床、适老用品等全品类，并每月更新介护科普指南博客，是本地适老零售标杆。",
+    "recommend": "日本介护保险支撑起成熟的家庭照护用品市场，这家企业的全品类电商与内容陪伴模式，对国内长护险落地后的居家照护用品供给有直接参照。",
+    "tag_l2": [
+      "电商"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（成熟企业）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 6.5,
+    "diff_score": 4.5,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.6
+  },
+  {
+    "serial": "#1946",
+    "name": "France Bed Medical フランスベッド",
+    "name_cn": "法兰西床",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://medical.francebed.co.jp",
+    "crunchbase_url": "https://www.crunchbase.com/organization/france-bed",
+    "description": "日本护理床与福祉用具租赁龙头企业，提供护理床、床垫及辅助器具的租赁与销售，深度绑定日本介护保险体系服务居家与机构照护。",
+    "recommend": "护理床租赁是日本介护保险下的成熟业态，租售结合降低家庭一次性负担，对国内长护险试点中康复辅具租赁模式有高度可借鉴性。",
+    "tag_l2": [
+      "护理床"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费+长护险支付",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露（上市企业）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "上市",
+    "founded": "未搜到",
+    "info_score": 9.0,
+    "diff_score": 4.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.3
+  },
+  {
+    "serial": "#1947",
+    "name": "Moira Club",
+    "name_cn": "莫伊拉俱乐部",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://moiraclub.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/moira-club",
+    "description": "美国会员制居家养老社区，面向活力老人提供居家生活支持与线下社交活动，以会员费模式维系社区黏性。",
+    "recommend": "把养老社区的社交与事务支持从“住进去”改为“会员制上门”，降低了参与门槛。国内老年社群与兴趣组织多为公益属性，付费型活力老人俱乐部的商业闭环值得观察。",
+    "tag_l2": [
+      "社区",
+      "邻里社交"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "个人会员费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1948",
+    "name": "Boomerang",
+    "name_cn": "布默朗",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://hiboomerang.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/boomerang",
+    "description": "美国银发人力平台，帮助企业返聘与留用大龄员工，匹配有经验的人才与雇主岗位需求。",
+    "recommend": "在延迟退休讨论升温的背景下，把“退休”重新定义为“阶段性返岗”有现实张力。国内银发人才市场仍以零散中介为主，系统化对接雇主与长者的平台化思路有对照价值。",
+    "tag_l2": [
+      "就业"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "B端企业采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1949",
+    "name": "Spiras Health",
+    "name_cn": "斯派拉健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://spirashealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/spiras-health",
+    "description": "美国居家慢病护理机构，将专科护理服务送入复杂慢病老人家中，提供上门临床照护与健康管理。",
+    "recommend": "把专科护理从机构搬到老人家里，针对多病共存的高需求人群做连续管理，与国内家庭病床、上门护理方向相近。其病种分层与护理路径设计可作为实务样本参考。",
+    "tag_l2": [
+      "居家护理",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "商业保险支付 + 个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1950",
+    "name": "Alix",
+    "name_cn": "阿利克斯",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://meetalix.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/alix",
+    "description": "美国遗产清算软件平台，协助家庭在亲人离世后系统处理账户、资产与各类后续事务。",
+    "recommend": "把“身后事”做成可外包的软件流程，直面了家庭在丧失亲人后面对的繁琐事务。这类继承事务数字化在国内仍以公证与中介为主，轻量化的线上清算路径有启发。",
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人订阅费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 8.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1951",
+    "name": "Grouper",
+    "name_cn": "格鲁珀",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://hellogrouper.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/grouper",
+    "description": "美国健康老龄化社交平台，组织面向老年人的线下活动与社群聚会，促进同龄人之间的连接。",
+    "recommend": "以结构化活动对抗老年孤独，把“社交”当作可设计的健康干预来运营。国内老年大学与社区活动丰富，但按兴趣与邻里关系做持续运营的商业化社群仍不多见。",
+    "tag_l2": [
+      "社区",
+      "兴趣社群"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "个人会员费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.9
+  },
+  {
+    "serial": "#1952",
+    "name": "Peak Health",
+    "name_cn": "巅峰健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://getpeakhealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/peak-health",
+    "description": "美国长寿医疗诊所，以精准医疗与数据手段重构面向中老年人群的长寿与健康管理服务。",
+    "recommend": "将抗衰与长寿从消费保健品叙事拉回临床路径，用检测与干预组合服务高支付力人群。该方向在中高收入城市有需求基础，但支付结构与监管环境差异较大，本土化路径需要另行摸索。",
+    "tag_l2": [
+      "长寿抗衰"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "payor_model": "个人自费 + 商业保险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 4.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.9
+  },
+  {
+    "serial": "#1953",
+    "name": "Sunday Health",
+    "name_cn": "桑迪健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://sundayhealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/sunday-health",
+    "description": "美国认知障碍照护服务机构，为认知退化人群及其家庭提供日常照护支持与专业陪护安排。",
+    "recommend": "围绕认知障碍群体提供全周期照护安排，回应了家庭照护难以为继的普遍困境。国内认知症照护刚起步，专业服务机构仍不多，其分层服务与家属协同类设计有借鉴空间。",
+    "tag_l2": [
+      "认知症"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费 + 商业保险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1954",
+    "name": "Savi Security",
+    "name_cn": "萨维安全",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://savisecurity.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/savi-security",
+    "description": "美国适老网络安全服务商，利用技术手段识别并拦截针对老年人的AI诈骗电话、短信与邮件。",
+    "recommend": "在生成式AI让老人受骗门槛骤降的当下，把反诈做成面向长者的主动防护产品，时效性强。国内同样面临银发网络诈骗高发，这类“前置拦截”的产品形态有现实需求。",
+    "tag_l2": [
+      "适老化"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人订阅费",
+    "funding_latest": {
+      "date": "2026",
+      "amount": "未披露",
+      "round": "种子轮",
+      "display": "种子轮 (2026)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 8.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1955",
+    "name": "Active Protective (Tango Belt)",
+    "name_cn": "灵动护髋",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://tangobelt.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/active-protective",
+    "description": "美国可穿戴防跌倒硬件厂商，推出内置气囊的智能腰带，在老人跌倒瞬间保护髋部免受冲击。",
+    "recommend": "用可穿戴气囊把“跌倒骨折”这一高龄老人致死诱因做硬件级干预，产品逻辑清晰。国内跌倒防护多依赖扶手与环境改造，随身被动保护设备仍是小众赛道，产品化空间明显。",
+    "tag_l2": [
+      "跌倒监测",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费 + 商业保险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1956",
+    "name": "CarePort Health",
+    "name_cn": "凯尔港健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://careporthealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/careport-health",
+    "description": "美国出院协调平台，帮助医院与养老机构之间完成患者出院后的转诊与照护衔接，后于2016年被Allscripts收购。",
+    "recommend": "聚焦『出院到居家』这一最易断档的衔接环节，用数据打通机构间转诊，后被更大的医疗IT公司整合。国内在病人出院后转接社区、制定出院计划上同样薄弱，其衔接逻辑有参照意义。",
+    "tag_l2": [
+      "护理协调"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "2016",
+      "amount": "未披露",
+      "round": "已被收购",
+      "display": "2016年被Allscripts收购"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
+    "stage": "已被收购",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1957",
+    "name": "IntelyCare",
+    "name_cn": "英特利护理",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://intelycare.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/intelycare",
+    "description": "美国护理用工平台，以AI匹配护理机构对护士的按需排班需求，缓解养老机构人力短缺。",
+    "recommend": "用算法把护理机构的弹性用工需求与护士空闲时间对接，形成按需劳动力市场。国内护理员短缺同样尖锐，但执业资质与排班合规框架不同，平台化用工的本土化门槛较高。",
+    "tag_l2": [
+      "护士派遣"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "2022",
+      "amount": "$115M",
+      "round": "Series C",
+      "display": "Series C $115M (2022)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 8.0,
+    "diff_score": 6.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 4.55,
+    "total_score": 6.0
+  },
+  {
+    "serial": "#1958",
+    "name": "Post Acute Analytics",
+    "name_cn": "波斯特分析",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://paanalytics.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/post-acute-analytics",
+    "description": "美国急性期后护理数据分析公司，通过预测模型评估患者出院后风险，辅助控费与照护安排。",
+    "recommend": "用预测分析识别急性期后高风险患者，把数据能力嵌入院后护理的支付与调度。国内院后管理数据分散，这类以风险分层驱动资源配置的思路，对医保控费与康复衔接有启发。",
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "2025",
+      "amount": "$40M",
+      "round": "Series C",
+      "display": "Series C $40M (2025)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 2.55,
+    "total_score": 5.1
+  },
+  {
+    "serial": "#1959",
+    "name": "TCARE",
+    "name_cn": "提凯尔",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://tcare.ai",
+    "crunchbase_url": "https://www.crunchbase.com/organization/tcare",
+    "description": "美国家庭照护者支持平台，以数据评估照护者负荷，提供个性化资源以预防照护者倦怠。",
+    "recommend": "把视角从被照护老人转向疲惫的照护者，用评估工具主动干预倦怠。国内长护险正推开，家属支持多被忽视，这类围绕照护者的服务设计能与险种形成互补。",
+    "tag_l2": [
+      "照护支持"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购 + 个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.8
+  },
+  {
+    "serial": "#1960",
+    "name": "Lifespark",
+    "name_cn": "生命火花",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://lifespark.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/lifespark",
+    "description": "美国全人养老服务机构，为老年人提供整合式生活与健康管理，覆盖医疗、生活与目标规划。",
+    "recommend": "以“whole-person”思路把医疗、生活与目标揉进同一服务流，强调老人作为完整个体的诉求。国内整合照护多在政策试点层面，市场化的连续服务模式仍待探索。",
+    "tag_l2": [
+      "照护支持",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "商业保险支付 + 个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1961",
+    "name": "Curana Health",
+    "name_cn": "库拉纳健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://curanahealth.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/curana-health",
+    "description": "美国价值型初级保健机构，面向高需求老年人群提供基于风险分层的上门与社区初级保健。",
+    "recommend": "把初级保健沉到高需求老人身边，并以风险分层匹配服务强度，贴合按效果付费的逻辑。国内家庭医生签约与之形似，但支付与考核机制不同，其人群分层运营值得对照。",
+    "tag_l2": [
+      "诊所",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "美国Medicare按效果付费 + 商业保险",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 7.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1962",
+    "name": "VirtuSense",
+    "name_cn": "维图传感",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://virtusense.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/virtusense",
+    "description": "美国跌倒预测技术商，通过AI传感器在老人离床或即将跌倒前发出预警，降低意外发生。",
+    "recommend": "从“事后报警”前移到“事前预测”，用传感器在离床与失衡瞬间提前介入。国内养老机构与居家监测对预测式防跌需求上升，这类无感化传感方案有落地前景。",
+    "tag_l2": [
+      "跌倒监测",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购 + 个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 7.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.8
+  },
+  {
+    "serial": "#1963",
+    "name": "TSOLife",
+    "name_cn": "提索生活",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://tsolife.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/tsolife",
+    "description": "美国养老社区经营情报服务商，以AI分析社区运营数据，帮助养老机构优化经营与居民体验（产品名Minerva）。",
+    "recommend": "把养老社区的日常运营沉淀为可分析的数据资产，用情报产品提升入住率与服务细节。国内民营养老机构对精细化经营工具需求增强，这类经营侧数字化方案有市场空间。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "2022",
+      "amount": "$9M",
+      "round": "Series A",
+      "display": "Series A $9M (2022)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler",
+      "Generator"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.55,
+    "total_score": 5.0
+  },
+  {
+    "serial": "#1964",
+    "name": "care.coach",
+    "name_cn": "陪护精灵",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://care.coach",
+    "crunchbase_url": "https://www.crunchbase.com/organization/care-coach",
+    "description": "通过显示屏呈现虚拟宠物形象，为独居老人提供对话陪伴、用药与日程提醒等交互服务，以低硬件成本的方式介入日常陪伴场景。",
+    "recommend": "把情感交互塞进一台低单价显示屏，等于绕开了高价陪护机器人的成本门槛，靠日常提醒与对话黏住独居老人；国内社区与居家场景里轻量陪伴硬件尚不多见，其低成本入口思路有参照意义。",
+    "tag_l2": [
+      "陪伴机器人"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "AARP-ATC"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1965",
+    "name": "Enchanted Tools",
+    "name_cn": "魔幻工具",
+    "region": "海外",
+    "country_hint": "法国/美国",
+    "website_url": "https://enchantedtools.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/enchanted-tools",
+    "description": "研发面向养老与残障人群的人形机器人，承担搬运、搀扶与日常协助等体力任务，定位为机构与家庭场景中的物理交互型辅助设备。",
+    "recommend": "人形机器人进养老场景的难点不在演示而在日常可靠性与成本，这家把残障辅助作为首批落地切口，避开了全功能陪护的炫技陷阱；国内制造链在硬件本体上有优势，其任务拆解与场景选择有对照空间。",
+    "tag_l2": [
+      "人形机器人"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "AARP-ATC"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 8.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1966",
+    "name": "Joe & Bella",
+    "name_cn": "乔贝拉",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://joeandbella.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/joe-and-bella",
+    "description": "面向行动不便长者设计易穿脱、自适应版型的日常服装，采用磁性扣具与宽开口等结构，降低穿衣过程中的体力与协助负担。",
+    "recommend": "适老服装常被主流服饰品牌忽略，这家把磁吸扣、宽开口做成系统化的功能设计而非单品噱头，切中失能半失能群体的高频痛点；国内银发服饰消费仍处于早期，其版型与供应链打法可对照。",
+    "tag_l2": [
+      "服装鞋帽"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "AARP-ATC"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1967",
+    "name": "Pluto Health",
+    "name_cn": "冥王星健康",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://trypluto.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/pluto-health",
+    "description": "搭建跨系统的健康数据聚合层，把分散在医疗机构与设备中的老人健康信息归一，并据数据驱动上门护理与生活服务调度。",
+    "recommend": "碎片化的健康数据若不能打通，到家服务就只能被动接单；这家做的是把数据层做成调度中枢，让护理与生活服务跟着健康状况走而非靠人工排班。国内数据孤岛同样严重，其聚合逻辑有现实参照。",
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "$9M",
+      "round": "Seed",
+      "display": "Seed $9M"
+    },
+    "funding_total": {
+      "amount": "~$16.6M",
+      "display": "累计约$16.6M"
+    },
+    "investors": [
+      "AARP-ATC"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 1.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1968",
+    "name": "Bloom Finance",
+    "name_cn": "布鲁姆金融",
+    "region": "海外",
+    "country_hint": "加拿大",
+    "website_url": "https://bloomfin.ca",
+    "crunchbase_url": "https://www.crunchbase.com/organization/bloom-finance",
+    "description": "面向55岁以上房主提供反向抵押贷款，将自有住房的净值转换为可支配现金流，用于补充退休期生活与照护开支。",
+    "recommend": "反向抵押把沉没在房产里的净值变成退休现金流，前提是产权清晰与金融消费者保护到位；国内以房养老试点多年仍未起量，其产品设计与风险提示机制可作为制度对照，重点看违约与赎回边界如何设定。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "AgeTech Capital"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1969",
+    "name": "Prisidio",
+    "name_cn": "普瑞西迪奥",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://prisidio.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/prisidio",
+    "description": "提供家庭级数字保险库，集中保管法律文件、财务账户与家庭记忆资料，并设置权限与传承交接流程，应对突发失能与身故场景。",
+    "recommend": "家庭关键文件散落各处，一旦长者失能或离世，子女往往面临取证与交接的混乱；把法律、财务与记忆统一进带权限的保管空间，降低了传承摩擦。国内家族信托与数字遗产意识在抬头，其托管边界设计有参照。",
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "AgeTech Capital"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.0
+  },
+  {
+    "serial": "#1970",
+    "name": "Bearcover",
+    "name_cn": "熊盾看护",
+    "region": "海外",
+    "country_hint": "德国",
+    "website_url": "https://bearcover.de",
+    "crunchbase_url": "https://www.crunchbase.com/organization/bearcover",
+    "description": "为养老机构开发夜间看护机器人，在住客睡眠时段持续巡查跌倒、离床与异常体征，替代部分夜间人力巡检。",
+    "recommend": "夜间是机构人力最薄弱的时段，用机器人做持续巡查等于把最苦的班次自动化，直接缓解疼痛点而非锦上添花；国内养老机构夜班缺工同样突出，其传感器融合与误报控制思路可看。",
+    "tag_l2": [
+      "机器人"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "加速期"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Birdhouse"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1971",
+    "name": "Nestflow",
+    "name_cn": "巢流金融",
+    "region": "海外",
+    "country_hint": "荷兰",
+    "website_url": "https://nestflow.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/nestflow",
+    "description": "面向欧洲老年房主提供房屋净值释放的金融科技服务，以反向抵押类产品把不动产转化为退休期可用的流动资金。",
+    "recommend": "欧洲老龄化程度深、自有住房率高，净值释放类产品的需求底色比北美更厚；这家选在多个市场做轻量 fintech 入口，避开了重资产的房贷审批。国内同类形态尚少见，可顺着产权与继承规则差异找落点。",
+    "tag_l2": [
+      "金融理财"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "早期"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Birdhouse"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1972",
+    "name": "LendoCare",
+    "name_cn": "借爱照护",
+    "region": "海外",
+    "country_hint": "英国",
+    "website_url": "https://lendocare.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/lendocare",
+    "description": "提供居家医疗设备的租赁与订阅服务，把护理床、监测仪等器械以月费方式交付，降低家庭一次性购置门槛。",
+    "recommend": "把高价医疗设备从买断改成按月订阅，家庭现金流压力陡降，厂商也能靠续费锁定长期关系；国内辅具租售结合才起步，其设备组合与运维响应机制有现实参照，重点看损耗与回收怎么算账。",
+    "tag_l2": [
+      "医疗器械"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "加速期"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Birdhouse"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.5
+  },
+  {
+    "serial": "#1973",
+    "name": "Tenbeo",
+    "name_cn": "腾比奥",
+    "region": "海外",
+    "country_hint": "比利时",
+    "website_url": "https://tenbeo.ai",
+    "crunchbase_url": "https://www.crunchbase.com/organization/tenbeo",
+    "description": "采用心跳特征作为身份鉴权手段，为长者提供防欺诈与账户保护功能，把生物体征变成反洗钱式的安全校验。",
+    "recommend": "用心跳这种难以复制的体征做身份校验，把反诈从短信验证码拉到生物层，思路够新；老人是诈骗高发群体，这类隐形防护比反复宣教更省力。国内金融科技与适老反诈都在投入，其落地边界值得顺着看。",
+    "tag_l2": [
+      "适老化"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "加速期"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Birdhouse"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 8.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.2
+  },
+  {
+    "serial": "#1974",
+    "name": "ExaWizards",
+    "name_cn": "爱可精灵",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://exawizards.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/exawizards",
+    "description": "日本护理与医疗人工智能企业，推出 CareWiz 等产品辅助养老机构排班、记录与事务处理，并于2025财年首次实现盈利。",
+    "recommend": "介护人力短缺是日本结构性难题，这家把生成式 AI 扎进排班与事务记录这类最耗人力的环节，且已走到盈利，说明场景选得准；国内长护险扩面后同样缺人，其产品化路径与定价有对照价值。",
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "2019",
+      "amount": "¥15.8亿",
+      "round": "Series B",
+      "display": "Series B ¥15.8亿 (2019)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "SOMPO",
+      "Persol"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 6.55,
+    "total_score": 6.9
+  },
+  {
+    "serial": "#1975",
+    "name": "Nayah Residences by Livwell",
+    "name_cn": "纳亚颐养社区",
+    "region": "海外",
+    "country_hint": "泰国",
+    "website_url": "见dailynews报道/运营商Livwell",
+    "crunchbase_url": "https://www.crunchbase.com/organization/nayah-residences",
+    "description": "在泰国运营持照的退休与活力养老社区，提供自理到协助照料梯度的居住、餐饮与活动服务，面向本地与国际退休人群。",
+    "recommend": "东南亚养老目的地产业正成形，这家拿到泰国首张相关执照，把国际退休客群的居住与照护打包成目的地产品；国内候鸟式旅居养老需求在涨，其牌照路径与医疗衔接设计有参照，重点看跨境支付与签证怎么解。",
+    "tag_l2": [
+      "养老机构",
+      "康养地产"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1976",
+    "name": "Domitys Bangsar Kuala Lumpur",
+    "name_cn": "多美缇斯吉隆坡社区",
+    "region": "海外",
+    "country_hint": "马来西亚",
+    "website_url": "见MCOA报道",
+    "crunchbase_url": "https://www.crunchbase.com/organization/domitys",
+    "description": "在吉隆坡运营法式持续照料退休社区，提供从独立生活到专业护理的连续居住服务与公共配套，面向马来西亚与国际长者。",
+    "recommend": "法式 CCRC 模式被搬进东南亚，等于把一套成熟的连续照料产品本地化，靠公共配套与梯度照护留住客户；国内 CCRC 仍在摸索盈利，其会员费与护理分级机制可作为对照，看文化适配怎么调。",
+    "tag_l2": [
+      "CCRC",
+      "养老机构"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.3
+  },
+  {
+    "serial": "#1977",
+    "name": "Hana THE NEXT",
+    "name_cn": "韩亚下一代",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "韩亚金融集团品牌",
+    "crunchbase_url": "https://www.crunchbase.com/organization/hana-the-next",
+    "description": "韩亚金融集团旗下的长者综合服务品牌，整合退休规划、遗产管理与健康支持，由银行网点向老年客户交付金融与生活服务。",
+    "recommend": "银行系做老年综合服务的好处是信任与触点现成，把退休金、遗产与健康揉进一个品牌，客户迁移成本低；国内银行也在抢养老金融入口，其交叉销售与权限隔离设计有现实参照，重点看如何不越界代销。",
+    "tag_l2": [
+      "金融理财",
+      "遗产规划"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
+    "payor_model": "个人自费+商业保险支付",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "集团内品牌"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1978",
+    "name": "KB Silver Town",
+    "name_cn": "KB银城",
+    "region": "海外",
+    "country_hint": "韩国",
+    "website_url": "KB生命保险项目",
+    "crunchbase_url": "https://www.crunchbase.com/organization/kb-silver-town",
+    "description": "韩国 KB 生命保险旗下的高端退休社区项目，将保险产品与持续照料居住结合，面向有支付能力的中高端长者客群。",
+    "recommend": "保险资金进场做养老社区，卖点是用保单锁定未来照护，把金融与床位提前绑定；国内泰康早已跑通类似模式，其客群分层与入住权益设计仍有对照空间，重点看退保与护理升级怎么衔接。",
+    "tag_l2": [
+      "养老机构",
+      "康养地产"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "保险支付+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "集团内项目"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成熟期",
+    "founded": "未搜到",
+    "info_score": 7.0,
+    "diff_score": 5.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  },
+  {
+    "serial": "#1979",
+    "name": "AgeWellJapan",
+    "name_cn": "龄乐日本",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "https://agewelljapan.co.jp",
+    "crunchbase_url": "https://www.crunchbase.com/organization/agewell-japan",
+    "description": "日本轻陪伴服务提供商，以社交与陪伴型人员上门或线上介入，缓解长者日常孤独，曾入选 Forbes 改变未来企业名单。",
+    "recommend": "轻陪伴不靠设备不靠医疗，靠人与人的低频接触补上情感缺口，成本结构与机构照护完全不同；国内独居老人规模庞大，这类轻量服务最易本地化，其人员培训与排班体系值得顺着看。",
+    "tag_l2": [
+      "陪伴服务"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
+    "payor_model": "个人自费+B端机构采购",
+    "funding_latest": {
+      "date": "2025上半年",
+      "amount": "3.1亿日元",
+      "round": "未披露",
+      "display": "2025上半年两轮共3.1亿日元"
+    },
+    "funding_total": {
+      "amount": "3.1亿日元",
+      "display": "两轮累计3.1亿日元"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 6.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 5.55,
+    "total_score": 6.3
+  },
+  {
+    "serial": "#1980",
+    "name": "Liv Labs",
+    "name_cn": "乐活实验室",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "待核验",
+    "crunchbase_url": "https://www.crunchbase.com/organization/liv-labs",
+    "description": "开发面向失禁长者的消费级自我护理产品，以更易用的工具替代传统护理方式，降低使用者与照护者的日常负担。",
+    "recommend": "失禁是高频却羞于启齿的需求，消费级自护产品把原本隐秘的照护动作变成个人可独立完成的事，尊严感提升明显；国内失禁经济仍处隐形阶段，其产品形态与渠道打法有参照，重点看复购与医疗属性边界。",
+    "tag_l2": [
+      "尿失禁"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "种子期",
+    "founded": "未搜到",
+    "info_score": 3.0,
+    "diff_score": 6.0,
+    "copy_score": 7.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 3.7
+  },
+  {
+    "serial": "#1981",
+    "name": "CareFran",
+    "name_cn": "护理法兰",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "待核验",
+    "crunchbase_url": "https://www.crunchbase.com/organization/carefran",
+    "description": "日本照护 SaaS 企业，以生成式 AI 简化护理事务员的记录与行政工作，目标是改善一线人员待遇与留存。",
+    "recommend": "护理事务员流失的核心是文书吞噬了照顾时间，用生成式 AI 把记录与排班自动化，等于直接还给一线人力；国内长护机构同样被台账压垮，其落地效果与误填控制有现实参照，重点看责任边界怎么划。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "UNERI Capital出资(金额未披露)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "UNERI Capital"
+    ],
+    "stage": "早期",
+    "founded": "未搜到",
+    "info_score": 4.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.4
+  },
+  {
+    "serial": "#1982",
+    "name": "NAGARA",
+    "name_cn": "那伽罗",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "待核验",
+    "crunchbase_url": "https://www.crunchbase.com/organization/nagara",
+    "description": "日本语音 AI 护理记录企业，在丰田市开展实证，让护理员通过语音口述自动生成照护议事录与记录文档。",
+    "recommend": "把语音口述转成护理记录，等于替一线省掉最反人性的打字环节，实证选在丰田市说明走的是政企合作路线；国内护理记录电子化刚起步，其识别准确与隐私合规设计有参照，重点看口音与术语怎么训。",
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
+    "payor_model": "B端机构采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "早期",
+    "founded": "未搜到",
+    "info_score": 3.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.1
+  },
+  {
+    "serial": "#1983",
+    "name": "Z-Works",
+    "name_cn": "零工坊",
+    "region": "海外",
+    "country_hint": "日本",
+    "website_url": "待核验",
+    "crunchbase_url": "https://www.crunchbase.com/organization/z-works",
+    "description": "日本养老传感器企业，采用毫米波雷达与多传感器监测长者活动与异常，获夏普、佳能等硬件厂商支持。",
+    "recommend": "用雷达而非摄像头做活动监测，避开了隐私敏感点，又能覆盖跌倒与离床等关键时刻；背靠夏普佳能的硬件能力，供应链起点高。国内社区适老改造正铺传感器，其抗干扰与误报率控制最值得看。",
+    "tag_l2": [
+      "跌倒监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "signal_strength": 0.55,
+    "total_score": 4.7
+  }
+]

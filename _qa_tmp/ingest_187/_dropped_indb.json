@@ -1,0 +1,177 @@
+[
+  {
+    "serial": "",
+    "name": "RetiSpec",
+    "name_cn": "瑞视派",
+    "region": "海外",
+    "country_hint": "加拿大",
+    "website_url": "https://retispec.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/retispec",
+    "description": "通过视网膜扫描结合 AI，提前数年发现阿尔茨海默病的生物标记信号，将神经退行性疾病早筛前移到眼科诊室，辅助低风险筛查与分流。",
+    "recommend": "用一次视网膜拍照去推测数年后的认知退化风险，把神经退行性疾病早筛前移到眼科诊室，路径巧妙且低成本。国内眼底相机在基层已较普及，这类跨病种早筛思路有嫁接空间。",
+    "tag_l2": [
+      "认知筛查"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构(医院/眼科诊所)采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "A轮",
+      "display": "A轮（未披露）"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Verge HealthTech Fund"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 8.0,
+    "source": "外部AI名单入库(W11_企业49条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "_status_raw": "verified",
+    "_note_raw": "",
+    "_srcfile": "W11_ent49条_2026-07-25_p1.json"
+  },
+  {
+    "serial": "",
+    "name": "Sensi.ai",
+    "name_cn": "森赛",
+    "region": "海外",
+    "country_hint": "以色列",
+    "website_url": "https://sensi.ai",
+    "crunchbase_url": "https://www.crunchbase.com/organization/sensi-ai",
+    "description": "24小时居家音频监测AI系统，通过声学信号识别长者身体与认知风险变化，向居家照护机构提供早期预警与照护协同。",
+    "recommend": "用非侵入音频做持续风险识别，能把照护从被动响应转为主动预警，国内居家照护机构普遍缺这类轻量预警工具，形态可直接借鉴。",
+    "tag_l2": [
+      "居家护理",
+      "远程护理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端机构采购+个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "未搜到"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 6.5,
+    "copy_score": 7.5,
+    "source": "外部AI名单入库(W5以色列_BM日本_企业26家_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "_status_raw": "",
+    "_note_raw": "",
+    "_srcfile": "W5以色列_BM日本_ent26家_2026-07-25.json"
+  },
+  {
+    "serial": "",
+    "name": "DUOS",
+    "name_cn": "杜奥斯",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://getduos.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/duos",
+    "description": "美国居家养老服务平台，为老年人一对一配备个人助理，协助日常事务安排、预约与生活支持，以轻资产方式连接助理与家庭。",
+    "recommend": "一对一老人助理的轻资产打法把“帮老人办事”做成标准化服务，跳出了重人力照护的惯性。国内社区助老员与家庭秘书需求真实存在，这种按任务拆分的模式对街道与平台有参考意义。",
+    "tag_l2": [
+      "照护支持",
+      "家政"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "个人自费",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 5.0,
+    "diff_score": 7.0,
+    "copy_score": 6.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "_status_raw": "verified",
+    "_note_raw": "",
+    "_srcfile": "W9-W10_ent74条_2026-07-25_p1.json"
+  },
+  {
+    "serial": "",
+    "name": "HomeThrive",
+    "name_cn": "好居",
+    "region": "海外",
+    "country_hint": "美国",
+    "website_url": "https://homethrive.com",
+    "crunchbase_url": "https://www.crunchbase.com/organization/homethrive",
+    "description": "美国企业为员工父母提供的养老支持福利平台，协助在职员工安排家中长者的照护、就医与日常事务。",
+    "recommend": "把养老支持包装成企业员工福利，由B端付费、家庭受益，切中了职场人照护父母的双重压力。国内企业员工关怀多停留在体检，父母端照护福利尚属少见形态。",
+    "tag_l2": [
+      "照护支持",
+      "家政"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
+    "payor_model": "B端企业福利采购",
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "7wire"
+    ],
+    "stage": "成长期",
+    "founded": "未搜到",
+    "info_score": 6.0,
+    "diff_score": 8.0,
+    "copy_score": 5.0,
+    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
+    "ingest_time": "2026-07-26",
+    "update_time": "2026-07-26",
+    "deep_article_links": [],
+    "_status_raw": "verified",
+    "_note_raw": "",
+    "_srcfile": "W9-W10_ent74条_2026-07-25_p1.json"
+  }
+]

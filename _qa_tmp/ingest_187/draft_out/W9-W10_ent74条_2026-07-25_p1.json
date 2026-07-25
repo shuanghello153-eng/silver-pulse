@@ -1,34 +1,6 @@
 [
   {
     "serial": "",
-    "name": "DUOS",
-    "name_cn": "杜奥斯",
-    "region": "海外",
-    "country_hint": "美国",
-    "website_url": "https://getduos.com",
-    "crunchbase_url": "https://www.crunchbase.com/organization/duos",
-    "description": "美国居家养老服务平台，为老年人一对一配备个人助理，协助日常事务安排、预约与生活支持，以轻资产方式连接助理与家庭。",
-    "recommend": "一对一老人助理的轻资产打法把“帮老人办事”做成标准化服务，跳出了重人力照护的惯性。国内社区助老员与家庭秘书需求真实存在，这种按任务拆分的模式对街道与平台有参考意义。",
-    "tag_l2": ["照护支持", "家政"],
-    "tag_l1": ["养老服务"],
-    "payor_model": "个人自费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Primetime"],
-    "stage": "成长期",
-    "founded": "未搜到",
-    "info_score": 5.0,
-    "diff_score": 7.0,
-    "copy_score": 6.0,
-    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
-    "ingest_time": "2026-07-26",
-    "update_time": "2026-07-26",
-    "deep_article_links": [],
-    "_status_raw": "verified",
-    "_note_raw": ""
-  },
-  {
-    "serial": "",
     "name": "Moira Club",
     "name_cn": "莫伊拉俱乐部",
     "region": "海外",
@@ -37,12 +9,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/moira-club",
     "description": "美国会员制居家养老社区，面向活力老人提供居家生活支持与线下社交活动，以会员费模式维系社区黏性。",
     "recommend": "把养老社区的社交与事务支持从“住进去”改为“会员制上门”，降低了参与门槛。国内老年社群与兴趣组织多为公益属性，付费型活力老人俱乐部的商业闭环值得观察。",
-    "tag_l2": ["社区", "邻里社交"],
-    "tag_l1": ["文娱社交"],
+    "tag_l2": [
+      "社区",
+      "邻里社交"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
     "payor_model": "个人会员费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Primetime"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -65,12 +52,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/boomerang",
     "description": "美国银发人力平台，帮助企业返聘与留用大龄员工，匹配有经验的人才与雇主岗位需求。",
     "recommend": "在延迟退休讨论升温的背景下，把“退休”重新定义为“阶段性返岗”有现实张力。国内银发人才市场仍以零散中介为主，系统化对接雇主与长者的平台化思路有对照价值。",
-    "tag_l2": ["就业"],
-    "tag_l1": ["文娱社交"],
+    "tag_l2": [
+      "就业"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
     "payor_model": "B端企业采购",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Primetime"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -93,45 +94,32 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/spiras-health",
     "description": "美国居家慢病护理机构，将专科护理服务送入复杂慢病老人家中，提供上门临床照护与健康管理。",
     "recommend": "把专科护理从机构搬到老人家里，针对多病共存的高需求人群做连续管理，与国内家庭病床、上门护理方向相近。其病种分层与护理路径设计可作为实务样本参考。",
-    "tag_l2": ["居家护理", "慢病管理"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "居家护理",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "商业保险支付 + 个人自费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Primetime"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Primetime"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 6.0,
     "diff_score": 6.0,
     "copy_score": 6.0,
-    "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
-    "ingest_time": "2026-07-26",
-    "update_time": "2026-07-26",
-    "deep_article_links": [],
-    "_status_raw": "verified",
-    "_note_raw": ""
-  },
-  {
-    "serial": "",
-    "name": "HomeThrive",
-    "name_cn": "好居",
-    "region": "海外",
-    "country_hint": "美国",
-    "website_url": "https://homethrive.com",
-    "crunchbase_url": "https://www.crunchbase.com/organization/homethrive",
-    "description": "美国企业为员工父母提供的养老支持福利平台，协助在职员工安排家中长者的照护、就医与日常事务。",
-    "recommend": "把养老支持包装成企业员工福利，由B端付费、家庭受益，切中了职场人照护父母的双重压力。国内企业员工关怀多停留在体检，父母端照护福利尚属少见形态。",
-    "tag_l2": ["照护支持", "家政"],
-    "tag_l1": ["养老服务"],
-    "payor_model": "B端企业福利采购",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["7wire"],
-    "stage": "成长期",
-    "founded": "未搜到",
-    "info_score": 6.0,
-    "diff_score": 8.0,
-    "copy_score": 5.0,
     "source": "外部AI名单入库(W9-W10_企业74条_2026-07-25) 2026-07-26",
     "ingest_time": "2026-07-26",
     "update_time": "2026-07-26",
@@ -149,12 +137,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/alix",
     "description": "美国遗产清算软件平台，协助家庭在亲人离世后系统处理账户、资产与各类后续事务。",
     "recommend": "把“身后事”做成可外包的软件流程，直面了家庭在丧失亲人后面对的繁琐事务。这类继承事务数字化在国内仍以公证与中介为主，轻量化的线上清算路径有启发。",
-    "tag_l2": ["遗产规划"],
-    "tag_l1": ["金融保险"],
+    "tag_l2": [
+      "遗产规划"
+    ],
+    "tag_l1": [
+      "金融保险"
+    ],
     "payor_model": "个人订阅费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Magnify"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -177,12 +179,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/grouper",
     "description": "美国健康老龄化社交平台，组织面向老年人的线下活动与社群聚会，促进同龄人之间的连接。",
     "recommend": "以结构化活动对抗老年孤独，把“社交”当作可设计的健康干预来运营。国内老年大学与社区活动丰富，但按兴趣与邻里关系做持续运营的商业化社群仍不多见。",
-    "tag_l2": ["社区", "兴趣社群"],
-    "tag_l1": ["文娱社交"],
+    "tag_l2": [
+      "社区",
+      "兴趣社群"
+    ],
+    "tag_l1": [
+      "文娱社交"
+    ],
     "payor_model": "个人会员费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Magnify"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -205,12 +222,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/peak-health",
     "description": "美国长寿医疗诊所，以精准医疗与数据手段重构面向中老年人群的长寿与健康管理服务。",
     "recommend": "将抗衰与长寿从消费保健品叙事拉回临床路径，用检测与干预组合服务高支付力人群。该方向在中高收入城市有需求基础，但支付结构与监管环境差异较大，本土化路径需要另行摸索。",
-    "tag_l2": ["长寿抗衰"],
-    "tag_l1": ["消费品"],
+    "tag_l2": [
+      "长寿抗衰"
+    ],
+    "tag_l1": [
+      "消费品"
+    ],
     "payor_model": "个人自费 + 商业保险",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Magnify"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -233,12 +264,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/sunday-health",
     "description": "美国认知障碍照护服务机构，为认知退化人群及其家庭提供日常照护支持与专业陪护安排。",
     "recommend": "围绕认知障碍群体提供全周期照护安排，回应了家庭照护难以为继的普遍困境。国内认知症照护刚起步，专业服务机构仍不多，其分层服务与家属协同类设计有借鉴空间。",
-    "tag_l2": ["认知症"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "认知症"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "个人自费 + 商业保险",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Magnify"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -261,12 +306,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/savi-security",
     "description": "美国适老网络安全服务商，利用技术手段识别并拦截针对老年人的AI诈骗电话、短信与邮件。",
     "recommend": "在生成式AI让老人受骗门槛骤降的当下，把反诈做成面向长者的主动防护产品，时效性强。国内同样面临银发网络诈骗高发，这类“前置拦截”的产品形态有现实需求。",
-    "tag_l2": ["适老化"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "适老化"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "个人订阅费",
-    "funding_latest": {"date": "2026", "amount": "未披露", "round": "种子轮", "display": "种子轮 (2026)"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Magnify"],
+    "funding_latest": {
+      "date": "2026",
+      "amount": "未披露",
+      "round": "种子轮",
+      "display": "种子轮 (2026)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Magnify"
+    ],
     "stage": "种子期",
     "founded": "未搜到",
     "info_score": 6.0,
@@ -289,12 +348,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/active-protective",
     "description": "美国可穿戴防跌倒硬件厂商，推出内置气囊的智能腰带，在老人跌倒瞬间保护髋部免受冲击。",
     "recommend": "用可穿戴气囊把“跌倒骨折”这一高龄老人致死诱因做硬件级干预，产品逻辑清晰。国内跌倒防护多依赖扶手与环境改造，随身被动保护设备仍是小众赛道，产品化空间明显。",
-    "tag_l2": ["跌倒监测", "可穿戴监测"],
-    "tag_l1": ["康复辅具"],
+    "tag_l2": [
+      "跌倒监测",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
     "payor_model": "个人自费 + 商业保险",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Generator"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 5.0,
@@ -316,13 +390,27 @@
     "website_url": "https://careporthealth.com",
     "crunchbase_url": "https://www.crunchbase.com/organization/careport-health",
     "description": "美国出院协调平台，帮助医院与养老机构之间完成患者出院后的转诊与照护衔接，后于2016年被Allscripts收购。",
-    "recommend": "聚焦“出院到居家”这一最易断档的衔接环节，用数据打通机构间转诊，后被上市医疗IT公司收编。国内双向转诊与出院计划同样薄弱，其衔接逻辑有参照意义。",
-    "tag_l2": ["护理协调"],
-    "tag_l1": ["养老服务"],
+    "recommend": "聚焦『出院到居家』这一最易断档的衔接环节，用数据打通机构间转诊，后被更大的医疗IT公司整合。国内在病人出院后转接社区、制定出院计划上同样薄弱，其衔接逻辑有参照意义。",
+    "tag_l2": [
+      "护理协调"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "B端机构采购",
-    "funding_latest": {"date": "2016", "amount": "未披露", "round": "已被收购", "display": "2016年被Allscripts收购"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Generator"],
+    "funding_latest": {
+      "date": "2016",
+      "amount": "未披露",
+      "round": "已被收购",
+      "display": "2016年被Allscripts收购"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
     "stage": "已被收购",
     "founded": "未搜到",
     "info_score": 7.0,
@@ -345,12 +433,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/intelycare",
     "description": "美国护理用工平台，以AI匹配护理机构对护士的按需排班需求，缓解养老机构人力短缺。",
     "recommend": "用算法把护理机构的弹性用工需求与护士空闲时间对接，形成按需劳动力市场。国内护理员短缺同样尖锐，但执业资质与排班合规框架不同，平台化用工的本土化门槛较高。",
-    "tag_l2": ["护士派遣"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "护士派遣"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "B端机构采购",
-    "funding_latest": {"date": "2022", "amount": "$115M", "round": "Series C", "display": "Series C $115M (2022)"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Generator"],
+    "funding_latest": {
+      "date": "2022",
+      "amount": "$115M",
+      "round": "Series C",
+      "display": "Series C $115M (2022)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 8.0,
@@ -373,12 +475,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/post-acute-analytics",
     "description": "美国急性期后护理数据分析公司，通过预测模型评估患者出院后风险，辅助控费与照护安排。",
     "recommend": "用预测分析识别急性期后高风险患者，把数据能力嵌入院后护理的支付与调度。国内院后管理数据分散，这类以风险分层驱动资源配置的思路，对医保控费与康复衔接有启发。",
-    "tag_l2": ["AI医疗"],
-    "tag_l1": ["行业服务"],
+    "tag_l2": [
+      "AI医疗"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
     "payor_model": "B端机构采购",
-    "funding_latest": {"date": "2025", "amount": "$40M", "round": "Series C", "display": "Series C $40M (2025)"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Generator"],
+    "funding_latest": {
+      "date": "2025",
+      "amount": "$40M",
+      "round": "Series C",
+      "display": "Series C $40M (2025)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Generator"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 7.0,
@@ -401,12 +517,26 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/tcare",
     "description": "美国家庭照护者支持平台，以数据评估照护者负荷，提供个性化资源以预防照护者倦怠。",
     "recommend": "把视角从被照护老人转向疲惫的照护者，用评估工具主动干预倦怠。国内长护险正推开，家属支持多被忽视，这类围绕照护者的服务设计能与险种形成互补。",
-    "tag_l2": ["照护支持"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "照护支持"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "B端机构采购 + 个人自费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Ziegler"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 6.0,
@@ -429,12 +559,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/lifespark",
     "description": "美国全人养老服务机构，为老年人提供整合式生活与健康管理，覆盖医疗、生活与目标规划。",
     "recommend": "以“whole-person”思路把医疗、生活与目标揉进同一服务流，强调老人作为完整个体的诉求。国内整合照护多在政策试点层面，市场化的连续服务模式仍待探索。",
-    "tag_l2": ["照护支持", "慢病管理"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "照护支持",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "商业保险支付 + 个人自费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Ziegler"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 6.0,
@@ -457,12 +602,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/curana-health",
     "description": "美国价值型初级保健机构，面向高需求老年人群提供基于风险分层的上门与社区初级保健。",
     "recommend": "把初级保健沉到高需求老人身边，并以风险分层匹配服务强度，贴合按效果付费的逻辑。国内家庭医生签约与之形似，但支付与考核机制不同，其人群分层运营值得对照。",
-    "tag_l2": ["诊所", "慢病管理"],
-    "tag_l1": ["养老服务"],
+    "tag_l2": [
+      "诊所",
+      "慢病管理"
+    ],
+    "tag_l1": [
+      "养老服务"
+    ],
     "payor_model": "美国Medicare按效果付费 + 商业保险",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Ziegler"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 6.0,
@@ -485,12 +645,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/virtusense",
     "description": "美国跌倒预测技术商，通过AI传感器在老人离床或即将跌倒前发出预警，降低意外发生。",
     "recommend": "从“事后报警”前移到“事前预测”，用传感器在离床与失衡瞬间提前介入。国内养老机构与居家监测对预测式防跌需求上升，这类无感化传感方案有落地前景。",
-    "tag_l2": ["跌倒监测", "可穿戴监测"],
-    "tag_l1": ["康复辅具"],
+    "tag_l2": [
+      "跌倒监测",
+      "可穿戴监测"
+    ],
+    "tag_l1": [
+      "康复辅具"
+    ],
     "payor_model": "B端机构采购 + 个人自费",
-    "funding_latest": {"date": "未披露", "amount": "未披露", "round": "未披露", "display": "未披露"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Ziegler"],
+    "funding_latest": {
+      "date": "未披露",
+      "amount": "未披露",
+      "round": "未披露",
+      "display": "未披露"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 6.0,
@@ -513,12 +688,27 @@
     "crunchbase_url": "https://www.crunchbase.com/organization/tsolife",
     "description": "美国养老社区经营情报服务商，以AI分析社区运营数据，帮助养老机构优化经营与居民体验（产品名Minerva）。",
     "recommend": "把养老社区的日常运营沉淀为可分析的数据资产，用情报产品提升入住率与服务细节。国内民营养老机构对精细化经营工具需求增强，这类经营侧数字化方案有市场空间。",
-    "tag_l2": ["养老软件"],
-    "tag_l1": ["行业服务"],
+    "tag_l2": [
+      "养老软件"
+    ],
+    "tag_l1": [
+      "行业服务"
+    ],
     "payor_model": "B端机构采购",
-    "funding_latest": {"date": "2022", "amount": "$9M", "round": "Series A", "display": "Series A $9M (2022)"},
-    "funding_total": {"amount": "未披露", "display": "未披露"},
-    "investors": ["Ziegler", "Generator"],
+    "funding_latest": {
+      "date": "2022",
+      "amount": "$9M",
+      "round": "Series A",
+      "display": "Series A $9M (2022)"
+    },
+    "funding_total": {
+      "amount": "未披露",
+      "display": "未披露"
+    },
+    "investors": [
+      "Ziegler",
+      "Generator"
+    ],
     "stage": "成长期",
     "founded": "未搜到",
     "info_score": 7.0,
