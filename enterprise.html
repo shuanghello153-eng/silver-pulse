@@ -1,4 +1,4 @@
-<!-- build:20260801174818 -->
+<!-- build:20260801211219 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -92,9 +92,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .search-btn{flex:0 0 auto;padding:7px 16px;border:none;border-radius:12px;background:var(--accent-grad);color:#fff;
   font-size:12.5px;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;transition:.15s}
 .search-btn:hover{opacity:.9}
-.search-clear{display:none;flex:0 0 auto;width:26px;height:26px;border:none;border-radius:50%;background:var(--border);color:var(--text-muted);font-size:16px;cursor:pointer;line-height:1;transition:.15s}
+.search-clear{display:flex;visibility:hidden;flex:0 0 auto;width:26px;height:26px;border:none;border-radius:50%;background:var(--border);color:var(--text-muted);font-size:16px;cursor:pointer;line-height:1;transition:.15s;align-items:center;justify-content:center}
 .search-clear:hover{background:#e74c3c;color:#fff}
-.search-inline-group.has-text .search-clear{display:flex;align-items:center;justify-content:center}
+.search-inline-group.has-text .search-clear{visibility:visible}
 
 .ent-loadmore-wrap{display:flex;justify-content:center;margin:28px 0 8px}
 .ent-loadmore-btn{padding:11px 28px;border:1px solid var(--border);border-radius:14px;background:var(--surface);
@@ -221,7 +221,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .f-btn{padding:4px 12px;border-radius:14px;border:1px solid var(--border);background:var(--surface);font-size:12px;
   cursor:pointer;color:var(--text-secondary);white-space:nowrap;transition:all .15s;font-family:inherit;height:28px;line-height:1;display:inline-flex;align-items:center}
 .f-btn:hover{border-color:var(--accent);color:var(--accent-strong)}
-.f-btn.active{background:var(--accent-grad);color:#fff;border-color:transparent;font-weight:700}
+.f-btn.active{background:var(--accent-grad);color:#fff;border-color:transparent}
 .f-btn .cnt{font-size:9px;opacity:.55;margin-left:2px;font-weight:400}
 .filter-btn .cnt{font-size:9px;opacity:.55;margin-left:2px;font-weight:400}
 .f-btn-l2{font-size:10.5px;padding:3px 10px}
@@ -232,7 +232,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .view-btn.active{background:var(--accent-grad);color:#fff;font-weight:700}
 .reg-btn{padding:4px 14px;border:none;background:var(--surface);font-size:12px;cursor:pointer;color:var(--text-secondary);transition:all .15s;font-family:inherit;height:28px;line-height:1}
 .reg-btn:hover{background:var(--surface-2)}
-.reg-btn.active{background:var(--accent-grad);color:#fff;font-weight:700}
+.reg-btn.active{background:var(--accent-grad);color:#fff}
 .result-count{font-size:11.5px;color:var(--text-muted);margin-bottom:10px;padding-left:3px;font-weight:600}
 
 .ent-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 22px;margin-bottom:12px;
@@ -636,8 +636,8 @@ body.fav-mode .ent-card[data-fav-tag-miss="1"]{display:none !important}
 
 <!-- 企业数据 + 相关资讯名单（外部文件，浏览器可缓存；defer 保证按顺序在解析完后执行）
      用外链 js 而不是 fetch(json)，是为了双击本地文件 file:// 打开时也能正常加载。 -->
-<script defer src="enterprise_data.js?v=20260801174818"></script>
-<script defer src="enterprise_news.js?v=20260801174818"></script>
+<script defer src="enterprise_data.js?v=20260801211219"></script>
+<script defer src="enterprise_news.js?v=20260801211219"></script>
 
 <script>
 /* 外链后台打开：新标签页不切换(解决 target=_blank 默认切标签问题) */
